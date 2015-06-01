@@ -30,7 +30,7 @@ msgid "Videos"
 msgstr "视频"
 
 msgctxt "#4"
-msgid "TV-Guide"
+msgid "TV guide"
 msgstr "电视指南"
 
 msgctxt "#5"
@@ -382,28 +382,28 @@ msgid "New folder"
 msgstr "新文件夹"
 
 msgctxt "#120"
-msgid "Confirm file copy"
-msgstr "确认复制文件"
+msgid "Confirm copy"
+msgstr "确认复制"
 
 msgctxt "#121"
-msgid "Confirm file move"
-msgstr "确认移动文件"
+msgid "Confirm move"
+msgstr "确认移动"
 
 msgctxt "#122"
 msgid "Confirm delete"
 msgstr "确认删除"
 
 msgctxt "#123"
-msgid "Copy these files?"
-msgstr "复制这些文件？"
+msgid "Would you like to copy the selected file(s)?"
+msgstr "要复制选定的文件吗？"
 
 msgctxt "#124"
-msgid "Move these files?"
-msgstr "移动这些文件？"
+msgid "Would you like to move the selected file(s)?"
+msgstr "要移动选定的文件吗？"
 
 msgctxt "#125"
-msgid "Delete these files? - Deleting files cannot be undone!"
-msgstr "删除这些文件？ - 删除文件不能撤销！"
+msgid "Would you like to delete the selected file(s)?[CR]Warning - this action can't be undone!"
+msgstr "要删除选定的文件吗？[CR]警告 - 此操作不可撤销！"
 
 msgctxt "#126"
 msgid "Status"
@@ -646,7 +646,7 @@ msgid "Select all"
 msgstr "全部选择"
 
 msgctxt "#189"
-msgid "Scanning media info"
+msgid "Scanning media information"
 msgstr "扫描媒体信息"
 
 msgctxt "#190"
@@ -670,7 +670,7 @@ msgid "Searching..."
 msgstr "搜索..."
 
 msgctxt "#195"
-msgid "No info found!"
+msgid "No information found!"
 msgstr "未找到信息！"
 
 msgctxt "#196"
@@ -678,7 +678,7 @@ msgid "Select movie:"
 msgstr "选择电影："
 
 msgctxt "#197"
-msgid "Querying %s info"
+msgid "Querying %s information"
 msgstr "查询%s信息"
 
 msgctxt "#198"
@@ -781,6 +781,10 @@ msgctxt "#224"
 msgid "Speed"
 msgstr "速度"
 
+msgctxt "#225"
+msgid "Vertical shift"
+msgstr "纵向偏移"
+
 msgctxt "#226"
 msgid "Test patterns..."
 msgstr "测试图案..."
@@ -838,16 +842,20 @@ msgid "Clear playlist on finish"
 msgstr "完成后清除播放列表"
 
 msgctxt "#240"
-msgid "Display Mode"
+msgid "Display mode"
 msgstr "显示模式"
 
 msgctxt "#241"
-msgid "Full Screen #%d"
+msgid "Full screen #%d"
 msgstr "全屏#%d"
 
 msgctxt "#242"
 msgid "Windowed"
 msgstr "窗口"
+
+msgctxt "#243"
+msgid "Refresh rate"
+msgstr "刷新率"
 
 msgctxt "#244"
 msgid "Full screen"
@@ -1310,7 +1318,7 @@ msgid "Screensaver"
 msgstr "屏幕保护"
 
 msgctxt "#361"
-msgid "R. Slideshow"
+msgid "Recursive slideshow"
 msgstr "递归幻灯片播放"
 
 msgctxt "#362"
@@ -1538,7 +1546,7 @@ msgid "High"
 msgstr "高"
 
 msgctxt "#420"
-msgid "Best Match"
+msgid "Best match"
 msgstr "最佳匹配"
 
 msgctxt "#421"
@@ -1546,7 +1554,7 @@ msgid "Keep audio device alive"
 msgstr "保持音频设备激活"
 
 msgctxt "#422"
-msgid "Delete album info"
+msgid "Delete album information"
 msgstr "删除专辑信息"
 
 msgctxt "#423"
@@ -1570,7 +1578,7 @@ msgid "Disc"
 msgstr "光盘"
 
 msgctxt "#428"
-msgid "Insert correct CD/DVD"
+msgid "Insert correct CD / DVD"
 msgstr "请放入正确的 CD/DVD"
 
 msgctxt "#429"
@@ -1590,8 +1598,8 @@ msgid "Remove movie from library"
 msgstr "从资料库中移除影片"
 
 msgctxt "#433"
-msgid "Really remove '%s'?"
-msgstr "确定移除“%s”？"
+msgid "Would you really like to remove[CR]'%s' from library?"
+msgstr "确定要从资料库移除吗？"
 
 msgctxt "#434"
 msgid "From %s at %i %s"
@@ -1806,12 +1814,16 @@ msgid "Resize VobSubs"
 msgstr "Vobsubs 字幕缩放"
 
 msgctxt "#493"
-msgid "Advanced options (Experts Only!)"
+msgid "Advanced options (experts only!)"
 msgstr "高级选项（仅适用于专家！）"
 
 msgctxt "#494"
 msgid "Overall audio headroom"
 msgstr "全局音频动态余量"
+
+msgctxt "#495"
+msgid "Upscale videos to GUI resolution"
+msgstr "提升视频到图形用户界面分辨率"
 
 msgctxt "#496"
 msgid "Calibration"
@@ -1850,7 +1862,7 @@ msgid "Empty"
 msgstr "空"
 
 msgctxt "#505"
-msgid "Loading media info from files..."
+msgid "Loading media information from files..."
 msgstr "从文件中载入媒体信息..."
 
 msgctxt "#507"
@@ -2117,6 +2129,10 @@ msgctxt "#576"
 msgid "Times played"
 msgstr "播放次数"
 
+msgctxt "#577"
+msgid "Date taken"
+msgstr "拍摄日期"
+
 msgctxt "#580"
 msgid "Sort direction"
 msgstr "排序方向"
@@ -2218,12 +2234,8 @@ msgid "To:"
 msgstr "储存到："
 
 msgctxt "#608"
-msgid "Could not rip CD or track"
-msgstr "无法抓取 CD 或音轨"
-
-msgctxt "#609"
-msgid "CDDARipPath is not set."
-msgstr "CD 抓取路径未设置。"
+msgid "Couldn't rip CD or track because CDDARipPath is not set."
+msgstr "无法抓取 CD 或音轨，因 CDDA 抓取目录未设置。"
 
 msgctxt "#610"
 msgid "Rip audio track"
@@ -2290,12 +2302,16 @@ msgid "Stretch 4:3"
 msgstr "拉伸为4:3"
 
 msgctxt "#633"
-msgid "Wide Zoom"
+msgid "Wide zoom"
 msgstr "宽屏"
 
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "拉伸为16:9"
+
+msgctxt "#635"
+msgid "Original size"
+msgstr "原始大小"
 
 msgctxt "#636"
 msgid "Custom"
@@ -2366,7 +2382,7 @@ msgid "Update library"
 msgstr "更新资料库"
 
 msgctxt "#654"
-msgid "Show debug info"
+msgid "Show debug information"
 msgstr "显示调试信息"
 
 msgctxt "#655"
@@ -2406,7 +2422,7 @@ msgid "Would you like to remove it from the library?"
 msgstr "要从资料库移除吗？"
 
 msgctxt "#664"
-msgid "Browse for Script"
+msgid "Browse for script"
 msgstr "浏览脚本"
 
 msgctxt "#665"
@@ -2418,56 +2434,56 @@ msgid "Enable component-specific logging"
 msgstr "启用特定组件日志"
 
 msgctxt "#667"
-msgid "Enable Dolby Digital transcoding"
-msgstr "启用杜比数字编码转换"
+msgid "Enable Dolby Digital (AC3) transcoding"
+msgstr "启用杜比数字（AC3）编码转换"
 
 msgctxt "#668"
 msgid "Specify component-specific logging..."
 msgstr "指定特定组件日志..."
 
 msgctxt "#669"
-msgid "Verbose logging for SMB library"
-msgstr "SMB 库详细日志"
+msgid "Verbose logging for the [B]SMB[/B] library"
+msgstr "[B]SMB[/B] 库详细日志"
 
 msgctxt "#670"
-msgid "Verbose logging for CURL library (http, dav)"
-msgstr "CURL 库（http、dav）详细日志"
+msgid "Verbose logging for the [B]libcURL[/B] library (HTTP(S), DAV)"
+msgstr "[B]libcURL[/B] 库（HTTP(S)、DAV）详细日志"
 
 msgctxt "#672"
-msgid "Verbose logging for FFMPEG libraries"
-msgstr "FFMPEG 库详细日志"
+msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
+msgstr "[B]FFmpeg[/B] 库详细日志"
 
 msgctxt "#673"
-msgid "Verbose logging for RTMP library"
-msgstr "RTMP 库详细日志"
+msgid "Verbose logging for the [B]RTMP[/B] library"
+msgstr "[B]RTMP[/B] 库详细日志"
 
 msgctxt "#674"
-msgid "Verbose logging for DBUS calls"
-msgstr "DBUS 调用详细日志"
+msgid "Verbose logging for [B]D-Bus[/B] calls"
+msgstr "[B]D-Bus[/B] 调用详细日志"
 
 msgctxt "#675"
-msgid "Verbose logging for JSON-RPC requests"
-msgstr "JSON-RPC 请求详细日志"
+msgid "Verbose logging for [B]JSON-RPC[/B] requests"
+msgstr "[B]JSON-RPC[/B] 请求详细日志"
 
 msgctxt "#676"
-msgid "Verbose logging for AUDIO component"
-msgstr "音频组件详细日志"
+msgid "Verbose logging for the [B]Audio[/B] component"
+msgstr "[B]音频[/B]组件详细日志"
 
 msgctxt "#677"
-msgid "Verbose logging for AirTunes library"
-msgstr "AirTunes 库详细日志"
+msgid "Verbose logging for the [B]AirTunes[/B] library"
+msgstr "[B]AirTunes[/B] 库详细日志"
 
 msgctxt "#678"
-msgid "Verbose logging for UPnP components"
-msgstr "UPnP 组件详细日志"
+msgid "Verbose logging for the [B]UPnP[/B] components"
+msgstr "[B]UPnP[/B] 组件详细日志"
 
 msgctxt "#679"
-msgid "Verbose logging for CEC library"
-msgstr "CEC 库详细日志"
+msgid "Verbose logging for the [B]libCEC[/B] library"
+msgstr "[B]libCEC[/B] 库详细日志"
 
 msgctxt "#680"
-msgid "Verbose logging for VIDEO component"
-msgstr "VIDEO 组件详细日志"
+msgid "Verbose logging for the [B]Video[/B] component"
+msgstr "[B]视频[/B]组件详细日志"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2514,7 +2530,7 @@ msgid "Automatic (DHCP)"
 msgstr "自动（DHCP）"
 
 msgctxt "#717"
-msgid "Manual (Static)"
+msgid "Manual (static)"
 msgstr "手动（静态）"
 
 msgctxt "#719"
@@ -2806,16 +2822,12 @@ msgid "Internet access"
 msgstr "互联网访问"
 
 msgctxt "#799"
-msgid "Library Update"
+msgid "Library update"
 msgstr "资料库更新"
 
 msgctxt "#800"
-msgid "Music library needs to rescan tags from files."
-msgstr "音乐资料库需要重新扫描文件标签。"
-
-msgctxt "#801"
-msgid "Would you like to scan now?"
-msgstr "现在扫描吗？"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "音乐资料库需要重新从文件扫描标签。现在扫描吗？"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -2833,6 +2845,18 @@ msgctxt "#852"
 msgid "Valid port range is 1024-65535"
 msgstr "有效端口范围是 1024-65535"
 
+msgctxt "#997"
+msgid "Add pictures..."
+msgstr "添加图片..."
+
+msgctxt "#998"
+msgid "Add music..."
+msgstr "添加音乐..."
+
+msgctxt "#999"
+msgid "Add videos..."
+msgstr "添加视频..."
+
 msgctxt "#1000"
 msgid "Preview"
 msgstr "预览"
@@ -2842,7 +2866,7 @@ msgid "Unable to connect"
 msgstr "无法连接"
 
 msgctxt "#1002"
-msgid "The connection to the network location could not be established."
+msgid "The connection to the network location couldn't be established."
 msgstr "网络位置的连接无法建立。"
 
 msgctxt "#1003"
@@ -2918,7 +2942,7 @@ msgid "Enter the paths or browse for the media locations."
 msgstr "输入路径或浏览媒体位置。"
 
 msgctxt "#1022"
-msgid "Enter a name for this media Source."
+msgid "Enter a name for this media source."
 msgstr "为此媒体源命名。"
 
 msgctxt "#1023"
@@ -2930,7 +2954,7 @@ msgid "Browse"
 msgstr "浏览"
 
 msgctxt "#1025"
-msgid "Could not retrieve directory information."
+msgid "Couldn't retrieve directory information."
 msgstr "无法获得目录信息。"
 
 msgctxt "#1026"
@@ -2977,6 +3001,18 @@ msgctxt "#1036"
 msgid "Favourites"
 msgstr "收藏夹"
 
+msgctxt "#1037"
+msgid "Video add-ons"
+msgstr "视频插件"
+
+msgctxt "#1038"
+msgid "Music add-ons"
+msgstr "音乐插件"
+
+msgctxt "#1039"
+msgid "Picture add-ons"
+msgstr "图片插件"
+
 msgctxt "#1040"
 msgid "Loading directory"
 msgstr "载入目录"
@@ -2988,6 +3024,10 @@ msgstr "已检索 %i 项"
 msgctxt "#1042"
 msgid "Retrieved %i of %i items"
 msgstr "已检索 %i 项，共 %i 项"
+
+msgctxt "#1043"
+msgid "Program add-ons"
+msgstr "程序插件"
 
 msgctxt "#1044"
 msgid "Set plug-in thumb"
@@ -3042,8 +3082,8 @@ msgid "SOCKS5"
 msgstr "SOCKS5"
 
 msgctxt "#1185"
-msgid "SOCKS5 with remote dns resolving"
-msgstr "有远程 dns 解析的 SOCKS5"
+msgid "SOCKS5 with remote DNS resolving"
+msgstr "有远程 DNS 解析的 SOCKS5"
 
 msgctxt "#1200"
 msgid "SMB client"
@@ -3246,7 +3286,7 @@ msgid "Whirls"
 msgstr "旋风"
 
 msgctxt "#1383"
-msgid "Sky Is Clear"
+msgid "Sky is clear"
 msgstr "天空晴朗"
 
 msgctxt "#1384"
@@ -3397,6 +3437,10 @@ msgctxt "#1420"
 msgid "Moderate"
 msgstr "中等"
 
+msgctxt "#1421"
+msgid "Very high"
+msgstr "极高"
+
 msgctxt "#1422"
 msgid "Windy"
 msgstr "有风"
@@ -3498,8 +3542,8 @@ msgid "Unknown"
 msgstr "未知"
 
 msgctxt "#1447"
-msgid "Squals"
-msgstr "狂风"
+msgid "Squalls"
+msgstr "飑"
 
 msgctxt "#1448"
 msgid "Precipitation"
@@ -3526,8 +3570,8 @@ msgid "Went back to parent list because the active list has been emptied"
 msgstr "回到上级列表因活动列表为空"
 
 msgctxt "#2101"
-msgid "Newer version needed - See log"
-msgstr "需要新版本 - 详见日志"
+msgid "Newer version needed.[CR]Check the log for more information about this message."
+msgstr "需要新版本。[CR]更多相关信息见日志。"
 
 msgctxt "#2102"
 msgid "%s error"
@@ -3538,8 +3582,8 @@ msgid "Add-on error"
 msgstr "插件错误"
 
 msgctxt "#2104"
-msgid "See log for more info."
-msgstr "查看日志获取更多信息。"
+msgid "Check the log for more information."
+msgstr "更多信息见日志"
 
 msgctxt "#10000"
 msgid "Home"
@@ -3582,11 +3626,11 @@ msgid "Settings - Screen"
 msgstr "设置 - 屏幕"
 
 msgctxt "#10010"
-msgid "Settings - Appearance - GUI Calibration"
+msgid "Settings - Appearance - GUI calibration"
 msgstr "设置 - 用户界面 - 界面校准"
 
 msgctxt "#10011"
-msgid "Settings - Videos - Screen Calibration"
+msgid "Settings - Videos - Screen calibration"
 msgstr "设置 - 视频 - 屏幕校准"
 
 msgctxt "#10012"
@@ -3634,7 +3678,7 @@ msgid "Videos"
 msgstr "视频"
 
 msgctxt "#10028"
-msgid "Videos/Playlist"
+msgid "Videos / Playlist"
 msgstr "视频/播放列表"
 
 msgctxt "#10029"
@@ -3698,7 +3742,7 @@ msgid "Try changing the setting level to see additional categories and settings.
 msgstr "改变设置级别以查看更多的类别和设置。"
 
 msgctxt "#10100"
-msgid "Yes/No dialogue"
+msgid "Yes / No dialogue"
 msgstr "“是/否”对话框"
 
 msgctxt "#10101"
@@ -3734,7 +3778,7 @@ msgid "Favourites"
 msgstr "收藏夹"
 
 msgctxt "#10135"
-msgid "Songs/Info"
+msgid "Songs / Info"
 msgstr "歌曲/信息"
 
 msgctxt "#10136"
@@ -3746,7 +3790,7 @@ msgid "Smart playlist rule editor"
 msgstr "智能播放列表规则编辑器"
 
 msgctxt "#10139"
-msgid "Pictures/Info"
+msgid "Pictures / Info"
 msgstr "图片/信息"
 
 msgctxt "#10140"
@@ -3754,7 +3798,7 @@ msgid "Add-on settings"
 msgstr "插件设置"
 
 msgctxt "#10146"
-msgid "Add-ons/Info"
+msgid "Add-ons / Info"
 msgstr "插件/信息"
 
 msgctxt "#10210"
@@ -3778,15 +3822,15 @@ msgid "Opening stream"
 msgstr "打开流"
 
 msgctxt "#10500"
-msgid "Music/Playlist"
+msgid "Music / Playlist"
 msgstr "音乐/播放列表"
 
 msgctxt "#10501"
-msgid "Music/Files"
+msgid "Music / Files"
 msgstr "音乐/文件"
 
 msgctxt "#10502"
-msgid "Music/Library"
+msgid "Music / Library"
 msgstr "音乐/资料库"
 
 msgctxt "#10503"
@@ -3829,12 +3873,20 @@ msgctxt "#10516"
 msgid "Music - Library"
 msgstr "音乐 - 资料库"
 
+msgctxt "#10517"
+msgid "Now playing - Music"
+msgstr "正在播放 - 音乐"
+
+msgctxt "#10522"
+msgid "Now playing - Videos"
+msgstr "正在播放 - 视频"
+
 msgctxt "#10523"
-msgid "Album info"
+msgid "Album information"
 msgstr "专辑信息"
 
 msgctxt "#10524"
-msgid "Movie info"
+msgid "Movie information"
 msgstr "电影信息"
 
 msgctxt "#12000"
@@ -3842,7 +3894,7 @@ msgid "Select dialogue"
 msgstr "选择对话框"
 
 msgctxt "#12001"
-msgid "Music/Info"
+msgid "Music / Info"
 msgstr "音乐/信息"
 
 msgctxt "#12002"
@@ -3850,11 +3902,11 @@ msgid "Dialogue OK"
 msgstr "对话框确定"
 
 msgctxt "#12003"
-msgid "Videos/Info"
+msgid "Videos / Info"
 msgstr "视频/信息"
 
 msgctxt "#12004"
-msgid "Scripts/Info"
+msgid "Scripts / Info"
 msgstr "脚本/信息"
 
 msgctxt "#12005"
@@ -3958,16 +4010,16 @@ msgid "Enter unlock code"
 msgstr "输入解锁密码"
 
 msgctxt "#12329"
-msgid "or press C to cancel"
-msgstr "或按 C 取消"
+msgid "or press \"C\" to cancel"
+msgstr "或按“C”取消"
 
 msgctxt "#12330"
 msgid "Enter gamepad button combo and"
 msgstr "输入游戏手柄按钮组合，然后"
 
 msgctxt "#12331"
-msgid "press OK, or Back to cancel"
-msgstr "按确认，或按 Back 取消"
+msgid "press \"OK\", or \"Back\" to cancel"
+msgstr "按“确认”，或按“Back”取消"
 
 msgctxt "#12332"
 msgid "Set lock"
@@ -4002,7 +4054,7 @@ msgid "Enter new password"
 msgstr "输入新密码"
 
 msgctxt "#12341"
-msgid "Re-Enter new password"
+msgid "Re-enter new password"
 msgstr "确认新密码"
 
 msgctxt "#12342"
@@ -4054,7 +4106,7 @@ msgid "Master lock"
 msgstr "管理员锁定"
 
 msgctxt "#12362"
-msgid "Shutdown system if Master Lock retries exceeded"
+msgid "Shutdown system if number of master lock retries is exceeded"
 msgstr "管理员锁定达到重试次数时关机"
 
 msgctxt "#12367"
@@ -4098,11 +4150,11 @@ msgid "24-hour clock"
 msgstr "24小时时钟"
 
 msgctxt "#12385"
-msgid "Day/Month"
+msgid "Day / Month"
 msgstr "日/月"
 
 msgctxt "#12386"
-msgid "Month/Day"
+msgid "Month / Day"
 msgstr "月/日"
 
 msgctxt "#12390"
@@ -4157,6 +4209,10 @@ msgctxt "#13000"
 msgid "System"
 msgstr "系统"
 
+msgctxt "#13001"
+msgid "Immediate HDD spindown"
+msgstr "立即关闭硬盘"
+
 msgctxt "#13002"
 msgid "Video only"
 msgstr "只有视频"
@@ -4206,7 +4262,7 @@ msgid "Power button action"
 msgstr "电源按钮作用"
 
 msgctxt "#13016"
-msgid "Power off System"
+msgid "Power off system"
 msgstr "关闭系统电源"
 
 msgctxt "#13017"
@@ -4222,7 +4278,7 @@ msgid "Is another session active, perhaps over ssh?"
 msgstr "是否有通过 SSH 连接的会话存在？"
 
 msgctxt "#13021"
-msgid "Mounted removable harddrive"
+msgid "Mounted removable hard drive"
 msgstr "挂载移动硬盘"
 
 msgctxt "#13022"
@@ -4242,11 +4298,11 @@ msgid "Joystick unplugged"
 msgstr "游戏杆拔出"
 
 msgctxt "#13026"
-msgid "Try to wake remote servers on access"
+msgid "Try to wakeup remote servers on access"
 msgstr "在访问时唤醒远程服务器"
 
 msgctxt "#13027"
-msgid "Wake on Lan (%s)"
+msgid "Wake-on-LAN (%s)"
 msgstr "局域网唤醒（%s）"
 
 msgctxt "#13028"
@@ -4254,7 +4310,7 @@ msgid "Waiting for network to connect..."
 msgstr "等待连接网络..."
 
 msgctxt "#13029"
-msgid "Failed to execute Wake on Lan!"
+msgid "Failed to execute Wake-on-LAN!"
 msgstr "执行局域网唤醒失败！"
 
 msgctxt "#13030"
@@ -4270,7 +4326,7 @@ msgid "Waiting for services to launch..."
 msgstr "等待服务启动..."
 
 msgctxt "#13033"
-msgid "MAC Discovery"
+msgid "MAC discovery"
 msgstr "MAC 地址发现"
 
 msgctxt "#13034"
@@ -4314,11 +4370,11 @@ msgid "Always enabled"
 msgstr "始终开启"
 
 msgctxt "#13109"
-msgid "Test & apply resolution"
+msgid "Test & apply the resolution"
 msgstr "测试 & 应用分辨率"
 
 msgctxt "#13110"
-msgid "Save resolution?"
+msgid "Save this resolution?"
 msgstr "保存此分辨率？"
 
 msgctxt "#13111"
@@ -4382,28 +4438,16 @@ msgid "Active connections detected!"
 msgstr "检测到活动连接！"
 
 msgctxt "#13141"
-msgid "If you proceed, you might not be able to control this application"
-msgstr "如果继续，你可能将无法控制此应用"
-
-msgctxt "#13142"
-msgid "any longer. Are you sure you want to stop the Event server?"
-msgstr "你是否确认要停止事件服务器？"
+msgid "If you proceed, you might not be able to control this application any longer. Are you sure you want to stop the event server?"
+msgstr "如果继续，你可能将无法控制此应用。确认要停止事件服务器吗？"
 
 msgctxt "#13144"
 msgid "Change Apple Remote mode?"
 msgstr "改变苹果遥控器的模式？"
 
 msgctxt "#13145"
-msgid "If you are currently using the Apple Remote to control"
-msgstr "如果你现在正在使用苹果遥控器"
-
-msgctxt "#13146"
-msgid "this application, changing this setting might affect your ability"
-msgstr "控制此应用，改变此设置会影响你"
-
-msgctxt "#13147"
-msgid "to continue controlling it. Do you want to proceed?"
-msgstr "对它的持续控制。你确认要继续吗？"
+msgid "If you are currently using the Apple Remote to control this application, changing this setting might affect your ability to continue controlling it. Do you want to proceed?"
+msgstr "如果你正使用苹果遥控器控制此应用，改变此设置会影响你对它的持续控制。确认要继续吗？"
 
 msgctxt "#13159"
 msgid "Subnet mask"
@@ -4513,12 +4557,16 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "硬件："
 
+msgctxt "#13271"
+msgid "CPU usage:"
+msgstr "CPU 使用："
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "已连接，但无可用 DNS。"
 
 msgctxt "#13275"
-msgid "Hard Disk"
+msgid "Hard disk"
 msgstr "硬盘"
 
 msgctxt "#13276"
@@ -4618,12 +4666,8 @@ msgid "Track naming template"
 msgstr "歌曲名称模板"
 
 msgctxt "#13308"
-msgid "Do you wish to reboot your system"
-msgstr "你想重新启动系统"
-
-msgctxt "#13309"
-msgid "instead of just this application?"
-msgstr "而不仅是此应用吗？"
+msgid "Do you wish to reboot your system instead of just this application?"
+msgstr "你想重新启动系统而不仅是此应用吗？"
 
 msgctxt "#13310"
 msgid "Zoom effect"
@@ -4886,7 +4930,7 @@ msgid "There are no settings available\nfor this visualisation"
 msgstr "该可视化效果没有设置"
 
 msgctxt "#13391"
-msgid "Eject/Load"
+msgid "Eject / Load"
 msgstr "弹出/载入"
 
 msgctxt "#13392"
@@ -5017,9 +5061,37 @@ msgctxt "#13423"
 msgid "Remember for this path"
 msgstr "记住此目录"
 
+msgctxt "#13425"
+msgid "Allow hardware acceleration - VDPAU"
+msgstr "允许硬件加速 - VDPAU"
+
+msgctxt "#13426"
+msgid "Allow hardware acceleration - VAAPI"
+msgstr "允许硬件加速 - VAAPI"
+
+msgctxt "#13427"
+msgid "Allow hardware acceleration - DXVA2"
+msgstr "允许硬件加速 - DXVA2"
+
+msgctxt "#13428"
+msgid "Allow hardware acceleration - CrystalHD"
+msgstr "允许硬件加速 - CrystalHD"
+
+msgctxt "#13429"
+msgid "Allow hardware acceleration - VDADecoder"
+msgstr "允许硬件加速 - VDADecoder"
+
+msgctxt "#13430"
+msgid "Allow hardware acceleration - OpenMax"
+msgstr "允许硬件加速 - OpenMax"
+
 msgctxt "#13431"
-msgid "Pixel Shaders"
+msgid "Pixel shaders"
 msgstr "像素着色器"
+
+msgctxt "#13432"
+msgid "Allow hardware acceleration - VideoToolbox"
+msgstr "允许硬件加速 - VideoToolbox"
 
 msgctxt "#13433"
 msgid "Play next video automatically"
@@ -5030,15 +5102,31 @@ msgid "Play only this"
 msgstr "仅播放此项"
 
 msgctxt "#13435"
-msgid "Enable HQ Scalers for scalings above"
+msgid "Enable HQ scalers for scaling above"
 msgstr "启用高清倍线当缩放比大于"
+
+msgctxt "#13436"
+msgid "Allow hardware acceleration - libstagefright"
+msgstr "允许硬件加速 - libstagefright"
+
+msgctxt "#13437"
+msgid "Prefer VDPAU video mixer"
+msgstr "首选 VDPAU 视频混合器"
+
+msgctxt "#13438"
+msgid "Allow hardware acceleration - amcodec"
+msgstr "允许硬件加速 - amcodec"
+
+msgctxt "#13439"
+msgid "Allow hardware acceleration - MediaCodec"
+msgstr "允许硬件加速 - MediaCodec"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
 msgstr "使用 MPEG-2 VDPAU"
 
 msgctxt "#13442"
-msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
 msgstr "启用此选项激活 MPEG-(1/2) 编码的硬件加速，禁用则为 CPU 解码。老 Radeon 显卡启用会导致段错误（segfault）。"
 
 msgctxt "#13443"
@@ -5046,7 +5134,7 @@ msgid "Use MPEG-4 VDPAU"
 msgstr "使用 MPEG-4 VDPAU"
 
 msgctxt "#13444"
-msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION hardware has problems with this being enabled by default."
 msgstr "启用此选项激活 MPEG-4 编码的硬件加速，禁用则为 CPU 解码。一些 ION 硬件默认启用时会有问题。"
 
 msgctxt "#13445"
@@ -5054,12 +5142,16 @@ msgid "Use VC-1 VDPAU"
 msgstr "使用 VC-1 VDPAU"
 
 msgctxt "#13446"
-msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD Hardware with VDPAU cannot decode VC-1 Simple."
+msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD hardware with VDPAU can't decode VC-1 Simple."
 msgstr "启用此选项激活基于 VC-1 的编码的硬件加速，禁用则为 CPU 解码。AMD 硬件无法用 VDPAU 解码 VC-1。"
 
 msgctxt "#13447"
 msgid "Use MPEG-2 VAAPI"
 msgstr "使用 MPEG-2 VAAPI"
+
+msgctxt "#13448"
+msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Some MPEG-2 videos might have green artifacts."
+msgstr "启用此选项激活 MPEG-(1/2) 编码的硬件加速，禁用则为 CPU 解码。一些 MPEG-2 视频可能出现绿色块。"
 
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
@@ -5074,12 +5166,16 @@ msgid "Use VC-1 VAAPI"
 msgstr "使用 VC-1 VAAPI"
 
 msgctxt "#13452"
-msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 Interlaced fails hard on Intel hardware."
+msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "启用此选项激活基于 VC-1 的编码的硬件加速，禁用则为 CPU 解码。Intel 硬件解码隔行 VC-1 常常出错。"
 
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "首选 VAAPI 渲染模式"
+
+msgctxt "#13458"
+msgid "Allow hardware acceleration - OMXPlayer"
+msgstr "允许硬件加速 - OMXPlayer"
 
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
@@ -5090,7 +5186,7 @@ msgid "Resample quality"
 msgstr "重采样质量"
 
 msgctxt "#13506"
-msgid "Low(fast)"
+msgid "Low (fast)"
 msgstr "低（快）"
 
 msgctxt "#13507"
@@ -5102,7 +5198,7 @@ msgid "High"
 msgstr "高"
 
 msgctxt "#13509"
-msgid "Really high(slow!)"
+msgid "Really high (slow)"
 msgstr "极高（慢）"
 
 msgctxt "#13510"
@@ -5142,11 +5238,11 @@ msgid "Off"
 msgstr "关"
 
 msgctxt "#13552"
-msgid "%.1f Second"
+msgid "%.1f second"
 msgstr "%.1f 秒"
 
 msgctxt "#13553"
-msgid "%.1f Seconds"
+msgid "%.1f seconds"
 msgstr "%.1f 秒"
 
 msgctxt "#13554"
@@ -5166,7 +5262,7 @@ msgid "Skip delay"
 msgstr "跳过延迟"
 
 msgctxt "#13600"
-msgid "Apple remote"
+msgid "Apple Remote"
 msgstr "苹果遥控器"
 
 msgctxt "#13602"
@@ -5186,19 +5282,19 @@ msgid "Standard"
 msgstr "标准"
 
 msgctxt "#13612"
-msgid "Universal Remote"
+msgid "Universal remote"
 msgstr "通用遥控器"
 
 msgctxt "#13613"
-msgid "Multi Remote (Harmony)"
-msgstr "万能遥控器（Harmony）"
+msgid "Harmony remote"
+msgstr "Harmony 遥控器"
 
 msgctxt "#13620"
-msgid "Apple Remote Error"
+msgid "Apple Remote error"
 msgstr "苹果遥控器错误"
 
 msgctxt "#13621"
-msgid "Apple Remote support could not be enabled."
+msgid "Apple Remote support couldn't be enabled."
 msgstr "苹果遥控器支持无法激活。"
 
 msgctxt "#14000"
@@ -5302,7 +5398,7 @@ msgid "Video cache - DVD-ROM"
 msgstr "视频缓存 - DVD-ROM"
 
 msgctxt "#14027"
-msgid "Video cache - Local Network"
+msgid "Video cache - Local network"
 msgstr "视频缓存 - 局域网"
 
 msgctxt "#14028"
@@ -5314,7 +5410,7 @@ msgid "Audio cache - DVD-ROM"
 msgstr "音频缓存 - DVD-ROM"
 
 msgctxt "#14031"
-msgid "Audio cache - Local Network"
+msgid "Audio cache - Local network"
 msgstr "音频缓存 - 局域网"
 
 msgctxt "#14032"
@@ -5326,7 +5422,7 @@ msgid "DVD cache - DVD-ROM"
 msgstr "DVD 缓存 - DVD-ROM"
 
 msgctxt "#14035"
-msgid "Local Network"
+msgid "Local network"
 msgstr "局域网"
 
 msgctxt "#14036"
@@ -5334,7 +5430,7 @@ msgid "Services"
 msgstr "服务"
 
 msgctxt "#14037"
-msgid "DVD cache - Local Network"
+msgid "DVD cache - Local network"
 msgstr "DVD 缓存 - 局域网"
 
 msgctxt "#14038"
@@ -5342,12 +5438,8 @@ msgid "Network settings changed"
 msgstr "网络设置已改变"
 
 msgctxt "#14039"
-msgid "A restart is required to change your"
-msgstr "需要重启以改变你的网络设置"
-
-msgctxt "#14040"
-msgid "network setup.  Would you like to restart now?"
-msgstr "你想现在就重启吗？"
+msgid "A restart is required to change your network setup. Would you like to restart now?"
+msgstr "需要重启以改变你的网络设置。现在就重启吗？"
 
 msgctxt "#14041"
 msgid "Internet connection bandwidth limitation"
@@ -5410,7 +5502,7 @@ msgid "Stop scan"
 msgstr "停止扫描"
 
 msgctxt "#14057"
-msgid "Not possible while scanning for media info"
+msgid "Not possible while scanning for media information"
 msgstr "无法在扫描媒体信息时执行"
 
 msgctxt "#14058"
@@ -5446,8 +5538,8 @@ msgid "Set time"
 msgstr "设置时间"
 
 msgctxt "#14066"
-msgid "Enter the time in 24 hour HH:MM format"
-msgstr "输入24小时格式时间（时:分）"
+msgid "Enter the time in 24-hour HH:MM format"
+msgstr "输入24小时格式时间（HH:MM）"
 
 msgctxt "#14067"
 msgid "Enter the date in DD/MM/YYYY format"
@@ -5557,12 +5649,16 @@ msgctxt "#14096"
 msgid "Rip"
 msgstr "抓取"
 
+msgctxt "#14097"
+msgid "Audio CD insert action"
+msgstr "音乐 CD 插入动作"
+
 msgctxt "#14098"
 msgid "Play"
 msgstr "播放"
 
 msgctxt "#14099"
-msgid "Eject disc when CD ripping is complete"
+msgid "Eject disc when the CD ripping is complete"
 msgstr "CD 抓取完成后弹出光盘"
 
 msgctxt "#14100"
@@ -5598,7 +5694,7 @@ msgid "Time format"
 msgstr "时间显示格式"
 
 msgctxt "#14108"
-msgid "Use 12/24-hour format"
+msgid "Use 12 / 24-hour format"
 msgstr "使用12或24小时格式"
 
 msgctxt "#14109"
@@ -5665,6 +5761,10 @@ msgctxt "#15105"
 msgid "* All genres"
 msgstr "* 所有类型"
 
+msgctxt "#15106"
+msgid "Skin built-in"
+msgstr "皮肤内建"
+
 msgctxt "#15107"
 msgid "Buffering..."
 msgstr "缓冲中..."
@@ -5722,7 +5822,7 @@ msgid "Path not found or invalid"
 msgstr "路径未找到或无效"
 
 msgctxt "#15301"
-msgid "Could not connect to network server"
+msgid "Couldn't connect to network server"
 msgstr "无法连接网络服务器"
 
 msgctxt "#15302"
@@ -5805,13 +5905,17 @@ msgctxt "#16019"
 msgid "Auto select"
 msgstr "自动选择"
 
+msgctxt "#16020"
+msgid "Deinterlace"
+msgstr "去隔行"
+
 msgctxt "#16021"
 msgid "Bob"
-msgstr "场内插值法"
+msgstr "场内插值"
 
 msgctxt "#16022"
-msgid "Bob (inverted)"
-msgstr "场内插值法（反向）"
+msgid "Bob - Inverted"
+msgstr "场内插值 - 反向"
 
 msgctxt "#16024"
 msgid "Cancelling..."
@@ -5834,8 +5938,8 @@ msgid "Enter value"
 msgstr "输入数值"
 
 msgctxt "#16029"
-msgid "Check the log file for details."
-msgstr "详情见日志文件。"
+msgid "Check the log for more information about this message."
+msgstr "更多相关信息见日志。"
 
 msgctxt "#16030"
 msgid "Party mode aborted."
@@ -5846,20 +5950,24 @@ msgid "No matching songs in the library."
 msgstr "资料库中没有符合条件的歌曲。"
 
 msgctxt "#16032"
-msgid "Could not initialise database."
+msgid "Couldn't initialise database."
 msgstr "无法初始化数据库。"
 
 msgctxt "#16033"
-msgid "Could not open database."
+msgid "Couldn't open database."
 msgstr "无法打开数据库。"
 
 msgctxt "#16034"
-msgid "Could not get songs from database."
+msgid "Couldn't get songs from database."
 msgstr "无法从数据库获取歌曲。"
 
 msgctxt "#16035"
 msgid "Party mode playlist"
 msgstr "舞会模式播放列表"
+
+msgctxt "#16036"
+msgid "Deinterlace (half)"
+msgstr "去隔行（半速）"
 
 msgctxt "#16037"
 msgid "Deinterlace video"
@@ -5880,6 +5988,10 @@ msgstr "自动"
 msgctxt "#16041"
 msgid "On"
 msgstr "开"
+
+msgctxt "#16100"
+msgid "All videos"
+msgstr "所有视频"
 
 msgctxt "#16101"
 msgid "Unwatched"
@@ -5918,24 +6030,24 @@ msgid "Copy failed"
 msgstr "复制失败"
 
 msgctxt "#16202"
-msgid "Failed to copy at least one file"
-msgstr "至少一个文件复制失败"
+msgid "Failed to copy at least one file.[CR]Check the log for more information about this message."
+msgstr "至少一个文件复制失败。[CR]更多相关信息见日志。"
 
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "移动失败"
 
 msgctxt "#16204"
-msgid "Failed to move at least one file"
-msgstr "至少一个文件移动失败"
+msgid "Failed to move at least one file.[CR]Check the log for more information about this message."
+msgstr "至少一个文件移动失败。[CR]更多相关信息见日志。"
 
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "删除失败"
 
 msgctxt "#16206"
-msgid "Failed to delete at least one file"
-msgstr "至少一个文件删除失败"
+msgid "Failed to delete at least one file.[CR]Check the log for more information about this message."
+msgstr "至少一个文件删除失败。[CR]更多相关信息见日志。"
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -5982,36 +6094,60 @@ msgid "Temporal"
 msgstr "时间平滑"
 
 msgctxt "#16311"
-msgid "Temporal/Spatial"
+msgid "Temporal / Spatial"
 msgstr "时间/空间平滑"
 
+msgctxt "#16312"
+msgid "VDPAU - Noise reduction"
+msgstr "VDPAU - 降噪"
+
+msgctxt "#16313"
+msgid "VDPAU - Sharpness"
+msgstr "VDPAU - 锐化"
+
+msgctxt "#16314"
+msgid "Inverse telecine"
+msgstr "帧率逆转换"
+
 msgctxt "#16315"
-msgid "Lanczos3 optimised"
-msgstr "Lanczos3 优化"
+msgid "Lanczos3 - Optimised"
+msgstr "Lanczos3 - 优化"
 
 msgctxt "#16316"
 msgid "Auto"
 msgstr "自动"
 
 msgctxt "#16317"
-msgid "Temporal (Half)"
+msgid "Temporal (half)"
 msgstr "时间平滑（半速）"
 
 msgctxt "#16318"
-msgid "Temporal/Spatial (Half)"
+msgid "Temporal / Spatial (half)"
 msgstr "时间/空间平滑（半速）"
 
 msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16320"
+msgid "DXVA - Bob"
+msgstr "DXVA - 场内插值"
+
+msgctxt "#16321"
+msgid "DXVA - Best"
+msgstr "DXVA - 最优"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
 
 msgctxt "#16323"
-msgid "Spline36 optimised"
-msgstr "Spline36 优化"
+msgid "Spline36 - Optimised"
+msgstr "Spline36 - 优化"
+
+msgctxt "#16324"
+msgid "Software - Blend"
+msgstr "软件 - 混合"
 
 msgctxt "#16325"
 msgid "VDPAU - Bob"
@@ -6021,12 +6157,24 @@ msgctxt "#16326"
 msgid "DXVA-HD"
 msgstr "DXVA-HD"
 
+msgctxt "#16327"
+msgid "VAAPI - Bob"
+msgstr "VAAPI - 场内插值"
+
+msgctxt "#16328"
+msgid "VAAPI - Motion adaptive"
+msgstr "VAAPI - 运动自适应"
+
+msgctxt "#16329"
+msgid "VAAPI - Motion compensated"
+msgstr "VAAPI - 运动补偿"
+
 msgctxt "#16330"
 msgid "MMAL - Advanced"
 msgstr "MMAL - 高级"
 
 msgctxt "#16331"
-msgid "MMAL - Advanced (Half)"
+msgid "MMAL - Advanced (half)"
 msgstr "MMAL - 高级（半）"
 
 msgctxt "#16332"
@@ -6034,12 +6182,16 @@ msgid "MMAL - Bob"
 msgstr "MMAL - 场内插值"
 
 msgctxt "#16333"
-msgid "MMAL - Bob (Half)"
+msgid "MMAL - Bob (half)"
 msgstr "MMAL - 场内插值（半）"
 
 msgctxt "#16334"
 msgid "IMX - Fast motion"
 msgstr "IMX - 快速运动"
+
+msgctxt "#16335"
+msgid "IMX - Fast motion (double)"
+msgstr "IMX - 快速运动（倍速）"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -6066,7 +6218,7 @@ msgid "Switch to channel"
 msgstr "切换到频道"
 
 msgctxt "#19001"
-msgid "Separate the search words by using AND, OR and/or NOT."
+msgid "Separate the search words by using AND, OR and / or NOT."
 msgstr "用 AND、OR 和/或 NOT 分隔查询关键字。"
 
 msgctxt "#19002"
@@ -6109,6 +6261,10 @@ msgctxt "#19011"
 msgid "UNC"
 msgstr "错误块"
 
+msgctxt "#19012"
+msgid "PVR backend"
+msgstr "PVR 后端"
+
 msgctxt "#19013"
 msgid "Free to air"
 msgstr "不加密传输"
@@ -6120,6 +6276,10 @@ msgstr "固定"
 msgctxt "#19015"
 msgid "Encryption"
 msgstr "加密"
+
+msgctxt "#19016"
+msgid "PVR backend %i - %s"
+msgstr "PVR 后端%i - %s"
 
 msgctxt "#19017"
 msgid "Recordings"
@@ -6194,12 +6354,12 @@ msgid "Already started recording on this channel"
 msgstr "此频道录像已启动"
 
 msgctxt "#19035"
-msgid "%s could not be played. Check the log for details."
-msgstr "%s 不能播放。详情见日志记录。"
+msgid "%s couldn't be played.[CR]Check the log for more information about this message."
+msgstr "%s无法播放。[CR]更多相关信息见日志。"
 
 msgctxt "#19036"
-msgid "This recording cannot be played. Check the log for details."
-msgstr "此录像无法播放，详情见日志记录。"
+msgid "This recording can't be played.[CR]Check the log for more information about this message."
+msgstr "此录像无法播放。[CR]更多相关信息见日志。"
 
 msgctxt "#19037"
 msgid "Show signal quality"
@@ -6230,19 +6390,19 @@ msgid "Recording"
 msgstr "录像"
 
 msgctxt "#19044"
-msgid "Please check your configuration or check the log for details."
-msgstr "请检查你的设置，详情见日志记录。"
+msgid "Please check your configuration.[CR]Check the log for more information about this message."
+msgstr "请检查设置。[CR]更多相关信息见日志。"
 
 msgctxt "#19045"
-msgid "No PVR clients have been started yet. Wait for the PVR clients to start up or check the log for details."
-msgstr "PVR 客户端未启动，等待 PVR 客户端启动或查看详细日志记录。"
+msgid "No PVR clients have been started yet.[CR]Wait for the PVR clients to start up.[CR]Check the log for more information about this message."
+msgstr "PVR 客户端未启动。[CR]等待 PVR 客户端启动。[CR]更多相关信息见日志。"
 
 msgctxt "#19046"
 msgid "New channel"
 msgstr "新频道"
 
 msgctxt "#19047"
-msgid "Programme info"
+msgid "Programme information"
 msgstr "节目信息"
 
 msgctxt "#19048"
@@ -6305,6 +6465,10 @@ msgctxt "#19062"
 msgid "Sort by: Channel"
 msgstr "排序：频道"
 
+msgctxt "#19063"
+msgid "Go to beginning"
+msgstr "转到开始"
+
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "转到末尾"
@@ -6322,8 +6486,8 @@ msgid "This event is already being recorded."
 msgstr "此事件已录制。"
 
 msgctxt "#19068"
-msgid "This recording could not be deleted. Check the log for details."
-msgstr "此录像无法删除，详情见日志记录。"
+msgid "This recording couldn't be deleted.[CR]Check the log for more information about this message."
+msgstr "此录像无法删除。[CR]更多相关信息见日志。"
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6338,7 +6502,7 @@ msgid "Update interval"
 msgstr "更新间隔"
 
 msgctxt "#19072"
-msgid "Do not cache in local database"
+msgid "Don't cache in local database"
 msgstr "不要缓存到本地数据库"
 
 msgctxt "#19073"
@@ -6478,20 +6642,20 @@ msgid "at"
 msgstr "于"
 
 msgctxt "#19108"
-msgid "Framerate (fallback)"
-msgstr "帧率（后备）"
+msgid "Fallback framerate"
+msgstr "后备帧率"
 
 msgctxt "#19109"
-msgid "Couldn't save timer. Check the log for details."
-msgstr "无法保存定时器，详情见日志记录。"
+msgid "Couldn't save timer.[CR]Check the log for more information about this message."
+msgstr "无法保存定时器。[CR]更多相关信息见日志。"
 
 msgctxt "#19110"
-msgid "An unexpected error occurred. Try again later or check the log for details."
-msgstr "出现未知错误，稍后重试或查看详细日志记录。"
+msgid "An unexpected error occurred.[CR]Try again later or check the log for more information."
+msgstr "出现未知错误。[CR]稍后重试或查看详细日志记录。"
 
 msgctxt "#19111"
-msgid "PVR backend error. Check the log for details."
-msgstr "PVR 后端错误，详情见日志记录。"
+msgid "PVR backend error.[CR]Check the log for more information about this message."
+msgstr "PVR 后端错误。[CR]更多相关信息见日志。"
 
 msgctxt "#19112"
 msgid "Delete this recording?"
@@ -6518,7 +6682,7 @@ msgid "Search for channels"
 msgstr "搜索频道"
 
 msgctxt "#19118"
-msgid "Cannot use PVR functions while searching."
+msgid "Can't use PVR functions while searching."
 msgstr "搜索时无法使用 PVR 功能。"
 
 msgctxt "#19119"
@@ -6594,12 +6758,8 @@ msgid "Channel unavailable"
 msgstr "频道不可用"
 
 msgctxt "#19137"
-msgid "No groups defined"
-msgstr "未定义组"
-
-msgctxt "#19138"
-msgid "Please create a group first"
-msgstr "请先定义组"
+msgid "No groups defined. Please create a group first"
+msgstr "未定义组。请先定义组。"
 
 msgctxt "#19139"
 msgid "Name of the new group"
@@ -6634,8 +6794,8 @@ msgid "Groups"
 msgstr "组"
 
 msgctxt "#19147"
-msgid "The PVR backend does not support this action. Check the log for details."
-msgstr "PVR 后端不支持此动作，详情见日志记录。"
+msgid "The PVR backend does not support this action.[CR]Check the log for more information about this message."
+msgstr "PVR 后端不支持此动作。[CR]更多相关信息见日志。"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -6698,8 +6858,8 @@ msgid "Recordings"
 msgstr "录像"
 
 msgctxt "#19164"
-msgid "Cannot start recording. Check the log for details."
-msgstr "无法开始录像，详情见日志记录。"
+msgid "Can't start recording.[CR]Check the log for more information about this message."
+msgstr "无法开始录像。[CR]更多相关信息见日志。"
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6766,7 +6926,7 @@ msgid "TV"
 msgstr "电视"
 
 msgctxt "#19181"
-msgid "Menu/OSD"
+msgid "Menu / OSD"
 msgstr "菜单/OSD"
 
 msgctxt "#19182"
@@ -6814,8 +6974,8 @@ msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "连接的 PVR 后端不支持频道扫描。"
 
 msgctxt "#19193"
-msgid "The channel scan cannot be started. Check the log for details."
-msgstr "频道扫描无法启动，详情见日志记录。"
+msgid "The channel scan can't be started.[CR]Check the log for more information about this message."
+msgstr "频道扫描无法启动。[CR]更多相关信息见日志。"
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -6933,6 +7093,10 @@ msgctxt "#19222"
 msgid "Guide"
 msgstr "指南"
 
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled.[CR]Check your settings or the log for more information."
+msgstr "无可激活的 PVR 插件。[CR]检查你的设置或详细日志记录。"
+
 msgctxt "#19224"
 msgid "Recording aborted"
 msgstr "录像已中止"
@@ -6948,6 +7112,10 @@ msgstr "录像已开始"
 msgctxt "#19227"
 msgid "Recording completed"
 msgstr "录像已完成"
+
+msgctxt "#19228"
+msgid "Timer deleted"
+msgstr "定时器已删除"
 
 msgctxt "#19229"
 msgid "Close channel OSD after switching channels"
@@ -6993,13 +7161,13 @@ msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "启动后台线程"
 
-msgctxt "#19241"
-msgid "The PVR manager has been enabled without any"
-msgstr "PVR 管理已启用，但无任何已启用"
+msgctxt "#19240"
+msgid "No PVR add-on enabled"
+msgstr "无启用的 PVR 插件"
 
-msgctxt "#19243"
-msgid "in order to use the PVR functionality."
-msgstr "至少要启用一个插件。"
+msgctxt "#19241"
+msgid "The PVR manager has been enabled without any enabled PVR add-on. Enable at least one add-on in order to use the PVR functionality."
+msgstr "PVR 管理已启用，但无任何已启用的 PVR 插件。使用 PVR 功能前至少要启用一个插件。"
 
 msgctxt "#19244"
 msgid "Backend idle time"
@@ -7098,28 +7266,24 @@ msgid "Parental locked:"
 msgstr "家长已锁定："
 
 msgctxt "#19268"
-msgid "Hide 'no information available' labels"
+msgid "Hide \"No information available\" labels"
 msgstr "隐藏“无可用信息”标签"
 
 msgctxt "#19269"
-msgid "Disable 'connection lost' warnings"
+msgid "Disable \"Connection lost\" warnings"
 msgstr "禁用“连接丢失”警告"
 
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "组项目"
 
+msgctxt "#19271"
+msgid "No PVR add-ons could be found"
+msgstr "未找到 PVR 插件"
+
 msgctxt "#19272"
-msgid "You need a tuner, backend software, and an"
-msgstr "你需要一个电视卡、后端软件，和"
-
-msgctxt "#19273"
-msgid "Add-on for the backend to be able to use PVR."
-msgstr "一个用于后端的插件才能使用 PVR。"
-
-msgctxt "#19274"
-msgid "Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "要了解更多内容请访问 http://kodi.wiki/view/PVR。"
+msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
+msgstr "你需要一个电视卡、后端软件，和一个与后端相应的插件才能使用 PVR。详情请访问 http://kodi.wiki/view/PVR。"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -7146,8 +7310,8 @@ msgid "Client specific settings"
 msgstr "客户端相关设置"
 
 msgctxt "#19281"
-msgid "Confirm channel switches by pressing OK"
-msgstr "按确定确认频道切换"
+msgid "Confirm channel switches by pressing \"OK\""
+msgstr "按“确定”确认频道切换"
 
 msgctxt "#19282"
 msgid "Current icon"
@@ -7202,23 +7366,23 @@ msgid "Delete this recording permanently?"
 msgstr "永久删除此录像？"
 
 msgctxt "#19499"
-msgid "Other/Unknown"
+msgid "Other / Unknown"
 msgstr "其他/未知"
 
 msgctxt "#19500"
-msgid "Movie/Drama"
+msgid "Movie / Drama"
 msgstr "电影/剧情"
 
 msgctxt "#19501"
-msgid "Detective/Thriller"
+msgid "Detective / Thriller"
 msgstr "侦探/惊悚"
 
 msgctxt "#19502"
-msgid "Adventure/Western/War"
+msgid "Adventure / Western / War"
 msgstr "冒险/西部/战争"
 
 msgctxt "#19503"
-msgid "Science Fiction/Fantasy/Horror"
+msgid "Science fiction / Fantasy / Horror"
 msgstr "科幻/奇幻/恐怖"
 
 msgctxt "#19504"
@@ -7226,7 +7390,7 @@ msgid "Comedy"
 msgstr "喜剧"
 
 msgctxt "#19505"
-msgid "Soap/Melodrama/Folkloric"
+msgid "Soap / Melodrama / Folkloric"
 msgstr "肥皂剧/文艺/民俗"
 
 msgctxt "#19506"
@@ -7234,71 +7398,139 @@ msgid "Romance"
 msgstr "爱情"
 
 msgctxt "#19507"
-msgid "Serious/Classical/Religious/Historical Movie/Drama"
-msgstr "严肃/古典/宗教/历史 电影/剧情"
+msgid "Serious / Classical / Religious / Historical movie / drama"
+msgstr "严肃/古典/宗教/历史电影/剧情"
 
 msgctxt "#19508"
-msgid "Adult Movie/Drama"
+msgid "Adult movie / drama"
 msgstr "成人电影/剧情"
+
+msgctxt "#19516"
+msgid "News / Current affairs"
+msgstr "新闻/时事"
+
+msgctxt "#19517"
+msgid "News / Weather report"
+msgstr "新闻/天气预报"
+
+msgctxt "#19518"
+msgid "News magazine"
+msgstr "新闻杂志"
 
 msgctxt "#19519"
 msgid "Documentary"
 msgstr "记录"
 
 msgctxt "#19520"
-msgid "Discussion/Interview/Debate"
+msgid "Discussion / Interview / Debate"
 msgstr "讨论/采访/辩论"
 
 msgctxt "#19532"
-msgid "Show/Game Show"
+msgid "Show / Game show"
 msgstr "展会/游戏展会"
 
 msgctxt "#19533"
-msgid "Game Show/Quiz/Contest"
+msgid "Game show / Quiz / Contest"
 msgstr "游戏展会/知识竞赛/比赛"
 
 msgctxt "#19534"
-msgid "Variety Show"
+msgid "Variety show"
 msgstr "综艺节目"
 
 msgctxt "#19535"
-msgid "Talk Show"
+msgid "Talk show"
 msgstr "脱口秀"
 
 msgctxt "#19548"
 msgid "Sports"
 msgstr "体育"
 
+msgctxt "#19549"
+msgid "Special event"
+msgstr "特殊事件"
+
+msgctxt "#19550"
+msgid "Sport magazine"
+msgstr "体育杂志"
+
 msgctxt "#19551"
 msgid "Football"
 msgstr "足球"
 
 msgctxt "#19552"
-msgid "Tennis/Squash"
+msgid "Tennis / Squash"
 msgstr "网球/壁球"
+
+msgctxt "#19553"
+msgid "Team sports"
+msgstr "团体运动"
 
 msgctxt "#19554"
 msgid "Athletics"
 msgstr "田径运动"
 
+msgctxt "#19555"
+msgid "Motor sport"
+msgstr "汽车运动"
+
+msgctxt "#19556"
+msgid "Water sport"
+msgstr "水上运动"
+
+msgctxt "#19557"
+msgid "Winter sports"
+msgstr "冬季运动"
+
 msgctxt "#19558"
 msgid "Equestrian"
 msgstr "骑术"
 
+msgctxt "#19559"
+msgid "Martial sports"
+msgstr "武术"
+
+msgctxt "#19564"
+msgid "Children's / Youth programmes"
+msgstr "儿童/青少年节目"
+
+msgctxt "#19565"
+msgid "Pre-school children's programmes"
+msgstr "学龄前儿童节目"
+
+msgctxt "#19566"
+msgid "Entertainment programmes for 6 to 14"
+msgstr "6至14岁娱乐节目"
+
+msgctxt "#19567"
+msgid "Entertainment programmes for 10 to 16"
+msgstr "10至16岁娱乐节目"
+
+msgctxt "#19568"
+msgid "Informational / Educational / School programme"
+msgstr "资讯/教育/讲座"
+
 msgctxt "#19569"
-msgid "Cartoons/Puppets"
+msgid "Cartoons / Puppets"
 msgstr "动画/木偶"
 
 msgctxt "#19580"
-msgid "Music/Ballet/Dance"
+msgid "Music / Ballet / Dance"
 msgstr "音乐/芭蕾/舞蹈"
 
 msgctxt "#19581"
-msgid "Rock/Pop"
+msgid "Rock / Pop"
 msgstr "摇滚/流行"
 
+msgctxt "#19582"
+msgid "Serious / Classical music"
+msgstr "严肃/古典音乐"
+
+msgctxt "#19583"
+msgid "Folk / Traditional music"
+msgstr "民谣/传统音乐"
+
 msgctxt "#19584"
-msgid "Musical/Opera"
+msgid "Musical / Opera"
 msgstr "音乐/歌剧"
 
 msgctxt "#19585"
@@ -7306,75 +7538,107 @@ msgid "Ballet"
 msgstr "芭蕾"
 
 msgctxt "#19596"
-msgid "Arts/Culture"
+msgid "Arts / Culture"
 msgstr "艺术/文化"
+
+msgctxt "#19597"
+msgid "Performing arts"
+msgstr "演艺"
+
+msgctxt "#19598"
+msgid "Fine arts"
+msgstr "美术"
 
 msgctxt "#19599"
 msgid "Religion"
 msgstr "宗教"
+
+msgctxt "#19600"
+msgid "Popular culture / Traditional arts"
+msgstr "流行文化/传统艺术"
 
 msgctxt "#19601"
 msgid "Literature"
 msgstr "文学"
 
 msgctxt "#19602"
-msgid "Film/Cinema"
+msgid "Film / Cinema"
 msgstr "电影/影院"
 
 msgctxt "#19603"
-msgid "Experimental Film/Video"
+msgid "Experimental film / video"
 msgstr "实验电影/视频"
 
 msgctxt "#19604"
-msgid "Broadcasting/Press"
+msgid "Broadcasting / Press"
 msgstr "广播/新闻"
+
+msgctxt "#19605"
+msgid "New media"
+msgstr "新媒体"
+
+msgctxt "#19606"
+msgid "Arts / Culture magazines"
+msgstr "艺术/文化杂志"
 
 msgctxt "#19607"
 msgid "Fashion"
 msgstr "时尚"
 
 msgctxt "#19612"
-msgid "Social/Political/Economics"
+msgid "Social / Political / Economics"
 msgstr "社会/政治/经济"
 
 msgctxt "#19613"
-msgid "Magazines/Reports/Documentary"
+msgid "Magazines / Reports / Documentary"
 msgstr "杂志/报导/记录"
 
+msgctxt "#19614"
+msgid "Economics / Social advisory"
+msgstr "经济/社会咨询"
+
+msgctxt "#19615"
+msgid "Remarkable people"
+msgstr "杰出人士"
+
 msgctxt "#19628"
-msgid "Education/Science/Factual"
+msgid "Education / Science / Factual"
 msgstr "教育/科学/真相"
 
 msgctxt "#19629"
-msgid "Nature/Animals/Environment"
+msgid "Nature / Animals / Environment"
 msgstr "自然/动物/环境"
 
 msgctxt "#19630"
-msgid "Technology/Natural Sciences"
+msgid "Technology / Natural sciences"
 msgstr "技术/自然科学"
 
 msgctxt "#19631"
-msgid "Medicine/Physiology/Psychology"
+msgid "Medicine / Physiology / Psychology"
 msgstr "医学/生理学/心理学"
 
 msgctxt "#19632"
-msgid "Foreign Countries/Expeditions"
+msgid "Foreign countries / Expeditions"
 msgstr "外国/探险"
 
 msgctxt "#19633"
-msgid "Social/Spiritual Sciences"
+msgid "Social / Spiritual sciences"
 msgstr "社会/精神科学"
+
+msgctxt "#19634"
+msgid "Further education"
+msgstr "继续教育"
 
 msgctxt "#19635"
 msgid "Languages"
 msgstr "语言"
 
 msgctxt "#19644"
-msgid "Leisure/Hobbies"
+msgid "Leisure / Hobbies"
 msgstr "休闲/爱好"
 
 msgctxt "#19645"
-msgid "Tourism/Travel"
+msgid "Tourism / Travel"
 msgstr "旅游/旅行"
 
 msgctxt "#19646"
@@ -7386,7 +7650,7 @@ msgid "Motoring"
 msgstr "驾驶"
 
 msgctxt "#19648"
-msgid "Fitness & Health"
+msgid "Fitness & health"
 msgstr "健身与健康"
 
 msgctxt "#19649"
@@ -7394,35 +7658,47 @@ msgid "Cooking"
 msgstr "烹饪"
 
 msgctxt "#19650"
-msgid "Advertisement/Shopping"
+msgid "Advertisement / Shopping"
 msgstr "广告/购物"
 
 msgctxt "#19651"
 msgid "Gardening"
 msgstr "园艺"
 
+msgctxt "#19660"
+msgid "Special characteristics"
+msgstr "特殊特性"
+
+msgctxt "#19661"
+msgid "Original language"
+msgstr "原始语言"
+
 msgctxt "#19662"
-msgid "Black & White"
+msgid "Black & white"
 msgstr "黑 & 白"
 
 msgctxt "#19663"
 msgid "Unpublished"
 msgstr "未发行"
 
+msgctxt "#19664"
+msgid "Live broadcast"
+msgstr "现场直播"
+
 msgctxt "#19676"
 msgid "Drama"
 msgstr "剧情"
 
 msgctxt "#19677"
-msgid "Detective/Thriller"
+msgid "Detective / Thriller"
 msgstr "侦探/惊悚"
 
 msgctxt "#19678"
-msgid "Adventure/Western/War"
+msgid "Adventure / Western / War"
 msgstr "冒险/西部/战争"
 
 msgctxt "#19679"
-msgid "Science Fiction/Fantasy/Horror"
+msgid "Science fiction / Fantasy / Horror"
 msgstr "科幻/奇幻/恐怖"
 
 msgctxt "#19680"
@@ -7430,7 +7706,7 @@ msgid "Comedy"
 msgstr "喜剧"
 
 msgctxt "#19681"
-msgid "Soap/Melodrama/Folkloric"
+msgid "Soap / Melodrama / Folkloric"
 msgstr "肥皂剧/文艺/民俗"
 
 msgctxt "#19682"
@@ -7438,8 +7714,8 @@ msgid "Romance"
 msgstr "爱情"
 
 msgctxt "#19683"
-msgid "Serious/ClassicalReligion/Historical"
-msgstr "正剧/古典宗教/历史"
+msgid "Serious / Classical / Religion / Historical"
+msgstr "正剧/古典/宗教/历史"
 
 msgctxt "#19684"
 msgid "Adult"
@@ -7630,8 +7906,8 @@ msgid "Create profile '%s'?"
 msgstr "创建用户配置“%s”？"
 
 msgctxt "#20048"
-msgid "Start with fresh settings"
-msgstr "启动时刷新设置"
+msgid "Start with fresh settings or copy from default?"
+msgstr "启动时刷新设置或复制默认？"
 
 msgctxt "#20049"
 msgid "Best available"
@@ -7710,24 +7986,20 @@ msgid "Profile lock"
 msgstr "锁定用户配置"
 
 msgctxt "#20069"
-msgid "Could not create folder"
-msgstr "无法创建目录"
+msgid "Couldn't create folder"
+msgstr "无法创建文件夹"
 
 msgctxt "#20070"
 msgid "Profile directory"
 msgstr "用户配置目录"
 
 msgctxt "#20071"
-msgid "Start with fresh media sources"
-msgstr "启动时刷新媒体源"
+msgid "Start with fresh media sources or copy from default?"
+msgstr "启动时刷新媒体源或复制默认？"
 
 msgctxt "#20072"
-msgid "Make sure the selected folder is writable"
-msgstr "请确定选择的文件夹是可写入的"
-
-msgctxt "#20073"
-msgid "and that the new folder name is valid"
-msgstr "且新文件夹名是有效的"
+msgid "Make sure the selected folder is writable and that the new folder name is valid"
+msgstr "请确定选择的文件夹是可写入的且新文件夹名是有效的"
 
 msgctxt "#20074"
 msgid "MPAA rating"
@@ -7766,15 +8038,15 @@ msgid "Show programs in main menu"
 msgstr "在主界面中显示程序菜单"
 
 msgctxt "#20083"
-msgid "Show music info"
+msgid "Show music information"
 msgstr "显示音乐信息"
 
 msgctxt "#20084"
-msgid "Show weather info"
+msgid "Show weather information"
 msgstr "显示天气信息"
 
 msgctxt "#20085"
-msgid "Show system info"
+msgid "Show system information"
 msgstr "显示系统信息"
 
 msgctxt "#20086"
@@ -7786,7 +8058,7 @@ msgid "Show available disk space E: F: G:"
 msgstr "显示可用的磁盘空间 E: F: G:"
 
 msgctxt "#20088"
-msgid "Weather info"
+msgid "Weather information"
 msgstr "天气信息"
 
 msgctxt "#20089"
@@ -7822,16 +8094,16 @@ msgid "Login screen"
 msgstr "登录窗口"
 
 msgctxt "#20097"
-msgid "Fetching album info"
+msgid "Fetching album information"
 msgstr "获取专辑信息"
 
 msgctxt "#20098"
-msgid "Fetching info for album"
+msgid "Fetching information for album"
 msgstr "正在获取专辑信息"
 
 msgctxt "#20099"
-msgid "Can't rip CD or track while playing from CD"
-msgstr "当 CD 播放时不能抓取该 CD 或音轨"
+msgid "A CD or track can't be ripped while being played"
+msgstr "不能抓取正在播放的 CD 或音轨"
 
 msgctxt "#20100"
 msgid "Master lock code and settings"
@@ -7841,25 +8113,17 @@ msgctxt "#20101"
 msgid "Entering master lock code always enables master mode"
 msgstr "输入管理员锁定码后，始终启用管理员模式"
 
-msgctxt "#20102"
-msgid "or copy from default?"
-msgstr "或从默认值中复制？"
-
 msgctxt "#20103"
 msgid "Save changes to profile?"
 msgstr "保存变更到用户配置文件？"
 
 msgctxt "#20104"
-msgid "Old settings found."
-msgstr "发现旧设置。"
-
-msgctxt "#20105"
-msgid "Do you want to use them?"
-msgstr "你要使用吗？"
+msgid "Old settings found. Do you want to use them?"
+msgstr "发现旧设置。你要使用吗？"
 
 msgctxt "#20106"
-msgid "Old media sources found."
-msgstr "发现旧媒体源。"
+msgid "Old media sources found. Do you want to use them?"
+msgstr "发现旧媒体源。你要使用吗？"
 
 msgctxt "#20107"
 msgid "Separate (locked)"
@@ -7906,12 +8170,8 @@ msgid "Invalid lock code."
 msgstr "锁定码错误。"
 
 msgctxt "#20118"
-msgid "This requires the master lock to be set."
-msgstr "需先设置管理员锁定。"
-
-msgctxt "#20119"
-msgid "Would you like to set it now?"
-msgstr "你现在要设置吗？"
+msgid "This requires the master lock to be set. Would you like to set it now?"
+msgstr "需先设置管理员锁定。现在设置吗？"
 
 msgctxt "#20120"
 msgid "Loading program information"
@@ -7950,8 +8210,8 @@ msgid "Weave"
 msgstr "交织"
 
 msgctxt "#20130"
-msgid "Weave (inverted)"
-msgstr "交织（反转）"
+msgid "Weave - Inverted"
+msgstr "交织 - 反转"
 
 msgctxt "#20131"
 msgid "Blend"
@@ -8130,7 +8390,7 @@ msgid "UPnP server"
 msgstr "UPnP 服务器"
 
 msgctxt "#20176"
-msgid "Show video info"
+msgid "Show video information"
 msgstr "显示视频信息"
 
 msgctxt "#20177"
@@ -8174,7 +8434,7 @@ msgid "Please wait"
 msgstr "请稍候"
 
 msgctxt "#20187"
-msgid "UPnP/DLNA"
+msgid "UPnP / DLNA"
 msgstr "UPnP/DLNA"
 
 msgctxt "#20188"
@@ -8222,7 +8482,7 @@ msgid "No artist found!"
 msgstr "未找到歌手!"
 
 msgctxt "#20199"
-msgid "Downloading artist info failed"
+msgid "Downloading artist information failed"
 msgstr "下载歌手信息失败"
 
 msgctxt "#20220"
@@ -8232,6 +8492,10 @@ msgstr "首选在线信息"
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
 msgstr "此选项启用时，你在歌曲标签中设置的风格、年代、歌手等信息，将会被下载信息所覆盖。当你的歌曲标签中有 MusicBrainz 标识时很有用。"
+
+msgctxt "#20222"
+msgid "Look for external subtitles"
+msgstr "查找外挂字幕"
 
 msgctxt "#20240"
 msgid "Android music"
@@ -8250,7 +8514,7 @@ msgid "Android photos"
 msgstr "Android 照片"
 
 msgctxt "#20244"
-msgid "Android Apps"
+msgid "Android apps"
 msgstr "Android 应用"
 
 msgctxt "#20250"
@@ -8278,12 +8542,12 @@ msgid "First logon, edit your profile"
 msgstr "首次登录，编辑您的用户配置"
 
 msgctxt "#20259"
-msgid "Network Filesystem (NFS)"
+msgid "Network File System (NFS)"
 msgstr "网络文件系统（NFS）"
 
 msgctxt "#20260"
-msgid "Secure shell (SSH/SFTP)"
-msgstr "安全 Shell（SSH/ SFTP）"
+msgid "Secure Shell (SSH / SFTP)"
+msgstr "安全 Shell（SSH/SFTP）"
 
 msgctxt "#20262"
 msgid "Zeroconf browser"
@@ -8338,7 +8602,7 @@ msgid "Scanning music videos using %s"
 msgstr "以%s扫描音乐"
 
 msgctxt "#20319"
-msgid "Scanning tvshows using %s"
+msgid "Scanning TV shows using %s"
 msgstr "以%s扫描剧集"
 
 msgctxt "#20320"
@@ -8418,12 +8682,8 @@ msgid "Director"
 msgstr "导演"
 
 msgctxt "#20340"
-msgid "Do you want to remove all items within"
-msgstr "是否从资料库中移除"
-
-msgctxt "#20341"
-msgid "this path from your library?"
-msgstr "此目录的所有项目？"
+msgid "Do you want to remove all items within this path from your library?"
+msgstr "是否从资料库中移除此目录的所有项目？"
 
 msgctxt "#20342"
 msgid "Movies"
@@ -8478,7 +8738,7 @@ msgid "Fetching episode guide"
 msgstr "获取分集介绍"
 
 msgctxt "#20355"
-msgid "Loading info for episodes in directory"
+msgid "Loading information for episodes in directory"
 msgstr "载入目录中分集的信息"
 
 msgctxt "#20356"
@@ -8570,7 +8830,7 @@ msgid "Refresh TV show information"
 msgstr "刷新剧集信息"
 
 msgctxt "#20378"
-msgid "Refresh info for all episodes?"
+msgid "Refresh information for all episodes?"
 msgstr "刷新所有分集信息？"
 
 msgctxt "#20379"
@@ -8758,12 +9018,8 @@ msgid "Fanart slideshow"
 msgstr "幻灯播放同人画"
 
 msgctxt "#20426"
-msgid "Export to a single file or separate"
-msgstr "全部导出到同一个文件或每个项目"
-
-msgctxt "#20427"
-msgid "files per entry?"
-msgstr "分别导出到单独的文件？"
+msgid "Export to a single file or separate files per entry?"
+msgstr "导出到单一文件或按条目导出到不同的文件？"
 
 msgctxt "#20428"
 msgid "Single file"
@@ -8826,23 +9082,19 @@ msgid "Change content"
 msgstr "更改内容"
 
 msgctxt "#20443"
-msgid "Do you want to refresh info for all"
-msgstr "要刷新此目录下所有"
-
-msgctxt "#20444"
-msgid "items within this path?"
-msgstr "项目的信息吗？"
+msgid "Do you want to refresh information for all items within this path?"
+msgstr "要刷新此目录下所有项目的信息吗？"
 
 msgctxt "#20445"
 msgid "Fanart"
 msgstr "同人画"
 
 msgctxt "#20446"
-msgid "Locally stored information found."
-msgstr "发现本地存储的信息。"
+msgid "Locally stored information found. Ignore and refresh from Internet?"
+msgstr "发现本地存储的信息。忽略并从互联网刷新吗？"
 
 msgctxt "#20448"
-msgid "Could not download information"
+msgid "Couldn't download information"
 msgstr "无法下载信息"
 
 msgctxt "#20449"
@@ -8850,8 +9102,8 @@ msgid "Unable to connect to remote server"
 msgstr "无法连接远程服务器"
 
 msgctxt "#20450"
-msgid "Would you like to continue scanning?"
-msgstr "要继续扫描吗？"
+msgid "Unable to connect to remote server. Would you like to continue scanning?"
+msgstr "无法连接远程服务器。要继续扫描吗？"
 
 msgctxt "#20451"
 msgid "Countries"
@@ -8918,7 +9170,7 @@ msgid "Select movie set"
 msgstr "选择电影集"
 
 msgctxt "#20467"
-msgid "No set (Remove from %s)"
+msgid "No set (remove from %s)"
 msgstr "无电影集（从%s 移除）"
 
 msgctxt "#20468"
@@ -8953,6 +9205,10 @@ msgctxt "#21362"
 msgid "Bookmark created"
 msgstr "书签已建立"
 
+msgctxt "#21363"
+msgid "Episode bookmark created"
+msgstr "分集书签已建立"
+
 msgctxt "#21364"
 msgid "Edit media share"
 msgstr "编辑媒体共享"
@@ -8970,7 +9226,7 @@ msgid "Movie & alternate subtitle directory"
 msgstr "电影和备选字幕目录"
 
 msgctxt "#21368"
-msgid "Override ASS/SSA subtitles fonts"
+msgid "Override ASS / SSA subtitles fonts"
 msgstr "取代 ASS/SSA 字幕字体"
 
 msgctxt "#21369"
@@ -9154,7 +9410,7 @@ msgid "Default provider for movie information"
 msgstr "默认电影信息提供者"
 
 msgctxt "#21414"
-msgid "Default provider for tvshow information"
+msgid "Default provider for TV show information"
 msgstr "默认剧集信息提供者"
 
 msgctxt "#21415"
@@ -9162,7 +9418,7 @@ msgid "Default provider for music video information"
 msgstr "默认音乐电视信息提供者"
 
 msgctxt "#21416"
-msgid "Select first unwatched TV show season/episode"
+msgid "Select first unwatched TV show season / episode"
 msgstr "选择首个未观看剧集季/集"
 
 msgctxt "#21417"
@@ -9306,7 +9562,7 @@ msgid "Internet connection required."
 msgstr "需要访问互联网。"
 
 msgctxt "#21452"
-msgid "Get More..."
+msgid "Get more..."
 msgstr "获取更多..."
 
 msgctxt "#21453"
@@ -9316,6 +9572,10 @@ msgstr "根文件系统"
 msgctxt "#21454"
 msgid "Cache full"
 msgstr "缓存满"
+
+msgctxt "#21455"
+msgid "Cache filled before reaching required amount for continuous playback"
+msgstr "缓存在达到连续播放所需数量之前已满"
 
 msgctxt "#21456"
 msgid "External storage"
@@ -9358,8 +9618,8 @@ msgid "Above video"
 msgstr "视频外上方"
 
 msgctxt "#21466"
-msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode. [On first entry] the first unwatched item will be selected only when a view is entered for the first time. [Always] the first unwatched item will be selected every time a view is entered."
-msgstr "进入剧集季或集视图自动选择首个未观看季或集。[首次进入] 首次进入一视图时首个未观看项目被选择。[总是] 每次进入视图时首个未观看项目都被选择。"
+msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
+msgstr "进入剧集季或集视图自动选择首个未观看季或集。[CR][首次进入] 首次进入一视图时首个未观看项目被选择。[CR][总是] 每次进入视图时首个未观看项目都被选择。"
 
 msgctxt "#21467"
 msgid "%.1f to %.1f"
@@ -9381,6 +9641,14 @@ msgctxt "#21471"
 msgid "On first entry"
 msgstr "在第一项"
 
+msgctxt "#21472"
+msgid "Include \"All seasons\" and \"Specials\""
+msgstr "包括“所有季”和“特别篇”"
+
+msgctxt "#21473"
+msgid "Whether or not to consider the items from \"All seasons\" and \"Specials\" in the unwatched item selection."
+msgstr "在未观看项目选择时是否考虑“所有季”和“特别篇”中的项目。"
+
 msgctxt "#21474"
 msgid "Neither"
 msgstr "都不"
@@ -9388,6 +9656,14 @@ msgstr "都不"
 msgctxt "#21475"
 msgid "Both"
 msgstr "都是"
+
+msgctxt "#21476"
+msgid "Just \"All seasons\""
+msgstr "仅“所有季”"
+
+msgctxt "#21477"
+msgid "Just \"Specials\""
+msgstr "仅“特别篇”"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -9406,7 +9682,7 @@ msgid "File size"
 msgstr "文件大小"
 
 msgctxt "#21803"
-msgid "File date/time"
+msgid "File date / time"
 msgstr "文件日期/时间"
 
 msgctxt "#21804"
@@ -9422,7 +9698,7 @@ msgid "Comment"
 msgstr "注释"
 
 msgctxt "#21807"
-msgid "Colour/B&W"
+msgid "Colour / B&W"
 msgstr "彩色/黑白"
 
 msgctxt "#21808"
@@ -9430,7 +9706,7 @@ msgid "JPEG process"
 msgstr "JPEG 处理"
 
 msgctxt "#21820"
-msgid "Date/Time"
+msgid "Date / Time"
 msgstr "拍摄时间"
 
 msgctxt "#21821"
@@ -9601,6 +9877,10 @@ msgctxt "#21875"
 msgid "Country"
 msgstr "国家"
 
+msgctxt "#21876"
+msgid "Original TX reference"
+msgstr "原始 Tx 引用"
+
 msgctxt "#21877"
 msgid "Date created"
 msgstr "创建日期"
@@ -9694,7 +9974,7 @@ msgid "Label"
 msgstr "标签"
 
 msgctxt "#21900"
-msgid "Born/Formed"
+msgid "Born / Formed"
 msgstr "诞生/组建"
 
 msgctxt "#22000"
@@ -9834,19 +10114,19 @@ msgid "Enter song number"
 msgstr "输入歌曲编号"
 
 msgctxt "#22040"
-msgid "white/green"
+msgid "white / green"
 msgstr "白/绿"
 
 msgctxt "#22041"
-msgid "white/red"
+msgid "white / red"
 msgstr "白/红"
 
 msgctxt "#22042"
-msgid "white/blue"
+msgid "white / blue"
 msgstr "白/兰"
 
 msgctxt "#22043"
-msgid "black/white"
+msgid "black / white"
 msgstr "黑/白"
 
 msgctxt "#22079"
@@ -9873,6 +10153,10 @@ msgctxt "#23049"
 msgid "Teletext not available"
 msgstr "图文字幕不可用"
 
+msgctxt "#23050"
+msgid "Activate teletext"
+msgstr "开启图文字幕"
+
 msgctxt "#23051"
 msgid "Part %i"
 msgstr "片段 %i"
@@ -9889,13 +10173,21 @@ msgctxt "#23054"
 msgid "Running"
 msgstr "运行"
 
+msgctxt "#23055"
+msgid "Scale teletext to 4:3"
+msgstr "图文字幕比例为4:3"
+
+msgctxt "#23100"
+msgid "External player active"
+msgstr "外部播放器激活"
+
 msgctxt "#23101"
-msgid "Click OK to terminate the player"
-msgstr "点确定关闭播放器"
+msgid "Click \"OK\" to terminate the player"
+msgstr "点“确定”关闭播放器"
 
 msgctxt "#23104"
-msgid "Click OK when playback has ended"
-msgstr "播放完毕时点确定"
+msgid "Click \"OK\" when playback has ended"
+msgstr "播放完毕时点“确定”"
 
 msgctxt "#24000"
 msgid "Add-on"
@@ -9908,6 +10200,10 @@ msgstr "插件"
 msgctxt "#24002"
 msgid "Add-on options"
 msgstr "插件选项"
+
+msgctxt "#24003"
+msgid "Add-on information"
+msgstr "插件信息"
 
 msgctxt "#24005"
 msgid "Media sources"
@@ -9989,6 +10285,10 @@ msgctxt "#24024"
 msgid "Add-on disabled"
 msgstr "插件已禁用"
 
+msgctxt "#24025"
+msgid "Context items"
+msgstr "上下文项目"
+
 msgctxt "#24026"
 msgid "Languages"
 msgstr "语言"
@@ -10005,9 +10305,17 @@ msgctxt "#24029"
 msgid "Service for weather information"
 msgstr "天气信息服务"
 
+msgctxt "#24030"
+msgid "This add-on can't be configured"
+msgstr "此插件不可设置"
+
 msgctxt "#24031"
 msgid "Error loading settings"
 msgstr "读取配置出错"
+
+msgctxt "#24032"
+msgid "All add-ons"
+msgstr "全部插件"
 
 msgctxt "#24033"
 msgid "Install from repository"
@@ -10018,7 +10326,7 @@ msgid "Check for updates"
 msgstr "检查更新"
 
 msgctxt "#24036"
-msgid "Change log"
+msgid "Changelog"
 msgstr "更新日志"
 
 msgctxt "#24037"
@@ -10028,6 +10336,10 @@ msgstr "卸载"
 msgctxt "#24038"
 msgid "Install"
 msgstr "安装"
+
+msgctxt "#24039"
+msgid "Disabled add-ons"
+msgstr "已禁用插件"
 
 msgctxt "#24040"
 msgid "(Clear the current setting)"
@@ -10041,9 +10353,25 @@ msgctxt "#24042"
 msgid "Downloading %i%%"
 msgstr "正在下载 %i%%"
 
+msgctxt "#24043"
+msgid "Available updates"
+msgstr "可更新项"
+
+msgctxt "#24044"
+msgid "Dependencies not met. Please contact add-on author."
+msgstr "依赖项未找到。请联系插件作者。"
+
 msgctxt "#24045"
 msgid "Add-on does not have the correct structure"
 msgstr "插件结构不完整"
+
+msgctxt "#24046"
+msgid "%s is used by the following installed add-on(s)"
+msgstr "下列已安装插件依赖 %s"
+
+msgctxt "#24047"
+msgid "This add-on can't be uninstalled"
+msgstr "此插件无法卸载"
 
 msgctxt "#24048"
 msgid "Rollback"
@@ -10052,6 +10380,10 @@ msgstr "撤消"
 msgctxt "#24049"
 msgid "Incompatible"
 msgstr "不兼容"
+
+msgctxt "#24050"
+msgid "Available add-ons"
+msgstr "可用插件"
 
 msgctxt "#24051"
 msgid "Version:"
@@ -10085,9 +10417,21 @@ msgctxt "#24058"
 msgid "Checking dependencies..."
 msgstr "正在检查依赖性..."
 
+msgctxt "#24059"
+msgid "Would you like to enable this add-on?"
+msgstr "要启用此插件吗？"
+
+msgctxt "#24060"
+msgid "Would you like to disable this add-on?"
+msgstr "要禁用此插件吗？"
+
 msgctxt "#24061"
 msgid "Add-on update available!"
 msgstr "插件有可用更新！"
+
+msgctxt "#24062"
+msgid "Enabled add-ons"
+msgstr "已启用插件"
 
 msgctxt "#24063"
 msgid "Auto update"
@@ -10101,6 +10445,14 @@ msgctxt "#24065"
 msgid "Add-on updated"
 msgstr "插件已更新"
 
+msgctxt "#24066"
+msgid "Cancel add-on download?"
+msgstr "取消插件下载吗？"
+
+msgctxt "#24067"
+msgid "Currently downloading add-ons"
+msgstr "当前下载插件"
+
 msgctxt "#24068"
 msgid "Update available"
 msgstr "可更新"
@@ -10110,7 +10462,7 @@ msgid "Update"
 msgstr "更新"
 
 msgctxt "#24070"
-msgid "Add-on could not be loaded."
+msgid "Add-on couldn't be loaded."
 msgstr "无法加载插件"
 
 msgctxt "#24071"
@@ -10122,7 +10474,7 @@ msgid "Settings required"
 msgstr "需要先进行设置"
 
 msgctxt "#24073"
-msgid "Could not connect"
+msgid "Couldn't connect"
 msgstr "无法连接"
 
 msgctxt "#24074"
@@ -10132,6 +10484,10 @@ msgstr "需要重新启动"
 msgctxt "#24075"
 msgid "Disable"
 msgstr "禁用"
+
+msgctxt "#24076"
+msgid "Add-on required"
+msgstr "依赖插件"
 
 msgctxt "#24077"
 msgid "Verifying downloaded add-on..."
@@ -10148,6 +10504,10 @@ msgstr "正在安装插件的依赖库..."
 msgctxt "#24080"
 msgid "Try to reconnect?"
 msgstr "尝试重新连接？"
+
+msgctxt "#24081"
+msgid "Helper add-ons"
+msgstr "助手插件"
 
 msgctxt "#24082"
 msgid "Add-on libraries"
@@ -10177,6 +10537,22 @@ msgctxt "#24089"
 msgid "Add-on restarts"
 msgstr "重启插件"
 
+msgctxt "#24090"
+msgid "Lock add-on manager"
+msgstr "锁定插件管理"
+
+msgctxt "#24091"
+msgid "This add-on can't be disabled"
+msgstr "此插件无法禁用"
+
+msgctxt "#24092"
+msgid "Checking for add-on updates"
+msgstr "正在检查插件更新"
+
+msgctxt "#24093"
+msgid "Checking %s..."
+msgstr "正在检查 %s..."
+
 msgctxt "#24094"
 msgid "(current)"
 msgstr "（当前使用）"
@@ -10200,6 +10576,14 @@ msgstr "已失效"
 msgctxt "#24099"
 msgid "Would you like to switch to this skin?"
 msgstr "要切换到此皮肤吗？"
+
+msgctxt "#24100"
+msgid "To use this feature you must download an add-on:"
+msgstr "使用此功能需要下载插件："
+
+msgctxt "#24101"
+msgid "Would you like to download this add-on?"
+msgstr "你确定要下载此插件吗？"
 
 msgctxt "#24102"
 msgid "Unable to load skin"
@@ -10242,8 +10626,8 @@ msgid "Languages to download subtitles for"
 msgstr "下载字幕语言"
 
 msgctxt "#24112"
-msgid "Set languages to use when searching for subtitles. Not all subtitle services will use all languages."
-msgstr "设置搜索字幕所用语言。不是所有字幕服务都能支持所有语言。"
+msgid "Set languages to use when searching for subtitles.[CR]Note: Not all subtitle services will use all languages."
+msgstr "设置搜索字幕所用语言。[CR]注意：不是所有字幕服务都能支持所有语言。"
 
 msgctxt "#24113"
 msgid "Failed to download subtitle"
@@ -10258,19 +10642,19 @@ msgid "Subtitle storage location"
 msgstr "字幕存储位置"
 
 msgctxt "#24116"
-msgid "Default TV Service"
+msgid "Default TV show service"
 msgstr "默认剧集服务"
 
 msgctxt "#24117"
-msgid "Select service that will be used as default to search for TV Show subtitles."
+msgid "Select the service that will be used as default to search for TV show subtitles."
 msgstr "选择用于搜索剧集字幕的默认服务。"
 
 msgctxt "#24118"
-msgid "Default Movie Service"
+msgid "Default movie service"
 msgstr "默认电影服务"
 
 msgctxt "#24119"
-msgid "Select service that will be used as default to search for Movie subtitles."
+msgid "Select the service that will be used as default to search for movie subtitles."
 msgstr "选择用于搜索电影字幕的默认服务。"
 
 msgctxt "#24120"
@@ -10345,9 +10729,17 @@ msgctxt "#24994"
 msgid "Running"
 msgstr "运行"
 
+msgctxt "#24995"
+msgid "Orphaned dependencies"
+msgstr "孤立依赖"
+
 msgctxt "#24996"
 msgid "Dependencies"
 msgstr "依赖"
+
+msgctxt "#24998"
+msgid "My add-ons"
+msgstr "我的插件"
 
 msgctxt "#24999"
 msgid "Hide incompatible"
@@ -10397,9 +10789,17 @@ msgctxt "#25010"
 msgid "Chapter %u"
 msgstr "章节%u"
 
+msgctxt "#29800"
+msgid "Library mode"
+msgstr "资料库模式"
+
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "QWERTY 键盘"
+
+msgctxt "#29802"
+msgid "Passthrough audio in use"
+msgstr "音频直通输出启用中"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -10474,7 +10874,7 @@ msgid "Tonight"
 msgstr "今晚"
 
 msgctxt "#33019"
-msgid "Tomorrow Night"
+msgid "Tomorrow night"
 msgstr "明晚"
 
 msgctxt "#33020"
@@ -10534,8 +10934,8 @@ msgid "Map list %s category"
 msgstr "地图列表 %s 分类"
 
 msgctxt "#33034"
-msgid "36 Hour"
-msgstr "36 小时"
+msgid "36-hour"
+msgstr "36小时"
 
 msgctxt "#33035"
 msgid "Maps"
@@ -10554,11 +10954,11 @@ msgid "%s day"
 msgstr "%s 天"
 
 msgctxt "#33039"
-msgid "%s Streams"
+msgid "%s streams"
 msgstr "%s 媒体流"
 
 msgctxt "#33040"
-msgid "%s Devices"
+msgid "%s devices"
 msgstr "%s 设备"
 
 msgctxt "#33049"
@@ -10568,6 +10968,10 @@ msgstr "警报"
 msgctxt "#33050"
 msgid "Alerts"
 msgstr "警报"
+
+msgctxt "#33051"
+msgid "Choose your"
+msgstr "选择您的"
 
 msgctxt "#33052"
 msgid "Check"
@@ -10645,17 +11049,13 @@ msgctxt "#33071"
 msgid "Custom backgrounds"
 msgstr "自定义背景"
 
-msgctxt "#33074"
-msgid "This version of %s requires an"
-msgstr "运行此版本的 %s 需要"
+msgctxt "#33072"
+msgid "View readme"
+msgstr "浏览自述文件"
 
-msgctxt "#33075"
-msgid "Kodi revision of %s or greater to run."
-msgstr "Kodi 为 %s 或更高版本。"
-
-msgctxt "#33076"
-msgid "Please update Kodi."
-msgstr "请升级 Kodi。"
+msgctxt "#33073"
+msgid "View changelog"
+msgstr "浏览更新日志"
 
 msgctxt "#33077"
 msgid "No data found!"
@@ -10697,9 +11097,17 @@ msgctxt "#33101"
 msgid "Web server"
 msgstr "Web 服务器"
 
+msgctxt "#33102"
+msgid "Event server"
+msgstr "事件服务器"
+
 msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "远程通信服务器"
+
+msgctxt "#33200"
+msgid "Detected new connection"
+msgstr "检测到新的连接"
 
 msgctxt "#34000"
 msgid "Lame"
@@ -10722,8 +11130,16 @@ msgid "VAAPI"
 msgstr "VAAPI"
 
 msgctxt "#34005"
-msgid "Flac"
-msgstr "Flac"
+msgid "FLAC"
+msgstr "FLAC"
+
+msgctxt "#34006"
+msgid "MPEG-4 audio (FFmpeg M4A AAC)"
+msgstr "MPEG-4 audio（FFmpeg M4A AAC）"
+
+msgctxt "#34007"
+msgid "Windows media audio 2 (FFmpeg wmav2)"
+msgstr "Windows media audio 2（FFmpeg wmav2）"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -10770,8 +11186,8 @@ msgid "7.1"
 msgstr "7.1"
 
 msgctxt "#34111"
-msgid "Select the behaviour when no sound is required for either playback or GUI sounds. [Always] - continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications. [1- 10 Minutes] - same as Always except that after the selected period of time audio enters a suspended state [Off] - audio output enters a suspended state. Note - sounds can be missed if audio enters suspended state."
-msgstr "选择在音频播放和界面音效都没有时的动作。[总是] - 持续输出无声信号，使功放保持激活随时处理声音，但也可能会阻断其它应用程序的声音。[1-10分] - 类似总是选项，过了持续期限后音频进入暂停状态。[关] - 音频输出进入暂停状态。注意 - 音频进入暂停状态可能造成声音丢失。"
+msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
+msgstr "选择在音频播放和界面音效都没有时的动作。[CR][总是] - 持续输出无声信号，使功放保持激活随时处理声音，但也可能会阻断其它应用程序的声音。[CR][1-10分] - 类似[总是]选项，过了持续期限后音频进入暂停状态。[CR][关] - 音频输出进入暂停状态。注意：音频进入暂停状态可能造成声音丢失。"
 
 msgctxt "#34120"
 msgid "Play GUI sounds"
@@ -10821,28 +11237,32 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "启动 Zeroconf 失败"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed?[CR]Check the log for more information about this message."
+msgstr "Apple 的 Bonjour 服务是否已安装？[CR]更多相关信息见日志。"
+
 msgctxt "#34302"
 msgid "AirPlay requires Zeroconf to be enabled."
 msgstr "使用 AirPlay 需要启用 Zeroconf 。"
 
 msgctxt "#34303"
-msgid "Unable to stop Zeroconf"
-msgstr "无法停止 Zeroconf"
+msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
+msgstr "无法停止 Zeroconf。AirPlay 和 Airtunes 依赖于 Zeroconf 的运行。"
 
-msgctxt "#34304"
-msgid "AirPlay and AirTunes depend on Zeroconf running."
-msgstr "AirPlay 和 Airtunes 依赖于 Zeroconf 的运行。"
+msgctxt "#34400"
+msgid "Video rendering"
+msgstr "视频渲染"
 
 msgctxt "#34401"
-msgid "Failed to init video filters/scalers, falling back to bilinear scaling"
-msgstr "视频滤镜/缩放器初始化失败，使用双线性缩放"
+msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
+msgstr "视频滤镜/缩放器初始化失败，替代使用双线性缩放"
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
 msgstr "音频设备初始化失败"
 
 msgctxt "#34403"
-msgid "Check your audiosettings"
+msgid "Check your audio settings"
 msgstr "检查你的音频设置"
 
 msgctxt "#34404"
@@ -10850,19 +11270,19 @@ msgid "Use gestures for navigation:"
 msgstr "使用手势导航："
 
 msgctxt "#34405"
-msgid "1 finger swipe left,right,up,down for cursors"
+msgid "One finger swipe left,right,up,down for cursors"
 msgstr "单指左右上下轻扫移动光标"
 
 msgctxt "#34406"
-msgid "2 finger swipe left for backspace"
+msgid "Two finger swipe left for backspace"
 msgstr "双指向左轻扫退格"
 
 msgctxt "#34407"
-msgid "1 finger single tap for enter"
+msgid "One finger single tap for enter"
 msgstr "单指单击回车"
 
 msgctxt "#34408"
-msgid "2 finger single tap or 1 finger long press for contextmenu"
+msgid "Two finger single tap or one finger long press for contextmenu"
 msgstr "双指单击或单指长按打开上下文菜单"
 
 msgctxt "#35000"
@@ -10874,7 +11294,7 @@ msgid "Generic HID device"
 msgstr "通用 HID 设备"
 
 msgctxt "#35002"
-msgid "Generic network adaptor"
+msgid "Generic network adapter"
 msgstr "通用网络适配器"
 
 msgctxt "#35003"
@@ -10902,7 +11322,7 @@ msgid "Keymap enabled"
 msgstr "键盘映射已启用"
 
 msgctxt "#35009"
-msgid "Do not use the custom keymap for this device"
+msgid "Don't use the custom keymap for this device"
 msgstr "此设备不使用自定义键盘映射"
 
 msgctxt "#35100"
@@ -10934,7 +11354,7 @@ msgid "Product ID"
 msgstr "产品 ID"
 
 msgctxt "#36000"
-msgid "Pulse-Eight CEC adaptor"
+msgid "Pulse-Eight CEC adapter"
 msgstr "Pulse-Eight CEC 适配器"
 
 msgctxt "#36001"
@@ -10958,31 +11378,31 @@ msgid "Enable switch side commands"
 msgstr "启用指令模式切换"
 
 msgctxt "#36006"
-msgid "Could not open the adaptor"
-msgstr "无法打开适配器"
+msgid "Couldn't open the adapter"
+msgstr "无法打开适配器。"
 
 msgctxt "#36007"
-msgid "Devices to power on on startup"
+msgid "Devices to power on during startup"
 msgstr "启动时开启的设备"
 
 msgctxt "#36008"
-msgid "Devices to power off on shutdown"
+msgid "Devices to power off during shutdown"
 msgstr "关机时关闭的设备"
 
 msgctxt "#36009"
-msgid "Put devices in standby mode when activating screensaver"
+msgid "Put devices in standby mode when activating the screensaver"
 msgstr "激活屏幕保护程序时设备进入待机状态"
 
 msgctxt "#36010"
-msgid "Wake devices when deactivating screensaver"
+msgid "Wake devices when deactivating the screensaver"
 msgstr "当解除屏幕保护后唤醒设备"
 
 msgctxt "#36011"
-msgid "Could not detect the CEC com port. Set it up manually."
+msgid "Couldn't detect the CEC com port. Please configure it manually."
 msgstr "未检测到 CEC 端口，需人工设置。"
 
 msgctxt "#36012"
-msgid "Could not initialise the CEC adaptor. Please check your settings."
+msgid "Couldn't initialise the CEC adapter. Please check your settings."
 msgstr "无法初始化 CEC 适配器，请检查设置。"
 
 msgctxt "#36015"
@@ -10994,7 +11414,7 @@ msgid "Connected"
 msgstr "已连接"
 
 msgctxt "#36017"
-msgid "Could not initialise the CEC adaptor: libCEC was not found on your system."
+msgid "Couldn't initialise the CEC adapter: libCEC was not found on your system."
 msgstr "无法初始化 CEC 适配器：未找到 libCEC。"
 
 msgctxt "#36018"
@@ -11026,7 +11446,7 @@ msgid "Failed to set the new configuration. Please check your settings."
 msgstr "新配置设定失败，请检查设置。"
 
 msgctxt "#36025"
-msgid "Send 'inactive source' command on shutdown"
+msgid "Send \"Inactive source\" command on shutdown"
 msgstr "关机时发送“非活动源”命令"
 
 msgctxt "#36026"
@@ -11050,11 +11470,11 @@ msgid "Connection lost"
 msgstr "连接丢失"
 
 msgctxt "#36031"
-msgid "This user does not have permissions to open the CEC adaptor"
+msgid "This user does not have permissions to open the CEC adapter"
 msgstr "此用户无权打开 CEC 适配器"
 
 msgctxt "#36032"
-msgid "The port is busy. Only one program can access the CEC adaptor"
+msgid "The port is busy. Only one program can access the CEC adapter"
 msgstr "端口忙，只能有一个程序访问 CEC 适配器"
 
 msgctxt "#36033"
@@ -11066,7 +11486,7 @@ msgid "Always"
 msgstr "总是"
 
 msgctxt "#36036"
-msgid "On start/stop"
+msgid "On start / stop"
 msgstr "在开始/停止时"
 
 msgctxt "#36037"
@@ -11094,28 +11514,24 @@ msgid "Use limited colour range (16-235)"
 msgstr "使用有限的色彩范围（16-235）"
 
 msgctxt "#36043"
-msgid "No CEC capable TV detected."
-msgstr "未检测到支持 CEC 的电视。"
-
-msgctxt "#36044"
-msgid "Disable polling for CEC capable devices?"
-msgstr "禁用对支持 CEC 功能的设备轮询？"
+msgid "No CEC capable TV detected. Disable polling for CEC capable devices?"
+msgstr "未检测到支持 CEC 的电视。禁用对支持 CEC 功能的设备轮询？"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
 msgstr "改变用户界面的外观及感觉。"
 
 msgctxt "#36102"
-msgid "Category containing all Skin related settings."
-msgstr "包含与皮肤相关的所有设置的功能区。"
+msgid "This category contains all skin related settings."
+msgstr "此功能区包含与皮肤相关的所有设置。"
 
 msgctxt "#36103"
-msgid "Select the skin for the user interface. This will define the look and feel of this application."
+msgid "Select the skin for the user interface. This will define the look and feel of the application."
 msgstr "选择用户界面皮肤，这决定此应用的外观。"
 
 msgctxt "#36104"
-msgid "Change specific skin settings. The available options are dependent on the skin used."
-msgstr "改变指定皮肤的设置，可设置的选项因皮肤而异。"
+msgid "Select to change the skin specific settings. Which options are available for configuration depends on the features provided by the skin."
+msgstr "用于修改与选定皮肤相关的设置。可设置的选项因皮肤支持的不同特性而异。"
 
 msgctxt "#36105"
 msgid "Change the theme associated with your selected skin."
@@ -11150,8 +11566,8 @@ msgid "Edit the RSS feeds."
 msgstr "编辑 RSS 信源。"
 
 msgctxt "#36113"
-msgid "Category containing all locale/regional settings."
-msgstr "包含所有位置/区域设置的功能区。"
+msgid "This category contains all locale / regional settings."
+msgstr "此功能区包含所有位置/区域设置。"
 
 msgctxt "#36114"
 msgid "Chooses the language of the user interface."
@@ -11182,24 +11598,24 @@ msgid "Defaults to the selected subtitle language if more than one language is a
 msgstr "当有多种语言时默认选择的字幕语言。"
 
 msgctxt "#36121"
-msgid "Category containing settings related to how file lists are displayed."
-msgstr "包含与文件列表显示方式相关的设置的功能区。"
+msgid "This category contains the settings for how file lists are displayed."
+msgstr "此功能区包含与文件列表显示方式相关的设置。"
 
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
 msgstr "在列表中显示（..）项表示上级目录。"
 
 msgctxt "#36123"
-msgid "Show file extensions on media files. For example, 'You Enjoy Myself.mp3' would be simply be shown as 'You Enjoy Myself'."
-msgstr "显示媒体文件的扩展文件名。例如，“我的歌声里.mp3”会简单地显示为“我的歌声里”。"
+msgid "Show file extensions on media files, for example \"You Enjoy Myself\" would be shown as \"You Enjoy Myself.mp3\"."
+msgstr "显示媒体文件的扩展文件名。例如，“我的歌声里”会显示为“我的歌声里.mp3”。"
 
 msgctxt "#36124"
-msgid "Ignore certain tokens (e.g. \"the\") during sort operations. For example, 'The Simpsons' would be sorted as 'Simpsons'."
+msgid "Ignore certain tokens, e.g. \"The\", during sort operations. \"The Simpsons\" would for example be sorted as \"Simpsons\"."
 msgstr "排序时忽略特殊的冠词（如“the”），例如“The Simpsons”将按“Simpsons”来排序。"
 
 msgctxt "#36125"
-msgid "Allow files to be deleted and renamed through the user interface, via the contextual menu (press C on a keyboard, for example, to bring up this menu)."
-msgstr "允许在用户界面通过上下文菜单（按 C 键，如开启本菜单）删除和重命名。"
+msgid "Allow files to be deleted and renamed through the user interface, via the context menu, e.g. press \"C\" on a keyboard to bring up this menu."
+msgstr "允许在用户界面通过上下文菜单删除和重命名文件。可按键盘“C”键开启本菜单。"
 
 msgctxt "#36126"
 msgid "Show the add source button in root sections of the user interface."
@@ -11210,20 +11626,20 @@ msgid "Show hidden files and directories when listing files."
 msgstr "文件列表中显示隐藏文件和目录。"
 
 msgctxt "#36128"
-msgid "Category containing all screensaver settings."
-msgstr "包含所有屏幕保护设置的功能区。"
+msgid "This category contains the settings for how the screensaver add-ons are handled."
+msgstr "此功能区包含屏幕保护插件处理相关设置。"
 
 msgctxt "#36129"
 msgid "Set the time to wait for any activity to occur before displaying the screensaver."
 msgstr "设置多长时间没有操作将显示屏幕保护。"
 
 msgctxt "#36130"
-msgid "Select the screensaver. The 'Dim' screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
+msgid "Select the screensaver. The \"Dim\" screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
 msgstr "选择屏幕保护。激活对话框和视频播放暂停强制“变暗”屏幕保护。"
 
 msgctxt "#36131"
-msgid "Change specific screensaver settings. The available options are dependent on the screensaver used."
-msgstr "改变指定屏幕保护的设置，可设置的选项因屏幕保护程序而异。"
+msgid "Select to change the screensaver specific settings. Which options are available for configuration depends on the features provided by the screensaver add-on."
+msgstr "改变指定屏幕保护的设置，可设置的选项因屏幕保护插件支持的特性而异。"
 
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
@@ -11234,7 +11650,7 @@ msgid "If music is being played, the selected visualisation will be started inst
 msgstr "当音乐播放时，选定的可视化效果就会取代屏幕保护显示。"
 
 msgctxt "#36134"
-msgid "Dim the display when media is paused. Not valid for the 'Dim' screensaver mode."
+msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
 msgstr "媒体暂停时显示变暗。在“Dim”屏幕保护模式无效。"
 
 msgctxt "#36135"
@@ -11254,28 +11670,32 @@ msgid "Section that contains settings related to videos and how they are handled
 msgstr "包含与视频及其处理相关设置的区域。"
 
 msgctxt "#36139"
-msgid "Category containing the settings for how the video library is handled."
-msgstr "包含视频资料库处理相关设置的功能区。"
+msgid "This category contains the settings for how the video library is handled."
+msgstr "此功能区包含视频资料库处理相关设置。"
 
 msgctxt "#36140"
 msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
 msgstr "选择用户界面中显示温度使用的单位。"
+
+msgctxt "#36141"
+msgid "Show plot information for unwatched media in the video library."
+msgstr "显示视频资料库中未观看媒体的剧情信息。"
 
 msgctxt "#36142"
 msgid "Choose which speed unit is used for displaying speeds in the user interface."
 msgstr "选择用户界面中显示速度使用的单位。"
 
 msgctxt "#36143"
-msgid "Get thumbnails for actors when adding media to the library."
-msgstr "当添加媒体到资料库时获取演员缩略图。"
+msgid "Downloads thumbnails for actors from online databases when adding media to the library."
+msgstr "当添加媒体到资料库时从在线数据库下载演员缩略图。"
 
 msgctxt "#36144"
-msgid "Remove the TV show season node, toggles between 'If only one season' (default), 'Always' and 'Never'."
-msgstr "去除剧集季结点，可在“如果只有一季”（默认）、“总是”和“从不”之间切换。"
+msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
+msgstr "选择什么情况下隐藏剧集的季结点。隐藏时，选择一个剧集将直接跳到集视图。"
 
 msgctxt "#36145"
-msgid "Group movies into 'Movie sets' when browsing the movie library."
-msgstr "浏览电影资料库时将电影按影片集分组"
+msgid "Group movies into \"Movie sets\" when browsing the movie library."
+msgstr "浏览电影资料库时将电影按“影片集”分组"
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -11289,9 +11709,17 @@ msgctxt "#36148"
 msgid "Remove items from your library that can't be found (either renamed, deleted, or on removable storage that is currently unplugged)."
 msgstr "从资料库删除无法找到的项目（包括已改名、删除，或者未连接的移动存储项）。"
 
+msgctxt "#36149"
+msgid "Export the video library database to XML files. This will optionally overwrite your current XML files."
+msgstr "将视频资料库数据库导出到 XML 文件。这将有选择地覆盖当前 XML 文件。"
+
+msgctxt "#36150"
+msgid "Import a XML file into the video library database."
+msgstr "从 XML 文件导入到视频资料库数据库。"
+
 msgctxt "#36151"
-msgid "Category containing settings for how video playback is handled."
-msgstr "包含视频播放处理相关设置的功能区。"
+msgid "This category contains the settings for how video playback is handled."
+msgstr "此功能区包含视频播放处理相关设置。"
 
 msgctxt "#36152"
 msgid "Enable automatic playback of the next file in the list."
@@ -11350,12 +11778,12 @@ msgid "Choose which time format is used for displaying the time in the user inte
 msgstr "选择用户界面中显示时间使用的格式。"
 
 msgctxt "#36168"
-msgid "Choose whether to use 12-hour or 24-hour format for displaying the time in the user interface."
-msgstr "选择用户界面中显示时间使用12小时还是24小时格式。"
+msgid "Choose whether to use 12 or 24-hour format for displaying the time in the user interface."
+msgstr "选择用户界面中显示时间使用12还是24小时格式。"
 
 msgctxt "#36169"
-msgid "Select the quality of resampling for cases where the audio output needs to be at a different sampling rate from that used by the source. [Low] is fast and will have minimal impact on system resources such as the use of the CPU, [Medium] & [High] will use progressively more system resources."
-msgstr "设置音频输出需要与音源采样率不同时的重采样质量。[低] 快速而对系统资源如 CPU 占用少，[中] 和 [高] 需要占用更多的系统资源。"
+msgid "Select the quality of resampling for cases where the audio output needs to be at a different sampling rate from that used by the source.[CR][Low] Is fast and will have minimal impact on system resources such as the use of the CPU.[CR][Medium] & [High] Will use progressively more system resources."
+msgstr "设置音频输出需要与音源采样率不同时的重采样质量。[CR][低] 快速而对系统资源如 CPU 占用少。[CR][中] 和 [高] 需要占用更多的系统资源。"
 
 msgctxt "#36170"
 msgid "Stretch the video up to the set percentage in order to minimise black bars."
@@ -11370,16 +11798,20 @@ msgid "Choose which short date format is used for displaying the date in the use
 msgstr "选择用户界面中显示日期使用的短日期格式。"
 
 msgctxt "#36174"
-msgid "Enable Teletext when watching a live TV stream."
+msgid "Enable teletext when watching a live TV stream."
 msgstr "在观看直播电视流时允许图文字幕。"
 
+msgctxt "#36175"
+msgid "Scale teletext to 4:3 ratio."
+msgstr "图文字幕比例为4:3"
+
 msgctxt "#36176"
-msgid "Category containing settings for how video file lists are handled."
-msgstr "包含视频文件列表处理相关设置的功能区。"
+msgid "This category contains the settings for how video file lists are handled."
+msgstr "此功能区包含视频文件列表处理相关设置。"
 
 msgctxt "#36177"
-msgid "Toggle between Choose, Play (default), Resume and Show Information. Choose will select an item, e.g. open a directory in files mode. Resume will automatically resume videos from the last position that you were viewing them, even after restarting the system."
-msgstr "在选定、播放（默认）、继续播放和显示信息之间切换。选定将选择项目，例如在文件模式打开一个目录。继续播放将自动从上次播放位置继续播放视频。"
+msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
+msgstr "在 [选定]、[播放]（默认）、[继续播放] 和 [显示信息] 之间切换。[CR][选定] 将选择项目，例如在文件模式打开一个目录。[CR][继续播放] 将自动从上次播放位置继续播放视频。"
 
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
@@ -11389,21 +11821,25 @@ msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
 msgstr "文件被扫描进资料库后，将显示其元数据标题而非文件名。"
 
+msgctxt "#36180"
+msgid "Extract thumbnails and information, such as codecs and aspect ratio, to display in library mode."
+msgstr "提取缩略图和编码、宽高比等信息，以在资料库模式显示。"
+
 msgctxt "#36181"
 msgid "No info available yet."
 msgstr "无可用信息。"
 
 msgctxt "#36182"
-msgid "Combines multi-part video files, DVD folders, and movie folders down to a single item in non-library views."
-msgstr "在非资料库视图组合多分段视频文件、DVD 文件夹和电影文件夹为单个项目。"
+msgid "Combines multi-part video files, DVD folders or movie folders, down to a single item in non-library views."
+msgstr "在非资料库视图组合多分段视频文件、DVD 文件夹或电影文件夹为单个项目。"
 
 msgctxt "#36183"
-msgid "Removes the title, genre etc nodes from the library view. Selecting a category takes you straight to the title view."
+msgid "Removes the title, genre, etc. nodes from the library view. Selecting a category takes you straight to the title view."
 msgstr "在资料库视图取消标题、类型等结点，直接进入标题视图。"
 
 msgctxt "#36184"
-msgid "Category containing settings for how subtitles are handled."
-msgstr "包含字幕处理相关设置的功能区。"
+msgid "This category contains the settings for how subtitles are handled."
+msgstr "此功能区包含字幕处理相关设置。"
 
 msgctxt "#36185"
 msgid "Set the font type to be used for text based (usually downloaded) subtitles."
@@ -11426,7 +11862,7 @@ msgid "Set the font character set to be used for subtitles."
 msgstr "设置字幕使用的字符集。"
 
 msgctxt "#36190"
-msgid "Override ASS/SSA subtitles fonts."
+msgid "Override ASS / SSA subtitles fonts."
 msgstr "取代 ASS/SSA 字幕字体。"
 
 msgctxt "#36191"
@@ -11438,8 +11874,8 @@ msgid "Location of subtitles on the screen."
 msgstr "字幕在屏幕的显示位置。"
 
 msgctxt "#36193"
-msgid "Category containing settings for how DVDs are handled."
-msgstr "包含 DVD 处理相关设置的功能区。"
+msgid "This category contains the settings for how DVDs are handled."
+msgstr "此功能区包含 DVD 处理相关设置。"
 
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
@@ -11450,24 +11886,36 @@ msgid "Force a region for DVD playback."
 msgstr "强制 DVD 播放的区码。"
 
 msgctxt "#36196"
-msgid "Attempt to skip 'unskippable' introductions before DVD menu."
+msgid "Attempt to skip \"unskippable\" introductions before DVD menu."
 msgstr "尝试跳过 DVD 菜单前“不可跳过”的介绍。"
 
 msgctxt "#36197"
 msgid "No info available yet."
 msgstr "无可用信息。"
 
+msgctxt "#36198"
+msgid "Select the default movie information source. See the add-ons manager for options."
+msgstr "选择默认电影信息来源。选项见插件管理。"
+
+msgctxt "#36199"
+msgid "Select the default TV show information source. See the add-ons manager for options."
+msgstr "选择默认剧集信息来源。选项见插件管理。"
+
 msgctxt "#36200"
-msgid "Default provider for fetching information about music videos."
-msgstr "默认音乐电视信息提供者。"
+msgid "Select the default music videos information source. See the add-ons manager for options."
+msgstr "选择默认音乐电视信息来源。选项见插件管理。"
 
 msgctxt "#36201"
-msgid "Settings for PVR/Live TV features."
+msgid "Settings for PVR / Live TV."
 msgstr "设置 PVR 或直播电视功能。"
 
 msgctxt "#36202"
-msgid "Category for general settings for PVR/Live TV features."
-msgstr "PVR 或直播电视功能常用设置功能区。"
+msgid "This category contains the general settings for the PVR / Live TV."
+msgstr "此功能区包含 PVR 或直播电视常用设置。"
+
+msgctxt "#36203"
+msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
+msgstr "启用“个人视频录像机”（PVR）功能。需要至少安装有一个 PVR 插件。"
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
@@ -11476,6 +11924,10 @@ msgstr "从PVR后端（如果支持）导入频道组。这将删除用户创建
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use own numbering for channels."
 msgstr "按后端频道号排序频道，但使用自有的频道号。"
+
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend, instead of configuring them manually in the channel manager. Only works with one enabled PVR add-on!"
+msgstr "使用后端频道编号取代频道管理中人工设置的编号。仅对一个已启用 PVR 插件有效！"
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -11490,12 +11942,12 @@ msgid "Delete the databases for channels and guide and reimport the data from th
 msgstr "删除频道和指南数据库，然后从后端重新导入数据。"
 
 msgctxt "#36210"
-msgid "Prevent the 'connection lost' notification window from displaying when the PVR backend server is not available."
+msgid "Prevent the \"Connection lost\" notification window from displaying when the PVR backend server is not available."
 msgstr "禁用当 PVR 后端服务器不可用时显示“连接丢失”通知窗。"
 
 msgctxt "#36211"
-msgid "Category for PVR menus and on-screen display settings, as well as channel info windows."
-msgstr "PVR 菜单和在屏显示设置，以及频道信息窗口功能区。"
+msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+msgstr "此功能区包含 PVR 菜单和在屏显示（OSD）设置，以及频道信息窗口。"
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -11522,8 +11974,8 @@ msgid "Scan for missing channel icons."
 msgstr "扫描缺失频道图标。"
 
 msgctxt "#36218"
-msgid "Category for electronic programming guide settings."
-msgstr "电子节目单设置功能区。"
+msgid "This category contains the electronic programming guide (EPG) settings."
+msgstr "此功能区包含电子节目单（EPG）设置。"
 
 msgctxt "#36220"
 msgid "Number of days to show in the guide and import data for from backends."
@@ -11534,15 +11986,15 @@ msgid "Time between imports of guide data from backends."
 msgstr "从后端导入指南数据时间间隔。"
 
 msgctxt "#36222"
-msgid "Do not import the guide data while playing TV to minimise CPU usage."
-msgstr "当以最小 CPU 使用模式播放电视时不导入节目指南数据。"
+msgid "Don't import the guide data while playing TV to minimise CPU usage."
+msgstr "播放电视时不导入节目指南数据以减少 CPU 占用。"
 
 msgctxt "#36223"
 msgid "By default, the guide data is cached in a local database to speed up importing on startup."
 msgstr "默认情况下，指南数据缓存到本地数据库以加速启动时的导入。"
 
 msgctxt "#36224"
-msgid "Hide \"no information available\" labels when no guide data is available for a channel."
+msgid "Hide \"No information available\" labels when no guide data is available for a channel."
 msgstr "隐藏当一个频道无指南数据时显示的“无可用信息”标签。"
 
 msgctxt "#36225"
@@ -11550,8 +12002,8 @@ msgid "Delete the cached guide data and reimport it from the backend."
 msgstr "删除缓存的指南数据并重新从后端导入。"
 
 msgctxt "#36226"
-msgid "Category for PVR playback and channel switching settings."
-msgstr "PVR 播放和频道切换设置功能区。"
+msgid "This category contains the PVR playback and channel switching settings."
+msgstr "此功能区包含 PVR 播放和频道切换设置。"
 
 msgctxt "#36227"
 msgid "Display stream of selected channel in a small box instead of fullscreen."
@@ -11560,6 +12012,10 @@ msgstr "在小窗格显示选中频道视频流而非全屏显示。"
 msgctxt "#36228"
 msgid "Continue with the last viewed channel on startup."
 msgstr "启动时继续最后浏览的频道。"
+
+msgctxt "#36229"
+msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
+msgstr "在编码信息窗显示信号质量信息（如果插件和后端支持）。"
 
 msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
@@ -11574,24 +12030,40 @@ msgid "When pressing channel up or down, the actual channel switch is delayed, a
 msgstr "当向前后翻频道时，延迟真实频道切换。这使你不用等待连续频道切换。"
 
 msgctxt "#36233"
-msgid "Category for default recording duration settings."
-msgstr "默认录像时长设置功能区。"
+msgid "This category contains the default recording duration settings."
+msgstr "此功能区包含默认录像时长设置。"
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button."
 msgstr "按下录像按钮时的即时录像时长。"
+
+msgctxt "#36235"
+msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
+msgstr "录像的优先级，数值大表示优先级高。并非所有插件和后端都支持。"
+
+msgctxt "#36236"
+msgid "Delete recording after this time. Not supported by all add-ons and backends."
+msgstr "删除录像的期限。并非所有插件和后端都支持。"
+
+msgctxt "#36237"
+msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
+msgstr "预约录像开始时间的提前量，以允许播出时间的小误差。并非所有插件和后端都支持。"
+
+msgctxt "#36238"
+msgid "Additional time to record after the scheduled end time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
+msgstr "预约录像结束时间的滞后量，以允许播出时间的小误差。并非所有插件和后端都支持。"
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
 msgstr "当后端新增、完成或移除计时器时显示通知。"
 
 msgctxt "#36240"
-msgid "Category for PVR power management settings, such as when to wake the PVR backend server."
-msgstr "PVR 电源管理设置功能区，如何时唤醒 PVR 后端服务器。"
+msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
+msgstr "此功能区包含 PVR 电源管理设置，如何时唤醒 PVR 后端服务器。"
 
 msgctxt "#36241"
-msgid "Execute the \"wakeup command\" below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
-msgstr "存在此应用时执行下面的“唤醒命令”或进入休眠模式。下一个预约录像的时间戳作为参数传送。"
+msgid "Execute the wakeup command below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
+msgstr "存在此应用时执行下面的唤醒命令或进入休眠模式。下一个预约录像的时间戳作为参数传送。"
 
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
@@ -11614,11 +12086,11 @@ msgid "When to execute the daily wakeup command."
 msgstr "执行每日唤醒指令的时间。"
 
 msgctxt "#36247"
-msgid "Category for parental control settings if the PVR backend server supports parental controls."
-msgstr "家长控制设置功能区，如果 PVR 后端支持家长控制。"
+msgid "This category contains the parental control settings, if the PVR backend server supports parental controls."
+msgstr "此功能区包含家长控制设置，如果 PVR 后端支持家长控制。"
 
 msgctxt "#36248"
-msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can not be played or recorded without entering a pin code, and the guide information is hidden for those channels."
+msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can't be played or recorded without entering a pin code, and the guide information is hidden for those channels."
 msgstr "请求 PIN 码以访问家长锁定频道。频道可以在频道编辑器的常规页面标记为锁定。未输入 PIN 码则无法播放和录制家长锁定频道，这些频道的指南信息也将隐藏。"
 
 msgctxt "#36249"
@@ -11628,6 +12100,14 @@ msgstr "输入一个新的 PIN 码以解锁家长锁定频道。"
 msgctxt "#36250"
 msgid "Ask for the pin code again when trying to access a parental locked channel and the code hasn't been asked for this duration."
 msgstr "当试图访问家长锁定频道且在此时长内未询问PIN码时再次询问PIN码。"
+
+msgctxt "#36251"
+msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
+msgstr "此功能区包含 PVR 后端特殊设置，如果 PVR 插件和后端支持。"
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
+msgstr "此选项针对你的 PVR 后端的特殊设置功能区，如果 PVR 插件和后端支持。"
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -11661,13 +12141,21 @@ msgctxt "#36261"
 msgid "If enabled, this framerate is used for streams we were not able to detect fps."
 msgstr "如启用，此帧率用于无法检测出帧率的流媒体。"
 
+msgctxt "#36262"
+msgid "Export the music library database to XML files. This will optionally overwrite your current XML files."
+msgstr "将音乐资料库数据库导出到 XML 文件。这将有选择地覆盖当前 XML 文件。"
+
+msgctxt "#36263"
+msgid "Import a XML file into the music library database."
+msgstr "从 XML 文件导入到音乐资料库数据库。"
+
 msgctxt "#36264"
-msgid "Category containing settings for how music playback is handled."
-msgstr "包含音乐播放处理相关设置的功能区。"
+msgid "This category contains the settings for how music playback is handled."
+msgstr "此功能区包含音频播放处理相关设置。"
 
 msgctxt "#36265"
-msgid "Automatically plays the next item in the current folder. For example, in Files View: After a track has been played, the next track in the same folder would automatically play."
-msgstr "自动播放当前文件夹的下一个项目。例如，在文件视图：当一首歌播完，同一文件夹中下一首歌将自动播放。"
+msgid "Automatically plays the next item in the current folder, for example in \"Files\" view after a track has been played, the next track in the same folder will automatically play."
+msgstr "自动播放当前文件夹的下一个项目。例如，在“文件”视图：当一首歌播完，同一文件夹中下一首歌将自动播放。"
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
@@ -11734,12 +12222,16 @@ msgid "Search for thumbs on remote shares and optical media. This can often slow
 msgstr "搜索远程共享和光盘媒体缩略图。这通常会降低网络文件夹列表速度。"
 
 msgctxt "#36282"
-msgid "Category containing settings for how CDs are handled."
-msgstr "包含 CD 处理相关设置的功能区。"
+msgid "This category contains the settings for how CDs are handled."
+msgstr "此功能区包含 CD 处理相关设置。"
 
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
 msgstr "插入光盘时自动播放 CD。"
+
+msgctxt "#36284"
+msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
+msgstr "从互联网数据库 freedb.org 读取音乐 CD 信息，如歌名和歌手。"
 
 msgctxt "#36285"
 msgid "Select the location on your hard drive where ripped tracks will be saved to."
@@ -11770,15 +12262,15 @@ msgid "Auto eject disc after rip is complete."
 msgstr "抓取完成后弹出光盘"
 
 msgctxt "#36292"
-msgid "Category containing the settings for how karaoke is handled."
-msgstr "包含卡拉 OK 处理相关设置的功能区。"
+msgid "This category contains the settings for how karaoke is handled."
+msgstr "此功能区包含卡拉 OK 处理相关设置。"
 
 msgctxt "#36293"
 msgid "When playing any music file, look for a matching .cdg file and display its graphics."
 msgstr "播放音乐文件时，查找匹配的 .cdg 文件并显示其中的图像。"
 
 msgctxt "#36294"
-msgid "Show song selection dialog once the last song in the queue has been played."
+msgid "Show song selection dialogue once the last song in the queue has been played."
 msgstr "当队列中的最后一首歌曲播放完时显示歌曲选择对话框。"
 
 msgctxt "#36295"
@@ -11822,8 +12314,8 @@ msgid "Section that contains settings related to pictures and how they are handl
 msgstr "包含与图片及其处理相关设置的区域。"
 
 msgctxt "#36305"
-msgid "Category containing settings for how picture file lists are handled."
-msgstr "包含图片文件列表处理相关设置的功能区。"
+msgid "This category contains the settings for how picture file lists are handled."
+msgstr "此功能区包含图片文件列表处理相关设置。"
 
 msgctxt "#36306"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
@@ -11846,8 +12338,8 @@ msgid "No info available yet."
 msgstr "无可用信息。"
 
 msgctxt "#36311"
-msgid "Category containing settings for how picture slideshows are handled."
-msgstr "包含图片幻灯片处理相关设置的功能区。"
+msgid "This category contains the settings for how the picture slideshow is handled."
+msgstr "此功能区包含图片幻灯片处理相关设置。"
 
 msgctxt "#36312"
 msgid "Select the amount of time that each image is displayed in a slideshow."
@@ -11866,32 +12358,40 @@ msgid "Section that contains weather related settings."
 msgstr "包含与天气相关设置的区域。"
 
 msgctxt "#36316"
-msgid "Category containing settings for how weather add-ons are handled."
-msgstr "包含天气插件处理相关设置的区域。"
+msgid "This category contains the settings for how weather add-ons are handled."
+msgstr "此功能区包含天气插件处理相关设置。"
 
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "最多可以选择三个地点显示天气。"
+
+msgctxt "#36318"
+msgid "Specify the default weather information source. See the add-ons manager for options."
+msgstr "选择默认天气信息来源。选项见插件管理。"
 
 msgctxt "#36319"
 msgid "Section containing settings for how network services are handled."
 msgstr "包含网络服务处理相关设置的区域。"
 
 msgctxt "#36320"
-msgid "Category containing settings used for all services."
-msgstr "包含所有服务相关设置的功能区。"
+msgid "This category contains the settings used for all services."
+msgstr "此功能区包含所有服务相关设置。"
 
 msgctxt "#36321"
 msgid "The name to display for this device when using various network services."
 msgstr "此设备使用各种网络服务时所显示的名称。"
 
 msgctxt "#36322"
-msgid "Category containing settings for how the UPnP service is handled. UPnP is also called \"DLNA\" on most consumer products."
-msgstr "包含 UPnP 服务处理相关设置的区域。UPnP 在许多消费类产品中也被称为“DLNA”。"
+msgid "This category contains the settings for how the UPnP service is handled. UPnP is also called DLNA on most consumer electronics."
+msgstr "此功能区包含 UPnP 服务处理相关设置。UPnP 在许多消费类电子产品中也被称为 DLNA。"
 
 msgctxt "#36323"
 msgid "Enables the UPnP server. This allows you to stream media in your libraries to a UPnP client."
 msgstr "启用 UPnP 服务器。这将允许你从一个 UPnP 客户端以流媒体播放你的库。"
+
+msgctxt "#36324"
+msgid "When a manual or automatic library update occurs, notify UPnP clients."
+msgstr "当人工或自动更新资料库时，通知 UPnP 客户端。"
 
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
@@ -11902,12 +12402,36 @@ msgid "Enable the UPnP control point. This allows you to stream media to any UPn
 msgstr "启用 UPnP 控制点。这将允许你发送流媒体到任何 UPnP 客户端并控制它的播放。"
 
 msgctxt "#36327"
-msgid "Category containing settings for how the webserver service is handled."
-msgstr "包含 web 服务器服务处理相关设置的功能区。"
+msgid "This category contains the settings for how the web server service is handled."
+msgstr "此功能区包含 web 服务器服务处理相关设置。"
+
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server."
+msgstr "允许远程用户通过内建的 web 服务器控制此应用。"
+
+msgctxt "#36329"
+msgid "Define the web server port."
+msgstr "定义 Web 服务器端口。"
+
+msgctxt "#36330"
+msgid "Define the web server username. This only takes effect when both the username and the password are set."
+msgstr "设置 Web 服务器用户名。仅当用户名和密码均设置后才生效。"
+
+msgctxt "#36331"
+msgid "Define the web server password. This only takes effect when both the username and the password are set."
+msgstr "设置 Web 服务器密码。仅当用户名和密码均设置后才生效。"
+
+msgctxt "#36332"
+msgid "Select between web interfaces installed via the add-on manager."
+msgstr "选择通过插件管理安装的 web 界面。"
 
 msgctxt "#36333"
-msgid "Category containing settings for how the remote control service is handled."
-msgstr "包含远程控制服务处理相关设置的功能区。"
+msgid "This category contains the settings for how the remote control service is handled."
+msgstr "此功能区包含远程控制服务处理相关设置。"
+
+msgctxt "#36334"
+msgid "Allow programs on this computer to control this application via the web interface or the JSON-RPC interface protocol."
+msgstr "允许本机程序通过 Web 接口或 JSON-RPC 接口协议控制此应用。"
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -11934,8 +12458,8 @@ msgid "Continuous repeat delay (ms)."
 msgstr "持续重复延时（ms）。"
 
 msgctxt "#36341"
-msgid "Category containing settings for how the zeroconf network discovery service is handled, required for AirPlay."
-msgstr "包含 Zeroconf 网络发现服务处理相关设置的功能区， AirPlay 需要此服务。"
+msgid "This category contains the settings for how the Zeroconf network discovery service is handled, required for AirPlay."
+msgstr "此功能区包含 Zeroconf 网络发现服务处理相关设置， AirPlay 需要此服务。"
 
 msgctxt "#36342"
 msgid "Allows applications on the network to discover enabled services via Zeroconf."
@@ -11954,8 +12478,8 @@ msgid "Sets the AirPlay password."
 msgstr "设置 AirPlay 密码。"
 
 msgctxt "#36346"
-msgid "Category containing settings for how the SMB Client (samba) service is handled."
-msgstr "包含 SMB 客户端（samba）服务处理相关设置的功能区。"
+msgid "This category contains the settings for how the SMB client (Samba) service is handled."
+msgstr "此功能区包含 SMB 客户端（samba）服务处理相关设置。"
 
 msgctxt "#36347"
 msgid "If a WINS server is running on the network, enter its IP address here. Otherwise, leave blank."
@@ -11966,12 +12490,12 @@ msgid "If a WINS server is running on the network, enter its workgroup name here
 msgstr "如果网络中有运行的 WINS 服务器，在此输入它的工作组名称。否则留空。"
 
 msgctxt "#36349"
-msgid "Section that contains the System related settings for the device this application is installed on."
+msgid "Section that contains the system related settings for the device this application is installed on."
 msgstr "包含此应用所安装的设备的系统相关设置的区域。"
 
 msgctxt "#36350"
-msgid "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
-msgstr "访问共享文件或服务前自动向服务器发送“网络唤醒”。"
+msgid "Automatically send Wake-on-LAN to server(s) right before trying to access shared files or services."
+msgstr "访问共享文件或服务前自动向服务器发送网络唤醒。"
 
 msgctxt "#36351"
 msgid "Changes the way this application is displayed on the selected screen. Either in a window or fullscreen."
@@ -12010,16 +12534,16 @@ msgid "Use limited colour range (16-235) instead of full colour range (0-255). L
 msgstr "使用有限的色彩范围（16-235）而非全色彩范围（0-255）。当你的显示器是一个没有 PC 或其它显示全色彩范围模式的常规 HDMI 电视时使用有限范围，如果你的显示器是一个 PC 显示器则应禁用此项以正确的显示黑色。"
 
 msgctxt "#36360"
-msgid "Category containing settings for how audio output is handled."
-msgstr "包含音频输出处理相关设置的功能区。"
+msgid "This category contains the settings for how audio output is handled."
+msgstr "此功能区包含音频输出处理相关设置。"
 
 msgctxt "#36361"
-msgid "Select how the properties of the audio output are set: [Fixed] - output properties are set to the specified sampling rate & speaker configuration at all times; [Best Match] - output properties are set to always be as close a match to the source properties as possible; [Optimized] - output properties are set at the start of playback and will not change if the properties of the source changes."
-msgstr "选择音频输出特性设置：[固定] - 输出特性总是为指定采样率和扬声器配置；[最佳匹配] - 输出特性总是尽可能匹配音源特性；[优化] - 输出特性在播放开始时设定而忽略之后音源特性的变化。"
+msgid "Select how the properties of the audio output are set: [Fixed] Output properties are set to the specified sampling rate & speaker configuration at all times; [Best Match] Output properties are set to always be as close a match to the source properties as possible; [Optimized] Output properties are set at the start of playback and will not change if the properties of the source change."
+msgstr "选择音频输出特性设置：[固定] 输出特性总是为指定采样率和扬声器配置；[最佳匹配] 输出特性总是尽可能匹配音源特性；[优化] 输出特性在播放开始时设定而忽略之后音源特性的变化。"
 
 msgctxt "#36362"
-msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analog connections. This setting does not apply to passthrough audio. Note - SPDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
-msgstr "选择连接的音频设备支持的声道数，或连接的模拟接口的扬声器数。本设置不针对直通音频。注意 - SPDIF 仅支持2.0声道但仍然能通过直通输出支持的格式输出多声道音频。"
+msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
+msgstr "选择连接的音频设备支持的声道数，或连接的模拟接口的扬声器数。本设置不针对直通音频。注意：SPDIF 仅支持2.0声道但仍然能通过直通输出支持的格式输出多声道音频。"
 
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
@@ -12030,20 +12554,20 @@ msgid "Select to enable upmixing of 2 channel audio to the number of audio chann
 msgstr "选择以启用将双声道音频上混为多声道以匹配声道设置。"
 
 msgctxt "#36365"
-msgid "Select this option if your receiver is capable of decoding AC3 streams."
-msgstr "当你的功放能解码 AC3 音频流时选择此项。"
+msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
+msgstr "当你的功放能解码杜比数字（AC3）音频流时选择此项。"
 
 msgctxt "#36366"
 msgid "Select this option if your receiver is capable of decoding DTS streams."
 msgstr "当你的功放能解码 DTS 音频流时选择此项。"
 
 msgctxt "#36367"
-msgid "Select the maximum number of audio channels/speakers available for audio decoded. If optical/coax digital outputs are used this must be set to 2.0"
+msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "选择解码音频可用的最大声道/扬声器数。如果使用光纤/同轴数字输出则应设置为2.0"
 
 msgctxt "#36368"
-msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital."
-msgstr "选择以启用如杜比数字等编码音频播放的直通输出选项。"
+msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
+msgstr "选择以启用如杜比数字（AC3）、DTS 等编码音频播放的直通输出选项。"
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -12058,16 +12582,16 @@ msgid "Select the device to be used for playback of audio that has been decoded 
 msgstr "选择用于播放已被解码的的音频如 mp3 的设备。"
 
 msgctxt "#36372"
-msgid "Select the device to be used for playback of encoded formats, these are any of the formats below in the 'capable receiver' options."
-msgstr "选择用于播放未解码格式，也就是上面选择功放兼容的编码格式音频的播放设备。"
+msgid "Select the device to be used for playback of encoded formats, these are any of the formats below in the capable receiver options."
+msgstr "选择用于播放未解码格式的设备，就是下面功放兼容选项中的那些编码格式。"
 
 msgctxt "#36373"
 msgid "Configure how interface sounds are handled, such as menu navigation and important notifications."
 msgstr "设置用户界面声音效果处理，如菜单导航和重要通知。"
 
 msgctxt "#36374"
-msgid "Category containing settings for how input devices are handled."
-msgstr "包含输入设备处理相关设置的功能区。"
+msgid "This category contains the settings for how input devices are handled."
+msgstr "此功能区包含输入设备处理相关设置。"
 
 msgctxt "#36375"
 msgid "Configure any attached peripheral devices."
@@ -12078,12 +12602,20 @@ msgid "When activated, your keyboard arrows will move the selection on the virtu
 msgstr "激活时，键盘方向键控制在虚拟键盘按键间移动。停用时，键盘方向键控制输入文本中的光标移动。"
 
 msgctxt "#36377"
-msgid "Use a mouse or touch screen device to control the interface. Note: disabling will cause you to lose control over this application when no keyboard or remote is present."
+msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "使用鼠标或触摸屏设备控制用户界面。注意：无键盘或遥控器时禁用会导致失去对此应用的控制。"
 
 msgctxt "#36378"
 msgid "Use a joystick to control the interface."
 msgstr "使用游戏杆控制用户界面。"
+
+msgctxt "#36379"
+msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
+msgstr "此功能区包含互联网访问相关设置。还可以在此选择默认 Web 界面。"
+
+msgctxt "#36380"
+msgid "If your Internet connection uses a proxy server, configure it here."
+msgstr "在此设置通过代理访问互联网。"
 
 msgctxt "#36381"
 msgid "Configure which proxy type is used."
@@ -12105,9 +12637,13 @@ msgctxt "#36385"
 msgid "Configure the proxy server password."
 msgstr "设置代理服务器密码。"
 
+msgctxt "#36386"
+msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
+msgstr "如果你的互联网连接有带宽限制，通过本设置将此应用使用的带宽保持在限额内。"
+
 msgctxt "#36387"
-msgid "Category containing settings for power saving."
-msgstr "包含省电相关设置的功能区。"
+msgid "This category contains the settings for power saving."
+msgstr "此功能区包含省电相关设置。"
 
 msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
@@ -12122,8 +12658,8 @@ msgid "Define what action to perform when the shutdown function timer lapsed."
 msgstr "定义关机功能定时器到期时的动作。"
 
 msgctxt "#36391"
-msgid "Category containing settings for debugging functions."
-msgstr "包含调试功能相关设置的功能区。"
+msgid "This category contains the settings for enabling debug functions. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
+msgstr "此功能区包含启用调试功能相关设置。还可以启用部件相关的调试日志来获取更多信息以帮助定位故障。"
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
@@ -12134,16 +12670,16 @@ msgid "Select the folder where screenshots should be saved in."
 msgstr "选择保存屏幕截图的目录。"
 
 msgctxt "#36394"
-msgid "Enables log messages from additional libraries to be included in the log."
-msgstr "启用在日志中包含附加库的调试信息。"
+msgid "Enables verbose messages from additional libraries to be included in the debug log."
+msgstr "启用在调试日志中包含附加库的详细信息。"
 
 msgctxt "#36395"
-msgid "Category containing settings for the master lock function."
-msgstr "包含管理员锁定功能相关设置的功能区。"
+msgid "This category contains the settings for how the master lock function is handled."
+msgstr "此功能区包含管理员锁定功能处理相关设置。"
 
 msgctxt "#36396"
-msgid "Define the PIN code used for the master lock."
-msgstr "定义用于管理员锁定的 PIN 码。"
+msgid "Here you can enable or disable master lock and define the PIN code used to unlock it. You can also specify which areas of the application would need a PIN to access them."
+msgstr "可在此启用或禁用管理员锁定，以及定义用于解锁的 PIN 码。还可以指定哪些功能需要 PIN 码才能访问。"
 
 msgctxt "#36397"
 msgid "If enabled, the master lock code is required to unlock this application on startup."
@@ -12154,12 +12690,44 @@ msgid "Define the maximum number of retries before this application is closed do
 msgstr "定义此应用关闭前的最大重试次数。"
 
 msgctxt "#36399"
-msgid "Category containing settings for the cache function."
-msgstr "包含缓存相关设置的功能区。"
+msgid "This category contains the settings for how the cache function is handled."
+msgstr "此功能区包含缓存功能处理相关设置。"
+
+msgctxt "#36400"
+msgid "Enable cache for playback of video, audio or DVDs from hard disk."
+msgstr "启用从硬盘播放视频、音频或 DVD 的缓冲。"
+
+msgctxt "#36401"
+msgid "Enable cache for playback of video from DVD-ROM."
+msgstr "启用从 DVD-ROM 播放视频的缓冲。"
+
+msgctxt "#36402"
+msgid "Enable cache for video playback from local network."
+msgstr "启用从本地网络播放视频的缓冲。"
+
+msgctxt "#36403"
+msgid "Enable cache for video playback from Internet."
+msgstr "启用从互联网播放视频的缓冲。"
+
+msgctxt "#36404"
+msgid "Enable cache for playback of audio from DVD-ROM."
+msgstr "启用从 DVD-ROM 播放音频的缓冲。"
+
+msgctxt "#36405"
+msgid "Enable cache for audio playback from local network."
+msgstr "启用从本地网络播放音频的缓冲。"
+
+msgctxt "#36406"
+msgid "Enable cache for audio playback from Internet."
+msgstr "启用从互联网播放音频的缓冲。"
 
 msgctxt "#36407"
 msgid "Enable cache for playback of DVD from DVD-ROM."
 msgstr "启用从 DVD-ROM 播放 DVD 的缓冲。"
+
+msgctxt "#36408"
+msgid "Enable cache for DVD playback from local network."
+msgstr "启用从本地网络播放 DVD 的缓冲。"
 
 msgctxt "#36409"
 msgid "Enable cache of unknown types from Internet."
@@ -12205,16 +12773,20 @@ msgctxt "#36419"
 msgid "Define locations used for retrieving weather information."
 msgstr "定义要获取天气信息的地点。"
 
+msgctxt "#36420"
+msgid "Look for external subtitles for videos provided by the UPnP server. This can cause extensive CPU, filesystem and network load."
+msgstr "搜索来自 UPnP 服务器的视频的外挂字幕。这会加重 CPU、文件系统和网络负载。"
+
 msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "在低功耗系统旁路 VDPAU 混合器以减少资源占用，但会稍微降低图像质量。"
 
 msgctxt "#36422"
-msgid "Enable hardware video decode using AMLogic decoder."
-msgstr "启用 AMLogic 解码器的视频硬解码。"
+msgid "Enable hardware video decode using Amlogic decoder."
+msgstr "启用 Amlogic 解码器的视频硬解码。"
 
 msgctxt "#36424"
-msgid "Select what will happen when an item is selected in the guide: [Show context menu] will trigger the contextual menu from where you can choose further actions; [Switch to channel] will instantly tune to the related channel; [Show information] will display a detailed information with plot and further options; [Record] will create a recording timer for the selected item."
+msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
 msgstr "设定指南中一个项目被选择时的动作：[显示上下文菜单] 将触发上下文菜单供选择进一步的动作；[切换到频道] 将立即切换到相应频道；[显示信息] 将显示剧情和进一步选项的详细信息；[录像] 将创建选定项目的录像定时器。"
 
 msgctxt "#36425"
@@ -12234,8 +12806,8 @@ msgid "Record"
 msgstr "录像"
 
 msgctxt "#36429"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1, such as an SPDIF connection.  If your system supports LPCM multichannel sound via HDMI, leave this disabled."
-msgstr "当类似 SPDIF 这样的音频输出接口仅支持如杜比数字5.1多声道音频时选择此项。如果你的系统通过 HDMI 支持 LPCM 多声道，则禁用此项。"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
+msgstr "当类似 SPDIF 这样的音频输出接口仅支持如杜比数字5.1（AC3）多声道音频时选择此项。如果你的系统通过 HDMI 支持 PCM 多声道音频，则禁用此项。"
 
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
@@ -12245,13 +12817,21 @@ msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "选择虚拟键盘布局。"
 
+msgctxt "#36433"
+msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
+msgstr "启用时将首选 VAAPI 渲染模式，这能降低 CPU 占用。如果造成系统无响应可禁用此选项。"
+
+msgctxt "#36434"
+msgid "Allow hardware acceleration - MMAL"
+msgstr "允许硬件加速 - MMAL"
+
 msgctxt "#36435"
 msgid "Use DVDPlayer for decoding of video files with MMAL acceleration."
 msgstr "使用 DVDPlayer 用 MMAL 加速解码视频文件。"
 
 msgctxt "#36500"
-msgid "Stereoscopic 3D mode (current)"
-msgstr "立体模式（当前）"
+msgid "Stereoscopic 3D mode / Current"
+msgstr "立体模式/当前"
 
 msgctxt "#36501"
 msgid "Stereoscopic 3D mode"
@@ -12262,7 +12842,7 @@ msgid "Disabled"
 msgstr "禁用"
 
 msgctxt "#36503"
-msgid "Over/Under"
+msgid "Over / Under"
 msgstr "上下模式"
 
 msgctxt "#36504"
@@ -12270,11 +12850,11 @@ msgid "Side by side"
 msgstr "左右模式"
 
 msgctxt "#36505"
-msgid "Anaglyph Red/Cyan"
+msgid "Anaglyph red / cyan"
 msgstr "红/青色差式"
 
 msgctxt "#36506"
-msgid "Anaglyph Green/Magenta"
+msgid "Anaglyph green / magenta"
 msgstr "绿/红色差式"
 
 msgctxt "#36507"
@@ -12282,11 +12862,15 @@ msgid "Interlaced"
 msgstr "隔行"
 
 msgctxt "#36508"
-msgid "Hardware Based"
+msgid "Hardware based"
 msgstr "基于硬件"
 
+msgctxt "#36509"
+msgid "Monoscopic / 2D"
+msgstr "平面/2D"
+
 msgctxt "#36510"
-msgid "Anaglyph Yellow/Blue"
+msgid "Anaglyph yellow / blue"
 msgstr "黄/蓝色差式"
 
 msgctxt "#36520"
@@ -12298,8 +12882,8 @@ msgid "Ask me"
 msgstr "询问"
 
 msgctxt "#36523"
-msgid "Maximum sampling rate for spdif or sampling rate for fixed output configuration."
-msgstr "spdif 或固定输出设置的最大采样率。"
+msgid "Maximum sampling rate for S/PDIF or sampling rate for fixed output configuration."
+msgstr "SPDIF 的最大采样率或混合输出的采样率设置。"
 
 msgctxt "#36524"
 msgid "Preferred mode"
@@ -12330,20 +12914,28 @@ msgid "Same as movie"
 msgstr "同影片格式"
 
 msgctxt "#36533"
-msgid "Select how audio is downmixed, for example from 5.1 to 2.0: [Enabled] maintains volume level of the original audio source however the dynamic range is compressed. [Disabled] maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note - Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
-msgstr "选择音频混缩方式，如从5.1到2.0：[启用] 保持原始音频源的音量级别，动态范围将被压缩。[禁用] 混缩时保持原始音频源的动态范围，音量将减小。注意 － 动态范围是音频源中最安静和最大声之间的差异。当电影中的对话几乎听不见时启用此设置。"
+msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
+msgstr "选择音频混缩方式，如从5.1到2.0：[CR][启用] 保持原始音频源的音量级别，动态范围将被压缩。[CR][禁用] 混缩时保持原始音频源的动态范围，音量将减小。注意：动态范围是音频源中最安静和最大声之间的差异。当电影中的对话几乎听不见时启用此设置。"
 
 msgctxt "#36534"
-msgid "Specify additional libraries whose log messages are to be included in the log."
-msgstr "指定要包含到日志中的附加库调试信息。"
+msgid "Specify additional libraries whose verbose messages are to be included in the debug log."
+msgstr "指定要包含到调试日志中的附加库详细信息。"
 
 msgctxt "#36535"
 msgid "Stereoscopic 3D mode of video"
 msgstr "视频立体模式"
 
+msgctxt "#36536"
+msgid "Invert stereoscopic 3D mode (flip eyes)"
+msgstr "反转立体模式（左右眼）"
+
+msgctxt "#36537"
+msgid "Select in which mode stereoscopic 3D videos will be played.[CR][Ask me] Will show a dialogue to select the desired mode for each playback.[CR][Preferred mode] Will use the preferred mode specified in the \"System -> Video hardware\" section of the settings.[CR][Monoscopic / 2D] Will play the video in mono / 2D.[CR][Ignore] Disables any stereoscopic 3D processing and handling."
+msgstr "选择立体视频播放模式。[CR][询问] 每次播放时弹出菜单选择模式。[CR][首选模式] 使用在“系统 -> 视频输出”中设置的首选模式。[CR][平面/2D] 以平面/2D模式播放视频。[CR][忽略] 禁用立体处理。"
+
 msgctxt "#36538"
-msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode when playback ended - also between videos in a playlist if necessary. [Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists the stereoscopic 3D mode won't change between videos, not even for non stereoscopic ones."
-msgstr "[启用] 播放结束时图形用户界面（及电视）切换回 2D 模式 - 如果需要也包括播放列表中的视频之间。[禁用] 图形用户界面和电视保持 3D 立体模式。对于视频播放列表，视频之间不会改变 3D 立体模式，即使是非立体视频。"
+msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode, between videos in a playlist or when playback ended.[CR][Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists with mixed stereoscopic 3D and 2D content, then the GUI will also stay in stereoscopic 3D mode even when a non-stereoscopic 2D video is playing."
+msgstr "[启用] 播放列表中的视频之间或播放结束时图形用户界面（及电视）切换回 2D 模式。[CR][禁用] 图形用户界面和电视保持 3D 立体模式。对于混合有 3D 和 2D 内容的视频播放列表，即使播放 2D 视频时，图形用户界面也一直保持为 3D 立体模式。"
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
@@ -12390,20 +12982,20 @@ msgid "Use iOS8 compatible AirPlay support. If you have trouble with older iOS d
 msgstr "使用 iOS8 兼容 AirPlay 支持。如果老的 iOS 设备检测此应用存在问题，你可以尝试关闭此选项。此选项需重启才能生效！"
 
 msgctxt "#36600"
-msgid "Category containing the settings for how the music library is handled."
-msgstr "包含音乐资料库处理相关设置的功能区。"
+msgid "This category contains the settings for how the music library is handled."
+msgstr "此功能区包含音频资料库处理相关设置。"
 
 msgctxt "#36601"
-msgid "Category containing settings for how music file lists are handled."
-msgstr "包含音乐文件列表处理相关设置的功能区。"
+msgid "This category contains the settings for how music file lists are handled."
+msgstr "此功能区包含音乐文件列表处理相关设置。"
 
 msgctxt "#36602"
-msgid "Category containing settings for how the AirPlay service is handled."
-msgstr "包含 AirPlay 服务处理相关设置的功能区。"
+msgid "This category contains the settings for how the AirPlay service is handled."
+msgstr "此功能区包含 AirPlay 服务处理相关设置。"
 
 msgctxt "#36603"
-msgid "Category containing settings for how video output is handled."
-msgstr "包含视频输出处理相关设置的功能区。"
+msgid "This category contains the settings for how video output is handled."
+msgstr "此功能区包含视频输出处理相关设置。"
 
 msgctxt "#36900"
 msgid "movie"
@@ -12436,6 +13028,14 @@ msgstr "集"
 msgctxt "#36907"
 msgid "episodes"
 msgstr "集"
+
+msgctxt "#36908"
+msgid "music video"
+msgstr "音乐电视"
+
+msgctxt "#36909"
+msgid "music videos"
+msgstr "音乐电视"
 
 msgctxt "#36910"
 msgid "set"
@@ -12485,6 +13085,18 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "歌曲"
 
+msgctxt "#37000"
+msgid "(Visually impaired)"
+msgstr "（视障）"
+
+msgctxt "#37001"
+msgid "(Director's comments)"
+msgstr "（导演点评）"
+
+msgctxt "#37002"
+msgid "(Director's comments 2)"
+msgstr "（导演点评2）"
+
 msgctxt "#37011"
 msgid "(CC)"
 msgstr "（CC）"
@@ -12493,13 +13105,21 @@ msgctxt "#37012"
 msgid "(Forced)"
 msgstr "（强制）"
 
+msgctxt "#37013"
+msgid "(Director's comments)"
+msgstr "（导演点评）"
+
 msgctxt "#37014"
 msgid "Last used profile"
 msgstr "最近使用的用户配置"
 
+msgctxt "#37015"
+msgid "Browse into"
+msgstr "浏览"
+
 msgctxt "#37016"
-msgid "Select this option if your receiver is capable of decoding E-AC3 streams."
-msgstr "当你的功放能解码 E-AC3 音频流时选择此项。"
+msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
+msgstr "当你的功放能解码杜比数字+（E-AC3）音频流时选择此项。"
 
 msgctxt "#37017"
 msgid "Dual audio output"
@@ -12517,13 +13137,17 @@ msgctxt "#37021"
 msgid "Set GUI resolution limit"
 msgstr "设置用户界面分辨率限制"
 
+msgctxt "#37022"
+msgid "UPnP player"
+msgstr "UPnP 播放器"
+
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "要停止远程设备上的播放吗？"
 
 msgctxt "#37024"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1, this allows multichannel audio such as AAC5.1 or FLAC5.1 to be listened to in 5.1 surround sound. Note - Not recommended on Pi as this requires a lot of CPU."
-msgstr "当音频输出接口仅支持如杜比数字5.1多声道音频时选择此项，这将允许 AAC5.1 或 FLAC5.1 等多声道音频以5.1环绕声播放。注意 - 需占用较多 CPU 资源，建议不要在 Pi 上使用。"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
+msgstr "当音频输出接口仅支持如杜比数字5.1（AC3）多声道音频时选择此项，这将允许 AAC 5.1 或 FLAC 5.1 等多声道音频以5.1环绕声播放。注意：需占用较多 CPU 资源，建议不要在 Pi 上使用。"
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -12550,12 +13174,16 @@ msgid "Unlimited"
 msgstr "无限制"
 
 msgctxt "#37031"
-msgid "Specifies how Blu-rays should be opened/played back. Disc menus are not fully supported yet and may cause problems."
-msgstr "指定蓝光打开/播放方式。光盘菜单尚未完全支持，可能会出问题。"
+msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
+msgstr "指定蓝光打开/播放方式。注意：有些光盘菜单尚未完全支持，可能会出问题。"
 
 msgctxt "#37032"
 msgid "Accessibility"
 msgstr "易用性"
+
+msgctxt "#37033"
+msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+msgstr "视频播放相关的易用性设置，如“首选字幕针对听障人士”。"
 
 msgctxt "#37034"
 msgid "Prefer audio stream for the visually impaired"
@@ -12586,8 +13214,8 @@ msgid "Prefer default audio streams"
 msgstr "首选默认音频流"
 
 msgctxt "#37041"
-msgid "If enabled, audio streams that are flagged as \"default\" (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
-msgstr "如启用，标记为“默认”的音频流（且匹配首选语言）相对其它类型高优先级音频流（声道数、编码等）更优先选用。"
+msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
+msgstr "如启用，标记为默认的音频流（且匹配首选语言）相对其它类型高优先级音频流（声道数、编码等）更优先选用。"
 
 msgctxt "#37042"
 msgid "Defines which step sizes to use when pressing the skip buttons. If more steps are selected for a skip direction, these can be applied by subsequent presses on the skip button within the defined skip delay. Forward (positive) and backward (negative) steps can be defined independently."
@@ -12602,12 +13230,20 @@ msgid "Extract chapter thumbnails"
 msgstr "提取章节缩略图"
 
 msgctxt "#37045"
-msgid "Extract chapter thumbnails for presentation in the chapters/bookmarks dialog. This might increase CPU load."
+msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
 msgstr "提取章节缩略图用于章节/书签对话框显示。这会增加 CPU 负荷。"
 
 msgctxt "#38010"
 msgid "GPU accelerated"
 msgstr "GPU 加速"
+
+msgctxt "#38011"
+msgid "Show \"All items\" entry"
+msgstr "显示“所有项目”项"
+
+msgctxt "#38012"
+msgid "Show \"All items\" entry in directory, e.g. \"All albums\" or \"All seasons\"."
+msgstr "在目录中显示“所有项目”项，如“全部专辑”或“整季”。"
 
 msgctxt "#38013"
 msgid "Limit GUI updates during playback"

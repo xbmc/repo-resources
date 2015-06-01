@@ -30,8 +30,8 @@ msgid "Videos"
 msgstr "Videot"
 
 msgctxt "#4"
-msgid "TV-Guide"
-msgstr "TV-opas"
+msgid "TV guide"
+msgstr "Ohjelmaopas"
 
 msgctxt "#5"
 msgid "Settings"
@@ -382,11 +382,11 @@ msgid "New folder"
 msgstr "Uusi kansio"
 
 msgctxt "#120"
-msgid "Confirm file copy"
+msgid "Confirm copy"
 msgstr "Vahvista tiedoston kopiointi"
 
 msgctxt "#121"
-msgid "Confirm file move"
+msgid "Confirm move"
 msgstr "Vahvista tiedoston siirto"
 
 msgctxt "#122"
@@ -394,16 +394,16 @@ msgid "Confirm delete"
 msgstr "Vahvista poisto"
 
 msgctxt "#123"
-msgid "Copy these files?"
-msgstr "Kopioidaanko valitut tiedostot?"
+msgid "Would you like to copy the selected file(s)?"
+msgstr "Haluatko kopioida valitut tiedostot?"
 
 msgctxt "#124"
-msgid "Move these files?"
-msgstr "Siirretäänkö valitut tiedostot?"
+msgid "Would you like to move the selected file(s)?"
+msgstr "Haluatko siirtää valitut tiedostot?"
 
 msgctxt "#125"
-msgid "Delete these files? - Deleting files cannot be undone!"
-msgstr "Poistetaanko valitut tiedostot? - Poistettuja ei voi palauttaa!"
+msgid "Would you like to delete the selected file(s)?[CR]Warning - this action can't be undone!"
+msgstr "Haluatko poistaa valitut tiedostot?[CR]Varoitus - toimintoa ei voi perua!"
 
 msgctxt "#126"
 msgid "Status"
@@ -646,7 +646,7 @@ msgid "Select all"
 msgstr "Valitse kaikki"
 
 msgctxt "#189"
-msgid "Scanning media info"
+msgid "Scanning media information"
 msgstr "Haetaan median tiedot"
 
 msgctxt "#190"
@@ -670,7 +670,7 @@ msgid "Searching..."
 msgstr "Etsitään..."
 
 msgctxt "#195"
-msgid "No info found!"
+msgid "No information found!"
 msgstr "Tietoja ei löytynyt!"
 
 msgctxt "#196"
@@ -678,7 +678,7 @@ msgid "Select movie:"
 msgstr "Valitse elokuva:"
 
 msgctxt "#197"
-msgid "Querying %s info"
+msgid "Querying %s information"
 msgstr "Haetaan tietoja %s:sta"
 
 msgctxt "#198"
@@ -833,17 +833,17 @@ msgctxt "#239"
 msgid "Clear playlist on finish"
 msgstr "Tyhjennä toistolista lopuksi"
 
-msgctxt "#240"
-msgid "Display Mode"
-msgstr "Näyttömuoto"
-
 msgctxt "#241"
-msgid "Full Screen #%d"
+msgid "Full screen #%d"
 msgstr "Kokoruutu #%d"
 
 msgctxt "#242"
 msgid "Windowed"
 msgstr "Ikkuna"
+
+msgctxt "#243"
+msgid "Refresh rate"
+msgstr "Päivitysnopeus"
 
 msgctxt "#244"
 msgid "Full screen"
@@ -1294,7 +1294,7 @@ msgid "Screensaver"
 msgstr "Näytönsäästäjä"
 
 msgctxt "#361"
-msgid "R. Slideshow"
+msgid "Recursive slideshow"
 msgstr "Kaikkien kuvaesitys"
 
 msgctxt "#362"
@@ -1521,17 +1521,9 @@ msgctxt "#419"
 msgid "High"
 msgstr "Ylin"
 
-msgctxt "#420"
-msgid "Best Match"
-msgstr "Paras osuvuus"
-
 msgctxt "#421"
 msgid "Keep audio device alive"
 msgstr "Pidä äänilaite elossa"
-
-msgctxt "#422"
-msgid "Delete album info"
-msgstr "Poista albumin tiedot"
 
 msgctxt "#423"
 msgid "Delete CD information"
@@ -1554,7 +1546,7 @@ msgid "Disc"
 msgstr "Levy"
 
 msgctxt "#428"
-msgid "Insert correct CD/DVD"
+msgid "Insert correct CD / DVD"
 msgstr "Aseta oikea CD/DVD-levy"
 
 msgctxt "#429"
@@ -1572,10 +1564,6 @@ msgstr "Ei välimuistia"
 msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Poista elokuva kirjastosta"
-
-msgctxt "#433"
-msgid "Really remove '%s'?"
-msgstr "Haluatko varmasti poistaa kohteen[CR]'%s'?"
 
 msgctxt "#434"
 msgid "From %s at %i %s"
@@ -1785,10 +1773,6 @@ msgctxt "#492"
 msgid "Resize VobSubs"
 msgstr "Tekstityksen koko"
 
-msgctxt "#493"
-msgid "Advanced options (Experts Only!)"
-msgstr "Lisäasetukset (vain edistyneille käyttäjille!)"
-
 msgctxt "#494"
 msgid "Overall audio headroom"
 msgstr "Äänen tilantunne (dB)"
@@ -1828,10 +1812,6 @@ msgstr "Odota"
 msgctxt "#504"
 msgid "Empty"
 msgstr "Ei levyä"
-
-msgctxt "#505"
-msgid "Loading media info from files..."
-msgstr "Luetaan tiedostojen mediatiedot..."
 
 msgctxt "#507"
 msgid "Sort by: Usage"
@@ -2097,6 +2077,10 @@ msgctxt "#576"
 msgid "Times played"
 msgstr "Toistokertoja"
 
+msgctxt "#577"
+msgid "Date taken"
+msgstr "Otettu"
+
 msgctxt "#580"
 msgid "Sort direction"
 msgstr "Järjestelyn suunta"
@@ -2197,14 +2181,6 @@ msgctxt "#607"
 msgid "To:"
 msgstr "Tallennetaan:"
 
-msgctxt "#608"
-msgid "Could not rip CD or track"
-msgstr "CD:tä tai kappaletta ei pystytty siirtämään"
-
-msgctxt "#609"
-msgid "CDDARipPath is not set."
-msgstr "Tallennuskansiota ei ole määritetty."
-
 msgctxt "#610"
 msgid "Rip audio track"
 msgstr "Siirrä kappale kiintolevylle"
@@ -2269,13 +2245,13 @@ msgctxt "#632"
 msgid "Stretch 4:3"
 msgstr "Venytä kokoon 4:3"
 
-msgctxt "#633"
-msgid "Wide Zoom"
-msgstr "Leveyden zoomaus"
-
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "Venytä kokoon 16:9"
+
+msgctxt "#635"
+msgid "Original size"
+msgstr "Alkuperäinen koko"
 
 msgctxt "#636"
 msgid "Custom"
@@ -2341,10 +2317,6 @@ msgctxt "#653"
 msgid "Update library"
 msgstr "Päivitä kirjasto"
 
-msgctxt "#654"
-msgid "Show debug info"
-msgstr "Näytä suoritustiedot"
-
 msgctxt "#655"
 msgid "Browse for executable"
 msgstr "Valitse ohjelma"
@@ -2381,17 +2353,9 @@ msgctxt "#663"
 msgid "Would you like to remove it from the library?"
 msgstr "Haluatko poistaa sen kirjastosta?"
 
-msgctxt "#664"
-msgid "Browse for Script"
-msgstr "Valitse skripti"
-
 msgctxt "#665"
 msgid "Compression level"
 msgstr "Pakkaustaso"
-
-msgctxt "#667"
-msgid "Enable Dolby Digital transcoding"
-msgstr "Ota käyttöön Dolby Digital muunnin"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2436,10 +2400,6 @@ msgstr "Jakotapa"
 msgctxt "#716"
 msgid "Automatic (DHCP)"
 msgstr "Automaattinen (DHCP)"
-
-msgctxt "#717"
-msgid "Manual (Static)"
-msgstr "Manuaalinen (Kiinteä)"
 
 msgctxt "#719"
 msgid "IP address"
@@ -2730,16 +2690,8 @@ msgid "Internet access"
 msgstr "Internet-yhteys"
 
 msgctxt "#799"
-msgid "Library Update"
+msgid "Library update"
 msgstr "Kirjaston päivitys"
-
-msgctxt "#800"
-msgid "Music library needs to rescan tags from files."
-msgstr "Musiikki kirjaston täytyy lukea tagit uudelleen tiedostoista"
-
-msgctxt "#801"
-msgid "Would you like to scan now?"
-msgstr "Haetaanko nyt?"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -2757,6 +2709,18 @@ msgctxt "#852"
 msgid "Valid port range is 1024-65535"
 msgstr "Portin oltava väliltä 1024-65535"
 
+msgctxt "#997"
+msgid "Add pictures..."
+msgstr "Lisää kuvia..."
+
+msgctxt "#998"
+msgid "Add music..."
+msgstr "Lisää musiikkia..."
+
+msgctxt "#999"
+msgid "Add videos..."
+msgstr "Lisää videoita..."
+
 msgctxt "#1000"
 msgid "Preview"
 msgstr "Esikatselu"
@@ -2766,7 +2730,7 @@ msgid "Unable to connect"
 msgstr "Ei saada yhteyttä"
 
 msgctxt "#1002"
-msgid "The connection to the network location could not be established."
+msgid "The connection to the network location couldn't be established."
 msgstr "Yhteyttä verkkoon ei voitu muodostaa."
 
 msgctxt "#1003"
@@ -2842,8 +2806,8 @@ msgid "Enter the paths or browse for the media locations."
 msgstr "Tiedostojen polku:"
 
 msgctxt "#1022"
-msgid "Enter a name for this media Source."
-msgstr "Sijainnin nimi"
+msgid "Enter a name for this media source."
+msgstr "Anna medialähteen nimi"
 
 msgctxt "#1023"
 msgid "Browse for new share"
@@ -2854,7 +2818,7 @@ msgid "Browse"
 msgstr "Selaa"
 
 msgctxt "#1025"
-msgid "Could not retrieve directory information."
+msgid "Couldn't retrieve directory information."
 msgstr "Ei saatu hakemiston tietoja."
 
 msgctxt "#1026"
@@ -2901,6 +2865,18 @@ msgctxt "#1036"
 msgid "Favourites"
 msgstr "Suosikit"
 
+msgctxt "#1037"
+msgid "Video add-ons"
+msgstr "Video-lisäosat"
+
+msgctxt "#1038"
+msgid "Music add-ons"
+msgstr "Musiikki-lisäosat"
+
+msgctxt "#1039"
+msgid "Picture add-ons"
+msgstr "Kuva-lisäosat"
+
 msgctxt "#1040"
 msgid "Loading directory"
 msgstr "Hakemiston lataus"
@@ -2912,6 +2888,10 @@ msgstr "Noudettu %i kohdetta"
 msgctxt "#1042"
 msgid "Retrieved %i of %i items"
 msgstr "Noudettu %i / %i kohdetta"
+
+msgctxt "#1043"
+msgid "Program add-ons"
+msgstr "Ohjelma laajennukset"
 
 msgctxt "#1045"
 msgid "Add-on settings"
@@ -3085,6 +3065,10 @@ msgctxt "#1259"
 msgid "Zeroconf"
 msgstr "Zeroconf"
 
+msgctxt "#1260"
+msgid "Announce services to other systems"
+msgstr "Julkista palvelut muille koneille"
+
 msgctxt "#1268"
 msgid "iOS 8 compatibility mode"
 msgstr "iOS 8 yhteensopivuustila"
@@ -3133,6 +3117,10 @@ msgctxt "#1376"
 msgid "Pressure"
 msgstr "Ilmanpaine"
 
+msgctxt "#1380"
+msgid "Very"
+msgstr "Erittäin"
+
 msgctxt "#1381"
 msgid "Extreme"
 msgstr "Erittäin korkea"
@@ -3142,7 +3130,7 @@ msgid "Whirls"
 msgstr "Pyörteitä"
 
 msgctxt "#1383"
-msgid "Sky Is Clear"
+msgid "Sky is clear"
 msgstr "Taivas on selkeä"
 
 msgctxt "#1384"
@@ -3180,6 +3168,10 @@ msgstr "Viima"
 msgctxt "#1392"
 msgid "Gentle"
 msgstr "Kevyt"
+
+msgctxt "#1394"
+msgid "Severe"
+msgstr "Vakava"
 
 msgctxt "#1395"
 msgid "Violent"
@@ -3385,10 +3377,6 @@ msgctxt "#1446"
 msgid "Unknown"
 msgstr "Tuntematon"
 
-msgctxt "#1447"
-msgid "Squals"
-msgstr "Puuskia"
-
 msgctxt "#1448"
 msgid "Precipitation"
 msgstr "Sademäärä"
@@ -3413,10 +3401,6 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Palasi isäntälistaan koska nykyinen lista on tyhjä"
 
-msgctxt "#2101"
-msgid "Newer version needed - See log"
-msgstr "Tarvitaan uudempi versio - Katso lisää virhelokista"
-
 msgctxt "#2102"
 msgid "%s error"
 msgstr "%s - virhe"
@@ -3426,7 +3410,7 @@ msgid "Add-on error"
 msgstr "Lisäosan virhe"
 
 msgctxt "#2104"
-msgid "See log for more info."
+msgid "Check the log for more information."
 msgstr "Katso lisätietoja lokista."
 
 msgctxt "#10000"
@@ -3470,11 +3454,11 @@ msgid "Settings - Screen"
 msgstr "Asetukset - Näyttö"
 
 msgctxt "#10010"
-msgid "Settings - Appearance - GUI Calibration"
+msgid "Settings - Appearance - GUI calibration"
 msgstr "Asetukset - Käyttöliittymä - Käyttöliittymän kalibrointi"
 
 msgctxt "#10011"
-msgid "Settings - Videos - Screen Calibration"
+msgid "Settings - Videos - Screen calibration"
 msgstr "Asetukset - Videot - Kuvaruudun kalibrointi"
 
 msgctxt "#10012"
@@ -3522,8 +3506,8 @@ msgid "Videos"
 msgstr "Videot"
 
 msgctxt "#10028"
-msgid "Videos/Playlist"
-msgstr "Videot/Toistolista"
+msgid "Videos / Playlist"
+msgstr "Videot / Toistolista"
 
 msgctxt "#10029"
 msgid "Login screen"
@@ -3573,13 +3557,13 @@ msgctxt "#10044"
 msgid "No help available"
 msgstr "Ohjetta ei ole saatavilla"
 
+msgctxt "#10045"
+msgid "Resets all the visible settings to their default values."
+msgstr "Palauta oletusasetukset"
+
 msgctxt "#10046"
 msgid "No categories available"
 msgstr "Ei kategorioita saatavilla"
-
-msgctxt "#10100"
-msgid "Yes/No dialogue"
-msgstr "Kyllä/Ei -dialogi"
 
 msgctxt "#10101"
 msgid "Progress dialogue"
@@ -3613,10 +3597,6 @@ msgctxt "#10134"
 msgid "Favourites"
 msgstr "Suosikit"
 
-msgctxt "#10135"
-msgid "Songs/Info"
-msgstr "Kappale/Info"
-
 msgctxt "#10136"
 msgid "Smart playlist editor"
 msgstr "Älykäs soittolistan muokkaus"
@@ -3625,17 +3605,9 @@ msgctxt "#10137"
 msgid "Smart playlist rule editor"
 msgstr "Älykäs soittolistan ehtojen muokkaus"
 
-msgctxt "#10139"
-msgid "Pictures/Info"
-msgstr "Kuvat/Tiedot"
-
 msgctxt "#10140"
 msgid "Add-on settings"
 msgstr "Lisäosan asetukset"
-
-msgctxt "#10146"
-msgid "Add-ons/Info"
-msgstr "Lisäosat/Info"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -3656,18 +3628,6 @@ msgstr "puskuroidaan"
 msgctxt "#10214"
 msgid "Opening stream"
 msgstr "Aloitetaan siirtoa"
-
-msgctxt "#10500"
-msgid "Music/Playlist"
-msgstr "Musiikki/Toistolista"
-
-msgctxt "#10501"
-msgid "Music/Files"
-msgstr "Musiikki/Tiedostot"
-
-msgctxt "#10502"
-msgid "Music/Library"
-msgstr "Musiikki/Kirjasto"
 
 msgctxt "#10503"
 msgid "Playlist editor"
@@ -3710,32 +3670,20 @@ msgid "Music - Library"
 msgstr "Musiikki - Kirjasto"
 
 msgctxt "#10523"
-msgid "Album info"
+msgid "Album information"
 msgstr "Albumitiedot"
 
 msgctxt "#10524"
-msgid "Movie info"
+msgid "Movie information"
 msgstr "Elokuvatiedot"
 
 msgctxt "#12000"
 msgid "Select dialogue"
 msgstr "Valitse dialogi"
 
-msgctxt "#12001"
-msgid "Music/Info"
-msgstr "Musiikki/Tiedot"
-
 msgctxt "#12002"
 msgid "Dialogue OK"
 msgstr "Dialogi OK"
-
-msgctxt "#12003"
-msgid "Videos/Info"
-msgstr "Videot/Tiedot"
-
-msgctxt "#12004"
-msgid "Scripts/Info"
-msgstr "Skriptit/Tiedot"
 
 msgctxt "#12005"
 msgid "Fullscreen video"
@@ -3833,17 +3781,9 @@ msgctxt "#12328"
 msgid "Enter unlock code"
 msgstr "Anna avauskoodi"
 
-msgctxt "#12329"
-msgid "or press C to cancel"
-msgstr "tai paina C peruuttaaksesi"
-
 msgctxt "#12330"
 msgid "Enter gamepad button combo and"
 msgstr "Anna peliohjaimen painikeyhdistelmä ja"
-
-msgctxt "#12331"
-msgid "press OK, or Back to cancel"
-msgstr "paina OK, tai Back peruuttaaksesi"
 
 msgctxt "#12332"
 msgid "Set lock"
@@ -3876,10 +3816,6 @@ msgstr "Tekstimuotoinen salasana"
 msgctxt "#12340"
 msgid "Enter new password"
 msgstr "Uusi salasana"
-
-msgctxt "#12341"
-msgid "Re-Enter new password"
-msgstr "Anna salasana uudelleen"
 
 msgctxt "#12342"
 msgid "Incorrect password,"
@@ -3929,10 +3865,6 @@ msgctxt "#12360"
 msgid "Master lock"
 msgstr "Käytön esto"
 
-msgctxt "#12362"
-msgid "Shutdown system if Master Lock retries exceeded"
-msgstr "Sammuta laite lukituksen poistoyritysten maksimimäärän jälkeen"
-
 msgctxt "#12367"
 msgid "Master code is not valid"
 msgstr "Pääkäyttäjän koodi ei ole oikea"
@@ -3968,14 +3900,6 @@ msgstr "12 tunnin kello"
 msgctxt "#12384"
 msgid "24-hour clock"
 msgstr "24 tunnin kello"
-
-msgctxt "#12385"
-msgid "Day/Month"
-msgstr "Päivä/Kuukausi"
-
-msgctxt "#12386"
-msgid "Month/Day"
-msgstr "Kuukausi/Päivä"
 
 msgctxt "#12390"
 msgid "System uptime"
@@ -4077,10 +4001,6 @@ msgctxt "#13015"
 msgid "Power button action"
 msgstr "Virtakytkimen toiminto"
 
-msgctxt "#13016"
-msgid "Power off System"
-msgstr "Sammuta järjestelmä"
-
 msgctxt "#13017"
 msgid "Inhibit idle shutdown"
 msgstr "Estä sammutus toimettomana"
@@ -4092,10 +4012,6 @@ msgstr "Salli sammutus toimettomana"
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "Onko toinen istunto käynnissä, ehkä ssh:n kautta?"
-
-msgctxt "#13021"
-msgid "Mounted removable harddrive"
-msgstr "Liitetty siirrettävä kiintolevy"
 
 msgctxt "#13022"
 msgid "Unsafe device removal"
@@ -4113,21 +4029,9 @@ msgctxt "#13025"
 msgid "Joystick unplugged"
 msgstr "Peliohjain irroitettu"
 
-msgctxt "#13026"
-msgid "Try to wake remote servers on access"
-msgstr "Yritä herättää etäpalvelimet yhdistettäessä"
-
-msgctxt "#13027"
-msgid "Wake on Lan (%s)"
-msgstr "Herätys lähiverkon kautta (%s)"
-
 msgctxt "#13028"
 msgid "Waiting for network to connect..."
 msgstr "Luodaan verkkoyhteyttä..."
-
-msgctxt "#13029"
-msgid "Failed to execute Wake on Lan!"
-msgstr "Herätys lähiverkon kautta epäonnistui!"
 
 msgctxt "#13030"
 msgid "Waiting for server to wake up..."
@@ -4140,10 +4044,6 @@ msgstr "Odotetaan yhä palvelimen heräämistä..."
 msgctxt "#13032"
 msgid "Waiting for services to launch..."
 msgstr "Odotetaan palvelujen käynnistymistä..."
-
-msgctxt "#13033"
-msgid "MAC Discovery"
-msgstr "MAC osoitteen löytäminen"
 
 msgctxt "#13034"
 msgid "Updated for %s"
@@ -4184,14 +4084,6 @@ msgstr "Käytössä videoita toistettaessa"
 msgctxt "#13108"
 msgid "Always enabled"
 msgstr "Aina käytössä"
-
-msgctxt "#13109"
-msgid "Test & apply resolution"
-msgstr "Testaa ja hyväksy resoluutio"
-
-msgctxt "#13110"
-msgid "Save resolution?"
-msgstr "Tallenna resoluutio?"
 
 msgctxt "#13111"
 msgid "Would you like to keep this change?"
@@ -4253,21 +4145,9 @@ msgctxt "#13140"
 msgid "Active connections detected!"
 msgstr "Käytössä oleva ohjaus havaittu!"
 
-msgctxt "#13142"
-msgid "any longer. Are you sure you want to stop the Event server?"
-msgstr "ohjaamaan Kodia. Haluatko varmasti pysäyttää ohjaustapahtumat?"
-
 msgctxt "#13144"
 msgid "Change Apple Remote mode?"
 msgstr "Vaihdetaanko Apple kauko-ohjaukseen?"
-
-msgctxt "#13145"
-msgid "If you are currently using the Apple Remote to control"
-msgstr "Mikäli käytät tälllä hetkellä Kodin ohjaukseen Apple kauko-ohjainta,"
-
-msgctxt "#13147"
-msgid "to continue controlling it. Do you want to proceed?"
-msgstr "Haluatko jatkaa?"
 
 msgctxt "#13159"
 msgid "Subnet mask"
@@ -4377,12 +4257,16 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "Laitteisto:"
 
+msgctxt "#13271"
+msgid "CPU usage:"
+msgstr "Suorittimen käyttö:"
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "Yhdistetty, mutta DNS-tietoja ei ole käytettävissä."
 
 msgctxt "#13275"
-msgid "Hard Disk"
+msgid "Hard disk"
 msgstr "Kiintolevy"
 
 msgctxt "#13276"
@@ -4480,10 +4364,6 @@ msgstr "Näytä ylemmän kansion kohteet"
 msgctxt "#13307"
 msgid "Track naming template"
 msgstr "Kappaleen nimeämistapa"
-
-msgctxt "#13308"
-msgid "Do you wish to reboot your system"
-msgstr "Käynnistetäänkö järjestelmä uudelleen,"
 
 msgctxt "#13310"
 msgid "Zoom effect"
@@ -4741,10 +4621,6 @@ msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
 msgstr "Asetuksia ei ole saatavilla\ntälle visualisoinnille."
 
-msgctxt "#13391"
-msgid "Eject/Load"
-msgstr "Poista/Lataa"
-
 msgctxt "#13392"
 msgid "Use visualisation if playing audio"
 msgstr "Näytön visualisoinnit käytössä musiikkitiedostoilla"
@@ -4869,17 +4745,17 @@ msgctxt "#13423"
 msgid "Remember for this path"
 msgstr "Muista tämä polku"
 
-msgctxt "#13431"
-msgid "Pixel Shaders"
-msgstr "Pikselivarjostimet"
-
 msgctxt "#13434"
 msgid "Play only this"
 msgstr "Toista vain tämä"
 
-msgctxt "#13435"
-msgid "Enable HQ Scalers for scalings above"
-msgstr "Käytä HQ-skaalaimia yllä oleville"
+msgctxt "#13438"
+msgid "Allow hardware acceleration - amcodec"
+msgstr "Salli laitteistokiihdytys - amcodec"
+
+msgctxt "#13439"
+msgid "Allow hardware acceleration - MediaCodec"
+msgstr "Salli laitteistokiihdytys - MediaCodec"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
@@ -4905,13 +4781,13 @@ msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
 msgstr "Käytä VC-1 VAAPI:a"
 
+msgctxt "#13457"
+msgid "Prefer VAAPI render method"
+msgstr "Suosi VAAPI renderöintimenetelmää"
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Uudellennäytteistyksen laatu"
-
-msgctxt "#13506"
-msgid "Low(fast)"
-msgstr "Matala (nopea)"
 
 msgctxt "#13507"
 msgid "Medium"
@@ -4920,10 +4796,6 @@ msgstr "Keski"
 msgctxt "#13508"
 msgid "High"
 msgstr "Korkea"
-
-msgctxt "#13509"
-msgid "Really high(slow!)"
-msgstr "Todella korkea (hidas)"
 
 msgctxt "#13510"
 msgid "Sync playback to display"
@@ -4961,14 +4833,6 @@ msgctxt "#13551"
 msgid "Off"
 msgstr "Ei käytössä"
 
-msgctxt "#13552"
-msgid "%.1f Second"
-msgstr "%.1f sekunniksi"
-
-msgctxt "#13553"
-msgid "%.1f Seconds"
-msgstr "%.1f sekunniksi"
-
 msgctxt "#13554"
 msgid "%d Minute"
 msgstr "%d Minuutti"
@@ -4985,10 +4849,6 @@ msgctxt "#13557"
 msgid "Skip delay"
 msgstr "Ohita viive"
 
-msgctxt "#13600"
-msgid "Apple remote"
-msgstr "Apple remote -kauko-ohjain"
-
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
 msgstr "Kodi voidaan käynnistää kauko-ohjaimella"
@@ -5004,22 +4864,6 @@ msgstr "Ei käytössä"
 msgctxt "#13611"
 msgid "Standard"
 msgstr "Normaali"
-
-msgctxt "#13612"
-msgid "Universal Remote"
-msgstr "Yleiskauko-ohjain"
-
-msgctxt "#13613"
-msgid "Multi Remote (Harmony)"
-msgstr "Yleiskauko-ohjain (Harmony)"
-
-msgctxt "#13620"
-msgid "Apple Remote Error"
-msgstr "Apple Remote -kauko-ohjain virhe"
-
-msgctxt "#13621"
-msgid "Apple Remote support could not be enabled."
-msgstr "Apple Remote -kaukosäätimen tuen käyttöönotto epäonnistui."
 
 msgctxt "#14000"
 msgid "Stack"
@@ -5121,10 +4965,6 @@ msgctxt "#14026"
 msgid "Video cache - DVD-ROM"
 msgstr "Videovälimuisti - DVD-ROM"
 
-msgctxt "#14027"
-msgid "Video cache - Local Network"
-msgstr "Videovälimuisti - Lähiverkko"
-
 msgctxt "#14028"
 msgid "Video cache - Internet"
 msgstr "Video välimuisti - Internetti"
@@ -5132,10 +4972,6 @@ msgstr "Video välimuisti - Internetti"
 msgctxt "#14030"
 msgid "Audio cache - DVD-ROM"
 msgstr "Musiikkivälimuisti - DVD-ROM"
-
-msgctxt "#14031"
-msgid "Audio cache - Local Network"
-msgstr "Musiikkivälimuisti - Lähiverkko"
 
 msgctxt "#14032"
 msgid "Audio cache - Internet"
@@ -5146,24 +4982,16 @@ msgid "DVD cache - DVD-ROM"
 msgstr "DVD-välimuisti - DVD-ROM"
 
 msgctxt "#14035"
-msgid "Local Network"
-msgstr "Lähiverkko"
+msgid "Local network"
+msgstr "Paikallisverkosta"
 
 msgctxt "#14036"
 msgid "Services"
 msgstr "Palvelut"
 
-msgctxt "#14037"
-msgid "DVD cache - Local Network"
-msgstr "DVD välimuisti - Lähiverkko"
-
 msgctxt "#14038"
 msgid "Network settings changed"
 msgstr "Verkkoasetuksia muutettu"
-
-msgctxt "#14040"
-msgid "network setup.  Would you like to restart now?"
-msgstr "asetukset tulevat käyttöön. Käynnistetäänkö uudelleen nyt?"
 
 msgctxt "#14041"
 msgid "Internet connection bandwidth limitation"
@@ -5225,10 +5053,6 @@ msgctxt "#14056"
 msgid "Stop scan"
 msgstr "Pysäytä haku"
 
-msgctxt "#14057"
-msgid "Not possible while scanning for media info"
-msgstr "Ei ole mahdollista median tietoja haettaessa"
-
 msgctxt "#14058"
 msgid "Film grain effect"
 msgstr "Filmin rakeisuustehoste"
@@ -5260,10 +5084,6 @@ msgstr "Aseta päivämäärä"
 msgctxt "#14065"
 msgid "Set time"
 msgstr "Aseta kellonaika"
-
-msgctxt "#14066"
-msgid "Enter the time in 24 hour HH:MM format"
-msgstr "Anna aika 24 tunnin muodossa tunnit:minuutit"
 
 msgctxt "#14067"
 msgid "Enter the date in DD/MM/YYYY format"
@@ -5377,10 +5197,6 @@ msgctxt "#14098"
 msgid "Play"
 msgstr "Toista"
 
-msgctxt "#14099"
-msgid "Eject disc when CD ripping is complete"
-msgstr "Poista CD kun rippaus on valmis"
-
 msgctxt "#14100"
 msgid "Stop ripping CD"
 msgstr "Lopeta CD:n rippaus"
@@ -5412,10 +5228,6 @@ msgstr "Nopeusyksikkö"
 msgctxt "#14107"
 msgid "Time format"
 msgstr "Aikamuoto"
-
-msgctxt "#14108"
-msgid "Use 12/24-hour format"
-msgstr "Käytä 12/24 tunnin aikamuotoa"
 
 msgctxt "#14109"
 msgid "Short date format"
@@ -5473,6 +5285,10 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Siirretään puskurimuistiin..."
 
+msgctxt "#15108"
+msgid "GUI sounds"
+msgstr "Käyttöliittymän äänet"
+
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Oletus"
@@ -5516,10 +5332,6 @@ msgstr "Toista jukeboksissa"
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "Määriteltyä polkua ei löydy"
-
-msgctxt "#15301"
-msgid "Could not connect to network server"
-msgstr "Palvelimeen ei saada yhteyttä"
 
 msgctxt "#15302"
 msgid "No servers found"
@@ -5605,10 +5417,6 @@ msgctxt "#16021"
 msgid "Bob"
 msgstr "Synk. parittomat"
 
-msgctxt "#16022"
-msgid "Bob (inverted)"
-msgstr "Synk. parilliset"
-
 msgctxt "#16024"
 msgid "Cancelling..."
 msgstr "Peruutetaan..."
@@ -5629,10 +5437,6 @@ msgctxt "#16028"
 msgid "Enter value"
 msgstr "Anna arvo"
 
-msgctxt "#16029"
-msgid "Check the log file for details."
-msgstr "Katso lokitiedostosta lisätietoja."
-
 msgctxt "#16030"
 msgid "Party mode aborted."
 msgstr "Jukeboksi keskeytettiin."
@@ -5640,18 +5444,6 @@ msgstr "Jukeboksi keskeytettiin."
 msgctxt "#16031"
 msgid "No matching songs in the library."
 msgstr "Kirjastosta ei löytynyt sopivia kappaleita."
-
-msgctxt "#16032"
-msgid "Could not initialise database."
-msgstr "Tietokantaa ei voida alustaa."
-
-msgctxt "#16033"
-msgid "Could not open database."
-msgstr "Tietokantaa ei voida avata."
-
-msgctxt "#16034"
-msgid "Could not get songs from database."
-msgstr "Tietokannasta ei voitu hakea kappaleita."
 
 msgctxt "#16035"
 msgid "Party mode playlist"
@@ -5713,25 +5505,13 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Kopiointi epäonnistui"
 
-msgctxt "#16202"
-msgid "Failed to copy at least one file"
-msgstr "Vähintään yhden tiedoston kopiointi epäonnistui"
-
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Siirto epäonnistui"
 
-msgctxt "#16204"
-msgid "Failed to move at least one file"
-msgstr "Vähintään yhden tiedoston siirto epäonnistui"
-
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Poisto epäonnistui"
-
-msgctxt "#16206"
-msgid "Failed to delete at least one file"
-msgstr "Vähintään yhden tiedoston poisto epäonnistui"
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -5777,25 +5557,9 @@ msgctxt "#16310"
 msgid "Temporal"
 msgstr "Temporal"
 
-msgctxt "#16311"
-msgid "Temporal/Spatial"
-msgstr "Temporal/Spatial"
-
-msgctxt "#16315"
-msgid "Lanczos3 optimised"
-msgstr "Lanczos3 optimoitu"
-
 msgctxt "#16316"
 msgid "Auto"
 msgstr "Automaattinen"
-
-msgctxt "#16317"
-msgid "Temporal (Half)"
-msgstr "Temporal (puolinopeus)"
-
-msgctxt "#16318"
-msgid "Temporal/Spatial (Half)"
-msgstr "Temporal/Spatial (puolinopeus)"
 
 msgctxt "#16319"
 msgid "DXVA"
@@ -5804,10 +5568,6 @@ msgstr "DXVA"
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
-
-msgctxt "#16323"
-msgid "Spline36 optimised"
-msgstr "Spline36 optimoitu"
 
 msgctxt "#16326"
 msgid "DXVA-HD"
@@ -5836,10 +5596,6 @@ msgstr "%i päivää"
 msgctxt "#19000"
 msgid "Switch to channel"
 msgstr "Vaihda kanavalle"
-
-msgctxt "#19001"
-msgid "Separate the search words by using AND, OR and/or NOT."
-msgstr "Erottele hakusanat käyttämällä \"AND\", \"OR\" ja/tai \"NOT\" -operaattoreita."
 
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
@@ -5953,14 +5709,6 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Tämän kanavan tallentaminen on jo aloitettu"
 
-msgctxt "#19035"
-msgid "%s could not be played. Check the log for details."
-msgstr "%s ei voi toistaa. Katso lokitiedostosta lisätietoja."
-
-msgctxt "#19036"
-msgid "This recording cannot be played. Check the log for details."
-msgstr "Tallennusta ei voi toistaa. Katso lokitiedostosta lisätietoja."
-
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Näytä signaalin laatu"
@@ -5989,21 +5737,9 @@ msgctxt "#19043"
 msgid "Recording"
 msgstr "Tallennus"
 
-msgctxt "#19044"
-msgid "Please check your configuration or check the log for details."
-msgstr "Tarkista asetukset tai katso lokitiedostosta lisätietoja."
-
-msgctxt "#19045"
-msgid "No PVR clients have been started yet. Wait for the PVR clients to start up or check the log for details."
-msgstr "PVR-asiakkaita ei ole käynnistetty vielä. Odota kunnes PVR-asiakkaat käynnistyy tai katso lokitiedostosta lisätietoja."
-
 msgctxt "#19046"
 msgid "New channel"
 msgstr "Uusi kanava"
-
-msgctxt "#19047"
-msgid "Programme info"
-msgstr "Ohjelman tiedot"
 
 msgctxt "#19049"
 msgid "Show channel"
@@ -6065,6 +5801,10 @@ msgctxt "#19064"
 msgid "Go to end"
 msgstr "Mene loppuun"
 
+msgctxt "#19065"
+msgid "Timer settings"
+msgstr "Ajastimen asetukset"
+
 msgctxt "#19066"
 msgid "Channel icons"
 msgstr "Kanavakuvakkeet"
@@ -6072,10 +5812,6 @@ msgstr "Kanavakuvakkeet"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Tämän ohjelman nauhoitus on jo aloitettu."
-
-msgctxt "#19068"
-msgid "This recording could not be deleted. Check the log for details."
-msgstr "Tätä tallennusta ei voitu poistaa. Katso lokitiedostosta lisätietoja."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6189,6 +5925,10 @@ msgctxt "#19099"
 msgid "Service"
 msgstr "Palvelu"
 
+msgctxt "#19101"
+msgid "Provider"
+msgstr "Tarjoaja"
+
 msgctxt "#19102"
 msgid "Please switch to another channel."
 msgstr "Vaihda toiselle kanavalle."
@@ -6213,18 +5953,6 @@ msgctxt "#19107"
 msgid "at"
 msgstr "klo"
 
-msgctxt "#19109"
-msgid "Couldn't save timer. Check the log for details."
-msgstr "Ajastusta ei voitu tallentaa. Katso lokitiedostosta lisätietoja."
-
-msgctxt "#19110"
-msgid "An unexpected error occurred. Try again later or check the log for details."
-msgstr "Tapahtui odottamaton virhe. Yritä myöhemmin uudelleen tai katso lokitiedostosta lisätietoja."
-
-msgctxt "#19111"
-msgid "PVR backend error. Check the log for details."
-msgstr "PVR-taustaosan virhe. Katso lokitiedostosta lisätietoja."
-
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Poista tämä tallennus?"
@@ -6248,10 +5976,6 @@ msgstr "Levyn koko"
 msgctxt "#19117"
 msgid "Search for channels"
 msgstr "Hae kanavia"
-
-msgctxt "#19118"
-msgid "Cannot use PVR functions while searching."
-msgstr "PVR-toimintoja ei voi käyttää haun aikana."
 
 msgctxt "#19119"
 msgid "On which server do you want to search?"
@@ -6325,14 +6049,6 @@ msgctxt "#19136"
 msgid "Channel unavailable"
 msgstr "Kanava ei ole saatavilla"
 
-msgctxt "#19137"
-msgid "No groups defined"
-msgstr "Ryhmiä ei ole määritelty"
-
-msgctxt "#19138"
-msgid "Please create a group first"
-msgstr "Luo ensin ainakin yksi ryhmä"
-
 msgctxt "#19139"
 msgid "Name of the new group"
 msgstr "Uuden ryhmän nimi"
@@ -6364,10 +6080,6 @@ msgstr "Ryhmitelty"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Ryhmät"
-
-msgctxt "#19147"
-msgid "The PVR backend does not support this action. Check the log for details."
-msgstr "PVR-taustaosa ei tue tätä toimintoa. Katso lokitiedostosta lisätietoja."
 
 msgctxt "#19148"
 msgid "Channel"
@@ -6429,10 +6141,6 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "Tallenteet"
 
-msgctxt "#19164"
-msgid "Cannot start recording. Check the log for details."
-msgstr "Tallennusta ei voi aloittaa. Katso lokitiedostosta lisätietoja."
-
 msgctxt "#19165"
 msgid "Switch"
 msgstr "Vaihda"
@@ -6481,10 +6189,6 @@ msgctxt "#19180"
 msgid "TV"
 msgstr "TV"
 
-msgctxt "#19181"
-msgid "Menu/OSD"
-msgstr "Valikko/OSD"
-
 msgctxt "#19183"
 msgid "Radio"
 msgstr "Radio"
@@ -6512,10 +6216,6 @@ msgstr "PVR-palvelu"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Yksikään yhdistetty PVR-taustaosa ei tue kanavien hakemista."
-
-msgctxt "#19193"
-msgid "The channel scan cannot be started. Check the log for details."
-msgstr "Kanavahakua ei voitu aloittaa. Katso lokitiedostosta lisätietoja."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -6669,14 +6369,6 @@ msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "Käynnistää taustasäikeitä"
 
-msgctxt "#19241"
-msgid "The PVR manager has been enabled without any"
-msgstr "PVR-hallinta on otettu käyttöön ilman yhtään"
-
-msgctxt "#19243"
-msgid "in order to use the PVR functionality."
-msgstr "yksi lisäosa mikäli haluat käyttää PVR toimintoja."
-
 msgctxt "#19244"
 msgid "Backend idle time"
 msgstr "Taustaosan toimettomuusaika"
@@ -6749,10 +6441,6 @@ msgctxt "#19267"
 msgid "Parental locked:"
 msgstr "Lapsilukko käytössä:"
 
-msgctxt "#19272"
-msgid "You need a tuner, backend software, and an"
-msgstr "Tarvitset virittimen, ohjelmiston, ja"
-
 msgctxt "#19275"
 msgid "Conflict warning"
 msgstr "Ristiriitavaroitus"
@@ -6776,10 +6464,6 @@ msgstr "Asiakasohjelmakohtainen"
 msgctxt "#19280"
 msgid "Client specific settings"
 msgstr "Asiakasohjelmakohtaiset asetukset"
-
-msgctxt "#19281"
-msgid "Confirm channel switches by pressing OK"
-msgstr "Vahvista kanavien vaihto painamalla OK"
 
 msgctxt "#19282"
 msgid "Current icon"
@@ -6821,69 +6505,17 @@ msgctxt "#19294"
 msgid "Delete this recording permanently?"
 msgstr "Poistetaanko tämä tallenne pysyvästi?"
 
-msgctxt "#19499"
-msgid "Other/Unknown"
-msgstr "Muu/Tuntematon"
-
-msgctxt "#19500"
-msgid "Movie/Drama"
-msgstr "Elokuva/Draama"
-
-msgctxt "#19501"
-msgid "Detective/Thriller"
-msgstr "Salapoliisi/Jännitys"
-
-msgctxt "#19502"
-msgid "Adventure/Western/War"
-msgstr "Seikkailu/Lännenelokuva/Sota"
-
-msgctxt "#19503"
-msgid "Science Fiction/Fantasy/Horror"
-msgstr "Sci-Fi/Fantasia/Kauhu"
-
 msgctxt "#19504"
 msgid "Comedy"
 msgstr "Komedia"
-
-msgctxt "#19505"
-msgid "Soap/Melodrama/Folkloric"
-msgstr "Saippua/Tunteellinen/Perinteinen"
 
 msgctxt "#19506"
 msgid "Romance"
 msgstr "Romanssi"
 
-msgctxt "#19507"
-msgid "Serious/Classical/Religious/Historical Movie/Drama"
-msgstr "Vakava/Klassinen/Uskonnollinen/Historiallinen elokuva/Draama"
-
-msgctxt "#19508"
-msgid "Adult Movie/Drama"
-msgstr "Aikuisten Elokuva/Draama"
-
 msgctxt "#19519"
 msgid "Documentary"
 msgstr "Dokumentti"
-
-msgctxt "#19520"
-msgid "Discussion/Interview/Debate"
-msgstr "Keskustelu/Haastattelu/Väittely"
-
-msgctxt "#19532"
-msgid "Show/Game Show"
-msgstr "Show/Pelishow"
-
-msgctxt "#19533"
-msgid "Game Show/Quiz/Contest"
-msgstr "Pelishow/Tietovisa/Kilpailu"
-
-msgctxt "#19534"
-msgid "Variety Show"
-msgstr "Varieteeshow"
-
-msgctxt "#19535"
-msgid "Talk Show"
-msgstr "Keskusteluohjelma"
 
 msgctxt "#19548"
 msgid "Sports"
@@ -6893,10 +6525,6 @@ msgctxt "#19551"
 msgid "Football"
 msgstr "Jalkapallo"
 
-msgctxt "#19552"
-msgid "Tennis/Squash"
-msgstr "Tennis/Squash"
-
 msgctxt "#19554"
 msgid "Athletics"
 msgstr "Yleisurheilu"
@@ -6905,29 +6533,9 @@ msgctxt "#19558"
 msgid "Equestrian"
 msgstr "Ratsastus"
 
-msgctxt "#19569"
-msgid "Cartoons/Puppets"
-msgstr "Piirretty/Nukketeatteri"
-
-msgctxt "#19580"
-msgid "Music/Ballet/Dance"
-msgstr "Musiikki/Baletti/Tanssi"
-
-msgctxt "#19581"
-msgid "Rock/Pop"
-msgstr "Rock/Pop"
-
-msgctxt "#19584"
-msgid "Musical/Opera"
-msgstr "Musikaali/Ooppera"
-
 msgctxt "#19585"
 msgid "Ballet"
 msgstr "Baletti"
-
-msgctxt "#19596"
-msgid "Arts/Culture"
-msgstr "Taide/Kulttuuri"
 
 msgctxt "#19599"
 msgid "Religion"
@@ -6937,65 +6545,13 @@ msgctxt "#19601"
 msgid "Literature"
 msgstr "Kirjallisuus"
 
-msgctxt "#19602"
-msgid "Film/Cinema"
-msgstr "Filmi/Elokuva"
-
-msgctxt "#19603"
-msgid "Experimental Film/Video"
-msgstr "Kokeellinen filmi/Video"
-
-msgctxt "#19604"
-msgid "Broadcasting/Press"
-msgstr "Televisiointi/Lehdistö"
-
 msgctxt "#19607"
 msgid "Fashion"
 msgstr "Muoti"
 
-msgctxt "#19612"
-msgid "Social/Political/Economics"
-msgstr "Yhteiskunnallinen/Poliittinen/Taloustieto"
-
-msgctxt "#19613"
-msgid "Magazines/Reports/Documentary"
-msgstr "Ajankohtaisohjelma/Katsaus/Dokumentti"
-
-msgctxt "#19628"
-msgid "Education/Science/Factual"
-msgstr "Koulutus/Tiede/Asiaohjelma"
-
-msgctxt "#19629"
-msgid "Nature/Animals/Environment"
-msgstr "Luonto/Eläimet/Ympäristö"
-
-msgctxt "#19630"
-msgid "Technology/Natural Sciences"
-msgstr "Teknologia/Luonnontieteet"
-
-msgctxt "#19631"
-msgid "Medicine/Physiology/Psychology"
-msgstr "Lääketiede/Fysiologia/Psykologia"
-
-msgctxt "#19632"
-msgid "Foreign Countries/Expeditions"
-msgstr "Ulkomaat/Tutkimusmatkat"
-
-msgctxt "#19633"
-msgid "Social/Spiritual Sciences"
-msgstr "Sosiaaliset/Hengelliset tieteet"
-
 msgctxt "#19635"
 msgid "Languages"
 msgstr "Kielet"
-
-msgctxt "#19644"
-msgid "Leisure/Hobbies"
-msgstr "Vapaa-aika/Harrastukset"
-
-msgctxt "#19645"
-msgid "Tourism/Travel"
-msgstr "Turismi/Matkustus"
 
 msgctxt "#19646"
 msgid "Handicraft"
@@ -7005,25 +6561,13 @@ msgctxt "#19647"
 msgid "Motoring"
 msgstr "Autoilu"
 
-msgctxt "#19648"
-msgid "Fitness & Health"
-msgstr "Kuntoilu ja terveys"
-
 msgctxt "#19649"
 msgid "Cooking"
 msgstr "Ruuanlaitto"
 
-msgctxt "#19650"
-msgid "Advertisement/Shopping"
-msgstr "Mainokset/Ostokset"
-
 msgctxt "#19651"
 msgid "Gardening"
 msgstr "Puutarhan hoito"
-
-msgctxt "#19662"
-msgid "Black & White"
-msgstr "Mustavalkoinen"
 
 msgctxt "#19663"
 msgid "Unpublished"
@@ -7033,33 +6577,13 @@ msgctxt "#19676"
 msgid "Drama"
 msgstr "Draama"
 
-msgctxt "#19677"
-msgid "Detective/Thriller"
-msgstr "Salapoliisi/Jännitys"
-
-msgctxt "#19678"
-msgid "Adventure/Western/War"
-msgstr "Seikkailu/Lännenelokuva/Kauhu"
-
-msgctxt "#19679"
-msgid "Science Fiction/Fantasy/Horror"
-msgstr "Sci-Fi/Fantasia/Kauhu"
-
 msgctxt "#19680"
 msgid "Comedy"
 msgstr "Komedia"
 
-msgctxt "#19681"
-msgid "Soap/Melodrama/Folkloric"
-msgstr "Saippua/Tunteellinen/Perinteinen"
-
 msgctxt "#19682"
 msgid "Romance"
 msgstr "Romanssi"
-
-msgctxt "#19683"
-msgid "Serious/ClassicalReligion/Historical"
-msgstr "Vakava/Klassinen/Uskonnollinen/Historiallinen"
 
 msgctxt "#19684"
 msgid "Adult"
@@ -7213,10 +6737,6 @@ msgctxt "#20047"
 msgid "Create profile '%s'?"
 msgstr "Luo profiili '%s'?"
 
-msgctxt "#20048"
-msgid "Start with fresh settings"
-msgstr "Aloita tyhjillä asetuksilla"
-
 msgctxt "#20049"
 msgid "Best available"
 msgstr "Paras käytettävissä oleva"
@@ -7293,25 +6813,9 @@ msgctxt "#20068"
 msgid "Profile lock"
 msgstr "Profiilin lukitus"
 
-msgctxt "#20069"
-msgid "Could not create folder"
-msgstr "Kansion luonti ei onnistu"
-
 msgctxt "#20070"
 msgid "Profile directory"
 msgstr "Profiilin tallennuskansio"
-
-msgctxt "#20071"
-msgid "Start with fresh media sources"
-msgstr "Aloita käyttämällä uutta mediasijaintia"
-
-msgctxt "#20072"
-msgid "Make sure the selected folder is writable"
-msgstr "varmista, että valittu kansio on kirjoitettava"
-
-msgctxt "#20073"
-msgid "and that the new folder name is valid"
-msgstr "ja kansion nimi on käyttökelpoinen"
 
 msgctxt "#20074"
 msgid "MPAA rating"
@@ -7349,18 +6853,6 @@ msgctxt "#20082"
 msgid "Show programs in main menu"
 msgstr "Näytä Ohjelmat-valikko"
 
-msgctxt "#20083"
-msgid "Show music info"
-msgstr "Näytä Musiikki-tiedot"
-
-msgctxt "#20084"
-msgid "Show weather info"
-msgstr "Näytä Sää-tiedot"
-
-msgctxt "#20085"
-msgid "Show system info"
-msgstr "Näytä Järjestelmän tiedot"
-
 msgctxt "#20086"
 msgid "Show available disk space C: E: F:"
 msgstr "Näytä käytettävä levytila C: E: F:"
@@ -7368,10 +6860,6 @@ msgstr "Näytä käytettävä levytila C: E: F:"
 msgctxt "#20087"
 msgid "Show available disk space E: F: G:"
 msgstr "Näytä käytettävä levytila E: F: G:"
-
-msgctxt "#20088"
-msgid "Weather info"
-msgstr "Säätiedot"
 
 msgctxt "#20089"
 msgid "Drive space free"
@@ -7405,18 +6893,6 @@ msgctxt "#20096"
 msgid "Login screen"
 msgstr "Kirjaudu sisään"
 
-msgctxt "#20097"
-msgid "Fetching album info"
-msgstr "Noudetaan albumi tietoja"
-
-msgctxt "#20098"
-msgid "Fetching info for album"
-msgstr "Noudetaan tietoja albumista"
-
-msgctxt "#20099"
-msgid "Can't rip CD or track while playing from CD"
-msgstr "Siirtoa ei voida aloittaa kun toisto on käynnissä"
-
 msgctxt "#20100"
 msgid "Master lock code and settings"
 msgstr "Pääkäyttäjän lukituskoodi ja asetukset"
@@ -7425,25 +6901,9 @@ msgctxt "#20101"
 msgid "Entering master lock code always enables master mode"
 msgstr "Lukituskoodi antamalla siirrytään pääkäyttäjä-tilaan"
 
-msgctxt "#20102"
-msgid "or copy from default?"
-msgstr "tai käytä oletuksia"
-
 msgctxt "#20103"
 msgid "Save changes to profile?"
 msgstr "Tallennetaanko muutokset profiiliin?"
-
-msgctxt "#20104"
-msgid "Old settings found."
-msgstr "Vanhat asetukset löydetty."
-
-msgctxt "#20105"
-msgid "Do you want to use them?"
-msgstr "Haluatko käyttää niitä?"
-
-msgctxt "#20106"
-msgid "Old media sources found."
-msgstr "Vanha median sijainti löytyi."
 
 msgctxt "#20107"
 msgid "Separate (locked)"
@@ -7489,14 +6949,6 @@ msgctxt "#20117"
 msgid "Invalid lock code."
 msgstr "Lukituskoodi on väärä."
 
-msgctxt "#20118"
-msgid "This requires the master lock to be set."
-msgstr "Tähän täytyy olla pääkäyttäjän lukitus asetettuna."
-
-msgctxt "#20119"
-msgid "Would you like to set it now?"
-msgstr "Haluatko asettaa sen nyt?"
-
 msgctxt "#20120"
 msgid "Loading program information"
 msgstr "Noudetaan ohjelman tiedot"
@@ -7532,10 +6984,6 @@ msgstr "Siirry päähakemistoon"
 msgctxt "#20129"
 msgid "Weave"
 msgstr "Liitä"
-
-msgctxt "#20130"
-msgid "Weave (inverted)"
-msgstr "Liitä (käänteisesti)"
 
 msgctxt "#20131"
 msgid "Blend"
@@ -7713,10 +7161,6 @@ msgctxt "#20175"
 msgid "UPnP server"
 msgstr "UPnP-palvelin"
 
-msgctxt "#20176"
-msgid "Show video info"
-msgstr "Näytä Video-tiedot"
-
 msgctxt "#20177"
 msgid "Done"
 msgstr "Hyväksy"
@@ -7757,10 +7201,6 @@ msgctxt "#20186"
 msgid "Please wait"
 msgstr "Odota hetki"
 
-msgctxt "#20187"
-msgid "UPnP/DLNA"
-msgstr "UPnP/DLNA"
-
 msgctxt "#20189"
 msgid "Enable auto scrolling for plot & review"
 msgstr "Juonen ja esittelyn automaattinen vieritys"
@@ -7785,10 +7225,6 @@ msgctxt "#20198"
 msgid "No artist found!"
 msgstr "Esittäjää ei löydy!"
 
-msgctxt "#20199"
-msgid "Downloading artist info failed"
-msgstr "Esittäjän tietojen nouto epäonnistui"
-
 msgctxt "#20240"
 msgid "Android music"
 msgstr "Android-musiikki"
@@ -7803,10 +7239,6 @@ msgstr "Android-kuvat"
 
 msgctxt "#20243"
 msgid "Android photos"
-msgstr "Android-valokuvat"
-
-msgctxt "#20244"
-msgid "Android Apps"
 msgstr "Android-valokuvat"
 
 msgctxt "#20250"
@@ -7832,10 +7264,6 @@ msgstr "WebDAV palvelin (HTTPS)"
 msgctxt "#20255"
 msgid "First logon, edit your profile"
 msgstr "Ensimmäinen kirjautuminen, muokkaa profiiliasi"
-
-msgctxt "#20259"
-msgid "Network Filesystem (NFS)"
-msgstr "Verkkotiedostojärjestelmä (NFS)"
 
 msgctxt "#20300"
 msgid "Web server directory (HTTP)"
@@ -7884,10 +7312,6 @@ msgstr "Skannataan elokuvia lähteestä %s"
 msgctxt "#20318"
 msgid "Scanning music videos using %s"
 msgstr "Skannataan musiikkivideoita lähteestä %s"
-
-msgctxt "#20319"
-msgid "Scanning tvshows using %s"
-msgstr "Skannataan TV-sarjoja lähteestä %s"
 
 msgctxt "#20320"
 msgid "Scanning artists using %s"
@@ -7961,10 +7385,6 @@ msgctxt "#20339"
 msgid "Director"
 msgstr "Ohjaaja"
 
-msgctxt "#20340"
-msgid "Do you want to remove all items within"
-msgstr "Haluatko poistaa Kodi-kirjastosta kaikki kohteet,"
-
 msgctxt "#20342"
 msgid "Movies"
 msgstr "Elokuvat"
@@ -8016,10 +7436,6 @@ msgstr "Noudetaan TV-ohjelman tiedot"
 msgctxt "#20354"
 msgid "Fetching episode guide"
 msgstr "Noudetaan jaksojen tietoja"
-
-msgctxt "#20355"
-msgid "Loading info for episodes in directory"
-msgstr "Luetaan hakemiston jaksojen tietoja"
 
 msgctxt "#20356"
 msgid "Select TV show:"
@@ -8108,10 +7524,6 @@ msgstr "Alkuperäinen nimi"
 msgctxt "#20377"
 msgid "Refresh TV show information"
 msgstr "Päivitä TV-ohjelmatiedot"
-
-msgctxt "#20378"
-msgid "Refresh info for all episodes?"
-msgstr "Päivitetäänkö kaikkien jaksojen tiedot?"
 
 msgctxt "#20379"
 msgid "Selected folder contains a single TV show"
@@ -8281,14 +7693,6 @@ msgctxt "#20425"
 msgid "Fanart slideshow"
 msgstr "Fanikuvien kuvaesitys"
 
-msgctxt "#20426"
-msgid "Export to a single file or separate"
-msgstr "Tallennetaanko yhdistettynä tiedostona vai erillisinä"
-
-msgctxt "#20427"
-msgid "files per entry?"
-msgstr "tiedostoina? Valitse tallennusmuoto."
-
 msgctxt "#20428"
 msgid "Single file"
 msgstr "Yhdistettynä"
@@ -8345,33 +7749,13 @@ msgctxt "#20442"
 msgid "Change content"
 msgstr "Sisällön vaihto"
 
-msgctxt "#20443"
-msgid "Do you want to refresh info for all"
-msgstr "Päivitetäänkö valitun polun"
-
-msgctxt "#20444"
-msgid "items within this path?"
-msgstr "kaikkien kohteiden tiedot?"
-
 msgctxt "#20445"
 msgid "Fanart"
 msgstr "Fanitaide"
 
-msgctxt "#20446"
-msgid "Locally stored information found."
-msgstr "Löytyi paikallisesti tallennettuja tietoja."
-
-msgctxt "#20448"
-msgid "Could not download information"
-msgstr "Tietoja ei voida ladata"
-
 msgctxt "#20449"
 msgid "Unable to connect to remote server"
 msgstr "Palvelimeen ei saada yhteyttä"
-
-msgctxt "#20450"
-msgid "Would you like to continue scanning?"
-msgstr "Haluatko jatkaa hakua?"
 
 msgctxt "#20451"
 msgid "Countries"
@@ -8464,10 +7848,6 @@ msgstr "Poista sijainti"
 msgctxt "#21367"
 msgid "Movie & alternate subtitle directory"
 msgstr "Elokuvien ja vaihtoehtoisten tekstitysten hakemisto"
-
-msgctxt "#21368"
-msgid "Override ASS/SSA subtitles fonts"
-msgstr "Älä käytä ASS/SSA -tekstitysten fonttia"
 
 msgctxt "#21371"
 msgid "Thumbnail"
@@ -8769,10 +8149,6 @@ msgctxt "#21451"
 msgid "Internet connection required."
 msgstr "Internet-yhteys vaaditaan."
 
-msgctxt "#21452"
-msgid "Get More..."
-msgstr "Nouda lisää..."
-
 msgctxt "#21453"
 msgid "Root filesystem"
 msgstr "Juurikansio"
@@ -8849,10 +8225,6 @@ msgctxt "#21802"
 msgid "File size"
 msgstr "Tiedoston koko"
 
-msgctxt "#21803"
-msgid "File date/time"
-msgstr "Tiedoston päiväys"
-
 msgctxt "#21804"
 msgid "Slide index"
 msgstr "Kuvanumero"
@@ -8865,17 +8237,9 @@ msgctxt "#21806"
 msgid "Comment"
 msgstr "Kommentti"
 
-msgctxt "#21807"
-msgid "Colour/B&W"
-msgstr "Väri/MV"
-
 msgctxt "#21808"
 msgid "JPEG process"
 msgstr "Jpeg-prosessi"
-
-msgctxt "#21820"
-msgid "Date/Time"
-msgstr "Päivämäärä"
 
 msgctxt "#21821"
 msgid "Description"
@@ -9133,10 +8497,6 @@ msgctxt "#21899"
 msgid "Label"
 msgstr "Nimi"
 
-msgctxt "#21900"
-msgid "Born/Formed"
-msgstr "Syntynyt/perustettu"
-
 msgctxt "#22000"
 msgid "Update library on startup"
 msgstr "Päivitä kirjasto ohjelman käynnistyessä"
@@ -9269,22 +8629,6 @@ msgctxt "#22039"
 msgid "Enter song number"
 msgstr "Anna kappaleen numero"
 
-msgctxt "#22040"
-msgid "white/green"
-msgstr "valkoinen/vihreä"
-
-msgctxt "#22041"
-msgid "white/red"
-msgstr "valkoinen/punanen"
-
-msgctxt "#22042"
-msgid "white/blue"
-msgstr "valkoinen/sininen"
-
-msgctxt "#22043"
-msgid "black/white"
-msgstr "musta/valkoinen"
-
 msgctxt "#22079"
 msgid "Default select action"
 msgstr "Oletustoiminto valittaessa"
@@ -9325,14 +8669,6 @@ msgctxt "#23054"
 msgid "Running"
 msgstr "Käynnissä"
 
-msgctxt "#23101"
-msgid "Click OK to terminate the player"
-msgstr "Paina OK sulkeaksesi toisto-ohjelman"
-
-msgctxt "#23104"
-msgid "Click OK when playback has ended"
-msgstr "Paina OK kun toisto on päättynyt"
-
 msgctxt "#24000"
 msgid "Add-on"
 msgstr "Lisäosa"
@@ -9348,6 +8684,10 @@ msgstr "Lisäosan asetukset"
 msgctxt "#24005"
 msgid "Media sources"
 msgstr "Medialähteet"
+
+msgctxt "#24006"
+msgid "GUI sounds"
+msgstr "Käyttöliittymän äänet"
 
 msgctxt "#24007"
 msgid "Movie information"
@@ -9441,6 +8781,10 @@ msgctxt "#24031"
 msgid "Error loading settings"
 msgstr "Asetusten lataaminen epäonnistui"
 
+msgctxt "#24032"
+msgid "All add-ons"
+msgstr "Kaikki lisäosat"
+
 msgctxt "#24033"
 msgid "Install from repository"
 msgstr "Asenna tietovarastosta"
@@ -9450,7 +8794,7 @@ msgid "Check for updates"
 msgstr "Tarkista päivitykset"
 
 msgctxt "#24036"
-msgid "Change log"
+msgid "Changelog"
 msgstr "Muutoshistoria"
 
 msgctxt "#24037"
@@ -9472,6 +8816,10 @@ msgstr "Asenna zip-tiedostosta"
 msgctxt "#24042"
 msgid "Downloading %i%%"
 msgstr "Ladataan: %i%%"
+
+msgctxt "#24043"
+msgid "Available updates"
+msgstr "Saatavilla olevat päivitykset"
 
 msgctxt "#24045"
 msgid "Add-on does not have the correct structure"
@@ -9521,6 +8869,10 @@ msgctxt "#24061"
 msgid "Add-on update available!"
 msgstr "Lisäosan päivitys saatavilla!"
 
+msgctxt "#24062"
+msgid "Enabled add-ons"
+msgstr "Käytetyt lisäosat"
+
 msgctxt "#24063"
 msgid "Auto update"
 msgstr "Automaattinen päivitys"
@@ -9541,10 +8893,6 @@ msgctxt "#24069"
 msgid "Update"
 msgstr "Päivitä"
 
-msgctxt "#24070"
-msgid "Add-on could not be loaded."
-msgstr "Lisäosaa ei voida ladata."
-
 msgctxt "#24071"
 msgid "An unknown error has occurred."
 msgstr "Tapahtui tuntematon virhe."
@@ -9552,10 +8900,6 @@ msgstr "Tapahtui tuntematon virhe."
 msgctxt "#24072"
 msgid "Settings required"
 msgstr "Asetukset vaaditaan"
-
-msgctxt "#24073"
-msgid "Could not connect"
-msgstr "Ei voida yhdistää"
 
 msgctxt "#24074"
 msgid "Needs to restart"
@@ -9652,14 +8996,6 @@ msgstr "Tekstityksen lataaminen epäonnistui"
 msgctxt "#24114"
 msgid "No subtitle services installed"
 msgstr "Tekstityspalveluita ei ole asennettu"
-
-msgctxt "#24116"
-msgid "Default TV Service"
-msgstr "TV-palvelu (oletus)"
-
-msgctxt "#24118"
-msgid "Default Movie Service"
-msgstr "Elokuvapalvelu (oletus)"
 
 msgctxt "#24121"
 msgid "Enter search string"
@@ -9817,10 +9153,6 @@ msgctxt "#33018"
 msgid "Tonight"
 msgstr "Tänä iltana"
 
-msgctxt "#33019"
-msgid "Tomorrow Night"
-msgstr "Huomenillalla"
-
 msgctxt "#33020"
 msgid "Condition"
 msgstr "Säätila"
@@ -9876,10 +9208,6 @@ msgstr "Käännä teksti"
 msgctxt "#33033"
 msgid "Map list %s category"
 msgstr "Karttaluettelon %s-kategoria"
-
-msgctxt "#33034"
-msgid "36 Hour"
-msgstr "36 tuntia"
 
 msgctxt "#33035"
 msgid "Maps"
@@ -9981,18 +9309,6 @@ msgctxt "#33071"
 msgid "Custom backgrounds"
 msgstr "Omat taustakuvat"
 
-msgctxt "#33074"
-msgid "This version of %s requires an"
-msgstr "Tämä %s:n versio vaatii toimiakseen"
-
-msgctxt "#33075"
-msgid "Kodi revision of %s or greater to run."
-msgstr "Kodi revision %s tai uudemman."
-
-msgctxt "#33076"
-msgid "Please update Kodi."
-msgstr "Päivitä Kodi uudempaan versioon."
-
 msgctxt "#33077"
 msgid "No data found!"
 msgstr "Tietoja ei löydy!"
@@ -10056,10 +9372,6 @@ msgstr "DXVA2"
 msgctxt "#34004"
 msgid "VAAPI"
 msgstr "VAAPI"
-
-msgctxt "#34005"
-msgid "Flac"
-msgstr "Flac"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -10157,41 +9469,9 @@ msgctxt "#34302"
 msgid "AirPlay requires Zeroconf to be enabled."
 msgstr "AirPlay vaatii Zeroconfin olevan käytössä."
 
-msgctxt "#34303"
-msgid "Unable to stop Zeroconf"
-msgstr "Zeroconfin pysäyttäminen epäonnistui"
-
-msgctxt "#34304"
-msgid "AirPlay and AirTunes depend on Zeroconf running."
-msgstr "AirPlay ja AirTunes vaativat käynnissä olevan Zeroconfin."
-
-msgctxt "#34401"
-msgid "Failed to init video filters/scalers, falling back to bilinear scaling"
-msgstr "Ei voitu käyttää videon suodatin/skaalaus -asetuksia, otetaan käyttöön bilineaarinen skaalausmenetelmä"
-
-msgctxt "#34403"
-msgid "Check your audiosettings"
-msgstr "Tarkista ääniasetukset"
-
 msgctxt "#34404"
 msgid "Use gestures for navigation:"
 msgstr "Käytä eleitä navigoinnissa"
-
-msgctxt "#34405"
-msgid "1 finger swipe left,right,up,down for cursors"
-msgstr "1:n sormen pyyhkäisy vasen,oikea,ylös,alas kursoria varten"
-
-msgctxt "#34406"
-msgid "2 finger swipe left for backspace"
-msgstr "2:n sormen pyyhkäisy vasemmalle askelpalauttimelle"
-
-msgctxt "#34407"
-msgid "1 finger single tap for enter"
-msgstr "1:n sormen näpäytys Enter"
-
-msgctxt "#34408"
-msgid "2 finger single tap or 1 finger long press for contextmenu"
-msgstr "2:n sormen näpäytys tai 1:n sormen pitkä näpäytys valikolle"
 
 msgctxt "#35000"
 msgid "Peripherals"
@@ -10224,10 +9504,6 @@ msgstr "Tämän laitteen näppäimistöasettelu"
 msgctxt "#35008"
 msgid "Keymap enabled"
 msgstr "Näppäimistöasettelu käytössä"
-
-msgctxt "#35009"
-msgid "Do not use the custom keymap for this device"
-msgstr "Älä käytä kustomoitua näppäinkarttaa tälle laitteellle"
 
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
@@ -10272,18 +9548,6 @@ msgstr "Paina \"user\"-painikkeen komento"
 msgctxt "#36005"
 msgid "Enable switch side commands"
 msgstr "Käytä puolen vaihtokomentoja"
-
-msgctxt "#36009"
-msgid "Put devices in standby mode when activating screensaver"
-msgstr "Aseta laitteet valmiustilaan näytönsäästäjän aktivoituessa"
-
-msgctxt "#36010"
-msgid "Wake devices when deactivating screensaver"
-msgstr "Herätä laitteet näytönsäästäjän kytkeytyessä pois"
-
-msgctxt "#36011"
-msgid "Could not detect the CEC com port. Set it up manually."
-msgstr "CEC-porttia ei havaittu. Määritä se käsin."
 
 msgctxt "#36015"
 msgid "HDMI port number"
@@ -10341,10 +9605,6 @@ msgctxt "#36035"
 msgid "Always"
 msgstr "Aina"
 
-msgctxt "#36036"
-msgid "On start/stop"
-msgstr "Käynnistyksen/Sammutuksen yhteydessä"
-
 msgctxt "#36037"
 msgid "TV"
 msgstr "TV"
@@ -10360,10 +9620,6 @@ msgstr "Televisio ja Viritinvahvistin (vain)"
 msgctxt "#36041"
 msgid "* Item folder"
 msgstr "* Kohteiden kansio"
-
-msgctxt "#36104"
-msgid "Change specific skin settings. The available options are dependent on the skin used."
-msgstr "Vaihda ulkoasun asetuksia. Valittavissa olevat vaihtoehdot riippuvät käytetystä ulkoasusta."
 
 msgctxt "#36105"
 msgid "Change the theme associated with your selected skin."
@@ -10401,14 +9657,6 @@ msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
 msgstr "Näytä (..) valinta yläkansion valitsemiseksi."
 
-msgctxt "#36123"
-msgid "Show file extensions on media files. For example, 'You Enjoy Myself.mp3' would be simply be shown as 'You Enjoy Myself'."
-msgstr "Näytä mediatiedostojen päätteet. Esimerkiksi 'You Enjoy Myself.mp3' näkyisi pelkästään 'You Enjoy Myself' ilman päätettä."
-
-msgctxt "#36125"
-msgid "Allow files to be deleted and renamed through the user interface, via the contextual menu (press C on a keyboard, for example, to bring up this menu)."
-msgstr "Salli tiedostojen poisto ja uudelleen nimeäminen käyttöliittymän avulla (paina esimerkiksi näppäimistöltä C päästäksesi tähän valikkoon)."
-
 msgctxt "#36127"
 msgid "Show hidden files and directories when listing files."
 msgstr "Näytä piilotiedostot ja -kansiot tiedostoja listatessa."
@@ -10436,10 +9684,6 @@ msgstr "Etsi uusia mediatiedostoja käynnistyksen yhteydessä."
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Valitse zoomin taso kun 4:3 videota näytetään laajakuvanäytöllä."
-
-msgctxt "#36174"
-msgid "Enable Teletext when watching a live TV stream."
-msgstr "Mahdollista teksti-tv kun katsotaan suoraa TV striimiä."
 
 msgctxt "#36181"
 msgid "No info available yet."
@@ -10472,10 +9716,6 @@ msgstr "Käynnistä DVD-video automaattisesti, kun levy syötetään asemaan."
 msgctxt "#36195"
 msgid "Force a region for DVD playback."
 msgstr "Pakota alue DVD-toistoa varten."
-
-msgctxt "#36196"
-msgid "Attempt to skip 'unskippable' introductions before DVD menu."
-msgstr "Ohita ennen DVD-valikkoa olevat \"ohittamattomat\" esittelyt"
 
 msgctxt "#36197"
 msgid "No info available yet."
@@ -10537,6 +9777,10 @@ msgctxt "#36345"
 msgid "Sets the AirPlay password."
 msgstr "Aseta AirPlay salasana."
 
+msgctxt "#36380"
+msgid "If your Internet connection uses a proxy server, configure it here."
+msgstr "Jos internetyhteytesi käyttää välityspalvelinta, määritä sen asetukset tässä."
+
 msgctxt "#36381"
 msgid "Configure which proxy type is used."
 msgstr "Määritä käytettävän välityspalvelimen tyyppi."
@@ -10556,10 +9800,6 @@ msgstr "Määritä välityspalvelimen käyttäjätunnus."
 msgctxt "#36385"
 msgid "Configure the proxy server password."
 msgstr "Määritä välityspalveimen salasana."
-
-msgctxt "#36396"
-msgid "Define the PIN code used for the master lock."
-msgstr "Määritä PIN-koodi pääkäyttäjälle"
 
 msgctxt "#36410"
 msgid "No info available yet."
@@ -10621,10 +9861,6 @@ msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Valitse virtuaalinäppäimistön asetteluista."
 
-msgctxt "#36500"
-msgid "Stereoscopic 3D mode (current)"
-msgstr "Stereoskooppinen 3D-tila (nykyinen)"
-
 msgctxt "#36501"
 msgid "Stereoscopic 3D mode"
 msgstr "Stereoskooppinen 3D-tila"
@@ -10633,10 +9869,6 @@ msgctxt "#36502"
 msgid "Disabled"
 msgstr "Ei käytössä"
 
-msgctxt "#36503"
-msgid "Over/Under"
-msgstr "Yli/alta"
-
 msgctxt "#36504"
 msgid "Side by side"
 msgstr "Vierekkäin"
@@ -10644,10 +9876,6 @@ msgstr "Vierekkäin"
 msgctxt "#36507"
 msgid "Interlaced"
 msgstr "Lomitettu"
-
-msgctxt "#36508"
-msgid "Hardware Based"
-msgstr "Laitteisto"
 
 msgctxt "#36521"
 msgid "Ask me"
