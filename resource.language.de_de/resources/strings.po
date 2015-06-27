@@ -1597,10 +1597,6 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Film aus der Bibliothek entfernen"
 
-msgctxt "#433"
-msgid "Would you really like to remove[CR]'%s' from library?"
-msgstr "Soll '%s' wirklich aus der Bibliothek entfernt werden?"
-
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "Von %s mit %i %s"
@@ -2866,16 +2862,8 @@ msgid "Unable to connect"
 msgstr "Verbindung nicht möglich"
 
 msgctxt "#1002"
-msgid "The connection to the network location couldn't be established."
-msgstr "Die Verbindung mit dem Netzwerk konnte nicht hergestellt werden"
-
-msgctxt "#1003"
-msgid "This could be due to the network not being connected."
-msgstr "Möglicherweise ist das Netzwerk nicht verbunden."
-
-msgctxt "#1004"
-msgid "Would you like to add it anyway?"
-msgstr "Soll die Freigabe trotzdem hinzugefügt werden?"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Es konnte keine Netzwerkverbindung hergestellt werden. Soll die Quelle trotzdem hinzugefügt werden?"
 
 msgctxt "#1006"
 msgid "IP address"
@@ -2954,8 +2942,8 @@ msgid "Browse"
 msgstr "Durchsuchen"
 
 msgctxt "#1025"
-msgid "Couldn't retrieve directory information."
-msgstr "Der Ordner konnte nicht geöffnet werden."
+msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Die Verzeichnisstruktur konnte nicht gelesen werden. Soll die Quelle trotzdem hinzugefügt werden?"
 
 msgctxt "#1026"
 msgid "Add source"
@@ -3569,10 +3557,6 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Zurück zur Vorgängerliste weil aktive Liste geleert wurde"
 
-msgctxt "#2101"
-msgid "Newer version needed.[CR]Check the log for more information about this message."
-msgstr "Neuere Version wird benötigt.[CR]Für mehr Informationen, Logdatei einsehen."
-
 msgctxt "#2102"
 msgid "%s error"
 msgstr "%s Fehler"
@@ -4110,12 +4094,8 @@ msgid "Shutdown system if number of master lock retries is exceeded"
 msgstr "System ausschalten, wenn Anzahl erlaubter Fehlversuche für Master-Sperre überschritten ist"
 
 msgctxt "#12367"
-msgid "Master code is not valid"
-msgstr "Das Master-Passwort ist ungültig"
-
-msgctxt "#12368"
-msgid "Please enter a valid master code"
-msgstr "Bitte das gültige Master-Passwort eingeben"
+msgid "Master code is not valid. Please enter a valid master code."
+msgstr "Das eingegebene Master-Passwort ist ungültig. Bitte das gültige Master-Passwort eingeben"
 
 msgctxt "#12373"
 msgid "Settings & file manager"
@@ -4126,8 +4106,8 @@ msgid "Set as default for all videos"
 msgstr "Einstellungen als Standard für alle Filme setzen"
 
 msgctxt "#12377"
-msgid "This will reset any previously saved values"
-msgstr "Alle vorherigen Werte werden damit überschrieben"
+msgid "This will reset any previously saved values. Are you sure?"
+msgstr "Alle vorherigen Werte werden damit überschrieben. Fortfahren?"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -5930,8 +5910,8 @@ msgid "Playback failed"
 msgstr "Wiedergabe nicht möglich"
 
 msgctxt "#16027"
-msgid "One or more items failed to play."
-msgstr "Ein/mehrere Inhalt(e) konnte(n) nicht wiedergegeben werden"
+msgid "One or more items failed to play. Check the log for more information about this message."
+msgstr "Mindestens eine Datei konnte nicht abgespielt werden.[CR]Für mehr Details Logdatei einsehen."
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -6029,25 +6009,13 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Fehler beim Kopieren"
 
-msgctxt "#16202"
-msgid "Failed to copy at least one file.[CR]Check the log for more information about this message."
-msgstr "Mindestens eine Datei konnte nicht kopiert werden.[CR]Für mehr Details Logdatei einsehen."
-
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Fehler beim Verschieben"
 
-msgctxt "#16204"
-msgid "Failed to move at least one file.[CR]Check the log for more information about this message."
-msgstr "Mindestens eine Datei konnte nicht verschoben werden.[CR]Für mehr Details Logdatei einsehen."
-
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Fehler beim Löschen"
-
-msgctxt "#16206"
-msgid "Failed to delete at least one file.[CR]Check the log for more information about this message."
-msgstr "Mindestens eine Datei konnte nicht gelöscht werden.[CR]Für mehr Details Logdatei einsehen."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6353,14 +6321,6 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Auf diesem Kanal läuft bereits eine Aufnahme "
 
-msgctxt "#19035"
-msgid "%s couldn't be played.[CR]Check the log for more information about this message."
-msgstr "%s kann nicht abgespielt werden.[CR]Für mehr Details Logdatei einsehen."
-
-msgctxt "#19036"
-msgid "This recording can't be played.[CR]Check the log for more information about this message."
-msgstr "Diese Aufnahme kann nicht abgespielt werden.[CR]Für mehr Details Logdatei einsehen."
-
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Signalqualität anzeigen"
@@ -6388,14 +6348,6 @@ msgstr "Timer wirklich umbenennen?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Aufnahme"
-
-msgctxt "#19044"
-msgid "Please check your configuration.[CR]Check the log for more information about this message."
-msgstr "Bitte Konfiguration überprüfen.[CR]Für mehr Details Logdatei einsehen."
-
-msgctxt "#19045"
-msgid "No PVR clients have been started yet.[CR]Wait for the PVR clients to start up.[CR]Check the log for more information about this message."
-msgstr "Es sind keine PVR-Clients gestartet.[CR]Auf Abschluß des Starts der PVR-Clients warten.[CR]Für mehr Details Logdatei einsehen."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6484,10 +6436,6 @@ msgstr "Kanalsymbole"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Diese Sendnung wird bereits aufgenommen."
-
-msgctxt "#19068"
-msgid "This recording couldn't be deleted.[CR]Check the log for more information about this message."
-msgstr "Diese Aufnahme konnte nicht gelöscht werden.[CR]Für mehr Details Logdatei einsehen."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6635,27 +6583,15 @@ msgstr "Bitte einen Kanal auswählen"
 
 msgctxt "#19106"
 msgid "Next timer on"
-msgstr "Nächster Timer startet am"
+msgstr "Nächste Aufnahme startet am"
 
 msgctxt "#19107"
 msgid "at"
-msgstr "ab"
+msgstr "um"
 
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Standard-Bildwiederholfrequenz"
-
-msgctxt "#19109"
-msgid "Couldn't save timer.[CR]Check the log for more information about this message."
-msgstr "Timer konnte nicht gespeichert werden.[CR]Für mehr Details Logdatei einsehen."
-
-msgctxt "#19110"
-msgid "An unexpected error occurred.[CR]Try again later or check the log for more information."
-msgstr "Ein unerwarteter Fehler ist aufgetreten.[CR]Später noch einmal versuchen oder für mehr Details Logdatei einsehen."
-
-msgctxt "#19111"
-msgid "PVR backend error.[CR]Check the log for more information about this message."
-msgstr "PVR-Backend Fehler.[CR]Für mehr Details Logdatei einsehen."
 
 msgctxt "#19112"
 msgid "Delete this recording?"
@@ -6793,10 +6729,6 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Gruppen"
 
-msgctxt "#19147"
-msgid "The PVR backend does not support this action.[CR]Check the log for more information about this message."
-msgstr "Das PVR-Backend unterstützt diese Aktion nicht.[CR]Für mehr Details Logdatei einsehen."
-
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Kanal"
@@ -6856,10 +6788,6 @@ msgstr "Aufnahme aktiv"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Aufnahmen"
-
-msgctxt "#19164"
-msgid "Can't start recording.[CR]Check the log for more information about this message."
-msgstr "Die Aufnahme kann nicht gestartet werden.[CR]Für mehr Details Logdatei einsehen."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6941,22 +6869,6 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Gelöschte Aufnahmen"
 
-msgctxt "#19185"
-msgid "Reset PVR database"
-msgstr "PVR-Datenbank zurücksetzen"
-
-msgctxt "#19186"
-msgid "All data in the PVR database is being erased"
-msgstr "Alle Daten in der PVR-Datenbank werden gelöscht."
-
-msgctxt "#19187"
-msgid "Reset guide database"
-msgstr "TV-Guide-Datenbank zurücksetzen"
-
-msgctxt "#19188"
-msgid "Guide is being reset"
-msgstr "TV-Guide wird zurückgesetzt"
-
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Beim Programmstart letzten Kanal wiedergeben"
@@ -6972,10 +6884,6 @@ msgstr "PVR-Dienst"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Kanalsuche wird von keinem der PVR-Backends unterstützt."
-
-msgctxt "#19193"
-msgid "The channel scan can't be started.[CR]Check the log for more information about this message."
-msgstr "Der Kanalsuchlauf kann nicht gestartet werden.[CR]Für mehr Details Logdatei einsehen."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7092,10 +7000,6 @@ msgstr "Kanalgruppen mit Backend(s) synchronisieren"
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Guide"
-
-msgctxt "#19223"
-msgid "No PVR add-on could be enabled.[CR]Check your settings or the log for more information."
-msgstr "Es konnte kein PVR-Addon aktiviert werden.[CR]Bitte Einstellungen überprüfen oder für mehr Details Logdatei einsehen."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -11237,13 +11141,9 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconf konnte nicht gestartet werden"
 
-msgctxt "#34301"
-msgid "Is Apple's Bonjour service installed?[CR]Check the log for more information about this message."
-msgstr "Ist der Bonjour Dienst von Apple installiert?[CR]Für mehr Details Logdatei einsehen."
-
 msgctxt "#34302"
-msgid "AirPlay requires Zeroconf to be enabled."
-msgstr "Für AirPlay muss Zeroconf aktiviert sein."
+msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
+msgstr "AirPlay konnte nicht gestartet werden, weil Zeroconf nicht aktiv ist."
 
 msgctxt "#34303"
 msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
@@ -11512,10 +11412,6 @@ msgstr "* Artikel-Ordner"
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Begrenzten Farbraum (16-235) verwenden"
-
-msgctxt "#36043"
-msgid "No CEC capable TV detected. Disable polling for CEC capable devices?"
-msgstr "Es wurde kein CEC-fähiger TV gefunden. Suche nach CEC-fähigen Geräten deaktiveren?"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."

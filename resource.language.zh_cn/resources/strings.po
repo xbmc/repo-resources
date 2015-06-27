@@ -1597,10 +1597,6 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "从资料库中移除影片"
 
-msgctxt "#433"
-msgid "Would you really like to remove[CR]'%s' from library?"
-msgstr "确定要从资料库移除吗？"
-
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "风向 %s 风速 %i %s"
@@ -2866,16 +2862,8 @@ msgid "Unable to connect"
 msgstr "无法连接"
 
 msgctxt "#1002"
-msgid "The connection to the network location couldn't be established."
-msgstr "网络位置的连接无法建立。"
-
-msgctxt "#1003"
-msgid "This could be due to the network not being connected."
-msgstr "可能是由于没有连接网络。"
-
-msgctxt "#1004"
-msgid "Would you like to add it anyway?"
-msgstr "你仍然决定添加吗？"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "无法建立网络连接。可能是未连接网络导致的。仍然添加吗？"
 
 msgctxt "#1006"
 msgid "IP address"
@@ -2954,8 +2942,8 @@ msgid "Browse"
 msgstr "浏览"
 
 msgctxt "#1025"
-msgid "Couldn't retrieve directory information."
-msgstr "无法获得目录信息。"
+msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "无法获取目录信息。可能是未连接网络导致的。仍然添加吗？"
 
 msgctxt "#1026"
 msgid "Add source"
@@ -3569,10 +3557,6 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "回到上级列表因活动列表为空"
 
-msgctxt "#2101"
-msgid "Newer version needed.[CR]Check the log for more information about this message."
-msgstr "需要新版本。[CR]更多相关信息见日志。"
-
 msgctxt "#2102"
 msgid "%s error"
 msgstr "%s 错误"
@@ -4110,12 +4094,8 @@ msgid "Shutdown system if number of master lock retries is exceeded"
 msgstr "管理员锁定达到重试次数时关机"
 
 msgctxt "#12367"
-msgid "Master code is not valid"
-msgstr "管理员密码错误"
-
-msgctxt "#12368"
-msgid "Please enter a valid master code"
-msgstr "请输入正确的管理员密码"
+msgid "Master code is not valid. Please enter a valid master code."
+msgstr "管理员密码无效。请输入有效的管理员密码。"
 
 msgctxt "#12373"
 msgid "Settings & file manager"
@@ -4126,8 +4106,8 @@ msgid "Set as default for all videos"
 msgstr "设为所有视频的默认设置"
 
 msgctxt "#12377"
-msgid "This will reset any previously saved values"
-msgstr "将重置之前保存的所有设置值"
+msgid "This will reset any previously saved values. Are you sure?"
+msgstr "将重置之前保存的所有设置值。确定吗？"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -5930,8 +5910,8 @@ msgid "Playback failed"
 msgstr "播放失败"
 
 msgctxt "#16027"
-msgid "One or more items failed to play."
-msgstr "一个或多个项目播放失败。"
+msgid "One or more items failed to play. Check the log for more information about this message."
+msgstr "一个或多个项目播放失败。更多相关信息见日志。"
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -6029,25 +6009,13 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "复制失败"
 
-msgctxt "#16202"
-msgid "Failed to copy at least one file.[CR]Check the log for more information about this message."
-msgstr "至少一个文件复制失败。[CR]更多相关信息见日志。"
-
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "移动失败"
 
-msgctxt "#16204"
-msgid "Failed to move at least one file.[CR]Check the log for more information about this message."
-msgstr "至少一个文件移动失败。[CR]更多相关信息见日志。"
-
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "删除失败"
-
-msgctxt "#16206"
-msgid "Failed to delete at least one file.[CR]Check the log for more information about this message."
-msgstr "至少一个文件删除失败。[CR]更多相关信息见日志。"
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6353,14 +6321,6 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "此频道录像已启动"
 
-msgctxt "#19035"
-msgid "%s couldn't be played.[CR]Check the log for more information about this message."
-msgstr "%s无法播放。[CR]更多相关信息见日志。"
-
-msgctxt "#19036"
-msgid "This recording can't be played.[CR]Check the log for more information about this message."
-msgstr "此录像无法播放。[CR]更多相关信息见日志。"
-
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "显示信号质量"
@@ -6388,14 +6348,6 @@ msgstr "确定为此定时器改名吗？"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "录像"
-
-msgctxt "#19044"
-msgid "Please check your configuration.[CR]Check the log for more information about this message."
-msgstr "请检查设置。[CR]更多相关信息见日志。"
-
-msgctxt "#19045"
-msgid "No PVR clients have been started yet.[CR]Wait for the PVR clients to start up.[CR]Check the log for more information about this message."
-msgstr "PVR 客户端未启动。[CR]等待 PVR 客户端启动。[CR]更多相关信息见日志。"
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6484,10 +6436,6 @@ msgstr "频道图标"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "此事件已录制。"
-
-msgctxt "#19068"
-msgid "This recording couldn't be deleted.[CR]Check the log for more information about this message."
-msgstr "此录像无法删除。[CR]更多相关信息见日志。"
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6645,18 +6593,6 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "后备帧率"
 
-msgctxt "#19109"
-msgid "Couldn't save timer.[CR]Check the log for more information about this message."
-msgstr "无法保存定时器。[CR]更多相关信息见日志。"
-
-msgctxt "#19110"
-msgid "An unexpected error occurred.[CR]Try again later or check the log for more information."
-msgstr "出现未知错误。[CR]稍后重试或查看详细日志记录。"
-
-msgctxt "#19111"
-msgid "PVR backend error.[CR]Check the log for more information about this message."
-msgstr "PVR 后端错误。[CR]更多相关信息见日志。"
-
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "删除此录像？"
@@ -6793,10 +6729,6 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "组"
 
-msgctxt "#19147"
-msgid "The PVR backend does not support this action.[CR]Check the log for more information about this message."
-msgstr "PVR 后端不支持此动作。[CR]更多相关信息见日志。"
-
 msgctxt "#19148"
 msgid "Channel"
 msgstr "频道"
@@ -6856,10 +6788,6 @@ msgstr "录像激活"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "录像"
-
-msgctxt "#19164"
-msgid "Can't start recording.[CR]Check the log for more information about this message."
-msgstr "无法开始录像。[CR]更多相关信息见日志。"
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6941,22 +6869,6 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "已删除录像"
 
-msgctxt "#19185"
-msgid "Reset PVR database"
-msgstr "重置 PVR 数据库"
-
-msgctxt "#19186"
-msgid "All data in the PVR database is being erased"
-msgstr "PVR 数据库所有数据被清除"
-
-msgctxt "#19187"
-msgid "Reset guide database"
-msgstr "重置指南数据库"
-
-msgctxt "#19188"
-msgid "Guide is being reset"
-msgstr "指南正被重置"
-
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "启动时继续最后频道"
@@ -6972,10 +6884,6 @@ msgstr "PVR 服务"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "连接的 PVR 后端不支持频道扫描。"
-
-msgctxt "#19193"
-msgid "The channel scan can't be started.[CR]Check the log for more information about this message."
-msgstr "频道扫描无法启动。[CR]更多相关信息见日志。"
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7092,10 +7000,6 @@ msgstr "与后端同步频道组"
 msgctxt "#19222"
 msgid "Guide"
 msgstr "指南"
-
-msgctxt "#19223"
-msgid "No PVR add-on could be enabled.[CR]Check your settings or the log for more information."
-msgstr "无可激活的 PVR 插件。[CR]检查你的设置或详细日志记录。"
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -11237,13 +11141,9 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "启动 Zeroconf 失败"
 
-msgctxt "#34301"
-msgid "Is Apple's Bonjour service installed?[CR]Check the log for more information about this message."
-msgstr "Apple 的 Bonjour 服务是否已安装？[CR]更多相关信息见日志。"
-
 msgctxt "#34302"
-msgid "AirPlay requires Zeroconf to be enabled."
-msgstr "使用 AirPlay 需要启用 Zeroconf 。"
+msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
+msgstr "启动 AirPlay 失败，需要先启用 Zeroconf 功能。"
 
 msgctxt "#34303"
 msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
@@ -11512,10 +11412,6 @@ msgstr "* 项目文件夹"
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "使用有限的色彩范围（16-235）"
-
-msgctxt "#36043"
-msgid "No CEC capable TV detected. Disable polling for CEC capable devices?"
-msgstr "未检测到支持 CEC 的电视。禁用对支持 CEC 功能的设备轮询？"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."

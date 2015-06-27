@@ -531,7 +531,7 @@ msgstr "Laisva"
 
 msgctxt "#157"
 msgid "Video"
-msgstr "Video"
+msgstr "Vaizdo įrašai"
 
 msgctxt "#158"
 msgid "Free memory"
@@ -1597,10 +1597,6 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Pašalinti filmą iš bibliotekos"
 
-msgctxt "#433"
-msgid "Would you really like to remove[CR]'%s' from library?"
-msgstr "Ar tikrai norite pašalinti[CR]'%s' iš biliotekos?"
-
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "Iš %s - %i %s"
@@ -2431,7 +2427,7 @@ msgstr "Glaudinimo lygis"
 
 msgctxt "#666"
 msgid "Enable component-specific logging"
-msgstr "Įgalinti komponentą ruošai"
+msgstr "Įgalinti specifinių komponentų žurnalo rašymą"
 
 msgctxt "#667"
 msgid "Enable Dolby Digital (AC3) transcoding"
@@ -2439,7 +2435,7 @@ msgstr "Įjungti Dolby Digital (AC3) perkodavimą"
 
 msgctxt "#668"
 msgid "Specify component-specific logging..."
-msgstr "Nurodyti komponentų konkrečią ruošą ..."
+msgstr "Pasirinkti konkrečių komponentų žurnalo rašymą..."
 
 msgctxt "#669"
 msgid "Verbose logging for the [B]SMB[/B] library"
@@ -2467,7 +2463,7 @@ msgstr "Išsamus [B]JSON-RPC[/B] bibliotekos žurnalo rašymas"
 
 msgctxt "#676"
 msgid "Verbose logging for the [B]Audio[/B] component"
-msgstr "Išsamus [B]Audio[/B] komponento žurnalo rašymas"
+msgstr "Išsamus [B]garso[/B] komponento žurnalo rašymas"
 
 msgctxt "#677"
 msgid "Verbose logging for the [B]AirTunes[/B] library"
@@ -2866,16 +2862,8 @@ msgid "Unable to connect"
 msgstr "Neįmanoma prisijungti"
 
 msgctxt "#1002"
-msgid "The connection to the network location couldn't be established."
-msgstr "Neįmanoma nustatyti prisijungimo prie tinklo vietos."
-
-msgctxt "#1003"
-msgid "This could be due to the network not being connected."
-msgstr "Tai gali būti dėl to, kad neprisijungta prie tinklo."
-
-msgctxt "#1004"
-msgid "Would you like to add it anyway?"
-msgstr "Ar vistiek norėtumėte jį pridėti?"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Nepavyko nustatyti ryšio su tinklo vieta. Tai galėjo nutikti dėl neprijungto tinklo. Ar vis tiek norite jį pridėti?"
 
 msgctxt "#1006"
 msgid "IP address"
@@ -2954,8 +2942,8 @@ msgid "Browse"
 msgstr "Naršyti"
 
 msgctxt "#1025"
-msgid "Couldn't retrieve directory information."
-msgstr "Nepavyko gauti katalogo informacijos."
+msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Nepavyko nuskaityti katalogo informacijos. Tai galėjo nutikti dėl neprijungto tinklo. Ar vis tiek norite jį pridėti?"
 
 msgctxt "#1026"
 msgid "Add source"
@@ -3569,10 +3557,6 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Grįžo atgal į pagrindinį sąrašą, nes aktyvus sąrašas buvo išvalytas"
 
-msgctxt "#2101"
-msgid "Newer version needed.[CR]Check the log for more information about this message."
-msgstr "Reikalinga naujesnė versija.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
 msgctxt "#2102"
 msgid "%s error"
 msgstr "%s klaida"
@@ -3611,7 +3595,7 @@ msgstr "Muzika"
 
 msgctxt "#10006"
 msgid "Videos"
-msgstr "Video"
+msgstr "Vaizdo įrašai"
 
 msgctxt "#10007"
 msgid "System information"
@@ -3655,7 +3639,7 @@ msgstr "Nustatymai - Sistema"
 
 msgctxt "#10017"
 msgid "Settings - Videos"
-msgstr "Nustatymai - Video"
+msgstr "Nustatymai - Vaizdo įrašai"
 
 msgctxt "#10018"
 msgid "Settings - Network"
@@ -3675,7 +3659,7 @@ msgstr "Nustatymai - TV"
 
 msgctxt "#10025"
 msgid "Videos"
-msgstr "Video"
+msgstr "Vaizdo įrašai"
 
 msgctxt "#10028"
 msgid "Videos / Playlist"
@@ -4110,12 +4094,8 @@ msgid "Shutdown system if number of master lock retries is exceeded"
 msgstr "Išjungti sistemą, jei viršytas bandymų atrakinti valdytojo užraktą skaičius"
 
 msgctxt "#12367"
-msgid "Master code is not valid"
-msgstr "Valdytojo kodas neteisingas!"
-
-msgctxt "#12368"
-msgid "Please enter a valid master code"
-msgstr "Įveskite teisingą valdytojo kodą!"
+msgid "Master code is not valid. Please enter a valid master code."
+msgstr "Valdytojo kodas neteisingas. Įveskite teisingą valdytojo kodą."
 
 msgctxt "#12373"
 msgid "Settings & file manager"
@@ -4126,8 +4106,8 @@ msgid "Set as default for all videos"
 msgstr "Nustatyti kaip numatytuosius visiems vaizdo įrašams"
 
 msgctxt "#12377"
-msgid "This will reset any previously saved values"
-msgstr "Tai iš naujo nustatys bet kokias anksčiau išsaugotas reikšmes"
+msgid "This will reset any previously saved values. Are you sure?"
+msgstr "Tai iš naujo nustatys bet kokias anksčiau išsaugotas reikšmes. Ar tikrai norite tęsti?"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -5930,8 +5910,8 @@ msgid "Playback failed"
 msgstr "Atkūrimas nepavyko"
 
 msgctxt "#16027"
-msgid "One or more items failed to play."
-msgstr "Nepavyko atkurti vieno ar daugiau elementų."
+msgid "One or more items failed to play. Check the log for more information about this message."
+msgstr "Nepavyko atkurti vieno ar daugiau elementų. Daugiau informacijos apie šį pranešimą galite rasti žurnale."
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -6029,25 +6009,13 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Nepavyko nukopijuoti"
 
-msgctxt "#16202"
-msgid "Failed to copy at least one file.[CR]Check the log for more information about this message."
-msgstr "Nepavyko nukopijuoti bent vieno failo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Nepavyko perkelti"
 
-msgctxt "#16204"
-msgid "Failed to move at least one file.[CR]Check the log for more information about this message."
-msgstr "Nepavyko perkelti bent vieno failo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Nepavyko pašalinti"
-
-msgctxt "#16206"
-msgid "Failed to delete at least one file.[CR]Check the log for more information about this message."
-msgstr "Nepavyko pašalinti bent vieno failo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6353,14 +6321,6 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Šio kanalo įrašymas jau pradėtas"
 
-msgctxt "#19035"
-msgid "%s couldn't be played.[CR]Check the log for more information about this message."
-msgstr "Neįmanoma atkurti %s.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
-msgctxt "#19036"
-msgid "This recording can't be played.[CR]Check the log for more information about this message."
-msgstr "Neįmanoma atkurti šio įrašo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Rodyti signalo kokybę"
@@ -6388,14 +6348,6 @@ msgstr "Ar tikrai norite pervadinti šį laikmatį?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Įrašymas"
-
-msgctxt "#19044"
-msgid "Please check your configuration.[CR]Check the log for more information about this message."
-msgstr "patikrinkite konfigūraciją.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
-msgctxt "#19045"
-msgid "No PVR clients have been started yet.[CR]Wait for the PVR clients to start up.[CR]Check the log for more information about this message."
-msgstr "Kol kas dar nebuvo paleistas joks PVR klientas.[CR]Palaukite kol PVR klientas įsijungs.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6484,10 +6436,6 @@ msgstr "Kanalų piktogramos"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Šis įvykis jau įrašytas."
-
-msgctxt "#19068"
-msgid "This recording couldn't be deleted.[CR]Check the log for more information about this message."
-msgstr "Neįmanoma pašalinti šio įrašo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6645,18 +6593,6 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Atsarginis kadrų dažnis"
 
-msgctxt "#19109"
-msgid "Couldn't save timer.[CR]Check the log for more information about this message."
-msgstr "Neįmanoma išsaugoti laikmačio.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
-msgctxt "#19110"
-msgid "An unexpected error occurred.[CR]Try again later or check the log for more information."
-msgstr "Įvyko netikėta klaida.[CR]Bandykite vėliau arba patikrinkite žurnalą, norėdami gauti daugiau informacijos."
-
-msgctxt "#19111"
-msgid "PVR backend error.[CR]Check the log for more information about this message."
-msgstr "PVR posistemės klaida.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Ištrinti šį įrašą?"
@@ -6793,10 +6729,6 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Grupės"
 
-msgctxt "#19147"
-msgid "The PVR backend does not support this action.[CR]Check the log for more information about this message."
-msgstr "PVR posistemė nepalaiko šio veiksmo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Kanalas"
@@ -6856,10 +6788,6 @@ msgstr "Įrašymas aktyvus"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Įrašymai"
-
-msgctxt "#19164"
-msgid "Can't start recording.[CR]Check the log for more information about this message."
-msgstr "Neįmanoma pradėti įrašymo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6941,22 +6869,6 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Pašalinti įrašymai"
 
-msgctxt "#19185"
-msgid "Reset PVR database"
-msgstr "Atstatyti PVR duomenų bazę"
-
-msgctxt "#19186"
-msgid "All data in the PVR database is being erased"
-msgstr "Visi PVR duomenų bazės duomenys bus ištrinti"
-
-msgctxt "#19187"
-msgid "Reset guide database"
-msgstr "Atstatyti TV gido duomenų bazę"
-
-msgctxt "#19188"
-msgid "Guide is being reset"
-msgstr "TV gidas atstatomas"
-
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Paleidus rodyti paskutinį žiūrėtą kanalą"
@@ -6972,10 +6884,6 @@ msgstr "PVR paslauga"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Nei viena iš prijungtų PVR posistemių nepalaiko kanalų nuskaitymo."
-
-msgctxt "#19193"
-msgid "The channel scan can't be started.[CR]Check the log for more information about this message."
-msgstr "Neįmanoma pradėti kanalų paieškos.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7092,10 +7000,6 @@ msgstr "Sinchronizuoti kanalų grupes su posisteme(-ėmis)"
 msgctxt "#19222"
 msgid "Guide"
 msgstr "TV gidas"
-
-msgctxt "#19223"
-msgid "No PVR add-on could be enabled.[CR]Check your settings or the log for more information."
-msgstr "Neįmanoma įjungti jokio PVR priedo.[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -8587,7 +8491,7 @@ msgstr "Nežinomas arba integruotas (apsaugotas)"
 
 msgctxt "#20314"
 msgid "Videos - Library"
-msgstr "Video - Biblioteka"
+msgstr "Vaizdo įrašai - Biblioteka"
 
 msgctxt "#20316"
 msgid "Sort by: ID"
@@ -10219,7 +10123,7 @@ msgstr "Filmo informacija"
 
 msgctxt "#24008"
 msgid "Screensaver"
-msgstr "Ekrano užsklanda"
+msgstr "Ekrano užsklandos"
 
 msgctxt "#24009"
 msgid "Script"
@@ -11237,13 +11141,9 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Nepavyko paleisti Zeroconf"
 
-msgctxt "#34301"
-msgid "Is Apple's Bonjour service installed?[CR]Check the log for more information about this message."
-msgstr "Ar įdiegta Apple Bonjour paslauga?[CR]Daugiau informacijos apie šį pranešimą galite rasti žurnale."
-
 msgctxt "#34302"
-msgid "AirPlay requires Zeroconf to be enabled."
-msgstr "AirPlay paleidimui reikia įjungti Zeroconf."
+msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
+msgstr "Nepavyko paleisti AirPlay paslaugos, nes jei reikia, kad būtų įjungtas Zeroconf."
 
 msgctxt "#34303"
 msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
@@ -11512,10 +11412,6 @@ msgstr "* Elemento aplankas"
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Naudoti ribotą spalvų gamą (16-235)"
-
-msgctxt "#36043"
-msgid "No CEC capable TV detected. Disable polling for CEC capable devices?"
-msgstr "Nerastas CEC palaikantis televizorius. Išjungti CEC palaikančių įrenginių aptikimą?"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12875,7 +12771,7 @@ msgstr "Anaglyph geltona / mėlyna"
 
 msgctxt "#36520"
 msgid "Playback mode of stereoscopic 3D videos"
-msgstr "Stereoskopinis 3D video atkūrimo režimas"
+msgstr "Stereoskopinis 3D vaizdo atkūrimo režimas"
 
 msgctxt "#36521"
 msgid "Ask me"
@@ -12895,7 +12791,7 @@ msgstr "Toks pat kaip ir filmo (aptinkamas automatiškai)"
 
 msgctxt "#36526"
 msgid "Disable stereoscopic 3D mode when playback ended"
-msgstr "Išjungti stereoskopinį 3D režimą, kai atkūrimas pasibaigė"
+msgstr "Išjungti stereoskopinį 3D režimą baigus atkūrimą"
 
 msgctxt "#36527"
 msgid "Select playback mode"
@@ -12927,7 +12823,7 @@ msgstr "Stereoskopinis 3D vaizdo režimas"
 
 msgctxt "#36536"
 msgid "Invert stereoscopic 3D mode (flip eyes)"
-msgstr "Invertuoti stereoskopinį 3D režimą (apversti akis)"
+msgstr "Invertuoti stereoskopinį 3D režimą (sukeisti akis)"
 
 msgctxt "#36537"
 msgid "Select in which mode stereoscopic 3D videos will be played.[CR][Ask me] Will show a dialogue to select the desired mode for each playback.[CR][Preferred mode] Will use the preferred mode specified in the \"System -> Video hardware\" section of the settings.[CR][Monoscopic / 2D] Will play the video in mono / 2D.[CR][Ignore] Disables any stereoscopic 3D processing and handling."
@@ -13127,7 +13023,7 @@ msgstr "Dviguba garso išvestis"
 
 msgctxt "#37018"
 msgid "Boost centre channel when downmixing"
-msgstr "Didinti centrinį kanalą permiksuojant"
+msgstr "Pagarsinti centrinį kanalą permiksuojant"
 
 msgctxt "#37020"
 msgid "Enable higher colour depth artwork"

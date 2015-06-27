@@ -29,6 +29,10 @@ msgctxt "#3"
 msgid "Videos"
 msgstr "Video"
 
+msgctxt "#4"
+msgid "TV guide"
+msgstr "TV vodič"
+
 msgctxt "#5"
 msgid "Settings"
 msgstr "Postavke"
@@ -377,9 +381,29 @@ msgctxt "#119"
 msgid "New folder"
 msgstr "Nova mapa"
 
+msgctxt "#120"
+msgid "Confirm copy"
+msgstr "Potvrdi kopiranje"
+
+msgctxt "#121"
+msgid "Confirm move"
+msgstr "Potvrdi premještanje"
+
 msgctxt "#122"
 msgid "Confirm delete"
 msgstr "Potvrdi brisanje"
+
+msgctxt "#123"
+msgid "Would you like to copy the selected file(s)?"
+msgstr "Želite li kopirati odabrane datoteke?"
+
+msgctxt "#124"
+msgid "Would you like to move the selected file(s)?"
+msgstr "Želite li premjestiti odabrane datoteke?"
+
+msgctxt "#125"
+msgid "Would you like to delete the selected file(s)?[CR]Warning - this action can't be undone!"
+msgstr "Želite li obrisati odabrane datoteke?[CR]Napomena - ova akcija ne može biti vraćena!"
 
 msgctxt "#126"
 msgid "Status"
@@ -556,6 +580,10 @@ msgstr "%s- %s"
 msgctxt "#169"
 msgid "Resolution"
 msgstr "Razlučivost"
+
+msgctxt "#170"
+msgid "Adjust display refresh rate"
+msgstr "Prilagodi osvježavanje zaslona"
 
 msgctxt "#171"
 msgid "Sort title"
@@ -1260,6 +1288,10 @@ msgstr "Crno"
 msgctxt "#354"
 msgid "Matrix trails"
 msgstr "Matrix tragovi"
+
+msgctxt "#355"
+msgid "Wait time"
+msgstr "Vrijeme čekanja"
 
 msgctxt "#356"
 msgid "Screensaver mode"
@@ -2081,6 +2113,10 @@ msgctxt "#576"
 msgid "Times played"
 msgstr "Reproducirano puta"
 
+msgctxt "#577"
+msgid "Date taken"
+msgstr "Datum snimanja"
+
 msgctxt "#580"
 msgid "Sort direction"
 msgstr "Smjer razvrstavanja"
@@ -2789,18 +2825,6 @@ msgctxt "#1001"
 msgid "Unable to connect"
 msgstr "Nemoguće povezivanje"
 
-msgctxt "#1002"
-msgid "The connection to the network location couldn't be established."
-msgstr "Povezivanje s mrežnom lokacijom se ne može uspostaviti."
-
-msgctxt "#1003"
-msgid "This could be due to the network not being connected."
-msgstr "Razlog ovome je najvjerojatnije problem s mrežom."
-
-msgctxt "#1004"
-msgid "Would you like to add it anyway?"
-msgstr "Želite li ju ipak dodati?"
-
 msgctxt "#1006"
 msgid "IP address"
 msgstr "IP adresa"
@@ -2876,10 +2900,6 @@ msgstr "Pregledaj nova dijeljenja"
 msgctxt "#1024"
 msgid "Browse"
 msgstr "Pregledaj"
-
-msgctxt "#1025"
-msgid "Couldn't retrieve directory information."
-msgstr "Nemoguće je preuzeti informacije direktorija."
 
 msgctxt "#1026"
 msgid "Add source"
@@ -4021,14 +4041,6 @@ msgctxt "#12360"
 msgid "Master lock"
 msgstr "Glavni ključ"
 
-msgctxt "#12367"
-msgid "Master code is not valid"
-msgstr "Glavni ključ nije važeći!"
-
-msgctxt "#12368"
-msgid "Please enter a valid master code"
-msgstr "Upišite valjani glavni ključ"
-
 msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "Postavke i Upravitelja datoteka"
@@ -4037,10 +4049,6 @@ msgctxt "#12376"
 msgid "Set as default for all videos"
 msgstr "Postavi kao zadano za sve video snimke"
 
-msgctxt "#12377"
-msgid "This will reset any previously saved values"
-msgstr "Ovo će poništiti sve prijašnje spremljene vrijednosti"
-
 msgctxt "#12378"
 msgid "Amount of time to display each image"
 msgstr "Vrijeme prikaza svake slike"
@@ -4048,6 +4056,14 @@ msgstr "Vrijeme prikaza svake slike"
 msgctxt "#12379"
 msgid "Use pan and zoom effects"
 msgstr "Koristi efekte obrezivanja i zumiranja slike"
+
+msgctxt "#12385"
+msgid "Day / Month"
+msgstr "Dan / Mjesec"
+
+msgctxt "#12386"
+msgid "Month / Day"
+msgstr "Mjesec / Dan"
 
 msgctxt "#12390"
 msgid "System uptime"
@@ -4149,6 +4165,10 @@ msgctxt "#13015"
 msgid "Power button action"
 msgstr "Radnja tipke uključivanja"
 
+msgctxt "#13016"
+msgid "Power off system"
+msgstr "Isključi sustav"
+
 msgctxt "#13017"
 msgid "Inhibit idle shutdown"
 msgstr "Spriječi gašenje pri mirovanju"
@@ -4232,6 +4252,10 @@ msgstr "Omogućeno tijekom video reprodukcije"
 msgctxt "#13108"
 msgid "Always enabled"
 msgstr "Uvijek omogućeno"
+
+msgctxt "#13110"
+msgid "Save this resolution?"
+msgstr "Spremi ovu razlučivost?"
 
 msgctxt "#13111"
 msgid "Would you like to keep this change?"
@@ -4893,9 +4917,21 @@ msgctxt "#13423"
 msgid "Remember for this path"
 msgstr "Zapamti za ovu putanju"
 
+msgctxt "#13433"
+msgid "Play next video automatically"
+msgstr "Automatski reproduciraj slijedeći video"
+
 msgctxt "#13434"
 msgid "Play only this"
 msgstr "Reproduciraj samo ovo"
+
+msgctxt "#13438"
+msgid "Allow hardware acceleration - amcodec"
+msgstr "Dopusti hardversko ubrzanje - amcodec"
+
+msgctxt "#13439"
+msgid "Allow hardware acceleration - MediaCodec"
+msgstr "Dopusti hardversko ubrzanje - MediaCodec"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
@@ -4928,6 +4964,10 @@ msgstr "Koristi VC-1 VAAPI"
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Preferiraj VAAPI način prikazivanja"
+
+msgctxt "#13458"
+msgid "Allow hardware acceleration - OMXPlayer"
+msgstr "Dopusti hardversko ubrzanje - OMXPlayer"
 
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
@@ -4981,6 +5021,14 @@ msgctxt "#13551"
 msgid "Off"
 msgstr "Isključeno"
 
+msgctxt "#13552"
+msgid "%.1f second"
+msgstr "%.1f sekunda"
+
+msgctxt "#13553"
+msgid "%.1f seconds"
+msgstr "%.1f sekundi"
+
 msgctxt "#13554"
 msgid "%d Minute"
 msgstr "%d minuta"
@@ -4988,6 +5036,10 @@ msgstr "%d minuta"
 msgctxt "#13555"
 msgid "%d Minutes"
 msgstr "%d minuta"
+
+msgctxt "#13600"
+msgid "Apple Remote"
+msgstr "Apple daljinski upravljač"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -5004,6 +5056,22 @@ msgstr "Onemogućeno"
 msgctxt "#13611"
 msgid "Standard"
 msgstr "Standardno"
+
+msgctxt "#13612"
+msgid "Universal remote"
+msgstr "Univerzalni daljinski upravljač"
+
+msgctxt "#13613"
+msgid "Harmony remote"
+msgstr "Harmony daljinski upravljač"
+
+msgctxt "#13620"
+msgid "Apple Remote error"
+msgstr "Greška Apple daljinskog upravljača"
+
+msgctxt "#13621"
+msgid "Apple Remote support couldn't be enabled."
+msgstr "Podrška za Apple daljinsko upravljanje ne može biti omogućena."
 
 msgctxt "#14000"
 msgid "Stack"
@@ -5556,10 +5624,6 @@ msgstr "Upiši naziv izvođača"
 msgctxt "#16026"
 msgid "Playback failed"
 msgstr "Neuspjela reprodukcija"
-
-msgctxt "#16027"
-msgid "One or more items failed to play."
-msgstr "Neuspješno reproduciranje jedne ili više stavki"
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -6336,10 +6400,6 @@ msgstr "Televizija"
 msgctxt "#19183"
 msgid "Radio"
 msgstr "Radio"
-
-msgctxt "#19186"
-msgid "All data in the PVR database is being erased"
-msgstr "Svi podaci u PVR bazi podataka će biti obrisani"
 
 msgctxt "#19189"
 msgid "Continue last channel on startup"
@@ -9612,10 +9672,6 @@ msgstr "Nemoguće je pronaći prijašnju stavku za reprodukciju"
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Neuspješno pokretanje ZeroConf"
-
-msgctxt "#34302"
-msgid "AirPlay requires Zeroconf to be enabled."
-msgstr "AirPlay zahtijeva omogućeni Zeroconf."
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"

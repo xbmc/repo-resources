@@ -781,9 +781,17 @@ msgctxt "#224"
 msgid "Speed"
 msgstr "Viteză"
 
+msgctxt "#225"
+msgid "Vertical shift"
+msgstr "Deplasare verticală"
+
 msgctxt "#226"
 msgid "Test patterns..."
 msgstr "Modele de testare..."
+
+msgctxt "#227"
+msgid "Load audio CD information from online service"
+msgstr "Încarcă informații CD dintr-un serviciu de pe Internet"
 
 msgctxt "#228"
 msgid "Shuffle playlist on load"
@@ -1541,6 +1549,10 @@ msgctxt "#421"
 msgid "Keep audio device alive"
 msgstr "Ține dispozitivul audio activ"
 
+msgctxt "#422"
+msgid "Delete album information"
+msgstr "Șterge informații album"
+
 msgctxt "#423"
 msgid "Delete CD information"
 msgstr "Șterge informații CD"
@@ -1580,10 +1592,6 @@ msgstr "Fără cache"
 msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Eliminare film din mediatecă"
-
-msgctxt "#433"
-msgid "Would you really like to remove[CR]'%s' from library?"
-msgstr "Sigur doriți să eliminați[CR]„%s” din mediatecă?"
 
 msgctxt "#434"
 msgid "From %s at %i %s"
@@ -1844,6 +1852,10 @@ msgstr "se verifică"
 msgctxt "#504"
 msgid "Empty"
 msgstr "Gol"
+
+msgctxt "#505"
+msgid "Loading media information from files..."
+msgstr "Se încarcă informații media din fișiere..."
 
 msgctxt "#507"
 msgid "Sort by: Usage"
@@ -2213,6 +2225,10 @@ msgctxt "#607"
 msgid "To:"
 msgstr "Către:"
 
+msgctxt "#608"
+msgid "Couldn't rip CD or track because CDDARipPath is not set."
+msgstr "Couldn't rip CD-ul sau pista nu pot fi copiate deoarece CDDARipPath nu este definit."
+
 msgctxt "#610"
 msgid "Rip audio track"
 msgstr "Copiază pistă audio"
@@ -2407,7 +2423,7 @@ msgstr "Nivel de comprimare"
 
 msgctxt "#666"
 msgid "Enable component-specific logging"
-msgstr "Activează jurnalizare specifică pe componente"
+msgstr "Activează jurnalizare depanare specifică pe componente"
 
 msgctxt "#667"
 msgid "Enable Dolby Digital (AC3) transcoding"
@@ -2415,7 +2431,51 @@ msgstr "Activează transcodare Dolby Digital (AC3)"
 
 msgctxt "#668"
 msgid "Specify component-specific logging..."
-msgstr "Specificare componente jurnalizare specifică pe componente..."
+msgstr "Specificare componente jurnalizare depanare specifică pe componente..."
+
+msgctxt "#669"
+msgid "Verbose logging for the [B]SMB[/B] library"
+msgstr "Jurnalizare detaliată pentru biblioteca [B]SMB[/B]"
+
+msgctxt "#670"
+msgid "Verbose logging for the [B]libcURL[/B] library (HTTP(S), DAV)"
+msgstr "Jurnalizare detaliată pentru biblioteca [B]libcURL[/B] (HTTP(S), DAV)"
+
+msgctxt "#672"
+msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
+msgstr "Jurnalizare detaliată pentru bibliotecile [B]FFmpeg[/B]"
+
+msgctxt "#673"
+msgid "Verbose logging for the [B]RTMP[/B] library"
+msgstr "Jurnalizare detaliată pentru biblioteca [B]RTMP[/B]"
+
+msgctxt "#674"
+msgid "Verbose logging for [B]D-Bus[/B] calls"
+msgstr "Jurnalizare detaliată pentru apelurile [B]D-Bus[/B]"
+
+msgctxt "#675"
+msgid "Verbose logging for [B]JSON-RPC[/B] requests"
+msgstr "Jurnalizare detaliată pentru cererile [B]JSON-RPC[/B]"
+
+msgctxt "#676"
+msgid "Verbose logging for the [B]Audio[/B] component"
+msgstr "Jurnalizare detaliată pentru componenta [B]Audio[/B]"
+
+msgctxt "#677"
+msgid "Verbose logging for the [B]AirTunes[/B] library"
+msgstr "Jurnalizare detaliată pentru biblioteca [B]AirTunes[/B]"
+
+msgctxt "#678"
+msgid "Verbose logging for the [B]UPnP[/B] components"
+msgstr "Jurnalizare detaliată pentru componentele [B]UPnP[/B]"
+
+msgctxt "#679"
+msgid "Verbose logging for the [B]libCEC[/B] library"
+msgstr "Jurnalizare detaliată pentru biblioteca [B]libCEC[/B]"
+
+msgctxt "#680"
+msgid "Verbose logging for the [B]Video[/B] component"
+msgstr "Jurnalizare detaliată pentru componenta [B]Video[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2757,6 +2817,10 @@ msgctxt "#799"
 msgid "Library update"
 msgstr "Actualizare mediatecă"
 
+msgctxt "#800"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "Mediateca audio trebuie să scaneze etichetele din fișiere. Doriți ca scanarea să fie realizată acum?"
+
 msgctxt "#802"
 msgid "%s of %s available"
 msgstr "%s din %s disponibile"
@@ -2793,13 +2857,9 @@ msgctxt "#1001"
 msgid "Unable to connect"
 msgstr "Nu se poate realiza conexiunea"
 
-msgctxt "#1003"
-msgid "This could be due to the network not being connected."
-msgstr "Este posibil ca rețeaua să nu fie conectată."
-
-msgctxt "#1004"
-msgid "Would you like to add it anyway?"
-msgstr "Doriți să îl adăugați oricum?"
+msgctxt "#1002"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "The conexiunea la locația din rețea nu a putut fi stabilită. Aceasta poate fi din cauză că rețeaua nu este conectată. Doriți să o adăugați oricum?"
 
 msgctxt "#1006"
 msgid "IP address"
@@ -2876,6 +2936,10 @@ msgstr "Răsfoire după partajare nouă"
 msgctxt "#1024"
 msgid "Browse"
 msgstr "Răsfoire"
+
+msgctxt "#1025"
+msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Nu au putut fi preluate informațiile directorului. Aceasta poate fi din cauză că rețeaua nu este conectată. Doriți să o adăugați oricum?"
 
 msgctxt "#1026"
 msgid "Add source"
@@ -3000,6 +3064,10 @@ msgstr "SOCKS4A"
 msgctxt "#1184"
 msgid "SOCKS5"
 msgstr "SOCKS5"
+
+msgctxt "#1185"
+msgid "SOCKS5 with remote DNS resolving"
+msgstr "SOCKS5 cu rezolvare DNS la distanță"
 
 msgctxt "#1200"
 msgid "SMB client"
@@ -3453,6 +3521,10 @@ msgctxt "#1446"
 msgid "Unknown"
 msgstr "Necunoscut"
 
+msgctxt "#1447"
+msgid "Squalls"
+msgstr "Vijelii"
+
 msgctxt "#1448"
 msgid "Precipitation"
 msgstr "Precipitații"
@@ -3476,10 +3548,6 @@ msgstr "Listă goală"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Am revenit la lista părinte pentru că lista activă a fost golită"
-
-msgctxt "#2101"
-msgid "Newer version needed.[CR]Check the log for more information about this message."
-msgstr "Este necesară o versiune mai nouă.[CR]Verificați jurnalul pentru mai multe informații despre acest mesaj."
 
 msgctxt "#2102"
 msgid "%s error"
@@ -3532,6 +3600,14 @@ msgstr "Setări - Generale"
 msgctxt "#10009"
 msgid "Settings - Screen"
 msgstr "Setări - Ecran"
+
+msgctxt "#10010"
+msgid "Settings - Appearance - GUI calibration"
+msgstr "Setări - Aspect - Calibrare interfață"
+
+msgctxt "#10011"
+msgid "Settings - Videos - Screen calibration"
+msgstr "Setări - Video - Calibrare ecran"
 
 msgctxt "#10012"
 msgid "Settings - Pictures"
@@ -3655,7 +3731,7 @@ msgstr "Navigator fișiere"
 
 msgctxt "#10128"
 msgid "Network setup"
-msgstr "Setare rețea"
+msgstr "Configurare rețea"
 
 msgctxt "#10129"
 msgid "Media source"
@@ -4005,13 +4081,13 @@ msgctxt "#12360"
 msgid "Master lock"
 msgstr "Blocare principală"
 
-msgctxt "#12367"
-msgid "Master code is not valid"
-msgstr "Codul principal nu este valid"
+msgctxt "#12362"
+msgid "Shutdown system if number of master lock retries is exceeded"
+msgstr "Închide sistemul dacă s-a depășit numărul de reîncercări pentru blocarea principală"
 
-msgctxt "#12368"
-msgid "Please enter a valid master code"
-msgstr "Introduceți un cod principal valid"
+msgctxt "#12367"
+msgid "Master code is not valid. Please enter a valid master code."
+msgstr "Codul pentru blocarea principală nu este valid. Introduceți un cod pentru blocarea principală valid."
 
 msgctxt "#12373"
 msgid "Settings & file manager"
@@ -4022,8 +4098,8 @@ msgid "Set as default for all videos"
 msgstr "Definește ca implicit pentru video"
 
 msgctxt "#12377"
-msgid "This will reset any previously saved values"
-msgstr "Vor fi resetate toate valorile salvate anterior."
+msgid "This will reset any previously saved values. Are you sure?"
+msgstr "Vor fi resetate toate valorile salvate anterior. Sigur doriți acest lucru?"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -4104,6 +4180,10 @@ msgstr "OSD în mod ecran complet"
 msgctxt "#13000"
 msgid "System"
 msgstr "Sistem"
+
+msgctxt "#13001"
+msgid "Immediate HDD spindown"
+msgstr "Încetinire imediată disc dur"
 
 msgctxt "#13002"
 msgid "Video only"
@@ -4189,9 +4269,17 @@ msgctxt "#13025"
 msgid "Joystick unplugged"
 msgstr "Joystick deconectat"
 
+msgctxt "#13026"
+msgid "Try to wakeup remote servers on access"
+msgstr "Încearcă deșteptarea serverelor de la distanță când sunt accesate"
+
 msgctxt "#13028"
 msgid "Waiting for network to connect..."
 msgstr "Se așteaptă conectarea la retea..."
+
+msgctxt "#13029"
+msgid "Failed to execute Wake-on-LAN!"
+msgstr "Failed to execută Wake-on-LAN!"
 
 msgctxt "#13030"
 msgid "Waiting for server to wake up..."
@@ -4536,6 +4624,10 @@ msgstr "Arată elementele dosarului părinte"
 msgctxt "#13307"
 msgid "Track naming template"
 msgstr "Model de numire piste"
+
+msgctxt "#13308"
+msgid "Do you wish to reboot your system instead of just this application?"
+msgstr "Doriți să reporniți sistemul în loc să fie repornit acest program?"
 
 msgctxt "#13310"
 msgid "Zoom effect"
@@ -5157,6 +5249,10 @@ msgctxt "#13620"
 msgid "Apple Remote error"
 msgstr "Eroare telecomandă Apple"
 
+msgctxt "#13621"
+msgid "Apple Remote support couldn't be enabled."
+msgstr "Telecomanda Apple nu a putut fi activată."
+
 msgctxt "#14000"
 msgid "Stack"
 msgstr "Stivă"
@@ -5393,6 +5489,10 @@ msgctxt "#14065"
 msgid "Set time"
 msgstr "Setează oră"
 
+msgctxt "#14066"
+msgid "Enter the time in 24-hour HH:MM format"
+msgstr "Introduceți ora în format 24 ore HH:MM"
+
 msgctxt "#14067"
 msgid "Enter the date in DD/MM/YYYY format"
 msgstr "Introduceți data în format DD/MM/YYYY"
@@ -5509,6 +5609,10 @@ msgctxt "#14098"
 msgid "Play"
 msgstr "Redă"
 
+msgctxt "#14099"
+msgid "Eject disc when the CD ripping is complete"
+msgstr "Scoate discul când procesul de copiere s-a încheiat"
+
 msgctxt "#14100"
 msgid "Stop ripping CD"
 msgstr "Oprire copiere CD"
@@ -5527,7 +5631,7 @@ msgstr "Redă filmul principal"
 
 msgctxt "#14104"
 msgid "Show simplified menu"
-msgstr "Arată meniu simplificat"
+msgstr "Arată meniul simplificat"
 
 msgctxt "#14105"
 msgid "Temperature unit"
@@ -5669,6 +5773,10 @@ msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "Calea nu a putut fi găsită sau nu este validă."
 
+msgctxt "#15301"
+msgid "Couldn't connect to network server"
+msgstr "Nu se poate realiza conexiunea la server-ul din rețea."
+
 msgctxt "#15302"
 msgid "No servers found"
 msgstr "Niciun server găsit."
@@ -5770,8 +5878,8 @@ msgid "Playback failed"
 msgstr "Redarea a eșuat"
 
 msgctxt "#16027"
-msgid "One or more items failed to play."
-msgstr "Redarea unuia sau a mai multor elemente a eșuat."
+msgid "One or more items failed to play. Check the log for more information about this message."
+msgstr "Redarea unuia sau a mai multor elemente a eșuat. Verificați jurnalul pentru mai multe informații despre acest mesaj."
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -5797,9 +5905,17 @@ msgctxt "#16033"
 msgid "Couldn't open database."
 msgstr "Baza de date nu a putut fi deschisă."
 
+msgctxt "#16034"
+msgid "Couldn't get songs from database."
+msgstr "Nu pot fi preluate cântece din baza de date."
+
 msgctxt "#16035"
 msgid "Party mode playlist"
 msgstr "Listă de redare mod petrecere"
+
+msgctxt "#16036"
+msgid "Deinterlace (half)"
+msgstr "Deîntrețese (jumătate)"
 
 msgctxt "#16037"
 msgid "Deinterlace video"
@@ -5993,6 +6109,10 @@ msgctxt "#19003"
 msgid "Find similar"
 msgstr "Găseşte similare"
 
+msgctxt "#19004"
+msgid "Importing guide from clients"
+msgstr "Se importă ghidul de la clienți"
+
 msgctxt "#19005"
 msgid "PVR stream information"
 msgstr "Informații flux PVR"
@@ -6036,6 +6156,10 @@ msgstr "Fixă"
 msgctxt "#19015"
 msgid "Encryption"
 msgstr "Criptare"
+
+msgctxt "#19016"
+msgid "PVR backend %i - %s"
+msgstr "Backend PVR %i - %s"
 
 msgctxt "#19017"
 msgid "Recordings"
@@ -6208,6 +6332,10 @@ msgstr "Du-te la început"
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "Du-te la sfârșit"
+
+msgctxt "#19065"
+msgid "Timer settings"
+msgstr "Setări cronometru"
 
 msgctxt "#19066"
 msgid "Channel icons"
@@ -6389,6 +6517,10 @@ msgctxt "#19117"
 msgid "Search for channels"
 msgstr "Căutare canale"
 
+msgctxt "#19118"
+msgid "Can't use PVR functions while searching."
+msgstr "Funcțiile  PVR nu pot fi folosite în timpul căutării."
+
 msgctxt "#19119"
 msgid "On which server do you want to search?"
 msgstr "Pe ce server vrei să căutați?"
@@ -6460,6 +6592,10 @@ msgstr "Sensibil la majuscule"
 msgctxt "#19136"
 msgid "Channel unavailable"
 msgstr "Canal indisponibil"
+
+msgctxt "#19137"
+msgid "No groups defined. Please create a group first"
+msgstr "Niciun grup definit. Prima dată creați un grup"
 
 msgctxt "#19139"
 msgid "Name of the new group"
@@ -6565,6 +6701,10 @@ msgctxt "#19167"
 msgid "Scan for missing icons"
 msgstr "Scanează după icoane lipsă"
 
+msgctxt "#19168"
+msgid "Deleted and recoverable recordings"
+msgstr "Înregistrări șterse și recuperabile"
+
 msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Ascunde fereastra cu informații video"
@@ -6597,6 +6737,10 @@ msgctxt "#19178"
 msgid "Show channel information when switching channels"
 msgstr "Arată informații canal la schimbarea canalelor"
 
+msgctxt "#19179"
+msgid "Deleted"
+msgstr "Șterg"
+
 msgctxt "#19180"
 msgid "TV"
 msgstr "TV"
@@ -6616,10 +6760,6 @@ msgstr "Radio"
 msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Înregistrări șterse"
-
-msgctxt "#19186"
-msgid "All data in the PVR database is being erased"
-msgstr "Se șterg toate datele din baza de date PVR"
 
 msgctxt "#19189"
 msgid "Continue last channel on startup"
@@ -6765,13 +6905,21 @@ msgctxt "#19227"
 msgid "Recording completed"
 msgstr "Înregistrare completă"
 
+msgctxt "#19228"
+msgid "Timer deleted"
+msgstr "Cronometru șters"
+
 msgctxt "#19229"
 msgid "Close channel OSD after switching channels"
 msgstr "Închide OSD canal după schimbarea canalelor"
 
+msgctxt "#19230"
+msgid "Prevent updates during playback"
+msgstr "Împiedică actualizări în timpul redării"
+
 msgctxt "#19231"
 msgid "Use channel order from backend(s)"
-msgstr "Folosește numerotarea canalelor din backend"
+msgstr "Folosește ordonarea canalelor din backend(-uri)"
 
 msgctxt "#19232"
 msgid "Clear search results"
@@ -6809,6 +6957,10 @@ msgctxt "#19240"
 msgid "No PVR add-on enabled"
 msgstr "Niciun supliment PVR activat"
 
+msgctxt "#19241"
+msgid "The PVR manager has been enabled without any enabled PVR add-on. Enable at least one add-on in order to use the PVR functionality."
+msgstr "Administratorul PVR a fost activat fără niciun supliment PVR activat. Activați cel puțin un supliment pentru a folosi funcționalitatea PVR."
+
 msgctxt "#19244"
 msgid "Backend idle time"
 msgstr "Timp inactivitate backend"
@@ -6840,6 +6992,18 @@ msgstr "Încărcare ghid din baza de date"
 msgctxt "#19251"
 msgid "Update guide information"
 msgstr "Actualizează informațiile ghidului"
+
+msgctxt "#19252"
+msgid "Schedule guide update for this channel?"
+msgstr "Planificați actualizarea ghidului pentru acest canal?"
+
+msgctxt "#19253"
+msgid "Guide update scheduled for channel"
+msgstr "Actualizarea ghidului pentru canal a fost planificată"
+
+msgctxt "#19254"
+msgid "Guide update failed for channel"
+msgstr "Actualizarea ghidului pentru canal a eșuat"
 
 msgctxt "#19255"
 msgid "Start recording"
@@ -6893,6 +7057,14 @@ msgctxt "#19267"
 msgid "Parental locked:"
 msgstr "Blocat parental:"
 
+msgctxt "#19268"
+msgid "Hide \"No information available\" labels"
+msgstr "Ascunde etichetele de tipul „Nicio informație disponibilă”"
+
+msgctxt "#19269"
+msgid "Disable \"Connection lost\" warnings"
+msgstr "Dezactivează avertistentele de tip „Conexiune pierdută”"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Grupează elemente"
@@ -6924,6 +7096,10 @@ msgstr "Specific pentru client"
 msgctxt "#19280"
 msgid "Client specific settings"
 msgstr "Setări specifice clientului"
+
+msgctxt "#19281"
+msgid "Confirm channel switches by pressing \"OK\""
+msgstr "Confirmare schimbare canal prin apăsarea butonului „Bine”"
 
 msgctxt "#19282"
 msgid "Current icon"
@@ -6977,6 +7153,10 @@ msgctxt "#19294"
 msgid "Delete this recording permanently?"
 msgstr "Ștergeți această înregistrare permanent?"
 
+msgctxt "#19499"
+msgid "Other / Unknown"
+msgstr "Altele / Necunoscut"
+
 msgctxt "#19504"
 msgid "Comedy"
 msgstr "Comedie"
@@ -6985,9 +7165,21 @@ msgctxt "#19506"
 msgid "Romance"
 msgstr "Romantic"
 
+msgctxt "#19517"
+msgid "News / Weather report"
+msgstr "Știri / Reportaj meteo"
+
 msgctxt "#19519"
 msgid "Documentary"
 msgstr "Documentar"
+
+msgctxt "#19520"
+msgid "Discussion / Interview / Debate"
+msgstr "Discuție / Interviu / Dezbatere"
+
+msgctxt "#19535"
+msgid "Talk show"
+msgstr "Conversație"
 
 msgctxt "#19548"
 msgid "Sports"
@@ -7000,6 +7192,10 @@ msgstr "Eveniment special"
 msgctxt "#19551"
 msgid "Football"
 msgstr "Fotbal"
+
+msgctxt "#19552"
+msgid "Tennis / Squash"
+msgstr "Tenis / Squash"
 
 msgctxt "#19553"
 msgid "Team sports"
@@ -7025,6 +7221,22 @@ msgctxt "#19558"
 msgid "Equestrian"
 msgstr "Ecvestru"
 
+msgctxt "#19559"
+msgid "Martial sports"
+msgstr "Sporturi marțiale"
+
+msgctxt "#19564"
+msgid "Children's / Youth programmes"
+msgstr "Programe pentru tineri"
+
+msgctxt "#19565"
+msgid "Pre-school children's programmes"
+msgstr "Programe pentru copii preșcolari"
+
+msgctxt "#19569"
+msgid "Cartoons / Puppets"
+msgstr "Desene animate / Păpuși"
+
 msgctxt "#19580"
 msgid "Music / Ballet / Dance"
 msgstr "Muzică / Balet / Dans"
@@ -7033,9 +7245,29 @@ msgctxt "#19581"
 msgid "Rock / Pop"
 msgstr "Rock / Pop"
 
+msgctxt "#19582"
+msgid "Serious / Classical music"
+msgstr "Serios / Muzică clasică"
+
+msgctxt "#19583"
+msgid "Folk / Traditional music"
+msgstr "Folclor / Muzică tradițională"
+
+msgctxt "#19584"
+msgid "Musical / Opera"
+msgstr "Muzical / Operă"
+
 msgctxt "#19585"
 msgid "Ballet"
 msgstr "Balet"
+
+msgctxt "#19596"
+msgid "Arts / Culture"
+msgstr "Arte / Cultură"
+
+msgctxt "#19598"
+msgid "Fine arts"
+msgstr "Arte frumoase"
 
 msgctxt "#19599"
 msgid "Religion"
@@ -7045,9 +7277,33 @@ msgctxt "#19601"
 msgid "Literature"
 msgstr "Literatură"
 
+msgctxt "#19602"
+msgid "Film / Cinema"
+msgstr "Film / Cinema"
+
+msgctxt "#19603"
+msgid "Experimental film / video"
+msgstr "Film experimental / video"
+
+msgctxt "#19604"
+msgid "Broadcasting / Press"
+msgstr "Difuzare / Presă"
+
 msgctxt "#19607"
 msgid "Fashion"
 msgstr "Modă"
+
+msgctxt "#19615"
+msgid "Remarkable people"
+msgstr "Oameni remarcabili"
+
+msgctxt "#19629"
+msgid "Nature / Animals / Environment"
+msgstr "Natură / Animale / Mediu înconjurător"
+
+msgctxt "#19630"
+msgid "Technology / Natural sciences"
+msgstr "Tehnologie / Științele naturii"
 
 msgctxt "#19632"
 msgid "Foreign countries / Expeditions"
@@ -7057,6 +7313,10 @@ msgctxt "#19635"
 msgid "Languages"
 msgstr "Limbi"
 
+msgctxt "#19645"
+msgid "Tourism / Travel"
+msgstr "Turism / Călătorii"
+
 msgctxt "#19646"
 msgid "Handicraft"
 msgstr "Artizanat"
@@ -7065,21 +7325,41 @@ msgctxt "#19647"
 msgid "Motoring"
 msgstr "Automobilism"
 
+msgctxt "#19648"
+msgid "Fitness & health"
+msgstr "Sport și sănătate"
+
 msgctxt "#19649"
 msgid "Cooking"
 msgstr "Gătit"
+
+msgctxt "#19650"
+msgid "Advertisement / Shopping"
+msgstr "Reclame / Cumpărături"
 
 msgctxt "#19651"
 msgid "Gardening"
 msgstr "Grădinărit"
 
+msgctxt "#19660"
+msgid "Special characteristics"
+msgstr "Caracteristici speciale"
+
 msgctxt "#19661"
 msgid "Original language"
 msgstr "Limbă originală"
 
+msgctxt "#19662"
+msgid "Black & white"
+msgstr "Alb-negru"
+
 msgctxt "#19663"
 msgid "Unpublished"
 msgstr "Nepublicat"
+
+msgctxt "#19664"
+msgid "Live broadcast"
+msgstr "Difuzare în direct"
 
 msgctxt "#19676"
 msgid "Drama"
@@ -7105,9 +7385,17 @@ msgctxt "#19687"
 msgid "Play recording"
 msgstr "Redă înregistrare"
 
+msgctxt "#19689"
+msgid "%s service found at %s"
+msgstr "Serviciul %s  găsit la %s"
+
 msgctxt "#19690"
 msgid "Do you want to use this service?"
 msgstr "Doriți să folosiți acest serviciu?"
+
+msgctxt "#19693"
+msgid "Daily wakeup is due in %s."
+msgstr "Deșteptare zilnică planificată în %s."
 
 msgctxt "#19694"
 msgid "%d minutes"
@@ -7257,6 +7545,10 @@ msgctxt "#20047"
 msgid "Create profile '%s'?"
 msgstr "Creați profilul '%s'?"
 
+msgctxt "#20048"
+msgid "Start with fresh settings or copy from default?"
+msgstr "Pornire cu setări noi sau copiere implicite?"
+
 msgctxt "#20049"
 msgid "Best available"
 msgstr "Cel mai bun disponibil"
@@ -7341,9 +7633,17 @@ msgctxt "#20070"
 msgid "Profile directory"
 msgstr "Director profil"
 
+msgctxt "#20071"
+msgid "Start with fresh media sources or copy from default?"
+msgstr "Pornire cu surse media noi sau copiere implicite?"
+
+msgctxt "#20072"
+msgid "Make sure the selected folder is writable and that the new folder name is valid"
+msgstr "Verificați ca dosarul selectat să aibă permisiuni de scriere și numele noului dosar să fie valid"
+
 msgctxt "#20074"
 msgid "MPAA rating"
-msgstr "Evaluare MPAA"
+msgstr "Clasificare MPAA"
 
 msgctxt "#20075"
 msgid "Enter master lock code"
@@ -7441,6 +7741,10 @@ msgctxt "#20098"
 msgid "Fetching information for album"
 msgstr "Descărcare informații pentru album"
 
+msgctxt "#20099"
+msgid "A CD or track can't be ripped while being played"
+msgstr "O pistă de pe CD nu poate fi copiată în timp ce este redată"
+
 msgctxt "#20100"
 msgid "Master lock code and settings"
 msgstr "Cod blocare principală și setări"
@@ -7452,6 +7756,14 @@ msgstr "Introducând codul de blocare principal activează întotdeauna modul pr
 msgctxt "#20103"
 msgid "Save changes to profile?"
 msgstr "Salvați modificările în profil?"
+
+msgctxt "#20104"
+msgid "Old settings found. Do you want to use them?"
+msgstr "Au fost găsite setări vechi. Doriți să le folosiți?"
+
+msgctxt "#20106"
+msgid "Old media sources found. Do you want to use them?"
+msgstr "Au fost găsite surse media vechi. Doriți să le folosiți?"
 
 msgctxt "#20107"
 msgid "Separate (locked)"
@@ -7709,6 +8021,10 @@ msgctxt "#20175"
 msgid "UPnP server"
 msgstr "Server UPnP"
 
+msgctxt "#20176"
+msgid "Show video information"
+msgstr "Arată informații video"
+
 msgctxt "#20177"
 msgid "Done"
 msgstr "Gata"
@@ -7905,6 +8221,10 @@ msgctxt "#20318"
 msgid "Scanning music videos using %s"
 msgstr "Scanare videoclipuri muzicale folosind %s"
 
+msgctxt "#20319"
+msgid "Scanning TV shows using %s"
+msgstr "Scanare filme seriale folosind %s"
+
 msgctxt "#20320"
 msgid "Scanning artists using %s"
 msgstr "Scanare artiști folosind %s"
@@ -7981,6 +8301,10 @@ msgctxt "#20339"
 msgid "Director"
 msgstr "Regizor"
 
+msgctxt "#20340"
+msgid "Do you want to remove all items within this path from your library?"
+msgstr "Doriți să eliminați toate elementele din interiorul acestei căi din mediatecă?"
+
 msgctxt "#20342"
 msgid "Movies"
 msgstr "Filme"
@@ -8032,6 +8356,10 @@ msgstr "Încărcare informații serial"
 msgctxt "#20354"
 msgid "Fetching episode guide"
 msgstr "Se obține ghid episoade"
+
+msgctxt "#20355"
+msgid "Loading information for episodes in directory"
+msgstr "Se descarcă informații pentru episoadele din director"
 
 msgctxt "#20356"
 msgid "Select TV show:"
@@ -8120,6 +8448,10 @@ msgstr "Nume original"
 msgctxt "#20377"
 msgid "Refresh TV show information"
 msgstr "Actualizare informații serial"
+
+msgctxt "#20378"
+msgid "Refresh information for all episodes?"
+msgstr "Reîmprospătare informații pentru toate episoadele?"
 
 msgctxt "#20379"
 msgid "Selected folder contains a single TV show"
@@ -8283,15 +8615,15 @@ msgstr "Înlocuiește numele fișierelor cu numele din mediatecă"
 
 msgctxt "#20420"
 msgid "Never"
-msgstr "niciodată"
+msgstr "Niciodată"
 
 msgctxt "#20421"
 msgid "If only one season"
-msgstr "doar dacă este un singur sezon"
+msgstr "Doar dacă este un singur sezon"
 
 msgctxt "#20422"
 msgid "Always"
-msgstr "întotdeauna"
+msgstr "Întotdeauna"
 
 msgctxt "#20423"
 msgid "Has trailer"
@@ -8305,6 +8637,10 @@ msgctxt "#20425"
 msgid "Fanart slideshow"
 msgstr "Diaporamă creații artistice"
 
+msgctxt "#20426"
+msgid "Export to a single file or separate files per entry?"
+msgstr "Exportare către un singur fișier sau fișiere separate pentru fiecare intrare?"
+
 msgctxt "#20428"
 msgid "Single file"
 msgstr "Un singur fișier"
@@ -8315,7 +8651,7 @@ msgstr "Separate"
 
 msgctxt "#20430"
 msgid "Export thumbnails and fanart?"
-msgstr "Exportați miniaturi și creații artistice?"
+msgstr "Exportare miniaturi și creații artistice?"
 
 msgctxt "#20431"
 msgid "Overwrite old files?"
@@ -8339,7 +8675,7 @@ msgstr "Combină elementele video împărțite"
 
 msgctxt "#20436"
 msgid "Export actor thumbs?"
-msgstr "Exportare miniaturi actor?"
+msgstr "Exportare imagini actori?"
 
 msgctxt "#20437"
 msgid "Choose fanart"
@@ -8372,6 +8708,10 @@ msgstr "Doriți să reîmprospătați informațiile pentru toate elementele din 
 msgctxt "#20445"
 msgid "Fanart"
 msgstr "Creație artistică (Fanart)"
+
+msgctxt "#20446"
+msgid "Locally stored information found. Ignore and refresh from Internet?"
+msgstr "Au fost găsite informații stocate local. Ignorați și reîmprospătați de pe Internet?"
 
 msgctxt "#20448"
 msgid "Couldn't download information"
@@ -8485,6 +8825,10 @@ msgctxt "#21362"
 msgid "Bookmark created"
 msgstr "Semn de carte creat"
 
+msgctxt "#21363"
+msgid "Episode bookmark created"
+msgstr "A fost creat semn de carte pentru episod"
+
 msgctxt "#21364"
 msgid "Edit media share"
 msgstr "Modificare partajare media"
@@ -8508,6 +8852,10 @@ msgstr "Suprascrie fonturile din subtitrările ASS / SSA"
 msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
 msgstr "Activează suport pentru maus și ecran sensibil la atingere"
+
+msgctxt "#21370"
+msgid "Play GUI sounds during media playback"
+msgstr "Redă sunetele interfeței în timpul redării media"
 
 msgctxt "#21371"
 msgid "Thumbnail"
@@ -8681,9 +9029,17 @@ msgctxt "#21413"
 msgid "Default provider for movie information"
 msgstr "Furnizor implicit de informații filme"
 
+msgctxt "#21414"
+msgid "Default provider for TV show information"
+msgstr "Furnizor implicit de informații seriale"
+
 msgctxt "#21415"
 msgid "Default provider for music video information"
 msgstr "Furnizor implicit de informații muzică"
+
+msgctxt "#21416"
+msgid "Select first unwatched TV show season / episode"
+msgstr "Selectare primul sezon / episod nevăzut"
 
 msgctxt "#21417"
 msgid "Settings"
@@ -8837,6 +9193,10 @@ msgctxt "#21454"
 msgid "Cache full"
 msgstr "Cache plin"
 
+msgctxt "#21455"
+msgid "Cache filled before reaching required amount for continuous playback"
+msgstr "Cache împlinit înainte de a ajunge la nivelul necesar pentru redare continuă"
+
 msgctxt "#21456"
 msgid "External storage"
 msgstr "Stocare externă"
@@ -8877,6 +9237,10 @@ msgctxt "#21465"
 msgid "Above video"
 msgstr "Sus peste video"
 
+msgctxt "#21466"
+msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
+msgstr "Când intrați într-un serial, primul sezon sau episod nevăzut va fi selectat automat.[CR][La prima intrare] Primul element nevăzut va fi selectat doar la prima intrare.[CR][Întotdeauna] Primul element nevăzut va fi selectat la fiecare intrare."
+
 msgctxt "#21467"
 msgid "%.1f to %.1f"
 msgstr "de la %.1f la %.1f"
@@ -8900,6 +9264,10 @@ msgstr "La prima intrare"
 msgctxt "#21472"
 msgid "Include \"All seasons\" and \"Specials\""
 msgstr "Include „Toate sezoanele” și „Speciale”"
+
+msgctxt "#21473"
+msgid "Whether or not to consider the items from \"All seasons\" and \"Specials\" in the unwatched item selection."
+msgstr "Dacă să fie considerate și elementele din „Toate sezoanele” și „Speciale” la selectarea elementelor nevăzute."
 
 msgctxt "#21474"
 msgid "Neither"
@@ -9425,6 +9793,14 @@ msgctxt "#23100"
 msgid "External player active"
 msgstr "Lector extern activ"
 
+msgctxt "#23101"
+msgid "Click \"OK\" to terminate the player"
+msgstr "Dați clic pe „Bine” pentru a închide lectorul"
+
+msgctxt "#23104"
+msgid "Click \"OK\" when playback has ended"
+msgstr "Dați clic pe „Bine„ când redarea s-a terminat"
+
 msgctxt "#24000"
 msgid "Add-on"
 msgstr "Supliment"
@@ -9540,6 +9916,10 @@ msgstr "Weather.com (standard)"
 msgctxt "#24029"
 msgid "Service for weather information"
 msgstr "Serviciu pentru informații meteorologice"
+
+msgctxt "#24030"
+msgid "This add-on can't be configured"
+msgstr "Acest supliment nu poate fi configurat"
 
 msgctxt "#24031"
 msgid "Error loading settings"
@@ -9705,6 +10085,10 @@ msgctxt "#24072"
 msgid "Settings required"
 msgstr "Sunt necesare setări"
 
+msgctxt "#24073"
+msgid "Couldn't connect"
+msgstr "Imposibil de conectat"
+
 msgctxt "#24074"
 msgid "Needs to restart"
 msgstr "Trebuie să fie repornit"
@@ -9853,6 +10237,10 @@ msgctxt "#24111"
 msgid "Languages to download subtitles for"
 msgstr "Limbile pentru care se descarcă subtitrări"
 
+msgctxt "#24112"
+msgid "Set languages to use when searching for subtitles.[CR]Note: Not all subtitle services will use all languages."
+msgstr "Definiți limbile care să fie folosite când se caută subtitrări.[CR]Atenție: Nu toate serviciile de subtitrări vor folosi toate limbile."
+
 msgctxt "#24113"
 msgid "Failed to download subtitle"
 msgstr "Subtitrarea nu a putut fi descărcată"
@@ -9869,9 +10257,17 @@ msgctxt "#24116"
 msgid "Default TV show service"
 msgstr "Serviciu implicit pentru seriale"
 
+msgctxt "#24117"
+msgid "Select the service that will be used as default to search for TV show subtitles."
+msgstr "Selectați care va fi serviciul folosit implicit pentru căutarea subtitrărilor pentru seriale."
+
 msgctxt "#24118"
 msgid "Default movie service"
 msgstr "Serviciu implicit pentru filme"
+
+msgctxt "#24119"
+msgid "Select the service that will be used as default to search for movie subtitles."
+msgstr "Selectați care va fi serviciul folosit implicit pentru căutarea subtitrărilor pentru filme."
 
 msgctxt "#24120"
 msgid "Manual search string"
@@ -9883,7 +10279,7 @@ msgstr "Introduceți text de căutat"
 
 msgctxt "#24122"
 msgid "Update all"
-msgstr "Actualizează tot"
+msgstr "Actualizează toate"
 
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
@@ -9912,6 +10308,10 @@ msgstr "Configurația a fost mutată"
 msgctxt "#24130"
 msgid "Enable parsing for closed captions"
 msgstr "Activează analizare pentru subtitrări"
+
+msgctxt "#24131"
+msgid "Enable to parse for CC in video stream. Puts slightly more load on the CPU"
+msgstr "Permite analizarea subtitrărilor din fluxul video pentru cei cu probleme de vedere sau auz . Pune puțin mai multă încărcare pe procesor"
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -9963,7 +10363,7 @@ msgstr "Selectați din toate numele ..."
 
 msgctxt "#25003"
 msgid "Show Blu-ray menu"
-msgstr "Arată meniu Blu-ray"
+msgstr "Arată meniul Blu-ray"
 
 msgctxt "#25004"
 msgid "Play main title: %d"
@@ -10076,6 +10476,10 @@ msgstr "Reporniți modulul pentru activare"
 msgctxt "#33018"
 msgid "Tonight"
 msgstr "La noapte"
+
+msgctxt "#33019"
+msgid "Tomorrow night"
+msgstr "Mâine noapte"
 
 msgctxt "#33020"
 msgid "Condition"
@@ -10297,6 +10701,10 @@ msgctxt "#33101"
 msgid "Web server"
 msgstr "Server Web"
 
+msgctxt "#33102"
+msgid "Event server"
+msgstr "Server de evenimente"
+
 msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Server comunicare la distanță"
@@ -10328,6 +10736,10 @@ msgstr "VAAPI"
 msgctxt "#34005"
 msgid "FLAC"
 msgstr "FLAC"
+
+msgctxt "#34006"
+msgid "MPEG-4 audio (FFmpeg M4A AAC)"
+msgstr "Audio MPEG-4 (FFmpeg M4A AAC)"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -10422,12 +10834,20 @@ msgid "Failed to start Zeroconf"
 msgstr "Zeroconf nu a putut fi pornit"
 
 msgctxt "#34302"
-msgid "AirPlay requires Zeroconf to be enabled."
-msgstr "AirPlay necesită ca Zeroconf să fie activat."
+msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
+msgstr "Failed to start AirPlay nu a putut fi pornit deoarece necesită ca Zeroconf să fie activat."
+
+msgctxt "#34303"
+msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
+msgstr "Zeroconf nu poate fi oprit. AirPlay și AirTunes necesită ca Zeroconf să ruleze."
 
 msgctxt "#34400"
 msgid "Video rendering"
 msgstr "Randare video"
+
+msgctxt "#34401"
+msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
+msgstr "Filtrele / Scalatorii video nu au putu fi inițializați, se revine la scalarea bilineară"
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
@@ -10533,6 +10953,14 @@ msgctxt "#36006"
 msgid "Couldn't open the adapter"
 msgstr "Adaptorul nu poate fi deschis"
 
+msgctxt "#36011"
+msgid "Couldn't detect the CEC com port. Please configure it manually."
+msgstr "Portul com CEC nu a putut fi detectat. Vă rugăm să-l configurați manual."
+
+msgctxt "#36012"
+msgid "Couldn't initialise the CEC adapter. Please check your settings."
+msgstr "Adaptorul CEC nu a putut fi inițializat. Vă rugăm să verificați setările."
+
 msgctxt "#36015"
 msgid "HDMI port number"
 msgstr "Număr port HDMI"
@@ -10541,6 +10969,10 @@ msgctxt "#36016"
 msgid "Connected"
 msgstr "Conectat"
 
+msgctxt "#36017"
+msgid "Couldn't initialise the CEC adapter: libCEC was not found on your system."
+msgstr "Adaptorul CEC nu a putut fi inițializat: libCEC nu a fost găsită pe sistemul dumneavoastră."
+
 msgctxt "#36018"
 msgid "Use the TV's language setting"
 msgstr "Folosește setările de limbă ale televizorului"
@@ -10548,6 +10980,10 @@ msgstr "Folosește setările de limbă ale televizorului"
 msgctxt "#36019"
 msgid "Connected to HDMI device"
 msgstr "Conectarea la dispozitivul HDMI"
+
+msgctxt "#36020"
+msgid "Switch source to this device on startup"
+msgstr "Schimbă sursa la acest dispozitiv la pornire"
 
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
@@ -10565,6 +11001,14 @@ msgctxt "#36024"
 msgid "Failed to set the new configuration. Please check your settings."
 msgstr "Noua configurație nu a putut fi inițializată. Vă rugăm verificați setările."
 
+msgctxt "#36025"
+msgid "Send \"Inactive source\" command on shutdown"
+msgstr "Trimite comanda „Sursă inactivă” la închidere"
+
+msgctxt "#36026"
+msgid "Devices to also put in standby mode"
+msgstr "Dispozitive de pus de asemenea în modul suspendare"
+
 msgctxt "#36027"
 msgid "This device needs servicing"
 msgstr "Dispozitivul necesită service"
@@ -10580,6 +11024,14 @@ msgstr "Când televizorul este închis"
 msgctxt "#36030"
 msgid "Connection lost"
 msgstr "Conexiune pierdută"
+
+msgctxt "#36031"
+msgid "This user does not have permissions to open the CEC adapter"
+msgstr "Acest utilizator nu are permisiunea de a deschide adaptorul CEC"
+
+msgctxt "#36032"
+msgid "The port is busy. Only one program can access the CEC adapter"
+msgstr "Portul este ocupat. Doar un program poate accesa adaptorul CEC"
 
 msgctxt "#36033"
 msgid "Pause playback when switching to another source"
@@ -10605,6 +11057,10 @@ msgctxt "#36039"
 msgid "TV and AVR device (explicit)"
 msgstr "Televizor și dispozitiv receptor audio-video (explicit)"
 
+msgctxt "#36040"
+msgid "Detected version of libCEC interface (%x) is lower than the supported version %x."
+msgstr "Versiunea interfeței libCEC (%x) este mai mică decât versiunea suportată %x."
+
 msgctxt "#36041"
 msgid "* Item folder"
 msgstr "* Dosar element"
@@ -10619,7 +11075,7 @@ msgstr "Schimbă aspectul și experiența avută cu interfața cu utilizatorul."
 
 msgctxt "#36102"
 msgid "This category contains all skin related settings."
-msgstr "Categorie care conține toate setările legate de costum"
+msgstr "Această categorie conține toate setările legate de costum."
 
 msgctxt "#36103"
 msgid "Select the skin for the user interface. This will define the look and feel of the application."
@@ -10685,6 +11141,14 @@ msgctxt "#36118"
 msgid "Select your current timezone."
 msgstr "Selectați fusul orar"
 
+msgctxt "#36119"
+msgid "Defaults to the selected audio language if more than one language is available."
+msgstr "Implicit va fi aleasă limba audio selectată dacă sunt disponibile mai mult de una."
+
+msgctxt "#36120"
+msgid "Defaults to the selected subtitle language if more than one language is available."
+msgstr "Implicit va fi aleasă limba selectată pentru subtitrare dacă sunt disponibile mai mult de o limbă."
+
 msgctxt "#36121"
 msgid "This category contains the settings for how file lists are displayed."
 msgstr "Această categorie conține setări pentru afișarea listelor de fișiere."
@@ -10692,6 +11156,10 @@ msgstr "Această categorie conține setări pentru afișarea listelor de fișier
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
 msgstr "Arată elementul (..) în liste pentru a merge în dosarul părinte"
+
+msgctxt "#36123"
+msgid "Show file extensions on media files, for example \"You Enjoy Myself\" would be shown as \"You Enjoy Myself.mp3\"."
+msgstr "Arată extensiile pentru fișierele media, de exemplu „melodie” va fi afișată ca „melodie.mp3”."
 
 msgctxt "#36124"
 msgid "Ignore certain tokens, e.g. \"The\", during sort operations. \"The Simpsons\" would for example be sorted as \"Simpsons\"."
@@ -10733,6 +11201,10 @@ msgctxt "#36133"
 msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
 msgstr "Dacă se redă muzică, vizualizarea selectată va fi pornită în loc de a afișa protectorul de ecran."
 
+msgctxt "#36134"
+msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
+msgstr "Întunecă ecranul când media este în pauză. Nu este valid pentru protectorul ecran „Dim”."
+
 msgctxt "#36135"
 msgid "No info available yet."
 msgstr "Deocamdată nu este disponibilă nicio informație."
@@ -10749,13 +11221,29 @@ msgctxt "#36138"
 msgid "Section that contains settings related to videos and how they are handled."
 msgstr "Secțiune care conține setări pentru fișierele video și modul în care sunt ele gestionate"
 
+msgctxt "#36139"
+msgid "This category contains the settings for how the video library is handled."
+msgstr "Această categorie conține setări pentru gestionarea mediatecii video."
+
 msgctxt "#36140"
 msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
 msgstr "Alegeți care unitate să fie folosită pentru afișarea temperaturilor în interfața cu utilizatorul."
 
+msgctxt "#36141"
+msgid "Show plot information for unwatched media in the video library."
+msgstr "Arată intrigă pentru fișierele media nevăzute în mediateca video."
+
 msgctxt "#36142"
 msgid "Choose which speed unit is used for displaying speeds in the user interface."
 msgstr "Alegeți care unitate să fie folosită pentru afișarea vitezelor în interfața cu utilizatorul."
+
+msgctxt "#36143"
+msgid "Downloads thumbnails for actors from online databases when adding media to the library."
+msgstr "Descarcă imagini pentru actori din bazele de date de pe internet când se adaugă fișiere media în mediatecă."
+
+msgctxt "#36144"
+msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
+msgstr "Selectați în care cazuri doriți să ascundeți noduri sezoane pentru seriale. Dacă sunt ascunse, selectând un serial vă va duce direct la vizualizarea episoadelor."
 
 msgctxt "#36145"
 msgid "Group movies into \"Movie sets\" when browsing the movie library."
@@ -10771,11 +11259,19 @@ msgstr "Ascunde bara de progres scanare mediatecă în timpul scanărilor."
 
 msgctxt "#36148"
 msgid "Remove items from your library that can't be found (either renamed, deleted, or on removable storage that is currently unplugged)."
-msgstr "Elimină elementele din mediateca dumneavoastră care nu pot fi găsite (au fost redenumite, șterse, sau pe un memorie detașabilă care acum este deconectată)."
+msgstr "Elimină elementele din mediateca dumneavoastră care nu pot fi găsite (au fost redenumite, șterse, sau pe o memorie detașabilă care acum este deconectată)."
+
+msgctxt "#36149"
+msgid "Export the video library database to XML files. This will optionally overwrite your current XML files."
+msgstr "Exportați baza de date a mediatecii video în fișiere XML. Aceasta va suprascrie opțional fișierele XML curente."
 
 msgctxt "#36150"
 msgid "Import a XML file into the video library database."
 msgstr "Importați un fișier  XML în baza de date a mediatecii video."
+
+msgctxt "#36151"
+msgid "This category contains the settings for how video playback is handled."
+msgstr "Această categorie conține setări pentru gestionarea redării video."
 
 msgctxt "#36152"
 msgid "Enable automatic playback of the next file in the list."
@@ -10833,6 +11329,14 @@ msgctxt "#36168"
 msgid "Choose whether to use 12 or 24-hour format for displaying the time in the user interface."
 msgstr "Alegeți  dacă să fie folosit formatul de 12 ore sau 24 de ore pentru afișarea orei în interfața cu utilizatorul."
 
+msgctxt "#36169"
+msgid "Select the quality of resampling for cases where the audio output needs to be at a different sampling rate from that used by the source.[CR][Low] Is fast and will have minimal impact on system resources such as the use of the CPU.[CR][Medium] & [High] Will use progressively more system resources."
+msgstr "Selectați calitatea re-eșantionării pentru cazurile unde ieșirea audio trebuie să fie la o rată diferită de eșantionare față de cea folosită de sursă.[CR][Scăzută] este rapidă și va avea un impact minim asupra resurselor sistemului cum ar fi folosirea procesorului.[CR][Medie] și [Ridicată] vor folosi progresiv mai multe resurse ale sistemului."
+
+msgctxt "#36170"
+msgid "Stretch the video up to the set percentage in order to minimise black bars."
+msgstr "Întinde video până la procentul definit pentru a minimiza barele negre."
+
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Alegeți nivelul de mărire pentru video 4:3 care sunt afișate pe un ecran lat"
@@ -10851,7 +11355,7 @@ msgstr "Scalează Teletext la un raport de 4:3."
 
 msgctxt "#36176"
 msgid "This category contains the settings for how video file lists are handled."
-msgstr "Categorie care conține setări pentru gestionarea listelor de fișiere video."
+msgstr "Această categorie conține setări pentru gestionarea listelor de fișiere video."
 
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
@@ -10860,6 +11364,10 @@ msgstr "Extrage miniaturi și metadate din fișierele video, cum ar fi codecul �
 msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
 msgstr "Când un fișier este scanat în mediatecă va fi afișat numele din metadate în loc de numele fișierului."
+
+msgctxt "#36180"
+msgid "Extract thumbnails and information, such as codecs and aspect ratio, to display in library mode."
+msgstr "Extrage miniaturi și informații, cum ar fi codecuri și raportul de aspect, pentru a fi afișate în modul mediatecă."
 
 msgctxt "#36181"
 msgid "No info available yet."
@@ -10875,7 +11383,11 @@ msgstr "Elimină nodurile „Nume”, „Gen”, etc. din afișarea mediatecii. 
 
 msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
-msgstr "Categorie care conține setări pentru gestionarea subtitrăriilor."
+msgstr "Această categorie conține setări pentru gestionarea subtitrăriilor."
+
+msgctxt "#36185"
+msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+msgstr "Definiți tipul de font folosit pentru subtitrările text ( de obicei descărcate)."
 
 msgctxt "#36186"
 msgid "Set the font size to be used for subtitles."
@@ -10905,6 +11417,10 @@ msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "Locație subtitrare pe ecran"
 
+msgctxt "#36193"
+msgid "This category contains the settings for how DVDs are handled."
+msgstr "Această categorie conține setări pentru gestionarea discurilor DVD."
+
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
 msgstr "Redă automat discurile DVD când sunt introduse în unitate"
@@ -10921,13 +11437,37 @@ msgctxt "#36197"
 msgid "No info available yet."
 msgstr "Deocamdată nu este disponibilă nicio informație."
 
+msgctxt "#36198"
+msgid "Select the default movie information source. See the add-ons manager for options."
+msgstr "Selectați sursa implicită pentru informații filme artistice. Vedeți administratorul de suplimente pentru opțiuni."
+
+msgctxt "#36199"
+msgid "Select the default TV show information source. See the add-ons manager for options."
+msgstr "Selectați sursa implicită pentru informații filme seriale. Vedeți administratorul de suplimente pentru opțiuni."
+
+msgctxt "#36200"
+msgid "Select the default music videos information source. See the add-ons manager for options."
+msgstr "Selectați sursa implicită pentru informații muzică. Vedeți administratorul de suplimente pentru opțiuni."
+
 msgctxt "#36201"
 msgid "Settings for PVR / Live TV."
 msgstr "Setări pentru PVR/Televiziune în direct."
 
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR / Live TV."
+msgstr "Această categorie conține setări generale pentru PVR / Televiziune în direct."
+
+msgctxt "#36203"
+msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
+msgstr "Activează capabilități „Înregistrare video personală” (PVR). Aceasta necesită ca cel puțin un supliment PVR să fie instalat."
+
 msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Instruiește backend-ul să caute canale (dacă se poate)."
+
+msgctxt "#36211"
+msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+msgstr "Această categorie conține setări pentru meniurile PVR și afișarea pe ecran (OSD), la fel și ferestrele de informații canale."
 
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
@@ -10945,6 +11485,18 @@ msgctxt "#36217"
 msgid "Scan for missing channel icons."
 msgstr "Scanează pentru pictograme canale lipsă"
 
+msgctxt "#36218"
+msgid "This category contains the electronic programming guide (EPG) settings."
+msgstr "Această categorie conține setări pentru ghidul tv electronic (EPG)."
+
+msgctxt "#36221"
+msgid "Time between imports of guide data from backends."
+msgstr "Durata de timp între importurile datelor ghidului tv din backend-uri."
+
+msgctxt "#36226"
+msgid "This category contains the PVR playback and channel switching settings."
+msgstr "Această categorie conține setări pentru redare și schimbare canale PVR."
+
 msgctxt "#36227"
 msgid "Display stream of selected channel in a small box instead of fullscreen."
 msgstr "Afișează fluxul canalului selectat într-o fereastră mică în loc de ecran complet"
@@ -10953,9 +11505,29 @@ msgctxt "#36228"
 msgid "Continue with the last viewed channel on startup."
 msgstr "Lapornire, continuă cu ultimul canal văzut"
 
+msgctxt "#36229"
+msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
+msgstr "Arată calitatea semnalului în fereastra de informații coc (dacă este suportat de supliment și backend)."
+
+msgctxt "#36233"
+msgid "This category contains the default recording duration settings."
+msgstr "Această categorie conține setări pentru durata înregistrării implicite."
+
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button."
 msgstr "Durată înregistrări instante  când este apăsat butonul de înregistrare."
+
+msgctxt "#36235"
+msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
+msgstr "Prioritatea înregistrării. Un număr mai mare înseamnă o prioritate mai mare. Nu este suportată de către toate suplimentele și backend-urile."
+
+msgctxt "#36236"
+msgid "Delete recording after this time. Not supported by all add-ons and backends."
+msgstr "Șterge înregistrări după această oră. Nu este suportată de către toate suplimentele și backend-urile."
+
+msgctxt "#36240"
+msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
+msgstr "Această categorie conține setări PVR pentru economisirea energiei electrice, cum ar fi momentul când să fie pornit server-ul backend PVR."
 
 msgctxt "#36245"
 msgid "Execute the wakeup command every day at the given time."
@@ -10965,9 +11537,29 @@ msgctxt "#36246"
 msgid "When to execute the daily wakeup command."
 msgstr "Când să fie executată comanda de deșteptare zilnică"
 
+msgctxt "#36247"
+msgid "This category contains the parental control settings, if the PVR backend server supports parental controls."
+msgstr "Această categorie conține setări pentru controlul parental, dacă server-ul PVR din backend permite controlul parental."
+
+msgctxt "#36249"
+msgid "Enter a new pin code to unlock parental locked channels."
+msgstr "Introduceți un cod PIN nou pentru a debloca canalele blocate parental."
+
+msgctxt "#36251"
+msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
+msgstr "Această categorie conține setări specifice backend-ului PVR, dacă este suportat de către suplimentul PVR și backend."
+
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
-msgstr "Categorie care conține setări pentru fișiere de muzică și gestionarea lor."
+msgstr "Secțiune care conține setări pentru fișiere de muzică și gestionarea lor."
+
+msgctxt "#36255"
+msgid "Determine if artists that appear only on compilations are shown in the library artist view."
+msgstr "Determină dacă artiștii care apar doar pe compilații sunt afișați în vizualizare artiști în mediatecă."
+
+msgctxt "#36256"
+msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
+msgstr "Descarcă automat informații albume și artiști de la furnizorii de informații când sunt adăugate cântece în mediatecă."
 
 msgctxt "#36257"
 msgid "Select the default album information provider."
@@ -10985,13 +11577,37 @@ msgctxt "#36260"
 msgid "No info available yet."
 msgstr "Deocamdată nu este disponibilă nicio informație."
 
+msgctxt "#36261"
+msgid "If enabled, this framerate is used for streams we were not able to detect fps."
+msgstr "Dacă este activată, această rată de cadre este folosită pentru fluxurile pentru care nu poate fi detectat cadrele pe secundă."
+
+msgctxt "#36262"
+msgid "Export the music library database to XML files. This will optionally overwrite your current XML files."
+msgstr "Exportați baza de date a mediatecii audio în fișiere XML. Aceasta va suprascrie opțional fișierele XML curente."
+
 msgctxt "#36263"
 msgid "Import a XML file into the music library database."
-msgstr "Importați un fișier  XML în mediateca audio."
+msgstr "Importați un fișier  XML în baza de date a mediatecii audio."
+
+msgctxt "#36264"
+msgid "This category contains the settings for how music playback is handled."
+msgstr "Această categorie conține setări pentru gestionarea redării muzicii."
+
+msgctxt "#36265"
+msgid "Automatically plays the next item in the current folder, for example in \"Files\" view after a track has been played, the next track in the same folder will automatically play."
+msgstr "Redă automat următorul element din dosarul curent, de exemplu în vizualizare „Fișiere” după ce un cântec a fost redat, următorul cântec din același dosar va fi redat automat."
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
 msgstr "Când cântecele sunt selectate, ele sunt puse în coada de redare în loc să pornească imediat."
+
+msgctxt "#36268"
+msgid "Reference volume (PreAmp level) to use for files with encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
+msgstr "Volum de referință (nivel PreAmp) folosit pentru fișierele codate cu informații ReplayGain. Implicit este 89dB as per standard. Modificați cu atenție."
+
+msgctxt "#36269"
+msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
+msgstr "Volum de referință (nivel PreAmp) folosit pentru fișierele codate fără informații ReplayGain. Implicit este 89dB as per standard. Modificați cu atenție."
 
 msgctxt "#36270"
 msgid "Reduce the volume of the file if clipping will occur."
@@ -11009,9 +11625,21 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Alegeți vizualizarea care va fi afișată când se ascultă muzică"
 
+msgctxt "#36274"
+msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
+msgstr "Citește informațiile etichetelor din fișierele audio. Pentru directoarele mari aceasta pote mări timpul de citire, în special într-o rețea."
+
+msgctxt "#36275"
+msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
+msgstr "Controlează modul în care numele cântecelor sunt afișate în interfață . Pentru a funcționa cum trebuie, citirea etichetelor trebuie să fie activată."
+
 msgctxt "#36276"
 msgid "Used for formatting the second column in file lists."
 msgstr "Folosită pentru formatul celei dea doua coloane în listele de fișiere."
+
+msgctxt "#36277"
+msgid "Control the way that the names of songs are displayed in the now playing list."
+msgstr "Controlați modul în care numele cântecelor sunt afișate în lista „Acum în redare”."
 
 msgctxt "#36278"
 msgid "Used for formatting the second column in the now playing list."
@@ -11025,13 +11653,21 @@ msgctxt "#36280"
 msgid "Used for formatting the second column in library lists."
 msgstr "Folosită pentru formatul celei dea doua coloane în listele mediatecii."
 
+msgctxt "#36281"
+msgid "Search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+msgstr "Caută miniaturi pe partajările la distanță și mediile optice. Aceasta poate de cele mai multe ori să încetinească afișarea dosarelor."
+
 msgctxt "#36282"
 msgid "This category contains the settings for how CDs are handled."
-msgstr "Categorie care conține setări pentru gestionarea discurilor CD."
+msgstr "Această categorie conține setări pentru gestionarea discurilor CD."
 
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
 msgstr "Redă automat CD-urile când sunt introduse în unitate"
+
+msgctxt "#36284"
+msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
+msgstr "Preia informațiile pentru un CD audio, cum ar fi numele cântecului și artistul, din baza de date de pe Internet freedb.org."
 
 msgctxt "#36285"
 msgid "Select the location on your hard drive where ripped tracks will be saved to."
@@ -11056,6 +11692,18 @@ msgstr "Pentru FLAC alegeți nivelul de comprimare, implicit 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Scoate automat discul după ce copierea s-a terminat"
+
+msgctxt "#36292"
+msgid "This category contains the settings for how karaoke is handled."
+msgstr "Această categorie conține setări pentru gestionarea  modului karaoke."
+
+msgctxt "#36293"
+msgid "When playing any music file, look for a matching .cdg file and display its graphics."
+msgstr "Când este redat un fișier muzical, se va căuta un fișier asemănător cu extensia .cdg și se va afișa conținutul grafic din el."
+
+msgctxt "#36294"
+msgid "Show song selection dialogue once the last song in the queue has been played."
+msgstr "Arată dialogul de selecție cântec odată ce și ultimul cântec din coada de redare a fost redat."
 
 msgctxt "#36295"
 msgid "Select the font type used during karaoke."
@@ -11097,6 +11745,10 @@ msgctxt "#36304"
 msgid "Section that contains settings related to pictures and how they are handled."
 msgstr "Secțiune care conține setări legate de imagini și modul în care sunt ele gestionate"
 
+msgctxt "#36305"
+msgid "This category contains the settings for how picture file lists are handled."
+msgstr "Această categorie conține setări pentru gestionarea listelor de imagini."
+
 msgctxt "#36306"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
 msgstr "Dacă există informații EXIF (dată, oră, aparat foto folosit, etc.) acestea vor fi afișate."
@@ -11117,6 +11769,10 @@ msgctxt "#36310"
 msgid "No info available yet."
 msgstr "Deocamdată nu este disponibilă nicio informație."
 
+msgctxt "#36311"
+msgid "This category contains the settings for how the picture slideshow is handled."
+msgstr "Această categorie conține setări pentru gestionarea diaporamei."
+
 msgctxt "#36312"
 msgid "Select the amount of time that each image is displayed in a slideshow."
 msgstr "Alegeți durata afișării fiecărei imagini din diaporamă."
@@ -11133,6 +11789,10 @@ msgctxt "#36315"
 msgid "Section that contains weather related settings."
 msgstr "Secțiune care conține setări legate de vreme"
 
+msgctxt "#36316"
+msgid "This category contains the settings for how weather add-ons are handled."
+msgstr "Această categorie conține setări pentru gestionarea suplimentelor meteo."
+
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "Selectați până la trei locații pentru care să fie afișate informații meteorologice"
@@ -11145,9 +11805,65 @@ msgctxt "#36319"
 msgid "Section containing settings for how network services are handled."
 msgstr "Secțiune care conține setări pentru modul în care sunt gestionate servicile de rețea"
 
+msgctxt "#36320"
+msgid "This category contains the settings used for all services."
+msgstr "Această categorie conține setări folosite de toate serviciile."
+
+msgctxt "#36321"
+msgid "The name to display for this device when using various network services."
+msgstr "Numele de afișat pentru acest dispozitiv când se folosesc diverse servicii de rețea"
+
+msgctxt "#36322"
+msgid "This category contains the settings for how the UPnP service is handled. UPnP is also called DLNA on most consumer electronics."
+msgstr "Această categorie conține setări pentru gestionarea serviciului UPnP, care, de asemenea se mai numește și DLNA pe multe dispozitive."
+
+msgctxt "#36323"
+msgid "Enables the UPnP server. This allows you to stream media in your libraries to a UPnP client."
+msgstr "Activează server-ul UPnP. Acesta vă permite să difuzați fișierele edia din mediateciile dumneavoastră către un client UPnP."
+
+msgctxt "#36324"
+msgid "When a manual or automatic library update occurs, notify UPnP clients."
+msgstr "Când se efectuează o actualizare manuală sau automată a mediatecii, notifică clienții UPnP."
+
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
 msgstr "Activează clientul UPnP. Acesta vă permite să difuzați media de la orice server UPnP cu un punct de control și să controlați redarea de pe acel server."
+
+msgctxt "#36326"
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
+msgstr "Activează punctul de control UPnP. Acesta vă permite să difuzați fișiere media către orice client UPnP și să-i controlați redarea."
+
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service is handled."
+msgstr "Această categorie conține setări pentru gestionarea server-ului web."
+
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server."
+msgstr "Permite utilizatorilor de la distanță să controleze acest program prin server-ul web integrat."
+
+msgctxt "#36329"
+msgid "Define the web server port."
+msgstr "Definiți portul pentru server-ul web."
+
+msgctxt "#36330"
+msgid "Define the web server username. This only takes effect when both the username and the password are set."
+msgstr "Definește numele de utilizator pentru serverul web. Acest lucru are efect doar când și numele de utilizator și parola sunt definite."
+
+msgctxt "#36331"
+msgid "Define the web server password. This only takes effect when both the username and the password are set."
+msgstr "Definește parola pentru serverul web. Acest lucru are efect doar când și numele de utilizator și parola sunt definite."
+
+msgctxt "#36332"
+msgid "Select between web interfaces installed via the add-on manager."
+msgstr "Selectați între interfețele web prin administratorul de suplimente."
+
+msgctxt "#36333"
+msgid "This category contains the settings for how the remote control service is handled."
+msgstr "Această categorie conține setări pentru gestionarea serviciului de control la distanță."
+
+msgctxt "#36334"
+msgid "Allow programs on this computer to control this application via the web interface or the JSON-RPC interface protocol."
+msgstr "Permite programelor de pe acest calculator să controleze această aplicație prin the interfața web sau protocolul interfațp JSON-RPC."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -11173,6 +11889,18 @@ msgctxt "#36340"
 msgid "Continuous repeat delay (ms)."
 msgstr "Întârziere repetare continuă  (ms)."
 
+msgctxt "#36341"
+msgid "This category contains the settings for how the Zeroconf network discovery service is handled, required for AirPlay."
+msgstr "Această categorie conține setări pentru gestionarea serviciului de descoperire rețea Zeroconf, necesar pentru AirPlay."
+
+msgctxt "#36342"
+msgid "Allows applications on the network to discover enabled services via Zeroconf."
+msgstr "Permite aplicațiilor din rețea să descopere prin Zeroconf serviciile activate."
+
+msgctxt "#36343"
+msgid "If enabled, the content from other AirPlay devices or applications can be received."
+msgstr "Dacă este activată, conținutul de la alte dispozitive AirPlay sau aplicații poate fi primit."
+
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
 msgstr "Activează protecție prin parolă pentru AirPlay"
@@ -11181,9 +11909,29 @@ msgctxt "#36345"
 msgid "Sets the AirPlay password."
 msgstr "Definește parola AirPlay."
 
+msgctxt "#36346"
+msgid "This category contains the settings for how the SMB client (Samba) service is handled."
+msgstr "Această categorie conține setări pentru gestionarea serviciului client SMB (Samba)."
+
+msgctxt "#36347"
+msgid "If a WINS server is running on the network, enter its IP address here. Otherwise, leave blank."
+msgstr "Dacă un server WINS server rulează în rețea, introduceți-i adresa IP aici. Dacă nu, lăsați necompletat."
+
+msgctxt "#36348"
+msgid "If a WINS server is running on the network, enter its workgroup name here. Otherwise, leave blank."
+msgstr "Dacă un server WINS server rulează în rețea, introduceți-i grupul de lucru aici. Dacă nu, lăsați necompletat."
+
+msgctxt "#36349"
+msgid "Section that contains the system related settings for the device this application is installed on."
+msgstr "Secțiune care conține setări pentru dispozitivul pe care acest program este instalat."
+
 msgctxt "#36350"
 msgid "Automatically send Wake-on-LAN to server(s) right before trying to access shared files or services."
 msgstr "Trimite automat pachetul de deșteptare (WOL) chiar înainte de a se încerca accesarea fișierelor sau a serviciilor partajate."
+
+msgctxt "#36351"
+msgid "Changes the way this application is displayed on the selected screen. Either in a window or fullscreen."
+msgstr "Schimbă modul în care acest program este afișat pe ecranul selectat. Într-o fereastră sau pe tot ecranul."
 
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
@@ -11193,17 +11941,37 @@ msgctxt "#36353"
 msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Schimbă rata de reîmprospătare a interfeței cu utilizatorul."
 
+msgctxt "#36355"
+msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
+msgstr "Într-o configurație cu mai multe ecrane, ecranele pe acare acest program nu este afișat sunt întunecate."
+
 msgctxt "#36356"
 msgid "Eliminate vertical tearing."
 msgstr "Elimină rupere verticală."
+
+msgctxt "#36357"
+msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
+msgstr "Calibrați interfața cu utilizatorul prin ajustarea suprascanării. Folosiți această unealtă dacă imaginea afișată este prea mare sau prea mică pentru ecranul dumneavoastră."
 
 msgctxt "#36358"
 msgid "Test patterns for display hardware calibration."
 msgstr "Modele de testare pentru calibrare ecran"
 
+msgctxt "#36359"
+msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
+msgstr "Folosiți interval limitat de culori (16-235) în locul intervalului complet de culori (0-255). Intervalul limitat de culori ar trebui folosit dacă ecranul dumneavoastră este un televizor normal cu HDMI și nu aveți un calculator sau alt mod pentru a afișa intervalul complet de culori, totuși dacă ecranul dumneavoastră e un monitor de calculator atunci lăsați această opțiune dezactivată pentru a obține nuanțele de negru adecvate."
+
 msgctxt "#36360"
 msgid "This category contains the settings for how audio output is handled."
-msgstr "Categorie care conține setări pentru gestionarea ieșirii audio."
+msgstr "Această categorie conține setări pentru gestionarea ieșirii audio."
+
+msgctxt "#36361"
+msgid "Select how the properties of the audio output are set: [Fixed] Output properties are set to the specified sampling rate & speaker configuration at all times; [Best Match] Output properties are set to always be as close a match to the source properties as possible; [Optimized] Output properties are set at the start of playback and will not change if the properties of the source change."
+msgstr "Selectați cum sunt alese proprietățiile ieșirii audio audio: [Fixă] Proprietățiile ieșii sunt definite de întotdeauna de rata de eșantionare și configurația difuzoarelor specificată; [Cea mai bună potrivire] Proprietățiile ieșirii sunt definite întotdeauna cât de apropiat posibil cu cele ale sursei; [Optimizat] Proprietățiile ieșirii sunt definite la începutul redării și nu se vor schimba dacă proprietățiile sursei se schimbă."
+
+msgctxt "#36362"
+msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
+msgstr "Selectați numărul de canale suportat de conexiunea audio sau numărul de difuzoare dacă sunt conectate printr-o conexiune analogă. Această setare nu se aplică pentru trecere audio nemodificată (passthrough). Atenție - SPDIF suportă doar 2.0 canale, dar totuși poate să scoată audio pe mai multe canale folosind un format suportat pentru trecere nemodificată."
 
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
@@ -11221,6 +11989,14 @@ msgctxt "#36366"
 msgid "Select this option if your receiver is capable of decoding DTS streams."
 msgstr "Selectați această opțiune dacă receptorul dumneavoastră este capabil să decodeze fluxuri DTS"
 
+msgctxt "#36367"
+msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
+msgstr "Selectați numărul maxim de canale audio / difuzoare disponibile pentru audio decodat. Dacă sunt folosite ieșiri optice / coaxiale digitale, acesta trebuie să fie 2.0"
+
+msgctxt "#36368"
+msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
+msgstr "Selectați pentru a activa opțiunile pentru trecere audio nemodificat pentru redarea fluxurilor audio codate cum ar fi Dolby Digital (AC3), DTS, etc."
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Selectați această opțiune dacă receptorul dumneavoastră este capabil să decodeze fluxuri TrueHD"
@@ -11233,17 +12009,41 @@ msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
 msgstr "Selectați dispozitivul folosit pentru redarea fișierelor audio care a fost decodate, cum este mp3."
 
+msgctxt "#36372"
+msgid "Select the device to be used for playback of encoded formats, these are any of the formats below in the capable receiver options."
+msgstr "Selectați dispozitivul folosit pentru redarea formatelor codate, acestea sunt oricare dintre formatele de mai jos în opțiunile capabil de ale receptorului."
+
 msgctxt "#36373"
 msgid "Configure how interface sounds are handled, such as menu navigation and important notifications."
 msgstr "Configurați modul în care sunt gestionate sunetele interfeței, cum ar fi navigarea prin meniu și notificările importante."
 
 msgctxt "#36374"
 msgid "This category contains the settings for how input devices are handled."
-msgstr "Această categorie care conține setări pentru gestionarea dispozitivelor de intrare."
+msgstr "Această categorie conține setări pentru gestionarea dispozitivelor de intrare."
 
 msgctxt "#36375"
 msgid "Configure any attached peripheral devices."
 msgstr "Configurați orice dispozitiv periferic atașat"
+
+msgctxt "#36376"
+msgid "When activated, your keyboard arrows will move the selection on the virtual keyboard. When deactivated, they will move the cursor from your text."
+msgstr "Când este activată, tastele săgeți de pe tastatură vor muta selecția pe tastatura virtuală. Când este dezactivată, ele vor muta cursorul din text."
+
+msgctxt "#36377"
+msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
+msgstr "Folosiți un maus sau un dispozitiv cu ecran sensibil la atingere pentru a controla interfața. Atenție: Dezactivând această opțiune vă va face să pierdeți controlul asupra acestui program când nu este prezentă nicio tastatură sau telecomandă."
+
+msgctxt "#36378"
+msgid "Use a joystick to control the interface."
+msgstr "Folosește o manetă pentru controlul interfeței."
+
+msgctxt "#36379"
+msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
+msgstr "Această categorie conține setări pentru gestionarea accesului la Internet. De asemenea, aici poate fi aleasă și interfața web implicită."
+
+msgctxt "#36380"
+msgid "If your Internet connection uses a proxy server, configure it here."
+msgstr "Dacă conexiunea dumneavoastră la Internet folosește un server proxy, configurați-l aici."
 
 msgctxt "#36381"
 msgid "Configure which proxy type is used."
@@ -11265,17 +12065,81 @@ msgctxt "#36385"
 msgid "Configure the proxy server password."
 msgstr "Configurați parolă server proxy"
 
+msgctxt "#36386"
+msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
+msgstr "Dacă conexiunea dumneavoastră la Internet are disponibilă o lățime de bandă limitată, folosiți această setare pentru a ține folosirea lățimii de bandă a acestui program între limitele definite."
+
+msgctxt "#36387"
+msgid "This category contains the settings for power saving."
+msgstr "Această categorie conține setări pentru economisirea energiei electrice."
+
 msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
 msgstr "Închide ecranul înperioada de inactivitate. Folositoare pentru televizoarele care se închid când nu este detectat niciun semnal."
+
+msgctxt "#36389"
+msgid "Set the time to wait for any activity to occur before shutting down."
+msgstr "Definiți timpul cât trebuie să se aștepte pentru ca orice activitate să aibă loc înainte de închidere."
+
+msgctxt "#36390"
+msgid "Define what action to perform when the shutdown function timer lapsed."
+msgstr "Definiți ce acțiune să fie luată când cronometrul planificatorului de închidere a ajuns la final."
+
+msgctxt "#36391"
+msgid "This category contains the settings for enabling debug functions. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
+msgstr "Această categorie conține setări pentru activarea funcțiilor de depanare. Puteți, de asemenea, să activați  jurnalizare depanare specifică pe componente pentru a vă ajuta să identificați problemele mai detaliat."
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
 msgstr "Activați sau dezactivați jurnalizare depanare. Este folositoare pentru rezolvarea problemelor."
 
+msgctxt "#36393"
+msgid "Select the folder where screenshots should be saved in."
+msgstr "Selectați dosarul în care vor fi salvate capturile de ecran."
+
+msgctxt "#36394"
+msgid "Enables verbose messages from additional libraries to be included in the debug log."
+msgstr "Activează includerea în jurnalul de depanare a mesajelor detaliate din librării adiționale."
+
+msgctxt "#36395"
+msgid "This category contains the settings for how the master lock function is handled."
+msgstr "Această categorie conține setări pentru gestionarea funcției de blocare principală."
+
+msgctxt "#36396"
+msgid "Here you can enable or disable master lock and define the PIN code used to unlock it. You can also specify which areas of the application would need a PIN to access them."
+msgstr "Aici puteți activa sau dezactiva blocarea principală și defini codul PIN folosit pentru deblocare. Puteți, de asemenea să specificați care părți ale programului să necesite un cod PIN pentru accesare."
+
+msgctxt "#36397"
+msgid "If enabled, the master lock code is required to unlock this application on startup."
+msgstr "Dacă este activată, codul pentru blocarea principală este necesar pentru a debloca acest program la pornire."
+
+msgctxt "#36398"
+msgid "Define the maximum number of retries before this application is closed down."
+msgstr "Definiți numărul maxim de reîncercări înainte ca acest program să se închidă."
+
+msgctxt "#36399"
+msgid "This category contains the settings for how the cache function is handled."
+msgstr "Această categorie conține setări pentru gestionarea funcției de cache."
+
+msgctxt "#36400"
+msgid "Enable cache for playback of video, audio or DVDs from hard disk."
+msgstr "Activează cache pentru redare video, audio sau discuri DVD de pe discul dur."
+
+msgctxt "#36401"
+msgid "Enable cache for playback of video from DVD-ROM."
+msgstr "Activează cache pentru redare video din DVD-ROM."
+
+msgctxt "#36402"
+msgid "Enable cache for video playback from local network."
+msgstr "Activează cache pentru redare video din rețeaua locală."
+
 msgctxt "#36403"
 msgid "Enable cache for video playback from Internet."
 msgstr "Activează cache pentru redare video din Internet."
+
+msgctxt "#36404"
+msgid "Enable cache for playback of audio from DVD-ROM."
+msgstr "Activează cache pentru redare audio din DVD-ROM."
 
 msgctxt "#36405"
 msgid "Enable cache for audio playback from local network."
@@ -11337,6 +12201,18 @@ msgctxt "#36419"
 msgid "Define locations used for retrieving weather information."
 msgstr "Definiți locațiile pentru care se cer informații meteo"
 
+msgctxt "#36420"
+msgid "Look for external subtitles for videos provided by the UPnP server. This can cause extensive CPU, filesystem and network load."
+msgstr "Caută subtitrări externe pentru fișierele video care au fost frnizate de server-ul  UPnP. Aceasta poate cauza o încărcare considerabilă a procesorului, sistemului de fișiere și a rețelei."
+
+msgctxt "#36421"
+msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
+msgstr "Trecând de VDPAU mixer salvează resurse pe sistemele de putere mică dar reduce puțin calitatea imaginii."
+
+msgctxt "#36422"
+msgid "Enable hardware video decode using Amlogic decoder."
+msgstr "Activează decodare video hardware folosind decodorul Amlogic."
+
 msgctxt "#36425"
 msgid "Show context menu"
 msgstr "Arată meniul contextual"
@@ -11353,6 +12229,10 @@ msgctxt "#36428"
 msgid "Record"
 msgstr "Înregistrează"
 
+msgctxt "#36429"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
+msgstr "Selectați această opțiune dacă conexiunea audio de ieșire permite doar audio pe mai multe canale ca Dolby Digital 5.1 (AC-3), cum este o conexiune S/PDIF. Dacă sistemul dumneavoastră permite audio PCM pe mai multe canale prin HDMI, lăsați-o dezactivată."
+
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
 msgstr "Configurați cum va fi accelerată procesarea video. Aceasta include lucruri cum ar fi decodarea și scalarea."
@@ -11361,6 +12241,10 @@ msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Selectați aranjamentele pentru tastatura virtuală"
 
+msgctxt "#36433"
+msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
+msgstr "Când este activată, metoda de randare preferată este VAAPI și procesorul are o încărcare mai mică. Dacă întâmpinați blocări, dezactivați această opțiune"
+
 msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
 msgstr "Permite accelerare hardware - MMAL"
@@ -11368,6 +12252,10 @@ msgstr "Permite accelerare hardware - MMAL"
 msgctxt "#36435"
 msgid "Use DVDPlayer for decoding of video files with MMAL acceleration."
 msgstr "Folosește DVDPlayer pentru decodarea fișierelor cu accelerare MMAL"
+
+msgctxt "#36500"
+msgid "Stereoscopic 3D mode / Current"
+msgstr "Mod 3D stereoscopic / Curent"
 
 msgctxt "#36501"
 msgid "Stereoscopic 3D mode"
@@ -11396,6 +12284,10 @@ msgstr "Anaglif verde / purpuriu"
 msgctxt "#36507"
 msgid "Interlaced"
 msgstr "Întrețesut"
+
+msgctxt "#36508"
+msgid "Hardware based"
+msgstr "Bazată pe hardware"
 
 msgctxt "#36509"
 msgid "Monoscopic / 2D"
@@ -11461,6 +12353,10 @@ msgctxt "#36536"
 msgid "Invert stereoscopic 3D mode (flip eyes)"
 msgstr "Inversează modul 3D stereoscopic (schimbă ochii)"
 
+msgctxt "#36537"
+msgid "Select in which mode stereoscopic 3D videos will be played.[CR][Ask me] Will show a dialogue to select the desired mode for each playback.[CR][Preferred mode] Will use the preferred mode specified in the \"System -> Video hardware\" section of the settings.[CR][Monoscopic / 2D] Will play the video in mono / 2D.[CR][Ignore] Disables any stereoscopic 3D processing and handling."
+msgstr "Selectați în care mod fișierele video 3D stereoscopice vor fi redate.[CR][Întreabă-mă] Va afișa un dialog pentru a selecta modul dorit pentru fiecare redare.[CR][Mod preferat] Va fi folosit modul preferat specificat în secțiunea „Sistem -> Video hardware” a setărilor.[CR][Monoscopic / 2D] Va reda fișierul video în mod mono / 2D.[CR][Ignoră] Dezactivează orice procesare și gestionare 3D stereoscopic."
+
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
 msgstr "Schimbă modul 3D stereoscopic al interfeței cu utilizatorul."
@@ -11509,9 +12405,13 @@ msgctxt "#36601"
 msgid "This category contains the settings for how music file lists are handled."
 msgstr "Această categorie conține setări pentru gestionarea listelor de fișiere audio."
 
+msgctxt "#36602"
+msgid "This category contains the settings for how the AirPlay service is handled."
+msgstr "Această categorie conține setări pentru gestionarea serviciului AirPlay."
+
 msgctxt "#36603"
 msgid "This category contains the settings for how video output is handled."
-msgstr "Categorie care conține setări pentru gestionarea ieșirii video."
+msgstr "Această categorie conține setări pentru gestionarea ieșirii video."
 
 msgctxt "#36900"
 msgid "movie"
@@ -11697,25 +12597,49 @@ msgctxt "#37032"
 msgid "Accessibility"
 msgstr "Accesibilitate"
 
+msgctxt "#37033"
+msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+msgstr "Setări de accesibilitate pentru redarea video, de exemplu. „Preferă subtitrăriile pentru cei cu probleme de auz”."
+
 msgctxt "#37034"
 msgid "Prefer audio stream for the visually impaired"
 msgstr "Preferă fluxul audio pentru cei cu probleme de vedere"
+
+msgctxt "#37035"
+msgid "Prefer the audio stream for the visually impaired to other audio streams of the same language"
+msgstr "Preferă fluxul audio pentru cei cu probleme de vedere în locul celorlate fluxuri audio în aceeași limbă"
 
 msgctxt "#37036"
 msgid "Prefer audio stream for the hearing impaired"
 msgstr "Preferă fluxul audio pentru cei cu probleme de auz"
 
+msgctxt "#37037"
+msgid "Prefer the audio stream for the hearing impaired to other audio streams of the same language"
+msgstr "Preferă fluxul audio pentru cei cu probleme de auz în locul celorlate fluxuri audio în aceeași limbă"
+
 msgctxt "#37038"
 msgid "Prefer subtitles for the hearing impaired"
 msgstr "Preferă subtitrările pentru cei cu probleme de auz"
+
+msgctxt "#37039"
+msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
+msgstr "Preferă subtitrarea pentru cei cu probleme de auz în locul celorlate subtitrări în aceeași limbă"
 
 msgctxt "#37040"
 msgid "Prefer default audio streams"
 msgstr "Preferă fluxurile audio implicite"
 
+msgctxt "#37041"
+msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
+msgstr "Dacă este activată, fluxurile audio semnalizate ca implicite (și se potrivesc cu limba preferată) sunt preferate în locul fluxurilor audio audio cu o calitate mai mare (număr de canale, codec, ...)."
+
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
 msgstr "Extrage miniaturi capitole"
+
+msgctxt "#37045"
+msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
+msgstr "Extrage miniaturi capitole pentru prezentarea în dialogul de capitole / semne de carte. Aceasta poate mări încărcarea procesorului."
 
 msgctxt "#38010"
 msgid "GPU accelerated"
@@ -11732,6 +12656,10 @@ msgstr "Arată intrarea „Toate elementele” în directoare, de exemplu: „To
 msgctxt "#38013"
 msgid "Limit GUI updates during playback"
 msgstr "Limitează actualizările intefeței în timpul redării"
+
+msgctxt "#38014"
+msgid "Limits the speed (fps) used to update the GUI while playing videos. This can reduce CPU load and fix playback issues while the GUI is shown."
+msgstr "Limitează viteza (cadrele pe secundă) folosită pentru actualizarea interfeței când sunt redate fișiere video. Aceasta poate reduce încărcarea procesorului și rezolva problemele de redare când interfața este afișată."
 
 msgctxt "#38015"
 msgid "Unlimited"

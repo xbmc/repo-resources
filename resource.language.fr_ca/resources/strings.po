@@ -1597,10 +1597,6 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Retirer le film de la vidéothèque"
 
-msgctxt "#433"
-msgid "Would you really like to remove[CR]'%s' from library?"
-msgstr "Souhaitez-vous vraiment retirer[CR] « %s » de la médiathèque?"
-
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "De %s à %i %s"
@@ -2866,16 +2862,8 @@ msgid "Unable to connect"
 msgstr "Impossible de se connecter"
 
 msgctxt "#1002"
-msgid "The connection to the network location couldn't be established."
-msgstr "La connexion vers l'emplacement réseau n'a pas pu être établie."
-
-msgctxt "#1003"
-msgid "This could be due to the network not being connected."
-msgstr "Ceci provient peut-être de la déconnexion du réseau."
-
-msgctxt "#1004"
-msgid "Would you like to add it anyway?"
-msgstr "Désirez-vous tout de même l'ajouter?"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Impossible de se connecter à l'emplacement réseau. Le réseau pourrait ne pas être connecté. Voulez-vous quand même l'ajouter?"
 
 msgctxt "#1006"
 msgid "IP address"
@@ -2954,8 +2942,8 @@ msgid "Browse"
 msgstr "Parcourir"
 
 msgctxt "#1025"
-msgid "Couldn't retrieve directory information."
-msgstr "Impossible de récupérer les informations de répertoire."
+msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Impossible de récupérer les informations de répertoire. Le réseau pourrait ne pas être connecté. Voulez-vous quand même l'ajouter?"
 
 msgctxt "#1026"
 msgid "Add source"
@@ -3569,10 +3557,6 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Retour à la liste parente car la liste active a été vidée"
 
-msgctxt "#2101"
-msgid "Newer version needed.[CR]Check the log for more information about this message."
-msgstr "Une version plus récente est exigée.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
 msgctxt "#2102"
 msgid "%s error"
 msgstr "Erreur %s"
@@ -4110,12 +4094,8 @@ msgid "Shutdown system if number of master lock retries is exceeded"
 msgstr "Éteindre le système si le nombre de tentatives de verrouillage maître est dépassé"
 
 msgctxt "#12367"
-msgid "Master code is not valid"
-msgstr "Le code maître est invalide"
-
-msgctxt "#12368"
-msgid "Please enter a valid master code"
-msgstr "Veuilez sasisr un code maître valide"
+msgid "Master code is not valid. Please enter a valid master code."
+msgstr "Le code est invalide. Veuillez en saisir un valide."
 
 msgctxt "#12373"
 msgid "Settings & file manager"
@@ -4126,8 +4106,8 @@ msgid "Set as default for all videos"
 msgstr "Définir par défaut pour toutes les vidéos"
 
 msgctxt "#12377"
-msgid "This will reset any previously saved values"
-msgstr "Ceci réinitialisera toute valeur précedente sauvegardée"
+msgid "This will reset any previously saved values. Are you sure?"
+msgstr "Ceci réinitialisera toute valeur sauvegardée précédemment. Êtes-vous certain?"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -5930,8 +5910,8 @@ msgid "Playback failed"
 msgstr "Échec de la lecture"
 
 msgctxt "#16027"
-msgid "One or more items failed to play."
-msgstr "Échec de la lecture d'un ou plusieurs éléments."
+msgid "One or more items failed to play. Check the log for more information about this message."
+msgstr "Impossible de lire un ou plusieurs fichiers. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -6029,25 +6009,13 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Échec de la copie"
 
-msgctxt "#16202"
-msgid "Failed to copy at least one file.[CR]Check the log for more information about this message."
-msgstr "Impossible de copier au moins un fichier.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Échec du déplacement"
 
-msgctxt "#16204"
-msgid "Failed to move at least one file.[CR]Check the log for more information about this message."
-msgstr "Impossible de déplacer au moins un fichier.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Échec de la suppression"
-
-msgctxt "#16206"
-msgid "Failed to delete at least one file.[CR]Check the log for more information about this message."
-msgstr "Impossible de supprimer au moins un fichier.[CR]Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6353,14 +6321,6 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Chaîne déjà en cours d'enregistrement"
 
-msgctxt "#19035"
-msgid "%s couldn't be played.[CR]Check the log for more information about this message."
-msgstr "Impossible de lire %s.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
-msgctxt "#19036"
-msgid "This recording can't be played.[CR]Check the log for more information about this message."
-msgstr "Cet enregistrement ne peux pas être lu.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Afficher la qualité du signal"
@@ -6388,14 +6348,6 @@ msgstr "Voulez-vous vraiment renommer cette minuterie?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Enregistrement"
-
-msgctxt "#19044"
-msgid "Please check your configuration.[CR]Check the log for more information about this message."
-msgstr "Veuillez vérifier votre configuration.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
-msgctxt "#19045"
-msgid "No PVR clients have been started yet.[CR]Wait for the PVR clients to start up.[CR]Check the log for more information about this message."
-msgstr "Aucun client de numériscope n'a été démarré.[CR]Attendez le démarrage des clients de numériscope.[CR]Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6484,10 +6436,6 @@ msgstr "Icônes de chaînes"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Cet événement est déjà en cours d'enregistrement"
-
-msgctxt "#19068"
-msgid "This recording couldn't be deleted.[CR]Check the log for more information about this message."
-msgstr "Impossible de supprimer cet enregistrement.[CR]Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6645,18 +6593,6 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Fréquence d'images de repli"
 
-msgctxt "#19109"
-msgid "Couldn't save timer.[CR]Check the log for more information about this message."
-msgstr "Impossible d'enregistrer la minuterie.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
-msgctxt "#19110"
-msgid "An unexpected error occurred.[CR]Try again later or check the log for more information."
-msgstr "Une erreur inattendue est survenue.[CR]Ressayez ou consultez le journal pour de plus amples informations."
-
-msgctxt "#19111"
-msgid "PVR backend error.[CR]Check the log for more information about this message."
-msgstr "Erreur du dorsal de numériscope.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Supprimer cet enregistrement?"
@@ -6793,10 +6729,6 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Groupes"
 
-msgctxt "#19147"
-msgid "The PVR backend does not support this action.[CR]Check the log for more information about this message."
-msgstr "Le dorsal du numériscope ne prend pas en charge cette action.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Chaîne"
@@ -6856,10 +6788,6 @@ msgstr "Enregistrement activé"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Enregistrements"
-
-msgctxt "#19164"
-msgid "Can't start recording.[CR]Check the log for more information about this message."
-msgstr "Impossible de démarrer l'enregistrement.[CR]Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6941,22 +6869,6 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Enregistrements supprimés"
 
-msgctxt "#19185"
-msgid "Reset PVR database"
-msgstr "Réinitialiser la base de données du numériscope"
-
-msgctxt "#19186"
-msgid "All data in the PVR database is being erased"
-msgstr "Effacement en cours de la base de données du numériscope"
-
-msgctxt "#19187"
-msgid "Reset guide database"
-msgstr "Réinitialiser la base de données du guide"
-
-msgctxt "#19188"
-msgid "Guide is being reset"
-msgstr "Le guide est en cours de réinitialisation"
-
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Reprendre la dernière chaîne au démarrage"
@@ -6972,10 +6884,6 @@ msgstr "Service de numériscope"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Aucun dorsal de numériscope connecté ne prend en charge le balayage des chaînes."
-
-msgctxt "#19193"
-msgid "The channel scan can't be started.[CR]Check the log for more information about this message."
-msgstr "Impossible de démarrer le balayage des chaînes.[CR]Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7092,10 +7000,6 @@ msgstr "Synchroniser les groupes de chaînes avec le/les dorsal/dorsaux"
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Guide"
-
-msgctxt "#19223"
-msgid "No PVR add-on could be enabled.[CR]Check your settings or the log for more information."
-msgstr "Aucun addiciel de numériscope n'a pu être activé.[CR] Vérifier vos paramètres ou consultez le journal pour de plus amples informations."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -11237,13 +11141,9 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Échec lors du lancement de Zéroconf"
 
-msgctxt "#34301"
-msgid "Is Apple's Bonjour service installed?[CR]Check the log for more information about this message."
-msgstr "Le service Bonjour d'Apple est-il installé?.[CR]Consultez le journal pour de plus amples informations sur ce message."
-
 msgctxt "#34302"
-msgid "AirPlay requires Zeroconf to be enabled."
-msgstr "AirPlay exige l'activation de Zéroconf."
+msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
+msgstr "Impossible de démarrer AirPlay car il exige l'activation de Zéroconf."
 
 msgctxt "#34303"
 msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
@@ -11512,10 +11412,6 @@ msgstr "* Dossier de l'élément"
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Utiliser une gamme des couleurs restreinte (16-235)"
-
-msgctxt "#36043"
-msgid "No CEC capable TV detected. Disable polling for CEC capable devices?"
-msgstr "Aucune télé compatible CEC n'a été détectée. Désactiver la scrutation de périphériques compatible CEC?"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."

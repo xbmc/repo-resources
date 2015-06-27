@@ -31,7 +31,7 @@ msgstr "Vídeos"
 
 msgctxt "#4"
 msgid "TV guide"
-msgstr "Guia de tv"
+msgstr "Guia de TV"
 
 msgctxt "#5"
 msgid "Settings"
@@ -383,7 +383,7 @@ msgstr "Carpeta nova"
 
 msgctxt "#120"
 msgid "Confirm copy"
-msgstr "Confirmeu copia"
+msgstr "Confirmeu còpia"
 
 msgctxt "#121"
 msgid "Confirm move"
@@ -1597,10 +1597,6 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Elimina la pel·lícula de la biblioteca"
 
-msgctxt "#433"
-msgid "Would you really like to remove[CR]'%s' from library?"
-msgstr "Segur que voleu esborrar[CR]'%s' de la biblioteca?"
-
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "De %s a %i %s"
@@ -2233,6 +2229,10 @@ msgctxt "#607"
 msgid "To:"
 msgstr "A:"
 
+msgctxt "#608"
+msgid "Couldn't rip CD or track because CDDARipPath is not set."
+msgstr "No s'ha pogut extreure el CD o pista perquè CDDARipPath no té valor."
+
 msgctxt "#610"
 msgid "Rip audio track"
 msgstr "Extreu la pista d'àudio"
@@ -2436,6 +2436,50 @@ msgstr "Habilitar el transcoding Dolby Digital (AC3)"
 msgctxt "#668"
 msgid "Specify component-specific logging..."
 msgstr "Especifica el registre de components específics..."
+
+msgctxt "#669"
+msgid "Verbose logging for the [B]SMB[/B] library"
+msgstr "Registre detallat per la llibreria [B]SMB[/B]"
+
+msgctxt "#670"
+msgid "Verbose logging for the [B]libcURL[/B] library (HTTP(S), DAV)"
+msgstr "Registre detallat per la biblioteca [B]libcURL[/B]  (HTTP(S), DAV)"
+
+msgctxt "#672"
+msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
+msgstr "Registre detallat per les biblioteques [B]FFmpeg[/B]"
+
+msgctxt "#673"
+msgid "Verbose logging for the [B]RTMP[/B] library"
+msgstr "Registre detallat per la biblioteca [B]RTMP[/B]"
+
+msgctxt "#674"
+msgid "Verbose logging for [B]D-Bus[/B] calls"
+msgstr "Registre detallat per les crides [B]D-Bus[/B]"
+
+msgctxt "#675"
+msgid "Verbose logging for [B]JSON-RPC[/B] requests"
+msgstr "Registre detallat per les peticions [B]JSON-RPC[/B]"
+
+msgctxt "#676"
+msgid "Verbose logging for the [B]Audio[/B] component"
+msgstr "Registre detallat per el component [B]Audio[/B]"
+
+msgctxt "#677"
+msgid "Verbose logging for the [B]AirTunes[/B] library"
+msgstr "Registre detallat per la biblioteca [B]AirTunes[/B]"
+
+msgctxt "#678"
+msgid "Verbose logging for the [B]UPnP[/B] components"
+msgstr "Registre detallat per els components [B]UPnP[/B]"
+
+msgctxt "#679"
+msgid "Verbose logging for the [B]libCEC[/B] library"
+msgstr "Registre detallat per la biblioteca [B]libCEC[/B]"
+
+msgctxt "#680"
+msgid "Verbose logging for the [B]Video[/B] component"
+msgstr "Registre detallat per el component [B]Video[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2777,6 +2821,10 @@ msgctxt "#799"
 msgid "Library update"
 msgstr "Actualització de la biblioteca"
 
+msgctxt "#800"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "La biblioteca de música ha de reescanejar les etiquetes dels fitxers. Ho voleu fer ara?"
+
 msgctxt "#802"
 msgid "%s of %s available"
 msgstr "%s de %s disponibles"
@@ -2814,16 +2862,8 @@ msgid "Unable to connect"
 msgstr "No s'ha pogut connectar"
 
 msgctxt "#1002"
-msgid "The connection to the network location couldn't be established."
-msgstr "No s'ha pogut establir la connexió amb la ubicació de xarxa."
-
-msgctxt "#1003"
-msgid "This could be due to the network not being connected."
-msgstr "Podria ser degut a que la xarxa no estigui connectada."
-
-msgctxt "#1004"
-msgid "Would you like to add it anyway?"
-msgstr "Voleu afegir-lo de totes maneres?"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "No s'ha pogut connectar amb l'ubicació de xarxa. Podria ser que no hi hagi connexió. La voleu afegir igualment?"
 
 msgctxt "#1006"
 msgid "IP address"
@@ -2902,8 +2942,8 @@ msgid "Browse"
 msgstr "Navega"
 
 msgctxt "#1025"
-msgid "Couldn't retrieve directory information."
-msgstr "No s'ha pogut estirar la informació de directori."
+msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "No s'ha pogut obtenir la informació del directori. Podria ser que no hi hagi connexió. El voleu afegir igualment?"
 
 msgctxt "#1026"
 msgid "Add source"
@@ -2949,6 +2989,18 @@ msgctxt "#1036"
 msgid "Favourites"
 msgstr "Preferits"
 
+msgctxt "#1037"
+msgid "Video add-ons"
+msgstr "Complements de vídeo"
+
+msgctxt "#1038"
+msgid "Music add-ons"
+msgstr "Complements de música"
+
+msgctxt "#1039"
+msgid "Picture add-ons"
+msgstr "Complements d'imatge"
+
 msgctxt "#1040"
 msgid "Loading directory"
 msgstr "S'està carregant el directori"
@@ -2960,6 +3012,10 @@ msgstr "S'han obtingut %i elements"
 msgctxt "#1042"
 msgid "Retrieved %i of %i items"
 msgstr "S'han obtingut %i de %i elements"
+
+msgctxt "#1043"
+msgid "Program add-ons"
+msgstr "Complements de programes"
 
 msgctxt "#1044"
 msgid "Set plug-in thumb"
@@ -3012,6 +3068,10 @@ msgstr "SOCKS4A"
 msgctxt "#1184"
 msgid "SOCKS5"
 msgstr "SOCKS5"
+
+msgctxt "#1185"
+msgid "SOCKS5 with remote DNS resolving"
+msgstr "SOCKS5 amb resolució de DNS remota"
 
 msgctxt "#1200"
 msgid "SMB client"
@@ -3137,6 +3197,10 @@ msgctxt "#1259"
 msgid "Zeroconf"
 msgstr "Zeroconf"
 
+msgctxt "#1260"
+msgid "Announce services to other systems"
+msgstr "Anunciar serveis a altres sistemes"
+
 msgctxt "#1268"
 msgid "iOS 8 compatibility mode"
 msgstr "Mode de compatibilitat per a iOS 8"
@@ -3144,6 +3208,10 @@ msgstr "Mode de compatibilitat per a iOS 8"
 msgctxt "#1269"
 msgid "Allow volume control"
 msgstr "Permet el control de volum"
+
+msgctxt "#1270"
+msgid "Enable AirPlay support"
+msgstr "Habilita el suport de AirPlay"
 
 msgctxt "#1271"
 msgid "Device name"
@@ -3204,6 +3272,10 @@ msgstr "Extrem"
 msgctxt "#1382"
 msgid "Whirls"
 msgstr "Remolins"
+
+msgctxt "#1383"
+msgid "Sky is clear"
+msgstr "Cel clar"
 
 msgctxt "#1384"
 msgid "Broken"
@@ -3353,6 +3425,10 @@ msgctxt "#1420"
 msgid "Moderate"
 msgstr "Moderada"
 
+msgctxt "#1421"
+msgid "Very high"
+msgstr "Molt forta"
+
 msgctxt "#1422"
 msgid "Windy"
 msgstr "Ventós"
@@ -3453,6 +3529,10 @@ msgctxt "#1446"
 msgid "Unknown"
 msgstr "Desconegut"
 
+msgctxt "#1447"
+msgid "Squalls"
+msgstr "Torbonades"
+
 msgctxt "#1448"
 msgid "Precipitation"
 msgstr "Precipitació"
@@ -3467,7 +3547,7 @@ msgstr "Activa l'estalvi d'energia de la pantalla quan estigui inactiu"
 
 msgctxt "#2050"
 msgid "Runtime"
-msgstr "Temps d'execució"
+msgstr "Durada"
 
 msgctxt "#2080"
 msgid "Empty list"
@@ -3480,6 +3560,14 @@ msgstr "S'ha tornat a la llista superior perquè la llista activa s'ha buidat"
 msgctxt "#2102"
 msgid "%s error"
 msgstr "%s error"
+
+msgctxt "#2103"
+msgid "Add-on error"
+msgstr "Error en complement"
+
+msgctxt "#2104"
+msgid "Check the log for more information."
+msgstr "Comproveu el fitxer de registre per més informació."
 
 msgctxt "#10000"
 msgid "Home"
@@ -3521,6 +3609,14 @@ msgctxt "#10009"
 msgid "Settings - Screen"
 msgstr "Configuració - Pantalla"
 
+msgctxt "#10010"
+msgid "Settings - Appearance - GUI calibration"
+msgstr "Configuració - Aparença - Calibració de GUI"
+
+msgctxt "#10011"
+msgid "Settings - Videos - Screen calibration"
+msgstr "Configuració - Videos - Calibració de pantalla"
+
 msgctxt "#10012"
 msgid "Settings - Pictures"
 msgstr "Configuració - Imatges"
@@ -3557,9 +3653,17 @@ msgctxt "#10020"
 msgid "Scripts"
 msgstr "Scripts"
 
+msgctxt "#10021"
+msgid "Settings - TV"
+msgstr "Configuració - TV"
+
 msgctxt "#10025"
 msgid "Videos"
 msgstr "Vídeos"
+
+msgctxt "#10028"
+msgid "Videos / Playlist"
+msgstr "Vídeos / Llista de reproducció"
 
 msgctxt "#10029"
 msgid "Login screen"
@@ -3621,6 +3725,10 @@ msgctxt "#10047"
 msgid "Try changing the setting level to see additional categories and settings."
 msgstr "Prova de canviar el nivell d'ajust per veure categories i valors addicionals."
 
+msgctxt "#10100"
+msgid "Yes / No dialogue"
+msgstr "Diàleg Sí / No"
+
 msgctxt "#10101"
 msgid "Progress dialogue"
 msgstr "Diàleg de progrés"
@@ -3653,6 +3761,10 @@ msgctxt "#10134"
 msgid "Favourites"
 msgstr "Preferits"
 
+msgctxt "#10135"
+msgid "Songs / Info"
+msgstr "Cançons / Informació"
+
 msgctxt "#10136"
 msgid "Smart playlist editor"
 msgstr "Editor de llistes de reproducció intel·ligents"
@@ -3661,9 +3773,17 @@ msgctxt "#10137"
 msgid "Smart playlist rule editor"
 msgstr "Editor de regles de llistes de reproducció intel·ligents"
 
+msgctxt "#10139"
+msgid "Pictures / Info"
+msgstr "Imatges / Informació"
+
 msgctxt "#10140"
 msgid "Add-on settings"
 msgstr "Configuració del complement"
+
+msgctxt "#10146"
+msgid "Add-ons / Info"
+msgstr "Complements / Informació"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -3684,6 +3804,18 @@ msgstr "S'està emplenant la memòria intermèdia"
 msgctxt "#10214"
 msgid "Opening stream"
 msgstr "S'està obrint el flux de dades"
+
+msgctxt "#10500"
+msgid "Music / Playlist"
+msgstr "Música / Llista de reproducció"
+
+msgctxt "#10501"
+msgid "Music / Files"
+msgstr "Música / Fitxers"
+
+msgctxt "#10502"
+msgid "Music / Library"
+msgstr "Música / Biblioteca"
 
 msgctxt "#10503"
 msgid "Playlist editor"
@@ -3725,6 +3857,14 @@ msgctxt "#10516"
 msgid "Music - Library"
 msgstr "Música - Biblioteca"
 
+msgctxt "#10517"
+msgid "Now playing - Music"
+msgstr "Reproduïnt -  Música"
+
+msgctxt "#10522"
+msgid "Now playing - Videos"
+msgstr "Reproduïnt - Vídeo"
+
 msgctxt "#10523"
 msgid "Album information"
 msgstr "Informació de l'àlbum"
@@ -3737,9 +3877,21 @@ msgctxt "#12000"
 msgid "Select dialogue"
 msgstr "Diàleg de selecció"
 
+msgctxt "#12001"
+msgid "Music / Info"
+msgstr "Música / Informació"
+
 msgctxt "#12002"
 msgid "Dialogue OK"
 msgstr "Diàleg «D'acord»"
+
+msgctxt "#12003"
+msgid "Videos / Info"
+msgstr "Vídeos / Informació"
+
+msgctxt "#12004"
+msgid "Scripts / Info"
+msgstr "Scripts / Informació"
 
 msgctxt "#12005"
 msgid "Fullscreen video"
@@ -3841,9 +3993,17 @@ msgctxt "#12328"
 msgid "Enter unlock code"
 msgstr "Introduïu el codi de desbloqueig"
 
+msgctxt "#12329"
+msgid "or press \"C\" to cancel"
+msgstr "o premeu \"C\" per cancel·lar"
+
 msgctxt "#12330"
 msgid "Enter gamepad button combo and"
 msgstr "Introduïu la combinació de botons del gamepad i"
+
+msgctxt "#12331"
+msgid "press \"OK\", or \"Back\" to cancel"
+msgstr "premeu \"D'acord\", or \"enrere\" per cancel·lar"
 
 msgctxt "#12332"
 msgid "Set lock"
@@ -3876,6 +4036,10 @@ msgstr "Contrasenya alfanumèrica"
 msgctxt "#12340"
 msgid "Enter new password"
 msgstr "Introduïu la nova contrasenya"
+
+msgctxt "#12341"
+msgid "Re-enter new password"
+msgstr "Confirmeu la nova contrasenya"
 
 msgctxt "#12342"
 msgid "Incorrect password,"
@@ -3925,14 +4089,6 @@ msgctxt "#12360"
 msgid "Master lock"
 msgstr "Bloqueig mestre"
 
-msgctxt "#12367"
-msgid "Master code is not valid"
-msgstr "Codi mestre no vàlid"
-
-msgctxt "#12368"
-msgid "Please enter a valid master code"
-msgstr "Introduïu un codi mestre vàlid"
-
 msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "Configuració i gestor de fitxers"
@@ -3940,10 +4096,6 @@ msgstr "Configuració i gestor de fitxers"
 msgctxt "#12376"
 msgid "Set as default for all videos"
 msgstr "Establir com a predeterminat per a tots els vídeos"
-
-msgctxt "#12377"
-msgid "This will reset any previously saved values"
-msgstr "Això restablirà tots els valors guardats prèviament"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -5473,10 +5625,6 @@ msgctxt "#16026"
 msgid "Playback failed"
 msgstr "La reproducció ha fallat"
 
-msgctxt "#16027"
-msgid "One or more items failed to play."
-msgstr "Un o més ítems no s'han pogut reproduir."
-
 msgctxt "#16028"
 msgid "Enter value"
 msgstr "Introduïu el valor"
@@ -6252,10 +6400,6 @@ msgstr "TV"
 msgctxt "#19183"
 msgid "Radio"
 msgstr "Ràdio"
-
-msgctxt "#19186"
-msgid "All data in the PVR database is being erased"
-msgstr "S'està eliminant la informació a la base de dades de PVR"
 
 msgctxt "#19189"
 msgid "Continue last channel on startup"
@@ -9536,10 +9680,6 @@ msgstr "No s'ha pogut trobar l'anterior element a reproduir"
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "No s'ha pogut iniciar el Zeroconf"
-
-msgctxt "#34302"
-msgid "AirPlay requires Zeroconf to be enabled."
-msgstr "L'AirPlay necessita que el Zeroconf estigui habilitat."
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
