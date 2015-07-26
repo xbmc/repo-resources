@@ -507,7 +507,7 @@ msgstr "Adresse IP "
 
 msgctxt "#151"
 msgid "Link:"
-msgstr "Câble :"
+msgstr "Liaison :"
 
 msgctxt "#152"
 msgid "Half duplex"
@@ -539,7 +539,7 @@ msgstr "Mémoire libre "
 
 msgctxt "#159"
 msgid "No link"
-msgstr "Câble débranché"
+msgstr "Pas de liaison"
 
 msgctxt "#160"
 msgid "Free"
@@ -1596,6 +1596,10 @@ msgstr "Pas de cache"
 msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Supprimer le film de la médiathèque"
+
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "Voulez-vous vraiment supprimer '%s' de la blibliothèque ?"
 
 msgctxt "#434"
 msgid "From %s at %i %s"
@@ -2959,7 +2963,7 @@ msgstr "Éditer la source %s"
 
 msgctxt "#1029"
 msgid "Enter the new label"
-msgstr "Veuillez saisir la nouveau nom"
+msgstr "Veuillez saisir le nouveau nom"
 
 msgctxt "#1030"
 msgid "Browse for image"
@@ -3556,6 +3560,10 @@ msgstr "Liste vide"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Retour à la liste parente car la liste active a été vidée"
+
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "Version plus récente nécessaire. Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#2102"
 msgid "%s error"
@@ -5911,7 +5919,7 @@ msgstr "Échec de la lecture"
 
 msgctxt "#16027"
 msgid "One or more items failed to play. Check the log for more information about this message."
-msgstr "Échec de lecture d'un ou plusieurs fichiers. Consultez le journal pour de plus amples informations sur ce message."
+msgstr "Échec de lecture d'un ou plusieurs fichiers. Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -6009,13 +6017,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Échec de la copie"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "Échec de la copie d'au moins un fichier. Consultez le journal pour plus d'informations sur ce message."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Échec du déplacement"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "Échec du déplacement d'au moins un fichier. Consultez le journal pour plus d'informations sur ce message."
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Échec de la suppression"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "Échec de l'effacement d'au moins un fichier. Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6321,6 +6341,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Chaîne déjà en cours d'enregistrement"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "Impossible de lire %s. Consultez le journal pour plus d'informations sur ce message."
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "Impossible de lire cet enregistrement. Consultez le journal pour plus d'informations sur ce message."
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Afficher la qualité du signal"
@@ -6348,6 +6376,14 @@ msgstr "Voulez-vous vraiment renommer cette minuterie ?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Enregistrement"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "Veuillez vérifier votre configuration. Consultez le journal pour plus d'informations sur ce message."
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "Aucuns clients d'enregistrement vidéo démarrés. Attendre le démarrage de clients d'enregistrement. Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6436,6 +6472,10 @@ msgstr "Icônes des chaînes"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Cet évènement est déjà en cours d'enregistrement"
+
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "Impossible d'effacer cet enregistrement. Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6593,6 +6633,18 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Taux de rafraîchissement de secours"
 
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "Impossible d'enregistrer la minuterie. Consultez le journal pour plus d'informations sur ce message."
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "Une erreur imprévue est survenue. Consultez le journal pour plus d'informations sur ce message."
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "Erreur de l'auxiliaire d'enregistrement vidéo. Consultez le journal pour plus d'informations sur ce message."
+
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Supprimer cet enregistrement ?"
@@ -6729,6 +6781,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Groupes"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "L'auxiliaire d'enregistrement vidéo ne permet pas cette action. Consultez le journal pour plus d'informations sur ce message."
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Chaîne"
@@ -6788,6 +6844,10 @@ msgstr "Enregistrement activé"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Enregistrements "
+
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "Impossible de démarrer l'enregistrement. Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6869,6 +6929,18 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Enregistrements effacés"
 
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "Effacer les données"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "Toutes vos données liées à la TV (chaînes, groupes, guide) seront effacées. Êtes-vous sûr ?"
+
+msgctxt "#19188"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Toutes les données de vos guides seront effacées. Êtes-vous sûr ?"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Reprendre la dernière chaîne au démarrage"
@@ -6884,6 +6956,10 @@ msgstr "Enregistreur Vidéo"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Les Enregistreurs Vidéos connectés n'ont aucune solution de traitement de balayage des chaînes"
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "La recherche des chaînes ne peut pas être démarrée. Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7000,6 +7076,10 @@ msgstr "Synchroniser les groupes de chaînes avec le(s) serveur(s)"
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Guide"
+
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
+msgstr "Aucune extension d'enregistrement vidéo n'a pu être activée. Vérifier vos réglages ou le journal pour plus d'informations."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -9089,6 +9169,26 @@ msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Afficher les dossiers et les fichiers cachés"
 
+msgctxt "#21331"
+msgid "New media detected"
+msgstr "Nouveau média détecté"
+
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "Parcourir les vidéos"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "Parcourir la musique"
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "Parcourir les images"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "Parcourir les fichiers"
+
 msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "Connexion à : %s"
@@ -10599,7 +10699,7 @@ msgstr "La configuration a été mis à niveau"
 
 msgctxt "#24129"
 msgid "The configuration of XBMC has been moved to the new location for Kodi. Please refer to http://kodi.wiki/view/Migration - this message will not be shown again!"
-msgstr "La configuration de Kodi a été déplacée vers un nouvel emplacement pour Kodi. Veuillez consulter http://kodi.wiki/view/Migration - ce message ne s'affichera plus !"
+msgstr "La configuration de XBMC a été déplacée vers un nouvel emplacement pour Kodi. Veuillez consulter http://kodi.wiki/view/Migration - ce message ne s'affichera plus !"
 
 msgctxt "#24130"
 msgid "Enable parsing for closed captions"
@@ -11140,6 +11240,10 @@ msgstr "Aucun élément précédent à lire"
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Échec lors du démarrage de Zeroconf"
+
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Le service Bonjour d'Apple est-il installé ? Consultez le journal pour plus d'informations sur ce message."
 
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
@@ -12086,7 +12190,7 @@ msgid "Select the visualisation that will be displayed while listening to music.
 msgstr "Sélectionner la visualisation qui sera affichée durant l'écoute de musique."
 
 msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
+msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
 msgstr "Lit les informations taguées d'un fichier son. Pour un gros dossier, cela peut ralentir la vitesse de lecture, en particulier sur un réseau."
 
 msgctxt "#36275"

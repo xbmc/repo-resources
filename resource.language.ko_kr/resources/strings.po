@@ -1597,6 +1597,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "라이브러리에서 영화 제거"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "'%s'를 라이브러리에서 정말 제거하겠습니까?"
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "풍향 %s 풍속 %i %s"
@@ -3556,6 +3560,10 @@ msgstr "빈 목록"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "현재 목록이 비었으므로 상위 목록으로 이동함"
+
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "새 버전이 필요합니다. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#2102"
 msgid "%s error"
@@ -5911,7 +5919,7 @@ msgstr "재생 실패"
 
 msgctxt "#16027"
 msgid "One or more items failed to play. Check the log for more information about this message."
-msgstr "한 개 이상의 항목 재생에 실패하였습니다. 이 메시지에 대한 자세한 정보는 로그를 확인하세요."
+msgstr "한 개 이상의 항목 재생에 실패하였습니다. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -5919,7 +5927,7 @@ msgstr "값 입력"
 
 msgctxt "#16029"
 msgid "Check the log for more information about this message."
-msgstr "이 메시지에 대한 자세한 정보는 로그를 확인하세요. "
+msgstr "자세한 정보는 로그를 확인하세요. "
 
 msgctxt "#16030"
 msgid "Party mode aborted."
@@ -6009,13 +6017,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "복사 실패"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "최소 한개의 파일 복사에 실패하였습니다. 자세한 정보는 로그를 확인하세요."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "이동 실패"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "최소 한개의 파일 이동에 실패하였습니다. 자세한 정보는 로그를 확인하세요."
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "삭제 실패"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "최소 한개의 파일 삭제에 실패하였습니다. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6321,6 +6341,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "이미 이 채널의 녹화가 시작됨"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "%s를 재생할 수 없습니다. 자세한 정보는 로그를 확인하세요."
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "이 녹화를 재생할 수 없습니다. 자세한 정보는 로그를 확인하세요."
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "신호 품질 보기"
@@ -6348,6 +6376,14 @@ msgstr "이 예약의 이름을 변경하겠습니까?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "녹화"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "설정을 확인하세요. 자세한 정보는 로그를 확인하세요."
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "PVR 클라이언트가 시작되지 않았습니다. PVR 클라이언트가 시작될 때까지 기다리세요. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6436,6 +6472,10 @@ msgstr "채널 아이콘"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "이 이벤트는 이미 녹화중입니다."
+
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "이 녹화를 삭제할 수 없습니다. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6593,6 +6633,18 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "예비 프레임레이트"
 
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "녹화 예약을 저장할 수 없음. 자세한 정보는 로그를 확인하세요."
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "알 수 없는 오류가 발생하였습니다. 다시 시도하거나 자세한 정보는 로그를 확인하세요."
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "PVR 백엔드 오류입니다. 자세한 정보는 로그를 확인하세요."
+
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "이 녹화를 삭제하겠습니까?"
@@ -6729,6 +6781,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "그룹"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "PVR 백엔드가 이 동작을 지원하지 않습니다. 자세한 정보는 로그를 확인하세요."
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "채널"
@@ -6788,6 +6844,10 @@ msgstr "녹화 활성화"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "녹화"
+
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "녹화를 시작할 수 없습니다. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6869,6 +6929,18 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "삭제된 녹화"
 
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "데이터 초기화"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "TV와 관련된 모든 데이터(채널, 그룹, 편성표)를 초기화합니다. 확실합니까?"
+
+msgctxt "#19188"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "모든 편성표 데이터를 초기화합니다. 확실합니까?"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "시작할 때 이전 채널 계속 재생"
@@ -6884,6 +6956,10 @@ msgstr "PVR 서비스"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "연결된 PVR 백엔드가 채널 검색을 지원하지 않습니다."
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "채널 검색을 시작할 수 없습니다. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7000,6 +7076,10 @@ msgstr "채널 그룹을 백엔드와 동기화"
 msgctxt "#19222"
 msgid "Guide"
 msgstr "편성표"
+
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
+msgstr "사용하는 PVR 애드온이 없습니다. 자세한 정보는 로그를 확인하세요."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -7195,7 +7275,7 @@ msgstr "충돌 경고"
 
 msgctxt "#19276"
 msgid "Conflict error"
-msgstr "충돌 에러"
+msgstr "충돌 오류"
 
 msgctxt "#19277"
 msgid "Recording conflict"
@@ -7203,7 +7283,7 @@ msgstr "녹화 충돌"
 
 msgctxt "#19278"
 msgid "Recording error"
-msgstr "녹화 에러"
+msgstr "녹화 오류"
 
 msgctxt "#19279"
 msgid "Client specific"
@@ -11141,6 +11221,10 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconf 시작 실패"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Apple 봉주르 서비스가 설치되어 있습니까? 자세한 정보는 로그를 확인하세요."
+
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
 msgstr "AirPlay를 시작하지 못했습니다. Zeroconf를 활성화해야 합니다."
@@ -12086,8 +12170,8 @@ msgid "Select the visualisation that will be displayed while listening to music.
 msgstr "음악을 듣는 동안 표시될 시각화를 선택합니다."
 
 msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
-msgstr "노래 파일에서 태그 정보를 읽습니다. 큰 디렉터리를 네트워크를 통해 읽어오는 경우 특히 많은 시간이 걸릴 수 있습니다."
+msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
+msgstr "노래 파일에서 태그 정보를 읽습니다. 네트워크를 통해 큰 디렉터리를 읽어오는 경우 많은 시간이 걸릴 수 있습니다."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."

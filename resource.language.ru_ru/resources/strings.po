@@ -1597,6 +1597,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Удалить фильм из медиатеки"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "Действительно удалить \"%s\" из медиатеки?"
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "%s, %i %s"
@@ -3557,6 +3561,10 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Открыт родительский список, поскольку активный список пуст"
 
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "Требуется более новая версия. Cм. журнал, чтобы узнать больше об этом сообщении."
+
 msgctxt "#2102"
 msgid "%s error"
 msgstr "Ошибка %s"
@@ -4123,11 +4131,11 @@ msgstr "%s xx"
 
 msgctxt "#12383"
 msgid "12-hour clock"
-msgstr "12ч. часы"
+msgstr "12 ч. часы"
 
 msgctxt "#12384"
 msgid "24-hour clock"
-msgstr "24ч. часы"
+msgstr "24 ч. часы"
 
 msgctxt "#12385"
 msgid "Day / Month"
@@ -4291,7 +4299,7 @@ msgstr "Ожидание подключения к сети"
 
 msgctxt "#13029"
 msgid "Failed to execute Wake-on-LAN!"
-msgstr "Не удалось вызвать Wake -on-Lan!"
+msgstr "Не удалось выполнить Wake -on-Lan!"
 
 msgctxt "#13030"
 msgid "Waiting for server to wake up..."
@@ -4419,7 +4427,7 @@ msgstr "Обнаружены активные соединения."
 
 msgctxt "#13141"
 msgid "If you proceed, you might not be able to control this application any longer. Are you sure you want to stop the event server?"
-msgstr "В случае продолжения возможна потеря управления приложением. Вы уверены, что желаете остановить сервер событий?"
+msgstr "В случае продолжения возможна потеря управления приложением. Действительно остановить сервер событий?"
 
 msgctxt "#13144"
 msgid "Change Apple Remote mode?"
@@ -4427,7 +4435,7 @@ msgstr "Изменить режим пульта Apple?"
 
 msgctxt "#13145"
 msgid "If you are currently using the Apple Remote to control this application, changing this setting might affect your ability to continue controlling it. Do you want to proceed?"
-msgstr "Если вы используете пульт Apple для управления, изменение этого параметра может повлиять на возможность управления приложением. Вы хотите продолжить?"
+msgstr "Если вы используете пульт Apple для управления, изменение этого параметра может нарушить управление приложением.  Продолжить?"
 
 msgctxt "#13159"
 msgid "Subnet mask"
@@ -4723,7 +4731,7 @@ msgstr "Караоке"
 
 msgctxt "#13328"
 msgid "%s not found"
-msgstr "%s не найден"
+msgstr "Не удалось найти %s"
 
 msgctxt "#13329"
 msgid "Error opening %s"
@@ -6009,13 +6017,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Не удалось скопировать"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "Не удалось скопировать как минимум один файл. См. журнал, чтобы узнать больше об этом сообщении."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Не удалось переместить"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "Не удалось переместить как минимум один файл. См. журнал, чтобы узнать больше об этом сообщении."
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Не удалось удалить"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "Не удалось удалить как минимум один файл. См. журнал, чтобы узнать больше об этом сообщении."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6321,6 +6341,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Этот канал уже записывается"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "Не удалось воспроизвести %s. См. журнал, чтобы узнать больше об этом сообщении."
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "Не удается проиграть запись. См. журнал, чтобы узнать больше об этом сообщении."
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Отображать качество сигнала"
@@ -6348,6 +6376,14 @@ msgstr "Переименовать этот таймер?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Запись"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "Проверьте настройки. См. журнал, чтобы узнать больше об этом сообщении."
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "Нет активных клиентов PVR. Дождитесь запуска клиентов PVR. См. журнал, чтобы узнать больше об этом сообщении."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6436,6 +6472,10 @@ msgstr "Значки каналов"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Это событие уже записывается"
+
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "Не удалось удалить запись. См. журнал, чтобы узнать больше об этом сообщении."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6593,6 +6633,18 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Резервная частота кадров"
 
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "Не удалось сохранить таймер. См. журнал, чтобы узнать больше об этом сообщении."
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "Неизвестная ошибка. Повторите попытку или см. журнал, чтобы узнать подробнее."
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "Ошибка сервера PVR. См. журнал, чтобы узнать больше об этом сообщении."
+
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Удалить эту запись?"
@@ -6729,6 +6781,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Группы"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "Сервер PVR не поддерживает это действие. См. журнал, чтобы узнать больше об этом сообщении."
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Канал"
@@ -6788,6 +6844,10 @@ msgstr "Запись активна"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Записи"
+
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "Не удается начать запись. См. журнал, чтобы узнать больше об этом сообщении."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6869,6 +6929,18 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Удаленные записи"
 
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "Очистить данные"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "Все данные ТВ (каналы, группы, программа) будут очищены. Продолжить?"
+
+msgctxt "#19188"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Все данные телепрограммы будут очищены. Продолжить?"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Продолжить с последнего канала при запуске"
@@ -6884,6 +6956,10 @@ msgstr "Служба PVR"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Подключенные серверы PVR не поддерживают сканирование каналов."
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "Не удается начать сканирование каналов. См. журнал, чтобы узнать больше об этом сообщении."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7000,6 +7076,10 @@ msgstr "Синхронизация группы каналов с сервера
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Программа"
+
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
+msgstr "Не удалось включить дополнения PVR. Проверьте настройки или см. журнал, чтобы узнать подробнее."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -9089,6 +9169,26 @@ msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Показывать скрытые файлы и папки"
 
+msgctxt "#21331"
+msgid "New media detected"
+msgstr "Обнаружены новые медиафайлы"
+
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "Обзор видео"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "Обзор музыки"
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "Обзор изображений"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "Обзор файлов"
+
 msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "Подключение к: %s"
@@ -11141,6 +11241,10 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Не удалось запустить Zeroconf"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Проверьте, установлена ли служба Apple Bonjour. См. журнал, чтобы узнать больше об этом сообщении."
+
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
 msgstr "Не удалось запустить AirPlay потому, что требуется включение Zeroconf."
@@ -12086,8 +12190,8 @@ msgid "Select the visualisation that will be displayed while listening to music.
 msgstr "Выбрать визуализацию, которая будет использоваться при прослушивании музыки."
 
 msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
-msgstr "Читать данные тэгов из файлов с композициями. Может замедлить время сканирования в случае объемных папок, особенно по сети."
+msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
+msgstr "Читать данные тэгов из файлов с композициями. Для объемных папок это может увеличить время чтения, особенно по сети."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."

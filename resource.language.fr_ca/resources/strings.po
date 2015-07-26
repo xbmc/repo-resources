@@ -83,51 +83,51 @@ msgstr "Dimanche"
 
 msgctxt "#21"
 msgid "January"
-msgstr "Janvier"
+msgstr "janvier"
 
 msgctxt "#22"
 msgid "February"
-msgstr "Février"
+msgstr "février"
 
 msgctxt "#23"
 msgid "March"
-msgstr "Mars"
+msgstr "mars"
 
 msgctxt "#24"
 msgid "April"
-msgstr "Avril"
+msgstr "avril"
 
 msgctxt "#25"
 msgid "May"
-msgstr "Mai"
+msgstr "mai"
 
 msgctxt "#26"
 msgid "June"
-msgstr "Juin"
+msgstr "juin"
 
 msgctxt "#27"
 msgid "July"
-msgstr "Juillet"
+msgstr "juillet"
 
 msgctxt "#28"
 msgid "August"
-msgstr "Août"
+msgstr "août"
 
 msgctxt "#29"
 msgid "September"
-msgstr "Septembre"
+msgstr "septembre"
 
 msgctxt "#30"
 msgid "October"
-msgstr "Octobre"
+msgstr "octobre"
 
 msgctxt "#31"
 msgid "November"
-msgstr "Novembre"
+msgstr "novembre"
 
 msgctxt "#32"
 msgid "December"
-msgstr "Décembre"
+msgstr "décembre"
 
 msgctxt "#41"
 msgid "Mon"
@@ -1596,6 +1596,10 @@ msgstr "Pas de cache"
 msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Retirer le film de la vidéothèque"
+
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "Voulez-vous vraiment retirer « %s » de la médiathèque?"
 
 msgctxt "#434"
 msgid "From %s at %i %s"
@@ -3556,6 +3560,10 @@ msgstr "Liste vide"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Retour à la liste parente car la liste active a été vidée"
+
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "Une version plus récente est exigée. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#2102"
 msgid "%s error"
@@ -6009,13 +6017,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Échec de la copie"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "Impossible de copier au moins un fichier. Consultez le journal pour de plus amples informations sur ce message."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Échec du déplacement"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "Impossible de déplacer au moins un fichier. Consultez le journal pour de plus amples informations sur ce message."
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Échec de la suppression"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "Impossible de supprimer au moins un fichier. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6231,7 +6251,7 @@ msgstr "UNC"
 
 msgctxt "#19012"
 msgid "PVR backend"
-msgstr "Dorsal du numériscope"
+msgstr "Dorsale du numériscope"
 
 msgctxt "#19013"
 msgid "Free to air"
@@ -6247,7 +6267,7 @@ msgstr "Chiffrement"
 
 msgctxt "#19016"
 msgid "PVR backend %i - %s"
-msgstr "Dorsal du numériscope %i - %s"
+msgstr "Dorsale du numériscope %i - %s"
 
 msgctxt "#19017"
 msgid "Recordings"
@@ -6321,13 +6341,21 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Chaîne déjà en cours d'enregistrement"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "Impossible de lire %s. Consultez le journal pour de plus amples informations sur ce message."
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "Cet enregistrement ne peux pas être lu. Consultez le journal pour de plus amples informations sur ce message."
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Afficher la qualité du signal"
 
 msgctxt "#19038"
 msgid "Not supported by the PVR backend."
-msgstr "N'est pas pris en charge par le dorsal du numériscope."
+msgstr "N'est pas pris en charge par la dorsale du numériscope."
 
 msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
@@ -6348,6 +6376,14 @@ msgstr "Voulez-vous vraiment renommer cette minuterie?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Enregistrement"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "Veuillez vérifier votre configuration. Consultez le journal pour de plus amples informations sur ce message."
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "Aucun client de numériscope n'a encore été démarré. Attendez le démarrage des clients de numériscope. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6436,6 +6472,10 @@ msgstr "Icônes de chaînes"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Cet événement est déjà en cours d'enregistrement"
+
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "Impossible de supprimer cet enregistrement. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6593,6 +6633,18 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Fréquence d'images de repli"
 
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "Impossible d'enregistrer la minuterie. Consultez le journal pour de plus amples informations sur ce message."
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "Une erreur inattendue est survenue. Ressayez ultérieurement ou consultez le journal pour de plus amples informations."
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "Erreur de la dorsale de numériscope. Consultez le journal pour de plus amples informations sur ce message."
+
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Supprimer cet enregistrement?"
@@ -6729,6 +6781,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Groupes"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "La dorsale du numériscope ne prend pas en charge cette action. Consultez le journal pour de plus amples informations sur ce message."
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Chaîne"
@@ -6788,6 +6844,10 @@ msgstr "Enregistrement activé"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Enregistrements"
+
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "Impossible de démarrer l'enregistrement. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6869,6 +6929,18 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Enregistrements supprimés"
 
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "Effacer les données"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "Toutes les données associées à la télé (chaînes, groupes, guide) seront effacées. Êtes-vous certain?"
+
+msgctxt "#19188"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Toutes vos données de guide seront effacées. Êtes-vous certain?"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Reprendre la dernière chaîne au démarrage"
@@ -6883,7 +6955,11 @@ msgstr "Service de numériscope"
 
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
-msgstr "Aucun dorsal de numériscope connecté ne prend en charge le balayage des chaînes."
+msgstr "Aucune dorsale de numériscope connectée ne prend en charge le balayage des chaînes."
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "Impossible de démarrer le balayage des chaînes. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -6947,7 +7023,7 @@ msgstr "Saisir le nom de la nouvelle chaîne"
 
 msgctxt "#19209"
 msgid "Kodi virtual backend"
-msgstr "Dorsal virtuel Kodi"
+msgstr "Dorsale virtuelle Kodi"
 
 msgctxt "#19210"
 msgid "Client"
@@ -6963,7 +7039,7 @@ msgstr "Cette liste contient des changements"
 
 msgctxt "#19213"
 msgid "Select backend"
-msgstr "Choisir le dorsal"
+msgstr "Choisir la dorsale"
 
 msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
@@ -6971,7 +7047,7 @@ msgstr "Saisir une URL valide pour la nouvelle chaîne"
 
 msgctxt "#19215"
 msgid "The PVR backend does not support timers."
-msgstr "Le dorsal du numériscope ne gère pas les minuteries."
+msgstr "La dorsale du numériscope ne gère pas les minuteries."
 
 msgctxt "#19216"
 msgid "All radio channels"
@@ -6995,11 +7071,15 @@ msgstr "Chaînes dans"
 
 msgctxt "#19221"
 msgid "Synchronise channel groups with backend(s)"
-msgstr "Synchroniser les groupes de chaînes avec le/les dorsal/dorsaux"
+msgstr "Synchroniser les groupes de chaînes avec la/les dorsale(s)"
 
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Guide"
+
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
+msgstr "Aucun addiciel de numériscope n'a pu être activé. Vérifiez vos paramètres ou consultez le journal pour de plus amples informations."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -7031,7 +7111,7 @@ msgstr "Empêcher les mises à jour pendant la lecture"
 
 msgctxt "#19231"
 msgid "Use channel order from backend(s)"
-msgstr "Utiliser le tri de chaînes du dorsal/des dorsaux"
+msgstr "Utiliser le tri de chaînes de la/des dorsale(s)"
 
 msgctxt "#19232"
 msgid "Clear search results"
@@ -7043,7 +7123,7 @@ msgstr "Afficher une notification lors de mise à jour de la minuterie"
 
 msgctxt "#19234"
 msgid "Use channel numbers from backend"
-msgstr "Utiliser les numéros de chaînes du dorsal"
+msgstr "Utiliser les numéros de chaînes de la dorsale"
 
 msgctxt "#19235"
 msgid "PVR manager is starting up"
@@ -7075,7 +7155,7 @@ msgstr "Le gestionnaire de numériscope a été activé sans qu'un addiciel de n
 
 msgctxt "#19244"
 msgid "Backend idle time"
-msgstr "Délai d'inactivité du dorsal"
+msgstr "Délai d'inactivité de la dorsale"
 
 msgctxt "#19245"
 msgid "Wakeup command"
@@ -7187,7 +7267,7 @@ msgstr "Aucun addiciel de numériscope n'a été trouvé"
 
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Il vous faut un syntoniseur, un logiciel dorsal et un addiciel afin que le dorsal puisse utiliser le numériscope. Veuillez visiter http://kodi.wiki/view/PVR pour davantage d'informations."
+msgstr "Il vous faut un syntoniseur, une application dorsale et un addiciel afin que la dorsale puisse utiliser le numériscope. Veuillez visiter http://kodi.wiki/view/PVR pour davantage d'informations."
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -9088,6 +9168,26 @@ msgstr "Conserver la saga actuelle (%s)"
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Afficher les dossiers et les fichiers cachés"
+
+msgctxt "#21331"
+msgid "New media detected"
+msgstr "Nouveaux médias détected"
+
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "Parcourir les vidéos"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "Parcourir la musique "
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "Parcourir les images"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "Parcourir les fichiers"
 
 msgctxt "#21336"
 msgid "Connecting to: %s"
@@ -11141,6 +11241,10 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Échec lors du lancement de Zéroconf"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Le service Bonjour d'Apple est-il installé? Consultez le journal pour de plus amples informations sur ce message."
+
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
 msgstr "Impossible de démarrer AirPlay car il exige l'activation de Zéroconf."
@@ -11163,7 +11267,7 @@ msgstr "Échec lors de l'initialisation du dispositif audio"
 
 msgctxt "#34403"
 msgid "Check your audio settings"
-msgstr "Vérifier vos paramètres audio"
+msgstr "Vérifiez vos paramètres audio"
 
 msgctxt "#34404"
 msgid "Use gestures for navigation:"
@@ -11815,15 +11919,15 @@ msgstr "Active les fonctions de numériscope. Au moins un addiciel de numérisco
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Importer les groupes de chaînes depuis le dorsal de numériscope (si pris en charge). Ceci supprimera les groupes créés par les utilisateurs s'ils ne sont pas trouvés dans le dorsal."
+msgstr "Importer les groupes de chaînes depuis la dorsale de numériscope (si pris en charge). Ceci supprimera les groupes créés par les utilisateurs s'ils ne sont pas trouvés dans la dorsale."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use own numbering for channels."
-msgstr "Trier les chaînes par numéros de chaînes du dorsal, mais utiliser mes propres numéros de chaînes."
+msgstr "Trier les chaînes par numéros de chaînes de la dorsale, mais utiliser mes propres numéros de chaînes."
 
 msgctxt "#36206"
 msgid "Use the channel numbering from the backend, instead of configuring them manually in the channel manager. Only works with one enabled PVR add-on!"
-msgstr "Utiliser le numérotage de chaînes du dorsal, au lieu de les configurer manuellement dans le gestionnaire de chaînes. Ne fonctionne qu'avec un seul addiciel de numériscope activé!"
+msgstr "Utiliser le numérotage de chaînes de la dorsale, au lieu de les configurer manuellement dans le gestionnaire de chaînes. Ne fonctionne que si un seul addiciel de numériscope est activé!"
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -11831,15 +11935,15 @@ msgstr "Ouvrir le gestionnaire de chaînes, ce qui permet de modifier l'ordre de
 
 msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
-msgstr "Donner l'ordre au dorsal de chercher des chaînes (si pris en charge)."
+msgstr "Donner l'ordre à la dorsale de chercher des chaînes (si pris en charge)."
 
 msgctxt "#36209"
 msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-msgstr "Supprimer les bases de données des chaînes et du guide et réimporter ensuite les données du dorsal."
+msgstr "Supprimer les bases de données des chaînes et du guide et réimporter ensuite les données de la dorsale."
 
 msgctxt "#36210"
 msgid "Prevent the \"Connection lost\" notification window from displaying when the PVR backend server is not available."
-msgstr "Empêcher l'affichage de la fenêtre de notification « Connexion perdue » lorsque le dorsal du numériscope n'est pas disponible."
+msgstr "Empêcher l'affichage de la fenêtre de notification « Connexion perdue » lorsque la dorsale du numériscope n'est pas disponible."
 
 msgctxt "#36211"
 msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
@@ -11895,7 +11999,7 @@ msgstr "Cacher les étiquettes « Aucune information proposée » si aucune donn
 
 msgctxt "#36225"
 msgid "Delete the cached guide data and reimport it from the backend."
-msgstr "Supprimer les données de guide en cache pour les réimporter du dorsal."
+msgstr "Supprimer les données de guide en cache pour les réimporter de la dorsale."
 
 msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
@@ -11911,7 +12015,7 @@ msgstr "Au démarrage, reprendre la dernière chaîne vue."
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
-msgstr "Afficher l'information de qualité du signal dans la fenêtre d'information du codec (si ceci est pris en charge par l'addiciel et le dorsal)."
+msgstr "Afficher l'information de qualité du signal dans la fenêtre d'information du codec (si ceci est pris en charge par l'addiciel et la dorsale)."
 
 msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
@@ -11951,11 +12055,11 @@ msgstr "Temps d'enregistrement supplémentaire après l'heure de fin planifiée 
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
-msgstr "Afficher une notification quand une minuterie est ajoutée, terminée ou retirée par le dorsal."
+msgstr "Afficher une notification quand une minuterie est ajoutée, terminée ou retirée par la dorsale."
 
 msgctxt "#36240"
 msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
-msgstr "Cette catégorie contient les paramètres de gestion de l'énergie des numériscopes, p. ex. quand réveiller le dorsal du numériscope."
+msgstr "Cette catégorie contient les paramètres de gestion de l'énergie des numériscopes, p. ex. quand réveiller la dorsale du numériscope."
 
 msgctxt "#36241"
 msgid "Execute the wakeup command below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
@@ -11983,7 +12087,7 @@ msgstr "Quand exécuter la commande de réveil journalière."
 
 msgctxt "#36247"
 msgid "This category contains the parental control settings, if the PVR backend server supports parental controls."
-msgstr "Cette catégorie contient les paramètres du contrôle parental, si le dorsal des numériscopes prend en charge les contrôles parentaux., "
+msgstr "Cette catégorie contient les paramètres du contrôle parental, si la dorsale des numériscopes prend en charge les contrôles parentaux."
 
 msgctxt "#36248"
 msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can't be played or recorded without entering a pin code, and the guide information is hidden for those channels."
@@ -11999,11 +12103,11 @@ msgstr "Redemander à nouveau le NIP lors d'une tentative d'accès à une chaîn
 
 msgctxt "#36251"
 msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
-msgstr "Cette catégorie contient les paramètres particuliers à votre dorsal de numériscope, s'ils sont pris en charge par l'addiciel de numériscope et le dorsal."
+msgstr "Cette catégorie contient les paramètres particuliers à votre dorsale de numériscope, s'ils sont pris en charge par l'addiciel de numériscope et la dorsale."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
-msgstr "Cette option vous amènera vers tout paramètre spécifique à votre dorsal de numériscope, si ceci est pris en charge par l'addiciel de numériscope et le dorsal. "
+msgstr "Cette option vous amènera vers tout paramètre spécifique à votre dorsale de numériscope, si ceci est pris en charge par l'addiciel de numériscope et la dorsale."
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -12086,8 +12190,8 @@ msgid "Select the visualisation that will be displayed while listening to music.
 msgstr "Choisir la visualisation qui sera affichée durant l'écoute de musique."
 
 msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
-msgstr "Lis les informations balisées d'une fichier audio. Pour les gros répertoires, ceci peut ralentir le temps de lecture, en particulier sur un réseau."
+msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
+msgstr "Lire les informations de balise des fichiers audio. Pour les gros répertoires, ceci peut augmenter le temps de lecture, en particulier sur un réseau."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."

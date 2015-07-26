@@ -1597,6 +1597,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Film eltávolítása a médiatárból"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "Szeretné eltávolítani '%s'-t a médiatárból? "
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "irány: %s, seb.: %i %s"
@@ -3556,6 +3560,10 @@ msgstr "Üres lista"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Visszaléptünk a szülő listához, mert az aktív lista kiürült"
+
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "Újabb verzió szükséges. Kérem ellenőrizze a hibanaplót bővebb információért."
 
 msgctxt "#2102"
 msgid "%s error"
@@ -6009,13 +6017,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Másolási hiba"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "Legalább egy fájl átmásolása sikertelen volt. További információk erről az üzenetről a hibanaplóban."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Átmozgatás nem sikerült"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "Legalább egy fájl átmozgatása sikertelen volt. További információk erről az üzenetről a hibanaplóban."
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Törlés nem sikerült"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "Legalább egy fájl törlése sikertelen volt. További információk erről az üzenetről a hibanaplóban."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6321,6 +6341,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Felvétel elkezdődött a csatornáról"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "%s nem volt lejátszható. További információk erről az üzenetről a hibanaplóban."
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "Ezt a felvételt nem lehetett lejátszani. Kérem ellenőrizze a naplófájlokban az üzenet részleteit."
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Jelminőség mutatása"
@@ -6348,6 +6376,14 @@ msgstr "Átnevezed ezt az időzítést?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Felvétel"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "Kérem ellenőrizze a beállításait. További információk erről az üzenetről a hibanaplóban."
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "Nincs PVR ügyfél elindítva.Várj ameddig elindul egy. További információk erről az üzenetről a hibanaplóban."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6436,6 +6472,10 @@ msgstr "Csatornaikonok"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Ez az esemény már felvétel alatt van."
+
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "Ezt a felvételt nem lehet törölni. Kérem ellenőrizze a naplófájlokban az üzenet részleteit."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6593,6 +6633,18 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Visszacsökkentett képsebesség"
 
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "Az időzítés nem volt menthető.További információk erről az üzenetről a hibanaplóban."
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "Egy váratlan hiba történt. Kérem ellenőrizze a naplófájlokban az üzenet részleteit."
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "PVR háttérkiszolgáló hiba. Kérem ellenőrizze a naplófájlokban az üzenet részleteit."
+
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Felvétel törlése?"
@@ -6729,6 +6781,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Csoportok"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "A PVR háttérkiszolgáló nem támogatja ezt a műveletet. További információk erről az üzenetről a hibanaplóban."
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Csatorna"
@@ -6788,6 +6844,10 @@ msgstr "Felvétel folyamatban"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Felvételek"
+
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "A felvétel nem indítható. Kérem ellenőrizze a hibanaplót bővebb információért."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6860,6 +6920,14 @@ msgstr "Rádió"
 msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Törölt felvételek"
+
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "Adat törlése"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "Minden TV-vel kapcsolatos adat (csatornák, csoportok) törlésre kerül. Biztos vagy benne?"
 
 msgctxt "#19189"
 msgid "Continue last channel on startup"
@@ -9045,6 +9113,22 @@ msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Rejtett fájlok és mappák megjelenítése"
 
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "Videók böngészése"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "Zenék böngészése"
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "Képek böngészése"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "Fájlok böngészése"
+
 msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "Csatlakozás: %s"
@@ -9089,6 +9173,10 @@ msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
 msgstr "Egér- és érintőképernyő támogatás engedélyezése"
 
+msgctxt "#21370"
+msgid "Play GUI sounds during media playback"
+msgstr "Felülethangok lejátszás közben"
+
 msgctxt "#21371"
 msgid "Thumbnail"
 msgstr "Minikép"
@@ -9132,6 +9220,10 @@ msgstr "1080i engedélyezése"
 msgctxt "#21381"
 msgid "Enter name of new playlist"
 msgstr "Lejátszáslista nevének megadása"
+
+msgctxt "#21382"
+msgid "Show \"Add source\" buttons"
+msgstr "Forrás hozzáadása gomb mutatása"
 
 msgctxt "#21383"
 msgid "Enable scrollbars"
@@ -9501,6 +9593,10 @@ msgctxt "#21802"
 msgid "File size"
 msgstr "Fájlméret"
 
+msgctxt "#21803"
+msgid "File date / time"
+msgstr "Fájl dátum / idő"
+
 msgctxt "#21804"
 msgid "Slide index"
 msgstr "Dia index"
@@ -9512,6 +9608,10 @@ msgstr "Felbontás"
 msgctxt "#21806"
 msgid "Comment"
 msgstr "Megjegyzés"
+
+msgctxt "#21807"
+msgid "Colour / B&W"
+msgstr "Színes / FF"
 
 msgctxt "#21808"
 msgid "JPEG process"
@@ -10384,6 +10484,22 @@ msgstr "Nincs felirat-szolgáltatás telepítve"
 msgctxt "#24115"
 msgid "Subtitle storage location"
 msgstr "Felirat tárolási helye"
+
+msgctxt "#24116"
+msgid "Default TV show service"
+msgstr "Alap sorozat felirat kereső"
+
+msgctxt "#24117"
+msgid "Select the service that will be used as default to search for TV show subtitles."
+msgstr "Válaszd ki az alap felirat kereső szolgáltatást a sorozatokhoz."
+
+msgctxt "#24118"
+msgid "Default movie service"
+msgstr "Alap film felirat kereső"
+
+msgctxt "#24119"
+msgid "Select the service that will be used as default to search for movie subtitles."
+msgstr "Válaszd ki az alap felirat kereső szolgáltatást a filmekhez."
 
 msgctxt "#24120"
 msgid "Manual search string"
@@ -11448,10 +11564,6 @@ msgstr "Az átkeverés engedélyezése ha mindkét zeneszám ugyanarról az albu
 msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Zenelejátszás alatt használt vizualizáció kiválasztása."
-
-msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
-msgstr "Tag információk kiolvasása a zeneállományokból. Nagy könyvtáraknál lelassíthatja az olvasást, különösen hálózat esetén."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."

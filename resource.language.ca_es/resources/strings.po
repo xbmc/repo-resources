@@ -1597,6 +1597,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Elimina la pel·lícula de la biblioteca"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "Esteu segur que voleu esborrar '%s' de la biblioteca?"
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "De %s a %i %s"
@@ -3557,6 +3561,10 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "S'ha tornat a la llista superior perquè la llista activa s'ha buidat"
 
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "Cal una nova versió. Comproveu el registre per veure més informació sobre aquest missatge."
+
 msgctxt "#2102"
 msgid "%s error"
 msgstr "%s error"
@@ -4089,13 +4097,21 @@ msgctxt "#12360"
 msgid "Master lock"
 msgstr "Bloqueig mestre"
 
+msgctxt "#12367"
+msgid "Master code is not valid. Please enter a valid master code."
+msgstr "El codi mestre no és vàld. Introduïu un codi mestre vàlid."
+
 msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "Configuració i gestor de fitxers"
 
 msgctxt "#12376"
 msgid "Set as default for all videos"
-msgstr "Establir com a predeterminat per a tots els vídeos"
+msgstr "Estableix com a predeterminat per a tots els vídeos"
+
+msgctxt "#12377"
+msgid "This will reset any previously saved values. Are you sure?"
+msgstr "Això restablirà tots els valors guardats prèviament. N'esteu segur?"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -4108,6 +4124,22 @@ msgstr "Utilitza els efectes pan i zoom"
 msgctxt "#12382"
 msgid "%s xx"
 msgstr "%s xx"
+
+msgctxt "#12383"
+msgid "12-hour clock"
+msgstr "Format horari de 12 hores"
+
+msgctxt "#12384"
+msgid "24-hour clock"
+msgstr "Format horari de 24 hores"
+
+msgctxt "#12385"
+msgid "Day / Month"
+msgstr "Dia / Mes"
+
+msgctxt "#12386"
+msgid "Month / Day"
+msgstr "Mes / Dia"
 
 msgctxt "#12390"
 msgid "System uptime"
@@ -4161,6 +4193,10 @@ msgctxt "#13000"
 msgid "System"
 msgstr "Sistema"
 
+msgctxt "#13001"
+msgid "Immediate HDD spindown"
+msgstr "Atura el disc dur immediatament"
+
 msgctxt "#13002"
 msgid "Video only"
 msgstr "Només vídeo"
@@ -4209,6 +4245,10 @@ msgctxt "#13015"
 msgid "Power button action"
 msgstr "Acció del botó d'arrencada"
 
+msgctxt "#13016"
+msgid "Power off system"
+msgstr "Atura el sistema"
+
 msgctxt "#13017"
 msgid "Inhibit idle shutdown"
 msgstr "Inhibeix l'apagada per inactivitat"
@@ -4220,6 +4260,10 @@ msgstr "Permet l'apagada per inactivitat"
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "Hi ha una altra sessió activa, potser a través de ssh?"
+
+msgctxt "#13021"
+msgid "Mounted removable hard drive"
+msgstr "S'ha muntat un disc dur extraïble"
 
 msgctxt "#13022"
 msgid "Unsafe device removal"
@@ -4237,9 +4281,21 @@ msgctxt "#13025"
 msgid "Joystick unplugged"
 msgstr "S'ha desconnectat el joystick"
 
+msgctxt "#13026"
+msgid "Try to wakeup remote servers on access"
+msgstr "Prova de despertar els servidors remots a l'accedir-hi"
+
+msgctxt "#13027"
+msgid "Wake-on-LAN (%s)"
+msgstr "Wake-on-LAN (%s)"
+
 msgctxt "#13028"
 msgid "Waiting for network to connect..."
 msgstr "S'està esperant la xarxa per connectar..."
+
+msgctxt "#13029"
+msgid "Failed to execute Wake-on-LAN!"
+msgstr "No s'ha pogut executar el Wake-on-LAN"
 
 msgctxt "#13030"
 msgid "Waiting for server to wake up..."
@@ -4252,6 +4308,10 @@ msgstr "Espera extesa per a que inicialitzi el servidor..."
 msgctxt "#13032"
 msgid "Waiting for services to launch..."
 msgstr "Esperant a que inicialitzin els serveis..."
+
+msgctxt "#13033"
+msgid "MAC discovery"
+msgstr "Descobrir MAC"
 
 msgctxt "#13034"
 msgid "Updated for %s"
@@ -4292,6 +4352,14 @@ msgstr "Habilitat durant la reproducció de vídeo"
 msgctxt "#13108"
 msgid "Always enabled"
 msgstr "Sempre habilitat"
+
+msgctxt "#13109"
+msgid "Test & apply the resolution"
+msgstr "Prova i aplica la resolució"
+
+msgctxt "#13110"
+msgid "Save this resolution?"
+msgstr "Voleu desar aquesta resolució?"
 
 msgctxt "#13111"
 msgid "Would you like to keep this change?"
@@ -4833,6 +4901,10 @@ msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
 msgstr "No hi ha copcions disponibles⏎\nper a aquesta visualització"
 
+msgctxt "#13391"
+msgid "Eject / Load"
+msgstr "Expulsa / Carrega"
+
 msgctxt "#13392"
 msgid "Use visualisation if playing audio"
 msgstr "Utilitza la visualització si es reprodueix àudio"
@@ -4957,9 +5029,65 @@ msgctxt "#13423"
 msgid "Remember for this path"
 msgstr "Recorda aquest camí"
 
+msgctxt "#13425"
+msgid "Allow hardware acceleration - VDPAU"
+msgstr "Permet l'acceleració per maquinari - VDPAU"
+
+msgctxt "#13426"
+msgid "Allow hardware acceleration - VAAPI"
+msgstr "Permet l'acceleració per maquinari - VAAPI"
+
+msgctxt "#13427"
+msgid "Allow hardware acceleration - DXVA2"
+msgstr "Permet l'acceleració per maquinari - DXVA2"
+
+msgctxt "#13428"
+msgid "Allow hardware acceleration - CrystalHD"
+msgstr "Permet l'acceleració per maquinari - CrystalHD"
+
+msgctxt "#13429"
+msgid "Allow hardware acceleration - VDADecoder"
+msgstr "Permet l'acceleració per maquinari - VDADecoder"
+
+msgctxt "#13430"
+msgid "Allow hardware acceleration - OpenMax"
+msgstr "Permet l'acceleració per maquinari - OpenMax"
+
+msgctxt "#13431"
+msgid "Pixel shaders"
+msgstr "Ombrejadors de píxels"
+
+msgctxt "#13432"
+msgid "Allow hardware acceleration - VideoToolbox"
+msgstr "Permet l'acceleració per maquinari - VideoToolbox"
+
+msgctxt "#13433"
+msgid "Play next video automatically"
+msgstr "Reprodueix el següent vídeo automàticament"
+
 msgctxt "#13434"
 msgid "Play only this"
 msgstr "Reprodueix només aquest"
+
+msgctxt "#13435"
+msgid "Enable HQ scalers for scaling above"
+msgstr "Habilita els escaladors HQ per a que escalin per sobre de"
+
+msgctxt "#13436"
+msgid "Allow hardware acceleration - libstagefright"
+msgstr "Permet l'acceleració per maquinari - libstagefright"
+
+msgctxt "#13437"
+msgid "Prefer VDPAU video mixer"
+msgstr "Preferir el mesclador de vídeo VDAPU"
+
+msgctxt "#13438"
+msgid "Allow hardware acceleration - amcodec"
+msgstr "Permet l'acceleració per maquinari - amcodec"
+
+msgctxt "#13439"
+msgid "Allow hardware acceleration - MediaCodec"
+msgstr "Permet l'acceleració per maquinari - MediaCodec"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
@@ -5001,6 +5129,10 @@ msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Qualitat del remostreig"
 
+msgctxt "#13506"
+msgid "Low (fast)"
+msgstr "Baix (ràpid)"
+
 msgctxt "#13507"
 msgid "Medium"
 msgstr "Mitja"
@@ -5008,6 +5140,10 @@ msgstr "Mitja"
 msgctxt "#13508"
 msgid "High"
 msgstr "Alt"
+
+msgctxt "#13509"
+msgid "Really high (slow)"
+msgstr "Molt alt (lent)"
 
 msgctxt "#13510"
 msgid "Sync playback to display"
@@ -5045,6 +5181,14 @@ msgctxt "#13551"
 msgid "Off"
 msgstr "Inactiu"
 
+msgctxt "#13552"
+msgid "%.1f second"
+msgstr "%.1f segon"
+
+msgctxt "#13553"
+msgid "%.1f seconds"
+msgstr "%.1f segons"
+
 msgctxt "#13554"
 msgid "%d Minute"
 msgstr "%d Minut"
@@ -5052,6 +5196,18 @@ msgstr "%d Minut"
 msgctxt "#13555"
 msgid "%d Minutes"
 msgstr "%d Minuts"
+
+msgctxt "#13556"
+msgid "Skip steps"
+msgstr "Salt de les passes"
+
+msgctxt "#13557"
+msgid "Skip delay"
+msgstr "Retard del salt"
+
+msgctxt "#13600"
+msgid "Apple Remote"
+msgstr "Apple Remote"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -5068,6 +5224,22 @@ msgstr "Desactivat"
 msgctxt "#13611"
 msgid "Standard"
 msgstr "Estàndard"
+
+msgctxt "#13612"
+msgid "Universal remote"
+msgstr "Comandament universal"
+
+msgctxt "#13613"
+msgid "Harmony remote"
+msgstr "Comandament Harmony"
+
+msgctxt "#13620"
+msgid "Apple Remote error"
+msgstr "Error de l'Apple Remote"
+
+msgctxt "#13621"
+msgid "Apple Remote support couldn't be enabled."
+msgstr "No es pot habilitar el suport per a l'Apple Remote."
 
 msgctxt "#14000"
 msgid "Stack"
@@ -5169,6 +5341,10 @@ msgctxt "#14026"
 msgid "Video cache - DVD-ROM"
 msgstr "Memòria cau del vídeo - DVD-ROM"
 
+msgctxt "#14027"
+msgid "Video cache - Local network"
+msgstr "Memòria cau de vídeo - Xarxa local"
+
 msgctxt "#14028"
 msgid "Video cache - Internet"
 msgstr "Memòria cau de vídeo - Internet"
@@ -5176,6 +5352,10 @@ msgstr "Memòria cau de vídeo - Internet"
 msgctxt "#14030"
 msgid "Audio cache - DVD-ROM"
 msgstr "Memòria cau de l'àudio - DVD-ROM"
+
+msgctxt "#14031"
+msgid "Audio cache - Local network"
+msgstr "Memòria cau d'àudio - Xarxa local"
 
 msgctxt "#14032"
 msgid "Audio cache - Internet"
@@ -5192,6 +5372,10 @@ msgstr "Xarxa local"
 msgctxt "#14036"
 msgid "Services"
 msgstr "Serveis"
+
+msgctxt "#14037"
+msgid "DVD cache - Local network"
+msgstr "Memòria cau de DVD - Xarxa local"
 
 msgctxt "#14038"
 msgid "Network settings changed"
@@ -5345,6 +5529,10 @@ msgctxt "#14082"
 msgid "Show EXIF picture information"
 msgstr "Mostra la informació EXIF de la imatge"
 
+msgctxt "#14083"
+msgid "Use fullscreen window"
+msgstr "Utilitza el vídeo a pantalla completa"
+
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Posa les cançons a la cua al seleccionar-les"
@@ -5363,7 +5551,7 @@ msgstr "Reprodueix els DVD de forma automàtica"
 
 msgctxt "#14089"
 msgid "Font to use for text subtitles"
-msgstr "Font to use for text subtitles"
+msgstr "Tipografia per als subtítols"
 
 msgctxt "#14090"
 msgid "International"
@@ -5397,6 +5585,10 @@ msgctxt "#14098"
 msgid "Play"
 msgstr "Reprodueix"
 
+msgctxt "#14099"
+msgid "Eject disc when the CD ripping is complete"
+msgstr "Expulsa el disc quan s'hagi completat l'extracció del CD"
+
 msgctxt "#14100"
 msgid "Stop ripping CD"
 msgstr "Atura l'extracció del CD"
@@ -5417,6 +5609,10 @@ msgctxt "#14104"
 msgid "Show simplified menu"
 msgstr "Mostra el menú simplificat"
 
+msgctxt "#14105"
+msgid "Temperature unit"
+msgstr "Unitats de temperatura"
+
 msgctxt "#14106"
 msgid "Speed unit"
 msgstr "Unitat de velocitat"
@@ -5424,6 +5620,22 @@ msgstr "Unitat de velocitat"
 msgctxt "#14107"
 msgid "Time format"
 msgstr "Format de l'hora"
+
+msgctxt "#14108"
+msgid "Use 12 / 24-hour format"
+msgstr "Utilitza el format horari 12 / 24 hores"
+
+msgctxt "#14109"
+msgid "Short date format"
+msgstr "Format de la data curt"
+
+msgctxt "#14110"
+msgid "Long date format"
+msgstr "Format de la data llarg"
+
+msgctxt "#15011"
+msgid "%i Items failed to export"
+msgstr "Ha fallat l'exportació de %i elements"
 
 msgctxt "#15012"
 msgid "Unavailable source"
@@ -5477,9 +5689,17 @@ msgctxt "#15105"
 msgid "* All genres"
 msgstr "* Tots els gèneres"
 
+msgctxt "#15106"
+msgid "Skin built-in"
+msgstr "Aparença incorporada"
+
 msgctxt "#15107"
 msgid "Buffering..."
 msgstr "S'està omplint la memòria intermèdia..."
+
+msgctxt "#15108"
+msgid "GUI sounds"
+msgstr "Sons de la interfície gràfica"
 
 msgctxt "#15109"
 msgid "Skin default"
@@ -5528,6 +5748,10 @@ msgstr "Reprodueix en mode festa"
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "Path not found or invalid"
+
+msgctxt "#15301"
+msgid "Couldn't connect to network server"
+msgstr "No s'ha pogut connectar al servidor de xarxa"
 
 msgctxt "#15302"
 msgid "No servers found"
@@ -5609,9 +5833,17 @@ msgctxt "#16019"
 msgid "Auto select"
 msgstr "Selecció automàtica"
 
+msgctxt "#16020"
+msgid "Deinterlace"
+msgstr "Desentrellaçat"
+
 msgctxt "#16021"
 msgid "Bob"
 msgstr "Bob"
+
+msgctxt "#16022"
+msgid "Bob - Inverted"
+msgstr "Bob - Invertit"
 
 msgctxt "#16024"
 msgid "Cancelling..."
@@ -5637,9 +5869,25 @@ msgctxt "#16031"
 msgid "No matching songs in the library."
 msgstr "Sense cançons coincidents a la biblioteca"
 
+msgctxt "#16032"
+msgid "Couldn't initialise database."
+msgstr "No s'ha pogut inicialitzar la base de dades."
+
+msgctxt "#16033"
+msgid "Couldn't open database."
+msgstr "No s'ha pogut obrir la base de dades."
+
+msgctxt "#16034"
+msgid "Couldn't get songs from database."
+msgstr "No s'han pogut obtenir les cançons de la base de dades."
+
 msgctxt "#16035"
 msgid "Party mode playlist"
 msgstr "Llista de reproducció del mode festa"
+
+msgctxt "#16036"
+msgid "Deinterlace (half)"
+msgstr "Desentrellaçat (intermig)"
 
 msgctxt "#16037"
 msgid "Deinterlace video"
@@ -5753,17 +6001,61 @@ msgctxt "#16310"
 msgid "Temporal"
 msgstr "Temporal"
 
+msgctxt "#16311"
+msgid "Temporal / Spatial"
+msgstr "Temporal / Espacial"
+
+msgctxt "#16312"
+msgid "VDPAU - Noise reduction"
+msgstr "VDPAU - Reducció de soroll"
+
+msgctxt "#16313"
+msgid "VDPAU - Sharpness"
+msgstr "VDAPU - Nitidesa"
+
+msgctxt "#16314"
+msgid "Inverse telecine"
+msgstr "Telecine invers"
+
+msgctxt "#16315"
+msgid "Lanczos3 - Optimised"
+msgstr "Lanczos3 - Optimitzat"
+
 msgctxt "#16316"
 msgid "Auto"
 msgstr "Auto"
+
+msgctxt "#16317"
+msgid "Temporal (half)"
+msgstr "Temporal (intermig)"
+
+msgctxt "#16318"
+msgid "Temporal / Spatial (half)"
+msgstr "Temporal / Espacial (intermig)"
 
 msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16320"
+msgid "DXVA - Bob"
+msgstr "DXVA - Bob"
+
+msgctxt "#16321"
+msgid "DXVA - Best"
+msgstr "DXVA - Màxim"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
+
+msgctxt "#16323"
+msgid "Spline36 - Optimised"
+msgstr "Spline36 - Optimitzat"
+
+msgctxt "#16324"
+msgid "Software - Blend"
+msgstr "Programari - Combinat"
 
 msgctxt "#16325"
 msgid "VDPAU - Bob"
@@ -5773,13 +6065,41 @@ msgctxt "#16326"
 msgid "DXVA-HD"
 msgstr "DXVA-HD"
 
+msgctxt "#16327"
+msgid "VAAPI - Bob"
+msgstr "VAAPI - Bob"
+
+msgctxt "#16328"
+msgid "VAAPI - Motion adaptive"
+msgstr "VAAPI - Adaptable al moviment"
+
+msgctxt "#16329"
+msgid "VAAPI - Motion compensated"
+msgstr "VAAPI - Amb compensació de moviment"
+
 msgctxt "#16330"
 msgid "MMAL - Advanced"
 msgstr "MMAL- Avançat"
 
+msgctxt "#16331"
+msgid "MMAL - Advanced (half)"
+msgstr "MMAL - Avançat (Intermedi)"
+
 msgctxt "#16332"
 msgid "MMAL - Bob"
 msgstr "MMAL - Bob"
+
+msgctxt "#16333"
+msgid "MMAL - Bob (half)"
+msgstr "MMAL - Bob (Intermedi)"
+
+msgctxt "#16334"
+msgid "IMX - Fast motion"
+msgstr "IMX - Moviment ràpid"
+
+msgctxt "#16335"
+msgid "IMX - Fast motion (double)"
+msgstr "IMX - Moviment ràpid (doble)"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -5805,6 +6125,10 @@ msgctxt "#19000"
 msgid "Switch to channel"
 msgstr "Canvia al canal"
 
+msgctxt "#19001"
+msgid "Separate the search words by using AND, OR and / or NOT."
+msgstr "Separeu les paraules de cerca utilitzant AND, OR i / o NOT."
+
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
 msgstr "o utilitzeu frases per trobar coincidències exactes com \"El mag d'Oz\"."
@@ -5812,6 +6136,10 @@ msgstr "o utilitzeu frases per trobar coincidències exactes com \"El mag d'Oz\"
 msgctxt "#19003"
 msgid "Find similar"
 msgstr "Cerca semblants"
+
+msgctxt "#19004"
+msgid "Importing guide from clients"
+msgstr "Important la guida dels clients"
 
 msgctxt "#19005"
 msgid "PVR stream information"
@@ -5841,6 +6169,10 @@ msgctxt "#19011"
 msgid "UNC"
 msgstr "UNC"
 
+msgctxt "#19012"
+msgid "PVR backend"
+msgstr "Rerefons PVR"
+
 msgctxt "#19013"
 msgid "Free to air"
 msgstr "En obert"
@@ -5852,6 +6184,10 @@ msgstr "Fixed"
 msgctxt "#19015"
 msgid "Encryption"
 msgstr "Xifrat"
+
+msgctxt "#19016"
+msgid "PVR backend %i - %s"
+msgstr "Rerefons PVR %i - %s"
 
 msgctxt "#19017"
 msgid "Recordings"
@@ -5896,6 +6232,10 @@ msgstr "Afegeix temporitzador..."
 msgctxt "#19027"
 msgid "No search results"
 msgstr "No s'ha trobat cap resultat"
+
+msgctxt "#19028"
+msgid "No guide entries"
+msgstr "No s'han trobat entrades a la guia"
 
 msgctxt "#19029"
 msgid "Channel"
@@ -5953,6 +6293,10 @@ msgctxt "#19046"
 msgid "New channel"
 msgstr "Nou canal"
 
+msgctxt "#19048"
+msgid "Group manager"
+msgstr "Gestor de grups"
+
 msgctxt "#19049"
 msgid "Show channel"
 msgstr "Mostra el canal"
@@ -6009,9 +6353,17 @@ msgctxt "#19062"
 msgid "Sort by: Channel"
 msgstr "Ordena per: canal"
 
+msgctxt "#19063"
+msgid "Go to beginning"
+msgstr "Anar a l'inici"
+
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "Anar al final"
+
+msgctxt "#19065"
+msgid "Timer settings"
+msgstr "Paràmetes del temporitzador"
 
 msgctxt "#19066"
 msgid "Channel icons"
@@ -6024,6 +6376,14 @@ msgstr "Ja s'està enregistrant aquest esdeveniment."
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Guia"
+
+msgctxt "#19070"
+msgid "Go to now"
+msgstr "Anar a ara"
+
+msgctxt "#19071"
+msgid "Update interval"
+msgstr "Interval d'actualització"
 
 msgctxt "#19073"
 msgid "Delay channel switch"
@@ -6393,13 +6753,33 @@ msgctxt "#19178"
 msgid "Show channel information when switching channels"
 msgstr "Mostra el canal d'informació durant el canvi de canals"
 
+msgctxt "#19179"
+msgid "Deleted"
+msgstr "Eliminat"
+
 msgctxt "#19180"
 msgid "TV"
 msgstr "TV"
 
+msgctxt "#19181"
+msgid "Menu / OSD"
+msgstr "Menú / OSD"
+
+msgctxt "#19182"
+msgid "Days to display"
+msgstr "Dies a mostrar"
+
 msgctxt "#19183"
 msgid "Radio"
 msgstr "Ràdio"
+
+msgctxt "#19184"
+msgid "Deleted recordings"
+msgstr "Enregistraments eliminats"
+
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "Elimina les dades"
 
 msgctxt "#19189"
 msgid "Continue last channel on startup"
@@ -6441,6 +6821,10 @@ msgctxt "#19199"
 msgid "Channel manager"
 msgstr "Gestor de canals"
 
+msgctxt "#19200"
+msgid "Guide source:"
+msgstr "Font de la guia:"
+
 msgctxt "#19201"
 msgid "Channel name:"
 msgstr "Nom del canal:"
@@ -6460,6 +6844,10 @@ msgstr "Now canal"
 msgctxt "#19205"
 msgid "Group management"
 msgstr "Gestor de grups"
+
+msgctxt "#19206"
+msgid "Activate guide:"
+msgstr "Activa  la guia:"
 
 msgctxt "#19207"
 msgid "Group:"
@@ -6541,9 +6929,17 @@ msgctxt "#19227"
 msgid "Recording completed"
 msgstr "Enregistrament completat"
 
+msgctxt "#19228"
+msgid "Timer deleted"
+msgstr "Temporitzador eliminat"
+
 msgctxt "#19229"
 msgid "Close channel OSD after switching channels"
 msgstr "Tanca l'OSD del canal després de canviar canals"
+
+msgctxt "#19230"
+msgid "Prevent updates during playback"
+msgstr "Prevenir canvis durant la reproducció"
 
 msgctxt "#19232"
 msgid "Clear search results"
@@ -6577,6 +6973,10 @@ msgctxt "#19244"
 msgid "Backend idle time"
 msgstr "Temps d'inactivitat del rerefons"
 
+msgctxt "#19245"
+msgid "Wakeup command"
+msgstr "Comanda per despertar"
+
 msgctxt "#19246"
 msgid "Wakeup before recording"
 msgstr "Desperta abans d'enregistrar"
@@ -6592,6 +6992,14 @@ msgstr "Hora del despertar diari (HH:MM:SS)"
 msgctxt "#19249"
 msgid "Filter channels"
 msgstr "Filtra els canals"
+
+msgctxt "#19250"
+msgid "Loading guide from database"
+msgstr "Carregant la guia de la base de dades"
+
+msgctxt "#19251"
+msgid "Update guide information"
+msgstr "Actualitza la informació de la guia"
 
 msgctxt "#19255"
 msgid "Start recording"
@@ -6705,53 +7113,293 @@ msgctxt "#19289"
 msgid "Hide group"
 msgstr "Amaga el grup"
 
+msgctxt "#19290"
+msgid "Undelete"
+msgstr "Desfés l'eliminació"
+
+msgctxt "#19291"
+msgid "Delete permanently"
+msgstr "Elimina-ho de forma permanent"
+
+msgctxt "#19292"
+msgid "Delete all permanently"
+msgstr "Elimina-ho tot de forma permanent"
+
+msgctxt "#19293"
+msgid "Delete all recordings permanently?"
+msgstr "Voleu eliminar tots els enregistraments de forma permanent?"
+
+msgctxt "#19294"
+msgid "Delete this recording permanently?"
+msgstr "Voleu eliminar aquest enregistrament de forma permanent?"
+
+msgctxt "#19499"
+msgid "Other / Unknown"
+msgstr "Un altre / Desconegut"
+
+msgctxt "#19500"
+msgid "Movie / Drama"
+msgstr "Pel·lícula / Drama"
+
+msgctxt "#19501"
+msgid "Detective / Thriller"
+msgstr "Investigació / Suspens"
+
+msgctxt "#19502"
+msgid "Adventure / Western / War"
+msgstr "Aventura / Western / Bèl·lic"
+
+msgctxt "#19503"
+msgid "Science fiction / Fantasy / Horror"
+msgstr "Ciència Ficció / Fantasia / Terror"
+
 msgctxt "#19504"
 msgid "Comedy"
 msgstr "Comèdia"
+
+msgctxt "#19505"
+msgid "Soap / Melodrama / Folkloric"
+msgstr "Culebrot / Melodrama / Folklòric"
 
 msgctxt "#19506"
 msgid "Romance"
 msgstr "Romanç"
 
+msgctxt "#19507"
+msgid "Serious / Classical / Religious / Historical movie / drama"
+msgstr "Seriosa / Clàssica / Religiosa / Històrica / Drama"
+
+msgctxt "#19508"
+msgid "Adult movie / drama"
+msgstr "Per a adults / Drama"
+
+msgctxt "#19516"
+msgid "News / Current affairs"
+msgstr "Notícies / Actualitat"
+
+msgctxt "#19517"
+msgid "News / Weather report"
+msgstr "Notícies / Informe meteorològic"
+
+msgctxt "#19518"
+msgid "News magazine"
+msgstr "Revista d'actualitat"
+
 msgctxt "#19519"
 msgid "Documentary"
 msgstr "Documental"
+
+msgctxt "#19520"
+msgid "Discussion / Interview / Debate"
+msgstr "Discussió / Entrevista / Debat"
+
+msgctxt "#19534"
+msgid "Variety show"
+msgstr "Programa de varietats"
+
+msgctxt "#19535"
+msgid "Talk show"
+msgstr "Xerrades"
 
 msgctxt "#19548"
 msgid "Sports"
 msgstr "Esports"
 
+msgctxt "#19549"
+msgid "Special event"
+msgstr "Esdeveniment especial"
+
+msgctxt "#19550"
+msgid "Sport magazine"
+msgstr "Revista esportiva"
+
 msgctxt "#19551"
 msgid "Football"
 msgstr "Futbol"
+
+msgctxt "#19552"
+msgid "Tennis / Squash"
+msgstr "Tenis / Squash"
+
+msgctxt "#19553"
+msgid "Team sports"
+msgstr "Esports d'equip"
 
 msgctxt "#19554"
 msgid "Athletics"
 msgstr "Atletisme"
 
+msgctxt "#19555"
+msgid "Motor sport"
+msgstr "Esport de motor"
+
+msgctxt "#19556"
+msgid "Water sport"
+msgstr "Esport aquàtic"
+
+msgctxt "#19557"
+msgid "Winter sports"
+msgstr "Esports d'hivern"
+
 msgctxt "#19558"
 msgid "Equestrian"
 msgstr "Hípica"
+
+msgctxt "#19559"
+msgid "Martial sports"
+msgstr "Esports de combat"
+
+msgctxt "#19564"
+msgid "Children's / Youth programmes"
+msgstr "Programes infantils / juvenils"
+
+msgctxt "#19565"
+msgid "Pre-school children's programmes"
+msgstr "Programes infantils pre-escolars"
+
+msgctxt "#19566"
+msgid "Entertainment programmes for 6 to 14"
+msgstr "Programes d'entreteniment de 6 a 14"
+
+msgctxt "#19567"
+msgid "Entertainment programmes for 10 to 16"
+msgstr "Programes d'entreteniment de 10 a 16"
+
+msgctxt "#19568"
+msgid "Informational / Educational / School programme"
+msgstr "Informatius / Educatius / Programes escolars"
+
+msgctxt "#19569"
+msgid "Cartoons / Puppets"
+msgstr "Dibuixos / Titelles"
+
+msgctxt "#19580"
+msgid "Music / Ballet / Dance"
+msgstr "Música / Ballet / Ball"
+
+msgctxt "#19581"
+msgid "Rock / Pop"
+msgstr "Rock / Pop"
+
+msgctxt "#19582"
+msgid "Serious / Classical music"
+msgstr "Seriós / Música clàssica"
+
+msgctxt "#19583"
+msgid "Folk / Traditional music"
+msgstr "Folk / Música tradicional"
+
+msgctxt "#19584"
+msgid "Musical / Opera"
+msgstr "Musical / Òpera"
 
 msgctxt "#19585"
 msgid "Ballet"
 msgstr "Ballet"
 
+msgctxt "#19596"
+msgid "Arts / Culture"
+msgstr "Arts / Cultura"
+
+msgctxt "#19597"
+msgid "Performing arts"
+msgstr "Arts escèniques"
+
+msgctxt "#19598"
+msgid "Fine arts"
+msgstr "Belles arts"
+
 msgctxt "#19599"
 msgid "Religion"
 msgstr "Religió"
+
+msgctxt "#19600"
+msgid "Popular culture / Traditional arts"
+msgstr "Cultura popular / Arts tradicionals"
 
 msgctxt "#19601"
 msgid "Literature"
 msgstr "Literatura"
 
+msgctxt "#19602"
+msgid "Film / Cinema"
+msgstr "Pel·lícules / Cinema"
+
+msgctxt "#19603"
+msgid "Experimental film / video"
+msgstr "Pel·lícules / vídeos experimentals"
+
+msgctxt "#19604"
+msgid "Broadcasting / Press"
+msgstr "Comunicats / Premsa"
+
+msgctxt "#19605"
+msgid "New media"
+msgstr "Nous mitjans"
+
+msgctxt "#19606"
+msgid "Arts / Culture magazines"
+msgstr "Revistes d'art / culturals"
+
 msgctxt "#19607"
 msgid "Fashion"
 msgstr "Moda"
 
+msgctxt "#19612"
+msgid "Social / Political / Economics"
+msgstr "Societat / Política / Economia"
+
+msgctxt "#19613"
+msgid "Magazines / Reports / Documentary"
+msgstr "Revistes / Informes / Documentals"
+
+msgctxt "#19614"
+msgid "Economics / Social advisory"
+msgstr "Economia / Assessorament social"
+
+msgctxt "#19615"
+msgid "Remarkable people"
+msgstr "Personalitats"
+
+msgctxt "#19628"
+msgid "Education / Science / Factual"
+msgstr "Educació / Ciència"
+
+msgctxt "#19629"
+msgid "Nature / Animals / Environment"
+msgstr "Natura / Fauna / Medi ambient"
+
+msgctxt "#19630"
+msgid "Technology / Natural sciences"
+msgstr "Tecnologia / Ciències Naturals"
+
+msgctxt "#19631"
+msgid "Medicine / Physiology / Psychology"
+msgstr "Medicina / Fisiologia / Psicologia"
+
+msgctxt "#19632"
+msgid "Foreign countries / Expeditions"
+msgstr "Internacionals / Expedicions"
+
+msgctxt "#19633"
+msgid "Social / Spiritual sciences"
+msgstr "Societat / Ciències espirituals"
+
+msgctxt "#19634"
+msgid "Further education"
+msgstr "Educació superior"
+
 msgctxt "#19635"
 msgid "Languages"
 msgstr "Idiomes"
+
+msgctxt "#19644"
+msgid "Leisure / Hobbies"
+msgstr "Oci / Passatemps"
+
+msgctxt "#19645"
+msgid "Tourism / Travel"
+msgstr "Turisme / Viatges"
 
 msgctxt "#19646"
 msgid "Handicraft"
@@ -6761,25 +7409,65 @@ msgctxt "#19647"
 msgid "Motoring"
 msgstr "Automobilisme"
 
+msgctxt "#19648"
+msgid "Fitness & health"
+msgstr "Fitness i salut"
+
 msgctxt "#19649"
 msgid "Cooking"
 msgstr "Cuina"
+
+msgctxt "#19650"
+msgid "Advertisement / Shopping"
+msgstr "Publicitat / Compres"
 
 msgctxt "#19651"
 msgid "Gardening"
 msgstr "Jardineria"
 
+msgctxt "#19660"
+msgid "Special characteristics"
+msgstr "Característiques especials"
+
+msgctxt "#19661"
+msgid "Original language"
+msgstr "Idioma original"
+
+msgctxt "#19662"
+msgid "Black & white"
+msgstr "Blanc i negre"
+
 msgctxt "#19663"
 msgid "Unpublished"
 msgstr "No publicat"
+
+msgctxt "#19664"
+msgid "Live broadcast"
+msgstr "Emissió en directe"
 
 msgctxt "#19676"
 msgid "Drama"
 msgstr "Drama"
 
+msgctxt "#19677"
+msgid "Detective / Thriller"
+msgstr "Investigació / Suspens"
+
+msgctxt "#19678"
+msgid "Adventure / Western / War"
+msgstr "Aventura / Western / Bèl·lic"
+
+msgctxt "#19679"
+msgid "Science fiction / Fantasy / Horror"
+msgstr "Ciència Ficció/Fantasia/Terror"
+
 msgctxt "#19680"
 msgid "Comedy"
 msgstr "Comèdia"
+
+msgctxt "#19681"
+msgid "Soap / Melodrama / Folkloric"
+msgstr "Culebrot / Melodrama / Folklòric"
 
 msgctxt "#19682"
 msgid "Romance"
@@ -6792,6 +7480,14 @@ msgstr "Adult"
 msgctxt "#19694"
 msgid "%d minutes"
 msgstr "%d minuts"
+
+msgctxt "#19695"
+msgid "about a minute"
+msgstr "aproximadament un minut"
+
+msgctxt "#19696"
+msgid "Shutdown anyway"
+msgstr "Atura de totes maneres"
 
 msgctxt "#20000"
 msgid "Saved music folder"
@@ -6880,6 +7576,10 @@ msgstr "Escaneja-ho tot"
 msgctxt "#20026"
 msgid "Region"
 msgstr "Regió"
+
+msgctxt "#20035"
+msgid "Regional (%s)"
+msgstr "Regional (%s)"
 
 msgctxt "#20036"
 msgid "%s (%s)"
@@ -7005,6 +7705,10 @@ msgctxt "#20068"
 msgid "Profile lock"
 msgstr "Perfil de bloqueig"
 
+msgctxt "#20069"
+msgid "Couldn't create folder"
+msgstr "No s'ha pogut crear la carpeta"
+
 msgctxt "#20070"
 msgid "Profile directory"
 msgstr "Directori del perfil"
@@ -7045,6 +7749,18 @@ msgctxt "#20082"
 msgid "Show programs in main menu"
 msgstr "Mostra els programes al menú principal"
 
+msgctxt "#20083"
+msgid "Show music information"
+msgstr "Mostra la informació de la música"
+
+msgctxt "#20084"
+msgid "Show weather information"
+msgstr "Mostra la informació del temps"
+
+msgctxt "#20085"
+msgid "Show system information"
+msgstr "Mostra la informació del sistema"
+
 msgctxt "#20086"
 msgid "Show available disk space C: E: F:"
 msgstr "Mostra l'espai de disc disponible a C: E: F:"
@@ -7052,6 +7768,10 @@ msgstr "Mostra l'espai de disc disponible a C: E: F:"
 msgctxt "#20087"
 msgid "Show available disk space E: F: G:"
 msgstr "Mostra l'espai de disc disponible a E: F: G:"
+
+msgctxt "#20088"
+msgid "Weather information"
+msgstr "Informació del temps"
 
 msgctxt "#20089"
 msgid "Drive space free"
@@ -7084,6 +7804,14 @@ msgstr "Introduïu el codi de bloqueig del perfil"
 msgctxt "#20096"
 msgid "Login screen"
 msgstr "Pantalla d'autenticació"
+
+msgctxt "#20097"
+msgid "Fetching album information"
+msgstr "S'està obtenint la informació de l'àlbum"
+
+msgctxt "#20098"
+msgid "Fetching information for album"
+msgstr "S'està obtenint la informació per a l'àlbum"
 
 msgctxt "#20100"
 msgid "Master lock code and settings"
@@ -7393,6 +8121,10 @@ msgctxt "#20186"
 msgid "Please wait"
 msgstr "Si us plau, espereu"
 
+msgctxt "#20187"
+msgid "UPnP / DLNA"
+msgstr "UPnP / DLNA"
+
 msgctxt "#20189"
 msgid "Enable auto scrolling for plot & review"
 msgstr "Enable auto scrolling for plot & review"
@@ -7419,19 +8151,23 @@ msgstr "No s'ha trobat l'artista"
 
 msgctxt "#20240"
 msgid "Android music"
-msgstr "Música android"
+msgstr "Música Android"
 
 msgctxt "#20241"
 msgid "Android videos"
-msgstr "Vídeos android"
+msgstr "Vídeos Android"
 
 msgctxt "#20242"
 msgid "Android pictures"
-msgstr "Imatges android"
+msgstr "Imatges Android"
 
 msgctxt "#20243"
 msgid "Android photos"
-msgstr "Fotografies android"
+msgstr "Fotografies Android"
+
+msgctxt "#20244"
+msgid "Android apps"
+msgstr "Aplicacions Android"
 
 msgctxt "#20250"
 msgid "Party on! (videos)"
@@ -7456,6 +8192,18 @@ msgstr "Servidor WebDAV (HTTPS)"
 msgctxt "#20255"
 msgid "First logon, edit your profile"
 msgstr "First logon, edit your profile"
+
+msgctxt "#20259"
+msgid "Network File System (NFS)"
+msgstr "Network File System (NFS)"
+
+msgctxt "#20260"
+msgid "Secure Shell (SSH / SFTP)"
+msgstr "Secure Shell (SSH / SFTP)"
+
+msgctxt "#20262"
+msgid "Zeroconf browser"
+msgstr "Cercador Zeroconf"
 
 msgctxt "#20300"
 msgid "Web server directory (HTTP)"
@@ -7504,6 +8252,10 @@ msgstr "S'estan escanejant les pel·lícules utilitzant %s"
 msgctxt "#20318"
 msgid "Scanning music videos using %s"
 msgstr "S'estan escanejant els vídeos de música utilitzant %s"
+
+msgctxt "#20319"
+msgid "Scanning TV shows using %s"
+msgstr "S'estan escanejant les sèries de televisió utilitzant %s"
 
 msgctxt "#20320"
 msgid "Scanning artists using %s"
@@ -7825,6 +8577,10 @@ msgctxt "#20406"
 msgid "Set episode bookmark"
 msgstr "Set episode bookmark"
 
+msgctxt "#20407"
+msgid "Information provider settings"
+msgstr "Paràmetes del proveïdor d'informació"
+
 msgctxt "#20408"
 msgid "Downloading music video information"
 msgstr "S'està baixant la informació del videoclip"
@@ -7985,6 +8741,10 @@ msgctxt "#20455"
 msgid "Listeners"
 msgstr "Oients"
 
+msgctxt "#20456"
+msgid "Flatten hierarchy"
+msgstr "Acobla la jerarquia"
+
 msgctxt "#20457"
 msgid "Movie set"
 msgstr "Movie set"
@@ -8025,6 +8785,10 @@ msgctxt "#20466"
 msgid "Select movie set"
 msgstr "Seleccioneu una coleció de pelicules "
 
+msgctxt "#20467"
+msgid "No set (remove from %s)"
+msgstr "Cap conjunt (eliminar de %s)"
+
 msgctxt "#20468"
 msgid "Add movie to a new set"
 msgstr "Afegeix una pel·lícula a una nova col·lecció"
@@ -8037,6 +8801,26 @@ msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Mostra els fitxers i directoris ocults"
 
+msgctxt "#21331"
+msgid "New media detected"
+msgstr "S'han detectat nous suports"
+
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "Cerca vídeos"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "Cerca música"
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "Cerca imatges"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "Cerca fitxers"
+
 msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "S'està connectant a: %s"
@@ -8045,6 +8829,10 @@ msgctxt "#21359"
 msgid "Add media share..."
 msgstr "Afegeix recurs compartit..."
 
+msgctxt "#21360"
+msgid "Share my libraries"
+msgstr "Comparteix les meves biblioteques"
+
 msgctxt "#21361"
 msgid "Look for remote UPnP players"
 msgstr "Buscar reproductors UPnP remots"
@@ -8052,6 +8840,10 @@ msgstr "Buscar reproductors UPnP remots"
 msgctxt "#21362"
 msgid "Bookmark created"
 msgstr "Adreça d'interès creada"
+
+msgctxt "#21363"
+msgid "Episode bookmark created"
+msgstr "Marcador d'episodi creat"
 
 msgctxt "#21364"
 msgid "Edit media share"
@@ -8232,6 +9024,10 @@ msgstr "a la última"
 msgctxt "#21411"
 msgid "not in the last"
 msgstr "no a la última"
+
+msgctxt "#21412"
+msgid "Information providers"
+msgstr "Proveïdors d'informació"
 
 msgctxt "#21417"
 msgid "Settings"
@@ -8432,6 +9228,14 @@ msgstr "%s a %s"
 msgctxt "#21470"
 msgid "%s [%d]"
 msgstr "%s [%d]"
+
+msgctxt "#21471"
+msgid "On first entry"
+msgstr "A la primera entrada"
+
+msgctxt "#21474"
+msgid "Neither"
+msgstr "Ni"
 
 msgctxt "#21475"
 msgid "Both"
@@ -8881,6 +9685,10 @@ msgctxt "#23049"
 msgid "Teletext not available"
 msgstr "Teletext no disponible"
 
+msgctxt "#23050"
+msgid "Activate teletext"
+msgstr "Activa el teletext"
+
 msgctxt "#23051"
 msgid "Part %i"
 msgstr "Part %i"
@@ -8912,6 +9720,10 @@ msgstr "Opcions del complement"
 msgctxt "#24005"
 msgid "Media sources"
 msgstr "Fonts multimèdia"
+
+msgctxt "#24006"
+msgid "GUI sounds"
+msgstr "Sons de la interfície gràfica"
 
 msgctxt "#24007"
 msgid "Movie information"
@@ -9032,6 +9844,10 @@ msgstr "Instal·la des d'un fitxer zip"
 msgctxt "#24042"
 msgid "Downloading %i%%"
 msgstr "S'està baixant %i%%"
+
+msgctxt "#24043"
+msgid "Available updates"
+msgstr "Actualitzacions disponibles"
 
 msgctxt "#24045"
 msgid "Add-on does not have the correct structure"
@@ -9244,6 +10060,10 @@ msgstr "La configuració s'ha mogut"
 msgctxt "#24992"
 msgid "System"
 msgstr "Sistema"
+
+msgctxt "#24993"
+msgid "Information providers"
+msgstr "Proveïdors d'informació"
 
 msgctxt "#24994"
 msgid "Running"
@@ -10060,10 +10880,6 @@ msgstr "Atenuar suaument d'una pista d'àudio a una altra. Pots ajustar el valor
 msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Seleccioneu la visualització a mostrar durant l'escolta de música."
-
-msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
-msgstr "Llegeix la informació d'etiquetes dels fitxers de música. Per a grans directoris, això pot retardar el temps de lectura, especialment en xarxa."
 
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."

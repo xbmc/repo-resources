@@ -1597,6 +1597,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Film aus der Bibliothek entfernen"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "Soll '%s' wirklich aus der Bibliothek entfernt werden?"
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "Von %s mit %i %s"
@@ -3556,6 +3560,10 @@ msgstr "Leere Liste"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Zurück zur Vorgängerliste weil aktive Liste geleert wurde"
+
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "Neuere Version wird benötigt. Für mehr Details Logdatei einsehen."
 
 msgctxt "#2102"
 msgid "%s error"
@@ -6009,13 +6017,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Fehler beim Kopieren"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "Mindestens eine Datei konnte nicht kopiert werden. Für mehr Details Logdatei einsehen."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Fehler beim Verschieben"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "Mindestens eine Datei konnte nicht verschoben werden. Für mehr Details Logdatei einsehen."
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Fehler beim Löschen"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "Mindestens eine Datei konnte nicht gelöscht werden. Für mehr Details Logdatei einsehen."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6321,6 +6341,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Auf diesem Kanal läuft bereits eine Aufnahme "
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "%s kann nicht abgespielt werden. Für mehr Details Logdatei einsehen."
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "Diese Aufnahme kann nicht abgespielt werden. Für mehr Details Logdatei einsehen."
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Signalqualität anzeigen"
@@ -6348,6 +6376,14 @@ msgstr "Timer wirklich umbenennen?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Aufnahme"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "Bitte Konfiguration überprüfen. Für mehr Details Logdatei einsehen."
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "Es sind bisher keine PVR-Clients gestartet. Bitte auf Abschluß des Starts der PVR-Clients warten. Für mehr Details Logdatei einsehen."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6436,6 +6472,10 @@ msgstr "Kanalsymbole"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Diese Sendnung wird bereits aufgenommen."
+
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "Diese Aufnahme konnte nicht gelöscht werden. Für mehr Details Logdatei einsehen."
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6593,6 +6633,18 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Standard-Bildwiederholfrequenz"
 
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "Timer konnte nicht gespeichert werden. Für mehr Details Logdatei einsehen."
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "Ein unerwarteter Fehler ist aufgetreten. Bitte später noch einmal versuchen oder für mehr Details Logdatei einsehen."
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "PVR-Backend-Fehler. Für mehr Details Logdatei einsehen."
+
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Diese Aufnahme löschen?"
@@ -6611,7 +6663,7 @@ msgstr "Adresse"
 
 msgctxt "#19116"
 msgid "Disksize"
-msgstr "Festplattengröße"
+msgstr "Festplattenplatz"
 
 msgctxt "#19117"
 msgid "Search for channels"
@@ -6729,6 +6781,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Gruppen"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "Das PVR-Backend unterstützt diese Funktion nicht. Für mehr Details Logdatei einsehen."
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Kanal"
@@ -6788,6 +6844,10 @@ msgstr "Aufnahme aktiv"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Aufnahmen"
+
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "Die Aufnahme kann nicht gestartet werden. Für mehr Details Logdatei einsehen."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -6869,6 +6929,18 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Gelöschte Aufnahmen"
 
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "Daten löschen"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "Alle TV-Daten (Kanäle, Gruppen, Guide) werden gelöscht. Fortfahren?"
+
+msgctxt "#19188"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Alle Guide-Daten werden gelöscht. Fortfahren?"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Beim Programmstart letzten Kanal wiedergeben"
@@ -6884,6 +6956,10 @@ msgstr "PVR-Dienst"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Kanalsuche wird von keinem der PVR-Backends unterstützt."
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "Der Kanalsuchlauf kann nicht gestartet werden. Für mehr Details Logdatei einsehen."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7000,6 +7076,10 @@ msgstr "Kanalgruppen mit Backend(s) synchronisieren"
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Guide"
+
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
+msgstr "Es konnte kein PVR-Addon aktiviert werden. Bitte Einstellungen überprüfen oder für mehr Details Logdatei einsehen."
 
 msgctxt "#19224"
 msgid "Recording aborted"
@@ -7119,7 +7199,7 @@ msgstr "TV-Guide Aktualisierung fehlgeschalgen für Kanal"
 
 msgctxt "#19255"
 msgid "Start recording"
-msgstr "Aufnahmen"
+msgstr "Aufnehmen"
 
 msgctxt "#19256"
 msgid "Stop recording"
@@ -7459,7 +7539,7 @@ msgstr "Religion"
 
 msgctxt "#19600"
 msgid "Popular culture / Traditional arts"
-msgstr "Populärkultur / Tranditionelle Künste"
+msgstr "Beliebte Kultur/Traditionelle Künste"
 
 msgctxt "#19601"
 msgid "Literature"
@@ -7491,7 +7571,7 @@ msgstr "Mode"
 
 msgctxt "#19612"
 msgid "Social / Political / Economics"
-msgstr "Sozial / Politisch / Wirtschaft"
+msgstr "Sozial/Politisch/Wirtschaft"
 
 msgctxt "#19613"
 msgid "Magazines / Reports / Documentary"
@@ -9089,6 +9169,26 @@ msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Versteckte Ordner und Dateien anzeigen"
 
+msgctxt "#21331"
+msgid "New media detected"
+msgstr "Neue Medien gefunden"
+
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "Videos durchsuchen"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "Musik durchsuchen"
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "Bilder durchsuchen"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "Dateien durchsuchen"
+
 msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "Verbinden zu: %s"
@@ -9131,7 +9231,7 @@ msgstr "Video- & alternatives Untertitel-Verzeichnis"
 
 msgctxt "#21368"
 msgid "Override ASS / SSA subtitles fonts"
-msgstr "ASS / SSA-Untertitelschriftarten ignorieren"
+msgstr "ASS/SSA-Untertitelschriftarten ignorieren"
 
 msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
@@ -11141,6 +11241,10 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconf konnte nicht gestartet werden"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Ist der Apple Bonjour Dienst installiert? Für mehr Details Logdatei einsehen."
+
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
 msgstr "AirPlay konnte nicht gestartet werden, weil Zeroconf nicht aktiv ist."
@@ -11507,7 +11611,7 @@ msgstr "Anzeige von Dateierweiterungen von Mediendateien. Zum Beispiel \"Freude 
 
 msgctxt "#36124"
 msgid "Ignore certain tokens, e.g. \"The\", during sort operations. \"The Simpsons\" would for example be sorted as \"Simpsons\"."
-msgstr "Beim Sortieren, verschiedene Text-Konstrukte ignorieren (z.B. \"Der\", \"Die\", \"Das\").  \"Die Simpsons\" wird dann z.B. unter \"S\" einsortiert."
+msgstr "Beim Sortieren, verschiedene Text-Bestandteile ignorieren (z.B. \"Der\", \"Die\", \"Das\").  \"Die Simpsons\" wird dann z.B. unter \"S\" einsortiert."
 
 msgctxt "#36125"
 msgid "Allow files to be deleted and renamed through the user interface, via the context menu, e.g. press \"C\" on a keyboard to bring up this menu."
@@ -11959,7 +12063,7 @@ msgstr "Kategorie für PVR-Energiemanagement-Einstellungen, z.B. Festlegen, wann
 
 msgctxt "#36241"
 msgid "Execute the wakeup command below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
-msgstr "Führt den hier festgelegten Weckbefehl beim Beenden des Programms oder beim Übergang in den Ruhezustand aus. Als Paramter muss der Zeitstempel der nächsten aufzunehmenden Sendung übergeben werden."
+msgstr "Führt den hier festgelegten Weckbefehl beim Beenden des Programms oder beim Übergang in den Ruhezustand aus. Als Parameter muss der Zeitstempel der nächsten aufzunehmenden Sendung übergeben werden."
 
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
@@ -12086,8 +12190,8 @@ msgid "Select the visualisation that will be displayed while listening to music.
 msgstr "Festlegen der Visualisierung, die während der Musik-Wiedergabe angezeigt wird."
 
 msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can slow down read time, especially over a network."
-msgstr "Liest die Tag-Informationen von Musikdateien. Bei großen Verzeichnissen kann dies die Auslesezeit erhöhen, insbesondere über Netzwerkverbindungen."
+msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
+msgstr "Tag-Informationen aus Musikdateien lesen. Bei großen Verzeichnissen kann dies die Zeit zum Einlesen von Verzeichnissen erhöhen, insbesondere für  Netzwerkverzeichnisse."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
@@ -12159,7 +12263,7 @@ msgstr "Disk auswerfen, wenn Rip fertiggestellt wurde."
 
 msgctxt "#36292"
 msgid "This category contains the settings for how karaoke is handled."
-msgstr "Kategorie mit Einstellungen zur Verarbeitung von Karaoke."
+msgstr "Kategorie mit Einstellungen für Karaoke."
 
 msgctxt "#36293"
 msgid "When playing any music file, look for a matching .cdg file and display its graphics."
@@ -12167,7 +12271,7 @@ msgstr "Suche nach passenden .cdg Dateien bei der Wiedergabe von Musik und zeige
 
 msgctxt "#36294"
 msgid "Show song selection dialogue once the last song in the queue has been played."
-msgstr "Öffnet die Titel-Auswahl, sobald der letzte Titel der Warteschlange gespielt wurde."
+msgstr "Öffnet die Titel-Auswahl, sobald der letzte Titel gespielt wurde."
 
 msgctxt "#36295"
 msgid "Select the font type used during karaoke."
@@ -12739,7 +12843,7 @@ msgstr "Deaktiviert"
 
 msgctxt "#36503"
 msgid "Over / Under"
-msgstr "Über / Unter"
+msgstr "Über/Unter"
 
 msgctxt "#36504"
 msgid "Side by side"
@@ -12747,11 +12851,11 @@ msgstr "Nebeneinander"
 
 msgctxt "#36505"
 msgid "Anaglyph red / cyan"
-msgstr "Anaglyph Rot / Cyan"
+msgstr "Anaglyph Rot/Cyan"
 
 msgctxt "#36506"
 msgid "Anaglyph green / magenta"
-msgstr "Anaglyph Grün / Magenta"
+msgstr "Anaglyph Grün/Magenta"
 
 msgctxt "#36507"
 msgid "Interlaced"
@@ -12763,11 +12867,11 @@ msgstr "Hardware-basiert"
 
 msgctxt "#36509"
 msgid "Monoscopic / 2D"
-msgstr "Monoskopisch / 2D"
+msgstr "Monoskopisch/2D"
 
 msgctxt "#36510"
 msgid "Anaglyph yellow / blue"
-msgstr "Anaglyph Gelb / Blau"
+msgstr "Anaglyph Gelb/Blau"
 
 msgctxt "#36520"
 msgid "Playback mode of stereoscopic 3D videos"
@@ -12927,11 +13031,11 @@ msgstr "Episoden"
 
 msgctxt "#36908"
 msgid "music video"
-msgstr "Musik-Video"
+msgstr "Musikvideo"
 
 msgctxt "#36909"
 msgid "music videos"
-msgstr "Musik-Videos"
+msgstr "Musikvideos"
 
 msgctxt "#36910"
 msgid "set"
