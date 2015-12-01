@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.fa_af"
+  version="1.0.2"
+  name="Persian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="fa_AF">
+    <charsets>
+      <gui unicodefont="true">CP1256</gui>
+      <subtitle>CP1256</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Persian language pack</summary>
+    <description lang="en">Persian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

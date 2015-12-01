@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.sl_si"
+  version="1.0.5"
+  name="Slovenian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sl_SI">
+    <charsets>
+      <gui>CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Slovenian language pack</summary>
+    <description lang="en">Slovenian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

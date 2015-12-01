@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.sk_sk"
+  version="1.0.3"
+  name="Slovak"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sk_SK">
+    <charsets>
+      <gui unicodefont="true">CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Slovak language pack</summary>
+    <description lang="en">Slovak version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

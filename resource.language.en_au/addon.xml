@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.en_au"
+  version="1.0.3"
+  name="English (Australia)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="en_AU">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">English (Australia) language pack</summary>
+    <description lang="en">English (Australia) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

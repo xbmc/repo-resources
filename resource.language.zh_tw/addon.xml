@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.zh_tw"
+  version="1.0.3"
+  name="Chinese (Traditional)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="zh_TW">
+    <charsets>
+      <gui unicodefont="true">CP950</gui>
+      <subtitle>CP950</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Chinese (Traditional) language pack</summary>
+    <description lang="en">Chinese (Traditional) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

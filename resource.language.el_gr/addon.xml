@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.el_gr"
+  version="1.0.3"
+  name="Greek"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="el_GR">
+    <charsets>
+      <gui unicodefont="true">CP1253</gui>
+      <subtitle>CP1253</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Greek language pack</summary>
+    <description lang="en">Greek version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.ca_es"
+  version="1.0.5"
+  name="Catalan"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ca_ES">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token separators="'">L</token>
+      <token>El</token>
+      <token>La</token>
+      <token>Els</token>
+      <token>Les</token>
+      <token>Un</token>
+      <token>Una</token>
+      <token>Uns</token>
+      <token>Unes</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Catalan language pack</summary>
+    <description lang="en">Catalan version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.pl_pl"
+  version="1.0.5"
+  name="Polish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="pl_PL">
+    <charsets>
+      <gui unicodefont="true">ISO-8859-2</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Polish language pack</summary>
+    <description lang="en">Polish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

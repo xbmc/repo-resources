@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.vi_vn"
+  version="1.0.4"
+  name="Vietnamese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="vi_VN">
+    <charsets>
+      <gui unicodefont="true">CP1258</gui>
+      <subtitle>CP1258</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Vietnamese language pack</summary>
+    <description lang="en">Vietnamese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

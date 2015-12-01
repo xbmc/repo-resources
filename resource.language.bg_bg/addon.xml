@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.bg_bg"
+  version="1.0.6"
+  name="Bulgarian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="bg_BG">
+    <charsets>
+      <gui>CP1251</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Bulgarian language pack</summary>
+    <description lang="en">Bulgarian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

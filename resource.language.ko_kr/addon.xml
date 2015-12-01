@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.ko_kr"
+  version="1.0.5"
+  name="Korean"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ko_KR">
+    <charsets>
+      <gui unicodefont="true">CP949</gui>
+      <subtitle>CP949</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Korean language pack</summary>
+    <description lang="en">Korean version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

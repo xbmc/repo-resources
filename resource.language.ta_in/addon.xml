@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.ta_in"
+  version="1.0.3"
+  name="Tamil (India)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ta_IN">
+    <charsets>
+      <gui unicodefont="true">CP65001</gui>
+      <subtitle>CP65001</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Tamil (India) language pack</summary>
+    <description lang="en">Tamil (India) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
