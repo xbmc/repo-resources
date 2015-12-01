@@ -1597,6 +1597,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Remove movie from library"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "Would you really like to remove '%s' from library?"
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "From %s at %i %s"
@@ -2625,14 +2629,6 @@ msgctxt "#744"
 msgid "Files"
 msgstr "Files"
 
-msgctxt "#745"
-msgid "No scanned information for this view"
-msgstr "No scanned information for this view"
-
-msgctxt "#746"
-msgid "Please turn off library mode"
-msgstr "Please turn off library mode"
-
 msgctxt "#747"
 msgid "Error loading image"
 msgstr "Error loading image"
@@ -2828,6 +2824,22 @@ msgstr "Music library needs to rescan tags from files. Would you like to scan no
 msgctxt "#802"
 msgid "%s of %s available"
 msgstr "%s of %s available"
+
+msgctxt "#803"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "#813"
+msgid "Start padding time"
+msgstr "Start padding time"
+
+msgctxt "#814"
+msgid "End padding time"
+msgstr "End padding time"
+
+msgctxt "#815"
+msgid "Record all episodes"
+msgstr "Record all episodes"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3201,10 +3213,6 @@ msgctxt "#1260"
 msgid "Announce services to other systems"
 msgstr "Announce services to other systems"
 
-msgctxt "#1268"
-msgid "iOS 8 compatibility mode"
-msgstr "iOS 8 compatibility mode"
-
 msgctxt "#1269"
 msgid "Allow volume control"
 msgstr "Allow volume control"
@@ -3556,6 +3564,10 @@ msgstr "Empty list"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "Went back to parent list because the active list has been emptied"
+
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "Newer version needed. Check the log for more information about this message."
 
 msgctxt "#2102"
 msgid "%s error"
@@ -4101,10 +4113,6 @@ msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "Settings & file manager"
 
-msgctxt "#12376"
-msgid "Set as default for all videos"
-msgstr "Set as default for all videos"
-
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
 msgstr "This will reset any previously saved values. Are you sure?"
@@ -4256,18 +4264,6 @@ msgstr "Allow idle shutdown"
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "Is another session active, perhaps over ssh?"
-
-msgctxt "#13021"
-msgid "Mounted removable hard drive"
-msgstr "Mounted removable hard drive"
-
-msgctxt "#13022"
-msgid "Unsafe device removal"
-msgstr "Unsafe device removal"
-
-msgctxt "#13023"
-msgid "Successfully removed device"
-msgstr "Successfully removed device"
 
 msgctxt "#13024"
 msgid "Joystick plugged"
@@ -4701,10 +4697,6 @@ msgctxt "#13322"
 msgid "Right only"
 msgstr "Right only"
 
-msgctxt "#13323"
-msgid "Enable karaoke support"
-msgstr "Enable karaoke support"
-
 msgctxt "#13324"
 msgid "Background transparency"
 msgstr "Background transparency"
@@ -4716,10 +4708,6 @@ msgstr "Foreground transparency"
 msgctxt "#13326"
 msgid "A/V delay"
 msgstr "A/V delay"
-
-msgctxt "#13327"
-msgid "Karaoke"
-msgstr "Karaoke"
 
 msgctxt "#13328"
 msgid "%s not found"
@@ -5573,10 +5561,6 @@ msgctxt "#14081"
 msgid "File lists"
 msgstr "File lists"
 
-msgctxt "#14082"
-msgid "Show EXIF picture information"
-msgstr "Show EXIF picture information"
-
 msgctxt "#14083"
 msgid "Use fullscreen window"
 msgstr "Use fullscreen window"
@@ -5608,10 +5592,6 @@ msgstr "International"
 msgctxt "#14091"
 msgid "Character set"
 msgstr "Character set"
-
-msgctxt "#14092"
-msgid "Debugging"
-msgstr "Debugging"
 
 msgctxt "#14093"
 msgid "Security"
@@ -5685,6 +5665,26 @@ msgctxt "#14110"
 msgid "Long date format"
 msgstr "Long date format"
 
+msgctxt "#14115"
+msgid "Basic"
+msgstr "Basic"
+
+msgctxt "#14116"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "#14117"
+msgid "Warning"
+msgstr "Warning"
+
+msgctxt "#14118"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "#15004"
+msgid "Basic"
+msgstr "Basic"
+
 msgctxt "#15011"
 msgid "%i Items failed to export"
 msgstr "%i Items failed to export"
@@ -5716,6 +5716,10 @@ msgstr "Add"
 msgctxt "#15052"
 msgid "Password"
 msgstr "Password"
+
+msgctxt "#15060"
+msgid "Post-processing"
+msgstr "Post-processing"
 
 msgctxt "#15100"
 msgid "Library"
@@ -6009,13 +6013,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "Copy failed"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "Failed to copy at least one file. Check the log for more information about this message."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "Move failed"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "Failed to move at least one file. Check the log for more information about this message."
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "Delete failed"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "Failed to delete at least one file. Check the log for more information about this message."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6321,6 +6337,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "Already started recording on this channel"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "%s couldn't be played. Check the log for more information about this message."
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "This recording can't be played. Check the log for more information about this message."
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "Show signal quality"
@@ -6348,6 +6372,14 @@ msgstr "Are you sure you want to rename this timer?"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "Recording"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "Please check your configuration. Check the log for more information about this message."
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6393,10 +6425,6 @@ msgctxt "#19056"
 msgid "New timer"
 msgstr "New timer"
 
-msgctxt "#19057"
-msgid "Edit timer"
-msgstr "Edit timer"
-
 msgctxt "#19058"
 msgid "Timer enabled"
 msgstr "Timer enabled"
@@ -6437,6 +6465,10 @@ msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "This event is already being recorded."
 
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "This recording couldn't be deleted. Check the log for more information about this message."
+
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Guide"
@@ -6457,45 +6489,21 @@ msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Delay channel switch"
 
-msgctxt "#19074"
-msgid "Active:"
-msgstr "Active:"
-
 msgctxt "#19075"
-msgid "Name:"
-msgstr "Name:"
+msgid "Name"
+msgstr "Name"
 
 msgctxt "#19076"
-msgid "Folder:"
-msgstr "Folder:"
+msgid "Folder"
+msgstr "Folder"
 
 msgctxt "#19078"
-msgid "Channel:"
-msgstr "Channel:"
-
-msgctxt "#19079"
-msgid "Day:"
-msgstr "Day:"
-
-msgctxt "#19080"
-msgid "Begin:"
-msgstr "Begin:"
-
-msgctxt "#19081"
-msgid "End:"
-msgstr "End:"
+msgid "Channel"
+msgstr "Channel"
 
 msgctxt "#19082"
-msgid "Priority:"
-msgstr "Priority:"
-
-msgctxt "#19083"
-msgid "Lifetime (days):"
-msgstr "Lifetime (days):"
-
-msgctxt "#19084"
-msgid "First day:"
-msgstr "First day:"
+msgid "Priority"
+msgstr "Priority"
 
 msgctxt "#19085"
 msgid "Unknown channel %u"
@@ -6592,6 +6600,18 @@ msgstr "at"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Fallback framerate"
+
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "Couldn't save timer. Check the log for more information about this message."
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "An unexpected error occurred. Try again later or check the log for more information."
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "PVR backend error. Check the log for more information about this message."
 
 msgctxt "#19112"
 msgid "Delete this recording?"
@@ -6729,6 +6749,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Groups"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "The PVR backend does not support this action. Check the log for more information about this message."
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Channel"
@@ -6789,6 +6813,10 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "Recordings"
 
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "Can't start recording. Check the log for more information about this message."
+
 msgctxt "#19165"
 msgid "Switch"
 msgstr "Switch"
@@ -6829,14 +6857,6 @@ msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "Default recording lifetime"
 
-msgctxt "#19175"
-msgid "Start padding time"
-msgstr "Start padding time"
-
-msgctxt "#19176"
-msgid "End padding time"
-msgstr "End padding time"
-
 msgctxt "#19177"
 msgid "Playback"
 msgstr "Playback"
@@ -6869,6 +6889,18 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "Deleted recordings"
 
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "Clear data"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+
+msgctxt "#19188"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "All your guide data will be cleared. Are you sure?"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Continue last channel on startup"
@@ -6884,6 +6916,10 @@ msgstr "PVR service"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "None of the connected PVR backends supports scanning for channels."
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "The channel scan can't be started. Check the log for more information about this message."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7001,6 +7037,10 @@ msgctxt "#19222"
 msgid "Guide"
 msgstr "Guide"
 
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
+msgstr "No PVR add-on could be enabled. Check your settings or the log for more information."
+
 msgctxt "#19224"
 msgid "Recording aborted"
 msgstr "Recording aborted"
@@ -7116,14 +7156,6 @@ msgstr "Guide update scheduled for channel"
 msgctxt "#19254"
 msgid "Guide update failed for channel"
 msgstr "Guide update failed for channel"
-
-msgctxt "#19255"
-msgid "Start recording"
-msgstr "Start recording"
-
-msgctxt "#19256"
-msgid "Stop recording"
-msgstr "Stop recording"
 
 msgctxt "#19257"
 msgid "Lock channel"
@@ -8325,10 +8357,6 @@ msgctxt "#20183"
 msgid "Reload skin"
 msgstr "Reload skin"
 
-msgctxt "#20184"
-msgid "Rotate pictures using EXIF information"
-msgstr "Rotate pictures using EXIF information"
-
 msgctxt "#20185"
 msgid "Use poster view styles for TV shows"
 msgstr "Use poster view styles for TV shows"
@@ -9089,9 +9117,33 @@ msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Show hidden files and directories"
 
+msgctxt "#21331"
+msgid "New media detected"
+msgstr "New media detected"
+
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "Browse videos"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "Browse music"
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "Browse pictures"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "Browse files"
+
 msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "Connecting to: %s"
+
+msgctxt "#21337"
+msgid "Never"
+msgstr "Never"
 
 msgctxt "#21359"
 msgid "Add media share..."
@@ -9569,6 +9621,10 @@ msgctxt "#21477"
 msgid "Just \"Specials\""
 msgstr "Just \"Specials\""
 
+msgctxt "#21478"
+msgid "Open"
+msgstr "Open"
+
 msgctxt "#21602"
 msgid "(External)"
 msgstr "(External)"
@@ -9969,10 +10025,6 @@ msgctxt "#22022"
 msgid "Show video files in listings"
 msgstr "Show video files in listings"
 
-msgctxt "#22023"
-msgid "DirectX vendor:"
-msgstr "DirectX vendor:"
-
 msgctxt "#22024"
 msgid "Direct3D version:"
 msgstr "Direct3D version:"
@@ -9992,46 +10044,6 @@ msgstr "Colours"
 msgctxt "#22033"
 msgid "Charset"
 msgstr "Charset"
-
-msgctxt "#22034"
-msgid "Export karaoke titles as HTML"
-msgstr "Export karaoke titles as HTML"
-
-msgctxt "#22035"
-msgid "Export karaoke titles as CSV"
-msgstr "Export karaoke titles as CSV"
-
-msgctxt "#22036"
-msgid "Import karaoke titles..."
-msgstr "Import karaoke titles..."
-
-msgctxt "#22037"
-msgid "Show song selector automatically"
-msgstr "Show song selector automatically"
-
-msgctxt "#22038"
-msgid "Export karaoke titles..."
-msgstr "Export karaoke titles..."
-
-msgctxt "#22039"
-msgid "Enter song number"
-msgstr "Enter song number"
-
-msgctxt "#22040"
-msgid "white / green"
-msgstr "white / green"
-
-msgctxt "#22041"
-msgid "white / red"
-msgstr "white / red"
-
-msgctxt "#22042"
-msgid "white / blue"
-msgstr "white / blue"
-
-msgctxt "#22043"
-msgid "black / white"
-msgstr "black / white"
 
 msgctxt "#22079"
 msgid "Default select action"
@@ -10189,10 +10201,6 @@ msgctxt "#24024"
 msgid "Add-on disabled"
 msgstr "Add-on disabled"
 
-msgctxt "#24025"
-msgid "Context items"
-msgstr "Context items"
-
 msgctxt "#24026"
 msgid "Languages"
 msgstr "Languages"
@@ -10265,10 +10273,6 @@ msgctxt "#24044"
 msgid "Dependencies not met. Please contact add-on author."
 msgstr "Dependencies not met. Please contact add-on author."
 
-msgctxt "#24045"
-msgid "Add-on does not have the correct structure"
-msgstr "Add-on does not have the correct structure"
-
 msgctxt "#24046"
 msgid "%s is used by the following installed add-on(s)"
 msgstr "%s is used by the following installed add-on(s)"
@@ -10276,10 +10280,6 @@ msgstr "%s is used by the following installed add-on(s)"
 msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "This add-on can't be uninstalled"
-
-msgctxt "#24048"
-msgid "Rollback"
-msgstr "Rollback"
 
 msgctxt "#24049"
 msgid "Incompatible"
@@ -10328,10 +10328,6 @@ msgstr "Would you like to enable this add-on?"
 msgctxt "#24060"
 msgid "Would you like to disable this add-on?"
 msgstr "Would you like to disable this add-on?"
-
-msgctxt "#24061"
-msgid "Add-on update available!"
-msgstr "Add-on update available!"
 
 msgctxt "#24062"
 msgid "Enabled add-ons"
@@ -10456,14 +10452,6 @@ msgstr "Checking for add-on updates"
 msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Checking %s..."
-
-msgctxt "#24094"
-msgid "(current)"
-msgstr "(current)"
-
-msgctxt "#24095"
-msgid "(blacklisted)"
-msgstr "(blacklisted)"
 
 msgctxt "#24096"
 msgid "Add-on is incompatible or has been marked broken in repository."
@@ -10621,6 +10609,10 @@ msgctxt "#24134"
 msgid "We were unable to load your configured language. Please check your language settings."
 msgstr "We were unable to load your configured language. Please check your language settings."
 
+msgctxt "#24141"
+msgid "Add-on disabled"
+msgstr "Add-on disabled"
+
 msgctxt "#24992"
 msgid "System"
 msgstr "System"
@@ -10693,10 +10685,6 @@ msgctxt "#25010"
 msgid "Chapter %u"
 msgstr "Chapter %u"
 
-msgctxt "#29800"
-msgid "Library mode"
-msgstr "Library mode"
-
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "QWERTY keyboard"
@@ -10704,6 +10692,46 @@ msgstr "QWERTY keyboard"
 msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "Passthrough audio in use"
+
+msgctxt "#29902"
+msgid "Style"
+msgstr "Style"
+
+msgctxt "#29904"
+msgid "Artist"
+msgstr "Artist"
+
+msgctxt "#29909"
+msgid "Studio"
+msgstr "Studio"
+
+msgctxt "#29915"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#29932"
+msgid "Language"
+msgstr "Language"
+
+msgctxt "#29943"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "#29946"
+msgid "Drama"
+msgstr "Drama"
+
+msgctxt "#29956"
+msgid "Weather"
+msgstr "Weather"
+
+msgctxt "#29960"
+msgid "Religion"
+msgstr "Religion"
+
+msgctxt "#29969"
+msgid "Documentary"
+msgstr "Documentary"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -10977,10 +11005,6 @@ msgctxt "#33080"
 msgid "Hate"
 msgstr "Hate"
 
-msgctxt "#33081"
-msgid "This file is stacked, select the part you want to play from."
-msgstr "This file is stacked, select the part you want to play from."
-
 msgctxt "#33082"
 msgid "Path to script"
 msgstr "Path to script"
@@ -11140,6 +11164,10 @@ msgstr "Can't find a previous item to play"
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Failed to start Zeroconf"
+
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Is Apple's Bonjour service installed? Check the log for more information about this message."
 
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
@@ -11377,10 +11405,6 @@ msgctxt "#36032"
 msgid "The port is busy. Only one program can access the CEC adapter"
 msgstr "The port is busy. Only one program can access the CEC adapter"
 
-msgctxt "#36033"
-msgid "Pause playback when switching to another source"
-msgstr "Pause playback when switching to another source"
-
 msgctxt "#36035"
 msgid "Always"
 msgstr "Always"
@@ -11588,10 +11612,6 @@ msgstr "Downloads thumbnails for actors from online databases when adding media 
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
-
-msgctxt "#36145"
-msgid "Group movies into \"Movie sets\" when browsing the movie library."
-msgstr "Group movies into \"Movie sets\" when browsing the movie library."
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -11917,10 +11937,6 @@ msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
 
-msgctxt "#36231"
-msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
-msgstr "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
-
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -12085,6 +12101,10 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Select the visualisation that will be displayed while listening to music."
 
+msgctxt "#36274"
+msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
+msgstr "Read the tag information from song files. For large directories this can increase read time, especially over a network."
+
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
@@ -12153,42 +12173,6 @@ msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Auto eject disc after rip is complete."
 
-msgctxt "#36292"
-msgid "This category contains the settings for how karaoke is handled."
-msgstr "This category contains the settings for how karaoke is handled."
-
-msgctxt "#36293"
-msgid "When playing any music file, look for a matching .cdg file and display its graphics."
-msgstr "When playing any music file, look for a matching .cdg file and display its graphics."
-
-msgctxt "#36294"
-msgid "Show song selection dialogue once the last song in the queue has been played."
-msgstr "Show song selection dialogue once the last song in the queue has been played."
-
-msgctxt "#36295"
-msgid "Select the font type used during karaoke."
-msgstr "Select the font type used during karaoke."
-
-msgctxt "#36296"
-msgid "Select the size of the font used during karaoke."
-msgstr "Select the size of the font used during karaoke."
-
-msgctxt "#36297"
-msgid "Select the font colour used during karaoke."
-msgstr "Select the font colour used during karaoke."
-
-msgctxt "#36298"
-msgid "Select the character set used during karaoke."
-msgstr "Select the character set used during karaoke."
-
-msgctxt "#36299"
-msgid "Export the karaoke numbered songs to HTML or CSV files."
-msgstr "Export the karaoke numbered songs to HTML or CSV files."
-
-msgctxt "#36300"
-msgid "Import the karaoke numbered songs from HTML or CSV files."
-msgstr "Import the karaoke numbered songs from HTML or CSV files."
-
 msgctxt "#36301"
 msgid "No info available yet."
 msgstr "No info available yet."
@@ -12209,17 +12193,9 @@ msgctxt "#36305"
 msgid "This category contains the settings for how picture file lists are handled."
 msgstr "This category contains the settings for how picture file lists are handled."
 
-msgctxt "#36306"
-msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
-msgstr "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
-
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Automatically generate picture thumbnails when entering picture folder."
-
-msgctxt "#36308"
-msgid "Pictures will automatically rotate according to information in the EXIF tag, if found."
-msgstr "Pictures will automatically rotate according to information in the EXIF tag, if found."
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -12409,10 +12385,6 @@ msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "In a multi-screen configuration, the screens not displaying this application are blacked out."
 
-msgctxt "#36356"
-msgid "Eliminate vertical tearing."
-msgstr "Eliminate vertical tearing."
-
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -12449,10 +12421,6 @@ msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 msgstr "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 
-msgctxt "#36366"
-msgid "Select this option if your receiver is capable of decoding DTS streams."
-msgstr "Select this option if your receiver is capable of decoding DTS streams."
-
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
@@ -12464,10 +12432,6 @@ msgstr "Select to enable the passthrough audio options for playback of encoded a
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Select this option if your receiver is capable of decoding TrueHD streams."
-
-msgctxt "#36370"
-msgid "Select this option if your receiver is capable of decoding DTS-HD streams."
-msgstr "Select this option if your receiver is capable of decoding DTS-HD streams."
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -12548,10 +12512,6 @@ msgstr "Set the time to wait for any activity to occur before shutting down."
 msgctxt "#36390"
 msgid "Define what action to perform when the shutdown function timer lapsed."
 msgstr "Define what action to perform when the shutdown function timer lapsed."
-
-msgctxt "#36391"
-msgid "This category contains the settings for enabling debug functions. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
-msgstr "This category contains the settings for enabling debug functions. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
@@ -12868,10 +12828,6 @@ msgstr "Use higher quality textures for covers and fanart (uses more memory)"
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
-
-msgctxt "#36549"
-msgid "Use iOS8 compatible AirPlay support. If you have trouble with older iOS devices detecting this application as a valid target try switching this off. This option requires a restart to take effect!"
-msgstr "Use iOS8 compatible AirPlay support. If you have trouble with older iOS devices detecting this application as a valid target try switching this off. This option requires a restart to take effect!"
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."

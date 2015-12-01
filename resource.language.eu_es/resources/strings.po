@@ -2085,6 +2085,10 @@ msgctxt "#576"
 msgid "Times played"
 msgstr "Alditan erreproduzitua"
 
+msgctxt "#577"
+msgid "Date taken"
+msgstr "Datuak hartuta"
+
 msgctxt "#580"
 msgid "Sort direction"
 msgstr "Ordenatu norabidea"
@@ -2485,14 +2489,6 @@ msgctxt "#744"
 msgid "Files"
 msgstr "Fitxategiak"
 
-msgctxt "#745"
-msgid "No scanned information for this view"
-msgstr "Ez dago eskaneaturiko informaziorik ikuspegi honetarako"
-
-msgctxt "#746"
-msgid "Please turn off library mode"
-msgstr "Mesedez itzali liburutegia modua"
-
 msgctxt "#747"
 msgid "Error loading image"
 msgstr "Errorea irudia kargatzean"
@@ -2668,6 +2664,10 @@ msgstr "Gehienezko bezero kopurua"
 msgctxt "#798"
 msgid "Internet access"
 msgstr "Interneterako sarbidea"
+
+msgctxt "#803"
+msgid "Type"
+msgstr "Mota"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3601,10 +3601,6 @@ msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "Ezarpenak eta fitxategi kudeatzaileak"
 
-msgctxt "#12376"
-msgid "Set as default for all videos"
-msgstr "Ezarri bideo guztientzat lehenetsi gisa"
-
 msgctxt "#12378"
 msgid "Amount of time to display each image"
 msgstr "Denbora kopurua irudi bakoitza erakusteko"
@@ -3700,14 +3696,6 @@ msgstr "Power botoiaren ekintza"
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "Beste saio bata aktibo dago, beharbada shh bidez?"
-
-msgctxt "#13022"
-msgid "Unsafe device removal"
-msgstr "Segurtasunik gabe gailua kentzea"
-
-msgctxt "#13023"
-msgid "Successfully removed device"
-msgstr "Gailua ongi kendu da"
 
 msgctxt "#13024"
 msgid "Joystick plugged"
@@ -4065,10 +4053,6 @@ msgctxt "#13322"
 msgid "Right only"
 msgstr "Eskuma bakarrik"
 
-msgctxt "#13323"
-msgid "Enable karaoke support"
-msgstr "Gaitu karaoke modua"
-
 msgctxt "#13324"
 msgid "Background transparency"
 msgstr "Atzeko planoko gardentasuna"
@@ -4080,10 +4064,6 @@ msgstr "Aurreko planoaren gardentasuna"
 msgctxt "#13326"
 msgid "A/V delay"
 msgstr "A/V atzerapena"
-
-msgctxt "#13327"
-msgid "Karaoke"
-msgstr "Karaokea"
 
 msgctxt "#13328"
 msgid "%s not found"
@@ -4701,10 +4681,6 @@ msgctxt "#14081"
 msgid "File lists"
 msgstr "Fitxategi zerrenda"
 
-msgctxt "#14082"
-msgid "Show EXIF picture information"
-msgstr "Erakutsi irudiaren EXIF infromazioa"
-
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Ilaratu abestiak hautatzean"
@@ -4728,10 +4704,6 @@ msgstr "Nazioartekoa"
 msgctxt "#14091"
 msgid "Character set"
 msgstr "Karaktere multzoa"
-
-msgctxt "#14092"
-msgid "Debugging"
-msgstr "Arazketa"
 
 msgctxt "#14093"
 msgid "Security"
@@ -4761,6 +4733,18 @@ msgctxt "#14107"
 msgid "Time format"
 msgstr "Ordu formatua"
 
+msgctxt "#14116"
+msgid "Information"
+msgstr "Argibideak"
+
+msgctxt "#14117"
+msgid "Warning"
+msgstr "Adi"
+
+msgctxt "#14118"
+msgid "Error"
+msgstr "Errorea"
+
 msgctxt "#15015"
 msgid "Remove"
 msgstr "Kendu"
@@ -4776,6 +4760,10 @@ msgstr "Gehitu"
 msgctxt "#15052"
 msgid "Password"
 msgstr "Pasahitza"
+
+msgctxt "#15060"
+msgid "Post-processing"
+msgstr "Bideoaren osteko-tratamendua"
 
 msgctxt "#15100"
 msgid "Library"
@@ -5217,10 +5205,6 @@ msgctxt "#19056"
 msgid "New timer"
 msgstr "Programazio berria"
 
-msgctxt "#19057"
-msgid "Edit timer"
-msgstr "Editatu programazioa"
-
 msgctxt "#19058"
 msgid "Timer enabled"
 msgstr "Programazioa gaitua"
@@ -5257,45 +5241,17 @@ msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Kate aldaketa atzerapena"
 
-msgctxt "#19074"
-msgid "Active:"
-msgstr "Aktibo:"
-
 msgctxt "#19075"
-msgid "Name:"
-msgstr "Izena:"
+msgid "Name"
+msgstr "Izena"
 
 msgctxt "#19076"
-msgid "Folder:"
-msgstr "Karpeta:"
+msgid "Folder"
+msgstr "Karpeta"
 
 msgctxt "#19078"
-msgid "Channel:"
-msgstr "Katea:"
-
-msgctxt "#19079"
-msgid "Day:"
-msgstr "Eguna:"
-
-msgctxt "#19080"
-msgid "Begin:"
-msgstr "Hasiera:"
-
-msgctxt "#19081"
-msgid "End:"
-msgstr "Amaiera:"
-
-msgctxt "#19082"
-msgid "Priority:"
-msgstr "Lehentasuna:"
-
-msgctxt "#19083"
-msgid "Lifetime (days):"
-msgstr "Iraupena (egun):"
-
-msgctxt "#19084"
-msgid "First day:"
-msgstr "Lehen eguna:"
+msgid "Channel"
+msgstr "Katea"
 
 msgctxt "#19085"
 msgid "Unknown channel %u"
@@ -5652,14 +5608,6 @@ msgstr "Kanalak bezerotarik kargatzen"
 msgctxt "#19249"
 msgid "Filter channels"
 msgstr "Iragazi kateak"
-
-msgctxt "#19255"
-msgid "Start recording"
-msgstr "Grabaketa hasi"
-
-msgctxt "#19256"
-msgid "Stop recording"
-msgstr "Grabaketa amaitu"
 
 msgctxt "#19257"
 msgid "Lock channel"
@@ -6381,10 +6329,6 @@ msgctxt "#20183"
 msgid "Reload skin"
 msgstr "Skin-a berriz kargatu"
 
-msgctxt "#20184"
-msgid "Rotate pictures using EXIF information"
-msgstr "Biratu argazkiak EXIF informazioa erabiliz"
-
 msgctxt "#20185"
 msgid "Use poster view styles for TV shows"
 msgstr "Erabili posterrak ikusteko estiloa TB saioetarako"
@@ -6997,6 +6941,10 @@ msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "Konektatzen: %s"
 
+msgctxt "#21337"
+msgid "Never"
+msgstr "Inoiz ez"
+
 msgctxt "#21359"
 msgid "Add media share..."
 msgstr "Gehitu media partekatzea..."
@@ -7373,6 +7321,10 @@ msgctxt "#21469"
 msgid "%s to %s"
 msgstr "%s -tik %s -ra"
 
+msgctxt "#21478"
+msgid "Open"
+msgstr "Ireki"
+
 msgctxt "#21800"
 msgid "File name"
 msgstr "Fitxategiaren izena"
@@ -7733,10 +7685,6 @@ msgctxt "#22022"
 msgid "Show video files in listings"
 msgstr "Erakutsi bideo fitxategiak zerrendetan"
 
-msgctxt "#22023"
-msgid "DirectX vendor:"
-msgstr "DirectX saltzailea:"
-
 msgctxt "#22024"
 msgid "Direct3D version:"
 msgstr "Direct3D bertsioa:"
@@ -7756,30 +7704,6 @@ msgstr "Koloreak"
 msgctxt "#22033"
 msgid "Charset"
 msgstr "Karaktere-jokoa"
-
-msgctxt "#22034"
-msgid "Export karaoke titles as HTML"
-msgstr "Esportatu karaokea HTML gisa"
-
-msgctxt "#22035"
-msgid "Export karaoke titles as CSV"
-msgstr "Esportatu karaokea CSV gisa"
-
-msgctxt "#22036"
-msgid "Import karaoke titles..."
-msgstr "Inportatu karaoke tituluak..."
-
-msgctxt "#22037"
-msgid "Show song selector automatically"
-msgstr "Erakutsi abesti hautatzailea automatikoki"
-
-msgctxt "#22038"
-msgid "Export karaoke titles..."
-msgstr "Esportatu karaoke tituluak..."
-
-msgctxt "#22039"
-msgid "Enter song number"
-msgstr "Sartu abestiaren zenbakia"
 
 msgctxt "#22079"
 msgid "Default select action"
@@ -7953,10 +7877,6 @@ msgctxt "#24042"
 msgid "Downloading %i%%"
 msgstr "Deskargatzen %i%%"
 
-msgctxt "#24045"
-msgid "Add-on does not have the correct structure"
-msgstr "Gehigarriak ez du egitura zuzena"
-
 msgctxt "#24051"
 msgid "Version:"
 msgstr "Bertsioa:"
@@ -7976,10 +7896,6 @@ msgstr "Aldaketa log-a"
 msgctxt "#24055"
 msgid "Check for updates"
 msgstr "Eguneraketak bilatu"
-
-msgctxt "#24061"
-msgid "Add-on update available!"
-msgstr "Gehigarriaren eguneraketa eskuragarri!"
 
 msgctxt "#24063"
 msgid "Auto update"
@@ -8029,10 +7945,6 @@ msgctxt "#24089"
 msgid "Add-on restarts"
 msgstr "Gehigarriak berrabiaraztean"
 
-msgctxt "#24094"
-msgid "(current)"
-msgstr "(unekoa)"
-
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
 msgstr "Gustatuko litzaizuke zure sisteman desgaitzea?"
@@ -8077,6 +7989,10 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Sartu bilaketa katea"
 
+msgctxt "#24141"
+msgid "Add-on disabled"
+msgstr "Gehigarria ezgaituta"
+
 msgctxt "#24992"
 msgid "System"
 msgstr "Sistema"
@@ -8104,6 +8020,46 @@ msgstr "Titulua: %d"
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "QWERTY teklatua"
+
+msgctxt "#29902"
+msgid "Style"
+msgstr "Estiloa"
+
+msgctxt "#29904"
+msgid "Artist"
+msgstr "Artista"
+
+msgctxt "#29909"
+msgid "Studio"
+msgstr "Estudioa"
+
+msgctxt "#29915"
+msgid "Info"
+msgstr "Argb"
+
+msgctxt "#29932"
+msgid "Language"
+msgstr "Hizkuntza"
+
+msgctxt "#29943"
+msgid "Information"
+msgstr "Argibideak"
+
+msgctxt "#29946"
+msgid "Drama"
+msgstr "Drama"
+
+msgctxt "#29956"
+msgid "Weather"
+msgstr "Eguraldia"
+
+msgctxt "#29960"
+msgid "Religion"
+msgstr "Erlijioa"
+
+msgctxt "#29969"
+msgid "Documentary"
+msgstr "Dokumentala"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -8344,10 +8300,6 @@ msgstr "Maitatu"
 msgctxt "#33080"
 msgid "Hate"
 msgstr "Gorrotatu"
-
-msgctxt "#33081"
-msgid "This file is stacked, select the part you want to play from."
-msgstr "Fitxategi hau pilatuta dago, hautatu erreproduzitzea nahi duzun zatia."
 
 msgctxt "#33082"
 msgid "Path to script"
@@ -8648,10 +8600,6 @@ msgstr "Ez dago informazio erabilgarririk oraindik."
 msgctxt "#36303"
 msgid "No info available yet."
 msgstr "Ez dago informazio erabilgarririk oraindik."
-
-msgctxt "#36306"
-msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
-msgstr "EXIF informazioa badago (data, ordua, erabilitako kamera, etab.) bistarazi egingo da."
 
 msgctxt "#36310"
 msgid "No info available yet."

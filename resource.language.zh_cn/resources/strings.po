@@ -1597,6 +1597,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "从资料库中移除影片"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "确定要从资料库移除“%s”么？"
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "风向 %s 风速 %i %s"
@@ -2625,14 +2629,6 @@ msgctxt "#744"
 msgid "Files"
 msgstr "文件"
 
-msgctxt "#745"
-msgid "No scanned information for this view"
-msgstr "当前视图无信息"
-
-msgctxt "#746"
-msgid "Please turn off library mode"
-msgstr "请关闭资料库模式"
-
 msgctxt "#747"
 msgid "Error loading image"
 msgstr "图像载入出错"
@@ -2828,6 +2824,22 @@ msgstr "音乐资料库需要重新从文件扫描标签。现在扫描吗？"
 msgctxt "#802"
 msgid "%s of %s available"
 msgstr "%s个可用（共%s个）"
+
+msgctxt "#803"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "#813"
+msgid "Start padding time"
+msgstr "起始填充时间"
+
+msgctxt "#814"
+msgid "End padding time"
+msgstr "尾部填充时间"
+
+msgctxt "#815"
+msgid "Record all episodes"
+msgstr "录制所有分集"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3201,10 +3213,6 @@ msgctxt "#1260"
 msgid "Announce services to other systems"
 msgstr "向其它系统声明服务"
 
-msgctxt "#1268"
-msgid "iOS 8 compatibility mode"
-msgstr "iOS 8 兼容模式"
-
 msgctxt "#1269"
 msgid "Allow volume control"
 msgstr "允许音量控制"
@@ -3556,6 +3564,10 @@ msgstr "空列表"
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "回到上级列表因活动列表为空"
+
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "需要新版本。更多相关信息见日志。"
 
 msgctxt "#2102"
 msgid "%s error"
@@ -4101,10 +4113,6 @@ msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "设置 & 文件管理"
 
-msgctxt "#12376"
-msgid "Set as default for all videos"
-msgstr "设为所有视频的默认设置"
-
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
 msgstr "将重置之前保存的所有设置值。确定吗？"
@@ -4256,18 +4264,6 @@ msgstr "允许闲置关机"
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "是否有通过 SSH 连接的会话存在？"
-
-msgctxt "#13021"
-msgid "Mounted removable hard drive"
-msgstr "挂载移动硬盘"
-
-msgctxt "#13022"
-msgid "Unsafe device removal"
-msgstr "不安全的移除设备"
-
-msgctxt "#13023"
-msgid "Successfully removed device"
-msgstr "成功移除设备"
 
 msgctxt "#13024"
 msgid "Joystick plugged"
@@ -4701,10 +4697,6 @@ msgctxt "#13322"
 msgid "Right only"
 msgstr "右声道"
 
-msgctxt "#13323"
-msgid "Enable karaoke support"
-msgstr "启用卡拉 OK 支持"
-
 msgctxt "#13324"
 msgid "Background transparency"
 msgstr "背景透明度"
@@ -4716,10 +4708,6 @@ msgstr "前景透明度"
 msgctxt "#13326"
 msgid "A/V delay"
 msgstr "影音延迟"
-
-msgctxt "#13327"
-msgid "Karaoke"
-msgstr "卡拉 OK"
 
 msgctxt "#13328"
 msgid "%s not found"
@@ -5573,10 +5561,6 @@ msgctxt "#14081"
 msgid "File lists"
 msgstr "文件列表"
 
-msgctxt "#14082"
-msgid "Show EXIF picture information"
-msgstr "显示 EXIF 图片信息"
-
 msgctxt "#14083"
 msgid "Use fullscreen window"
 msgstr "使用窗口化全屏"
@@ -5608,10 +5592,6 @@ msgstr "界面语言"
 msgctxt "#14091"
 msgid "Character set"
 msgstr "字符集"
-
-msgctxt "#14092"
-msgid "Debugging"
-msgstr "调试"
 
 msgctxt "#14093"
 msgid "Security"
@@ -5685,6 +5665,26 @@ msgctxt "#14110"
 msgid "Long date format"
 msgstr "长日期格式"
 
+msgctxt "#14115"
+msgid "Basic"
+msgstr "基础"
+
+msgctxt "#14116"
+msgid "Information"
+msgstr "信息"
+
+msgctxt "#14117"
+msgid "Warning"
+msgstr "注意"
+
+msgctxt "#14118"
+msgid "Error"
+msgstr "错误"
+
+msgctxt "#15004"
+msgid "Basic"
+msgstr "基础"
+
 msgctxt "#15011"
 msgid "%i Items failed to export"
 msgstr "%i个项目导出失败"
@@ -5716,6 +5716,10 @@ msgstr "添加"
 msgctxt "#15052"
 msgid "Password"
 msgstr "密码"
+
+msgctxt "#15060"
+msgid "Post-processing"
+msgstr "后处理"
 
 msgctxt "#15100"
 msgid "Library"
@@ -6009,13 +6013,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "复制失败"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "至少一个文件复制失败。更多相关信息见日志。"
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "移动失败"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "至少一个文件移动失败。更多相关信息见日志。"
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "删除失败"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "至少一个文件删除失败。更多相关信息见日志。"
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6321,6 +6337,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "此频道录像已启动"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "%s无法播放。更多相关信息见日志。"
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "此录像无法播放。更多相关信息见日志。"
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "显示信号质量"
@@ -6348,6 +6372,14 @@ msgstr "确定为此定时器改名吗？"
 msgctxt "#19043"
 msgid "Recording"
 msgstr "录像"
+
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "请检查你的配置。更多相关信息见日志。"
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "PVR客户端未启动。等待PVR客户端启动。更多相关信息见日志。"
 
 msgctxt "#19046"
 msgid "New channel"
@@ -6393,10 +6425,6 @@ msgctxt "#19056"
 msgid "New timer"
 msgstr "新定时器"
 
-msgctxt "#19057"
-msgid "Edit timer"
-msgstr "编辑定时器"
-
 msgctxt "#19058"
 msgid "Timer enabled"
 msgstr "启用定时器"
@@ -6437,6 +6465,10 @@ msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "此事件已录制。"
 
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "此录像无法删除。更多相关信息见日志。"
+
 msgctxt "#19069"
 msgid "Guide"
 msgstr "指南"
@@ -6457,45 +6489,21 @@ msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "延迟频道切换"
 
-msgctxt "#19074"
-msgid "Active:"
-msgstr "活动的："
-
 msgctxt "#19075"
-msgid "Name:"
-msgstr "名称："
+msgid "Name"
+msgstr "名称"
 
 msgctxt "#19076"
-msgid "Folder:"
-msgstr "文件夹："
+msgid "Folder"
+msgstr "文件夹"
 
 msgctxt "#19078"
-msgid "Channel:"
-msgstr "频道："
-
-msgctxt "#19079"
-msgid "Day:"
-msgstr "日："
-
-msgctxt "#19080"
-msgid "Begin:"
-msgstr "开始："
-
-msgctxt "#19081"
-msgid "End:"
-msgstr "结束："
+msgid "Channel"
+msgstr "频道"
 
 msgctxt "#19082"
-msgid "Priority:"
-msgstr "优先级："
-
-msgctxt "#19083"
-msgid "Lifetime (days):"
-msgstr "生命周期（天）："
-
-msgctxt "#19084"
-msgid "First day:"
-msgstr "首日："
+msgid "Priority"
+msgstr "优先级"
 
 msgctxt "#19085"
 msgid "Unknown channel %u"
@@ -6592,6 +6600,18 @@ msgstr "于"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "后备帧率"
+
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "无法保存定时器。更多相关信息见日志。"
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "出现未知错误。稍后重试或查看详细日志记录。"
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "PVR 后端错误。更多相关信息见日志。"
 
 msgctxt "#19112"
 msgid "Delete this recording?"
@@ -6729,6 +6749,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "组"
 
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "PVR 后端不支持此动作。更多相关信息见日志。"
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "频道"
@@ -6789,6 +6813,10 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "录像"
 
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "无法开始录像。更多相关信息见日志。"
+
 msgctxt "#19165"
 msgid "Switch"
 msgstr "切换"
@@ -6829,14 +6857,6 @@ msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "默认录像生命期"
 
-msgctxt "#19175"
-msgid "Start padding time"
-msgstr "起始填充时间"
-
-msgctxt "#19176"
-msgid "End padding time"
-msgstr "尾部填充时间"
-
 msgctxt "#19177"
 msgid "Playback"
 msgstr "播放"
@@ -6869,6 +6889,18 @@ msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "已删除录像"
 
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "清除数据"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
+msgstr "所有电视相关的数据（频道、组、节目指南）将被清除。确定吗？"
+
+msgctxt "#19188"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "所有电视指南数据将被清除。确定吗？"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "启动时继续最后频道"
@@ -6884,6 +6916,10 @@ msgstr "PVR 服务"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "连接的 PVR 后端不支持频道扫描。"
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "无法启动频道搜索。更多相关信息见日志。"
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -7001,6 +7037,10 @@ msgctxt "#19222"
 msgid "Guide"
 msgstr "指南"
 
+msgctxt "#19223"
+msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
+msgstr "无可激活的 PVR 插件。检查你的设置或详细日志记录。"
+
 msgctxt "#19224"
 msgid "Recording aborted"
 msgstr "录像已中止"
@@ -7116,14 +7156,6 @@ msgstr "频道指南更新已预约"
 msgctxt "#19254"
 msgid "Guide update failed for channel"
 msgstr "频道指南更新失败"
-
-msgctxt "#19255"
-msgid "Start recording"
-msgstr "开始录像"
-
-msgctxt "#19256"
-msgid "Stop recording"
-msgstr "停止录像"
 
 msgctxt "#19257"
 msgid "Lock channel"
@@ -8325,10 +8357,6 @@ msgctxt "#20183"
 msgid "Reload skin"
 msgstr "重载皮肤"
 
-msgctxt "#20184"
-msgid "Rotate pictures using EXIF information"
-msgstr "根据 EXIF 信息旋转图片"
-
 msgctxt "#20185"
 msgid "Use poster view styles for TV shows"
 msgstr "使用海报视图模式显示剧集"
@@ -9089,9 +9117,33 @@ msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "显示隐藏文件和目录"
 
+msgctxt "#21331"
+msgid "New media detected"
+msgstr "检测到新的媒体"
+
+msgctxt "#21332"
+msgid "Browse videos"
+msgstr "浏览视频"
+
+msgctxt "#21333"
+msgid "Browse music"
+msgstr "浏览音乐"
+
+msgctxt "#21334"
+msgid "Browse pictures"
+msgstr "浏览图片"
+
+msgctxt "#21335"
+msgid "Browse files"
+msgstr "浏览文件"
+
 msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "正在连接：%s"
+
+msgctxt "#21337"
+msgid "Never"
+msgstr "从不"
 
 msgctxt "#21359"
 msgid "Add media share..."
@@ -9569,6 +9621,10 @@ msgctxt "#21477"
 msgid "Just \"Specials\""
 msgstr "仅“特别篇”"
 
+msgctxt "#21478"
+msgid "Open"
+msgstr "开启"
+
 msgctxt "#21602"
 msgid "(External)"
 msgstr "（外挂）"
@@ -9969,10 +10025,6 @@ msgctxt "#22022"
 msgid "Show video files in listings"
 msgstr "在列表中显示视频文件"
 
-msgctxt "#22023"
-msgid "DirectX vendor:"
-msgstr "DirectX 提供商："
-
 msgctxt "#22024"
 msgid "Direct3D version:"
 msgstr "Direct3D 版本："
@@ -9992,46 +10044,6 @@ msgstr "颜色"
 msgctxt "#22033"
 msgid "Charset"
 msgstr "字符集"
-
-msgctxt "#22034"
-msgid "Export karaoke titles as HTML"
-msgstr "卡拉 OK 标题导出为 HTML"
-
-msgctxt "#22035"
-msgid "Export karaoke titles as CSV"
-msgstr "卡拉 OK 标题导出为 CSV"
-
-msgctxt "#22036"
-msgid "Import karaoke titles..."
-msgstr "导入卡拉 OK 标题..."
-
-msgctxt "#22037"
-msgid "Show song selector automatically"
-msgstr "自动显示歌曲选择"
-
-msgctxt "#22038"
-msgid "Export karaoke titles..."
-msgstr "导出卡拉 OK 标题..."
-
-msgctxt "#22039"
-msgid "Enter song number"
-msgstr "输入歌曲编号"
-
-msgctxt "#22040"
-msgid "white / green"
-msgstr "白/绿"
-
-msgctxt "#22041"
-msgid "white / red"
-msgstr "白/红"
-
-msgctxt "#22042"
-msgid "white / blue"
-msgstr "白/兰"
-
-msgctxt "#22043"
-msgid "black / white"
-msgstr "黑/白"
 
 msgctxt "#22079"
 msgid "Default select action"
@@ -10189,10 +10201,6 @@ msgctxt "#24024"
 msgid "Add-on disabled"
 msgstr "插件已禁用"
 
-msgctxt "#24025"
-msgid "Context items"
-msgstr "上下文项目"
-
 msgctxt "#24026"
 msgid "Languages"
 msgstr "语言"
@@ -10265,10 +10273,6 @@ msgctxt "#24044"
 msgid "Dependencies not met. Please contact add-on author."
 msgstr "依赖项未找到。请联系插件作者。"
 
-msgctxt "#24045"
-msgid "Add-on does not have the correct structure"
-msgstr "插件结构不完整"
-
 msgctxt "#24046"
 msgid "%s is used by the following installed add-on(s)"
 msgstr "下列已安装插件依赖 %s"
@@ -10276,10 +10280,6 @@ msgstr "下列已安装插件依赖 %s"
 msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "此插件无法卸载"
-
-msgctxt "#24048"
-msgid "Rollback"
-msgstr "撤消"
 
 msgctxt "#24049"
 msgid "Incompatible"
@@ -10328,10 +10328,6 @@ msgstr "要启用此插件吗？"
 msgctxt "#24060"
 msgid "Would you like to disable this add-on?"
 msgstr "要禁用此插件吗？"
-
-msgctxt "#24061"
-msgid "Add-on update available!"
-msgstr "插件有可用更新！"
 
 msgctxt "#24062"
 msgid "Enabled add-ons"
@@ -10456,14 +10452,6 @@ msgstr "正在检查插件更新"
 msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "正在检查 %s..."
-
-msgctxt "#24094"
-msgid "(current)"
-msgstr "（当前使用）"
-
-msgctxt "#24095"
-msgid "(blacklisted)"
-msgstr "（列入黑名单）"
 
 msgctxt "#24096"
 msgid "Add-on is incompatible or has been marked broken in repository."
@@ -10621,6 +10609,10 @@ msgctxt "#24134"
 msgid "We were unable to load your configured language. Please check your language settings."
 msgstr "无法载入你设置的语言，请检查语言设置。"
 
+msgctxt "#24141"
+msgid "Add-on disabled"
+msgstr "插件已禁用"
+
 msgctxt "#24992"
 msgid "System"
 msgstr "系统"
@@ -10693,10 +10685,6 @@ msgctxt "#25010"
 msgid "Chapter %u"
 msgstr "章节%u"
 
-msgctxt "#29800"
-msgid "Library mode"
-msgstr "资料库模式"
-
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "QWERTY 键盘"
@@ -10704,6 +10692,46 @@ msgstr "QWERTY 键盘"
 msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "音频直通输出启用中"
+
+msgctxt "#29902"
+msgid "Style"
+msgstr "风格"
+
+msgctxt "#29904"
+msgid "Artist"
+msgstr "歌手"
+
+msgctxt "#29909"
+msgid "Studio"
+msgstr "制作公司"
+
+msgctxt "#29915"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "#29932"
+msgid "Language"
+msgstr "语言"
+
+msgctxt "#29943"
+msgid "Information"
+msgstr "信息"
+
+msgctxt "#29946"
+msgid "Drama"
+msgstr "剧情"
+
+msgctxt "#29956"
+msgid "Weather"
+msgstr "天气"
+
+msgctxt "#29960"
+msgid "Religion"
+msgstr "宗教"
+
+msgctxt "#29969"
+msgid "Documentary"
+msgstr "记录"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -10977,10 +11005,6 @@ msgctxt "#33080"
 msgid "Hate"
 msgstr "讨厌"
 
-msgctxt "#33081"
-msgid "This file is stacked, select the part you want to play from."
-msgstr "这是一个堆叠文件，请选择要播放的片段。"
-
 msgctxt "#33082"
 msgid "Path to script"
 msgstr "脚本目录"
@@ -11140,6 +11164,10 @@ msgstr "未找到上一播放项目"
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "启动 Zeroconf 失败"
+
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Apple 的 Bonjour 服务是否已安装？更多相关信息见日志。"
 
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
@@ -11377,10 +11405,6 @@ msgctxt "#36032"
 msgid "The port is busy. Only one program can access the CEC adapter"
 msgstr "端口忙，只能有一个程序访问 CEC 适配器"
 
-msgctxt "#36033"
-msgid "Pause playback when switching to another source"
-msgstr "切换到另一个源时暂停播放"
-
 msgctxt "#36035"
 msgid "Always"
 msgstr "总是"
@@ -11588,10 +11612,6 @@ msgstr "当添加媒体到资料库时从在线数据库下载演员缩略图。
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "选择什么情况下隐藏剧集的季结点。隐藏时，选择一个剧集将直接跳到集视图。"
-
-msgctxt "#36145"
-msgid "Group movies into \"Movie sets\" when browsing the movie library."
-msgstr "浏览电影资料库时将电影按“影片集”分组"
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -11917,10 +11937,6 @@ msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "切换频道后等待接收频道的时间。用于无线频道偶尔失去信号强度的情况。"
 
-msgctxt "#36231"
-msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
-msgstr "在全屏模式按数字键将于1秒后自动切换到相应频道。"
-
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "当向前后翻频道时，延迟真实频道切换。这使你不用等待连续频道切换。"
@@ -12085,6 +12101,10 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "选择听音乐时显示的可视化效果。"
 
+msgctxt "#36274"
+msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
+msgstr "读取音乐文件中的标签信息。对于大型目录特别是网络目录会延长读取时间。"
+
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "控制歌曲的名称在用户界面中显示的方式。需要启用标签读取才能正常使用此功能。"
@@ -12153,42 +12173,6 @@ msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "抓取完成后弹出光盘"
 
-msgctxt "#36292"
-msgid "This category contains the settings for how karaoke is handled."
-msgstr "此功能区包含卡拉 OK 处理相关设置。"
-
-msgctxt "#36293"
-msgid "When playing any music file, look for a matching .cdg file and display its graphics."
-msgstr "播放音乐文件时，查找匹配的 .cdg 文件并显示其中的图像。"
-
-msgctxt "#36294"
-msgid "Show song selection dialogue once the last song in the queue has been played."
-msgstr "当队列中的最后一首歌曲播放完时显示歌曲选择对话框。"
-
-msgctxt "#36295"
-msgid "Select the font type used during karaoke."
-msgstr "选择卡拉 OK 使用的字体。"
-
-msgctxt "#36296"
-msgid "Select the size of the font used during karaoke."
-msgstr "选择卡拉 OK 使用的字体大小。"
-
-msgctxt "#36297"
-msgid "Select the font colour used during karaoke."
-msgstr "选择卡拉 OK 使用的字体颜色。"
-
-msgctxt "#36298"
-msgid "Select the character set used during karaoke."
-msgstr "选择卡拉 OK 使用的字符集。"
-
-msgctxt "#36299"
-msgid "Export the karaoke numbered songs to HTML or CSV files."
-msgstr "导出卡拉 OK 编号的歌曲到 HTML 或 CSV 文件。"
-
-msgctxt "#36300"
-msgid "Import the karaoke numbered songs from HTML or CSV files."
-msgstr "从 HTML 或 CSV 文件导入卡拉 OK 编号的歌曲。"
-
 msgctxt "#36301"
 msgid "No info available yet."
 msgstr "无可用信息。"
@@ -12209,17 +12193,9 @@ msgctxt "#36305"
 msgid "This category contains the settings for how picture file lists are handled."
 msgstr "此功能区包含图片文件列表处理相关设置。"
 
-msgctxt "#36306"
-msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
-msgstr "如果存在 EXIF 信息（日期、时间、相机型号等）将会显示出来。"
-
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "进入图片文件夹时，自动生成图片缩略图。"
-
-msgctxt "#36308"
-msgid "Pictures will automatically rotate according to information in the EXIF tag, if found."
-msgstr "如有相关 EXIF 标签信息，图片将据此自动旋转。"
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -12409,10 +12385,6 @@ msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "在多屏配置，不显示此应用的屏幕将黑屏。"
 
-msgctxt "#36356"
-msgid "Eliminate vertical tearing."
-msgstr "消除纵向撕裂。"
-
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "通过调整过扫描来校准用户界面。当图像在显示器中显示得过大或太小时使用这个工具。"
@@ -12449,10 +12421,6 @@ msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 msgstr "当你的功放能解码杜比数字（AC3）音频流时选择此项。"
 
-msgctxt "#36366"
-msgid "Select this option if your receiver is capable of decoding DTS streams."
-msgstr "当你的功放能解码 DTS 音频流时选择此项。"
-
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "选择解码音频可用的最大声道/扬声器数。如果使用光纤/同轴数字输出则应设置为2.0"
@@ -12464,10 +12432,6 @@ msgstr "选择以启用如杜比数字（AC3）、DTS 等编码音频播放的�
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "当你的功放能解码 TrueHD 音频流时选择此项。"
-
-msgctxt "#36370"
-msgid "Select this option if your receiver is capable of decoding DTS-HD streams."
-msgstr "当你的功放能解码 DTS-HD 音频流时选择此项。"
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -12548,10 +12512,6 @@ msgstr "设置多长时间没有操作将关机。"
 msgctxt "#36390"
 msgid "Define what action to perform when the shutdown function timer lapsed."
 msgstr "定义关机功能定时器到期时的动作。"
-
-msgctxt "#36391"
-msgid "This category contains the settings for enabling debug functions. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
-msgstr "此功能区包含启用调试功能相关设置。还可以启用部件相关的调试日志来获取更多信息以帮助定位故障。"
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
@@ -12868,10 +12828,6 @@ msgstr "封面和同人画使用高质量贴图（占用更多内存）"
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "限制图形用户界面分辨率以节省内存。不影响视频播放。需要重新启动。"
-
-msgctxt "#36549"
-msgid "Use iOS8 compatible AirPlay support. If you have trouble with older iOS devices detecting this application as a valid target try switching this off. This option requires a restart to take effect!"
-msgstr "使用 iOS8 兼容 AirPlay 支持。如果老的 iOS 设备检测此应用存在问题，你可以尝试关闭此选项。此选项需重启才能生效！"
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."

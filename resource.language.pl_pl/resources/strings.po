@@ -1023,11 +1023,11 @@ msgstr "Brak wyników"
 
 msgctxt "#285"
 msgid "Preferred audio language"
-msgstr "Preferowany język dźwięku"
+msgstr "Preferuj ścieżkę dzwiękową w języku"
 
 msgctxt "#286"
 msgid "Preferred subtitle language"
-msgstr "Preferowany język napisów"
+msgstr "Preferuj napisy w języku"
 
 msgctxt "#287"
 msgid "Subtitles"
@@ -1743,7 +1743,7 @@ msgstr "Przesuń linię, aby zmienić pozycję menu ekranowego"
 
 msgctxt "#469"
 msgid "OSD position"
-msgstr "Pozycja menu ekranowego"
+msgstr "Położenie menu ekranowego"
 
 msgctxt "#470"
 msgid "Credits"
@@ -2629,14 +2629,6 @@ msgctxt "#744"
 msgid "Files"
 msgstr "Pliki"
 
-msgctxt "#745"
-msgid "No scanned information for this view"
-msgstr "Nie ma danych dla tego widoku"
-
-msgctxt "#746"
-msgid "Please turn off library mode"
-msgstr "Proszę wyłącz tryb biblioteki"
-
 msgctxt "#747"
 msgid "Error loading image"
 msgstr "Błąd wczytywania obrazu"
@@ -2832,6 +2824,22 @@ msgstr "Biblioteka muzyki wymaga ponownego wczytania znaczników z plików. Czy 
 msgctxt "#802"
 msgid "%s of %s available"
 msgstr "%s z %s dostępne"
+
+msgctxt "#803"
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "#813"
+msgid "Start padding time"
+msgstr "Nagrywaj przed zaplanowanym czasem początku"
+
+msgctxt "#814"
+msgid "End padding time"
+msgstr "Nagrywaj po zaplanowanym czasie końca"
+
+msgctxt "#815"
+msgid "Record all episodes"
+msgstr "Nagrywaj wszystkie odcinki"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3204,10 +3212,6 @@ msgstr "Zeroconf"
 msgctxt "#1260"
 msgid "Announce services to other systems"
 msgstr "Rozgłaszaj usługi do innych systemów"
-
-msgctxt "#1268"
-msgid "iOS 8 compatibility mode"
-msgstr "Tryb kompatybilności z iOS 8"
 
 msgctxt "#1269"
 msgid "Allow volume control"
@@ -4109,10 +4113,6 @@ msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "Ustawienia i menedżer plików"
 
-msgctxt "#12376"
-msgid "Set as default for all videos"
-msgstr "Ustaw jako domyślne dla wszystkich wideo"
-
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
 msgstr "Spowoduje to wyczyszczenie wcześniej zapisanych wartości. Jesteś pewien?"
@@ -4264,18 +4264,6 @@ msgstr "Zezwalaj na zamykanie podczas bezczynności"
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "Czy inna sesja jest aktywna, może przez ssh?"
-
-msgctxt "#13021"
-msgid "Mounted removable hard drive"
-msgstr "Podłączono dysk przenośny"
-
-msgctxt "#13022"
-msgid "Unsafe device removal"
-msgstr "Niebezpieczne odłączenie urządzenia"
-
-msgctxt "#13023"
-msgid "Successfully removed device"
-msgstr "Bezpieczne odłączenie urządzenia zakończone powodzeniem"
 
 msgctxt "#13024"
 msgid "Joystick plugged"
@@ -4709,10 +4697,6 @@ msgctxt "#13322"
 msgid "Right only"
 msgstr "Tylko prawy"
 
-msgctxt "#13323"
-msgid "Enable karaoke support"
-msgstr "Aktywuj obsługę karaoke"
-
 msgctxt "#13324"
 msgid "Background transparency"
 msgstr "Przezroczystość tła"
@@ -4724,10 +4708,6 @@ msgstr "Przezroczystość pierwszego planu"
 msgctxt "#13326"
 msgid "A/V delay"
 msgstr "Opóźnienie A/V"
-
-msgctxt "#13327"
-msgid "Karaoke"
-msgstr "Karaoke"
 
 msgctxt "#13328"
 msgid "%s not found"
@@ -5581,10 +5561,6 @@ msgctxt "#14081"
 msgid "File lists"
 msgstr "Listy plików"
 
-msgctxt "#14082"
-msgid "Show EXIF picture information"
-msgstr "Pokazuj dane EXIF obrazu"
-
 msgctxt "#14083"
 msgid "Use fullscreen window"
 msgstr "Używaj pełnoekranowego okna"
@@ -5616,10 +5592,6 @@ msgstr "Regionalne"
 msgctxt "#14091"
 msgid "Character set"
 msgstr "Zestaw znaków"
-
-msgctxt "#14092"
-msgid "Debugging"
-msgstr "Diagnostyka"
 
 msgctxt "#14093"
 msgid "Security"
@@ -5693,6 +5665,26 @@ msgctxt "#14110"
 msgid "Long date format"
 msgstr "Długi format daty"
 
+msgctxt "#14115"
+msgid "Basic"
+msgstr "Podstawowy"
+
+msgctxt "#14116"
+msgid "Information"
+msgstr "Informacje"
+
+msgctxt "#14117"
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+msgctxt "#14118"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "#15004"
+msgid "Basic"
+msgstr "Podstawowy"
+
 msgctxt "#15011"
 msgid "%i Items failed to export"
 msgstr "Nieudane eksportowanie %i pozycji"
@@ -5724,6 +5716,10 @@ msgstr "Dodaj"
 msgctxt "#15052"
 msgid "Password"
 msgstr "Hasło"
+
+msgctxt "#15060"
+msgid "Post-processing"
+msgstr "Przetwarzanie wideo"
 
 msgctxt "#15100"
 msgid "Library"
@@ -5759,7 +5755,7 @@ msgstr "Buforowanie..."
 
 msgctxt "#15108"
 msgid "GUI sounds"
-msgstr "Dźwięki interfejsu użytkownika"
+msgstr "Dźwięki interfejsu"
 
 msgctxt "#15109"
 msgid "Skin default"
@@ -6429,10 +6425,6 @@ msgctxt "#19056"
 msgid "New timer"
 msgstr "Nowe zadanie"
 
-msgctxt "#19057"
-msgid "Edit timer"
-msgstr "Edytuj zadanie"
-
 msgctxt "#19058"
 msgid "Timer enabled"
 msgstr "Zmień stan"
@@ -6497,45 +6489,21 @@ msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Opóźniaj zmianę kanału o"
 
-msgctxt "#19074"
-msgid "Active:"
-msgstr "Aktywne:"
-
 msgctxt "#19075"
-msgid "Name:"
-msgstr "Nazwa:"
+msgid "Name"
+msgstr "Nazwa"
 
 msgctxt "#19076"
-msgid "Folder:"
-msgstr "Folder:"
+msgid "Folder"
+msgstr "Folder"
 
 msgctxt "#19078"
-msgid "Channel:"
-msgstr "Kanał:"
-
-msgctxt "#19079"
-msgid "Day:"
-msgstr "Dzień:"
-
-msgctxt "#19080"
-msgid "Begin:"
-msgstr "Początek:"
-
-msgctxt "#19081"
-msgid "End:"
-msgstr "Koniec:"
+msgid "Channel"
+msgstr "Kanał"
 
 msgctxt "#19082"
-msgid "Priority:"
-msgstr "Priorytet:"
-
-msgctxt "#19083"
-msgid "Lifetime (days):"
-msgstr "Czas życia (w dniach):"
-
-msgctxt "#19084"
-msgid "First day:"
-msgstr "Pierwszy dzień:"
+msgid "Priority"
+msgstr "Priorytet"
 
 msgctxt "#19085"
 msgid "Unknown channel %u"
@@ -6889,14 +6857,6 @@ msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "Domyślny czas życia nagrania"
 
-msgctxt "#19175"
-msgid "Start padding time"
-msgstr "Nagrywaj przed zaplanowanym czasem początku"
-
-msgctxt "#19176"
-msgid "End padding time"
-msgstr "Nagrywaj po zaplanowanym czasie końca"
-
 msgctxt "#19177"
 msgid "Playback"
 msgstr "Odtwarzanie"
@@ -7196,14 +7156,6 @@ msgstr "Zaplanowano aktualizację przewodnika dla kanału"
 msgctxt "#19254"
 msgid "Guide update failed for channel"
 msgstr "Nieudana aktualizacja przewodnika dla kanału"
-
-msgctxt "#19255"
-msgid "Start recording"
-msgstr "Rozpocznij nagrywanie"
-
-msgctxt "#19256"
-msgid "Stop recording"
-msgstr "Zatrzymaj nagrywanie"
 
 msgctxt "#19257"
 msgid "Lock channel"
@@ -7851,27 +7803,27 @@ msgstr "Podsumowanie"
 
 msgctxt "#20038"
 msgid "Lock music window"
-msgstr "Zablokuj dostęp do muzyki"
+msgstr "Zablokuj dostęp do menu Muzyki"
 
 msgctxt "#20039"
 msgid "Lock videos window"
-msgstr "Zablokuj dostęp do wideo"
+msgstr "Zablokuj dostęp do menu Wideo"
 
 msgctxt "#20040"
 msgid "Lock pictures window"
-msgstr "Zablokuj dostęp do obrazów"
+msgstr "Zablokuj dostęp do menu Obrazy"
 
 msgctxt "#20041"
 msgid "Lock programs & scripts windows"
-msgstr "Zablokuj dostęp do programów i skryptów"
+msgstr "Zablokuj dostęp do menu Programy"
 
 msgctxt "#20042"
 msgid "Lock file manager"
-msgstr "Zablokuj dostęp do menedżera plików"
+msgstr "Zablokuj dostęp do Menedżera plików"
 
 msgctxt "#20043"
 msgid "Lock settings"
-msgstr "Zablokuj dostęp do ustawień"
+msgstr "Zablokuj dostęp do menu Ustawienia"
 
 msgctxt "#20044"
 msgid "Start fresh"
@@ -8404,10 +8356,6 @@ msgstr "Spacja"
 msgctxt "#20183"
 msgid "Reload skin"
 msgstr "Przeładuj skórę"
-
-msgctxt "#20184"
-msgid "Rotate pictures using EXIF information"
-msgstr "Obracaj obrazy na bazie danych EXIF"
 
 msgctxt "#20185"
 msgid "Use poster view styles for TV shows"
@@ -9193,6 +9141,10 @@ msgctxt "#21336"
 msgid "Connecting to: %s"
 msgstr "Łączenie z: %s"
 
+msgctxt "#21337"
+msgid "Never"
+msgstr "Nigdy"
+
 msgctxt "#21359"
 msgid "Add media share..."
 msgstr "Dodaj udział..."
@@ -9669,6 +9621,10 @@ msgctxt "#21477"
 msgid "Just \"Specials\""
 msgstr "Tylko \"Odcinki specjalne\""
 
+msgctxt "#21478"
+msgid "Open"
+msgstr "Otwórz"
+
 msgctxt "#21602"
 msgid "(External)"
 msgstr "(Zewnętrzny)"
@@ -10069,10 +10025,6 @@ msgctxt "#22022"
 msgid "Show video files in listings"
 msgstr "Pokazuj pliki wideo na listach"
 
-msgctxt "#22023"
-msgid "DirectX vendor:"
-msgstr "Dostawca DirectX:"
-
 msgctxt "#22024"
 msgid "Direct3D version:"
 msgstr "Wersja Direct3D:"
@@ -10092,46 +10044,6 @@ msgstr "Kolory"
 msgctxt "#22033"
 msgid "Charset"
 msgstr "Zestaw znaków"
-
-msgctxt "#22034"
-msgid "Export karaoke titles as HTML"
-msgstr "Eksportuj tytuły karaoke jako HTML"
-
-msgctxt "#22035"
-msgid "Export karaoke titles as CSV"
-msgstr "Eksportuj tytuły karaoke jako CSV"
-
-msgctxt "#22036"
-msgid "Import karaoke titles..."
-msgstr "Importuj tytuły karaoke..."
-
-msgctxt "#22037"
-msgid "Show song selector automatically"
-msgstr "Pokazuj selektor utworu automatycznie"
-
-msgctxt "#22038"
-msgid "Export karaoke titles..."
-msgstr "Eksportuj tytuły karaoke..."
-
-msgctxt "#22039"
-msgid "Enter song number"
-msgstr "Wprowadź numer utworu"
-
-msgctxt "#22040"
-msgid "white / green"
-msgstr "biały / zielony"
-
-msgctxt "#22041"
-msgid "white / red"
-msgstr "biały / czerwony"
-
-msgctxt "#22042"
-msgid "white / blue"
-msgstr "biały / niebieski"
-
-msgctxt "#22043"
-msgid "black / white"
-msgstr "czarny / biały"
 
 msgctxt "#22079"
 msgid "Default select action"
@@ -10215,7 +10127,7 @@ msgstr "Źródła mediów"
 
 msgctxt "#24006"
 msgid "GUI sounds"
-msgstr "Dźwięki interfejsu użytkownika"
+msgstr "Dźwięki interfejsu"
 
 msgctxt "#24007"
 msgid "Movie information"
@@ -10267,7 +10179,7 @@ msgstr "Usługi"
 
 msgctxt "#24019"
 msgid "PVR clients"
-msgstr "Klienty telewizyjne"
+msgstr "Klienty telewizji"
 
 msgctxt "#24020"
 msgid "Configure"
@@ -10288,10 +10200,6 @@ msgstr "Nieaktywne"
 msgctxt "#24024"
 msgid "Add-on disabled"
 msgstr "Ekstraktor nieaktywny"
-
-msgctxt "#24025"
-msgid "Context items"
-msgstr "Pozycje kontekstowe"
 
 msgctxt "#24026"
 msgid "Languages"
@@ -10365,10 +10273,6 @@ msgctxt "#24044"
 msgid "Dependencies not met. Please contact add-on author."
 msgstr "Niespełnione zależności. Proszę skontaktować się z autorem dodatku."
 
-msgctxt "#24045"
-msgid "Add-on does not have the correct structure"
-msgstr "Dodatek nie ma właściwej struktury"
-
 msgctxt "#24046"
 msgid "%s is used by the following installed add-on(s)"
 msgstr "%s jest używany przez następujące zainstalowane dodatki"
@@ -10376,10 +10280,6 @@ msgstr "%s jest używany przez następujące zainstalowane dodatki"
 msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "Tego dodatku nie można odinstalować"
-
-msgctxt "#24048"
-msgid "Rollback"
-msgstr "Przywróć"
 
 msgctxt "#24049"
 msgid "Incompatible"
@@ -10428,10 +10328,6 @@ msgstr "Czy chcesz aktywować ten dodatek?"
 msgctxt "#24060"
 msgid "Would you like to disable this add-on?"
 msgstr "Czy chcesz dezaktywować ten dodatek?"
-
-msgctxt "#24061"
-msgid "Add-on update available!"
-msgstr "Dostępna aktualizacja dodatku!"
 
 msgctxt "#24062"
 msgid "Enabled add-ons"
@@ -10543,7 +10439,7 @@ msgstr "Ponowne uruchomienie dodatku"
 
 msgctxt "#24090"
 msgid "Lock add-on manager"
-msgstr "Zablokuj Menedżer dodatków"
+msgstr "Zablokuj dostęp Menedżera dodatków"
 
 msgctxt "#24091"
 msgid "This add-on can't be disabled"
@@ -10556,14 +10452,6 @@ msgstr "Wyszukiwanie aktualizacji dodatków"
 msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Wyszukiwanie %s..."
-
-msgctxt "#24094"
-msgid "(current)"
-msgstr "(aktualny)"
-
-msgctxt "#24095"
-msgid "(blacklisted)"
-msgstr "(zablokowany)"
 
 msgctxt "#24096"
 msgid "Add-on is incompatible or has been marked broken in repository."
@@ -10721,6 +10609,10 @@ msgctxt "#24134"
 msgid "We were unable to load your configured language. Please check your language settings."
 msgstr "Nieudane wczytanie skonfigurowanego języka. Sprawdź ustawienia języka."
 
+msgctxt "#24141"
+msgid "Add-on disabled"
+msgstr "Ekstraktor nieaktywny"
+
 msgctxt "#24992"
 msgid "System"
 msgstr "Systemowe"
@@ -10793,10 +10685,6 @@ msgctxt "#25010"
 msgid "Chapter %u"
 msgstr "Rozdział %u"
 
-msgctxt "#29800"
-msgid "Library mode"
-msgstr "Tryb biblioteki"
-
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "Klawiatura QWERTY"
@@ -10804,6 +10692,46 @@ msgstr "Klawiatura QWERTY"
 msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "Korzystasz z przekazywania dźwięku do urządzenia odbiorczego"
+
+msgctxt "#29902"
+msgid "Style"
+msgstr "Styl"
+
+msgctxt "#29904"
+msgid "Artist"
+msgstr "Wykonawca"
+
+msgctxt "#29909"
+msgid "Studio"
+msgstr "Wytwórnia"
+
+msgctxt "#29915"
+msgid "Info"
+msgstr "Informacje"
+
+msgctxt "#29932"
+msgid "Language"
+msgstr "Język"
+
+msgctxt "#29943"
+msgid "Information"
+msgstr "Informacje"
+
+msgctxt "#29946"
+msgid "Drama"
+msgstr "Dramat"
+
+msgctxt "#29956"
+msgid "Weather"
+msgstr "Pogoda"
+
+msgctxt "#29960"
+msgid "Religion"
+msgstr "Religia"
+
+msgctxt "#29969"
+msgid "Documentary"
+msgstr "Dokument"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -11076,10 +11004,6 @@ msgstr "Lubię"
 msgctxt "#33080"
 msgid "Hate"
 msgstr "Nie lubię"
-
-msgctxt "#33081"
-msgid "This file is stacked, select the part you want to play from."
-msgstr "Plik jest wynikiem scalenia, wybierz część do odtworzenia."
 
 msgctxt "#33082"
 msgid "Path to script"
@@ -11481,10 +11405,6 @@ msgctxt "#36032"
 msgid "The port is busy. Only one program can access the CEC adapter"
 msgstr "Port jest w użyciu. Tylko jeden program może używać adaptera CEC"
 
-msgctxt "#36033"
-msgid "Pause playback when switching to another source"
-msgstr "Zatrzymuj odtwarzanie przy zmianie źródła"
-
 msgctxt "#36035"
 msgid "Always"
 msgstr "Zawsze"
@@ -11692,10 +11612,6 @@ msgstr "Umożliwia pobieranie portretów aktorów z internetowych baz danych pod
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "Określa, w których przypadkach ukrywać listę sezonów serialu. W przypadku, gdy lista jest ukrywana, wybranie serialu przenosi bezpośrednio do widoku odcinków."
-
-msgctxt "#36145"
-msgid "Group movies into \"Movie sets\" when browsing the movie library."
-msgstr "Umożlwia grupowanie filmów w \"Serie filmowe\" podczas przeglądania biblioteki."
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -12021,10 +11937,6 @@ msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Określa czas oczekiwania na odbiór strumienia telewizyjnego po zmianie kanału. Użyteczne w przypadki kanałów odbieranych przy pomocy anteny, które mają problem z siłą sygnału."
 
-msgctxt "#36231"
-msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
-msgstr "Naciśnięcie przycisku numerycznego w trybie pełnoekranowym przełączy, z opóźnieniem 1 sekundy, na wybrany kanał."
-
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "Określa zachowanie po zmianie kanału przy pomocy klawiszy dodając opóźnienie, które umożliwia użytkownikowi wprowadzenie numer kanału, bez oczekiwania na przełączenie do wcześniej wybranego kanału."
@@ -12261,42 +12173,6 @@ msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Umożliwia wysuwanie dysku automatycznie po zgraniu zawartości."
 
-msgctxt "#36292"
-msgid "This category contains the settings for how karaoke is handled."
-msgstr "Kategoria zawierająca ustawienia związane z obsługą karaoke."
-
-msgctxt "#36293"
-msgid "When playing any music file, look for a matching .cdg file and display its graphics."
-msgstr "Umożliwia, podczas odtwarzania pliku muzyki, wyszukiwanie pasującego pliku .cdg i wyświetlanie znajdujących się w nim grafik."
-
-msgctxt "#36294"
-msgid "Show song selection dialogue once the last song in the queue has been played."
-msgstr "Umożliwia wyświetlania okna selektora utworów po odtworzeniu ostatniego utworu w kolejce."
-
-msgctxt "#36295"
-msgid "Select the font type used during karaoke."
-msgstr "Określa czcionkę używaną podczas karaoke."
-
-msgctxt "#36296"
-msgid "Select the size of the font used during karaoke."
-msgstr "Określa rozmiar czcionki używanej podczas karaoke."
-
-msgctxt "#36297"
-msgid "Select the font colour used during karaoke."
-msgstr "Określa kolor czcionki używanej podczas karaoke."
-
-msgctxt "#36298"
-msgid "Select the character set used during karaoke."
-msgstr "Określa zestaw znaków używanych podczas karaoke."
-
-msgctxt "#36299"
-msgid "Export the karaoke numbered songs to HTML or CSV files."
-msgstr "Eksportuje ponumerowane utwory karaoke do plików HTML lub CSV."
-
-msgctxt "#36300"
-msgid "Import the karaoke numbered songs from HTML or CSV files."
-msgstr "Umożliwia zaimportowanie ponumerowanych utworów karaoke z plików HTML lub CSV."
-
 msgctxt "#36301"
 msgid "No info available yet."
 msgstr "Brak dostępnych informacji."
@@ -12317,17 +12193,9 @@ msgctxt "#36305"
 msgid "This category contains the settings for how picture file lists are handled."
 msgstr "Kategoria zawierająca ustawienia związane z obsługą list obrazów."
 
-msgctxt "#36306"
-msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
-msgstr "Jeśli istnieją informacje EXIF (data, czas, aparat, itp.), to zostaną wyświetlone."
-
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Umożliwia tworzenie miniatur obrazów automatycznie przy wejściu do folderu obrazów."
-
-msgctxt "#36308"
-msgid "Pictures will automatically rotate according to information in the EXIF tag, if found."
-msgstr "Umożliwia automatyczne obracanie obrazów na podstawie danych zawartych w znaczniku EXIF."
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -12517,10 +12385,6 @@ msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Umożliwia w konfiguracji z wieloma wyświetlaczami wygaszanie nieużywanych przez aplikację."
 
-msgctxt "#36356"
-msgid "Eliminate vertical tearing."
-msgstr "Eliminuje efekt pionowej nieciągłości wyświetlanego obrazu."
-
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Kalibruje interfejs użytkownika dostosowując nadmiarowość obrazu. Użyj tego narzędzia, jeśli wyświetlany obraz jest zbyt duży lub mały w stosunku do wyświetlacza."
@@ -12557,10 +12421,6 @@ msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 msgstr "Zaznacz tę opcję, jeśli urządzenie odbiorcze obsługuje dekodowanie ścieżek Dolby Digital (AC3)."
 
-msgctxt "#36366"
-msgid "Select this option if your receiver is capable of decoding DTS streams."
-msgstr "Zaznacz tę opcję, jeśli urządzenie odbiorcze obsługuje dekodowanie ścieżek DTS."
-
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Określa maksymalną liczbę kanałów / głośników dostępnych dla zdekodowanych ścieżek dźwiękowych. W przypadku korzystania z cyfrowych wyjść optycznych / elektrycznych, konieczne jest ustawienie tej wartości na 2.0"
@@ -12572,10 +12432,6 @@ msgstr "Umożliwia przekazywanie i dekodowanie ścieżek dźwiękowych w formata
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Zaznacz tę opcję, jeśli urządzenie odbiorcze obsługuje dekodowanie ścieżek TrueHD."
-
-msgctxt "#36370"
-msgid "Select this option if your receiver is capable of decoding DTS-HD streams."
-msgstr "Zaznacz tę opcję, jeśli urządzenie odbiorcze obsługuje dekodowanie ścieżek DTS-HD."
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -12656,10 +12512,6 @@ msgstr "Określa wymagany czas bezczynnosci przed wykonaniem operacji zamykania.
 msgctxt "#36390"
 msgid "Define what action to perform when the shutdown function timer lapsed."
 msgstr "Określa operację wykonywaną po upłynięciu czasu zaplanowanego zamykania."
-
-msgctxt "#36391"
-msgid "This category contains the settings for enabling debug functions. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
-msgstr "Kategoria zawierająca ustawienia związane z funkcjami diagnostycznymi. Umożliwia także rejestrowanie zdarzeń generowanych przez wybrane komponenty, co ułatwia rozwiązywanie powiązanych z nimi problemów."
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
@@ -12977,10 +12829,6 @@ msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Ogranicza rozdzielczość interfejsu użytkownika w celu oszczędzania pamięci. Nie ma wpływu na odtwarzanie wideo. Wymaga ponownego uruchomienia."
 
-msgctxt "#36549"
-msgid "Use iOS8 compatible AirPlay support. If you have trouble with older iOS devices detecting this application as a valid target try switching this off. This option requires a restart to take effect!"
-msgstr "Umożliwia używanie obsługi AirPlay kompatybilnej z iOS8. Jeśli masz problem z wykrywaniem tej aplikacji, jako poprawnego źródła, przez starsze urządzenia z systemem iOS, odznacz tę opcję. Ta opcja wymaga do poprawnego działania ponownego uruchomienia programu."
-
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
 msgstr "Kategoria zawierająca ustawienia związane z obsługą biblioteki muzyki."
@@ -13215,7 +13063,7 @@ msgstr "Preferuj domyślne ścieżki dźwiękowe"
 
 msgctxt "#37041"
 msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
-msgstr "Jeśli aktywne, ścieżki dźwiękowe oznaczone jako domyślne ( i pasujące do preferowanego języka) będą wybierane zamiast ścieżek o wyższej jakości (liczba kanadłów, kodek, ...)."
+msgstr "Jeśli aktywne, ścieżki dźwiękowe oznaczone jako domyślne ( i pasujące do preferowanego języka) będą preferowane zamiast ścieżek o wyższej jakości (liczba kanadłów, kodek, ...)."
 
 msgctxt "#37042"
 msgid "Defines which step sizes to use when pressing the skip buttons. If more steps are selected for a skip direction, these can be applied by subsequent presses on the skip button within the defined skip delay. Forward (positive) and backward (negative) steps can be defined independently."
@@ -13227,7 +13075,7 @@ msgstr "Określa czas oczekiwania pomiędzy sekwencyjnymi naciśnięciami klawis
 
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
-msgstr "Ekstraktuj miniatury rozdziałów"
+msgstr "Wykonuj ekstrakcję miniatur rozdziałów"
 
 msgctxt "#37045"
 msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
