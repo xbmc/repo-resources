@@ -599,7 +599,7 @@ msgstr "Geef 4:3 video's weer als"
 
 msgctxt "#174"
 msgid "Compiled:"
-msgstr "Samenstellen:"
+msgstr "Gecompileerd:"
 
 msgctxt "#175"
 msgid "Moods"
@@ -2851,7 +2851,15 @@ msgstr "Type"
 
 msgctxt "#804"
 msgid "Search guide for"
-msgstr "Zoekgids naar"
+msgstr "Zoek in gids naar"
+
+msgctxt "#805"
+msgid "Enter the search string to use to lookup matching events in the guide"
+msgstr "Voer de zoekterm in om te gebruiken om passende evenementen opzoeken in de gids"
+
+msgctxt "#806"
+msgid "Fulltext search (or title search only)"
+msgstr "Volledige tekst zoeking (of titel zoeking alleen)"
 
 msgctxt "#807"
 msgid "Any day"
@@ -2869,9 +2877,13 @@ msgctxt "#810"
 msgid "Start any time"
 msgstr "Begin op elk moment"
 
+msgctxt "#811"
+msgid "Recording group"
+msgstr "Opname groep"
+
 msgctxt "#812"
 msgid "Prevent duplicate episodes"
-msgstr "Voorkom dupliceer afleveringen"
+msgstr "Voorkom dubbele afleveringen"
 
 msgctxt "#813"
 msgid "Start padding time"
@@ -2903,11 +2915,19 @@ msgstr "Eén keer"
 
 msgctxt "#821"
 msgid "One time (guide-based)"
-msgstr "Eén keer (guide-based)"
+msgstr "Eén keer (gids-gebaseerd)"
 
 msgctxt "#822"
 msgid "Repeating"
 msgstr "Herhalen"
+
+msgctxt "#823"
+msgid "Repeating (guide-based)"
+msgstr "Herhalend (gids-gebaseerd)"
+
+msgctxt "#828"
+msgid "Repeating timer deleted"
+msgstr "herhalingstimer verwijderd"
 
 msgctxt "#831"
 msgid "Mondays"
@@ -2937,9 +2957,17 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Zondagen"
 
+msgctxt "#840"
+msgid "Do you only want to delete this timer or also the repeating timer that has scheduled it?"
+msgstr "Wil je enkel deze timer verwijderen of eveneens de herhalingstimer die het heeft geschematiseerd?"
+
 msgctxt "#841"
 msgid "Only this"
 msgstr "Alleen deze"
+
+msgctxt "#842"
+msgid "Group timers"
+msgstr "Groep timers"
 
 msgctxt "#843"
 msgid "Activate"
@@ -2948,6 +2976,22 @@ msgstr "Activeren"
 msgctxt "#844"
 msgid "Deactivate"
 msgstr "Deactiveren"
+
+msgctxt "#845"
+msgid "Are you sure you want to delete this repeating timer and all timers it has scheduled?"
+msgstr "Weet je zeker dat je deze herhalingstimer en alle die daardoor zijn gepland verwijderen."
+
+msgctxt "#846"
+msgid "Are you sure you want to delete this timer?"
+msgstr "Weet je zeker dat je deze timer wilt verwijderen?"
+
+msgctxt "#847"
+msgid "Confirm stop recording"
+msgstr "Bevestig stoppen opname"
+
+msgctxt "#848"
+msgid "Are you sure you want to stop this recording?"
+msgstr "Weet je zeker dat je deze opname wilt stoppen?"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3320,6 +3364,10 @@ msgstr "Zeroconf"
 msgctxt "#1260"
 msgid "Announce services to other systems"
 msgstr "Aankondigen services naar andere systemen"
+
+msgctxt "#1268"
+msgid "Enable AirPlay \"Videos\" and \"Pictures\" support"
+msgstr "Activeer AirPlay \"Video`s\" en \"afbeeldingen\" ondersteuning"
 
 msgctxt "#1269"
 msgid "Allow volume control"
@@ -4221,6 +4269,10 @@ msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "Instellingen & bestandsbeheer"
 
+msgctxt "#12376"
+msgid "Set as default for all media"
+msgstr "Stel in als standaard voor alle media"
+
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
 msgstr "Dit zal alle voorgaande opgeslagen waarden resetten. Weet u het zeker?"
@@ -4372,6 +4424,18 @@ msgstr "Uitschakeling toestaan vanwege inactiviteit"
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "Er is een andere sessie actief, wellicht SSH?"
+
+msgctxt "#13021"
+msgid "Mounted removable storage device"
+msgstr "Gemound verwijderbare opslagapparaat"
+
+msgctxt "#13022"
+msgid "Unsafe storage device removal"
+msgstr "Onveilige opslagapparaat verwijdering"
+
+msgctxt "#13023"
+msgid "Successfully removed storage device"
+msgstr "Succesvol opslagapparaat verwijderd"
 
 msgctxt "#13024"
 msgid "Joystick plugged"
@@ -4588,6 +4652,10 @@ msgstr "Onbekend"
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Overschrijven"
+
+msgctxt "#13207"
+msgid "Forced only"
+msgstr "Enkel geforceerd"
 
 msgctxt "#13208"
 msgid "Alarm clock"
@@ -5197,6 +5265,10 @@ msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
 msgstr "Toestaan hardwareversnelling - MediaCodec"
 
+msgctxt "#13440"
+msgid "Allow hardware acceleration - MediaCodec (Surface)"
+msgstr "Toestaan hardwareversnelling - MediaCodec (oppervlakkig)"
+
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
 msgstr "Gebruik MPEG-2 VDPAU"
@@ -5701,6 +5773,10 @@ msgctxt "#14091"
 msgid "Character set"
 msgstr "Tekencodering"
 
+msgctxt "#14092"
+msgid "Logging"
+msgstr "notering"
+
 msgctxt "#14093"
 msgid "Security"
 msgstr "Beveiliging"
@@ -5777,6 +5853,18 @@ msgctxt "#14111"
 msgid "Events"
 msgstr "Gebeurtenissen"
 
+msgctxt "#14112"
+msgid "Enable event logging"
+msgstr "Activeer gebeurtenis notering"
+
+msgctxt "#14113"
+msgid "Enable notification event logging"
+msgstr "Activeer notificatie gebeurtenis notering"
+
+msgctxt "#14114"
+msgid "Show event log"
+msgstr "Toon gebeurtenis notitie"
+
 msgctxt "#14115"
 msgid "Basic"
 msgstr "Basis"
@@ -5797,9 +5885,13 @@ msgctxt "#14119"
 msgid "Level: %s"
 msgstr "Niveau: %s"
 
+msgctxt "#14120"
+msgid "Show higher levels"
+msgstr "Toon hogere niveau`s"
+
 msgctxt "#14121"
 msgid "Blu-ray region Code"
-msgstr "Blu-ray gebieds Code"
+msgstr "Blu-Ray regiocode"
 
 msgctxt "#14122"
 msgid "Region A"
@@ -5859,35 +5951,131 @@ msgstr "Voeg toe"
 
 msgctxt "#15020"
 msgid "Audio DSP manager"
-msgstr "Audio DSP manager"
+msgstr "Audio DSP beheerder"
 
 msgctxt "#15021"
 msgid "Content type"
-msgstr "Content type"
+msgstr "inhoudstype"
 
 msgctxt "#15022"
 msgid "Listening mode"
 msgstr "Luistermodus"
 
+msgctxt "#15023"
+msgid "Master mode"
+msgstr "Beheerder modus"
+
+msgctxt "#15024"
+msgid "Pre-process setup..."
+msgstr "Voor-process instellen..."
+
+msgctxt "#15025"
+msgid "Listening mode setup..."
+msgstr "luisteren modus instellen..."
+
+msgctxt "#15026"
+msgid "Speaker / Output setup..."
+msgstr "Luidspreker / uitgang instellen..."
+
 msgctxt "#15027"
 msgid "Audio information..."
 msgstr "Audio informatie..."
 
+msgctxt "#15028"
+msgid "Audio DSP settings - Main"
+msgstr "Audio DSP instellingen - Hoofd"
+
+msgctxt "#15029"
+msgid "Audio DSP settings - Listening mode"
+msgstr "Audio DSP instellingen - Luisteren modus"
+
+msgctxt "#15030"
+msgid "Audio DSP settings - Speaker / Output"
+msgstr "Audio DSP instellingen - Luidspreker / Uitgang"
+
+msgctxt "#15031"
+msgid "Audio DSP settings - Audio information"
+msgstr "Audio DSP instellingen - Audio informatie"
+
+msgctxt "#15033"
+msgid "Resampler setup..."
+msgstr "Hersampler instellen..."
+
+msgctxt "#15034"
+msgid "Miscellaneous..."
+msgstr "Diverse..."
+
+msgctxt "#15035"
+msgid "Audio DSP settings - Resampler"
+msgstr "Audio DSP instellingen - Hersampler"
+
+msgctxt "#15037"
+msgid "Audio DSP settings - Pre-process"
+msgstr "Audio DSP instellingen - Voor-bewerking"
+
+msgctxt "#15038"
+msgid "Audio DSP settings - Miscellaneous"
+msgstr "Audio DSP instellingen - Diverse"
+
+msgctxt "#15039"
+msgid "Pre-processing setup..."
+msgstr "Voor-bewerking instellen..."
+
+msgctxt "#15040"
+msgid "The settings dialogue can only be opened from the OSD menu during playback"
+msgstr "De instellingen dialoog kan enkel worden geopend vanuit het OSD menu gedurende afspelen"
+
+msgctxt "#15041"
+msgid "Unknown mode name"
+msgstr "Onbekende mode naam"
+
 msgctxt "#15042"
 msgid "Content:"
-msgstr "Content:"
+msgstr "inhoud:"
 
 msgctxt "#15047"
 msgid "Audio DSP settings"
 msgstr "Audio DSP instellingen"
 
+msgctxt "#15048"
+msgid "No audio DSP add-on enabled"
+msgstr "Geen audio DSO add-on geactiveerd"
+
+msgctxt "#15049"
+msgid "The audio DSP manager has been enabled without any enabled DSP add-on. Enable at least one add-on in order to use the DSP functionality."
+msgstr "De audio DSP beheerder is geactiveerd zonder enkele geactiveerde DSP add-on. Activeer minstens een add-on om gebruik te kunnen maken van de DSP functionaliteit."
+
+msgctxt "#15050"
+msgid "Available modes"
+msgstr "Beschikbare modussen"
+
+msgctxt "#15051"
+msgid "Active modes"
+msgstr "Actieve modussen"
+
 msgctxt "#15052"
 msgid "Password"
 msgstr "Wachtwoord"
 
+msgctxt "#15057"
+msgid "Input resampling"
+msgstr "Invoer hersampling"
+
+msgctxt "#15058"
+msgid "Pre-processing"
+msgstr "Voor-bewerking"
+
+msgctxt "#15059"
+msgid "Master processing"
+msgstr "beheer bewerking"
+
 msgctxt "#15060"
 msgid "Post-processing"
 msgstr "Nabewerking"
+
+msgctxt "#15061"
+msgid "Output resampling"
+msgstr "uitvoer hersampling"
 
 msgctxt "#15062"
 msgid "Detailed description"
@@ -5896,6 +6084,78 @@ msgstr "Gedetailleerde omschrijving"
 msgctxt "#15063"
 msgid "No description available"
 msgstr "Geen omschrijving aanwezig"
+
+msgctxt "#15064"
+msgid "Apply changes directly"
+msgstr "Activeer veranderingen gelijk"
+
+msgctxt "#15066"
+msgid "Clear active modes"
+msgstr "Leeg actieve modussen"
+
+msgctxt "#15067"
+msgid "Close"
+msgstr "Sluiten"
+
+msgctxt "#15078"
+msgid "Mode settings"
+msgstr "Modus instellingen"
+
+msgctxt "#15079"
+msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
+msgstr "Je hebt sommige DSP instellingen veranderd.\nWil je de nieuwe instellingen behouden?"
+
+msgctxt "#15080"
+msgid "Change resampler"
+msgstr "Verander hersampler"
+
+msgctxt "#15081"
+msgid "Process chain (with CPU usage)"
+msgstr "Processie balk (met Processor gebruik)"
+
+msgctxt "#15082"
+msgid "Resampling to %i Hz"
+msgstr "Hersampling naar %! Hz"
+
+msgctxt "#15083"
+msgid "Final resampling to %i Hz"
+msgstr "Laatste hersampling naar %! Hz"
+
+msgctxt "#15084"
+msgid "Master process"
+msgstr "Beheer bewerking"
+
+msgctxt "#15085"
+msgid "Pre-process"
+msgstr "Voor-bewerking"
+
+msgctxt "#15086"
+msgid "Post-process"
+msgstr "Na-bewerking"
+
+msgctxt "#15087"
+msgid "Input"
+msgstr "Invoer"
+
+msgctxt "#15088"
+msgid "Output"
+msgstr "Uitvoer"
+
+msgctxt "#15089"
+msgid "Input signal"
+msgstr "Invoersignaal"
+
+msgctxt "#15090"
+msgid "Output signal"
+msgstr "Uitvoersignaal"
+
+msgctxt "#15091"
+msgid "Positions"
+msgstr "Posities"
+
+msgctxt "#15092"
+msgid "CPU usage for DSP"
+msgstr "Processorgebruik voor DSP"
 
 msgctxt "#15100"
 msgid "Library"
@@ -5948,6 +6208,26 @@ msgstr "Thema"
 msgctxt "#15112"
 msgid "Default theme"
 msgstr "Standaardthema"
+
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "Hier kan je voor-bewerkingsmodussen configureren. dit bewerkingsniveau veranderd enkel de invoer data stream."
+
+msgctxt "#15114"
+msgid "Here you can configure a input resampling process. Notice: Only one active mode is allowed!"
+msgstr "Hier kan je een invoer hersampling bewerking configureren. Opgelet: Enkel één active modus is toegestaan!"
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "Hier kunt u hoofd verwerkingsmodes configureren. Opgelet: op alleen afspelen kan enkel één actieve mode worden geselecteerd!"
+
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "Hier kan je een uitvoer hersampling bewerking configureren. Opgelet: Enkel één active modus is toegestaan!"
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "Hier kan je voor-bewerkingsmodussen configureren. dit bewerkingsniveau veranderd enkel de invoer data stream."
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -6601,6 +6881,10 @@ msgctxt "#19056"
 msgid "New timer"
 msgstr "Nieuwe geplande opname"
 
+msgctxt "#19057"
+msgid "Timer disabled"
+msgstr "Timer uitgeschakeld"
+
 msgctxt "#19058"
 msgid "Timer enabled"
 msgstr "Geplande opname aan/uit"
@@ -6665,6 +6949,10 @@ msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Vertraag kanaalwisseling"
 
+msgctxt "#19074"
+msgid "Active"
+msgstr "Actief"
+
 msgctxt "#19075"
 msgid "Name"
 msgstr "Naam"
@@ -6685,9 +6973,21 @@ msgctxt "#19080"
 msgid "Begin"
 msgstr "Begin"
 
+msgctxt "#19081"
+msgid "End"
+msgstr "Einde"
+
 msgctxt "#19082"
 msgid "Priority"
 msgstr "Prioriteit"
+
+msgctxt "#19083"
+msgid "Lifetime"
+msgstr "Levensduur"
+
+msgctxt "#19084"
+msgid "First day"
+msgstr "Eerste dag"
 
 msgctxt "#19085"
 msgid "Unknown channel %u"
@@ -6989,6 +7289,10 @@ msgctxt "#19160"
 msgid "to"
 msgstr "tot"
 
+msgctxt "#19161"
+msgid "any time"
+msgstr "elk moment"
+
 msgctxt "#19162"
 msgid "Recording active"
 msgstr "Wordt opgenomen"
@@ -7040,6 +7344,14 @@ msgstr "Standaard opnameprioriteit"
 msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "Standaard opnamelevensduur"
+
+msgctxt "#19175"
+msgid "Default start padding time"
+msgstr "Standaard start opvultijd"
+
+msgctxt "#19176"
+msgid "Default end padding time"
+msgstr "Standaard stop opvultijd"
 
 msgctxt "#19177"
 msgid "Playback"
@@ -7404,6 +7716,14 @@ msgstr "Geen PVR add-ons konden worden gevonden"
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "U heeft een tuner, server software en add-on voor de server nodig om gebruik te maken van PVR. Bezoek http://kodi.wiki/view/PVR om hier meer te leren."
+
+msgctxt "#19273"
+msgid "No audio DSP add-ons could be found"
+msgstr "Geen add-ons voor audio-DSP gevonden"
+
+msgctxt "#19274"
+msgid "You need a add-on installed for the process of audio DSP signal. System becomes disabled."
+msgstr "Er moet een add-on worden geïnstalleerd voor de verwerking van het audio DSP signaal. systeem wordt gedeactiveerd."
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -9201,6 +9521,10 @@ msgctxt "#20443"
 msgid "Do you want to refresh information for all items within this path?"
 msgstr "Wilt u informatie vernieuwen voor alle items in deze locatie?"
 
+msgctxt "#20444"
+msgid "Add to library"
+msgstr "Voeg toe aan bibliotheek"
+
 msgctxt "#20445"
 msgid "Fanart"
 msgstr "Fanart"
@@ -9208,6 +9532,10 @@ msgstr "Fanart"
 msgctxt "#20446"
 msgid "Locally stored information found. Ignore and refresh from Internet?"
 msgstr "Lokaal opgeslagen informatie gevonden. Negeren en opnieuw opvragen?"
+
+msgctxt "#20447"
+msgid "Do you want to add the media from this source to your library?"
+msgstr "Wilt u de media van deze bron toevoegen aan uw bibliotheek?"
 
 msgctxt "#20448"
 msgid "Couldn't download information"
@@ -9297,6 +9625,14 @@ msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Bewaar de huidige set (%s)"
 
+msgctxt "#20470"
+msgid "Use movie sets for single movies"
+msgstr "Gebruik filmsets voor alleenstaande films"
+
+msgctxt "#20471"
+msgid "Show empty TV shows"
+msgstr "Toon lege tv-programma's"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Verborgen bestanden en mappen weergeven"
@@ -9329,9 +9665,17 @@ msgctxt "#21337"
 msgid "Never"
 msgstr "Nooit"
 
+msgctxt "#21338"
+msgid "Select version"
+msgstr "Kies versie"
+
 msgctxt "#21339"
 msgid "Version %s"
 msgstr "Versie %s"
+
+msgctxt "#21340"
+msgid "Auto-update"
+msgstr "Automatische update"
 
 msgctxt "#21341"
 msgid "No updates available"
@@ -9821,6 +10165,14 @@ msgctxt "#21478"
 msgid "Open"
 msgstr "Openen"
 
+msgctxt "#21479"
+msgid "Run"
+msgstr "Start"
+
+msgctxt "#21480"
+msgid "Use"
+msgstr "Gebruik"
+
 msgctxt "#21602"
 msgid "(External)"
 msgstr "(extern)"
@@ -9956,6 +10308,10 @@ msgstr "GPS-hoogte"
 msgctxt "#21843"
 msgid "Orientation"
 msgstr "Oriëntatie"
+
+msgctxt "#21844"
+msgid "XP comment"
+msgstr "XP-commentaar"
 
 msgctxt "#21857"
 msgid "Sub-location"
@@ -10397,6 +10753,10 @@ msgctxt "#24024"
 msgid "Add-on disabled"
 msgstr "Add-on uitgeschakeld"
 
+msgctxt "#24025"
+msgid "Context menus"
+msgstr "Contextmenu's"
+
 msgctxt "#24026"
 msgid "Languages"
 msgstr "Talen"
@@ -10433,6 +10793,10 @@ msgctxt "#24034"
 msgid "Check for updates"
 msgstr "Controleren op updates"
 
+msgctxt "#24035"
+msgid "Image collections"
+msgstr "Afbeelding verzamelingen"
+
 msgctxt "#24036"
 msgid "Changelog"
 msgstr "Wijzigingsoverzicht"
@@ -10468,6 +10832,10 @@ msgstr "Beschikbare updates"
 msgctxt "#24044"
 msgid "Dependencies not met. Please contact add-on author."
 msgstr "Afhankelijkheden komen niet overeen. neem contact op met de add-on auteur."
+
+msgctxt "#24045"
+msgid "Failed to install Add-on from zip file"
+msgstr "Niet gelukt add-on te installeren van zipbestand"
 
 msgctxt "#24046"
 msgid "%s is used by the following installed add-on(s)"
@@ -10524,6 +10892,10 @@ msgstr "Wil je deze add-on activeren?"
 msgctxt "#24060"
 msgid "Would you like to disable this add-on?"
 msgstr "Wil je deze add-on deactiveren? "
+
+msgctxt "#24061"
+msgid "Add-on updates available"
+msgstr "Add-on updates beschikbaar"
 
 msgctxt "#24062"
 msgid "Enabled add-ons"
@@ -10629,6 +11001,10 @@ msgctxt "#24087"
 msgid "All repositories"
 msgstr "Alle repositories"
 
+msgctxt "#24088"
+msgid "The DSP add-on is currently in use and can't be modified."
+msgstr "De DSP add-on wordt op dit moment gebruikt en kan niet worden gemodificeerd"
+
 msgctxt "#24089"
 msgid "Add-on restarts"
 msgstr "Add-on aan het herstarten"
@@ -10648,6 +11024,10 @@ msgstr "Controleren op updates"
 msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Controleren %s..."
+
+msgctxt "#24095"
+msgid "Local package cache"
+msgstr "Lokale pakketjes buffer"
 
 msgctxt "#24096"
 msgid "Add-on is incompatible or has been marked broken in repository."
@@ -10805,13 +11185,61 @@ msgctxt "#24134"
 msgid "We were unable to load your configured language. Please check your language settings."
 msgstr "Wij waren niet in staat uw ingestelde taal te laden. Controleer a.u.b. de taalinstellingen"
 
+msgctxt "#24135"
+msgid "Audio DSP"
+msgstr "Audio-DSP"
+
+msgctxt "#24136"
+msgid "Audio DSP..."
+msgstr "Audio-DSP..."
+
 msgctxt "#24137"
 msgid "Not allowed"
 msgstr "Niet toegestaan"
 
+msgctxt "#24138"
+msgid "DSP add-on is currently in use and can't be removed."
+msgstr "DSP add-on is op dit moment in gebruik en kan niet worden verwijderd"
+
+msgctxt "#24139"
+msgid "View Add-on"
+msgstr "Toon add-on"
+
+msgctxt "#24140"
+msgid "View"
+msgstr "Toon"
+
 msgctxt "#24141"
 msgid "Add-on disabled"
 msgstr "Add-on uitgeschakeld"
+
+msgctxt "#24142"
+msgid "The dependency on %s version %s could not be satisfied."
+msgstr "De afhankelijkheid op %s versie %s kan niet worden ingediend."
+
+msgctxt "#24143"
+msgid "Installing the Add-on from zip file located at %s failed due to an invalid structure."
+msgstr "Installeren van de add-on van het zipbestand gelocaliseerd op %s is mislukt vanwege een ongeldige structuur."
+
+msgctxt "#24144"
+msgid "Add-on uninstalled"
+msgstr "Add-on gedeïnstalleerd"
+
+msgctxt "#24145"
+msgid "Video library scanner"
+msgstr "Video bibliotheek zoeker"
+
+msgctxt "#24146"
+msgid "Music library scanner"
+msgstr "Muziek bibliotheek zoeker"
+
+msgctxt "#24147"
+msgid "Failed to scan %s: %s"
+msgstr "Niet gelukt te zoeken %s: %s"
+
+msgctxt "#24991"
+msgid "Could not connect to repository."
+msgstr "Can niet verbinden met opslag"
 
 msgctxt "#24992"
 msgid "System"
@@ -10832,6 +11260,10 @@ msgstr "Verweesde afhankelijkheden"
 msgctxt "#24996"
 msgid "Dependencies"
 msgstr "Afhankelijkheden"
+
+msgctxt "#24997"
+msgid "Look and feel"
+msgstr "Look-and-feel"
 
 msgctxt "#24998"
 msgid "My add-ons"
@@ -10893,13 +11325,41 @@ msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "Doorvoer-audio in gebruik"
 
+msgctxt "#29900"
+msgid "RadiotextPlus info"
+msgstr "RadiotextPlus-informatie"
+
+msgctxt "#29901"
+msgid "Band"
+msgstr "Band"
+
 msgctxt "#29902"
 msgid "Style"
 msgstr "Stijl"
 
+msgctxt "#29903"
+msgid "Composer"
+msgstr "Componist"
+
 msgctxt "#29904"
 msgid "Artist"
 msgstr "Artiest"
+
+msgctxt "#29905"
+msgid "Conductor"
+msgstr "Dirigent"
+
+msgctxt "#29906"
+msgid "Moderator"
+msgstr "Voorzitter"
+
+msgctxt "#29907"
+msgid "Editorial Staff"
+msgstr "Redactie"
+
+msgctxt "#29908"
+msgid "Program"
+msgstr "Programma"
 
 msgctxt "#29909"
 msgid "Studio"
@@ -10908,6 +11368,22 @@ msgstr "Filmstudio"
 msgctxt "#29910"
 msgid "Phone"
 msgstr "Telefoon"
+
+msgctxt "#29911"
+msgid "EMail"
+msgstr "E-mail"
+
+msgctxt "#29912"
+msgid "SMS"
+msgstr "Sms"
+
+msgctxt "#29913"
+msgid "Hotline"
+msgstr "Hotlijn"
+
+msgctxt "#29914"
+msgid "Website"
+msgstr "Website"
 
 msgctxt "#29915"
 msgid "Info"
@@ -10925,17 +11401,89 @@ msgctxt "#29918"
 msgid "Sport"
 msgstr "Sport"
 
+msgctxt "#29919"
+msgid "Lottery"
+msgstr "Loterij"
+
+msgctxt "#29920"
+msgid "Stock"
+msgstr "Standaard"
+
+msgctxt "#29921"
+msgid "Other"
+msgstr "Overig"
+
+msgctxt "#29922"
+msgid "Horoscope"
+msgstr "Horoscoop"
+
+msgctxt "#29926"
+msgid "Adult hits"
+msgstr "Hits voor volwassenen"
+
+msgctxt "#29927"
+msgid "Spanish talk"
+msgstr "Spaanse taal"
+
 msgctxt "#29928"
 msgid "Spanish music"
 msgstr "Spaanse muziek"
+
+msgctxt "#29929"
+msgid "Hip hop"
+msgstr "Hiphop"
+
+msgctxt "#29930"
+msgid "Radio Traffic advisory message!"
+msgstr "Radio verkeer advies bericht!"
+
+msgctxt "#29931"
+msgid "Radio message"
+msgstr "Radioberichten"
 
 msgctxt "#29932"
 msgid "Language"
 msgstr "Taal"
 
+msgctxt "#29933"
+msgid "College"
+msgstr "Studenten"
+
+msgctxt "#29934"
+msgid "Personality"
+msgstr "Bekende personen"
+
+msgctxt "#29935"
+msgid "Public"
+msgstr "Publiek"
+
+msgctxt "#29936"
+msgid "Soft music"
+msgstr "Zachte muziek"
+
+msgctxt "#29937"
+msgid "Adult hits"
+msgstr "Hits voor volwassenen"
+
+msgctxt "#29938"
+msgid "Soft rock"
+msgstr "Zachte rock"
+
+msgctxt "#29939"
+msgid "Talk"
+msgstr "Praatprogramma"
+
+msgctxt "#29940"
+msgid "No programme type"
+msgstr "Geen programmatype"
+
 msgctxt "#29941"
 msgid "News"
 msgstr "Nieuws"
+
+msgctxt "#29942"
+msgid "Current affairs"
+msgstr "Actualiteiten"
 
 msgctxt "#29943"
 msgid "Information"
@@ -10953,33 +11501,149 @@ msgctxt "#29946"
 msgid "Drama"
 msgstr "Drama"
 
+msgctxt "#29947"
+msgid "Culture"
+msgstr "Cultuur"
+
 msgctxt "#29948"
 msgid "Science"
 msgstr "Wetenschap"
+
+msgctxt "#29949"
+msgid "Varied"
+msgstr "Gevarieerd"
 
 msgctxt "#29950"
 msgid "Pop music"
 msgstr "Popmuziek"
 
+msgctxt "#29951"
+msgid "Rock music"
+msgstr "Rock muziek"
+
+msgctxt "#29952"
+msgid "Easy listening music"
+msgstr "Easy listening"
+
 msgctxt "#29953"
 msgid "Light classical"
 msgstr "Licht klassiek"
+
+msgctxt "#29954"
+msgid "Serious classical"
+msgstr "Zware klassiek"
+
+msgctxt "#29955"
+msgid "Other music"
+msgstr "Overige muziek"
 
 msgctxt "#29956"
 msgid "Weather"
 msgstr "Weer"
 
+msgctxt "#29957"
+msgid "Finance"
+msgstr "Financieel nieuws"
+
+msgctxt "#29958"
+msgid "Children's Programmes"
+msgstr "Kinderprogramma's"
+
+msgctxt "#29959"
+msgid "Social Affairs"
+msgstr "Sociale zaken"
+
 msgctxt "#29960"
 msgid "Religion"
 msgstr "Religie"
+
+msgctxt "#29961"
+msgid "Phone-in"
+msgstr "Belprogramma"
+
+msgctxt "#29962"
+msgid "Travel"
+msgstr "Reizen"
+
+msgctxt "#29963"
+msgid "Leisure"
+msgstr "Ontspanning"
+
+msgctxt "#29964"
+msgid "Jazz Music"
+msgstr "Jazzmuziek"
+
+msgctxt "#29965"
+msgid "Country Music"
+msgstr "Countrymuziek"
+
+msgctxt "#29966"
+msgid "National Music"
+msgstr "Nationale muziek"
+
+msgctxt "#29967"
+msgid "Oldies Music"
+msgstr "Gouwe ouwe"
+
+msgctxt "#29968"
+msgid "Folk Music"
+msgstr "Volksmuziek"
 
 msgctxt "#29969"
 msgid "Documentary"
 msgstr "Documentaire"
 
+msgctxt "#29970"
+msgid "Alarm Test"
+msgstr "Alarmtest"
+
+msgctxt "#29971"
+msgid "Alarm"
+msgstr "Alarm"
+
+msgctxt "#29977"
+msgid "Classic rock music"
+msgstr "Klassieke rock muziek"
+
+msgctxt "#29978"
+msgid "Classical"
+msgstr "Klassiek"
+
 msgctxt "#29979"
 msgid "Nostalgia"
 msgstr "Nostalgisch"
+
+msgctxt "#29980"
+msgid "Enable RDS for radio channels"
+msgstr "Activeer RDS voor radiokanalen"
+
+msgctxt "#29981"
+msgid "RDS data can be used if present"
+msgstr "RDS data kan worden gebruikt wanneer aanwezig"
+
+msgctxt "#29982"
+msgid "Message traffic advisory"
+msgstr "Berichten verkeer advies"
+
+msgctxt "#29983"
+msgid "RDS inform you about traffic advisory messages"
+msgstr "RDS informeert jou over verkeersinformatieberichten"
+
+msgctxt "#29984"
+msgid "Increase volume on traffic advisory"
+msgstr "Verhoog volume bij verkeersinformatie"
+
+msgctxt "#29985"
+msgid "If traffic advisory is send from RDS, volume is increased"
+msgstr "Wanneer verkeersinformatie wordt verstuurd vannuit RDS, wordt het volume verhoogd"
+
+msgctxt "#29986"
+msgid "Publicate traffic messages"
+msgstr "Publiceer verkeersberichten"
+
+msgctxt "#29987"
+msgid "Send present traffic messages around and can be handled from addons (nothing inside KODI)"
+msgstr "Stuur huidige verkeersberichten rond en kunnen verwerkt worden door add-ons (niets binnen KODI)"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -11653,6 +12317,10 @@ msgctxt "#36032"
 msgid "The port is busy. Only one program can access the CEC adapter"
 msgstr "Deze poort is in gebruik. Slechts één programma tegelijkertijd kan toegang hebben tot de CEC adapter"
 
+msgctxt "#36033"
+msgid "Action when switching to another source"
+msgstr "Actie wanneer geschakeld wordt naar andere bron"
+
 msgctxt "#36035"
 msgid "Always"
 msgstr "Altijd"
@@ -11684,6 +12352,14 @@ msgstr " * Item map"
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Gebruik gelimiteerde kleuren range (16-235)"
+
+msgctxt "#36044"
+msgid "Stop Playback"
+msgstr "Stop afspelen"
+
+msgctxt "#36045"
+msgid "Pause Playback"
+msgstr "Pauzeer afspelen"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12973,6 +13649,10 @@ msgctxt "#36510"
 msgid "Anaglyph yellow / blue"
 msgstr "Anaglyph geel / blauw"
 
+msgctxt "#36511"
+msgid "Checkerboard"
+msgstr "Dambord"
+
 msgctxt "#36520"
 msgid "Playback mode of stereoscopic 3D videos"
 msgstr "Weergavemodus van stereoscopische 3D videos"
@@ -13076,6 +13756,10 @@ msgstr "Gebruik hogere kwaliteitstexturen voor covers en fanart (gebruikt meer g
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Limiteert de resolutie van de GUI om geheugen te besparen. dit beïnvloed niet het afspelen van video`s."
+
+msgctxt "#36550"
+msgid "Stereoscopic 3D effect strength"
+msgstr "Sterkte stereoscopische 3D-effect"
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -13356,3 +14040,23 @@ msgstr "Onbeperkt"
 msgctxt "#38016"
 msgid "%d fps"
 msgstr "%d fps"
+
+msgctxt "#38017"
+msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
+msgstr "Regio A - Amerika, Oost-Azië en Zuidoost-Azië. Regio B - Afrika, het Midden-Oosten, Zuidwest-Azië, Europa, Australië, Nieuw-Zeeland. Regio C - Centraal-Azië, China, Mongolië, Zuid-Azië, Wit-Rusland, Rusland, Oekraïne, Kazachstan."
+
+msgctxt "#38018"
+msgid "My rating"
+msgstr "Mijn score"
+
+msgctxt "#38019"
+msgid "Support 8 channel DTS-HD audio decoding"
+msgstr "Ondersteun 8-kanaals DTS-HD audiodecodering"
+
+msgctxt "#38022"
+msgid "No rating"
+msgstr "Geen score"
+
+msgctxt "#38023"
+msgid "Set my rating"
+msgstr "Zet mijn score"
