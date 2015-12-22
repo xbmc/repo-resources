@@ -6101,6 +6101,62 @@ msgctxt "#15078"
 msgid "Mode settings"
 msgstr "Modus innstillinger"
 
+msgctxt "#15079"
+msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
+msgstr "Du har endret noen signalbehandlingsinnstillinger. Vil du beholde de nye innstillingene?"
+
+msgctxt "#15080"
+msgid "Change resampler"
+msgstr "Endre resampler"
+
+msgctxt "#15081"
+msgid "Process chain (with CPU usage)"
+msgstr "Prosseser lenke (med prosessorbruk)"
+
+msgctxt "#15082"
+msgid "Resampling to %i Hz"
+msgstr "Omsampler til %i Hz"
+
+msgctxt "#15083"
+msgid "Final resampling to %i Hz"
+msgstr "Endelig omsampling til %i Hz"
+
+msgctxt "#15084"
+msgid "Master process"
+msgstr "Master-prosess"
+
+msgctxt "#15085"
+msgid "Pre-process"
+msgstr "Forprosess"
+
+msgctxt "#15086"
+msgid "Post-process"
+msgstr "Etterprosess"
+
+msgctxt "#15087"
+msgid "Input"
+msgstr "Inngang"
+
+msgctxt "#15088"
+msgid "Output"
+msgstr "Utgang"
+
+msgctxt "#15089"
+msgid "Input signal"
+msgstr "Inngangssignal"
+
+msgctxt "#15090"
+msgid "Output signal"
+msgstr "Utgangssignal"
+
+msgctxt "#15091"
+msgid "Positions"
+msgstr "Posisjoner"
+
+msgctxt "#15092"
+msgid "CPU usage for DSP"
+msgstr "Prosessorbruk for signalbehandling"
+
 msgctxt "#15100"
 msgid "Library"
 msgstr "Bibliotek"
@@ -6152,6 +6208,22 @@ msgstr "Tema"
 msgctxt "#15112"
 msgid "Default theme"
 msgstr "Standardtema"
+
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "Her kan du konfigurere forprosesseringmoduser. Dette prosesseringsnivået endrer bare inngangsdatastrømmen."
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "Her kan du konfigurere master-prosesseringsmoduser. Merk: Ved avspilling må bare en aktiv modues være valgt!"
+
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "Her kan du konfigurere utgangsomsamplingsprosessen. Merk: Bare en aktiv modus kan være valgt."
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "Her kan du konfigurere etterprosseserinsmoduser. Dette prosesseringsnivået kan brukes for å endre frekvensresponsen og korrigere volum."
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -6737,10 +6809,6 @@ msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
 msgstr "Er du sikker på at du ønsker å skjule denne kanalen?"
 
-msgctxt "#19040"
-msgid "Timer"
-msgstr "Tidsur"
-
 msgctxt "#19041"
 msgid "Are you sure you want to rename this recording?"
 msgstr "Er du sikker på at du ønsker å gi nytt navn til dette opptaket?"
@@ -6804,6 +6872,10 @@ msgstr "Ingen informasjon tilgjengelig"
 msgctxt "#19056"
 msgid "New timer"
 msgstr "Nytt tidsur"
+
+msgctxt "#19057"
+msgid "Timer disabled"
+msgstr "Tidtaker deaktivert"
 
 msgctxt "#19058"
 msgid "Timer enabled"
@@ -6869,6 +6941,10 @@ msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Utsett kanalbytte"
 
+msgctxt "#19074"
+msgid "Active"
+msgstr "Aktiv"
+
 msgctxt "#19075"
 msgid "Name"
 msgstr "Navn"
@@ -6881,9 +6957,29 @@ msgctxt "#19078"
 msgid "Channel"
 msgstr "Kanal"
 
+msgctxt "#19079"
+msgid "Days of week"
+msgstr "Ukedager"
+
+msgctxt "#19080"
+msgid "Begin"
+msgstr "Begynn"
+
+msgctxt "#19081"
+msgid "End"
+msgstr "Avslutt"
+
 msgctxt "#19082"
 msgid "Priority"
 msgstr "Prioritet"
+
+msgctxt "#19083"
+msgid "Lifetime"
+msgstr "Livstid"
+
+msgctxt "#19084"
+msgid "First day"
+msgstr "Første dag"
 
 msgctxt "#19085"
 msgid "Unknown channel %u"
@@ -7185,6 +7281,10 @@ msgctxt "#19160"
 msgid "to"
 msgstr "til"
 
+msgctxt "#19161"
+msgid "any time"
+msgstr "når som helst"
+
 msgctxt "#19162"
 msgid "Recording active"
 msgstr "Opptak aktivt"
@@ -7237,6 +7337,14 @@ msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "Standard levetid for opptak"
 
+msgctxt "#19175"
+msgid "Default start padding time"
+msgstr "Standard startmargin"
+
+msgctxt "#19176"
+msgid "Default end padding time"
+msgstr "Standard sluttmargin"
+
 msgctxt "#19177"
 msgid "Playback"
 msgstr "Avspilling"
@@ -7276,6 +7384,10 @@ msgstr "Slett data"
 msgctxt "#19186"
 msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
 msgstr "Alle dine TV-relaterte data (kanaler, grupper, programguide) vil bli slettet. Er du sikker?"
+
+msgctxt "#19187"
+msgid "Clearing all related data."
+msgstr "Nullstiller alle relaterte data"
 
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
@@ -7600,6 +7712,14 @@ msgstr "Ingen PVR-utvidelser ble funnet"
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "Du trenger en tuner, tilhørende programvare og en utvidelse for KODI for å kunne bruke PVR. Vennligst besøk http://kodi.wiki/view/PVR for å lære mer."
+
+msgctxt "#19273"
+msgid "No audio DSP add-ons could be found"
+msgstr "Ingen singnalbehandlingsutvidelser ble funnet"
+
+msgctxt "#19274"
+msgid "You need a add-on installed for the process of audio DSP signal. System becomes disabled."
+msgstr "Du trenger en utvidelse innstallert for å kunne utføre signalbehandling. Systemet blir deaktivert."
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -9397,6 +9517,10 @@ msgctxt "#20443"
 msgid "Do you want to refresh information for all items within this path?"
 msgstr "Ønsker du å oppdatere informasjon for alle elementer innen denne stien?"
 
+msgctxt "#20444"
+msgid "Add to library"
+msgstr "Legg til bibliotek."
+
 msgctxt "#20445"
 msgid "Fanart"
 msgstr "Fankunst"
@@ -9404,6 +9528,10 @@ msgstr "Fankunst"
 msgctxt "#20446"
 msgid "Locally stored information found. Ignore and refresh from Internet?"
 msgstr "Lokallagret informasjon funnet. Ignorere og oppdatere fra Internett?"
+
+msgctxt "#20447"
+msgid "Do you want to add the media from this source to your library?"
+msgstr "Vil du legge til media fra denne kilden til biblioteket ditt?"
 
 msgctxt "#20448"
 msgid "Couldn't download information"
@@ -9493,6 +9621,14 @@ msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Behold nåværende samling (%s)"
 
+msgctxt "#20470"
+msgid "Use movie sets for single movies"
+msgstr "Bruk filmsamlinger for enslige filmer"
+
+msgctxt "#20471"
+msgid "Show empty TV shows"
+msgstr "Vis tomme TV-serier"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Vis skjulte filer og mapper"
@@ -9524,6 +9660,26 @@ msgstr "Kobler til: %s"
 msgctxt "#21337"
 msgid "Never"
 msgstr "Aldri"
+
+msgctxt "#21338"
+msgid "Select version"
+msgstr "Velg versjon"
+
+msgctxt "#21339"
+msgid "Version %s"
+msgstr "Versjon %s"
+
+msgctxt "#21340"
+msgid "Auto-update"
+msgstr "Auto-oppdater"
+
+msgctxt "#21341"
+msgid "No updates available"
+msgstr "Ingen oppdateringer tilgjengelige"
+
+msgctxt "#21342"
+msgid "There are currently no updates available for this add-on."
+msgstr "Det er for tiden ingen tilgjengelige oppdateringer for denne utvidelsen"
 
 msgctxt "#21359"
 msgid "Add media share..."
@@ -10005,6 +10161,14 @@ msgctxt "#21478"
 msgid "Open"
 msgstr "Åpne"
 
+msgctxt "#21479"
+msgid "Run"
+msgstr "Kjør"
+
+msgctxt "#21480"
+msgid "Use"
+msgstr "Bruk"
+
 msgctxt "#21602"
 msgid "(External)"
 msgstr "(Ekstern)"
@@ -10140,6 +10304,10 @@ msgstr "Høyde over havet (GPS)"
 msgctxt "#21843"
 msgid "Orientation"
 msgstr "Orientering "
+
+msgctxt "#21844"
+msgid "XP comment"
+msgstr "XP-kommentar"
 
 msgctxt "#21857"
 msgid "Sub-location"
@@ -10581,6 +10749,10 @@ msgctxt "#24024"
 msgid "Add-on disabled"
 msgstr "Utvidelse deaktivert"
 
+msgctxt "#24025"
+msgid "Context menus"
+msgstr "Hurtigmenyer"
+
 msgctxt "#24026"
 msgid "Languages"
 msgstr "Språk"
@@ -10617,6 +10789,10 @@ msgctxt "#24034"
 msgid "Check for updates"
 msgstr "Se etter oppdateringer"
 
+msgctxt "#24035"
+msgid "Image collections"
+msgstr "Bildesamlinger"
+
 msgctxt "#24036"
 msgid "Changelog"
 msgstr "Endringslogg"
@@ -10652,6 +10828,10 @@ msgstr "Tilgjengelige oppdateringer"
 msgctxt "#24044"
 msgid "Dependencies not met. Please contact add-on author."
 msgstr "Avhengigheter er ikke tilfredsstilt. Kontakt utvikler av utvidelsen."
+
+msgctxt "#24045"
+msgid "Failed to install Add-on from zip file"
+msgstr "Innstallering av utvidelse fra zip-fil feilet"
 
 msgctxt "#24046"
 msgid "%s is used by the following installed add-on(s)"
@@ -10708,6 +10888,10 @@ msgstr "Ønsker du å aktivere denne utvidelsen?"
 msgctxt "#24060"
 msgid "Would you like to disable this add-on?"
 msgstr "Ønsker du å deaktivere denne utvidelsen?"
+
+msgctxt "#24061"
+msgid "Add-on updates available"
+msgstr "Utvidelsesoppdateringer er tilgjengelige"
 
 msgctxt "#24062"
 msgid "Enabled add-ons"
@@ -10813,6 +10997,10 @@ msgctxt "#24087"
 msgid "All repositories"
 msgstr "Alle pakkebrønner"
 
+msgctxt "#24088"
+msgid "The DSP add-on is currently in use and can't be modified."
+msgstr "Signalbehandlingsutvidelsen er i bruk of kan ikke endres for øyeblikket."
+
 msgctxt "#24089"
 msgid "Add-on restarts"
 msgstr "Utvidelse starter på nytt"
@@ -10832,6 +11020,10 @@ msgstr "Ser etter oppdateringer"
 msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Sjekker %s..."
+
+msgctxt "#24095"
+msgid "Local package cache"
+msgstr "Lokalt pakkelager"
 
 msgctxt "#24096"
 msgid "Add-on is incompatible or has been marked broken in repository."
@@ -10989,9 +11181,61 @@ msgctxt "#24134"
 msgid "We were unable to load your configured language. Please check your language settings."
 msgstr "Vi kunne ikke laste ditt konfigurerte språk. Vennligst kontroller dine språkinnstillinger."
 
+msgctxt "#24135"
+msgid "Audio DSP"
+msgstr "Lydsignalbehandler"
+
+msgctxt "#24136"
+msgid "Audio DSP..."
+msgstr "Lydsignalbehandler"
+
+msgctxt "#24137"
+msgid "Not allowed"
+msgstr "Nektet"
+
+msgctxt "#24138"
+msgid "DSP add-on is currently in use and can't be removed."
+msgstr "Signalbehandlingsutvidelse er for tiden i bruk og kan ikke fjernes."
+
+msgctxt "#24139"
+msgid "View Add-on"
+msgstr "Vis utvidelse"
+
+msgctxt "#24140"
+msgid "View"
+msgstr "Vis"
+
 msgctxt "#24141"
 msgid "Add-on disabled"
 msgstr "Utvidelse deaktivert"
+
+msgctxt "#24142"
+msgid "The dependency on %s version %s could not be satisfied."
+msgstr "Avhengigheten av %s versjon %s kunne ikke tilfredsstilles."
+
+msgctxt "#24143"
+msgid "Installing the Add-on from zip file located at %s failed due to an invalid structure."
+msgstr "Installasjon av programtillegg fra zip-filen som finnes i %s feilet på grunn av ugyldig struktur."
+
+msgctxt "#24144"
+msgid "Add-on uninstalled"
+msgstr "Utvidelse avinstallert"
+
+msgctxt "#24145"
+msgid "Video library scanner"
+msgstr "Videobiblioteksøker"
+
+msgctxt "#24146"
+msgid "Music library scanner"
+msgstr "Musikkbiblioteksøker"
+
+msgctxt "#24147"
+msgid "Failed to scan %s: %s"
+msgstr "Søk feilet ved %s: %s"
+
+msgctxt "#24991"
+msgid "Could not connect to repository."
+msgstr "Kunne ikke koble til pakkebrønn"
 
 msgctxt "#24992"
 msgid "System"
@@ -11012,6 +11256,10 @@ msgstr "Foreldreløse avhengigheter"
 msgctxt "#24996"
 msgid "Dependencies"
 msgstr "Avhengigheter"
+
+msgctxt "#24997"
+msgid "Look and feel"
+msgstr "Utseende"
 
 msgctxt "#24998"
 msgid "My add-ons"
@@ -11073,13 +11321,37 @@ msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "Gjennomkoblingslyd i bruk"
 
+msgctxt "#29901"
+msgid "Band"
+msgstr "Bånd"
+
 msgctxt "#29902"
 msgid "Style"
 msgstr "Stil"
 
+msgctxt "#29903"
+msgid "Composer"
+msgstr "Komponist"
+
 msgctxt "#29904"
 msgid "Artist"
 msgstr "Artist"
+
+msgctxt "#29905"
+msgid "Conductor"
+msgstr "Dirigent"
+
+msgctxt "#29906"
+msgid "Moderator"
+msgstr "Moderator"
+
+msgctxt "#29907"
+msgid "Editorial Staff"
+msgstr "Redaksjon"
+
+msgctxt "#29908"
+msgid "Program"
+msgstr "Program"
 
 msgctxt "#29909"
 msgid "Studio"
@@ -11089,33 +11361,277 @@ msgctxt "#29910"
 msgid "Phone"
 msgstr "Telefon"
 
+msgctxt "#29911"
+msgid "EMail"
+msgstr "E-post"
+
+msgctxt "#29912"
+msgid "SMS"
+msgstr "SMS"
+
+msgctxt "#29913"
+msgid "Hotline"
+msgstr "Direktelinje"
+
+msgctxt "#29914"
+msgid "Website"
+msgstr "Nettside"
+
 msgctxt "#29915"
 msgid "Info"
 msgstr "Informasjon"
+
+msgctxt "#29916"
+msgid "News"
+msgstr "Nyheter"
+
+msgctxt "#29917"
+msgid "News local"
+msgstr "Lokalnyheter"
+
+msgctxt "#29918"
+msgid "Sport"
+msgstr "Sport"
+
+msgctxt "#29919"
+msgid "Lottery"
+msgstr "Lotteri"
+
+msgctxt "#29920"
+msgid "Stock"
+msgstr "Børs"
+
+msgctxt "#29921"
+msgid "Other"
+msgstr "Annet"
+
+msgctxt "#29922"
+msgid "Horoscope"
+msgstr "Horoskop"
+
+msgctxt "#29926"
+msgid "Adult hits"
+msgstr "Voksen hits"
+
+msgctxt "#29927"
+msgid "Spanish talk"
+msgstr "Spansk prat"
+
+msgctxt "#29928"
+msgid "Spanish music"
+msgstr "Spansk musikk"
+
+msgctxt "#29929"
+msgid "Hip hop"
+msgstr "Hiphop"
+
+msgctxt "#29930"
+msgid "Radio Traffic advisory message!"
+msgstr "Veitrafikkmelding fra radioen!"
+
+msgctxt "#29931"
+msgid "Radio message"
+msgstr "Radiomelding"
 
 msgctxt "#29932"
 msgid "Language"
 msgstr "Språk"
 
+msgctxt "#29933"
+msgid "College"
+msgstr "Universitet"
+
+msgctxt "#29934"
+msgid "Personality"
+msgstr "Personalitet"
+
+msgctxt "#29935"
+msgid "Public"
+msgstr "Allment"
+
+msgctxt "#29936"
+msgid "Soft music"
+msgstr "Dempet musikk"
+
+msgctxt "#29937"
+msgid "Adult hits"
+msgstr "Voksen hits"
+
+msgctxt "#29938"
+msgid "Soft rock"
+msgstr "Dempet rock"
+
+msgctxt "#29939"
+msgid "Talk"
+msgstr "Prat"
+
+msgctxt "#29940"
+msgid "No programme type"
+msgstr "Ingen programtype"
+
+msgctxt "#29941"
+msgid "News"
+msgstr "Nyheter"
+
+msgctxt "#29942"
+msgid "Current affairs"
+msgstr "Aktualiteter"
+
 msgctxt "#29943"
 msgid "Information"
 msgstr "Informasjon"
+
+msgctxt "#29944"
+msgid "Sport"
+msgstr "Sport"
+
+msgctxt "#29945"
+msgid "Education"
+msgstr "Utdanning"
 
 msgctxt "#29946"
 msgid "Drama"
 msgstr "Drama"
 
+msgctxt "#29947"
+msgid "Culture"
+msgstr "Kultur"
+
+msgctxt "#29948"
+msgid "Science"
+msgstr "Vitenskap"
+
+msgctxt "#29949"
+msgid "Varied"
+msgstr "Variert"
+
+msgctxt "#29950"
+msgid "Pop music"
+msgstr "Popmusikk"
+
+msgctxt "#29951"
+msgid "Rock music"
+msgstr "Rock"
+
+msgctxt "#29952"
+msgid "Easy listening music"
+msgstr "Letthørt musikk"
+
+msgctxt "#29953"
+msgid "Light classical"
+msgstr "Lettfattelig klassisk"
+
+msgctxt "#29954"
+msgid "Serious classical"
+msgstr "Seriøs klassisk"
+
+msgctxt "#29955"
+msgid "Other music"
+msgstr "Annen musikk"
+
 msgctxt "#29956"
 msgid "Weather"
 msgstr "Vær"
+
+msgctxt "#29957"
+msgid "Finance"
+msgstr "Finans"
+
+msgctxt "#29958"
+msgid "Children's Programmes"
+msgstr "Barneprogrammer"
+
+msgctxt "#29959"
+msgid "Social Affairs"
+msgstr "Sosiale øyemed"
 
 msgctxt "#29960"
 msgid "Religion"
 msgstr "Religion"
 
+msgctxt "#29961"
+msgid "Phone-in"
+msgstr "Innringingsprogrammer"
+
+msgctxt "#29962"
+msgid "Travel"
+msgstr "Reise"
+
+msgctxt "#29963"
+msgid "Leisure"
+msgstr "Avslapping"
+
+msgctxt "#29964"
+msgid "Jazz Music"
+msgstr "Jazz"
+
+msgctxt "#29965"
+msgid "Country Music"
+msgstr "Bondsk musikk"
+
+msgctxt "#29966"
+msgid "National Music"
+msgstr "Nasjonal musikk"
+
+msgctxt "#29967"
+msgid "Oldies Music"
+msgstr "Gammeldans"
+
+msgctxt "#29968"
+msgid "Folk Music"
+msgstr "Folkemusikk"
+
 msgctxt "#29969"
 msgid "Documentary"
 msgstr "Dokumentar"
+
+msgctxt "#29970"
+msgid "Alarm Test"
+msgstr "Alarmtest"
+
+msgctxt "#29971"
+msgid "Alarm"
+msgstr "Alarm"
+
+msgctxt "#29977"
+msgid "Classic rock music"
+msgstr "Klassisk rock"
+
+msgctxt "#29978"
+msgid "Classical"
+msgstr "Klassisk"
+
+msgctxt "#29979"
+msgid "Nostalgia"
+msgstr "Nostalgi"
+
+msgctxt "#29980"
+msgid "Enable RDS for radio channels"
+msgstr "Skru på RDS for radio-kanaler"
+
+msgctxt "#29981"
+msgid "RDS data can be used if present"
+msgstr "RDS-data kan brukes hvis tilgjengelig"
+
+msgctxt "#29982"
+msgid "Message traffic advisory"
+msgstr "Trafikkmeldinger"
+
+msgctxt "#29983"
+msgid "RDS inform you about traffic advisory messages"
+msgstr "RDS Trafikkmeldinger"
+
+msgctxt "#29984"
+msgid "Increase volume on traffic advisory"
+msgstr "Øk volum ved trafikkmeldinger"
+
+msgctxt "#29985"
+msgid "If traffic advisory is send from RDS, volume is increased"
+msgstr "Volum økes ved innkommende RDS trafikkmelding"
+
+msgctxt "#29986"
+msgid "Publicate traffic messages"
+msgstr "Publicate trafikkmeldinger"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -12009,6 +12525,10 @@ msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "Velg i hvilke tilfeller du ønsker å skjule visning av sesonger for TV-serier. Hvis skjult, vil valg av en TV-serie hoppe direkte til visning av episoder."
 
+msgctxt "#36145"
+msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have it's own entry in the movie library even if it belongs to a set."
+msgstr "Når aktivert, så vil filmer som tilhører ett \"Filmsett\" grupperes sammen under én oppføring i filmbiblioteket. Oppføringen kan så åpnes for å vise de enkelte filmene. Når deaktivert, vil hver film har sin egen oppføring i filmbiblioteket selv om det tilhører ett sett."
+
 msgctxt "#36146"
 msgid "Check for new media files on startup."
 msgstr "Sjekk for nye mediafiler ved oppstart."
@@ -12053,6 +12573,10 @@ msgctxt "#36156"
 msgid "Enable VAAPI hardware decoding of video files, mainly used for Intel graphics and in some circumstances AMD graphics."
 msgstr "Aktiver VAAPI-maskinvaredekoding av videofiler, brukes hovedsakelig for Intel-grafikk og i noen tilfeller AMD-grafikk."
 
+msgctxt "#36157"
+msgid "When enabled, a \"Movie set\" entry is used even if the movie library contains only a single movie from that set. When disabled, a \"Movie set\" entry is used only if the movie library contains more than one movie from that set."
+msgstr "Når aktivert, så vil det alltid benyttes \"Filmsett\" oppføringer i filmbiblioteket, selv når det det bare er én film i settet. Når deaktivert, benyttes kun \"Filmsett\" når det er to eller flere filmer i settet."
+
 msgctxt "#36158"
 msgid "Enable DXVA2 hardware decoding of video files."
 msgstr "Aktiver DXVA2-maskinvaredekoding av videofiler."
@@ -12072,6 +12596,10 @@ msgstr "Aktiver OpenMac-maskinvaredekoding av videofiler."
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "Aktiver VideoToolbox-maskinvaredekoding av videofiler."
+
+msgctxt "#36163"
+msgid "Show TV shows with no episodes when browsing the video library."
+msgstr "Vis TV-serier uten episoder når en blar i biblioteket "
 
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
@@ -12332,6 +12860,10 @@ msgstr "Vis informasjon om signalkvaliteten i vinduet for kodekinformasjon (hvis
 msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Tid å vente på at en kanal skal mottas etter en kanalendring. Nyttig for kanaler som sendes over lufta som tidvis mister signalstyrke."
+
+msgctxt "#36231"
+msgid "When flipping through channels using channel up/down buttons or when pressing a number button in full screen mode, channel switches must be confirmed using the OK button."
+msgstr "Når du blar gjennom kanaler med kanal opp/ned-knappene, eller når du trykker på en talltast i fullskjermmodus, så må kanalbyttet bekreftes med OK-knappen."
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -12781,6 +13313,10 @@ msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "I en flerskjermkonfigurasjon, er skjermene som ikke viser denne applikasjonen mørklagt."
 
+msgctxt "#36356"
+msgid "Eliminates tearing."
+msgstr "Eliminerer bilderiving."
+
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Kalibrer brukergrensesnittet ved å korrigere for overskan. Bruk dette verktøyet hvis bildet som vises på skjermen er for stor eller for lite."
@@ -12817,6 +13353,10 @@ msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 msgstr "Velg dette alternativet hvis mottakeren din er i stand til å dekode Dolby Digital (AC3) strømmer."
 
+msgctxt "#36366"
+msgid "Select this option if your receiver is capable of decoding DTS streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "Benytt dette alternativet dersom din mottager kan dekode DTS strømmer. Merk: Hvis du aktiverer denne, så deaktiveres \"8 kanals DTS-HD-lyd dekoding\" alternativet."
+
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Velg høyeste antall lydkanaler/høyttalere tilgjengelig for dekodet lyd. Dersom optisk/coax-digitalutgang brukes må denne settes til 2.0"
@@ -12828,6 +13368,10 @@ msgstr "Velg for å aktivere alternativene for gjennomkobling av lyd kodet som D
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Velg dette alternativet hvis mottakeren din er i stand til å avkode TrueHD-strømmer."
+
+msgctxt "#36370"
+msgid "Select this option if your receiver is capable of decoding DTS-HD streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "Benytt dette alternativet dersom din mottager kan dekode DTS-HD strømmer. Merk: Hvis du aktiverer denne, så deaktiveres \"8 kanals DTS-HD-lyd dekoding\" alternativet."
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -12908,6 +13452,10 @@ msgstr "Angi tiden for å vente på enhver aktivitet å skje før avsluttes."
 msgctxt "#36390"
 msgid "Define what action to perform when the shutdown function timer lapsed."
 msgstr "Angi hva som skal skje når tidsuret for automatisk avslutning har telt ned."
+
+msgctxt "#36391"
+msgid "This category contains the settings for enabling event and debug logging. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
+msgstr "Denne kategorien inneholder innstillinger for å aktivere hendelse- og feilsøkingslogging. Du kan også aktivere komponentspesifikk feilsøkingslogging for å feilsøke relaterte problemstillinger i mer detalj."
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
@@ -13033,6 +13581,10 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Aktiver maskinvaredekoding ved å benytte AMLogic-dekoder."
 
+msgctxt "#36423"
+msgid "Repeating schedules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "Repeterende tidsplaner skal bare spille inn nye episoder. Støttes ikke av alle utvidelser og tjenerdeler."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
 msgstr "Velg hva som vil skje når et element velges i programguiden: [Vis hurtigmeny] Vil utløse kontekstmenyen der du kan velge videre handlinger; [Bytt til kanal] vil umiddelbart stille inn den aktuelle kanalen; [Vis informasjon] Vil vise detaljert informasjon med handling og flere alternativer; [Ta opp] Vil lage et tidsur opptak av det valgte elementet."
@@ -13061,6 +13613,10 @@ msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
 msgstr "Konfigurer hvordan videoprosessering vil bli akselerert. Dette inkluderer ting som dekoding og skalering."
 
+msgctxt "#36431"
+msgid "Shows all events in the event log for the current profile with options to only show specific levels."
+msgstr "Viser alle hendelser i hendelsesloggen for den gjeldende profilen med alternativer for å kun vise bestemte nivåer."
+
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Velg oppsett for virtuelt tastatur."
@@ -13076,6 +13632,38 @@ msgstr "Tillat maskinvareakselerasjon - MMAL"
 msgctxt "#36435"
 msgid "Use DVDPlayer for decoding of video files with MMAL acceleration."
 msgstr "Bruk DVDPlayer for dekoding av videofiler med MMAL aksellerasjon"
+
+msgctxt "#36436"
+msgid "Audio DSP manager..."
+msgstr "Lydsignalbehandler..."
+
+msgctxt "#36437"
+msgid "Allows to configure available modes for different stages in audio processing and to arrange the steps within the processing chain of each selected mode."
+msgstr "Gjør det mulig å konfigurere tilgjengelige innstillinger for forskjellige stadier i lydprosessering og å ordne trinnene i produksjonskjeden for hver valgt modus."
+
+msgctxt "#36438"
+msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
+msgstr "Aktiverer signalbehandling (DSP) av lydkanaler spesifisert av høyttaleroppsettet."
+
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database is being erased."
+msgstr "Alle data (utvidelse-innstillinger og lyd DSP behandler innstillinger) i lyd DSP databasen blir slettet."
+
+msgctxt "#36440"
+msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
+msgstr "Fjerner alle innstillinger for signalbehandlingsutvidelse og signalbehandlingsbehandler i lydsignalbehandlingsdatabasen."
+
+msgctxt "#36441"
+msgid "Enable audio DSP processing"
+msgstr "Aktiver signalbehandling for lyd"
+
+msgctxt "#36460"
+msgid "Event logging allows to keep track of what has happened."
+msgstr "Hendelseslogg holder orden på hva som har skjedd"
+
+msgctxt "#36461"
+msgid "Notification event describe regular processes and actions performed by the system or the user."
+msgstr "Varslingshendelse beskriver vanlige prosesser og handlinger utført av systemet eller brukeren."
 
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
@@ -13120,6 +13708,10 @@ msgstr "Monoskopisk / 2D"
 msgctxt "#36510"
 msgid "Anaglyph yellow / blue"
 msgstr "Anaglyf gul / blå"
+
+msgctxt "#36511"
+msgid "Checkerboard"
+msgstr "Sjakkbrett/Checkerboard"
 
 msgctxt "#36520"
 msgid "Playback mode of stereoscopic 3D videos"
@@ -13224,6 +13816,18 @@ msgstr "Bruk teksturer av høyere kvalitet for omslag og fankunst (bruker mer mi
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Begrenser GUI-oppløsningen for å spare minne. Påvirker ikke videoavspilling. Krever omstart."
+
+msgctxt "#36549"
+msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
+msgstr "Aktiverer støtte for å motta \"Videoer\" og \"Bilder\" via AirPlay. Dette må være deaktivert når du bruker iOS 9 eller nyere klienter å gjenopprette musikkstrømming via AirPlay. \"Videos\" og \"Bilder\" støttes bare for iOS-klienter som bruker iOS 8.x og eldre."
+
+msgctxt "#36550"
+msgid "Stereoscopic 3D effect strength"
+msgstr "Styrke av stereoskopisk 3D effekt"
+
+msgctxt "#36551"
+msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
+msgstr "Definerer styrken på stereoskopisk 3D effekt i GUI. Dette gjøres ved å kontrollere dybden av persepsjon i GUI, så jo høyere verdi, jo flere elementer sprette ut av skjermen. [Null] Deaktiverer stereoskopisk 3D effekt i GUI. [CR] For en god visuell opplevelse, bør verdien være høyere for små skjermer og lavere for store skjermer. Merk: Dette støttes ikke av alle skall."
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -13505,9 +14109,21 @@ msgctxt "#38016"
 msgid "%d fps"
 msgstr "%d fps"
 
+msgctxt "#38017"
+msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
+msgstr "Region A - De amerikanske kontinentene, Øst-Asia og Sørøst-Asia, Region B - Afrika, Midtøsten, Sørvest-Asia, Europa, Australia, Ny-Zealand. Region C - Sentral-Asia, Kontinental-Kina, Mongolia, Sør-Asia, Hviterussland, Russland, Ukraina, Kasakhstan."
+
 msgctxt "#38018"
 msgid "My rating"
 msgstr "Min vurdering"
+
+msgctxt "#38019"
+msgid "Support 8 channel DTS-HD audio decoding"
+msgstr "Støtter 8-kanals DTS-HD lyddekoding"
+
+msgctxt "#38020"
+msgid "Enables decoding of high quality DTS-HD audio streams. Note: This increases CPU load and is only available when DTS and DTS-HD audio passthrough are disabled."
+msgstr "Aktiverer dekoding av høykvalitets DTS-HD lydstrømmer. Merk: Dette øker CPU belastning og er bare tilgjengelig når DTS og DTS-HD lydgjennomgang er deaktivert."
 
 msgctxt "#38022"
 msgid "No rating"

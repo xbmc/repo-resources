@@ -1863,7 +1863,7 @@ msgstr "Buscando nombres de los álbumes..."
 
 msgctxt "#502"
 msgid "Open"
-msgstr "Abierto"
+msgstr "Abrir"
 
 msgctxt "#503"
 msgid "Busy"
@@ -3863,7 +3863,7 @@ msgstr "Experto"
 
 msgctxt "#10040"
 msgid "Add-on browser"
-msgstr "Buscador de addons"
+msgstr "Buscador de add-ons"
 
 msgctxt "#10041"
 msgid "Reset above settings to default"
@@ -4459,7 +4459,7 @@ msgstr "Esperando a que la red se conecte..."
 
 msgctxt "#13029"
 msgid "Failed to execute Wake-on-LAN!"
-msgstr "¡Fallo al ejecutar Wake-on-LAN!"
+msgstr "¡Error al ejecutar Wake-on-LAN!"
 
 msgctxt "#13030"
 msgid "Waiting for server to wake up..."
@@ -6213,10 +6213,6 @@ msgctxt "#15113"
 msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
 msgstr "Aquí puede configurar los modos de preprocesamiento. Esta fase del procesamiento sólo cambia el flujo de datos de entrada."
 
-msgctxt "#15114"
-msgid "Here you can configure a input resampling process. Notice: Only one active mode is allowed!"
-msgstr "Aquí puede configurar el proceso de resampleado de entrada. ¡Aviso: sólo se permite un modo activo!"
-
 msgctxt "#15115"
 msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
 msgstr "Aquí puede configurar los modos de procesamiento del maestro. ¡Aviso: Durante la reproducción sólo se puede seleccionar un modo activo!"
@@ -6813,10 +6809,6 @@ msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
 msgstr "¿Está seguro de que desea ocultar este canal?"
 
-msgctxt "#19040"
-msgid "Timer"
-msgstr "Temporizadores"
-
 msgctxt "#19041"
 msgid "Are you sure you want to rename this recording?"
 msgstr "¿Está seguro de que quiere renombrar esta grabación?"
@@ -7392,6 +7384,10 @@ msgstr "Borrar datos"
 msgctxt "#19186"
 msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
 msgstr "Todos los datos relacionados con la televisión (canales, grupos, guía) se borrarán. ¿Estas seguro?"
+
+msgctxt "#19187"
+msgid "Clearing all related data."
+msgstr "Borrando todos los datos relacionados."
 
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
@@ -10835,7 +10831,7 @@ msgstr "No se han encontrado las dependencias. Por favor, contacte con el autor 
 
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
-msgstr "Falto la instalación del Add-on desde un fichero zip"
+msgstr "Falló la instalación del Add-on desde un fichero zip"
 
 msgctxt "#24046"
 msgid "%s is used by the following installed add-on(s)"
@@ -11325,10 +11321,6 @@ msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "Pasarela de audio en uso"
 
-msgctxt "#29900"
-msgid "RadiotextPlus info"
-msgstr "Información de RadiotextPlus"
-
 msgctxt "#29901"
 msgid "Band"
 msgstr "Banda"
@@ -11640,10 +11632,6 @@ msgstr "SI se envían advertencias de tráfico por RDS, se aumentará el volumen
 msgctxt "#29986"
 msgid "Publicate traffic messages"
 msgstr "Publicar mensajes de tráfico"
-
-msgctxt "#29987"
-msgid "Send present traffic messages around and can be handled from addons (nothing inside KODI)"
-msgstr "Envía mensajes activos de tráfico alrededor y puede ser manejado por addons (no dentro de KODI)"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -12891,11 +12879,11 @@ msgstr "Duración de las grabaciones instantáneas al pulsar el botón de grabac
 
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
-msgstr "Prioridad de la grabación. Un número más alto significa una mayor prioridad. No es compatible con todos los complementos y backends."
+msgstr "Prioridad de la grabación. Un número más alto significa una mayor prioridad. No es compatible con todos los add-ons y backends."
 
 msgctxt "#36236"
 msgid "Delete recording after this time. Not supported by all add-ons and backends."
-msgstr "Eliminar la grabación después de este tiempo. No es compatible con todos los complementos y backends."
+msgstr "Eliminar la grabación después de este tiempo. No es compatible con todos los add-ons y backends."
 
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
@@ -13595,7 +13583,7 @@ msgstr "Activar la decodificación de vídeo por hardware utilizando decodificad
 
 msgctxt "#36423"
 msgid "Repeating schedules shall only record new episodes. Not supported by all add-ons and backends."
-msgstr "Repetir programaciones sólo grabará nuevos episodios. No es compatible con todos los addons y backends."
+msgstr "Repetir programaciones sólo grabará nuevos episodios. No es compatible con todos los add-ons y backends."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
@@ -13828,6 +13816,18 @@ msgstr "Utilice texturas de mayor calidad para las cubiertas y fanart (utiliza m
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Limita la resolución de la interfaz de usuario para ahorrar memoria. No afecta a la reproducción de video. Requiere reiniciar."
+
+msgctxt "#36549"
+msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
+msgstr "Habilita el soporte para recibir videos e imágenes mediante Airplay. Necesita estar deshabilitado cuando use clientes iOS9 o posteriores para restaurar la emisión de música via Airplay. Los videos y las imágenes sólo están soportados por clientes iOS que usen la versión 8.x o anteriores."
+
+msgctxt "#36550"
+msgid "Stereoscopic 3D effect strength"
+msgstr "Potencia del efecto 3D estereoscópico"
+
+msgctxt "#36551"
+msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
+msgstr "Define la fuerza del efecto estereoscopio 3d en el interfaz. Se realiza controlando la profundidad de percepción en la interfaz; cuanto más alto es el valor, más elementos se destacarán en pantalla. [Cero] Deshabita el efecto estereoscopio 3D del interfaz. [CR] Para un buena experiencia visual, el valor debería ser más alto para pantallas pequeñas y más bajo para pantallas grandes. Nota: no funciona en todos los skins. "
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -14109,6 +14109,10 @@ msgctxt "#38016"
 msgid "%d fps"
 msgstr "%d fps (cuadros por segundo)"
 
+msgctxt "#38017"
+msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
+msgstr "Región A - Américas, Asia del Este y Sudeste Asiático. Región B - Africa, Medio Oeste, Suroeste Asiático, Europa, Australia, Nueva Zelanda. Región C - Asia Central, China, Mongolia, Asia del Sur, Bielorrusia, Rusia, Ucrania, Kazajistán."
+
 msgctxt "#38018"
 msgid "My rating"
 msgstr "Mi calificación"
@@ -14116,6 +14120,10 @@ msgstr "Mi calificación"
 msgctxt "#38019"
 msgid "Support 8 channel DTS-HD audio decoding"
 msgstr "Soporta la descodificación de audio DTS-HD de 8 canales"
+
+msgctxt "#38020"
+msgid "Enables decoding of high quality DTS-HD audio streams. Note: This increases CPU load and is only available when DTS and DTS-HD audio passthrough are disabled."
+msgstr "Habilita la descodificación de alta calidad DTS-HD para flujos de audio. Nota: Incrementa la carga CPU y sólo está disponible cuando el audio passthrough está deshabilitado."
 
 msgctxt "#38022"
 msgid "No rating"

@@ -6213,10 +6213,6 @@ msgctxt "#15113"
 msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
 msgstr "您可以在這裡設定前置處理的模式，這個步驟僅改變輸入的資料流。"
 
-msgctxt "#15114"
-msgid "Here you can configure a input resampling process. Notice: Only one active mode is allowed!"
-msgstr "您可以在這裡調整重取樣器的設定。注意：只允許啟用單一模式！"
-
 msgctxt "#15115"
 msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
 msgstr "您可以在這裡設定後製處理的模式。注意：在播放中僅允許啟用單一模式！"
@@ -6813,10 +6809,6 @@ msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
 msgstr "你確定你要隱藏這個頻道嗎？"
 
-msgctxt "#19040"
-msgid "Timer"
-msgstr "定時器"
-
 msgctxt "#19041"
 msgid "Are you sure you want to rename this recording?"
 msgstr "你確定你要重新命名這個錄影嗎？"
@@ -7392,6 +7384,10 @@ msgstr "清除資料"
 msgctxt "#19186"
 msgid "All your TV related data (channels, groups, guide) will be cleared. Are you sure?"
 msgstr "所有的電視相關資料(頻道、群組、節目表)都會被清除，您確定嗎？"
+
+msgctxt "#19187"
+msgid "Clearing all related data."
+msgstr "清除所有相關的數據。"
 
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
@@ -11325,10 +11321,6 @@ msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "音效直通輸出啟用中"
 
-msgctxt "#29900"
-msgid "RadiotextPlus info"
-msgstr "RadiotextPlus 資訊"
-
 msgctxt "#29901"
 msgid "Band"
 msgstr "樂團"
@@ -12585,6 +12577,10 @@ msgctxt "#36175"
 msgid "Scale teletext to 4:3 ratio."
 msgstr "將電傳文訊比例調為 4:3。"
 
+msgctxt "#36176"
+msgid "This category contains the settings for how video file lists are handled."
+msgstr "此分類包含如何處理影片檔案列表的設定。"
+
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
 msgstr "從影片中擷取縮圖和如編碼和影片比例等詳細資訊。"
@@ -12596,6 +12592,10 @@ msgstr "當檔案被掃描進資料庫時顯示檔案資訊中的標題而非檔
 msgctxt "#36181"
 msgid "No info available yet."
 msgstr "無可用資訊。"
+
+msgctxt "#36184"
+msgid "This category contains the settings for how subtitles are handled."
+msgstr "此分類包含如何處理字幕檔的設定。"
 
 msgctxt "#36186"
 msgid "Set the font size to be used for subtitles."
@@ -12645,6 +12645,10 @@ msgctxt "#36197"
 msgid "No info available yet."
 msgstr "無可用資訊。"
 
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR / Live TV."
+msgstr "此分類包含預錄及即時電視節目的設定。"
+
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "從 PVR 後端匯入頻道群組 (如果支援的話)。 如果使用者建立的頻道群組在後端找不到的話將會被刪除。"
@@ -12656,6 +12660,10 @@ msgstr "開啟頻道管理員，它可以修改頻道順序、頻道名稱、圖
 msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
 msgstr "下掃描頻道的指令給後端 (如果後端支援的話)。"
+
+msgctxt "#36211"
+msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+msgstr "此分類包含 PVR 選單、播放控制列(OSD)和頻道資訊視窗的設定"
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -12673,6 +12681,14 @@ msgctxt "#36217"
 msgid "Scan for missing channel icons."
 msgstr "掃描缺少的頻道圖示"
 
+msgctxt "#36218"
+msgid "This category contains the electronic programming guide (EPG) settings."
+msgstr "此分類包含電子節目表(EPG)的設定。"
+
+msgctxt "#36226"
+msgid "This category contains the PVR playback and channel switching settings."
+msgstr "此分類包含 PVR 播放和頻道切換的設定。"
+
 msgctxt "#36228"
 msgid "Continue with the last viewed channel on startup."
 msgstr "啟動時切換到上次收看的頻道。"
@@ -12685,6 +12701,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "此分類包和預設錄影長度的設定。"
 
+msgctxt "#36240"
+msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
+msgstr "此分類包含 PVR 電源管理的設定，如何時要喚醒 PVR 後端伺服器。"
+
 msgctxt "#36245"
 msgid "Execute the wakeup command every day at the given time."
 msgstr "在每天指定的時間執行喚醒命令。"
@@ -12693,9 +12713,17 @@ msgctxt "#36246"
 msgid "When to execute the daily wakeup command."
 msgstr "每天執行喚醒命令的時間。"
 
+msgctxt "#36247"
+msgid "This category contains the parental control settings, if the PVR backend server supports parental controls."
+msgstr "如果 PVR 後端伺服器支援家長控制的話，此分類包含家長控制的設定。"
+
 msgctxt "#36249"
 msgid "Enter a new pin code to unlock parental locked channels."
 msgstr "輸入用來解開家長鎖定頻道的新密碼。"
+
+msgctxt "#36251"
+msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
+msgstr "如果 PVR 外掛及後端伺服器支援家長控制的話，此分類包含家長控制的設定。"
 
 msgctxt "#36255"
 msgid "Determine if artists that appear only on compilations are shown in the library artist view."
@@ -12716,6 +12744,10 @@ msgstr "無可用資訊。"
 msgctxt "#36263"
 msgid "Import a XML file into the music library database."
 msgstr "匯入一個 XML 檔到你的音樂資料庫。"
+
+msgctxt "#36264"
+msgid "This category contains the settings for how music playback is handled."
+msgstr "此分類包含如何處理音樂播放的設定。"
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
@@ -12744,6 +12776,10 @@ msgstr "控制音軌顯示的方式。為了正確的運作，必須啟用檔案
 msgctxt "#36276"
 msgid "Used for formatting the second column in file lists."
 msgstr "此選項用於設定檔案列表第二列的顯示格式。"
+
+msgctxt "#36282"
+msgid "This category contains the settings for how CDs are handled."
+msgstr "此分類包含如何處理CD播放的設定。"
 
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
@@ -12829,13 +12865,29 @@ msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "選擇要顯示天氣資訊的地區，最多三個。"
 
+msgctxt "#36320"
+msgid "This category contains the settings used for all services."
+msgstr "此分類包含全部服務相關的設定。"
+
+msgctxt "#36322"
+msgid "This category contains the settings for how the UPnP service is handled. UPnP is also called DLNA on most consumer electronics."
+msgstr "此分類包含UPnP服務的設定。在大部分的消費電子產品中，UPnp也叫做DLNA"
+
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
 msgstr "啟用 UPnP 客戶端。這將允許你從任何 UPnP 伺服器串流媒體且包含播放控制的功能。"
 
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service is handled."
+msgstr "此分類包含如何處理網頁伺服器服務的設定。"
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "設定網路伺服器的連接埠。"
+
+msgctxt "#36333"
+msgid "This category contains the settings for how the remote control service is handled."
+msgstr "此分類包含如何處理遠端遙控服務的設定。"
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -12857,6 +12909,10 @@ msgctxt "#36340"
 msgid "Continuous repeat delay (ms)."
 msgstr "連續重複延遲(毫秒)"
 
+msgctxt "#36341"
+msgid "This category contains the settings for how the Zeroconf network discovery service is handled, required for AirPlay."
+msgstr "此分類包含如何處理 AirPlay 所需要的 zeroconf 網路發現服務的設定。"
+
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
 msgstr "啟用 AirPlay 密碼保護"
@@ -12864,6 +12920,10 @@ msgstr "啟用 AirPlay 密碼保護"
 msgctxt "#36345"
 msgid "Sets the AirPlay password."
 msgstr "設定 AirPlay 的密碼。"
+
+msgctxt "#36346"
+msgid "This category contains the settings for how the SMB client (Samba) service is handled."
+msgstr "此分類包含如何處理 SMB 客戶端 (Samba) 服務的設定。"
 
 msgctxt "#36347"
 msgid "If a WINS server is running on the network, enter its IP address here. Otherwise, leave blank."
@@ -12937,6 +12997,10 @@ msgctxt "#36378"
 msgid "Use a joystick to control the interface."
 msgstr "使用遊戲手把來控制使用者介面。"
 
+msgctxt "#36379"
+msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
+msgstr "此分類包含如何處理網路存取的設定。也可以在這裡選擇預設使用的網頁介面。"
+
 msgctxt "#36380"
 msgid "If your Internet connection uses a proxy server, configure it here."
 msgstr "如果您的網路是使用代理伺服器連線，請於此進行配置。"
@@ -12969,6 +13033,10 @@ msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
 msgstr "閒置時關閉顯示器。當電視偵測不到訊號時，會自"
 
+msgctxt "#36391"
+msgid "This category contains the settings for enabling event and debug logging. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
+msgstr "此分類包含啟用事件及除錯建檔的設定。您可以啟用針對特定組件的除錯記錄檔，更多記錄細節對相關問題的排除更有幫助。"
+
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
 msgstr "開啟或關閉除厝訊息。找問題時很有用。"
@@ -12976,6 +13044,10 @@ msgstr "開啟或關閉除厝訊息。找問題時很有用。"
 msgctxt "#36393"
 msgid "Select the folder where screenshots should be saved in."
 msgstr "選擇要存放螢幕截圖的資料夾。"
+
+msgctxt "#36395"
+msgid "This category contains the settings for how the master lock function is handled."
+msgstr "此分類包含管理員密碼機制運作的設定。"
 
 msgctxt "#36399"
 msgid "This category contains the settings for how the cache function is handled."
@@ -13213,6 +13285,14 @@ msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "限制使用者介面的解析度來節省記憶體。這不會影響影片的播放。需要重新啟動。"
 
+msgctxt "#36550"
+msgid "Stereoscopic 3D effect strength"
+msgstr "3D 立體效果強度"
+
+msgctxt "#36551"
+msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
+msgstr "定義圖形使用者介面中的3D效果強度，藉由調整介面中物件的位移參數來達到此目的，所以數值越高，物件跳出畫面的效果越明顯，[Zero] 關閉介面中的3D效果。[CR]為得到較佳視覺體驗，螢幕較小時應將數值設高些，而大螢幕則搭配較小的數值。\n請注意：並所有主題都支援此設定"
+
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
 msgstr "此分類包含如何處理音樂資料庫的設定。"
@@ -13317,6 +13397,10 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "歌曲"
 
+msgctxt "#37000"
+msgid "(Visually impaired)"
+msgstr "(視障)"
+
 msgctxt "#37001"
 msgid "(Director's comments)"
 msgstr "(導演評論)"
@@ -13397,6 +13481,38 @@ msgctxt "#37030"
 msgid "Unlimited"
 msgstr "無限制的"
 
+msgctxt "#37032"
+msgid "Accessibility"
+msgstr "輔助使用"
+
+msgctxt "#37033"
+msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+msgstr "影像播放相關的輔助使用設定，如\"優先使用針對聽障者製作的字幕\""
+
+msgctxt "#37034"
+msgid "Prefer audio stream for the visually impaired"
+msgstr "優先採用針對視障者製作的音軌"
+
+msgctxt "#37035"
+msgid "Prefer the audio stream for the visually impaired to other audio streams of the same language"
+msgstr "若有多個同語系的音軌，優先採用針對視障者製作的版本"
+
+msgctxt "#37036"
+msgid "Prefer audio stream for the hearing impaired"
+msgstr "優先採用針對聽障者製作的音軌"
+
+msgctxt "#37037"
+msgid "Prefer the audio stream for the hearing impaired to other audio streams of the same language"
+msgstr "若有多個同語系的音軌，優先採用針對聽障者製作的版本"
+
+msgctxt "#37038"
+msgid "Prefer subtitles for the hearing impaired"
+msgstr "優先採用針對聽障者製作的字幕"
+
+msgctxt "#37039"
+msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
+msgstr "若有多個同語系的字幕，優先採用針對聽障者製作的版本"
+
 msgctxt "#37040"
 msgid "Prefer default audio streams"
 msgstr "偏好的預設音效串流"
@@ -13408,6 +13524,14 @@ msgstr "擷取章節縮圖"
 msgctxt "#38010"
 msgid "GPU accelerated"
 msgstr "顯示卡加速"
+
+msgctxt "#38011"
+msgid "Show \"All items\" entry"
+msgstr "顯示\"所有項目\"的選項"
+
+msgctxt "#38012"
+msgid "Show \"All items\" entry in directory, e.g. \"All albums\" or \"All seasons\"."
+msgstr "在目錄中顯示\"所有項目\"的選項，如\"所有專輯\"或\"全季\""
 
 msgctxt "#38015"
 msgid "Unlimited"
