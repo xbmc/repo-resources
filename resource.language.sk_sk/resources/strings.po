@@ -2885,6 +2885,14 @@ msgctxt "#812"
 msgid "Prevent duplicate episodes"
 msgstr "Zabrániť duplikovaniu epizód"
 
+msgctxt "#813"
+msgid "Start padding time"
+msgstr "Časová rezerva: pred plánovaným nahrávaním"
+
+msgctxt "#814"
+msgid "End padding time"
+msgstr "Časová rezerva: po plánovanom nahrávaní"
+
 msgctxt "#815"
 msgid "Record all episodes"
 msgstr "Nahrať všetky epizódy"
@@ -3356,6 +3364,10 @@ msgstr "Zeroconf"
 msgctxt "#1260"
 msgid "Announce services to other systems"
 msgstr "Ohlasovať služby ostatným systémom"
+
+msgctxt "#1268"
+msgid "Enable AirPlay \"Videos\" and \"Pictures\" support"
+msgstr "Aktivovať podporu AirPlay pre \"Videá\" a \"Obrázky\""
 
 msgctxt "#1269"
 msgid "Allow volume control"
@@ -6045,9 +6057,25 @@ msgctxt "#15052"
 msgid "Password"
 msgstr "Heslo"
 
+msgctxt "#15057"
+msgid "Input resampling"
+msgstr "Prevzorkovanie vstupu"
+
+msgctxt "#15058"
+msgid "Pre-processing"
+msgstr "Prvotné spracovanie"
+
+msgctxt "#15059"
+msgid "Master processing"
+msgstr "Hlavné spracovanie"
+
 msgctxt "#15060"
 msgid "Post-processing"
-msgstr "Post-processing"
+msgstr "Dodatočné spracovanie"
+
+msgctxt "#15061"
+msgid "Output resampling"
+msgstr "Prevzorkovanie výstupu"
 
 msgctxt "#15062"
 msgid "Detailed description"
@@ -6076,6 +6104,34 @@ msgstr "Nastavenia režimu"
 msgctxt "#15079"
 msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
 msgstr "Zmenili ste niektoré nastavenia funkcie DSP.\nChcete tieto nové nastavenia zachovať?"
+
+msgctxt "#15080"
+msgid "Change resampler"
+msgstr "Zmeniť algoritmus na prevzorkovanie"
+
+msgctxt "#15081"
+msgid "Process chain (with CPU usage)"
+msgstr "Reťazec spracovania (s využitím procesora)"
+
+msgctxt "#15082"
+msgid "Resampling to %i Hz"
+msgstr "Prebieha prevzorkovanie na %i Hz"
+
+msgctxt "#15083"
+msgid "Final resampling to %i Hz"
+msgstr "Záverečné prevzorkovanie na %i Hz"
+
+msgctxt "#15084"
+msgid "Master process"
+msgstr "Hlavné spracovanie"
+
+msgctxt "#15085"
+msgid "Pre-process"
+msgstr "Prvotné spracovanie"
+
+msgctxt "#15086"
+msgid "Post-process"
+msgstr "Dodatočné spracovanie"
 
 msgctxt "#15087"
 msgid "Input"
@@ -6153,9 +6209,29 @@ msgctxt "#15112"
 msgid "Default theme"
 msgstr "Predvolená téma"
 
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "Tu môžete nastaviť režimy prvotného spracovania. V tejto etape spracovania sa mení iba dátový tok vstupných dát."
+
+msgctxt "#15114"
+msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
+msgstr "Tu môžete nastaviť spracovanie prevzorkovania vstupu. Pozor: Je povolený iba jeden aktívny režim!"
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "Tu môžete nastaviť režimy hlavného spracovania. Pozor: Pri prehrávaní je možné vybrať iba jeden aktívny režim!"
+
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "Tu môžete nastaviť spracovanie prevzorkovania výstupu. Pozor: Je povolený iba jeden aktívny režim!"
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "Tu môžete nastaviť režimy dodatočného spracovania. Túto etapu spracovania možno použiť na ekvalizáciu a korekciu hlasitosti..."
+
 msgctxt "#15200"
 msgid "Last.fm"
-msgstr "Last.FM"
+msgstr "Last.fm"
 
 msgctxt "#15207"
 msgid "Connected"
@@ -6737,6 +6813,10 @@ msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
 msgstr "Skutočne chcete skryť tento kanál?"
 
+msgctxt "#19040"
+msgid "Timers"
+msgstr "Časovače"
+
 msgctxt "#19041"
 msgid "Are you sure you want to rename this recording?"
 msgstr "Skutočne chcete premenovať túto nahrávku?"
@@ -7001,6 +7081,10 @@ msgctxt "#19107"
 msgid "at"
 msgstr "v čase"
 
+msgctxt "#19108"
+msgid "Fallback framerate"
+msgstr "Záložná snímkovacia frekvencia"
+
 msgctxt "#19109"
 msgid "Couldn't save timer. Check the log for more information about this message."
 msgstr "Nepodarilo sa uložiť časovač. Skontrolujte denník udalostí, ktorý obsahuje viac informácií o tomto hlásení."
@@ -7260,6 +7344,14 @@ msgstr "Predvolená priorita nahrávania"
 msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "Predvolená životnosť nahrávania"
+
+msgctxt "#19175"
+msgid "Default start padding time"
+msgstr "Predvolená časová rezerva pred nahrávaním"
+
+msgctxt "#19176"
+msgid "Default end padding time"
+msgstr "Predvolená časová rezerva po nahrávaní"
 
 msgctxt "#19177"
 msgid "Playback"
