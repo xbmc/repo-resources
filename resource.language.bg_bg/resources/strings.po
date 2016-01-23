@@ -707,7 +707,7 @@ msgstr "Аудио дешифратори"
 
 msgctxt "#202"
 msgid "Tagline"
-msgstr "Лозунг"
+msgstr "Слоган"
 
 msgctxt "#203"
 msgid "Plot outline"
@@ -5175,7 +5175,7 @@ msgstr "Включва OMXPlayer за дешифриране на видео ф�
 
 msgctxt "#13505"
 msgid "Resample quality"
-msgstr "Качество на предискретизация"
+msgstr "Качество на дискретизация"
 
 msgctxt "#13506"
 msgid "Low (fast)"
@@ -5547,7 +5547,7 @@ msgstr "Прилагане на настройките сега?"
 
 msgctxt "#14070"
 msgid "Apply changes now"
-msgstr "Приложи настройките сега"
+msgstr "Приложи сега"
 
 msgctxt "#14071"
 msgid "Allow file renaming and deletion"
@@ -5616,6 +5616,10 @@ msgstr "Международни"
 msgctxt "#14091"
 msgid "Character set"
 msgstr "Кодировка"
+
+msgctxt "#14092"
+msgid "Logging"
+msgstr "Журнали"
 
 msgctxt "#14093"
 msgid "Security"
@@ -5697,6 +5701,10 @@ msgctxt "#14112"
 msgid "Enable event logging"
 msgstr "Включи журнала за събития"
 
+msgctxt "#14113"
+msgid "Enable notification event logging"
+msgstr "Записвай в журнала известията за събития"
+
 msgctxt "#14114"
 msgid "Show event log"
 msgstr "Покажи журнала за събитията"
@@ -5777,21 +5785,81 @@ msgctxt "#15019"
 msgid "Add"
 msgstr "Добави"
 
+msgctxt "#15020"
+msgid "Audio DSP manager"
+msgstr "DSP аудио диспечер"
+
 msgctxt "#15021"
 msgid "Content type"
 msgstr "Тип съдържание:"
+
+msgctxt "#15023"
+msgid "Master mode"
+msgstr "Главен режим"
+
+msgctxt "#15024"
+msgid "Pre-process setup..."
+msgstr "Настройки на подготовката..."
+
+msgctxt "#15026"
+msgid "Speaker / Output setup..."
+msgstr "Настройки на говорителите/изхода..."
 
 msgctxt "#15027"
 msgid "Audio information..."
 msgstr "Информация за аудиото..."
 
+msgctxt "#15028"
+msgid "Audio DSP settings - Main"
+msgstr "Настройки на DSP аудио диспечера - Главни"
+
+msgctxt "#15030"
+msgid "Audio DSP settings - Speaker / Output"
+msgstr "Настройки на DSP за аудио сигнала - Говорителите/Изход"
+
+msgctxt "#15031"
+msgid "Audio DSP settings - Audio information"
+msgstr "Настройки на DSP аудио диспечера - Аудио инф."
+
+msgctxt "#15033"
+msgid "Resampler setup..."
+msgstr "Настройки на дискретизирането..."
+
 msgctxt "#15034"
 msgid "Miscellaneous..."
 msgstr "Разни..."
 
+msgctxt "#15035"
+msgid "Audio DSP settings - Resampler"
+msgstr "Настройки на DSP за аудио сигнала - Дискретизиране"
+
+msgctxt "#15037"
+msgid "Audio DSP settings - Pre-process"
+msgstr "Настройки на DSP аудио диспечера - Подготовка"
+
+msgctxt "#15038"
+msgid "Audio DSP settings - Miscellaneous"
+msgstr "Настройки на DSP аудио диспечера - Разни"
+
+msgctxt "#15039"
+msgid "Pre-processing setup..."
+msgstr "Подготовка"
+
 msgctxt "#15042"
 msgid "Content:"
 msgstr "Тип съдържание:"
+
+msgctxt "#15047"
+msgid "Audio DSP settings"
+msgstr "Настройки на DSP аудио диспечера"
+
+msgctxt "#15048"
+msgid "No audio DSP add-on enabled"
+msgstr "Няма включена DSP аудио добавка"
+
+msgctxt "#15049"
+msgid "The audio DSP manager has been enabled without any enabled DSP add-on. Enable at least one add-on in order to use the DSP functionality."
+msgstr "DSP аудио диспечера е включен, но няма включена DSP добавка. Включете поне една за да ползвате DSP функционалността."
 
 msgctxt "#15050"
 msgid "Available modes"
@@ -5805,17 +5873,77 @@ msgctxt "#15052"
 msgid "Password"
 msgstr "Парола"
 
+msgctxt "#15057"
+msgid "Input resampling"
+msgstr "Вход"
+
+msgctxt "#15058"
+msgid "Pre-processing"
+msgstr "Подготовка"
+
+msgctxt "#15059"
+msgid "Master processing"
+msgstr "Главна обработка"
+
 msgctxt "#15060"
 msgid "Post-processing"
 msgstr "Пост обработка"
+
+msgctxt "#15061"
+msgid "Output resampling"
+msgstr "Изход"
 
 msgctxt "#15063"
 msgid "No description available"
 msgstr "Няма налично описание"
 
+msgctxt "#15064"
+msgid "Apply changes directly"
+msgstr "Директно прилагане"
+
+msgctxt "#15079"
+msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
+msgstr "Някои от DSP аудио настройките са променени.\nЖелаете ли новите настройки да бъдат запазени?"
+
+msgctxt "#15080"
+msgid "Change resampler"
+msgstr "Промени дискретизирането"
+
+msgctxt "#15084"
+msgid "Master process"
+msgstr "Главна обработка"
+
+msgctxt "#15085"
+msgid "Pre-process"
+msgstr "Подготовка"
+
+msgctxt "#15086"
+msgid "Post-process"
+msgstr "Пост обработка"
+
+msgctxt "#15087"
+msgid "Input"
+msgstr "Вход"
+
+msgctxt "#15088"
+msgid "Output"
+msgstr "Изход"
+
+msgctxt "#15089"
+msgid "Input signal"
+msgstr "Входящ сигнал"
+
+msgctxt "#15090"
+msgid "Output signal"
+msgstr "Изходящ сигнал"
+
 msgctxt "#15091"
 msgid "Positions"
 msgstr "Позиции"
+
+msgctxt "#15092"
+msgid "CPU usage for DSP"
+msgstr "Натоварване на централния процесор от DSP"
 
 msgctxt "#15100"
 msgid "Library"
@@ -5864,6 +5992,26 @@ msgstr "Тема"
 msgctxt "#15112"
 msgid "Default theme"
 msgstr "Стандартна тема"
+
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "Тук можете да настройте режимите за подготвяне на сигнала."
+
+msgctxt "#15114"
+msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
+msgstr "Тук можете да настройте процеса на дискретизиране на входящия сигнал. Бележка: само един режим може да бъде активен!"
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "Тук можете да настроите режимите за главния процес на обработване. Бележка: При възпроизвеждане само един режим може да бъде активен!"
+
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "Тук можете да настроите процеса на дискретизиране на изходящия сигнал. Бележка: само един режим може да бъде активен!"
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "Тук можете да настройте режимите за пост обработване. Обработката на това ниво може да бъде equalizing и volume correction..."
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -5984,6 +6132,10 @@ msgstr "Автоматично избиране"
 msgctxt "#16021"
 msgid "Bob"
 msgstr "Bob"
+
+msgctxt "#16022"
+msgid "Bob - Inverted"
+msgstr "Bob (inverted)"
 
 msgctxt "#16024"
 msgid "Cancelling..."
@@ -6375,7 +6527,7 @@ msgstr "Радио канали"
 
 msgctxt "#19025"
 msgid "Upcoming recordings"
-msgstr "Бъдещи записи"
+msgstr "Предстоящи записи"
 
 msgctxt "#19026"
 msgid "Add timer..."
@@ -7292,6 +7444,14 @@ msgstr "Няма намерени добавки за ПВР"
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "За ПВР функцията са необходими тунер, сървър (backend програма) и добавка, която да ползва сървъра. За повече информация посетете http://kodi.wiki/view/PVR."
+
+msgctxt "#19273"
+msgid "No audio DSP add-ons could be found"
+msgstr "Няма намерени DSP аудио добавки"
+
+msgctxt "#19274"
+msgid "You need a add-on installed for the process of audio DSP signal. System becomes disabled."
+msgstr "За DSP обработване на аудио сигнала е необходима DSP добавка. Системата ще бъде изключена."
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -10541,6 +10701,10 @@ msgctxt "#24087"
 msgid "All repositories"
 msgstr "Всички хранилища"
 
+msgctxt "#24088"
+msgid "The DSP add-on is currently in use and can't be modified."
+msgstr "В момента DSP добавката се ползва и не може да бъде променена."
+
 msgctxt "#24089"
 msgid "Add-on restarts"
 msgstr "Добавката се рестартира"
@@ -10575,7 +10739,7 @@ msgstr "Повредена"
 
 msgctxt "#24099"
 msgid "Would you like to switch to this skin?"
-msgstr "Превключване на облика?"
+msgstr "Искате ли да превключите на този облик?"
 
 msgctxt "#24100"
 msgid "To use this feature you must download an add-on:"
@@ -10709,6 +10873,18 @@ msgctxt "#24134"
 msgid "We were unable to load your configured language. Please check your language settings."
 msgstr "Не успяхме да заредим избрания от Вас език. Моля, проверете езиковите си настройки."
 
+msgctxt "#24135"
+msgid "Audio DSP"
+msgstr "DSP аудио"
+
+msgctxt "#24136"
+msgid "Audio DSP..."
+msgstr "DSP аудио..."
+
+msgctxt "#24138"
+msgid "DSP add-on is currently in use and can't be removed."
+msgstr "В момента DSP добавката се ползва и не може да бъде премахната."
+
 msgctxt "#24141"
 msgid "Add-on disabled"
 msgstr "Добавката е изключена"
@@ -10821,13 +10997,25 @@ msgctxt "#29802"
 msgid "Passthrough audio in use"
 msgstr "Активен е режимът \"Декодиране на звука от устройство\""
 
+msgctxt "#29901"
+msgid "Band"
+msgstr "Група"
+
 msgctxt "#29902"
 msgid "Style"
 msgstr "Стил"
 
+msgctxt "#29903"
+msgid "Composer"
+msgstr "Композитор"
+
 msgctxt "#29904"
 msgid "Artist"
 msgstr "Изпълнител"
+
+msgctxt "#29905"
+msgid "Conductor"
+msgstr "Диригент"
 
 msgctxt "#29909"
 msgid "Studio"
@@ -10853,21 +11041,61 @@ msgctxt "#29915"
 msgid "Info"
 msgstr "Инф."
 
+msgctxt "#29916"
+msgid "News"
+msgstr "Новини"
+
+msgctxt "#29918"
+msgid "Sport"
+msgstr "Спорт"
+
+msgctxt "#29919"
+msgid "Lottery"
+msgstr "Лотария"
+
+msgctxt "#29922"
+msgid "Horoscope"
+msgstr "Хороскоп"
+
 msgctxt "#29932"
 msgid "Language"
 msgstr "Език"
+
+msgctxt "#29941"
+msgid "News"
+msgstr "Новини"
 
 msgctxt "#29943"
 msgid "Information"
 msgstr "Информация"
 
+msgctxt "#29944"
+msgid "Sport"
+msgstr "Спорт"
+
+msgctxt "#29945"
+msgid "Education"
+msgstr "Образование"
+
 msgctxt "#29946"
 msgid "Drama"
 msgstr "Драма"
 
+msgctxt "#29947"
+msgid "Culture"
+msgstr "Култура"
+
+msgctxt "#29948"
+msgid "Science"
+msgstr "Наука"
+
 msgctxt "#29956"
 msgid "Weather"
 msgstr "Времето"
+
+msgctxt "#29957"
+msgid "Finance"
+msgstr "Финанси"
 
 msgctxt "#29960"
 msgid "Religion"
@@ -12453,6 +12681,10 @@ msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 msgstr "Изберете опцията, ако приемникът Ви може да дешифрира Dolby Digital (AC3) потоци."
 
+msgctxt "#36366"
+msgid "Select this option if your receiver is capable of decoding DTS streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "Изберете опцията, ако приемникът Ви може да дешифрира DTS потоци. Бележка: Опцията е несъвместима с \"Поддържай дешифриране на 8 канални DTS-HD аудио потоци\" и последната ще бъде изключена."
+
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Задайте максималния брой налични аудио канали / високоговорители за възпроизвеждане на дешифрирания аудио сигнал. Ако извеждате сигнала посредством оптичен или коаксиален изход е необходимо да зададете стойност 2.0"
@@ -12464,6 +12696,10 @@ msgstr "Изберете настройките за декодиране на �
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Изберете опцията, ако приемникът Ви може да дешифрира TrueHD потоци."
+
+msgctxt "#36370"
+msgid "Select this option if your receiver is capable of decoding DTS-HD streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "Изберете опцията, ако приемникът Ви може да дешифрира DTS-HD потоци. Бележка: Опцията е несъвместима с \"Поддържай дешифриране на 8 канални DTS-HD аудио потоци\" и последната ще бъде изключена."
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -12572,6 +12808,10 @@ msgstr "Включва заключването с код. Може да опр�
 msgctxt "#36397"
 msgid "If enabled, the master lock code is required to unlock this application on startup."
 msgstr "Изисква въвеждане на кода при стартиране."
+
+msgctxt "#36398"
+msgid "Define the maximum number of retries before this application is closed down."
+msgstr "Определя максималния брой опити за отключване, след които програмата да се затвори."
 
 msgctxt "#36399"
 msgid "This category contains the settings for how the cache function is handled."
@@ -12693,6 +12933,10 @@ msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
 msgstr "Категорията съдържа всички настройки свързани с ускоряването на видео обработката. Включва дешифриране и мащабиране."
 
+msgctxt "#36431"
+msgid "Shows all events in the event log for the current profile with options to only show specific levels."
+msgstr "Показва всички известия за събития от журнала за текущия профил."
+
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Изберете клавишни подредби за виртуалната клавиатура."
@@ -12709,9 +12953,37 @@ msgctxt "#36435"
 msgid "Use DVDPlayer for decoding of video files with MMAL acceleration."
 msgstr "Включва ползването на DVDPlayer за дешифриране на видео файлове с MMAL ускорение."
 
+msgctxt "#36436"
+msgid "Audio DSP manager..."
+msgstr "DSP аудио диспечер..."
+
+msgctxt "#36437"
+msgid "Allows to configure available modes for different stages in audio processing and to arrange the steps within the processing chain of each selected mode."
+msgstr "Позволява настройване на различните налични режими, за отделните нива, на аудио обработката."
+
+msgctxt "#36438"
+msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
+msgstr "Включва дигиталното обработване на сигнала (Digital Signal Processing - DSP) от аудио потоците."
+
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database is being erased."
+msgstr "Изтрива всички данни (настройки на добавката и DSP аудио диспечера) от базата данни за DSP."
+
+msgctxt "#36440"
+msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
+msgstr "Изтриване на всички настройки на DSP добавката и DSP аудио диспечера от базата данни за DSP."
+
+msgctxt "#36441"
+msgid "Enable audio DSP processing"
+msgstr "Включи DSP обработката на звука"
+
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
 msgstr "Журнала за събития представлява история на отминалите събития."
+
+msgctxt "#36461"
+msgid "Notification event describe regular processes and actions performed by the system or the user."
+msgstr "Известията за събития се отнасят за нормални процеси и действия изпълнявани от системата или потребителя."
 
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
@@ -13133,6 +13405,10 @@ msgctxt "#38013"
 msgid "Limit GUI updates during playback"
 msgstr "Ограничи опресняването на потребит. интерфейс при възпроизвеждане"
 
+msgctxt "#38014"
+msgid "Limits the speed (fps) used to update the GUI while playing videos. This can reduce CPU load and fix playback issues while the GUI is shown."
+msgstr "Ограничава кротостта (броя кадри в секунда) за опресняване на потребителския интерфейс по време на възпроизвеждане. Като резултат натоварването на централния процесор намалява и така изчезват някои проблеми с възпроизвеждането при показване на потребителския интерфейс."
+
 msgctxt "#38015"
 msgid "Unlimited"
 msgstr "Неограничен"
@@ -13148,6 +13424,14 @@ msgstr "Район A - Америка, Източна и Югоизточна А
 msgctxt "#38018"
 msgid "My rating"
 msgstr "Моя оценка"
+
+msgctxt "#38019"
+msgid "Support 8 channel DTS-HD audio decoding"
+msgstr "Поддържай дешифриране на 8 канални DTS-HD аудио потоци"
+
+msgctxt "#38020"
+msgid "Enables decoding of high quality DTS-HD audio streams. Note: This increases CPU load and is only available when DTS and DTS-HD audio passthrough are disabled."
+msgstr "Включва дешифрирането на на висококачествени DTS-HD аудио потоци. Бележка: Води до увеличаване натоварването на централния процесор и работи само при наличен DTS поток и изключена опция \"Декодиране на звука от устройство\"."
 
 msgctxt "#38022"
 msgid "No rating"

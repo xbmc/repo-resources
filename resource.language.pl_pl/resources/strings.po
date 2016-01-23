@@ -3367,7 +3367,7 @@ msgstr "Rozgłaszaj usługi do innych systemów"
 
 msgctxt "#1268"
 msgid "Enable AirPlay \"Videos\" and \"Pictures\" support"
-msgstr "Aktywuj wsparcie AirPlay dla \"Wideo\" i \"Obrazy\""
+msgstr "Aktywuj obsługę wideo i obrazów przez AirPlay"
 
 msgctxt "#1269"
 msgid "Allow volume control"
@@ -3375,7 +3375,7 @@ msgstr "Zezwalaj na regulację głośności"
 
 msgctxt "#1270"
 msgid "Enable AirPlay support"
-msgstr "Aktywuj obłsugę AirPlay"
+msgstr "Aktywuj obsługę AirPlay"
 
 msgctxt "#1271"
 msgid "Device name"
@@ -6111,7 +6111,7 @@ msgstr "Zmień przetwarzanie próbkowania"
 
 msgctxt "#15081"
 msgid "Process chain (with CPU usage)"
-msgstr "Ciąg przetwarzania (z użyciem procesora)"
+msgstr "Łańcuch przetwarzania (z użyciem procesora)"
 
 msgctxt "#15082"
 msgid "Resampling to %i Hz"
@@ -10313,6 +10313,10 @@ msgctxt "#21843"
 msgid "Orientation"
 msgstr "Orientacja"
 
+msgctxt "#21844"
+msgid "XP comment"
+msgstr "Komentarz"
+
 msgctxt "#21857"
 msgid "Sub-location"
 msgstr "Lokalizacja dodatkowa"
@@ -10795,7 +10799,7 @@ msgstr "Wyszukaj aktualizacje"
 
 msgctxt "#24035"
 msgid "Image collections"
-msgstr "Kolekcje obrazów"
+msgstr "Kolekcje grafik"
 
 msgctxt "#24036"
 msgid "Changelog"
@@ -11307,7 +11311,7 @@ msgstr "Rozdziały: %u - czas trwania: %s"
 
 msgctxt "#25008"
 msgid "Playback of Blu-ray failed"
-msgstr "Nieudane odtwarzanie dysku Blu-ray"
+msgstr "Odtwarzanie dysku Blu-ray zakończone niepowodzeniem"
 
 msgctxt "#25009"
 msgid "The menu of this Blu-ray is not supported"
@@ -11523,7 +11527,7 @@ msgstr "Rock"
 
 msgctxt "#29952"
 msgid "Easy listening music"
-msgstr "Popularna"
+msgstr "Muzyka popularna"
 
 msgctxt "#29953"
 msgid "Light classical"
@@ -11531,7 +11535,7 @@ msgstr "Klasyczna lekka"
 
 msgctxt "#29954"
 msgid "Serious classical"
-msgstr "Klasyczna poważna"
+msgstr "Muzyka poważna"
 
 msgctxt "#29955"
 msgid "Other music"
@@ -11641,6 +11645,10 @@ msgctxt "#29986"
 msgid "Publicate traffic messages"
 msgstr "Publikuj informacje o utrudnieniach w ruchu"
 
+msgctxt "#29987"
+msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
+msgstr "Umożliwia rozsyłanie informacji o utrudnieniach w ruchu, które mogą zostać obsłużone przez dodatki (zamiast bezpośrednio w Kodi)."
+
 msgctxt "#33001"
 msgid "Trailer quality"
 msgstr "Jakość zwiastuna"
@@ -11679,7 +11687,7 @@ msgstr "Kopiowanie"
 
 msgctxt "#33010"
 msgid "Set download directory"
-msgstr "Zapisz do"
+msgstr "Ustaw folder pobierania"
 
 msgctxt "#33011"
 msgid "Search duration"
@@ -12533,6 +12541,10 @@ msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "Określa, w których przypadkach ukrywać listę sezonów serialu. W przypadku, gdy lista jest ukrywana, wybranie serialu przenosi bezpośrednio do widoku odcinków."
 
+msgctxt "#36145"
+msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have it's own entry in the movie library even if it belongs to a set."
+msgstr "Zaznacz tę opcję, aby grupować filmy w serie traktowane jako jedna pozycja w bibliotece, która po otworzeniu wyświetla poszczególne filmy należące do serii. Odznacz tę opcję, aby filmy były wyświetlane niezależnie nawet wtedy, gdy należą do tej samej serii."
+
 msgctxt "#36146"
 msgid "Check for new media files on startup."
 msgstr "Umożlwia wyszukiwania nowych plików mediów zaraz po uruchomieniu."
@@ -12576,6 +12588,10 @@ msgstr "Umożliwia sprzętowe dekodowanie plików wideo przy pomocy VDPAU, używ
 msgctxt "#36156"
 msgid "Enable VAAPI hardware decoding of video files, mainly used for Intel graphics and in some circumstances AMD graphics."
 msgstr "Umożliwia sprzętowe dekodowanie plików wideo przy pomocy VAAPI, używane głównie przez procesory graficzne Intela i w określonych warunkach przez procesory graficzne AMD."
+
+msgctxt "#36157"
+msgid "When enabled, a \"Movie set\" entry is used even if the movie library contains only a single movie from that set. When disabled, a \"Movie set\" entry is used only if the movie library contains more than one movie from that set."
+msgstr "Zaznacz tę opcję, aby grupować filmy w serie nawet wtedy, gdy do serii należy tylko jeden film. Odznacz tę opcję, aby grupować filmy w serię tylko wtedy, gdy do serii należy więcej niż jeden film."
 
 msgctxt "#36158"
 msgid "Enable DXVA2 hardware decoding of video files."
@@ -12860,6 +12876,10 @@ msgstr "Umożliwia wyświetlanie informacji o jakości sygnału w oknie informac
 msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Określa czas oczekiwania na odbiór strumienia telewizyjnego po zmianie kanału. Użyteczne w przypadki kanałów odbieranych przy pomocy anteny, które mają problem z siłą sygnału."
+
+msgctxt "#36231"
+msgid "When flipping through channels using channel up/down buttons or when pressing a number button in full screen mode, channel switches must be confirmed using the OK button."
+msgstr "Podczas przeskakiwania pomiędzy kanałami przy użyciu przycisków zmiany kanałów lub po naciśnięciu przycisków numerycznych w trybie pełnoekranowym, zmiana kanałów musi zostać potwierdzona naciśnięciem przycisku Ok."
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -13609,6 +13629,10 @@ msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
 msgstr "Określa sposób sprzętowej akceleracji przetwarzania wideo, z uwzględnieniem dekodowania i skalowania."
 
+msgctxt "#36431"
+msgid "Shows all events in the event log for the current profile with options to only show specific levels."
+msgstr "Umożliwia wyświetlanie wszystkich zdarzeń z dziennika dla aktualnego profilu z określonym poziomem szczegółowości."
+
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Określa wirtualny układ klawiatury."
@@ -13629,6 +13653,10 @@ msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "Procesor sygnałowy - Menedżer..."
 
+msgctxt "#36437"
+msgid "Allows to configure available modes for different stages in audio processing and to arrange the steps within the processing chain of each selected mode."
+msgstr "Umożliwia konfigurację dostępnych trybów dla różnych etapów przetwarzania dźwięku i organizację kroków łańcucha przetwarzania dla każdego wybranego trybu."
+
 msgctxt "#36438"
 msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
 msgstr "Umożliwia aktywację przetwarzania kanałów dźwięku, określonych w konfiguracji głośników, przy pomocy Procesora sygnałowego (DSP)."
@@ -13648,6 +13676,10 @@ msgstr "Aktywuj przetwarzanie dźwięku przez Procesor sygnałowy"
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
 msgstr "Rejestrowanie zdarzeń umożliwia śledzenie tego co się dzieje."
+
+msgctxt "#36461"
+msgid "Notification event describe regular processes and actions performed by the system or the user."
+msgstr "Umożliwia rejestrowanie w dzienniku powiadomień opisujących regularne procesy i operacje wykonywane przez system lub użytkownika."
 
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
@@ -13800,6 +13832,10 @@ msgstr "Używaj tekstur wyższej jakości dla okładek i fototapet (zwiększa u�
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Ogranicza rozdzielczość interfejsu użytkownika w celu oszczędzania pamięci. Nie ma wpływu na odtwarzanie wideo. Wymaga ponownego uruchomienia."
+
+msgctxt "#36549"
+msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
+msgstr "Umożliwia obsługę odbierania wideo i obrazów za pośrednictwem AirPlay. Ta opcja powinna być nieaktywna, aby przywrócić funkcję strumieniowanie muzyki dla klientów bazujących na systemie iOS 9 lub nowszym. Przesyłanie wideo i obrazów jest wspierane tylko dla klientów używających iOS 8.x i starszych."
 
 msgctxt "#36550"
 msgid "Stereoscopic 3D effect strength"

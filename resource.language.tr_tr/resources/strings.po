@@ -5947,7 +5947,7 @@ msgstr "Ana mod"
 
 msgctxt "#15024"
 msgid "Pre-process setup..."
-msgstr "Pre-process ayarı..."
+msgstr "İşlem öncesi ayarı..."
 
 msgctxt "#15025"
 msgid "Listening mode setup..."
@@ -5979,7 +5979,7 @@ msgstr "Ses DSP ayarları - Ses bilgisi"
 
 msgctxt "#15033"
 msgid "Resampler setup..."
-msgstr "Resampler ayarı..."
+msgstr "Yeniden örnekleyici ayarı..."
 
 msgctxt "#15034"
 msgid "Miscellaneous..."
@@ -5987,11 +5987,11 @@ msgstr "Çeşitli..."
 
 msgctxt "#15035"
 msgid "Audio DSP settings - Resampler"
-msgstr "Ses DSP ayarları - Resampler"
+msgstr "Ses DSP ayarları - Yeniden örnekleyici"
 
 msgctxt "#15037"
 msgid "Audio DSP settings - Pre-process"
-msgstr "Ses DSP ayarları - Pre-proces"
+msgstr "Ses DSP ayarları - İşlem öncesi"
 
 msgctxt "#15038"
 msgid "Audio DSP settings - Miscellaneous"
@@ -5999,7 +5999,11 @@ msgstr "Ses DSP ayarları - Çeşitli"
 
 msgctxt "#15039"
 msgid "Pre-processing setup..."
-msgstr "Pre-processing ayarı..."
+msgstr "İşlem öncesi ayarı..."
+
+msgctxt "#15040"
+msgid "The settings dialogue can only be opened from the OSD menu during playback"
+msgstr "Ayarlar iletişim kutusu sadece oynatım sırasında OSD menüsünden açılır."
 
 msgctxt "#15041"
 msgid "Unknown mode name"
@@ -6033,9 +6037,25 @@ msgctxt "#15052"
 msgid "Password"
 msgstr "Parola"
 
+msgctxt "#15057"
+msgid "Input resampling"
+msgstr "Yeniden örnekleme girişi"
+
+msgctxt "#15058"
+msgid "Pre-processing"
+msgstr "İşlem öncesi"
+
+msgctxt "#15059"
+msgid "Master processing"
+msgstr "Ana işlem"
+
 msgctxt "#15060"
 msgid "Post-processing"
-msgstr "Post-processing"
+msgstr "İşlem sonrası"
+
+msgctxt "#15061"
+msgid "Output resampling"
+msgstr "Yeniden örnekleme çıkışı"
 
 msgctxt "#15062"
 msgid "Detailed description"
@@ -6060,6 +6080,38 @@ msgstr "Kapat"
 msgctxt "#15078"
 msgid "Mode settings"
 msgstr "Mod ayarları"
+
+msgctxt "#15079"
+msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
+msgstr "Bazı ses DSP ayarlarını değişti.\nYeni ayarları korumak ister misiniz?"
+
+msgctxt "#15080"
+msgid "Change resampler"
+msgstr "Yeniden örnekleyiciyi değiştir"
+
+msgctxt "#15081"
+msgid "Process chain (with CPU usage)"
+msgstr "İşlem zinciri (CPU kullanımı ile)"
+
+msgctxt "#15082"
+msgid "Resampling to %i Hz"
+msgstr "%i Hz'e yeniden örnekleniyor"
+
+msgctxt "#15083"
+msgid "Final resampling to %i Hz"
+msgstr "Son olarak %i Hz'e yeniden örnekleniyor"
+
+msgctxt "#15084"
+msgid "Master process"
+msgstr "Ana işlem"
+
+msgctxt "#15085"
+msgid "Pre-process"
+msgstr "İşlem öncesi"
+
+msgctxt "#15086"
+msgid "Post-process"
+msgstr "İşlem sonrası"
 
 msgctxt "#15087"
 msgid "Input"
@@ -6132,6 +6184,22 @@ msgstr "Tema"
 msgctxt "#15112"
 msgid "Default theme"
 msgstr "Varsayılan tema"
+
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "Buradan işlem öncesi modları yapılandırabilirsiniz. Bu işleme aşaması sadece akışın giriş verisini değiştirir."
+
+msgctxt "#15114"
+msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
+msgstr "Buradan bir girişin yeniden örnekleme işlemlerini yapılandırabilirsiniz. Not: Sadece bir etkin moda izin verilir!"
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "Buradan ana işleme modlarını yapılandırabilirsiniz. Not: Oynatılırken sadece bir tane etkin mod seçilebilir!"
+
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "Buradan bir çıkışın yeniden örnekleme işlemlerini yapılandırabilirsiniz. Not: Sadece bir etkin moda izin verilir!"
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -6716,6 +6784,10 @@ msgstr "PVR arka uç tarafından desteklenmiyor."
 msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
 msgstr "Bu kanalı gizlemek istediğinize emin misiniz?"
+
+msgctxt "#19040"
+msgid "Timers"
+msgstr "Zamanlayıcılar"
 
 msgctxt "#19041"
 msgid "Are you sure you want to rename this recording?"
@@ -7624,6 +7696,10 @@ msgstr "Arka ucun PVR özelliğini kullanabilmesi için tv tarayıcısı, arka u
 msgctxt "#19273"
 msgid "No audio DSP add-ons could be found"
 msgstr "Hiçbir ses DSP eklentisi bulunamadı"
+
+msgctxt "#19274"
+msgid "You need a add-on installed for the process of audio DSP signal. System becomes disabled."
+msgstr "Ses DSP sinyali işlemi için bir eklenti yüklü olması gerekir. Sistem devre dışı bırakılıyor."
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -9525,6 +9601,10 @@ msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Geçerli kümeyi (%s) koru"
 
+msgctxt "#20470"
+msgid "Use movie sets for single movies"
+msgstr "Tek filmler için film setleri kullan"
+
 msgctxt "#20471"
 msgid "Show empty TV shows"
 msgstr "Boş TV programlarını göster"
@@ -10913,6 +10993,10 @@ msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "%s denetleniyor..."
 
+msgctxt "#24095"
+msgid "Local package cache"
+msgstr "Yerel paket önbelleği"
+
 msgctxt "#24096"
 msgid "Add-on is incompatible or has been marked broken in repository."
 msgstr "Eklenti uyumsuz veya depoda bozuk olarak işaretlenmiş."
@@ -11097,6 +11181,10 @@ msgctxt "#24141"
 msgid "Add-on disabled"
 msgstr "Eklenti devre dışı"
 
+msgctxt "#24142"
+msgid "The dependency on %s version %s could not be satisfied."
+msgstr "%s eklentisinin %s sürümünün bağımlılıkları karşılanamadı."
+
 msgctxt "#24144"
 msgid "Add-on uninstalled"
 msgstr "Eklenti kaldırıldı"
@@ -11108,6 +11196,10 @@ msgstr "Video kitaplığı tarayıcısı"
 msgctxt "#24146"
 msgid "Music library scanner"
 msgstr "Müzik kitaplığı tarayıcısı"
+
+msgctxt "#24147"
+msgid "Failed to scan %s: %s"
+msgstr "%s taranamadı: %s"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -11327,7 +11419,7 @@ msgstr "Soft rock"
 
 msgctxt "#29939"
 msgid "Talk"
-msgstr "Talk show"
+msgstr "Sohbet"
 
 msgctxt "#29940"
 msgid "No programme type"
@@ -11475,7 +11567,7 @@ msgstr "Radyo kanalları için RDS'yi etkinleştir"
 
 msgctxt "#29981"
 msgid "RDS data can be used if present"
-msgstr "RDS verii varsa kullanılabilir"
+msgstr "RDS verisi varsa kullanılabilir"
 
 msgctxt "#29982"
 msgid "Message traffic advisory"
@@ -11492,6 +11584,14 @@ msgstr "Trafik önerisinde ses düzeyini yükselt"
 msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Eğer RDS tarafından trafik önerisi yollanırsa ses düzeyi yükseltilir"
+
+msgctxt "#29986"
+msgid "Publicate traffic messages"
+msgstr "Trafik mesajları yayınla"
+
+msgctxt "#29987"
+msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
+msgstr "Etrafınıza şu andaki trafik mesajlarını göderir ve sadece eklentiler ile çalışır (yerleşik Kodi desteği yok)"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -13481,6 +13581,10 @@ msgctxt "#36438"
 msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
 msgstr "Hoparlör yapılandırması tarafından belirtilen ses kanalları için dijital sinyal işleme (DSP) özelliğini etkinleştirir."
 
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database is being erased."
+msgstr "Ses DSP veritabanındaki tüm veriler (eklenti ayarları ve ses DSP yöneticisi ayarları) siliniyor."
+
 msgctxt "#36440"
 msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
 msgstr "Tüm DSP eklentileri ve DSP yöneticisi ayarları ses DSP veritabanından siliniyor."
@@ -13644,6 +13748,14 @@ msgstr "Fanart ve kapaklar için daha yüksek kaliteli dokular kullan (daha fazl
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Bellek tasarrufu için GUI çözünürlüğünü sınırlar. Video oynatımını etkilemez. Yeniden başlatma gerektirir."
+
+msgctxt "#36549"
+msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
+msgstr "AirPlay yoluyla \"Video\" ve \"Resim\" alma desteğini etkinleştirir. iOS 9 veya üstü istemcileri kullanırken bu özelliğin devre dışı bırakılması gerekir. \"Video\" ve \"Resim\" sadece iOS 8.x ve daha eski iOS istemcilerini destekler."
+
+msgctxt "#36550"
+msgid "Stereoscopic 3D effect strength"
+msgstr "Stereoskopik 3B efekt düzeyi"
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -13924,6 +14036,10 @@ msgstr "Limitsiz"
 msgctxt "#38016"
 msgid "%d fps"
 msgstr "%d fps"
+
+msgctxt "#38017"
+msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
+msgstr "Bölge A - Amerika, Doğu Asya ve Güneydoğu Asya. Bölge B - Afrika, Orta Doğu, Güneybatı Asya, Avrupa, Avustralya, Yeni Zelanda. Bölge C - Orta Asya, Çin, Moğolistan, Güney Asya, Beyaz Rusya, Rusya, Ukrayna, Kazakistan."
 
 msgctxt "#38018"
 msgid "My rating"
