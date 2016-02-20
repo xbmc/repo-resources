@@ -3723,7 +3723,7 @@ msgstr "アクティブなリストが空だったため、親のリストに戻
 
 msgctxt "#2101"
 msgid "Newer version needed. Check the log for more information about this message."
-msgstr "新しいバージョンが必要です。このメッセージについての詳細な情報はlogを確認してください。"
+msgstr "新しいバージョンが必要です。このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#2102"
 msgid "%s error"
@@ -6221,6 +6221,14 @@ msgctxt "#15115"
 msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
 msgstr "ここでマスタープロセスモードを設定します。注意 : 再生時は、1つのモードのみ選択できます。"
 
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "ここで出力リサンプルプロセスを設定します。注意 : 動作中のモード1つのみ許可されています。"
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "ここでポストプロセスのモードを設定します。このプロセスはイコライザーとボリューム調整にのみ使われます。"
+
 msgctxt "#15200"
 msgid "Last.fm"
 msgstr "Last.fm"
@@ -6252,6 +6260,10 @@ msgstr "パーティーモードで再生"
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "パスが見つからないか、パスが無効です"
+
+msgctxt "#15301"
+msgid "Couldn't connect to network server"
+msgstr "サーバーに接続できません"
 
 msgctxt "#15302"
 msgid "No servers found"
@@ -6357,9 +6369,17 @@ msgctxt "#16026"
 msgid "Playback failed"
 msgstr "プレイバックに失敗しました"
 
+msgctxt "#16027"
+msgid "One or more items failed to play. Check the log for more information about this message."
+msgstr "1つ以上の項目で再生に失敗しました。このメッセージについての詳細はログを参照してください。"
+
 msgctxt "#16028"
 msgid "Enter value"
 msgstr "値を入力"
+
+msgctxt "#16029"
+msgid "Check the log for more information about this message."
+msgstr "このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#16030"
 msgid "Party mode aborted."
@@ -6409,6 +6429,10 @@ msgctxt "#16041"
 msgid "On"
 msgstr "オン"
 
+msgctxt "#16100"
+msgid "All videos"
+msgstr "すべてのビデオ"
+
 msgctxt "#16101"
 msgid "Unwatched"
 msgstr "未視聴"
@@ -6445,13 +6469,25 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "コピーに失敗"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "1つ以上のファイルでコピーに失敗しました。このメッセージについての詳細はログを参照してください。"
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "移動に失敗"
 
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "1つ以上のファイルで移動に失敗しました。このメッセージについての詳細はログを参照してください。"
+
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "削除に失敗"
+
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "1つ以上のファイルで削除に失敗しました。このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -6497,6 +6533,10 @@ msgctxt "#16310"
 msgid "Temporal"
 msgstr "Temporal"
 
+msgctxt "#16311"
+msgid "Temporal / Spatial"
+msgstr "時空間"
+
 msgctxt "#16312"
 msgid "VDPAU - Noise reduction"
 msgstr "VDPAU - ノイズリダクション"
@@ -6505,17 +6545,49 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - シャープネス"
 
+msgctxt "#16314"
+msgid "Inverse telecine"
+msgstr "逆テレシネ"
+
+msgctxt "#16315"
+msgid "Lanczos3 - Optimised"
+msgstr "Lanczos3 - Optimised"
+
 msgctxt "#16316"
 msgid "Auto"
 msgstr "自動"
+
+msgctxt "#16317"
+msgid "Temporal (half)"
+msgstr "半時系列"
+
+msgctxt "#16318"
+msgid "Temporal / Spatial (half)"
+msgstr "半時空間"
 
 msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16320"
+msgid "DXVA - Bob"
+msgstr "DXVA - Bob"
+
+msgctxt "#16321"
+msgid "DXVA - Best"
+msgstr "DXVA - Best"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
+
+msgctxt "#16323"
+msgid "Spline36 - Optimised"
+msgstr "Spline36 - Optimised"
+
+msgctxt "#16324"
+msgid "Software - Blend"
+msgstr "Software - Blend"
 
 msgctxt "#16325"
 msgid "VDPAU - Bob"
@@ -6524,6 +6596,42 @@ msgstr "VDPAU - Bob"
 msgctxt "#16326"
 msgid "DXVA-HD"
 msgstr "DXVA-HD"
+
+msgctxt "#16327"
+msgid "VAAPI - Bob"
+msgstr "VAAPI - Bob"
+
+msgctxt "#16328"
+msgid "VAAPI - Motion adaptive"
+msgstr "VAAPI - Motion adaptive"
+
+msgctxt "#16329"
+msgid "VAAPI - Motion compensated"
+msgstr "VAAPI - Motion compensated"
+
+msgctxt "#16330"
+msgid "MMAL - Advanced"
+msgstr "MMAL - Advanced"
+
+msgctxt "#16331"
+msgid "MMAL - Advanced (half)"
+msgstr "MMAL - Advanced (half)"
+
+msgctxt "#16332"
+msgid "MMAL - Bob"
+msgstr "MMAL - Bob"
+
+msgctxt "#16333"
+msgid "MMAL - Bob (half)"
+msgstr "MMAL - Bob (half)"
+
+msgctxt "#16334"
+msgid "IMX - Fast motion"
+msgstr "IMX - Fast motion"
+
+msgctxt "#16335"
+msgid "IMX - Fast motion (double)"
+msgstr "IMX - Fast motion (double)"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -6549,6 +6657,10 @@ msgctxt "#19000"
 msgid "Switch to channel"
 msgstr "チャンネル切り替え"
 
+msgctxt "#19001"
+msgid "Separate the search words by using AND, OR and / or NOT."
+msgstr "検索文字列を AND 、ORと / もしく NOT を使って分割してください。"
+
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
 msgstr "あるいは、\"The wizard of Oz\" のようにすると、フレーズの完全一致で検索ができます。"
@@ -6556,6 +6668,10 @@ msgstr "あるいは、\"The wizard of Oz\" のようにすると、フレーズ
 msgctxt "#19003"
 msgid "Find similar"
 msgstr "似ているものを探す"
+
+msgctxt "#19004"
+msgid "Importing guide from clients"
+msgstr "クライアントから番組表をインポート"
 
 msgctxt "#19005"
 msgid "PVR stream information"
@@ -6585,6 +6701,10 @@ msgctxt "#19011"
 msgid "UNC"
 msgstr "UNC"
 
+msgctxt "#19012"
+msgid "PVR backend"
+msgstr "PVR バックエンド"
+
 msgctxt "#19013"
 msgid "Free to air"
 msgstr "Free to air（無料衛星放送）"
@@ -6596,6 +6716,10 @@ msgstr "Fixed"
 msgctxt "#19015"
 msgid "Encryption"
 msgstr "暗号化"
+
+msgctxt "#19016"
+msgid "PVR backend %i - %s"
+msgstr "PVR バックエンド %i - %s"
 
 msgctxt "#19017"
 msgid "Recordings"
@@ -6641,6 +6765,10 @@ msgctxt "#19027"
 msgid "No search results"
 msgstr "検索結果はありません"
 
+msgctxt "#19028"
+msgid "No guide entries"
+msgstr "番組表データなし"
+
 msgctxt "#19029"
 msgid "Channel"
 msgstr "チャンネル"
@@ -6665,6 +6793,14 @@ msgctxt "#19034"
 msgid "Already started recording on this channel"
 msgstr "このチャンネルで録画がすでに始まっています"
 
+msgctxt "#19035"
+msgid "%s couldn't be played. Check the log for more information about this message."
+msgstr "%s は再生できませんでした。このメッセージについての詳細はログを参照してください。"
+
+msgctxt "#19036"
+msgid "This recording can't be played. Check the log for more information about this message."
+msgstr "この録画は再生できません。このメッセージについての詳細はログを参照してください。"
+
 msgctxt "#19037"
 msgid "Show signal quality"
 msgstr "電波状態を表示"
@@ -6676,6 +6812,10 @@ msgstr "PVR バックエンドにサポートされていません。"
 msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
 msgstr "このチャンネルを本当に隠していいですか？"
+
+msgctxt "#19040"
+msgid "Timers"
+msgstr "タイマー"
 
 msgctxt "#19041"
 msgid "Are you sure you want to rename this recording?"
@@ -6689,9 +6829,25 @@ msgctxt "#19043"
 msgid "Recording"
 msgstr "録画中"
 
+msgctxt "#19044"
+msgid "Please check your configuration. Check the log for more information about this message."
+msgstr "設定を確認してください。このメッセージについての詳細はログを参照ください。"
+
+msgctxt "#19045"
+msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
+msgstr "PVR クライアントが起動していません。PVR クライアントの起動を待ってください。このメッセージについての詳細はログを参照してください。"
+
 msgctxt "#19046"
 msgid "New channel"
 msgstr "新規チャンネル"
+
+msgctxt "#19047"
+msgid "Programme information"
+msgstr "番組情報"
+
+msgctxt "#19048"
+msgid "Group manager"
+msgstr "グループ管理"
 
 msgctxt "#19049"
 msgid "Show channel"
@@ -6725,6 +6881,10 @@ msgctxt "#19056"
 msgid "New timer"
 msgstr "新規録画予約"
 
+msgctxt "#19057"
+msgid "Timer disabled"
+msgstr "予約を無効にしました"
+
 msgctxt "#19058"
 msgid "Timer enabled"
 msgstr "録画予約が有効になりました"
@@ -6745,6 +6905,10 @@ msgctxt "#19062"
 msgid "Sort by: Channel"
 msgstr "ソート順: チャンネル"
 
+msgctxt "#19063"
+msgid "Go to beginning"
+msgstr "最初に"
+
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "最後へ"
@@ -6760,6 +6924,10 @@ msgstr "チャンネル アイコン"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "このイベントはすでに録画中です。"
+
+msgctxt "#19068"
+msgid "This recording couldn't be deleted. Check the log for more information about this message."
+msgstr "録画を削除できませんでした。このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#19069"
 msgid "Guide"
@@ -6781,6 +6949,10 @@ msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "チャンネル切り替えの遅延"
 
+msgctxt "#19074"
+msgid "Active"
+msgstr "有効"
+
 msgctxt "#19075"
 msgid "Name"
 msgstr "Name"
@@ -6793,9 +6965,29 @@ msgctxt "#19078"
 msgid "Channel"
 msgstr "チャンネル"
 
+msgctxt "#19079"
+msgid "Days of week"
+msgstr "曜日"
+
+msgctxt "#19080"
+msgid "Begin"
+msgstr "開始"
+
+msgctxt "#19081"
+msgid "End"
+msgstr "終了"
+
 msgctxt "#19082"
 msgid "Priority"
 msgstr "優先順位"
+
+msgctxt "#19083"
+msgid "Lifetime"
+msgstr "保存期間"
+
+msgctxt "#19084"
+msgid "First day"
+msgstr "初日"
 
 msgctxt "#19085"
 msgid "Unknown channel %u"
@@ -6889,6 +7081,22 @@ msgctxt "#19107"
 msgid "at"
 msgstr ":"
 
+msgctxt "#19108"
+msgid "Fallback framerate"
+msgstr "フォールバック・フレームレート"
+
+msgctxt "#19109"
+msgid "Couldn't save timer. Check the log for more information about this message."
+msgstr "予約を保存できません。このメッセージについての詳細はログを参照してください。"
+
+msgctxt "#19110"
+msgid "An unexpected error occurred. Try again later or check the log for more information."
+msgstr "予期しないエラーが発生しました。もう一度試してみるか、ログを確認してください。"
+
+msgctxt "#19111"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "PVR バックエンドエラー。このメッセージについての詳細はログを参照してください。"
+
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "この録画を削除しますか?"
@@ -6912,6 +7120,10 @@ msgstr "ディスクサイズ"
 msgctxt "#19117"
 msgid "Search for channels"
 msgstr "チャンネルの検索"
+
+msgctxt "#19118"
+msgid "Can't use PVR functions while searching."
+msgstr "検索中に PVR 機能を使うことはできません。"
 
 msgctxt "#19119"
 msgid "On which server do you want to search?"
@@ -6985,6 +7197,10 @@ msgctxt "#19136"
 msgid "Channel unavailable"
 msgstr "チャンネル利用不可"
 
+msgctxt "#19137"
+msgid "No groups defined. Please create a group first"
+msgstr "グループがありません。まずグループを作ってください。"
+
 msgctxt "#19139"
 msgid "Name of the new group"
 msgstr "新しいグループの名前"
@@ -7016,6 +7232,10 @@ msgstr "グループ化された"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "グループ"
+
+msgctxt "#19147"
+msgid "The PVR backend does not support this action. Check the log for more information about this message."
+msgstr "PVR バックエンドはこの操作をサポートしていません。このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -7069,6 +7289,10 @@ msgctxt "#19160"
 msgid "to"
 msgstr "まで"
 
+msgctxt "#19161"
+msgid "any time"
+msgstr "何時でも"
+
 msgctxt "#19162"
 msgid "Recording active"
 msgstr "録画有効"
@@ -7076,6 +7300,10 @@ msgstr "録画有効"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "録画"
+
+msgctxt "#19164"
+msgid "Can't start recording. Check the log for more information about this message."
+msgstr "録画を開始できません。このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#19165"
 msgid "Switch"
@@ -7117,6 +7345,14 @@ msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "規定の録画期間"
 
+msgctxt "#19175"
+msgid "Default start padding time"
+msgstr "標準前倒し時間"
+
+msgctxt "#19176"
+msgid "Default end padding time"
+msgstr "標準延長時間"
+
 msgctxt "#19177"
 msgid "Playback"
 msgstr "再生"
@@ -7133,6 +7369,14 @@ msgctxt "#19180"
 msgid "TV"
 msgstr "TV"
 
+msgctxt "#19181"
+msgid "Menu / OSD"
+msgstr "メニュー"
+
+msgctxt "#19182"
+msgid "Days to display"
+msgstr "表示する日数"
+
 msgctxt "#19183"
 msgid "Radio"
 msgstr "ラジオ"
@@ -7140,6 +7384,10 @@ msgstr "ラジオ"
 msgctxt "#19184"
 msgid "Deleted recordings"
 msgstr "削除済みの録画"
+
+msgctxt "#19185"
+msgid "Clear data"
+msgstr "データクリア"
 
 msgctxt "#19189"
 msgid "Continue last channel on startup"
@@ -7156,6 +7404,10 @@ msgstr "PVR サービス"
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "チャンネルのスキャンに対応した PVR バックエンドがありません。"
+
+msgctxt "#19193"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "チャンネル走査が開始できません。このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -10500,6 +10752,10 @@ msgstr "一つ前のアイテムがありません"
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconf の起動に失敗"
+
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Apple の Bonjour サービスはインストールされていますか? このメッセージについての詳細はログを参照してください。"
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
