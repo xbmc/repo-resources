@@ -2851,15 +2851,15 @@ msgstr "סוג"
 
 msgctxt "#804"
 msgid "Search guide for"
-msgstr "חפש מדריך עבור"
+msgstr "מחרוזת חיפוש"
 
 msgctxt "#805"
 msgid "Enter the search string to use to lookup matching events in the guide"
-msgstr "הכנס את מחרוזת החיפוש כדי לחפש אירועים תואמים במדריך"
+msgstr "יש להזין מחרוזת לחיפוש תכניות מתאימות בלוח השידורים"
 
 msgctxt "#806"
 msgid "Fulltext search (or title search only)"
-msgstr "חיפוש של מלל מלא (או חיפוש כותרות בלבד)"
+msgstr "חיפוש בכל פרטי התכנית (או כותרת בלבד)"
 
 msgctxt "#807"
 msgid "Any day"
@@ -2875,7 +2875,7 @@ msgstr "כל ערוץ"
 
 msgctxt "#810"
 msgid "Start any time"
-msgstr "התחל כל זמן שהוא"
+msgstr "זמן התחלה לפי לוח שידורים"
 
 msgctxt "#811"
 msgid "Recording group"
@@ -2903,7 +2903,7 @@ msgstr "הקלט פרקים חדשים בלבד"
 
 msgctxt "#817"
 msgid "End any time"
-msgstr "סיים כל זמן שהוא"
+msgstr "זמן סיום לפי לוח שידורים"
 
 msgctxt "#818"
 msgid "Max recordings"
@@ -2971,15 +2971,19 @@ msgstr "קבץ תזמונים"
 
 msgctxt "#843"
 msgid "Activate"
-msgstr "אפשר"
+msgstr "הפעלה"
 
 msgctxt "#844"
 msgid "Deactivate"
-msgstr "נטרל"
+msgstr "נטרול"
+
+msgctxt "#845"
+msgid "Are you sure you want to delete this repeating timer and all timers it has scheduled?"
+msgstr "האם למחוק תזמון חוזר זה וכל הקלטה עתידית מתוכננת שהוא תזמן?"
 
 msgctxt "#846"
 msgid "Are you sure you want to delete this timer?"
-msgstr "האם אתה בטוח שברצונך למחוק קוצב זמן זה?"
+msgstr "האם למחוק תזמון זה?"
 
 msgctxt "#847"
 msgid "Confirm stop recording"
@@ -2987,7 +2991,7 @@ msgstr "אישור עצירת הקלטה"
 
 msgctxt "#848"
 msgid "Are you sure you want to stop this recording?"
-msgstr "האם אתה בטוח שברצונך לעצור הקלטה זו?"
+msgstr "האם לעצור הקלטה זו?"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3363,7 +3367,7 @@ msgstr "פרסם שירותים למערכות אחרות"
 
 msgctxt "#1268"
 msgid "Enable AirPlay \"Videos\" and \"Pictures\" support"
-msgstr "התר תמיכת \"וידאוים\" ו\"תמונות\" של AirPlay"
+msgstr "הפעלת תמיכת AirPlay בווידאו ותמונות"
 
 msgctxt "#1269"
 msgid "Allow volume control"
@@ -3371,7 +3375,7 @@ msgstr "אפשר בקרת עוצמת שמע"
 
 msgctxt "#1270"
 msgid "Enable AirPlay support"
-msgstr "הפעלת תמיכת AirPlay"
+msgstr "תמיכה ב־AirPlay"
 
 msgctxt "#1271"
 msgid "Device name"
@@ -4267,7 +4271,7 @@ msgstr "הגדרות ומנהל קבצים"
 
 msgctxt "#12376"
 msgid "Set as default for all media"
-msgstr "קביעה כברירת מחדל לכל מדיה"
+msgstr "החל כברירת מחדל לכל סוג מדיה"
 
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
@@ -5263,7 +5267,7 @@ msgstr "אפשר האצת חומרה - MediaCodec"
 
 msgctxt "#13440"
 msgid "Allow hardware acceleration - MediaCodec (Surface)"
-msgstr "אפשר האצת חומרה - MediaCodec (פני שטח)"
+msgstr "אפשר האצת חומרה - MediaCodec (Surface)"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
@@ -5699,7 +5703,7 @@ msgstr "האם להחיל הגדרות אלה כעת?"
 
 msgctxt "#14070"
 msgid "Apply changes now"
-msgstr "החלת שינויים כעת"
+msgstr "החל שינויים כעת"
 
 msgctxt "#14071"
 msgid "Allow file renaming and deletion"
@@ -5736,6 +5740,10 @@ msgstr "אזור זמן"
 msgctxt "#14081"
 msgid "File lists"
 msgstr "תצוגת קבצים"
+
+msgctxt "#14082"
+msgid "Reset the Audio DSP database..."
+msgstr "איפוס מסד נתוני DSP שמע..."
 
 msgctxt "#14083"
 msgid "Use fullscreen window"
@@ -6017,6 +6025,10 @@ msgctxt "#15039"
 msgid "Pre-processing setup..."
 msgstr "הגדרת עיבוד קדם..."
 
+msgctxt "#15040"
+msgid "The settings dialogue can only be opened from the OSD menu during playback"
+msgstr "חלונית ההגדרות נגישה דרך התפריט הצף (OSD) בעת ניגון מדיה בלבד"
+
 msgctxt "#15041"
 msgid "Unknown mode name"
 msgstr "שם מצב בלתי ידוע"
@@ -6032,6 +6044,10 @@ msgstr "הגדרות DSP שמע"
 msgctxt "#15048"
 msgid "No audio DSP add-on enabled"
 msgstr "אין הרחבת DSP שמע מותרת"
+
+msgctxt "#15049"
+msgid "The audio DSP manager has been enabled without any enabled DSP add-on. Enable at least one add-on in order to use the DSP functionality."
+msgstr "מנהל DSP שמע הופעל ללא הרחבת DSP פעילה. יש לאפשר לפחות הרחבה אחת כזו ע\"מ להשתמש ביכולת DSP."
 
 msgctxt "#15050"
 msgid "Available modes"
@@ -6067,7 +6083,7 @@ msgstr "פלט דגימה מחדש"
 
 msgctxt "#15062"
 msgid "Detailed description"
-msgstr "תיאור מפורט"
+msgstr "מידע נוסף"
 
 msgctxt "#15063"
 msgid "No description available"
@@ -6099,7 +6115,7 @@ msgstr "שנה דוגם מחדש"
 
 msgctxt "#15081"
 msgid "Process chain (with CPU usage)"
-msgstr "לולאות תהליכים (עם שימוש במעבד)"
+msgstr "שרשרת תהליכים (עם שימוש במעבד)"
 
 msgctxt "#15082"
 msgid "Resampling to %i Hz"
@@ -6631,7 +6647,7 @@ msgstr "יש להפריד מילות החיפוש ע\"י AND, OR ו־NOT או /.
 
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
-msgstr "או להשתמש בביטויים כדי למצוא התאמה מדויקת, כמו \"The wizard of Oz\"."
+msgstr "לחלופין ניתן להזין מחרוזת למציאת התאמה מדויקת, לדוגמה \"The wizard of Oz\"."
 
 msgctxt "#19003"
 msgid "Find similar"
@@ -6811,7 +6827,7 @@ msgstr "ערוץ חדש"
 
 msgctxt "#19047"
 msgid "Programme information"
-msgstr "פרטי תוכנית"
+msgstr "פרטי תכנית"
 
 msgctxt "#19048"
 msgid "Group manager"
@@ -7183,7 +7199,7 @@ msgstr "קבוצה"
 
 msgctxt "#19142"
 msgid "Search guide"
-msgstr "חיפוש במדריך"
+msgstr "חיפוש בלוח שידורים"
 
 msgctxt "#19143"
 msgid "Group management"
@@ -7692,6 +7708,10 @@ msgstr "יש צורך בכרטיס טלוויזיה, תוכנת שרת אחור�
 msgctxt "#19273"
 msgid "No audio DSP add-ons could be found"
 msgstr "לא נמצאה הרחבת DSP לשמע"
+
+msgctxt "#19274"
+msgid "You need an add-on installed to be able to use audio digital signal processing (DSP)."
+msgstr "על מנת לאפשר עיבוד אות שמע דיגיטלי יש צורך להתקין הרחבת DSP שמע."
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -8583,7 +8603,7 @@ msgstr "מחייב הגדרת קוד נעילה ראשי. האם להגדיר ז
 
 msgctxt "#20120"
 msgid "Loading program information"
-msgstr "טוען פרטי תוכנית"
+msgstr "טוען פרטי תכנית"
 
 msgctxt "#20121"
 msgid "Party on!"
@@ -9491,7 +9511,7 @@ msgstr "האם לרענן פרטים עבור כל הפריטים שבנתיב �
 
 msgctxt "#20444"
 msgid "Add to library"
-msgstr "הוסף לספריה"
+msgstr "הוספה לספריה"
 
 msgctxt "#20445"
 msgid "Fanart"
@@ -10875,7 +10895,7 @@ msgstr "עדכון אוטומטי"
 
 msgctxt "#24064"
 msgid "Add-on enabled"
-msgstr "הרחבה מופעלת"
+msgstr "הרחבה הופעלה"
 
 msgctxt "#24065"
 msgid "Add-on updated"
@@ -10971,11 +10991,11 @@ msgstr "כל מאגרי הרחבות"
 
 msgctxt "#24088"
 msgid "The DSP add-on is currently in use and can't be modified."
-msgstr "הרחבת DSP נמצאת כעת בשימוש ואינה ניתנת לשינוי."
+msgstr "הרחבת DSP נמצאת כעת בשימוש ולכן אינה ניתנת לשינוי."
 
 msgctxt "#24089"
 msgid "Add-on restarts"
-msgstr "ההרחבה מופעלת מחדש"
+msgstr "הרחבה מופעלת מחדש"
 
 msgctxt "#24090"
 msgid "Lock add-on manager"
@@ -11163,7 +11183,7 @@ msgstr "DSP שמע..."
 
 msgctxt "#24137"
 msgid "Not allowed"
-msgstr "בלתי מורשה"
+msgstr "לא מורשה"
 
 msgctxt "#24138"
 msgid "DSP add-on is currently in use and can't be removed."
@@ -11171,15 +11191,19 @@ msgstr "הרחבת DSP נמצאת כעת בשימוש ולכן לא ניתן ל�
 
 msgctxt "#24139"
 msgid "View Add-on"
-msgstr "הצג הרחבה"
+msgstr "הצגת הרחבה"
 
 msgctxt "#24140"
 msgid "View"
-msgstr "תצוגה"
+msgstr "הצגה"
 
 msgctxt "#24141"
 msgid "Add-on disabled"
-msgstr "הרחבה מנוטרלת"
+msgstr "הרחבה נוטרלה"
+
+msgctxt "#24142"
+msgid "The dependency on %s version %s could not be satisfied."
+msgstr "לא ניתן לקיים את התלות ב־%s גרסה %s."
 
 msgctxt "#24143"
 msgid "Installing the Add-on from zip file located at %s failed due to an invalid structure."
@@ -11371,7 +11395,7 @@ msgstr "הגרלה"
 
 msgctxt "#29920"
 msgid "Stock"
-msgstr "מניה"
+msgstr "שוק ההון"
 
 msgctxt "#29921"
 msgid "Other"
@@ -11399,7 +11423,7 @@ msgstr "היפ הופ"
 
 msgctxt "#29930"
 msgid "Radio Traffic advisory message!"
-msgstr "הודעת מייעץ תעבורת רדיו!"
+msgstr "הודעת דיווח תנועה!"
 
 msgctxt "#29931"
 msgid "Radio message"
@@ -11439,7 +11463,7 @@ msgstr "דיבור"
 
 msgctxt "#29940"
 msgid "No programme type"
-msgstr "אין סוג תכנית"
+msgstr "סוג תכנית לא ידוע"
 
 msgctxt "#29941"
 msgid "News"
@@ -11475,7 +11499,7 @@ msgstr "מדע"
 
 msgctxt "#29949"
 msgid "Varied"
-msgstr "שונה"
+msgstr "נושאים שונים"
 
 msgctxt "#29950"
 msgid "Pop music"
@@ -11520,6 +11544,10 @@ msgstr "חדשות רווחה"
 msgctxt "#29960"
 msgid "Religion"
 msgstr "דת"
+
+msgctxt "#29961"
+msgid "Phone-in"
+msgstr "מאזינים מתקשרים"
 
 msgctxt "#29962"
 msgid "Travel"
@@ -11581,13 +11609,29 @@ msgctxt "#29981"
 msgid "RDS data can be used if present"
 msgstr "יוצג מידע RDS אם זמין"
 
+msgctxt "#29982"
+msgid "Message traffic advisory"
+msgstr "הצג דיווחי תנועה"
+
 msgctxt "#29983"
 msgid "RDS inform you about traffic advisory messages"
-msgstr "RDS מיידע אותך על הודעות מייעץ תעבורה"
+msgstr "דיווחי תנועה מתקבלים ממידע RDS ומוצגים כהודעות במערכת"
+
+msgctxt "#29984"
+msgid "Increase volume on traffic advisory"
+msgstr "הגבר עוצמת שמע בעת דיווח תנועה"
+
+msgctxt "#29985"
+msgid "If traffic advisory is send from RDS, volume is increased"
+msgstr "עוצמת השמע מוגברת בעת קבלת הודעות דיווחי תנועה מ־RDS"
 
 msgctxt "#29986"
 msgid "Publicate traffic messages"
-msgstr "הפוך לציבורי הודעות תעבורה"
+msgstr "שתף הודעות דיווחי תנועה"
+
+msgctxt "#29987"
+msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
+msgstr "שיתוף הודעות דיווחי תנועה במערכת קיימות כך שלהרחבות תהיה גישה אליהן (לא נדרש עבור הצגה ב־Kodi)"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -12547,7 +12591,7 @@ msgstr "מאפשר פענוח וידאו חומרתי דרך VideoToolbox."
 
 msgctxt "#36163"
 msgid "Show TV shows with no episodes when browsing the video library."
-msgstr "בעת עיון בספריית הווידאו מציג סדרות ריקות, כלומר שאין להן פרקים."
+msgstr "מציג סדרות ריקות בעת עיון בספריית הווידאו, אלה הן סדרות חסרות פרקים אך עם תיקיות בשמות מתאימים שנסרקו לספריה."
 
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
@@ -12739,7 +12783,7 @@ msgstr "קטגוריה המכילה הגדרות תפריטי טלוויזיה �
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
-msgstr "הצגת פרטי שידור בעת החלפת ערוצים, כמו תוכנית נוכחית. "
+msgstr "הצגת פרטי שידור בעת החלפת ערוצים, כמו תכנית נוכחית. "
 
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
@@ -12808,6 +12852,10 @@ msgstr "הצגת מידע על איכות אות בחלון מידע מקודד 
 msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "משך זמן ההמתנה לערוץ בעת העברת ערוצים. שימושי לשידור קרקעי שלעיתים עוצמת האות שלו נחלשת."
+
+msgctxt "#36231"
+msgid "When flipping through channels using channel up/down buttons or when pressing a number button in full screen mode, channel switches must be confirmed using the OK button."
+msgstr "מחייב אישור העברת ערוץ ע\"י הלחצן אישור בעת שמזפזפים בין ערוצים בעזרת הלחצנים מעלה/מטה או כשמקישים מספר ערוץ בחלון מסך מלא."
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -13259,7 +13307,7 @@ msgstr "בתצורה מרובת מסכים, המסכים שלא תוצג עלי�
 
 msgctxt "#36356"
 msgid "Eliminates tearing."
-msgstr "מחסל קריעות."
+msgstr "סנכרון ריווח אנכי (vertical blank sync) מונע tearing, תופעה בה התמונה המוצגת על המסך מורכבת מהפריים הנוכחי והקודם לו עקב חוסר סנכרון בין המסך למעבד הגרפי או חוסר יכולת של המעבד הגרפי לעמוד בקצב הפריימים המוגדר."
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -13297,6 +13345,10 @@ msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 msgstr "יש לבחור באפשרות זאת אם הרסיבר מסוגל לפענח (Dolby Digital (AC3."
 
+msgctxt "#36366"
+msgid "Select this option if your receiver is capable of decoding DTS streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "יש לבחור אפשרות זו אם הרסיבר מסוגל לפענח רצועות שמע בקידוד DTS. הערה: הגדרה זו מנטרלת את ההגדרה \"אפשר פענוח קידוד DTS-HD עם 8 ערוצי שמע\"."
+
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "בחירת מספר מירבי של ערוצי שמע / רמקולים זמינים עבור שמע מפוענח. חובה לקבוע זאת כ־2.0 אם יציאת שמע דיגיטלית אופטית / קואקסיאלית נמצאת בשימוש."
@@ -13308,6 +13360,10 @@ msgstr "הפעלת אפשריות פלט passthrough לניגון של שמע מ
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "יש לבחור באפשרות זאת אם הרסיבר מסוגל לפענח TrueHD."
+
+msgctxt "#36370"
+msgid "Select this option if your receiver is capable of decoding DTS-HD streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "יש לבחור אפשרות זו אם הרסיבר מסוגל לפענח רצועות שמע בקידוד DTS-HD. הערה: הגדרה זו מנטרלת את ההגדרה \"אפשר פענוח קידוד DTS-HD עם 8 ערוצי שמע\"."
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -13388,6 +13444,10 @@ msgstr "קביעת משך זמן אי פעילות נדרש לפני כיבוי.
 msgctxt "#36390"
 msgid "Define what action to perform when the shutdown function timer lapsed."
 msgstr "קביעת פעולה לביצוע לאחר משך זמן ארוך של אי פעילות."
+
+msgctxt "#36391"
+msgid "This category contains the settings for enabling event and debug logging. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
+msgstr "קטגוריה המכילה הגדרות של רישום אירועים ויומן רישום מורחב. ניתן אף לבחור רכיבים ספציפיים לרישום ביומן ובכך לקבל מידע מפורט וממוקד יותר על תקלות."
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
@@ -13491,7 +13551,7 @@ msgstr "קביעת סוג השלט שבשימוש."
 
 msgctxt "#36417"
 msgid "Always run a Kodi helper so that the remote can be used to start Kodi."
-msgstr "יש צורך להריץ תמיד תוכנית עזר עבור Kodi שתאפשר הפעלת Kodi מהשלט."
+msgstr "יש להריץ תכנת עזר שתאפשר הפעלת Kodi מהשלט."
 
 msgctxt "#36418"
 msgid "Specify the delay between button sequences on a universal remote."
@@ -13512,6 +13572,10 @@ msgstr "נטרול מערבל VDPAU חוסך במשאבים במערכות חל�
 msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "מאפשר פענוח וידאו חומרתי דרך מפענח Amlogic."
+
+msgctxt "#36423"
+msgid "Repeating schedules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "תזמון חוזר יקליט פרקים חדשים בלבד. לא נתמך ע\"י כל הרחבה ושרת טלוויזיה אחורי."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
@@ -13543,7 +13607,7 @@ msgstr "הגדרה כיצד תהליכים הנוגעים לטיפול בויד�
 
 msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
-msgstr "מציג כל האירועים ביומן הרישום עבור המשתמש הנוכחי עם יכולת להציג רמות פירוט מסוימות."
+msgstr "מציג כל האירועים ביומן הרישום עבור המשתמש הנוכחי עם יכולת לבחור רמות פירוט מסוימות."
 
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
@@ -13568,6 +13632,10 @@ msgstr "מנהל DSP שמע..."
 msgctxt "#36438"
 msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
 msgstr "מאפשר עיבוד אות דיגיטלי (DSP) על מספר ערוצי שמע שנקבע בהגדרות פלט שמע."
+
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
+msgstr "כל הגדרות מנהל והרחבות DSP שמע יאופסו."
 
 msgctxt "#36440"
 msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
@@ -13737,9 +13805,17 @@ msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "הגבלת אבחנת ממשק משתמש לחיסכון בזיכרון. לא משפיע על אבחנת וידאו מנוגן. דורש הפעלה מחדש."
 
+msgctxt "#36549"
+msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
+msgstr "מאפשר להציג וידאו ותמונות המתקבלים באמצעות פרוטוקול AirPlay. חובה לנטרל אפשרות זו אם רוצים להזרים מוזיקה בעזרת AirPlay ללקוח עם גרסת iOS 9 ומעלה. תמיכה בווידאו ותמונות אפשרית רק עבור לקוחות עם גרסת iOS 8 ומטה."
+
 msgctxt "#36550"
 msgid "Stereoscopic 3D effect strength"
-msgstr "עצמת אפקט 3D סטריאוסקופי"
+msgstr "עוצמת אפקט 3D סטריאוסקופי"
+
+msgctxt "#36551"
+msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
+msgstr "מגדיר עוצמת אפקט 3D סטריאוסקופי על ממשק המשתמש. עוצמה זו נקבעת ע\"י שליטה על עומק תמונת ממשק המשתמש המתקבלת, ערך גבוה יגרום ליותר פריטים \"לצאת החוצה\" מהמסך. [אפס] מנטרל אפקט 3D סטריאוסקופי על ממשק המשתמש.[CR]עבור חוויה חזותית מוצלחת, ערך זה צריך להיות גבוה עם מסכים קטנים ונמוך עם מסכים גדולים. הערה: אפשרות זו לא נתמכת בכל מעטפת."
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -14032,6 +14108,10 @@ msgstr "הדירוג שלי"
 msgctxt "#38019"
 msgid "Support 8 channel DTS-HD audio decoding"
 msgstr "אפשר פענוח קידוד DTS-HD עם 8 ערוצי שמע"
+
+msgctxt "#38020"
+msgid "Enables decoding of high quality DTS-HD audio streams. Note: This increases CPU load and is only available when DTS and DTS-HD audio passthrough are disabled."
+msgstr "מאפשר פענוח רצועות שמע בקידוד DTS-HD. הערה: אפשרות זו תגדיל את העומס על המעבד והיא זמינה רק ‏כשהגדרות passthrough של DTS ו־DTS-HD מנוטרלות."
 
 msgctxt "#38022"
 msgid "No rating"
