@@ -5955,7 +5955,7 @@ msgstr "Adicionar"
 
 msgctxt "#15020"
 msgid "Audio DSP manager"
-msgstr "Gestor DSP Audio"
+msgstr "Gestor de Audio DSP"
 
 msgctxt "#15021"
 msgid "Content type"
@@ -5987,19 +5987,19 @@ msgstr "Informação áudio..."
 
 msgctxt "#15028"
 msgid "Audio DSP settings - Main"
-msgstr "Definições de DSP Audio - Geral"
+msgstr "Definições Audio DSP - Geral"
 
 msgctxt "#15029"
 msgid "Audio DSP settings - Listening mode"
-msgstr "Definições de Audio DSP - Modo de atenção"
+msgstr "Definições Audio DSP - Modo de atenção"
 
 msgctxt "#15030"
 msgid "Audio DSP settings - Speaker / Output"
-msgstr "Definições de Audio DSP - Altifalante/saída"
+msgstr "Definições Audio DSP - Altifalante/saída"
 
 msgctxt "#15031"
 msgid "Audio DSP settings - Audio information"
-msgstr "Definições de DSP Audio - Informação áudio"
+msgstr "Definições Audio DSP - Informação áudio"
 
 msgctxt "#15034"
 msgid "Miscellaneous..."
@@ -6007,15 +6007,15 @@ msgstr "Outras..."
 
 msgctxt "#15035"
 msgid "Audio DSP settings - Resampler"
-msgstr "Definições de DSP Audio - Resampler"
+msgstr "Definições Audio DSP - Resampler"
 
 msgctxt "#15037"
 msgid "Audio DSP settings - Pre-process"
-msgstr "Definições de DSP Audio - Pré-processamento"
+msgstr "Definições Audio DSP - Pré-processamento"
 
 msgctxt "#15038"
 msgid "Audio DSP settings - Miscellaneous"
-msgstr "Definições de DSP Audio - Outras"
+msgstr "Definições Audio DSP - Outras"
 
 msgctxt "#15039"
 msgid "Pre-processing setup..."
@@ -6035,7 +6035,7 @@ msgstr "Conteúdo:"
 
 msgctxt "#15047"
 msgid "Audio DSP settings"
-msgstr "Definições de DSP Audio"
+msgstr "Definições Audio DSP"
 
 msgctxt "#15048"
 msgid "No audio DSP add-on enabled"
@@ -6103,7 +6103,7 @@ msgstr "Definições de modo"
 
 msgctxt "#15079"
 msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
-msgstr "Alterou algumas definições de DSP Audio.\nGostaria de manter as novas definições?"
+msgstr "Alterou algumas definições Audio DSP.\nGostaria de manter as novas definições?"
 
 msgctxt "#15080"
 msgid "Change resampler"
@@ -7712,6 +7712,10 @@ msgstr "Precisa de um sintonizador, uma infraestrutura e um add-on para poder us
 msgctxt "#19273"
 msgid "No audio DSP add-ons could be found"
 msgstr "Não foram encontrados add-ons para Audio DSP"
+
+msgctxt "#19274"
+msgid "You need an add-on installed to be able to use audio digital signal processing (DSP)."
+msgstr "Necessita de instalar um add-on para poder utilizar o processamento de sinal digital (DSP)"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -11023,7 +11027,7 @@ msgstr "O add-on é incompatível ou foi marcado como danificado no repositório
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
-msgstr "Gostaria de desativar o extra?"
+msgstr "Gostaria de desativar este add-on?"
 
 msgctxt "#24098"
 msgid "Broken"
@@ -12929,6 +12933,10 @@ msgctxt "#36280"
 msgid "Used for formatting the second column in library lists."
 msgstr "Utilizada para formatar a segunda coluna nas listas da coleção."
 
+msgctxt "#36281"
+msgid "Search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+msgstr "Procurar por miniaturas nos discos óticos ou nas partilhas remotas. Esta opção pode atrasar a listagem das pastas de rede."
+
 msgctxt "#36282"
 msgid "This category contains the settings for how CDs are handled."
 msgstr "Esta categoria contém as definições para manipular os CD."
@@ -12936,6 +12944,10 @@ msgstr "Esta categoria contém as definições para manipular os CD."
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
 msgstr "Reproduzir automaticamente o CD introduzido no leitor."
+
+msgctxt "#36284"
+msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
+msgstr "Descarrega as informações do CD de áudio, tais como o artista e o nome da faixa, a partir da base de dados freedb.org."
 
 msgctxt "#36285"
 msgid "Select the location on your hard drive where ripped tracks will be saved to."
@@ -13057,6 +13069,10 @@ msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
 msgstr "Ativar o cliente UPnP. Isto permitir-lhe-á transmitir multimédia de qualquer servidor UPnP com um ponto de controlo e controlar a reprodução a partir desse servidor."
 
+msgctxt "#36326"
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
+msgstr "Ativar o ponto de controlo UPnP. Permite-lhe difundir uma emissão para qualquer cliente UPnP e controlar a sua reprodução."
+
 msgctxt "#36327"
 msgid "This category contains the settings for how the web server service is handled."
 msgstr "Esta categoria contém as definições para manipular o serviço dos servidores web."
@@ -13113,9 +13129,17 @@ msgctxt "#36340"
 msgid "Continuous repeat delay (ms)."
 msgstr "Atraso contínuo de repetição (ms)."
 
+msgctxt "#36341"
+msgid "This category contains the settings for how the Zeroconf network discovery service is handled, required for AirPlay."
+msgstr "Esta categoria contém as definições para manipulação da descoberta de rede Zeroconf, necessária para o AirPlay."
+
 msgctxt "#36342"
 msgid "Allows applications on the network to discover enabled services via Zeroconf."
 msgstr "Permitir que as aplicações em rede descubram os serviços activos via Zeroconf."
+
+msgctxt "#36343"
+msgid "If enabled, the content from other AirPlay devices or applications can be received."
+msgstr "Se ativa, pode receber o conteúdo de outras aplicações ou dispositivos AirPlay."
 
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
@@ -13405,9 +13429,21 @@ msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "Gestor de Audio DSP..."
 
+msgctxt "#36438"
+msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
+msgstr "Ativa o processamento de sinal digital (DSP) dos canais de áudio especificados pela configuração do altifalante."
+
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
+msgstr "Todos os dados (definições do add-on e do gestor de DSP) na base de dados Audio DSP serão removidos."
+
+msgctxt "#36440"
+msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
+msgstr "A remover todas as definições do add-on e do gestor Audio DSP da base de dados."
+
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
-msgstr "Ativar processamento de Audio DSP"
+msgstr "Ativar processamento Audio DSP"
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -13792,6 +13828,10 @@ msgstr "Ilimitada"
 msgctxt "#38016"
 msgid "%d fps"
 msgstr "%d fps"
+
+msgctxt "#38017"
+msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
+msgstr "Região A - Américas, Ásia oriental e Sudeste da Ásia. Região B - África, Médio Oriente, Sudoeste da Ásia, Europa, Austrália e Nova Zelândia. Região C - Ásia central, China, Mongólia, Sul da Ásia, Bielorrússia, Rússia, Ucrânia e Cazaquistão."
 
 msgctxt "#38018"
 msgid "My rating"
