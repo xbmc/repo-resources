@@ -5049,6 +5049,26 @@ msgctxt "#15112"
 msgid "Default theme"
 msgstr "السمة الافتراضية"
 
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "هنا يمكنك ضبط اعدادات أوضاع ماقبل المعالجة. هذه المرحلة تغير فقط تدفق البيانات المدخلة ."
+
+msgctxt "#15114"
+msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
+msgstr "هنا يمكنك ضبط اعدادات معاجلة إعادة تجميع المدخلات . ملاحظة: يسمح بتفعيل وضع واحد فقط."
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "هنا يمكنك ضبط اعدادات أوضاع المعالجة الرئيسة . ملاحظة: في وضع التشغيل ، يمكنك اختيار نظام نشط واحد فقط."
+
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "هنا يمكنك ضبط اعدادات معالجة إعادة تجميع المخرجات . ملاحظة: يسمع بتفعيل وضع واحد فقط."
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "هنا يمكنك ضبط اعدادات أوضاع مابعد-المعالجة. هذه المرحلة تستخدم لمعادلة وتصحيح الصوت..."
+
 msgctxt "#15200"
 msgid "Last.fm"
 msgstr "Last.fm"
@@ -5065,6 +5085,10 @@ msgctxt "#15213"
 msgid "Play using..."
 msgstr "التشغيل باستخدام..."
 
+msgctxt "#15214"
+msgid "Use smoothed A/V synchronisation"
+msgstr "استخدام مزامنة A/V المريح"
+
 msgctxt "#15215"
 msgid "Hide file names in thumbs view"
 msgstr "إخفاء أسماء الملف في عرض المصغرات"
@@ -5077,6 +5101,10 @@ msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "لم يتم العثور على المسار أو غير صالح"
 
+msgctxt "#15301"
+msgid "Couldn't connect to network server"
+msgstr "لايمكن الإتصال بخادم الشبكة"
+
 msgctxt "#15302"
 msgid "No servers found"
 msgstr "لم يتم العثور على الملقم"
@@ -5087,7 +5115,7 @@ msgstr "لم يتم العثورعلى مجموعة العمل "
 
 msgctxt "#15310"
 msgid "Opening multi-path source"
-msgstr "جاري فتح مصدر متعدد المسارات"
+msgstr "فتح مصدر متعدد المسارات"
 
 msgctxt "#15311"
 msgid "Path:"
@@ -5119,7 +5147,7 @@ msgstr "أدخل اسم الفلم"
 
 msgctxt "#16010"
 msgid "Enter the profile name"
-msgstr "أدخل لسم ملفك الشخصي"
+msgstr "أدخل اسم الملف الشخصي"
 
 msgctxt "#16011"
 msgid "Enter the album name"
@@ -5151,7 +5179,7 @@ msgstr "أدخل نص البحث"
 
 msgctxt "#16018"
 msgid "None"
-msgstr "بلا"
+msgstr "بدون"
 
 msgctxt "#16019"
 msgid "Auto select"
@@ -5163,7 +5191,7 @@ msgstr "بوب"
 
 msgctxt "#16024"
 msgid "Cancelling..."
-msgstr "يَلغِى..."
+msgstr "جاري الإلغاء..."
 
 msgctxt "#16025"
 msgid "Enter the artist name"
@@ -5185,6 +5213,18 @@ msgctxt "#16031"
 msgid "No matching songs in the library."
 msgstr ".لا توجد أغاني مطابقة في المكتبة"
 
+msgctxt "#16032"
+msgid "Couldn't initialise database."
+msgstr "لايمكن تهيئة قاعدة البيانات."
+
+msgctxt "#16033"
+msgid "Couldn't open database."
+msgstr "لايمكن فتح قاعدة البيانات."
+
+msgctxt "#16034"
+msgid "Couldn't get songs from database."
+msgstr "لايمكن الحصول على الأغاني من قاعدة البيانات."
+
 msgctxt "#16035"
 msgid "Party mode playlist"
 msgstr "قائمة تشغيل وضع الطرف "
@@ -5199,15 +5239,19 @@ msgstr " تشابك طريقة"
 
 msgctxt "#16039"
 msgid "Off"
-msgstr "معطلة"
+msgstr "تعطيل"
 
 msgctxt "#16040"
 msgid "Auto"
-msgstr "التلقائية"
+msgstr "تلقائي"
 
 msgctxt "#16041"
 msgid "On"
-msgstr "النشطة"
+msgstr "تفعيل"
+
+msgctxt "#16100"
+msgid "All videos"
+msgstr "جميع الفيديوهات"
 
 msgctxt "#16101"
 msgid "Unwatched"
@@ -5227,7 +5271,15 @@ msgstr "أشر إليها على أنها لم تشاهد"
 
 msgctxt "#16105"
 msgid "Edit title"
-msgstr "تحرير عنوان"
+msgstr "تحرير العنوان"
+
+msgctxt "#16106"
+msgid "Manage..."
+msgstr "إدارة..."
+
+msgctxt "#16107"
+msgid "Edit sort title"
+msgstr "تحرير عنوان الفرز"
 
 msgctxt "#16200"
 msgid "Operation was aborted"
@@ -5237,17 +5289,29 @@ msgctxt "#16201"
 msgid "Copy failed"
 msgstr "فشل النسخ"
 
+msgctxt "#16202"
+msgid "Failed to copy at least one file. Check the log for more information about this message."
+msgstr "فشل النسخ لملف واحد على الأقل. لمزيد من المعلومات حول هذه الرسالة تفصح السجل."
+
 msgctxt "#16203"
 msgid "Move failed"
 msgstr "فشل النقل"
+
+msgctxt "#16204"
+msgid "Failed to move at least one file. Check the log for more information about this message."
+msgstr "فشل النقل لملف واحد على الأقل. لمزيد من المعلومات حول هذه الرسالة تفصح السجل."
 
 msgctxt "#16205"
 msgid "Delete failed"
 msgstr "فشل الحذف"
 
+msgctxt "#16206"
+msgid "Failed to delete at least one file. Check the log for more information about this message."
+msgstr "فشل الحذف لملف واحد على الأقل. لمزيد من المعلومات حول هذه الرسالة تفصح السجل."
+
 msgctxt "#16300"
 msgid "Video scaling method"
-msgstr "فيديو طريقة تصوير"
+msgstr "نظام تحجيم الفيديو"
 
 msgctxt "#16301"
 msgid "Nearest neighbour"
@@ -5289,9 +5353,17 @@ msgctxt "#16310"
 msgid "Temporal"
 msgstr "مؤقت"
 
+msgctxt "#16312"
+msgid "VDPAU - Noise reduction"
+msgstr "تقليل الضوضاء - VDPAU"
+
+msgctxt "#16313"
+msgid "VDPAU - Sharpness"
+msgstr "الحدة - VDPAU"
+
 msgctxt "#16316"
 msgid "Auto"
-msgstr "التلقائية"
+msgstr "تلقائي"
 
 msgctxt "#16319"
 msgid "DXVA"
@@ -5325,9 +5397,21 @@ msgctxt "#19000"
 msgid "Switch to channel"
 msgstr "تبديل الى القناة"
 
+msgctxt "#19001"
+msgid "Separate the search words by using AND, OR and / or NOT."
+msgstr "فصل كلمات البحث باستخدام AND أو  OR أو  / أو NOT ."
+
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
 msgstr "أو استخدم عبارات لايجاد توافق معين, مثل \"ساحر Oz\"."
+
+msgctxt "#19003"
+msgid "Find similar"
+msgstr "بحث المتشابه"
+
+msgctxt "#19004"
+msgid "Importing guide from clients"
+msgstr "استيراد الدليل من العملاء"
 
 msgctxt "#19005"
 msgid "PVR stream information"
@@ -5373,13 +5457,17 @@ msgctxt "#19017"
 msgid "Recordings"
 msgstr "التسجيلات"
 
+msgctxt "#19018"
+msgid "Folder with channel icons"
+msgstr "مجلد بأيقونات القناة"
+
 msgctxt "#19019"
 msgid "Channels"
-msgstr "محطات"
+msgstr "قنوات"
 
 msgctxt "#19020"
 msgid "TV"
-msgstr "TV"
+msgstr "تلفاز"
 
 msgctxt "#19021"
 msgid "Radio"
@@ -5391,11 +5479,11 @@ msgstr "مخفي"
 
 msgctxt "#19023"
 msgid "TV channels"
-msgstr "محطات TV"
+msgstr "قنوات التلفاز"
 
 msgctxt "#19024"
 msgid "Radio channels"
-msgstr "محطات الإذاغة"
+msgstr "قنوات الإذاعة"
 
 msgctxt "#19025"
 msgid "Upcoming recordings"
@@ -5411,11 +5499,11 @@ msgstr "لا يوجد نتائج بحث"
 
 msgctxt "#19029"
 msgid "Channel"
-msgstr "محطة"
+msgstr "قناة"
 
 msgctxt "#19030"
 msgid "Now"
-msgstr "الان"
+msgstr "الآن"
 
 msgctxt "#19031"
 msgid "Next"
@@ -5423,11 +5511,11 @@ msgstr "التالي"
 
 msgctxt "#19032"
 msgid "Timeline"
-msgstr "جدول الزمن"
+msgstr "الجدول الزمني"
 
 msgctxt "#19033"
 msgid "Information"
-msgstr "معلومة"
+msgstr "معلومات"
 
 msgctxt "#19034"
 msgid "Already started recording on this channel"
@@ -8456,6 +8544,10 @@ msgstr "الاضافة غير متوافقة لأنها لم تلب التبعي
 msgctxt "#24121"
 msgid "Enter search string"
 msgstr "أدخل نص البحث"
+
+msgctxt "#24140"
+msgid "View"
+msgstr "عرض"
 
 msgctxt "#24141"
 msgid "Add-on disabled"
