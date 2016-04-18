@@ -6213,9 +6213,25 @@ msgctxt "#15112"
 msgid "Default theme"
 msgstr "Standardtema"
 
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "Här kan du konfigurera förbehandlingsmoder. Detta behandlingssteg ändrar endast ingångsdataströmmen."
+
+msgctxt "#15114"
+msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
+msgstr "Här kan du konfigurera en ingång omsamplingsprocess. Lägg märke till: Endast ett aktivt läge är tillåtet!"
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "Här kan du konfigurera huvudbearbetningslägen. Observera: Vid uppspelning kan väljas endast ett aktivt läge!"
+
 msgctxt "#15116"
 msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
 msgstr "Här kan du konfigurera en utgående resampling process. OBS: Endast ett aktivt läge är tillåtet!"
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "Här kan du konfigurera efterbehandlingslägen. Detta behandlingssteg kan användas för att utjämna och volymkorrigering..."
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -7712,6 +7728,10 @@ msgstr "Du behöver en mottagare, backend-mjukvara, och ett tillägg för aktuel
 msgctxt "#19273"
 msgid "No audio DSP add-ons could be found"
 msgstr "Inga ljud DSP-tillägg kunde hittas"
+
+msgctxt "#19274"
+msgid "You need an add-on installed to be able to use audio digital signal processing (DSP)."
+msgstr "Du behöver ett tillägg installerat för att kunna använda ljud digital signalbehandling (DSP)."
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -10695,7 +10715,7 @@ msgstr "Undertexter"
 
 msgctxt "#24013"
 msgid "Lyrics"
-msgstr "Sångtexter"
+msgstr "Sångtext"
 
 msgctxt "#24014"
 msgid "TV information"
@@ -12821,6 +12841,10 @@ msgctxt "#36220"
 msgid "Number of days to show in the guide and import data for from backends."
 msgstr "Antal dagar att visa i guiden och importera data åt från backends"
 
+msgctxt "#36221"
+msgid "Time between imports of guide data from backends."
+msgstr "Tid mellan import av styrdata från backend."
+
 msgctxt "#36222"
 msgid "Don't import the guide data while playing TV to minimise CPU usage."
 msgstr "Importera inte guidedata under uppspelning för att minska CPU-användning."
@@ -12853,6 +12877,14 @@ msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Visa information om signalkvalitet i fönstret för codecinformation (om det stöds av tillägget och backenden)."
 
+msgctxt "#36230"
+msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
+msgstr "Tid att vänta på en kanal som tas emot efter ett kanalbyte. Användbart för over-the-air kanaler som ibland förlorar signalstyrkan."
+
+msgctxt "#36231"
+msgid "When flipping through channels using channel up/down buttons or when pressing a number button in full screen mode, channel switches must be confirmed using the OK button."
+msgstr "När bläddring genom kanaler med hjälp av kanal upp/ner-knapparna eller när du trycker på en sifferknapp i helskärmsläge, måste kanal växlingen bekräftas med OK-knappen."
+
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "När man trycker kanal upp eller ned, fördröjs kanalbytet och tillåter på så sätt att byta till en kanal utan att behöva vänta på varje kanalbyte."
@@ -12873,9 +12905,25 @@ msgctxt "#36236"
 msgid "Delete recording after this time. Not supported by all add-ons and backends."
 msgstr "Ta bort inspelning efter den här tiden. Stöds inte av alla tillägg och backends."
 
+msgctxt "#36237"
+msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
+msgstr "Ytterligare tid för att spela innan den schemalagda starttiden för att möjliggöra mindre sändningsändringar. Stöds inte av alla tillägg och backend ."
+
+msgctxt "#36238"
+msgid "Additional time to record after the scheduled end time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
+msgstr "Ytterligare tid för att spela efter den schemalagda sluttiden för att möjliggöra för mindre sändningsändringar. Stöds inte av alla tillägg och backend."
+
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
 msgstr "Visa en notifiering när timers är tillagda, slutförda eller tas bort av backenden."
+
+msgctxt "#36240"
+msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
+msgstr "Denna kategori innehåller energisparinställningar PVR, såsom när man vaknar backend PVR-servern."
+
+msgctxt "#36241"
+msgid "Execute the wakeup command below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
+msgstr "Kör väckningskommandot nedan när du lämnar det här programmet eller gå till viloläge. Tidsstämpeln av nästa schemalagda inspelningen överförs som parameter."
 
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
@@ -12901,6 +12949,10 @@ msgctxt "#36247"
 msgid "This category contains the parental control settings, if the PVR backend server supports parental controls."
 msgstr "Denna kategori innehåller inställningar för föräldrakontroll, om PVR-servern stöder det."
 
+msgctxt "#36248"
+msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can't be played or recorded without entering a pin code, and the guide information is hidden for those channels."
+msgstr "Frågar efter en PIN-kod för att komma åt föräldra låsta kanaler. Kanaler kan markeras som låst i kanalredigeraren i den allmänna fliken. Föräldra låsta kanaler kan inte spelas eller spelas in utan att ange en PIN-kod, och guideinformationen är dold för dessa kanaler."
+
 msgctxt "#36249"
 msgid "Enter a new pin code to unlock parental locked channels."
 msgstr "Ange en ny PIN-kod för att låsa upp föräldralåsta kanaler."
@@ -12908,6 +12960,14 @@ msgstr "Ange en ny PIN-kod för att låsa upp föräldralåsta kanaler."
 msgctxt "#36250"
 msgid "Ask for the pin code again when trying to access a parental locked channel and the code hasn't been asked for this duration."
 msgstr "Fråga efter PIN-koden igen vid försök av åtkomst till en föräldralåst kanal om koden inte blivit inslagen under denna tid."
+
+msgctxt "#36251"
+msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
+msgstr "Denna kategori innehåller inställningarna för PVR backend, om det stöds av PVR tillägg och backend."
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
+msgstr "Detta alternativ tar dig till några specifika inställningar för din PVR backend, om det stöds av PVR tillägg och backend."
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -12960,6 +13020,18 @@ msgstr "Spelar automatiskt nästa objekt i den aktuella mappen, till exempel i \
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
 msgstr "När låtar blir valda kommer de att köas i stället för att spelas upp omedelbart."
+
+msgctxt "#36267"
+msgid "Read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
+msgstr "Läs ReplayGain informationen kodad i dina ljudfiler med ett program som MP3Gain och normalisera ljudnivåer i enlighet därmed."
+
+msgctxt "#36268"
+msgid "Reference volume (PreAmp level) to use for files with encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
+msgstr "Referensvolym (Förstärkarnivå nivå) som ska användas för filer med kodad ReplayGain information. Standard är 89 dB enligt standard. Ändra med försiktighet."
+
+msgctxt "#36269"
+msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
+msgstr "Referensvolym (Förstärkarnivå nivå) som ska användas för filer utan kodade ReplayGain information. Standard är 89 dB enligt standard. Ändra med försiktighet."
 
 msgctxt "#36270"
 msgid "Reduce the volume of the file if clipping will occur."
@@ -13201,6 +13273,10 @@ msgctxt "#36340"
 msgid "Continuous repeat delay (ms)."
 msgstr "Kontinuerlig repeteringsfördröjning (ms)"
 
+msgctxt "#36341"
+msgid "This category contains the settings for how the Zeroconf network discovery service is handled, required for AirPlay."
+msgstr "Denna kategori innehåller inställningar för hur Zeroconf nätverksidentifieringstjänsten hanteras, krävs för AirPlay."
+
 msgctxt "#36342"
 msgid "Allows applications on the network to discover enabled services via Zeroconf."
 msgstr "Tillåter applikationer i nätverket att upptäcka aktiva tjänster via Zeroconf."
@@ -13249,6 +13325,10 @@ msgctxt "#36353"
 msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Byter uppdateringsfrekvense som användargränsnittet visas i."
 
+msgctxt "#36354"
+msgid "If enabled, fullscreen mode will be applied by using a window instead of a real fullscreen mode. The main benefit is for multi-screen configurations, so that other applications can be used in parallel more easily. This uses more resources so playback may be less smooth."
+msgstr "Om den är aktiverad, kommer fullskärmsläge appliceras genom användning av ett fönster i stället för ett verkligt fullskärmsläge. Den största fördelen är för flerskärmskonfigurationer, så att andra applikationer kan användas parallellt lättare. Detta använder mer resurser så att uppspelningen kan vara mindre slät."
+
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Vid en konfiguration med flera skärmar är de bildskärmar som inte visar denna applikation släckta."
@@ -13293,6 +13373,10 @@ msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
 msgstr "Välj detta alternativ om din mottagare kan avkoda Dolby Digital (AC3) strömningar."
 
+msgctxt "#36366"
+msgid "Select this option if your receiver is capable of decoding DTS streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "Välj detta alternativ om din mottagare är kapabel att avkoda DTS strömmar. Obs! Aktivering av detta kommer att inaktivera \"Support 8-kanals DTS-HD-ljud avkodning\" alternativet"
+
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Ange max antal ljudkanaler/högtalare tillgängliga för ljudavkodning. Om optiska/koaxiala digitala utgångar används måste detta anges till 2.0"
@@ -13304,6 +13388,10 @@ msgstr "Ange alternativen för ljud som spelas upp direkt utan behandling, t.ex 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Välj detta alternativ om din förstärkare kan avkoda TrueHD-strömmar."
+
+msgctxt "#36370"
+msgid "Select this option if your receiver is capable of decoding DTS-HD streams. Note: Enabling this will disable \"Support 8 channel DTS-HD audio decoding\" option"
+msgstr "Välj detta alternativ om din mottagare kan avkoda DTS-HD strömmar. Obs! Aktivering av detta kommer att inaktivera \"Support 8-kanals DTS-HD-ljud avkodning\" alternativet"
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -13384,6 +13472,10 @@ msgstr "Ställ in hur lång tid applikationen ska vänta innan den stänga av."
 msgctxt "#36390"
 msgid "Define what action to perform when the shutdown function timer lapsed."
 msgstr "Definiera vilken åtgärd som ska utföras när avstängningsfunktion timer är utgången."
+
+msgctxt "#36391"
+msgid "This category contains the settings for enabling event and debug logging. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
+msgstr "Denna kategori innehåller inställningar för att möjliggöra händelse och felsökningsloggning. Du kan även aktivera komponentspecifik felsökningsloggning för att felsöka relaterade frågor mer i detalj."
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
@@ -13509,6 +13601,14 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Aktivera AMLogic-hårdvaruavkodning av video."
 
+msgctxt "#36423"
+msgid "Repeating schedules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "Upprepade scheman ska bara spela in nya avsnitt. Stöds inte av alla tillägg och backend."
+
+msgctxt "#36424"
+msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
+msgstr "Välj vad som händer när ett objekt väljs i guiden: [Visa Snabbmeny] utlöser kontextmenyn där du kan välja ytterligare åtgärder; [Växla till kanal] Kommer omedelbart vända sig till den tillhörande kanalen; [Visa information] Kommer att visa detaljerad information med handling och ytterligare alternativ; [Spela in] Kommer att skapa en inspelnings timer för det markerade objektet."
+
 msgctxt "#36425"
 msgid "Show context menu"
 msgstr "Visa undermeny"
@@ -13533,6 +13633,10 @@ msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
 msgstr "Ange hur videobehandling skall accelereras. Inkluderar avkodning och videoskalning."
 
+msgctxt "#36431"
+msgid "Shows all events in the event log for the current profile with options to only show specific levels."
+msgstr "Visar alla händelser i händelseloggen för den aktuella profilen med alternativ för att bara visa specifika nivåer."
+
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Välj layout för virtuella tangentbord."
@@ -13553,6 +13657,22 @@ msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "Ljud DSP-hanterare..."
 
+msgctxt "#36437"
+msgid "Allows to configure available modes for different stages in audio processing and to arrange the steps within the processing chain of each selected mode."
+msgstr "Gör det möjligt att konfigurera tillgängliga lägen för olika stadier i ljudbearbetning och att ordna åtgärder inom förädlingskedjan för varje valt läge."
+
+msgctxt "#36438"
+msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
+msgstr "Möjliggör digital signalbehandling (DSP) ljudkanaler som specificeras av högtalarkonfigurationen ."
+
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
+msgstr "Alla data (tilläggsinställningar och ljud DSP manager inställningar) i ljud DSP-databasen kommer att raderas."
+
+msgctxt "#36440"
+msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
+msgstr "Radera alla DSP tillägg och ljud DSP manager inställningar i ljud DSP databasen."
+
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
 msgstr "Aktivera DSP-behandling"
@@ -13560,6 +13680,10 @@ msgstr "Aktivera DSP-behandling"
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
 msgstr "Händelse-loggning gör det möjligt att hålla reda på vad som hänt."
+
+msgctxt "#36461"
+msgid "Notification event describe regular processes and actions performed by the system or the user."
+msgstr "Händelse aviseringar beskriver vanliga processer och åtgärder som utförs av systemet eller användaren."
 
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
