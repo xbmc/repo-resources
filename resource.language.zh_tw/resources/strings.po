@@ -1139,7 +1139,7 @@ msgstr "(0=自動)"
 
 msgctxt "#313"
 msgid "Cleaning database"
-msgstr "正在清除資料庫"
+msgstr "正在整理資料庫"
 
 msgctxt "#314"
 msgid "Preparing..."
@@ -1155,47 +1155,47 @@ msgstr "正在搜尋歌曲…"
 
 msgctxt "#317"
 msgid "Cleaned database successfully"
-msgstr "成功清除資料庫！"
+msgstr "成功整理資料庫！"
 
 msgctxt "#318"
 msgid "Cleaning songs..."
-msgstr "正在清除歌曲…"
+msgstr "正在整理歌曲…"
 
 msgctxt "#319"
 msgid "Error cleaning songs"
-msgstr "清除歌曲錯誤！"
+msgstr "整理歌曲錯誤！"
 
 msgctxt "#320"
 msgid "Cleaning artists..."
-msgstr "正在清除演出者…"
+msgstr "正在整理演出者…"
 
 msgctxt "#321"
 msgid "Error cleaning artists"
-msgstr "清除演出者時錯誤！"
+msgstr "整理演出者時錯誤！"
 
 msgctxt "#322"
 msgid "Cleaning genres..."
-msgstr "清除類別…"
+msgstr "整理類別…"
 
 msgctxt "#323"
 msgid "Error cleaning genres"
-msgstr "清除類別錯誤！"
+msgstr "整理類別錯誤！"
 
 msgctxt "#324"
 msgid "Cleaning paths..."
-msgstr "清除路徑…"
+msgstr "整理路徑…"
 
 msgctxt "#325"
 msgid "Error cleaning paths"
-msgstr "清除路徑錯誤！"
+msgstr "整理路徑錯誤！"
 
 msgctxt "#326"
 msgid "Cleaning albums..."
-msgstr "清除專輯…"
+msgstr "整理專輯…"
 
 msgctxt "#327"
 msgid "Error cleaning albums"
-msgstr "清除專輯錯誤！"
+msgstr "整理專輯錯誤！"
 
 msgctxt "#328"
 msgid "Writing changes..."
@@ -1219,11 +1219,11 @@ msgstr "壓縮資料庫錯誤！"
 
 msgctxt "#333"
 msgid "Do you want to clean the library?"
-msgstr "你確定要清除資料庫嗎？"
+msgstr "你確定要整理資料庫嗎？"
 
 msgctxt "#334"
 msgid "Clean library..."
-msgstr "清除資料庫…"
+msgstr "整理資料庫…"
 
 msgctxt "#335"
 msgid "Start"
@@ -2507,7 +2507,7 @@ msgstr "[B]視訊[/B]元件的詳細紀錄"
 
 msgctxt "#700"
 msgid "Cleaning up library"
-msgstr "清除資料庫"
+msgstr "整理資料庫"
 
 msgctxt "#701"
 msgid "Removing old songs from the library"
@@ -7729,6 +7729,10 @@ msgctxt "#19273"
 msgid "No audio DSP add-ons could be found"
 msgstr "找不到任何數位音效處理附加元件"
 
+msgctxt "#19274"
+msgid "You need an add-on installed to be able to use audio digital signal processing (DSP)."
+msgstr "你需要安裝可以用來處理數位音效訊號的附加元件(DSP)。"
+
 msgctxt "#19275"
 msgid "Conflict warning"
 msgstr "衝突驚告"
@@ -12481,9 +12485,25 @@ msgctxt "#36129"
 msgid "Set the time to wait for any activity to occur before displaying the screensaver."
 msgstr "在螢幕保護程式啟動前設定一段緩衝時間以備有任何活動發生"
 
+msgctxt "#36130"
+msgid "Select the screensaver. The \"Dim\" screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
+msgstr "選擇螢幕保護程式。當全螢幕播放模式下被暫停或有顯示對話框時，會強制使用\"變暗\"這個螢幕保護程式。"
+
+msgctxt "#36131"
+msgid "Select to change the screensaver specific settings. Which options are available for configuration depends on the features provided by the screensaver add-on."
+msgstr "選擇以修改個別螢幕保護程式特有的設定。這些選項可以用來設定此螢幕保護程式外掛特有的功能。"
+
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "預覽選擇的螢幕保護程式。"
+
+msgctxt "#36133"
+msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+msgstr "若正在播放音樂時，選用的視覺效果會應聲出現，而不顯示螢幕保護程式。"
+
+msgctxt "#36134"
+msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
+msgstr "播放暫停的時候螢幕變暗。使用\"Dim\"螢幕保護程式時將沒有效果。"
 
 msgctxt "#36135"
 msgid "No info available yet."
@@ -12497,17 +12517,37 @@ msgctxt "#36137"
 msgid "No info available yet."
 msgstr "無可用資訊。"
 
+msgctxt "#36138"
+msgid "Section that contains settings related to videos and how they are handled."
+msgstr "本區包含影片相關的設定及檔案處理方式"
+
 msgctxt "#36139"
 msgid "This category contains the settings for how the video library is handled."
 msgstr "此分類包含如何處理影片資料庫的設定。"
+
+msgctxt "#36140"
+msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
+msgstr "選擇用來在使用者介面中顯示氣溫時使用的溫度單位。"
 
 msgctxt "#36141"
 msgid "Show plot information for unwatched media in the video library."
 msgstr "在影片資料庫中未看過的影片也顯示劇情簡介。"
 
+msgctxt "#36142"
+msgid "Choose which speed unit is used for displaying speeds in the user interface."
+msgstr "選擇用來在使用者介面中顯示速度時使用的速度單位。"
+
 msgctxt "#36143"
 msgid "Downloads thumbnails for actors from online databases when adding media to the library."
 msgstr "當新增影片時從缐上資料庫下載演員縮圖"
+
+msgctxt "#36144"
+msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
+msgstr "選擇在哪些狀況下要將電視影集的分季隱藏，如果隱藏時，選擇某電視影集時會直接跳到逐集列表。"
+
+msgctxt "#36145"
+msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have it's own entry in the movie library even if it belongs to a set."
+msgstr "啟用時，屬於同一個\"系列電影\"的影片會歸類在電影資料庫中屬於它們的一個條目，開啟該條目可顯示個別影片。而當禁用時，每部影片都會在資料庫有自己的獨立條目，即使該片屬於某個系列作。"
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -12520,6 +12560,10 @@ msgstr "掃描資料庫時隱藏進度條。"
 msgctxt "#36148"
 msgid "Remove items from your library that can't be found (either renamed, deleted, or on removable storage that is currently unplugged)."
 msgstr "從你的資料庫中移除找不到的項目 (可能是被改名、刪除、或者存在可移除的裝置中)。"
+
+msgctxt "#36149"
+msgid "Export the video library database to XML files. This will optionally overwrite your current XML files."
+msgstr "將影片資料庫匯出成 XML 檔。你可選擇是否覆蓋目前的 XML 檔案。"
 
 msgctxt "#36150"
 msgid "Import a XML file into the video library database."
@@ -12549,6 +12593,10 @@ msgctxt "#36156"
 msgid "Enable VAAPI hardware decoding of video files, mainly used for Intel graphics and in some circumstances AMD graphics."
 msgstr "啟用影片檔案 VAAPI 硬體解碼，主要使用在 Intel 和部份 AMD 的圖形處理器。"
 
+msgctxt "#36157"
+msgid "When enabled, a \"Movie set\" entry is used even if the movie library contains only a single movie from that set. When disabled, a \"Movie set\" entry is used only if the movie library contains more than one movie from that set."
+msgstr "啟用時，就算該系列電影只有一部影片在資料庫中，也會建立一個系列入口。反之，禁用時，只有當影片資料庫中有兩部以上該系列影片時，才會建立該系列電影的入口。"
+
 msgctxt "#36158"
 msgid "Enable DXVA2 hardware decoding of video files."
 msgstr "啟用影片檔案 DXVA2 硬體解碼。"
@@ -12569,6 +12617,10 @@ msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "啟用影片檔案 VideoToolbox 硬體解碼。"
 
+msgctxt "#36163"
+msgid "Show TV shows with no episodes when browsing the video library."
+msgstr "瀏覽影片資料庫時顯示未有分集內容的影集"
+
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "播放影片時，允許變更視訊更新頻率以符合播放的視訊。這樣可能會讓播放更順暢。"
@@ -12581,9 +12633,29 @@ msgctxt "#36166"
 msgid "Synchronise the video to the refresh rate of the monitor."
 msgstr "同步影片和螢幕的更新頻率。"
 
+msgctxt "#36167"
+msgid "Choose which time format is used for displaying the time in the user interface."
+msgstr "選擇用來在使用者介面中顯示時間時使用的時間格式。"
+
+msgctxt "#36168"
+msgid "Choose whether to use 12 or 24-hour format for displaying the time in the user interface."
+msgstr "選擇在使用者介面中顯示時間時使用12或24小時制。"
+
+msgctxt "#36169"
+msgid "Select the quality of resampling for cases where the audio output needs to be at a different sampling rate from that used by the source.[CR][Low] Is fast and will have minimal impact on system resources such as the use of the CPU.[CR][Medium] & [High] Will use progressively more system resources."
+msgstr "選擇重取樣品質，當音效輸出的取樣率與訊源不同時，需要進行重取樣。[CR][低] 的品質較差，但是快速，而且對於系統資源（如：CPU）的影響最小。[CR][中] 與 [高] 會獲得較好的品質但是同時會使用較多的系統資源。"
+
+msgctxt "#36170"
+msgid "Stretch the video up to the set percentage in order to minimise black bars."
+msgstr "將影片拉伸到設定的百分比以將上下黑邊最小化。"
+
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "選擇 4:3 影片在寬螢幕播放時的放大等級。"
+
+msgctxt "#36173"
+msgid "Choose which short date format is used for displaying the date in the user interface."
+msgstr "選擇用來在使用者介面中顯示日期時使用的簡化日期格式。"
 
 msgctxt "#36174"
 msgid "Enable teletext when watching a live TV stream."
@@ -12597,6 +12669,10 @@ msgctxt "#36176"
 msgid "This category contains the settings for how video file lists are handled."
 msgstr "此分類包含如何處理影片檔案列表的設定。"
 
+msgctxt "#36177"
+msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
+msgstr "預設選擇動作的選項有[選擇]，[播放] (預設值)，[恢復]，以及[顯示詳細資訊]。[CR][選擇]會選取該項目，例如：在檔案模式中開啟一個目錄。[CR][恢復] 則是會從上次播放該視訊的時間點繼續播放，即使重新啟動系統也能運作。"
+
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
 msgstr "從影片中擷取縮圖和如編碼和影片比例等詳細資訊。"
@@ -12605,13 +12681,29 @@ msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
 msgstr "當檔案被掃描進資料庫時顯示檔案資訊中的標題而非檔案名稱。"
 
+msgctxt "#36180"
+msgid "Extract thumbnails and information, such as codecs and aspect ratio, to display in library mode."
+msgstr "擷取縮圖和如編碼和影片比例等詳細資訊，用以在資料庫模式中顯示。"
+
 msgctxt "#36181"
 msgid "No info available yet."
 msgstr "無可用資訊。"
 
+msgctxt "#36182"
+msgid "Combines multi-part video files, DVD folders or movie folders, down to a single item in non-library views."
+msgstr "在非資料庫顯示模式時，將多段的影片檔案，DVD 目錄，或電影目錄組合為單一項目。"
+
+msgctxt "#36183"
+msgid "Removes the title, genre, etc. nodes from the library view. Selecting a category takes you straight to the title view."
+msgstr "在資料庫檢視時不經過標題，類型等分類層級，而是直接進入標題頁面。"
+
 msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
 msgstr "此分類包含如何處理字幕檔的設定。"
+
+msgctxt "#36185"
+msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+msgstr "設定純文字格式字幕檔(通常是下載來的)使用的字型樣式。"
 
 msgctxt "#36186"
 msgid "Set the font size to be used for subtitles."
@@ -12661,6 +12753,18 @@ msgctxt "#36197"
 msgid "No info available yet."
 msgstr "無可用資訊。"
 
+msgctxt "#36198"
+msgid "Select the default movie information source. See the add-ons manager for options."
+msgstr "選擇預設的電影資訊來源。附加元件管理員中有更多選項。"
+
+msgctxt "#36199"
+msgid "Select the default TV show information source. See the add-ons manager for options."
+msgstr "選擇預設的電視節目資訊來源。附加元件管理員中有更多選項。"
+
+msgctxt "#36200"
+msgid "Select the default music videos information source. See the add-ons manager for options."
+msgstr "選擇預設的音樂影片資訊來源。附加元件管理員中有更多選項。"
+
 msgctxt "#36201"
 msgid "Settings for PVR / Live TV."
 msgstr "PVR/電視直播的設定。"
@@ -12669,9 +12773,21 @@ msgctxt "#36202"
 msgid "This category contains the general settings for the PVR / Live TV."
 msgstr "此分類包含預錄及即時電視節目的設定。"
 
+msgctxt "#36203"
+msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
+msgstr "啟動\"客制化影片錄製\"(PVR)功能，要開啟此功能需先安裝至少一個PVR外掛。"
+
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "從 PVR 後端匯入頻道群組 (如果支援的話)。 如果使用者建立的頻道群組在後端找不到的話將會被刪除。"
+
+msgctxt "#36205"
+msgid "Sort the channels by channel number from the backend, but use own numbering for channels."
+msgstr "用後台取得的頻道號碼來排序，但使用自己的排序邏輯給頻道編號。"
+
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend, instead of configuring them manually in the channel manager. Only works with one enabled PVR add-on!"
+msgstr "沿用從後台取得的頻道編號，而不在頻道管理中手動指定。此設定僅能在有一個PVR外掛啟動時作用。"
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -12681,6 +12797,14 @@ msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
 msgstr "下掃描頻道的指令給後端 (如果後端支援的話)。"
 
+msgctxt "#36209"
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+msgstr "刪除頻道及節目表等資料庫項目，然後從後端重新匯入資料"
+
+msgctxt "#36210"
+msgid "Prevent the \"Connection lost\" notification window from displaying when the PVR backend server is not available."
+msgstr "當連不上PVR後端伺服器時，不要顯示\"連線中斷\"的提示視窗。"
+
 msgctxt "#36211"
 msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
 msgstr "此分類包含 PVR 選單、播放控制列(OSD)和頻道資訊視窗的設定"
@@ -12689,9 +12813,17 @@ msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr "當切換頻道時顯示節目資訊，如正在播放的節目。"
 
+msgctxt "#36213"
+msgid "Open the group manager, which allows modification of groups and their respective channels"
+msgstr "開啟群組管理員，它可以修改群組及所包含的頻道。"
+
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
 msgstr "切換頻道後關閉播放控制列。"
+
+msgctxt "#36215"
+msgid "Choose which long date format is used for displaying the date in the user interface."
+msgstr "選擇用來在使用者介面中顯示日期時使用的完整日期格式。"
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
@@ -12704,6 +12836,14 @@ msgstr "掃描缺少的頻道圖示"
 msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "此分類包含電子節目表(EPG)的設定。"
+
+msgctxt "#36220"
+msgid "Number of days to show in the guide and import data for from backends."
+msgstr "設定要在節目表中顯示及從後端匯入資料的天數"
+
+msgctxt "#36221"
+msgid "Time between imports of guide data from backends."
+msgstr "從後端取得節目表資料的時間間隔"
 
 msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
@@ -12749,6 +12889,10 @@ msgctxt "#36255"
 msgid "Determine if artists that appear only on compilations are shown in the library artist view."
 msgstr "決定只在合輯中出現的演出者是否要顯示在音樂庫演出者列表。"
 
+msgctxt "#36256"
+msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
+msgstr "當新增歌曲至資料庫時自動從資訊提供單位抓取專輯及藝人相關資料"
+
 msgctxt "#36257"
 msgid "Select the default album information provider."
 msgstr "選擇預設的專輯資訊提供者"
@@ -12760,6 +12904,10 @@ msgstr "選擇預設的演出者資訊提供者"
 msgctxt "#36260"
 msgid "No info available yet."
 msgstr "無可用資訊。"
+
+msgctxt "#36262"
+msgid "Export the music library database to XML files. This will optionally overwrite your current XML files."
+msgstr "將音樂資料庫匯出成 XML 檔。你可選擇是否覆蓋目前的 XML 檔案。"
 
 msgctxt "#36263"
 msgid "Import a XML file into the music library database."
@@ -12796,6 +12944,14 @@ msgstr "控制音軌顯示的方式。為了正確的運作，必須啟用檔案
 msgctxt "#36276"
 msgid "Used for formatting the second column in file lists."
 msgstr "此選項用於設定檔案列表第二列的顯示格式。"
+
+msgctxt "#36279"
+msgid "Control the way that the names of songs are displayed in library lists."
+msgstr "控制曲名在資料庫列表中顯示的方式。"
+
+msgctxt "#36280"
+msgid "Used for formatting the second column in library lists."
+msgstr "此選項用於資料庫列表第二列的顯示格式。"
 
 msgctxt "#36282"
 msgid "This category contains the settings for how CDs are handled."
@@ -12892,6 +13048,10 @@ msgstr "此分類包含全部服務相關的設定。"
 msgctxt "#36322"
 msgid "This category contains the settings for how the UPnP service is handled. UPnP is also called DLNA on most consumer electronics."
 msgstr "此分類包含UPnP服務的設定。在大部分的消費電子產品中，UPnp也叫做DLNA"
+
+msgctxt "#36324"
+msgid "When a manual or automatic library update occurs, notify UPnP clients."
+msgstr "當資料庫手動或自動更新時，通知 UPnP 客戶端。"
 
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."

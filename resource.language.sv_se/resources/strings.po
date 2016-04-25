@@ -13769,6 +13769,10 @@ msgctxt "#36532"
 msgid "Same as movie"
 msgstr "Samma som filmen"
 
+msgctxt "#36533"
+msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
+msgstr "Välj hur ljud är nedmixas, t.ex. från 5.1-2.0.[CR][Aktiverad] Bibehåller volymen av den ursprungliga ljudkällan men det dynamiska omfånget komprimeras.[CR][Inaktiverad] Bibehåller det dynamiska omfånget av den ursprungliga ljudkällan när den nedmixas men volymen kommer att bli lägre. Obs: Dynamiskt omfång är skillnaden mellan de tystaste och starkaste ljuden i en ljudkälla. Aktivera den här inställningen om filmdialoger är knappt hörbar."
+
 msgctxt "#36534"
 msgid "Specify additional libraries whose verbose messages are to be included in the debug log."
 msgstr "Ange ytterligare bibliotek vars uförliga meddelanden som ska ingå i felsökningsloggen."
@@ -13780,6 +13784,14 @@ msgstr "Stereoskopiskt 3D-läge av video"
 msgctxt "#36536"
 msgid "Invert stereoscopic 3D mode (flip eyes)"
 msgstr "Invertera stereoskopiskt 3D-läge (flip eyes)"
+
+msgctxt "#36537"
+msgid "Select in which mode stereoscopic 3D videos will be played.[CR][Ask me] Will show a dialogue to select the desired mode for each playback.[CR][Preferred mode] Will use the preferred mode specified in the \"System -> Video hardware\" section of the settings.[CR][Monoscopic / 2D] Will play the video in mono / 2D.[CR][Ignore] Disables any stereoscopic 3D processing and handling."
+msgstr "Välj i vilket läge stereoskopiska 3D-filmer kommer att spelas.[CR][Be mig] Kommer att visa en dialog för att välja önskat läge för varje uppspelning.[CR][Föredraget läge] Kommer att använda det föredragna sättet som anges i \"System -> Grafikkort\" inställningarna.[CR][Monoskopisk / 2D] Kommer att spela video i mono / 2D.[CR][Ignorera] Inaktiverar all stereoskopisk 3D bearbetning och hantering."
+
+msgctxt "#36538"
+msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode, between videos in a playlist or when playback ended.[CR][Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists with mixed stereoscopic 3D and 2D content, then the GUI will also stay in stereoscopic 3D mode even when a non-stereoscopic 2D video is playing."
+msgstr "[Enabled] Växlar GUI (och vissa TV-apparater) tillbaka till 2D-läge, mellan videoklipp i en spellista eller när uppspelningen avslutats. [CR][Disabled] GUI och TV kommer att stanna i stereoskopisk 3D-läge. För video spellistor med blandad stereoskopisk 3D och 2D-innehåll, GUI kommer också att stanna i stereoskopisk 3D-läge även när en icke-stereoskopisk 2D-video spelas upp."
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
@@ -13821,9 +13833,17 @@ msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Begränsar upplösningen av gränssnittet för att spara minne. Påverkar inte videouppspelningen. Kräver omstart."
 
+msgctxt "#36549"
+msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
+msgstr "Aktiverar stöd för att ta emot \"Video\" och \"Foton\" via AirPlay. Detta måste vara inaktiverad när man använder iOS 9 eller senare klienter för att återställa musik strömning via AirPlay. \"Video\" och \"Foton\" stöder endast iOS klienter som använder iOS 8.x och äldre."
+
 msgctxt "#36550"
 msgid "Stereoscopic 3D effect strength"
 msgstr "Styrka för Stereoskopisk 3D-effekt"
+
+msgctxt "#36551"
+msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
+msgstr "Definierar styrkan av den stereoskopiska 3D-effekten i GUI. Detta görs genom att reglera djupet av uppfattningen inom GUI:en, så ju högre värde, desto fler element hoppar ut på skärmen. [Noll] Inaktiverar stereoskopisk 3D-effekt av det grafiska gränssnittet.[CR]För en god visuell upplevelse, ska värdet vara högre för små skärmar och lägre för stora skärmar. Obs: detta stöds inte av alla skal."
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -14060,6 +14080,10 @@ msgstr "Föredra förvalda ljudströmmar"
 msgctxt "#37041"
 msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
 msgstr "Vid aktivering väljs ljudströmmar som är flaggade som standard (och matchar föredraget språk) framför ljuströmmar med högre ljudkvalitet (antal kanaler, codec, ...)"
+
+msgctxt "#37042"
+msgid "Defines which step sizes to use when pressing the skip buttons. If more steps are selected for a skip direction, these can be applied by subsequent presses on the skip button within the defined skip delay. Forward (positive) and backward (negative) steps can be defined independently."
+msgstr "Definierar vilken stegstorlek som ska användas när du trycker på hoppa överhoppningsknapparna. Om fler steg väljs för en överhoppningsriktning, kan dessa användas av efterföljande tryckningar på överhoppninggsknappen inom den definierade överhoppnings-fördröjningen. Framåt (positiv) och bakåt (negativa) steg kan definieras oberoende av varandra."
 
 msgctxt "#37043"
 msgid "Defines the time to wait for subsequent key presses before performing the skip. Only applies when using smart skipping (when using more than one skip step for a direction)."
