@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <layout name="PS" label="30000" image="layout.png">
-	<face>
+	<category name="face">
 		<button name="cross" type="digital" label="30001"/>
 		<button name="circle" type="digital" label="30002"/>
 		<button name="square" type="digital" label="30003"/>
@@ -13,17 +13,21 @@
 		<button name="left" type="digital" label="30010" direction="left"/>
 		<button name="l3" type="digital" label="30011"/>
 		<button name="r3" type="digital" label="30012"/>
-	</face>
-	<shoulder>
+	</category>
+	<category name="shoulder">
 		<button name="leftbumper" type="digital" label="30013"/>
 		<button name="rightbumper" type="digital" label="30014"/>
-	</shoulder>
-	<triggers>
+	</category>
+	<category name="triggers">
 		<button name="lefttrigger" type="digital" label="30015"/>
 		<button name="righttrigger" type="digital" label="30016"/>
-	</triggers>
-	<analogsticks>
+	</category>
+	<category name="analogsticks">
 		<analogstick name="leftstick" label="30011"/>
 		<analogstick name="rightstick" label="30012"/>
-	</analogsticks>
+	</category>
+	<category name="haptics">
+		<motor name="strongmotor"/>
+		<motor name="weakmotor"/>
+	</category>
 </layout>
