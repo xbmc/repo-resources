@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.mi"
+  version="2.0.0"
+  name="Maori"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="mi">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <dvd>
+      <menu>en</menu>
+      <audio>en</audio>
+      <subtitle>en</subtitle>
+    </dvd>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Maori language pack</summary>
+    <description lang="en">Maori version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

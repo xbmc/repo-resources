@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.bs_ba"
+  version="2.0.0"
+  name="Bosnian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="bs_BA">
+    <charsets>
+      <gui>CP1251</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Bosnian language pack</summary>
+    <description lang="en">Bosnian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

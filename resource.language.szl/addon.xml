@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.szl"
+  version="2.0.0"
+  name="Silesian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="szl">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Silesian language pack</summary>
+    <description lang="en">Silesian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

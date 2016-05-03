@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.uz_uz"
+  version="2.0.0"
+  name="Uzbek"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="uz_UZ">
+    <charsets>
+      <gui unicodefont="true">CP1254</gui>
+      <subtitle>CP1254</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Uzbek language pack</summary>
+    <description lang="en">Uzbek version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.te_in"
+  version="2.0.0"
+  name="Telugu"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="te_IN">
+    <charsets>
+      <gui unicodefont="true">CP65001</gui>
+      <subtitle>CP65001</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Telugu language pack</summary>
+    <description lang="en">Telugu version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
