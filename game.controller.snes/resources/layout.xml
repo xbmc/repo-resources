@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <layout name="SNES" label="30000" image="layout.png">
-  <face>
+  <category name="face">
     <button name="a" type="digital" label="30001"/>
     <button name="b" type="digital" label="30002"/>
     <button name="x" type="digital" label="30003"/>
@@ -11,9 +11,9 @@
     <button name="down" type="digital" label="30008" direction="down"/>
     <button name="right" type="digital" label="30009" direction="right"/>
     <button name="left" type="digital" label="30010" direction="left"/>
-  </face>
-  <shoulder>
+  </category>
+  <category name="shoulder">
     <button name="leftbumper" type="digital" label="30011"/>
     <button name="rightbumper" type="digital" label="30012"/>
-  </shoulder>
+  </category>
 </layout>
