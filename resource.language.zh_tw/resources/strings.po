@@ -27,7 +27,7 @@ msgstr "音樂"
 
 msgctxt "#3"
 msgid "Videos"
-msgstr "視訊"
+msgstr "影片"
 
 msgctxt "#4"
 msgid "TV guide"
@@ -35,7 +35,7 @@ msgstr "電視節目表"
 
 msgctxt "#5"
 msgid "Settings"
-msgstr "系統設定"
+msgstr "設定"
 
 msgctxt "#6"
 msgid "Kodi SVN"
@@ -403,7 +403,7 @@ msgstr "你要移動所選的檔案嗎？"
 
 msgctxt "#125"
 msgid "Would you like to delete the selected file(s)?[CR]Warning - this action can't be undone!"
-msgstr "你要刪除所選的檔案嗎？[CR]警告 - 這個動作不能被回復"
+msgstr "你要刪除所選的檔案嗎？[CR]警告 - 這個動作無法復原!"
 
 msgctxt "#126"
 msgid "Status"
@@ -719,7 +719,7 @@ msgstr "大綱"
 
 msgctxt "#205"
 msgid "Votes"
-msgstr "得票："
+msgstr "得票"
 
 msgctxt "#206"
 msgid "Cast"
@@ -9353,10 +9353,6 @@ msgctxt "#20349"
 msgid "No video files found in this path!"
 msgstr "此路徑無視訊檔！"
 
-msgctxt "#20350"
-msgid "%.1f (%i votes)"
-msgstr "%.1f (%i 人投票)"
-
 msgctxt "#20351"
 msgid "TV show information"
 msgstr "電視劇資訊"
@@ -11411,7 +11407,7 @@ msgstr "數位音效處理的附加元件目前使用中，不能移除。"
 
 msgctxt "#24139"
 msgid "View Add-on"
-msgstr "檢視插件"
+msgstr "檢視附加元件"
 
 msgctxt "#24140"
 msgid "View"
@@ -12419,7 +12415,87 @@ msgstr "遊戲附加元件"
 
 msgctxt "#35050"
 msgid "Controller profiles"
-msgstr "控制器設定黨"
+msgstr "控制器設定檔"
+
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. Move to the buttons and select the first one. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "使用鍵盤或遙控器來選擇控制器設定檔。移到按鍵區並選擇第一個，依螢幕提示按下最適合該功能的按鍵，如果不小心弄錯的話，重新設定即可。"
+
+msgctxt "#35056"
+msgid "Joystick support not found"
+msgstr "找不到支援的搖桿"
+
+msgctxt "#35057"
+msgid "Controller configuration is disabled. Install the proper joystick support add-on."
+msgstr "控制器設置功能被禁用，請安裝適當的搖桿支援附加元件。"
+
+msgctxt "#35058"
+msgid "Controller Configuration"
+msgstr "控制器設置"
+
+msgctxt "#35059"
+msgid "Buttons"
+msgstr "按鍵"
+
+msgctxt "#35060"
+msgid "Reset controller profile"
+msgstr "重置控制器設定檔"
+
+msgctxt "#35061"
+msgid "Would you like to reset this controller profile for all attached devices?"
+msgstr "你想要重置這個控制器設定檔來重置已連接的設備嗎？"
+
+msgctxt "#35062"
+msgid "All available controller profiles are installed."
+msgstr "所有可用的控制器設定檔都已安裝。"
+
+msgctxt "#35063"
+msgid "Configure attached controllers"
+msgstr "設定已連接的控制器"
+
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "與各種不同的遊戲平台專屬的輸入裝置進行配對。"
+
+msgctxt "#35090"
+msgid "Press %s"
+msgstr "按 %s"
+
+msgctxt "#35091"
+msgid "Press %s (%d)"
+msgstr "按 %s (%d)"
+
+msgctxt "#35092"
+msgid "Move %s up"
+msgstr "往上移動 %s "
+
+msgctxt "#35093"
+msgid "Move %s up (%d)"
+msgstr "往上移動 %s (%d)"
+
+msgctxt "#35094"
+msgid "Move %s down"
+msgstr "往下移動 %s "
+
+msgctxt "#35095"
+msgid "Move %s down (%d)"
+msgstr "往下移動 %s (%d)"
+
+msgctxt "#35096"
+msgid "Move %s right"
+msgstr "往右移動 %s "
+
+msgctxt "#35097"
+msgid "Move %s right (%d)"
+msgstr "往右移動 %s (%d)"
+
+msgctxt "#35098"
+msgid "Move %s left"
+msgstr "往左移動 %s "
+
+msgctxt "#35099"
+msgid "Move %s left (%d)"
+msgstr "往左移動 %s (%d)"
 
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
@@ -12428,6 +12504,26 @@ msgstr "啟用搖桿和手把支援"
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "本裝置存在時停用搖桿"
+
+msgctxt "#35505"
+msgid "Server is unreachable."
+msgstr "無法連接伺服器。"
+
+msgctxt "#35506"
+msgid "Server does not respond properly."
+msgstr "伺服器未正確回應。"
+
+msgctxt "#35507"
+msgid "Server version is not compatible."
+msgstr "伺服器版本不相容。"
+
+msgctxt "#35508"
+msgid "Access denied."
+msgstr "存取遭拒。"
+
+msgctxt "#35509"
+msgid "Connecting to backend."
+msgstr "連接後端。"
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -12557,6 +12653,10 @@ msgctxt "#36033"
 msgid "Action when switching to another source"
 msgstr "切換至其他來源時要執行的動作"
 
+msgctxt "#36034"
+msgid "Connection established"
+msgstr "連線已建立"
+
 msgctxt "#36035"
 msgid "Always"
 msgstr "總是"
@@ -12589,6 +12689,10 @@ msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "限制色彩範圍 (16-235)"
 
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "繪圖驅動程式所使用的緩存空間數量"
+
 msgctxt "#36044"
 msgid "Stop Playback"
 msgstr "停止播放"
@@ -12596,6 +12700,14 @@ msgstr "停止播放"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "暫停播放"
+
+msgctxt "#36099"
+msgid "Dithering"
+msgstr "抖色"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "抖色階數"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12677,6 +12789,10 @@ msgctxt "#36120"
 msgid "Defaults to the selected subtitle language if more than one language is available."
 msgstr "如果有多種語系可選擇，則預設使用選用的字幕語系"
 
+msgctxt "#36121"
+msgid "This category contains the settings for how media lists are displayed."
+msgstr "此分類包含媒體黨列表如何被顯示的設定。"
+
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
 msgstr "在列表中顯示(..)用以回到上層資料夾"
@@ -12715,7 +12831,7 @@ msgstr "選擇螢幕保護程式。當全螢幕播放模式下被暫停或有顯
 
 msgctxt "#36131"
 msgid "Select to change the screensaver specific settings. Which options are available for configuration depends on the features provided by the screensaver add-on."
-msgstr "選擇以修改個別螢幕保護程式特有的設定。這些選項可以用來設定此螢幕保護程式外掛特有的功能。"
+msgstr "選擇以修改個別螢幕保護程式特有的設定。這些選項可以用來設定此螢幕保護程式附加元件特有的功能。"
 
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
@@ -12829,6 +12945,10 @@ msgctxt "#36159"
 msgid "Enable CrystalHD decoding of video files."
 msgstr "啟用影片檔案 CrystalHD 硬體解碼。"
 
+msgctxt "#36160"
+msgid "Enable VTB hardware decoding of video files."
+msgstr "啟用影片檔案 VTB 硬體解碼。"
+
 msgctxt "#36161"
 msgid "Enable OpenMax hardware decoding of video files."
 msgstr "啟用影片檔案 OpenMax 硬體解碼。"
@@ -12844,6 +12964,14 @@ msgstr "瀏覽影片資料庫時顯示未有分集內容的影集"
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "播放影片時，允許變更視訊更新頻率以符合播放的視訊。這樣可能會讓播放更順暢。"
+
+msgctxt "#36165"
+msgid "Delay of reset event after a change of refresh rate"
+msgstr "改變螢幕刷新率之後所發生的重置事件的延遲時間"
+
+msgctxt "#36166"
+msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgstr "將影像與音訊的更新率調整至與螢幕同步。在此狀況下影片播放器不會使用直通音訊，因為可能需要重新取樣。"
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -12945,6 +13073,10 @@ msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "字幕在螢幕中的位置。"
 
+msgctxt "#36193"
+msgid "This category contains the settings for how DVD's, Blu-ray, & CD's are handled."
+msgstr "此分類包含如何處理 DVD、藍光及CD 的設定。"
+
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
 msgstr "插入 DVD 影片時自動播放。"
@@ -12983,7 +13115,7 @@ msgstr "此分類包含預錄及即時電視節目的設定。"
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
-msgstr "啟動\"客制化影片錄製\"(PVR)功能，要開啟此功能需先安裝至少一個PVR外掛。"
+msgstr "啟動\"客制化影片錄製\"(PVR)功能，要開啟此功能需先安裝至少一個PVR附加元件。"
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
@@ -12995,7 +13127,7 @@ msgstr "用後台取得的頻道號碼來排序，但使用自己的排序邏輯
 
 msgctxt "#36206"
 msgid "Use the channel numbering from the backend, instead of configuring them manually in the channel manager. Only works with one enabled PVR add-on!"
-msgstr "沿用從後台取得的頻道編號，而不在頻道管理中手動指定。此設定僅能在有一個PVR外掛啟動時作用。"
+msgstr "沿用從後台取得的頻道編號，而不在頻道管理中手動指定。此設定僅能在有一個PVR附加元件啟動時作用。"
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -13083,7 +13215,7 @@ msgstr "啟動時切換到上次收看的頻道。"
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
-msgstr "在編碼格式資料視窗中顯示訊號品質資訊(前提是外掛程式及後端要支援)。"
+msgstr "在編碼格式資料視窗中顯示訊號品質資訊(前提是附加元件及後端要支援)。"
 
 msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
@@ -13107,19 +13239,19 @@ msgstr "按下即時錄影按鈕時的錄影時間長度。"
 
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
-msgstr "錄影作業的優先權。數字越大代表優先權越高。不是所有的外掛程式及後端都支援本功能。"
+msgstr "錄影作業的優先權。數字越大代表優先權越高。不是所有的附加元件及後端都支援本功能。"
 
 msgctxt "#36236"
 msgid "Delete recording after this time. Not supported by all add-ons and backends."
-msgstr "將超過此時間的錄影檔刪除。不是所有的外掛程式及後端都支援本功能。"
+msgstr "將超過此時間的錄影檔刪除。不是所有的附加元件及後端都支援本功能。"
 
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "有時節目並不是準點開始，為避免缺漏，這裡可設定提前多久開始錄製。不是所有的外掛程式及後端都支援本功能。"
+msgstr "有時節目並不是準點開始，為避免缺漏，這裡可設定提前多久開始錄製。不是所有的附加元件及後端都支援本功能。"
 
 msgctxt "#36238"
 msgid "Additional time to record after the scheduled end time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "有時節目並不是準點結束，為避免缺漏，這裡可設定延後多久結束錄製。不是所有的外掛程式及後端都支援本功能。"
+msgstr "有時節目並不是準點結束，為避免缺漏，這裡可設定延後多久結束錄製。不是所有的附加元件及後端都支援本功能。"
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
@@ -13171,11 +13303,11 @@ msgstr "超過這個時間後若要再觀看鎖碼頻道必須重新輸入pin碼
 
 msgctxt "#36251"
 msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
-msgstr "如果 PVR 外掛及後端伺服器支援家長控制的話，此分類包含家長控制的設定。"
+msgstr "如果 PVR 附加元件及後端伺服器支援家長控制的話，此分類包含家長控制的設定。"
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
-msgstr "如果 PVR 外掛及後端伺服器支援的話，此選項會跳轉到PVR後端的任一特定設定項目。"
+msgstr "如果 PVR 附加元件及後端伺服器支援的話，此選項會跳轉到PVR後端的任一特定設定項目。"
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -13381,6 +13513,10 @@ msgctxt "#36315"
 msgid "Section that contains weather related settings."
 msgstr "本區包含天氣相關的設定。"
 
+msgctxt "#36316"
+msgid "This category contains the settings for how the weather service is handled."
+msgstr "此分類包含如何處理氣象服務的設定。"
+
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "選擇要顯示天氣資訊的地區，最多三個。"
@@ -13388,6 +13524,10 @@ msgstr "選擇要顯示天氣資訊的地區，最多三個。"
 msgctxt "#36318"
 msgid "Specify the default weather information source. See the add-ons manager for options."
 msgstr "指定預設的天氣資訊來源。附加元件管理員中有更多選項。"
+
+msgctxt "#36319"
+msgid "Section containing settings for how services are handled."
+msgstr "此分類包含如何處理各種服務的設定。"
 
 msgctxt "#36320"
 msgid "This category contains the settings used for all services."
@@ -13421,13 +13561,33 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service is handled."
 msgstr "此分類包含如何處理網頁伺服器服務的設定。"
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server."
+msgstr "允許遠端使用者透過內建的網站伺服器控制本程式。"
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "設定網路伺服器的連接埠。"
 
+msgctxt "#36330"
+msgid "Define the web server username. This only takes effect when both the username and the password are set."
+msgstr "定義網站伺服器的使用者名稱。名稱及密碼兩者均必須輸入。"
+
+msgctxt "#36331"
+msgid "Define the web server password. This only takes effect when both the username and the password are set."
+msgstr "定義網站伺服器的密碼。名稱及密碼兩者均必須輸入。"
+
+msgctxt "#36332"
+msgid "Select between web interfaces installed via the add-on manager."
+msgstr "從附加元件管理員選擇一個已安裝的網頁介面。"
+
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "此分類包含如何處理遠端遙控服務的設定。"
+
+msgctxt "#36334"
+msgid "Allow programs on this computer to control this application via the web interface or the JSON-RPC interface protocol."
+msgstr "允許本機中的軟體透過網頁介面或JSON-PRC介面協定來控制本程式。"
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -13441,6 +13601,10 @@ msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "設定客戶端連線數的最大值。"
 
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application."
+msgstr "允許網路中的軟體進行控制本程式。"
+
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
 msgstr "初步重複延遲(毫秒)"
@@ -13452,6 +13616,14 @@ msgstr "連續重複延遲(毫秒)"
 msgctxt "#36341"
 msgid "This category contains the settings for how the Zeroconf network discovery service is handled, required for AirPlay."
 msgstr "此分類包含如何處理 AirPlay 所需要的 zeroconf 網路發現服務的設定。"
+
+msgctxt "#36342"
+msgid "Allows applications on the network to discover enabled services via Zeroconf."
+msgstr "允許網路中的應用程式透過Zeroconf來偵測已啟用的服務。"
+
+msgctxt "#36343"
+msgid "If enabled, the content from other AirPlay devices or applications can be received."
+msgstr "開啟後將可接收從其他的AirPlay裝置或程式傳來的內容。"
 
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
@@ -13473,6 +13645,18 @@ msgctxt "#36348"
 msgid "If a WINS server is running on the network, enter its workgroup name here. Otherwise, leave blank."
 msgstr "如果網路上有 WINS 伺服器，在這裡輸入它的工作群組名稱，否則維持空白。"
 
+msgctxt "#36349"
+msgid "Section that contains the system related settings for the device this application is installed on."
+msgstr "本區包含本軟體所在的裝置之系統相關設定。"
+
+msgctxt "#36350"
+msgid "Automatically send Wake-on-LAN to server(s) right before trying to access shared files or services."
+msgstr "在連線至遠端分享檔案或服務前，自動發出網路喚醒封包以喚醒伺服器。"
+
+msgctxt "#36351"
+msgid "Changes the way this application is displayed on the selected screen. Either in a window or fullscreen."
+msgstr "改變本軟體在選用的螢幕中的顯示方式，可選用視窗或是全螢幕。"
+
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
 msgstr "修改顯示使用者介面的解析度。"
@@ -13480,6 +13664,14 @@ msgstr "修改顯示使用者介面的解析度。"
 msgctxt "#36353"
 msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "變更目前顯示使用者介面的畫面更新頻率。"
+
+msgctxt "#36354"
+msgid "If enabled, fullscreen mode will be applied by using a window instead of a real fullscreen mode. The main benefit is for multi-screen configurations, so that other applications can be used in parallel more easily. This uses more resources so playback may be less smooth."
+msgstr "開啟後將會採用視窗式全螢幕而不是真實全螢幕模式。這樣的好處是便於使用者在多螢幕的環境下進行多作業平行運作，但這會比較耗系統資源，可能會造成播放不順。"
+
+msgctxt "#36355"
+msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
+msgstr "在多螢幕環境時，非本軟體顯示範圍的螢幕會變黑。"
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -13497,6 +13689,14 @@ msgctxt "#36360"
 msgid "This category contains the settings for how audio output is handled."
 msgstr "此分類包含如何處理音效輸出的設定。"
 
+msgctxt "#36361"
+msgid "Select how the properties of the audio output are set: [Fixed] Output properties are set to the specified sampling rate & speaker configuration at all times; [Best Match] Output properties are set to always be as close a match to the source properties as possible; [Optimized] Output properties are set at the start of playback and will not change if the properties of the source change."
+msgstr "選擇音效輸出設定：[固定] - 輸出參數總是設定為指定的取樣率以及揚聲器設定；[最符合] - 輸出參數設定為最符合播放訊源的參數；[最佳化] - 輸出參數在開始播放時決定後，不會因為播放訊源的參數變化而變更。"
+
+msgctxt "#36362"
+msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
+msgstr "選擇音效播放連接方式的通道數量，或是透過類比信號連接的揚聲器數量。這個設定並不會套用於直通輸出音訊。注意 - S/PDIF 只支援 2.0 通道數，但仍然能夠透過直通輸出以輸出支援多聲道格式的音訊。"
+
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
 msgstr "加強被下降混合成雙聲道的 AC3 串流"
@@ -13513,6 +13713,14 @@ msgctxt "#36366"
 msgid "Select this option if your receiver is capable of decoding DTS streams."
 msgstr "如果你的接收器有能力解碼 DTS 串流則選擇這個選項。"
 
+msgctxt "#36367"
+msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
+msgstr "選擇可使用的音頻/揚聲器的最大數目。如果輸出裝置為光纖或同軸電纜的話，這個項目務必設成 2.0。"
+
+msgctxt "#36368"
+msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
+msgstr "勾選以開啟透過直通音效選項來播放編碼過的音訊, 例如Dolby Digital (AC3)、DTS等。"
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "如果你的接收器有能力解碼 TrueHD 串流則選擇這個選項。"
@@ -13524,6 +13732,10 @@ msgstr "如果你的接收器有能力解碼 DTS-HD 串流則選擇這個選項�
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
 msgstr "選擇要播放解碼後音效的裝置。"
+
+msgctxt "#36372"
+msgid "Select the device to be used for playback of encoded formats, these are any of the formats below in the capable receiver options."
+msgstr "選擇播放編碼格式音效的裝置，可以從下列這些接收機選項設定該裝置支援的編碼格式。"
 
 msgctxt "#36373"
 msgid "Configure how interface sounds are handled, such as menu navigation and important notifications."
@@ -13540,6 +13752,10 @@ msgstr "設定已連接的週邊裝置。"
 msgctxt "#36376"
 msgid "When activated, your keyboard arrows will move the selection on the virtual keyboard. When deactivated, they will move the cursor from your text."
 msgstr "啟用時，您的鍵盤方向鍵可以移動虛擬鍵盤的選擇框。停用時，您的鍵盤方向鍵可以移動虛擬鍵盤的文字輸入游標。"
+
+msgctxt "#36377"
+msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
+msgstr "使用滑鼠或觸控螢幕裝置來控制介面。注意：當沒有安裝鍵盤或遙控器時，關閉此選項將會導致無法操作本軟體。"
 
 msgctxt "#36378"
 msgid "Use a joystick to control the interface."
@@ -13573,6 +13789,10 @@ msgctxt "#36385"
 msgid "Configure the proxy server password."
 msgstr "設定代理伺服器的密碼。"
 
+msgctxt "#36386"
+msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
+msgstr "如果你的網路有頻寬限制，請在此項目中設定本程式可用的流量上限。"
+
 msgctxt "#36387"
 msgid "This category contains the settings for power saving."
 msgstr "此分類包含省電的設定。"
@@ -13581,21 +13801,45 @@ msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
 msgstr "閒置時關閉顯示器。當電視偵測不到訊號時，會自"
 
+msgctxt "#36389"
+msgid "Set the time to wait for any activity to occur before shutting down."
+msgstr "在關機前設定一段緩衝時間以備有任何活動發生。"
+
+msgctxt "#36390"
+msgid "Define what action to perform when the shutdown function timer lapsed."
+msgstr "設定當關機功能計時器跑完時要採取的動作"
+
 msgctxt "#36391"
 msgid "This category contains the settings for enabling event and debug logging. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
 msgstr "此分類包含啟用事件及除錯建檔的設定。您可以啟用針對特定組件的除錯記錄檔，更多記錄細節對相關問題的排除更有幫助。"
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
-msgstr "開啟或關閉除厝訊息。找問題時很有用。"
+msgstr "開啟或關閉除錯訊息。找問題時很有用。"
 
 msgctxt "#36393"
 msgid "Select the folder where screenshots should be saved in."
 msgstr "選擇要存放螢幕截圖的資料夾。"
 
+msgctxt "#36394"
+msgid "Enables verbose messages from additional libraries to be included in the debug log."
+msgstr "將來自於額外函式庫的文字訊息包含在除錯用log檔中。"
+
 msgctxt "#36395"
 msgid "This category contains the settings for how the master lock function is handled."
 msgstr "此分類包含管理員密碼機制運作的設定。"
+
+msgctxt "#36396"
+msgid "Here you can enable or disable master lock and define the PIN code used to unlock it. You can also specify which areas of the application would need a PIN to access them."
+msgstr "你可以在這裡啟用或禁用主密碼鎖並設定用來解鎖的PIN碼。也可以指定本軟體中需要輸入PIN碼後才可使用的範圍。"
+
+msgctxt "#36397"
+msgid "If enabled, the master lock code is required to unlock this application on startup."
+msgstr "開啟後，本程式啟動時即會要求輸入主密碼來進行解鎖。"
+
+msgctxt "#36398"
+msgid "Define the maximum number of retries before this application is closed down."
+msgstr "設定重試多少次後，本軟體即自行關閉。"
 
 msgctxt "#36399"
 msgid "This category contains the settings for how the cache function is handled."
@@ -13673,13 +13917,33 @@ msgctxt "#36417"
 msgid "Always run a Kodi helper so that the remote can be used to start Kodi."
 msgstr "永遠執行 Kodi 小幫手讓你可以使用遙控器來啟動 Kodi。"
 
+msgctxt "#36418"
+msgid "Specify the delay between button sequences on a universal remote."
+msgstr "設定萬能遙控器上的連續按鍵間隔時間。"
+
 msgctxt "#36419"
 msgid "Define locations used for retrieving weather information."
 msgstr "設定要接收天氣資訊的位置。"
 
+msgctxt "#36420"
+msgid "Look for external subtitles for videos provided by the UPnP server. This can cause extensive CPU, filesystem and network load."
+msgstr "尋找UPnP伺服器上的影片可用的外部字幕檔。這功能可能會加重CPU、檔案系統及網路的負擔。"
+
+msgctxt "#36421"
+msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
+msgstr "為節省資源，在低階系統中不進行VDPAU影像處理，但會稍微影響畫質。"
+
 msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "啟用 Amlogic 硬體解碼。"
+
+msgctxt "#36423"
+msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "計時器規則應該只需要錄下最新的劇集。不是所有的附加元件及後端都支援本功能。"
+
+msgctxt "#36424"
+msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
+msgstr "選擇當節目表中某項目被選擇時的動作： [顯示功能選單]  將會顯示接下來可採取動作的選單; [換台] 將會立即切換至該頻道; [顯示資訊] 將會顯示相關資訊及可執行動作的選單; [錄影] 將會針對被選擇的項目設定錄影定時器。"
 
 msgctxt "#36425"
 msgid "Show context menu"
@@ -13697,29 +13961,69 @@ msgctxt "#36428"
 msgid "Record"
 msgstr "錄音"
 
+msgctxt "#36429"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
+msgstr "如果聲音輸出如 S/PDIF 之類的連接只支援 Dolby Digital 5.1 (AC-3) 多聲道音效的情況下，請選擇此選項。如果你的系統支援透過 HDMI 的 PCM 多聲道音效，則不要啟用此選項。"
+
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
 msgstr "設定包含解碼和延伸等的影片處理要如何加速。"
+
+msgctxt "#36431"
+msgid "Shows all events in the event log for the current profile with options to only show specific levels."
+msgstr "顯示在目前設定檔所屬事件記錄檔中所有的事件，附加可設定顯示特定層級的選項。"
 
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "選擇虛擬鍵盤的佈局"
 
+msgctxt "#36433"
+msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
+msgstr "開啟後會優先使用VAAPI影像渲染方式，可減低CPU負載。如果使用時有當掉的情形，請關閉此功能。"
+
 msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
 msgstr "允許硬體加速 - MMAL"
+
+msgctxt "#36435"
+msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
+msgstr "使用MMAL加速器來協同影片撥放器的解碼程序。"
 
 msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "音效數位訊號處理管理員..."
 
+msgctxt "#36437"
+msgid "Allows to configure available modes for different stages in audio processing and to arrange the steps within the processing chain of each selected mode."
+msgstr "允許設定音效處理過程中每一個階段的可用模式，並安排每個模式中的作業鏈執行順序。"
+
 msgctxt "#36438"
 msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
 msgstr "針對喇叭設定中所指定的音頻輸出通道啟用數位訊號處理器(DSP)"
 
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
+msgstr "所有在 DSP 資料庫中的資料(附加元件設定及音效處理器設定)都會被消除。"
+
+msgctxt "#36440"
+msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
+msgstr "正在刪除音效 DSP 資料庫中的附加元件及音效處理器設定。"
+
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
 msgstr "啟用音效DSP處理"
+
+msgctxt "#36442"
+msgid "Set the number of volume control steps."
+msgstr "設定音量控制階數。"
+
+msgctxt "#36460"
+msgid "Event logging allows to keep track of what has happened."
+msgstr "事件記錄檔可以追蹤系統的一舉一動。"
+
+msgctxt "#36461"
+msgid "Notification event describe regular processes and actions performed by the system or the user."
+msgstr "提示型事件主要在記錄由系統或使用者執行的一般性處理過程或動作。"
 
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
@@ -13765,6 +14069,10 @@ msgctxt "#36510"
 msgid "Anaglyph yellow / blue"
 msgstr "黃色和藍色浮雕"
 
+msgctxt "#36511"
+msgid "Checkerboard"
+msgstr "棋盤交錯式"
+
 msgctxt "#36520"
 msgid "Playback mode of stereoscopic 3D videos"
 msgstr "3D 立體影片的播放模式"
@@ -13805,13 +14113,37 @@ msgctxt "#36532"
 msgid "Same as movie"
 msgstr "和電影相同"
 
+msgctxt "#36533"
+msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
+msgstr "選擇聲音要如何下降混合，例如從 5.1 到 2.0：[CR][啟用] 維持原本聲音的大小，但動態範圍會被壓縮。[CR][停用] 維持原本聲音來源的動態範圍，但會稍微變小聲。注意 - 動態範圍指的是原本聲音最小聲和最大聲的差距。如果電影對話不容易聽清楚的話請啟用這個設定。"
+
+msgctxt "#36534"
+msgid "Specify additional libraries whose verbose messages are to be included in the debug log."
+msgstr "指定哪些額外函式庫中的文字訊息會包含在除錯用log檔中。"
+
 msgctxt "#36535"
 msgid "Stereoscopic 3D mode of video"
 msgstr "影片的 3D 立體模式"
 
+msgctxt "#36536"
+msgid "Invert stereoscopic 3D mode (flip eyes)"
+msgstr "反相3D立體模式 (視線交叉)"
+
+msgctxt "#36537"
+msgid "Select in which mode stereoscopic 3D videos will be played.[CR][Ask me] Will show a dialogue to select the desired mode for each playback.[CR][Preferred mode] Will use the preferred mode specified in the \"System -> Video hardware\" section of the settings.[CR][Monoscopic / 2D] Will play the video in mono / 2D.[CR][Ignore] Disables any stereoscopic 3D processing and handling."
+msgstr "選擇要用哪種模式播放3D立體影片。[CR][問我] 顯示一個對話框針對個別檔案選擇播放模式。[CR][偏好模式] 直接採用在\"系統 ->視訊輸出\"單元中設定的偏好模式。[CR][單視場 / 2D]使用單視場 / 2D模式播放影片。[CR][忽略] 不使用任何3D立體處理。"
+
+msgctxt "#36538"
+msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode, between videos in a playlist or when playback ended.[CR][Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists with mixed stereoscopic 3D and 2D content, then the GUI will also stay in stereoscopic 3D mode even when a non-stereoscopic 2D video is playing."
+msgstr "[啟用] 當畫面切至播放列表或播放結束時，將使用者介面(及某些電視機)切換回2D模式。[CR][禁用]使用者介面及電視機將會維持在3D模式。當影片播放列表中同時存在2D及3D影片時，即使正在播放的影片是2D的，使用者介面仍會維持在3D模式。"
+
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
 msgstr "變更使用者介面的 3D 立體模式。"
+
+msgctxt "#36540"
+msgid "The preferred mode in which stereoscopic 3D media such as videos should be played."
+msgstr "播放3D媒體檔如影片等時的喜好模式。"
 
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
@@ -13845,6 +14177,10 @@ msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "限制使用者介面的解析度來節省記憶體。這不會影響影片的播放。需要重新啟動。"
 
+msgctxt "#36549"
+msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
+msgstr "啟用從AirPlay傳送\"影片\"及\"圖片\"的支援。此功能僅支援iOS 8.x或更早的作業系統，若客戶端使用iOS 9以後的作業系統，僅能接收音訊串流，此功能必須禁用。"
+
 msgctxt "#36550"
 msgid "Stereoscopic 3D effect strength"
 msgstr "3D 立體效果強度"
@@ -13852,6 +14188,18 @@ msgstr "3D 立體效果強度"
 msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
 msgstr "定義圖形使用者介面中的3D效果強度，藉由調整介面中物件的位移參數來達到此目的，所以數值越高，物件跳出畫面的效果越明顯，[Zero] 關閉介面中的3D效果。[CR]為得到較佳視覺體驗，螢幕較小時應將數值設高些，而大螢幕則搭配較小的數值。\n請注意：並所有主題都支援此設定"
+
+msgctxt "#36552"
+msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
+msgstr "設定繪圖驅動程式所使用的緩存通道數。若驅動使用二重緩存則選2，三重緩存則選3。"
+
+msgctxt "#36598"
+msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
+msgstr "利用在圖片中增加小雜點來消除因RGB轉換過程中造成的色階不連續現象。若系統較低階可關閉此功能，或者限縮Kodi的RGB輸出色階，這樣就不需要再做影像處理。"
+
+msgctxt "#36599"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "影片抖色的輸出精確值以bits計。應使用最高值以避免色階不連續現象，對大多數系統來說預設值是8。如果你電腦的設定為等比放大RGB輸出或使用筆記型電腦的螢幕，使用7或6 bit的設定或許可以改善一點色階不連續的現象。較低的設定值僅用來做為測試用途，可以較清楚的比較出抖色的效果，同時抖色雜點大小與顯示解析度有關。"
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -13865,9 +14213,65 @@ msgctxt "#36602"
 msgid "This category contains the settings for how the AirPlay service is handled."
 msgstr "此分類包含如何處理 AirPlay 服務的設定。"
 
+msgctxt "#36603"
+msgid "This category contains the settings for displays."
+msgstr "此分類包含顯示的設定。"
+
 msgctxt "#36605"
 msgid "Updates"
 msgstr "更新"
+
+msgctxt "#36606"
+msgid "Install updates automatically"
+msgstr "自動安裝更新"
+
+msgctxt "#36607"
+msgid "Notify, but don't install updates"
+msgstr "通知我，但不要安裝更新"
+
+msgctxt "#36608"
+msgid "Never check for updates"
+msgstr "永不檢查更新"
+
+msgctxt "#36609"
+msgid "Show notifications"
+msgstr "顯示通知訊息"
+
+msgctxt "#36610"
+msgid "This category contains settings for the add-on system."
+msgstr "此分類包含附加元件系統的設定。"
+
+msgctxt "#36611"
+msgid "Change how auto updating of add-ons are handled."
+msgstr "更改附加元件的自動更新處理方式。"
+
+msgctxt "#36612"
+msgid "Show notification when an add-on have been updated."
+msgstr "當有附加元件完成更新時顯示通知訊息。"
+
+msgctxt "#36613"
+msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
+msgstr "管理附加元件所自動安裝的相依性模組或函式庫，被列為\"孤兒\"的項目表示不再被任何附加元件需要，可以放心刪除。"
+
+msgctxt "#36614"
+msgid "Show add-ons that are currently running in the background."
+msgstr "顯示目前正在背景運作的附加元件。"
+
+msgctxt "#36615"
+msgid "Unknown sources"
+msgstr "未知的來源"
+
+msgctxt "#36616"
+msgid "Allow installation of add-ons from unknown sources."
+msgstr "允許從未知的來源安裝附加元件。"
+
+msgctxt "#36617"
+msgid "For security, installation of add-ons from unknown sources is disabled."
+msgstr "基於安全的考量，不允許從未知的來源安裝附加元件。"
+
+msgctxt "#36618"
+msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
+msgstr "附加元件將被授與本機個人資料的存取權。若您允許，必須同意對可能因此造成的任何資料遺失、意外的行為或裝置損害等結果負全責。要執行嗎？"
 
 msgctxt "#36900"
 msgid "movie"
@@ -14045,6 +14449,10 @@ msgctxt "#37030"
 msgid "Unlimited"
 msgstr "無限制的"
 
+msgctxt "#37031"
+msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
+msgstr "設定藍光片的開啟及播放方式。注意：有些光碟選單不被完全支援並有可能造成問題。"
+
 msgctxt "#37032"
 msgid "Accessibility"
 msgstr "輔助使用"
@@ -14081,9 +14489,25 @@ msgctxt "#37040"
 msgid "Prefer default audio streams"
 msgstr "偏好的預設音效串流"
 
+msgctxt "#37041"
+msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
+msgstr "此選項開啟時，即使有音質更好的其他音軌(如多聲道，高音質編碼等...)存在，被標註為預設(並且與喜好語言相同)的音軌仍會優先被選用。"
+
+msgctxt "#37042"
+msgid "Defines which step sizes to use when pressing the skip buttons. If more steps are selected for a skip direction, these can be applied by subsequent presses on the skip button within the defined skip delay. Forward (positive) and backward (negative) steps can be defined independently."
+msgstr "設定按下跳轉鈕時要跳多長的時間，如果連續往同一方向跳，可設定在某個延遲時間內的連續按鍵動作將可一次跳轉較長的時間，往前 (加) 及往後 (減) 跳轉的級數是可以獨立設定的。"
+
+msgctxt "#37043"
+msgid "Defines the time to wait for subsequent key presses before performing the skip. Only applies when using smart skipping (when using more than one skip step for a direction)."
+msgstr "設定按下跳轉鍵後的等待時間，在此時間內再按一次同向的跳轉鍵，將會執行上項設定中的更遠一級的跳轉，此功能僅在有啟用智慧快轉(同向多階快轉)功能時有效。"
+
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
 msgstr "擷取章節縮圖"
+
+msgctxt "#37045"
+msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
+msgstr "將章節中的縮圖粹取出來顯示在章節 / 書籤對話框中，這可能會增加CPU的負擔。"
 
 msgctxt "#38010"
 msgid "GPU accelerated"
@@ -14101,6 +14525,10 @@ msgctxt "#38013"
 msgid "Limit GUI updates during playback"
 msgstr "播放時限制使用者界面更新"
 
+msgctxt "#38014"
+msgid "Limits the speed (fps) used to update the GUI while playing videos. This can reduce CPU load and fix playback issues while the GUI is shown."
+msgstr "限制使用者介面在影片播放時的螢幕更新率(fps)，這可以降低CPU負擔並修復顯示使用者介面時所產生的播放問題。"
+
 msgctxt "#38015"
 msgid "Unlimited"
 msgstr "無限制的"
@@ -14109,6 +14537,10 @@ msgctxt "#38016"
 msgid "%d fps"
 msgstr "%d fps"
 
+msgctxt "#38017"
+msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
+msgstr "A區 - 美洲、東亞及東南亞。B區 - 非洲、中東、西南亞、歐洲、澳洲、紐西蘭。C區 - 中亞、中國大陸、蒙古、南亞、白俄羅斯、俄羅斯、烏克蘭、哈薩克。"
+
 msgctxt "#38018"
 msgid "My rating"
 msgstr "我的評分"
@@ -14116,3 +14548,131 @@ msgstr "我的評分"
 msgctxt "#38022"
 msgid "No rating"
 msgstr "沒有評分"
+
+msgctxt "#38023"
+msgid "Set my rating"
+msgstr "設定我的評分"
+
+msgctxt "#38024"
+msgid "Information provider selection"
+msgstr "資訊提供者選擇"
+
+msgctxt "#38025"
+msgid "Choose information provider"
+msgstr "選取資訊提供者"
+
+msgctxt "#38026"
+msgid "Appearances"
+msgstr "外觀"
+
+msgctxt "#38027"
+msgid "Decode the stereo stream from 3D files"
+msgstr "從3D檔案的串流中進行解碼"
+
+msgctxt "#38028"
+msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
+msgstr "開啟此功能可用3D立體格式播放多視角影像編碼(MVC)格式的影片，MVC格式多半出現在3D藍光片中。[CR]注意：這類資料處理過程會降低播放效能，所以只有在需要3D立體支援時才打開。"
+
+msgctxt "#38029"
+msgid "Enable Full HD HDMI modes for stereoscopic 3D"
+msgstr "啟用 Full HD HDMI 模式來觀看3D立體影片"
+
+msgctxt "#38030"
+msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
+msgstr "此選項使用幀封裝技術來輸出全解析的3D影像至HDMI。[CR]開啟本功能可改善多視角影像編碼(MVC)格式影片的畫質，但不是所有顯示器都支援。"
+
+msgctxt "#38031"
+msgid "Video stream"
+msgstr "影像串流"
+
+msgctxt "#38032"
+msgid "Angle"
+msgstr "視角"
+
+msgctxt "#38033"
+msgid "Role"
+msgstr "角色"
+
+msgctxt "#38034"
+msgid "Orchestra"
+msgstr "管弦樂團"
+
+msgctxt "#38035"
+msgid "Lyricist"
+msgstr "作詞者"
+
+msgctxt "#38036"
+msgid "Remixer"
+msgstr "重新混音者"
+
+msgctxt "#38037"
+msgid "Arranger"
+msgstr "編曲者"
+
+msgctxt "#38038"
+msgid "Engineer"
+msgstr "工程師"
+
+msgctxt "#38039"
+msgid "Producer"
+msgstr "製作人"
+
+msgctxt "#38040"
+msgid "DJMixer"
+msgstr "DJ混音者"
+
+msgctxt "#38041"
+msgid "Mixer"
+msgstr "混音師"
+
+msgctxt "#38042"
+msgid "[Missing]"
+msgstr "[遺失]"
+
+msgctxt "#38100"
+msgid "Section that contains the settings for the playback of media"
+msgstr "本區包含媒體播放相關設定。"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for how media information is collected, stored, shown, and navigated"
+msgstr "本區包含媒體資訊的收集、儲存、顯示及導引等相關設定。"
+
+msgctxt "#38102"
+msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
+msgstr "本區包含使用者介面的體驗及操作介面/系統的相關設定"
+
+msgctxt "#38103"
+msgid "This category contains the settings for the playback of videos"
+msgstr "此分類包含影片播放的設定"
+
+msgctxt "#38104"
+msgid "This category contains the settings for the playback of music"
+msgstr "此分類包含音樂播放的設定"
+
+msgctxt "#38105"
+msgid "This category contains the settings for playback of pictures via a slideshow"
+msgstr "此分類包含播放圖片幻燈片秀的設定"
+
+msgctxt "#38106"
+msgid "This category contains the settings for audio & subtitle language"
+msgstr "此分類包含音訊及字幕語言的設定"
+
+msgctxt "#38107"
+msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
+msgstr "此分類包含影片資訊的收集、儲存、顯示及導引等相關設定"
+
+msgctxt "#38108"
+msgid "This category contains the settings for how information for music is collected, stored, shown, and navigated"
+msgstr "此分類包含音樂資訊的收集、儲存、顯示及導引等相關設定"
+
+msgctxt "#38109"
+msgid "This category contains the settings for how information for pictures is shown and navigated"
+msgstr "此分類包含圖片資訊的顯示及導引等相關設定"
+
+msgctxt "#38110"
+msgid "This category contains the settings for the library databases"
+msgstr "此分類包含資料庫的相關設定"
+
+msgctxt "#38111"
+msgid "This category contains other settings for the GUI interface"
+msgstr "此分類包含使用者介面的相關設定"
