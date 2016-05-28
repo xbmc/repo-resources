@@ -2505,6 +2505,10 @@ msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
 msgstr "A [B]Video[/B] komponens részletes naplózása"
 
+msgctxt "#681"
+msgid "Verbose logging for the [B]Webserver[/B] component"
+msgstr "A [B]Webkiszolgáló[/B] komponens részletes naplózása"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Médiatár tisztítása"
@@ -6027,7 +6031,7 @@ msgstr "Feldolgozás"
 
 msgctxt "#14232"
 msgid "Stereoscopic 3D"
-msgstr "Sztereo 3D"
+msgstr "Sztereoszkópikus 3D"
 
 msgctxt "#14233"
 msgid "Teletext"
@@ -6069,9 +6073,49 @@ msgctxt "#14249"
 msgid "Import library"
 msgstr "Médiatár importálás"
 
+msgctxt "#14250"
+msgid "Audio Decoder"
+msgstr "Hang dekóder"
+
 msgctxt "#14251"
 msgid "Audio DSP"
 msgstr "Hang DSP"
+
+msgctxt "#14252"
+msgid "Audio Passthrough"
+msgstr "Hangtovábbítás"
+
+msgctxt "#14255"
+msgid "Sleep / Shutdown"
+msgstr "Alvás / leállítás"
+
+msgctxt "#14256"
+msgid "Wake"
+msgstr "Felébresztés"
+
+msgctxt "#14260"
+msgid "Debug"
+msgstr "Hibakeresés"
+
+msgctxt "#14270"
+msgid "Unit Formats"
+msgstr "Egységformátumok"
+
+msgctxt "#14271"
+msgid "Region default format"
+msgstr "Régió alapértelmezett formátuma"
+
+msgctxt "#14275"
+msgid "Application control"
+msgstr "Alkalmazás vezérlés"
+
+msgctxt "#14276"
+msgid "Allow remote control from applications on this system"
+msgstr "Távirányítás engedélyezése ezen a rendszeren"
+
+msgctxt "#14277"
+msgid "Allow remote control from applications on other systems"
+msgstr "Távirányítás engedélyezése más rendszereken"
 
 msgctxt "#14300"
 msgid "PVR Manager"
@@ -9313,6 +9357,10 @@ msgctxt "#20349"
 msgid "No video files found in this path!"
 msgstr "Nem található videófájl a megadott elérési úton!"
 
+msgctxt "#20350"
+msgid "%s (%s votes)"
+msgstr "%s (%s szavazat)"
+
 msgctxt "#20351"
 msgid "TV show information"
 msgstr "Sorozat információk"
@@ -11009,6 +11057,10 @@ msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "Ez a kiegészítő nem törölhető"
 
+msgctxt "#24048"
+msgid "VideoPlayer InputStream"
+msgstr "VideoPlayer bemeneti adatfolyama"
+
 msgctxt "#24049"
 msgid "Incompatible"
 msgstr "Nem kompatibilis"
@@ -11413,6 +11465,14 @@ msgctxt "#24994"
 msgid "Running"
 msgstr "Fut"
 
+msgctxt "#24995"
+msgid "Orphaned"
+msgstr "Elárvult"
+
+msgctxt "#24996"
+msgid "Manage dependencies"
+msgstr "Függőségek kezelése"
+
 msgctxt "#24997"
 msgid "Look and feel"
 msgstr "Kinézet"
@@ -11468,6 +11528,18 @@ msgstr "A Blu-ray lemez menüje nem támogatott"
 msgctxt "#25010"
 msgid "Chapter %u"
 msgstr "%u. fejezet"
+
+msgctxt "#25011"
+msgid "Commercial"
+msgstr "Kereskedelmi"
+
+msgctxt "#25012"
+msgid "Auto-skip off"
+msgstr "Automatikus kihagyás ki"
+
+msgctxt "#25013"
+msgid "Auto-skip on"
+msgstr "Automatikus kihagyás be"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -11796,6 +11868,34 @@ msgstr "Forgalmi üzenetek közzététele"
 msgctxt "#29987"
 msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
 msgstr "Forgalmi üzenetek körbeküldése, amelyeket a kiegészítők kezelhetnek (nem a Kodin belül)"
+
+msgctxt "#29988"
+msgid "Arrangers"
+msgstr "Rendezők"
+
+msgctxt "#29989"
+msgid "Composers"
+msgstr "Zeneszerzők"
+
+msgctxt "#29990"
+msgid "Conductors"
+msgstr "Karmesterek"
+
+msgctxt "#29991"
+msgid "DJ Mixers"
+msgstr "DJ keverők"
+
+msgctxt "#29992"
+msgid "Lyricists"
+msgstr "Szövegírók"
+
+msgctxt "#29993"
+msgid "Orchestras"
+msgstr "Zenekarok"
+
+msgctxt "#29994"
+msgid "Roles"
+msgstr "Szerepek"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -12289,6 +12389,10 @@ msgctxt "#35003"
 msgid "Generic disk"
 msgstr "Szabványos lemez"
 
+msgctxt "#35004"
+msgid "There are no settings available for this peripheral."
+msgstr "Ehhez a perifériához nem tartozik beállítás."
+
 msgctxt "#35005"
 msgid "New device configured"
 msgstr "Új eszköz lett beállítva"
@@ -12309,9 +12413,97 @@ msgctxt "#35009"
 msgid "Don't use the custom keymap for this device"
 msgstr "Ne használja az egyedi kiosztást ehhez az eszközhöz"
 
+msgctxt "#35010"
+msgid "Peripheral libraries"
+msgstr "Periféria könyvtárak"
+
+msgctxt "#35049"
+msgid "Game add-ons"
+msgstr "Játék kiegészítők"
+
+msgctxt "#35050"
+msgid "Controller profiles"
+msgstr "Játékvezérlő profilok"
+
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. Move to the buttons and select the first one. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Használja a billentyűzetet vagy a távirányítót a játékvezérlő profil kiválasztásához. Lépjen a gombokhoz, és válassza ki az elsőt. Amikor megjelenik, nyomja meg azt a gombot a játékvezérlőn, amely a legjobban hasonlít ahhoz, amit lát a képernyőn. Ha hibát vét, akkor megismételheti a folyamatot."
+
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Joystick támogatás nem található"
+
+msgctxt "#35057"
+msgid "Controller configuration is disabled. Install the proper joystick support add-on."
+msgstr "A játékvezérlő konfiguráció letiltott. Telepítse a megfelelő támogatási kiegészítőt."
+
+msgctxt "#35058"
+msgid "Controller Configuration"
+msgstr "Játékvezérlő konfiguráció"
+
+msgctxt "#35059"
+msgid "Buttons"
+msgstr "Gombok"
+
+msgctxt "#35060"
+msgid "Reset controller profile"
+msgstr "Játékvezérlő profil visszaállítása"
+
+msgctxt "#35061"
+msgid "Would you like to reset this controller profile for all attached devices?"
+msgstr "Szeretné visszaállítani ezt a játékvezérlő profilt minden csatlakoztatott eszközhöz?"
+
+msgctxt "#35062"
+msgid "All available controller profiles are installed."
+msgstr "Minden elérhető játékvezérlő profil telepítve van."
+
+msgctxt "#35063"
+msgid "Configure attached controllers"
+msgstr "Csatlakoztatott játékvezérlők beállítása"
+
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "Párosítsa a játékvezérlőit a különböző játékrendszerek bemeneti eszközeivel."
+
+msgctxt "#35090"
+msgid "Press %s"
+msgstr "Nyomja meg: %s"
+
+msgctxt "#35091"
+msgid "Press %s (%d)"
+msgstr "Nyomja meg: %s (%d)"
+
+msgctxt "#35092"
+msgid "Move %s up"
+msgstr "Mozgassa fel: %s"
+
+msgctxt "#35093"
+msgid "Move %s up (%d)"
+msgstr "Mozgassa fel: %s (%d)"
+
+msgctxt "#35094"
+msgid "Move %s down"
+msgstr "Mozgassa le: %s"
+
+msgctxt "#35095"
+msgid "Move %s down (%d)"
+msgstr "Mozgassa le: %s (%d)"
+
+msgctxt "#35096"
+msgid "Move %s right"
+msgstr "Mozgassa jobbra: %s"
+
+msgctxt "#35097"
+msgid "Move %s right (%d)"
+msgstr "Mozgassa jobbra: %s (%d)"
+
+msgctxt "#35098"
+msgid "Move %s left"
+msgstr "Mozgassa balra: %s"
+
+msgctxt "#35099"
+msgid "Move %s left (%d)"
+msgstr "Mozgassa balra: %s (%d)"
 
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
@@ -12320,6 +12512,26 @@ msgstr "Joystick és gamepad támogatás engedélyezése"
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Joystick letiltása amikor ez az eszköz jelen van"
+
+msgctxt "#35505"
+msgid "Server is unreachable."
+msgstr "A kiszolgáló nem érhető el."
+
+msgctxt "#35506"
+msgid "Server does not respond properly."
+msgstr "A kiszolgáló nem megfelelően válaszolt."
+
+msgctxt "#35507"
+msgid "Server version is not compatible."
+msgstr "A kiszolgálóverzió nem kompatibilis."
+
+msgctxt "#35508"
+msgid "Access denied."
+msgstr "Hozzáférés megtagadva."
+
+msgctxt "#35509"
+msgid "Connecting to backend."
+msgstr "Kapcsolódás a háttérkiszolgálóhoz."
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -12449,6 +12661,10 @@ msgctxt "#36033"
 msgid "Action when switching to another source"
 msgstr "Művelet más forrás kiválasztásakor"
 
+msgctxt "#36034"
+msgid "Connection established"
+msgstr "A kapcsolat létrejött"
+
 msgctxt "#36035"
 msgid "Always"
 msgstr "Mindig"
@@ -12481,6 +12697,10 @@ msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Korlátozott színtér használata (16-235)"
 
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "A grafikus eszközmeghajtó által használt pufferek száma"
+
 msgctxt "#36044"
 msgid "Stop Playback"
 msgstr "Lejátszás leállítása"
@@ -12488,6 +12708,14 @@ msgstr "Lejátszás leállítása"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "Lejátszás szüneteltetése"
+
+msgctxt "#36099"
+msgid "Dithering"
+msgstr "Ditherelés"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "Dither mélység"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12568,6 +12796,10 @@ msgstr "Alapértelmezett hangsáv kiválasztása, ha egynél több is elérhető
 msgctxt "#36120"
 msgid "Defaults to the selected subtitle language if more than one language is available."
 msgstr "Alapértelmezett feliratsáv kiválasztása, ha egynél több is elérhető."
+
+msgctxt "#36121"
+msgid "This category contains the settings for how media lists are displayed."
+msgstr "Ez a kategória tartalmazza azokat a beállításokat, melyek a médialisták megjelenítését szabályozzák."
 
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
@@ -12721,6 +12953,10 @@ msgctxt "#36159"
 msgid "Enable CrystalHD decoding of video files."
 msgstr "Videófájlok CrystalHD hardveres dekódolásának engedélyezése."
 
+msgctxt "#36160"
+msgid "Enable VTB hardware decoding of video files."
+msgstr "Videófájlok VTB hardveres dekódolásának engedélyezése."
+
 msgctxt "#36161"
 msgid "Enable OpenMax hardware decoding of video files."
 msgstr "Videófájlok OpenMax hardveres dekódolásának engedélyezése."
@@ -12736,6 +12972,14 @@ msgstr "Megjeleníti az epizódok nélküli TV műsorokat a videotárban."
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "Lehetővé teszi, hogy a megjelenítő képfrissítési gyakoriságát a videó képkockasebességéhez igazítsuk. Ezzel elkerülhetők a kimaradt képkockák és a lejátszás folyamatosabbá válik."
+
+msgctxt "#36165"
+msgid "Delay of reset event after a change of refresh rate"
+msgstr "A visszaállítási esemény késleltetése a képfrissítési gyakoriság módosítása után"
+
+msgctxt "#36166"
+msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgstr "A hang és videó szinkronizálása a monitor képfrissítési gyakoriságához. A VideoPlayer nem fog hangtovábbítást használni ebben az esetben, mert újramintavételezés lehetne szükséges."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -12836,6 +13080,10 @@ msgstr "Egyéni kövtár megadása a feliratokhoz. Ez lehet megosztott könyvtá
 msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "A feliratok helye a képernyőn."
+
+msgctxt "#36193"
+msgid "This category contains the settings for how DVD's, Blu-ray, & CD's are handled."
+msgstr "Ez a kategória a DVD-k, Blu-rayek és CD-k kezelésével kapcsolatos beállításokat tartalmazza."
 
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
@@ -13271,7 +13519,11 @@ msgstr "Diavetítés véletlen sorrendben."
 
 msgctxt "#36315"
 msgid "Section that contains weather related settings."
-msgstr "Kategória amely az időjárással kapcsolatos beállításokat tartalmazza."
+msgstr "Ez a csoport az időjárással kapcsolatos beállításokat tartalmazza."
+
+msgctxt "#36316"
+msgid "This category contains the settings for how the weather service is handled."
+msgstr "Ez a kategória az időjárási szolgáltatás beállítási lehetőségeit tartalmazza."
 
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
@@ -13280,6 +13532,10 @@ msgstr "Válasszon ki három települést amelyekre az időjárási adatok kijel
 msgctxt "#36318"
 msgid "Specify the default weather information source. See the add-ons manager for options."
 msgstr "Meghatározza az alapértelmezett időjárási információs forrást. Lásd a kiegészítőkezelőt a beállításokhoz."
+
+msgctxt "#36319"
+msgid "Section containing settings for how services are handled."
+msgstr "Ez a csoport a szolgáltatások beállítási lehetőségeit tartalmazza."
 
 msgctxt "#36320"
 msgid "This category contains the settings used for all services."
@@ -13689,6 +13945,10 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Amlogic hardveres gyorsítás engedélyezése videó dekodolásához."
 
+msgctxt "#36423"
+msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "Az időzítő szabályok csak az új epizódokat vegyék fel. Nem minden kiegészítő és háttérkiszolgáló támogatja."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
 msgstr "Válassza ki mi történjen ha egy elem kiválasztásra került a műsorújságban: [Környezeti menü megjelenítése] Aktiválja a környezeti menüt, ahol további műveletek közül választhat; [Csatornára váltás] Azonnal behangolja a csatornát; [Információk megjelenítése] Részletes információk megjelenítése történettel és további lehetőségekkel; [Felvétel] Időzítő létrehozása a kiválasztott elemhez."
@@ -13732,6 +13992,10 @@ msgstr "Engedélyezéskor a VAAPI lesz az előnyben részesített renderelő és
 msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
 msgstr "MMAL hardveres gyorsítás engedélyezése."
+
+msgctxt "#36435"
+msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
+msgstr "A VideoPlayer használata a videófájlok lejátszásához MMAL gyorsítással."
 
 msgctxt "#36436"
 msgid "Audio DSP manager..."
@@ -13933,6 +14197,18 @@ msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
 msgstr "Meghatározza a GUI sztreoszkópikus 3D hatásának erősségét. Ez a mélységérzet állításával irányítható, minél magasabb az érték, annál több elem ugrik ki a képernyőből. [Nulla] Kikapcsolja a GUI sztereoszkópikus 3D hatását.[CR]A jó vizuális élmény érdekében, az értéknek magasabbnak kell lennie a kis kijelzőknél, és alacsonyabbnak a nagy képernyőknél. Megjegyzés: nem minden felszín támogatja."
 
+msgctxt "#36552"
+msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
+msgstr "Meghatározza a grafikus eszközmeghajtó által használt megjelenítési pufferek számát. Válasszon 2-t a dupla puffereléshez, vagy 3-at a tripla puffereléshez."
+
+msgctxt "#36598"
+msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
+msgstr "Az RGB szintű konverzió vagy más feldolgozás által okozott sávosodás kiküszöbölése egy kevés zaj hozzáadásával a képhez. Ez lassabb rendszereknél kikapcsolható, vagy akkor ha a Kodi korlátozott tartományú RGB kimenetre van állítva, és nem szükséges a videófeldolgozás."
+
+msgctxt "#36599"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "A videó ditherelés pontossága bitekben. Használja a legnagyobb beállítást, amely nem mutat sávosodást. Az alapértelmezett 8 az ajánlott a legtöbb rendszeren. Ha a GPU az RGB szintek kimenetének skálázására van állítva, vagy ha laptop kijelzőt használ, akkor a 7 vagy 6-bites beállítás több sávosodást küszöbölhet ki. Az alacsonyabb beállítások tesztelési célokra szolgálnak, hogy kiderüljön tényleg működik a ditherelés, vagy a dither zaj pixelmérete megfelelő-e a megjelenítő felbontásához."
+
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
 msgstr "Ez a kategória a zenetár kezelésével kapcsolatos beállításokat tartalmazza."
@@ -13945,9 +14221,65 @@ msgctxt "#36602"
 msgid "This category contains the settings for how the AirPlay service is handled."
 msgstr "Ez a kategória az AirPlay szolgáltatás beállításait tartalmazza."
 
+msgctxt "#36603"
+msgid "This category contains the settings for displays."
+msgstr "Ez a kategória a kijelzőbeállításokat tartalmazza."
+
 msgctxt "#36605"
 msgid "Updates"
 msgstr "Frissítések"
+
+msgctxt "#36606"
+msgid "Install updates automatically"
+msgstr "Frissítések automatikus telepítése"
+
+msgctxt "#36607"
+msgid "Notify, but don't install updates"
+msgstr "Értesítsen, de ne telepítsen frissítéseket"
+
+msgctxt "#36608"
+msgid "Never check for updates"
+msgstr "Soha ne keressen frissítéseket"
+
+msgctxt "#36609"
+msgid "Show notifications"
+msgstr "Értesítések megjelenítése"
+
+msgctxt "#36610"
+msgid "This category contains settings for the add-on system."
+msgstr "Ez a kategória a kiegészítők rendszerének beállításait tartalmazza."
+
+msgctxt "#36611"
+msgid "Change how auto updating of add-ons are handled."
+msgstr "A kiegészítők automatikus frissítésének kezelésének megváltoztatása."
+
+msgctxt "#36612"
+msgid "Show notification when an add-on have been updated."
+msgstr "Értesítések megjelenítése, amikor egy kiegészítő frissült."
+
+msgctxt "#36613"
+msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
+msgstr "A modulok és támogató könyvtárak kezelése, melyek automatikusan települtek, mint más kiegészítők függőségei. Az „Elárvult” elemek már nem szükségesek egyetlen kiegészítőhöz sem, és biztonságosan eltávolíthatóak."
+
+msgctxt "#36614"
+msgid "Show add-ons that are currently running in the background."
+msgstr "A jelenleg háttérben futó kiegészítők megjelenítése."
+
+msgctxt "#36615"
+msgid "Unknown sources"
+msgstr "Ismeretlen források"
+
+msgctxt "#36616"
+msgid "Allow installation of add-ons from unknown sources."
+msgstr "Kiegészítők ismeretlen forrásból történő telepítésének engedélyezése."
+
+msgctxt "#36617"
+msgid "For security, installation of add-ons from unknown sources is disabled."
+msgstr "Biztonsági okokból, az ismeretlen forrásból származó kiegészítők telepítése tiltott."
+
+msgctxt "#36618"
+msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
+msgstr "A kiegészítők hozzáférést kapnak az eszközön található személyes adataihoz. Az engedélyezéssel beleegyezik, hogy egyedül Ön felelős bármilyen nemű adatvesztésért, nem kívánt működésért, vagy az eszközét érő károsodásért. Folytatja?"
 
 msgctxt "#36900"
 msgid "movie"
@@ -14229,9 +14561,93 @@ msgctxt "#38023"
 msgid "Set my rating"
 msgstr "Értékelés beállítása"
 
+msgctxt "#38024"
+msgid "Information provider selection"
+msgstr "Információs szolgáltatók kiválasztása"
+
+msgctxt "#38025"
+msgid "Choose information provider"
+msgstr "Válasszon információs szolgáltatót"
+
+msgctxt "#38026"
+msgid "Appearances"
+msgstr "Megjelenés"
+
+msgctxt "#38027"
+msgid "Decode the stereo stream from 3D files"
+msgstr "Sztereó adatfolyam dekódolása a 3D-s fájlokban"
+
+msgctxt "#38028"
+msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
+msgstr "Ha engedélyezett, akkor a Multiview Video Coding (MVC) formátumú videók sztereoszkópikus 3D-ben is megnézhetőek. Az MVC formátum jellemzően 3D Blu-rayeken található.[CR]Megjegyzés: az adatok feldolgozása csökkentheti a lejátszási teljesítményt, így csak akkor engedélyezze, ha szüksége van a sztereoszkopikus 3D támogatásra."
+
+msgctxt "#38029"
+msgid "Enable Full HD HDMI modes for stereoscopic 3D"
+msgstr "Full HD HDMI módok engedélyezése a sztereoszkópikus 3D-hez."
+
+msgctxt "#38030"
+msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
+msgstr "Ez a beállítás keretcsomagolást használ, hogy teljes felbontású 3D-t adjon HDMI-n keresztül.[CR]A bekapcsolása növelheti a Multiview Video Coding (MVC) videók minőségét, de nem minden kijelző támogatja."
+
+msgctxt "#38031"
+msgid "Video stream"
+msgstr "Videófolyam"
+
+msgctxt "#38032"
+msgid "Angle"
+msgstr "Szög"
+
+msgctxt "#38033"
+msgid "Role"
+msgstr "Szerep"
+
+msgctxt "#38034"
+msgid "Orchestra"
+msgstr "Zenekar"
+
+msgctxt "#38035"
+msgid "Lyricist"
+msgstr "Szövegíró"
+
+msgctxt "#38036"
+msgid "Remixer"
+msgstr "Újrakeverő"
+
+msgctxt "#38037"
+msgid "Arranger"
+msgstr "Rendező"
+
+msgctxt "#38038"
+msgid "Engineer"
+msgstr "Hangmérnök"
+
+msgctxt "#38039"
+msgid "Producer"
+msgstr "Producer"
+
+msgctxt "#38040"
+msgid "DJMixer"
+msgstr "DJ keverő"
+
+msgctxt "#38041"
+msgid "Mixer"
+msgstr "Keverő"
+
 msgctxt "#38042"
 msgid "[Missing]"
 msgstr "[Ismeretlen]"
+
+msgctxt "#38100"
+msgid "Section that contains the settings for the playback of media"
+msgstr "Ez a csoport a médialejátszással kapcsolatos beállításokat tartalmazza"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for how media information is collected, stored, shown, and navigated"
+msgstr "Ez a csoport tartalmazza azokat a beállításokat, melyek a médiainformációk beszerzését, tárolását és megjelenítését szabályozzák."
+
+msgctxt "#38102"
+msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
+msgstr "Ez a csoport azokat a beállításokat tartalmazza, melyek a GUI élményt és a rendszer vezérlését befolyásolják."
 
 msgctxt "#38103"
 msgid "This category contains the settings for the playback of videos"
