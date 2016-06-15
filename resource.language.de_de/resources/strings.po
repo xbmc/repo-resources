@@ -2473,10 +2473,6 @@ msgctxt "#672"
 msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
 msgstr "Ausführliche Protokollierung der [B]FFmpeg[/B]-Bibliotheken"
 
-msgctxt "#673"
-msgid "Verbose logging for the [B]RTMP[/B] library"
-msgstr "Ausführliche Protokollierung der [B]RTMP[/B]-Bibliothek"
-
 msgctxt "#674"
 msgid "Verbose logging for [B]D-Bus[/B] calls"
 msgstr "Ausführliche Protokollierung der [B]D-Bus[/B]-Aufrufe"
@@ -2979,7 +2975,7 @@ msgstr "Deaktivieren"
 
 msgctxt "#845"
 msgid "Are you sure you want to delete this timer rule and all timers it has scheduled?"
-msgstr "Bist Du sicher, diese Timer-Regel und alle dadurch geplanten Timer zu löschen?"
+msgstr "Sollen diese Timer-Regel und alle dadurch geplanten Timer gelöscht werden?"
 
 msgctxt "#846"
 msgid "Are you sure you want to delete this timer?"
@@ -3395,7 +3391,7 @@ msgstr "Benutzerdefiniertes Audiogerät für Passthrough"
 
 msgctxt "#1302"
 msgid "Volume control steps"
-msgstr "Lautstärke-Schritte"
+msgstr "Lautstärkeschritte"
 
 msgctxt "#1375"
 msgid "Temperature"
@@ -6055,7 +6051,7 @@ msgstr "Metadaten"
 
 msgctxt "#14245"
 msgid "Update library on startup"
-msgstr "Aktualisiere die Bibliothek beim Start"
+msgstr "Bibliothek beim Start aktualisieren"
 
 msgctxt "#14246"
 msgid "Hide progress of library updates"
@@ -6215,7 +6211,7 @@ msgstr "Audio-Informationen"
 
 msgctxt "#15028"
 msgid "Audio DSP settings - Main"
-msgstr "Audi DSP Haupt-Einstellungen"
+msgstr "Audio DSP Haupt-Einstellungen"
 
 msgctxt "#15029"
 msgid "Audio DSP settings - Listening mode"
@@ -6312,6 +6308,10 @@ msgstr "Keine Beschreibung verfügbar"
 msgctxt "#15064"
 msgid "Apply changes directly"
 msgstr "Änderungen direkt anwenden"
+
+msgctxt "#15065"
+msgid "No audio DSP modes available"
+msgstr "Keine Audio-DSP Modi verfügbar"
 
 msgctxt "#15066"
 msgid "Clear active modes"
@@ -7015,7 +7015,7 @@ msgstr "Informationen"
 
 msgctxt "#19034"
 msgid "There is already a timer set for this event"
-msgstr "Es besteht bereits ein Timer für dieses Ereignis"
+msgstr "Es existiert bereits ein Timer für dieses Ereignis"
 
 msgctxt "#19035"
 msgid "%s couldn't be played. Check the log for more information about this message."
@@ -11081,10 +11081,6 @@ msgctxt "#24053"
 msgid "License:"
 msgstr "Lizenz:"
 
-msgctxt "#24054"
-msgid "Changelog"
-msgstr "Änderungen"
-
 msgctxt "#24055"
 msgid "Check for updates"
 msgstr "Aktualisierungen suchen"
@@ -12423,11 +12419,7 @@ msgstr "Spiele-Addons"
 
 msgctxt "#35050"
 msgid "Controller profiles"
-msgstr "Steuergerät-Profile"
-
-msgctxt "#35055"
-msgid "Use the keyboard or remote to select a controller profile. Move to the buttons and select the first one. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
-msgstr "Verwende die Tastatur oder Fernbedienung, um ein Steuergerät-Profil zu wählen. Gehe zu den Buttons und wähle den ersten. Nach Aufforderung drücke den Button deines Spiele-Controllers, der am Besten zu dem angezeigten passt. Bei Fehleingabe kannst du den Vorgang wiederholen. "
+msgstr "Steuergeräte-Profile"
 
 msgctxt "#35056"
 msgid "Joystick support not found"
@@ -12435,11 +12427,11 @@ msgstr "Keine Joystick-Unterstützung gefunden"
 
 msgctxt "#35057"
 msgid "Controller configuration is disabled. Install the proper joystick support add-on."
-msgstr "Die Steuergerät-Konfiguration ist deaktiviert. Bitte installiere das richtige Addon zur Joystickunterstützung."
+msgstr "Die Steuergeräte-Konfiguration ist deaktiviert. Bitte das passende Addon zur Joystickunterstützung installieren."
 
 msgctxt "#35058"
 msgid "Controller Configuration"
-msgstr "Steuergerät-Einstellung"
+msgstr "Steuergeräte-Einstellung"
 
 msgctxt "#35059"
 msgid "Buttons"
@@ -12447,15 +12439,15 @@ msgstr "Buttons"
 
 msgctxt "#35060"
 msgid "Reset controller profile"
-msgstr "Steuergerät-Profil zurücksetzen"
+msgstr "Steuergeräte-Profil zurücksetzen"
 
 msgctxt "#35061"
 msgid "Would you like to reset this controller profile for all attached devices?"
-msgstr "Möchtest du dieses Steuergerät-Profil für alle angeschlossenen Geräte zurücksetzen?"
+msgstr "Soll dieses Steuergeräte-Profil für alle angeschlossenen Geräte zurücksetzt werden?"
 
 msgctxt "#35062"
 msgid "All available controller profiles are installed."
-msgstr "Alle verfügbaren Steuergerät-Profile sind installiert."
+msgstr "Alle verfügbaren Steuergeräte-Profile sind installiert."
 
 msgctxt "#35063"
 msgid "Configure attached controllers"
@@ -12463,47 +12455,47 @@ msgstr "Angeschlossene Steuergeräte konfigurieren"
 
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
-msgstr "Verbinde deine Controller mit den verschiedenen Eingabgeräten für verschiedene Gaming Systeme"
+msgstr "Controller mit den verschiedenen Eingabgeräten für verschiedene Gaming Systeme verbinden."
 
 msgctxt "#35090"
 msgid "Press %s"
-msgstr "Drücke %s"
+msgstr "%s drücken"
 
 msgctxt "#35091"
 msgid "Press %s (%d)"
-msgstr "Drücke %s (%d)"
+msgstr "%s (%d) drücken"
 
 msgctxt "#35092"
 msgid "Move %s up"
-msgstr "Bewege %s nach oben"
+msgstr "%s nach oben bewegen"
 
 msgctxt "#35093"
 msgid "Move %s up (%d)"
-msgstr "Bewege %s nach oben (%d)"
+msgstr "%s nach oben (%d) bewegen"
 
 msgctxt "#35094"
 msgid "Move %s down"
-msgstr "Bewege %s nach unten"
+msgstr "%s nach unten bewegen"
 
 msgctxt "#35095"
 msgid "Move %s down (%d)"
-msgstr "Bewege %s nach unten (%d)"
+msgstr "%s nach unten (%d) bewegen"
 
 msgctxt "#35096"
 msgid "Move %s right"
-msgstr "Bewege %s nach rechts"
+msgstr "%s nach rechts bewegen"
 
 msgctxt "#35097"
 msgid "Move %s right (%d)"
-msgstr "Bewege %s nach rechts (%d)"
+msgstr "%s nach rechts (%d) bewegen"
 
 msgctxt "#35098"
 msgid "Move %s left"
-msgstr "Bewege %s nach links"
+msgstr "%s nach links bewegen"
 
 msgctxt "#35099"
 msgid "Move %s left (%d)"
-msgstr "Bewege %s nach links (%d)"
+msgstr "%s nach links (%d) bewegen"
 
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
@@ -12531,7 +12523,7 @@ msgstr "Zugriff verweigert."
 
 msgctxt "#35509"
 msgid "Connecting to backend."
-msgstr "Verbinde zu Backend."
+msgstr "Verbindung zum Backend wird hergestellt."
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -12929,10 +12921,6 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Passt die Methode an, die genutzt wird, um Videos anzuzeigen und zu verarbeiten."
 
-msgctxt "#36154"
-msgid "Use high quality scalers when upscaling a video by at least this percentage."
-msgstr "Benutzt hochqualitative Skalierer zum Hochrechnen der Auflösung von Videos (Upscaling) um mindestens soviel Prozent."
-
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Aktiviert VDPAU-Hardware-Dekodierung von Videos. Hauptsächlich genutzt für Nvidia- und für manche AMD-Grafikkarten."
@@ -13240,10 +13228,6 @@ msgstr "Beim Betätigen der Tasten für Kanalwechsel wird der tatsächliche Wech
 msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Kategorie für Standard-Aufnahmedauer-Einstellungen."
-
-msgctxt "#36234"
-msgid "Duration of instant recordings when pressing the record button."
-msgstr "Zeitspanne zum Aufnehmen, wenn der Aufnahme-Knopf gedrückt wird (und für den aktuellen Sender keine TV-Guide-Daten vorhanden sind)."
 
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
@@ -13947,7 +13931,7 @@ msgstr "Hardware-Videodekodierung mit Amlogic-Dekoder aktivieren."
 
 msgctxt "#36423"
 msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
-msgstr "Mehrmalige Timer sollen nur Episoden aufnehmen, die vorher noch nicht aufgenommen wurden. Nicht von allen Addons und Backends unterstützt."
+msgstr "Timer-Regeln sollen nur Episoden aufnehmen, die vorher noch nicht aufgenommen wurden. Nicht von allen Addons und Backends unterstützt."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
@@ -14203,11 +14187,11 @@ msgstr "Definiert die Anzahl an Anzeigpuffern, die vom Grafiktreiber verwendet w
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
-msgstr "Verhindere den Banding-Effekt, der von der RGB-Level-Konvertierung oder anderen Nachbearbeitungen verursacht wird, indem etwas Rauschen auf das Bild gelegt wird. Kann für langsamere System deaktiviert werden. Oder wenn Kodi auf limitierte RGB-Ausgabe eingestellt ist und keine Video-Nachbearbeitung erfolgen muss."
+msgstr "Durch Hinzufügen von etwas Rauschen zum Bild Banding-Effekte, die von der RGB-Level-Konvertierung oder anderen Nachbearbeitungen verursacht werden, unterdrücken.  Dies kann für langsamere System deaktiviert werden oder wenn Kodi auf limitierte RGB-Ausgabe eingestellt ist und keine Video-Nachbearbeitung erfolgen muss."
 
 msgctxt "#36599"
 msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
-msgstr "Video-Dithering Ausgabegenauigkeit in bits. Benutze die höchste Einstellung die kein Banding produziert. Als Standard ist 8 für die meisten Systeme empfohlen. Wenn die Grafik das RGB-Level skaliert oder ein Laptop benutzt wird, kann ein Wert von 6 oder 7 bit Banding ggf. besser eliminieren.  Niedrigere Werte sind nur dazu da, um zu testen, ob das Dithering angewandt wird und dessen Pixelgröße deren des Displays entspricht."
+msgstr "Video-Dithering Ausgabegenauigkeit in Bits. Höchste Einstellung, die kein Banding produziert, benutzen. Der Standardwert 8 ist für die meisten Systeme empfohlen. Wenn die GPU das RGB-Level skaliert oder ein Laptop benutzt wird, kann ein Wert von 6 oder 7 Bit Banding ggf. besser eliminieren.  Niedrigere Werte sind nur dazu da, um zu testen, ob das Dithering angewandt wird und dessen Pixelgröße deren des Displays entspricht."
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -14251,7 +14235,7 @@ msgstr "Kategorie mit Einstellungen für das Addon-System."
 
 msgctxt "#36611"
 msgid "Change how auto updating of add-ons are handled."
-msgstr "Ändern wie Auto-Updates für Addons durchgeführt werden."
+msgstr "Ändern, wie Auto-Updates für Addons durchgeführt werden."
 
 msgctxt "#36612"
 msgid "Show notification when an add-on have been updated."
@@ -14259,7 +14243,7 @@ msgstr "Benachrichtigung anzeigen, wenn Addons aktualisiert wurden."
 
 msgctxt "#36613"
 msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
-msgstr "Organisiere Module und Support Bibliotheken die automatisch als Abhängigkeit anderer Addons installiert wurden. Inhalte die als \"verwaist\" makiert sind werden nicht länder von anderen Addons gebraucht und könnnen gefahrlos deinstalliert werden."
+msgstr "Module und Support-Bibliotheken, die automatisch als Abhängigkeit anderer Addons installiert wurden, organisieren. Inhalte die als \"verwaist\" markiert sind, werden nicht länder von anderen Addons gebraucht und könnnen gefahrlos deinstalliert werden."
 
 msgctxt "#36614"
 msgid "Show add-ons that are currently running in the background."
@@ -14279,7 +14263,7 @@ msgstr "Zur Sicherheit ist die Installation von Addons aus unbekannten Quellen d
 
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
-msgstr "Addons aus unbekannten Quellen wird Zugriff auf alle Dateien des Geräts ermöglicht. Wenn Du dies erlaubst bist Du damit einverstanden das Du selber verantwortlich bis für den Verlust von Daten, Beschädigungen am Gerät sowie ungewollten Verhalten. Wirklich weitermachen?"
+msgstr "Addons aus unbekannten Quellen wird Zugriff auf alle Dateien des Gerätes ermöglicht. Wenn  Du dies erlaubst, bist Du damit einverstanden, dass Du selber verantwortlich für den etwaigen Verlust von Daten, Beschädigungen am Gerät, sowie ungewolltem Verhalten bist. Wirklich weitermachen?"
 
 msgctxt "#36900"
 msgid "movie"
@@ -14547,7 +14531,7 @@ msgstr "%d fps"
 
 msgctxt "#38017"
 msgid "Region A - Americas, East Asia and Southeast Asia. Region B - Africa, Middle East, Southwest Asia, Europe, Australia, New Zealand. Region C - Central Asia, mainland China, Mongolia, South Asia, Belarus, Russia, Ukraine, Kazakhstan."
-msgstr "Region A - Nord-, Mittel- und Südamerka, Ostasien and Südostasien. Region B - Afrika, Mittelrer osten, Südwestasien, Europa, Australien, Neuseeland. Region C - Zentralasien, China (Mainland), Mongolei, Südasien, Weißrussland, Russland, Ukraine, Kasachstan."
+msgstr "Region A: Nord-, Mittel- und Südamerka, Ostasien and Südostasien. Region B: Afrika, Mittlerer Osten, Südwestasien, Europa, Australien, Neuseeland. Region C: Zentralasien, China (Mainland), Mongolei, Südasien, Weißrussland, Russland, Ukraine, Kasachstan."
 
 msgctxt "#38018"
 msgid "My rating"
@@ -14579,7 +14563,7 @@ msgstr "Stereospur von 3D-Dateien decodieren"
 
 msgctxt "#38028"
 msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
-msgstr "Wenn aktiviert können Videos im Multiview Video Coding Format (MVC) auch in stereoscopischem 3D geschaut werden. MVC wird üblicherweise bei 3D-Blu-Rays benutzt. [CR]Hinweis: Die Option kann die Wiedergabeleistung reduzieren. Deshalb nur aktivieren, wenn die Unterstützung für stereoscopisches 3D benötigt wird."
+msgstr "Wenn aktiviert, können Videos im Multiview Video Coding Format (MVC) auch in stereoscopischem 3D geschaut werden. MVC wird üblicherweise bei 3D-Blu-Rays benutzt. [CR]Hinweis: Die Option kann die Wiedergabeleistung reduzieren. Deshalb nur aktivieren, wenn die Unterstützung für stereoscopisches 3D benötigt wird."
 
 msgctxt "#38029"
 msgid "Enable Full HD HDMI modes for stereoscopic 3D"
@@ -14587,7 +14571,7 @@ msgstr "Full HD HDMI Modi für stereoskopisches 3D einschalten"
 
 msgctxt "#38030"
 msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
-msgstr "Diese Option aktiviert frame-packing zur Ausgabe in voller Auflösung über HDMI.[CR]Dies verbessert die Qualität von Videos mit  Multiview Video Coding (MVC), wird aber ggf. nicht von allen Displays unterstützt."
+msgstr "Diese Option aktiviert Framepacking zur 3D-Ausgabe in voller Auflösung über HDMI.[CR]Dies verbessert die Qualität von Videos mit  Multiview Video Coding (MVC), wird aber ggf. nicht von allen Displays unterstützt."
 
 msgctxt "#38031"
 msgid "Video stream"
@@ -14639,7 +14623,7 @@ msgstr "[Fehlt]"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
-msgstr "Kategorie mit Einstellungen für die Medienwiedergabe."
+msgstr "Kategorie mit Einstellungen für die Medienwiedergabe"
 
 msgctxt "#38101"
 msgid "Section that contains the settings for how media information is collected, stored, shown, and navigated"
@@ -14647,11 +14631,11 @@ msgstr "Kategorie mit Einstellungen für das Sammeln, Speichern, Anzeigen und Na
 
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
-msgstr "Bereich der die Einstellungen für die Benutzeroberfläche umfasst."
+msgstr "Kategorie mit Einstellungen für die grafische Benutzeroberfläche"
 
 msgctxt "#38103"
 msgid "This category contains the settings for the playback of videos"
-msgstr "Kategorie mit Einstellungen für die Videowiedergabe."
+msgstr "Kategorie mit Einstellungen für die Videowiedergabe"
 
 msgctxt "#38104"
 msgid "This category contains the settings for the playback of music"
@@ -14683,4 +14667,20 @@ msgstr "Kategorie mit Einstellungen für die Datenbanken der Bibliotheken"
 
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
-msgstr "Kategorie mit weiteren Einstellungen für die grafische Oberfläche"
+msgstr "Kategorie mit weiteren Einstellungen für die grafische Benutzeroberfläche"
+
+msgctxt "#39000"
+msgid "HD and up"
+msgstr "HD-Qualität und besser"
+
+msgctxt "#39001"
+msgid "Accelerate MPEG2"
+msgstr "MPEG2-Wiedergabe beschleunigen"
+
+msgctxt "#39002"
+msgid "Accelerate MPEG4"
+msgstr "MPEG4-Wiedergabe beschleunigen"
+
+msgctxt "#39003"
+msgid "Accelerate h264"
+msgstr "h264-Wiedergabe beschleunigen"

@@ -2473,10 +2473,6 @@ msgctxt "#672"
 msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
 msgstr "[B]FFmpeg[/B] 库详细日志"
 
-msgctxt "#673"
-msgid "Verbose logging for the [B]RTMP[/B] library"
-msgstr "[B]RTMP[/B] 库详细日志"
-
 msgctxt "#674"
 msgid "Verbose logging for [B]D-Bus[/B] calls"
 msgstr "[B]D-Bus[/B] 调用详细日志"
@@ -2504,6 +2500,10 @@ msgstr "[B]libCEC[/B] 库详细日志"
 msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
 msgstr "[B]视频[/B]组件详细日志"
+
+msgctxt "#681"
+msgid "Verbose logging for the [B]Webserver[/B] component"
+msgstr "[B]网站服务器[/B]组件详细日志"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -6308,6 +6308,10 @@ msgstr "无可用描述"
 msgctxt "#15064"
 msgid "Apply changes directly"
 msgstr "直接应用变动"
+
+msgctxt "#15065"
+msgid "No audio DSP modes available"
+msgstr "无可用音频DSP模式"
 
 msgctxt "#15066"
 msgid "Clear active modes"
@@ -11077,10 +11081,6 @@ msgctxt "#24053"
 msgid "License:"
 msgstr "许可证："
 
-msgctxt "#24054"
-msgid "Changelog"
-msgstr "更新日志"
-
 msgctxt "#24055"
 msgid "Check for updates"
 msgstr "检查更新"
@@ -12421,10 +12421,6 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "控制器配置"
 
-msgctxt "#35055"
-msgid "Use the keyboard or remote to select a controller profile. Move to the buttons and select the first one. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
-msgstr "使用键盘或遥控器选择一个控制器配置。移动并选择第一个按钮。当提示出现时，按下游戏控制器中与屏幕上最匹配的按钮。如果操作有误，可以重复此过程。"
-
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "游戏杆支持未找到"
@@ -12925,10 +12921,6 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "调整处理和显示视频的方式。"
 
-msgctxt "#36154"
-msgid "Use high quality scalers when upscaling a video by at least this percentage."
-msgstr "当视频放大比例大于此值时使用高清倍线。"
-
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "启用视频文件 VDPAU 硬件解码。主要针对 NVIDIA 显卡，也有部分 AMD 显卡支持。"
@@ -13236,10 +13228,6 @@ msgstr "当向前后翻频道时，延迟真实频道切换。这使你不用等
 msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "此功能区包含默认录像时长设置。"
-
-msgctxt "#36234"
-msgid "Duration of instant recordings when pressing the record button."
-msgstr "按下录像按钮时的即时录像时长。"
 
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
@@ -14680,3 +14668,19 @@ msgstr "此功能区包含资料库数据库相关设置"
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
 msgstr "此功能区包含图形用户界面的其他设置"
+
+msgctxt "#39000"
+msgid "HD and up"
+msgstr "高清以上"
+
+msgctxt "#39001"
+msgid "Accelerate MPEG2"
+msgstr "MPEG2加速"
+
+msgctxt "#39002"
+msgid "Accelerate MPEG4"
+msgstr "MPEG4加速"
+
+msgctxt "#39003"
+msgid "Accelerate h264"
+msgstr "h.264加速"

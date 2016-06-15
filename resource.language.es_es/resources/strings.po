@@ -867,7 +867,7 @@ msgstr "Ventana"
 
 msgctxt "#243"
 msgid "Refresh rate"
-msgstr "Frecuencia de refresco"
+msgstr "Tasa de refresco"
 
 msgctxt "#244"
 msgid "Full screen"
@@ -1475,7 +1475,7 @@ msgstr "Seleccione ubicación"
 
 msgctxt "#397"
 msgid "Refresh time"
-msgstr "Actualizar cada"
+msgstr "Refrescar cada"
 
 msgctxt "#398"
 msgid "Temperature units"
@@ -2473,10 +2473,6 @@ msgctxt "#672"
 msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
 msgstr "Registro detallado para librerías [B]FFmpeg[/B]"
 
-msgctxt "#673"
-msgid "Verbose logging for the [B]RTMP[/B] library"
-msgstr "Registro detallado para librería [B]RTMP[/B]"
-
 msgctxt "#674"
 msgid "Verbose logging for [B]D-Bus[/B] calls"
 msgstr "Registro detallado de llamadas [B]D-Bus[/B]"
@@ -2504,6 +2500,10 @@ msgstr "Registro detallado para librería [B]libCEC[/B]"
 msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
 msgstr "Registro detallado para el módulo de [B]Video[/B]"
+
+msgctxt "#681"
+msgid "Verbose logging for the [B]Webserver[/B] component"
+msgstr "Registro detallado para el módulo [B]Webserver[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2925,6 +2925,10 @@ msgctxt "#823"
 msgid "Repeating (guide-based)"
 msgstr "Repitiendo (basado en al guía)"
 
+msgctxt "#828"
+msgid "Timer rule deleted"
+msgstr "Regla de temporizador eliminada"
+
 msgctxt "#831"
 msgid "Mondays"
 msgstr "Lunes"
@@ -2953,6 +2957,10 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Domingos"
 
+msgctxt "#840"
+msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
+msgstr "¿Sólo quiere eliminar este temporizador o además la regla que lo ha calendarizado?"
+
 msgctxt "#841"
 msgid "Only this"
 msgstr "Sólo este"
@@ -2964,6 +2972,10 @@ msgstr "Activar"
 msgctxt "#844"
 msgid "Deactivate"
 msgstr "Desactivar"
+
+msgctxt "#845"
+msgid "Are you sure you want to delete this timer rule and all timers it has scheduled?"
+msgstr "¿Está seguro(a) que quiere eliminar esta regla de termporizador y todos los temporizadores que ha calendarizado?"
 
 msgctxt "#846"
 msgid "Are you sure you want to delete this timer?"
@@ -3376,6 +3388,10 @@ msgstr "Dispositivo de audio personalizado"
 msgctxt "#1301"
 msgid "Custom passthrough device"
 msgstr "Dispositivo passthrough personalizado"
+
+msgctxt "#1302"
+msgid "Volume control steps"
+msgstr "Pasos de control de volúmen"
 
 msgctxt "#1375"
 msgid "Temperature"
@@ -3865,6 +3881,46 @@ msgctxt "#10047"
 msgid "Try changing the setting level to see additional categories and settings."
 msgstr "Intente cambiar el nivel de ajuste para ver categorías y ajustes adicionales."
 
+msgctxt "#10048"
+msgid "Add video source"
+msgstr "Añadir fuente de vídeo"
+
+msgctxt "#10049"
+msgid "Add music source"
+msgstr "Añadir fuente de música"
+
+msgctxt "#10050"
+msgid "Add picture source"
+msgstr "Añadir fuente de imágenes"
+
+msgctxt "#10051"
+msgid "Add program source"
+msgstr "Añadir fuente de programas"
+
+msgctxt "#10052"
+msgid "Add file source"
+msgstr "Añadir fuente de archivos"
+
+msgctxt "#10053"
+msgid "Edit video source"
+msgstr "Editar fuente de vídeo"
+
+msgctxt "#10054"
+msgid "Edit music source"
+msgstr "Editar fuente de música"
+
+msgctxt "#10055"
+msgid "Edit picture source"
+msgstr "Editar fuente de imágenes"
+
+msgctxt "#10056"
+msgid "Edit program source"
+msgstr "Editar fuente de programas"
+
+msgctxt "#10057"
+msgid "Edit file source"
+msgstr "Editar fuente de archivos"
+
 msgctxt "#10100"
 msgid "Yes / No dialogue"
 msgstr "Cuadro de diálogo Sí/No"
@@ -4053,6 +4109,14 @@ msgctxt "#12011"
 msgid "Return to videos window"
 msgstr "Volver a ventana Vídeos"
 
+msgctxt "#12012"
+msgid "Last used"
+msgstr "Último uso"
+
+msgctxt "#12013"
+msgid "Install date"
+msgstr "Fecha de instalación"
+
 msgctxt "#12014"
 msgid "Last updated"
 msgstr "Última actualización"
@@ -4064,6 +4128,10 @@ msgstr "Comenzar desde el principio"
 msgctxt "#12022"
 msgid "Resume from %s"
 msgstr "Reanudar desde %s"
+
+msgctxt "#12023"
+msgid "Play from beginning"
+msgstr "Reproducir desde el inicio"
 
 msgctxt "#12310"
 msgid "0"
@@ -5177,6 +5245,10 @@ msgctxt "#13428"
 msgid "Allow hardware acceleration - CrystalHD"
 msgstr "Permitir aceleración de hardware - CrystalHD"
 
+msgctxt "#13429"
+msgid "Allow hardware acceleration - VTBDecoder"
+msgstr "Permitir aceleración de hardware - VTBDecoder"
+
 msgctxt "#13430"
 msgid "Allow hardware acceleration - OpenMax"
 msgstr "Permitir aceleración de hardware - OpenMax"
@@ -5324,6 +5396,10 @@ msgstr "No hay arte"
 msgctxt "#13516"
 msgid "Add art"
 msgstr "Añadir arte"
+
+msgctxt "#13550"
+msgid "Delay after change of refresh rate"
+msgstr "Espera luego del cambio de tasa de refresco"
 
 msgctxt "#13551"
 msgid "Off"
@@ -5685,6 +5761,10 @@ msgctxt "#14081"
 msgid "File lists"
 msgstr "Listas de archivos"
 
+msgctxt "#14082"
+msgid "Reset the Audio DSP database..."
+msgstr "Restablecer la base de datos Audio DSP..."
+
 msgctxt "#14083"
 msgid "Use fullscreen window"
 msgstr "Usar ventana a pantalla completa"
@@ -5752,6 +5832,10 @@ msgstr "Expulsar disco cuando el ripeo se complete"
 msgctxt "#14100"
 msgid "Stop ripping CD"
 msgstr "Detener el ripeo del CD"
+
+msgctxt "#14101"
+msgid "Processing"
+msgstr "Procesando"
 
 msgctxt "#14102"
 msgid "Blu-ray playback mode"
@@ -5849,13 +5933,41 @@ msgctxt "#14200"
 msgid "Player"
 msgstr "Reproductor"
 
+msgctxt "#14201"
+msgid "Player settings"
+msgstr "Ajustes del reproductor"
+
 msgctxt "#14202"
 msgid "Library"
 msgstr "Colección"
 
+msgctxt "#14203"
+msgid "Library settings"
+msgstr "Ajustes de Colección"
+
 msgctxt "#14204"
 msgid "TV"
 msgstr "TV"
+
+msgctxt "#14205"
+msgid "TV settings"
+msgstr "Ajustes de TV"
+
+msgctxt "#14206"
+msgid "Interface"
+msgstr "Interfaz"
+
+msgctxt "#14207"
+msgid "Interface settings"
+msgstr "Ajustes de Interfaz"
+
+msgctxt "#14208"
+msgid "Service settings"
+msgstr "Ajustes de Servicio"
+
+msgctxt "#14209"
+msgid "System settings"
+msgstr "Ajustes de Sistema"
 
 msgctxt "#14210"
 msgid "Profile settings"
@@ -5877,6 +5989,10 @@ msgctxt "#14218"
 msgid "Language"
 msgstr "Idioma"
 
+msgctxt "#14219"
+msgid "Databases"
+msgstr "Bases de Datos"
+
 msgctxt "#14220"
 msgid "Display"
 msgstr "Pantalla"
@@ -5885,17 +6001,53 @@ msgctxt "#14221"
 msgid "Audio"
 msgstr "Sonido"
 
+msgctxt "#14222"
+msgid "Regional"
+msgstr "Regional"
+
+msgctxt "#14223"
+msgid "Control"
+msgstr "Control"
+
 msgctxt "#14224"
 msgid "Other"
 msgstr "Otros"
+
+msgctxt "#14225"
+msgid "Network Control"
+msgstr "Control de Red"
 
 msgctxt "#14230"
 msgid "Actions"
 msgstr "Acciones"
 
+msgctxt "#14231"
+msgid "Processing"
+msgstr "Procesando"
+
+msgctxt "#14232"
+msgid "Stereoscopic 3D"
+msgstr "3D Estereoscópico"
+
 msgctxt "#14233"
 msgid "Teletext"
 msgstr "Teletexto"
+
+msgctxt "#14234"
+msgid "Blu-ray"
+msgstr "Blu-ray"
+
+msgctxt "#14235"
+msgid "Download Services"
+msgstr "Servicios de Descarga"
+
+msgctxt "#14240"
+msgid "Lists & Views"
+msgstr "Listas & Vistas"
+
+msgctxt "#14241"
+msgid "Metadata"
+msgstr "Metadatos"
 
 msgctxt "#14245"
 msgid "Update library on startup"
@@ -5905,9 +6057,65 @@ msgctxt "#14246"
 msgid "Hide progress of library updates"
 msgstr "Ocultar el progreso de actualización de la colección"
 
+msgctxt "#14247"
+msgid "Clean library"
+msgstr "Limpiar colección"
+
+msgctxt "#14248"
+msgid "Export library"
+msgstr "Exportar colección"
+
+msgctxt "#14249"
+msgid "Import library"
+msgstr "Importar colección"
+
+msgctxt "#14250"
+msgid "Audio Decoder"
+msgstr "Decodificador de Audio"
+
 msgctxt "#14251"
 msgid "Audio DSP"
 msgstr "Audio DSP"
+
+msgctxt "#14252"
+msgid "Audio Passthrough"
+msgstr "Passthrough de Audio"
+
+msgctxt "#14255"
+msgid "Sleep / Shutdown"
+msgstr "Dormir / Apagar"
+
+msgctxt "#14256"
+msgid "Wake"
+msgstr "Despertar"
+
+msgctxt "#14260"
+msgid "Debug"
+msgstr "Depurar"
+
+msgctxt "#14270"
+msgid "Unit Formats"
+msgstr "Formatos de Unidades"
+
+msgctxt "#14271"
+msgid "Region default format"
+msgstr "Formato predeterminado de Región"
+
+msgctxt "#14275"
+msgid "Application control"
+msgstr "Control de aplicación"
+
+msgctxt "#14276"
+msgid "Allow remote control from applications on this system"
+msgstr "Permitir control remoto desde aplicaciones en este equipo"
+
+msgctxt "#14277"
+msgid "Allow remote control from applications on other systems"
+msgstr "Permitir control remoto desde aplicaciones en otros equipos"
+
+msgctxt "#14300"
+msgid "PVR Manager"
+msgstr "Gestor de PVR"
 
 msgctxt "#14301"
 msgid "Channels"
@@ -5916,6 +6124,14 @@ msgstr "Canales"
 msgctxt "#14302"
 msgid "Icons"
 msgstr "Iconos"
+
+msgctxt "#14303"
+msgid "Updates"
+msgstr "Actualizaciones"
+
+msgctxt "#14304"
+msgid "RDS Radio"
+msgstr "Radio RDS"
 
 msgctxt "#15004"
 msgid "Basic"
@@ -6092,6 +6308,10 @@ msgstr "No hay descripción disponible"
 msgctxt "#15064"
 msgid "Apply changes directly"
 msgstr "Aplicar los cambios directamente"
+
+msgctxt "#15065"
+msgid "No audio DSP modes available"
+msgstr "No hay modos DSP de audio disponibles"
 
 msgctxt "#15066"
 msgid "Clear active modes"
@@ -6793,6 +7013,10 @@ msgctxt "#19033"
 msgid "Information"
 msgstr "Información"
 
+msgctxt "#19034"
+msgid "There is already a timer set for this event"
+msgstr "Ya hay un temporizador establecido para este evento"
+
 msgctxt "#19035"
 msgid "%s couldn't be played. Check the log for more information about this message."
 msgstr "%s no se pudo reproducir. Consulte el log para más detalles."
@@ -6961,6 +7185,10 @@ msgctxt "#19076"
 msgid "Folder"
 msgstr "Carpeta"
 
+msgctxt "#19077"
+msgid "Hide disabled"
+msgstr "Esconder inactivados"
+
 msgctxt "#19078"
 msgid "Channel"
 msgstr "Canal"
@@ -6996,6 +7224,10 @@ msgstr "Canal %u desconocido"
 msgctxt "#19097"
 msgid "Enter the name for the recording"
 msgstr "Introduzca el nombre para la grabación"
+
+msgctxt "#19098"
+msgid "Warning!"
+msgstr "¡Advertencia!"
 
 msgctxt "#19099"
 msgid "Service"
@@ -7152,6 +7384,10 @@ msgstr "Canal no disponible"
 msgctxt "#19137"
 msgid "No groups defined. Please create a group first"
 msgstr "Ningún grupo definido. Por favor, cree un grupo primero."
+
+msgctxt "#19138"
+msgid "Timer rules"
+msgstr "Reglas de Temporizador"
 
 msgctxt "#19139"
 msgid "Name of the new group"
@@ -7561,6 +7797,10 @@ msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Editar temporizador"
 
+msgctxt "#19243"
+msgid "Edit timer rule"
+msgstr "Editar regla de temporizador"
+
 msgctxt "#19244"
 msgid "Backend idle time"
 msgstr "Tiempo de inactividad de la fuente PVR"
@@ -7604,6 +7844,14 @@ msgstr "Actualización de la guía programada para el canal"
 msgctxt "#19254"
 msgid "Guide update failed for channel"
 msgstr "Ha fallado la actualización de la guía para el canal"
+
+msgctxt "#19255"
+msgid "%d scheduled"
+msgstr "%d calendarizado"
+
+msgctxt "#19256"
+msgid "Completed"
+msgstr "Completado"
 
 msgctxt "#19257"
 msgid "Lock channel"
@@ -7748,6 +7996,10 @@ msgstr "¿Borrar todos los registros permanentemente?"
 msgctxt "#19294"
 msgid "Delete this recording permanently?"
 msgstr "¿Borrar esta grabación de forma permanente?"
+
+msgctxt "#19295"
+msgid "Delete timer rule"
+msgstr "Eliminar regla de temporizador"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -8220,6 +8472,14 @@ msgstr "Sin miniatura"
 msgctxt "#20019"
 msgid "Choose thumbnail"
 msgstr "Elija miniatura"
+
+msgctxt "#20020"
+msgid "Banner"
+msgstr "Banner"
+
+msgctxt "#20021"
+msgid "Poster"
+msgstr "Poster"
 
 msgctxt "#20023"
 msgid "Conflict"
@@ -9096,6 +9356,10 @@ msgstr "Directores"
 msgctxt "#20349"
 msgid "No video files found in this path!"
 msgstr "¡No se han encontrado vídeos en esta ruta!"
+
+msgctxt "#20350"
+msgid "%s (%s votes)"
+msgstr "%s (%s votos)"
 
 msgctxt "#20351"
 msgid "TV show information"
@@ -10001,6 +10265,14 @@ msgctxt "#21453"
 msgid "Root filesystem"
 msgstr "Raíz del sistema de archivos"
 
+msgctxt "#21454"
+msgid "Source too slow"
+msgstr "Fuente demasiado lenta"
+
+msgctxt "#21455"
+msgid "Read rate too low for continuous playback"
+msgstr "Tasa de lectura demasiado baja para reproducción contínua"
+
 msgctxt "#21456"
 msgid "External storage"
 msgstr "Almacenamiento externo"
@@ -10100,6 +10372,14 @@ msgstr "Ejecutar"
 msgctxt "#21480"
 msgid "Use"
 msgstr "Usar"
+
+msgctxt "#21481"
+msgid "Audio track count"
+msgstr "Cantidad de pistas de audio"
+
+msgctxt "#21482"
+msgid "Subtitle track count"
+msgstr "Cantidad de pistas de subtítulos"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -10601,6 +10881,10 @@ msgctxt "#24003"
 msgid "Add-on information"
 msgstr "Información del add-on"
 
+msgctxt "#24004"
+msgid "Recently updated"
+msgstr "Actualizado recientemente"
+
 msgctxt "#24005"
 msgid "Media sources"
 msgstr "Fuentes de medios"
@@ -10773,6 +11057,10 @@ msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "Este add-on no se puede desinstalar"
 
+msgctxt "#24048"
+msgid "VideoPlayer InputStream"
+msgstr "VideoPlayer InputStream"
+
 msgctxt "#24049"
 msgid "Incompatible"
 msgstr "Incompatible"
@@ -10792,10 +11080,6 @@ msgstr "Leeme"
 msgctxt "#24053"
 msgid "License:"
 msgstr "Licencia:"
-
-msgctxt "#24054"
-msgid "Changelog"
-msgstr "Cambios"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -11177,6 +11461,14 @@ msgctxt "#24994"
 msgid "Running"
 msgstr "Ejecutando"
 
+msgctxt "#24995"
+msgid "Orphaned"
+msgstr "Huérfano"
+
+msgctxt "#24996"
+msgid "Manage dependencies"
+msgstr "Gestionar dependencias"
+
 msgctxt "#24997"
 msgid "Look and feel"
 msgstr "Aspecto"
@@ -11232,6 +11524,18 @@ msgstr "El menú de este Blu-ray no está soportado"
 msgctxt "#25010"
 msgid "Chapter %u"
 msgstr "Capítulo %u"
+
+msgctxt "#25011"
+msgid "Commercial"
+msgstr "Comercial"
+
+msgctxt "#25012"
+msgid "Auto-skip off"
+msgstr "Auto-salto apagado"
+
+msgctxt "#25013"
+msgid "Auto-skip on"
+msgstr "Auto-salto encendido"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -11560,6 +11864,34 @@ msgstr "Publicar mensajes de tráfico"
 msgctxt "#29987"
 msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
 msgstr "Envía mensajes activos de tráfico alrededor y puede ser manejado por add-ons (no dentro de Kodi)"
+
+msgctxt "#29988"
+msgid "Arrangers"
+msgstr "Arreglistas"
+
+msgctxt "#29989"
+msgid "Composers"
+msgstr "Compositores"
+
+msgctxt "#29990"
+msgid "Conductors"
+msgstr "Conductores"
+
+msgctxt "#29991"
+msgid "DJ Mixers"
+msgstr "DJ Mixers"
+
+msgctxt "#29992"
+msgid "Lyricists"
+msgstr "letristas"
+
+msgctxt "#29993"
+msgid "Orchestras"
+msgstr "Orquestas"
+
+msgctxt "#29994"
+msgid "Roles"
+msgstr "Roles"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -12053,6 +12385,10 @@ msgctxt "#35003"
 msgid "Generic disk"
 msgstr "Disco genérico"
 
+msgctxt "#35004"
+msgid "There are no settings available for this peripheral."
+msgstr "No hay ajustes disponible para este periférico."
+
 msgctxt "#35005"
 msgid "New device configured"
 msgstr "Nuevo dispositivo configurado"
@@ -12072,6 +12408,18 @@ msgstr "Mapa de teclado activado"
 msgctxt "#35009"
 msgid "Don't use the custom keymap for this device"
 msgstr "No utilizar mapa de teclado personalizado para este dispositivo"
+
+msgctxt "#35010"
+msgid "Peripheral libraries"
+msgstr "Colecciones de periféricos"
+
+msgctxt "#35049"
+msgid "Game add-ons"
+msgstr "Complementos de Juegos"
+
+msgctxt "#35050"
+msgid "Controller profiles"
+msgstr "Perfiles de Controladores"
 
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
@@ -12457,10 +12805,6 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Ajusta el método usado para procesar y mostrar video."
 
-msgctxt "#36154"
-msgid "Use high quality scalers when upscaling a video by at least this percentage."
-msgstr "Usar escaladores de alta calidad cuando se escale un vídeo de al menos este porcentaje."
-
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Habilitar decodificación por hardware VDPAU para archivos de vídeo, se utilizan principalmente para gráficos NVIDIA y en algunas circunstancias gráficos AMD."
@@ -12752,10 +13096,6 @@ msgstr "Al pulsar canal hacia arriba o hacia abajo, el interruptor de canal real
 msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Esta categoría contiene los ajustes de tiempo de grabación predeterminado."
-
-msgctxt "#36234"
-msgid "Duration of instant recordings when pressing the record button."
-msgstr "Duración de las grabaciones instantáneas al pulsar el botón de grabación."
 
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
@@ -13696,6 +14036,10 @@ msgstr "Esta categoría contiene la configuración de cómo se manejan las lista
 msgctxt "#36602"
 msgid "This category contains the settings for how the AirPlay service is handled."
 msgstr "Esta categoría contiene la configuración de cómo se maneja el servicio AirPlay."
+
+msgctxt "#36605"
+msgid "Updates"
+msgstr "Actualizaciones"
 
 msgctxt "#36900"
 msgid "movie"

@@ -2473,10 +2473,6 @@ msgctxt "#672"
 msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
 msgstr "Išsamus [B]FFmpeg[/B] bibliotekos žurnalo rašymas"
 
-msgctxt "#673"
-msgid "Verbose logging for the [B]RTMP[/B] library"
-msgstr "Išsamus [B]RTMP[/B] bibliotekos žurnalo rašymas"
-
 msgctxt "#674"
 msgid "Verbose logging for [B]D-Bus[/B] calls"
 msgstr "Išsamus [B]D-Bus[/B] bibliotekos žurnalo rašymas"
@@ -6313,6 +6309,10 @@ msgctxt "#15064"
 msgid "Apply changes directly"
 msgstr "Taikyti pakeitimus tiesiogiai"
 
+msgctxt "#15065"
+msgid "No audio DSP modes available"
+msgstr "Nėra galimų audio DSP režimų"
+
 msgctxt "#15066"
 msgid "Clear active modes"
 msgstr "Išvalyti aktyvius režimus"
@@ -9127,7 +9127,7 @@ msgstr "Pirmenybė informacijai iš interneto"
 
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
-msgstr "Kai įjungta, bet kokia atsisiųsta atlikėjų ir albumų informacija perrašys tai, ką patys nustatėte dainų žymose, pvz.: žanrus, metus, dainos atlikėjus ir t.t. Naudinga, jei turite MusicBrainz identifikatorius dainų žymose."
+msgstr "Kai įjungta, bet kokia atsisiųsta atlikėjų ir albumų informacija perrašys tai, ką patys nustatėte dainų žymose, pvz.: žanrus, metus, dainos atlikėjus ir t.t. Pravers, jei turite MusicBrainz identifikatorius dainų žymose."
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
@@ -9871,7 +9871,7 @@ msgstr "Niekada"
 
 msgctxt "#21338"
 msgid "Select version"
-msgstr "Pasirinkti versiją"
+msgstr "Pasirinkite versiją"
 
 msgctxt "#21339"
 msgid "Version %s"
@@ -11080,10 +11080,6 @@ msgstr "Atsakomybės apribojimas"
 msgctxt "#24053"
 msgid "License:"
 msgstr "Licenzija:"
-
-msgctxt "#24054"
-msgid "Changelog"
-msgstr "Pakeitimų sąrašas"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -12425,10 +12421,6 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Valdiklių profiliai"
 
-msgctxt "#35055"
-msgid "Use the keyboard or remote to select a controller profile. Move to the buttons and select the first one. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
-msgstr "Naudokite klaviatūrą ar nuotolinio valdymo pultą norėdami pasirinkti valdiklio profilį. Pereikite į mygtukus ir pasirinkite pirmąjį. Kai būsite paprašyti, paspauskite mygtuką žaidimų valdiklyje, kuris geriausiai atitinka tai ką matote ekrane. Jei padarysite klaidą, galite pakartoti procesą."
-
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Vairalazdės palaikymas nerastas"
@@ -12929,10 +12921,6 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Pasirinkite metodą, kuris bus naudojamas vaizdo apdorojimui ir atvaizdavimui ekrane."
 
-msgctxt "#36154"
-msgid "Use high quality scalers when upscaling a video by at least this percentage."
-msgstr "Naudoti aukštos kokybės raiškos keitiklius, kai raiška didinama ne mažiau nei nurodytas procentinis dydis."
-
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Įjungti VDPAU aparatinės įrangos vaizdo failų dekodavimą, dažniausiai naudojama NVIDIA grafinių lustų ir kai kuriais atvejais AMD grafinių lustų."
@@ -13227,7 +13215,7 @@ msgstr "Atvaizduoti signalo kokybės informaciją kodeko informacijos lange (jei
 
 msgctxt "#36230"
 msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Signalo gavimo laukimo laikas po kanalo perjungimo. Naudinga oru transliuojamiems kanalams, kurie retkarčiais praranda signalo stiprumą."
+msgstr "Laukimo laikas signalo gavimui po kanalo perjungimo. Pravers žiūrint oru transliuojamus kanalus, kurie retkarčiais praranda signalo stiprumą."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons or when pressing a number button in full screen mode, channel switches must be confirmed using the OK button."
@@ -13240,10 +13228,6 @@ msgstr "Perjungiant kanalus pirmyn arba atgal, faktinis kanalų perjungimas yra 
 msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Šioje kategorijoje yra numatytieji įrašymo trukmės nustatymai."
-
-msgctxt "#36234"
-msgid "Duration of instant recordings when pressing the record button."
-msgstr "Momentinių įrašų trukmė paspaudus įrašymo mygtuką."
 
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
@@ -13807,7 +13791,7 @@ msgstr "Šioje kategorijoje yra energijos taupymo nustatymai."
 
 msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
-msgstr "Išjungti ekraną, kai nenaudojamas. Naudinga televizoriams, kurie išsijungia, jei neaptinka vaizdo signalo."
+msgstr "Išjungti ekraną, kai nenaudojamas. Pravers su televizoriais, kurie išsijungia, jei neaptinka vaizdo signalo."
 
 msgctxt "#36389"
 msgid "Set the time to wait for any activity to occur before shutting down."
@@ -13823,7 +13807,7 @@ msgstr "Šioje kategorijoje yra įvykių ir derinimo žurnalų rašymo funkcijos
 
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
-msgstr "Įjunkite arba išjunkite derinimo žurnalą. Naudinga trikčių šalinimui."
+msgstr "Įjunkite arba išjunkite derinimo žurnalą. Pravers trikčių šalinimui."
 
 msgctxt "#36393"
 msgid "Select the folder where screenshots should be saved in."
@@ -14684,3 +14668,19 @@ msgstr "Šioje kategorijoje yra bibliotekos duomenų bazių nustatymai"
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
 msgstr "Šioje kategorijoje yra kiti vartotojo sąsajos nustatymai"
+
+msgctxt "#39000"
+msgid "HD and up"
+msgstr "HD ir aukščiau"
+
+msgctxt "#39001"
+msgid "Accelerate MPEG2"
+msgstr "Spartinti MPEG2"
+
+msgctxt "#39002"
+msgid "Accelerate MPEG4"
+msgstr "Spartinti MPEG4"
+
+msgctxt "#39003"
+msgid "Accelerate h264"
+msgstr "Spartinti h264"
