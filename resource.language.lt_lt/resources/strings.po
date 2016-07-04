@@ -2917,14 +2917,6 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Vieną kartą (remiantis gidu)"
 
-msgctxt "#822"
-msgid "Repeating"
-msgstr "Pasikartojantis"
-
-msgctxt "#823"
-msgid "Repeating (guide-based)"
-msgstr "Pasikartojantis (remiantis gidu)"
-
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Laikmačio taisyklė ištrinta"
@@ -5190,8 +5182,8 @@ msgid "Downloading"
 msgstr "Atsiunčiama"
 
 msgctxt "#13414"
-msgid "Include artists who appear only on compilations"
-msgstr "Įtraukti atlikėjus, kurie figūruoja tik kompiliacijose"
+msgid "Show song and album artists"
+msgstr "Rodyti dainos ir albumo atlikėjus"
 
 msgctxt "#13415"
 msgid "Render method"
@@ -6413,10 +6405,6 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Buferizacija..."
 
-msgctxt "#15108"
-msgid "GUI sounds"
-msgstr "GUI garsai"
-
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Kaip numatyta"
@@ -7220,6 +7208,38 @@ msgstr "Pirmoji diena"
 msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "Nežinomas kanalas %u"
+
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "Momentinio įrašymo veiksmas"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "Įrašyti dabartinę laidą (jei prieinami gido duomenys)"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "Įrašyti fiksuotą laiko periodą (momentinio įrašymo trukmė)"
+
+msgctxt "#19089"
+msgid "Ask what to do"
+msgstr "Paklausti ką daryti"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "Įrašyti kitas %d min."
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "Įrašyti dabartinę laidą (%s)"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "Įrašyti kitą laidą (%s)"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "Momentinis įrašymas: %s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -9781,10 +9801,6 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Filmų rinkinys"
 
-msgctxt "#20458"
-msgid "Group movies in sets"
-msgstr "Grupuoti filmus į rinkinius"
-
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Žymos"
@@ -9828,10 +9844,6 @@ msgstr "Pridėti filmą į naują rinkinį"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Išlaikyti esamą rinkinį (%s)"
-
-msgctxt "#20470"
-msgid "Use movie sets for single movies"
-msgstr "Naudoti filmų rinkinius pavieniams filmams"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -11080,6 +11092,10 @@ msgstr "Atsakomybės apribojimas"
 msgctxt "#24053"
 msgid "License:"
 msgstr "Licenzija:"
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "Kas naujo"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -12421,6 +12437,10 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Valdiklių profiliai"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Naudokite klaviatūrą ar nuotolinio valdymo pultą norėdami pasirinkti valdiklio profilį. Kai būsite paprašyti, paspauskite mygtuką žaidimų valdiklyje, kuris geriausiai atitinka tai ką matote ekrane. Jei padarysite klaidą, galite pakartoti procesą."
+
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Vairalazdės palaikymas nerastas"
@@ -12921,6 +12941,10 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Pasirinkite metodą, kuris bus naudojamas vaizdo apdorojimui ir atvaizdavimui ekrane."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "Naudoti aukštos kokybės raiškos keitiklius, kai ji keičiama ne mažesniu nei šiuo procentiniu dydžiu. Mažesnė nei 5% reikšmė yra beprasmiška, nes vaizdo įrašas bus apdorojamas su didele GPU apkrova be pastebimo vaizdo pagerėjimo."
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Įjungti VDPAU aparatinės įrangos vaizdo failų dekodavimą, dažniausiai naudojama NVIDIA grafinių lustų ir kai kuriais atvejais AMD grafinių lustų."
@@ -13229,6 +13253,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Šioje kategorijoje yra numatytieji įrašymo trukmės nustatymai."
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "Momentinio įrašymo trukmė paspaudus įrašymo mygtuką. Į šią reikšmę bus atsižvelgta, jei \"Momentinio įrašymo veiksmas\" nustatytas į \"Įrašyti fiksuotą laiko periodą\""
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "Įrašymo prioritetas. Didesnis skaičius reiškia aukštesnį prioritetą. Palaiko ne visi priedai ir posistemės."
@@ -13305,9 +13333,13 @@ msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Skyrius, kuriame yra su muzikos failais ir jų tvarkymu susiję nustatymai."
 
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "Veiksmas kurį vykdyti paspaudus įrašymo mygtuką. [Įrašyti dabartinę laidą] įrašys dabatinę laidą nuo \"dabar\" iki laidos pabaigos. Jei šiuo metu nėra TV gido duomenų, bus suplanuotas fiksuotos trukmės įrašymas, pradedant nuo \"dabar\" ir baigiant \"Momentinio įrašymo trukmės\" reikšme. [Įrašyti fiksuotą laiko periodą] suplanuos fiksuotos trukmės įrašymą, pradedant nuo \"dabar\" ir baigiant \"Momentinio įrašymo trukmės\" reikšme. [Paklausti ką daryti] atidarys dialogą, kuriame galėsite pasirinkti iš skirtingų įrašymo veiksmų, tokių kaip \"Įrašyti dabartinę laidą\", \"Įrašyti kitą laidą\" ar tam tikrų fiksuotos trukmės įrašymų."
+
 msgctxt "#36255"
-msgid "Determine if artists that appear only on compilations are shown in the library artist view."
-msgstr "Pasirinkite ar atlikėjai, kurie figūruoja tik kompiliacijose, turi būti rodomi bibliotekos atlikėjų rodinyje."
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Kai įjungta, bus rodomi abu, tiek dainos, tiek albumo atlikėjai. Kai išjungta, bus rodomi tik albumo atlikėjai, o atlikėjai, kurie figūruoja tik atskirose dainose nebus įtraukiami."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13452,10 +13484,6 @@ msgstr "Nustatykite FLAC glaudinimo lygį, numatytasis 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Automatiškai išstumti diską baigus perrašymą."
-
-msgctxt "#36301"
-msgid "No info available yet."
-msgstr "Informacijos dar nėra."
 
 msgctxt "#36302"
 msgid "No info available yet."

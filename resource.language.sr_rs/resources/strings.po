@@ -2501,6 +2501,10 @@ msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
 msgstr "Опширно евидентирање за [B]Видео[/B] компоненту"
 
+msgctxt "#681"
+msgid "Verbose logging for the [B]Webserver[/B] component"
+msgstr "Опширно евидентирање за [B]Вебсервер[/B] компоненту"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Чишћење библиотеке"
@@ -2913,14 +2917,6 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Једном (засновано на водичу)"
 
-msgctxt "#822"
-msgid "Repeating"
-msgstr "Понављајући"
-
-msgctxt "#823"
-msgid "Repeating (guide-based)"
-msgstr "Понављајући (засновано на водичу)"
-
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Правило тајмера избрисано"
@@ -2953,6 +2949,10 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Недељама"
 
+msgctxt "#840"
+msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
+msgstr "Да ли желите да избришете само овај тајмер или такође и правило тајмера које га је заказало?"
+
 msgctxt "#841"
 msgid "Only this"
 msgstr "Само ово"
@@ -2964,6 +2964,10 @@ msgstr "Активирај"
 msgctxt "#844"
 msgid "Deactivate"
 msgstr "Деактивирај"
+
+msgctxt "#845"
+msgid "Are you sure you want to delete this timer rule and all timers it has scheduled?"
+msgstr "Да ли сте сигурни да желите да избришете ово правило тајмера и све тајмере које је заказао?"
 
 msgctxt "#846"
 msgid "Are you sure you want to delete this timer?"
@@ -5177,10 +5181,6 @@ msgctxt "#13413"
 msgid "Downloading"
 msgstr "Преузимање"
 
-msgctxt "#13414"
-msgid "Include artists who appear only on compilations"
-msgstr "Укључи извођаче који се појављују само на компилацијама"
-
 msgctxt "#13415"
 msgid "Render method"
 msgstr "Начин приказивања"
@@ -5380,6 +5380,10 @@ msgstr "Без уметности"
 msgctxt "#13516"
 msgid "Add art"
 msgstr "Додај уметност"
+
+msgctxt "#13550"
+msgid "Delay after change of refresh rate"
+msgstr "Одлагање након промене освежавања"
 
 msgctxt "#13551"
 msgid "Off"
@@ -5913,17 +5917,41 @@ msgctxt "#14200"
 msgid "Player"
 msgstr "Уређај за репродукцију"
 
+msgctxt "#14201"
+msgid "Player settings"
+msgstr "Поставке репродукције"
+
 msgctxt "#14202"
 msgid "Library"
 msgstr "Библиотека"
+
+msgctxt "#14203"
+msgid "Library settings"
+msgstr "Поставке библиотеке"
 
 msgctxt "#14204"
 msgid "TV"
 msgstr "ТВ"
 
+msgctxt "#14205"
+msgid "TV settings"
+msgstr "ТВ поставке"
+
 msgctxt "#14206"
 msgid "Interface"
 msgstr "Интерфејс"
+
+msgctxt "#14207"
+msgid "Interface settings"
+msgstr "Поставке интерфејса"
+
+msgctxt "#14208"
+msgid "Service settings"
+msgstr "Поставке сервиса"
+
+msgctxt "#14209"
+msgid "System settings"
+msgstr "Системске поставке"
 
 msgctxt "#14210"
 msgid "Profile settings"
@@ -5989,6 +6017,10 @@ msgctxt "#14235"
 msgid "Download Services"
 msgstr "Преузми сервисе"
 
+msgctxt "#14240"
+msgid "Lists & Views"
+msgstr "Листе & Прегледи"
+
 msgctxt "#14241"
 msgid "Metadata"
 msgstr "Мета подаци"
@@ -6024,6 +6056,26 @@ msgstr "Аудио DSP"
 msgctxt "#14252"
 msgid "Audio Passthrough"
 msgstr "Пролазни пренос звука"
+
+msgctxt "#14255"
+msgid "Sleep / Shutdown"
+msgstr "Спавање / Искључи"
+
+msgctxt "#14256"
+msgid "Wake"
+msgstr "Пробуди"
+
+msgctxt "#14271"
+msgid "Region default format"
+msgstr "Подразумевани регионални формат"
+
+msgctxt "#14276"
+msgid "Allow remote control from applications on this system"
+msgstr "Допусти даљинско управљање од стране апликација на овом систему"
+
+msgctxt "#14277"
+msgid "Allow remote control from applications on other systems"
+msgstr "Допусти даљинско управљање од стране апликација на другим системима"
 
 msgctxt "#14301"
 msgid "Channels"
@@ -6312,10 +6364,6 @@ msgstr "Уграђена маска"
 msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Предмеморисање..."
-
-msgctxt "#15108"
-msgid "GUI sounds"
-msgstr "GUI звукови"
 
 msgctxt "#15109"
 msgid "Skin default"
@@ -6913,6 +6961,10 @@ msgctxt "#19033"
 msgid "Information"
 msgstr "Подаци"
 
+msgctxt "#19034"
+msgid "There is already a timer set for this event"
+msgstr "Већ је подешен тајмер за овај догађај"
+
 msgctxt "#19035"
 msgid "%s couldn't be played. Check the log for more information about this message."
 msgstr "%s није могла да се репродукује. Проверите евиденцију за више информација о овој поруци."
@@ -7116,6 +7168,26 @@ msgstr "Први дан"
 msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "Непознати канал %u"
+
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "Акција моменталног снимања"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "Сними следећих %d минута"
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "Снимај актуелни приказ (%s)"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "Снимај следећи приказ (%s)"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "Моментално снимање: %s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -9665,10 +9737,6 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Комплет филмова"
 
-msgctxt "#20458"
-msgid "Group movies in sets"
-msgstr "Групиши филмове у комплете"
-
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Ознаке"
@@ -9712,10 +9780,6 @@ msgstr "Додај филм у нови комплет"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Задржи тренутни комплет (%s)"
-
-msgctxt "#20470"
-msgid "Use movie sets for single movies"
-msgstr "Користи комплете филмова за појединачне филмове"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -10256,6 +10320,10 @@ msgstr "Покрени"
 msgctxt "#21480"
 msgid "Use"
 msgstr "Користи"
+
+msgctxt "#21481"
+msgid "Audio track count"
+msgstr "Број аудио нумера"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -11333,6 +11401,10 @@ msgctxt "#24994"
 msgid "Running"
 msgstr "Ради"
 
+msgctxt "#24996"
+msgid "Manage dependencies"
+msgstr "Управљање зависностима"
+
 msgctxt "#24997"
 msgid "Look and feel"
 msgstr "Изглед и осећај"
@@ -11392,6 +11464,14 @@ msgstr "Поглавље %u"
 msgctxt "#25011"
 msgid "Commercial"
 msgstr "Комерцијално"
+
+msgctxt "#25012"
+msgid "Auto-skip off"
+msgstr "Ауто-прескакање искључено"
+
+msgctxt "#25013"
+msgid "Auto-skip on"
+msgstr "Ауто-прескакање укључено"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -11732,6 +11812,10 @@ msgstr "Композитори"
 msgctxt "#29990"
 msgid "Conductors"
 msgstr "Диригенти"
+
+msgctxt "#29992"
+msgid "Lyricists"
+msgstr "Текстописци"
 
 msgctxt "#29993"
 msgid "Orchestras"
@@ -12233,6 +12317,10 @@ msgctxt "#35003"
 msgid "Generic disk"
 msgstr "Општи диск"
 
+msgctxt "#35004"
+msgid "There are no settings available for this peripheral."
+msgstr "Нема доступних подешавања за ову периферију."
+
 msgctxt "#35005"
 msgid "New device configured"
 msgstr "Нови уређај је подешен"
@@ -12253,6 +12341,86 @@ msgctxt "#35009"
 msgid "Don't use the custom keymap for this device"
 msgstr "Не користити прилагођену мапу тастера за овај уређај"
 
+msgctxt "#35010"
+msgid "Peripheral libraries"
+msgstr "Библиотеке периферија"
+
+msgctxt "#35049"
+msgid "Game add-ons"
+msgstr "Додаци за игре"
+
+msgctxt "#35050"
+msgid "Controller profiles"
+msgstr "Профили контролера"
+
+msgctxt "#35058"
+msgid "Controller Configuration"
+msgstr "Подешавања контролера"
+
+msgctxt "#35059"
+msgid "Buttons"
+msgstr "Дугмад"
+
+msgctxt "#35060"
+msgid "Reset controller profile"
+msgstr "Поништи профил контролера"
+
+msgctxt "#35061"
+msgid "Would you like to reset this controller profile for all attached devices?"
+msgstr "Желите ли да поништите овај контролерски профил за све повезане уређаје?"
+
+msgctxt "#35062"
+msgid "All available controller profiles are installed."
+msgstr "Сви доступни профили контролера су инсталирани."
+
+msgctxt "#35063"
+msgid "Configure attached controllers"
+msgstr "Подешавање повезаних контролера"
+
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "Упарите ваше контролере са разним улазним уређајима за различите системе игара."
+
+msgctxt "#35090"
+msgid "Press %s"
+msgstr "Притисни %s"
+
+msgctxt "#35091"
+msgid "Press %s (%d)"
+msgstr "Притисни %s (%d)"
+
+msgctxt "#35092"
+msgid "Move %s up"
+msgstr "Помери %s горе"
+
+msgctxt "#35093"
+msgid "Move %s up (%d)"
+msgstr "Помери %s горе (%d)"
+
+msgctxt "#35094"
+msgid "Move %s down"
+msgstr "Помери %s доле"
+
+msgctxt "#35095"
+msgid "Move %s down (%d)"
+msgstr "Помери %s доле (%d) "
+
+msgctxt "#35096"
+msgid "Move %s right"
+msgstr "Помери %s десно"
+
+msgctxt "#35097"
+msgid "Move %s right (%d)"
+msgstr "Помери %s десно (%d)"
+
+msgctxt "#35098"
+msgid "Move %s left"
+msgstr "Помери %s лево"
+
+msgctxt "#35099"
+msgid "Move %s left (%d)"
+msgstr "Помери %s лево (%d)"
+
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
 msgstr "Омогући подршку за џојстик и гејмпед"
@@ -12260,6 +12428,18 @@ msgstr "Омогући подршку за џојстик и гејмпед"
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Онемогући џојстик када је овај уређај присутан"
+
+msgctxt "#35505"
+msgid "Server is unreachable."
+msgstr "Сервер је недоступан."
+
+msgctxt "#35506"
+msgid "Server does not respond properly."
+msgstr "Сервер није коректно оговорио."
+
+msgctxt "#35507"
+msgid "Server version is not compatible."
+msgstr "Верзија сервера није компатибилна."
 
 msgctxt "#35508"
 msgid "Access denied."
@@ -12429,6 +12609,10 @@ msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Користи ограничен опсег боја (16-235)"
 
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "Броја бафера које користи графички драјвер"
+
 msgctxt "#36044"
 msgid "Stop Playback"
 msgstr "Заустави Репродукцију"
@@ -12524,6 +12708,10 @@ msgstr "Одабрани аудио језик ће бити подразуме�
 msgctxt "#36120"
 msgid "Defaults to the selected subtitle language if more than one language is available."
 msgstr "Одабрани језик титлова ће бити подразумеван ако је доступно више од једног језика."
+
+msgctxt "#36121"
+msgid "This category contains the settings for how media lists are displayed."
+msgstr "Ова категорија садржи подешавања како ће листе медија бити приказане."
 
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
@@ -12688,6 +12876,10 @@ msgstr "Прикажи ТВ серије без епизода при разгл
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "Допусти да се учестаност освежавања екрана може променити тако да се најбоље поклопи са бројем слика видеа. Ово може допринети глађој репродукцији видеа."
+
+msgctxt "#36165"
+msgid "Delay of reset event after a change of refresh rate"
+msgstr "Одлагање ресета након промене освежавања"
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -13021,10 +13213,6 @@ msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Одељак који садржи подешавања у вези музичких датотека и како се према њима поступа."
 
-msgctxt "#36255"
-msgid "Determine if artists that appear only on compilations are shown in the library artist view."
-msgstr "Утврди да ли су извођачи који се појављују само на компилацијама приказани у библиотеци са приказом уметника."
-
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
 msgstr "Аутоматски преузми податке о албуму и извођачу од провајдера података при додавању песама у библиотеку."
@@ -13169,10 +13357,6 @@ msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Аутоматски избаци диск након завршеног риповања."
 
-msgctxt "#36301"
-msgid "No info available yet."
-msgstr "Подаци још нису доступни."
-
 msgctxt "#36302"
 msgid "No info available yet."
 msgstr "Подаци још нису доступни."
@@ -13221,6 +13405,10 @@ msgctxt "#36315"
 msgid "Section that contains weather related settings."
 msgstr "Одељак који садржи подешавања у вези временске прогнозе."
 
+msgctxt "#36316"
+msgid "This category contains the settings for how the weather service is handled."
+msgstr "Ова категорија садржи подешавања како ће се поступати према метео сервису."
+
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "Одаберите до три локације за које временска прогноза може бити приказана."
@@ -13228,6 +13416,10 @@ msgstr "Одаберите до три локације за које време
 msgctxt "#36318"
 msgid "Specify the default weather information source. See the add-ons manager for options."
 msgstr "Одаберите подразумевани извор података временске прогнозе. За опције видите менаџера додатних програма."
+
+msgctxt "#36319"
+msgid "Section containing settings for how services are handled."
+msgstr "Одељак који садржи подешавања како ће се поступати према сервисима."
 
 msgctxt "#36320"
 msgid "This category contains the settings used for all services."
@@ -13637,6 +13829,10 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Омогући хардверско видео декодирање користећи Amlogic декодер."
 
+msgctxt "#36423"
+msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "Правила тајмера ће снимити само нове епизоде. Није подржано од стране свих додатних програма и позадина."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
 msgstr "Одаберите шта ће се десити при одабиру ставке у водичу: [Приказати мени опција] Покренуће мени опција одакле можете изабрати даље акције; [Пребацити на канал] Моментално ће окренути одговарајући канал; [Приказати информације] Приказаће детаљне информације са описом и даљим опцијама; [Снимити] Направиће тајмер за снимање одабране ставке."
@@ -13704,6 +13900,10 @@ msgstr "Брисање свих подешавања DSP додатних про
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
 msgstr "Омогући аудио DSP обраду"
+
+msgctxt "#36442"
+msgid "Set the number of volume control steps."
+msgstr "Подесите број корака подешавања јачине звука."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -13889,6 +14089,10 @@ msgctxt "#36602"
 msgid "This category contains the settings for how the AirPlay service is handled."
 msgstr "Ова категорија садржи подешавања како ће се поступати према сервису AirPlay."
 
+msgctxt "#36603"
+msgid "This category contains the settings for displays."
+msgstr "Ова категорија садржи подешавања за дисплеје."
+
 msgctxt "#36605"
 msgid "Updates"
 msgstr "Ажурирања"
@@ -13897,13 +14101,41 @@ msgctxt "#36606"
 msgid "Install updates automatically"
 msgstr "Инсталирај ажурирања аутоматски"
 
+msgctxt "#36607"
+msgid "Notify, but don't install updates"
+msgstr "Обавести али немој да инсталираш ажурирања"
+
+msgctxt "#36608"
+msgid "Never check for updates"
+msgstr "Никад не проверавај за нове верзије"
+
 msgctxt "#36609"
 msgid "Show notifications"
 msgstr "Прикажи обавештења"
 
+msgctxt "#36610"
+msgid "This category contains settings for the add-on system."
+msgstr "Ова категорија садржи подешавања за систем додатака."
+
+msgctxt "#36612"
+msgid "Show notification when an add-on have been updated."
+msgstr "Прикажи обавештење након ажурирања додатка."
+
+msgctxt "#36614"
+msgid "Show add-ons that are currently running in the background."
+msgstr "Прикажи додатке који се тренутно извршавају у позадини."
+
 msgctxt "#36615"
 msgid "Unknown sources"
 msgstr "Непознати извори"
+
+msgctxt "#36616"
+msgid "Allow installation of add-ons from unknown sources."
+msgstr "Дозволи инсталацију додатака од непознатих извора."
+
+msgctxt "#36617"
+msgid "For security, installation of add-ons from unknown sources is disabled."
+msgstr "Ради безбедности,  инсталација додатака од непознатих извора је онемогућена."
 
 msgctxt "#36900"
 msgid "movie"
@@ -14185,9 +14417,21 @@ msgctxt "#38023"
 msgid "Set my rating"
 msgstr "Постави моју оцену"
 
+msgctxt "#38024"
+msgid "Information provider selection"
+msgstr "Избор добављача информација"
+
+msgctxt "#38025"
+msgid "Choose information provider"
+msgstr "Изабери добављача информација"
+
 msgctxt "#38026"
 msgid "Appearances"
 msgstr "Изгледи"
+
+msgctxt "#38031"
+msgid "Video stream"
+msgstr "Видео запис"
 
 msgctxt "#38032"
 msgid "Angle"
@@ -14200,6 +14444,10 @@ msgstr "Улога"
 msgctxt "#38034"
 msgid "Orchestra"
 msgstr "Оркестар"
+
+msgctxt "#38035"
+msgid "Lyricist"
+msgstr "Текстописац"
 
 msgctxt "#38037"
 msgid "Arranger"
@@ -14220,3 +14468,55 @@ msgstr "Миксер"
 msgctxt "#38042"
 msgid "[Missing]"
 msgstr "[Недостаје]"
+
+msgctxt "#38100"
+msgid "Section that contains the settings for the playback of media"
+msgstr "Секција која садржи подешавања за репродукцију медија"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for how media information is collected, stored, shown, and navigated"
+msgstr "Секција која садржи подешавања како се информације о медијима прикупљају, чувају, приказују и навигацију кроз њих"
+
+msgctxt "#38103"
+msgid "This category contains the settings for the playback of videos"
+msgstr "Ова категорија садржи подешавања за репродукцију видеа"
+
+msgctxt "#38104"
+msgid "This category contains the settings for the playback of music"
+msgstr "Ова категорија садржи подешавања за репродукцију музике"
+
+msgctxt "#38105"
+msgid "This category contains the settings for playback of pictures via a slideshow"
+msgstr "Ова категорија садржи подешавања за репродукцију слика као пројекцију слајдова"
+
+msgctxt "#38106"
+msgid "This category contains the settings for audio & subtitle language"
+msgstr "Ова категорија садржи подешавања за језик звука & титлова"
+
+msgctxt "#38107"
+msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
+msgstr "Ова категорија садржи подешавања како се информације о медијима прикупљају, чувају, приказују и навигацију кроз њих"
+
+msgctxt "#38108"
+msgid "This category contains the settings for how information for music is collected, stored, shown, and navigated"
+msgstr "Ова категорија садржи подешавања како се информације о музици прикупљају, чувају, приказују и навигацију кроз њих"
+
+msgctxt "#38109"
+msgid "This category contains the settings for how information for pictures is shown and navigated"
+msgstr "Ова категорија садржи подешавања како се информације о сликама прикупљају, чувају, приказују и навигацију кроз њих"
+
+msgctxt "#38110"
+msgid "This category contains the settings for the library databases"
+msgstr "Ова категорија садржи подешавања за базе података библиотеке"
+
+msgctxt "#39001"
+msgid "Accelerate MPEG2"
+msgstr "Убрзај MPEG2"
+
+msgctxt "#39002"
+msgid "Accelerate MPEG4"
+msgstr "Убрзај MPEG4"
+
+msgctxt "#39003"
+msgid "Accelerate h264"
+msgstr "Убрзај h264"

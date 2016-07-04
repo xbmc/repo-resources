@@ -1611,7 +1611,7 @@ msgstr "Eliminar película de la colección"
 
 msgctxt "#433"
 msgid "Would you really like to remove '%s' from library?"
-msgstr "Realmente desea eliminar '%s' de la biblioteca?"
+msgstr "¿Realmente desea eliminar '%s' de la colección?"
 
 msgctxt "#434"
 msgid "From %s at %i %s"
@@ -2463,11 +2463,11 @@ msgstr "Especificar el registro de componentes específicos..."
 
 msgctxt "#669"
 msgid "Verbose logging for the [B]SMB[/B] library"
-msgstr "Registro detallado para librería [B]SMB[/B]"
+msgstr "Registro detallado para la colección [B]SMB[/B]"
 
 msgctxt "#670"
 msgid "Verbose logging for the [B]libcURL[/B] library (HTTP(S), DAV)"
-msgstr "Registro detallado para librería [B]libcURL[/B] (HTTP(S), DAV)"
+msgstr "Registro detallado para la colección [B]libcURL[/B] (HTTP(S), DAV)"
 
 msgctxt "#672"
 msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
@@ -2487,7 +2487,7 @@ msgstr "Registro detallado para el módulo de [B]Audio[/B]"
 
 msgctxt "#677"
 msgid "Verbose logging for the [B]AirTunes[/B] library"
-msgstr "Registro detallado para librería [B]AirTunes[/B]"
+msgstr "Registro detallado para la colección [B]AirTunes[/B]"
 
 msgctxt "#678"
 msgid "Verbose logging for the [B]UPnP[/B] components"
@@ -2495,7 +2495,7 @@ msgstr "Registro detallado para el módulo de [B]UPnP[/B]"
 
 msgctxt "#679"
 msgid "Verbose logging for the [B]libCEC[/B] library"
-msgstr "Registro detallado para librería [B]libCEC[/B]"
+msgstr "Registro detallado para la colección [B]libCEC[/B]"
 
 msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
@@ -2839,7 +2839,7 @@ msgstr "Actualización de colección"
 
 msgctxt "#800"
 msgid "Music library needs to rescan tags from files. Would you like to scan now?"
-msgstr "La biblioteca de Música necesita volver a analizar las etiquetas de los archivos. ¿Quiere escanear ahora?"
+msgstr "La colección de Música necesita volver a analizar las etiquetas de los archivos. ¿Quiere escanear ahora?"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -2916,14 +2916,6 @@ msgstr "Una vez"
 msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Una vez (basado en la guía)"
-
-msgctxt "#822"
-msgid "Repeating"
-msgstr "Repitiendo"
-
-msgctxt "#823"
-msgid "Repeating (guide-based)"
-msgstr "Repitiendo (basado en al guía)"
 
 msgctxt "#828"
 msgid "Timer rule deleted"
@@ -5190,8 +5182,8 @@ msgid "Downloading"
 msgstr "Descargando"
 
 msgctxt "#13414"
-msgid "Include artists who appear only on compilations"
-msgstr "Incluir intérpretes que sólo aparecen en recopilaciones"
+msgid "Show song and album artists"
+msgstr "Mostrar artistas de la canción y del album"
 
 msgctxt "#13415"
 msgid "Render method"
@@ -6413,10 +6405,6 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Cargando..."
 
-msgctxt "#15108"
-msgid "GUI sounds"
-msgstr "Sonidos en Interfaz"
-
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Por defecto"
@@ -7220,6 +7208,38 @@ msgstr "Primer día"
 msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "Canal %u desconocido"
+
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "Acción de grabación inmediata"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "Grabar programa actual (si existen datos disponibles en la Guía)"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "Grabar un periodo fijo de tiempo (duración de la grabación inmediata)"
+
+msgctxt "#19089"
+msgid "Ask what to do"
+msgstr "Preguntar qué hacer"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "Grabar los siguientes %d minutos"
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "Grabar programa actual (%s)"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "Grabar el siguiente programa (%s)"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "Grabación inmediata: %s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -9631,7 +9651,7 @@ msgstr "Escritores"
 
 msgctxt "#20419"
 msgid "Replace file names with library titles"
-msgstr "Mostrar datos de media en el modo de Archivos"
+msgstr "Reemplazr los nombres de los archivos por los títulos de la colección"
 
 msgctxt "#20420"
 msgid "Never"
@@ -9781,10 +9801,6 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Saga de películas"
 
-msgctxt "#20458"
-msgid "Group movies in sets"
-msgstr "Agrupar películas en sagas"
-
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Etiquetas"
@@ -9828,10 +9844,6 @@ msgstr "Añadir película a una nueva saga"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Mantener saga actual (%s)"
-
-msgctxt "#20470"
-msgid "Use movie sets for single movies"
-msgstr "Usar sagas para películas individuales"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -9991,7 +10003,7 @@ msgstr "Habilitar barras de desplazamiento"
 
 msgctxt "#21384"
 msgid "Make watched filtering a toggle in video library"
-msgstr "Convertir el filtro mostrado en una opción de la colección de vídeo"
+msgstr "Convertir el filtro de Vistos en una opción en la colección de vídeo"
 
 msgctxt "#21385"
 msgid "Open"
@@ -11080,6 +11092,10 @@ msgstr "Leeme"
 msgctxt "#24053"
 msgid "License:"
 msgstr "Licencia:"
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "Novedades"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -12421,6 +12437,86 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Perfiles de Controladores"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Use el teclado o el mando a distancia para seleccionar un perfil de controlador. Cuando se le pida, presione el botón de su controlador que mejor encaje con lo que ve en pantalla. Si comete un error, puede repetir el proceso."
+
+msgctxt "#35056"
+msgid "Joystick support not found"
+msgstr "Soporte de joystick no encontrado"
+
+msgctxt "#35057"
+msgid "Controller configuration is disabled. Install the proper joystick support add-on."
+msgstr "La configuración del controlador está deshabilitada. Instale el addon correcto que soporte su joystick."
+
+msgctxt "#35058"
+msgid "Controller Configuration"
+msgstr "Configuración del Controlador"
+
+msgctxt "#35059"
+msgid "Buttons"
+msgstr "Botones"
+
+msgctxt "#35060"
+msgid "Reset controller profile"
+msgstr "Reiniciar perfil del controlador"
+
+msgctxt "#35061"
+msgid "Would you like to reset this controller profile for all attached devices?"
+msgstr "¿Le gustaría reiniciar el perfil del controlador de todos los dispositivos conectados?"
+
+msgctxt "#35062"
+msgid "All available controller profiles are installed."
+msgstr "Todos los perfiles de los controladores disponibles están instalados."
+
+msgctxt "#35063"
+msgid "Configure attached controllers"
+msgstr "Configurar los controladores conectados"
+
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "Empareja sus controladores con una variedad de dispositivos de entrada para diferentes sistemas de videojuegos."
+
+msgctxt "#35090"
+msgid "Press %s"
+msgstr "Presione %s"
+
+msgctxt "#35091"
+msgid "Press %s (%d)"
+msgstr "Presione %s (%d)"
+
+msgctxt "#35092"
+msgid "Move %s up"
+msgstr "Mueva %s arriba"
+
+msgctxt "#35093"
+msgid "Move %s up (%d)"
+msgstr "Mueva %s arriba (%d)"
+
+msgctxt "#35094"
+msgid "Move %s down"
+msgstr "Mueva %s abajo"
+
+msgctxt "#35095"
+msgid "Move %s down (%d)"
+msgstr "Mueva %s abajo (%d)"
+
+msgctxt "#35096"
+msgid "Move %s right"
+msgstr "Mueva %s a la derecha"
+
+msgctxt "#35097"
+msgid "Move %s right (%d)"
+msgstr "Mueva %s a la derecha (%d)"
+
+msgctxt "#35098"
+msgid "Move %s left"
+msgstr "Mueva %s a la izquierda"
+
+msgctxt "#35099"
+msgid "Move %s left (%d)"
+msgstr "Mueva %s a la izquierda (%d)"
+
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
 msgstr "Activar joystick y mando de juegos"
@@ -12428,6 +12524,26 @@ msgstr "Activar joystick y mando de juegos"
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Deshabilitar joystick cuando el dispositivo esté presente"
+
+msgctxt "#35505"
+msgid "Server is unreachable."
+msgstr "No se puede conectar al servidor"
+
+msgctxt "#35506"
+msgid "Server does not respond properly."
+msgstr "El servidor no responde de forma apropiada"
+
+msgctxt "#35507"
+msgid "Server version is not compatible."
+msgstr "La versión del servidor no es compatible"
+
+msgctxt "#35508"
+msgid "Access denied."
+msgstr "Acceso denegado"
+
+msgctxt "#35509"
+msgid "Connecting to backend."
+msgstr "Conectando al backend"
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -12557,6 +12673,10 @@ msgctxt "#36033"
 msgid "Action when switching to another source"
 msgstr "Acción cuando cambia a otra fuente"
 
+msgctxt "#36034"
+msgid "Connection established"
+msgstr "Conexión establecida"
+
 msgctxt "#36035"
 msgid "Always"
 msgstr "Siempre"
@@ -12589,6 +12709,10 @@ msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Usar rango de color limitado (16-235)"
 
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "Número de buffers utilizado por la tarjeta gráfica"
+
 msgctxt "#36044"
 msgid "Stop Playback"
 msgstr "Parar reproducción"
@@ -12596,6 +12720,14 @@ msgstr "Parar reproducción"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "Pausar reproducción"
+
+msgctxt "#36099"
+msgid "Dithering"
+msgstr "Tramado"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "Profundidad de tramado"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12677,6 +12809,10 @@ msgctxt "#36120"
 msgid "Defaults to the selected subtitle language if more than one language is available."
 msgstr "Se tomará la lengua por omisión si más de una pista de subtítulos está disponible."
 
+msgctxt "#36121"
+msgid "This category contains the settings for how media lists are displayed."
+msgstr "Esta categoría contiene los ajustes sobre cómo las listas de medios serán mostradas."
+
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
 msgstr "Mostrar el ítem (..) en listados para llegar al directorio superior."
@@ -12747,7 +12883,7 @@ msgstr "Sección que contiene la configuración relacionada con los vídeos y la
 
 msgctxt "#36139"
 msgid "This category contains the settings for how the video library is handled."
-msgstr "Esta categoría contiene las opciones para la administración de la librería de vídeos."
+msgstr "Esta categoría contiene las opciones para la administración de la colección de vídeos."
 
 msgctxt "#36140"
 msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
@@ -12755,7 +12891,7 @@ msgstr "Qué unidad de temperatura se usará para mostrar temperaturas en el int
 
 msgctxt "#36141"
 msgid "Show plot information for unwatched media in the video library."
-msgstr "Muestra el argumento para los elementos no vistos de la videoteca."
+msgstr "Muestra el argumento para los elementos no vistos de la colección de vídeos."
 
 msgctxt "#36142"
 msgid "Choose which speed unit is used for displaying speeds in the user interface."
@@ -12763,7 +12899,7 @@ msgstr "Qué unidad de velocidad se usará para mostrar velocidades en el interf
 
 msgctxt "#36143"
 msgid "Downloads thumbnails for actors from online databases when adding media to the library."
-msgstr "Descargar miniaturas de los actores desde una base de datos en linea cuando se agregan medios a la libreria."
+msgstr "Descargar miniaturas de los actores desde una base de datos en linea cuando se agreguen medios a la colección."
 
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
@@ -12779,19 +12915,19 @@ msgstr "Comprobar si exiten archivos nuevos en la colección al arrancar."
 
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
-msgstr "Ocultar la barra de progreso del análisis de la biblioteca."
+msgstr "Ocultar la barra de progreso del análisis de la colección mientras se escanea."
 
 msgctxt "#36148"
 msgid "Remove items from your library that can't be found (either renamed, deleted, or on removable storage that is currently unplugged)."
-msgstr "Eliminar ítems de tu biblioteca que no se encuentren (renombrados, borrados o que estén en un dispositivo de almacenamiento portátil que esté desconectado)."
+msgstr "Eliminar elementos de tu colección que no se encuentren (renombrados, borrados o que estén en un dispositivo de almacenamiento portátil que esté desconectado)."
 
 msgctxt "#36149"
 msgid "Export the video library database to XML files. This will optionally overwrite your current XML files."
-msgstr "Exportar la base de datos de la vídeoteca a archivos XML. Esto sobrescribirá opcionalmente tus archivos XML actuales."
+msgstr "Exportar la base de datos de la colección de vídeos a archivos XML. Esto sobrescribirá opcionalmente tus archivos XML actuales."
 
 msgctxt "#36150"
 msgid "Import a XML file into the video library database."
-msgstr "Importar un archivo XML a la base de datos de la vídeoteca"
+msgstr "Importar un archivo XML a la base de datos de la colección de vídeos."
 
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
@@ -12804,6 +12940,10 @@ msgstr "Habilita la reproducción automática del siguiente fichero en la lista.
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Ajusta el método usado para procesar y mostrar video."
+
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "Usa escaladores de alta calidad cuando reescala un video por, al menos, este porcentaje. Un valor por debajo del 5% tiene poco sentido en tanto que el video se procesará con mucha carga de GPU sin que se producan mejoras perceptibles en la calidad de la imagen."
 
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
@@ -12825,6 +12965,10 @@ msgctxt "#36159"
 msgid "Enable CrystalHD decoding of video files."
 msgstr "Habilitar la decodificación CrystalHD para archivos de vídeo."
 
+msgctxt "#36160"
+msgid "Enable VTB hardware decoding of video files."
+msgstr "Habilitar decodificación VTB por hardware de archivos de vídeo."
+
 msgctxt "#36161"
 msgid "Enable OpenMax hardware decoding of video files."
 msgstr "Habilitar OpenMax decodificación por hardware de archivos de vídeo."
@@ -12840,6 +12984,14 @@ msgstr "Muestras las series de TV que no contienen episodios cuando navega por l
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "Permitir cambiar la frecuencia de refresco de pantalla al modo que mejor se adapte a la velocidad de fotogramas de vídeo. Esto puede producir una reproducción de vídeo más suave."
+
+msgctxt "#36165"
+msgid "Delay of reset event after a change of refresh rate"
+msgstr "Tiempo de espera del evento de reseteado tras un cambio en la tasa de refresco"
+
+msgctxt "#36166"
+msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgstr "Sincroniza el audio y el video a la tasa de refresco del monitor. VideoPlayer no utilizará el passthrough de audio porque se requiere de un resampleado."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -12887,7 +13039,7 @@ msgstr "Extraer miniaturas es información, como codecs y relación de aspecto d
 
 msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
-msgstr "Cuando un fichero sea escaneado para la Colección, mostrará el título contenido en los metadatos en lugar del nombre de archivo."
+msgstr "Cuando un fichero sea escaneado para la colección, mostrará el título contenido en los metadatos en lugar del nombre de archivo."
 
 msgctxt "#36180"
 msgid "Extract thumbnails and information, such as codecs and aspect ratio, to display in library mode."
@@ -12899,11 +13051,11 @@ msgstr "No hay información disponible."
 
 msgctxt "#36182"
 msgid "Combines multi-part video files, DVD folders or movie folders, down to a single item in non-library views."
-msgstr "Combina los archivos de varias partes de video, carpetas de DVD y carpetas de películas a un solo elemento en las vistas que no son de la biblioteca."
+msgstr "Combina los archivos de varias partes de vídeo, carpetas de DVD y carpetas de películas a un solo elemento en las vistas que no son de la colección."
 
 msgctxt "#36183"
 msgid "Removes the title, genre, etc. nodes from the library view. Selecting a category takes you straight to the title view."
-msgstr "Borra información el título, género, etc de la vista de libreria. Seleccionar una categoría te lleva directamente a la vista de título."
+msgstr "Borra información el título, género, etc de la vista de la colección. Seleccionar una categoría te lleva directamente a la vista de título."
 
 msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
@@ -12940,6 +13092,10 @@ msgstr "Establece un directorio personalizado para los subtítulos. Puede ser un
 msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "Posición de los subtítulos en la pantalla."
+
+msgctxt "#36193"
+msgid "This category contains the settings for how DVD's, Blu-ray, & CD's are handled."
+msgstr "Esta categoría contiene los ajustes correspondientes a la gestión de Dvd, Blu-ray y CD."
 
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
@@ -13097,6 +13253,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Esta categoría contiene los ajustes de tiempo de grabación predeterminado."
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "Duración de la grabación inmediata cuando presiona el botón Grabar. Este valor se utilizará si la \"acción de grabación inmediata\" está configurada como \"Grabar un periodo fijo de tiempo\""
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "Prioridad de la grabación. Un número más alto significa una mayor prioridad. No es compatible con todos los add-ons y backends."
@@ -13173,13 +13333,17 @@ msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Sección que contiene la configuración relacionada con los archivos de música y la forma en que se manejan."
 
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "Acción a realizar cuando presione el botón Grabar. [Grabar programa actual] grabará el programa actual desde el momento actual hasta el fin del programa. Si no hay datos disponibles en la Guía, se grabará el tiempo de duración indicado en \"Duración de la grabación inmediata\". [Grabar un periodo fijo de tiempo] grabará desde el momento que se activa esta opción hasta el tiempo de duración indicado en \"Duración de la grabación inmediata\". [Preguntar qué hacer] abrirá una ventana con las diferentes opciones para elegir, como \"Grabar programa actual\", \"Grabar el siguiente programa\" y algunas duraciones fijas de grabación."
+
 msgctxt "#36255"
-msgid "Determine if artists that appear only on compilations are shown in the library artist view."
-msgstr "Determina si quiere mostrar los intérpretes que sólo aparecen en recopilaciones en la vista de intérpretes de la colección."
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Si se habilita, se muestran tanto el artista del album como de la canción. Si se deshabilita, sólo se mostrarán los artistas del album y los artistas que sólo aparecen en canciones individuales se excluyen. "
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
-msgstr "Obtener información sobre álbumes y artistas de los proveedores de información cuando se añadan canciones a la biblioteca."
+msgstr "Obtener información sobre álbumes y artistas de los proveedores de información cuando se añadan canciones a la colección."
 
 msgctxt "#36257"
 msgid "Select the default album information provider."
@@ -13203,11 +13367,11 @@ msgstr "Si está activo este ratio de frames se utiliza para canales donde no se
 
 msgctxt "#36262"
 msgid "Export the music library database to XML files. This will optionally overwrite your current XML files."
-msgstr "Exportar la base de datos de la fonoteca a archivos XML. Esto sobrescribirá opcionalmente tus archivos XML actuales."
+msgstr "Exportar la base de datos de la colección de música a archivos XML. Esto sobrescribirá opcionalmente tus archivos XML actuales."
 
 msgctxt "#36263"
 msgid "Import a XML file into the music library database."
-msgstr "Importar un archivo XML a la base de datos de la fonoteca."
+msgstr "Importar un archivo XML a la base de datos de la colección de música."
 
 msgctxt "#36264"
 msgid "This category contains the settings for how music playback is handled."
@@ -13271,11 +13435,11 @@ msgstr "Usado para dar formato a la segunda columna en la lista  \"Reproduciendo
 
 msgctxt "#36279"
 msgid "Control the way that the names of songs are displayed in library lists."
-msgstr "Controla la forma en que se muestran los nombres de las canciones en las listas de la biblioteca."
+msgstr "Controla la forma en que se muestran los nombres de las canciones en las listas de la colección."
 
 msgctxt "#36280"
 msgid "Used for formatting the second column in library lists."
-msgstr "Se utiliza para dar formato a la segunda columna de las listas de la biblioteca."
+msgstr "Se utiliza para dar formato a la segunda columna de las listas de la colección."
 
 msgctxt "#36281"
 msgid "Search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
@@ -13320,10 +13484,6 @@ msgstr "Definir el nivel de compresión para FLAC, por defecto 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Expulsar disco cuando el ripeo se complete"
-
-msgctxt "#36301"
-msgid "No info available yet."
-msgstr "No hay información disponible."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -13373,6 +13533,10 @@ msgctxt "#36315"
 msgid "Section that contains weather related settings."
 msgstr "Sección que contiene la configuración relacionada con el clima."
 
+msgctxt "#36316"
+msgid "This category contains the settings for how the weather service is handled."
+msgstr "Esta categoría contiene la configuración de cómo se maneja el servicio de meteorología."
+
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "Seleccionar hasta tres localizaciones en las que se puede mostrar el tiempo."
@@ -13380,6 +13544,10 @@ msgstr "Seleccionar hasta tres localizaciones en las que se puede mostrar el tie
 msgctxt "#36318"
 msgid "Specify the default weather information source. See the add-ons manager for options."
 msgstr "Selecciona la fuente de información meteorológica. Vea el gestor de add-ons para las opciones."
+
+msgctxt "#36319"
+msgid "Section containing settings for how services are handled."
+msgstr "Esta sección contiene los ajustes de cómo se manejan los servicios."
 
 msgctxt "#36320"
 msgid "This category contains the settings used for all services."
@@ -13399,7 +13567,7 @@ msgstr "Activa el servidor UPnP. Esto permite transmitir vídeos y música de la
 
 msgctxt "#36324"
 msgid "When a manual or automatic library update occurs, notify UPnP clients."
-msgstr "Cuando se actualice la biblioteca, notificar a los clientes UPnP."
+msgstr "Cuando se actualice la colección, notificar a los clientes UPnP."
 
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
@@ -13789,6 +13957,10 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Activar la decodificación de vídeo por hardware utilizando decodificador Amlogic."
 
+msgctxt "#36423"
+msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "Los temporizadores sólo grabarán nuevos episodios. Esta opción no está disponible para todos los addons y backends."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
 msgstr "Seleccionar qué pasará  cuando un elemento se selecciona en la guía: [Show context menu] Activará el menú de contexto donde se podrán elegir acciones; [Switch to channel] Cambiará instantáneamente al canal relacionado; [Show information] Mostrará la información detallada con argumento y opciones adicionales; [Record] Creará un temporizador para grabar el elemento seleccionado."
@@ -13833,6 +14005,10 @@ msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
 msgstr "Permitir aceleración por hardware - MMAL"
 
+msgctxt "#36435"
+msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
+msgstr "Usar VideoPlayer para decodificar archivos de vídeo con aceleración MMAL."
+
 msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "Gestor de audio DSP..."
@@ -13845,6 +14021,10 @@ msgctxt "#36438"
 msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
 msgstr "Habilitar el procesamiento de señal digital (DSP) de los canales de audio especificados para la configuración de los altavoces."
 
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
+msgstr "Todos los datos (ajustes del add-on y ajustes de audio DSP) en la base de datos de audio DSP serán borrados."
+
 msgctxt "#36440"
 msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
 msgstr "Borrando todos los add-ons DSP y los ajustes del gestor de audio DSP en la base de datos de audio DSP."
@@ -13852,6 +14032,10 @@ msgstr "Borrando todos los add-ons DSP y los ajustes del gestor de audio DSP en 
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
 msgstr "Habilitar el procesamiento de audio DSP"
+
+msgctxt "#36442"
+msgid "Set the number of volume control steps."
+msgstr "Establece el número de pasos de control de volumen"
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -14025,9 +14209,21 @@ msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
 msgstr "Define la fuerza del efecto estereoscopio 3d en el interfaz. Se realiza controlando la profundidad de percepción en la interfaz; cuanto más alto es el valor, más elementos se destacarán en pantalla. [Cero] Deshabita el efecto estereoscopio 3D del interfaz. [CR] Para un buena experiencia visual, el valor debería ser más alto para pantallas pequeñas y más bajo para pantallas grandes. Nota: no funciona en todos los skins. "
 
+msgctxt "#36552"
+msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
+msgstr "Define el número de buffers de presentación usados por la tarjeta gráfica. Seleccione 2 si la tarjeta usa doble buffering ó 3 para triple buffering."
+
+msgctxt "#36598"
+msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
+msgstr "Elimina el banding causado por la conversión de niveles RGB u otros procesos, añadiendo una pequeña cantidad de ruido a la imagen. Puede deshabilitarse en sistemas lentos, o cuando Kodi se ajusta con una salida RGB de rango limitado y no se necesita ningún procesamiento de video."
+
+msgctxt "#36599"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "Precisión en bits del tramado o \"dithering\" en la salida de vídeo. Use el valor más alto que no provoque banding. El valor por defecto, 8, es el recomendado para la mayoría de sistemas. Si su GPU está configurada para escalar la salida de niveles RGB o usa un ordenador portatil, un 6 o un 7 podría eliminar más banding. Los valores más bajos están disponibles sólo para hacer pruebas y poder ver fácilmente si se aplica tramado y dicho tramado encaja con la resolución de la pantalla."
+
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
-msgstr "Esta categoría contiene las opciones para la administración de la fonoteca."
+msgstr "Esta categoría contiene las opciones para la administración de la colección de música."
 
 msgctxt "#36601"
 msgid "This category contains the settings for how music file lists are handled."
@@ -14037,9 +14233,65 @@ msgctxt "#36602"
 msgid "This category contains the settings for how the AirPlay service is handled."
 msgstr "Esta categoría contiene la configuración de cómo se maneja el servicio AirPlay."
 
+msgctxt "#36603"
+msgid "This category contains the settings for displays."
+msgstr "Esta categoría contiene los ajustes para configurar las pantallas."
+
 msgctxt "#36605"
 msgid "Updates"
 msgstr "Actualizaciones"
+
+msgctxt "#36606"
+msgid "Install updates automatically"
+msgstr "Instalar actualizaciones automáticamente"
+
+msgctxt "#36607"
+msgid "Notify, but don't install updates"
+msgstr "Notificar, pero no instalar actualizaciones"
+
+msgctxt "#36608"
+msgid "Never check for updates"
+msgstr "No buscar actualizaciones nunca"
+
+msgctxt "#36609"
+msgid "Show notifications"
+msgstr "Mostrar notificaciones"
+
+msgctxt "#36610"
+msgid "This category contains settings for the add-on system."
+msgstr "Esta categoría contiene los ajustes para el sistema de addons"
+
+msgctxt "#36611"
+msgid "Change how auto updating of add-ons are handled."
+msgstr "Cambia la gestión de la actualización automática de los addons."
+
+msgctxt "#36612"
+msgid "Show notification when an add-on have been updated."
+msgstr "Muestra una notificación cuando se actualiza un addon."
+
+msgctxt "#36613"
+msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
+msgstr "Gestiona los módulos y las librerías de soporte que se han instalado automáticamente como una dependencia de otros addons. Los elementos indicados como \"Huérfanos\" no se usan más por ningún addon y puedes desinstalarse de forma segura."
+
+msgctxt "#36614"
+msgid "Show add-ons that are currently running in the background."
+msgstr "Muestra los addons en ejecución en segundo plano."
+
+msgctxt "#36615"
+msgid "Unknown sources"
+msgstr "Fuentes desconocidas"
+
+msgctxt "#36616"
+msgid "Allow installation of add-ons from unknown sources."
+msgstr "Permite la instalación de addons de fuentes desconocidas."
+
+msgctxt "#36617"
+msgid "For security, installation of add-ons from unknown sources is disabled."
+msgstr "Por seguridad, la instalación de addons de fuentes desconocidas está deshabilitada."
+
+msgctxt "#36618"
+msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
+msgstr "Los addons tendrán acceso a información personal almacenada en este dispositivo. Activando esta opción, está de acuerdo en que es el único responsable de posibles pérdidas de datos, comportamientos no deseados y daños en su dispositivo. ¿Procedo?"
 
 msgctxt "#36900"
 msgid "movie"
@@ -14320,3 +14572,143 @@ msgstr "Sin calificación"
 msgctxt "#38023"
 msgid "Set my rating"
 msgstr "Establecer mi calificación"
+
+msgctxt "#38024"
+msgid "Information provider selection"
+msgstr "Selección del proveedor de información"
+
+msgctxt "#38025"
+msgid "Choose information provider"
+msgstr "Elegir proveedor de información"
+
+msgctxt "#38026"
+msgid "Appearances"
+msgstr "Apariencias"
+
+msgctxt "#38027"
+msgid "Decode the stereo stream from 3D files"
+msgstr "Decodifica el canal estereo en archivos 3D"
+
+msgctxt "#38028"
+msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
+msgstr "Si se habilita, los vídeos creados con el formato Multiview Video Coding (MVC) pueden visualizarse también en 3D estereoscópico. El formato MVC suele encontrarse en Blu-rays 3D. [CR]Nota: El procesamiento de estos datos puede empeorar el rendimiento de la reproducción, por lo que debería habilitarlo sólo si requiere de soporte esteroscópico 3D. "
+
+msgctxt "#38029"
+msgid "Enable Full HD HDMI modes for stereoscopic 3D"
+msgstr "Habilita los modos Full HD HDMI para 3D estereoscópico"
+
+msgctxt "#38030"
+msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
+msgstr "Esta opción utiliza frame-packing para reproducir 3D Full HD a través de HDMI. Al habilitarla, mejora la calidad en los vídeos Multiview Video Coding (MVC) pero no funciona en todas las pantallas."
+
+msgctxt "#38031"
+msgid "Video stream"
+msgstr "Canal de vídeo"
+
+msgctxt "#38032"
+msgid "Angle"
+msgstr "Ángulo"
+
+msgctxt "#38033"
+msgid "Role"
+msgstr "Rol"
+
+msgctxt "#38034"
+msgid "Orchestra"
+msgstr "Orquesta"
+
+msgctxt "#38035"
+msgid "Lyricist"
+msgstr "Letrista"
+
+msgctxt "#38036"
+msgid "Remixer"
+msgstr "Remezclador"
+
+msgctxt "#38037"
+msgid "Arranger"
+msgstr "Arreglista"
+
+msgctxt "#38038"
+msgid "Engineer"
+msgstr "Ingeniero"
+
+msgctxt "#38039"
+msgid "Producer"
+msgstr "Productor"
+
+msgctxt "#38040"
+msgid "DJMixer"
+msgstr "Mezclador DJ"
+
+msgctxt "#38041"
+msgid "Mixer"
+msgstr "Mezclador"
+
+msgctxt "#38042"
+msgid "[Missing]"
+msgstr "[Desconocido]"
+
+msgctxt "#38100"
+msgid "Section that contains the settings for the playback of media"
+msgstr "Sección que contiene los ajustes para la reproducción de medios"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for how media information is collected, stored, shown, and navigated"
+msgstr "Sección que contiene los ajustes de cómo se captura, almacena, muestra y navega la información de medios"
+
+msgctxt "#38102"
+msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
+msgstr "Sección que contiene los ajustes que influyen en la experiencia de usuario con la interfaz y el control del sistema/GUI."
+
+msgctxt "#38103"
+msgid "This category contains the settings for the playback of videos"
+msgstr "Esta categoría contiene los ajustes para la reproducción de vídeos"
+
+msgctxt "#38104"
+msgid "This category contains the settings for the playback of music"
+msgstr "Esta categoría contiene los ajustes para la reproducción de música"
+
+msgctxt "#38105"
+msgid "This category contains the settings for playback of pictures via a slideshow"
+msgstr "Esta categoría contiene los ajustes para la reproducción de imágenes mediante diapositivas"
+
+msgctxt "#38106"
+msgid "This category contains the settings for audio & subtitle language"
+msgstr "Esta categoría contiene los ajustes de idioma para el audio y los subtítulos"
+
+msgctxt "#38107"
+msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
+msgstr "Esta categoría contiene los ajustes de cómo se captura, almacena, muestra y navega por la información de los vídeos"
+
+msgctxt "#38108"
+msgid "This category contains the settings for how information for music is collected, stored, shown, and navigated"
+msgstr "Esta categoría contiene los ajustes de cómo se captura, almacena, muestra y navega por la información de la música"
+
+msgctxt "#38109"
+msgid "This category contains the settings for how information for pictures is shown and navigated"
+msgstr "Esta categoría contiene los ajustes de cómo se captura, almacena, muestra y navega por la información de las imágenes"
+
+msgctxt "#38110"
+msgid "This category contains the settings for the library databases"
+msgstr "Esta categoría contiene los ajustes para las bases de datos de las colecciones"
+
+msgctxt "#38111"
+msgid "This category contains other settings for the GUI interface"
+msgstr "Esta categoría contiene otros ajustes para la interfaz GUI"
+
+msgctxt "#39000"
+msgid "HD and up"
+msgstr "HD y superior"
+
+msgctxt "#39001"
+msgid "Accelerate MPEG2"
+msgstr "Acelerar MPEG2"
+
+msgctxt "#39002"
+msgid "Accelerate MPEG4"
+msgstr "Acelerar MPEG4"
+
+msgctxt "#39003"
+msgid "Accelerate h264"
+msgstr "Acelerar h264"

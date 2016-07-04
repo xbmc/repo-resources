@@ -2917,14 +2917,6 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Una volta (basato su Guida)"
 
-msgctxt "#822"
-msgid "Repeating"
-msgstr "Ripetizione"
-
-msgctxt "#823"
-msgid "Repeating (guide-based)"
-msgstr "Ripetizione (basato su Guida)"
-
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Regola Timer cancellata"
@@ -5190,8 +5182,8 @@ msgid "Downloading"
 msgstr "Download in corso"
 
 msgctxt "#13414"
-msgid "Include artists who appear only on compilations"
-msgstr "Includi Artisti presenti solo nelle Compilation"
+msgid "Show song and album artists"
+msgstr "Mostra Artista Canzone e Artista Album"
 
 msgctxt "#13415"
 msgid "Render method"
@@ -6413,10 +6405,6 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Buffering..."
 
-msgctxt "#15108"
-msgid "GUI sounds"
-msgstr "Suoni GUI"
-
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Predefinito Skin"
@@ -7220,6 +7208,38 @@ msgstr "Primo giorno"
 msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "Canale sconosciuto %u"
+
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "Azione registazione istantanea"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "Registra programma attuale (se disponibili dati guida)"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "Registra per un tempo prefissato (Durata registrazione istantanea)"
+
+msgctxt "#19089"
+msgid "Ask what to do"
+msgstr "Chiedi cosa fare"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "Registra i prossimi %d minuti"
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "Registra programma attuale (%s)"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "Registra prossimo programma (%s)"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "Registrazione istantanea: %s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -9781,10 +9801,6 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Raccolta di Film"
 
-msgctxt "#20458"
-msgid "Group movies in sets"
-msgstr "Raggruppa Film in Raccolte"
-
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Tag"
@@ -9828,10 +9844,6 @@ msgstr "Aggiungi filmato alla nuova Raccolta"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Mantieni Raccolta attuale (%s)"
-
-msgctxt "#20470"
-msgid "Use movie sets for single movies"
-msgstr "Usa Raccolte Film per Film singoli"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -11080,6 +11092,10 @@ msgstr "Informazioni"
 msgctxt "#24053"
 msgid "License:"
 msgstr "Licenza:"
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "Cosa c'è di nuovo"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -12421,6 +12437,10 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Profili Controller"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Usa la tastiera o il telecomando per selezionare un profilo Controller. Quando richiesto, premi il tasto sul tuo Controller di gioco che corrisponde meglio a ciò che vedi sullo schermo. Se fai un errore puoi ripetere il processo."
+
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Nessun supporto Joystick trovato"
@@ -12921,6 +12941,10 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Configura il metodo usato per elaborare e visualizzare i video."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "Usa filtri di alta qualità quando ingrandisci un video di almeno questa percentuale. Un valore inferiore al 5% ha poco senso poiché il video è processato con alto carico della GPU senza alcun miglioramento visibile della qualità dell'immagine."
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Abilita il decoding hardware VDPAU dei file video, usato principalmente nelle schede grafiche NVIDIA e in qualche circostanza nelle AMD."
@@ -13229,6 +13253,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Categoria contenente le impostazioni della durata predefinita delle Registrazioni."
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "Durata delle registrazioni istantanee quando premi il pulsante registra. Questo valore può essere preso in considerazione se \"Azione registrazione istantanea\" è impostata su \"Registra per un periodo di tempo fissato\""
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "Priorità della registrazione. Un numero maggiore significa priorità più alta. Non supportato da tutti gli Add-on e backend."
@@ -13305,9 +13333,13 @@ msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Sezione contenente impostazioni relative ai file musicali e a come sono gestiti."
 
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "Azione da eseguire quando premi il pulsante registra. [Registra programma attuale] registrerà il programma attuale da \"ora\" fino alla fine del programma. Se nessun dato della Guida TV è attualmente disponibile, sarà programmata una registrazione di durata fissa a partire da \"ora\" con il valore impostato per \"Durata registrazione istantanea\". [Registra per un tempo prefissato] programmerà una registrazione di durata fissa a partire da \"ora\" con il valore impostato per \"Durata registrazione istantanea\".  [Chiedi cosa fare] aprirà una finestra di dialogo contenente diverse azioni di registrazione fra cui scegliere, come \"Registra programma attuale\". \"Registra prossimo programma\" e alcune registrazioni a durata fissa."
+
 msgctxt "#36255"
-msgid "Determine if artists that appear only on compilations are shown in the library artist view."
-msgstr "Determina se gli artisti che compaiono solo su compilation vengono mostrati nella vista libreria artisti"
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Quando abilitato, verranno mostrati entrambi gli artisti della canzone e dell'album. Quando disattivato, solo gli artisti degli album verranno visualizzati mentre gli artisti che appaiono solo sui singoli brani di un album saranno esclusi."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13452,10 +13484,6 @@ msgstr "Definisce il livello di compressione per il formato FLAC. Il valore pred
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Rimuovi il disco automaticamente  appena il rip è stato completato."
-
-msgctxt "#36301"
-msgid "No info available yet."
-msgstr "Nessuna informazione disponibile."
 
 msgctxt "#36302"
 msgid "No info available yet."

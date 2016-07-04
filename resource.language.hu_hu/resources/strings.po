@@ -2917,14 +2917,6 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Egyszeri (műsorújság alapján)"
 
-msgctxt "#822"
-msgid "Repeating"
-msgstr "Ismétlődő"
-
-msgctxt "#823"
-msgid "Repeating (guide-based)"
-msgstr "Ismétlődő (műsorújság alapján)"
-
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Időzitő szabály törlése"
@@ -5190,8 +5182,8 @@ msgid "Downloading"
 msgstr "Letöltés folyamatban"
 
 msgctxt "#13414"
-msgid "Include artists who appear only on compilations"
-msgstr "Válogatáslemezen lévők szerepeltetése az előadólistán"
+msgid "Show song and album artists"
+msgstr "Dal előadó és album előadó mutatása"
 
 msgctxt "#13415"
 msgid "Render method"
@@ -6413,10 +6405,6 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Előtöltés..."
 
-msgctxt "#15108"
-msgid "GUI sounds"
-msgstr "Felület hangok"
-
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Felszín alapértelmezése"
@@ -7220,6 +7208,38 @@ msgstr "Első nap"
 msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "Ismeretlen csatorna %u"
+
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "Azonnali felvételleli lehetőségek"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "Aktuális sorozatrész rögzítése (ha a műsorújság adatok elérhetőek)"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "Rögzítés megadott ideig (Azonnali felvétel hossza)"
+
+msgctxt "#19089"
+msgid "Ask what to do"
+msgstr "Kérdezzen rá a műveletre"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "A következő %d perc rögzítése"
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "Az aktuális sorozatrész rögzítése (%s)"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "A következő sorozatrész rögzítése (%s)"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "Azonnali rögzítés: %s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -9781,10 +9801,6 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Filmgyűjtemény"
 
-msgctxt "#20458"
-msgid "Group movies in sets"
-msgstr "Filmek csoportosítása gyűjteményekbe"
-
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Címkék"
@@ -9828,10 +9844,6 @@ msgstr "Film hozzáadása egy új gyűjteményhez"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Jelenlegi gyűjtemény megtartása (%s)"
-
-msgctxt "#20470"
-msgid "Use movie sets for single movies"
-msgstr "Filmgyűjtemények használata az egyedülálló filmekhez is"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -11080,6 +11092,10 @@ msgstr "Jogi nyilatokozat"
 msgctxt "#24053"
 msgid "License:"
 msgstr "Licenc:"
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "Újdonságok:"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -12421,6 +12437,10 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Játékvezérlő profilok"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Használja a billentyűzetet vagy a távirányítót a játékvezérlő profil kiválasztásához. Amikor megjelenik, nyomja meg azt a gombot a játékvezérlőn, amely a legjobban hasonlít ahhoz, amit lát a képernyőn. Ha hibát vét, akkor megismételheti a folyamatot."
+
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Joystick támogatás nem található"
@@ -12921,6 +12941,10 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "A videó feldolgozásához és megjelenítéséhez használt módszer beállítása."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "Csak akkor használjon magas minőségű videó felbontás konvertálást (upscaling) ha a megadott százaléknál nagyobb ez eltérés. 5% alatti méretkülönbségnél a képminőségjavulás nem érzékelhető miközben magas CPU terheléssel jár."
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "VDPAU hardveres videó dekódolás engedélyezése. Főleg NVIDIA grafikai megjelentők támogatják, de adott esetben AMD gyártásúak is."
@@ -13229,6 +13253,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Ez a kategória tartalmazza az alapértelmezett felvételi időtartam beállításokat."
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "Az azonnali felvétel ideje a felvétel gomb megnyomásakor. Ez az érték az \"Azonnali felvételi lehetőségek\" szekció alatti \"Rögzítés megadott ideig\" beállítás esetén érvényes."
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "A felvétel prioritása. A nagyobb érték nagyobb prioritást jelent. Nem minden kiegészítő és háttérkiszolgáló támogatja."
@@ -13305,9 +13333,13 @@ msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Ez a csoport a zenék és azok kezelésével kapcsolatos beállításokat tartalmazza."
 
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "Művelet végrehajtása a felvétel gomb megnyomásakor.\n[Aktuális sorozatrész rögzítése]: felvesz az aktuális részt mostantó a műsorújságban megadott befejező időpontig. Ha a műsorújságban nem érhető el ez az időpont akkor \"Azonnal felvétel hossza\" beállításban megadott időn keresztül történik a rögzítés.\n[Rögzítés megadott ideig]: motantól az \"Azonnal felvétel hossza\" beállításban megadott időn keresztül történik a rögzítés.\n[Kérdezzen rá a műveletre]: Dialógus ablakban kell választanunk az \"Aktuális sorozatrész rögzítése\", \"Következő sorozatrész rögzítése\" és \"Rögzítés megadott ideig\" lehetőségekből."
+
 msgctxt "#36255"
-msgid "Determine if artists that appear only on compilations are shown in the library artist view."
-msgstr "Annak meghatározása hogy ha egy előadó csak egy válogatáslemezen szerepel megjelenjen-e a médiatár előadó listában."
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Ha engedélyezed, akkor látszik a dal előadója és az album előadója is. Ha tiltod, akkor csak az album előadó jelenik meg. A dal lőadója csak egyedülálló számok esetén jelenik meg."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13452,10 +13484,6 @@ msgstr "FLAC tömörítés megadása, alapértelmezett érték 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Lemez automatikus kiadása mentés után."
-
-msgctxt "#36301"
-msgid "No info available yet."
-msgstr "Nincs még információ"
 
 msgctxt "#36302"
 msgid "No info available yet."

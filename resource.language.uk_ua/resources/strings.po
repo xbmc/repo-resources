@@ -2501,6 +2501,10 @@ msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
 msgstr "Докладний журнал компонента [B]Video[/B]"
 
+msgctxt "#681"
+msgid "Verbose logging for the [B]Webserver[/B] component"
+msgstr "Докладний журнал для компонента [B]Webserver[/B]"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Очищення медіатеки…"
@@ -2912,14 +2916,6 @@ msgstr "Один раз"
 msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Один раз (за телепрограмою)"
-
-msgctxt "#822"
-msgid "Repeating"
-msgstr "Повторювати"
-
-msgctxt "#823"
-msgid "Repeating (guide-based)"
-msgstr "Повторювати (за телепрограмою)"
 
 msgctxt "#831"
 msgid "Mondays"
@@ -3841,6 +3837,38 @@ msgctxt "#10047"
 msgid "Try changing the setting level to see additional categories and settings."
 msgstr "Змініть рівень налаштувань, щоб відкрити додадкові категорії та налаштування."
 
+msgctxt "#10048"
+msgid "Add video source"
+msgstr "Додати джерело відео"
+
+msgctxt "#10049"
+msgid "Add music source"
+msgstr "Додати джерело музики"
+
+msgctxt "#10051"
+msgid "Add program source"
+msgstr "Додати джерело програм"
+
+msgctxt "#10052"
+msgid "Add file source"
+msgstr "Додати джерело файлів"
+
+msgctxt "#10053"
+msgid "Edit video source"
+msgstr "Змінити джерело відео"
+
+msgctxt "#10054"
+msgid "Edit music source"
+msgstr "Змінити джерело музики"
+
+msgctxt "#10056"
+msgid "Edit program source"
+msgstr "Змінити джерело програм"
+
+msgctxt "#10057"
+msgid "Edit file source"
+msgstr "Змінити джерело файлів"
+
 msgctxt "#10100"
 msgid "Yes / No dialogue"
 msgstr "Так/Ні діалогу"
@@ -4029,6 +4057,10 @@ msgctxt "#12011"
 msgid "Return to videos window"
 msgstr "Повернутися до розділу \"Відео\""
 
+msgctxt "#12013"
+msgid "Install date"
+msgstr "Дата встановлення"
+
 msgctxt "#12014"
 msgid "Last updated"
 msgstr "Останнє оновлення"
@@ -4040,6 +4072,10 @@ msgstr "Почати з початку"
 msgctxt "#12022"
 msgid "Resume from %s"
 msgstr "Продовжити з %s"
+
+msgctxt "#12023"
+msgid "Play from beginning"
+msgstr "Відтворювати "
 
 msgctxt "#12310"
 msgid "0"
@@ -5089,10 +5125,6 @@ msgctxt "#13413"
 msgid "Downloading"
 msgstr "Завантаження…"
 
-msgctxt "#13414"
-msgid "Include artists who appear only on compilations"
-msgstr "Включати виконавців зі збірників"
-
 msgctxt "#13415"
 msgid "Render method"
 msgstr "Метод обробки"
@@ -5813,13 +5845,25 @@ msgctxt "#14200"
 msgid "Player"
 msgstr "Програвач"
 
+msgctxt "#14201"
+msgid "Player settings"
+msgstr "Налаштування програвача"
+
 msgctxt "#14202"
 msgid "Library"
 msgstr "Медіатека"
 
+msgctxt "#14203"
+msgid "Library settings"
+msgstr "Налаштування медіатеки"
+
 msgctxt "#14204"
 msgid "TV"
 msgstr "ТБ"
+
+msgctxt "#14205"
+msgid "TV settings"
+msgstr "Налаштування ТБ"
 
 msgctxt "#14210"
 msgid "Profile settings"
@@ -5840,6 +5884,10 @@ msgstr "Фото"
 msgctxt "#14218"
 msgid "Language"
 msgstr "Мова"
+
+msgctxt "#14219"
+msgid "Databases"
+msgstr "Бази даних"
 
 msgctxt "#14220"
 msgid "Display"
@@ -5948,10 +5996,6 @@ msgstr "Вбудована обкладинка"
 msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Буферизація…"
-
-msgctxt "#15108"
-msgid "GUI sounds"
-msgstr "Звуки інтерфейсу"
 
 msgctxt "#15109"
 msgid "Skin default"
@@ -9201,10 +9245,6 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Кіноцикл"
 
-msgctxt "#20458"
-msgid "Group movies in sets"
-msgstr "Об'єднувати фільми в цикли"
-
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Теґи"
@@ -9248,10 +9288,6 @@ msgstr "Додати фільм до нового циклу"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Зберегти поточний цикл (%s)"
-
-msgctxt "#20470"
-msgid "Use movie sets for single movies"
-msgstr "Використовувати цикли для поодиноких фільмів"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -12017,10 +12053,6 @@ msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Налаштування перегляду, прослуховування і обробки музичних файлів."
 
-msgctxt "#36255"
-msgid "Determine if artists that appear only on compilations are shown in the library artist view."
-msgstr "Показувати серед виконавців у музичній медіатеці тих виконавців, що присутні лише в збірках."
-
 msgctxt "#36259"
 msgid "Check for new and removed media files on startup."
 msgstr "Перевірити наявність нових і видалених файлів під час запуску."
@@ -12112,10 +12144,6 @@ msgstr "Рівень стиснення FLAC. За промовчанням — 
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Відкривати лоток CD після закінчення оцифровування."
-
-msgctxt "#36301"
-msgid "No info available yet."
-msgstr "Ще немає доступної інформації."
 
 msgctxt "#36302"
 msgid "No info available yet."

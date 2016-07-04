@@ -927,7 +927,7 @@ msgstr "Erreur"
 
 msgctxt "#258"
 msgid "Enable tag reading"
-msgstr "Utiliser les étiquettes ID3"
+msgstr "Utiliser les balises ID3"
 
 msgctxt "#259"
 msgid "Opening"
@@ -2839,7 +2839,7 @@ msgstr "Mise à jour de la médiathèque"
 
 msgctxt "#800"
 msgid "Music library needs to rescan tags from files. Would you like to scan now?"
-msgstr "L'audiothèque doit effectuer une réanalyse des étiquettes de fichiers.\nFaut-il l'effectuer maintenant ?"
+msgstr "L'audiothèque doit effectuer une réanalyse des balises de fichiers.\nFaut-il l'effectuer maintenant ?"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -2916,14 +2916,6 @@ msgstr "Une fois"
 msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Une fois (basée sur le guide)"
-
-msgctxt "#822"
-msgid "Repeating"
-msgstr "Répétition"
-
-msgctxt "#823"
-msgid "Repeating (guide-based)"
-msgstr "Répétition (basée sur le guide)"
 
 msgctxt "#828"
 msgid "Timer rule deleted"
@@ -5190,8 +5182,8 @@ msgid "Downloading"
 msgstr "Téléchargement"
 
 msgctxt "#13414"
-msgid "Include artists who appear only on compilations"
-msgstr "Inclure les artistes qui apparaissent uniquement sur les compilations"
+msgid "Show song and album artists"
+msgstr "Afficher les artistes de l'album et de la chanson"
 
 msgctxt "#13415"
 msgid "Render method"
@@ -6413,10 +6405,6 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Mise en cache…"
 
-msgctxt "#15108"
-msgid "GUI sounds"
-msgstr "Sons de l'interface utilisateur"
-
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Prédéfini par l'habillage"
@@ -7220,6 +7208,38 @@ msgstr "Premier jour"
 msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "Chaîne inconnue %u"
+
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "Action d'enregistrement immédiat"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "Enregistrer le programme actuel (si données du guide disponibles)"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "Enregistrer pendant une période de temps fixe (durée d'enregistrement instantané)"
+
+msgctxt "#19089"
+msgid "Ask what to do"
+msgstr "Demander que faire"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "Enregistrer les %s prochaines minutes"
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "Enregistrer le programme actuel (%s)"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "Enregistrer le programme suivant (%s)"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "Enregistrement immédiat : %s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -9127,7 +9147,7 @@ msgstr "Préférer les informations en ligne"
 
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
-msgstr "Avec cette option activée, toutes les informations téléchargées pour les albums et les artistes vont remplacer les informations trouvées dans les étiquettes des chansons, tel que les genres, l'année, les artistes, etc. Utile avec les identifiants MusicBrainz dans les étiquettes des chansons."
+msgstr "Avec cette option activée, toutes les informations téléchargées pour les albums et les artistes vont remplacer les informations trouvées dans les balises des chansons, tel que les genres, l'année, les artistes, etc. Utile avec les identifiants MusicBrainz dans les balises des chansons."
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
@@ -9781,13 +9801,9 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Saga"
 
-msgctxt "#20458"
-msgid "Group movies in sets"
-msgstr "Grouper les films en sagas"
-
 msgctxt "#20459"
 msgid "Tags"
-msgstr "Étiquettes"
+msgstr "Balises"
 
 msgctxt "#20460"
 msgid "Add %s"
@@ -9799,11 +9815,11 @@ msgstr "Retirer %s"
 
 msgctxt "#20462"
 msgid "New tag..."
-msgstr "Nouv. étiquette…"
+msgstr "Nouv. balise…"
 
 msgctxt "#20463"
 msgid "A tag with the name '%s' already exists."
-msgstr "Une étiquette avec le nom « %s » existe déjà."
+msgstr "Une balise avec le nom « %s » existe déjà."
 
 msgctxt "#20464"
 msgid "Select %s"
@@ -9828,10 +9844,6 @@ msgstr "Ajouter le film à une nouvelle saga"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Conserver la saga actuelle (%s)"
-
-msgctxt "#20470"
-msgid "Use movie sets for single movies"
-msgstr "Utiliser des sagas pour les films uniques"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -11080,6 +11092,10 @@ msgstr "Avertissement"
 msgctxt "#24053"
 msgid "License:"
 msgstr "Licence :"
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "Nouveautés"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -12421,6 +12437,10 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Profils de manette"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Utilise le clavier ou la télécommande pour sélectionner un profil de manette. À la demande, appuyer sur le bouton qui correspond le mieux à ce qui est affiché à l'écran. En cas d'erreur, recommencer l'opération."
+
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Prise en charge de joystick introuvable"
@@ -12921,6 +12941,10 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Ajuste la méthode utilisée pour afficher et effectuer le rendu de la vidéo."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "Utilise des redimensionnements de haute qualité avec ce % minimum lors de la mise à l'échelle d'une vidéo. Une valeur inférieure à 5% n'a pas beaucoup d'intérêt car la vidéo sera traitée avec une charge GPU importante sans augmentation visible de la qualité d'image."
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Active le décodage matériel VDPAU pour les fichiers vidéos, principalement utilisé pour les cartes graphiques Nvidia et dans certains cas AMD."
@@ -13229,6 +13253,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Cette catégorie contient les paramètres de durée d'enregistrement prédéfinis."
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "Durée de l'enregistrement immédiat quand le bouton d'enregistrement est pressé. Cette valeur sera prise en compte si l'« Action d'enregistrement immédiat » est définie à « Enregistrer pendant une période de temps fixe »."
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "Priorité de l'enregistrement. Plus le nombre est grand, plus la priorité est élevée. Toutes les extensions et tous les serveurs ne sont pas reconnus."
@@ -13305,9 +13333,13 @@ msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Section contenant les paramètres relatifs aux fichiers vidéo et à la façon dont ils sont traités."
 
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "Action à exécuter quand le bouton d'enregistrement est pressé. [Enregistrer le programme actuel] enregistrera le programme en cours à partir de « maintenant » jusqu'à sa fin. S'il n'y a pas de données disponibles dans le guide des programmes TV, une durée fixe sera appliquée à partir de « maintenant » jusqu'à la valeur de « Durée d'enregistrement immédiat ». [Enregistrer pendant une période de temps fixe] utilisera une valeur de temps fixe depuis « maintenant » jusqu'à la valeur de « Durée d'enregistrement immédiat ». [Demander que faire] ouvrira une boîte de dialoque pour choisir parmi « Enregistrer le programme actuel », « Enregistrer le programme suivant » et quelques durées d'enregistrement préétablies."
+
 msgctxt "#36255"
-msgid "Determine if artists that appear only on compilations are shown in the library artist view."
-msgstr "Détermine si les artistes qui apparaissent seulement dans des compilations doivent apparaitre dans la vue des artistes de la médiathèque.  "
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Si activé, les artistes de l'album et ceux de la chanson sont tous affichés. Si désactivé, seuls les artistes de l'album sont affichés, et les artistes qui apparaissent seulement sur des chansons individuelles d'un album sont exclus."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13383,11 +13415,11 @@ msgstr "Sélectionne la visualisation qui sera affichée durant l'écoute de mus
 
 msgctxt "#36274"
 msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "Lit les informations additionnelles (étiquettes) d'un fichier son. Pour un gros dossier, cela peut ralentir la vitesse de lecture, en particulier sur un réseau."
+msgstr "Lit les informations additionnelles (balises) d'un fichier son. Pour un gros dossier, cela peut ralentir la vitesse de lecture, en particulier sur un réseau."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
-msgstr "Contrôle la manière dont les noms de chansons sont affichés sur l'Interface Utilisateur. Afin de fonctionner correctement, les étiquettes doivent être activées."
+msgstr "Contrôle la manière dont les noms de chansons sont affichés sur l'Interface Utilisateur. Afin de fonctionner correctement, les balises doivent être activées."
 
 msgctxt "#36276"
 msgid "Used for formatting the second column in file lists."
@@ -13431,7 +13463,7 @@ msgstr "Sélectionne l'emplacement du disque dur où seront enregistrées les pi
 
 msgctxt "#36286"
 msgid "Control how saved music is named from the tags. Tags: [B]%N[/B]: TrackNumber, [B]%S[/B]: DiscNumber, [B]%A[/B]: Artist, [B]%T[/B]: Title, [B]%B[/B]: Album, [B]%G[/B]: Genre, [B]%Y[/B]: Year, [B]%F[/B]: FileName, [B]%D[/B]: Duration, [B]%J[/B]: Date, [B]%R[/B]: Rating, [B]%I[/B]: FileSize."
-msgstr "Contrôle comment la musique enregistrée est nommée à partir des étiquettes suivantes. [B]%N[/B] : Numéro de la piste, [B]%S[/B] : Numéro du disque, [B]%A[/B] : Artiste, [B]%T[/B] : Titre, [B]%B[/B] : Album, [B]%G[/B] : Genre, [B]%Y[/B] : Année, [B]%F[/B] : Nom du fichier, [B]%D[/B] : Durée, [B]%J[/B] : Date, [B]%R[/B] : Notation, [B]%I[/B] : Taille du fichier."
+msgstr "Contrôle comment la musique enregistrée est nommée à partir des balises suivantes. [B]%N[/B] : Numéro de la piste, [B]%S[/B] : Numéro du disque, [B]%A[/B] : Artiste, [B]%T[/B] : Titre, [B]%B[/B] : Album, [B]%G[/B] : Genre, [B]%Y[/B] : Année, [B]%F[/B] : Nom du fichier, [B]%D[/B] : Durée, [B]%J[/B] : Date, [B]%R[/B] : Notation, [B]%I[/B] : Taille du fichier."
 
 msgctxt "#36287"
 msgid "Select which audio encoder to use when ripping."
@@ -13452,10 +13484,6 @@ msgstr "Définit le niveau de compression FLAC, prédéfini à 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Éjecte automatiquement le CD à la fin de l'extraction."
-
-msgctxt "#36301"
-msgid "No info available yet."
-msgstr "Pas d'informations actuellement disponibles."
 
 msgctxt "#36302"
 msgid "No info available yet."
