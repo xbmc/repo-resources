@@ -2917,6 +2917,14 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Uma vez (baseado no guia)"
 
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "Regra de Agendamento"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "Regra de agendamento (basedo no guia)"
+
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Regra de agendamento deletada"
@@ -5803,7 +5811,7 @@ msgstr "Disp. de Entrada"
 
 msgctxt "#14095"
 msgid "Power saving"
-msgstr "Econ. de energia"
+msgstr "Gerenciar Energia"
 
 msgctxt "#14096"
 msgid "Rip"
@@ -6404,6 +6412,10 @@ msgstr "Ocultar skin padrão quando sem sons de navegação"
 msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Carregando..."
+
+msgctxt "#15108"
+msgid "GUI Sounds"
+msgstr "Sons na Interface"
 
 msgctxt "#15109"
 msgid "Skin default"
@@ -9801,6 +9813,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Coletânea de filmes"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "Apresentar coletâneas de filmes"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Tags"
@@ -9844,6 +9860,10 @@ msgstr "Adicionar filme para uma nova coletânea"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Manter na coletânea atual (%s)"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "Incluir filmes únicos nas coletâneas"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -14212,6 +14232,150 @@ msgstr "Define a magnitude do efeito 3D na Interface Gráfica. Isto é feito con
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "Defina o número de buffers de apresentação usado pelo driver gráfico. Selecione 2 se o driver usa buferização em dobro ou 3 para tripla buferização."
+
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "Gerenciamento de Cor"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "Reproduzir cores de vídeo com precisão usando um perfil do display ou uma tabela de pesquisa 3D."
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "Modo de gerenciamento de cor"
+
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "Use uma tabela de pesquisa 3D pré calculada para correção de cor de vídeo, ou calcular a transformação para cada vídeo a partir de um perfil do seu display. A tabela de pesquisa 3D pré-calculado é preferível, pois permite-lhe tirar partido das funcionalidades avançadas e de alta precisão em ArgyllCMS. Correção baseada perfil do display é útil para testar diferentes parâmetros, ou emular as configurações de exibição caso não tenha uma 3D LUT preparado."
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D LUT"
+
+msgctxt "#36565"
+msgid "TODO: 3D LUT filename description"
+msgstr "TODO: Descrição do nome do arquivo 3D LUT"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "Perfil do display ICC"
+
+msgctxt "#36567"
+msgid "TODO: ICC display profile filename description"
+msgstr "TODO: Descrição do nome arquivo para o perfil ICC do display"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "Ponto branco"
+
+msgctxt "#36569"
+msgid "TODO: Whitepoint selection description"
+msgstr "TODO: Descrição da seleção do ponto branco"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "Primárias"
+
+msgctxt "#36571"
+msgid "TODO: Primary coordinates description"
+msgstr "TODO: Descrição das coordenadas primárias"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "Modo gama"
+
+msgctxt "#36573"
+msgid "TODO: Gamma mode description"
+msgstr "TODO: Descrição do modo gama"
+
+msgctxt "#36574"
+msgid "Gamma"
+msgstr "Gama"
+
+msgctxt "#36575"
+msgid "TODO: Gamma description"
+msgstr "TODO: Descrição gama"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "Procurar por tamanho na tabela"
+
+msgctxt "#36577"
+msgid "TODO: Lookup table size description"
+msgstr "TODO: Procurar descrição do tamanho na tabela"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "Arquivo 3D LUT"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "Perfil ICC"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "Offset de entrada"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "Offset de saída"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "Absoluto"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (standard)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (Japanese NTSC)"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "Automático"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."

@@ -1715,7 +1715,7 @@ msgstr "Limiter le taux d'échantillonnage (kHz)"
 
 msgctxt "#459"
 msgid "Subs"
-msgstr "Ss-titres"
+msgstr "Sous-titres"
 
 msgctxt "#460"
 msgid "Audio stream"
@@ -1823,7 +1823,7 @@ msgstr "- Utiliser de grandes icônes"
 
 msgctxt "#492"
 msgid "Resize VobSubs"
-msgstr "Redimensionner les ss-titres DVD (VobSubs)"
+msgstr "Redimensionner les sous-titres DVD (VobSubs)"
 
 msgctxt "#493"
 msgid "Advanced options (experts only!)"
@@ -2916,6 +2916,14 @@ msgstr "Une fois"
 msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Une fois (basée sur le guide)"
+
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "Règle de programmation"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "Règle de programmation (basée sur le guide)"
 
 msgctxt "#828"
 msgid "Timer rule deleted"
@@ -6405,6 +6413,10 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Mise en cache…"
 
+msgctxt "#15108"
+msgid "GUI Sounds"
+msgstr "Sons de l'interface graphique"
+
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Prédéfini par l'habillage"
@@ -9151,7 +9163,7 @@ msgstr "Avec cette option activée, toutes les informations téléchargées pour
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
-msgstr "Rechercher des ss-titres externes"
+msgstr "Rechercher des sous-titres externes"
 
 msgctxt "#20240"
 msgid "Android music"
@@ -9547,7 +9559,7 @@ msgstr "Retirer la vidéo musicale de la médiathèque"
 
 msgctxt "#20393"
 msgid "Music video information"
-msgstr "Infos de la vidéo musicale"
+msgstr "Informations de vidéo musicale"
 
 msgctxt "#20394"
 msgid "Loading music video information"
@@ -9801,6 +9813,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Saga"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "Afficher les sagas"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Balises"
@@ -9844,6 +9860,10 @@ msgstr "Ajouter le film à une nouvelle saga"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Conserver la saga actuelle (%s)"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "Inclure les sagas comportant un seul film"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -10939,7 +10959,7 @@ msgstr "Informations de la TV"
 
 msgctxt "#24015"
 msgid "Music video information"
-msgstr "Infos de la vidéo musicale"
+msgstr "Informations de vidéo musicale"
 
 msgctxt "#24016"
 msgid "Album information"
@@ -13251,7 +13271,7 @@ msgstr "Quand la touche de changement de chaîne « + » ou « - » est utilisé
 
 msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
-msgstr "Cette catégorie contient les paramètres de durée d'enregistrement prédéfinis."
+msgstr "Cette catégorie contient les paramètres prédéfinis de durée d'enregistrement."
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
@@ -14212,6 +14232,150 @@ msgstr "Définit la force de l'effet 3D stéréoscopique qui est obtenue par le 
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "Définit le nombre de tampons de présentation utilisés par le pilote graphique. Sélectionner 2 si le pilote utilise un double tampon ou 3 s'il utilise un triple tampon."
+
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "Gestion des couleurs"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "Reproduit précisément les couleurs vidéo en utilisant un profil d'affichage ou une table de correspondance 3D."
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "Mode de gestion des couleurs"
+
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "Utilise une table de correspondance (LUT) 3D précalculée pour la correction vidéo, ou calcule la transformation pour chaque vidéo à partir d'un profil de cet affichage. Une LUT 3D précalculée est préférable afin de profiter des fonctionnalités avancées et de la haute précision de ArgyllCMS. La correction par profil est utile pour tester différents paramètres ou simuler des paramètres d'affichage pour lequel il n'y a pas de LUT 3D."
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "Table de correspondance 3D"
+
+msgctxt "#36565"
+msgid "TODO: 3D LUT filename description"
+msgstr "À faire : description du nom de fichier de la LUT 3D"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "Profil d'affichage ICC"
+
+msgctxt "#36567"
+msgid "TODO: ICC display profile filename description"
+msgstr "À faire : description du nom de fichier du profil d'affichage ICC"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "Point blanc"
+
+msgctxt "#36569"
+msgid "TODO: Whitepoint selection description"
+msgstr "À faire : description de la sélection du point blanc"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "Primaires"
+
+msgctxt "#36571"
+msgid "TODO: Primary coordinates description"
+msgstr "À faire : description des coordonnées primaires"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "Mode gamma"
+
+msgctxt "#36573"
+msgid "TODO: Gamma mode description"
+msgstr "À faire : description du mode gamma"
+
+msgctxt "#36574"
+msgid "Gamma"
+msgstr "Gamma"
+
+msgctxt "#36575"
+msgid "TODO: Gamma description"
+msgstr "À faire : description du gamma"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "Taille de la table de correspondance"
+
+msgctxt "#36577"
+msgid "TODO: Lookup table size description"
+msgstr "À faire : description de la taille de la table de correspondance"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "Fichier table de correspondance 3D"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "Profil ICC"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "Décalage d'entrée"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "Décalage de sortie"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "Absolu"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (standard)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (NTSC japonnais)"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "Automatique"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."

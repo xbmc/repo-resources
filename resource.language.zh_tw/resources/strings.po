@@ -2917,6 +2917,14 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "單次播放(以指南內容為基準)"
 
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "定時器規則"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "定時器規則(以指南內容為基準)"
+
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "定時器規則已刪除"
@@ -6405,6 +6413,10 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "緩衝中…"
 
+msgctxt "#15108"
+msgid "GUI Sounds"
+msgstr "使用者介面音效"
+
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "佈景主題預設"
@@ -9801,6 +9813,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "電影集"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "顯示電影集"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "標籤"
@@ -9844,6 +9860,10 @@ msgstr "新增電影至新電影集"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "保留目前的電影集 (%s)"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "包括僅有一部電影的電影集"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -14212,6 +14232,150 @@ msgstr "定義圖形使用者介面中的3D效果強度，藉由調整介面中�
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "設定繪圖驅動程式所使用的緩存通道數。若驅動使用二重緩存則選2，三重緩存則選3。"
+
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "色彩管理"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "使用顯示器設定檔或3D LUT來精確重現影像色彩"
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "色彩管理模式"
+
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "使用預先計算好的3D LUT來進行校色，或是使用你的顯示器所提供的設定檔來計算每個影片的變化。推薦使用前者，因其可受惠於ArgyllCMS的進階功能及高精確度。使用顯示器設定檔的校色方式適用在測試各種數值，或在沒有3D LUT可用時模擬其設定。"
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D LUT"
+
+msgctxt "#36565"
+msgid "TODO: 3D LUT filename description"
+msgstr "待辦事項：3D LUT 檔名描述"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "ICC 顯示器設定檔"
+
+msgctxt "#36567"
+msgid "TODO: ICC display profile filename description"
+msgstr "待辦事項：ICC 顯示器設定檔名描述"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "純白點校正"
+
+msgctxt "#36569"
+msgid "TODO: Whitepoint selection description"
+msgstr "待辦事項：純白點選擇描述"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "原色"
+
+msgctxt "#36571"
+msgid "TODO: Primary coordinates description"
+msgstr "待辦事項：三原色混色描述"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "Gamma模式"
+
+msgctxt "#36573"
+msgid "TODO: Gamma mode description"
+msgstr "待辦事項：Gamma模式描述"
+
+msgctxt "#36574"
+msgid "Gamma"
+msgstr "伽瑪值"
+
+msgctxt "#36575"
+msgid "TODO: Gamma description"
+msgstr "待辦事項：Gamma描述"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "演色表大小"
+
+msgctxt "#36577"
+msgid "TODO: Lookup table size description"
+msgstr "待辦事項：演色表描述"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "3D LUT檔案"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "ICC設定檔"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "輸入位移"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "輸出位移"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "絕對值"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (標準)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (日本NTSC)"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "自動"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."

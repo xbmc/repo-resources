@@ -2917,6 +2917,14 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "Egyszeri (műsorújság alapján)"
 
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "Időzítési szabály"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "Időzítési szabály (műsorújság alapján)"
+
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Időzitő szabály törlése"
@@ -6405,6 +6413,10 @@ msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Előtöltés..."
 
+msgctxt "#15108"
+msgid "GUI Sounds"
+msgstr "Felület hangok"
+
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Felszín alapértelmezése"
@@ -9801,6 +9813,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Filmgyűjtemény"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "Filmgyűjtemények megjelenítése"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Címkék"
@@ -9844,6 +9860,10 @@ msgstr "Film hozzáadása egy új gyűjteményhez"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Jelenlegi gyűjtemény megtartása (%s)"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "Vegye bele azokat a gyűjteményeket is, melyek egyetlen videót tartalmaznak"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -14212,6 +14232,150 @@ msgstr "Meghatározza a GUI sztreoszkópikus 3D hatásának erősségét. Ez a m
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "Meghatározza a grafikus eszközmeghajtó által használt megjelenítési pufferek számát. Válasszon 2-t a dupla puffereléshez, vagy 3-at a tripla puffereléshez."
+
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "Színkezelés"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "Videó színeinek pontos előállítása kijelző profil vagy 3D-s kereső tábla alapján."
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "Színkezelési mód"
+
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "Előre kiszámított 3D Keresőtáblát használjon a videó színkorrekciójához, vagy a módosítások kiszámítása minden videónál a kijező profilja alapján. Az előre kiszámított 3D Keresőtábla a javasolt, mivel lehetővé teszi hogy kihasználjuk a ArgyllCMS fejlettebb tulajdonságait és a nagyobb pontosságát. Kijelzőprofil alapú korrekció hasznos lehet a különböző paraméterek tesztelésénél, vagy olyan kijelző beállítások emulációjánál, amelyikhez nem rendelkezünk előkészített 3D Keresőtáblával."
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D Keresőtábla"
+
+msgctxt "#36565"
+msgid "TODO: 3D LUT filename description"
+msgstr "Tennivaló: 3D Keresőtábla fájlnév leírása"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "ICC kijelző profil"
+
+msgctxt "#36567"
+msgid "TODO: ICC display profile filename description"
+msgstr "Tennivaló: ICC kijelző profil fájlnév leírása"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "Fehérpont"
+
+msgctxt "#36569"
+msgid "TODO: Whitepoint selection description"
+msgstr "Tennivaló: Fehérpont kiválasztásának leírása"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "Elsődlegesek"
+
+msgctxt "#36571"
+msgid "TODO: Primary coordinates description"
+msgstr "Tennivaló: Elsődleges koordináták leírása"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "Gamma mód"
+
+msgctxt "#36573"
+msgid "TODO: Gamma mode description"
+msgstr "Tennivaló: Gamma mód leírása"
+
+msgctxt "#36574"
+msgid "Gamma"
+msgstr "Gamma"
+
+msgctxt "#36575"
+msgid "TODO: Gamma description"
+msgstr "Tennivaló: Gamma leírása"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "Keresőtábla mérete"
+
+msgctxt "#36577"
+msgid "TODO: Lookup table size description"
+msgstr "Tennivaló: Keresőtábla méretének leírása"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "3D Keresőtábla fájl"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "ICC Profil"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "Input eltolás"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "Kimenet eltolás"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "Abszolút"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (standard)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (Japán NTSC)"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "Automatikus"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."

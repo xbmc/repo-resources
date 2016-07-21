@@ -355,11 +355,11 @@ msgstr "일시 중지"
 
 msgctxt "#113"
 msgid "Update failed"
-msgstr "업데이트 실패함"
+msgstr "업데이트 실패"
 
 msgctxt "#114"
 msgid "Installation failed"
-msgstr "설치 실패함"
+msgstr "설치 실패"
 
 msgctxt "#115"
 msgid "Copy"
@@ -2873,6 +2873,10 @@ msgctxt "#809"
 msgid "Any channel"
 msgstr "모든 채널"
 
+msgctxt "#810"
+msgid "Start any time"
+msgstr "언제든지 시작"
+
 msgctxt "#811"
 msgid "Recording group"
 msgstr "녹화 그룹"
@@ -2897,6 +2901,10 @@ msgctxt "#816"
 msgid "Record only new episodes"
 msgstr "새 에피소드만 녹화"
 
+msgctxt "#817"
+msgid "End any time"
+msgstr "언제든지 종료"
+
 msgctxt "#818"
 msgid "Max recordings"
 msgstr "최대 녹화"
@@ -2908,6 +2916,18 @@ msgstr "한 번만"
 msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "한 번만 (편성표 기준)"
+
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "예약 규칙"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "한 번만 (편성표 기반)"
+
+msgctxt "#828"
+msgid "Timer rule deleted"
+msgstr "예약 규칙 삭제됨"
 
 msgctxt "#831"
 msgid "Mondays"
@@ -5169,6 +5189,10 @@ msgctxt "#13413"
 msgid "Downloading"
 msgstr "다운로드"
 
+msgctxt "#13414"
+msgid "Show song and album artists"
+msgstr "노래와 앨범 아티스트 보이기"
+
 msgctxt "#13415"
 msgid "Render method"
 msgstr "렌더링 방식"
@@ -5287,7 +5311,7 @@ msgstr "VC-1 VDPAU 사용"
 
 msgctxt "#13446"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD hardware with VDPAU can't decode VC-1 Simple."
-msgstr "VC-1 기반의 코덱에서 하드웨어 가속을 사용하려면 이 옵션을 활성화하세요. 이 옵션을 활성화하지 않으면 CPU를 사용합니다.  AMD 하드웨어에서 VDPAU는 VC-1 Simple 동영상을 디코딩하지 못합니다."
+msgstr "VC-1 기반의 코덱에서 하드웨어 가속을 사용하려면 이 옵션을 활성화하세요. 이 옵션을 활성화하지 않으면 CPU를 사용합니다.  AMD 하드웨어에서 VDPAU는 VC-1 Simple 비디오를 디코딩하지 못합니다."
 
 msgctxt "#13447"
 msgid "Use MPEG-2 VAAPI"
@@ -5323,7 +5347,7 @@ msgstr "하드웨어 가속 허용 - OMXPlayer"
 
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
-msgstr "동영상 재생에  OMXPlayer 디코딩을 사용합니다."
+msgstr "비디오 재생에  OMXPlayer 디코딩을 사용합니다."
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -6285,6 +6309,10 @@ msgctxt "#15064"
 msgid "Apply changes directly"
 msgstr "변경을 지금 적용"
 
+msgctxt "#15065"
+msgid "No audio DSP modes available"
+msgstr "사용할 수 있는 오디오 DSP 모드가 없습니다"
+
 msgctxt "#15066"
 msgid "Clear active modes"
 msgstr "활성 모드 삭제"
@@ -6384,6 +6412,10 @@ msgstr "스킨 기본"
 msgctxt "#15107"
 msgid "Buffering..."
 msgstr "버퍼링..."
+
+msgctxt "#15108"
+msgid "GUI Sounds"
+msgstr "GUI 효과음"
 
 msgctxt "#15109"
 msgid "Skin default"
@@ -6495,7 +6527,7 @@ msgstr "새 제목 입력"
 
 msgctxt "#16009"
 msgid "Enter the movie name"
-msgstr "동영상 이름 입력"
+msgstr "비디오 이름 입력"
 
 msgctxt "#16010"
 msgid "Enter the profile name"
@@ -6981,6 +7013,10 @@ msgctxt "#19033"
 msgid "Information"
 msgstr "정보"
 
+msgctxt "#19034"
+msgid "There is already a timer set for this event"
+msgstr "이 항목에 대한 예약이 이미 있습니다"
+
 msgctxt "#19035"
 msgid "%s couldn't be played. Check the log for more information about this message."
 msgstr "%s를 재생할 수 없습니다. 자세한 정보는 로그를 확인하세요."
@@ -7184,6 +7220,38 @@ msgstr "시작일"
 msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "알 수 없는 채널 %u"
+
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "즉시 녹화 형식"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "현재 프로그램 녹화 (편성 정보가 있는 경우)"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "정해진 시간 녹화 (즉시 녹화 분량)"
+
+msgctxt "#19089"
+msgid "Ask what to do"
+msgstr "할 일 물어보기"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "지금부터 %d 분 녹화"
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "현재 프로그램 목화 (%s)"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "다음 프로그램 녹화 (%s)"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "즉시 녹화: %s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -7440,6 +7508,10 @@ msgstr ":"
 msgctxt "#19160"
 msgid "to"
 msgstr ":"
+
+msgctxt "#19161"
+msgid "any time"
+msgstr "언제든지"
 
 msgctxt "#19162"
 msgid "Recording active"
@@ -7757,6 +7829,10 @@ msgctxt "#19242"
 msgid "Edit timer"
 msgstr "예약 편집"
 
+msgctxt "#19243"
+msgid "Edit timer rule"
+msgstr "예약 규칙 수정"
+
 msgctxt "#19244"
 msgid "Backend idle time"
 msgstr "백엔드 유휴 시간"
@@ -7800,6 +7876,10 @@ msgstr "채널 편성표 업데이트가 예약됨"
 msgctxt "#19254"
 msgid "Guide update failed for channel"
 msgstr "채널 편성표 업데이트 실패"
+
+msgctxt "#19255"
+msgid "%d scheduled"
+msgstr "%d 예약됨"
 
 msgctxt "#19256"
 msgid "Completed"
@@ -9309,6 +9389,10 @@ msgctxt "#20349"
 msgid "No video files found in this path!"
 msgstr "이 경로에서 비디오 파일을 찾지 못함!"
 
+msgctxt "#20350"
+msgid "%s (%s votes)"
+msgstr "%s (%s 투표)"
+
 msgctxt "#20351"
 msgid "TV show information"
 msgstr "TV 쇼 정보"
@@ -9729,6 +9813,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "시리즈 영화"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "시리브 영화 표시"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "태그"
@@ -9772,6 +9860,10 @@ msgstr "영화를 새 시리즈에 추가"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "현재 시리즈 (%s) 유지"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "영화 한 편만 있는 세트 포함"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -10239,19 +10331,19 @@ msgstr "고정"
 
 msgctxt "#21462"
 msgid "Bottom of video"
-msgstr "동영상 하단"
+msgstr "비디오 하단"
 
 msgctxt "#21463"
 msgid "Below video"
-msgstr "동영상 아래"
+msgstr "비디오 아래"
 
 msgctxt "#21464"
 msgid "Top of video"
-msgstr "동영상 상단"
+msgstr "비디오 상단"
 
 msgctxt "#21465"
 msgid "Above video"
-msgstr "동영상 위"
+msgstr "비디오 위"
 
 msgctxt "#21466"
 msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
@@ -10316,6 +10408,10 @@ msgstr "사용"
 msgctxt "#21481"
 msgid "Audio track count"
 msgstr "오디오 트랙 재생횟수"
+
+msgctxt "#21482"
+msgid "Subtitle track count"
+msgstr "자막 재생횟수"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -10993,6 +11089,10 @@ msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "이 애드온은 제거할 수 없습니다"
 
+msgctxt "#24048"
+msgid "VideoPlayer InputStream"
+msgstr "비디오플레이어 InputStream"
+
 msgctxt "#24049"
 msgid "Incompatible"
 msgstr "호환 안 됨"
@@ -11012,6 +11112,10 @@ msgstr "고지 사항 및 책임의 한계"
 msgctxt "#24053"
 msgid "License:"
 msgstr "라이센스:"
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "최신"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -11283,7 +11387,7 @@ msgstr "자막을 검색하는 동안 비디오 재생을 일시 중지하고 �
 
 msgctxt "#24124"
 msgid "Next to the video"
-msgstr "동영상과 같은 위치"
+msgstr "비디오와 같은 위치"
 
 msgctxt "#24125"
 msgid "Custom location"
@@ -11393,6 +11497,10 @@ msgctxt "#24994"
 msgid "Running"
 msgstr "실행중"
 
+msgctxt "#24995"
+msgid "Orphaned"
+msgstr "고립됨"
+
 msgctxt "#24996"
 msgid "Manage dependencies"
 msgstr "종속성 관리"
@@ -11456,6 +11564,14 @@ msgstr "챕터 %u"
 msgctxt "#25011"
 msgid "Commercial"
 msgstr "광고"
+
+msgctxt "#25012"
+msgid "Auto-skip off"
+msgstr "자동 스킵 꺼짐"
+
+msgctxt "#25013"
+msgid "Auto-skip on"
+msgstr "자동 스킵 켜짐"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -11784,6 +11900,34 @@ msgstr "Publicate traffic messages"
 msgctxt "#29987"
 msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
 msgstr "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
+
+msgctxt "#29988"
+msgid "Arrangers"
+msgstr "편곡자"
+
+msgctxt "#29989"
+msgid "Composers"
+msgstr "작곡가"
+
+msgctxt "#29990"
+msgid "Conductors"
+msgstr "지휘자"
+
+msgctxt "#29991"
+msgid "DJ Mixers"
+msgstr "DJ Mixers"
+
+msgctxt "#29992"
+msgid "Lyricists"
+msgstr "작사가"
+
+msgctxt "#29993"
+msgid "Orchestras"
+msgstr "오케스트라"
+
+msgctxt "#29994"
+msgid "Roles"
+msgstr "역할"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -12313,6 +12457,14 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "컨트롤러 프로파일"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "키보드나 리모컨으로 컨트롤러 프로필을 선택하세요. 프롬트가 뜨면 화면에 보이는 것과 가장 잘 맞는 게임 컨트롤러 버튼을 누르세요. 잘못 눌렀다면 과정을 반복하시면 됩니다."
+
+msgctxt "#35056"
+msgid "Joystick support not found"
+msgstr "조이스틱 지원 찾지 못함"
+
 msgctxt "#35057"
 msgid "Controller configuration is disabled. Install the proper joystick support add-on."
 msgstr "컨트롤러 환경을 설정할 수 없습니다. 조이스틱 지원 애드온을 설치하세요."
@@ -12340,6 +12492,10 @@ msgstr "사용 가능한 모든 컨트롤러 프로파일을 설치하였습니�
 msgctxt "#35063"
 msgid "Configure attached controllers"
 msgstr "연결된 컨트롤러 환경설정"
+
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "컨트롤러를 여러 게임 시스템들의 입력 장치들과 페어링하세요."
 
 msgctxt "#35090"
 msgid "Press %s"
@@ -12573,6 +12729,10 @@ msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "한정된 색상 범위 (16-235) 사용"
 
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "그래픽 드라이버가 사용할 버퍼 크기"
+
 msgctxt "#36044"
 msgid "Stop Playback"
 msgstr "재생 중지"
@@ -12584,6 +12744,10 @@ msgstr "재생 일시 중지"
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "디더링"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "디더링 깊이"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12735,7 +12899,7 @@ msgstr "아직 사용 가능한 정보가 없습니다."
 
 msgctxt "#36138"
 msgid "Section that contains settings related to videos and how they are handled."
-msgstr "동영상 처리와 관련된 설정 섹션입니다."
+msgstr "비디오 처리와 관련된 설정 섹션입니다."
 
 msgctxt "#36139"
 msgid "This category contains the settings for how the video library is handled."
@@ -12797,13 +12961,17 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "비디오 처리와 화면 표시 방법을 조정합니다."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "비디오 업스케일링시 최소 이 퍼센트만큼 고화질 스케일러를 사용하세요. 5% 이하 값은 높은 GPU 로드를 사용함에도 화질 증가가 미묘하기 때문에 소용없습니다."
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
-msgstr "동영상 재생에 VDPAU 하드웨어 디코딩을 사용합니다. 주로 NVIDIA 그래픽과 특정 환경의 AMD 그래픽에 사용됩니다. "
+msgstr "비디오 재생에 VDPAU 하드웨어 디코딩을 사용합니다. 주로 NVIDIA 그래픽과 특정 환경의 AMD 그래픽에 사용됩니다. "
 
 msgctxt "#36156"
 msgid "Enable VAAPI hardware decoding of video files, mainly used for Intel graphics and in some circumstances AMD graphics."
-msgstr "동영상 재생에 VAAPI 하드웨어 디코딩을 사용합니다. 주로 인텔 그래픽과 특정 환경의 AMD 그래픽에 사용됩니다. "
+msgstr "비디오 재생에 VAAPI 하드웨어 디코딩을 사용합니다. 주로 인텔 그래픽과 특정 환경의 AMD 그래픽에 사용됩니다. "
 
 msgctxt "#36157"
 msgid "When enabled, a \"Movie set\" entry is used even if the movie library contains only a single movie from that set. When disabled, a \"Movie set\" entry is used only if the movie library contains more than one movie from that set."
@@ -12811,19 +12979,23 @@ msgstr "영화 라이브러리에 해당 시리즈에 속하는 영화가 한 �
 
 msgctxt "#36158"
 msgid "Enable DXVA2 hardware decoding of video files."
-msgstr "동영상 재생에 DXVA2 하드웨어 디코딩을 사용합니다."
+msgstr "비디오 재생에 DXVA2 하드웨어 디코딩을 사용합니다."
 
 msgctxt "#36159"
 msgid "Enable CrystalHD decoding of video files."
-msgstr "동영상 재생에 CrystalHD 디코딩을 사용합니다."
+msgstr "비디오 재생에 CrystalHD 디코딩을 사용합니다."
+
+msgctxt "#36160"
+msgid "Enable VTB hardware decoding of video files."
+msgstr "비디오 재생에 VTB 하드웨어 디코딩을 사용합니다."
 
 msgctxt "#36161"
 msgid "Enable OpenMax hardware decoding of video files."
-msgstr "동영상 재생에 OpenMax 하드웨어 디코딩을 사용합니다."
+msgstr "비디오 재생에 OpenMax 하드웨어 디코딩을 사용합니다."
 
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
-msgstr "동영상 재생에 VideoToolbox 하드웨어 디코딩을 사용합니다."
+msgstr "비디오 재생에 VideoToolbox 하드웨어 디코딩을 사용합니다."
 
 msgctxt "#36163"
 msgid "Show TV shows with no episodes when browsing the video library."
@@ -12832,6 +13004,14 @@ msgstr "비디오 라이브러리를 탐색할 때 애피소드가 없는 TV 쇼
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "화면 새로고침 빈도를 비디오의 프레임 속도에 가장 근접하게 변경하여 부드럽게 재생하게 합니다."
+
+msgctxt "#36165"
+msgid "Delay of reset event after a change of refresh rate"
+msgstr "화면재상빈도 변경 후 리셋 이벤트 지연"
+
+msgctxt "#36166"
+msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgstr "모니터 주시율에 비디오와 오디오를 동기화합니다. 리샘플링이 필요할 수도 있기때문에 비디오플레이어는 passthrough 오디오를 사용하지 않게 됩니다."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -12851,7 +13031,7 @@ msgstr "검은 여백을 최소화할 때 설정한 퍼센트까지만 비디오
 
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
-msgstr "와이드스크린 디스플레이에 4:3 동영상을 재생할 때 확대/축소 수준을 선택합니다."
+msgstr "와이드스크린 디스플레이에 4:3 비디오를 재생할 때 확대/축소 수준을 선택합니다."
 
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
@@ -13093,6 +13273,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "기본 녹화 시간 관련 설정 그룹입니다."
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "녹화 버튼을 누를 시 즉시 녹화 시간. 이 값은 \"즉시 녹화 분량\"이 \"정해진 시간 녹화\"로 설정되어 있을때 적용됩니다."
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "녹화 우선순위입니다. 높은 번호일수록 우선순위가 높습니다. 모든 애드온과 백엔드가 지원하지는 않습니다."
@@ -13168,6 +13352,14 @@ msgstr "PVR 애드온과 백엔드에서 지원하는 경우 PVR 백엔드의 �
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "음악 파일 처리와 관련된 설정 섹션입니다."
+
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "녹화 버튼을 누를 시 할 행동. [현재 프로그램 녹화]는 \"지금\"부터 프로그램 끝까지 녹화합니다. TV 가이드 데이터를 사용할 수 없으면 \"지금\"부터 \"즉시 녹화 분량\"에 설정된 시간만큼 녹화가 예약됩니다. [정해진 시간 녹화]는 \"지금\"부터 \"즉시 녹화 분량\"에 설정된 시간만큼 녹화가 예약됩니다. [할 일 물어보기]는 \"현재 프로그램 녹화\", \"다음 프로그램 녹화\"와 일정시간 녹화 같은 여러 녹화 옵션들 중에서 고를 수 있는 창을 열 것입니다."
+
+msgctxt "#36255"
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "활성화 시 노래와 앨범 모두 보여줍니다. 비활성화시 앨범 아티스트만 보이고 앨범 개별 노래들에만 출연한 아티스트들은 제외됩니다."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13785,6 +13977,10 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Amlogic 디코더를 사용하여 비디오를 하드웨어 디코드합니다."
 
+msgctxt "#36423"
+msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "타이머 규칙이 새로운 에피소드만 녹화합니다. 모든 애드온과 백엔드가 지원하지는 않습니다."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
 msgstr "편성표에서 항목을 선택했을 때의 동작입니다: [컨텍스트 메뉴 표시] 는 해당 항목에서 선택할 수 있는 추가 동작을 컨텍스트 메뉴로 보여줍니다; [채널로  변경] 해당 채널로 즉시 이동합니다; [정보 보기] 줄거리와 추가 옵션을 포함하는 상세 정보를 표시합니다; [녹화] 선택한 항목의 녹화를 예약합니다."
@@ -13829,6 +14025,10 @@ msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
 msgstr "하드웨어 가속 허용 - MMAL"
 
+msgctxt "#36435"
+msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
+msgstr "MMAL 가속이 있는 비디오 파일 디코딩에 비디오플레이어를 사용합니다."
+
 msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "오디오 DSP 관리자..."
@@ -13852,6 +14052,10 @@ msgstr "오디오 DSP 데이터베이스에서 모든 DSP 애드온 설정과 DS
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
 msgstr "오디오 DSP 프로세싱 사용"
+
+msgctxt "#36442"
+msgid "Set the number of volume control steps."
+msgstr "음량 제어 단계의 크기 설정"
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -13927,7 +14131,7 @@ msgstr "우선 모드"
 
 msgctxt "#36525"
 msgid "Same as movie (autodetect)"
-msgstr "영상과 동일 (자동 감지)"
+msgstr "영화와 동일 (자동 감지)"
 
 msgctxt "#36526"
 msgid "Disable stereoscopic 3D mode when playback ended"
@@ -13947,7 +14151,7 @@ msgstr "다른 모드 선택..."
 
 msgctxt "#36532"
 msgid "Same as movie"
-msgstr "영상과 동일"
+msgstr "영화와 동일"
 
 msgctxt "#36533"
 msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
@@ -13971,7 +14175,7 @@ msgstr "3D 비디오 재생 모드를 선택합니다. [CR][물어보기] 재생
 
 msgctxt "#36538"
 msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode, between videos in a playlist or when playback ended.[CR][Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists with mixed stereoscopic 3D and 2D content, then the GUI will also stay in stereoscopic 3D mode even when a non-stereoscopic 2D video is playing."
-msgstr "[켬] 재생을 종료하였을 때 GUI(일부 TV 포함)를 2D 모드로 전환하거나 필요한 경우 재생목록의 다른 비디오로 전환합니다.[CR][끔] GUI와 TV가 3D 모드를 유지합니다. 비디오 재생목록에 3D가 아닌 영상이 포함되어 있어도 3D 모드가 변경되지 않습니다."
+msgstr "[켬] 재생을 종료하였을 때 GUI(일부 TV 포함)를 2D 모드로 전환하거나 필요한 경우 재생목록의 다른 비디오로 전환합니다.[CR][끔] GUI와 TV가 3D 모드를 유지합니다. 비디오 재생목록에 3D가 아닌 비디오가 포함되어 있어도 3D 모드가 변경되지 않습니다."
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
@@ -14025,6 +14229,162 @@ msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
 msgstr "그래픽 사용자 인터페이스(GUI) 3D 효과의 크기를 정의합니다. 이것은 GUI에서 인식되는 깊이를 조정합니다. 높은 값일수록 화면의 구성 요소가 화면 앞으로 튀어나와 보입니다. [0] GUI 3D 효과를 끕니다.[CR]양호한 시각적 경험을 위해서 작은 화면에서는 높은 값을 큰 화면에서는 낮은 값을 설정하여야 합니다. 주의: 모든 스킨이 지원하는 것은 아닙니다."
 
+msgctxt "#36552"
+msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
+msgstr "그래픽 드라이버가 사용하는 프래젠테이션 버퍼 수를 정의합니다. 2중 버퍼링시 2개를 선택하고 3중 버퍼링시 3개를 선택하세요."
+
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "색상 관리"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "디스플레이 프로필이나 3D 룩업 테이블 사용해 비디오 색을 재현합니다."
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "색상 관리 모드"
+
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "비디오 색조정을 위해 미리 계산된 3D 룩업 테이블을 사용하거나, 디스플레이의 프로필로부터 각 비디오의 변환을 계산합니다. 3D 룩업 테이블을 사용하면 ArgyllCMS의 고급 기능과 높은 정밀성을 사용할 수 있기 때문에 선호됩니다. 디스플레이 프로필 기반 조정은 여러 변수들을 테스트하거나 3D LUT에게 준비되지 않은 디스플레이 설정을 시범하는데 유용합니다."
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D LUT"
+
+msgctxt "#36565"
+msgid "TODO: 3D LUT filename description"
+msgstr "TODO: 3D LUT 파일명 설명"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "ICC 디스플레이 프로파일"
+
+msgctxt "#36567"
+msgid "TODO: ICC display profile filename description"
+msgstr "TODO: ICC 디스플레이 프로필 파일명 설명"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "백색점"
+
+msgctxt "#36569"
+msgid "TODO: Whitepoint selection description"
+msgstr "TODO: 백색점 선택 설명"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "원색"
+
+msgctxt "#36571"
+msgid "TODO: Primary coordinates description"
+msgstr "TODO: 원색 좌표 설명"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "감바 모드"
+
+msgctxt "#36573"
+msgid "TODO: Gamma mode description"
+msgstr "TODO: 감마 모드 설명"
+
+msgctxt "#36574"
+msgid "Gamma"
+msgstr "감마"
+
+msgctxt "#36575"
+msgid "TODO: Gamma description"
+msgstr "TODO: 감마 설명"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "룩업 테이블 크기"
+
+msgctxt "#36577"
+msgid "TODO: Lookup table size description"
+msgstr "TODO: 룩업 테이블 크기 설명"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "3D LUT 파일"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "ICC 프로파일"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "입력 오프셋"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "출력 오프셋"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "절대"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (표준)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (일본 NTSC)"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "자동"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
+
+msgctxt "#36598"
+msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
+msgstr "사진에 소량의 노이즈를 추가해 RGB 레벨 변환 및 다른 프로세싱으로 생긴 밴딩을 제거합니다. 느린 시스템에서나 Kodi가 제한된 RGB출력으로 설정돼서 비디오 프로세싱이 필요없을 때 비활성화할 수 있습니다."
+
+msgctxt "#36599"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "비디오 디더링 출력 정밀도 비트값. 밴딩이 보이지 않는 최고 설정을 사용하세요. 대부분의 시스템은 기본값 8을 권장합니다. GPU가 출력 RGB 레벨을 스케일하도록 설정됐거나 노트북 화면을 사용하신다면 7이나 6비트 설정이 밴딩을 더 많이 제거할 것 입니다. 더 낮은 설정은 디더링이 적용되는지 디더 노이즈 픽셀 크기가 디스플레이 화질과 맞는지 쉽게 확인할 수 있도록 테스트하는데만 사용 가능합니다."
+
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
 msgstr "음악 라이브러리 관련 설정 그룹입니다."
@@ -14049,6 +14409,10 @@ msgctxt "#36606"
 msgid "Install updates automatically"
 msgstr "업데이트 자동 설치"
 
+msgctxt "#36607"
+msgid "Notify, but don't install updates"
+msgstr "알리고 업데이트는 설치하지 않음"
+
 msgctxt "#36608"
 msgid "Never check for updates"
 msgstr "업데이트 확인 안 함"
@@ -14060,6 +14424,10 @@ msgstr "알림 표시"
 msgctxt "#36610"
 msgid "This category contains settings for the add-on system."
 msgstr "애드온 시스템 관련 설정 그룹입니다."
+
+msgctxt "#36611"
+msgid "Change how auto updating of add-ons are handled."
+msgstr "애드온 자동 업데이트를 어떻게 제어할지 바꿉니다."
 
 msgctxt "#36612"
 msgid "Show notification when an add-on have been updated."
@@ -14076,6 +14444,10 @@ msgstr "알 수 없는 소스"
 msgctxt "#36616"
 msgid "Allow installation of add-ons from unknown sources."
 msgstr "알 수 없는 소스에서 애드온 설치를 허용합니다."
+
+msgctxt "#36617"
+msgid "For security, installation of add-ons from unknown sources is disabled."
+msgstr "보안 이유로 알 수 없는 소스로부터의 애드온 설치는 사용할 수 없습니다."
 
 msgctxt "#36900"
 msgid "movie"
@@ -14373,6 +14745,50 @@ msgctxt "#38031"
 msgid "Video stream"
 msgstr "비디오 스트림"
 
+msgctxt "#38032"
+msgid "Angle"
+msgstr "각도"
+
+msgctxt "#38033"
+msgid "Role"
+msgstr "역할"
+
+msgctxt "#38034"
+msgid "Orchestra"
+msgstr "오케스트라"
+
+msgctxt "#38035"
+msgid "Lyricist"
+msgstr "작사가"
+
+msgctxt "#38036"
+msgid "Remixer"
+msgstr "리믹스"
+
+msgctxt "#38037"
+msgid "Arranger"
+msgstr "편곡자"
+
+msgctxt "#38038"
+msgid "Engineer"
+msgstr "엔지니어"
+
+msgctxt "#38039"
+msgid "Producer"
+msgstr "프로듀서"
+
+msgctxt "#38040"
+msgid "DJMixer"
+msgstr "DJ 믹서"
+
+msgctxt "#38041"
+msgid "Mixer"
+msgstr "믹서"
+
+msgctxt "#38042"
+msgid "[Missing]"
+msgstr "[누락]"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "미디어 재생 관련 설정 섹션입니다."
@@ -14419,7 +14835,7 @@ msgstr "라이브러리 데이터베이스 관련 설정 그룹입니다."
 
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
-msgstr "GUI 인터페이스 관련 설정 그룹입니다."
+msgstr "GUI 관련 설정 그룹입니다."
 
 msgctxt "#39000"
 msgid "HD and up"

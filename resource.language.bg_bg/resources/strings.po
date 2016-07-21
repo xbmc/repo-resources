@@ -597,6 +597,10 @@ msgctxt "#173"
 msgid "Display 4:3 videos as"
 msgstr "Режим за видеото във формат 4:3"
 
+msgctxt "#174"
+msgid "Compiled:"
+msgstr "Компилирана:"
+
 msgctxt "#175"
 msgid "Moods"
 msgstr "Настроения"
@@ -1267,7 +1271,7 @@ msgstr "Година"
 
 msgctxt "#346"
 msgid "Maintain original volume on downmix"
-msgstr "Поддържай нивото на звука при смесване"
+msgstr "Поддържай силата на звука при смесване"
 
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
@@ -3219,7 +3223,7 @@ msgstr "Обявявай услугите си на другите систем�
 
 msgctxt "#1269"
 msgid "Allow volume control"
-msgstr "Разреши регулиране на звука"
+msgstr "Разреши регулирането силата на звука"
 
 msgctxt "#1270"
 msgid "Enable AirPlay support"
@@ -3252,6 +3256,10 @@ msgstr "Персонално аудио устройство"
 msgctxt "#1301"
 msgid "Custom passthrough device"
 msgstr "Задайте устройство, което да декодира звука"
+
+msgctxt "#1302"
+msgid "Volume control steps"
+msgstr "Стъпки за контрол силата на звука"
 
 msgctxt "#1375"
 msgid "Temperature"
@@ -5001,6 +5009,10 @@ msgctxt "#13413"
 msgid "Downloading"
 msgstr "Сваляне"
 
+msgctxt "#13414"
+msgid "Show song and album artists"
+msgstr "Показвай изпълнителя на песента и автора на албума"
+
 msgctxt "#13415"
 msgid "Render method"
 msgstr "Метод на изчертаване"
@@ -6164,6 +6176,10 @@ msgstr "* Всички жанрове"
 msgctxt "#15107"
 msgid "Buffering..."
 msgstr "Буфериране..."
+
+msgctxt "#15108"
+msgid "GUI Sounds"
+msgstr "Звуци за потребителския интерфейс"
 
 msgctxt "#15109"
 msgid "Skin default"
@@ -9465,6 +9481,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Поредица"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "Показвай филмовите поредици"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Етикети"
@@ -9508,6 +9528,10 @@ msgstr "Нова поредица"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Запазване на текущата (\"%s\")"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "Показвай и поредиците, които съдържат само един филм"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -11821,6 +11845,10 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Профили за контролери"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Изберете желания профил посредством клавиатура или дистанционно. При запитване натиснете съответния бутон, на вашия контролер. Ако направите грешка можете да повторите процеса."
+
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Не е намерена поддръжка за джойстик"
@@ -11829,9 +11857,33 @@ msgctxt "#35057"
 msgid "Controller configuration is disabled. Install the proper joystick support add-on."
 msgstr "Контролерът не може да бъде настроен. Инсталирайте подходящата обавка за джойстика."
 
+msgctxt "#35058"
+msgid "Controller Configuration"
+msgstr "Настройване на контролер"
+
 msgctxt "#35059"
 msgid "Buttons"
 msgstr "Бутони"
+
+msgctxt "#35060"
+msgid "Reset controller profile"
+msgstr "Нулиране на профила"
+
+msgctxt "#35061"
+msgid "Would you like to reset this controller profile for all attached devices?"
+msgstr "Желаете ли профилът да бъде нулиран, за всички свързани устройства?"
+
+msgctxt "#35062"
+msgid "All available controller profiles are installed."
+msgstr "Всички налични профили са инсталирани."
+
+msgctxt "#35063"
+msgid "Configure attached controllers"
+msgstr "Настройване на свързаните контролери"
+
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "Настройте контролерите за различните игрални системи."
 
 msgctxt "#35090"
 msgid "Press %s"
@@ -11840,6 +11892,38 @@ msgstr "Натиснете %s"
 msgctxt "#35091"
 msgid "Press %s (%d)"
 msgstr "Натиснете %s (%d)"
+
+msgctxt "#35092"
+msgid "Move %s up"
+msgstr "Премести %s нагоре"
+
+msgctxt "#35093"
+msgid "Move %s up (%d)"
+msgstr "Премести %s нагоре (%d)"
+
+msgctxt "#35094"
+msgid "Move %s down"
+msgstr "Премести %s надолу"
+
+msgctxt "#35095"
+msgid "Move %s down (%d)"
+msgstr "Премести %s надолу (%d)"
+
+msgctxt "#35096"
+msgid "Move %s right"
+msgstr "Премести %s надясно"
+
+msgctxt "#35097"
+msgid "Move %s right (%d)"
+msgstr "Премести %s надясно (%d)"
+
+msgctxt "#35098"
+msgid "Move %s left"
+msgstr "Премести %s наляво"
+
+msgctxt "#35099"
+msgid "Move %s left (%d)"
+msgstr "Премести %s наляво (%d)"
 
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
@@ -12027,7 +12111,7 @@ msgstr "Ползвай ограничена цветова гама (16-256)"
 
 msgctxt "#36043"
 msgid "Number of buffers used by graphics driver"
-msgstr "Брой буфери ползвани от графичния драйвер"
+msgstr "Брой буфери ползвани от видео драйвера"
 
 msgctxt "#36044"
 msgid "Stop Playback"
@@ -12504,6 +12588,10 @@ msgstr "Изисквайте отново пин кода, при опит за 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Раздел съдържащ настройки за музикалните файлове и тяхното обработване."
+
+msgctxt "#36255"
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Показва изпълнителя на песента и автора на албума. Когато опцията не е включена ще бъдат показван само автора на албума, като изпълнителите на отделните песни, от дадения албум, няма да бъдат видими."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13173,6 +13261,10 @@ msgctxt "#36441"
 msgid "Enable audio DSP processing"
 msgstr "Включи DSP обработката на звука"
 
+msgctxt "#36442"
+msgid "Set the number of volume control steps."
+msgstr "Задайте броя на стъпките, чрез които можете да контролирате силата на звука."
+
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
 msgstr "Журнала за събития представлява история на отминалите събития."
@@ -13267,7 +13359,7 @@ msgstr "Според филма"
 
 msgctxt "#36533"
 msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
-msgstr "Изберете как да се смесва аудиото, например от 5.1 до 2.0.[CR][Вкл.] поддържа ниво на звука на оригиналния аудио източник, но динамичния диапазон се компресира.[CR][Изкл.] поддържа динамичен диапазон като на оригиналния аудио източник, но ниво на звука ще бъде по-ниско. Забележка: динамичния диапазон е разликата между най-тихите и най-силните звуци в аудио източника. Включете ако едва чувате диалозите."
+msgstr "Изберете как да се смесва аудиото, например от 5.1 до 2.0.[CR][Вкл.] поддържа ниво на звука на оригиналния аудио източник, но динамичния диапазон се компресира.[CR][Изкл.] поддържа динамичен диапазон като на оригиналния аудио източник, но силата на звука ще бъде по-ниска. Забележка: динамичния диапазон е разликата между най-тихите и най-силните звуци в аудио източника. Включете ако едва чувате диалозите."
 
 msgctxt "#36534"
 msgid "Specify additional libraries whose verbose messages are to be included in the debug log."
@@ -13299,7 +13391,7 @@ msgstr "Изберете предпочитания стереоскопичен
 
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
-msgstr "Разрешава регулирането на звука от AirPlay клиентите."
+msgstr "Разрешава регулирането силата на звука от AirPlay клиентите."
 
 msgctxt "#36542"
 msgid "Output to both analogue (headphones) and HDMI"
@@ -13336,6 +13428,70 @@ msgstr "Степен на изява на 3D ефекта"
 msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
 msgstr "Определя степента на 3D ефекта в потребителския интерфейс. Осъществява се чрез контролиране на дълбочинното възприемане на интерфейса. По-високото ниво означава повече изпъкнали елементи. [Нула] Изключва 3D ефекта изцяло.[CR]За малки екрани е препоръчително да ползвате по-голяма стойност, а за големи екрани - по-малка стойност. Бележка: опцията не се поддържа от всеки облик."
+
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "Управление на цветовете"
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "Режим за управление на цветовете"
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D LUT"
+
+msgctxt "#36574"
+msgid "Gamma"
+msgstr "Гама"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "ICC профил"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (standard)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (Japanese NTSC)"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -13407,7 +13563,7 @@ msgstr "Поради съображения за сигурност инстал
 
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
-msgstr "Добавките получават директен достъп до личните ви данни на\nустройството. Разрешавайки инсталирането им поемате отговорността за евентуална загуба на данни, нежелани действия и възможни повреди на устройството, които могат да бъдат причинени от тези добавки. Разрешавате ли инсталирането им?"
+msgstr "Добавките имат директен достъп до личните ви данни на устройството. Разрешавайки инсталирането им поемате отговорността за евентуална загуба на данни, нежелани действия и повреди на устройството, които могат да бъдат причинени от добавките. Разрешавате ли инсталирането им?"
 
 msgctxt "#36900"
 msgid "movie"
@@ -13683,11 +13839,19 @@ msgstr "Без оценка"
 
 msgctxt "#38023"
 msgid "Set my rating"
-msgstr "Задай оценка"
+msgstr "Задаване на оценка"
+
+msgctxt "#38024"
+msgid "Information provider selection"
+msgstr "Избор на източник на информация"
 
 msgctxt "#38025"
 msgid "Choose information provider"
 msgstr "Източник на информация"
+
+msgctxt "#38026"
+msgid "Appearances"
+msgstr "Изглед"
 
 msgctxt "#38031"
 msgid "Video stream"
