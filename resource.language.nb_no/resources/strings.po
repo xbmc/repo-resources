@@ -2917,6 +2917,14 @@ msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "En gang (guide-basert)"
 
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "Tidsur regel"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "Tidsur regel (guide basert)"
+
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Tidsur regel slettet"
@@ -5797,10 +5805,6 @@ msgctxt "#14093"
 msgid "Security"
 msgstr "Sikkerhet"
 
-msgctxt "#14094"
-msgid "Input devices"
-msgstr "Inn-enheter"
-
 msgctxt "#14095"
 msgid "Power saving"
 msgstr "Strømsparing"
@@ -6637,10 +6641,6 @@ msgctxt "#16039"
 msgid "Off"
 msgstr "Av"
 
-msgctxt "#16040"
-msgid "Auto"
-msgstr "Auto"
-
 msgctxt "#16041"
 msgid "On"
 msgstr "På"
@@ -6840,14 +6840,6 @@ msgstr "MMAL - Bob"
 msgctxt "#16333"
 msgid "MMAL - Bob (half)"
 msgstr "MMAL - Bob (halv)"
-
-msgctxt "#16334"
-msgid "IMX - Fast motion"
-msgstr "IMX - Rask bevegelse"
-
-msgctxt "#16335"
-msgid "IMX - Fast motion (double)"
-msgstr "IMX - Rask bevegelse (dobbel)"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -7213,6 +7205,18 @@ msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "Ukjent kanal %u"
 
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "Øyeblikksopptak hendelse"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "Ta opp nåværende program (dersom data finnes)"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "Ta opp et satt tidsrom (Øyeblikk tid for opptak)"
+
 msgctxt "#19089"
 msgid "Ask what to do"
 msgstr "Spør om hva som skal gjøres"
@@ -7565,10 +7569,6 @@ msgctxt "#19179"
 msgid "Deleted"
 msgstr "Slettet"
 
-msgctxt "#19180"
-msgid "TV"
-msgstr "TV"
-
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Meny / OSD"
@@ -7576,10 +7576,6 @@ msgstr "Meny / OSD"
 msgctxt "#19182"
 msgid "Days to display"
 msgstr "Hvor mange dager skal vises?"
-
-msgctxt "#19183"
-msgid "Radio"
-msgstr "Radio"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
@@ -9793,6 +9789,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "Filmsamling"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "Vis filmsamlinger"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "Merkelapper"
@@ -9836,6 +9836,10 @@ msgstr "Legg til film i en ny samling"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "Behold nåværende samling (%s)"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "Inkluder sett som inneholder en film"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -12429,6 +12433,10 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Kontrollerprofiler"
 
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Bruk tastaturet eller fjernkontrollen for å velge en kontroller profil. Når forespurt, trykk knappen som best passer til det du ser på skjermen. Dersom du gjør en feil kan du gjenta prosessen."
+
 msgctxt "#35056"
 msgid "Joystick support not found"
 msgstr "Joystick støtte ikke funnet"
@@ -12929,6 +12937,10 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Juster metodene brukt for å bearbeide og vise video."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "Bruk høykvalitets skalerer når oppskallering av video med minst denne prosenten. En verdi under 5% gir ikke noe mening siden video prosesseres med høy GPU last uten noe kvalitetsforbedringer på videoen."
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Aktiver VDPAU-maskinvareakselerasjon av videofiler, benyttes hovedsakelig av NVIDIA-grafikk og ved noen omstendigheter av AMD-grafikk."
@@ -13237,6 +13249,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Denne kategorien inneholder innstillinger for standard opptakslengde."
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "Tiden for øyeblikksopptak ved trykk på opptaksknappen. Denne verdien vil bli tatt hensyn til dersom \"Øyeblikksopptakk hendelsen\" er satt til \"Ta opp et satt tidsrom\""
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "Opptaksprioritering. Et større tall betyr høyere prioritet. Støttes ikke av alle Utvidelser og tjenerdeler. "
@@ -13312,6 +13328,14 @@ msgstr "Dette valget tar deg til innstillinger for PVR tjenerdelen, hvis støtte
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Seksjon som inneholder innstillinger relatert til musikkfiler og hvordan de håndteres."
+
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "Hendelser som oppstår ved trykk på opptaksknappen. [Ta opp gjeldene serie] vil ta opp gjeldende serie fra \"nå\" til serien slutter. Dersom ingen TV guide data er tilgjengelig vil en satt lengde opptak starte \"nå\", men verdien satt for \"Øyeblikkelig opptakstid\" vil bli brukt. [Ta opp en satt periode] vil sette en gitt periode som starter \"nå\", med verdien satt til \"Øyeblikkelig opptakstid\". [Spør hva skal gjøres] vil gi en dialogboks med valg om forskjellige hendelser å velge mellom, som \"Ta opp gjeldende serie\", \"Ta opp neste serie\" og noen satte opptaksperioder."
+
+msgctxt "#36255"
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Når satt vil både sanger og album artister vises. Dersom avslått vil bare album artister vises og artister som bare er på enkelte sanger skjules."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13548,10 +13572,6 @@ msgstr "Aktiver UPnP-klienten. Dette tillater deg å strømme innhold fra enhver
 msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "Aktiver UPnP-kontroll punk. Dette tillater deg å strømme innhold til enhver UPnP-klient å kontrollere avspillingen."
-
-msgctxt "#36327"
-msgid "This category contains the settings for how the web server service is handled."
-msgstr "Denne kategorien inneholder innstillinger for hvordan nettjeneren håndteres."
 
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
@@ -14185,9 +14205,149 @@ msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "Definer antall presentasjonsbuffere grafikkort driveren bruker. Velg 2 dersom driveren bruker dobbel buffering eller 3 for trippel buffering."
 
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "Farge administrasjon"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "Reproduser video fargene nøyaktig ved hjelp av en skjerm profil eller en 3D oppslagstabell."
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "Farge administrasjons modus"
+
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "Bruk en forhåndskalkulert 3D oppslags tabell for video farge korrigering, eller kalkuler transformeringen for hver video fra en profil for din skjerm. En forhåndskalkulert 3D oppslagstabell er preferert siden den alltid tar nytte av de avanserte egenskapene og høy nøyaktighet i ArgyllCMS. Skjerm profil basert korrigering er nyttig for testing av forskjellige parametere eller emulere skjer innstillinger som du ikke har en 3D LUT opprettet for."
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D LUT"
+
+msgctxt "#36565"
+msgid "TODO: 3D LUT filename description"
+msgstr "3D LUT filnavn beskrivelse"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "ICC skjerm profil"
+
+msgctxt "#36567"
+msgid "TODO: ICC display profile filename description"
+msgstr "ICC skjerm profil filnavn beskrivelse"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "Hvitpunkt"
+
+msgctxt "#36569"
+msgid "TODO: Whitepoint selection description"
+msgstr "Hvitpunkt valg beskrivelse"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "Primære"
+
+msgctxt "#36571"
+msgid "TODO: Primary coordinates description"
+msgstr "Primære koordinater beskrivelse"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "Gamma modus"
+
+msgctxt "#36573"
+msgid "TODO: Gamma mode description"
+msgstr "Gamma modus beskrivelse"
+
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
+
+msgctxt "#36575"
+msgid "TODO: Gamma description"
+msgstr "Gamma beskrivelse"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "Oppslagstabell størrelse"
+
+msgctxt "#36577"
+msgid "TODO: Lookup table size description"
+msgstr "Oppslagtabells størrelse beskrivelse"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "3D LUT fil"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "ICC Profil"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "Inngang tidsforskyvning"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "Utgang tidsforskyvning"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "Absolutter"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (standard)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (Japansk NTSC)"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "Automatisk"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
@@ -14628,10 +14788,6 @@ msgstr "[Savnet]"
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Seksjon som inneholder innstillinger for avspilling av media"
-
-msgctxt "#38101"
-msgid "Section that contains the settings for how media information is collected, stored, shown, and navigated"
-msgstr "Seksjon som inneholder innstillinger for hvordan mediainformasjon er samlet, lagret, vist og navigert"
 
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"

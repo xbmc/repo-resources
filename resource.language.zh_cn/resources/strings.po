@@ -2503,7 +2503,7 @@ msgstr "[B]视频[/B]组件详细日志"
 
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
-msgstr "[B]网站服务器[/B]组件详细日志"
+msgstr "[B]Web 服务器[/B]组件详细日志"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2916,6 +2916,14 @@ msgstr "一次"
 msgctxt "#821"
 msgid "One time (guide-based)"
 msgstr "一次（基于指南）"
+
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "定时器规则"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "定时器规则（基于指南）"
 
 msgctxt "#828"
 msgid "Timer rule deleted"
@@ -5181,6 +5189,10 @@ msgctxt "#13413"
 msgid "Downloading"
 msgstr "正在下载"
 
+msgctxt "#13414"
+msgid "Show song and album artists"
+msgstr "显示歌曲歌手和专辑歌手"
+
 msgctxt "#13415"
 msgid "Render method"
 msgstr "渲染模式"
@@ -5793,10 +5805,6 @@ msgctxt "#14093"
 msgid "Security"
 msgstr "安全"
 
-msgctxt "#14094"
-msgid "Input devices"
-msgstr "输入设备"
-
 msgctxt "#14095"
 msgid "Power saving"
 msgstr "省电模式"
@@ -6299,7 +6307,7 @@ msgstr "直接应用变动"
 
 msgctxt "#15065"
 msgid "No audio DSP modes available"
-msgstr "无可用音频DSP模式"
+msgstr "无可用音频 DSP 模式"
 
 msgctxt "#15066"
 msgid "Clear active modes"
@@ -6633,10 +6641,6 @@ msgctxt "#16039"
 msgid "Off"
 msgstr "关"
 
-msgctxt "#16040"
-msgid "Auto"
-msgstr "自动"
-
 msgctxt "#16041"
 msgid "On"
 msgstr "开"
@@ -6836,14 +6840,6 @@ msgstr "MMAL - 场内插值"
 msgctxt "#16333"
 msgid "MMAL - Bob (half)"
 msgstr "MMAL - 场内插值（半）"
-
-msgctxt "#16334"
-msgid "IMX - Fast motion"
-msgstr "IMX - 快速运动"
-
-msgctxt "#16335"
-msgid "IMX - Fast motion (double)"
-msgstr "IMX - 快速运动（倍速）"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -7209,9 +7205,37 @@ msgctxt "#19085"
 msgid "Unknown channel %u"
 msgstr "未知频道 %u"
 
+msgctxt "#19086"
+msgid "Instant recording action"
+msgstr "即时录像动作"
+
+msgctxt "#19087"
+msgid "Record current show (if guide data available)"
+msgstr "录制当前节目（如果指南数据可用）"
+
+msgctxt "#19088"
+msgid "Record for a fixed period of time (Instant recording duration)"
+msgstr "录制固定时长（即时录像时长）"
+
 msgctxt "#19089"
 msgid "Ask what to do"
 msgstr "询问操作"
+
+msgctxt "#19090"
+msgid "Record the next %d minutes"
+msgstr "录制下 %d 秒"
+
+msgctxt "#19091"
+msgid "Record current show (%s)"
+msgstr "录制当前节目（%s）"
+
+msgctxt "#19092"
+msgid "Record next show (%s)"
+msgstr "录制下一节目（%s）"
+
+msgctxt "#19093"
+msgid "Instant recording: %s"
+msgstr "即时录像：%s"
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -7545,10 +7569,6 @@ msgctxt "#19179"
 msgid "Deleted"
 msgstr "已删除"
 
-msgctxt "#19180"
-msgid "TV"
-msgstr "电视"
-
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "菜单/OSD"
@@ -7556,10 +7576,6 @@ msgstr "菜单/OSD"
 msgctxt "#19182"
 msgid "Days to display"
 msgstr "显示日"
-
-msgctxt "#19183"
-msgid "Radio"
-msgstr "电台"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
@@ -9773,6 +9789,10 @@ msgctxt "#20457"
 msgid "Movie set"
 msgstr "电影集"
 
+msgctxt "#20458"
+msgid "Show movie sets"
+msgstr "显示电影集"
+
 msgctxt "#20459"
 msgid "Tags"
 msgstr "标签"
@@ -9816,6 +9836,10 @@ msgstr "添加电影到新的电影集"
 msgctxt "#20469"
 msgid "Keep current set (%s)"
 msgstr "保持当前电影集（%s）"
+
+msgctxt "#20470"
+msgid "Include sets containing a single movie"
+msgstr "包括只有单部电影的电影集"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -11064,6 +11088,10 @@ msgstr "免责声明"
 msgctxt "#24053"
 msgid "License:"
 msgstr "许可证："
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "新的"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -13217,6 +13245,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "此功能区包含默认录像时长设置。"
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "按下录像按钮时即时录像的时长。当“即时录像动作”设置为“录制固定时长”时，此值起作用。"
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "录像的优先级，数值大表示优先级高。并非所有插件和后端都支持。"
@@ -13292,6 +13324,14 @@ msgstr "此选项针对你的 PVR 后端的特殊设置功能区，如果 PVR �
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "包含与音乐文件及其处理相关设置的区域。"
+
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "按下录像按钮执行的动作。[录制当前节目] 将录制当前节目，从当前时间到节目结束。如果没有可用的电视指南数据，则从当前时间录制固定时长。固定时长由“即时录像时长”设定。[录制固定时长] 将从当前时间录制固定时长。固定时长由“即时录像时长”设定。[询问操作] 将弹出包括不同录制动作选项的对话框，如“录制当前节目”、“录制下一节目”，以及一些固定录像时长。"
+
+msgctxt "#36255"
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "启用时，歌曲歌手和专辑歌手都将显示。禁用时，仅显示专辑歌手，只在单首歌曲中出现的歌手不显示。"
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13528,10 +13568,6 @@ msgstr "启用 UPnP 客户端。这将允许你通过一个控制点从任何 UP
 msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "启用 UPnP 控制点。这将允许你发送流媒体到任何 UPnP 客户端并控制它的播放。"
-
-msgctxt "#36327"
-msgid "This category contains the settings for how the web server service is handled."
-msgstr "此功能区包含 web 服务器服务处理相关设置。"
 
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
@@ -14165,9 +14201,113 @@ msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "定义图形驱动使用的显示缓冲区数。如果驱动使用双缓冲选择 2，使用三重缓冲选择 3。"
 
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "色彩管理"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "使用显示器配置文件或 3D 查找表准确重现色彩。"
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "色彩管理模式"
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D LUT"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "ICC 显示器配置文件"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "白点"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "伽码模式"
+
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "伽码"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "查找表大小"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "3D LUT 文件"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "ICC 配置文件"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "输入偏移"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "输出偏移"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "绝对"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65（标准）"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93（日本 NTSC）"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "自动"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV（BT.709）"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV（SMPTE C）"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953（BT.470 M）"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975（BT.470 B/G）"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988（SMPTE 240M）"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
@@ -14609,10 +14749,6 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "媒体播放相关设置区"
 
-msgctxt "#38101"
-msgid "Section that contains the settings for how media information is collected, stored, shown, and navigated"
-msgstr "媒体信息获取、存储、显示和浏览相关设置区"
-
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "图形用户界面体验和控制相关设置区"
@@ -14659,12 +14795,12 @@ msgstr "高清以上"
 
 msgctxt "#39001"
 msgid "Accelerate MPEG2"
-msgstr "MPEG2加速"
+msgstr "MPEG2 加速"
 
 msgctxt "#39002"
 msgid "Accelerate MPEG4"
-msgstr "MPEG4加速"
+msgstr "MPEG4 加速"
 
 msgctxt "#39003"
 msgid "Accelerate h264"
-msgstr "h.264加速"
+msgstr "h264 加速"
