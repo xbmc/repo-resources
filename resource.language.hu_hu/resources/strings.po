@@ -37,10 +37,6 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "Beállítások"
 
-msgctxt "#6"
-msgid "Kodi SVN"
-msgstr "Kodi SVN"
-
 msgctxt "#7"
 msgid "File manager"
 msgstr "Fájlkezelő"
@@ -1276,10 +1272,6 @@ msgstr "Eredeti hangerő megtartása lekeverés esetén"
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "Nagy felbontású DTS kompatibilis vevőkészülék"
-
-msgctxt "#348"
-msgid "Enable passthrough"
-msgstr "Hangtovábbítás engedélyezése"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -5397,6 +5389,14 @@ msgctxt "#13516"
 msgid "Add art"
 msgstr "Kép hozzáadása"
 
+msgctxt "#13517"
+msgid "Threshold for pitch correction"
+msgstr "Hangmagasság korrekciós küszöb"
+
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "A küszöb elérésekor a hangmagasság korrekciós szűrő bekapcsol. Ez megelőzi a felgyorsított videóknál a hangmagasság emelkedését."
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Késleltetés a képfrissítés cseréje után"
@@ -5805,6 +5805,10 @@ msgctxt "#14093"
 msgid "Security"
 msgstr "Biztonság"
 
+msgctxt "#14094"
+msgid "Devices"
+msgstr "Eszközök"
+
 msgctxt "#14095"
 msgid "Power saving"
 msgstr "Energiakezelés"
@@ -5925,6 +5929,10 @@ msgctxt "#14124"
 msgid "Region C"
 msgstr "C régió"
 
+msgctxt "#14125"
+msgid "Input"
+msgstr "Bemenet"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "Lejátszó"
@@ -5968,6 +5976,14 @@ msgstr "Rendszer beállítások"
 msgctxt "#14210"
 msgid "Profile settings"
 msgstr "Profil beállításai"
+
+msgctxt "#14211"
+msgid "Media"
+msgstr "Média"
+
+msgctxt "#14212"
+msgid "Media settings"
+msgstr "Média beállítások"
 
 msgctxt "#14215"
 msgid "Videos"
@@ -6013,6 +6029,10 @@ msgctxt "#14225"
 msgid "Network Control"
 msgstr "Hálózati vezérlő"
 
+msgctxt "#14226"
+msgid "Manage Sources"
+msgstr "Médiaforrások kezelése"
+
 msgctxt "#14230"
 msgid "Actions"
 msgstr "Műveletek"
@@ -6037,6 +6057,14 @@ msgctxt "#14235"
 msgid "Download Services"
 msgstr "Szolgáltatások letöltése"
 
+msgctxt "#14236"
+msgid "Video Library"
+msgstr "Videótár"
+
+msgctxt "#14237"
+msgid "Music Library"
+msgstr "Zenetár"
+
 msgctxt "#14240"
 msgid "Lists & Views"
 msgstr "Listák és nézetek"
@@ -6044,6 +6072,18 @@ msgstr "Listák és nézetek"
 msgctxt "#14241"
 msgid "Metadata"
 msgstr "Metaadatok"
+
+msgctxt "#14242"
+msgid "Videos..."
+msgstr "Videók..."
+
+msgctxt "#14243"
+msgid "Music..."
+msgstr "Zenék..."
+
+msgctxt "#14244"
+msgid "Pictures..."
+msgstr "Képek..."
 
 msgctxt "#14245"
 msgid "Update library on startup"
@@ -6761,10 +6801,6 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - Képélesség"
 
-msgctxt "#16314"
-msgid "Inverse telecine"
-msgstr "Fordított telecine konvertálás"
-
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - optimalizált"
@@ -6785,14 +6821,6 @@ msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
-msgctxt "#16320"
-msgid "DXVA - Bob"
-msgstr "DXVA - Bob"
-
-msgctxt "#16321"
-msgid "DXVA - Best"
-msgstr "DXVA - legjobb"
-
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6808,10 +6836,6 @@ msgstr "Szoftveres - vegyítés"
 msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
-
-msgctxt "#16326"
-msgid "DXVA-HD"
-msgstr "DXVA-HD"
 
 msgctxt "#16327"
 msgid "VAAPI - Bob"
@@ -6840,6 +6864,18 @@ msgstr "MMAL - Bob"
 msgctxt "#16333"
 msgid "MMAL - Bob (half)"
 msgstr "MMAL - Bob (felezett)"
+
+msgctxt "#16334"
+msgid "Bob (half)"
+msgstr "Bob (felezett)"
+
+msgctxt "#16335"
+msgid "IMX - Advanced (half)"
+msgstr "IMX - Haladó (felezett)"
+
+msgctxt "#16336"
+msgid "IMX - Advanced"
+msgstr "IMX - Haladó"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -7569,6 +7605,10 @@ msgctxt "#19179"
 msgid "Deleted"
 msgstr "Törölve"
 
+msgctxt "#19180"
+msgid "TV channels"
+msgstr "TV csatornák"
+
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Menü / OSD"
@@ -7576,6 +7616,10 @@ msgstr "Menü / OSD"
 msgctxt "#19182"
 msgid "Days to display"
 msgstr "Megjelenített napok"
+
+msgctxt "#19183"
+msgid "Radio channels"
+msgstr "Rádió csatornák"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
@@ -7801,6 +7845,10 @@ msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "A háttér végrehajtási szálak elindítása"
 
+msgctxt "#19241"
+msgid "View timer information"
+msgstr "Időzítiési információk"
+
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Időzítés szerkesztése"
@@ -7924,6 +7972,14 @@ msgstr "Nem található PVR kiegészítő"
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "Szüksége van egy tunerre, háttérkiszolgáló programra, és egy kiegészítőre a háttérkiszolgálóhoz, hogy a PVR funkciót használni tudja. Kérem látogassa meg a http://kodi.wiki/view/PVR weboldalt további információért."
+
+msgctxt "#19273"
+msgid "TV guide"
+msgstr "TV műsorújság"
+
+msgctxt "#19274"
+msgid "Radio guide"
+msgstr "Rádió kalauz"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -10189,10 +10245,6 @@ msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "Intelligens lejátszólista szerkesztése"
 
-msgctxt "#21433"
-msgid "Name of the playlist"
-msgstr "Lejátszólista neve"
-
 msgctxt "#21434"
 msgid "Find items where"
 msgstr "Elemek keresése, ahol"
@@ -11049,10 +11101,6 @@ msgctxt "#24043"
 msgid "Available updates"
 msgstr "Elérhető frissítések"
 
-msgctxt "#24044"
-msgid "Dependencies not met. Please contact add-on author."
-msgstr "A függőségek nem megfelelőek. Vegye fel a kapcsolatot a kiegészítő készítőjével."
-
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
 msgstr "A kiegészítő ZIP fájlból telepítése sikertelen"
@@ -11068,10 +11116,6 @@ msgstr "Ez a kiegészítő nem törölhető"
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "VideoPlayer bemeneti adatfolyama"
-
-msgctxt "#24049"
-msgid "Incompatible"
-msgstr "Nem kompatibilis"
 
 msgctxt "#24050"
 msgid "Available add-ons"
@@ -11869,14 +11913,6 @@ msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Ha forgalmi felhívás jön az RDS-től, akkor a hangerő megemelkedik"
 
-msgctxt "#29986"
-msgid "Publicate traffic messages"
-msgstr "Forgalmi üzenetek közzététele"
-
-msgctxt "#29987"
-msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
-msgstr "Forgalmi üzenetek körbeküldése, amelyeket a kiegészítők kezelhetnek (nem a Kodin belül)"
-
 msgctxt "#29988"
 msgid "Arrangers"
 msgstr "Rendezők"
@@ -12433,6 +12469,14 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Játékvezérlő profilok"
 
+msgctxt "#35051"
+msgid "Test rumble"
+msgstr "Teszt moraj"
+
+msgctxt "#35052"
+msgid "Activate the rumble motors of all controllers."
+msgstr "Aktiválja a rezgő motorokat minden vezérlőnél."
+
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Használja a billentyűzetet vagy a távirányítót a játékvezérlő profil kiválasztásához. Amikor megjelenik, nyomja meg azt a gombot a játékvezérlőn, amely a legjobban hasonlít ahhoz, amit lát a képernyőn. Ha hibát vét, akkor megismételheti a folyamatot."
@@ -12472,6 +12516,30 @@ msgstr "Csatlakoztatott játékvezérlők beállítása"
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Párosítsa a játékvezérlőit a különböző játékrendszerek bemeneti eszközeivel."
+
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr "Arc gombok"
+
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr "Váll gombok"
+
+msgctxt "#35076"
+msgid "Triggers"
+msgstr "Indítójelek"
+
+msgctxt "#35077"
+msgid "Analog sticks"
+msgstr "Analóg karok"
+
+msgctxt "#35088"
+msgid "Power off controllers on exit"
+msgstr "Kilépéskor kapcsolja ki a vezérlőket"
+
+msgctxt "#35089"
+msgid "Powers off any controller that supports it on exit."
+msgstr "Kapcsoljon ki minden vezérlőt, amely támogatja ezt kilépéskor."
 
 msgctxt "#35090"
 msgid "Press %s"
@@ -13573,6 +13641,10 @@ msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "UPnP vezérlőpont engedélyezése. Ez lehetővé teszi a médiák lejátszását és vezérlését minden UPnP ügyfélnek."
 
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service and the application control service is handled."
+msgstr "Ez a kategória a webszerver-szolgáltatás beállításait tartalmazza."
+
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
 msgstr "A távoli felhasználók irányíthatják az alkalmazást a beépített webkiszolgálón keresztül."
@@ -13728,10 +13800,6 @@ msgstr "Válassza ki ezt az opciót ha az erősítője képes a DTS hangsáv dek
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Válassza ki a dekódolt hangnak elérhető audiócsatornák / hangszórók maximális számát. Ha optikai / koax digitális kimenet van használatban, akkor ennek 2.0-nak kell lennie."
-
-msgctxt "#36368"
-msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
-msgstr "Hang átengedésének kiválasztása olyan kódolt formátumok esetén mint a Dolby Digital (AC3), DTS, stb."
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -14225,57 +14293,29 @@ msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D Keresőtábla"
 
-msgctxt "#36565"
-msgid "TODO: 3D LUT filename description"
-msgstr "Tennivaló: 3D Keresőtábla fájlnév leírása"
-
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "ICC kijelző profil"
-
-msgctxt "#36567"
-msgid "TODO: ICC display profile filename description"
-msgstr "Tennivaló: ICC kijelző profil fájlnév leírása"
 
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Fehérpont"
 
-msgctxt "#36569"
-msgid "TODO: Whitepoint selection description"
-msgstr "Tennivaló: Fehérpont kiválasztásának leírása"
-
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Elsődlegesek"
-
-msgctxt "#36571"
-msgid "TODO: Primary coordinates description"
-msgstr "Tennivaló: Elsődleges koordináták leírása"
 
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Gamma mód"
 
-msgctxt "#36573"
-msgid "TODO: Gamma mode description"
-msgstr "Tennivaló: Gamma mód leírása"
-
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
 
-msgctxt "#36575"
-msgid "TODO: Gamma description"
-msgstr "Tennivaló: Gamma leírása"
-
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Keresőtábla mérete"
-
-msgctxt "#36577"
-msgid "TODO: Lookup table size description"
-msgstr "Tennivaló: Keresőtábla méretének leírása"
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14428,6 +14468,14 @@ msgstr "Biztonsági okokból, az ismeretlen forrásból származó kiegészítő
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
 msgstr "A kiegészítők hozzáférést kapnak az eszközön található személyes adataihoz. Az engedélyezéssel beleegyezik, hogy egyedül Ön felelős bármilyen nemű adatvesztésért, nem kívánt működésért, vagy az eszközét érő károsodásért. Folytatja?"
+
+msgctxt "#36619"
+msgid "High quality downscaling"
+msgstr "Magas minőségű szoftveres leskálázás"
+
+msgctxt "#36620"
+msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
+msgstr "Magas minőségű fotók szoftveres leskálázásának engedélyezése (több memóriát használ és közepesen erőforrás igényes)"
 
 msgctxt "#36900"
 msgid "movie"
@@ -14789,6 +14837,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Ez a csoport a médialejátszással kapcsolatos beállításokat tartalmazza"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown, and navigated"
+msgstr "Ez a csoport tartalmazza azokat a beállításokat, melyek a médiainformációk beszerzését, tárolását és megjelenítését szabályozzák."
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Ez a csoport azokat a beállításokat tartalmazza, melyek a GUI élményt és a rendszer vezérlését befolyásolják."
@@ -14844,3 +14896,19 @@ msgstr "MPEG4 gyorsítás"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "h264 gyorsítás"
+
+msgctxt "#39004"
+msgid "This category contains provides access to the windows for source management and the Library settings for the databases"
+msgstr "Ez a kategória az adatbázis kezelésével kapcsolatos beállításokat tartalmazza"
+
+msgctxt "#39005"
+msgid "This provides access to where video sources can be added and otherwise managed."
+msgstr "Hozzáférést biztosít a filmek forrás beállításaihoz"
+
+msgctxt "#39006"
+msgid "This provides access to where music sources can be added and otherwise managed."
+msgstr "Hozzáférést biztosít a zenék forrás beállításaihoz"
+
+msgctxt "#39007"
+msgid "This provides access to where picture sources can be added and otherwise managed."
+msgstr "Hozzáférést biztosít a képek forrás beállításaihoz"

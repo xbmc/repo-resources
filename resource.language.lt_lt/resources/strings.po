@@ -37,10 +37,6 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "Nustatymai"
 
-msgctxt "#6"
-msgid "Kodi SVN"
-msgstr "Kodi SVN"
-
 msgctxt "#7"
 msgid "File manager"
 msgstr "Failų tvarkyklė"
@@ -1277,10 +1273,6 @@ msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "DTS-HD palaikantis imtuvas"
 
-msgctxt "#348"
-msgid "Enable passthrough"
-msgstr "Įjungti tranzitinį perdavimą"
-
 msgctxt "#349"
 msgid "TrueHD capable receiver"
 msgstr "TrueHD palaikantis imtuvas"
@@ -1627,7 +1619,7 @@ msgstr "Reikalingas optinių diskų įrenginys, norint atkurti šį vaizdo įra�
 
 msgctxt "#437"
 msgid "Removable disk"
-msgstr "Keičiamasis diskas"
+msgstr "Išorinis diskas"
 
 msgctxt "#438"
 msgid "Opening file"
@@ -4555,7 +4547,7 @@ msgstr "Ar norite išlaikyti šį pakeitimą?"
 
 msgctxt "#13112"
 msgid "High quality upscaling"
-msgstr "Aukštos kokybės raiškos keitimas"
+msgstr "Aukštos kokybės raiškos didinimas"
 
 msgctxt "#13113"
 msgid "Disabled"
@@ -5397,6 +5389,14 @@ msgctxt "#13516"
 msgid "Add art"
 msgstr "Pridėti iliustraciją"
 
+msgctxt "#13517"
+msgid "Threshold for pitch correction"
+msgstr "Garsų aukščio korekcijos riba"
+
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "Kai greičio pokytis viršys šią ribą, bus pritaikytas garsų aukščio korekcijos filtras. Tai leis išvengti \"burundukų balsų\" efekto, kuris paprastai atsiranda pagreitinus atkūrimą."
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Uždelsimas po skleistinės dažnio keitimo"
@@ -5805,6 +5805,10 @@ msgctxt "#14093"
 msgid "Security"
 msgstr "Apsauga"
 
+msgctxt "#14094"
+msgid "Devices"
+msgstr "Įrenginiai"
+
 msgctxt "#14095"
 msgid "Power saving"
 msgstr "Energijos taupymas"
@@ -5925,6 +5929,10 @@ msgctxt "#14124"
 msgid "Region C"
 msgstr "Regionas C"
 
+msgctxt "#14125"
+msgid "Input"
+msgstr "Įvestis"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "Grotuvas"
@@ -5968,6 +5976,14 @@ msgstr "Sistemos nustatymai"
 msgctxt "#14210"
 msgid "Profile settings"
 msgstr "Profilio nustatymai"
+
+msgctxt "#14211"
+msgid "Media"
+msgstr "Medija"
+
+msgctxt "#14212"
+msgid "Media settings"
+msgstr "Medijos nustatymai"
 
 msgctxt "#14215"
 msgid "Videos"
@@ -6013,6 +6029,10 @@ msgctxt "#14225"
 msgid "Network Control"
 msgstr "Tinklo valdymas"
 
+msgctxt "#14226"
+msgid "Manage Sources"
+msgstr "Tvarkyti šaltinius"
+
 msgctxt "#14230"
 msgid "Actions"
 msgstr "Veiksmai"
@@ -6037,6 +6057,14 @@ msgctxt "#14235"
 msgid "Download Services"
 msgstr "Atsisiuntimo paslaugos"
 
+msgctxt "#14236"
+msgid "Video Library"
+msgstr "Vaizdo biblioteka"
+
+msgctxt "#14237"
+msgid "Music Library"
+msgstr "Muzikos biblioteka"
+
 msgctxt "#14240"
 msgid "Lists & Views"
 msgstr "Sąrašai ir rodiniai"
@@ -6044,6 +6072,18 @@ msgstr "Sąrašai ir rodiniai"
 msgctxt "#14241"
 msgid "Metadata"
 msgstr "Metaduomenys"
+
+msgctxt "#14242"
+msgid "Videos..."
+msgstr "Vaizdo įrašai..."
+
+msgctxt "#14243"
+msgid "Music..."
+msgstr "Muzika..."
+
+msgctxt "#14244"
+msgid "Pictures..."
+msgstr "Nuotraukos..."
 
 msgctxt "#14245"
 msgid "Update library on startup"
@@ -6761,10 +6801,6 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - Ryškumas"
 
-msgctxt "#16314"
-msgid "Inverse telecine"
-msgstr "Atvirkštinis Telecine"
-
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - Optimizuotas"
@@ -6785,14 +6821,6 @@ msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
-msgctxt "#16320"
-msgid "DXVA - Bob"
-msgstr "DXVA - Bob"
-
-msgctxt "#16321"
-msgid "DXVA - Best"
-msgstr "DXVA - Geriausias"
-
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6808,10 +6836,6 @@ msgstr "Programinė įranga - Sulieti"
 msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
-
-msgctxt "#16326"
-msgid "DXVA-HD"
-msgstr "DXVA-HD"
 
 msgctxt "#16327"
 msgid "VAAPI - Bob"
@@ -6840,6 +6864,18 @@ msgstr "MMAL - Bob"
 msgctxt "#16333"
 msgid "MMAL - Bob (half)"
 msgstr "MMAL - Bob (pusė)"
+
+msgctxt "#16334"
+msgid "Bob (half)"
+msgstr "Bob (pusė)"
+
+msgctxt "#16335"
+msgid "IMX - Advanced (half)"
+msgstr "IMX - Išplėstinis (pusė)"
+
+msgctxt "#16336"
+msgid "IMX - Advanced"
+msgstr "IMX - Išplėstinis"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -7569,6 +7605,10 @@ msgctxt "#19179"
 msgid "Deleted"
 msgstr "Pašalintas"
 
+msgctxt "#19180"
+msgid "TV channels"
+msgstr "TV kanalai"
+
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Meniu / OSD"
@@ -7576,6 +7616,10 @@ msgstr "Meniu / OSD"
 msgctxt "#19182"
 msgid "Days to display"
 msgstr "Rodyti dienų"
+
+msgctxt "#19183"
+msgid "Radio channels"
+msgstr "Radijo kanalai"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
@@ -7801,6 +7845,10 @@ msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "Paleidžiamos foninės gijos"
 
+msgctxt "#19241"
+msgid "View timer information"
+msgstr "Peržiūrėti laikmačio imformaciją"
+
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Redaguoti laikmatį"
@@ -7924,6 +7972,14 @@ msgstr "Nerasta jokių PVR priedų"
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "Jums reikia imtuvo, posistemės programinės įrangos ir priedo, kad posistemė galėtų naudoti PVR funkciją. Apsilankykite http://kodi.wiki/view/PVR, norėdami sužinoti daugiau."
+
+msgctxt "#19273"
+msgid "TV guide"
+msgstr "TV gidas"
+
+msgctxt "#19274"
+msgid "Radio guide"
+msgstr "Radijo gidas"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -10155,15 +10211,15 @@ msgstr "Nauja taisyklė..."
 
 msgctxt "#21424"
 msgid "Items must match"
-msgstr "Elementai turi sutapti pagal"
+msgstr "Turi atitikti"
 
 msgctxt "#21425"
 msgid "all of the rules"
-msgstr "visas taisykles"
+msgstr "visos taisyklės"
 
 msgctxt "#21426"
 msgid "one or more of the rules"
-msgstr "vieną ar daugiau taisyklių"
+msgstr "viena ar daugiau taisyklių"
 
 msgctxt "#21427"
 msgid "Limit to"
@@ -10189,10 +10245,6 @@ msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "Redaguoti išmanųjį grojaraštį"
 
-msgctxt "#21433"
-msgid "Name of the playlist"
-msgstr "Grojaraščio pavadinimas"
-
 msgctxt "#21434"
 msgid "Find items where"
 msgstr "Rasti elementus, kurių"
@@ -10207,7 +10259,7 @@ msgstr "%i elementų"
 
 msgctxt "#21437"
 msgid "New smart playlist..."
-msgstr "Naujas išmanusis grojaraštis..."
+msgstr "Naujas išmanusis grojaraštis"
 
 msgctxt "#21438"
 msgid "%c Drive"
@@ -11049,10 +11101,6 @@ msgctxt "#24043"
 msgid "Available updates"
 msgstr "Galimi atnaujinimai"
 
-msgctxt "#24044"
-msgid "Dependencies not met. Please contact add-on author."
-msgstr "Priklausomybės netenkinamos. Susisiekite su priedo autoriumi."
-
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
 msgstr "Nepavyko įdiegti priedo iš zip failo"
@@ -11068,10 +11116,6 @@ msgstr "Šio priedo negalima išdiegti"
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "VideoPlayer InputStream"
-
-msgctxt "#24049"
-msgid "Incompatible"
-msgstr "Nesuderinamas"
 
 msgctxt "#24050"
 msgid "Available add-ons"
@@ -11869,14 +11913,6 @@ msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Garsumas bus padidintas, kai RDS perduoda eismo patarimus"
 
-msgctxt "#29986"
-msgid "Publicate traffic messages"
-msgstr "Publikuoti eismo pranešimus"
-
-msgctxt "#29987"
-msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
-msgstr "Siųsti esamo eismo žinutes, kurios gali būti apdorojamos iš priedų (ne Kodi viduje)"
-
 msgctxt "#29988"
 msgid "Arrangers"
 msgstr "Aranžuotojai"
@@ -12433,6 +12469,14 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Valdiklių profiliai"
 
+msgctxt "#35051"
+msgid "Test rumble"
+msgstr "Išbandyti vibraciją"
+
+msgctxt "#35052"
+msgid "Activate the rumble motors of all controllers."
+msgstr "Aktyvuoti visų valdiklių vibracijos varikliukus."
+
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Naudokite klaviatūrą ar nuotolinio valdymo pultą norėdami pasirinkti valdiklio profilį. Kai būsite paprašyti, paspauskite mygtuką žaidimų valdiklyje, kuris geriausiai atitinka tai ką matote ekrane. Jei padarysite klaidą, galite pakartoti procesą."
@@ -12472,6 +12516,30 @@ msgstr "Konfigūruoti prijungtus valdiklius"
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Suporuokite savo valdiklius su įvairiais skirtingų žaidimų sistemų įvesties įrenginiais."
+
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr "Priekiniai mygtukai"
+
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr "Šoniniai mygtukai"
+
+msgctxt "#35076"
+msgid "Triggers"
+msgstr "Gaidukai"
+
+msgctxt "#35077"
+msgid "Analog sticks"
+msgstr "Analoginės svirtys"
+
+msgctxt "#35088"
+msgid "Power off controllers on exit"
+msgstr "Išjungti valdiklius išeinant"
+
+msgctxt "#35089"
+msgid "Powers off any controller that supports it on exit."
+msgstr "Išeinant išjungia visus valdiklius, kurie tai palaiko."
 
 msgctxt "#35090"
 msgid "Press %s"
@@ -13573,6 +13641,10 @@ msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "Įjungti UPnP valdymo tašką. Tai leis perduoti media srautą į bet kurį UPnP klientą ir valdyti jo atkūrimą."
 
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service and the application control service is handled."
+msgstr "Šioje kategorijoje yra nustatymai, skirti žiniatinklio serverio ir programos valdymo paslaugų tvarkymui."
+
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
 msgstr "Leisti nutolusiems vartotojams valdyti šią programą, naudojant integruotą žiniatinklio serverį."
@@ -13728,10 +13800,6 @@ msgstr "Pasirinkite šią parinktį, jei jūsų imtuvas gali dekoduoti DTS sraut
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Pasirinkite maksimalų galimų garso kanalų / garsiakalbių skaičių dekoduotam garsui. Jei naudojami optiniai / koaksaliniai skaitmeniniai išėjimai, tai reikia pasirinkti 2.0"
-
-msgctxt "#36368"
-msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
-msgstr "Pasirinkite norėdami įjungti tranzitinio garso perdavimo parinktis koduoto garso atkūrimui, tokio kaip Dolby Digital (AC3), DTS ir kt."
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -14401,6 +14469,14 @@ msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
 msgstr "Priedams bus suteikta prieiga prie asmeninių duomenų saugomų šiame įrenginyje. Leisdami diegimą, jūs sutinkate, kad esate pats atsakingas dėl bet kokio duomenų praradimo, nepageidautinos elgsenos ar įrenginiui padarytos žalos. Tęsti?"
 
+msgctxt "#36619"
+msgid "High quality downscaling"
+msgstr "Aukštos kokybės raiškos mažinimas"
+
+msgctxt "#36620"
+msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
+msgstr "Įjungti aukštos kokybės paveikslėlių raiškos mažinimą (naudoja daugiau atminties ir nestipriai įtakoja našumą)."
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "filmas"
@@ -14761,6 +14837,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Skyrius, kuriame yra media įrašų atkūrimo nustatymai"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown, and navigated"
+msgstr "Skyrius, kuriame yra nustatymai, skirti šaltinių tvarkymui bei media įrašų informacijos surinkimui, saugojimui, atvaizdavimui ir naršymui"
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Skyrius, kuriame yra nustatymai, turintys įtakos vartotojo sąsajos elgsenai ir vartotojo sąsajos/sistemos valdymui"
@@ -14816,3 +14896,19 @@ msgstr "Spartinti MPEG4"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Spartinti h264"
+
+msgctxt "#39004"
+msgid "This category contains provides access to the windows for source management and the Library settings for the databases"
+msgstr "Ši kategorija suteikia prieigą prie šaltinių valdymo lango ir bibliotekos duomenų bazių nustatymų."
+
+msgctxt "#39005"
+msgid "This provides access to where video sources can be added and otherwise managed."
+msgstr "Tai suteikia prieigą prie vietos, kur galima pridėti ir kitaip valdyti vaizdo įrašų šaltinius."
+
+msgctxt "#39006"
+msgid "This provides access to where music sources can be added and otherwise managed."
+msgstr "Tai suteikia prieigą prie vietos, kur galima pridėti ir kitaip valdyti muzikos šaltinius."
+
+msgctxt "#39007"
+msgid "This provides access to where picture sources can be added and otherwise managed."
+msgstr "Tai suteikia prieigą prie vietos, kur galima pridėti ir kitaip valdyti nuotraukų šaltinius."

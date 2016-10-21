@@ -37,10 +37,6 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "Impostazioni"
 
-msgctxt "#6"
-msgid "Kodi SVN"
-msgstr "Kodi SVN"
-
 msgctxt "#7"
 msgid "File manager"
 msgstr "Gestore File"
@@ -1276,10 +1272,6 @@ msgstr "Mantieni volume originale nel downmix"
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "Ricevitore compatibile DTS-HD"
-
-msgctxt "#348"
-msgid "Enable passthrough"
-msgstr "Abilita Passthrough"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -4443,7 +4435,7 @@ msgstr "Spegni Sistema"
 
 msgctxt "#13017"
 msgid "Inhibit idle shutdown"
-msgstr "Impedisci spegnimento per inattività"
+msgstr "Impedisci spegn. per inattività"
 
 msgctxt "#13018"
 msgid "Allow idle shutdown"
@@ -4555,7 +4547,7 @@ msgstr "Vuoi mantenere questi cambiamenti?"
 
 msgctxt "#13112"
 msgid "High quality upscaling"
-msgstr "Ridimensionamento ad alta qualità"
+msgstr "Upscaling ad alta qualità"
 
 msgctxt "#13113"
 msgid "Disabled"
@@ -4571,7 +4563,7 @@ msgstr "Sempre abilitato"
 
 msgctxt "#13116"
 msgid "Upscaling method"
-msgstr "Modalità di ridimensionamento"
+msgstr "Metodo ridimensionamento"
 
 msgctxt "#13117"
 msgid "Bicubic"
@@ -5397,6 +5389,14 @@ msgctxt "#13516"
 msgid "Add art"
 msgstr "Aggiungi immagine"
 
+msgctxt "#13517"
+msgid "Threshold for pitch correction"
+msgstr "Soglia per correzione pitch"
+
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "Quando il cambiamento di velocità supera questa soglia, sarà applicato un filtro correggi-pitch. Ciò evita le \"voci chipmonk\" che normalmente sono il risultato dell'accelerare un video."
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Ritardo dopo cambiamento frequenza agg."
@@ -5805,6 +5805,10 @@ msgctxt "#14093"
 msgid "Security"
 msgstr "Sicurezza"
 
+msgctxt "#14094"
+msgid "Devices"
+msgstr "Dispositivi"
+
 msgctxt "#14095"
 msgid "Power saving"
 msgstr "Risparmio energetico"
@@ -5925,6 +5929,10 @@ msgctxt "#14124"
 msgid "Region C"
 msgstr "Regione C"
 
+msgctxt "#14125"
+msgid "Input"
+msgstr "Input"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "Lettore"
@@ -5968,6 +5976,14 @@ msgstr "Impostazioni Sistema"
 msgctxt "#14210"
 msgid "Profile settings"
 msgstr "Impostazioni profilo"
+
+msgctxt "#14211"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "#14212"
+msgid "Media settings"
+msgstr "Impostazioni Media"
 
 msgctxt "#14215"
 msgid "Videos"
@@ -6013,6 +6029,10 @@ msgctxt "#14225"
 msgid "Network Control"
 msgstr "Controllo Rete"
 
+msgctxt "#14226"
+msgid "Manage Sources"
+msgstr "Gestisci Sorgenti"
+
 msgctxt "#14230"
 msgid "Actions"
 msgstr "Azioni"
@@ -6037,6 +6057,14 @@ msgctxt "#14235"
 msgid "Download Services"
 msgstr "Servizi Download"
 
+msgctxt "#14236"
+msgid "Video Library"
+msgstr "Libreria Video"
+
+msgctxt "#14237"
+msgid "Music Library"
+msgstr "Libreria Musicale"
+
 msgctxt "#14240"
 msgid "Lists & Views"
 msgstr "Liste & Viste"
@@ -6044,6 +6072,18 @@ msgstr "Liste & Viste"
 msgctxt "#14241"
 msgid "Metadata"
 msgstr "Metadati"
+
+msgctxt "#14242"
+msgid "Videos..."
+msgstr "Video..."
+
+msgctxt "#14243"
+msgid "Music..."
+msgstr "Musica..."
+
+msgctxt "#14244"
+msgid "Pictures..."
+msgstr "Immagini..."
 
 msgctxt "#14245"
 msgid "Update library on startup"
@@ -6761,10 +6801,6 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - Nitidezza"
 
-msgctxt "#16314"
-msgid "Inverse telecine"
-msgstr "Telecine inverso"
-
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - Ottimizzato"
@@ -6785,14 +6821,6 @@ msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
-msgctxt "#16320"
-msgid "DXVA - Bob"
-msgstr "DXVA - Bob"
-
-msgctxt "#16321"
-msgid "DXVA - Best"
-msgstr "DXVA - Migliore"
-
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6808,10 +6836,6 @@ msgstr "Software - Allunga"
 msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
-
-msgctxt "#16326"
-msgid "DXVA-HD"
-msgstr "DXVA-HD"
 
 msgctxt "#16327"
 msgid "VAAPI - Bob"
@@ -6840,6 +6864,18 @@ msgstr "MMAL - Bob"
 msgctxt "#16333"
 msgid "MMAL - Bob (half)"
 msgstr "MMAL - Bob (metà)"
+
+msgctxt "#16334"
+msgid "Bob (half)"
+msgstr "Bob (metà)"
+
+msgctxt "#16335"
+msgid "IMX - Advanced (half)"
+msgstr "IMX - Avanzato (metà)"
+
+msgctxt "#16336"
+msgid "IMX - Advanced"
+msgstr "IMX - Avanzato"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -7569,6 +7605,10 @@ msgctxt "#19179"
 msgid "Deleted"
 msgstr "Cancellato"
 
+msgctxt "#19180"
+msgid "TV channels"
+msgstr "Canali TV"
+
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Menù / OSD"
@@ -7576,6 +7616,10 @@ msgstr "Menù / OSD"
 msgctxt "#19182"
 msgid "Days to display"
 msgstr "Giorni da mostrare"
+
+msgctxt "#19183"
+msgid "Radio channels"
+msgstr "Canali radio"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
@@ -7801,6 +7845,10 @@ msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "Avvio processi in background"
 
+msgctxt "#19241"
+msgid "View timer information"
+msgstr "Vedi informazioni timer"
+
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Modifica Timer"
@@ -7924,6 +7972,14 @@ msgstr "Nessun Add-on PVR trovato"
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "Ti serve un sintonizzatore, un software backend, e un Add-on per il backend per poter usare il PVR. Visita http://kodi.wiki/view/PVR per saperne di più."
+
+msgctxt "#19273"
+msgid "TV guide"
+msgstr "Guida TV"
+
+msgctxt "#19274"
+msgid "Radio guide"
+msgstr "Guida Radio"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -10189,10 +10245,6 @@ msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "Modifica Smart Playlist"
 
-msgctxt "#21433"
-msgid "Name of the playlist"
-msgstr "Nome della Playlist"
-
 msgctxt "#21434"
 msgid "Find items where"
 msgstr "Trova gli elementi che combaciano"
@@ -11049,10 +11101,6 @@ msgctxt "#24043"
 msgid "Available updates"
 msgstr "Aggiornamenti disponibili"
 
-msgctxt "#24044"
-msgid "Dependencies not met. Please contact add-on author."
-msgstr "Requisiti non soddisfatti. Per favore contatta l'autore dell'Add-on."
-
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
 msgstr "Installazione Add-on da file Zip fallita"
@@ -11068,10 +11116,6 @@ msgstr "Questo Add-on non può essere disinstallato"
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "InputStream VideoPlayer"
-
-msgctxt "#24049"
-msgid "Incompatible"
-msgstr "Incompatibile"
 
 msgctxt "#24050"
 msgid "Available add-ons"
@@ -11869,14 +11913,6 @@ msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Se viene mandato un avviso traffico dall'RDS, il volume sarà aumentato."
 
-msgctxt "#29986"
-msgid "Publicate traffic messages"
-msgstr "Pubblica messaggi traffico"
-
-msgctxt "#29987"
-msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
-msgstr "Invia nei paraggi messaggi del traffico attuale e può essere gestito da Add-on (nulla all'interno di KODI)"
-
 msgctxt "#29988"
 msgid "Arrangers"
 msgstr "Arrangiatori"
@@ -12433,6 +12469,14 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Profili Controller"
 
+msgctxt "#35051"
+msgid "Test rumble"
+msgstr "Prova vibrazione"
+
+msgctxt "#35052"
+msgid "Activate the rumble motors of all controllers."
+msgstr "Attiva i motorini di vibrazione di tutti i controller."
+
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Usa la tastiera o il telecomando per selezionare un profilo Controller. Quando richiesto, premi il tasto sul tuo Controller di gioco che corrisponde meglio a ciò che vedi sullo schermo. Se fai un errore puoi ripetere il processo."
@@ -12472,6 +12516,30 @@ msgstr "Configura Controller connessi"
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Accoppia i tuoi controller con i vari dispositivi di input di diverse piattaforme di gioco."
+
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr "Pulsanti frontali"
+
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr "Pulsanti dorsali"
+
+msgctxt "#35076"
+msgid "Triggers"
+msgstr "Grilletti"
+
+msgctxt "#35077"
+msgid "Analog sticks"
+msgstr "Stick analogici"
+
+msgctxt "#35088"
+msgid "Power off controllers on exit"
+msgstr "Spegni controller all'uscita"
+
+msgctxt "#35089"
+msgid "Powers off any controller that supports it on exit."
+msgstr "Spegne ogni controller che lo supporti all'uscita."
 
 msgctxt "#35090"
 msgid "Press %s"
@@ -13573,6 +13641,10 @@ msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "Abilita il punto di controllo UPnP. Questo ti permette di trasmettere elementi a ogni client UPnP e controllarne la riproduzione."
 
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service and the application control service is handled."
+msgstr "Categoria contenente le impostazioni sulla gestione del servizio web server e del servizio di controllo applicazione."
+
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
 msgstr "Permetti agli utenti remoti di controllare questa applicazione attraverso il server web integrato."
@@ -13728,10 +13800,6 @@ msgstr "Scegli questa opzione se il tuo ricevitore è in grado di decodificare i
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Seleziona il numero massimo di canali audio / altoparlanti disponibili per l'audio decodificato. Se si utilizzano le uscite digitali ottiche / coassiali questo deve essere impostato a 2.0"
-
-msgctxt "#36368"
-msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
-msgstr "Seleziona per abilitare le opzioni audio passthrough per la riproduzione di audio codificato come Dolby Digital (AC3), DTS, ecc."
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -14225,57 +14293,29 @@ msgctxt "#36564"
 msgid "3D LUT"
 msgstr "LUT 3D"
 
-msgctxt "#36565"
-msgid "TODO: 3D LUT filename description"
-msgstr "DA FARE: descrizione nome file 3D LUT"
-
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "Profilo display ICC"
-
-msgctxt "#36567"
-msgid "TODO: ICC display profile filename description"
-msgstr "DA FARE: descrizione nome file display ICC"
 
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Punto bianco"
 
-msgctxt "#36569"
-msgid "TODO: Whitepoint selection description"
-msgstr "DA FARE: descrizione selezione Whitepoint"
-
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Primari"
-
-msgctxt "#36571"
-msgid "TODO: Primary coordinates description"
-msgstr "DA FARE: descrizione coordinate primarie"
 
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Modalità gamma"
 
-msgctxt "#36573"
-msgid "TODO: Gamma mode description"
-msgstr "DA FARE: descrizione modalità Gamma"
-
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
 
-msgctxt "#36575"
-msgid "TODO: Gamma description"
-msgstr "DA FARE: descrizione Gamma"
-
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Dimensione lookup table"
-
-msgctxt "#36577"
-msgid "TODO: Lookup table size description"
-msgstr "DA FARE: Descrizione dimensione lookup table"
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14428,6 +14468,14 @@ msgstr "Per sicurezza, l'installazione di Add-on da sorgenti sconosciute è disa
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
 msgstr "Agli Add-on sarà consentito l'accesso a dati personali salvati su questo dispositivo. Permettendolo, confermi di essere l'unico responsabile per ogni perdita di dati, comportamenti anomali, o danni al tuo dispositivo. Procedo?"
+
+msgctxt "#36619"
+msgid "High quality downscaling"
+msgstr "Downscaling ad alta qualità"
+
+msgctxt "#36620"
+msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
+msgstr "Abilita il rimpicciolimento ad alta qualità delle immagini (usa più memoria e ha un moderato impatto sulle prestazioni)."
 
 msgctxt "#36900"
 msgid "movie"
@@ -14789,6 +14837,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sezione contenente le impostazioni per la riproduzione dei contenuti"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown, and navigated"
+msgstr "Sezione contenente le impostazioni per come le informazioni multimediali sono raccolte, salvate, mostrate e sfogliate."
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Sezione contenente le impostazioni che influenzano l'esperienza della GUI e per controllare il dispositivo/GUI."
@@ -14844,3 +14896,19 @@ msgstr "Accelerazione MPEG4"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Accelerazione h264"
+
+msgctxt "#39004"
+msgid "This category contains provides access to the windows for source management and the Library settings for the databases"
+msgstr "Categoria che fornisce accesso alle finestre per la gestione delle sorgenti e le impostazioni della Libreria per i database."
+
+msgctxt "#39005"
+msgid "This provides access to where video sources can be added and otherwise managed."
+msgstr "Fornisce accesso a dove possono essere aggiunte le sorgenti video e altrimenti gestite."
+
+msgctxt "#39006"
+msgid "This provides access to where music sources can be added and otherwise managed."
+msgstr "Fornisce accesso a dove possono essere aggiunte le sorgenti musicali e altrimenti gestite."
+
+msgctxt "#39007"
+msgid "This provides access to where picture sources can be added and otherwise managed."
+msgstr "Fornisce accesso a dove possono essere aggiunte le sorgenti immagini e altrimenti gestite."

@@ -37,10 +37,6 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "ตั้งค่า"
 
-msgctxt "#6"
-msgid "Kodi SVN"
-msgstr "Kodi SVN"
-
 msgctxt "#7"
 msgid "File manager"
 msgstr "จัดการแฟ้ม"
@@ -1276,10 +1272,6 @@ msgstr "รักษาระดับความดัง เมื่อร�
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "ตัวรับที่สนับสนุน DTS-HD"
-
-msgctxt "#348"
-msgid "Enable passthrough"
-msgstr "เปิดใช้ การส่งผ่านเสียง"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -5397,6 +5389,14 @@ msgctxt "#13516"
 msgid "Add art"
 msgstr "เพิ่ม งานศิลป์"
 
+msgctxt "#13517"
+msgid "Threshold for pitch correction"
+msgstr "ช่วงสำหรับการแก้ไขระดับเสียง"
+
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "เมื่อมีการเปลี่ยนแปลงความเร็วเกินช่วงนี้ ตัวกรองการแก้ไขระดับเสียงจะถูกใช้ เพื่อหลีกเลี่ยง \"เสียงกระแต\" ที่เป็นผลปกติมาจากการเร่งความเร็ววิดีโอ"
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "หน่วงเวลาหลังจากเปลี่ยนอัตรารีเฟรช"
@@ -5805,6 +5805,10 @@ msgctxt "#14093"
 msgid "Security"
 msgstr "ความปลอดภัย"
 
+msgctxt "#14094"
+msgid "Devices"
+msgstr "อุปกรณ์"
+
 msgctxt "#14095"
 msgid "Power saving"
 msgstr "ประหยัดพลังงาน"
@@ -5925,6 +5929,10 @@ msgctxt "#14124"
 msgid "Region C"
 msgstr "ภูมิภาค C"
 
+msgctxt "#14125"
+msgid "Input"
+msgstr "ขาเข้า"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "ตัวเล่น"
@@ -5968,6 +5976,14 @@ msgstr "การตั้งค่าระบบ"
 msgctxt "#14210"
 msgid "Profile settings"
 msgstr "การตั้งค่า ข้อมูลส่วนตัว"
+
+msgctxt "#14211"
+msgid "Media"
+msgstr "สื่อ"
+
+msgctxt "#14212"
+msgid "Media settings"
+msgstr "การตั้งค่าสื่อ"
 
 msgctxt "#14215"
 msgid "Videos"
@@ -6013,6 +6029,10 @@ msgctxt "#14225"
 msgid "Network Control"
 msgstr "ควบคุมเครือข่าย"
 
+msgctxt "#14226"
+msgid "Manage Sources"
+msgstr "จัดการแหล่งข้อมูล"
+
 msgctxt "#14230"
 msgid "Actions"
 msgstr "การกระทำ"
@@ -6037,6 +6057,14 @@ msgctxt "#14235"
 msgid "Download Services"
 msgstr "ดาวน์โหลดส่วนบริการ"
 
+msgctxt "#14236"
+msgid "Video Library"
+msgstr "คลังข้อมูลวิดีโอ"
+
+msgctxt "#14237"
+msgid "Music Library"
+msgstr "คลังข้อมูลเพลง"
+
 msgctxt "#14240"
 msgid "Lists & Views"
 msgstr "รายการ & มุมมอง"
@@ -6044,6 +6072,18 @@ msgstr "รายการ & มุมมอง"
 msgctxt "#14241"
 msgid "Metadata"
 msgstr "ข้อมูลเมต้า"
+
+msgctxt "#14242"
+msgid "Videos..."
+msgstr "วิดีโอ..."
+
+msgctxt "#14243"
+msgid "Music..."
+msgstr "เพลง..."
+
+msgctxt "#14244"
+msgid "Pictures..."
+msgstr "รูปภาพ..."
 
 msgctxt "#14245"
 msgid "Update library on startup"
@@ -6761,10 +6801,6 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - ความคมชัด"
 
-msgctxt "#16314"
-msgid "Inverse telecine"
-msgstr "เทเลซีน ย้อนกลับ"
-
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - อย่างเหมาะสม"
@@ -6785,14 +6821,6 @@ msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
-msgctxt "#16320"
-msgid "DXVA - Bob"
-msgstr "DXVA - Bob"
-
-msgctxt "#16321"
-msgid "DXVA - Best"
-msgstr "DXVA - ดีที่สุด"
-
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6808,10 +6836,6 @@ msgstr "ซอฟแวร์ - ผสม"
 msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
-
-msgctxt "#16326"
-msgid "DXVA-HD"
-msgstr "DXVA-HD"
 
 msgctxt "#16327"
 msgid "VAAPI - Bob"
@@ -6840,6 +6864,18 @@ msgstr "MMAL - Bob"
 msgctxt "#16333"
 msgid "MMAL - Bob (half)"
 msgstr "MMAL - Bob (ครึ่ง)"
+
+msgctxt "#16334"
+msgid "Bob (half)"
+msgstr "Bob (ครึ่ง)"
+
+msgctxt "#16335"
+msgid "IMX - Advanced (half)"
+msgstr "IMX - ขั้นสูง (ครึ่ง)"
+
+msgctxt "#16336"
+msgid "IMX - Advanced"
+msgstr "IMX - ขั้นสูง"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -7569,6 +7605,10 @@ msgctxt "#19179"
 msgid "Deleted"
 msgstr "ลบแล้ว"
 
+msgctxt "#19180"
+msgid "TV channels"
+msgstr "ช่อง ทีวี"
+
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "เมนู / OSD"
@@ -7576,6 +7616,10 @@ msgstr "เมนู / OSD"
 msgctxt "#19182"
 msgid "Days to display"
 msgstr "วันที่จะแสดง"
+
+msgctxt "#19183"
+msgid "Radio channels"
+msgstr "ช่อง วิทยุ"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
@@ -7801,6 +7845,10 @@ msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "กำลังเริ่มการทำงานเบื้องหลัง"
 
+msgctxt "#19241"
+msgid "View timer information"
+msgstr "ดูรายละเอียดตัวตั้งเวลา"
+
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "แก้ไขการตั้งเวลา"
@@ -7924,6 +7972,14 @@ msgstr "ไม่มีส่วนเสริม PVR ที่สามาร�
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "คุณจำเป็นต้องมี จูนเนอร์, โปรแกรมส่วนหลัง, และส่วนเสริมสำหรับส่วนหลังเพื่อให้ใช้งาน PVR ได้ โปรดดูที่ http://kodi.wiki/view/PVR เพื่อศึกษาเพิ่มเติม"
+
+msgctxt "#19273"
+msgid "TV guide"
+msgstr "ตารางทีวี"
+
+msgctxt "#19274"
+msgid "Radio guide"
+msgstr "ผังวิทยุ"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -10189,10 +10245,6 @@ msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "แก้ไขรายการเล่น"
 
-msgctxt "#21433"
-msgid "Name of the playlist"
-msgstr "ชื่อของรายการเล่น"
-
 msgctxt "#21434"
 msgid "Find items where"
 msgstr "ค้นหารายการ"
@@ -10380,6 +10432,14 @@ msgstr "ดำเนินการ"
 msgctxt "#21480"
 msgid "Use"
 msgstr "ใช้"
+
+msgctxt "#21481"
+msgid "Audio track count"
+msgstr "นับแทร็กเสียง"
+
+msgctxt "#21482"
+msgid "Subtitle track count"
+msgstr "นับแทร็กคำบรรยาย"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -10881,6 +10941,10 @@ msgctxt "#24003"
 msgid "Add-on information"
 msgstr "ข้อมูล ส่วนเสริม"
 
+msgctxt "#24004"
+msgid "Recently updated"
+msgstr "ที่เพิ่งอัพเดต"
+
 msgctxt "#24005"
 msgid "Media sources"
 msgstr "แหล่งข้อมูลสื่อ"
@@ -11037,10 +11101,6 @@ msgctxt "#24043"
 msgid "Available updates"
 msgstr "ที่มีการปรับรุ่น"
 
-msgctxt "#24044"
-msgid "Dependencies not met. Please contact add-on author."
-msgstr "ไม่พบส่วนที่ต้องใช้ร่วมกัน โปรดติดต่อเจ้าของ ส่วนเสริม"
-
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
 msgstr "ล้มเหลวในการติดตั้งส่วนเสริมจากแฟ้ม zip"
@@ -11053,9 +11113,9 @@ msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "ส่วนเสริมนี้ ไม่สามารถถอนการติดตั้ง"
 
-msgctxt "#24049"
-msgid "Incompatible"
-msgstr "ไม่รองรับ"
+msgctxt "#24048"
+msgid "VideoPlayer InputStream"
+msgstr "สตรีมขาเข้า ตัวเล่นวิดีโอ"
 
 msgctxt "#24050"
 msgid "Available add-ons"
@@ -11072,6 +11132,10 @@ msgstr "ปฏิเสธ"
 msgctxt "#24053"
 msgid "License:"
 msgstr "ลิขสิทธิ์:"
+
+msgctxt "#24054"
+msgid "What's new"
+msgstr "มีอะไรใหม่"
 
 msgctxt "#24055"
 msgid "Check for updates"
@@ -11453,6 +11517,14 @@ msgctxt "#24994"
 msgid "Running"
 msgstr "กำลังดำเนินการ"
 
+msgctxt "#24995"
+msgid "Orphaned"
+msgstr "ไร้ประโยชน์"
+
+msgctxt "#24996"
+msgid "Manage dependencies"
+msgstr "จัดการส่วนต้องใช้ร่วม"
+
 msgctxt "#24997"
 msgid "Look and feel"
 msgstr "ลักษณะและความรู้สึก"
@@ -11508,6 +11580,18 @@ msgstr "เมนูของบลูเรย์นี้ ไม่รอง�
 msgctxt "#25010"
 msgid "Chapter %u"
 msgstr "บทที่ %u"
+
+msgctxt "#25011"
+msgid "Commercial"
+msgstr "เชิงพาณิชย์"
+
+msgctxt "#25012"
+msgid "Auto-skip off"
+msgstr "ปิด ข้าม-อัตโนมัติ"
+
+msgctxt "#25013"
+msgid "Auto-skip on"
+msgstr "เปิด ข้าม-อัตโนมัติ"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -11829,13 +11913,33 @@ msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "หากการแนะนำจราจรถูกส่งจาก RDS, ระดับเสียงจะถูกเพิ่ม"
 
-msgctxt "#29986"
-msgid "Publicate traffic messages"
-msgstr "ข้อความจราจรสาธารณะ"
+msgctxt "#29988"
+msgid "Arrangers"
+msgstr "ผู้เรียบเรียงดนตรี"
 
-msgctxt "#29987"
-msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
-msgstr "ส่งข้อความการจราจรในปัจจุบันออกไป และสามารถจัดการได้จากส่วนเสริม (ไม่มีอะไรภายใน Kodi)"
+msgctxt "#29989"
+msgid "Composers"
+msgstr "ผู้ประพันธ์เพลง"
+
+msgctxt "#29990"
+msgid "Conductors"
+msgstr "วาทยกร"
+
+msgctxt "#29991"
+msgid "DJ Mixers"
+msgstr "ดีเจ มิกเซอร์"
+
+msgctxt "#29992"
+msgid "Lyricists"
+msgstr "ผู้แต่งคำร้อง"
+
+msgctxt "#29993"
+msgid "Orchestras"
+msgstr "วงออเคสตรา"
+
+msgctxt "#29994"
+msgid "Roles"
+msgstr "ตำแหน่ง"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -12329,6 +12433,10 @@ msgctxt "#35003"
 msgid "Generic disk"
 msgstr "ดิสก์ทั่วไป"
 
+msgctxt "#35004"
+msgid "There are no settings available for this peripheral."
+msgstr "ไม่มีการตั้งค่าสำหรับอุปกรณ์ต่อพ่วงนี้"
+
 msgctxt "#35005"
 msgid "New device configured"
 msgstr "อุปกรณ์ใหม่ กำหนดค่าแล้ว"
@@ -12349,6 +12457,130 @@ msgctxt "#35009"
 msgid "Don't use the custom keymap for this device"
 msgstr "ไม่ใช้ ผังปุ่มกดที่กำหนดเอง สำหรับอุปกรณ์นี้"
 
+msgctxt "#35010"
+msgid "Peripheral libraries"
+msgstr "คลังข้อมูลอุปกรณ์ต่อพ่วง"
+
+msgctxt "#35049"
+msgid "Game add-ons"
+msgstr "ส่วนเสริมเกมส์"
+
+msgctxt "#35050"
+msgid "Controller profiles"
+msgstr "โปรไฟล์ ตัวควบคุม"
+
+msgctxt "#35051"
+msgid "Test rumble"
+msgstr "ทดสอบการสั่น"
+
+msgctxt "#35052"
+msgid "Activate the rumble motors of all controllers."
+msgstr "เปิดใช้มอเตอร์ส้่นของทุกตัวควบคุม"
+
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "ใช้แป้นพิมพ์หรือรีโมตเพื่อเลือกโปรไฟล์ตัวควบคุม เมื่อได้รับการแจ้ง ให้กดปุ่มบนตัวควบคุมเกมของคุณที่ตรงกับสิ่งที่คุณเห็นบนหน้าจอ ถ้าคุณพลาด คุณสามารถทำตามขั้นตอนซ้ำได้"
+
+msgctxt "#35056"
+msgid "Joystick support not found"
+msgstr "ไม่พบจอยสติ๊กที่รองรับ"
+
+msgctxt "#35057"
+msgid "Controller configuration is disabled. Install the proper joystick support add-on."
+msgstr "การกำหนดค่าตัวควบคุมถูกปิดใช้งาน ให้ติดตั้งส่วนเสริมการรองรับจอยสติ๊กที่เหมาะสม"
+
+msgctxt "#35058"
+msgid "Controller Configuration"
+msgstr "การกำหนดค่าตัวควบคุม"
+
+msgctxt "#35059"
+msgid "Buttons"
+msgstr "ปุ่มกด"
+
+msgctxt "#35060"
+msgid "Reset controller profile"
+msgstr "คืนค่า โปรไฟล์ ตัวควบคุม"
+
+msgctxt "#35061"
+msgid "Would you like to reset this controller profile for all attached devices?"
+msgstr "คุณต้องการที่จะคืนค่าโปรไฟล์ตัวควบคุมนี้ สำหรับอุปกรณ์ที่เชื่อมต่ออยู่ทั้งหมดหรือไม่?"
+
+msgctxt "#35062"
+msgid "All available controller profiles are installed."
+msgstr "โปรไฟล์ตัวควบคุมที่มีอยู่ทั้งหมดได้ถูกติดตั้ง"
+
+msgctxt "#35063"
+msgid "Configure attached controllers"
+msgstr "กำหนดค่าตัวควบคุมที่เชื่อมต่ออยู่"
+
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "จับคู่ตัวควบคุมของคุณ ด้วยอุปกรณ์ป้อนข้อมูลต่างๆ ของระบบเกมที่แตกต่างกัน"
+
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr "ปุ่มหน้า"
+
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr "ปุ่มบนไหล่"
+
+msgctxt "#35076"
+msgid "Triggers"
+msgstr "ไกปืน"
+
+msgctxt "#35077"
+msgid "Analog sticks"
+msgstr "แกนอนาล็อก"
+
+msgctxt "#35088"
+msgid "Power off controllers on exit"
+msgstr "ปิดตัวควบคุมเมื่อออก"
+
+msgctxt "#35089"
+msgid "Powers off any controller that supports it on exit."
+msgstr "ปิดตัวควบคุมใดๆ ที่สนับสนุนมัน เมื่อออก"
+
+msgctxt "#35090"
+msgid "Press %s"
+msgstr "กด %s"
+
+msgctxt "#35091"
+msgid "Press %s (%d)"
+msgstr "กด %s (%d)"
+
+msgctxt "#35092"
+msgid "Move %s up"
+msgstr "เลื่อน %s ชึ้น"
+
+msgctxt "#35093"
+msgid "Move %s up (%d)"
+msgstr "เลื่อน %s ขึ้น (%d)"
+
+msgctxt "#35094"
+msgid "Move %s down"
+msgstr "เลื่อน %s ลง"
+
+msgctxt "#35095"
+msgid "Move %s down (%d)"
+msgstr "เลื่อน %s ลง (%d)"
+
+msgctxt "#35096"
+msgid "Move %s right"
+msgstr "เลื่อน %s ขวา"
+
+msgctxt "#35097"
+msgid "Move %s right (%d)"
+msgstr "เลื่อน %s ขวา (%d)"
+
+msgctxt "#35098"
+msgid "Move %s left"
+msgstr "Move %s ซ้าย"
+
+msgctxt "#35099"
+msgid "Move %s left (%d)"
+msgstr "เลื่อน %s ซ้าย (%d)"
+
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
 msgstr "เปิดใช้การรองรับจอยสติ๊กและเกมส์แพด"
@@ -12356,6 +12588,26 @@ msgstr "เปิดใช้การรองรับจอยสติ๊ก
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "ปิดใช้งานจอยสติ๊ก เมื่อค้นพบอุปกรณ์นี้"
+
+msgctxt "#35505"
+msgid "Server is unreachable."
+msgstr "เซิร์ฟเวอร์ไม่สามารถเข้าถึง"
+
+msgctxt "#35506"
+msgid "Server does not respond properly."
+msgstr "เซิร์ฟเวอร์ไม่ตอบสนองอย่างถูกต้อง"
+
+msgctxt "#35507"
+msgid "Server version is not compatible."
+msgstr "รุ่นของเซิร์ฟเวอร์เข้ากันไม่ได้"
+
+msgctxt "#35508"
+msgid "Access denied."
+msgstr "ปฏิเสธการเข้าใช้"
+
+msgctxt "#35509"
+msgid "Connecting to backend."
+msgstr "เชื่อมต่อไปยังส่วนหลัง"
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -12485,6 +12737,10 @@ msgctxt "#36033"
 msgid "Action when switching to another source"
 msgstr "การกระทำเมื่อทำการสลับไปยังแหล่งข้อมูลอื่น"
 
+msgctxt "#36034"
+msgid "Connection established"
+msgstr "การเชื่อมต่อได้ถูกสร้างขึ้น"
+
 msgctxt "#36035"
 msgid "Always"
 msgstr "เสมอ"
@@ -12517,6 +12773,10 @@ msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "ใช้เฉดสีแบบจำกัด (16-235)"
 
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "จำนวนของบัฟเฟอร์ที่ถูกใช้โดยไดร์เวอร์กราฟิค"
+
 msgctxt "#36044"
 msgid "Stop Playback"
 msgstr "หยุดทำการเล่น"
@@ -12524,6 +12784,14 @@ msgstr "หยุดทำการเล่น"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "เล่นหยุดชั่วคราว"
+
+msgctxt "#36099"
+msgid "Dithering"
+msgstr "การเกลื่ย"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "ความลึกการเกลื่ย"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12604,6 +12872,10 @@ msgstr "ค่าเริ่มต้นในการเลือกภาษ
 msgctxt "#36120"
 msgid "Defaults to the selected subtitle language if more than one language is available."
 msgstr "ค่าเริ่มต้นในการเลือกภาษาของคำบรรยาย ถ้ามีอยู่มากกว่าหนึ่งภาษา"
+
+msgctxt "#36121"
+msgid "This category contains the settings for how media lists are displayed."
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับรายการสื่อที่จะแสดง"
 
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
@@ -12733,6 +13005,10 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "ปรับกระบวนการที่ใช้ ในการประมวลผลและแสดงผลวิดีโอ."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "ใช้ตัวปรับขนาดคุณภาพสูงเมื่อขยายขนาดวิดีโอโดยอย่างน้อยร้อยละเท่านี้ ค่าต่ำกว่า 5% ให้มีความรู้สึกเล็กน้อย ซึ่งจะวิดีโอมีการประมวลผลด้วยการโหลดกราฟิคสูง โดยไม่ปรับปรุงคุณภาพของภาพที่สังเกตุได้"
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "เปิดใช้งาน การถอดรหัสด้วยฮาร์ดแวร์ VDPAU ของแฟ้มวิดีโอ, ส่วนใหญ่จะใช้สำหรับกราฟิก NVIDIA และบางกรณีในกราฟิก AMD."
@@ -12753,6 +13029,10 @@ msgctxt "#36159"
 msgid "Enable CrystalHD decoding of video files."
 msgstr "เปิดใช้งาน การถอดรหัสด้วย CrystalHD สำหรับแฟ้มวิดีโอ."
 
+msgctxt "#36160"
+msgid "Enable VTB hardware decoding of video files."
+msgstr "เปิดใช้งาน การถอดรหัสด้วยฮาร์ดแวร์ VTB สำหรับแฟ้มวิดีโอ."
+
 msgctxt "#36161"
 msgid "Enable OpenMax hardware decoding of video files."
 msgstr "เปิดใช้งาน การถอดรหัสด้วยฮาร์ดแวร์ OpenMax สำหรับแฟ้มวิดีโอ."
@@ -12768,6 +13048,14 @@ msgstr "แสดงรายการทีวีที่ไม่มีตอ
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "ยินยอมให้เปลี่ยนอัตราการรีเฟรชของจอแสดงผล ให้เข้ากันกับเฟรมเรตของวิดีโอ. ซึ่งอาจทำให้การเล่นวิดีโอลื่นไหลยิ่งขึ้น."
+
+msgctxt "#36165"
+msgid "Delay of reset event after a change of refresh rate"
+msgstr "หน่วงเวลาการเริ่มค่าใหม่หลังจากเปลี่ยนอัตรารีเฟรช"
+
+msgctxt "#36166"
+msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgstr "ผสานภาพและเสียงไปสู่อัตราการรีเฟรชของจอภาพ ตัวเล่นวิดีโอจะไม่ใช้เสียงส่งผ่านในกรณีนี้ เพราะการเปลี่ยนอัตราสุ่มอาจจำเป็นต้องใช้"
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -12868,6 +13156,10 @@ msgstr "ตั้งค่าไดเรกทอรีที่กำหนด
 msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "ตำแหน่งของคำบรรยาย บนหน้าจอ."
+
+msgctxt "#36193"
+msgid "This category contains the settings for how DVD's, Blu-ray, & CD's are handled."
+msgstr "หมวดหมู่นี้มีการตั้งค่าสำหรับกระบวนการที่ ดีวีดี บลูเรย์ และแผ่นซีดี จะถูกจัดการ"
 
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
@@ -13025,6 +13317,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "หมวดหมู่นี้ประกอบด้วย การปรับแต่งค่าเริ่มต้นของระยะเวลาการบันทึก"
 
+msgctxt "#36234"
+msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
+msgstr "ระยะเวลาของการบันทึกทันทีเมื่อมีการกดปุ่มบันทึก ค่านี้จะถูกนำไปใช้กับบัญชี ถ้า \"การกระทำบันทึกทันที\" ถูกตั้งค่าเป็น \"บันทึกเป็นระยะเวลาคงที่\""
+
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
 msgstr "ลำดับความสำคัญของการบันทึก ตัวเลขที่มากขึ้นหมายถึงลำดับความสำคัญสูงกว่า ไม่ได้รับการสนับสนุนโดยส่วนเสริมและส่วนหลังทั้งหมด"
@@ -13100,6 +13396,14 @@ msgstr "ตัวเลือกนี้จะนำคุณไปสู่ก
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "ส่วนที่มีการตั้งค่า ซึ่งเกี่ยวข้องกับแฟ้มเพลงและวิธีการจัดการ."
+
+msgctxt "#36254"
+msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
+msgstr "การกระทำที่จะดำเนินการเมื่อมีการกดปุ่มบันทึก [บันทึกรายการปัจจุบัน] จะบันทึกรายการปัจจุบันจาก \"ตอนนี้\" ไปจนจบรายการ ถ้าไม่มีข้อมูลผังทีวีในปัจจุบัน การบันทึกระยะเวลาคงที่จะถูกใช้ \"ตอนนี้\" ด้วยค่าที่ตั้งไว้สำหรับ \"ระยะเวลาการบันทึกทันที\" จะถูกดำเนินการ [บันทึกเป็นระยะเวลาคงที่] จะดำเนินการบันทึกความยาวคงที่เริ่มต้น \"ตอนนี้\" ด้วยค่าที่ตั้งไว้สำหรับ \"ระยะเวลาการบันทึกทันที\" [ถามว่าจะทำอะไร] จะเปิดกล่องโต้ตอบที่มีการดำเนินการบันทึกที่แตกต่างกันให้เลือก เช่น \"บันทึกรายการปัจจุบัน\", \"บันทึกรายการถัดไป\" และบางการบันทึกในช่วงเวลาคงที่"
+
+msgctxt "#36255"
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "เมื่อเปิดใช้งาน ทั้งศิลปินเพลงและอัลบั้มจะถูกแสดง เมื่อปิดการใช้งาน เพียงศิลปินอัลบั้มจะถูกแสดง และศิลปินที่ปรากฏเฉพาะในแต่ละเพลงจากอัลบั้มจะถูกยกเว้น"
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13293,6 +13597,10 @@ msgctxt "#36315"
 msgid "Section that contains weather related settings."
 msgstr "ส่วนการตั้งค่าสภาพอากาศ"
 
+msgctxt "#36316"
+msgid "This category contains the settings for how the weather service is handled."
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับวิธีการที่บริการสภาพอากาศจะถูกจัดการ"
+
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "เลือกได้ถึงสามตำแหน่งพื้นที่ สำหรับสภาพอากาศที่สามารถแสดงผลได้."
@@ -13300,6 +13608,10 @@ msgstr "เลือกได้ถึงสามตำแหน่งพื้
 msgctxt "#36318"
 msgid "Specify the default weather information source. See the add-ons manager for options."
 msgstr "กำหนดค่าเริ่มต้นของแหล่งข้อมูลสภาพอากาศ ดูตัวเลือกในตัวจัดการส่วนเสริม"
+
+msgctxt "#36319"
+msgid "Section containing settings for how services are handled."
+msgstr "ส่วนที่มีการตั้งค่าสำหรับวิธีการที่บริการจะถูกจัดการ"
 
 msgctxt "#36320"
 msgid "This category contains the settings used for all services."
@@ -13328,6 +13640,10 @@ msgstr "เปิดใช้งานลูกข่าย UPnP จะช่ว
 msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "เปิดใช้งานจุดควบคุม UPnP ซึ่งจะทำให้คุณสามารถส่งสื่อของคุณ ไปยังลูกข่าย UPnP อื่นๆ และควบคุมการเล่นของมัน"
+
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service and the application control service is handled."
+msgstr "หมวดหมู่นี้มีการตั้งค่า สำหรับวิธีการที่บริการเว็บเซิร์ฟเวอร์และการบริการการควบคุมแอพลิเคชันจะถูกจัดการ"
 
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
@@ -13484,10 +13800,6 @@ msgstr "เลือกตัวเลือกนี้ ถ้าเครื�
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "เลือกจำนวนสูงสุดของช่องสัญญาณเสียง / ลำโพง ที่มีอยู่ เพื่อถอดรหัสเสียง ถ้าใช้การส่งออกสัญญาณดิจิตอล optical / coax ตรงนี้ต้องกำหนดเป็น 2.0"
-
-msgctxt "#36368"
-msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
-msgstr "เลือกเพื่อเปิดใช้งานตัวเลือกส่งผ่านเสียง สำหรับเล่นกลับเสียงที่เข้ารหัส อย่างเช่น Dolby Digital (AC3), DTS, อื่นๆ"
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -13705,6 +14017,10 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "เปิดใช้งานการถอดรหัสวิดีโอด้วยฮาร์ดแวร์ โดยใช้ตัวถอดรหัส Amlogic"
 
+msgctxt "#36423"
+msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "กฎตั้งเวลาจะบันทึกเพียงตอนใหม่ ไม่ได้รับการสนับสนุนโดยส่วนเสริมและส่วนหลังทุกตัว"
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
 msgstr "เลือกสิ่งที่จะเกิดขึ้นเมื่อมีการเลือกรายการในผัง [แสดงเมนูตามเนื้อหา] จะเรียกเมนูตามเนื้อหาจากตำแหน่งที่คุณสามารถเลือกดำเนินการต่อไป; [สลับไปยังช่อง] จะเปลี่ยนไปยังช่องที่เกี่ยวข้องทันที [แสดงข้อมูล] จะแสดงข้อมูลรายละเอียดที่มีเรื่องย่อและตัวเลือกถัดไป [บันทึก] จะสร้างตัวตั้งเวลาการบันทึกสำหรับรายการที่เลือก"
@@ -13749,6 +14065,10 @@ msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
 msgstr "อนุญาตให้เร่งฮาร์ดแวร์ - MMAL"
 
+msgctxt "#36435"
+msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
+msgstr "ใช้ ตัวเล่นวิดีโอ สำหรับการถอดรหัสไฟล์วิดีโอ ด้วยการเร่งความเร็ว MMAL"
+
 msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "ตัวจัดการ DSP เสียง"
@@ -13772,6 +14092,10 @@ msgstr "ทำการลบ ทุกการตั้งค่าของ�
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
 msgstr "เปิดใช้งาน การประมวลผล DSP เสียง"
+
+msgctxt "#36442"
+msgid "Set the number of volume control steps."
+msgstr "กำหนดจำนวนของระดับขั้นการปรับเสียง"
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -13945,9 +14269,133 @@ msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
 msgstr "กำหนดความแรงของผลภาพแยก 3 มิติ ในส่วนติดต่อผู้ใช้ ซึ่งทำโดยการควบคุมความลึกของการรับรู้ภายใน GUI ดังนั้นค่าที่สูงขึ้น องค์ประกอบจะนูนออกจากหน้าจอมากขึ้น [ศูนย์] ปิดการใช้งานผลภาพแยก 3 มิติของ GUI [CR] สำหรับประสบการณ์ภาพดี ค่าควรจะสูงสำหรับหน้าจอขนาดเล็กและต่ำกว่าสำหรับหน้าจอขนาดใหญ่ หมายเหตุ: นี่อาจไม่ได้รับการสนับสนุนจากสกินทั้งหมด"
 
+msgctxt "#36552"
+msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
+msgstr "กำหนดจำนวนบัฟเฟอร์ที่ถูกนำเสนอโดยใช้ไดรเวอร์กราฟิก เลือก 2 ถ้าไดรเวอร์ใช้บัฟเฟอร์คู่ หรือ 3 สำหรับบัฟเฟอร์สาม"
+
+msgctxt "#36560"
+msgid "Colour management"
+msgstr "การจัดการสี"
+
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "ทำใหม่สีวิดีโอให้ถูกต้องโดยใช้โปรไฟล์จอแสดงผลหรือตารางมุมมอง 3 มิติ"
+
+msgctxt "#36562"
+msgid "Colour management mode"
+msgstr "โหมดการจัดการสี"
+
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "ใช้การประมวลผลก่อนตารางมุมมอง 3 มิติ สำหรับการแก้ไขสีวิดีโอ, หรือการคำนวณการแปลงค่าสีสำหรับแต่ละวิดีโอจากโปรไฟล์การแสดงผลของคุณ การประมวลผลก่อนตารางมุมมอง 3 มิติ เป็นจะถูกใช้เพื่อช่วยให้คุณสามารถใช้ประโยชน์จากคุณลักษณะขั้นสูงและความแม่นยำสูงใน ArgyllCMS โปรไฟล์หลักความถูกต้องการแสดงผลเป็นประโยชน์สำหรับการทดสอบพารามิเตอร์ที่แตกต่างกัน, หรือจำลองแบบการตั้งค่าแสดงผล ที่คุณไม่ได้เตรียมไว้สำหรับ LUT 3D"
+
+msgctxt "#36564"
+msgid "3D LUT"
+msgstr "3D LUT"
+
+msgctxt "#36566"
+msgid "ICC display profile"
+msgstr "ICC โปรไฟล์การแสดงผล"
+
+msgctxt "#36568"
+msgid "Whitepoint"
+msgstr "จุดขาว"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "เบื้องต้น"
+
+msgctxt "#36572"
+msgid "Gamma mode"
+msgstr "โหมดความเข้ม"
+
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "ความเข้มจาง"
+
+msgctxt "#36576"
+msgid "Lookup table size"
+msgstr "ขนาดตารางมุมมอง"
+
+msgctxt "#36580"
+msgid "3D LUT file"
+msgstr "แฟ้ม 3D LUT"
+
+msgctxt "#36581"
+msgid "ICC Profile"
+msgstr "โปรไฟล์ ICC"
+
+msgctxt "#36582"
+msgid "BT.1886"
+msgstr "BT.1886"
+
+msgctxt "#36583"
+msgid "Input offset"
+msgstr "เลื่อนเวลาป้อนข้อมูล"
+
+msgctxt "#36584"
+msgid "Output offset"
+msgstr "เลื่อนเวลาส่งข้อมูล"
+
+msgctxt "#36585"
+msgid "Absolute"
+msgstr "โดยสมบูรณ์"
+
+msgctxt "#36586"
+msgid "D65 (standard)"
+msgstr "D65 (มาตรฐาน)"
+
+msgctxt "#36587"
+msgid "D93 (Japanese NTSC)"
+msgstr "D93 (NTSC ญี่ปุ่น)"
+
+msgctxt "#36588"
+msgid "Automatic"
+msgstr "อัตโนมัติ"
+
+msgctxt "#36589"
+msgid "HDTV (BT.709)"
+msgstr "HDTV (BT.709)"
+
+msgctxt "#36590"
+msgid "SDTV (SMPTE C)"
+msgstr "SDTV (SMPTE C)"
+
+msgctxt "#36591"
+msgid "NTSC 1953 (BT.470 M)"
+msgstr "NTSC 1953 (BT.470 M)"
+
+msgctxt "#36592"
+msgid "PAL/SECAM 1975 (BT.470 B/G)"
+msgstr "PAL/SECAM 1975 (BT.470 B/G)"
+
+msgctxt "#36593"
+msgid "HDTV 1988 (SMPTE 240M)"
+msgstr "HDTV 1988 (SMPTE 240M)"
+
+msgctxt "#36594"
+msgid "16x16x16"
+msgstr "16x16x16"
+
+msgctxt "#36595"
+msgid "64x64x64"
+msgstr "64x64x64"
+
+msgctxt "#36596"
+msgid "256x256x256"
+msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "%1.2f"
+msgstr "%1.2f"
+
+msgctxt "#36598"
+msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
+msgstr "กำจัดแถบที่เกิดจากการแปลงระดับ RGB หรือการประมวลผลอื่น ๆ โดยการเพิ่มจุดรบกวนจำนวนเล็กน้อยไปยังภาพ ซึ่งสามารถปิดใช้งานสำหรับระบบที่ช้า หรือเมื่อ Kodi ถูกตั้งค่าการส่งออกในช่วง RGB จำกัด และไม่มีการประมวลผลวิดีโอที่จำเป็น"
+
+msgctxt "#36599"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "สัญญาณส่งออกการเกลี่ยสีวิดีโอ ด้วยความแม่นยำในบิต ใช้การตั้งค่าสูงสุดที่จะไม่แสดงแถบสี เริ่มต้นจาก 8 เป็นที่แนะนำสำหรับระบบส่วนใหญ่ หากจีพียูของคุณตั้งค่าที่จะขยายระดับ RGB ของสัญญาณออก หรือคุณใช้หน้าจอแล็ปท็อป, การตั้งค่าที่ 7 หรือ 6 บิต อาจกำจัดแถบสีเพิ่มเติม การตั้งค่าที่ต่ำกว่าที่มีอยู่เพื่อการทดสอบเท่านั้น เพื่อที่จะทำให้ง่ายที่จะเห็นว่าเกลี่ยสีวิดีโอถูกนำไปใช้ และขนาดของจุดรบกวนที่เหมาะกับความละเอียดของการแสดงผล"
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -13961,9 +14409,73 @@ msgctxt "#36602"
 msgid "This category contains the settings for how the AirPlay service is handled."
 msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับวิธีจัดการ บริการ AirPlay"
 
+msgctxt "#36603"
+msgid "This category contains the settings for displays."
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับจอแสดงผล"
+
 msgctxt "#36605"
 msgid "Updates"
 msgstr "อัพเดต"
+
+msgctxt "#36606"
+msgid "Install updates automatically"
+msgstr "ติดตั้งการปรับรุ่น โดยอัตโนมัติ"
+
+msgctxt "#36607"
+msgid "Notify, but don't install updates"
+msgstr "แจ้งเตือน, แต่ไม่ต้องติดตั้งการปรับรุ่น"
+
+msgctxt "#36608"
+msgid "Never check for updates"
+msgstr "ไม่ต้องตรวจสอบเพื่อปรับรุ่น"
+
+msgctxt "#36609"
+msgid "Show notifications"
+msgstr "แสดงการแจ้งเตือน"
+
+msgctxt "#36610"
+msgid "This category contains settings for the add-on system."
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับระบบส่วนเสริม"
+
+msgctxt "#36611"
+msgid "Change how auto updating of add-ons are handled."
+msgstr "เปลี่ยนวิธีที่การปรับรุ่นอัตโนมัติของ ส่วนเสริม จะถูกจัดการ"
+
+msgctxt "#36612"
+msgid "Show notification when an add-on have been updated."
+msgstr "แสดงการแจ้งเตือนเมื่อ ส่วนเสริม ได้รับการปรับรุ่น"
+
+msgctxt "#36613"
+msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
+msgstr "จัดการโมดูลและคลังข้อมูลที่สนับสนุน ซึ่งรับการติดตั้งโดยอัตโนมัติเมื่อจำเป็นต้องใช้ร่วมกับส่วนเสริมอื่น รายการที่ระบุไว้ว่าเป็น \"ไร้ประโยขน์\" ซึ่งไม่มีความต้องการโดยส่วนเสริมใดๆ และมีความปลอดภัยในการถอนการติดตั้ง"
+
+msgctxt "#36614"
+msgid "Show add-ons that are currently running in the background."
+msgstr "แสดง ส่วนเสริม ที่ตอนนี้กำลังทำงานในเบื้องหลัง"
+
+msgctxt "#36615"
+msgid "Unknown sources"
+msgstr "แหล่งที่ไม่รู้จัก"
+
+msgctxt "#36616"
+msgid "Allow installation of add-ons from unknown sources."
+msgstr "อนุญาตการติดตั้ง ส่วนเสริม จากแหล่งที่ไม่รู้จัก"
+
+msgctxt "#36617"
+msgid "For security, installation of add-ons from unknown sources is disabled."
+msgstr "เพื่อความปลอดภัย, การติดตั้ง ส่วนเสริม จากแหล่งที่ไม่รู้จัก จะถูกปิดการใช้งาน"
+
+msgctxt "#36618"
+msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
+msgstr "ส่วนเสริมจะสามารถเข้าถึงข้อมูลที่จัดเก็บไว้ในอุปกรณ์นี้ ด้วยความยินยอม คุณยอมรับว่าคุณต้องรับผิดชอบต่อการสูญเสียใด ๆ ของข้อมูล, พฤติกรรมที่ไม่พึงประสงค์หรือความเสียหายต่ออุปกรณ์ของคุณ ดำเนินการต่อไป?"
+
+msgctxt "#36619"
+msgid "High quality downscaling"
+msgstr "การย่อขนาดแบบคุณภาพสูง"
+
+msgctxt "#36620"
+msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
+msgstr "เปิดการใช้งาน การลดขนาดภาพแบบคุณภาพสูง (ใช้หน่วยความจำมากขึ้นและมีผลต่อประสิทธิภาพในระดับปานกลาง)"
 
 msgctxt "#36900"
 msgid "movie"
@@ -14244,3 +14756,159 @@ msgstr "ไม่ได้จัดอันดับ"
 msgctxt "#38023"
 msgid "Set my rating"
 msgstr "กำหนดเรตติ้งของฉัน"
+
+msgctxt "#38024"
+msgid "Information provider selection"
+msgstr "ทำการเลือกผู้ให้บริการข้อมูล"
+
+msgctxt "#38025"
+msgid "Choose information provider"
+msgstr "เลือกผู้ให้บริการข้อมูล"
+
+msgctxt "#38026"
+msgid "Appearances"
+msgstr "การแสดงผล"
+
+msgctxt "#38027"
+msgid "Decode the stereo stream from 3D files"
+msgstr "ถอดรหัสการแยกภาพจากแฟ้ม 3 มิติ"
+
+msgctxt "#38028"
+msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
+msgstr "หากเปิดใช้งาน วิดีโอที่ถูกสร้างขึ้นโดยเข้ารหัสวิดีโอรูปหลายมุมมอง  (MVC) สามารถดูได้ในแบบการแยกภาพ 3 มิติ รูปแบบ MVC จะพบได้ใน บลูเรย์ 3 มิติ [CR]หมายเหตุ: การประมวลผลของข้อมูลนี้อาจลดประสิทธิภาพในการเล่น ดังนั้นควรเปิดใช้งานถ้าคุณต้องการการสนับสนุนการแยกภาพ 3 มิติเท่านั้น"
+
+msgctxt "#38029"
+msgid "Enable Full HD HDMI modes for stereoscopic 3D"
+msgstr "เปิดใช้งาน โหมด Full HD HDMI สำหรับการแยกภาพ 3 มิติ"
+
+msgctxt "#38030"
+msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
+msgstr "ตัวเลือกนี้ ใช้ frame-packing เพื่อสัญญาณออกความเต็มละเอียด สำหรับ 3 มิติ ผ่าน HDMI[CR]การเปิดใช้นี้จะเพิ่มคุณภาพของการเข้ารหัสวิดีโอแบบหลายมุมมอง  (MVC) แต่อาจไม่ได้รับการรองรับโดยจอแสดงผลทั้งหมด"
+
+msgctxt "#38031"
+msgid "Video stream"
+msgstr "กระแสวิดีโอ"
+
+msgctxt "#38032"
+msgid "Angle"
+msgstr "มุม"
+
+msgctxt "#38033"
+msgid "Role"
+msgstr "บทบาท"
+
+msgctxt "#38034"
+msgid "Orchestra"
+msgstr "วงออเคสตรา"
+
+msgctxt "#38035"
+msgid "Lyricist"
+msgstr "ผู้แต่งคำร้อง"
+
+msgctxt "#38036"
+msgid "Remixer"
+msgstr "ผู้รีมิกซ์"
+
+msgctxt "#38037"
+msgid "Arranger"
+msgstr "ผู้เรียบเรียง"
+
+msgctxt "#38038"
+msgid "Engineer"
+msgstr "วิศวกรด้านเสียง"
+
+msgctxt "#38039"
+msgid "Producer"
+msgstr "ผู้อำนวยการสร้าง"
+
+msgctxt "#38040"
+msgid "DJMixer"
+msgstr "ดีเจมิกเซอร์"
+
+msgctxt "#38041"
+msgid "Mixer"
+msgstr "มิกเซอร์"
+
+msgctxt "#38042"
+msgid "[Missing]"
+msgstr "[ไม่พบ]"
+
+msgctxt "#38100"
+msgid "Section that contains the settings for the playback of media"
+msgstr "ส่วนนี้ประกอบด้วย การตั้งค่าสำหรับวิธีการเล่นกลับของสื่อ"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown, and navigated"
+msgstr "ส่วนที่มีการตั้งค่า การตั้งค่าสำหรับแหล่งและวิธีการที่รายละเอียดข้อมูลสื่อจะถูกรวบรวม, จัดเก็บ, แสดง, และค้นหา"
+
+msgctxt "#38102"
+msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
+msgstr "ส่วนที่มีการตั้งค่า ที่ส่งผลต่อประสบการณ์กับ GUI และเพื่อการควบคุม GUI/ระบบ"
+
+msgctxt "#38103"
+msgid "This category contains the settings for the playback of videos"
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับการเล่นกลับของวิดีโอ"
+
+msgctxt "#38104"
+msgid "This category contains the settings for the playback of music"
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับการเล่นกลับของเพลง"
+
+msgctxt "#38105"
+msgid "This category contains the settings for playback of pictures via a slideshow"
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับการเล่นกลับรูปภาพผ่านสไลด์โชว์"
+
+msgctxt "#38106"
+msgid "This category contains the settings for audio & subtitle language"
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับภาษาของ เสียง & คำบรรยาย"
+
+msgctxt "#38107"
+msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
+msgstr "หมวดหมู่ประกอบด้วย การตั้งค่าสำหรับวิธีการที่ข้อมูลของวิดีโอจะถูก รวบรวม, จัดเก็บ,แสดง, และค้นหา"
+
+msgctxt "#38108"
+msgid "This category contains the settings for how information for music is collected, stored, shown, and navigated"
+msgstr "หมวดหมู่ประกอบด้วย การตั้งค่าสำหรับวิธีการที่ข้อมูลของเพลงจะถูก รวบรวม, จัดเก็บ,แสดง, และค้นหา"
+
+msgctxt "#38109"
+msgid "This category contains the settings for how information for pictures is shown and navigated"
+msgstr "หมวดหมู่ประกอบด้วย การตั้งค่าสำหรับวิธีการที่ข้อมูลของรูปภาพจะถูก แสดง, และค้นหา"
+
+msgctxt "#38110"
+msgid "This category contains the settings for the library databases"
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับฐานข้อมูลของคลังข้อมูล"
+
+msgctxt "#38111"
+msgid "This category contains other settings for the GUI interface"
+msgstr "หมวดหมู่นี้ประกอบด้วย การตั้งค่าสำหรับส่วนติดต่อของ GUI"
+
+msgctxt "#39000"
+msgid "HD and up"
+msgstr "HD และสูงกว่า"
+
+msgctxt "#39001"
+msgid "Accelerate MPEG2"
+msgstr "เร่งความเร็ว MPEG2"
+
+msgctxt "#39002"
+msgid "Accelerate MPEG4"
+msgstr "เร่งความเร็ว MPEG4"
+
+msgctxt "#39003"
+msgid "Accelerate h264"
+msgstr "เร่งความเร็ว h264"
+
+msgctxt "#39004"
+msgid "This category contains provides access to the windows for source management and the Library settings for the databases"
+msgstr "หมวดหมู่นี้ประกอบด้วย การให้ความเข้าถึงบนวินโดว์เพื่อการจัดการแหล่งข้อมูล และการตั้งค่าคลังข้อมูลเพื่อใช้เป็นฐานข้อมูล"
+
+msgctxt "#39005"
+msgid "This provides access to where video sources can be added and otherwise managed."
+msgstr "ให้การเข้าถึงแหล่งวิดีโอ ที่สามารถเพิ่มและทำการจัดการอื่นๆ"
+
+msgctxt "#39006"
+msgid "This provides access to where music sources can be added and otherwise managed."
+msgstr "ให้การเข้าถึงแหล่งเพลง ที่สามารถเพิ่มและทำการจัดการอื่นๆ"
+
+msgctxt "#39007"
+msgid "This provides access to where picture sources can be added and otherwise managed."
+msgstr "ให้การเข้าถึงแหล่งรูปภาพ ที่สามารถเพิ่มและทำการจัดการอื่นๆ"

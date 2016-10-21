@@ -37,10 +37,6 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "تنظیمات‫"
 
-msgctxt "#6"
-msgid "Kodi SVN"
-msgstr "‫Kodi SVN"
-
 msgctxt "#7"
 msgid "File manager"
 msgstr "‫مدیر فایل"
@@ -1277,10 +1273,6 @@ msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "گیرنده با قابلیت DTS-HD"
 
-msgctxt "#348"
-msgid "Enable passthrough"
-msgstr "فعال سازی عبور سیگنال"
-
 msgctxt "#349"
 msgid "TrueHD capable receiver"
 msgstr "گیرنده با قابلیت TrueHD"
@@ -1609,6 +1601,10 @@ msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "فیلم را از کتابخانه پاک کن"
 
+msgctxt "#433"
+msgid "Would you really like to remove '%s' from library?"
+msgstr "واقعا میخواهید '%s' از کتابخانه حذف شود"
+
 msgctxt "#434"
 msgid "From %s at %i %s"
 msgstr "از %s تا %i %s"
@@ -1821,9 +1817,17 @@ msgctxt "#492"
 msgid "Resize VobSubs"
 msgstr "تغییر اندازهی زیرنویس از نوع Vob"
 
+msgctxt "#493"
+msgid "Advanced options (experts only!)"
+msgstr "تنظیمات پیشرفته(فقط حرفه ای ها)"
+
 msgctxt "#494"
 msgid "Overall audio headroom"
 msgstr " سقف های صوتی کلی"
+
+msgctxt "#495"
+msgid "Upscale videos to GUI resolution"
+msgstr "افزایش وضوح ویدیو به اندازه رزولوشن صفحه"
 
 msgctxt "#496"
 msgid "Calibration"
@@ -1860,6 +1864,10 @@ msgstr "مشغول"
 msgctxt "#504"
 msgid "Empty"
 msgstr "خالی"
+
+msgctxt "#505"
+msgid "Loading media information from files..."
+msgstr "بارگیری اطلاعات مدیا از فایلها..."
 
 msgctxt "#507"
 msgid "Sort by: Usage"
@@ -2125,6 +2133,10 @@ msgctxt "#576"
 msgid "Times played"
 msgstr "زمان پخش شده"
 
+msgctxt "#577"
+msgid "Date taken"
+msgstr "تاریخ گرفتن"
+
 msgctxt "#578"
 msgid "Artist / Year"
 msgstr "هنرمند \\ سال"
@@ -2313,6 +2325,10 @@ msgctxt "#637"
 msgid "ReplayGain"
 msgstr "تقویت پخش"
 
+msgctxt "#638"
+msgid "Volume adjustments"
+msgstr "تنظیم حجم صدا"
+
 msgctxt "#639"
 msgid "Use track levels"
 msgstr "استفاده از ترازسازی های  تراک"
@@ -2320,6 +2336,14 @@ msgstr "استفاده از ترازسازی های  تراک"
 msgctxt "#640"
 msgid "Use album levels"
 msgstr "استفاده از ترازسازی های آلبوم"
+
+msgctxt "#641"
+msgid "Files with ReplayGain information"
+msgstr "فایل های با جزییات ReplayGain"
+
+msgctxt "#642"
+msgid "Files without ReplayGain information"
+msgstr "فایل های بدون جزییات ReplayGain "
 
 msgctxt "#643"
 msgid "Avoid clipping on ReplayGained files"
@@ -2364,6 +2388,10 @@ msgstr "سال ها"
 msgctxt "#653"
 msgid "Update library"
 msgstr "آپدیت کتابخانه"
+
+msgctxt "#654"
+msgid "Show debug information"
+msgstr "نمایش اطلاعات دیباگ"
 
 msgctxt "#655"
 msgid "Browse for executable"
@@ -2413,9 +2441,57 @@ msgctxt "#666"
 msgid "Enable component-specific logging"
 msgstr "فعال کردن ثبت وقایع ویژه مولفه ها"
 
+msgctxt "#667"
+msgid "Enable Dolby Digital (AC3) transcoding"
+msgstr "فعال کردن تبدیل کد دالبی دیجیتال(AC3)"
+
 msgctxt "#668"
 msgid "Specify component-specific logging..."
 msgstr "تعیین ثبت وقایع ویژه مولفه ها"
+
+msgctxt "#669"
+msgid "Verbose logging for the [B]SMB[/B] library"
+msgstr "ثبت وقایع مشروح برای کتابخانه [B]SMB[/B]"
+
+msgctxt "#670"
+msgid "Verbose logging for the [B]libcURL[/B] library (HTTP(S), DAV)"
+msgstr "ثبت وقایع مشروح برای کتابخانه  [B]libcURL[/B] (HTTP(S), DAV) "
+
+msgctxt "#672"
+msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
+msgstr "ثبت وقایع مشروح برای کتابخانه  [B]FFmpeg[/B]"
+
+msgctxt "#674"
+msgid "Verbose logging for [B]D-Bus[/B] calls"
+msgstr "ثبت وقایع مشروح برای توابع [B]D-Bus[/B]"
+
+msgctxt "#675"
+msgid "Verbose logging for [B]JSON-RPC[/B] requests"
+msgstr "ثبت وقایع مشروح برای درخواست های [B]JSON-RPC[/B]"
+
+msgctxt "#676"
+msgid "Verbose logging for the [B]Audio[/B] component"
+msgstr "ثبت وقایع مشروح برای مؤلفه [B] صوت [/B]"
+
+msgctxt "#677"
+msgid "Verbose logging for the [B]AirTunes[/B] library"
+msgstr "ثبت وقایع مشروح برای کتابخانه  [B]AirTunes[/B]"
+
+msgctxt "#678"
+msgid "Verbose logging for the [B]UPnP[/B] components"
+msgstr "ثبت وقایع مشروح برای مؤلفه [B]UPnP[/B] "
+
+msgctxt "#679"
+msgid "Verbose logging for the [B]libCEC[/B] library"
+msgstr "ثبت وقایع مشروح برای کتابخانه  [B]libCEC[/B]"
+
+msgctxt "#680"
+msgid "Verbose logging for the [B]Video[/B] component"
+msgstr "ثبت وقایع مشروح برای مؤلفه  [B] ویدئو [/B]"
+
+msgctxt "#681"
+msgid "Verbose logging for the [B]Webserver[/B] component"
+msgstr "ثبت وقایع مشروح برای مؤلفه  [B]Webserver[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2460,6 +2536,10 @@ msgstr "واگذاری"
 msgctxt "#716"
 msgid "Automatic (DHCP)"
 msgstr "خودکار (DHCP)"
+
+msgctxt "#717"
+msgid "Manual (static)"
+msgstr "دستی(ساکن) "
 
 msgctxt "#719"
 msgid "IP address"
@@ -2709,6 +2789,10 @@ msgctxt "#790"
 msgid "Remote control"
 msgstr "کنترل راه دور"
 
+msgctxt "#791"
+msgid "Allow remote control by programs on this system"
+msgstr "اجازه دادن به برنامه های روی سیستم برای کنترل از راه دور"
+
 msgctxt "#792"
 msgid "Port"
 msgstr "پورت"
@@ -2716,6 +2800,10 @@ msgstr "پورت"
 msgctxt "#793"
 msgid "Port range"
 msgstr "محدوده ی پورت ها"
+
+msgctxt "#794"
+msgid "Allow remote control by programs on other systems"
+msgstr "اجازه دادن به برنامه های کنترل از راه دور سایر سیستم ها"
 
 msgctxt "#795"
 msgid "Initial repeat delay (ms)"
@@ -2737,6 +2825,10 @@ msgctxt "#799"
 msgid "Library update"
 msgstr "به روز رسانی کتابخانه"
 
+msgctxt "#800"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "کتابخانه موسیقی نیاز به بازبینی برچسب ها از روی پرونده ها دارد. مایلید اکنون بازبینی شود؟ "
+
 msgctxt "#802"
 msgid "%s of %s available"
 msgstr "%s از %s در دسترس است"
@@ -2749,6 +2841,10 @@ msgctxt "#804"
 msgid "Search guide for"
 msgstr "جستجو در راهنما برای"
 
+msgctxt "#807"
+msgid "Any day"
+msgstr "هر تاریخی"
+
 msgctxt "#808"
 msgid "Every day"
 msgstr "هر روز"
@@ -2756,6 +2852,26 @@ msgstr "هر روز"
 msgctxt "#809"
 msgid "Any channel"
 msgstr "هر کانالی"
+
+msgctxt "#810"
+msgid "Start any time"
+msgstr "شروع هر زمانی"
+
+msgctxt "#811"
+msgid "Recording group"
+msgstr "گروه ضبط شده ها"
+
+msgctxt "#812"
+msgid "Prevent duplicate episodes"
+msgstr "جلوگیری از قسمت های تکراری"
+
+msgctxt "#813"
+msgid "Start padding time"
+msgstr "شروع زمان لایه گذاری"
+
+msgctxt "#814"
+msgid "End padding time"
+msgstr "پایان زمان لایه گذاری"
 
 msgctxt "#815"
 msgid "Record all episodes"
@@ -2765,9 +2881,33 @@ msgctxt "#816"
 msgid "Record only new episodes"
 msgstr "فقط قسمت‌های جدید را ضبط کن"
 
+msgctxt "#817"
+msgid "End any time"
+msgstr "پایان هر زمانی"
+
+msgctxt "#818"
+msgid "Max recordings"
+msgstr "حداکثر ضبط"
+
 msgctxt "#820"
 msgid "One time"
 msgstr "یک‌بار"
+
+msgctxt "#821"
+msgid "One time (guide-based)"
+msgstr "یکبار (وابسته به راهنما) "
+
+msgctxt "#822"
+msgid "Timer rule"
+msgstr "قانون تایمر"
+
+msgctxt "#823"
+msgid "Timer rule (guide-based)"
+msgstr "قانون تایمر(وابسته به راهنما) "
+
+msgctxt "#828"
+msgid "Timer rule deleted"
+msgstr "قانون تایمر حذف شد"
 
 msgctxt "#831"
 msgid "Mondays"
@@ -2797,6 +2937,14 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "یکشنبه‌ها"
 
+msgctxt "#840"
+msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
+msgstr "فقط میخواهید همین تایمر حذف شود یا قانون تایمر هم که زمان بندی شده نیز حذف شود؟ "
+
+msgctxt "#841"
+msgid "Only this"
+msgstr "فقط همین"
+
 msgctxt "#843"
 msgid "Activate"
 msgstr "فعال کردن"
@@ -2804,6 +2952,14 @@ msgstr "فعال کردن"
 msgctxt "#844"
 msgid "Deactivate"
 msgstr "غیر فعال کردن"
+
+msgctxt "#845"
+msgid "Are you sure you want to delete this timer rule and all timers it has scheduled?"
+msgstr "میخواهید این قانون تایمر و همه ی تایمر های زمان بندی شده را حذف کنید؟ "
+
+msgctxt "#846"
+msgid "Are you sure you want to delete this timer?"
+msgstr "میخواهید این تایمر را حذف کنید؟ "
 
 msgctxt "#847"
 msgid "Confirm stop recording"
@@ -2844,6 +3000,10 @@ msgstr "پیش نمایش"
 msgctxt "#1001"
 msgid "Unable to connect"
 msgstr "نمی توان متصل شد"
+
+msgctxt "#1002"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "اتصال به مکان شبکه پایدار نیست. ممکن است روی اتصال به شبکه اثر بگذارد. در هر صورت میخواهید آنرا اضافه کنید؟ "
 
 msgctxt "#1006"
 msgid "IP address"
@@ -2917,6 +3077,10 @@ msgctxt "#1024"
 msgid "Browse"
 msgstr "مرور"
 
+msgctxt "#1025"
+msgid "Couldn't retrieve directory information. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "نمیتوان اطلاعات دایرکتوری را بازیابی کرد. ممکن است به خاطر این باشد که به شبکه متصل نیست. با این حال آنرا اضافه میکنید؟ "
+
 msgctxt "#1026"
 msgid "Add source"
 msgstr "افزودن منبع"
@@ -2981,6 +3145,10 @@ msgctxt "#1042"
 msgid "Retrieved %i of %i items"
 msgstr "تعداد %i مورد از %i مورد دریافت شد"
 
+msgctxt "#1043"
+msgid "Program add-ons"
+msgstr "افزونه های برنامه"
+
 msgctxt "#1044"
 msgid "Set plug-in thumb"
 msgstr "تعیین ریزنقش افزونه"
@@ -3028,6 +3196,10 @@ msgstr "SOCKS4A"
 msgctxt "#1184"
 msgid "SOCKS5"
 msgstr "SOCKS5"
+
+msgctxt "#1185"
+msgid "SOCKS5 with remote DNS resolving"
+msgstr "بر طرف کردن SOCKS5 با DNS راه دور"
 
 msgctxt "#1200"
 msgid "SMB client"
@@ -3153,9 +3325,17 @@ msgctxt "#1259"
 msgid "Zeroconf"
 msgstr "بدون- تنظیمات"
 
+msgctxt "#1268"
+msgid "Enable AirPlay \"Videos\" and \"Pictures\" support"
+msgstr "فعال کردن پشتیبانی ‌‍\"عکس\" ها و \"ویدیو\" های AirPlay"
+
 msgctxt "#1269"
 msgid "Allow volume control"
 msgstr "تغییر سطح صدا مجاز است"
+
+msgctxt "#1270"
+msgid "Enable AirPlay support"
+msgstr "فعال کردن پشتیبانی AirPlay"
 
 msgctxt "#1271"
 msgid "Device name"
@@ -3184,6 +3364,10 @@ msgstr "وسیله ی صوتی دلخواه"
 msgctxt "#1301"
 msgid "Custom passthrough device"
 msgstr "وسیله ی عبور بدون تغییر صدای دلخواه"
+
+msgctxt "#1302"
+msgid "Volume control steps"
+msgstr "مراحل کنترل صدا"
 
 msgctxt "#1375"
 msgid "Temperature"
@@ -3216,6 +3400,10 @@ msgstr "بی نهایت"
 msgctxt "#1382"
 msgid "Whirls"
 msgstr "گرداب"
+
+msgctxt "#1383"
+msgid "Sky is clear"
+msgstr "آسمان صاف"
 
 msgctxt "#1384"
 msgid "Broken"
@@ -3365,6 +3553,10 @@ msgctxt "#1420"
 msgid "Moderate"
 msgstr "معتدل"
 
+msgctxt "#1421"
+msgid "Very high"
+msgstr "خیلی زیاد"
+
 msgctxt "#1422"
 msgid "Windy"
 msgstr "طوفانی"
@@ -3465,6 +3657,10 @@ msgctxt "#1446"
 msgid "Unknown"
 msgstr "ناشناس"
 
+msgctxt "#1447"
+msgid "Squalls"
+msgstr "بوران"
+
 msgctxt "#1448"
 msgid "Precipitation"
 msgstr "بارش"
@@ -3489,9 +3685,21 @@ msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
 msgstr "بازگشت به لیست قبلی به علت خالی شدن لیست فعال"
 
+msgctxt "#2101"
+msgid "Newer version needed. Check the log for more information about this message."
+msgstr "نسخه جدید مورد نیاز است. برای اطلاعات بیشتر درباره این پیام وقایع مشروح را ببینید. "
+
+msgctxt "#2102"
+msgid "%s error"
+msgstr "خطا ی %s"
+
 msgctxt "#2103"
 msgid "Add-on error"
 msgstr "خطای افزونه"
+
+msgctxt "#2104"
+msgid "Check the log for more information."
+msgstr "برای اطلاعات بیشتر وقایع مشروح را ببینید. "
 
 msgctxt "#10000"
 msgid "Home"
@@ -3532,6 +3740,14 @@ msgstr "تنظیمات - عمومی"
 msgctxt "#10009"
 msgid "Settings - Screen"
 msgstr "تنظیمات - صفحه نمایش"
+
+msgctxt "#10010"
+msgid "Settings - Appearance - GUI calibration"
+msgstr "تظیمات - ظاهر - کالیبره کردن رابط کاربری"
+
+msgctxt "#10011"
+msgid "Settings - Videos - Screen calibration"
+msgstr "تنظیمات - ویدیو - کالیبره کردن صفحه نمایش"
 
 msgctxt "#10012"
 msgid "Settings - Pictures"
@@ -3641,6 +3857,50 @@ msgctxt "#10047"
 msgid "Try changing the setting level to see additional categories and settings."
 msgstr "سطح تنظیمات را عوض کنید، تا به مجموعه ها و امکانات تنظیم دیگر دست یابید"
 
+msgctxt "#10048"
+msgid "Add video source"
+msgstr "افزودن منبع ویدیو"
+
+msgctxt "#10049"
+msgid "Add music source"
+msgstr "افزودن منبع موسیقی"
+
+msgctxt "#10050"
+msgid "Add picture source"
+msgstr "افزودن منبع عکس"
+
+msgctxt "#10051"
+msgid "Add program source"
+msgstr "افزودن منبع برنامه"
+
+msgctxt "#10052"
+msgid "Add file source"
+msgstr "افزودن منبع فایل"
+
+msgctxt "#10053"
+msgid "Edit video source"
+msgstr "ویرایش منبع ویدیو"
+
+msgctxt "#10054"
+msgid "Edit music source"
+msgstr "ویرایش منبع موسیقی"
+
+msgctxt "#10055"
+msgid "Edit picture source"
+msgstr "ویرایش منبع عکس"
+
+msgctxt "#10056"
+msgid "Edit program source"
+msgstr "ویرایش منبع برنامه"
+
+msgctxt "#10057"
+msgid "Edit file source"
+msgstr "ویرایش منبع فایل"
+
+msgctxt "#10100"
+msgid "Yes / No dialogue"
+msgstr "دیالوگ بله/نه"
+
 msgctxt "#10101"
 msgid "Progress dialogue"
 msgstr "نمایشگر پیشرفت"
@@ -3673,6 +3933,10 @@ msgctxt "#10134"
 msgid "Favourites"
 msgstr "موارد دلخواه"
 
+msgctxt "#10135"
+msgid "Songs / Info"
+msgstr "ترانه ها / اطلاعات"
+
 msgctxt "#10136"
 msgid "Smart playlist editor"
 msgstr "ویرایشگر لیست های پخش هوشمند"
@@ -3681,9 +3945,17 @@ msgctxt "#10137"
 msgid "Smart playlist rule editor"
 msgstr "ویرایشگر قواعد لیست های پخش هوشمند"
 
+msgctxt "#10139"
+msgid "Pictures / Info"
+msgstr "تصاویر / اطلاعات"
+
 msgctxt "#10140"
 msgid "Add-on settings"
 msgstr "تنظیمات افزونه ها"
+
+msgctxt "#10146"
+msgid "Add-ons / Info"
+msgstr "افزونه ها / اطلاعات"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -3753,6 +4025,14 @@ msgctxt "#10516"
 msgid "Music - Library"
 msgstr "موسیقی - کتابخانه"
 
+msgctxt "#10517"
+msgid "Now playing - Music"
+msgstr "در حال پخش - موسیقی"
+
+msgctxt "#10522"
+msgid "Now playing - Videos"
+msgstr "در حال پخش - ویدیو"
+
 msgctxt "#10523"
 msgid "Album information"
 msgstr "اطلاعات آلبوم"
@@ -3805,6 +4085,18 @@ msgctxt "#12011"
 msgid "Return to videos window"
 msgstr "بازگشت به صفحه ویدیو"
 
+msgctxt "#12012"
+msgid "Last used"
+msgstr "آخرین استفاده شده"
+
+msgctxt "#12013"
+msgid "Install date"
+msgstr "تاریخ نصب"
+
+msgctxt "#12014"
+msgid "Last updated"
+msgstr "آخرین بروزرسانی"
+
 msgctxt "#12021"
 msgid "Start from beginning"
 msgstr "شروع از ابتدا"
@@ -3812,6 +4104,10 @@ msgstr "شروع از ابتدا"
 msgctxt "#12022"
 msgid "Resume from %s"
 msgstr "ادامه دادن از %s"
+
+msgctxt "#12023"
+msgid "Play from beginning"
+msgstr "پخش از اول"
 
 msgctxt "#12310"
 msgid "0"
@@ -3888,6 +4184,10 @@ msgstr "یا برای لغو \"C\" را فشار دهید"
 msgctxt "#12330"
 msgid "Enter gamepad button combo and"
 msgstr "کلید کومبو د رگیم پد را وارد کنید و "
+
+msgctxt "#12331"
+msgid "press \"OK\", or \"Back\" to cancel"
+msgstr "\"OK\" را فشار دهید، یا برای لغو \"Back\" را بزنید"
 
 msgctxt "#12332"
 msgid "Set lock"
@@ -3973,6 +4273,14 @@ msgctxt "#12360"
 msgid "Master lock"
 msgstr "قفل اصلی"
 
+msgctxt "#12362"
+msgid "Shutdown system if number of master lock retries is exceeded"
+msgstr "اگر تعداد تلاش ها برای ورود رمز اصلی تمام شد سیستم را خاموش کن"
+
+msgctxt "#12367"
+msgid "Master code is not valid. Please enter a valid master code."
+msgstr "رمز ورود اصلی اشتباهه. لطفا رمز اصلی درست را وارد کنید. "
+
 msgctxt "#12373"
 msgid "Settings & file manager"
 msgstr "تنظیمات و مدیر فایل"
@@ -3993,6 +4301,10 @@ msgctxt "#12379"
 msgid "Use pan and zoom effects"
 msgstr "استفاده از افکت پان و زوم"
 
+msgctxt "#12382"
+msgid "%s xx"
+msgstr "%s xx"
+
 msgctxt "#12383"
 msgid "12-hour clock"
 msgstr "ساعت ۱۲-ساعته"
@@ -4000,6 +4312,14 @@ msgstr "ساعت ۱۲-ساعته"
 msgctxt "#12384"
 msgid "24-hour clock"
 msgstr "ساعت ۲۴-ساعته"
+
+msgctxt "#12385"
+msgid "Day / Month"
+msgstr "روز/ماه"
+
+msgctxt "#12386"
+msgid "Month / Day"
+msgstr "ماه / روز"
 
 msgctxt "#12390"
 msgid "System uptime"
@@ -4040,6 +4360,10 @@ msgstr "او اس دی تمام صفحه"
 msgctxt "#13000"
 msgid "System"
 msgstr "سیستم"
+
+msgctxt "#13001"
+msgid "Immediate HDD spindown"
+msgstr "چرخش آهسته تر هارد دیسک فوری"
 
 msgctxt "#13002"
 msgid "Video only"
@@ -4105,6 +4429,18 @@ msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
 msgstr "آیا نشست دیگری فعال است, شاید از طریق اس اس اچ؟"
 
+msgctxt "#13021"
+msgid "Mounted removable storage device"
+msgstr "دستگاه ذخیره سازی جداشدنی سوار شد"
+
+msgctxt "#13022"
+msgid "Unsafe storage device removal"
+msgstr "جدا کردن ناامن دستگاه ذخیره سازی"
+
+msgctxt "#13023"
+msgid "Successfully removed storage device"
+msgstr "دستگاه ذخیره‌سازی با موفقیت جدا شد"
+
 msgctxt "#13024"
 msgid "Joystick plugged"
 msgstr "جوی استیک متصل شده"
@@ -4112,6 +4448,14 @@ msgstr "جوی استیک متصل شده"
 msgctxt "#13025"
 msgid "Joystick unplugged"
 msgstr "جوی استیک جدا شده"
+
+msgctxt "#13026"
+msgid "Try to wakeup remote servers on access"
+msgstr "سرور های راه دور جهت دسترسی بیدار شوند"
+
+msgctxt "#13027"
+msgid "Wake-on-LAN (%s)"
+msgstr "بیدار کردن در شبکه(%s)"
 
 msgctxt "#13028"
 msgid "Waiting for network to connect..."
@@ -5713,10 +6057,6 @@ msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
 
-msgctxt "#16326"
-msgid "DXVA-HD"
-msgstr "DXVA-HD"
-
 msgctxt "#16330"
 msgid "MMAL - Advanced"
 msgstr "MMAL - پیشرفته"
@@ -6265,6 +6605,14 @@ msgctxt "#19178"
 msgid "Show channel information when switching channels"
 msgstr "نمایش اطلاعات کانال هنگام تعویض کانال"
 
+msgctxt "#19180"
+msgid "TV channels"
+msgstr "کانال های تلویزیونی"
+
+msgctxt "#19183"
+msgid "Radio channels"
+msgstr "کانال های رادیویی"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "هنگام شروع برنامه آخرین کانال ادامه داده شود"
@@ -6404,6 +6752,10 @@ msgstr "مدیر رکوردر های ویدئویی شروع به کار می ک
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "ویرایش تایمر"
+
+msgctxt "#19273"
+msgid "TV guide"
+msgstr "راهنمای تلویزیون"
 
 msgctxt "#19284"
 msgid "Choose icon"
@@ -7984,10 +8336,6 @@ msgstr "در حال دانلود %i%%"
 msgctxt "#24043"
 msgid "Available updates"
 msgstr "به‌روز‌رسانی‌های در دسترس"
-
-msgctxt "#24049"
-msgid "Incompatible"
-msgstr "ناسازگار"
 
 msgctxt "#24051"
 msgid "Version:"

@@ -31,15 +31,11 @@ msgstr "Video's"
 
 msgctxt "#4"
 msgid "TV guide"
-msgstr "TV gids"
+msgstr "TV-gids"
 
 msgctxt "#5"
 msgid "Settings"
 msgstr "Instellingen"
-
-msgctxt "#6"
-msgid "Kodi SVN"
-msgstr "Kodi SVN"
 
 msgctxt "#7"
 msgid "File manager"
@@ -1276,10 +1272,6 @@ msgstr "Behoud oorspronkelijke volume bij reduceren"
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "DTS-HD geschikte ontvanger"
-
-msgctxt "#348"
-msgid "Enable passthrough"
-msgstr "Activeer doorvoer"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -5397,6 +5389,14 @@ msgctxt "#13516"
 msgid "Add art"
 msgstr "Voeg afbeeldingen toe"
 
+msgctxt "#13517"
+msgid "Threshold for pitch correction"
+msgstr "Drempelwaarde voor pitchcorrectie"
+
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "Wanneer de snelheidsverandering deze drempelwaarde overschrijdt, zal een pitchfilter toegepast worden. Dit voorkomt \"chipmonkstemmen\" die normaliter voortkomen uit het versnellen van een video."
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Vertragen na verandering van ververssnelheid"
@@ -5805,6 +5805,10 @@ msgctxt "#14093"
 msgid "Security"
 msgstr "Beveiliging"
 
+msgctxt "#14094"
+msgid "Devices"
+msgstr "Apparaten"
+
 msgctxt "#14095"
 msgid "Power saving"
 msgstr "Energiebeheer"
@@ -5925,13 +5929,17 @@ msgctxt "#14124"
 msgid "Region C"
 msgstr "Regio C"
 
+msgctxt "#14125"
+msgid "Input"
+msgstr "Invoer"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "Speler"
 
 msgctxt "#14201"
 msgid "Player settings"
-msgstr "speler instellingen"
+msgstr "Spelerinstellingen"
 
 msgctxt "#14202"
 msgid "Library"
@@ -5939,7 +5947,7 @@ msgstr "Bibliotheek"
 
 msgctxt "#14203"
 msgid "Library settings"
-msgstr "bibliotheek instellingen"
+msgstr "Bibliotheekinstellingen"
 
 msgctxt "#14204"
 msgid "TV"
@@ -5955,11 +5963,11 @@ msgstr "interface"
 
 msgctxt "#14207"
 msgid "Interface settings"
-msgstr "interface instellingen"
+msgstr "Interface-instellingen"
 
 msgctxt "#14208"
 msgid "Service settings"
-msgstr "Diensten instellingen"
+msgstr "Service-instellingen"
 
 msgctxt "#14209"
 msgid "System settings"
@@ -5968,6 +5976,14 @@ msgstr "Systeeminstellingen"
 msgctxt "#14210"
 msgid "Profile settings"
 msgstr "Profielinstellingen"
+
+msgctxt "#14211"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "#14212"
+msgid "Media settings"
+msgstr "Media-instellingen"
 
 msgctxt "#14215"
 msgid "Videos"
@@ -6013,6 +6029,10 @@ msgctxt "#14225"
 msgid "Network Control"
 msgstr "Netwerbeheer"
 
+msgctxt "#14226"
+msgid "Manage Sources"
+msgstr "Bronnen beheren"
+
 msgctxt "#14230"
 msgid "Actions"
 msgstr "Acties"
@@ -6037,6 +6057,14 @@ msgctxt "#14235"
 msgid "Download Services"
 msgstr "Download diensten"
 
+msgctxt "#14236"
+msgid "Video Library"
+msgstr "Videobibliotheek"
+
+msgctxt "#14237"
+msgid "Music Library"
+msgstr "Muziekbibliotheek"
+
 msgctxt "#14240"
 msgid "Lists & Views"
 msgstr "Lijsten en weergaven "
@@ -6044,6 +6072,18 @@ msgstr "Lijsten en weergaven "
 msgctxt "#14241"
 msgid "Metadata"
 msgstr "Metadata"
+
+msgctxt "#14242"
+msgid "Videos..."
+msgstr "Video's..."
+
+msgctxt "#14243"
+msgid "Music..."
+msgstr "Muziek..."
+
+msgctxt "#14244"
+msgid "Pictures..."
+msgstr "Afbeeldingen..."
 
 msgctxt "#14245"
 msgid "Update library on startup"
@@ -6319,7 +6359,7 @@ msgstr "Sluiten"
 
 msgctxt "#15078"
 msgid "Mode settings"
-msgstr "Modus instellingen"
+msgstr "Modusinstellingen"
 
 msgctxt "#15079"
 msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
@@ -6761,10 +6801,6 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - Scherpte"
 
-msgctxt "#16314"
-msgid "Inverse telecine"
-msgstr "Omdraaien telecine"
-
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - Geoptimaliseerd"
@@ -6785,14 +6821,6 @@ msgctxt "#16319"
 msgid "DXVA"
 msgstr "DXVA"
 
-msgctxt "#16320"
-msgid "DXVA - Bob"
-msgstr "DXVA - Bob"
-
-msgctxt "#16321"
-msgid "DXVA - Best"
-msgstr "DXVA - Beste"
-
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6808,10 +6836,6 @@ msgstr "Software - Menging"
 msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
-
-msgctxt "#16326"
-msgid "DXVA-HD"
-msgstr "DXVA-HD"
 
 msgctxt "#16327"
 msgid "VAAPI - Bob"
@@ -6840,6 +6864,18 @@ msgstr "MMAL - Bob"
 msgctxt "#16333"
 msgid "MMAL - Bob (half)"
 msgstr "MMAL - Bob (half)"
+
+msgctxt "#16334"
+msgid "Bob (half)"
+msgstr "Bob (half)"
+
+msgctxt "#16335"
+msgid "IMX - Advanced (half)"
+msgstr "IMX - Geavanceerd (half)"
+
+msgctxt "#16336"
+msgid "IMX - Advanced"
+msgstr "IMX - Geavanceerd"
 
 msgctxt "#16400"
 msgid "Post-processing"
@@ -7569,6 +7605,10 @@ msgctxt "#19179"
 msgid "Deleted"
 msgstr "Verwijderd"
 
+msgctxt "#19180"
+msgid "TV channels"
+msgstr "TV-kanalen"
+
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Menu / OSD"
@@ -7576,6 +7616,10 @@ msgstr "Menu / OSD"
 msgctxt "#19182"
 msgid "Days to display"
 msgstr "Dagen te tonen"
+
+msgctxt "#19183"
+msgid "Radio channels"
+msgstr "Radiokanalen"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
@@ -7801,6 +7845,10 @@ msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "Achtergrond processen worden gestart"
 
+msgctxt "#19241"
+msgid "View timer information"
+msgstr "Bekijk timerinformatie"
+
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Pas geplande timer aan"
@@ -7924,6 +7972,14 @@ msgstr "Geen PVR add-ons konden worden gevonden"
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
 msgstr "U heeft een tuner, server software en add-on voor de server nodig om gebruik te maken van PVR. Bezoek http://kodi.wiki/view/PVR om hier meer te leren."
+
+msgctxt "#19273"
+msgid "TV guide"
+msgstr "TV gids"
+
+msgctxt "#19274"
+msgid "Radio guide"
+msgstr "Radiogids"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -8759,7 +8815,7 @@ msgstr "Een CD of nummer kan niet worden geripped wanneer hij wordt afgespeeld."
 
 msgctxt "#20100"
 msgid "Master lock code and settings"
-msgstr "Vergrendelingcode en -instellingen"
+msgstr "Vergrendelingscode en -instellingen"
 
 msgctxt "#20101"
 msgid "Entering master lock code always enables master mode"
@@ -9591,7 +9647,7 @@ msgstr "Afl. aan favorieten toevoegen"
 
 msgctxt "#20407"
 msgid "Information provider settings"
-msgstr "informatie provider instellingen"
+msgstr "Informatieprovider instellingen"
 
 msgctxt "#20408"
 msgid "Downloading music video information"
@@ -10188,10 +10244,6 @@ msgstr "aflopend"
 msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "Intelligente afspeellijst wijzigen"
-
-msgctxt "#21433"
-msgid "Name of the playlist"
-msgstr "Naam van de afspeellijst"
 
 msgctxt "#21434"
 msgid "Find items where"
@@ -11049,10 +11101,6 @@ msgctxt "#24043"
 msgid "Available updates"
 msgstr "Beschikbare updates"
 
-msgctxt "#24044"
-msgid "Dependencies not met. Please contact add-on author."
-msgstr "Afhankelijkheden komen niet overeen. neem contact op met de add-on auteur."
-
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
 msgstr "Niet gelukt add-on te installeren van zipbestand"
@@ -11067,11 +11115,7 @@ msgstr "Deze add-on kan niet worden gedeinstalleerd "
 
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
-msgstr "VideoSpeler InputStream"
-
-msgctxt "#24049"
-msgid "Incompatible"
-msgstr "Niet compatibel"
+msgstr "Inkomende stream voor videospeler"
 
 msgctxt "#24050"
 msgid "Available add-ons"
@@ -11869,14 +11913,6 @@ msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Wanneer verkeersinformatie wordt verstuurd vannuit RDS, wordt het volume verhoogd"
 
-msgctxt "#29986"
-msgid "Publicate traffic messages"
-msgstr "Publiceer verkeersberichten"
-
-msgctxt "#29987"
-msgid "Send present traffic messages around and can be handled from add-ons (nothing inside Kodi)"
-msgstr "Stuur huidige verkeersberichten rond en kunnen verwerkt worden door add-ons (niets binnen Kodi)"
-
 msgctxt "#29988"
 msgid "Arrangers"
 msgstr "Arrangeurs"
@@ -12433,6 +12469,14 @@ msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Controller profielen"
 
+msgctxt "#35051"
+msgid "Test rumble"
+msgstr "Testgeluid"
+
+msgctxt "#35052"
+msgid "Activate the rumble motors of all controllers."
+msgstr "Activeer de schokmotoren van alle controllers."
+
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Gebruik het toetsenbord of de afstandsbediening om een ​​controller profiel te selecteren. Wanneer u wordt gevraagd, drukt u op de knop op de spelcontroller die het beste past bij wat je ziet op het scherm. Als je een fout maakt kunt u het proces herhalen."
@@ -12472,6 +12516,30 @@ msgstr "Bijgevoegde controllers configureren"
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Koppel uw controllers met de verschillende invoerapparaten van verschillende spelsystemen. "
+
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr "Gezicht knoppen"
+
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr "Schouder knoppen"
+
+msgctxt "#35076"
+msgid "Triggers"
+msgstr "Triggers"
+
+msgctxt "#35077"
+msgid "Analog sticks"
+msgstr "Analoge sticks"
+
+msgctxt "#35088"
+msgid "Power off controllers on exit"
+msgstr "Schakel controllers uit bij afsluiting"
+
+msgctxt "#35089"
+msgid "Powers off any controller that supports it on exit."
+msgstr "Schakel elk ondersteunde controller uit bij de afsluiting."
 
 msgctxt "#35090"
 msgid "Press %s"
@@ -12843,7 +12911,7 @@ msgstr "Stel de wachttijd in voor elke activiteit die voorkomt voordat de scherm
 
 msgctxt "#36130"
 msgid "Select the screensaver. The \"Dim\" screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
-msgstr "Selecteer de schermbeveiliging. De \"dim\" schermbeveiliging wordt gestart wanneer volledig scherm video wordt gepauzeerd of wanneer een dialoogvenster actief is."
+msgstr "Selecteer de schermbeveiliging. De \"dim\" schermbeveiliging wordt gestart wanneer een volschermvideo wordt gepauzeerd of wanneer een dialoogvenster actief is."
 
 msgctxt "#36131"
 msgid "Select to change the screensaver specific settings. Which options are available for configuration depends on the features provided by the screensaver add-on."
@@ -12859,7 +12927,7 @@ msgstr "Als muziek wordt afgespeeld, wordt de geselecteerde visualisatie gestart
 
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
-msgstr "Dim het scherm als de media wordt gepauzeerd. Niet beschikbaar voor de \"gedimd\" schermbeveiliging modus."
+msgstr "Dim het scherm als de media wordt gepauzeerd. Niet beschikbaar voor de \"gedimd\" schermbeveiligingmodus."
 
 msgctxt "#36135"
 msgid "No info available yet."
@@ -12883,7 +12951,7 @@ msgstr "Deze categorie bevat de instellingen voor hoe de videobibliotheek wordt 
 
 msgctxt "#36140"
 msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
-msgstr "Kies welke temperatuur eenheid wordt gebruikt voor het tonen van temperaturen in de gebruikersomgeving."
+msgstr "Kies welke temperatuureenheid wordt gebruikt voor het tonen van temperaturen in de gebruikersomgeving."
 
 msgctxt "#36141"
 msgid "Show plot information for unwatched media in the video library."
@@ -12895,7 +12963,7 @@ msgstr "Kies welke snelheidseenheid wordt gebruikt voor het tonen van snelheden 
 
 msgctxt "#36143"
 msgid "Downloads thumbnails for actors from online databases when adding media to the library."
-msgstr "Download miniaturen voor acteurs van de online databases wanneer media wordt toegevoegd aan de bibliotheek."
+msgstr "Download miniaturen voor acteurs van online databases wanneer media wordt toegevoegd aan de bibliotheek."
 
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
@@ -12903,7 +12971,7 @@ msgstr "Selecteer in welke gevallen u de seizoenspunten wilt verbergen van serie
 
 msgctxt "#36145"
 msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have it's own entry in the movie library even if it belongs to a set."
-msgstr "Wanneer geactiveerd, Films behorend tot een \"Film Set\" zijn zij gegroepeerd onder onder een naam voor de set in de filmbibliotheek, Deze groep kan worden geopend om de individuele films te tonen. Wanneer gedeactiveerd, zal elke film zijn eigen naam hebben in de filmbibliotheek zelf wanneer deze behoord tot een set."
+msgstr "Wanneer geactiveerd worden films behorend tot een \"Film Set\" gegroepeerd onder één naam in de filmbibliotheek. Deze groep kan worden geopend om de individuele films te tonen. Wanneer gedeactiveerd, zal elke film zijn eigen naam hebben in de filmbibliotheek zelfs wanneer deze behoort tot een set."
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -12939,7 +13007,7 @@ msgstr "Kies de manier waarop video behandeld, verbeterd en getoond wordt."
 
 msgctxt "#36154"
 msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
-msgstr "Gebruik van hoge kwaliteit scalers wanneer opschaling van een video met ten minste dit percentage. Een waarde onder de 5% heeft weinig zin als video wordt verwerkt met hoge GPU belasting zonder enige zichtbare verbetering van de beeldkwaliteit."
+msgstr "Gebruik van hoge kwaliteitscalers bij opschaling van een video met ten minste dit percentage. Een waarde onder de 5% heeft weinig zin als de video wordt verwerkt met hoge GPU-belasting zonder enige zichtbare verbetering van de beeldkwaliteit."
 
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
@@ -12951,7 +13019,7 @@ msgstr "Activeer VAAPI hardwaredecodering voor videobestanden, hoofdzakelijk voo
 
 msgctxt "#36157"
 msgid "When enabled, a \"Movie set\" entry is used even if the movie library contains only a single movie from that set. When disabled, a \"Movie set\" entry is used only if the movie library contains more than one movie from that set."
-msgstr "Wanneer geactiveerd, een \"Film set\" Naam is gebruikt zelfs wanneer de filmbibliotheek enkel één film heeft van die set. Wanneer gedeactiveerd, een \"Filmset\" naam is gebruikt enkel wanneer de filmbibliotheek meer dan een film bevat van die set."
+msgstr "Wanneer geactiveerd wordt een \"Film set\" naam gebruikt, zelfs wanneer de filmbibliotheek enkel één film heeft van die set. Wanneer gedeactiveerd wordt een \"Filmset\" naam gebruikt enkel wanneer de filmbibliotheek meer dan een film bevat van die set."
 
 msgctxt "#36158"
 msgid "Enable DXVA2 hardware decoding of video files."
@@ -12963,7 +13031,7 @@ msgstr "Activeer CrystalHD decodering voor videobestanden."
 
 msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
-msgstr "Activeer VTB hardwaredecodering van videobestanden."
+msgstr "Activeer VTB-hardwaredecodering van videobestanden."
 
 msgctxt "#36161"
 msgid "Enable OpenMax hardware decoding of video files."
@@ -12975,7 +13043,7 @@ msgstr "Activeer VideoToolbox hardwaredecodering voor videobestanden."
 
 msgctxt "#36163"
 msgid "Show TV shows with no episodes when browsing the video library."
-msgstr "Toon TV series zonder afleveringen wanneer je zoek in de videobibliotheek."
+msgstr "Toon TV-series zonder afleveringen wanneer je zoekt in de videobibliotheek."
 
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
@@ -12983,11 +13051,11 @@ msgstr "Veranderen van de verversingsfrequentie van het scherm toestaan, zodat d
 
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "Vertraging van de reset-evenement na een wijziging van de verssnelheid"
+msgstr "Vertraging van het reset-evenement na een wijziging van de vernieuwingsfrequentie"
 
 msgctxt "#36166"
 msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
-msgstr "Synchroniseren van video en audio naar de vernieuwingsfrequentie van de monitor. VideoPlayer gebruikt geen passthrough audio in dit geval omdat resampling verlangd kan worden."
+msgstr "Synchroniseren van video en audio naar de vernieuwingsfrequentie van de monitor. VideoPlayer gebruikt geen passthrough audio in dit geval, omdat resampling nodig kan worden."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -12995,11 +13063,11 @@ msgstr "Kies welk tijdsformaat wordt gebruikt voor het tonen van de tijd in de g
 
 msgctxt "#36168"
 msgid "Choose whether to use 12 or 24-hour format for displaying the time in the user interface."
-msgstr "Kies of u het 12-uurs of het 24-uursformaat wilt gebruiken voor het tonen van de tijd in de gebruikersomgeving."
+msgstr "Kies het 12-uurs of het 24-uursformaat voor het tonen van de tijd in de gebruikersomgeving."
 
 msgctxt "#36169"
 msgid "Select the quality of resampling for cases where the audio output needs to be at a different sampling rate from that used by the source.[CR][Low] Is fast and will have minimal impact on system resources such as the use of the CPU.[CR][Medium] & [High] Will use progressively more system resources."
-msgstr "Selecteer de kwaliteit van resampling voor gevallen waarbij de audio-uitvoer op een andere sampling rate moet zijn dan die gebruikt door de bron.[CR][Laag] is snel en heeft weinig invloed op systeembronnen zoals het gebruik van de processor,[CR][Gemiddeld] & [Hoog] Zal geleidelijk meer systeembronnen gebruiken."
+msgstr "Selecteer de resamplingkwaliteit voor gevallen waarbij de audio-uitvoer op een andere sampling rate moet zijn dan die gebruikt door de bron.[CR][Laag] is snel en heeft weinig invloed op systeembronnen zoals processorgebruik,[CR][Gemiddeld] & [Hoog] gebruiken geleidelijk meer systeembronnen."
 
 msgctxt "#36170"
 msgid "Stretch the video up to the set percentage in order to minimise black bars."
@@ -13027,7 +13095,7 @@ msgstr "Deze categorie bevat de instellingen voor de manier waarop bestandslijst
 
 msgctxt "#36177"
 msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
-msgstr "Schakel tussen [Kiezen], [Afspelen](standaard), [Hervatten] en [toon informatie].[CR][Kiezen] zal een item selecteren, bv. een folder openen in bestandsbeheermodus.[CR][Hervatten] zal automatisch video's hervatten vanaf de laatst bekeken positie, zelfs na het herstarten van het systeem."
+msgstr "Schakel tussen [Kiezen], [Afspelen](standaard), [Hervatten] en [Toon informatie].[CR][Kiezen] zal een item selecteren, bv. een folder openen in bestandsbeheermodus.[CR][Hervatten] zal automatisch video's hervatten vanaf de laatst bekeken positie, zelfs na het herstarten van het systeem."
 
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
@@ -13047,11 +13115,11 @@ msgstr "Nog geen informatie beschikbaar."
 
 msgctxt "#36182"
 msgid "Combines multi-part video files, DVD folders or movie folders, down to a single item in non-library views."
-msgstr "Combineert opgesplitste videobestanden, DVD-mappen of film mappen, tot één enkel item in niet-bibliotheek weergaven."
+msgstr "Combineert opgesplitste videobestanden, DVD-mappen of filmmappen, tot één enkel item in niet-bibliotheek weergaven."
 
 msgctxt "#36183"
 msgid "Removes the title, genre, etc. nodes from the library view. Selecting a category takes you straight to the title view."
-msgstr "Verwijder titel- en genreniveau's etc. uit de bibliotheekweergave. Het selecteren van een categorie brengt u meteen naar de titel weergave."
+msgstr "Verwijder titel- en genreniveau's etc. uit de bibliotheekweergave. Het selecteren van een categorie brengt u meteen naar de titelweergave."
 
 msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
@@ -13059,7 +13127,7 @@ msgstr "Deze categorie bevat de instellingen voor de manier waarop ondertitels w
 
 msgctxt "#36185"
 msgid "Set the font type to be used for text based (usually downloaded) subtitles."
-msgstr "Selecteer het lettertype type die wordt gebruikt voor tekstgebaseerde (meestal gedownloade) ondertitels."
+msgstr "Selecteer het lettertype dat gebruikt wordt voor tekstgebaseerde (meestal gedownloade) ondertitels."
 
 msgctxt "#36186"
 msgid "Set the font size to be used for subtitles."
@@ -13143,7 +13211,7 @@ msgstr "Sorteer de kanalen via kanaalnummer vanaf de server, maar gebruik eigen 
 
 msgctxt "#36206"
 msgid "Use the channel numbering from the backend, instead of configuring them manually in the channel manager. Only works with one enabled PVR add-on!"
-msgstr "Gebruik de kanaalnummering van de server, in plaats van ze zelf manueel te configureren in beheerder. Werkt alleen met één geactiveerde PVR add-on!"
+msgstr "Gebruik de kanaalnummering van de server, in plaats van het manueel configureren in de kanaalbeheerder. Werkt alleen met één geactiveerde PVR add-on!"
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -13239,7 +13307,7 @@ msgstr "Wachttijd voor een kanaal dat wordt ontvangen na een kanaalverandering. 
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons or when pressing a number button in full screen mode, channel switches must be confirmed using the OK button."
-msgstr "Wanneer er gezapt wordt langs kanalen gebruikmakend van de kanaal Omhoog/omlaag knoppen of bij het drukken van een nummerknop in volledig scherm modus, moeten kanaalveranderingen worden bevestigt door gebruik te maken van de OK butten."
+msgstr "Wanneer er gezapt wordt langs kanalen gebruikmakend van de kanaal Omhoog/omlaag knoppen of bij het drukken van een nummerknop in volschermmodus, moeten kanaalveranderingen worden bevestigd door gebruik te maken van de OK-knop."
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -13251,7 +13319,7 @@ msgstr "Deze categorie bevat de standaard opnameduurinstellingen."
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
-msgstr "Duur van directe opnamen bij het indrukken van de opname-knop. Deze waarde zal worden genomen, als 'Instant opname actie' is ingesteld op 'Record voor een vaste periode van tijd'"
+msgstr "Duur van directe opnamen bij het indrukken van de opnameknop. Deze waarde zal worden genomen, indien 'Instant opname actie' is ingesteld op 'Record voor een vaste tijdsperiode'"
 
 msgctxt "#36235"
 msgid "Priority of the recording. Higher number means higher priority. Not supported by all add-ons and backends."
@@ -13267,7 +13335,7 @@ msgstr "Additionele tijd van een opname voor de vastgestelde starttijd om kleine
 
 msgctxt "#36238"
 msgid "Additional time to record after the scheduled end time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "Additionele tijd op te nemen na de geschematiseerde starttijd om kleine uitzendtijd veranderingen toe te laten. niet ondersteunt door alle add-ons en servers."
+msgstr "Extra tijd opnemen na de geschematiseerde starttijd om kleine uitzendtijdveranderingen toe te laten. Wordt niet ondersteund door alle add-ons en servers."
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
@@ -13275,7 +13343,7 @@ msgstr "Toon een boodschap wanneer er timers toegevoegd of afgelopen zijn of ver
 
 msgctxt "#36240"
 msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
-msgstr "Deze categorie bevat de PVR energiebeheer instellingen, zoals wanneer de PVR backend server te ontwaken."
+msgstr "Deze categorie bevat de PVR energiebeheer-instellingen, zoals bij het ontwaken van de PVR backendserver."
 
 msgctxt "#36241"
 msgid "Execute the wakeup command below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
@@ -13331,11 +13399,11 @@ msgstr "Sectie met instellingen gerelateerd aan muziekbestanden en hoe daarmee w
 
 msgctxt "#36254"
 msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
-msgstr "Actie moet worden uitgevoerd wanneer op de opname-knop wordt gedrukt. [huidige show opnemen] zal de lopende show van 'nu' tot het einde van de show opnemen. Als er geen TV-gidsgegevens beschikbaar zijn zal een vaste lengte opname starten vanaf 'nu',  tot en met de waarde voor 'Instant opname duur' worden gepland. [Record voor een vaste periode van tijd] Een vaste lengte opname wordt gestart vanaf 'nu', tot en met de waarde voor 'Instant opname duur'. [Vragen wat te doen] zal een dialoog open met andere handelingen om uit te kiezen voor opnemen , zoals 'Record huidige show', 'Record volgende show' en enkele vaste duur opnames."
+msgstr "Actie die uitgevoerd moet worden wanneer op de opnameknop wordt gedrukt. [huidige show opnemen] zal de lopende show van 'nu' tot het einde van de show opnemen. Als er geen TV-gidsgegevens beschikbaar zijn zal een vaste lengte opname starten vanaf 'nu',  tot en met de waarde voor 'Instant opname duur' worden gepland. [Record voor een vaste periode van tijd] Een  opname van een vaste lengte wordt gestart vanaf 'nu', tot en met de waarde voor 'Instant opnameduur'. [Vragen wat te doen] zal een dialoog open met andere handelingen om uit te kiezen voor opnemen, zoals 'Record huidige show', 'Record volgende show' en enkele opnames van vaste duur."
 
 msgctxt "#36255"
 msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
-msgstr "Wanneer geactiveerd, worden zowel de song en album artiesten getoond. Wanneer uitgeschakeld, staan alleen album kunstenaars en artiesten die worden alleen op afzonderlijke nummers van een album weergegeven zijn uitgesloten."
+msgstr "Wanneer geactiveerd, worden zowel de song- en albumartiesten getoond. Wanneer uitgeschakeld, worden alleen albumartiesten getoond. Artiesten die op afzonderlijke nummers van een album voorkomen worden niet getoond."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -13367,7 +13435,7 @@ msgstr "Exporteer de muziek bibliotheekdatabase naar XML-bestanden. Dit zal moge
 
 msgctxt "#36263"
 msgid "Import a XML file into the music library database."
-msgstr "Importeer een XML-bestand in de muziekbibliotheek database"
+msgstr "Importeer een XML-bestand in de muziekbibliotheekdatabase"
 
 msgctxt "#36264"
 msgid "This category contains the settings for how music playback is handled."
@@ -13375,7 +13443,7 @@ msgstr "Deze categorie bevat de instellingen over hoe met muziek afspelen wordt 
 
 msgctxt "#36265"
 msgid "Automatically plays the next item in the current folder, for example in \"Files\" view after a track has been played, the next track in the same folder will automatically play."
-msgstr "Automatisch afspelen van het volgende bestand in de huidige  map, bijvoorbeeld, in \"bestanden\" weergave: Nadat een nummer is afgespeeld; wordt het volgende nummer in de zelfde map automatisch afgespeeld."
+msgstr "Automatisch afspelen van het volgende bestand in de huidige map, bijvoorbeeld, in \"Bestanden\" weergave: Nadat een nummer is afgespeeld, wordt het volgende nummer in dezelfde map automatisch afgespeeld."
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
@@ -13573,9 +13641,13 @@ msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "Activeer het UPnP-controlepunt. Dit staat uw toe uw media te streamen naar elke UPnP-cliënt en het afspelen van media ernaar te bepalen."
 
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service and the application control service is handled."
+msgstr "Deze categorie bevat de instellingen voor de manier hoe de webserverdienst en de applicatiebeheerservice wordt verwerkt."
+
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
-msgstr "Activeer Gebruikers op afstand deze applicatie te controleren via de ingebouwde webserver."
+msgstr "Activeer het gebruik-op-afstand van deze applicatie via de ingebouwde webserver."
 
 msgctxt "#36329"
 msgid "Define the web server port."
@@ -13583,7 +13655,7 @@ msgstr "Definieer de webserverpoort."
 
 msgctxt "#36330"
 msgid "Define the web server username. This only takes effect when both the username and the password are set."
-msgstr "Definieer de webserver gebruikersnaam. dit heeft enkel effect  wanneer zowel de gebruikersnaam al het wachtwoord zijn ingesteld."
+msgstr "Definieer de gebruikersnaam van de webserver. Dit heeft enkel effect wanneer zowel de gebruikersnaam al het wachtwoord zijn ingesteld."
 
 msgctxt "#36331"
 msgid "Define the web server password. This only takes effect when both the username and the password are set."
@@ -13599,7 +13671,7 @@ msgstr "Deze categorie bevat de instellingen voor de manier waarop de dienst \"o
 
 msgctxt "#36334"
 msgid "Allow programs on this computer to control this application via the web interface or the JSON-RPC interface protocol."
-msgstr "Programma`s toestaan op deze computer deze applicatie te controleren via de web-omgeving of het JSON-RPC omgevingsprotocol."
+msgstr "Programma's toestaan op deze computer deze applicatie te controleren via de web-omgeving of het JSON-RPC omgevingsprotocol."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -13703,7 +13775,7 @@ msgstr "Deze categorie bevat de instellingen hoe het afspelen van geluid wordt v
 
 msgctxt "#36361"
 msgid "Select how the properties of the audio output are set: [Fixed] Output properties are set to the specified sampling rate & speaker configuration at all times; [Best Match] Output properties are set to always be as close a match to the source properties as possible; [Optimized] Output properties are set at the start of playback and will not change if the properties of the source change."
-msgstr "Selecteer hoe de eigenschappen van de audio-uitvoer zijn ingesteld: [Vast] uitvoer eigenschappen staan altijd ingesteld op de opgegeven sampling rate & luidsprekerconfiguratie; [Beste overeenkomst] uitvoer eigenschappen staan ingesteld om zo goed mogelijk overeen te komen met de bron eigenschappen; [Geoptimaliseerd] uitvoer eigenschappen worden ingesteld bij het begin van afspelen en zullen niet veranderen als de eigenschappen van de bron veranderen."
+msgstr "Selecteer hoe de eigenschappen van de audio-uitvoer zijn ingesteld: [Vast] Uitvoereigenschappen staan altijd ingesteld op de opgegeven sampling rate & luidsprekerconfiguratie; [Beste overeenkomst] uitvoer eigenschappen staan ingesteld om zo goed mogelijk overeen te komen met de bron eigenschappen; [Geoptimaliseerd] Uitvoereigenschappen worden ingesteld bij het begin van afspelen en zullen niet veranderen als de eigenschappen van de bron veranderen."
 
 msgctxt "#36362"
 msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
@@ -13719,7 +13791,7 @@ msgstr "Selecteer om upmixing te activeren van 2-kanaals geluid naar het aantal 
 
 msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
-msgstr "Kies deze optie als uw ontvanger Dolby Digital (AC3) geluid streams kan decoderen."
+msgstr "Kies deze optie als uw ontvanger Dolby Digital (AC3) geluidstreams kan decoderen."
 
 msgctxt "#36366"
 msgid "Select this option if your receiver is capable of decoding DTS streams."
@@ -13727,11 +13799,7 @@ msgstr "Kies deze optie als uw ontvanger DTS digitaal geluid kan decoderen."
 
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
-msgstr "Selecteer het maximum aantal geluidskanalen / speakers beschikbaar voor gedecodeerde geluiden. Als optische / coax digitale uitgangen worden gebruikt moet dit worden ingesteld op 2.0"
-
-msgctxt "#36368"
-msgid "Select to enable the passthrough audio options for playback of encoded audio such as Dolby Digital (AC3), DTS, etc."
-msgstr "Selecteer om de doorvoer van geluidsopties voor afpelen van gecodeerde audio zoals Dolby Digital (AC3), DTS, etc. te activeren."
+msgstr "Selecteer het maximum aantal geluidskanalen / speakers beschikbaar voor gedecodeerde audio. Als optische / coax-digitale uitgangen worden gebruikt moet dit worden ingesteld op 2.0."
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -13739,7 +13807,7 @@ msgstr "Kies deze optie als uw ontvanger Dolby TrueHD digitaal geluid kan decode
 
 msgctxt "#36370"
 msgid "Select this option if your receiver is capable of decoding DTS-HD streams."
-msgstr "Kies deze optie als uw ontvanger DTS-HD digitaal geluid kan decoderen."
+msgstr "Kies deze optie als uw ontvanger DTS-HD digitale audio kan decoderen."
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -13755,7 +13823,7 @@ msgstr "Kies hoe interfacegeluiden moet afgespeeld worden, zoals navigatiegeluid
 
 msgctxt "#36374"
 msgid "This category contains the settings for how input devices are handled."
-msgstr "Deze categorie bevat de instellingen voor de manier waarop invoer apparaten worden verwerkt."
+msgstr "Deze categorie bevat de instellingen voor de manier waarop invoerapparaten worden verwerkt."
 
 msgctxt "#36375"
 msgid "Configure any attached peripheral devices."
@@ -13767,7 +13835,7 @@ msgstr "Indien geactiveerd, zullen de pijltjestoetsen de selectie op het virtuel
 
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
-msgstr "Gebruik een muis of aanraakscherm apparaat om de omgeving te beheren. Let op: De-activatie kan jou mogelijk het beheer verliezen van deze applicatie wanneer geen toetsenbord of afstandsbediening in de buurt is."
+msgstr "Gebruik een muis of aanraakscherm apparaat om de omgeving te beheren. Let op: De-activatie kan jou mogelijk het beheer verliezen van deze applicatie wanneer er geen toetsenbord of afstandsbediening in de buurt is."
 
 msgctxt "#36378"
 msgid "Use a joystick to control the interface."
@@ -13775,11 +13843,11 @@ msgstr "Gebruik een joystick om de gebruikersomgeving te bedienen."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
-msgstr "Deze categorie bevat de instellingen over hoe internet toegang wordt verwerkt. De standaard internet omgeving kan eveneens hier worden geselecteerd."
+msgstr "Deze categorie bevat de instellingen over hoe internet toegang wordt verwerkt. De standaard webinterface kan eveneens hier worden geselecteerd."
 
 msgctxt "#36380"
 msgid "If your Internet connection uses a proxy server, configure it here."
-msgstr "Als je internetconnectie een proxy server gebruikt, configureer het hier."
+msgstr "Als je internetconnectie een proxy server gebruikt, configureer deze hier."
 
 msgctxt "#36381"
 msgid "Configure which proxy type is used."
@@ -13803,7 +13871,7 @@ msgstr "Configureer het wachtwoord van de proxyserver."
 
 msgctxt "#36386"
 msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
-msgstr "Als jouw internetconnectie een gelimiteerde bandbreedte heeft, gebruik dan deze instelling om het bandbreedte gebruik van deze applicatie te beperken binnen kaders."
+msgstr "Als jouw internetconnectie een gelimiteerde bandbreedte heeft, gebruik dan deze instelling om het bandbreedtegebruik van deze applicatie te beperken binnen gekozen kaders."
 
 msgctxt "#36387"
 msgid "This category contains the settings for power saving."
@@ -13815,11 +13883,11 @@ msgstr "Zet het scherm uit bij inactiviteit. Dit is belangrijk bij TV-toestellen
 
 msgctxt "#36389"
 msgid "Set the time to wait for any activity to occur before shutting down."
-msgstr "Stel wachttijd in voor elke activiteit die voorkomt voordat hij afsluit."
+msgstr "Stel wachttijd in voor elke activiteit die gebeurt voordat de applicatie afsluit."
 
 msgctxt "#36390"
 msgid "Define what action to perform when the shutdown function timer lapsed."
-msgstr "Definieer welke actie moet worden uitgevoerd wanneer de afsluit functie timer verstreken is."
+msgstr "Definieer welke actie moet worden uitgevoerd wanneer de afsluittimer verstreken is."
 
 msgctxt "#36391"
 msgid "This category contains the settings for enabling event and debug logging. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
@@ -13843,19 +13911,19 @@ msgstr "Deze categorie bevat de instellingen voor hoe de hoofdgebruikersbeveilig
 
 msgctxt "#36396"
 msgid "Here you can enable or disable master lock and define the PIN code used to unlock it. You can also specify which areas of the application would need a PIN to access them."
-msgstr "Hier kunt u een Master Lock inschakelen of uitschakelen en een PIN-code definiëren die gebruikt wordt om deze te ontgrendelen. U kunt ook aangeven welke delen van de applicatie een PIN-code nodig hebben om te openen."
+msgstr "Hier kunt u een Master Lock in- of uitschakelen en een PIN-code definiëren om deze te ontgrendelen. U kunt ook aangeven welke delen van de applicatie een PIN-code nodig hebben voor toegang."
 
 msgctxt "#36397"
 msgid "If enabled, the master lock code is required to unlock this application on startup."
-msgstr "Wanneer geactiveerd, is de hoofdgebruikers beveiligingscode vereist om deze applicatie te ontsluiten tijdens opstarten. "
+msgstr "Wanneer geactiveerd is de hoofdgebruikers beveiligingscode vereist om deze applicatie te ontsluiten tijdens het opstarten. "
 
 msgctxt "#36398"
 msgid "Define the maximum number of retries before this application is closed down."
-msgstr "Definieer het maximaal aantal keer opnieuw voordat deze applicatie wordt afgesloten."
+msgstr "Definieer het maximaal aantal pogingen voordat de applicatie wordt afgesloten."
 
 msgctxt "#36399"
 msgid "This category contains the settings for how the cache function is handled."
-msgstr "Deze categorie bevat de instellingen voor hoe de buffer functie wordt verwerkt."
+msgstr "Deze categorie bevat de instellingen voor hoe de bufferfunctie wordt verwerkt."
 
 msgctxt "#36400"
 msgid "Enable cache for playback of video, audio or DVDs from hard disk."
@@ -13927,7 +13995,7 @@ msgstr "Specificeer het type afstandsbediening dat wordt gebruikt."
 
 msgctxt "#36417"
 msgid "Always run a Kodi helper so that the remote can be used to start Kodi."
-msgstr "Start altijd een Kodi helper zodat de afstandbediening kan worden gebruikt om Kodi op te starten."
+msgstr "Start altijd een Kodi-helper zodat de afstandbediening kan worden gebruikt om Kodi op te starten."
 
 msgctxt "#36418"
 msgid "Specify the delay between button sequences on a universal remote."
@@ -13939,7 +14007,7 @@ msgstr "Definieer locaties die gebruikt worden voor weersvoorspellingen."
 
 msgctxt "#36420"
 msgid "Look for external subtitles for videos provided by the UPnP server. This can cause extensive CPU, filesystem and network load."
-msgstr "Zoek naar externe ondertitels voor video`s verkregen via de UPnP server. Dit kan Uitgebreid CPU, systeem en Netwerkgebruik veroorzaken"
+msgstr "Zoek naar externe ondertitels voor video`s verkregen via de UPnP-server. Dit kan flink CPU-, systeem- en netwerkverbruik veroorzaken."
 
 msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
@@ -13947,15 +14015,15 @@ msgstr "Het omzeilen van de VDPAU mixer beperkt de impact op minder krachtige sy
 
 msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
-msgstr "Activeer hardware-videodecodering gebruikmakend van AMlogic decoder."
+msgstr "Activeer de hardware-videodecodering gebruikmakend van AMlogic decoder."
 
 msgctxt "#36423"
 msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
-msgstr "Timer regels zullen alleen nieuwe afleveringen opnemen. Niet ondersteund door alle add-ons en backends."
+msgstr "Timerregels zullen alleen nieuwe afleveringen opnemen. Wordt niet door alle add-ons en backends ondersteund."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."
-msgstr "Selecteer wat er gebeuren gaat wanneer een item is geselecteerd in de gids: [Toon inhoudsmenu] Zal het inhoudsmenu starten van waaruit vervolgacties kunnen worden gekozen; [Verander naar kanaal] Zal gaan naar het gerelateerde kanaal; [Toon informatie] zal gedetailleerde informatie met plot en volgende opties tonen; [Opnemen] Zal een opname timer creëren voor het geselecteerde item."
+msgstr "Selecteer wat er gebeuren gaat wanneer een item is geselecteerd in de gids: [Toon inhoudsmenu] Zal het inhoudsmenu starten van waaruit vervolgacties kunnen worden gekozen; [Verander naar kanaal] Zal gaan naar het gerelateerde kanaal; [Toon informatie] Zal gedetailleerde informatie met plot en volgende opties tonen; [Opnemen] Zal een opname timer creëren voor het geselecteerde item."
 
 msgctxt "#36425"
 msgid "Show context menu"
@@ -13975,7 +14043,7 @@ msgstr "Opnemen"
 
 msgctxt "#36429"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
-msgstr "Selecteer deze optie als de audio-out-aansluiting alleen multikanaalsaudio ondersteunt zoals Dolby Digital 5.1(AC-3), bijvoorbeeld een S/PDIF aansluiting. Als uw systeem PCM multikanaals-geluid via HDMI ondersteunt, laat deze dan gedeactiveerd."
+msgstr "Selecteer deze optie als de audio-out-aansluiting alleen multikanaalsaudio ondersteunt zoals Dolby Digital 5.1(AC-3), bijvoorbeeld een S/PDIF aansluiting. Als uw systeem PCM multikanaals-geluid via HDMI ondersteunt, houdt deze dan gedeactiveerd."
 
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
@@ -13991,43 +14059,43 @@ msgstr "Selecteer virtuele toetsenbordlayouts."
 
 msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
-msgstr "Wanneer geactiveerd, heeft VAAPO render methode de voorkeur en de CPU heeft minder verbruik, als stotteren ervaart, de-activeer deze optie dan."
+msgstr "Wanneer geactiveerd, heeft de VAAPO-rendermethode de voorkeur en heeft de CPU heeft minder verbruik. Indien het systeem vast loopt,  de-activeer dan deze optie."
 
 msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
-msgstr "Toestaan hardwareversnelling - MMAL"
+msgstr "Toestaan van hardwareversnelling - MMAL"
 
 msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "VideoPlayer gebruiken voor het decoderen van video-bestanden met MMAL versnelling."
+msgstr "VideoPlayer gebruiken voor het decoderen van videobestanden met MMAL-versnelling."
 
 msgctxt "#36436"
 msgid "Audio DSP manager..."
-msgstr "Audio DSP beheerder..."
+msgstr "Audio DSP-beheerder..."
 
 msgctxt "#36437"
 msgid "Allows to configure available modes for different stages in audio processing and to arrange the steps within the processing chain of each selected mode."
-msgstr "Toestaan om beschikbare modes te configureren voor verschillende stages in audioverwerking en om de stappen te organiseren binnen het verwerkingsproces van elke geselecteerde mode."
+msgstr "Toestaan om beschikbare modes te configureren voor verschillende stages in audioverwerking, en om de stappen te organiseren binnen het verwerkingsproces van elke geselecteerde mode."
 
 msgctxt "#36438"
 msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
-msgstr "Activeer digitale signaal verwerking (DSP) van audio kanalen gespecificeerd door de luidsprekerconfiguratie."
+msgstr "Activeer digitale signaalverwerking (DSP) van audiokanalen, gespecificeerd door de luidsprekerconfiguratie."
 
 msgctxt "#36439"
 msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
-msgstr "Alle gegevens (add-on instellingen en audio DSP beheerder instellingen) in de audio DSP database zullen worden gewist."
+msgstr "Alle gegevens (add-on instellingen en audio DSP beheerderinstellingen) in de audio DSP-database zullen worden gewist."
 
 msgctxt "#36440"
 msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
-msgstr "Activeer alle DSV add-on en audio DSV beheerinstellingen in de audio DSV database."
+msgstr "Activeer alle DSV add-on en audio DSV-beheerinstellingen in de audio DSV-database."
 
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
-msgstr "Activeer audio DSV verwerking"
+msgstr "Activeer audio DSP-verwerking"
 
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
-msgstr "Het aantal volume controle stappen instellen."
+msgstr "Het aantal volumestappen instellen."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -14035,11 +14103,11 @@ msgstr "Gebeurtenissen registratie maakt het mogelijk om te kijken wat er is geb
 
 msgctxt "#36461"
 msgid "Notification event describe regular processes and actions performed by the system or the user."
-msgstr "Notificatie gebeurtenis beschrijft algemene processen en actie uitgevoerd door het systeem of de gebruiker."
+msgstr "Notificatiegebeurtenis beschrijft de algemene processen en actie(s) uitgevoerd door het systeem of de gebruiker."
 
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
-msgstr "Stereoscopische 3D modus \\ Huidig"
+msgstr "Stereoscopische 3D modus / Huidig"
 
 msgctxt "#36501"
 msgid "Stereoscopic 3D mode"
@@ -14095,7 +14163,7 @@ msgstr "Vraag"
 
 msgctxt "#36523"
 msgid "Maximum sampling rate for S/PDIF or sampling rate for fixed output configuration."
-msgstr "Maximum sampling rate voor S/PDIF of sampling rate voor vaste output configuratie."
+msgstr "Maximale sampling rate voor S/PDIF of sampling rate voor vaste uitvoerconfiguratie."
 
 msgctxt "#36524"
 msgid "Preferred mode"
@@ -14127,11 +14195,11 @@ msgstr "Zelfde als film"
 
 msgctxt "#36533"
 msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
-msgstr "Selecteer hoe geluid wordt gereduceerd. als voorbeeld van 5.1 naar 2.0.[CR][Geactiveerd] behoudt het volumeniveau van de originele geluidsbron echter het dynamische bereik is gecomprimeerd[CR][Gedeactiveerd] Behoudt het dynamische bereik van de originele geluidsbron wanneer er wordt gereduceerd, echter het volume zal lager zijn. Opmerking: dynamisch bereik is het verschil tussen de zachtste en hardste geluiden in een geluidsbron. Activeer deze instelling als gesprekken in een film nauwelijks hoorbaar zijn."
+msgstr "Selecteer hoe geluid wordt gereduceerd, bijv. van 5.1 naar 2.0.[CR][Geactiveerd] Behoudt het volumeniveau van de originele geluidsbron hoewel het dynamische bereik gecomprimeerd is.[CR][Gedeactiveerd] Behoudt het dynamische bereik van de originele geluidsbron wanneer er wordt gereduceerd, echter het volume zal lager zijn. Opmerking: dynamisch bereik is het verschil tussen de zachtste en hardste geluiden in een geluidsbron. Activeer deze instelling als gesprekken in een film nauwelijks hoorbaar zijn."
 
 msgctxt "#36534"
 msgid "Specify additional libraries whose verbose messages are to be included in the debug log."
-msgstr "Specificeer overige bibliotheken wiens uitgebreide berichten moeten worden opgenomen in het debug log."
+msgstr "Specificeer overige bibliotheken wiens uitvoermeldingen moeten worden opgenomen in het debug log."
 
 msgctxt "#36535"
 msgid "Stereoscopic 3D mode of video"
@@ -14139,15 +14207,15 @@ msgstr "Stereoscopische 3D modus van video"
 
 msgctxt "#36536"
 msgid "Invert stereoscopic 3D mode (flip eyes)"
-msgstr "Omdraaien stereoscopische 3D modus (verwissel ogen)"
+msgstr "Omdraaien stereoscopische 3D modus (verwissel links/rechts)"
 
 msgctxt "#36537"
 msgid "Select in which mode stereoscopic 3D videos will be played.[CR][Ask me] Will show a dialogue to select the desired mode for each playback.[CR][Preferred mode] Will use the preferred mode specified in the \"System -> Video hardware\" section of the settings.[CR][Monoscopic / 2D] Will play the video in mono / 2D.[CR][Ignore] Disables any stereoscopic 3D processing and handling."
-msgstr "Selecteer in welke modus stereoscopische 3D video`s worden afgespeeld.[CR][Vraag mij]Toont een venster om de gewenste modus te selecteren voor elke keer afspelen.[CR] [Voorkeursmodus] Gebruikt de voorkeursmodus gespecificeerd in de \"Systeem -> Video hardware\" sectie van de instellingen.[CR][Monoscopisch / 2D] Zal de video afspelen in mono / 2D.[CR][Negeren] Deactiveert elke stereoscopische 3D verwerking en behandeling."
+msgstr "Selecteer in welke modus stereoscopische 3D video`s worden afgespeeld.[CR][Vraag mij] Toont een venster om de gewenste modus te selecteren voor elke keer afspelen.[CR] [Voorkeursmodus] Gebruikt de voorkeursmodus gespecificeerd in de \"Systeem -> Video hardware\" sectie van de instellingen.[CR][Monoscopisch / 2D] Zal de video afspelen in mono / 2D.[CR][Negeren] Deactiveert elke stereoscopische 3D verwerking en behandeling."
 
 msgctxt "#36538"
 msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode, between videos in a playlist or when playback ended.[CR][Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists with mixed stereoscopic 3D and 2D content, then the GUI will also stay in stereoscopic 3D mode even when a non-stereoscopic 2D video is playing."
-msgstr "[Geactiveerd] verander GUI (en sommige TV's) terug naar 2D modus, tussen video's in een afspeellijst of wanneer afspelen is beëindigd[CR][Gedeactiveerd] GUI en TV blijven in Stereoscopische 3D modus. Voor video afspeellijsten met zowel stereoscopische 3D en 2D inhoud, de GUI zal dan eveneens in stereoscopische 3D modus blijven zelfs wanneer niet-stereoscopische 2D video wordt afgespeeld."
+msgstr "[Geactiveerd] Schakel de GUI (en sommige TV's) terug naar 2D modus, tussen video's in een afspeellijst of wanneer afspelen is beëindigd[CR][Gedeactiveerd] GUI en TV blijven in stereoscopische 3D modus. Voor video afspeellijsten met zowel stereoscopische 3D en 2D inhoud zal de GUI eveneens in stereoscopische 3D modus blijven zelfs wanneer niet-stereoscopische 2D video wordt afgespeeld."
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
@@ -14191,19 +14259,19 @@ msgstr "Limiteert de resolutie van de GUI om geheugen te besparen. dit beïnvloe
 
 msgctxt "#36549"
 msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
-msgstr "Activeert ondersteuning voor ontvangen van \"Video`s\" en \"Afbeeldingen\" via Airplay. dit moet worden gedeactiveerd wanneer gebruik gemaakt wordt van IOS 9 of latere uitvoeringen om muziek streaming te herstellen via Airplay. \"Video`s\" en \"Afbeeldingen\" zijn alleen ondersteund voor IOS uitvoeringen gebruikmakend van IOS 8.x en ouder."
+msgstr "Activeert de ondersteuning voor het ontvangen van \"Video's\" en \"Afbeeldingen\" via Airplay. Dit moet worden gedeactiveerd wanneer gebruik gemaakt wordt van IOS / MacOS 9 of later om muziekstreaming te herstellen via Airplay. \"Video's\" en \"Afbeeldingen\" zijn alleen ondersteund voor IOS uitvoeringen gebruikmakend van IOS 8.x en ouder."
 
 msgctxt "#36550"
 msgid "Stereoscopic 3D effect strength"
-msgstr "Sterkte stereoscopische 3D-effect"
+msgstr "Sterkte van stereoscopisch 3D-effect"
 
 msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
-msgstr "Definieerd de sterkte van het stereoscopische 3d effect in de GUI. Dit wordt gedaan door het beheren van de diepte van perceptie binnenin de GUI. Dus hoe hoger de waarde, des te meer elementen zullen uit het scherm springen.  [Nul] deactiveert het 3D effect van de GUI.[CR] voor een goede visuele beleving, zou de waarde hoger moeten zijn voor kleine schermen en lager voor grote schermen. Let op:dit wordt niet ondersteund door alle skins."
+msgstr "Definiëert de sterkte van het stereoscopische 3D-effect in de GUI. Dit wordt gedaan door het beheren van de diepte van perceptie binnenin de GUI. Dus hoe hoger de waarde, des te meer elementen uit het scherm zullen springen.  [Nul] Deactiveert het 3D-effect van de GUI.[CR] Voor een goede visuele beleving zou de waarde hoger moeten zijn voor kleine schermen, en lager voor grote schermen. Let op: dit wordt niet door alle skins ondersteund."
 
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
-msgstr "Hiermee definieert u het aantal buffers voor de presentatie gebruikt door het grafische stuurprogramma . Selecteer 2 als het stuurprogramma dubbele buffering gebruikt of 3 voor triple bufferen. "
+msgstr "Hiermee definieert u het aantal buffers te gebruiken door het grafische stuurprogramma. Selecteer 2 als het stuurprogramma dubbele buffering gebruikt, of 3 voor drievoudige buffering. "
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -14211,7 +14279,7 @@ msgstr "Kleurbeheer"
 
 msgctxt "#36561"
 msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
-msgstr "Reproduceer video kleuren accuraat door een weergaveprofiel of een 3D zoektabel te gebruiken."
+msgstr "Reproduceer videokleuren accuraat door een weergaveprofiel of een 3D-zoektabel te gebruiken."
 
 msgctxt "#36562"
 msgid "Colour management mode"
@@ -14219,63 +14287,35 @@ msgstr "Kleurbeheer modus"
 
 msgctxt "#36563"
 msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
-msgstr "Gebruik een voorberekende 3D lookup table voor video kleur correctie of bereken de transformatie voor elke video via een profiel van uw display. Een voorberekende 3D lookup table heeft de voorkeur, want daardoor kunt u gebruik maken van geavanceerde mogelijkheden en hoge precisie in ArgyllCMS. Weergave profiel gebaseerde correctie is nuttig om verschillende parameters te testen of weergave installingen te emuleren waarvoor u geen 3D LUT hebt voorbereid."
+msgstr "Gebruik een voorberekende 3D lookup-table voor videokleurcorrectie, of bereken de transformatie voor elke video via een profiel van uw display. Een voorberekende 3D-lookuptable heeft de voorkeur, want daardoor kunt u gebruik maken van geavanceerde mogelijkheden en hoge precisie in ArgyllCMS. Weergave profiel gebaseerde correctie is nuttig om verschillende parameters te testen of weergave-instellingen te emuleren waarvoor u geen 3D-LUT hebt voorbereid."
 
 msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D LUT"
 
-msgctxt "#36565"
-msgid "TODO: 3D LUT filename description"
-msgstr "TODO: 3D LUT bestandsnaam omschrijving"
-
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "ICC display profile"
-
-msgctxt "#36567"
-msgid "TODO: ICC display profile filename description"
-msgstr "TODO: ICC display profile bestandsnaam omschrijving"
 
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Whitepoint"
 
-msgctxt "#36569"
-msgid "TODO: Whitepoint selection description"
-msgstr "TODO: Whitepoint selectie omschrijving"
-
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Primaries"
-
-msgctxt "#36571"
-msgid "TODO: Primary coordinates description"
-msgstr "TODO: Primary coordinates beschrijving"
 
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Gamma mode"
 
-msgctxt "#36573"
-msgid "TODO: Gamma mode description"
-msgstr "TODO: Gamma mode beschrijving"
-
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
 
-msgctxt "#36575"
-msgid "TODO: Gamma description"
-msgstr "TODO: Gamma beschrijving"
-
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Lookup table grootte"
-
-msgctxt "#36577"
-msgid "TODO: Lookup table size description"
-msgstr "TODO: Lookup table grootte beschrijving"
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14351,11 +14391,11 @@ msgstr "%1.2f"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
-msgstr "Elimineer inbranden veroorzaakt door RGB niveau conversie of andere verwerking door een kleine hoeveelheid ruis toe te voegen aan de afbeelding. Dit kan worden uitgeschakeld voor tragere systemen, of wanneer Kodi is ingesteld op beperkt assortiment RGB-uitgang en geen video-verwerking nodig is."
+msgstr "Elimineer kleurverzadiging dat veroorzaakt wordt door RGB- niveauconversie of andere verwerking, door een kleine hoeveelheid ruis toe te voegen aan de afbeelding. Dit kan worden uitgeschakeld voor tragere systemen, of wanneer Kodi is ingesteld op beperkte RGB-kleuren en geen videokleurverwerking nodig is."
 
 msgctxt "#36599"
 msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
-msgstr "Video dithering uitgang precisie in stukjes. Gebruikt u de hoogste instelling dat geen inbranding laat zien. De standaardinstelling 8 wordt aanbevolen voor de meeste systemen. Als uw GPU is ingesteld op de schaal van de uitvoer RGB niveaus of u een laptop gebruikt scherm, een 7 of 6 bitinstelling kan elimineren meer \\\"banding\\\". Lagere instellingen zijn beschikbaar voor testdoeleinden alleen te maken het gemakkelijk om te zien of dithering wordt toegepast en dat de pixelgrootte van dithering lawaai overeenkomt met de schermresolutie."
+msgstr "Videodithering uitvoerprecisie in bits. Gebruik de hoogste instelling waarbij geen inbranding te zien is. De standaardinstelling 8 wordt aanbevolen voor de meeste systemen. Als uw GPU is ingesteld op de schaal van de uitvoer RGB-niveaus of u gebruikt een laptopscherm, kan een 7 of 6 bitinstelling meer \\\"banding\\\" elimineren. Lagere instellingen zijn beschikbaar voor testdoeleinden alleen om het makkelijk te zien of dithering wordt toegepast, en dat de pixelgrootte van ditheringnoise overeenkomt met de schermresolutie."
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -14407,7 +14447,7 @@ msgstr "Melding weergeven wanneer een add-on is bijgewerkt."
 
 msgctxt "#36613"
 msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
-msgstr "Beheer modules en ondersteun bibliotheken die automatisch zijn geïnstalleerd als een afhankelijkheid van andere add-ons . Items getoond als 'Verweesd' die niet langer door de invoegtoepassingen verplicht zijn en veilig zijn te verwijderen."
+msgstr "Beheer modules en ondersteun bibliotheken die automatisch zijn geïnstalleerd als een afhankelijkheid van andere add-ons. Items getoond als 'Verweesd' die niet langer door de invoegtoepassingen verplicht zijn en veilig zijn te verwijderen."
 
 msgctxt "#36614"
 msgid "Show add-ons that are currently running in the background."
@@ -14427,7 +14467,15 @@ msgstr "Voor beveiliging, is installatie van add-ons van onbekende bronnen uitge
 
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
-msgstr "Add-ons krijgen toegang tot persoonsgegevens die zijn opgeslagen op dit apparaat. Door toe te staan, u gaat ermee akkoord dat u alleen verantwoordelijk bent voor enig verlies van gegevens, ongewenst gedrag, of schade aan uw apparaat. Wilt u doorgaan?"
+msgstr "Add-ons krijgen toegang tot persoonsgegevens die zijn opgeslagen op dit apparaat. Door dit toe te staan,  gaat u er mee akkoord dat alleen u verantwoordelijk bent voor enig verlies van gegevens, ongewenst gedrag, of schade aan uw apparaat. Wilt u verdergaan?"
+
+msgctxt "#36619"
+msgid "High quality downscaling"
+msgstr "Terugschalen van hoge kwaliteit"
+
+msgctxt "#36620"
+msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
+msgstr "Inschakelen van het omlaag schalen van de hogekwaliteit van afbeeldingen (vraagt meer geheugen en heeft enige impact op de algehele prestatie)."
 
 msgctxt "#36900"
 msgid "movie"
@@ -14579,7 +14627,7 @@ msgstr "Wilt u het afspelen stoppen op het externe apparaat?"
 
 msgctxt "#37024"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
-msgstr "Selecteer deze optie als de audio-out-aansluiting alleen multikanaals audio ondersteunt zoals Dolby Digital 5.1 (AC3), dit maakt multikanaals audio zoals AAC 5.1 of FLAC 5.1 te beluisteren in 5.1 surround sound. Opmerking: Niet aanbevolen op de Raspberry-Pi omdat dit veel rekenkracht vergt van de CPU."
+msgstr "Selecteer deze optie als de audio-out-aansluiting alleen multikanaals audio ondersteunt, zoals Dolby Digital 5.1 (AC3), dit maakt multikanaals audio zoals AAC 5.1 of FLAC 5.1 te beluisteren in 5.1 surroundsound. Opmerking: Niet aanbevolen op de Raspberry-Pi, omdat dit veel rekenkracht vergt van de CPU."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -14615,7 +14663,7 @@ msgstr "Toegankelijkheid"
 
 msgctxt "#37033"
 msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
-msgstr "Video afspeel gerelateerde toegankelijkheidsinstellingen, bv. \"voorkeur ondertitels voor de doven en slechthorenden\""
+msgstr "Video afspeel-toegankelijkheidsinstellingen, bv. \"Voorkeur ondertitels voor doven en slechthorenden\""
 
 msgctxt "#37034"
 msgid "Prefer audio stream for the visually impaired"
@@ -14639,31 +14687,31 @@ msgstr "Verkies ondertiteling voor doven en slechthorenden"
 
 msgctxt "#37039"
 msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
-msgstr "Verkies de ondertitel stream voor de doven en slechthorenden boven de andere ondertitel streams van de zelfde taal"
+msgstr "Prefereer de ondertitel voor de doven en slechthorenden boven de andere ondertitel streams van de zelfde taal"
 
 msgctxt "#37040"
 msgid "Prefer default audio streams"
-msgstr "Verkies standaard audiostreams"
+msgstr "Prefereer standaard audiostreams"
 
 msgctxt "#37041"
 msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
-msgstr "Wanneer geactiveerd, krijgen audio streams die gemarkeerd zijn als \"Standaard\" (en overeenkomend met de voorkeur taal) een voorkeur bovenop audio streams met een hogere kwaliteit (aantal kanalen, codec, ...)."
+msgstr "Wanneer geactiveerd, krijgen audiostreams die gemarkeerd zijn als \"Standaard\" (en overeenkomend met de voorkeurtaal) een voorkeur bovenop audiostreams met een hogere kwaliteit (aantal kanalen, codec, ...)."
 
 msgctxt "#37042"
 msgid "Defines which step sizes to use when pressing the skip buttons. If more steps are selected for a skip direction, these can be applied by subsequent presses on the skip button within the defined skip delay. Forward (positive) and backward (negative) steps can be defined independently."
-msgstr "Definieert welke stap grootte wordt gebruikt wanneer op skip knoppen wordt gedrukt., als meerdere stappen zijn geselecteerd voor een skip richting kunnen deze door opeenvolgende drukken op de gedefinieerde skip vertraging. Vooruit (positief) en achterwaarts (negatief) stappen kunnen onafhankelijk van elkaar worden."
+msgstr "Definieert welke stapgrootte wordt gebruikt wanneer op skipknoppen wordt gedrukt., als meerdere stappen zijn geselecteerd voor een skiprichting kunnen deze door opeenvolgende drukken op de gedefinieerde skipvertraging. Stappen vooruit (positief) en achterwaarts (negatief) kunnen onafhankelijk van elkaar worden."
 
 msgctxt "#37043"
 msgid "Defines the time to wait for subsequent key presses before performing the skip. Only applies when using smart skipping (when using more than one skip step for a direction)."
-msgstr "Definieert de tijd te wachten voor de volgende toetsaanslagen voordat u de skip wordt uitgevoerd. Alleen van toepassing bij gebruik van smart skipping (bij gebruik van meer dan één skip stap voor een richting)."
+msgstr "Definieert de te wachten tijd voor de volgende toetsaanslagen voordat u de skip wordt uitgevoerd. Alleen van toepassing bij gebruik van smart skipping (bij gebruik van meer dan één skip stap voor een richting)."
 
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
-msgstr "Uitpakken hoofdstuk miniaturen"
+msgstr "Uitpakken hoofdstukminiaturen"
 
 msgctxt "#37045"
 msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
-msgstr "uitpakken hoofdstuk miniaturen voor presentatie in hoofdstukken  / bladwijzers scherm. dit kan het CPU verbruik verhogen."
+msgstr "Uitpakken hoofdstukminiaturen voor presentatie in hoofdstukken / bladwijzers scherm. Dit kan het CPU-verbruik verhogen."
 
 msgctxt "#38010"
 msgid "GPU accelerated"
@@ -14675,7 +14723,7 @@ msgstr "Toon \"Alle bestanden\" vermelding"
 
 msgctxt "#38012"
 msgid "Show \"All items\" entry in directory, e.g. \"All albums\" or \"All seasons\"."
-msgstr "Toon \"alle bestanden\" vermelding in locatie, bv \"Alle albums\" of \"alle seizoenen\"."
+msgstr "Toon \"Alle bestanden\" vermelding in locatie, bv \"Alle albums\" of \"Alle seizoenen\"."
 
 msgctxt "#38013"
 msgid "Limit GUI updates during playback"
@@ -14683,7 +14731,7 @@ msgstr "Limiteer GUI-updates tijdens afspelen"
 
 msgctxt "#38014"
 msgid "Limits the speed (fps) used to update the GUI while playing videos. This can reduce CPU load and fix playback issues while the GUI is shown."
-msgstr "Limiteert de snelheid (fps) gebruikt om de GUI te updaten tijdens afspelen video's dit kan het CPU verbruik verlagen en verbeteren van afspeelproblemen wanneer de GUI wordt getoond. "
+msgstr "Limiteert de snelheid (fps) gebruikt om de GUI te updaten tijdens afspelen van video's. Dit kan het CPU-verbruik verlagen en verbeteren van afspeelproblemen wanneer de GUI wordt getoond. "
 
 msgctxt "#38015"
 msgid "Unlimited"
@@ -14711,7 +14759,7 @@ msgstr "Zet mijn score"
 
 msgctxt "#38024"
 msgid "Information provider selection"
-msgstr "informatieleverancier selectie"
+msgstr "Informatieleverancier selectie"
 
 msgctxt "#38025"
 msgid "Choose information provider"
@@ -14723,15 +14771,15 @@ msgstr "Uiterlijkheden"
 
 msgctxt "#38027"
 msgid "Decode the stereo stream from 3D files"
-msgstr "De stereo stream van 3D-bestanden decoderen"
+msgstr "De stereostream van 3D-bestanden decoderen"
 
 msgctxt "#38028"
 msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
-msgstr "Wanneer geactiveerd, kunnen video's gemaakt in Multiview-Video Coding (MVC) formaat ook in stereoscopisch 3D worden bekeken. MVC formaat is meestal te vinden op 3D Blu-rays. [CR] Opmerking: De verwerking van deze gegevens kan afspeelprestaties verminderen, dus alleen inschakelen als u stereoscopische 3D ondersteuning nodig heeft."
+msgstr "Wanneer geactiveerd, kunnen video's gemaakt in Multiview-Video Coding (MVC) formaat ook in stereoscopisch 3D worden bekeken. MVC-formaat is meestal te vinden op 3D-Blurays. [CR] Opmerking: De verwerking van deze gegevens kan afspeelprestaties verminderen, dus alleen inschakelen als u stereoscopische 3D-ondersteuning nodig heeft."
 
 msgctxt "#38029"
 msgid "Enable Full HD HDMI modes for stereoscopic 3D"
-msgstr "Activeer Full HD HDMI modus voor stereoscopisch 3D"
+msgstr "Activeer Full HD HDMI-modus voor stereoscopisch 3D"
 
 msgctxt "#38030"
 msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
@@ -14789,6 +14837,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sectie die de instellingen voor het afspelen van media bevat"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown, and navigated"
+msgstr "Sectie die de instellingen bevat voor bronnen en hoe media-informatie wordt verzameld, opgeslagen, getoond en genavigeerd."
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Sectie die bevat de instellingen de GUI ervaring beïnvloeden en voor het regelen van de GUI/system"
@@ -14807,7 +14859,7 @@ msgstr "Deze categorie bevat de instellingen voor het afspelen van foto's via ee
 
 msgctxt "#38106"
 msgid "This category contains the settings for audio & subtitle language"
-msgstr "Deze categorie bevat de instellingen voor audio & ondertitelings taal"
+msgstr "Deze categorie bevat de instellingen voor audio & ondertitelingstaal"
 
 msgctxt "#38107"
 msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
@@ -14823,7 +14875,7 @@ msgstr "Deze categorie bevat de instellingen voor de manier waarop informatie ov
 
 msgctxt "#38110"
 msgid "This category contains the settings for the library databases"
-msgstr "Deze categorie bevat de instellingen voor de bibliotheek databases"
+msgstr "Deze categorie bevat de instellingen voor de bibliotheekdatabases"
 
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
@@ -14844,3 +14896,19 @@ msgstr "Versnellen MPEG4"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Versnellen h264"
+
+msgctxt "#39004"
+msgid "This category contains provides access to the windows for source management and the Library settings for the databases"
+msgstr "Deze categorie geeft toegang tot de secties voor bronbeheer en de bibliothekeninstellingen voor de databases."
+
+msgctxt "#39005"
+msgid "This provides access to where video sources can be added and otherwise managed."
+msgstr "Dit geeft toegang aan waar videobronnen kunnen worden toegevoegd en anderszins beheerd."
+
+msgctxt "#39006"
+msgid "This provides access to where music sources can be added and otherwise managed."
+msgstr "Dit geeft toegang aan waar muziekbronnen kunnen worden toegevoegd en anderszins beheerd."
+
+msgctxt "#39007"
+msgid "This provides access to where picture sources can be added and otherwise managed."
+msgstr "Dit geeft toegang aan waar afbeeldingsbronnen kunnen worden toegevoegd en anderszins beheerd."

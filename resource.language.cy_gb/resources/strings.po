@@ -37,10 +37,6 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "Gosodiadau"
 
-msgctxt "#6"
-msgid "Kodi SVN"
-msgstr "SVN Kodi"
-
 msgctxt "#7"
 msgid "File manager"
 msgstr "Rheolwr ffeiliau"
@@ -1277,10 +1273,6 @@ msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "Derbynnydd DTS-HD galluog"
 
-msgctxt "#348"
-msgid "Enable passthrough"
-msgstr "Galluogi pasio drwodd"
-
 msgctxt "#349"
 msgid "TrueHD capable receiver"
 msgstr "Derbynnydd TrueHD galluog"
@@ -1647,7 +1639,7 @@ msgstr "UDF"
 
 msgctxt "#442"
 msgid "Local network"
-msgstr "Rhwydwaith leol"
+msgstr "Rhwydwaith lleol"
 
 msgctxt "#443"
 msgid "Internet"
@@ -2743,7 +2735,7 @@ msgstr "Rhyngwyneb rhwydwaith"
 
 msgctxt "#776"
 msgid "Wireless network name (ESSID)"
-msgstr "Enw rhwydwaith diwyfr (ESSID)"
+msgstr "Enw rhwydwaith diwifr (ESSID)"
 
 msgctxt "#777"
 msgid "Wireless password"
@@ -2775,15 +2767,15 @@ msgstr "WPA2"
 
 msgctxt "#784"
 msgid "Applying network interface settings. Please wait."
-msgstr "Gosod gosodiadau rhyngwyneb rhwydwaith. Arhoswch."
+msgstr "Wrthi'n gosod gosodiadau rhyngwyneb rhwydwaith. Arhoswch."
 
 msgctxt "#785"
 msgid "Network interface restarted successfully."
-msgstr "Rhyngwyneb rhwydwaith wedi ailgychwyn yn llwyddiannus."
+msgstr "Mae'r rhyngwyneb rhwydwaith wedi'i ailgychwyn yn llwyddiannus."
 
 msgctxt "#786"
 msgid "Network interface did not start successfully."
-msgstr "Nid yw'r rhyngwyneb rhwydwaith wedi cychwyn yn llwyddiannus."
+msgstr "Ni chychwynnodd y rhyngwyneb rhwydwaith yn llwyddiannus."
 
 msgctxt "#787"
 msgid "Interface disabled"
@@ -2795,7 +2787,7 @@ msgstr "Analluogwyd rhyngwyneb rhwydwaith yn llwyddiannus."
 
 msgctxt "#789"
 msgid "Wireless network name (ESSID)"
-msgstr "Enw rhwydwaith diwyfr (ESSID)"
+msgstr "Enw rhwydwaith diwifr (ESSID)"
 
 msgctxt "#790"
 msgid "Remote control"
@@ -5153,6 +5145,10 @@ msgctxt "#14026"
 msgid "Video cache - DVD-ROM"
 msgstr "Storfa Fideo - DVD-ROM"
 
+msgctxt "#14027"
+msgid "Video cache - Local network"
+msgstr "Storfa Fideo - Rhwydwaith lleol"
+
 msgctxt "#14028"
 msgid "Video cache - Internet"
 msgstr "Storfa Fideo - Rhyngrwyd"
@@ -5160,6 +5156,10 @@ msgstr "Storfa Fideo - Rhyngrwyd"
 msgctxt "#14030"
 msgid "Audio cache - DVD-ROM"
 msgstr "Storfa Sain - DVD-ROM"
+
+msgctxt "#14031"
+msgid "Audio cache - Local network"
+msgstr "Storfa Sain - Rhwydwaith lleol"
 
 msgctxt "#14032"
 msgid "Audio cache - Internet"
@@ -5171,15 +5171,23 @@ msgstr "Storfa DVD - DVD-ROM"
 
 msgctxt "#14035"
 msgid "Local network"
-msgstr "Rhwydwaith leol"
+msgstr "Rhwydwaith lleol"
 
 msgctxt "#14036"
 msgid "Services"
 msgstr "Gwasanaethau"
 
+msgctxt "#14037"
+msgid "DVD cache - Local network"
+msgstr "Storfa DVD - Rhwydwaith lleol"
+
 msgctxt "#14038"
 msgid "Network settings changed"
 msgstr "Gosodiadau rhwydwaith wedi newid"
+
+msgctxt "#14039"
+msgid "A restart is required to change your network setup. Would you like to restart now?"
+msgstr "Rhaid ailddechrau er mwyn rhoi'r newidiadau ar waith. A hoffech ailddechrau'n awr?"
 
 msgctxt "#14041"
 msgid "Internet connection bandwidth limitation"
@@ -5445,6 +5453,10 @@ msgctxt "#14221"
 msgid "Audio"
 msgstr "Sain"
 
+msgctxt "#14225"
+msgid "Network Control"
+msgstr "Rheoli'r Rhwydwaith"
+
 msgctxt "#14230"
 msgid "Actions"
 msgstr "Gweithredoedd"
@@ -5577,13 +5589,17 @@ msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "Heb ganfod y llwybr neu mae'n annilys"
 
+msgctxt "#15301"
+msgid "Couldn't connect to network server"
+msgstr "Methu â chysylltu â gweinydd y rhwydwaith"
+
 msgctxt "#15302"
 msgid "No servers found"
 msgstr "Heb ganfod gweinyddion"
 
 msgctxt "#15303"
 msgid "Workgroup not found"
-msgstr "Methu canfod grŵp gwaith"
+msgstr "Methu â chanfod grŵp gwaith"
 
 msgctxt "#15310"
 msgid "Opening multi-path source"
@@ -5808,10 +5824,6 @@ msgstr "Spline36"
 msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
-
-msgctxt "#16326"
-msgid "DXVA-HD"
-msgstr "DXVA-HD"
 
 msgctxt "#16330"
 msgid "MMAL - Advanced"
@@ -6353,6 +6365,14 @@ msgctxt "#19178"
 msgid "Show channel information when switching channels"
 msgstr "Dangos gwybodaeth am y sianel wrth ei newid"
 
+msgctxt "#19180"
+msgid "TV channels"
+msgstr "Sianeli teledu"
+
+msgctxt "#19183"
+msgid "Radio channels"
+msgstr "Sianeli radio"
+
 msgctxt "#19189"
 msgid "Continue last channel on startup"
 msgstr "Parhau ar y sianel diwethaf wrth gychwyn"
@@ -6596,6 +6616,10 @@ msgstr "Clowyd gan riant:"
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Grwpio eitemau"
+
+msgctxt "#19273"
+msgid "TV guide"
+msgstr "Amserlen y Teledu"
 
 msgctxt "#19275"
 msgid "Conflict warning"
@@ -7388,6 +7412,10 @@ msgstr "Gweinydd WebDAV (HTTP)"
 msgctxt "#20255"
 msgid "First logon, edit your profile"
 msgstr "Mewngofnodwch yn gyntaf ac yna golygu eich proffil"
+
+msgctxt "#20259"
+msgid "Network File System (NFS)"
+msgstr "System Ffeilio'r Rhwydwaith"
 
 msgctxt "#20300"
 msgid "Web server directory (HTTP)"
@@ -8217,10 +8245,6 @@ msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "Golygu rhestr chwarae clyfar"
 
-msgctxt "#21433"
-msgid "Name of the playlist"
-msgstr "Enw'r rhestr chwarae"
-
 msgctxt "#21434"
 msgid "Find items where"
 msgstr "Canfod eitemau lle"
@@ -8921,10 +8945,6 @@ msgctxt "#24042"
 msgid "Downloading %i%%"
 msgstr "Llwytho %i%% i lawr"
 
-msgctxt "#24049"
-msgid "Incompatible"
-msgstr "Anghymarus"
-
 msgctxt "#24051"
 msgid "Version:"
 msgstr "Fersiwn:"
@@ -9592,6 +9612,10 @@ msgstr "Offer ategol"
 msgctxt "#35001"
 msgid "Generic HID device"
 msgstr "Dyfais HID generig"
+
+msgctxt "#35002"
+msgid "Generic network adapter"
+msgstr "Addasydd cyffredinnol y rhwydwaith"
 
 msgctxt "#35003"
 msgid "Generic disk"
