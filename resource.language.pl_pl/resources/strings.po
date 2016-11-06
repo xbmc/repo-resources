@@ -37,6 +37,10 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "Ustawienia"
 
+msgctxt "#6"
+msgid "Kodi GIT"
+msgstr "GIT dla Kodi"
+
 msgctxt "#7"
 msgid "File manager"
 msgstr "Menedżer plików"
@@ -351,11 +355,11 @@ msgstr "Pauza"
 
 msgctxt "#113"
 msgid "Update failed"
-msgstr "Aktualizacja nieudana"
+msgstr "Nieudana aktualizacja"
 
 msgctxt "#114"
 msgid "Installation failed"
-msgstr "Instalacja nieudana"
+msgstr "Nieudana instalacja"
 
 msgctxt "#115"
 msgid "Copy"
@@ -712,6 +716,10 @@ msgstr "Motto"
 msgctxt "#203"
 msgid "Plot outline"
 msgstr "Zarys"
+
+msgctxt "#204"
+msgid "Compilation"
+msgstr "Kompilacja"
 
 msgctxt "#205"
 msgid "Votes"
@@ -1272,6 +1280,10 @@ msgstr "Zachowuj oryginalną głośność miksując w dół"
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "Obsługuje format DTS-HD"
+
+msgctxt "#348"
+msgid "Allow passthrough"
+msgstr "Zezwalaj na przekazywanie dźwięku"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -3079,7 +3091,7 @@ msgstr "Wprowadź ścieżki lub przeglądaj lokalizacje mediów."
 
 msgctxt "#1022"
 msgid "Enter a name for this media source."
-msgstr "Wprowadź nazwę ego źródła mediów."
+msgstr "Wprowadź nazwę tego źródła mediów."
 
 msgctxt "#1023"
 msgid "Browse for new share"
@@ -4725,10 +4737,6 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "Sprzęt:"
 
-msgctxt "#13271"
-msgid "CPU usage:"
-msgstr "Użycie procesora:"
-
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "Połączony, ale DNS jest niedostępny."
@@ -5223,27 +5231,27 @@ msgstr "Zapamiętaj dla tej ścieżki"
 
 msgctxt "#13425"
 msgid "Allow hardware acceleration - VDPAU"
-msgstr "Dopuszczaj sprzętową akcelerację - VDPAU"
+msgstr "Zezwalaj na sprzętową akcelerację - VDPAU"
 
 msgctxt "#13426"
 msgid "Allow hardware acceleration - VAAPI"
-msgstr "Dopuszczaj sprzętową akcelerację - VAAPI"
+msgstr "Zezwalaj na sprzętową akcelerację - VAAPI"
 
 msgctxt "#13427"
 msgid "Allow hardware acceleration - DXVA2"
-msgstr "Dopuszczaj sprzętową akcelerację - DXVA2"
+msgstr "Zezwalaj na sprzętową akcelerację - DXVA2"
 
 msgctxt "#13428"
 msgid "Allow hardware acceleration - CrystalHD"
-msgstr "Dopuszczaj sprzętową akcelerację - CrystalHD"
+msgstr "Zezwalaj na sprzętową akcelerację - CrystalHD"
 
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
-msgstr "Dopuszczaj sprzętową akcelerację - VTBDecoder"
+msgstr "Zezwalaj na sprzętową akcelerację - VTBDecoder"
 
 msgctxt "#13430"
 msgid "Allow hardware acceleration - OpenMax"
-msgstr "Dopuszczaj sprzętową akcelerację - OpenMax"
+msgstr "Zezwalaj na sprzętową akcelerację - OpenMax"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -5251,7 +5259,7 @@ msgstr "Tranformacje pikseli"
 
 msgctxt "#13432"
 msgid "Allow hardware acceleration - VideoToolbox"
-msgstr "Dopuszczaj sprzętową akcelerację - VideoToolbox"
+msgstr "Zezwalaj na sprzętową akcelerację - VideoToolbox"
 
 msgctxt "#13433"
 msgid "Play next video automatically"
@@ -5271,15 +5279,15 @@ msgstr "Preferuj mikser wideo VDPAU"
 
 msgctxt "#13438"
 msgid "Allow hardware acceleration - amcodec"
-msgstr "Dopuszczaj sprzętową akcelerację - amcodec"
+msgstr "Zezwalaj na sprzętową akcelerację - amcodec"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
-msgstr "Dopuszczaj sprzętową akcelerację - MediaCodec"
+msgstr "Zezwalaj na sprzętową akcelerację - MediaCodec"
 
 msgctxt "#13440"
 msgid "Allow hardware acceleration - MediaCodec (Surface)"
-msgstr "Dopuszczaj sprzętową akcelerację -  - MediaCodec (Powierzchniowy)"
+msgstr "Zezwalaj na sprzętową akcelerację -  - MediaCodec (Powierzchniowy)"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
@@ -5335,7 +5343,7 @@ msgstr "Preferuj metodę renderowania VAAPI"
 
 msgctxt "#13458"
 msgid "Allow hardware acceleration - OMXPlayer"
-msgstr "Dopuszczaj sprzętową akcelerację - OMXPlayer"
+msgstr "Zezwalaj na sprzętową akcelerację - OMXPlayer"
 
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
@@ -5389,6 +5397,14 @@ msgctxt "#13516"
 msgid "Add art"
 msgstr "Dodaj grafikę"
 
+msgctxt "#13517"
+msgid "Threshold for pitch correction"
+msgstr "Próg korekcji wysokości tonów"
+
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "W przypadku, gdy zmiana prędkości przekroczy ten próg, zostanie zastosowany filtr korekcji wysokości tonu. Zapobiega to piskliwym głosom, które są normalnym rezultatem przyśpieszenia odtwarzania wideo."
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Opóźniaj odświeżenie po zmianie częstotliwości odświeżania"
@@ -5427,7 +5443,7 @@ msgstr "Pilot Apple"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
-msgstr "Dopuszczaj uruchomienie Kodi przy pomocy pilota"
+msgstr "Zezwalaj na uruchomienie Kodi przy pomocy pilota"
 
 msgctxt "#13603"
 msgid "Sequence delay time"
@@ -6121,6 +6137,10 @@ msgctxt "#14260"
 msgid "Debug"
 msgstr "Diagnostyka"
 
+msgctxt "#14261"
+msgid "Configure skin..."
+msgstr "Konfiguracja skóry..."
+
 msgctxt "#14270"
 msgid "Unit Formats"
 msgstr "Formaty jednostek"
@@ -6467,7 +6487,7 @@ msgstr "Umożliwia konfigurację trybów przetwarzania finalnego. Ten etap przet
 
 msgctxt "#15114"
 msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
-msgstr "Umożliwia konfigurację przetwarzania próbkowania sygnału wejściowego. Uwaga: Dopuszczalny tylko jeden aktywny tryb!"
+msgstr "Umożliwia konfigurację przetwarzania próbkowania sygnału wejściowego. Uwaga: Dozwolony tylko jeden aktywny tryb!"
 
 msgctxt "#15115"
 msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
@@ -6475,7 +6495,7 @@ msgstr "Umożliwia konfigurację głównego trybu przetwarzania. Uwaga: Podczas 
 
 msgctxt "#15116"
 msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
-msgstr "Umożliwia konfigurację przetwarzania próbkowania sygnału wyjściowego. Uwaga: Dopuszczalny tylko jeden aktywny tryb!"
+msgstr "Umożliwia konfigurację przetwarzania próbkowania sygnału wyjściowego. Uwaga: Dozwolony tylko jeden aktywny tryb!"
 
 msgctxt "#15117"
 msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
@@ -6608,6 +6628,10 @@ msgstr "Liniowo"
 msgctxt "#16022"
 msgid "Bob - Inverted"
 msgstr "Liniowo - odwrócone"
+
+msgctxt "#16023"
+msgid "Choose operator"
+msgstr "Wybierz operator"
 
 msgctxt "#16024"
 msgid "Cancelling..."
@@ -6810,6 +6834,10 @@ msgid "Temporal / Spatial (half)"
 msgstr "Czasowo / Przestrzennie (półobrazy)"
 
 msgctxt "#16319"
+msgid "DXVA"
+msgstr "DXVA"
+
+msgctxt "#16320"
 msgid "DXVA"
 msgstr "DXVA"
 
@@ -7265,6 +7293,14 @@ msgctxt "#19093"
 msgid "Instant recording: %s"
 msgstr "Natychmiastowe nagranie: %s"
 
+msgctxt "#19094"
+msgid "Timer creation failed. The PVR add-on does not support a suitable timer type."
+msgstr "Nieudane utworzenie zadania. Klient telewizji nie obsługuje tego typu zadań."
+
+msgctxt "#19095"
+msgid "Timer rule creation failed. The PVR add-on does not support a suitable timer rule type."
+msgstr "Nieudane utworzenie reguły. Klient telewizji nie obsługuje tego typu reguł."
+
 msgctxt "#19097"
 msgid "Enter the name for the recording"
 msgstr "Wprowadź nazwę dla tego nagrania"
@@ -7643,7 +7679,7 @@ msgstr "Tło"
 
 msgctxt "#19191"
 msgid "PVR service"
-msgstr "Usługa telewizyjna"
+msgstr "Telewizja"
 
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
@@ -8056,6 +8092,10 @@ msgstr "Usunąć nagranie permanentnie?"
 msgctxt "#19295"
 msgid "Delete timer rule"
 msgstr "Usuń regułę harmongramu"
+
+msgctxt "#19296"
+msgid "No PVR add-on enabled"
+msgstr "Brak aktywnego klienta telewizyjnego"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9717,6 +9757,10 @@ msgctxt "#20426"
 msgid "Export to a single file or separate files per entry?"
 msgstr "Eksportować do pojedynczego pliku czy do osobnych plików dla każdej pozycji?"
 
+msgctxt "#20427"
+msgid "Choose rule type"
+msgstr "Wybierz typ reguły"
+
 msgctxt "#20428"
 msgid "Single file"
 msgstr "Jeden"
@@ -10237,6 +10281,10 @@ msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "Edytuj inteligentną listę odtwarzania"
 
+msgctxt "#21433"
+msgid "Playlist name"
+msgstr "Nazwa listy"
+
 msgctxt "#21434"
 msgid "Find items where"
 msgstr "Reguły wyszukiwania"
@@ -10572,6 +10620,10 @@ msgstr "Orientacja"
 msgctxt "#21844"
 msgid "XP comment"
 msgstr "Komentarz"
+
+msgctxt "#21845"
+msgid "Scan to library"
+msgstr "Skanowanie do biblioteki"
 
 msgctxt "#21857"
 msgid "Sub-location"
@@ -11095,7 +11147,7 @@ msgstr "Dostępne aktualizacje"
 
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
-msgstr "Nieudana instalacja dodatku z archiwum ZIP"
+msgstr "Nieudana instalacja dodatku z pliku ZIP"
 
 msgctxt "#24046"
 msgid "%s is used by the following installed add-on(s)"
@@ -11475,7 +11527,7 @@ msgstr "Zależności od %s w wersji %s nie mogą zostać spełnione."
 
 msgctxt "#24143"
 msgid "Installing the Add-on from zip file located at %s failed due to an invalid structure."
-msgstr "Instalacja dodatku w postaci pliku ZIP zapisanego w %s zakończone niepowodzeniem  - z powodu nieprawidłowej struktury archiwum."
+msgstr "Nieudana instalacja dodatku w postaci pliku ZIP z folderu %s - nieprawidłowa struktura archiwum."
 
 msgctxt "#24144"
 msgid "Add-on uninstalled"
@@ -11492,6 +11544,14 @@ msgstr "Skaner biblioteki muzyki"
 msgctxt "#24147"
 msgid "Failed to scan %s: %s"
 msgstr "Nieudane skanowane %s: %s"
+
+msgctxt "#24148"
+msgid "Incompatible add-ons"
+msgstr "Dodatki niekompatybilne"
+
+msgctxt "#24149"
+msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
+msgstr "Następujące dodatki nie są kompatybilne z tą wersją Kodi i zostały automatycznie dezaktywowane: %s."
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -11563,7 +11623,7 @@ msgstr "Rozdziały: %u - czas trwania: %s"
 
 msgctxt "#25008"
 msgid "Playback of Blu-ray failed"
-msgstr "Odtwarzanie dysku Blu-ray zakończone niepowodzeniem"
+msgstr "Nieudane odtwarzanie dysku Blu-ray"
 
 msgctxt "#25009"
 msgid "The menu of this Blu-ray is not supported"
@@ -11904,6 +11964,10 @@ msgstr "Pogłaśniaj informacje o utrudnieniach w ruchu"
 msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Określa czy informacje o utrudnieniach w ruchu, przesyłane przez system danych RDS, powinny być pogłaśniane."
+
+msgctxt "#29987"
+msgid "Remixers"
+msgstr "Remikserzy"
 
 msgctxt "#29988"
 msgid "Arrangers"
@@ -12367,7 +12431,7 @@ msgstr "Czy usługa Bonjour firmy Apple została zainstalowana? Więcej informac
 
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
-msgstr "Nieudane uruchomienie AirPlay z powodu braku aktywacji usługi Zeroconf."
+msgstr "Nieudane uruchomienie AirPlay - brak aktywacji usługi Zeroconf."
 
 msgctxt "#34303"
 msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
@@ -12524,6 +12588,14 @@ msgstr "Spusty"
 msgctxt "#35077"
 msgid "Analog sticks"
 msgstr "Drążki analogowe"
+
+msgctxt "#35078"
+msgid "Left stick deadzone"
+msgstr "Martwa strefa lewego drążka"
+
+msgctxt "#35079"
+msgid "Right stick deadzone"
+msgstr "Martwa strefa prawego drążka"
 
 msgctxt "#35088"
 msgid "Power off controllers on exit"
@@ -13047,7 +13119,7 @@ msgstr "Określa opóźnienie odświeżenia obrazu po zmianie częstotliwości o
 
 msgctxt "#36166"
 msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
-msgstr "Umożliwia synchronizację obrazu i dźwięku z częstotliwością odświeżania wyświetlacza. Funkcja przekazywania dźwięku nie będzie dostępna, gdyż może być wymagane przetwarzanie próbkowania dźwięku."
+msgstr "Umożliwia synchronizację obrazu i dźwięku z częstotliwością odświeżania wyświetlacza. W tym przypadku funkcja przekazywania dźwięku nie będzie dostępna, gdyż wymagałoby to przetwarzania próbkowania dźwięku."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -13793,6 +13865,10 @@ msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Określa maksymalną liczbę kanałów / głośników dostępnych dla zdekodowanych ścieżek dźwiękowych. W przypadku korzystania z cyfrowych wyjść optycznych / elektrycznych, konieczne jest ustawienie tej wartości na 2.0"
 
+msgctxt "#36368"
+msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
+msgstr "Umożliwia przekazywanie skompresowanego dźwięku, w formatach takich jak Dolby Digital (AC3), DTS i innych, do zewnętrznego urządzenia odbiorczego. Odtwarzacz wideo może jednak zdecydować, w określonych przypadkach, o dekodowaniu strumienia dźwięku. Dotyczy to odtwarzania materiałów strumieniowych oraz opcji synchronizacji obrazu i dźwięku z częstotliwością odświeżania wyświetlacza."
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Zaznacz tę opcję, jeśli urządzenie odbiorcze obsługuje dekodowanie ścieżek TrueHD."
@@ -14055,7 +14131,7 @@ msgstr "Zaznacz tę opcję, aby używać metody renderowania VAAPI. Zmiejsza ona
 
 msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
-msgstr "Dopuszczaj sprzętową akcelerację - MMAL"
+msgstr "Zezwalaj na sprzętową akcelerację - MMAL"
 
 msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
@@ -14091,7 +14167,7 @@ msgstr "Określa liczbę poziomów regulacji głośności."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
-msgstr "Rejestrowanie zdarzeń umożliwia śledzenie tego co się dzieje."
+msgstr "Rejestrowanie zdarzeń umożliwia śledzenie tego, co się wydarzyło."
 
 msgctxt "#36461"
 msgid "Notification event describe regular processes and actions performed by the system or the user."
@@ -14821,6 +14897,22 @@ msgctxt "#38042"
 msgid "[Missing]"
 msgstr "[Brak]"
 
+msgctxt "#38043"
+msgid "Album artists"
+msgstr "Wykonawcy albumu"
+
+msgctxt "#38044"
+msgid "Song & album artists"
+msgstr "Wykonawcy utworu i albumu"
+
+msgctxt "#38045"
+msgid "All contributors"
+msgstr "Wszyscy współtwórcy"
+
+msgctxt "#38046"
+msgid "All roles"
+msgstr "Wszystkie role"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sekcja zawierająca ustawienia związane z odtwarzaniem mediów."
@@ -14896,3 +14988,15 @@ msgstr "Umożliwia dostęp do konfiguracji źródeł muzyki."
 msgctxt "#39007"
 msgid "This provides access to where picture sources can be added and otherwise managed."
 msgstr "Umożliwia dostęp do konfiguracji źródeł wideo."
+
+msgctxt "#39008"
+msgid "Zoom - 120% width"
+msgstr "Powiększenie - 120% szerokości"
+
+msgctxt "#39009"
+msgid "Zoom - 110% width"
+msgstr "Powiększenie - 110% szerokości"
+
+msgctxt "#39010"
+msgid "Select sort method"
+msgstr "Wybierz metodę sortowania"
