@@ -2361,10 +2361,6 @@ msgctxt "#642"
 msgid "Files without ReplayGain information"
 msgstr "Fichiers sans informations de gain (ReplayGain)"
 
-msgctxt "#643"
-msgid "Avoid clipping on ReplayGained files"
-msgstr "Éviter l'écrêtage sur les fichiers normalisés"
-
 msgctxt "#644"
 msgid "Stretch 16:9 - Nonlinear"
 msgstr "Étirement 16:9 - Non linéaire"
@@ -2840,10 +2836,6 @@ msgstr "Accès Internet"
 msgctxt "#799"
 msgid "Library update"
 msgstr "Mise à jour de la médiathèque"
-
-msgctxt "#800"
-msgid "Music library needs to rescan tags from files. Would you like to scan now?"
-msgstr "L'audiothèque doit effectuer une réanalyse des balises de fichiers.\nFaut-il l'effectuer maintenant ?"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -4737,6 +4729,10 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "Matériel :"
 
+msgctxt "#13271"
+msgid "System CPU usage:"
+msgstr "Usage CPU  du système :"
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "Connecté, mais aucun DNS disponible."
@@ -4975,7 +4971,7 @@ msgstr "Informations du film"
 
 msgctxt "#13347"
 msgid "Queue item"
-msgstr "Élément en file d'attente"
+msgstr "Placer en file d'attente"
 
 msgctxt "#13348"
 msgid "Search IMDb..."
@@ -5779,7 +5775,7 @@ msgstr "Utiliser une fenêtre plein écran"
 
 msgctxt "#14084"
 msgid "Queue songs on selection"
-msgstr "Mettre en file d'attente les chansons sélectionnées"
+msgstr "Placer en file d'attente les chansons sélectionnées"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -5956,14 +5952,6 @@ msgstr "Médiathèque"
 msgctxt "#14203"
 msgid "Library settings"
 msgstr "Paramètres de la bibliothèque"
-
-msgctxt "#14204"
-msgid "TV"
-msgstr "TV"
-
-msgctxt "#14205"
-msgid "TV settings"
-msgstr "Paramètres TV"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -9819,7 +9807,7 @@ msgstr "FanArt distant"
 
 msgctxt "#20442"
 msgid "Change content"
-msgstr "Changer le contenu"
+msgstr "Changer le mode d'analyse"
 
 msgctxt "#20443"
 msgid "Do you want to refresh information for all items within this path?"
@@ -11435,7 +11423,7 @@ msgstr "Sélection du service prédéfini pour rechercher les sous-titres des fi
 
 msgctxt "#24120"
 msgid "Manual search string"
-msgstr "Chaîne de recherche manuelle"
+msgstr "Recherche manuelle…"
 
 msgctxt "#24121"
 msgid "Enter search string"
@@ -11552,6 +11540,14 @@ msgstr "Extensions incompatibles"
 msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
 msgstr "Les extensions suivantes sont incompatibles avec cette version de Kodi et ont été automatiquement désactivées : %s."
+
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "Migration de la base de données en cours…"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "Migration des extensions en cours…"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -12377,6 +12373,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "Sélection du comportement quand aucun son n'est requis ni pour la lecture ni pour les sons de l'interface utilisateur.[CR][Toujours] Un signal inaudible continu est émis pour conserver le dispositif audio disponible pour la suite, cependant cela peut bloquer les sons des autres applications.[CR][1-10 minutes] Identique à [Toujours], puis l'audio passe en veille après le délai sélectionné.[CR][Non] La sortie audio passe en veille.[CR]NB : des sons peuvent être manqués si l'audio passe en veille."
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Envoyer un bruit inaudible"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Pour garder certains amplis allumés, un signal aléatoire à très faible volume leur est envoyé. Ce paramètre peut être désactivé avec une sortie casque ou audio analogique."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Émettre les sons de l'interface utilisateur"
@@ -12536,14 +12540,6 @@ msgstr "Active les moteurs de vibration de toutes les manettes."
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Utilise le clavier ou la télécommande pour sélectionner un profil de manette. À la demande, appuyer sur le bouton qui correspond le mieux à ce qui est affiché à l'écran. En cas d'erreur, recommencer l'opération."
-
-msgctxt "#35056"
-msgid "Joystick support not found"
-msgstr "Prise en charge de joystick introuvable"
-
-msgctxt "#35057"
-msgid "Controller configuration is disabled. Install the proper joystick support add-on."
-msgstr "La configuration de manette est désactivé. Installer l'extension appropriée de prise en charge de joystick."
 
 msgctxt "#35058"
 msgid "Controller Configuration"
@@ -12752,10 +12748,6 @@ msgstr "Commuter la source vers ce dispositif au démarrage"
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
 msgstr "Adresse physique (remplace le port HDMI)"
-
-msgctxt "#36022"
-msgid "COM port (leave empty unless needed)"
-msgstr "Port COM (laisser vide, sauf si nécessaire)"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -13253,14 +13245,6 @@ msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "Sélectionne la source d'informations prédéfinies pour les vidéo musicales. Voir le gestionnaire d'extensions pour les options."
 
-msgctxt "#36201"
-msgid "Settings for PVR / Live TV."
-msgstr "Paramètres pour les fonctions des enregistreurs vidéo (PVR) / TV en direct."
-
-msgctxt "#36202"
-msgid "This category contains the general settings for the PVR / Live TV."
-msgstr "Cette catégorie contient les paramètres généraux des enregistreurs vidéo / TV en direct."
-
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Active les fonctions de l'enregistreur vidéo (PVR). Cela nécessite au moins l'installation d'une extension enregistreur vidéo."
@@ -13525,10 +13509,6 @@ msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
 msgstr "Volume de référence (niveau de préampli) à utiliser pour les fichiers sans informations de gain de lecture. 89dB est prédéfini conformément au standard. À modifier avec précaution."
 
-msgctxt "#36270"
-msgid "Reduce the volume of the file if clipping will occur."
-msgstr "Réduire le volume du fichier si de l'écrêtage risque de se produire."
-
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
 msgstr "Fondu entre deux pistes audio. Il est possible de régler le niveau de chevauchement de 1 à 15 secondes."
@@ -13543,11 +13523,11 @@ msgstr "Sélectionne la visualisation qui sera affichée durant l'écoute de mus
 
 msgctxt "#36274"
 msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "Lit les informations additionnelles (balises) d'un fichier son. Pour un gros dossier, cela peut ralentir la vitesse de lecture, en particulier sur un réseau."
+msgstr "Lit les informations additionnelles (balises) depuis les fichiers de chansons. Pour un gros dossier, cela peut ralentir la vitesse de lecture, en particulier sur un réseau."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
-msgstr "Contrôle la manière dont les noms de chansons sont affichés sur l'Interface Utilisateur. Afin de fonctionner correctement, les balises doivent être activées."
+msgstr "Contrôle la manière dont les noms de chansons sont affichés sur l'interface utilisateur. Afin de fonctionner correctement, les balises doivent être activées."
 
 msgctxt "#36276"
 msgid "Used for formatting the second column in file lists."

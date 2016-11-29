@@ -2361,10 +2361,6 @@ msgctxt "#642"
 msgid "Files without ReplayGain information"
 msgstr "Súbory bez informácie ReplayGain"
 
-msgctxt "#643"
-msgid "Avoid clipping on ReplayGained files"
-msgstr "Zabrániť predimenzovaniu pri normalizovaných súboroch"
-
 msgctxt "#644"
 msgid "Stretch 16:9 - Nonlinear"
 msgstr "Roztiahnuté 16:9 - Nelineárne"
@@ -2840,10 +2836,6 @@ msgstr "Internetový prístup"
 msgctxt "#799"
 msgid "Library update"
 msgstr "Aktualizácia knižnice"
-
-msgctxt "#800"
-msgid "Music library needs to rescan tags from files. Would you like to scan now?"
-msgstr "Hudobná knižnica potrebuje opätovne prehľadať značky zo súborov. Chcete spustiť prehľadávanie?"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -4737,6 +4729,10 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "Hardware:"
 
+msgctxt "#13271"
+msgid "System CPU usage:"
+msgstr "Vyťaženie systémového procesora:"
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "Pripojený, ale DNS je nedostupný"
@@ -5956,14 +5952,6 @@ msgstr "Knižnica"
 msgctxt "#14203"
 msgid "Library settings"
 msgstr "Nastavenia knižnice"
-
-msgctxt "#14204"
-msgid "TV"
-msgstr "TV"
-
-msgctxt "#14205"
-msgid "TV settings"
-msgstr "Nastavenia TV"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -9163,7 +9151,7 @@ msgstr "Použiť zobrazenie 'Plagáty' pre TV seriály"
 
 msgctxt "#20186"
 msgid "Please wait"
-msgstr "Prosím čakajte"
+msgstr "Čakajte, prosím"
 
 msgctxt "#20187"
 msgid "UPnP / DLNA"
@@ -11553,6 +11541,14 @@ msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
 msgstr "Nasledujúce doplnky sú nekompatibilné s touto verziou Kodi a boli automaticky zakázané: %s"
 
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "Prebieha migrácia databázy - čakajte, prosím"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "Prebieha migrácia doplnkov - čakajte, prosím"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Nepodarilo sa pripojiť do repozitára."
@@ -12377,6 +12373,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "Toto nastavenie vyberte vtedy, keď pre prehrávanie alebo zvuky v grafickom prostredí nie je potrebný žiadny zvuk.[CR][Vždy] Výstupom je neustály nepočuteľný signál. Týmto sa udržiava prijímacie zvukové zariadenie aktívne pre akýkoľvek nový zvuk, avšak týmto sa tiež môže blokovať zvuk z ostatných aplikácií.[CR][1-10 minút] Rovnaké ako pri nastavení [Vždy] s tým rozdielom, že po určitej dobe zvukový výstup prejde do pozastaveného stavu.[CR][Vypnuté] Zvukový výstup prejde do pozastaveného stavu. Poznámka: Ak zvukový výstup prejde do pozastaveného stavu, niektoré zvuky nemusia byť prehrané."
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Posielať šum s nízkou hlasitosťou"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Aby sme ponechali určité AV prijímače zapnuté, posielame náhodne vytvorený a nepočuteľný šumový signál. Toto nastavenie môžete vypnúť, ak používate slúchadlá alebo analógový výstup."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Prehrať zvuky užívateľského prostredia"
@@ -12536,14 +12540,6 @@ msgstr "Aktivovať vibračné motorčeky na všetkých ovládačoch."
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Použitím klávesnice alebo diaľkového ovládania si vyberte profil ovládača. Po výzve stlačte tlačidlo na vašom hernom ovládači, ktoré najlepšie zodpovedá tomu, čo vidíte na obrazovke. Pokiaľ sa pomýlite, tento postup môžete zopakovať."
-
-msgctxt "#35056"
-msgid "Joystick support not found"
-msgstr "Podpora pre pákový ovládač nebola nájdená"
-
-msgctxt "#35057"
-msgid "Controller configuration is disabled. Install the proper joystick support add-on."
-msgstr "Konfigurácia ovládača je zakázaná. Nainštalujte vhodný doplnok s podporou pákových ovládačov."
 
 msgctxt "#35058"
 msgid "Controller Configuration"
@@ -12752,10 +12748,6 @@ msgstr "Pri spustení prepnúť zdroj na toto zariadenie"
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
 msgstr "Fyzická adresa (Ruší HDMI port)"
-
-msgctxt "#36022"
-msgid "COM port (leave empty unless needed)"
-msgstr "COM port (nechajte prázdne, ak je nepotrebný)"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -13253,14 +13245,6 @@ msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "Vyberte si predvolený zdroj informácií o hudobných videách. Všetky dostupné možnosti uvidíte v Správcovi doplnkov."
 
-msgctxt "#36201"
-msgid "Settings for PVR / Live TV."
-msgstr "Nastavenia pre PVR / televíziu."
-
-msgctxt "#36202"
-msgid "This category contains the general settings for the PVR / Live TV."
-msgstr "Táto kategória obsahuje všeobecné nastavenia pre PVR / televíziu."
-
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Zapne funkcionalitu \"osobného videorekordéra\" (PVR). Toto nastavenie vyžaduje, aby bol nainštalovaný aspoň jeden PVR doplnok."
@@ -13524,10 +13508,6 @@ msgstr "Referenčná hlasitosť (úroveň predzosilňovača), aká sa použije n
 msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
 msgstr "Referenčná hlasitosť (úroveň predzosilňovača), aká sa použije na súboroch bez zakódovanej informácie ReplayGain. Predvolená hodnota je 89dB, ako je v štandarde. So zmenou buďte opatrní."
-
-msgctxt "#36270"
-msgid "Reduce the volume of the file if clipping will occur."
-msgstr "Znížiť hlasitosť pokiaľ sa vyskytne clipping."
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."

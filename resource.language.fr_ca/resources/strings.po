@@ -37,6 +37,10 @@ msgctxt "#5"
 msgid "Settings"
 msgstr "Paramètres"
 
+msgctxt "#6"
+msgid "Kodi GIT"
+msgstr "Kodi Git"
+
 msgctxt "#7"
 msgid "File manager"
 msgstr "Gestionnaire de fichiers"
@@ -307,7 +311,7 @@ msgstr "Vue : liste"
 
 msgctxt "#102"
 msgid "Scan"
-msgstr "Balayer"
+msgstr "Analyser"
 
 msgctxt "#103"
 msgid "Sort by: Name"
@@ -655,7 +659,7 @@ msgstr "Tout sélectionner"
 
 msgctxt "#189"
 msgid "Scanning media information"
-msgstr "Balayage des informations de média"
+msgstr "Analyse des informations de média"
 
 msgctxt "#190"
 msgid "Save"
@@ -671,7 +675,7 @@ msgstr "Effacer"
 
 msgctxt "#193"
 msgid "Scan"
-msgstr "Balayer"
+msgstr "Analyser"
 
 msgctxt "#194"
 msgid "Searching..."
@@ -712,6 +716,10 @@ msgstr "Slogan"
 msgctxt "#203"
 msgid "Plot outline"
 msgstr "Aperçu de l'intrigue"
+
+msgctxt "#204"
+msgid "Compilation"
+msgstr "Compilation"
 
 msgctxt "#205"
 msgid "Votes"
@@ -875,7 +883,7 @@ msgstr "Dimensionnement : (%i,%i)->(%i,%i) (Zoom x%2.2f) AR : %2.2f : 1 (Pixels 
 
 msgctxt "#246"
 msgid "Monitor"
-msgstr "Écran"
+msgstr "Moniteur"
 
 msgctxt "#247"
 msgid "Scripts"
@@ -1272,6 +1280,10 @@ msgstr "Conserver le volume original lors du sous-mixage"
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "Récepteur compatible DTS-HD"
+
+msgctxt "#348"
+msgid "Allow passthrough"
+msgstr "Permettre le transit audio"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -2349,10 +2361,6 @@ msgctxt "#642"
 msgid "Files without ReplayGain information"
 msgstr "Fichiers sans information ReplayGain"
 
-msgctxt "#643"
-msgid "Avoid clipping on ReplayGained files"
-msgstr "Éviter l'écrêtage des fichiers normalisés par ReplayGain"
-
 msgctxt "#644"
 msgid "Stretch 16:9 - Nonlinear"
 msgstr "Étiré 16:9 - non linéaire"
@@ -2507,7 +2515,7 @@ msgstr "Suppression des anciennes pièces de l'audiothèque"
 
 msgctxt "#702"
 msgid "This path has been scanned before"
-msgstr "Ce dossier a été balayé"
+msgstr "Ce chemin a déjà été analysé"
 
 msgctxt "#705"
 msgid "Network"
@@ -2828,10 +2836,6 @@ msgstr "Accès internet"
 msgctxt "#799"
 msgid "Library update"
 msgstr "Mise à jour de la médiathèque"
-
-msgctxt "#800"
-msgid "Music library needs to rescan tags from files. Would you like to scan now?"
-msgstr "L'audiothèque doit à nouveau obtenir les balises des fichiers. Voulez-vous balayer maintenant?"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -4725,6 +4729,10 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "Matériel :"
 
+msgctxt "#13271"
+msgid "System CPU usage:"
+msgstr "Utilisation de l'UCT par le système :"
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "Connecté, mais aucun DNS n'est disponible."
@@ -4971,7 +4979,7 @@ msgstr "Rechercher sur IMDb..."
 
 msgctxt "#13349"
 msgid "Scan for new content"
-msgstr "Balayer pour du nouveau contenu"
+msgstr "Rechercher du nouveau contenu"
 
 msgctxt "#13350"
 msgid "Current playlist"
@@ -4987,7 +4995,7 @@ msgstr "Intégrer à la médiathèque"
 
 msgctxt "#13353"
 msgid "Stop scanning"
-msgstr "Arrêter le balayage"
+msgstr "Arrêter l'analyse"
 
 msgctxt "#13354"
 msgid "Render method"
@@ -5659,15 +5667,15 @@ msgstr "%2.1f dB"
 
 msgctxt "#14055"
 msgid "Use background scanning"
-msgstr "Utiliser le balayage en arrière-plan"
+msgstr "Utiliser l'analyse en arrière-plan"
 
 msgctxt "#14056"
 msgid "Stop scan"
-msgstr "Stopper le balayage"
+msgstr "Arrêter l'analyse"
 
 msgctxt "#14057"
 msgid "Not possible while scanning for media information"
-msgstr "Impossible durant le balayage des informations de média"
+msgstr "Impossible durant l'analyse des informations de média"
 
 msgctxt "#14058"
 msgid "Film grain effect"
@@ -5945,14 +5953,6 @@ msgctxt "#14203"
 msgid "Library settings"
 msgstr "Paramètres de la médiathèque"
 
-msgctxt "#14204"
-msgid "TV"
-msgstr "Télé"
-
-msgctxt "#14205"
-msgid "TV settings"
-msgstr "Paramètres de la télé"
-
 msgctxt "#14206"
 msgid "Interface"
 msgstr "Interface"
@@ -6124,6 +6124,10 @@ msgstr "Réveil"
 msgctxt "#14260"
 msgid "Debug"
 msgstr "Débogage"
+
+msgctxt "#14261"
+msgid "Configure skin..."
+msgstr "Configurer l'habillage..."
 
 msgctxt "#14270"
 msgid "Unit Formats"
@@ -6612,6 +6616,10 @@ msgstr "Bob"
 msgctxt "#16022"
 msgid "Bob - Inverted"
 msgstr "Bob - Inversé"
+
+msgctxt "#16023"
+msgid "Choose operator"
+msgstr "Choisir un opérateur"
 
 msgctxt "#16024"
 msgid "Cancelling..."
@@ -7273,6 +7281,14 @@ msgctxt "#19093"
 msgid "Instant recording: %s"
 msgstr "Enregistrement instantané : %s"
 
+msgctxt "#19094"
+msgid "Timer creation failed. The PVR add-on does not support a suitable timer type."
+msgstr "Échec de création de la minuterie. L'addiciel de numériscope ne prend pas en charge un type de minuterie adéquat."
+
+msgctxt "#19095"
+msgid "Timer rule creation failed. The PVR add-on does not support a suitable timer rule type."
+msgstr "Échec de création de la minuterie. L'addiciel de numériscope ne prend pas en charge un type de règle de minuterie adéquat."
+
 msgctxt "#19097"
 msgid "Enter the name for the recording"
 msgstr "Saisir le nom de l'enregistrement"
@@ -7655,11 +7671,11 @@ msgstr "Service de numériscope"
 
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
-msgstr "Aucune dorsale de numériscope connectée ne prend en charge le balayage des chaînes."
+msgstr "Aucune dorsale de numériscope connectée ne prend en charge la recherche de chaînes."
 
 msgctxt "#19193"
 msgid "The channel scan can't be started. Check the log for more information about this message."
-msgstr "Impossible de démarrer le balayage des chaînes. Consultez le journal pour de plus amples informations sur ce message."
+msgstr "Impossible de démarrer la recherche de chaînes. Consultez le journal pour de plus amples informations sur ce message."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -8555,11 +8571,11 @@ msgstr "Conflit"
 
 msgctxt "#20024"
 msgid "Scan new"
-msgstr "Balayer les nouveaux"
+msgstr "Rechercher les nouveaux"
 
 msgctxt "#20025"
 msgid "Scan all"
-msgstr "Tout balayer"
+msgstr "Tout rechercher"
 
 msgctxt "#20026"
 msgid "Region"
@@ -8939,7 +8955,7 @@ msgstr "Retirer l'emplacement réseau"
 
 msgctxt "#20135"
 msgid "Do you want to scan the folder?"
-msgstr "Voulez-vous balayer le dossier?"
+msgstr "Voulez-vous analyser le dossier?"
 
 msgctxt "#20136"
 msgid "Memory unit"
@@ -9307,7 +9323,7 @@ msgstr "Analyse des vidéos musicales avec %s"
 
 msgctxt "#20319"
 msgid "Scanning TV shows using %s"
-msgstr "Balayage des émissions télé en utilisant %s"
+msgstr "Analyse des émissions télé en utilisant %s"
 
 msgctxt "#20320"
 msgid "Scanning artists using %s"
@@ -9319,7 +9335,7 @@ msgstr "Analyse des albums avec %s"
 
 msgctxt "#20322"
 msgid "Content scanning options"
-msgstr "Options de balayage du contenu"
+msgstr "Options d'analyse du contenu"
 
 msgctxt "#20323"
 msgid "Movie plot"
@@ -9407,11 +9423,11 @@ msgstr "Ce répertoire contient"
 
 msgctxt "#20345"
 msgid "Run automated scan"
-msgstr "Exécuter le balayage automatiquement"
+msgstr "Exécuter l'analyse automatiquement"
 
 msgctxt "#20346"
 msgid "Scan recursively"
-msgstr "Balayer les sous-dossiers"
+msgstr "Analyser les sous-dossiers"
 
 msgctxt "#20347"
 msgid "as"
@@ -9547,7 +9563,7 @@ msgstr "Le dossier sélectionné contient une seule série télé"
 
 msgctxt "#20380"
 msgid "Exclude selected folder from scans"
-msgstr "Exclure le dossier sélectionné du balayage"
+msgstr "Exclure le dossier sélectionné des analyses"
 
 msgctxt "#20381"
 msgid "Specials"
@@ -9729,6 +9745,10 @@ msgctxt "#20426"
 msgid "Export to a single file or separate files per entry?"
 msgstr "Exporter vers un seul fichier ou des fichiers séparés par entrée?"
 
+msgctxt "#20427"
+msgid "Choose rule type"
+msgstr "Choisir le type de règle"
+
 msgctxt "#20428"
 msgid "Single file"
 msgstr "Fichier unique"
@@ -9819,7 +9839,7 @@ msgstr "Impossible de se connecter au serveur distant"
 
 msgctxt "#20450"
 msgid "Unable to connect to remote server. Would you like to continue scanning?"
-msgstr "Impossible de se connecter au serveur distant. Voulez-vous continuer le balayage?"
+msgstr "Impossible de se connecter au serveur distant. Voulez-vous continuer l'analyse?"
 
 msgctxt "#20451"
 msgid "Countries"
@@ -10249,6 +10269,10 @@ msgctxt "#21432"
 msgid "Edit smart playlist"
 msgstr "Modifier la liste de lecture intelligente"
 
+msgctxt "#21433"
+msgid "Playlist name"
+msgstr "Nom de la liste de lecture"
+
 msgctxt "#21434"
 msgid "Find items where"
 msgstr "Trouver les éléments qui"
@@ -10584,6 +10608,10 @@ msgstr "Orientation"
 msgctxt "#21844"
 msgid "XP comment"
 msgstr "Commentaire XP"
+
+msgctxt "#21845"
+msgid "Scan to library"
+msgstr "Intégrer à la médiathèque"
 
 msgctxt "#21857"
 msgid "Sub-location"
@@ -11505,6 +11533,22 @@ msgctxt "#24147"
 msgid "Failed to scan %s: %s"
 msgstr "Échec d'analyse de %s : %s"
 
+msgctxt "#24148"
+msgid "Incompatible add-ons"
+msgstr "Addiciels incompatibles"
+
+msgctxt "#24149"
+msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
+msgstr "Les addiciels suivants sont incompatibles avec cette version de Kodi et ont été désactivés automatiquement : %s."
+
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "La migration de la base de données est en cours - veuillez patienter"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "La migration des addiciels est en cours - veuillez patienter"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Impossible de se connecter au dépôt."
@@ -11917,6 +11961,10 @@ msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Si un message de recommandation sur le trafic routier est envoyé par RDS, le volume est augmenté"
 
+msgctxt "#29987"
+msgid "Remixers"
+msgstr "Remixeurs"
+
 msgctxt "#29988"
 msgid "Arrangers"
 msgstr "Arrangeurs"
@@ -12325,6 +12373,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "Choisir le comportement si aucun son n'est requis ni pour la lecture ni pour les sons de l'IUG.[CR][Toujours] - Un signal inaudible continue est émis afin de garder le dispositif audio actif pour tout nouveau son, cependant, cela pourrait aussi bloquer les sons d'autres applications.[CR][1-10 minutes] - Identique à [Toujours] excepté qu'après la fin de la période choisie, l'audio entrera en veille.[CR][Arrêt] - La sortie audio entre en veille. Note : des sons peuvent être manqués si l'audio entre en veille."
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Envoyer un bruit de faible volume"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Pour garder certains numériscopes en fonction, nous envoyons un signal de bruit aléatoire inaudible. Vous pouvez désactiver ce paramètre si vous utilisez un casque d'écoute ou une entrée analogique."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Jouer les sons de l'IUG"
@@ -12485,14 +12541,6 @@ msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Utiliser le clavier ou la télécommande pour choisir un profil de contrôleur. À l'invite, peser sur le bouton du contrôleur de jeu qui correspond le mieux à ce qui est à l'écran. En cas d'erreur, répéter le processus."
 
-msgctxt "#35056"
-msgid "Joystick support not found"
-msgstr "Prise en charge du manche à balai introuvable"
-
-msgctxt "#35057"
-msgid "Controller configuration is disabled. Install the proper joystick support add-on."
-msgstr "La configuration du contrôleur est désactivée. Installer un addiciel adéquat de prise en charge du manche à balai."
-
 msgctxt "#35058"
 msgid "Controller Configuration"
 msgstr "Configuration des contrôleurs"
@@ -12536,6 +12584,14 @@ msgstr "Gâchettes"
 msgctxt "#35077"
 msgid "Analog sticks"
 msgstr "Manches à balai analogique"
+
+msgctxt "#35078"
+msgid "Left stick deadzone"
+msgstr "Zone morte de gauche du manche à balai"
+
+msgctxt "#35079"
+msgid "Right stick deadzone"
+msgstr "Zone morte de droite du manche à balai"
 
 msgctxt "#35088"
 msgid "Power off controllers on exit"
@@ -12692,10 +12748,6 @@ msgstr "Changer la source vers ce périphérique durant le démarrage"
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
 msgstr "Adresse physique (remplace le port HDMI)"
-
-msgctxt "#36022"
-msgid "COM port (leave empty unless needed)"
-msgstr "Port COM (laisser vide, sauf si nécessaire)"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -12983,7 +13035,7 @@ msgstr "Vérifier les nouveaux fichiers multimédias au démarrage."
 
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
-msgstr "Cacher les barres de progression lors du balayage de la médiathèque."
+msgstr "Cacher les barres de progression lors de l'analyse de la médiathèque."
 
 msgctxt "#36148"
 msgid "Remove items from your library that can't be found (either renamed, deleted, or on removable storage that is currently unplugged)."
@@ -13107,7 +13159,7 @@ msgstr "Extraire les imagettes et les informations de métadonnées tel que code
 
 msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
-msgstr "Quand un fichier est balayé vers la vidéothèque, le titre des métadonnées sera affiché au lieu du nom de fichier."
+msgstr "Quand un fichier est intégré à la vidéothèque, le titre des métadonnées sera affiché au lieu du nom de fichier."
 
 msgctxt "#36180"
 msgid "Extract thumbnails and information, such as codecs and aspect ratio, to display in library mode."
@@ -13192,14 +13244,6 @@ msgstr "Choisir la source d'informations par défaut pour les séries télé. Vo
 msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "Sélectionner la source d'informations par défaut pour les vidéos musicales. Voir le gestionnaire d'addiciels pour les options."
-
-msgctxt "#36201"
-msgid "Settings for PVR / Live TV."
-msgstr "Paramètres des fonctions de numériscope / télé en direct."
-
-msgctxt "#36202"
-msgid "This category contains the general settings for the PVR / Live TV."
-msgstr "Cette catégorie contient les paramètres généraux des numériscopes / de la télé en direct."
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
@@ -13464,10 +13508,6 @@ msgstr "Volume de référence (niveau de préampli) à utiliser pour les fichier
 msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
 msgstr "Volume de référence (niveau de préampli) à utiliser pour les fichiers sans information ReplayGain. 89 dB par défaut comme la norme le prévoit. Changer avec précaution."
-
-msgctxt "#36270"
-msgid "Reduce the volume of the file if clipping will occur."
-msgstr "Réduire le volume du fichier si de l'écrêtage se produit."
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
@@ -13804,6 +13844,10 @@ msgstr "Choisissez cette option si votre récepteur est capable de décoder les 
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Choisir le nombre maximal de canaux audio / haut-parleurs disponibles pour l'audio décodé. Si des sorties optiques / coaxiales numériques sont utilisées, cette option doit être réglée sur 2.0"
+
+msgctxt "#36368"
+msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
+msgstr "Sélectionner cette option pour permettre le transit audio lors de la lecture d'un signal audio compressé tel que Dolby Digital (AC3), DTS, etc. Le client du moteur audio, par exemple le lecteur vidéo, pourrait décider de décoder le flux audio sous certaines conditions. Dans le cas du lecteur vidéo, le transit audio ne sera pas utilisé pour les flux en direct ou lors de la synchronisation de la lecture à l'affichage."
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -14179,7 +14223,7 @@ msgstr "Comme le film (détection automatiquement)"
 
 msgctxt "#36526"
 msgid "Disable stereoscopic 3D mode when playback ended"
-msgstr "Désactiver le mode 3D stéréoscopique quand la lecture est stoppée"
+msgstr "Désactiver le mode 3D stéréoscopique quand la lecture est arrêtée"
 
 msgctxt "#36527"
 msgid "Select playback mode"
@@ -14297,29 +14341,57 @@ msgctxt "#36564"
 msgid "3D LUT"
 msgstr "Table de conversion 3D"
 
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "Sélectionner le fichier 3DLUT devant être utilisé par défaut. Si plusieurs fichiers 3DLUT sont placés dans le même répertoire, on peut alors passer de l'un à l'autre à partir du menu à l'écran pendant la lecture de la vidéo. Cela permet plusieurs profils d'affichage qui prennent en compte différents environnements de visionnement et sources de matériel, par exemple gamma 2.2 pour le visionnement de jour et 2.4 pour le soir."
+
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "Profil d'affichage ICC"
+
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "En fournissant un profil d'affichage, vous pouvez modifier les paramètres de la vidéo tels que gamma, couleurs primaires et point blanc pendant la lecture. Un profil source ICC est créé d'après les paramètres, et est relié au profil ICC de l'affichage défini ici. Cette prise en charge est expérimentale et le réglage « presque noir » vers le noir natif de l'affichage (causant un niveau de noir élevé) et la mise à l'échelle du niveau de blanc quand un point blanc différent de celui natif à l'affichage est choisi en sont absents (comme palliatif, la luminosité peut être diminuée pour éviter l'écrêtage)."
 
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Point blanc"
 
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "Le changement du point blanc de la vidéo à D93 est particulièrement utilisé pour les enregistrements vidéo japonais NTSC qui paraissent rouges lors de la lecture sur un affichage D65. La luminosité peut être diminuée pour éviter un écrêtage vers le point blanc natif à l'affichage."
+
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Primaires"
+
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "Sélectionner les coordonnées des couleurs primaires d'après l'enregistrement vidéo source. Les anciens enregistrements vidéo HD ont peut-être été rematricés avec des couleurs primaires BT.601."
 
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Mode gamma"
 
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Sélectionner la formule de la courbe gamma. Utiliser BT.1886 pour obtenir une courbe gamma qui prend en compte les niveaux de blanc et de noir de l'affichage et évite l'écrêtage perçu. Utiliser un décalage d'entrée pour obtenir une courbe similaire avec un gamma réel précisé manuellement. Le décalage de sortie permet un écrêtage perçu, mais peut être utilisé pour compenser des paramètres incorrects de moniteur de matriçage qui entraînent des détails sombres trop brillants. Le gamma absolu ne prend pas du tout en compte le noir de l'affichage et écrêtera les niveaux les plus bas au noir de l'affichage pour tous les affichages avec un niveau de noir supérieur à zéro."
+
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
 
+msgctxt "#36575"
+msgid "Gamma for selected gamma curve type. For input and output offset, the result at 50% will match an absolute gamma curve with this gamma value."
+msgstr "Gamma du type de courbe gamma choisi. Pour le décalage d'entrée et de sortie, le résultat à 50 % correspondra à une courbe de gamma absolue de cette valeur de gamma."
+
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Taille de la table de conversion"
+
+msgctxt "#36577"
+msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
+msgstr "Préciser la résolution de la table de conversion 3D. Utiliser une résolution plus basse pour un aperçu et une résolution plus haute pour une image plus précise. La préparation d'une résolution haute pourrait prendre plusieurs secondes lors d'un changement de paramètres ou du démarrage d'une nouvelle vidéo."
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14837,6 +14909,22 @@ msgctxt "#38042"
 msgid "[Missing]"
 msgstr "[Manquant]"
 
+msgctxt "#38043"
+msgid "Album artists"
+msgstr "Artistes de l'album"
+
+msgctxt "#38044"
+msgid "Song & album artists"
+msgstr "Artistes des pièces et des albums"
+
+msgctxt "#38045"
+msgid "All contributors"
+msgstr "Tous les contributeurs"
+
+msgctxt "#38046"
+msgid "All roles"
+msgstr "Tous les rôles"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Section contenant les paramètres de lecture des médias."
@@ -14916,3 +15004,15 @@ msgstr "Cette option permet d'accéder aux sources de musique et à leur gestion
 msgctxt "#39007"
 msgid "This provides access to where picture sources can be added and otherwise managed."
 msgstr "Cette option permet d'accéder aux sources d'images et à leur gestion."
+
+msgctxt "#39008"
+msgid "Zoom - 120% width"
+msgstr "Zoom - 120 % de la largeur"
+
+msgctxt "#39009"
+msgid "Zoom - 110% width"
+msgstr "Zoom - 110 % de la largeur"
+
+msgctxt "#39010"
+msgid "Select sort method"
+msgstr "Sélectionner la méthode de tri"

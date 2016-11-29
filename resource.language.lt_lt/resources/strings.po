@@ -1795,7 +1795,7 @@ msgstr "Išvaizda"
 
 msgctxt "#481"
 msgid "Audio options"
-msgstr "Garso parinkys"
+msgstr "Garso parinktys"
 
 msgctxt "#482"
 msgid "About Kodi"
@@ -2361,10 +2361,6 @@ msgctxt "#642"
 msgid "Files without ReplayGain information"
 msgstr "Failai be ReplayGain informacijos"
 
-msgctxt "#643"
-msgid "Avoid clipping on ReplayGained files"
-msgstr "Vengti failų su ReplayGain iškraipymo"
-
 msgctxt "#644"
 msgid "Stretch 16:9 - Nonlinear"
 msgstr "Praplėstas 16:9 - nelinijinis"
@@ -2840,10 +2836,6 @@ msgstr "Interneto prieiga"
 msgctxt "#799"
 msgid "Library update"
 msgstr "Bibliotekos atnaujinimas"
-
-msgctxt "#800"
-msgid "Music library needs to rescan tags from files. Would you like to scan now?"
-msgstr "Muzikos biblioteka turi iš naujo nuskaityti žymes iš failų. Ar norite nuskaityti dabar?"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -4737,6 +4729,10 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "Aparatinė įranga:"
 
+msgctxt "#13271"
+msgid "System CPU usage:"
+msgstr "Sistemos CPU naudojimas:"
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "Prisijungta, bet DNS serveris nepasiekiamas."
@@ -5539,7 +5535,7 @@ msgstr "Miniatiūrų kiekis procentais"
 
 msgctxt "#14018"
 msgid "View options"
-msgstr "Rodinio parinkys"
+msgstr "Rodinio parinktys"
 
 msgctxt "#14019"
 msgid "Change area code 1"
@@ -5956,14 +5952,6 @@ msgstr "Biblioteka"
 msgctxt "#14203"
 msgid "Library settings"
 msgstr "Bibliotekos nustatymai"
-
-msgctxt "#14204"
-msgid "TV"
-msgstr "Televizija"
-
-msgctxt "#14205"
-msgid "TV settings"
-msgstr "TV nustatymai"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -11553,6 +11541,14 @@ msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
 msgstr "Išvardinti priedai yra nesuderinami su šia Kodi versija ir buvo automatiškai išjungti: %s."
 
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "Vyksta duomenų bazės migracija - prašome palaukti"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "Vyksta priedų migracija - prašome palaukti"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Neįmanoma prisijungti prie saugyklos."
@@ -12377,6 +12373,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "Pasirinkite elgseną, kai garso išvestis nereikalinga nei media failų atkūrimui, nei GUI garsams.[CR][Visada] Siunčiamas nuolatinis negirdimas signalas, kuris palaiko garso įrenginį paruoštą bet kokiems naujiems garsams, tačiau tai taip pat gali blokuoti garsus iš kitų programų.[CR][1-10 minučių] Tas pats kaip pasirinkus [Visada], tik po pasirinkto laiko tarpo garso išvestis bus pristabdyta.[CR][Išjungta] Garso išvestis bus pristabdyta. Pastaba: garsai gali likti neatkurti, kai garso išvestis yra pristabdyta."
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Siųsti mažo garsumo triukšmą"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Tam kad palaikyti kai kuriuos AVR imtuvus įjungtus, mes siunčiame negirdimą atsitiktinio triukšmo signalą. Jūs galite išjungti šį nustatymą, jei naudojate ausinių arba analoginę išvestį."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Atkurti GUI garsus"
@@ -12536,14 +12540,6 @@ msgstr "Aktyvuoti visų valdiklių vibracijos varikliukus."
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "Naudokite klaviatūrą ar nuotolinio valdymo pultą norėdami pasirinkti valdiklio profilį. Kai būsite paprašyti, paspauskite mygtuką žaidimų valdiklyje, kuris geriausiai atitinka tai ką matote ekrane. Jei padarysite klaidą, galite pakartoti procesą."
-
-msgctxt "#35056"
-msgid "Joystick support not found"
-msgstr "Vairalazdės palaikymas nerastas"
-
-msgctxt "#35057"
-msgid "Controller configuration is disabled. Install the proper joystick support add-on."
-msgstr "Valdiklio konfigūracija išjungta. Įdiekite tinkamą vairalazdės palaikymo priedą."
 
 msgctxt "#35058"
 msgid "Controller Configuration"
@@ -12752,10 +12748,6 @@ msgstr "Perjungti šaltinį į šį įrenginį paleidžiant"
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
 msgstr "Fizinis adresas (svarbesnis už HDMI prievadą)"
-
-msgctxt "#36022"
-msgid "COM port (leave empty unless needed)"
-msgstr "COM prievadas (palikite tuščią, nebent reikalingas)"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -13253,14 +13245,6 @@ msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "Pasirinkite numatytąjį muzikinių vaizdo klipų informacijos šaltinį. Galimas parinktis galite peržiūrėti priedų tvarkyklėje."
 
-msgctxt "#36201"
-msgid "Settings for PVR / Live TV."
-msgstr "PVR / Televizijos nustatymai."
-
-msgctxt "#36202"
-msgid "This category contains the general settings for the PVR / Live TV."
-msgstr "Šioje kategorijoje yra pagrindiniai PVR / televizijos paslaugos nustatymai."
-
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Įjungti \"Asmeninio vaizdo įrašymo\" (PVR) funkciją. Tam reikia, kad būtų įdiegtas bent vienas PVR priedas."
@@ -13524,10 +13508,6 @@ msgstr "Bazinis garsumas (PreAmp lygis), kurį naudoti failams su įrašyta Repl
 msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
 msgstr "Bazinis garsumas (PreAmp lygis), kurį naudoti failams be įrašytos ReplayGain informacijos. Numatytasis yra 89dB pagal standartą. Keiskite atsargiai."
-
-msgctxt "#36270"
-msgid "Reduce the volume of the file if clipping will occur."
-msgstr "Sumažinti failo garsumą, jei atsiranda iškraipymas."
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."

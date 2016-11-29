@@ -2361,10 +2361,6 @@ msgctxt "#642"
 msgid "Files without ReplayGain information"
 msgstr "沒有回放增益資訊的檔案"
 
-msgctxt "#643"
-msgid "Avoid clipping on ReplayGained files"
-msgstr "針對回放增益檔案防止 Clipping"
-
 msgctxt "#644"
 msgid "Stretch 16:9 - Nonlinear"
 msgstr "拉伸至 16:9 - 非線性"
@@ -2840,10 +2836,6 @@ msgstr "網際網路訪問"
 msgctxt "#799"
 msgid "Library update"
 msgstr "資料庫更新"
-
-msgctxt "#800"
-msgid "Music library needs to rescan tags from files. Would you like to scan now?"
-msgstr "音樂庫需要重新掃描檔案標籤。你要現在開始掃描嗎？"
 
 msgctxt "#802"
 msgid "%s of %s available"
@@ -4737,6 +4729,10 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "硬體："
 
+msgctxt "#13271"
+msgid "System CPU usage:"
+msgstr "系統CPU負載："
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "已連線，但是 DNS 無法使用。"
@@ -5956,14 +5952,6 @@ msgstr "瀏覽"
 msgctxt "#14203"
 msgid "Library settings"
 msgstr "資料庫設定"
-
-msgctxt "#14204"
-msgid "TV"
-msgstr "電視"
-
-msgctxt "#14205"
-msgid "TV settings"
-msgstr "電視設定"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -11553,6 +11541,14 @@ msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
 msgstr "下列的附加元件由於不相容此版本的Kodi，已被自動關閉：%s。"
 
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "資料庫整合作業中 - 請稍候"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "附加元件整合作業中 - 請稍候"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "無法連線到來源庫。"
@@ -12377,6 +12373,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "選擇沒有聲音播放也沒有使用介面音效時的行為。[CR][總是] 持續輸出無聲信號，這會使接收音訊裝置保持運作，不會遺漏任何聲音。然而這樣會持續占用音效輸出裝置，可能會因此讓別的應用程式無法播放聲音。[CR][1-10 分鐘] 與 [總是] 選項相同，但是會在選定的時間之後讓音效輸出裝置進入暫停輸出的狀態。[CR][Off] 音效輸出裝置進入暫停輸出狀態。注意 - 當進入暫停輸出狀態時，可能會遺漏需要播放的聲音。"
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "傳送低音量噪音"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "我們會傳送聽不到的隨機噪音訊號來防止某些AVR自動關機，如果您使用耳機或是類比式輸出，可以關掉這個選項。"
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "播放使用者介面音效"
@@ -12536,14 +12540,6 @@ msgstr "開啟所有控制器的震動馬達"
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
 msgstr "使用鍵盤或遙控器來選擇控制器設定檔。請依螢幕提示按下最適合該功能的按鍵，如果不小心弄錯的話，重新設定即可。"
-
-msgctxt "#35056"
-msgid "Joystick support not found"
-msgstr "找不到支援的搖桿"
-
-msgctxt "#35057"
-msgid "Controller configuration is disabled. Install the proper joystick support add-on."
-msgstr "控制器設置功能被禁用，請安裝適當的搖桿支援附加元件。"
 
 msgctxt "#35058"
 msgid "Controller Configuration"
@@ -12752,10 +12748,6 @@ msgstr "啟動時將來源切換至此裝置"
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
 msgstr "實體位址（取代 HDMI  連接埠）"
-
-msgctxt "#36022"
-msgid "COM port (leave empty unless needed)"
-msgstr "COM 連接埠（有需要再填） (leave empty unless needed)"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -13253,14 +13245,6 @@ msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "選擇預設的音樂影片資訊來源。附加元件管理員中有更多選項。"
 
-msgctxt "#36201"
-msgid "Settings for PVR / Live TV."
-msgstr "PVR/電視直播的設定。"
-
-msgctxt "#36202"
-msgid "This category contains the general settings for the PVR / Live TV."
-msgstr "此分類包含預錄及即時電視節目的設定。"
-
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "啟動\"客制化影片錄製\"(PVR)功能，要開啟此功能需先安裝至少一個PVR附加元件。"
@@ -13524,10 +13508,6 @@ msgstr "針對有內建播放增益值資料的音檔之音量(前級輸出)參�
 msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
 msgstr "針對無內建播放增益值資料的音檔之音量(前級輸出)參考值。預設的標準值是89dB。小心別亂動。"
-
-msgctxt "#36270"
-msgid "Reduce the volume of the file if clipping will occur."
-msgstr "如果會發生 Clipping 的話降低檔案的音量。"
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
