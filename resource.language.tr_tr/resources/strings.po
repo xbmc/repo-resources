@@ -4341,6 +4341,10 @@ msgctxt "#12386"
 msgid "Month / Day"
 msgstr "Ay / Gün"
 
+msgctxt "#12389"
+msgid "Privacy policy"
+msgstr "Gizlilik ilkesi"
+
 msgctxt "#12390"
 msgid "System uptime"
 msgstr "Sistemin çalışma süresi"
@@ -5952,6 +5956,14 @@ msgstr "Kitaplık"
 msgctxt "#14203"
 msgid "Library settings"
 msgstr "Kitaplık ayarları"
+
+msgctxt "#14204"
+msgid "PVR & Live TV"
+msgstr "PVR ve Canlı TV"
+
+msgctxt "#14205"
+msgid "PVR & Live TV settings"
+msgstr "PVR ve Canlı TV ayarları"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -12521,6 +12533,38 @@ msgctxt "#35010"
 msgid "Peripheral libraries"
 msgstr "Çevre birimleri kitaplıkları"
 
+msgctxt "#35011"
+msgid "New controller detected"
+msgstr "Yeni denetleyici algılandı"
+
+msgctxt "#35012"
+msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
+msgstr "Yeni bir denetleyici tespit edildi. Bu denetleyiciyi \"Ayarlar -> Sistem Ayarları -> Giriş\" menüsünden istediğiniz zaman yapılnadırabilirsiniz. Şimdi yapılandırmak ister misiniz?"
+
+msgctxt "#35013"
+msgid "Fix skipping"
+msgstr "Atlamayı düzelt"
+
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
+msgstr "Bazı denetleyiciler tuş eşleme işlemini etkileyen düğmeler ve eksenlere sahiptir. Bunları devre dışı bırakmak için şimdi bunlara basın:[CR]%s"
+
+msgctxt "#35015"
+msgid "Button %d"
+msgstr "Düğme: %d"
+
+msgctxt "#35016"
+msgid "Axis %d"
+msgstr "Eksen: %d"
+
+msgctxt "#35017"
+msgid "Unable to configure controllers"
+msgstr "Denetleyiciler yapılandırılamadı"
+
+msgctxt "#35018"
+msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
+msgstr "Denetleyici yapılandırması devre dışı bırakılmış bir eklentiye bağımlıdır. Etkinleştirmek ister misiniz?"
+
 msgctxt "#35049"
 msgid "Game add-ons"
 msgstr "Oyun eklentileri"
@@ -12840,6 +12884,10 @@ msgstr "Oynatımı Durdur"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "Oynatımı Duraklat"
+
+msgctxt "#36046"
+msgid "Force AVR to wake up when Kodi is activated"
+msgstr "Kodi etkinleştirildiğinde AVR'yi uyandırmaya zorla"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -13244,6 +13292,14 @@ msgstr "Varsayılan TV programları bilgisi kaynağını seçin. Seçenekler iç
 msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "Varsayılan müzik videoları bilgisi kaynağını seçin. Seçenekler için eklenti yöneticisine bakın."
+
+msgctxt "#36201"
+msgid "Settings for PVR & Live TV."
+msgstr "PVR ve Canlı TV için ayarlar."
+
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR & Live TV."
+msgstr "Bu kategori PVR ve Canlı TV için genel ayarları içerir."
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
@@ -14327,7 +14383,7 @@ msgstr "Renk yönetimi"
 
 msgctxt "#36561"
 msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
-msgstr "Bir görüntü profili veya 3D arama tablosu kullanarak video renklerini doğru olarak yeniden oluştur."
+msgstr "Bir ekran profili veya 3D arama tablosu kullanarak video renklerini doğru olarak yeniden oluştur."
 
 msgctxt "#36562"
 msgid "Colour management mode"
@@ -14335,15 +14391,23 @@ msgstr "Renk yönetimi modu"
 
 msgctxt "#36563"
 msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
-msgstr "Video renk düzeltmesi için önceden hesaplanmış 3D arama tablosu kullanın veya ekranınızın profilinden her video için ayrı ayrı renk dönüşümünü hesaplayın. Önceden hesaplanmış 3D arama tablosunu tercih etmek, gelişmiş özelliklerden ve ArgyllCMS'de yüksek hassasiyetten yararlanmanızı sağlar. Görüntü profili tabanlı düzeltme, hazır bir 3D LUT olmadan görüntü ayarlarını taklit etmek veya farklı parametreleri sınamak için yararlıdır. "
+msgstr "Video renk düzeltmesi için önceden hesaplanmış 3D arama tablosu kullanın veya ekranınızın profilinden her video için ayrı ayrı renk dönüşümünü hesaplayın. Önceden hesaplanmış 3D arama tablosunu tercih etmek, gelişmiş özelliklerden ve ArgyllCMS'de yüksek hassasiyetten yararlanmanızı sağlar. Ekran profili tabanlı düzeltme, hazır bir 3D LUT olmadan görüntü ayarlarını taklit etmek veya farklı parametreleri sınamak için yararlıdır. "
 
 msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D LUT"
 
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "Varsayılan olarak kullanılacak 3DLUT dosyasını seçin. Aynı dizine birden fazla 3DLUT dosyası yerleştirirseniz, video oynatılırken OSD menüsünde bunlar arasında geçiş yapabilirsiniz. Bu, farklı görüntüleme ortamları ve kaynak malzemeleri için çoklu ekran profillerinin kullanılmasını sağlar. Örneğin, gündüz görüş için gama 2.2 ve gece için 2.4."
+
 msgctxt "#36566"
 msgid "ICC display profile"
-msgstr "ICC görüntü profili"
+msgstr "ICC ekran profili"
+
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "Bir ekran profili sağlayarak, oynatma sırasında gama, renk birincilleri ve beyaz nokta gibi video parametrelerini değiştirebilirsiniz. Bir ICC kaynak profili, parametrelere dayanarak oluşturulur ve burada ayarlanan ekran ICC profiliyle bağlantılıdır. Bu destek deneyseldir. Doğal siyah görüntü ayarlanamadan (siyah seviyesinin yükselmesine) ve doğal görüntüden farklı bir beyaz nokta seçildiğinde beyaz seviye ölçeklendirmeden (geçici bir çözüm olarak, kırpmanın önlenmesi için video parlaklığını ayarlayın) yoksundur."
 
 msgctxt "#36568"
 msgid "Whitepoint"
@@ -14364,6 +14428,10 @@ msgstr "Kaynak malzemeye göre birincil renk koordinatlarını seçin. Eski HD m
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Gama modu"
+
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Gama eğrisi formülünü seçin. Görüntünün siyah beyaz seviyelerini açıklayan ve algısal kırpmayı önleyen gama eğrisi için BT.1886 kullanın. Elle belirtilen etkin gama ile benzer bir eğri için giriş uzaklığı kullanın. Çıktı uzaklığı algısal kırpmaya izin verir, ancak çok parlak koyu ayrıntılara yol açan yanlış mastering monitör ayarlarını telafi etmek için kullanılabilir. Mutlak gama, ekranı siyah olarak hesaplamaz ve sıfırdan yüksek siyah seviyedeki herhangi bir ekranda siyah göstermek için en düşük seviyeleri küçültür."
 
 msgctxt "#36574"
 msgid "Gamma"
@@ -14913,6 +14981,14 @@ msgctxt "#38046"
 msgid "All roles"
 msgstr "Tüm roller"
 
+msgctxt "#38060"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "Müzik kitaplığının dosyalardan etiketleri yeniden taraması gerekiyor. Şimdi tarama yapmak ister misiniz?"
+
+msgctxt "#38061"
+msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
+msgstr "Albümler ve sanatçılar için ek bilgi getirilsin mi? Bu biraz zaman alabilir, bu yüzden bunu daha sonra yapmayı tercih edebilirsiniz."
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Medya oynatımı ile ilgili ayarları içeren bölüm"
@@ -14983,15 +15059,15 @@ msgstr "Bu kategori veritabanları için kaynak yönetimi ve kitaplık ile ilgil
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
-msgstr "Video kaynakları ekleyin ve yönetin."
+msgstr "Bu, video kaynaklarının eklenebileceği ve yönetilebileceği yerlere erişim sağlar."
 
 msgctxt "#39006"
 msgid "This provides access to where music sources can be added and otherwise managed."
-msgstr "Müzik kaynakları ekleyin ve yönetin."
+msgstr "Bu, müzik kaynaklarının eklenebileceği ve yönetilebileceği yerlere erişim sağlar."
 
 msgctxt "#39007"
 msgid "This provides access to where picture sources can be added and otherwise managed."
-msgstr "Resim kaynakları ekleyin ve yönetin."
+msgstr "Bu, resim kaynaklarının eklenebileceği ve yönetilebileceği yerlere erişim sağlar."
 
 msgctxt "#39008"
 msgid "Zoom - 120% width"

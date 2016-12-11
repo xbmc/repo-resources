@@ -4341,6 +4341,10 @@ msgctxt "#12386"
 msgid "Month / Day"
 msgstr "月/日"
 
+msgctxt "#12389"
+msgid "Privacy policy"
+msgstr "隐私政策"
+
 msgctxt "#12390"
 msgid "System uptime"
 msgstr "系统运行时间"
@@ -4728,6 +4732,10 @@ msgstr "取消移动"
 msgctxt "#13270"
 msgid "Hardware:"
 msgstr "硬件："
+
+msgctxt "#13271"
+msgid "System CPU usage:"
+msgstr "系统 CPU 使用："
 
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
@@ -5948,6 +5956,14 @@ msgstr "资料库"
 msgctxt "#14203"
 msgid "Library settings"
 msgstr "资料库设置"
+
+msgctxt "#14204"
+msgid "PVR & Live TV"
+msgstr "PVR 和直播电视"
+
+msgctxt "#14205"
+msgid "PVR & Live TV settings"
+msgstr "PVR 和直播电视设置"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -11537,6 +11553,14 @@ msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
 msgstr "以下插件与此 Kodi 版本不兼容，已自动禁用：%s。"
 
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "正在进行数据库迁移 - 请稍候"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "正在进行插件迁移 - 请稍候"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "无法连接插件库。"
@@ -12361,6 +12385,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "选择在音频播放和界面音效都没有时的动作。[CR][总是] - 持续输出无声信号，使功放保持激活随时处理声音，但也可能会阻断其它应用程序的声音。[CR][1-10分] - 类似[总是]选项，过了持续期限后音频进入暂停状态。[CR][关] - 音频输出进入暂停状态。注意：音频进入暂停状态可能造成声音丢失。"
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "发送低音量噪声"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "为了让某些 AVR 保持开机，我们发送一个人耳听不见的随机噪声信号。使用耳机或模拟输出时，可禁用此设置。"
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "播放用户界面音效"
@@ -12500,6 +12532,38 @@ msgstr "此设备不使用自定义键盘映射"
 msgctxt "#35010"
 msgid "Peripheral libraries"
 msgstr "外设库"
+
+msgctxt "#35011"
+msgid "New controller detected"
+msgstr "检测到新的控制器"
+
+msgctxt "#35012"
+msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
+msgstr "检测到新的控制器。可以在“设置 -> 系统设置 -> 输入”中随时进行配置。要现在配置吗？"
+
+msgctxt "#35013"
+msgid "Fix skipping"
+msgstr "修正跳过"
+
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
+msgstr "一些控制器具有会干扰映射的按钮和轴。按下这些以禁用它们：[CR]％s"
+
+msgctxt "#35015"
+msgid "Button %d"
+msgstr "按钮 %d"
+
+msgctxt "#35016"
+msgid "Axis %d"
+msgstr "轴 %d"
+
+msgctxt "#35017"
+msgid "Unable to configure controllers"
+msgstr "无法设置控制器"
+
+msgctxt "#35018"
+msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
+msgstr "控制器设置依赖一个已禁用插件。要启用它吗？"
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -12820,6 +12884,10 @@ msgstr "停止播放"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "暂停播放"
+
+msgctxt "#36046"
+msgid "Force AVR to wake up when Kodi is activated"
+msgstr "当 Kodi 激活时强制唤醒 AVR"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -13224,6 +13292,14 @@ msgstr "选择默认剧集信息来源。选项见插件管理。"
 msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "选择默认音乐电视信息来源。选项见插件管理。"
+
+msgctxt "#36201"
+msgid "Settings for PVR & Live TV."
+msgstr "PVR 和直播电视设置项"
+
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR & Live TV."
+msgstr "此功能区包含 PVR 和直播电视常用设置。"
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
@@ -13825,6 +13901,10 @@ msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "选择解码音频可用的最大声道/扬声器数。如果使用光纤/同轴数字输出则应设置为2.0"
 
+msgctxt "#36368"
+msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
+msgstr "选择以允许在播放编码压缩的音频如杜比数字（AC3）、DTS 等时进行直通输出。音频引擎的客户端，如 Videoplayer，在某些条件下会决定解码音频流。对 Videoplayer 来说，直播流和同步显示器播放时不使用直通输出。"
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "当你的功放能解码 TrueHD 音频流时选择此项。"
@@ -14317,25 +14397,57 @@ msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D 查找表"
 
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "选择默认使用的 3D 查找表文件。如果同一目录下存放有多个 3D 查找表，则可以在视频播放时通过 OSD 菜单切换。这样就可以有多个配置来针对不同的观看环境和来源，如白天用伽码 2.2 观看，晚上用 2.4。"
+
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "ICC 显示器配置文件"
+
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "通过提供显示器配置文件，你可以修改视频参数如播放时的伽玛值、主色调和色温。ICC 源配置文件基于参数创建并链接到在此设置的显示器 ICC 配置文件。这种支持是实验性的，在向显示器原生黑的黑色调整有欠缺（导致提高黑阶水平），以及白阶水平缩放当一个不同于显示器原生的色温被选择（作为一种变通，调整图像的亮度来避免剪裁）。"
 
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "白点"
 
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "对于老的日本 NTSC 制式内容在 D65 显示器播放会偏红，通常改变视频色温到 D93 可解决。调低视频亮度设置以避免剪裁到显示器原生色温。 "
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "主色调"
+
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "根据源内容选择主色调坐标。老的高清内容在显示器使用 BT.601 主色调。"
+
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "伽码模式"
+
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "选择伽玛曲线公式。使用 BT.1886 伽玛曲线来显示黑白级别并避免可感知的剪裁。使用输入偏移对手动指定有效的伽玛曲线的类似曲线。输出偏移允许可感知的剪裁，但可以用来补偿不正确的监视器设置而导致太亮的暗细节。绝对伽玛不考虑显示黑色，并将剪裁最低级别以在任何具有高于零的黑色级别的显示器显示黑色。"
 
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "伽码"
 
+msgctxt "#36575"
+msgid "Gamma for selected gamma curve type. For input and output offset, the result at 50% will match an absolute gamma curve with this gamma value."
+msgstr "伽玛值用于选择伽玛曲线类型。对于输入和输出偏移，50%的结果将使用该伽马值匹配绝对伽玛曲线。"
+
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "查找表大小"
+
+msgctxt "#36577"
+msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
+msgstr "指定 3D 查找表的分辨率。使用较低的分辨率来快速预览，高分辨率获得更准确的图片。使用高分辨率在参数改变或新视频开始时可能需要几秒钟准备时间。"
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14868,6 +14980,14 @@ msgstr "所有贡献者"
 msgctxt "#38046"
 msgid "All roles"
 msgstr "所有角色"
+
+msgctxt "#38060"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "音乐资料库需要重新从文件扫描标签。现在扫描吗？"
+
+msgctxt "#38061"
+msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
+msgstr "获取专辑和歌手的附加信息吗？这需要一些时间，你可以压后处理。"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

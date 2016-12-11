@@ -1327,7 +1327,7 @@ msgstr "Alle albums"
 
 msgctxt "#359"
 msgid "Recently added albums"
-msgstr "Onlangs toegevoegde albums"
+msgstr "Recent toegevoegde albums"
 
 msgctxt "#360"
 msgid "Screensaver"
@@ -4341,6 +4341,10 @@ msgctxt "#12386"
 msgid "Month / Day"
 msgstr "Maand / Dag"
 
+msgctxt "#12389"
+msgid "Privacy policy"
+msgstr "Privacybeleid"
+
 msgctxt "#12390"
 msgid "System uptime"
 msgstr "Systeem actief"
@@ -5952,6 +5956,14 @@ msgstr "Bibliotheek"
 msgctxt "#14203"
 msgid "Library settings"
 msgstr "Bibliotheekinstellingen"
+
+msgctxt "#14204"
+msgid "PVR & Live TV"
+msgstr "PVR & Live TV"
+
+msgctxt "#14205"
+msgid "PVR & Live TV settings"
+msgstr "PVR & Live TV instellingen"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -9583,11 +9595,11 @@ msgstr "Van serie loskoppelen"
 
 msgctxt "#20386"
 msgid "Recently added movies"
-msgstr "Onlangs toegevoegde speelfilms"
+msgstr "Recent toegevoegde speelfilms"
 
 msgctxt "#20387"
 msgid "Recently added episodes"
-msgstr "Onlangs toegevoegde afleveringen"
+msgstr "Recent toegevoegde afleveringen"
 
 msgctxt "#20388"
 msgid "Studios"
@@ -9599,7 +9611,7 @@ msgstr "Muziekvideo's"
 
 msgctxt "#20390"
 msgid "Recently added music videos"
-msgstr "Onlangs toegevoegde muziekvideo's"
+msgstr "Recent toegevoegde muziekvideo's"
 
 msgctxt "#20391"
 msgid "Music video"
@@ -11547,7 +11559,7 @@ msgstr "Database migratie bezig - even geduld"
 
 msgctxt "#24151"
 msgid "Add-on migration in progress - please wait"
-msgstr "Add-on migratie bezig - even geduld"
+msgstr "Bezig met add-on migratie - even geduld"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -12375,11 +12387,11 @@ msgstr "Selecteer het gedrag in wanneer geen geluid is vereist voor ofwel afspel
 
 msgctxt "#34112"
 msgid "Send low volume noise"
-msgstr "Stuur laag volume geluid"
+msgstr "Stuur laag volume ruis"
 
 msgctxt "#34113"
 msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
-msgstr "Om bepaalde AVR`s  aan te houden sturen wij een onhoorbaar ruis signaal. U kunt deze instelling uit te schakelen als u gebruik maakt hoofdtelefoon of analoge uitgang."
+msgstr "Om bepaalde AVR`s wakker te houden, sturen wij een onhoorbaar ruissignaal. U kunt deze instelling uit te schakelen als u gebruik maakt van een hoofdtelefoon of analoge uitgang."
 
 msgctxt "#34120"
 msgid "Play GUI sounds"
@@ -12520,6 +12532,38 @@ msgstr "Maak voor dit apparaat geen gebruik van aangepaste keymap"
 msgctxt "#35010"
 msgid "Peripheral libraries"
 msgstr "Apparatuur bibliotheken"
+
+msgctxt "#35011"
+msgid "New controller detected"
+msgstr "Nieuwe controller gedetecteerd"
+
+msgctxt "#35012"
+msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
+msgstr "Een nieuwe controller is gedetecteerd. Het configureren kan op elk moment gedaan worden via \"Instellingen -> Systeeminstellingen -> Invoer\". Wilt u dit nu meteen doen?"
+
+msgctxt "#35013"
+msgid "Fix skipping"
+msgstr "Herstel skippen"
+
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
+msgstr "Sommige controllers hebben knoppen en assen die de mapping storen. Druk deze nu in om ze uit te schakelen:[CR]%s"
+
+msgctxt "#35015"
+msgid "Button %d"
+msgstr "Knop %d"
+
+msgctxt "#35016"
+msgid "Axis %d"
+msgstr "As %d"
+
+msgctxt "#35017"
+msgid "Unable to configure controllers"
+msgstr "Controllers kunnen niet geconfigureerd worden."
+
+msgctxt "#35018"
+msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
+msgstr "De controllerconfiguratie is afhankelijk van een uitgeschakelde addon. Wilt u deze inschakelen?"
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -12840,6 +12884,10 @@ msgstr "Stop afspelen"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "Pauzeer afspelen"
+
+msgctxt "#36046"
+msgid "Force AVR to wake up when Kodi is activated"
+msgstr "Forceer AVR te ontwaken wanneer Kodi wordt geactiveerd."
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -13244,6 +13292,14 @@ msgstr "Selecteer de standaard TV-serie informatiebron. Zie de add-ons manager v
 msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
 msgstr "Selecteer de standaard filminformatiebron. Zie de add-ons beheer voor opties."
+
+msgctxt "#36201"
+msgid "Settings for PVR & Live TV."
+msgstr "Instellingen voor PVR & Live TV"
+
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR & Live TV."
+msgstr "Deze categorie bevat de algemene instellingen voor PVR & Live TV."
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
@@ -13847,7 +13903,7 @@ msgstr "Selecteer het maximum aantal geluidskanalen / speakers beschikbaar voor 
 
 msgctxt "#36368"
 msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
-msgstr "Selecteer om doorvoer audio toe te staan voor het afspelen van gecomprimeerde audio zoals Dolby digital (AC3), DTS, etc.. De Cliënt van de AudioEngine, voor bijvoorbeeld Videospeler, kan overwegen de audiostream te decoderen in bepaalde gevallen. in Videospeler geval, Doorvoer wordt niet gebruikt voor live streams en wanneer jij afspelen synchroniseert naar beeldscherm. "
+msgstr "Selecteer om doorvoer audio toe te staan voor het afspelen van gecomprimeerde audio zoals Dolby Digital (AC3), DTS, etc.. De Cliënt van de AudioEngine, bvb. Videospeler, kan overwegen de audiostream te decoderen in bepaalde gevallen. In het geval van Videospeler, wordt doorvoer niet gebruikt voor live streams en wanneer jij het afspelen synchroniseert naar beeldscherm. "
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -14343,7 +14399,7 @@ msgstr "3D LUT"
 
 msgctxt "#36565"
 msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
-msgstr "Selecteer Het 3DLUT bestand om als  standaard te worden gebruikt. Als je meerdere 3DLUT bestanden in de zelfde locatie plaatst, dan kan je wisselen tussen hen in het OSD menu gedurende het afspelen van video. Dit staat meerdere weergave profielen toe. om rekening te houden met verscheidende weergave omgevingen en bron materialen, bijvoorbeeld gamma 2.2 voor dag weergaven en 2.4 voor nacht."
+msgstr "Selecteer het 3DLUT bestand om als  standaard te worden gebruikt. Als je meerdere 3DLUT bestanden in de zelfde locatie plaatst, dan kan je wisselen tussen hen in het OSD menu gedurende het afspelen van video. Dit staat meerdere weergave profielen toe om rekening te houden met verscheidende weergave omgevingen en bronmaterialen, bvb. gamma 2.2 voor dag weergaven en 2.4 voor nacht."
 
 msgctxt "#36566"
 msgid "ICC display profile"
@@ -14924,6 +14980,14 @@ msgstr "Alle bijdragers"
 msgctxt "#38046"
 msgid "All roles"
 msgstr "Alle rollen"
+
+msgctxt "#38060"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "Muziekbibliotheek moet tags opnieuw scannen van bestanden. Wilt u nu scannen?"
+
+msgctxt "#38061"
+msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
+msgstr "Additionele informatie voor albums en artiesten ophalen? Dit kan even duren dus misschien kunt u dit beter later doen."
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

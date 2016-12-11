@@ -4729,6 +4729,10 @@ msgctxt "#13270"
 msgid "Hardware:"
 msgstr "Hardver:"
 
+msgctxt "#13271"
+msgid "System CPU usage:"
+msgstr "Rendszer CPU használat:"
+
 msgctxt "#13274"
 msgid "Connected, but no DNS is available."
 msgstr "Csatlakoztatva, de nincs elérhető DNS."
@@ -11537,6 +11541,14 @@ msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
 msgstr "A következő bővítmények nem kompatibilisek a Kodi jelenlegi verziójával, ezért automatikusan ki lettek kapcsolva: %s."
 
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "Adatbázis átvitele folyamatban - kérjük várjon"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "Bővítmények átvitele folyamatban - kérjük várjon"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Sikertelen csatlakozás a tárolóhoz"
@@ -12361,6 +12373,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "Válassza ki a viselkedést ha nem szükséges a hang sem lejátszáshoz, sem a GUI hangjaihoz.[CR][Mindig] Folyamatos, nem hallható jel a kimenetre, ez életben tartja a hangeszközt, új hangokra várva, de ez blokkolhatja a többi alkalmazás hangjait.[CR][1-10 perc] Ugyanaz mint a [Mindig], azzal a különbséggel hogy a megadott idő után felfüggesztett állapotba kerül a hangeszköz.[CR][Ki] A hangkimenet felfüggesztett állapotba kerül. Megjegyzés: kimaradhatnak hangok ha a hangeszköz felfüggesztett."
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Halk audio zaj küldés"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Az AVR egység aktívan tartása random nem hallható zaj jelekkel történik. Analóg kimenet vagy fejhallgató használata esetén ezt le lehet tiltani."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Felület hangjainak lejátszása"
@@ -12500,6 +12520,26 @@ msgstr "Ne használja az egyedi kiosztást ehhez az eszközhöz"
 msgctxt "#35010"
 msgid "Peripheral libraries"
 msgstr "Periféria könyvtárak"
+
+msgctxt "#35011"
+msgid "New controller detected"
+msgstr "Új kontroller csatlakoztatva"
+
+msgctxt "#35015"
+msgid "Button %d"
+msgstr "%d gomb"
+
+msgctxt "#35016"
+msgid "Axis %d"
+msgstr "%d tengely"
+
+msgctxt "#35017"
+msgid "Unable to configure controllers"
+msgstr "Nem lehetséges a kontroller beállítása"
+
+msgctxt "#35018"
+msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
+msgstr "A kontroller beállításához egy letiltott kiegészítő szükséges. Szeretné engedélyezni?"
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -12820,6 +12860,10 @@ msgstr "Lejátszás leállítása"
 msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "Lejátszás szüneteltetése"
+
+msgctxt "#36046"
+msgid "Force AVR to wake up when Kodi is activated"
+msgstr "AVR egység felébresztése a Kodi indulásakor"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -14884,6 +14928,10 @@ msgstr "Minden közreműködő"
 msgctxt "#38046"
 msgid "All roles"
 msgstr "Minden szerep"
+
+msgctxt "#38060"
+msgid "Music library needs to rescan tags from files. Would you like to scan now?"
+msgstr "A zenetárnak frissíteni kell a médiainformációikat a fájlokból. Szeretné most frissíteni?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
