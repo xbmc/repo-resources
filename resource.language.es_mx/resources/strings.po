@@ -2451,7 +2451,7 @@ msgstr "Nivel de compresión"
 
 msgctxt "#666"
 msgid "Enable component-specific logging"
-msgstr "Habilitar la recolección de información por componente"
+msgstr "Habilitar registro específico por componente"
 
 msgctxt "#667"
 msgid "Enable Dolby Digital (AC3) transcoding"
@@ -2459,7 +2459,7 @@ msgstr "Habilitar la conversión Dolby Digital (AC3)"
 
 msgctxt "#668"
 msgid "Specify component-specific logging..."
-msgstr "Habilitar la recolección de información por componente"
+msgstr "Especificar componentes específicos para registrar..."
 
 msgctxt "#669"
 msgid "Verbose logging for the [B]SMB[/B] library"
@@ -2880,6 +2880,14 @@ msgstr "Grabando grupo"
 msgctxt "#812"
 msgid "Prevent duplicate episodes"
 msgstr "Previene episodios duplicados"
+
+msgctxt "#813"
+msgid "Start padding time"
+msgstr "Tiempo de relleno de inicio"
+
+msgctxt "#814"
+msgid "End padding time"
+msgstr "Tiempo de relleno final"
 
 msgctxt "#815"
 msgid "Record all episodes"
@@ -5417,6 +5425,14 @@ msgctxt "#13555"
 msgid "%d Minutes"
 msgstr "%d Minutos"
 
+msgctxt "#13556"
+msgid "Skip steps"
+msgstr "Pasos de salto"
+
+msgctxt "#13557"
+msgid "Skip delay"
+msgstr "Demora de saltos"
+
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Remoto Apple"
@@ -7557,6 +7573,14 @@ msgctxt "#19174"
 msgid "Default recording lifetime"
 msgstr "Tiempo de grabacion predeterminada"
 
+msgctxt "#19175"
+msgid "Default start padding time"
+msgstr "Tiempo de relleno de inicio predeterminado"
+
+msgctxt "#19176"
+msgid "Default end padding time"
+msgstr "Tiempo de relleno final predeterminado"
+
 msgctxt "#19177"
 msgid "Playback"
 msgstr "Reproducir"
@@ -8485,6 +8509,10 @@ msgctxt "#20019"
 msgid "Choose thumbnail"
 msgstr "Elija miniatura"
 
+msgctxt "#20020"
+msgid "Banner"
+msgstr "Banner"
+
 msgctxt "#20021"
 msgid "Poster"
 msgstr "Poster"
@@ -9091,7 +9119,7 @@ msgstr "Personalizado"
 
 msgctxt "#20191"
 msgid "Enable debug logging"
-msgstr "Habilitar trazas de depuración"
+msgstr "Habilitar el registro de depuración"
 
 msgctxt "#20192"
 msgid "Fetch additional information during updates"
@@ -10371,7 +10399,7 @@ msgstr "Abrir"
 
 msgctxt "#21479"
 msgid "Run"
-msgstr "Correr"
+msgstr "Abrir"
 
 msgctxt "#21480"
 msgid "Use"
@@ -10963,7 +10991,7 @@ msgstr "Deshabilitar"
 
 msgctxt "#24022"
 msgid "Enable"
-msgstr "Enable"
+msgstr "Activar"
 
 msgctxt "#24023"
 msgid "Disabled"
@@ -11061,6 +11089,10 @@ msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "Este complemento no puede ser desinstalado"
 
+msgctxt "#24048"
+msgid "VideoPlayer InputStream"
+msgstr "VideoPlayer InputStream"
+
 msgctxt "#24050"
 msgid "Available add-ons"
 msgstr "Complemento disponible"
@@ -11119,7 +11151,7 @@ msgstr "Actualización automática"
 
 msgctxt "#24064"
 msgid "Add-on enabled"
-msgstr "Add-on activado"
+msgstr "Complemento activado"
 
 msgctxt "#24065"
 msgid "Add-on updated"
@@ -12432,6 +12464,10 @@ msgstr "Nuevo controlador detectado"
 msgctxt "#35012"
 msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
 msgstr "Se ha detectado un nuevo controlador. La configuración se puede hacer en cualquier momento en \"Configuración -> Configuración del sistema -> Entrada\". ¿Desea configurarlo ahora?"
+
+msgctxt "#35013"
+msgid "Fix skipping"
+msgstr "Arreglar saltos"
 
 msgctxt "#35014"
 msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
@@ -13984,6 +14020,10 @@ msgstr "Saltando mezclador VDPAU ahorra recursos en sistemas de baja potencia, p
 msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Habilitar decodificación de vídeo por hardware con el decodificador Amlogic."
+
+msgctxt "#36423"
+msgid "Timer rules shall only record new episodes. Not supported by all add-ons and backends."
+msgstr "Las reglas del temporizador solo grabarán nuevos episodios. No es compatible con todos los complementos y fuentes."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item."

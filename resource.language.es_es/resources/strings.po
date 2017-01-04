@@ -10621,6 +10621,10 @@ msgctxt "#21844"
 msgid "XP comment"
 msgstr "Comentario XP"
 
+msgctxt "#21845"
+msgid "Scan to library"
+msgstr "Explorar para la colección"
+
 msgctxt "#21857"
 msgid "Sub-location"
 msgstr "Sub-ubicación"
@@ -12541,6 +12545,10 @@ msgctxt "#35013"
 msgid "Fix skipping"
 msgstr "Reparar omisión de botones"
 
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
+msgstr "Algunos mandos de control tienen botones y ejes que interfieren en el mapeado. Pulsa los siguientes botones ahora para deshabilitarlos: [CR]%s"
+
 msgctxt "#35015"
 msgid "Button %d"
 msgstr "Botón %d"
@@ -13289,6 +13297,10 @@ msgctxt "#36201"
 msgid "Settings for PVR & Live TV."
 msgstr "Ajustes de PVR y TV en directo."
 
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR & Live TV."
+msgstr "Esta categoría contiene la configuración general de las funciones de PVR y TV en vivo."
+
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Activa las funcionalidades de \"Grabador de Vídeo Personal\" (PVR) . Requiere al menos un add-on PVR instalado."
@@ -13889,6 +13901,10 @@ msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Seleccionar el número máximo de canales de audio / altavoces disponibles para la decodificación de audio. Si se usan salidas ópticas / coaxial digital debe ser puesto a 2.0"
 
+msgctxt "#36368"
+msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
+msgstr "Habilitalo para dejar pasar sin decodificar el audio comprimido como Dolby Digital (AC3), DTS, etc. El Cliente de AudioEngine, por ejemplo Videoplayer, podrá decidir si decodificar el audio bajo determinadas condiciones. El en caso de Videoplayer, no se dejará pasar cuando sea una emision en directo y esté activada la sincronización con el monitor."
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Selecciona esta opción si tu receptor puede decodificar streams TrueHD."
@@ -14381,29 +14397,57 @@ msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D LUT"
 
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "Elige que fichero 3DLUT se usará por defecto. Si pones varios ficheros 3DLUT en el mismo directorio podrás cambiar entre ellos en el menú OSD mientras se reproduce. Esto permite tener varios perfiles de visualización para diferentes escenarios. Por ejemplo, un Gamma 2.2 para el día y un 2.4 para la noche."
+
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "Perfil de pantalla ICC"
+
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "Al definir un perfil de color puedes modificar los parámetros de vídeo como Gamma, primarios de color y balance de blancos durante la reproducción. Se creara un perfil ICC basado en los parámetros definidos y se enlazará al perfil de color. Esto es experimental y carece del ajuste de negro, así que usara el perfil de negro nativo y al cambiar el balance de blancos del nativo causa un nivel de negro elevado (para arreglarlo, baja el brillo para evitarlo)"
 
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Punto Blanco"
 
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "Cambiar el punto blanco a D93 is principalmente útil para material antiguo NTSC Japones que se ve demasiado rojo cuando se reproduce en D65. Ajusta el brillo bajándolo para evitar quemar la imagen."
+
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Primarios"
+
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "Elige el color primario acorde con el material de origen. El HD viejo puede haber sido masterizado en pantallas con los primarios BT.601."
 
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Modo Gamma"
 
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Elije la fórmula de curva de gama. Usa la curva BT.1886 para los niveles de blanco y negro y evitar recortes. Usa la compensación de entrada para cambiar la gama manualmente. Compensación de salida es para la percepción de recorte, pero se puede usar para compensar un mastering incorrecto que hace los negros demasiado brillantes. Gama absoluta no cuenta para mostrar negros en absoluto y recortará a los niveles mas bajos los negros en cualquier pantalla con un nivel de negro mas alto de cero."
+
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
 
+msgctxt "#36575"
+msgid "Gamma for selected gamma curve type. For input and output offset, the result at 50% will match an absolute gamma curve with this gamma value."
+msgstr "Gama para el tipo de curva de gama elegida. Para la compensación de entrada y salida, el resultado al 50% coincidirá con la curva absoluta de gama para este valor."
+
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Tamaño de la tabla de búsqueda"
+
+msgctxt "#36577"
+msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
+msgstr "Especifica la resolución para la tabla de vista 3D. Usa una resolución baja para previsualizar rápidamente y una mas alta para una mejor imagen. Usar una resolución alta puede llevar varios segundos cuando se cambien los parámetros o cuando empiece un nuevo vídeo."
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14921,9 +14965,29 @@ msgctxt "#38042"
 msgid "[Missing]"
 msgstr "[Desconocido]"
 
+msgctxt "#38043"
+msgid "Album artists"
+msgstr "Intérpretes del Álbum"
+
+msgctxt "#38044"
+msgid "Song & album artists"
+msgstr "Intérpretes de la canción y del álbum"
+
+msgctxt "#38045"
+msgid "All contributors"
+msgstr "Todos los contribuidores"
+
+msgctxt "#38046"
+msgid "All roles"
+msgstr "Todos los papeles"
+
 msgctxt "#38060"
 msgid "Music library needs to rescan tags from files. Would you like to scan now?"
 msgstr "La colección de Música necesita volver a analizar las etiquetas de los archivos. ¿Quiere escanear ahora?"
+
+msgctxt "#38061"
+msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
+msgstr "¿Recuperar información adicional para los álbumes y los intérpretes? Esto puede llevar algún tiempo y quizá prefieras hacerlo mas tarde"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
@@ -15004,3 +15068,15 @@ msgstr "Esto provee acceso a donde pueden adicionarse y gestionarse las fuentes 
 msgctxt "#39007"
 msgid "This provides access to where picture sources can be added and otherwise managed."
 msgstr "Esto provee acceso a donde pueden adicionarse y gestionarse las fuentes de fotografías."
+
+msgctxt "#39008"
+msgid "Zoom - 120% width"
+msgstr "Zoom - ancho 120%"
+
+msgctxt "#39009"
+msgid "Zoom - 110% width"
+msgstr "Zoom - ancho 110%"
+
+msgctxt "#39010"
+msgid "Select sort method"
+msgstr "Elige método de ordenación"
