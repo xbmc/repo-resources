@@ -847,7 +847,7 @@ msgstr "Cúbico gaussiano"
 
 msgctxt "#237"
 msgid "Minification"
-msgstr "Minimificación"
+msgstr "Minificación"
 
 msgctxt "#238"
 msgid "Magnification"
@@ -1119,7 +1119,7 @@ msgstr "Activado"
 
 msgctxt "#306"
 msgid "Non-interleaved"
-msgstr "No-Interpolado"
+msgstr "No entrelazado"
 
 msgctxt "#308"
 msgid "Original stream's language"
@@ -1499,7 +1499,7 @@ msgstr "Temperatura"
 
 msgctxt "#402"
 msgid "Feels like"
-msgstr "Sen. térmica"
+msgstr "Sensación térmica"
 
 msgctxt "#403"
 msgid "UV index"
@@ -4611,7 +4611,7 @@ msgstr "¡Conexiones activas detectadas!"
 
 msgctxt "#13141"
 msgid "If you proceed, you might not be able to control this application any longer. Are you sure you want to stop the event server?"
-msgstr "Si continua , puede que ya no pueda controlar esta aplicacion. Está seguro de detener el servidor de eventos?"
+msgstr "Si continua , puede que ya no pueda controlar esta aplicación. Está seguro de detener el servidor de eventos?"
 
 msgctxt "#13144"
 msgid "Change Apple Remote mode?"
@@ -4619,7 +4619,7 @@ msgstr "¿Cambiar modo del mando Apple?"
 
 msgctxt "#13145"
 msgid "If you are currently using the Apple Remote to control this application, changing this setting might affect your ability to continue controlling it. Do you want to proceed?"
-msgstr "Si esta utilizando el remoto Apple para controlar esta aplicacion , cambiar estos ajustes podria afectar las prestaciones de dicho remoto. Desea continuar? "
+msgstr "Si esta utilizando el remoto Apple para controlar esta aplicación , cambiar estos ajustes podria afectar las prestaciones de dicho remoto. Desea continuar? "
 
 msgctxt "#13159"
 msgid "Subnet mask"
@@ -5401,6 +5401,10 @@ msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Umbral de corrección de velocidad"
 
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "Cuando el cambio de velocidad exceda este umbral, se aplicará un filtro de corrección de tono. Esto evita las \"voces de ardillas\" que normalmente resultan de acelerar un video"
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Demora después del cambio de la tasa de refresco"
@@ -5427,11 +5431,11 @@ msgstr "%d Minutos"
 
 msgctxt "#13556"
 msgid "Skip steps"
-msgstr "Pasos de salteo"
+msgstr "Seleccionar tamaños de pasos de salteo"
 
 msgctxt "#13557"
 msgid "Skip delay"
-msgstr "Demora de salteo"
+msgstr "Retardo de salteo"
 
 msgctxt "#13600"
 msgid "Apple Remote"
@@ -6151,7 +6155,7 @@ msgstr "Control de la aplicación"
 
 msgctxt "#14276"
 msgid "Allow remote control from applications on this system"
-msgstr "Permitir el control remoto desde aplicaciones en este sistema"
+msgstr "Permitir el control remoto desde aplicaciones sobre en sistema"
 
 msgctxt "#14277"
 msgid "Allow remote control from applications on other systems"
@@ -6476,6 +6480,26 @@ msgstr "Tema"
 msgctxt "#15112"
 msgid "Default theme"
 msgstr "Tema predeterminado"
+
+msgctxt "#15113"
+msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
+msgstr "Aquí puede configurar modos de pre-proceso. Esta etapa de procesamiento solo modifica el flujo de datos de entrada."
+
+msgctxt "#15114"
+msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
+msgstr "Aquí puede configurar un proceso de remuestreo de entrada. Aviso: Sólo se permite un modo activo!"
+
+msgctxt "#15115"
+msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
+msgstr "Aquí puede configurar modos de procesamiento maestro. Nota: Durante la  reproducción sólo puede haber un modo activo"
+
+msgctxt "#15116"
+msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
+msgstr "Aquí puede configurar un modo de remuestreo de salida. Nota: Sólo se permite un modo activo"
+
+msgctxt "#15117"
+msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
+msgstr "Aquí puede configurar los modos de postprocesamiento. Esta etapa de procesamiento puede utilizarse para la ecualización y la corrección de volumen ..."
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -7087,7 +7111,7 @@ msgstr "Información de programa"
 
 msgctxt "#19048"
 msgid "Group manager"
-msgstr "Gestor de grupos"
+msgstr "Gestión de grupos"
 
 msgctxt "#19049"
 msgid "Show channel"
@@ -7268,6 +7292,14 @@ msgstr "Grabar programa siguiente (%s)"
 msgctxt "#19093"
 msgid "Instant recording: %s"
 msgstr "Grabación instantánea: %s"
+
+msgctxt "#19094"
+msgid "Timer creation failed. The PVR add-on does not support a suitable timer type."
+msgstr "Error en la creación del temporizador. El add-on PVR no admite un  temporizador adecuado."
+
+msgctxt "#19095"
+msgid "Timer rule creation failed. The PVR add-on does not support a suitable timer rule type."
+msgstr "Error en la creación de la regla del temporizador. El add-on PVR no admite un tipo de regla de temporizador adecuado."
 
 msgctxt "#19097"
 msgid "Enter the name for the recording"
@@ -7951,7 +7983,7 @@ msgstr "Bloqueo paterno:"
 
 msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
-msgstr "Ocultar etiquetas \"No hay información disponible\""
+msgstr "Oculta etiquetas \"No hay información disponible\""
 
 msgctxt "#19269"
 msgid "Disable \"Connection lost\" warnings"
@@ -8003,7 +8035,7 @@ msgstr "Opciones del cliente"
 
 msgctxt "#19281"
 msgid "Confirm channel switches by pressing \"OK\""
-msgstr "Confirmar cambios de canal presionando \"OK\""
+msgstr "Confirme cambios de canal presionando \"OK\""
 
 msgctxt "#19282"
 msgid "Current icon"
@@ -8705,9 +8737,13 @@ msgctxt "#20071"
 msgid "Start with fresh media sources or copy from default?"
 msgstr "¿Comenzar con una fuente de medios nueva o copiar desde el valor predeterminado?"
 
+msgctxt "#20072"
+msgid "Make sure the selected folder is writable and that the new folder name is valid"
+msgstr "Asegurese de que la carpeta seleccionada puede ser escrita y que el nuevo nombre sea válido"
+
 msgctxt "#20074"
 msgid "MPAA rating"
-msgstr "Calificación MPAA:"
+msgstr "Calificación MPAA"
 
 msgctxt "#20075"
 msgid "Enter master lock code"
@@ -8991,7 +9027,7 @@ msgstr "Apagado en 120 minutos"
 
 msgctxt "#20150"
 msgid "Custom shutdown timer"
-msgstr "Apagado temporizado personalizado"
+msgstr "Temporizador de apagado personalizado"
 
 msgctxt "#20151"
 msgid "Cancel shutdown timer"
@@ -9095,7 +9131,7 @@ msgstr "Muestra información de video"
 
 msgctxt "#20177"
 msgid "Done"
-msgstr "Listo"
+msgstr "Hecho"
 
 msgctxt "#20178"
 msgid "Shift"
@@ -9111,7 +9147,7 @@ msgstr "Símbolos"
 
 msgctxt "#20181"
 msgid "Backspace"
-msgstr "Borrar"
+msgstr "Borrado"
 
 msgctxt "#20182"
 msgid "Space"
@@ -9135,7 +9171,7 @@ msgstr "UPnP / DLNA"
 
 msgctxt "#20188"
 msgid "Announce library updates"
-msgstr "Anunciar actualizaciones de biblioteca"
+msgstr "Anuncia actualizaciones de biblioteca"
 
 msgctxt "#20189"
 msgid "Enable auto scrolling for plot & review"
@@ -9151,7 +9187,7 @@ msgstr "Habilitar trazas de depuración"
 
 msgctxt "#20192"
 msgid "Fetch additional information during updates"
-msgstr "Obtener información adicional durante actualizaciones"
+msgstr "Obtiene información adicional durante actualizaciones"
 
 msgctxt "#20193"
 msgid "Default provider for album information"
@@ -9919,7 +9955,7 @@ msgstr "Explorar musicas"
 
 msgctxt "#21334"
 msgid "Browse pictures"
-msgstr "Explorar  imagenes"
+msgstr "Explorar  imágenes"
 
 msgctxt "#21335"
 msgid "Browse files"
@@ -10179,7 +10215,7 @@ msgstr "Proveedor predeterminado para información de video musical"
 
 msgctxt "#21416"
 msgid "Select first unwatched TV show season / episode"
-msgstr "Seleccionar la primera temporada / episodio de TV no visto"
+msgstr "Selecciona la primera temporada / episodio de TV no visto"
 
 msgctxt "#21417"
 msgid "Settings"
@@ -10376,6 +10412,10 @@ msgstr "Arriba del video"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "Encima del video"
+
+msgctxt "#21466"
+msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
+msgstr "Al entrar en una vista de temporadas o episodios de un programa de TV, seleccionar automáticamente la primera temporada o episodio no visto.[CR][En el primer ingreso]El primer elemento no visto se seleccionará sólo cuando se ingrese una vista por primera vez.[CR][Siempre] El primer elemento no visto se seleccionará cada vez que se ingrese a una vista."
 
 msgctxt "#21467"
 msgid "%.1f to %.1f"
@@ -10591,7 +10631,7 @@ msgstr "Sub-ubicación"
 
 msgctxt "#21858"
 msgid "Image type"
-msgstr "Tipo de imágen"
+msgstr "Tipo de imagen"
 
 msgctxt "#21859"
 msgid "Time created"
@@ -11059,7 +11099,7 @@ msgstr "Error cargando las opciones"
 
 msgctxt "#24032"
 msgid "All add-ons"
-msgstr "Todos los Add-ons"
+msgstr "Todos los add-ons"
 
 msgctxt "#24033"
 msgid "Install from repository"
@@ -11115,11 +11155,11 @@ msgstr "%s es usado por el/los siguiente(s) add-on(s) instalado(s)"
 
 msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
-msgstr "Este add-on no puede ser desinstalado"
+msgstr "Este add-on no puede desinstalarse"
 
 msgctxt "#24050"
 msgid "Available add-ons"
-msgstr "Add-ons disponible"
+msgstr "Add-ons disponibles"
 
 msgctxt "#24051"
 msgid "Version:"
@@ -11375,7 +11415,7 @@ msgstr "Ubicación de almacenamiento de subtítulos"
 
 msgctxt "#24116"
 msgid "Default TV show service"
-msgstr "Servicio predeterminado para subs de programas de TV"
+msgstr "Servicio de programa de TV predeterminado"
 
 msgctxt "#24117"
 msgid "Select the service that will be used as default to search for TV show subtitles."
@@ -11383,7 +11423,7 @@ msgstr "Selecione el servicio que se usará como predeterminado para buscar subt
 
 msgctxt "#24118"
 msgid "Default movie service"
-msgstr "Servicio predeterminado para subs de películas"
+msgstr "Servicio de películas predeterminado"
 
 msgctxt "#24119"
 msgid "Select the service that will be used as default to search for movie subtitles."
@@ -11428,6 +11468,14 @@ msgstr "Se ha movido la configuración"
 msgctxt "#24129"
 msgid "The configuration of XBMC has been moved to the new location for Kodi. Please refer to http://kodi.wiki/view/Migration - this message will not be shown again!"
 msgstr "La configuraciónde XBMC ha sido movida a su nueva ubicación para su uso por Kodi. Por favor consulte http://kodi.wiki/view/Migration - ¡Este mensaje no se mostrará nuevamente!"
+
+msgctxt "#24130"
+msgid "Enable parsing for closed captions"
+msgstr "Activar búsqueda de 'closed captions' (CC)"
+
+msgctxt "#24131"
+msgid "Enable to parse for CC in video stream. Puts slightly more load on the CPU"
+msgstr "Habilitar para analizar en búsqueda e CC en la secuencia de vídeo. Aumenta  ligeramente la carga en la CPU"
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -11604,6 +11652,10 @@ msgstr "Salto automático activo"
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "Teclado QWERTY"
+
+msgctxt "#29802"
+msgid "Passthrough audio in use"
+msgstr "Audio 'passthrough' en uso"
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -11832,6 +11884,10 @@ msgstr "Asuntos Sociales"
 msgctxt "#29960"
 msgid "Religion"
 msgstr "Religión"
+
+msgctxt "#29961"
+msgid "Phone-in"
+msgstr "Teléfono"
 
 msgctxt "#29962"
 msgid "Travel"
@@ -12317,13 +12373,21 @@ msgctxt "#34110"
 msgid "7.1"
 msgstr "7.1"
 
+msgctxt "#34111"
+msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
+msgstr "Seleccione el comportamiento cuando no se requiera sonido para los sonidos de reproducción o GUI.[CR][Siempre] Se emite una señal inaudible continua, esto mantiene vivo el dispositivo de audio receptor para cualquier sonido nuevo, sin embargo esto también podría bloquear el sonido de otras aplicaciones.[CR][1-10 minutos] Igual que [Siempre] excepto que después del período de tiempo seleccionado el audio entra en estado suspendido.[CR][Desactivado] La salida de audio entra en estado suspendido. Nota: Pueden perderse fragmentos audio si el audio entra en estado suspendido."
+
 msgctxt "#34112"
 msgid "Send low volume noise"
 msgstr "Enviar ruido de bajo volumen"
 
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Para mantener ciertos AVRs encendidos, enviamos una señal de ruido aleatoria inaudible. Puede desactivar esta opción si está utilizando auriculares o salida analógica."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
-msgstr "Reproducir sonidos de la interfaz de usuario"
+msgstr "Sonidos de la interfaz de usuario"
 
 msgctxt "#34121"
 msgid "Only when playback stopped"
@@ -12369,6 +12433,10 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Error al iniciar Zeroconf"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "¿Está instalado el servicio Bonjour de Apple? Compruebe el registro para obtener más información acerca de este mensaje."
+
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
 msgstr "Error al iniciar AirPlay, ya que requiere que Zeroconf esté habilitado."
@@ -12380,6 +12448,10 @@ msgstr "No se puede detener Zeroconf. AirPlay y AirTunes dependen del funcionami
 msgctxt "#34400"
 msgid "Video rendering"
 msgstr "Renderizado de video"
+
+msgctxt "#34401"
+msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
+msgstr "Error al inicializar filtros / escaladores de video, se usará el escalado bilineal"
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
@@ -12457,6 +12529,14 @@ msgctxt "#35011"
 msgid "New controller detected"
 msgstr "Nuevo controlador detectado"
 
+msgctxt "#35012"
+msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
+msgstr "Se ha detectado un nuevo controlador. La configuración se puede hacer en cualquier momento en \"Configuración -> Ajustes del sistema -> Entrada\". ¿Desea hacerlo ahora?"
+
+msgctxt "#35013"
+msgid "Fix skipping"
+msgstr "Arreglar salteo"
+
 msgctxt "#35015"
 msgid "Button %d"
 msgstr "Botón %d"
@@ -12513,9 +12593,25 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Aparee sus controladores con los diferentes dispositivos de entrada de los diferentes sistemas de juego."
 
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr "Botones frontales"
+
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr "Botones laterales"
+
 msgctxt "#35076"
 msgid "Triggers"
 msgstr "Disparadores"
+
+msgctxt "#35078"
+msgid "Left stick deadzone"
+msgstr "Zona muerta a la izquierda de la palanca"
+
+msgctxt "#35079"
+msgid "Right stick deadzone"
+msgstr "Zona muerta a la derecha de la palance"
 
 msgctxt "#35088"
 msgid "Power off controllers on exit"
@@ -12769,6 +12865,14 @@ msgctxt "#36046"
 msgid "Force AVR to wake up when Kodi is activated"
 msgstr "Obligar al AVR a despertarse cuando Kodi esté activado"
 
+msgctxt "#36099"
+msgid "Dithering"
+msgstr "Difuminado"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "Profundidad de difuminado"
+
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
 msgstr "Cambiar la apariencia de la interfaz de usuario."
@@ -12841,9 +12945,33 @@ msgctxt "#36118"
 msgid "Select your current timezone."
 msgstr "Seleccione su huso horario actual."
 
+msgctxt "#36119"
+msgid "Defaults to the selected audio language if more than one language is available."
+msgstr "Usa como predeterminado el idioma de audio seleccionado si hay más de un idioma disponible."
+
+msgctxt "#36120"
+msgid "Defaults to the selected subtitle language if more than one language is available."
+msgstr "USa como predeterminado el idioma de subtítulos seleccionado si hay más de un idioma disponible."
+
+msgctxt "#36121"
+msgid "This category contains the settings for how media lists are displayed."
+msgstr "Esta categoría contiene la configuración de cómo se muestran las listas de medios."
+
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
 msgstr "Muestra el ítem (..) en los listados para llegar al directorio superior."
+
+msgctxt "#36123"
+msgid "Show file extensions on media files, for example \"You Enjoy Myself\" would be shown as \"You Enjoy Myself.mp3\"."
+msgstr "Mostrar extensiones de archivos en archivos multimedia, por ejemplo, \"You Enjoy Myself\" se mostraría como \"You Enjoy Myself.mp3\"."
+
+msgctxt "#36124"
+msgid "Ignore certain tokens, e.g. \"The\", during sort operations. \"The Simpsons\" would for example be sorted as \"Simpsons\"."
+msgstr "Ignorar ciertas palabras, ej. \"El\", durante las operaciones de ordenado. Por ejemplo \"Los Simpson\", se ordenaría como \"Simpsons\"."
+
+msgctxt "#36125"
+msgid "Allow files to be deleted and renamed through the user interface, via the context menu, e.g. press \"C\" on a keyboard to bring up this menu."
+msgstr "Permitir que los archivos sean eliminados y renombrados mediante la interfaz de usuario, usando el menú contextual, ej. Presione \"C\" en un teclado para abrir este menú."
 
 msgctxt "#36126"
 msgid "Show the add source button in root sections of the user interface."
@@ -12853,9 +12981,29 @@ msgctxt "#36127"
 msgid "Show hidden files and directories when listing files."
 msgstr "Mostrar archivos ocultos al mostrar listados de archivos."
 
+msgctxt "#36128"
+msgid "This category contains the settings for how the screensaver add-ons are handled."
+msgstr "Esta categoría contiene la configuración de cómo se manejan los add-ons del protector de pantalla."
+
+msgctxt "#36129"
+msgid "Set the time to wait for any activity to occur before displaying the screensaver."
+msgstr "Establecer el tiempo de espera para que se produzca cualquier actividad antes de mostrar el protector de pantalla."
+
+msgctxt "#36130"
+msgid "Select the screensaver. The \"Dim\" screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
+msgstr "Seleccione el protector de pantalla. El protector de pantalla \"Dim\" será forzado cuando la reproducción de vídeo en pantalla completa esté en pausa o una caja de diálogo esté activa."
+
+msgctxt "#36131"
+msgid "Select to change the screensaver specific settings. Which options are available for configuration depends on the features provided by the screensaver add-on."
+msgstr "Seleccione esta opción para cambiar ajustes específicos del protector de pantalla. Las opciones disponibles para la configuración dependen de las características provistas por el add-on del protector de pantalla."
+
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "Vista previa del protector de pantalla seleccionado."
+
+msgctxt "#36133"
+msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+msgstr "Si se está reproduciendo música, se iniciará la visualización seleccionada en lugar de mostrar el protector de pantalla."
 
 msgctxt "#36135"
 msgid "No info available yet."
@@ -12896,6 +13044,10 @@ msgstr "Cuando se agregan medios a la biblioteca, descargar tambien miniaturas d
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "Elija en que casos desea ocultar las temporadas de las series de TV.  si se oculta, cuando se elije una serie de TV\nsalta directo a la vista de episodios"
+
+msgctxt "#36145"
+msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have it's own entry in the movie library even if it belongs to a set."
+msgstr "Cuando está activa, las películas pertenecientes a un \"Set\" de películas se agrupan bajo una única entrada para el set en la Colección de películas, esta entrada puede abrirse para mostrar las películas individuales. Cuando está iactiva, cada película tendrá su propia entrada en la colección de películas, incluso si pertenece a un set."
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -12997,6 +13149,10 @@ msgctxt "#36175"
 msgid "Scale teletext to 4:3 ratio."
 msgstr "Escalar el teletexto a relación 4:3"
 
+msgctxt "#36176"
+msgid "This category contains the settings for how video file lists are handled."
+msgstr "Esta categoría contiene la configuración de cómo se manejan las listas de archivos de vídeo."
+
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
 msgstr "Extraer miniaturas y meta-información, tales como codecs y relación de aspecto de los videos."
@@ -13005,9 +13161,21 @@ msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
 msgstr "Cuando un fichero sea agregado a la Colección, mostrará el título contenido en los metadatos en lugar del nombre de archivo."
 
+msgctxt "#36180"
+msgid "Extract thumbnails and information, such as codecs and aspect ratio, to display in library mode."
+msgstr "Extraer miniaturas e información, como codecs y relación de aspecto, para mostrar en modo de biblioteca."
+
 msgctxt "#36181"
 msgid "No info available yet."
 msgstr "Aún no hay información disponible."
+
+msgctxt "#36184"
+msgid "This category contains the settings for how subtitles are handled."
+msgstr "Esta categoría contiene la configuración de cómo se manejan los subtítulos."
+
+msgctxt "#36185"
+msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+msgstr "Establezca la tipografía que se utilizará para los subtítulos basados en texto (usualmente descargados)."
 
 msgctxt "#36186"
 msgid "Set the font size to be used for subtitles."
@@ -13037,6 +13205,10 @@ msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "Posición de los subtítulos en la pantalla."
 
+msgctxt "#36193"
+msgid "This category contains the settings for how DVD's, Blu-ray, & CD's are handled."
+msgstr "Esta categoría contiene la configuración de cómo se manejan los discos DVD, Blu-ray y CD."
+
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
 msgstr "Reproducir video de un DVD automáticamente cuando es colocado en el lector."
@@ -13053,9 +13225,25 @@ msgctxt "#36197"
 msgid "No info available yet."
 msgstr "Aún no hay información disponible."
 
+msgctxt "#36198"
+msgid "Select the default movie information source. See the add-ons manager for options."
+msgstr "Seleccione la fuente de información de película predeterminada. Consulte el administrador de add-ons para ver las opciones."
+
+msgctxt "#36199"
+msgid "Select the default TV show information source. See the add-ons manager for options."
+msgstr "Seleccione la fuente de información de la programación de TV predeterminada. Consulte el administrador de add-ons para ver las opciones."
+
+msgctxt "#36200"
+msgid "Select the default music videos information source. See the add-ons manager for options."
+msgstr "Seleccione la fuente de información de videos musicales predeterminada. Consulte el administrador de add-ons para ver las opciones."
+
 msgctxt "#36201"
 msgid "Settings for PVR & Live TV."
 msgstr "Ajustes para PVR y TV en vivo."
+
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR & Live TV."
+msgstr "Esta categoría contiene los ajustes generales para el PVR & TV en vivo."
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
@@ -13277,6 +13465,10 @@ msgctxt "#36304"
 msgid "Section that contains settings related to pictures and how they are handled."
 msgstr "Sección que contiene ajustes relacionados con las imágenes y la forma en que se manejan."
 
+msgctxt "#36305"
+msgid "This category contains the settings for how picture file lists are handled."
+msgstr "Esta categoría contiene la configuración de cómo se manejan las listas de archivos de imagen."
+
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Generar miniaturas automáticamente cuando se entre en una carpeta de imágenes."
@@ -13291,7 +13483,7 @@ msgstr "Aún no hay información disponible."
 
 msgctxt "#36311"
 msgid "This category contains the settings for how the picture slideshow is handled."
-msgstr "Configuración  para vistas de imagenes"
+msgstr "Configuración  para vistas de imágenes"
 
 msgctxt "#36312"
 msgid "Select the amount of time that each image is displayed in a slideshow."
@@ -13309,9 +13501,17 @@ msgctxt "#36315"
 msgid "Section that contains weather related settings."
 msgstr "Sección que contiene la configuración relacionada con el clima."
 
+msgctxt "#36316"
+msgid "This category contains the settings for how the weather service is handled."
+msgstr "Esta categoría contiene los ajustes de cómo se maneja el servicio de info meteorológica."
+
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "Seleccione hasta tres ubicaciones para las cuales mostrar el clima."
+
+msgctxt "#36318"
+msgid "Specify the default weather information source. See the add-ons manager for options."
+msgstr "Especifique el origen de información meteorológica predeterminado. Consulte el administrador de add-ons para ver las opciones."
 
 msgctxt "#36319"
 msgid "Section containing settings for how services are handled."
@@ -13345,6 +13545,10 @@ msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control it's playback."
 msgstr "Habilita el punto de control UPnP. Esto permite transmitir los medios a cualquier cliente UPnP y controlar la reproducción ."
 
+msgctxt "#36327"
+msgid "This category contains the settings for how the web server service and the application control service is handled."
+msgstr "Esta categoría contiene la configuración de cómo se manejan el servicio del servidor web y el servicio de control de aplicaciones."
+
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server."
 msgstr "Habilita a usuarios remotos a controlar esta aplicacion via el servidor wen interno"
@@ -13371,7 +13575,7 @@ msgstr "Esta categoría contiene los ajustes de cómo se maneja el servicio de c
 
 msgctxt "#36334"
 msgid "Allow programs on this computer to control this application via the web interface or the JSON-RPC interface protocol."
-msgstr "Permite que otros programas controlen la aplicacion via interface web o protocolo JSON-RPC"
+msgstr "Permite que otros programas controlen la aplicación via interface web o protocolo JSON-RPC"
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -13429,6 +13633,18 @@ msgctxt "#36348"
 msgid "If a WINS server is running on the network, enter its workgroup name here. Otherwise, leave blank."
 msgstr "Si un servidor WINS se está ejecutando en la red, escriba el nombre de grupo de trabajo aquí. De lo contrario, déjelo en blanco."
 
+msgctxt "#36349"
+msgid "Section that contains the system related settings for the device this application is installed on."
+msgstr "Sección que contiene los ajustes relacionados con el sistema del dispositivo en el que está instalada esta aplicación."
+
+msgctxt "#36350"
+msgid "Automatically send Wake-on-LAN to server(s) right before trying to access shared files or services."
+msgstr "Envía automáticamente Wake-on-LAN a los servidores antes de intentar acceder a archivos o servicios compartidos."
+
+msgctxt "#36351"
+msgid "Changes the way this application is displayed on the selected screen. Either in a window or fullscreen."
+msgstr "Cambia la forma en que se muestra esta aplicación en la pantalla seleccionada. Ya sea en una ventana o a pantalla completa."
+
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
 msgstr "Cambia la resolución de la interfaz de usuario."
@@ -13436,6 +13652,14 @@ msgstr "Cambia la resolución de la interfaz de usuario."
 msgctxt "#36353"
 msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Cambia la frecuencia de refresco de la interfaz de usuario."
+
+msgctxt "#36354"
+msgid "If enabled, fullscreen mode will be applied by using a window instead of a real fullscreen mode. The main benefit is for multi-screen configurations, so that other applications can be used in parallel more easily. This uses more resources so playback may be less smooth."
+msgstr "Si está activo, el modo de pantalla completa se aplicará usando una ventana en lugar de un modo de pantalla completa real. El principal beneficio es para las configuraciones de pantalla múltiple, por lo que otras aplicaciones se pueden utilizar en paralelo más fácilmente. Utiliza más recursos por lo que la reproducción puede ser menos fluída."
+
+msgctxt "#36355"
+msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
+msgstr "En una configuración de múltiples pantallas, las pantallas que no muestren esta aplicación se pondrán en negro."
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -13505,6 +13729,10 @@ msgctxt "#36378"
 msgid "Use a joystick to control the interface."
 msgstr "Use un joystick para controlar la interfaz."
 
+msgctxt "#36379"
+msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
+msgstr "Esta categoría contiene los ajustes de cómo se maneja el acceso a Internet. También se puede seleccionar aquí la interfaz web predeterminada."
+
 msgctxt "#36380"
 msgid "If your Internet connection uses a proxy server, configure it here."
 msgstr "Si su conexión a Internet utiliza un servidor proxy, configúrelo aquí."
@@ -13529,9 +13757,13 @@ msgctxt "#36385"
 msgid "Configure the proxy server password."
 msgstr "Configurar la contraseña del servidor proxy."
 
+msgctxt "#36386"
+msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
+msgstr "Si su conexión a Internet tiene ancho de banda limitado, use este ajuste para mantener el uso de ancho de banda de esta aplicacion den límites definidos."
+
 msgctxt "#36387"
 msgid "This category contains the settings for power saving."
-msgstr "Esta categoría que contiene la configuración de ahorro de energía."
+msgstr "Esta categoría contiene la configuración de ahorro de energía."
 
 msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
@@ -13937,6 +14169,14 @@ msgctxt "#36597"
 msgid "%1.2f"
 msgstr "%1.2f"
 
+msgctxt "#36600"
+msgid "This category contains the settings for how the music library is handled."
+msgstr "Esta categoría contiene los ajustes sobre cómo se maneja la colección de música."
+
+msgctxt "#36601"
+msgid "This category contains the settings for how music file lists are handled."
+msgstr "Esta categoría contiene los ajustes sobre cómo se manejarán las listas de archivos de música."
+
 msgctxt "#36602"
 msgid "This category contains the settings for how the AirPlay service is handled."
 msgstr "Esta categoría contiene los ajustes de cómo se maneja el servicio AirPlay."
@@ -14173,17 +14413,37 @@ msgctxt "#37032"
 msgid "Accessibility"
 msgstr "Accesibilidad"
 
+msgctxt "#37033"
+msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+msgstr "Ajustes de accesibilidad relacionados a la reproducción de video, por ejemplo \"Preferir subtítulos para personas con dificultades auditivas\"."
+
+msgctxt "#37034"
+msgid "Prefer audio stream for the visually impaired"
+msgstr "Preferir secuencias de audio para personas con dificultades visuales"
+
+msgctxt "#37035"
+msgid "Prefer the audio stream for the visually impaired to other audio streams of the same language"
+msgstr "Preferir una secuencia de audio para personas con dificultades visuales antes que otras secuencias de audio del mismo idioma"
+
 msgctxt "#37036"
 msgid "Prefer audio stream for the hearing impaired"
-msgstr "Preferir la secuencia de audio para quienes posen problemas de audición"
+msgstr "Preferir secuencias de audio para personas con dificultades auditivas"
+
+msgctxt "#37037"
+msgid "Prefer the audio stream for the hearing impaired to other audio streams of the same language"
+msgstr "Preferir una secuencia de audio para personas con dificultades auditivas antes que otras secuencias de audio del mismo idioma"
 
 msgctxt "#37038"
 msgid "Prefer subtitles for the hearing impaired"
-msgstr "Prefiere subtítulos para las personas con discapacidad auditiva"
+msgstr "Prefiere subtítulos para las personas con dificultades auditivas"
+
+msgctxt "#37039"
+msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
+msgstr "Preferir una secuencia de subtítulos para personas con dificultades auditivas antes que otras secuencias de audio del mismo idioma"
 
 msgctxt "#37040"
 msgid "Prefer default audio streams"
-msgstr "Preferir secuencias de audio predeterminados"
+msgstr "Preferir secuencias de audio predeterminadas"
 
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
@@ -14351,7 +14611,7 @@ msgstr "Esta categoría contiene los ajustes para la reproducción de música"
 
 msgctxt "#38105"
 msgid "This category contains the settings for playback of pictures via a slideshow"
-msgstr "Esta categoría contiene los ajustes para la reproducción de imágenes a través de una presentación de diapositivas"
+msgstr "Esta categoría contiene los ajustes para la reproducción de imágenes mediante una presentación de diapositivas"
 
 msgctxt "#38106"
 msgid "This category contains the settings for audio & subtitle language"
@@ -14399,15 +14659,15 @@ msgstr "Esta categoría proporciona acceso a las ventanas para la administració
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
-msgstr "Esto proporciona acceso a dónde se pueden agregar y administrar fuentes de vídeo."
+msgstr "Acceso a agregar, etc. fuentes de vídeo."
 
 msgctxt "#39006"
 msgid "This provides access to where music sources can be added and otherwise managed."
-msgstr "Esto proporciona acceso a fuentes de música donde se pueden agregar y gestionar de otra manera."
+msgstr "Acceso a agregar, etc. fuentes de música."
 
 msgctxt "#39007"
 msgid "This provides access to where picture sources can be added and otherwise managed."
-msgstr "Esto proporciona acceso a dónde se pueden agregar fuentes de imágenes y gestionarlas de otra manera."
+msgstr "Acceso a agregar, etc. fuentes de imágenes."
 
 msgctxt "#39008"
 msgid "Zoom - 120% width"

@@ -1839,7 +1839,7 @@ msgstr "Celková rezerva zvuku"
 
 msgctxt "#495"
 msgid "Upscale videos to GUI resolution"
-msgstr "Škálovat video na rozlišení uživatelského rozhraní"
+msgstr "Škálovat video nahoru na rozlišení uživatelského rozhraní"
 
 msgctxt "#496"
 msgid "Calibration"
@@ -4555,7 +4555,7 @@ msgstr "Chcete ponechat tuto změnu?"
 
 msgctxt "#13112"
 msgid "High quality upscaling"
-msgstr "Vysoce kvalitní přepočet obrazu"
+msgstr "Vysoce kvalitní škálování nahoru"
 
 msgctxt "#13113"
 msgid "Disabled"
@@ -4571,7 +4571,7 @@ msgstr "Vždy povoleno"
 
 msgctxt "#13116"
 msgid "Upscaling method"
-msgstr "Metoda přepočtu"
+msgstr "Metoda škálování nahoru"
 
 msgctxt "#13117"
 msgid "Bicubic"
@@ -5271,7 +5271,7 @@ msgstr "Přehrát pouze toto"
 
 msgctxt "#13435"
 msgid "Enable HQ scalers for scaling above"
-msgstr "Povolit HQ přepočty pro výše uvedené změny velikosti"
+msgstr "Povolit vysoce kvalitní škálovače pro výše uvedené škálování"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -7048,6 +7048,10 @@ msgstr "Časová osa"
 msgctxt "#19033"
 msgid "Information"
 msgstr "Informace"
+
+msgctxt "#19034"
+msgid "There is already a timer set for this event"
+msgstr "Pro tuto událost je již časovač nastaven"
 
 msgctxt "#19035"
 msgid "%s couldn't be played. Check the log for more information about this message."
@@ -12361,6 +12365,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "Vyberte chování, když není vyžadován žádný zvuk buď pro přehrávání, nebo pro zvuky grafického rozhraní. [CR][Vždy] - Výstupem je nepřetržitý neslyšitelný signál, což udržuje přijímací zvukové zařízení aktivní pro jakékoliv nové zvuky, ale může to také blokovat zvuk z jiných aplikací.[CR][1-10 minut] Stejné jako [Vždy], kromě to že po vybraném časovém intervalu zvukový výstup přejde do úsporného režimu.[CR][Vypnuto] Zvukový výstup přejde do úsporného režimu. Poznámka: Může dojít ke ztrátě zvuků, pokud zvukový výstup přejde do úsporného režimu."
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Odesílat tichý šum"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Aby zůstaly určité AV přijímače zapnuté, odesíláme neslyšitelný náhodný signál šumu. Pokud používáte sluchátka nebo analogový výstup, můžete toto nastavení zakázat."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Přehrávat zvuky grafického rozhraní"
@@ -12427,7 +12439,7 @@ msgstr "Vykreslování videa"
 
 msgctxt "#34401"
 msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
-msgstr "Nepodařilo se inicializovat filtry / přepočty, návrat k bilineární změně velikosti"
+msgstr "Nepodařilo se inicializovat filtry nebo škálovače videa, návrat k bilineárnímu škálování"
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
@@ -12513,6 +12525,10 @@ msgctxt "#35013"
 msgid "Fix skipping"
 msgstr "Opravit přeskakování"
 
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
+msgstr "Některé ovladače mají tlačítka a osy, které kolidují s mapováním. Stiskněte nyní tyto pro jejich zakázání:[CR]%s"
+
 msgctxt "#35015"
 msgid "Button %d"
 msgstr "Tlačítko %d"
@@ -12524,6 +12540,10 @@ msgstr "Osa %d"
 msgctxt "#35017"
 msgid "Unable to configure controllers"
 msgstr "Nelze konfigurovat ovladače"
+
+msgctxt "#35018"
+msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
+msgstr "Konfigurace ovladače závisí na zakázaném doplňku. Chcete ho povolit?"
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -12540,6 +12560,10 @@ msgstr "Testovat hlučnost"
 msgctxt "#35052"
 msgid "Activate the rumble motors of all controllers."
 msgstr "Aktivovat hlučné motory všech herních ovladačů."
+
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Použijte klávesnici nebo dálkové ovládání pro výběr profilu ovladače. Po výzvě stiskněte na herním ovladači tlačítko, které nejlépe odpovídá tomu, co vidíte na obrazovce. Pokud uděláte chybu, můžete proces opakovat."
 
 msgctxt "#35058"
 msgid "Controller Configuration"
@@ -12565,9 +12589,25 @@ msgctxt "#35063"
 msgid "Configure attached controllers"
 msgstr "Konfigurovat připojená herní zařízení"
 
+msgctxt "#35064"
+msgid "Pair your controllers with the various input devices of different game systems."
+msgstr "Spárujte své ovladače s různými vstupními zařízeními různých herních systémů."
+
 msgctxt "#35076"
 msgid "Triggers"
 msgstr "Přepínače"
+
+msgctxt "#35077"
+msgid "Analog sticks"
+msgstr "Analogové páčky"
+
+msgctxt "#35078"
+msgid "Left stick deadzone"
+msgstr "Mrtvá zóna levé páčky"
+
+msgctxt "#35079"
+msgid "Right stick deadzone"
+msgstr "Mrtvá zóna pravé páčky"
 
 msgctxt "#35088"
 msgid "Power off controllers on exit"
@@ -12624,6 +12664,18 @@ msgstr "Povolit podporu joysticku a gamepadu"
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Zakázat joystick, když je přítomno toto zařízení"
+
+msgctxt "#35505"
+msgid "Server is unreachable."
+msgstr "Server je nedostupný."
+
+msgctxt "#35506"
+msgid "Server does not respond properly."
+msgstr "Server neodpovídá správně."
+
+msgctxt "#35507"
+msgid "Server version is not compatible."
+msgstr "Verze serveru není kompatibilní."
 
 msgctxt "#35508"
 msgid "Access denied."
@@ -12792,6 +12844,10 @@ msgstr "* Složka položky"
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Použít omezený barevný rozsah (16-235)"
+
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "Počet vyrovnávacích pamětí použitých grafickým ovladačem"
 
 msgctxt "#36044"
 msgid "Stop Playback"
@@ -13025,6 +13081,10 @@ msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Upravte metodu používanou pro zpracování a zobrazení videa."
 
+msgctxt "#36154"
+msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
+msgstr "Při škálování videa alespoň o toto procento používat vysoce kvalitní škálovače. Hodnota pod 5 % nemá moc smysl, protože video je zpracováno s vysokým zatížením grafického procesoru bez viditelných zlepšení kvality obrazu."
+
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Povolit hardwarové dekódování VDPAU pro soubory videa, hlavně používáno pro grafiky NVIDIA a v některých případech pro grafiky AMD."
@@ -13064,6 +13124,10 @@ msgstr "Umožní změnu obnovovací frekvence obrazovky tak, aby nejlépe odpov�
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
 msgstr "Zpoždění události obnovení po změně obnovovací frekvence"
+
+msgctxt "#36166"
+msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgstr "Synchronizovat video a zvuk k obnovovací frekvenci monitoru. VideoPlayer nebude v tomto případě používat průchod zvuku, protože může být vyžadováno převzorkování."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -13408,6 +13472,10 @@ msgstr "Sekce, která obsahuje nastavení související s hudebními soubory a j
 msgctxt "#36254"
 msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
 msgstr "Akce, kterou provést při stisknutí tlačítka nahrávání. [Nahrávat aktuální pořad] nahraje aktuální pořad od „nyní“ do konce pořadu. Pokud není aktuálně dostupný televizní program, bude naplánováno nahrávání s pevnou délkou začínající „nyní“ s hodnotou nastavenou pro „Doba trvání okamžitého nahrávání“. [Nahrávat pevný časový úsek] naplánuje nahrávání s pevnou délkou začínající „nyní“ s hodnotou nastavenou pro „Doba trvání okamžitého nahrávání“. [Zeptat se, co dělat] otevře dialogové okno obsahující různé akce nahrávání, ze kterých můžete vybrat, jako jsou „Nahrávat aktuální pořad“, „Nahrávat následující pořad“ a některá nahrávání s pevnou délkou."
+
+msgctxt "#36255"
+msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
+msgstr "Když je povoleno, jsou zobrazeni jak interpreti skladby, tak alba. Když je zakázáno, jsou zobrazeni pouze interpreti alba a interpreti, kteří se objevují pouze u jednotlivých skladeb z alba, jsou vyloučeny."
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
@@ -14047,7 +14115,7 @@ msgstr "Vyberte toto, pokud je připojeno zvukové zařízení podporující pou
 
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
-msgstr "Konfigurujte, jak je akcelerováno zpracování videa. Toto zahrnuje věci, jako je dekódování a změna velikosti obrazu."
+msgstr "Konfigurujte, jak je akcelerováno zpracování videa. Toto zahrnuje věci, jako je dekódování a škálování."
 
 msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
@@ -14064,6 +14132,10 @@ msgstr "Když je povolen, je upřednostňována metoda vykreslení VAAPI a proce
 msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
 msgstr "Povolit hardwarovou akceleraci - MMAL"
+
+msgctxt "#36435"
+msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
+msgstr "Použít VideoPlayer pro dekódování souborů videa s akcelerací MMAL."
 
 msgctxt "#36436"
 msgid "Audio DSP manager..."
@@ -14265,6 +14337,10 @@ msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
 msgstr "Definuje sílu efektu stereoskopického 3D v grafickém rozhraní. To je prováděno řízením hloubky vnímání v grafickém rozhraní, takže čím vyšší hodnota, tím více prvky vykukují z obrazovky. [Nula] Zakáže efekt stereoskopického 3D grafického rozhraní. [CR] Pro dobrý zážitek by měla být hodnota vyšší pro malé obrazovky a nižší pro velké obrazovky. Poznámka: Toto není podporováno všemi vzhledy."
 
+msgctxt "#36552"
+msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
+msgstr "Definuje počet prezentačních vyrovnávacích pamětí používaných grafickým ovladačem. Vyberte 2, pokud ovladač používá dvojité ukládání do vyrovnávací paměti, nebo 3 pro trojité ukládání do vyrovnávací paměti."
+
 msgctxt "#36560"
 msgid "Colour management"
 msgstr "Správa barev"
@@ -14281,9 +14357,21 @@ msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "Profil zobrazení ICC"
 
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "Poskytnutím profilu zobrazení můžete upravit parametry videa, jako je gama, primární hodnoty barvy a bílý bod během přehrávání. Zdrojový profi ICC je vytvořen na základě parametrů a propojen s profilem zobrazení ICC zde nastaveným. Tato podpora je experimentální a postrádá úpravy téměř černé k nativní černé displeje (způsobující zvýšenou úroveň černé) a škálování úrovně bílé, když je vybrán jiný bílý bod než nativní displeje (jako řešení snižte jas videa, aby se zabránilo přepalům)."
+
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Bílý bod"
+
+msgctxt "#36570"
+msgid "Primaries"
+msgstr "Primární hodnoty"
+
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "Vyberte souřadnice primární hodnoty barvy podle zdrojového materiálu. Starší materiál ve vysokém rozlišení může být upraven na monitorech s primárními hodnotami BT.601."
 
 msgctxt "#36572"
 msgid "Gamma mode"
@@ -14369,6 +14457,14 @@ msgctxt "#36597"
 msgid "%1.2f"
 msgstr "%1.2f"
 
+msgctxt "#36598"
+msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
+msgstr "Eliminovat pruhy způsobené převodem úrovně RGB nebo jiným zpracováním přidáním malého množství šumu do obrazu. Toto může být zakázáno pro pomalejší systémy, nebo když je Kodi nastaveno na omezený rozsah výstupu RGB a není potřeba žádné zpracování videa."
+
+msgctxt "#36599"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "Přesnost výstupu tónování videa v bitech. Použijte nejvyšší nastavení, které nevykazuje pruhy. Pro většinu systémů je doporučena výchozí hodnota 8. Pokud je váš grafický procesor nastaven na škálování výstupních úrovní RGB nebo používáte obrazovku přenosného počítače, nastavení 7 nebo 6 bitů může eliminovat více pruhů. Nižší nastavení jsou dostupná pouze pro testovací účely, aby bylo snadněji zjistitelné, zda je použito tónování a že velikost pixelu šumu tónování odpovídá rozlišení displeje."
+
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
 msgstr "Tato kategorie obsahuje nastavení jak zacházet s knihovnou hudby."
@@ -14443,7 +14539,11 @@ msgstr "Doplňkům bude umožněn přístup k osobním datům uloženým na tomt
 
 msgctxt "#36619"
 msgid "High quality downscaling"
-msgstr "Vysoce kvalitní přepočet obrazu"
+msgstr "Vysoce kvalitní škálování dolů"
+
+msgctxt "#36620"
+msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
+msgstr "Povolit vysoce kvalitní škálování obrázků dolů (používá více paměti a má mírný vliv na výkon)."
 
 msgctxt "#36900"
 msgid "movie"
@@ -14801,6 +14901,10 @@ msgctxt "#38060"
 msgid "Music library needs to rescan tags from files. Would you like to scan now?"
 msgstr "Hudební knihovna potřebuje prohledat znovu tagy ze souborů. Chcete prohledat nyní?"
 
+msgctxt "#38061"
+msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
+msgstr "Načíst dodatečné informace pro alba a interprety? Může to nějakou dobu trvat, takže to možná budete chtít udělat později"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sekce, která obsahuje nastavení související s obrázky a jak je s nimi zacházeno."
@@ -14864,6 +14968,22 @@ msgstr "Akcelerovat MPEG4"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Akcelerovat h264"
+
+msgctxt "#39004"
+msgid "This category contains provides access to the windows for source management and the Library settings for the databases"
+msgstr "Tato kategorie poskytuje přístup do oken pro správu zdrojů a nastavení knihovny pro databáze"
+
+msgctxt "#39005"
+msgid "This provides access to where video sources can be added and otherwise managed."
+msgstr "Toto poskytuje přístup tam, kam mohou být přidány a jinak spravovány zdroje videí."
+
+msgctxt "#39006"
+msgid "This provides access to where music sources can be added and otherwise managed."
+msgstr "Toto poskytuje přístup tam, kam mohou být přidány a jinak spravovány zdroje hudby."
+
+msgctxt "#39007"
+msgid "This provides access to where picture sources can be added and otherwise managed."
+msgstr "Toto poskytuje přístup tam, kam mohou být přidány a jinak spravovány zdroje obrázků."
 
 msgctxt "#39008"
 msgid "Zoom - 120% width"
