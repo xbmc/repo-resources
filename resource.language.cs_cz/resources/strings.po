@@ -1747,7 +1747,7 @@ msgstr "Kontrast"
 
 msgctxt "#466"
 msgid "Gamma"
-msgstr "Gama"
+msgstr "Gamma"
 
 msgctxt "#467"
 msgid "Type"
@@ -1871,7 +1871,7 @@ msgstr "Otevřena"
 
 msgctxt "#503"
 msgid "Busy"
-msgstr "Zaneprázdněna"
+msgstr "Zaneprázdněno"
 
 msgctxt "#504"
 msgid "Empty"
@@ -5055,7 +5055,7 @@ msgstr "Výchozí kontrast"
 
 msgctxt "#13380"
 msgid "Default gamma"
-msgstr "Výchozí gama"
+msgstr "Výchozí gamma"
 
 msgctxt "#13381"
 msgid "Resume video"
@@ -5400,6 +5400,10 @@ msgstr "Přidat obrázek"
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Mezní hodnota pro korekci výšky"
+
+msgctxt "#13518"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "Když změna rychlosti překročí tento práh, bude použit filtr korekce výšky. Tím se zabrání „šmoulím hlasům“, které za normálních okolností vyplývají ze zrychlení videa"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -7395,7 +7399,7 @@ msgstr "Počet klientů"
 
 msgctxt "#19121"
 msgid "Avoid repeats"
-msgstr "Vyhnout se opakování"
+msgstr "Zabránit opakováním"
 
 msgctxt "#19122"
 msgid "This timer is still recording. Are you sure you want to delete this timer?"
@@ -9883,7 +9887,7 @@ msgstr "Zobrazovat kolekce filmů"
 
 msgctxt "#20459"
 msgid "Tags"
-msgstr "Tagy"
+msgstr "Štítky"
 
 msgctxt "#20460"
 msgid "Add %s"
@@ -9895,7 +9899,7 @@ msgstr "Odebrat %s"
 
 msgctxt "#20462"
 msgid "New tag..."
-msgstr "Nový tag..."
+msgstr "Nový štítek..."
 
 msgctxt "#20463"
 msgid "A tag with the name '%s' already exists."
@@ -11153,6 +11157,10 @@ msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
 msgstr "Tento doplněk nemůže být odinstalován"
 
+msgctxt "#24048"
+msgid "VideoPlayer InputStream"
+msgstr "InputStream VideoPlayeru"
+
 msgctxt "#24050"
 msgid "Available add-ons"
 msgstr "Dostupné doplňky"
@@ -11965,6 +11973,10 @@ msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
 msgstr "Pokud RDS vysílá dopravní hlášení, hlasitost je zvýšena"
 
+msgctxt "#29987"
+msgid "Remixers"
+msgstr "Remixeři"
+
 msgctxt "#29988"
 msgid "Arrangers"
 msgstr "Aranžmá"
@@ -11977,9 +11989,17 @@ msgctxt "#29990"
 msgid "Conductors"
 msgstr "Dirigenti"
 
+msgctxt "#29991"
+msgid "DJ Mixers"
+msgstr "DJ Mixeři"
+
 msgctxt "#29992"
 msgid "Lyricists"
 msgstr "Textaři"
+
+msgctxt "#29993"
+msgid "Orchestras"
+msgstr "Orchestry"
 
 msgctxt "#29994"
 msgid "Roles"
@@ -12521,10 +12541,6 @@ msgctxt "#35012"
 msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
 msgstr "Byl rozpoznán nový ovladač. Konfiguraci lze provést kdykoliv v „Nastavení → Nastavení systému → Vstup“. Chcete ho konfigurovat nyní?"
 
-msgctxt "#35013"
-msgid "Fix skipping"
-msgstr "Opravit přeskakování"
-
 msgctxt "#35014"
 msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
 msgstr "Některé ovladače mají tlačítka a osy, které kolidují s mapováním. Stiskněte nyní tyto pro jejich zakázání:[CR]%s"
@@ -12811,7 +12827,7 @@ msgstr "Tento uživatel nemá oprávnění pro otevření adaptéru CEC"
 
 msgctxt "#36032"
 msgid "The port is busy. Only one program can access the CEC adapter"
-msgstr "Tento port je zaneprázdněn. Pouze jeden program může přistupovat k adaptéru CEC"
+msgstr "Port je zaneprázdněn. K adaptéru CEC může přistupovat pouze jeden program"
 
 msgctxt "#36033"
 msgid "Action when switching to another source"
@@ -12936,10 +12952,6 @@ msgstr "Zvolí jazyk uživatelského rozhraní."
 msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "Vyberte formát pro teplotu, čas a datum. Dostupné možnosti závisí na vybraném jazyce."
-
-msgctxt "#36116"
-msgid "Choose which character set is used for displaying text in the user interface."
-msgstr "Zvolte, která znaková sada bude použita pro zobrazení textu v uživatelském rozhraní."
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -13881,6 +13893,10 @@ msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Vyberte maximální počet zvukových kanálů nebo reproduktorů dostupných pro dekódovaný zvuk. Pokud je použit optický nebo koaxiální digitální výstup, musí být toto nastaveno na 2.0"
 
+msgctxt "#36368"
+msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
+msgstr "Vyberte pro povolení průchodu zvuku pro přehrávání komprimovaného zvuku, jako je Dolby Digital (AC3), DTS atd. Klient AudioEngine, například Videoplayer, se může rozhodnout pro dekódování zvukové stopy za určitých podmínek. V případě Videoplayeru průchod nebude použit pro živé datové proudy a při synchronizaci přehrávání k displeji."
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Vyberte tuto volbu, pokud je váš přijímač schopný dekódovat stopy TrueHD."
@@ -14357,13 +14373,25 @@ msgctxt "#36560"
 msgid "Colour management"
 msgstr "Správa barev"
 
+msgctxt "#36561"
+msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
+msgstr "Reprodukovat barvy videa přesně pomocí profilu zobrazení nebo 3D vyhledávací tabulky."
+
 msgctxt "#36562"
 msgid "Colour management mode"
 msgstr "Režim správy barev"
 
+msgctxt "#36563"
+msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
+msgstr "Použít předem vypočítanou 3D vyhledávací tabulku pro korekci barev videa, nebo vypočítat transformaci pro každé video z profilu vašeho displeje. Předem vypočítaná 3D vyhledávací tabulka je upřednostňována, protože vám umožňuje využít výhod rozšířených funkcí a vysoké přesnosti v ArgyllCMS. Korekce na základě profilu zobrazení je užitečná pro testování různých parametrů nebo emulaci nastavení zobrazení, pro které nemáte připravenu 3D vyhledávací tabulku."
+
 msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D LUT"
+
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "Vyberte soubor 3DLUT, který bude použit ve výchozím nastavení. Pokud umístíte více souborů 3DLUT do stejného adresáře, pak mezi nimi můžete během přehrávání videa přepínat v nabídce OSD. To umožňuje více profilů zobrazení na účet pro různá prostředí zobrazení a zdrojové materiály, například gamma 2.2 pro sledování ve dne a 2.4 v noci."
 
 msgctxt "#36566"
 msgid "ICC display profile"
@@ -14377,6 +14405,10 @@ msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Bílý bod"
 
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "Změna bílého bodu videa na D93 se používá hlavně pro starší japonský materiál NTSC, který vypadá příliš červeně při přehrávání na displeji D65. Snižte hodnotu nastavení jasu videa, aby se zabránilo ořezání na nativní bílý bod displeje."
+
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Primární hodnoty"
@@ -14387,15 +14419,27 @@ msgstr "Vyberte souřadnice primární hodnoty barvy podle zdrojového materiál
 
 msgctxt "#36572"
 msgid "Gamma mode"
-msgstr "Režim gama"
+msgstr "Režim gamma"
+
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Vyberte vzorec křivky gamma. Použijte BT.1886 pro křivku gamma, která zodpovídá za zobrazení úrovní černé a bílé a zabraňuje vjemovému oříznutí. Použijte posun vstupu pro křivku podobnou ručně zadané efektivní gammě. Posun výstupu umožňuje vjemové oříznutí, ale může být použit ke kompenzaci nesprávného nastavení monitoru masteringu, které vede k příliš světlým tmavým detaily. Absolutní gama vůbec nezodpovídá za zobrazení černé a ořízne nejnižší úrovně pro zobrazení černé na jakémkoliv displeji s vyšší než nulovou úrovní černé."
 
 msgctxt "#36574"
 msgid "Gamma"
-msgstr "Gama"
+msgstr "Gamma"
+
+msgctxt "#36575"
+msgid "Gamma for selected gamma curve type. For input and output offset, the result at 50% will match an absolute gamma curve with this gamma value."
+msgstr "Gamma pro vybraný typ křivky gamma. Pro posun vstupu a výstupu bude výsledek ve výši 50 % odpovídat absolutní křivce gamma s touto hodnotou gamma."
 
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Velikost tabulky vyhledávání"
+
+msgctxt "#36577"
+msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
+msgstr "Zadejte rozlišení pro 3D vyhledávací tabulku. Použijte nižší rozlišení pro rychlý náhled a vyšší rozlišení pro přesnější obraz. Při použití vysokého rozlišení může trvat příprava několik sekund, když se změní parametry nebo je spuštěno nové video."
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14861,6 +14905,10 @@ msgctxt "#38029"
 msgid "Enable Full HD HDMI modes for stereoscopic 3D"
 msgstr "Povolit Full HD režimy HDMI pro stereoskopické 3D"
 
+msgctxt "#38030"
+msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
+msgstr "Tato možnost používá frame-packing pro výstup v plném rozlišení pro 3D přes HDMI.[CR]Povolením se zlepší kvalita videí MVC (MultiView Video Coding), ale nemusí být podporováno všemi displeji."
+
 msgctxt "#38031"
 msgid "Video stream"
 msgstr "Stopa videa"
@@ -14881,13 +14929,25 @@ msgctxt "#38035"
 msgid "Lyricist"
 msgstr "Textař"
 
+msgctxt "#38036"
+msgid "Remixer"
+msgstr "Remixer"
+
 msgctxt "#38037"
 msgid "Arranger"
 msgstr "Aranžmá"
 
+msgctxt "#38038"
+msgid "Engineer"
+msgstr "Technik"
+
 msgctxt "#38039"
 msgid "Producer"
 msgstr "Producent"
+
+msgctxt "#38040"
+msgid "DJMixer"
+msgstr "DJ Mixer"
 
 msgctxt "#38041"
 msgid "Mixer"

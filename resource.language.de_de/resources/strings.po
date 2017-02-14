@@ -719,7 +719,7 @@ msgstr "Handlungsübersicht"
 
 msgctxt "#204"
 msgid "Compilation"
-msgstr "Sampler"
+msgstr "Kompilation"
 
 msgctxt "#205"
 msgid "Votes"
@@ -1923,7 +1923,7 @@ msgstr "Ausführen in..."
 
 msgctxt "#521"
 msgid "Compilations"
-msgstr "Sampler"
+msgstr "Kompilationen"
 
 msgctxt "#522"
 msgid "Remove source"
@@ -12541,10 +12541,6 @@ msgctxt "#35012"
 msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
 msgstr "Ein neuer Controller wurde erkannt. Dieser kann jederzeit unter \"Einstellungen -> System-> Eingabe\" konfiguriert werden. Soll er jetzt konfiguriert werden?"
 
-msgctxt "#35013"
-msgid "Fix skipping"
-msgstr "Probleme beheben"
-
 msgctxt "#35014"
 msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
 msgstr "Manche Controller besitzen Tasten und Achsen die die Konfiguration der Tastenbelegung stören. Drücke diese jetzt um sie zu deaktivieren:[CR]%s"
@@ -12956,10 +12952,6 @@ msgstr "Auswahl der Sprache der Benutzeroberfläche."
 msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "Auswahl der Darstellung von Temperatur, Zeit und Datum. Die verfügbaren Optionen hängen von der ausgewählten Sprache ab."
-
-msgctxt "#36116"
-msgid "Choose which character set is used for displaying text in the user interface."
-msgstr "Auswahl des Zeichensatzes der Benutzeroberfläche."
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -14397,9 +14389,17 @@ msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D LUT"
 
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "Wähle die 3DLUT Datei die standardmäßig verwendet werden soll. Sind mehrere 3DLUT Dateien im selben Verzeichnis vorhanden, so kann zwischen diesen während der Wiedergabe im OSD-Menü gewechselt werden. Dies ermöglicht die Anpassung des Ausgabeprofils and das Ausgangsmaterial sowie die Umgebung, wie z.B. Gamma 2.2 bei Tageslicht und 2.4 bei Nacht."
+
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "ICC Anzeigeprofil"
+
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "Wird ein Anzeigeprofil bereitgestellt, so können Videoparameter wie Gamma, Primärfarben und Weißpunkt während der Wiedergabe angepasst werden. Basierend auf diesen Parametern wird ein ICC Quellprofil erstellt und mit dem hier definierten Anzeigeprofil verknüpft. Diese Funktion ist aktuell experimentell und hat noch Schwächen bei der Anpassung von beinahe Schwarzwerten zum Schwarzwert des Anzeigegeräts (verursacht erhöhten Schwarzwert) sowie bei der Verschiebung des Weißwertes, wenn der Weißpunkt von dem des Anzeigegeräts abweicht (zur Umgehung dieses Problems kann die Helligkeit des Videos heruntergesetzt werden)."
 
 msgctxt "#36568"
 msgid "Whitepoint"

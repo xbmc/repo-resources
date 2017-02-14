@@ -2805,6 +2805,10 @@ msgctxt "#1001"
 msgid "Unable to connect"
 msgstr "Nevar pieslēgties"
 
+msgctxt "#1002"
+msgid "The connection to the network location couldn't be established. This could be due to the network not being connected. Would you like to add it anyway?"
+msgstr "Nevar nodibināt pieslēgumu tīkla atrašanās vietai. Tas varētu būt saistīts ar to, ka tīkls nav pieslēgts. Vai tomēr vēlaties to pievienot? "
+
 msgctxt "#1006"
 msgid "IP address"
 msgstr "IP adrese"
@@ -4327,7 +4331,7 @@ msgstr "Aptumšoti ekrāni"
 
 msgctxt "#13140"
 msgid "Active connections detected!"
-msgstr "Atklāti aktīvi savienojumi!"
+msgstr "Atklāti aktīvi pieslēgumi!"
 
 msgctxt "#13144"
 msgid "Change Apple Remote mode?"
@@ -5163,7 +5167,7 @@ msgstr "Lai izmainītu tīkla uzstādījumus, nepieciešama pārstartēšana. Va
 
 msgctxt "#14041"
 msgid "Internet connection bandwidth limitation"
-msgstr "Interneta savienojuma caurlaidības ierobežošana"
+msgstr "Interneta pieslēguma caurlaidības ierobežošana"
 
 msgctxt "#14043"
 msgid "- Shutdown while playing"
@@ -5947,7 +5951,7 @@ msgstr "Rādīt signāla kvalitāti"
 
 msgctxt "#19038"
 msgid "Not supported by the PVR backend."
-msgstr "PVR aizmugursistēma neatbalsta."
+msgstr "PVR galasistēma neatbalsta."
 
 msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
@@ -6363,7 +6367,7 @@ msgstr "PVR pakalpojums"
 
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
-msgstr "Neviena no pieslēgtajām PVR aizmugursistēmām neatbalsta kanālu skenēšanu."
+msgstr "Neviena no pieslēgtajām PVR galasistēmām neatbalsta kanālu skenēšanu."
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -6427,7 +6431,7 @@ msgstr "Ievadiet jaunā kanāla nosaukumu"
 
 msgctxt "#19209"
 msgid "Kodi virtual backend"
-msgstr "Kodi virtuālā aizmugursistēma"
+msgstr "Kodi virtuālā galasistēma"
 
 msgctxt "#19210"
 msgid "Client"
@@ -6443,7 +6447,7 @@ msgstr "Šis saraksts satur izmaiņas"
 
 msgctxt "#19213"
 msgid "Select backend"
-msgstr "Atlasīt aizmugursistēmu"
+msgstr "Atlasīt galasistēmu"
 
 msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
@@ -6451,7 +6455,7 @@ msgstr "Ievadiet derīgu vietrādi URL jaunajam kanālam"
 
 msgctxt "#19215"
 msgid "The PVR backend does not support timers."
-msgstr "PVR aizmugursistēma neatbalsta taimerus."
+msgstr "PVR galasistēma neatbalsta taimerus."
 
 msgctxt "#19216"
 msgid "All radio channels"
@@ -6475,7 +6479,7 @@ msgstr "Kanāli no"
 
 msgctxt "#19221"
 msgid "Synchronise channel groups with backend(s)"
-msgstr "Sinhronizēt kanālu grupas ar aizmugursistēmu(ām)"
+msgstr "Sinhronizēt kanālu grupas ar galasistēmu(ām)"
 
 msgctxt "#19222"
 msgid "Guide"
@@ -6535,7 +6539,7 @@ msgstr "Labot taimeri"
 
 msgctxt "#19244"
 msgid "Backend idle time"
-msgstr "Aizmugursistēmas gaidīšanas laiks"
+msgstr "Galasistēmas gaidīšanas laiks"
 
 msgctxt "#19246"
 msgid "Wakeup before recording"
@@ -6596,6 +6600,10 @@ msgstr "Vecāku slēdzene"
 msgctxt "#19267"
 msgid "Parental locked:"
 msgstr "Vecāku slēdzene:"
+
+msgctxt "#19269"
+msgid "Disable \"Connection lost\" warnings"
+msgstr "Izslēgt brīdinājumus par pieslēguma pazušanu."
 
 msgctxt "#19270"
 msgid "Group Items"
@@ -8331,7 +8339,7 @@ msgstr "Labot"
 
 msgctxt "#21451"
 msgid "Internet connection required."
-msgstr "Nepieciešams interneta savienojums."
+msgstr "Nepieciešams interneta pieslēgums."
 
 msgctxt "#21453"
 msgid "Root filesystem"
@@ -9625,6 +9633,10 @@ msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Attālinātais saziņas serveris"
 
+msgctxt "#33200"
+msgid "Detected new connection"
+msgstr "Konstatēts jauns pieslēgums"
+
 msgctxt "#34000"
 msgid "Lame"
 msgstr "Lame"
@@ -9843,7 +9855,11 @@ msgstr "Ja TV ir izslēgts"
 
 msgctxt "#36030"
 msgid "Connection lost"
-msgstr "Savienojums zaudēts"
+msgstr "Pieslēgums pazudis"
+
+msgctxt "#36034"
+msgid "Connection established"
+msgstr "Pieslēgums nodibināts"
 
 msgctxt "#36035"
 msgid "Always"
@@ -9904,10 +9920,6 @@ msgstr "Izvēlas valodu lietotāja saskarnei."
 msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "Atlasiet temperatūras, laika un datuma formātu. Pieejamās opcijas ir atkarīgas no izvēlētās valodas."
-
-msgctxt "#36116"
-msgid "Choose which character set is used for displaying text in the user interface."
-msgstr "Izvēlēties rakstzīmju kopumu teksta attēlošanai lietotāja saskarnē."
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -10047,7 +10059,7 @@ msgstr "Info vēl nav pieejama."
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Importē kanālu grupas no PVR aizmugursistēmas (ja atbalstīts). Izdzēsīs lietotāja izveidotās grupas, ja tās nebūs atrodamas aizmugursistēmā."
+msgstr "Importē kanālu grupas no PVR galasistēmas (ja atbalstīts). Izdzēsīs lietotāja izveidotās grupas, ja tās nebūs atrodamas galasistēmā."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -10056,6 +10068,10 @@ msgstr "Atvērt kanālu pārvaldnieku, kas ļauj modificēt kanālu kārtību, n
 msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Instruēt aizmugursistēmu meklēt kanālus (ja atbalsta)."
+
+msgctxt "#36210"
+msgid "Prevent the \"Connection lost\" notification window from displaying when the PVR backend server is not available."
+msgstr "Nepieļaut \"Pieslēgums pazudis\" paziņojuma loga attēlošanu, kad PVR galasistēmas serveris nav pieejams."
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -10087,7 +10103,7 @@ msgstr "Kad spiež kanālu uz augšu vai leju, īsto kanāla pārslēgšanu aizk
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
-msgstr "Rādīt paziņojumu, kad taimerus uzliek, pabeidz vai noņem aizmugursistēmā."
+msgstr "Rādīt paziņojumu, kad taimerus uzliek, pabeidz vai noņem galasistēmā."
 
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
@@ -10297,6 +10313,10 @@ msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
 msgstr "Izmantot ierobežotu krāsu skalu (16-235) pilnas krāsu skalas vietā (0-255). Ierobežotu skalu jāizmanto, ja jūsu ekrāns ir parasts HDMI TV bez datora vai cita režīma, kas spēj attēlot pilnu krāsu skalu, bet, ja jūsu ekrāns ir datora monitors, atstājiet šo izslēgtu, lai redzētu pareizu melno krāsu."
 
+msgctxt "#36362"
+msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
+msgstr "Atlasiet, cik kanālus atbalsta audio pieslēgums vai cik skaļruņu ir pieslēgti ar analogajiem savienojumiem. Šo iestatījumu nepiemēro tranzītaudio. Piezīme - SPDIF atbalsta tikai 2.0 kanālus, taču tik un tā spēj izvadīt daudzkanālu audio, izmantojot formātu, kurš atbalsta tranzītaudio."
+
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
 msgstr "Palielināt AC3 plūsmas, kas samiksētas līdz 2 kanāliem."
@@ -10333,6 +10353,10 @@ msgctxt "#36376"
 msgid "When activated, your keyboard arrows will move the selection on the virtual keyboard. When deactivated, they will move the cursor from your text."
 msgstr "Kad aktivizēts, tastatūras bultas kustinās atlasīto uz virtuālās tastatūras. Kad neaktivizēts, bultas kustinās kursoru no teksta."
 
+msgctxt "#36380"
+msgid "If your Internet connection uses a proxy server, configure it here."
+msgstr "Ja interneta pieslēgums izmanto starpniekserveri, konfigurē to šeit."
+
 msgctxt "#36381"
 msgid "Configure which proxy type is used."
 msgstr "Konfigurēt izmantotā starpniekservera veidu."
@@ -10352,6 +10376,10 @@ msgstr "Konfigurēt starpniekservera lietotāju."
 msgctxt "#36385"
 msgid "Configure the proxy server password."
 msgstr "Konfigurēt starpniekservera paroli."
+
+msgctxt "#36386"
+msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
+msgstr "Ja interneta pieslēgumam ir ierobežota caurlaidība, izmantojiet šo iestatījumu, lai izmantotu lietotnes caurlaidību atbilstoši limitam."
 
 msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
@@ -10424,6 +10452,10 @@ msgstr "Rādīt informāciju"
 msgctxt "#36428"
 msgid "Record"
 msgstr "Ierakstīt"
+
+msgctxt "#36429"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
+msgstr "Atlasiet šo, ja audio izejas savienojums atbalsta daudzkanālu audio tikai ar Dolby Digital 5.1 (AC-3), piemēram, SPDIF savienojumā. Ja šī sistēma atbalsta PCM daudzkanālu audio ar HDMI, atstājiet šo izslēgtu."
 
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
@@ -10648,6 +10680,10 @@ msgstr "Iestatīt GUI rezolūcijas ierobežojumu"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "Vai apturēt atskaņošanu uz attālinātās ierīces?"
+
+msgctxt "#37024"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
+msgstr "Atlasiet šo, ja audio izejas savienojums atbalsta tikai daudzkanālu audio ar Dolby Digital 5.1 (AC3) - tas ļaus daudzkanālu audio AAC5.1 vai FLAC5.1 formātā klausīties ar 5.1 visaptverošu skaņu. Piezīme - Nav vēlams uz Pi, jo tas prasa lielu CPU jaudu."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
