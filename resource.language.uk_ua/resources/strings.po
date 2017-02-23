@@ -9171,7 +9171,7 @@ msgstr "UPnP / DLNA"
 
 msgctxt "#20188"
 msgid "Announce library updates"
-msgstr "Анонс оновлень бібліотеки"
+msgstr "Анонс оновлень медіатеки"
 
 msgctxt "#20189"
 msgid "Enable auto scrolling for plot & review"
@@ -9191,11 +9191,11 @@ msgstr "Запит додаткової інформації під час он�
 
 msgctxt "#20193"
 msgid "Default provider for album information"
-msgstr "Усталений постачальник інформації про альбом"
+msgstr "Постачальник інформації про альбоми за замовчуванням"
 
 msgctxt "#20194"
 msgid "Default provider for artist information"
-msgstr "Усталений постачальник інформації про виконавця"
+msgstr "Постачальник інформації про виконавців за замовчуванням"
 
 msgctxt "#20195"
 msgid "Change information provider"
@@ -9335,7 +9335,7 @@ msgstr "Сканування муз. відео за допомогою %s"
 
 msgctxt "#20319"
 msgid "Scanning TV shows using %s"
-msgstr "Сканування ТБ-шоу з допомогою %s"
+msgstr "Сканування серіалу з допомогою %s"
 
 msgctxt "#20320"
 msgid "Scanning artists using %s"
@@ -10203,19 +10203,19 @@ msgstr "Постачальники інформації"
 
 msgctxt "#21413"
 msgid "Default provider for movie information"
-msgstr "Усталений постачальник інформації про фільми"
+msgstr "Постачальник інформації про фільми за замовчуванням"
 
 msgctxt "#21414"
 msgid "Default provider for TV show information"
-msgstr "Усталений постачальник інформації про ТБ-шоу"
+msgstr "Постачальник інформації про серіали за замовчуванням"
 
 msgctxt "#21415"
 msgid "Default provider for music video information"
-msgstr "Усталений постачальник інформації про музичне відео"
+msgstr "Постачальник інформації про музичні відео за замовчуванням"
 
 msgctxt "#21416"
 msgid "Select first unwatched TV show season / episode"
-msgstr "Виберіть перший непереглянутий сезон ТБ-шоу / серію"
+msgstr "Виберіть перший непереглянутий сезон/серію серіалу"
 
 msgctxt "#21417"
 msgid "Settings"
@@ -11291,7 +11291,7 @@ msgstr "Допоміжні надбудови"
 
 msgctxt "#24082"
 msgid "Add-on libraries"
-msgstr "Бібліотеки надбудов"
+msgstr "Програмні бібліотеки"
 
 msgctxt "#24083"
 msgid "Information libraries"
@@ -11336,10 +11336,6 @@ msgstr "Перевірка %s..."
 msgctxt "#24095"
 msgid "Local package cache"
 msgstr "Локальний кеш пакетів"
-
-msgctxt "#24096"
-msgid "Add-on is incompatible or has been marked broken in repository."
-msgstr "Надбудова несумісна або відмічена в репозиторії як зіпсована."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -11419,19 +11415,19 @@ msgstr "Папка із субтитрами"
 
 msgctxt "#24116"
 msgid "Default TV show service"
-msgstr "Усталена служба ТБ-шоу"
+msgstr "Служба для серіалів за замовчуванням"
 
 msgctxt "#24117"
 msgid "Select the service that will be used as default to search for TV show subtitles."
-msgstr "Виберіть усталену службу для пошуку субтитрів до ТБ-шоу."
+msgstr "Виберіть службу пошуку субтитрів до серіалів за замовчуванням."
 
 msgctxt "#24118"
 msgid "Default movie service"
-msgstr "Усталена служба для фільмів"
+msgstr "Служба для фільмів за замовчуванням"
 
 msgctxt "#24119"
 msgid "Select the service that will be used as default to search for movie subtitles."
-msgstr "Виберіть усталену службу для пошуку субтитрів до фільмів"
+msgstr "Виберіть службу для пошуку субтитрів до фільмів за замовчуванням."
 
 msgctxt "#24120"
 msgid "Manual search string"
@@ -12561,6 +12557,10 @@ msgctxt "#35018"
 msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
 msgstr "Конфігурація контролера залежить від вимкненої надбудови. Увімкнути її?"
 
+msgctxt "#35019"
+msgid "Ignore input"
+msgstr "Ігнорувати введене значення"
+
 msgctxt "#35049"
 msgid "Game add-ons"
 msgstr "Ігрові надбудови"
@@ -12825,6 +12825,14 @@ msgctxt "#36032"
 msgid "The port is busy. Only one program can access the CEC adapter"
 msgstr "Порт зайнятий. Тільки одна програма може звернутися до адаптера CEC"
 
+msgctxt "#36033"
+msgid "Action when switching to another source"
+msgstr "Дія при виборі іншого джерела"
+
+msgctxt "#36034"
+msgid "Connection established"
+msgstr "З'єднання встановлено"
+
 msgctxt "#36035"
 msgid "Always"
 msgstr "Завжди"
@@ -12856,6 +12864,30 @@ msgstr "* Папка об'єкту"
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Обмежити діапазон кольорів (16-235)"
+
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "Кількість буферів, що використовуються графічним драйвером"
+
+msgctxt "#36044"
+msgid "Stop Playback"
+msgstr "Зупинити відтворення"
+
+msgctxt "#36045"
+msgid "Pause Playback"
+msgstr "Призупинити відтворення"
+
+msgctxt "#36046"
+msgid "Force AVR to wake up when Kodi is activated"
+msgstr "Пробуджувати ресівер при запуску Kodi"
+
+msgctxt "#36099"
+msgid "Dithering"
+msgstr "Розмиття"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "Глибина розмиття"
 
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
@@ -12927,11 +12959,15 @@ msgstr "Вибір часового поясу."
 
 msgctxt "#36119"
 msgid "Defaults to the selected audio language if more than one language is available."
-msgstr "Усталена мова аудіосупроводу, якщо доступно декілька мов."
+msgstr "Мова аудіосупроводу за замовчуванням, якщо доступно декілька мов."
 
 msgctxt "#36120"
 msgid "Defaults to the selected subtitle language if more than one language is available."
-msgstr "Усталена мова аудіосупроводу, якщо доступно декілька мов."
+msgstr "Мова аудіосупроводу за замовчуванням, якщо доступно декілька мов."
+
+msgctxt "#36121"
+msgid "This category contains the settings for how media lists are displayed."
+msgstr "Категорія містить налаштування показу списків медіафайлів."
 
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
@@ -13019,7 +13055,7 @@ msgstr "Виберіть одиниці вимірювання швидкост�
 
 msgctxt "#36143"
 msgid "Downloads thumbnails for actors from online databases when adding media to the library."
-msgstr "Завантажувати ескізи акторів  з онлайн бази  при додаванні медіафайлів  в бібліотеку."
+msgstr "Завантажувати ескізи акторів  з онлайн бази  при додаванні медіафайлів  у медіатеку."
 
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
@@ -13073,6 +13109,10 @@ msgctxt "#36159"
 msgid "Enable CrystalHD decoding of video files."
 msgstr "Увімкнути апаратне декодування відео CrystalHD."
 
+msgctxt "#36160"
+msgid "Enable VTB hardware decoding of video files."
+msgstr "Увімкнути апаратне декодування відео VTB."
+
 msgctxt "#36161"
 msgid "Enable OpenMax hardware decoding of video files."
 msgstr "Увімкнути апаратне декодування відео OpenMax."
@@ -13081,9 +13121,17 @@ msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "Увімкнути апаратне декодування відео VideoToolbox."
 
+msgctxt "#36163"
+msgid "Show TV shows with no episodes when browsing the video library."
+msgstr "Показувати серіали без серій при перегляді медіатеки відео."
+
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
 msgstr "Дозволити зміну частоти оновлення дисплею згідно з частотою кадрів відеофайла, щоб забезпечити плавне відтворення відео."
+
+msgctxt "#36166"
+msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
+msgstr "Синхронізувати відео та звук із частотою оновлення дисплею. У цьому режимі неможливе пряме виведення звукового потоку, тому що може знадобитися ресемплінґ."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -13185,6 +13233,10 @@ msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "Розташування субтитрів на екрані."
 
+msgctxt "#36193"
+msgid "This category contains the settings for how DVD's, Blu-ray, & CD's are handled."
+msgstr "Категорія містить налаштування відтворення дисків DVD, Blu-ray і CD."
+
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
 msgstr "Автоматично програвати DVD-диск при вставленні."
@@ -13193,13 +13245,45 @@ msgctxt "#36195"
 msgid "Force a region for DVD playback."
 msgstr "Примусовий вибір регіону при програванні DVD-диску."
 
+msgctxt "#36196"
+msgid "Attempt to skip \"unskippable\" introductions before DVD menu."
+msgstr "Намагатися пропустити примусовий вступ перед меню DVD."
+
 msgctxt "#36197"
 msgid "No info available yet."
 msgstr "Ще немає доступної інформації."
 
+msgctxt "#36198"
+msgid "Select the default movie information source. See the add-ons manager for options."
+msgstr "Вибір основного джерела відомостей про фільми. Доступні варіанти див. у менеджері надбудов."
+
+msgctxt "#36199"
+msgid "Select the default TV show information source. See the add-ons manager for options."
+msgstr "Виберіть джерело відомостей про серіали за замовчуванням. Доступні служби див. у менеджері надбудов."
+
+msgctxt "#36200"
+msgid "Select the default music videos information source. See the add-ons manager for options."
+msgstr "Вибір основного джерела відомостей про музичні відео. Доступні варіанти див. у менеджері надбудов."
+
+msgctxt "#36201"
+msgid "Settings for PVR & Live TV."
+msgstr "Налаштування перегляду і запису ТБ."
+
+msgctxt "#36202"
+msgid "This category contains the general settings for the PVR & Live TV."
+msgstr "Ця категорія містить загальні налаштування перегляду та запису ТБ."
+
+msgctxt "#36203"
+msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
+msgstr "Активація функції перегляду та запису ТБ (PVR). Для цього потрібно встановити хоча б одну надбудову PVR."
+
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Імпорт груп каналів із ТБ-серверу (якщо підтримується). Користувацькі групи, що відсутні на ТБ-сервері, будуть видалені."
+
+msgctxt "#36205"
+msgid "Sort the channels by channel number from the backend, but use own numbering for channels."
+msgstr "Сортувати канали за нумерацією зі сервера, але використовувати власну нумерацію каналів."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -13211,7 +13295,7 @@ msgstr "Відправити команду на ТБ-сервер шукати 
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
-msgstr "Показувати при перемиканні каналів телепрограму, наприклад поточну передачу."
+msgstr "При перемиканні каналів показувати телепрограму, наприклад поточну передачу."
 
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
@@ -14008,3 +14092,11 @@ msgstr "Необмежен."
 msgctxt "#38060"
 msgid "Music library needs to rescan tags from files. Would you like to scan now?"
 msgstr "Потрібне повторне сканування тегів музичних файлів. ВІдсканувати?"
+
+msgctxt "#38207"
+msgid "Show EXIF picture information"
+msgstr "Показувати відомості про фото з EXIF"
+
+msgctxt "#38208"
+msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
+msgstr "Показ відомостей EXIF (дата, час, використаний фотоапарат тощо) при їх наявності."

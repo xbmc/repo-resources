@@ -5343,11 +5343,11 @@ msgstr "Preferă metoda de randare VAAPI"
 
 msgctxt "#13458"
 msgid "Allow hardware acceleration - OMXPlayer"
-msgstr "Permite accelerare dispozitiv fizic -  redator OMX (OMXPlayer)"
+msgstr "Permite accelerare hardware -  OMXPlayer"
 
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
-msgstr "Folosește  redatorul OMX (OMXPlayer) pentru decodarea fișierelor video."
+msgstr "Folosește OMXPlayer pentru decodarea fișierelor video."
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -5943,7 +5943,7 @@ msgstr "Intrare"
 
 msgctxt "#14200"
 msgid "Player"
-msgstr "Redator"
+msgstr "Player"
 
 msgctxt "#14201"
 msgid "Player settings"
@@ -6563,7 +6563,7 @@ msgstr "Căutare Internet"
 
 msgctxt "#16003"
 msgid "Player"
-msgstr "Redator"
+msgstr "Player"
 
 msgctxt "#16004"
 msgid "Play media from disc"
@@ -8503,11 +8503,11 @@ msgstr "Dosar muzică salvată"
 
 msgctxt "#20001"
 msgid "Use external DVD player"
-msgstr "Folosește redatorul DVD extern"
+msgstr "Folosește DVD player-ul extern"
 
 msgctxt "#20002"
 msgid "External DVD player"
-msgstr "Redator DVD extern"
+msgstr "DVD player extern"
 
 msgctxt "#20003"
 msgid "Trainers folder"
@@ -10043,7 +10043,7 @@ msgstr "Miniatură"
 
 msgctxt "#21372"
 msgid "Forced DVD player region"
-msgstr "Regiune forțată redator DVD"
+msgstr "Regiune forțată DVD player"
 
 msgctxt "#21373"
 msgid "Display"
@@ -10959,11 +10959,11 @@ msgstr "Scalează teletextul la 4:3"
 
 msgctxt "#23100"
 msgid "External player active"
-msgstr "Redator extern activ"
+msgstr "Player extern activ"
 
 msgctxt "#23101"
 msgid "Click \"OK\" to terminate the player"
-msgstr "Dați clic pe „Bine” pentru a închide redatorul"
+msgstr "Dați clic pe „Bine” pentru a închide player-ul"
 
 msgctxt "#23104"
 msgid "Click \"OK\" when playback has ended"
@@ -11159,7 +11159,7 @@ msgstr "Acest supliment nu poate fi dezinstalat"
 
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
-msgstr "Flux de intrare redator video"
+msgstr "Flux de intrare video player"
 
 msgctxt "#24050"
 msgid "Available add-ons"
@@ -11336,10 +11336,6 @@ msgstr "Se verifică %s..."
 msgctxt "#24095"
 msgid "Local package cache"
 msgstr "Stocarea pachetelor locală"
-
-msgctxt "#24096"
-msgid "Add-on is incompatible or has been marked broken in repository."
-msgstr "Suplimentul nu este compatibil sau a fost marcat ca defect în depozit"
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -12059,7 +12055,7 @@ msgstr "Lung"
 
 msgctxt "#33014"
 msgid "Use DVD player instead of regular player"
-msgstr "Folosește redatorul DVD în locul redatorului normal"
+msgstr "Folosește DVD player-ul în locul player-ului normal"
 
 msgctxt "#33015"
 msgid "Ask for download before playing video"
@@ -12561,6 +12557,10 @@ msgctxt "#35018"
 msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
 msgstr "Configurarea controller-ului depinde de un supliment dezactivat. Doriți să îl activați?"
 
+msgctxt "#35019"
+msgid "Ignore input"
+msgstr "Ignoră input"
+
 msgctxt "#35049"
 msgid "Game add-ons"
 msgstr "Suplimente jocuri"
@@ -12953,6 +12953,10 @@ msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "Alegeți formatele pentru temperatură, oră și dată. Opțiunile disponibile depind de limba aleasă."
 
+msgctxt "#36116"
+msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
+msgstr "Alegeți setul de caractere folosit pentru afișarea textului interfeței utilizatorului. Nu se schimbă setul de caractere folosit pentru subtitrari, pentru aceasta mergeți la Player > Limbă."
+
 msgctxt "#36117"
 msgid "Select country location."
 msgstr "Selectați țara"
@@ -13151,7 +13155,7 @@ msgstr "Întârzierea unui eveniment de resetare după o schimbare a ratei de re
 
 msgctxt "#36166"
 msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
-msgstr "Sincronizează fluxul video și audio cu rata de reîmprospătare a monitorului. Redatorul video nu va folosi traversarea sunetul în acest caz deoarece s-ar putea să fie necesară reeșantionarea."
+msgstr "Sincronizează fluxul video și audio cu rata de reîmprospătare a monitorului. Player-ul video nu va folosi traversarea sunetul în acest caz deoarece s-ar putea să fie necesară reeșantionarea."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -13895,7 +13899,7 @@ msgstr "Selectați numărul maxim de canale audio / difuzoare disponibile pentru
 
 msgctxt "#36368"
 msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
-msgstr "Selectați pentru a permite traversarea (trecerea nemodificată a) sunetului pentru redarea fluxurilor audio comprimate cum sunt Dolby Digital (AC3), DTS, etc. Clientul MotoruluiAudio, de exemplu RedatorulVideo, s-ar putea să decidă să decodeze fluxul audio în anumite condiții. În cazul RedatoruluiVideo, traversarea nu va fi folosită pentru fluxurile în direct și atunci când sincronizați redarea cu ecanul."
+msgstr "Selectați pentru a permite traversarea (trecerea nemodificată a) sunetului pentru redarea fluxurilor audio comprimate cum sunt Dolby Digital (AC3), DTS, etc. Clientul AudioEngine, de exemplu Videoplayer-ul, s-ar putea să decidă să decodeze fluxul audio în anumite condiții. În cazul Videoplayer-ului, traversarea nu va fi folosită pentru fluxurile în direct și atunci când sincronizați redarea cu ecanul."
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -14163,7 +14167,7 @@ msgstr "Permite accelerare dispozitiv fizic - MMAL"
 
 msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "Folosește redatorul video pentru decodarea fișierelor video cu accelerare MMAL."
+msgstr "Folosește player-ul video pentru decodarea fișierelor video cu accelerare MMAL."
 
 msgctxt "#36436"
 msgid "Audio DSP manager..."
@@ -15028,6 +15032,14 @@ msgstr "Această categorie conține setările pentru bazele de date ale mediatec
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
 msgstr "Această categorie conține setările pentru interfața grafică"
+
+msgctxt "#38207"
+msgid "Show EXIF picture information"
+msgstr "Arată informațiile EXIF ale imaginilor"
+
+msgctxt "#38208"
+msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
+msgstr "Dacă există informații EXIF (dată, oră, aparat foto folosit, etc.) acestea vor fi afișate."
 
 msgctxt "#39000"
 msgid "HD and up"
