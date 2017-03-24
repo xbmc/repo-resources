@@ -6435,7 +6435,7 @@ msgstr "Sonidos GUI"
 
 msgctxt "#15109"
 msgid "Skin default"
-msgstr "Máscara predeterminada"
+msgstr "Según skin"
 
 msgctxt "#15110"
 msgid "Larger font size"
@@ -6987,7 +6987,7 @@ msgstr "Grabaciones futuras"
 
 msgctxt "#19026"
 msgid "Add timer..."
-msgstr "Agregar timer..."
+msgstr "Agregar temporizador..."
 
 msgctxt "#19027"
 msgid "No search results"
@@ -7739,7 +7739,7 @@ msgstr "Ingresa un URL válido para el nuevo canal"
 
 msgctxt "#19215"
 msgid "The PVR backend does not support timers."
-msgstr "El PVR backend no soporta timers."
+msgstr "El PVR backend no soporta temporizadores."
 
 msgctxt "#19216"
 msgid "All radio channels"
@@ -7827,7 +7827,7 @@ msgstr "Cargando canales de los clientes"
 
 msgctxt "#19237"
 msgid "Loading timers from clients"
-msgstr "Cargando timers de los clientes"
+msgstr "Cargando temporizadores de los clientes"
 
 msgctxt "#19238"
 msgid "Loading recordings from clients"
@@ -9131,11 +9131,11 @@ msgstr "Obtiene información adicional durante actualizaciones"
 
 msgctxt "#20193"
 msgid "Default provider for album information"
-msgstr "Proveedor por defecto para información del album"
+msgstr "Proveedor predeterminado para información del album"
 
 msgctxt "#20194"
 msgid "Default provider for artist information"
-msgstr "Proveedor por defecto para información del artista"
+msgstr "Proveedor predeterminado para información del artista"
 
 msgctxt "#20195"
 msgid "Change information provider"
@@ -10907,7 +10907,7 @@ msgstr "Clic en \"OK\" cuando la reproducción haya finalizado"
 
 msgctxt "#24000"
 msgid "Add-on"
-msgstr "Add-on"
+msgstr "Complemento"
 
 msgctxt "#24001"
 msgid "Add-ons"
@@ -10915,7 +10915,7 @@ msgstr "Complementos"
 
 msgctxt "#24002"
 msgid "Add-on options"
-msgstr "Opciones de Add-on"
+msgstr "Opciones de complemento"
 
 msgctxt "#24003"
 msgid "Add-on information"
@@ -11043,7 +11043,7 @@ msgstr "Instalar desde repositorio"
 
 msgctxt "#24034"
 msgid "Check for updates"
-msgstr "Check for updates"
+msgstr "Verificar actualizaciones"
 
 msgctxt "#24035"
 msgid "Image collections"
@@ -11119,7 +11119,7 @@ msgstr "Que hay de nuevo"
 
 msgctxt "#24055"
 msgid "Check for updates"
-msgstr "Check for updates"
+msgstr "Verificar actualizaciones"
 
 msgctxt "#24056"
 msgid "Last updated %s"
@@ -11159,7 +11159,7 @@ msgstr "Complemento activado"
 
 msgctxt "#24065"
 msgid "Add-on updated"
-msgstr "Add-on Actualizado"
+msgstr "Complemento actualizado"
 
 msgctxt "#24066"
 msgid "Cancel add-on download?"
@@ -11233,6 +11233,10 @@ msgctxt "#24083"
 msgid "Information libraries"
 msgstr "Información de bibliotecas"
 
+msgctxt "#24084"
+msgid "Add-on installed"
+msgstr "Complemento instalado"
+
 msgctxt "#24085"
 msgid "Failed to install a dependency"
 msgstr "Fallo al instalar una dependencia"
@@ -11251,7 +11255,7 @@ msgstr "El complemento DSP está actualmente en uso y no puede ser modificado."
 
 msgctxt "#24089"
 msgid "Add-on restarts"
-msgstr "Se reinicia Add-on"
+msgstr "Se reinicia complemento"
 
 msgctxt "#24090"
 msgid "Lock add-on manager"
@@ -11269,9 +11273,17 @@ msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Comprobando %s..."
 
+msgctxt "#24094"
+msgid "Add-on disabled due to being marked broken in repository."
+msgstr "Complemento inhabilitado debido a que está marcado como roto en el repositorio."
+
 msgctxt "#24095"
 msgid "Local package cache"
 msgstr "Cache paquete local"
+
+msgctxt "#24096"
+msgid "Add-on has been marked broken in repository."
+msgstr "Cmplemento se ha marcado como roto en el repositorio."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -11303,7 +11315,7 @@ msgstr "A la mascara le faltan algunos archivos"
 
 msgctxt "#24104"
 msgid "Add-on is incompatible due to unmet dependencies."
-msgstr "El add-on es incompatible debido a que no se satisfacen las depenedencias."
+msgstr "El complemento es incompatible debido a que no se satisfacen las depenedencias."
 
 msgctxt "#24105"
 msgid "Pause when searching for subtitles"
@@ -11479,7 +11491,7 @@ msgstr "Falló al escanear %s: %s"
 
 msgctxt "#24148"
 msgid "Incompatible add-ons"
-msgstr "Incompatible add-ons"
+msgstr "Complementos Incompatibles"
 
 msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: %s."
@@ -12099,7 +12111,7 @@ msgstr "Escoge tu"
 
 msgctxt "#33052"
 msgid "Check"
-msgstr "Check"
+msgstr "Verificar "
 
 msgctxt "#33053"
 msgid "Configure the"
@@ -12484,6 +12496,10 @@ msgstr "No se pueden configurar controladores"
 msgctxt "#35018"
 msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
 msgstr "La configuración del controlador depende de un complemento desactivado. ¿Desea habilitarlo?"
+
+msgctxt "#35019"
+msgid "Ignore input"
+msgstr "Ignorar entrada"
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -13195,7 +13211,7 @@ msgstr "Esta categoría contiene los ajustes generales para el PVR & TV en vivo.
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
-msgstr "Activa las funciones de \"Personal Video Recorder\" (PVR). Esto requiere que al menos un PVR add-on esté instalado."
+msgstr "Activa las funciones de \"Personal Video Recorder\" (PVR). Esto requiere que al menos un complemento PVR esté instalado."
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
@@ -14113,6 +14129,10 @@ msgctxt "#36502"
 msgid "Disabled"
 msgstr "Deshabilitado"
 
+msgctxt "#36503"
+msgid "Over / Under"
+msgstr "Sobre / Bajo"
+
 msgctxt "#36504"
 msgid "Side by side"
 msgstr "Lado a lado"
@@ -14813,6 +14833,10 @@ msgctxt "#38035"
 msgid "Lyricist"
 msgstr "Letrista"
 
+msgctxt "#38036"
+msgid "Remixer"
+msgstr "Remixer"
+
 msgctxt "#38038"
 msgid "Engineer"
 msgstr "Ingeniero"
@@ -14820,6 +14844,10 @@ msgstr "Ingeniero"
 msgctxt "#38039"
 msgid "Producer"
 msgstr "Productor"
+
+msgctxt "#38041"
+msgid "Mixer"
+msgstr "Mixer"
 
 msgctxt "#38042"
 msgid "[Missing]"

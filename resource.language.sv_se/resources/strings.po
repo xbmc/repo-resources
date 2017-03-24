@@ -2023,7 +2023,7 @@ msgstr "Ljudutgångsenhet"
 
 msgctxt "#546"
 msgid "Passthrough output device"
-msgstr "Genomströmning utenhet"
+msgstr "Utenhet för genomströmning"
 
 msgctxt "#547"
 msgid "No biography for this artist"
@@ -6259,7 +6259,7 @@ msgstr "Ljudinformation"
 
 msgctxt "#15028"
 msgid "Audio DSP settings - Main"
-msgstr "Ljud DSP inställningar - Huvud"
+msgstr "Ljud DSP inställningar - Primär"
 
 msgctxt "#15029"
 msgid "Audio DSP settings - Listening mode"
@@ -11297,6 +11297,10 @@ msgctxt "#24083"
 msgid "Information libraries"
 msgstr "Informationsbibliotek"
 
+msgctxt "#24084"
+msgid "Add-on installed"
+msgstr "Tillägg installerat"
+
 msgctxt "#24085"
 msgid "Failed to install a dependency"
 msgstr "Misslyckades med att installera beroenden"
@@ -11333,9 +11337,17 @@ msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Kontrollerar %s..."
 
+msgctxt "#24094"
+msgid "Add-on disabled due to being marked broken in repository."
+msgstr "Tillägget har inaktiverats på grund av att det markerats som trasigt i förrådet."
+
 msgctxt "#24095"
 msgid "Local package cache"
 msgstr "Lokal cache för paket"
+
+msgctxt "#24096"
+msgid "Add-on has been marked broken in repository."
+msgstr "Tillägget har markerats som trasigt i förrådet."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -11791,7 +11803,7 @@ msgstr "Publik"
 
 msgctxt "#29936"
 msgid "Soft music"
-msgstr "Soft music"
+msgstr "Soft musik"
 
 msgctxt "#29937"
 msgid "Adult hits"
@@ -11863,7 +11875,7 @@ msgstr "Lätt klassisk"
 
 msgctxt "#29954"
 msgid "Serious classical"
-msgstr "Allvarlig klassisk"
+msgstr "Seriös klassisk"
 
 msgctxt "#29955"
 msgid "Other music"
@@ -12379,7 +12391,7 @@ msgstr "7.1"
 
 msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
-msgstr "Ange tillvägagångssätt när inget ljud spelas under uppspelning eller GUI-händelser.[CR][Alltid] - En kontinuerlig tyst ljudsignal spelas upp, denna håller ljudenheten aktiv för nya ljud, men kan förhindra ljud från andra applikationer.[CR][1-10 minuter] - Som [Alltid], med skillnaden att efter angiven tidsperiod kommer ljudet att sättas i vänteläge.[CR][Av] - ljudet sätts i vänteläge. Notera att ljudhändelser kan utebli om ljudet sätts i vänteläge."
+msgstr "Ange tillvägagångssätt när inget ljud är nödvändigt för uppspelning eller GUI-ljud.[CR][Alltid] - En kontinuerlig ohörbar ljudsignal spelas upp, denna håller ljudenheten aktiv för nya ljud, men kan även förhindra ljud från andra applikationer.[CR][1-10 minuter] - Som [Alltid], med skillnaden att efter angiven tidsperiod kommer ljudet att sättas i vänteläge.[CR][Av] - Ljudet sätts i vänteläge. Notera att ljudhändelser kan utebli om ljudet sätts i vänteläge."
 
 msgctxt "#34112"
 msgid "Send low volume noise"
@@ -13171,7 +13183,7 @@ msgstr "Ange omsamplingskvalitet för de tillfällen då ljudet behöver vara av
 
 msgctxt "#36170"
 msgid "Stretch the video up to the set percentage in order to minimise black bars."
-msgstr "dra ut videon up till en satt procentdel för att minska svarta ytor."
+msgstr "Dra ut videon upp till angiven procent för att minska svarta kanter."
 
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
@@ -13195,7 +13207,7 @@ msgstr "Denna kategori innehåller inställingar för hur videofillistor hantera
 
 msgctxt "#36177"
 msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
-msgstr "Växla mellan Välj, Spela (standard), Återuppta och Visa Information. Välj kommer välja ett föremål, exempelvis öppna en mapp i filläge. Återuppta kommer automatiskt återuppta videor från senaste positionen, även efter omstart av systemet."
+msgstr "Växla mellan [Välj], [Spela] (standard), [Återuppta] och [Visa Information].[CR][Välj] Kommer välja ett föremål, exempelvis öppna en mapp i filläge.[CR][Återuppta] Kommer automatiskt återuppta videor från senaste positionen, även efter omstart av systemet."
 
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
@@ -13227,7 +13239,7 @@ msgstr "Denna kategori innehåller inställningar för hur undertexter hanteras.
 
 msgctxt "#36185"
 msgid "Set the font type to be used for text based (usually downloaded) subtitles."
-msgstr "Välj teckensnitt för text baserade (oftast nedladdade) undertexter."
+msgstr "Välj teckensnitt för textbaserade (oftast nedladdade) undertexter."
 
 msgctxt "#36186"
 msgid "Set the font size to be used for subtitles."
@@ -13555,11 +13567,11 @@ msgstr "Läs ReplayGain informationen kodad i dina ljudfiler med ett program som
 
 msgctxt "#36268"
 msgid "Reference volume (PreAmp level) to use for files with encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
-msgstr "Referensvolym (Förstärkarnivå nivå) som ska användas för filer med kodad ReplayGain information. Standard är 89 dB enligt standard. Ändra med försiktighet."
+msgstr "Referensvolym (PreAmp-nivå) som ska användas för filer med kodad ReplayGain-information. Standard är 89 dB. Ändra med försiktighet."
 
 msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
-msgstr "Referensvolym (Förstärkarnivå nivå) som ska användas för filer utan kodade ReplayGain information. Standard är 89 dB enligt standard. Ändra med försiktighet."
+msgstr "Referensvolym (PreAmp-nivå) som ska användas för filer utan kodad ReplayGain-information. Standard är 89 dB. Ändra med försiktighet."
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
@@ -14167,7 +14179,7 @@ msgstr "Tillåt hårdvaruacceleration - MMAL"
 
 msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "Använd VideoPlayer för avkodning av video-filer med MMAL-acceleration."
+msgstr "Använd VideoPlayer för avkodning av videofiler med MMAL-acceleration."
 
 msgctxt "#36436"
 msgid "Audio DSP manager..."
@@ -14359,7 +14371,7 @@ msgstr "Begränsar upplösningen av gränssnittet för att spara minne. Påverka
 
 msgctxt "#36549"
 msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
-msgstr "Aktiverar stöd för att ta emot \"Video\" och \"Foton\" via AirPlay. Detta måste vara inaktiverad när man använder iOS 9 eller senare klienter för att återställa musik strömning via AirPlay. \"Video\" och \"Foton\" stöder endast iOS klienter som använder iOS 8.x och äldre."
+msgstr "Aktiverar stöd för att ta emot \"Video\" och \"Foton\" via AirPlay. Detta måste vara inaktiverad när man använder iOS 9 eller senare klienter för att återställa musikströmning via AirPlay. \"Video\" och \"Foton\" stöder endast iOS klienter som använder iOS 8.x och äldre."
 
 msgctxt "#36550"
 msgid "Stereoscopic 3D effect strength"
@@ -14367,7 +14379,7 @@ msgstr "Styrka för stereoskopisk 3D-effekt"
 
 msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
-msgstr "Definierar styrkan av den stereoskopiska 3D-effekten i GUI. Detta görs genom att reglera djupet av uppfattningen inom GUI:en, så ju högre värde, desto fler element hoppar ut på skärmen. [Noll] Inaktiverar stereoskopisk 3D-effekt av det grafiska gränssnittet.[CR]För en god visuell upplevelse, ska värdet vara högre för små skärmar och lägre för stora skärmar. Obs: detta stöds inte av alla skal."
+msgstr "Definierar styrkan av den stereoskopiska 3D-effekten i GUI:t. Detta görs genom att reglera djupet av uppfattningen inom GUI:t, så ju högre värde, desto fler element hoppar ut på skärmen. [Noll] Inaktiverar stereoskopisk 3D-effekt av det grafiska gränssnittet.[CR]För en god visuell upplevelse, ska värdet vara högre för små skärmar och lägre för stora skärmar. Obs: detta stöds inte av alla skal."
 
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
@@ -14591,7 +14603,7 @@ msgstr "Tillåt installation av tillägg från okända källor."
 
 msgctxt "#36617"
 msgid "For security, installation of add-ons from unknown sources is disabled."
-msgstr "Installation av tillägg från okända källor är av säkerhetsskäl inaktiverat."
+msgstr "Installation av tillägg från okända källor är inaktiverat av säkerhetsskäl."
 
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
@@ -14755,7 +14767,7 @@ msgstr "Vill du stoppa uppspelningen på fjärrenheten?"
 
 msgctxt "#37024"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
-msgstr "Välj detta om din ljudutgång endast stödjer multikanalsljud som Dolby Digital 5.1 (AC3), detta tillåter multikanalsljud som t.ex. AAC5.1 eller FLAC5.1 att spelas upp i 5.1 surroundljud. Obs! Rekommenderas ej för Pi då detta använder mycket processorkraft."
+msgstr "Välj detta om din ljudutgång endast stödjer multikanalsljud som Dolby Digital 5.1 (AC3), detta tillåter multikanalsljud som t.ex. AAC5.1 eller FLAC5.1 att spelas upp i 5.1 surroundljud. Obs: Rekommenderas ej för Pi då detta kräver mycket processorkraft."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -14783,7 +14795,7 @@ msgstr "Obegränsat"
 
 msgctxt "#37031"
 msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
-msgstr "Specificerar hur Blu-rays ska öppnas/spelas. Obs! Vissa skivmenyer har inte fullt stöd ännu och kan medföra problem."
+msgstr "Specificerar hur Blu-rays ska öppnas/spelas. Obs: Vissa skivmenyer har inte fullt stöd ännu och kan medföra problem."
 
 msgctxt "#37032"
 msgid "Accessibility"
@@ -14823,7 +14835,7 @@ msgstr "Föredra standard ljudströmmar"
 
 msgctxt "#37041"
 msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
-msgstr "Vid aktivering väljs ljudströmmar som är flaggade som standard (och matchar föredraget språk) framför ljuströmmar med högre ljudkvalitet (antal kanaler, codec, ...)"
+msgstr "Om aktiverad väljs ljudströmmar som är flaggade som standard (och matchar föredraget språk) framför ljudströmmar med högre ljudkvalitet (antal kanaler, codec, ...)"
 
 msgctxt "#37042"
 msgid "Defines which step sizes to use when pressing the skip buttons. If more steps are selected for a skip direction, these can be applied by subsequent presses on the skip button within the defined skip delay. Forward (positive) and backward (negative) steps can be defined independently."
@@ -14831,7 +14843,7 @@ msgstr "Definierar vilken stegstorlek som ska användas när du trycker på hopp
 
 msgctxt "#37043"
 msgid "Defines the time to wait for subsequent key presses before performing the skip. Only applies when using smart skipping (when using more than one skip step for a direction)."
-msgstr "Definierar tid att vänta på efterföljande knapptryckningar innan ett hopp utförs. Gäller endast vid användning av smarta hopp (när du hoppar mer än ett steg i en riktning)."
+msgstr "Definierar tiden att vänta på efterföljande knapptryckningar innan ett hopp utförs. Gäller endast vid användning av smarta hopp (när du hoppar mer än ett steg i en riktning)."
 
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
@@ -14855,11 +14867,11 @@ msgstr "Visa \"Alla objekt\"-meny i mappar. Till exempel \"Alla album\" eller \"
 
 msgctxt "#38013"
 msgid "Limit GUI updates during playback"
-msgstr "Limitera GUI uppdateringar vid uppspelning"
+msgstr "Begränsa GUI uppdateringar under uppspelning"
 
 msgctxt "#38014"
 msgid "Limits the speed (fps) used to update the GUI while playing videos. This can reduce CPU load and fix playback issues while the GUI is shown."
-msgstr "Limitera hastigheten (fps) användt för att uppdatera GUIn vid uppspelning av videor. Detta kan redusera processor belastning och fixa uppspelnings problem när GUIn visas."
+msgstr "Begränsa hastigheten (fps) använt för att uppdatera GUI:t vid uppspelning av videor. Detta kan reducera processorns belastning och fixa problem med uppspelningen när GUI:t visas."
 
 msgctxt "#38015"
 msgid "Unlimited"
@@ -14899,11 +14911,11 @@ msgstr "Förekomster"
 
 msgctxt "#38027"
 msgid "Decode the stereo stream from 3D files"
-msgstr "Avkoda strömmen från 3D-filer"
+msgstr "Avkoda stereoströmmen från 3D-filer"
 
 msgctxt "#38028"
 msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
-msgstr "Om aktiverad, kan videor som skapats i Multiview Video Coding (MVC) -format också ses i stereoskopisk 3D. MVC-formatet återfinns normalt på 3D Blu-ray.[CR] Anm. Behandling av denna data kan minska prestanda vid uppspelning, så aktivera detta endast om du behöver stereoskopisk 3D-stöd."
+msgstr "Om aktiverad, kan videor som skapats i Multiview Video Coding (MVC) -format också ses i stereoskopisk 3D. MVC-formatet återfinns normalt på 3D Blu-ray.[CR]Obs: Behandling av denna data kan minska prestandan vid uppspelning, så aktivera detta endast om du behöver stereoskopisk 3D-stöd."
 
 msgctxt "#38029"
 msgid "Enable Full HD HDMI modes for stereoscopic 3D"
