@@ -11257,6 +11257,10 @@ msgctxt "#24083"
 msgid "Information libraries"
 msgstr "Bibliotecas de información"
 
+msgctxt "#24084"
+msgid "Add-on installed"
+msgstr "Complemento instalado"
+
 msgctxt "#24085"
 msgid "Failed to install a dependency"
 msgstr "Produciuse un erro a instalar a dependencia"
@@ -11293,9 +11297,17 @@ msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Buscando %s..."
 
+msgctxt "#24094"
+msgid "Add-on disabled due to being marked broken in repository."
+msgstr "Complemento desactivado xa que foi marcado como roto no repositorio."
+
 msgctxt "#24095"
 msgid "Local package cache"
 msgstr "Caché do paquete local"
+
+msgctxt "#24096"
+msgid "Add-on has been marked broken in repository."
+msgstr "O complemento foi marcado como roto no repositorio."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -11424,6 +11436,10 @@ msgstr "Descargar auto. o primeiro subtítulo da listaxe de resultados da busca"
 msgctxt "#24128"
 msgid "Configuration has been moved"
 msgstr "A configuración foi movida"
+
+msgctxt "#24129"
+msgid "The configuration of XBMC has been moved to the new location for Kodi. Please refer to http://kodi.wiki/view/Migration - this message will not be shown again!"
+msgstr "Kodi moveu a configuración do XBMC á nova localización. Por favor visita http://kodi.wiki/view/Migration - esta mensaxes non se amosará de novo!"
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -11921,6 +11937,10 @@ msgctxt "#29993"
 msgid "Orchestras"
 msgstr "Orquestras"
 
+msgctxt "#29994"
+msgid "Roles"
+msgstr "Roles"
+
 msgctxt "#33001"
 msgid "Trailer quality"
 msgstr "Calidade do trailer"
@@ -12297,6 +12317,10 @@ msgctxt "#34110"
 msgid "7.1"
 msgstr "7.1"
 
+msgctxt "#34111"
+msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
+msgstr "Selecciona o comportamento cando non se precise de son nas reproducións ou na interface.[CR][Sempre] Emite continuamente un sinal inaudible, isto mantén o dispositivo de recepción de son acendido para calquera novo son, aínda que isto podería bloquear o son para outras aplicacións.[CR][1-10 minutos] Igual que [Sempre] agás que tras o período de tempo seleccionado o son entra nun estado de suspensión.[CR][Apagado] A saída de son entra nun estado de suspensión. Nota - pódense perder sons se o son entra en estado de suspensión."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Reproducir sons da interface de usuario"
@@ -12345,6 +12369,14 @@ msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Produciuse un erro ao iniciar Zeroconf"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Está instalado o servizo Bonjour de Apple? Comproba o rexistro para máis información."
+
+msgctxt "#34302"
+msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
+msgstr "Produciuse un erro ao iniciar AirPlay, requírese que Zeroconf estea activado."
+
 msgctxt "#34303"
 msgid "Unable to stop Zeroconf. AirPlay and AirTunes depend on Zeroconf running."
 msgstr "Non é posible deter o Zeroconf. AirPlay e AirTunes dependen da execución do Zeroconf."
@@ -12364,6 +12396,22 @@ msgstr "Comproba os axustes de son"
 msgctxt "#34404"
 msgid "Use gestures for navigation:"
 msgstr "Empregar xestos para a navegación:"
+
+msgctxt "#34405"
+msgid "One finger swipe left,right,up,down for cursors"
+msgstr "Esvarar un dedo cara á esquerda, dereita, arriba e abaixo para os cursores"
+
+msgctxt "#34406"
+msgid "Two finger swipe left for backspace"
+msgstr "Esvarar dous dedos á esquerda para retroceso"
+
+msgctxt "#34407"
+msgid "One finger single tap for enter"
+msgstr "Un toque co dedo para o Intro"
+
+msgctxt "#34408"
+msgid "Two finger single tap or one finger long press for contextmenu"
+msgstr "Un toque con dous dedos ou manter premido cun só dedo para o menú contextual"
 
 msgctxt "#35000"
 msgid "Peripherals"
@@ -12409,6 +12457,18 @@ msgctxt "#35010"
 msgid "Peripheral libraries"
 msgstr "Bibliotecas do periférico"
 
+msgctxt "#35011"
+msgid "New controller detected"
+msgstr "Novo controlador detectado"
+
+msgctxt "#35012"
+msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
+msgstr "Detectouse un novo controlador. Para rematar a súa configuración en calquera momento, ir a \"Axustes -> Axustes do sistema -> Entrada\". Queres configuralo agora?"
+
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
+msgstr "Algúns controladores teñen botóns e eixes que interfiren co mapeamento. Prémeos para desactivalos:[CR]%s"
+
 msgctxt "#35015"
 msgid "Button %d"
 msgstr "Botón %d"
@@ -12421,6 +12481,10 @@ msgctxt "#35017"
 msgid "Unable to configure controllers"
 msgstr "Non é posible configurar o controlador"
 
+msgctxt "#35018"
+msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
+msgstr "A configuración do controlador depende dun complemento desactivado. Queres activalo agora?"
+
 msgctxt "#35049"
 msgid "Game add-ons"
 msgstr "Complementos de xogos"
@@ -12428,6 +12492,26 @@ msgstr "Complementos de xogos"
 msgctxt "#35050"
 msgid "Controller profiles"
 msgstr "Perfil do controlador"
+
+msgctxt "#35051"
+msgid "Test rumble"
+msgstr "Probar a vibración"
+
+msgctxt "#35052"
+msgid "Activate the rumble motors of all controllers."
+msgstr "Activar os motores de vibración de todos os controladores."
+
+msgctxt "#35053"
+msgid "Enable rumble for notifications"
+msgstr "Activar vibracións para as notificacións"
+
+msgctxt "#35054"
+msgid "Activates controller rumble motors when a notification occurs."
+msgstr "Activar os motores de vibración ao recibir notificacións."
+
+msgctxt "#35055"
+msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
+msgstr "Empregar o teclado ou o mando para seleccionar o perfil do controlador. Cando se che pregunte, preme o botón máis axeitado ao que ves na pantalla no teu controlador de xogos. Se te equivocaches podes repetir o proceso."
 
 msgctxt "#35058"
 msgid "Controller Configuration"
@@ -12457,9 +12541,29 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Liga os teus controladores cos diferentes dispositivos dos diferentes sistemas de xogo."
 
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr "Botóns frontais"
+
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr "Botóns laterais"
+
+msgctxt "#35076"
+msgid "Triggers"
+msgstr "Gatillos"
+
 msgctxt "#35077"
 msgid "Analog sticks"
 msgstr "Pancas analóxicas"
+
+msgctxt "#35088"
+msgid "Power off controllers on exit"
+msgstr "Apagar controladores ao saír"
+
+msgctxt "#35089"
+msgid "Powers off any controller that supports it on exit."
+msgstr "Apagar calquera controlador compatíbel ao saír."
 
 msgctxt "#35090"
 msgid "Press %s"
@@ -12565,6 +12669,22 @@ msgctxt "#36008"
 msgid "Devices to power off during shutdown"
 msgstr "Dispositivos a apagar durante o apagado"
 
+msgctxt "#36009"
+msgid "Put devices in standby mode when activating the screensaver"
+msgstr "Por dispositivos en modo de espera cando se active o protector de pantalla"
+
+msgctxt "#36010"
+msgid "Wake devices when deactivating the screensaver"
+msgstr "Espertar os dispositivos ao saír do protector de pantalla"
+
+msgctxt "#36011"
+msgid "Couldn't detect the CEC com port. Please configure it manually."
+msgstr "Non se puido detectar o porto CEC. Configúrao manualmente."
+
+msgctxt "#36012"
+msgid "Couldn't initialise the CEC adapter. Please check your settings."
+msgstr "Non foi posíbel iniciar o adaptador CEC. Por favor, verifica os axustes."
+
 msgctxt "#36015"
 msgid "HDMI port number"
 msgstr "Número de porto HDMI"
@@ -12572,6 +12692,10 @@ msgstr "Número de porto HDMI"
 msgctxt "#36016"
 msgid "Connected"
 msgstr "Conectado"
+
+msgctxt "#36017"
+msgid "Couldn't initialise the CEC adapter: libCEC was not found on your system."
+msgstr "Non foi posíbel iniciar o adaptador CEC: non se atopou libCEC no sistema."
 
 msgctxt "#36018"
 msgid "Use the TV's language setting"
@@ -12597,6 +12721,14 @@ msgctxt "#36024"
 msgid "Failed to set the new configuration. Please check your settings."
 msgstr "Fallo estabrecendo a nova configuración. Por favor, comprobe a súa configuración."
 
+msgctxt "#36025"
+msgid "Send \"Inactive source\" command on shutdown"
+msgstr "Enviar o comando \"Fonte inactiva\" ao apagar"
+
+msgctxt "#36026"
+msgid "Devices to also put in standby mode"
+msgstr "Dispositivos a por tamén en espera"
+
 msgctxt "#36027"
 msgid "This device needs servicing"
 msgstr "Ten de levar este dispositivo ao servizo técnico"
@@ -12612,6 +12744,18 @@ msgstr "Cando a TV está apagada"
 msgctxt "#36030"
 msgid "Connection lost"
 msgstr "Perdeuse a conexión"
+
+msgctxt "#36031"
+msgid "This user does not have permissions to open the CEC adapter"
+msgstr "Este usuario non ten permisos para abrir o adaptador CEC"
+
+msgctxt "#36032"
+msgid "The port is busy. Only one program can access the CEC adapter"
+msgstr "O porto esta ocupado, só un programa pode acceder ao adaptador CEC"
+
+msgctxt "#36033"
+msgid "Action when switching to another source"
+msgstr "Acción ao trocar cara outra fonte"
 
 msgctxt "#36034"
 msgid "Connection established"
@@ -12661,9 +12805,29 @@ msgctxt "#36045"
 msgid "Pause Playback"
 msgstr "Pausar a reprodución"
 
+msgctxt "#36046"
+msgid "Force AVR to wake up when Kodi is activated"
+msgstr "Forzar a activación do AVR cando se active Kodi"
+
+msgctxt "#36099"
+msgid "Dithering"
+msgstr "Entramado"
+
+msgctxt "#36100"
+msgid "Dither depth"
+msgstr "Tramado profundo"
+
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
 msgstr "Mudar a aparencia da Interfade de usuario."
+
+msgctxt "#36102"
+msgid "This category contains all skin related settings."
+msgstr "Esta categoría contén os axustes relacionados cos Temas."
+
+msgctxt "#36103"
+msgid "Select the skin for the user interface. This will define the look and feel of the application."
+msgstr "Selecciona o tema da interface de usuario. Isto mudará a aparencia da aplicación."
 
 msgctxt "#36105"
 msgid "Change the theme associated with your selected skin."
@@ -12680,6 +12844,10 @@ msgstr "Elixir as fontes mostradas na interface de usuario. O conxunto de fontes
 msgctxt "#36108"
 msgid "Resize the view of the user interface."
 msgstr "Redimensionar a vista da interface do usuario."
+
+msgctxt "#36110"
+msgid "Select or disable the sounds used in the user interface."
+msgstr "Selecciona ou desactiva os sons empregados pola interface de usuario."
 
 msgctxt "#36111"
 msgid "Turn this off to remove the scrolling RSS news ticker."
@@ -13057,6 +13225,26 @@ msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "Escoller tres localizacións para poder amosar a súa meteoroloxía."
 
+msgctxt "#36320"
+msgid "This category contains the settings used for all services."
+msgstr "Esta categoría contén os axustes comúns para todos os servizos."
+
+msgctxt "#36321"
+msgid "The name to display for this device when using various network services."
+msgstr "O nome a amosar para este servizo ao empregar diferentes servizos de redes."
+
+msgctxt "#36322"
+msgid "This category contains the settings for how the UPnP service is handled. UPnP is also called DLNA on most consumer electronics."
+msgstr "Esta categoría contén os axustes do comportamento do servizo UPnP. O UPnP chamase tamén DLNA en moitos produtos electrónicos."
+
+msgctxt "#36323"
+msgid "Enables the UPnP server. This allows you to stream media in your libraries to a UPnP client."
+msgstr "Activa o servidor UPnP. Isto permíteche transmitir a clientes UPnP fluxos de medios da túa biblioteca."
+
+msgctxt "#36324"
+msgid "When a manual or automatic library update occurs, notify UPnP clients."
+msgstr "Notificar aos clientes UPnP cando se actualice manual ou automaticamente a biblioteca."
+
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
 msgstr "Activa o cliente UPnP. Permítelle transmitir fluxos dende calquera servidor UPnP cun punto de control e controlar a reprodución dende ese servidor."
@@ -13109,6 +13297,10 @@ msgctxt "#36348"
 msgid "If a WINS server is running on the network, enter its workgroup name here. Otherwise, leave blank."
 msgstr "Se un servidor WINS está presente na rede, introduza aquí o nome de grupo, se non deixar baleiro."
 
+msgctxt "#36351"
+msgid "Changes the way this application is displayed on the selected screen. Either in a window or fullscreen."
+msgstr "Muda a forma en que a aplicación é amosada na pantalla seleccionada. Tanto nunha xanela como a pantalla completa."
+
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
 msgstr "Trocar a resolución da interface de usuario."
@@ -13133,6 +13325,10 @@ msgctxt "#36360"
 msgid "This category contains the settings for how audio output is handled."
 msgstr "Está categoría contén os axustes da xestión da saída de son."
 
+msgctxt "#36362"
+msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
+msgstr "Seleccionar o número de canles soportadas pola conexión de son, ou o número de altofalantes se ten conexións analóxicas. Este axuste non se aplica ao son de paso a través. Nota: S/PDIF só soporta canles 2.0 aínda que pode emitir son multicanle empregando un formato soportado mediante paso a través."
+
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
 msgstr "Aumentar o volume nos fluxos AC3 que fosen remesturadas para 2 canles."
@@ -13145,13 +13341,17 @@ msgctxt "#36366"
 msgid "Select this option if your receiver is capable of decoding DTS streams."
 msgstr "Escolla esta opción se o seu receptor pode decodificar fluxos DTS."
 
+msgctxt "#36367"
+msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
+msgstr "Selecciona o número máximo de canles de son / altofalantes dispoñibles para o son descodificado. De empregar saídas dixitais ópticas/coaxiais, axustar a 2.0"
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
-msgstr "Escolla esta opción se o seu receptor pode decodificar fluxos TrueHD."
+msgstr "Escolla esta opción se o seu receptor pode descodificar fluxos TrueHD."
 
 msgctxt "#36370"
 msgid "Select this option if your receiver is capable of decoding DTS-HD streams."
-msgstr "Escolla esta opción se o seu receptor pode decodificar fluxos DTS-HD."
+msgstr "Escolla esta opción se o seu receptor pode descodificar fluxos DTS-HD."
 
 msgctxt "#36371"
 msgid "Select the device to be used for playback of audio that has been decoded such as mp3."
@@ -13172,6 +13372,10 @@ msgstr "Cando se activa, as flechas do seu teclado moverán a selección no tecl
 msgctxt "#36378"
 msgid "Use a joystick to control the interface."
 msgstr "Empregar o joystick para controlar o interface."
+
+msgctxt "#36379"
+msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
+msgstr "Esta categoría contén os axustes para o acceso a internet. A interface web predefinida pódese seleccionar aquí."
 
 msgctxt "#36381"
 msgid "Configure which proxy type is used."
@@ -13293,6 +13497,10 @@ msgctxt "#36428"
 msgid "Record"
 msgstr "Gravar"
 
+msgctxt "#36429"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
+msgstr "Seleccionar se a conexión de saída de son só soporta son multicanle como o Dolby Digital 5.1 (AC-3), así como a conexión S/PDIF. Se o teu sistema é compatíbel co son multicanle PCM vía HDMI, deixa isto desactivado."
+
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
 msgstr "Configurar a aceleración no procesado de vídeo. Isto inclúe cousas coma a decodificación e o escalado."
@@ -13409,6 +13617,10 @@ msgctxt "#36532"
 msgid "Same as movie"
 msgstr "O mesmo do filme"
 
+msgctxt "#36533"
+msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
+msgstr "Seleccionar como é mesturado o son, do 5.1 ao 2.0.[CR][Activado]Mantén o nivel de volume da fonte do son orixinal pero o rango dinámico comprímese.[CR][Desactivado] Mantén o rango dinámico da fonte orixinal do son cando é mesturado aínda que o volume será menor. Nota: Rango dinámico é a diferenza entre os sons máis baixos e altos nunha fonte de son. Activa este axuste se apenas escoitas os diálogos nos filmes."
+
 msgctxt "#36535"
 msgid "Stereoscopic 3D mode of video"
 msgstr "Modo de vídeo 3D estereoscópico"
@@ -13460,6 +13672,10 @@ msgstr "Modo de xestión da cor"
 msgctxt "#36564"
 msgid "3D LUT"
 msgstr "3D LUT"
+
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "Selecciona o ficheiro 3DLUT para se empregar por defecto. Se gardas varios ficheiros 3DLUT no mesmo cartafol, poderás trocar entre eles no menú OSD durante a reprodución de vídeo. Isto permite diferentes perfís de visualización a ter en conta en diferentes contornos, por exemplo gamma 2.2 na vista diúrna e a 2.4 na nocturna."
 
 msgctxt "#36566"
 msgid "ICC display profile"
@@ -13735,7 +13951,7 @@ msgstr "Buscar en"
 
 msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
-msgstr "Escolla esta opción se o seu receptor pode decodificar fluxos Dolby Digital Plus (E-AC3)."
+msgstr "Selecciona esta opción se o teu receptor pode descodificar fluxos Dolby Digital Plus (E-AC3)."
 
 msgctxt "#37017"
 msgid "Dual audio output"
@@ -13760,6 +13976,10 @@ msgstr "Rerpodutor UPnP"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "Tes a certeza de querer deter a reprodución no dispositivo remoto?"
+
+msgctxt "#37024"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
+msgstr "Seleccionar se a conexión da saída de son só é compatíbel co son multicanle como Dolby Digital 5.1 (AC3), isto permite que sistemas como AAC 5.1 ou FLAC 5.1 poidan escoitarse en surround 5.1. Nota: Non se recomenda o seu uso no Raspberry Pi polo uso intenso da CPU."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -13789,9 +14009,17 @@ msgctxt "#37032"
 msgid "Accessibility"
 msgstr "Accesibilidade"
 
+msgctxt "#37040"
+msgid "Prefer default audio streams"
+msgstr "Preferir os fluxos de son predefinidos"
+
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
 msgstr "Extraer as miniaturas do capítulo"
+
+msgctxt "#37045"
+msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
+msgstr "Extraer as miniaturas do capítulo para presentalas no diálogo de capítulos / marcadores. Pode incrementar a carga da CPU."
 
 msgctxt "#38010"
 msgid "GPU accelerated"
@@ -13893,6 +14121,10 @@ msgctxt "#38039"
 msgid "Producer"
 msgstr "Produtor"
 
+msgctxt "#38040"
+msgid "DJMixer"
+msgstr "DJMixer"
+
 msgctxt "#38041"
 msgid "Mixer"
 msgstr "Mesturador"
@@ -13909,9 +14141,33 @@ msgctxt "#38044"
 msgid "Song & album artists"
 msgstr "Artistas da canción e álbum"
 
+msgctxt "#38045"
+msgid "All contributors"
+msgstr "Todos os colaboradores"
+
+msgctxt "#38046"
+msgid "All roles"
+msgstr "Todos os roles"
+
 msgctxt "#38060"
 msgid "Music library needs to rescan tags from files. Would you like to scan now?"
 msgstr "A biblioteca de música precisa de volver verificar as etiquetas dos ficheiros. Comezar agora?"
+
+msgctxt "#38061"
+msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
+msgstr "Obter información adicional para os álbums e artistas? Isto pode levar tempo e é posíbel que desexes facelo máis tarde"
+
+msgctxt "#38100"
+msgid "Section that contains the settings for the playback of media"
+msgstr "Sección que contén os axustes da reprodución de medios"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown, and navigated"
+msgstr "Sección que contén os axustes para as fontes e como é obtida, gardada, amosada e como navegar pola información dos medios"
+
+msgctxt "#38102"
+msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
+msgstr "Sección que contén os axustes que inflúen na experiencia e o control do GUI/Sistema"
 
 msgctxt "#38103"
 msgid "This category contains the settings for the playback of videos"
@@ -13928,6 +14184,18 @@ msgstr "Esta categoría contén os axustes do pase de fotos a través de diaposi
 msgctxt "#38106"
 msgid "This category contains the settings for audio & subtitle language"
 msgstr "Esta categoría contén os axustes do idioma do son e subtítulos"
+
+msgctxt "#38107"
+msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
+msgstr "Esta categoría contén os axustes de como é obtida, gardada, amosada e a forma de navegar pola información dos vídeos"
+
+msgctxt "#38108"
+msgid "This category contains the settings for how information for music is collected, stored, shown, and navigated"
+msgstr "Esta categoría contén os axustes de como é obtida, gardada, amosada e a forma de navegar pola información da música"
+
+msgctxt "#38109"
+msgid "This category contains the settings for how information for pictures is shown and navigated"
+msgstr "Esta categoría contén os axustes de como é amosada e a forma de navegar pola información das fotos"
 
 msgctxt "#38110"
 msgid "This category contains the settings for the library databases"
@@ -13960,6 +14228,14 @@ msgstr "Acelerar MPEG4"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Acelerar h264"
+
+msgctxt "#39008"
+msgid "Zoom - 120% width"
+msgstr "Zoom - 120% de largura"
+
+msgctxt "#39009"
+msgid "Zoom - 110% width"
+msgstr "Zoom - 110% de largura"
 
 msgctxt "#39010"
 msgid "Select sort method"
