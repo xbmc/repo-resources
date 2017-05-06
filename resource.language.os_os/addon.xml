@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.os_os"
+  version="1.0.1"
+  name="Ossetic"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="os_OS">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Ossetic language pack</summary>
+    <description lang="en">Ossetic version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
