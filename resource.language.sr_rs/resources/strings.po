@@ -11297,6 +11297,10 @@ msgctxt "#24083"
 msgid "Information libraries"
 msgstr "Библиотеке података"
 
+msgctxt "#24084"
+msgid "Add-on installed"
+msgstr "Додатни програм инсталиран"
+
 msgctxt "#24085"
 msgid "Failed to install a dependency"
 msgstr "Неуспело инсталирање зависности"
@@ -11333,9 +11337,17 @@ msgctxt "#24093"
 msgid "Checking %s..."
 msgstr "Провера %s..."
 
+msgctxt "#24094"
+msgid "Add-on disabled due to being marked broken in repository."
+msgstr "Додатни програм је онемогућен јер је означен као покварен у спремишту."
+
 msgctxt "#24095"
 msgid "Local package cache"
 msgstr "Кеш локалних пакета"
+
+msgctxt "#24096"
+msgid "Add-on has been marked broken in repository."
+msgstr "Додатни програм је означен као покварен у спремишту."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -12537,9 +12549,17 @@ msgctxt "#35012"
 msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
 msgstr "Нови контролер је откривен. Подешавање може бити извршено у било ком тренутку у \"Подешавања -> Подешавања Система -> Улаз\". Да ли желите сада да га подесите?"
 
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]%s"
+msgstr "Неки контролери имају тастере и осе који ометају мапирање. Притисните их сада да би их онемогућили:[CR]%s"
+
 msgctxt "#35015"
 msgid "Button %d"
 msgstr "Тастер %d"
+
+msgctxt "#35016"
+msgid "Axis %d"
+msgstr "Оса %d"
 
 msgctxt "#35017"
 msgid "Unable to configure controllers"
@@ -12548,6 +12568,10 @@ msgstr "Није могуће подесити контролере"
 msgctxt "#35018"
 msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
 msgstr "Подешавање контролера зависи од онемогућеног додатног програма. Да ли бисте желели да га омогућите?"
+
+msgctxt "#35019"
+msgid "Ignore input"
+msgstr "Игнорисати унос"
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -12564,6 +12588,14 @@ msgstr "Провера вибрације"
 msgctxt "#35052"
 msgid "Activate the rumble motors of all controllers."
 msgstr "Активирати вибрационе моторе свих контролера."
+
+msgctxt "#35053"
+msgid "Enable rumble for notifications"
+msgstr "Омогући вибрације за обавештења"
+
+msgctxt "#35054"
+msgid "Activates controller rumble motors when a notification occurs."
+msgstr "Активира вибрационе моторе контролера када се обавештење појави."
 
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
@@ -12940,6 +12972,10 @@ msgstr "Бира језик корисничког интерфејса."
 msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "Одаберите облик приказа за температуру, време и датум. Доступне опције зависе од одабраног језика."
+
+msgctxt "#36116"
+msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
+msgstr "Изаберите који се скуп знакова користи за приказивање текста у корисничком интерфејсу. Ово не мења скуп знакова који се користи за титлове, за то идите у Уређај за репродукцију > Језик."
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -14385,17 +14421,33 @@ msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "ICC профил приказа"
 
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "Обезбеђивањем профила приказа, можете променити видео параметре као што су опсег боје, основне боје и белу тачку током репродукције. Профил ICC извора је направљен на основу параметара и повезан са ICC профилом приказа постављеним овде. Ова подршка је експериментална и недостаје јој подешавање за близину црне боје према изворној црној боји екрана (проузрокује повишене нивое црне боје) и скалирање нивоа беле боје када је другачија бела тачка од изворне екрана одабрана (као заобилазно решење, смањите осветљење видеа да би избегли одсецања)"
+
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Бела тачка"
+
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "Промена беле тачке видеа у D93 је углавном корисна за старији Јапански NTSC материјал који изгледа превише црвено када се репродукује на D65 екрану. Смањите осветљење видеа да би избегли одсецања на изворну белу тачку екрана."
 
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Примарни"
 
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "Одаберите координате примарне боје према материјалу извора. Старији HD материјал је можда мастерован на екранима са BT.601 основним бојама."
+
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Режим опсега боје"
+
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Одаберите формулу криве опсега боја. Користите BT.1886 за криву опсега боја која узима у обзир нивое црне и беле боје екрана и избегава видљиво одсецање. Користите померај улаза за сличну криву са ручно одређеним ефективним опсегом боје. Померај излаза дозвољава видљиво одсецање, али се може користити ради компензације неисправних подешавања мастеровања екрана која воде ка превише светлим тамним детаљима. Апсолутни опсег боје уопште не узима у обзир црну боју екрана и одсећи ће најниже нивое на црну боју екрана на свим екранима са нивоом црне боје већим од нуле."
 
 msgctxt "#36574"
 msgid "Gamma"
@@ -14408,6 +14460,10 @@ msgstr "Опсег боје за одабрану врсту криве опсе
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Величина табеле претраживања"
+
+msgctxt "#36577"
+msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
+msgstr "Одредите резолуцију за 3D табелу претраживања. Користите нижу резолуцију за брзи преглед и вишу резолуцију за тачнију слику. При коришћењу високе резолуције може бити потребно пар секунди за припрему када се параметри промене или се нови видео започне."
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14481,6 +14537,14 @@ msgctxt "#36597"
 msgid "%1.2f"
 msgstr "%1.2f"
 
+msgctxt "#36598"
+msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
+msgstr "Уклања црте проузроковане конверзијом RGB нивоа или другим обрадама додавањем мале количине шума слици. Ово може бити онемогућено за спорије системе, или када је Kodi постављен на ограничен опсег RGB излаза и нема потребе за видео обрадом."
+
+msgctxt "#36599"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "Прецизност у битима излаза видео подрхтавања. Користите највише подешавање које не приказује црте. Подразумеваних 8 је препоручено за већину система. Ако је ваш GPU постављен да скалира RGB нивое излаза или користите екран лаптопа, подешавање од 7 или 6 бита може елиминисати више црта. Нижа подешавања су доступна за тестирање само да би се лакше видело да ли је подрхтавање примењено и да се величина пиксела шума подрхтавања подудара са резолуцијом екрана."
+
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
 msgstr "Ова категорија садржи подешавања како ће се поступати према музичкој библиотеци."
@@ -14529,6 +14593,10 @@ msgctxt "#36612"
 msgid "Show notification when an add-on have been updated."
 msgstr "Прикажи обавештење након ажурирања додатних програма."
 
+msgctxt "#36613"
+msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
+msgstr "Управљајте модулима и библиотекама подршке који су аутоматски инсталирани као зависност од стране других додатних програма. Ставке означене као \"Напуштено\" нису више потребне ниједном додатном програму и могу се безбедно деинсталирати."
+
 msgctxt "#36614"
 msgid "Show add-ons that are currently running in the background."
 msgstr "Прикажи додатне програме који се тренутно извршавају у позадини."
@@ -14544,6 +14612,10 @@ msgstr "Дозволи инсталацију додатних програма 
 msgctxt "#36617"
 msgid "For security, installation of add-ons from unknown sources is disabled."
 msgstr "Ради безбедности, инсталација додатних програма од непознатих извора је онемогућена."
+
+msgctxt "#36618"
+msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
+msgstr "Додатним програмима ће бити дат приступ личним подацима сачуваним на овом уређају. Дозвољавањем, ви прихватате да се само ви одговорни за било који губитак података, непожељно понашање, или оштећење вашег уређаја. Наставити?"
 
 msgctxt "#36619"
 msgid "High quality downscaling"
@@ -14848,6 +14920,10 @@ msgstr "Изгледи"
 msgctxt "#38027"
 msgid "Decode the stereo stream from 3D files"
 msgstr "Декодирај стерео запис из 3D датотека"
+
+msgctxt "#38028"
+msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
+msgstr "Ако је омогућено, видеи направљени у Multiview Video Coding (MVC) формату могу такође бити гледани у стереоскопском 3D. MVC формат се обично налази на 3D Blu-ray-евима.[CR]Напомена: Обрада ових података може умањити перформансе репродукције, омогућите само ако вам је потребна подршка стереоскопског 3D."
 
 msgctxt "#38029"
 msgid "Enable Full HD HDMI modes for stereoscopic 3D"

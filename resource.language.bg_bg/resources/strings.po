@@ -1131,7 +1131,7 @@ msgstr "Език на потребителския интерфейс"
 
 msgctxt "#310"
 msgid "Keyboard layouts"
-msgstr "Клавиатурни подредби"
+msgstr "Клавишни подредби"
 
 msgctxt "#311"
 msgid "%s %s"
@@ -2611,7 +2611,7 @@ msgstr "Без парола"
 
 msgctxt "#735"
 msgid "Character set"
-msgstr "Кодировка"
+msgstr "Набор от знаци"
 
 msgctxt "#736"
 msgid "Style"
@@ -5623,7 +5623,7 @@ msgstr "Международни"
 
 msgctxt "#14091"
 msgid "Character set"
-msgstr "Кодировка"
+msgstr "Набор от знаци"
 
 msgctxt "#14092"
 msgid "Logging"
@@ -10511,7 +10511,7 @@ msgstr "Цветове"
 
 msgctxt "#22033"
 msgid "Charset"
-msgstr "Кодировка"
+msgstr "Набор от знаци"
 
 msgctxt "#22079"
 msgid "Default select action"
@@ -11761,6 +11761,14 @@ msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
 msgstr "...когато не се възпроизвежда звук.[CR][Винаги] чрез непрекъснат изходящ сигнал, който не можете да чуете, приемникът няма да се изключи, но звуци от други приложения може да бъдат блокирани.[CR][1-10 минути] действа като [Винаги], но след избрания период изходящия сигнал спира.[CR][Изключено] аудио изxода се привежда в суспендирано състояние. БЕЛЕЖКА: при последните два режима е възможно пропускане на част от аудио сигнала - докато приемникът се приведе в работен режим от суспендирано/изключено състояние!"
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Генерирай шум"
+
+msgctxt "#34113"
+msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
+msgstr "Изключете опцията ако ползвате слушалки или аналогов изход. Някои приемници се изключват автоматично ако не получават сигнал. За да се предотврати изключването се генерира звуков сигнал, който не се чува."
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Озвучавай потребителския интерфейс"
@@ -12229,6 +12237,10 @@ msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "Изберете формат за температура, датата и часа. Наличните опции зависят от избрания език за потребителския интерфейс. "
 
+msgctxt "#36116"
+msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
+msgstr "Изберете кой набор от знаци да се ползва за изобразяване на текста в потребителския интерфейс. Знаковият набор за субтитри се определя от Плейър > Език."
+
 msgctxt "#36117"
 msgid "Select country location."
 msgstr "Изберете местоположението на страната, в която се намирате."
@@ -12503,7 +12515,7 @@ msgstr "Изберете цвета на шрифта, който ще се по
 
 msgctxt "#36189"
 msgid "Set the font character set to be used for subtitles."
-msgstr "Изберете коя кодировка да се ползва за изобразяване на субтитрите."
+msgstr "Изберете кой набор от знаци да се ползва за изобразяване на субтитрите."
 
 msgctxt "#36190"
 msgid "Override ASS / SSA subtitles fonts."
@@ -13603,7 +13615,7 @@ msgstr "Поради съображения за сигурност инстал
 
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
-msgstr "Добавките имат директен достъп до личните ви данни на устройството. Разрешавайки инсталирането им поемате отговорността за евентуална загуба на данни, нежелани действия и повреди на устройството, които могат да бъдат причинени от добавките. Разрешавате ли инсталирането им?"
+msgstr "Добавките имат директен достъп до личните ви данни. Разрешавайки инсталирането им поемате отговорността за евентуална загуба на данни, нежелани действия и повреди на устройството, които могат да бъдат причинени от добавките. Разрешавате ли инсталирането им?"
 
 msgctxt "#36900"
 msgid "movie"
