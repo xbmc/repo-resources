@@ -2627,7 +2627,7 @@ msgstr "Peegelketas"
 
 msgctxt "#750"
 msgid "Are you sure?"
-msgstr "Oled sa kindel?"
+msgstr "Kas oled kindel?"
 
 msgctxt "#751"
 msgid "Removing source"
@@ -2777,6 +2777,10 @@ msgctxt "#793"
 msgid "Port range"
 msgstr "Pordi vahemik"
 
+msgctxt "#794"
+msgid "Allow remote control by programs on other systems"
+msgstr "Luba teistes süsteemides programmidega kaughaldus"
+
 msgctxt "#795"
 msgid "Initial repeat delay (ms)"
 msgstr "Ühekordne viivitus (ms)"
@@ -2804,6 +2808,10 @@ msgstr "{0:s} {1:s}st saadaval"
 msgctxt "#803"
 msgid "Type"
 msgstr "Tüüp"
+
+msgctxt "#804"
+msgid "Search guide for"
+msgstr "Otsi telekavast"
 
 msgctxt "#807"
 msgid "Any day"
@@ -11003,19 +11011,111 @@ msgstr "Uuenda kõik"
 
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
-msgstr "Pane esitatav video subtiitrite otsimiseks pausile ja jätka esitamist, kui subtiitrid on saadaval."
+msgstr "Pane video subtiitrite otsimise ajaks pausile ja jätka esitamist, kui subtiitrid on saadaval."
+
+msgctxt "#24124"
+msgid "Next to the video"
+msgstr "Video kõrval"
+
+msgctxt "#24125"
+msgid "Custom location"
+msgstr "Kohandatud asukoht"
+
+msgctxt "#24126"
+msgid "Auto download first subtitle"
+msgstr "Lae esimene subtiiter automaatselt alla"
+
+msgctxt "#24127"
+msgid "Automatically download first subtitle from the search result list"
+msgstr "Lae otsingu tulemusest automaatselt alla esimene subtiiter"
+
+msgctxt "#24128"
+msgid "Configuration has been moved"
+msgstr "Seadistus teisaldatud"
+
+msgctxt "#24129"
+msgid "The configuration of XBMC has been moved to the new location for Kodi. Please refer to http://kodi.wiki/view/Migration - this message will not be shown again!"
+msgstr "XBMC seadistus on teisaldatud Kodi jaoks uude asukohta. Loe lähemalt aadressilt http://kodi.wiki/view/Migration - enam seda sõnumit ei kuvata!"
+
+msgctxt "#24132"
+msgid "Would you like to switch to this language?"
+msgstr "Kas soovid seda keelt kasutada?"
+
+msgctxt "#24133"
+msgid "Failed to load language"
+msgstr "Keele allalaadimine ebaõnnestus"
+
+msgctxt "#24134"
+msgid "We were unable to load your configured language. Please check your language settings."
+msgstr "Seadistatud keele laadimine ebaõnnestus. Kontrolli keeleseadeid."
 
 msgctxt "#24135"
 msgid "Audio DSP"
 msgstr "Heli DSP"
 
+msgctxt "#24136"
+msgid "Audio DSP..."
+msgstr "Heli DSP..."
+
+msgctxt "#24137"
+msgid "Not allowed"
+msgstr "Keelatud"
+
+msgctxt "#24138"
+msgid "DSP add-on is currently in use and can't be removed."
+msgstr "DSP lisamoodul on praegu kasutuses ja seda ei saa eemaldada."
+
+msgctxt "#24139"
+msgid "View Add-on"
+msgstr "Kuva lisamoodul"
+
 msgctxt "#24140"
 msgid "View"
-msgstr "Vaata"
+msgstr "Kuva"
 
 msgctxt "#24141"
 msgid "Add-on disabled"
-msgstr "Lisamoodul ei ole lubatud"
+msgstr "Lisamoodul keelatud"
+
+msgctxt "#24143"
+msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+msgstr "Lisamooduli paigaldamine zip-failist asukohas {0:s} ebaõnnestus vale struktuuri tõttu."
+
+msgctxt "#24144"
+msgid "Add-on uninstalled"
+msgstr "Lisamoodul eemaldatud"
+
+msgctxt "#24145"
+msgid "Video library scanner"
+msgstr "Videoteegi skänner"
+
+msgctxt "#24146"
+msgid "Music library scanner"
+msgstr "Muusikateegi skänner"
+
+msgctxt "#24148"
+msgid "Incompatible add-ons"
+msgstr "Sobimatud lisamoodulid"
+
+msgctxt "#24149"
+msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: {0:s}."
+msgstr "Järgmised lisamoodulid ei ühildu selle Kodi versiooniga ja on automaatselt keelatud: {0:s}."
+
+msgctxt "#24150"
+msgid "Database migration in progress - please wait"
+msgstr "Andmebaasi migreerimine - palun oota"
+
+msgctxt "#24151"
+msgid "Add-on migration in progress - please wait"
+msgstr "Lisamooduli migreerimine - palun oota"
+
+msgctxt "#24152"
+msgid "The add-on is not compatible with this version of Kodi."
+msgstr "Lisamoodul ei ühildu selle Kodi versiooniga."
+
+msgctxt "#24991"
+msgid "Could not connect to repository."
+msgstr "Repositooriumiga ühendamine ebaõnnestus."
 
 msgctxt "#24992"
 msgid "System"
@@ -11029,6 +11129,14 @@ msgctxt "#24994"
 msgid "Running"
 msgstr "Töötab"
 
+msgctxt "#24998"
+msgid "My add-ons"
+msgstr "Minu lisad"
+
+msgctxt "#24999"
+msgid "Hide incompatible"
+msgstr "Peida mitteühilduvad"
+
 msgctxt "#25000"
 msgid "Notifications"
 msgstr "Teated"
@@ -11041,21 +11149,81 @@ msgctxt "#25002"
 msgid "Select from all titles ..."
 msgstr "Vali kõikidest nimetustest..."
 
+msgctxt "#25003"
+msgid "Show Blu-ray menu"
+msgstr "Kuva Blu-ray menüü"
+
+msgctxt "#25004"
+msgid "Play main title: {0:d}"
+msgstr "Esita põhinimetus: {0:d}"
+
+msgctxt "#25005"
+msgid "Title: {0:d}"
+msgstr "Pealkiri: {0:d}"
+
 msgctxt "#25006"
 msgid "Select playback item"
-msgstr "Vali esitatav nimetus"
+msgstr "Vali esitatav kirje"
+
+msgctxt "#25007"
+msgid "Chapters: {0:d} - duration: {1:s}"
+msgstr "Peatükke: {0:d} - kestvus: {1:s}"
+
+msgctxt "#25008"
+msgid "Playback of Blu-ray failed"
+msgstr "Blu-ray esitus ebaõnnestus"
+
+msgctxt "#25009"
+msgid "The menu of this Blu-ray is not supported"
+msgstr "Blu-ray menüüd ei toetata"
+
+msgctxt "#25010"
+msgid "Chapter {0:d}"
+msgstr "Peatükk {0:d}"
+
+msgctxt "#25011"
+msgid "Commercial"
+msgstr "Reklaam"
+
+msgctxt "#25012"
+msgid "Auto-skip off"
+msgstr "Autom. vahele jätmine väljas"
+
+msgctxt "#25013"
+msgid "Auto-skip on"
+msgstr "Autom. vahele jätmine sees"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "QWERTY klaviatuur"
 
+msgctxt "#29803"
+msgid "BD-J menu error"
+msgstr "BD-J menüü viga"
+
+msgctxt "#29901"
+msgid "Band"
+msgstr "Bänd"
+
 msgctxt "#29902"
 msgid "Style"
 msgstr "Stiil"
 
+msgctxt "#29903"
+msgid "Composer"
+msgstr "Helilooja"
+
 msgctxt "#29904"
 msgid "Artist"
 msgstr "Artist"
+
+msgctxt "#29905"
+msgid "Conductor"
+msgstr "Dirigent"
+
+msgctxt "#29908"
+msgid "Program"
+msgstr "Programm"
 
 msgctxt "#29909"
 msgid "Studio"
@@ -11065,37 +11233,265 @@ msgctxt "#29910"
 msgid "Phone"
 msgstr "Telefon"
 
+msgctxt "#29911"
+msgid "EMail"
+msgstr "Epost"
+
+msgctxt "#29912"
+msgid "SMS"
+msgstr "SMS"
+
+msgctxt "#29913"
+msgid "Hotline"
+msgstr "Infotelefon"
+
+msgctxt "#29914"
+msgid "Website"
+msgstr "Veebileht"
+
 msgctxt "#29915"
 msgid "Info"
 msgstr "Info"
+
+msgctxt "#29916"
+msgid "News"
+msgstr "Uudised"
+
+msgctxt "#29917"
+msgid "News local"
+msgstr "Kohalikud uudised"
+
+msgctxt "#29918"
+msgid "Sport"
+msgstr "Sport"
+
+msgctxt "#29919"
+msgid "Lottery"
+msgstr "Loto"
+
+msgctxt "#29920"
+msgid "Stock"
+msgstr "Aktsiad"
 
 msgctxt "#29921"
 msgid "Other"
 msgstr "Muu"
 
+msgctxt "#29922"
+msgid "Horoscope"
+msgstr "Horoskoop"
+
+msgctxt "#29926"
+msgid "Adult hits"
+msgstr "Täiskasvanute lemmikud"
+
+msgctxt "#29927"
+msgid "Spanish talk"
+msgstr "Hispaaniakeelne jutt"
+
+msgctxt "#29928"
+msgid "Spanish music"
+msgstr "Hispaania muusika"
+
+msgctxt "#29929"
+msgid "Hip hop"
+msgstr "Hip-hop"
+
+msgctxt "#29931"
+msgid "Radio message"
+msgstr "Raadiosõnum"
+
 msgctxt "#29932"
 msgid "Language"
 msgstr "Keel"
+
+msgctxt "#29935"
+msgid "Public"
+msgstr "Avalik"
+
+msgctxt "#29936"
+msgid "Soft music"
+msgstr "Kerge muusika"
+
+msgctxt "#29937"
+msgid "Adult hits"
+msgstr "Täiskasvanute lemmikud"
+
+msgctxt "#29939"
+msgid "Talk"
+msgstr "Vestlus"
+
+msgctxt "#29940"
+msgid "No programme type"
+msgstr "Programmitüüp puudub"
+
+msgctxt "#29941"
+msgid "News"
+msgstr "Uudised"
+
+msgctxt "#29942"
+msgid "Current affairs"
+msgstr "Päevakaja"
 
 msgctxt "#29943"
 msgid "Information"
 msgstr "Informatsioon"
 
+msgctxt "#29944"
+msgid "Sport"
+msgstr "Sport"
+
+msgctxt "#29945"
+msgid "Education"
+msgstr "Haridus"
+
 msgctxt "#29946"
 msgid "Drama"
 msgstr "Draama"
+
+msgctxt "#29947"
+msgid "Culture"
+msgstr "Kultuur"
+
+msgctxt "#29948"
+msgid "Science"
+msgstr "Teadus"
+
+msgctxt "#29949"
+msgid "Varied"
+msgstr "Vahelduv"
+
+msgctxt "#29950"
+msgid "Pop music"
+msgstr "Popmuusika"
+
+msgctxt "#29951"
+msgid "Rock music"
+msgstr "Rokkmuusika"
+
+msgctxt "#29952"
+msgid "Easy listening music"
+msgstr "Lihtne kuulata"
+
+msgctxt "#29953"
+msgid "Light classical"
+msgstr "Kerge klassika"
+
+msgctxt "#29954"
+msgid "Serious classical"
+msgstr "Sügav klassika"
+
+msgctxt "#29955"
+msgid "Other music"
+msgstr "Muu muusika"
 
 msgctxt "#29956"
 msgid "Weather"
 msgstr "Ilm"
 
+msgctxt "#29957"
+msgid "Finance"
+msgstr "Rahandus"
+
+msgctxt "#29958"
+msgid "Children's Programmes"
+msgstr "Lasteprogramm"
+
+msgctxt "#29959"
+msgid "Social Affairs"
+msgstr "Kõmuuudised"
+
 msgctxt "#29960"
 msgid "Religion"
 msgstr "Religioon"
 
+msgctxt "#29962"
+msgid "Travel"
+msgstr "Reisimine"
+
+msgctxt "#29963"
+msgid "Leisure"
+msgstr "Vaba aeg"
+
+msgctxt "#29964"
+msgid "Jazz Music"
+msgstr "Džässmuusika"
+
+msgctxt "#29965"
+msgid "Country Music"
+msgstr "Kantrimuusika"
+
+msgctxt "#29966"
+msgid "National Music"
+msgstr "Rahvusmuusika"
+
+msgctxt "#29968"
+msgid "Folk Music"
+msgstr "Folkmuusika"
+
 msgctxt "#29969"
 msgid "Documentary"
 msgstr "Dokumentaal"
+
+msgctxt "#29970"
+msgid "Alarm Test"
+msgstr "Äratuse proov"
+
+msgctxt "#29971"
+msgid "Alarm"
+msgstr "Äratus"
+
+msgctxt "#29977"
+msgid "Classic rock music"
+msgstr "Klassikaline rokkmuusika"
+
+msgctxt "#29978"
+msgid "Classical"
+msgstr "Klassikaline"
+
+msgctxt "#29979"
+msgid "Nostalgia"
+msgstr "Nostalgia"
+
+msgctxt "#29980"
+msgid "Enable RDS for radio channels"
+msgstr "Luba raadiojaamadele RDS"
+
+msgctxt "#29981"
+msgid "RDS data can be used if present"
+msgstr "Kui on saadaval, siis saab kasutada RDS andmeid"
+
+msgctxt "#29987"
+msgid "Remixers"
+msgstr "Remiksijad"
+
+msgctxt "#29988"
+msgid "Arrangers"
+msgstr "Arranžeerijad"
+
+msgctxt "#29989"
+msgid "Composers"
+msgstr "Heliloojad"
+
+msgctxt "#29990"
+msgid "Conductors"
+msgstr "Dirigendid"
+
+msgctxt "#29991"
+msgid "DJ Mixers"
+msgstr "DJ-d"
+
+msgctxt "#29992"
+msgid "Lyricists"
+msgstr "Laulusõnade autorid"
+
+msgctxt "#29993"
+msgid "Orchestras"
+msgstr "Orkestrid"
+
+msgctxt "#29994"
+msgid "Roles"
+msgstr "Rollid"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -11139,7 +11535,7 @@ msgstr "Määra allalaadimiste kaust"
 
 msgctxt "#33011"
 msgid "Search duration"
-msgstr "Otsingu kestvus"
+msgstr "Otsingu kestus"
 
 msgctxt "#33012"
 msgid "Short"
@@ -11155,7 +11551,7 @@ msgstr "Kasuta DVD-mängijat tavalise mängija asemel"
 
 msgctxt "#33015"
 msgid "Ask for download before playing video"
-msgstr "Küsi allalaadimise kinnitust enne video mängimist"
+msgstr "Küsi allalaadimise kinnitust enne video esitamist"
 
 msgctxt "#33016"
 msgid "Clips"
@@ -11163,11 +11559,15 @@ msgstr "Klipid"
 
 msgctxt "#33017"
 msgid "Restart plug-in to enable"
-msgstr "Võimaldamiseks taaskäivita lisamoodul"
+msgstr "Lubamiseks taaskäivita lisamoodul"
 
 msgctxt "#33018"
 msgid "Tonight"
 msgstr "Täna õhtul"
+
+msgctxt "#33019"
+msgid "Tomorrow night"
+msgstr "Homme öösel"
 
 msgctxt "#33020"
 msgid "Condition"
@@ -11187,7 +11587,7 @@ msgstr "Niiskus"
 
 msgctxt "#33024"
 msgid "Feels"
-msgstr "Tundub kui"
+msgstr "Tajutav"
 
 msgctxt "#33025"
 msgid "Observed"
@@ -11221,6 +11621,14 @@ msgctxt "#33032"
 msgid "Translate text"
 msgstr "Tõlgi tekst"
 
+msgctxt "#33033"
+msgid "Map list {0:s} category"
+msgstr "Vastenda nimekirja {0:s} kategooria"
+
+msgctxt "#33034"
+msgid "36-hour"
+msgstr "36 tundi"
+
 msgctxt "#33035"
 msgid "Maps"
 msgstr "Kaardid"
@@ -11233,6 +11641,10 @@ msgctxt "#33037"
 msgid "Weekend"
 msgstr "Nädalavahetus"
 
+msgctxt "#33040"
+msgid "{0:s} devices"
+msgstr "{0:s} seadet"
+
 msgctxt "#33049"
 msgid "Alert"
 msgstr "Teade"
@@ -11240,6 +11652,10 @@ msgstr "Teade"
 msgctxt "#33050"
 msgid "Alerts"
 msgstr "Teated"
+
+msgctxt "#33051"
+msgid "Choose your"
+msgstr "Vali"
 
 msgctxt "#33052"
 msgid "Check"
@@ -11287,7 +11703,7 @@ msgstr "Esita"
 
 msgctxt "#33063"
 msgid "Options"
-msgstr "Seaded"
+msgstr "Suvandid"
 
 msgctxt "#33065"
 msgid "Editor"
@@ -11316,6 +11732,14 @@ msgstr "Kohandatud taust"
 msgctxt "#33071"
 msgid "Custom backgrounds"
 msgstr "Kohandatud taustad"
+
+msgctxt "#33072"
+msgid "View readme"
+msgstr "Kuva loemind fail"
+
+msgctxt "#33073"
+msgid "View changelog"
+msgstr "Kuva muudatused"
 
 msgctxt "#33077"
 msgid "No data found!"
@@ -11353,9 +11777,17 @@ msgctxt "#33101"
 msgid "Web server"
 msgstr "Veebiserver"
 
+msgctxt "#33102"
+msgid "Event server"
+msgstr "Sündmuste server"
+
 msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Kaugsuhtluse server"
+
+msgctxt "#33200"
+msgid "Detected new connection"
+msgstr "Tuvastati uus ühendus"
 
 msgctxt "#34000"
 msgid "Lame"
@@ -11376,6 +11808,18 @@ msgstr "DXVA2"
 msgctxt "#34004"
 msgid "VAAPI"
 msgstr "VAAPI"
+
+msgctxt "#34005"
+msgid "FLAC"
+msgstr "FLAC"
+
+msgctxt "#34006"
+msgid "MPEG-4 audio (FFmpeg M4A AAC)"
+msgstr "MPEG-4 audio (FFmpeg M4A AAC)"
+
+msgctxt "#34007"
+msgid "Windows media audio 2 (FFmpeg wmav2)"
+msgstr "Windows media audio 2 (FFmpeg wmav2)"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -11421,6 +11865,10 @@ msgctxt "#34110"
 msgid "7.1"
 msgstr "7.1"
 
+msgctxt "#34112"
+msgid "Send low volume noise"
+msgstr "Saada madala helitaseme müra"
+
 msgctxt "#34120"
 msgid "Play GUI sounds"
 msgstr "Luba kasutajaliidese helid"
@@ -11459,19 +11907,43 @@ msgstr "192.0"
 
 msgctxt "#34201"
 msgid "Can't find a next item to play"
-msgstr "Ei leia järgmist nimetust mida esitada"
+msgstr "Ei leia järgmist kirjet mida esitada"
 
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
-msgstr "Ei leia eelmist nimetust mida esitada"
+msgstr "Ei leia eelmist kirjet mida esitada"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconfi käivitamine nurjus"
 
+msgctxt "#34301"
+msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
+msgstr "Kas Apple'i Bonjour teenus on paigaldatud? Rohkem infot selle sõnumi kohta saab logifailist."
+
+msgctxt "#34302"
+msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
+msgstr "AirPlay käivitamine nurjus, sest Zeroconf on keelatud."
+
+msgctxt "#34400"
+msgid "Video rendering"
+msgstr "Video renderdamine"
+
+msgctxt "#34403"
+msgid "Check your audio settings"
+msgstr "Kontrolli heliseadeid"
+
 msgctxt "#34404"
 msgid "Use gestures for navigation:"
-msgstr "Kasuta navigeerimiseks žeste"
+msgstr "Kasuta navigeerimiseks žeste:"
+
+msgctxt "#34405"
+msgid "One finger swipe left,right,up,down for cursors"
+msgstr "Kursori saamiseks ühe näpuga lohistamine vasakule,paremale,üles,alla"
+
+msgctxt "#34406"
+msgid "Two finger swipe left for backspace"
+msgstr "Tagasilükke klahvi saamiseks kahe näpuga lohista vasakule"
 
 msgctxt "#35000"
 msgid "Peripherals"
@@ -11501,6 +11973,74 @@ msgctxt "#35008"
 msgid "Keymap enabled"
 msgstr "Klahvitabel lubatud"
 
+msgctxt "#35009"
+msgid "Don't use the custom keymap for this device"
+msgstr "Ära kasuta selle seadme jaoks kohandatud klahvitabelit"
+
+msgctxt "#35010"
+msgid "Peripheral libraries"
+msgstr "Välisseadmete teegid"
+
+msgctxt "#35015"
+msgid "Button {0:d}"
+msgstr "Nupp {0:d}"
+
+msgctxt "#35019"
+msgid "Ignore input"
+msgstr "Eira sisendit"
+
+msgctxt "#35047"
+msgid "Driver settings"
+msgstr "Draiveri seaded"
+
+msgctxt "#35049"
+msgid "Game add-ons"
+msgstr "Mängude lisamoodulid"
+
+msgctxt "#35059"
+msgid "Buttons"
+msgstr "Nupud"
+
+msgctxt "#35090"
+msgid "Press {0:s}"
+msgstr "Vajuta {0:s}"
+
+msgctxt "#35091"
+msgid "Press {0:s} ({1:d})"
+msgstr "Vajuta {0:s} ({1:d})"
+
+msgctxt "#35092"
+msgid "Move {0:s} up"
+msgstr "Liiguta {0:s} üles"
+
+msgctxt "#35093"
+msgid "Move {0:s} up ({1:d})"
+msgstr "Liiguta {0:s} üles ({1:d})"
+
+msgctxt "#35094"
+msgid "Move {0:s} down"
+msgstr "Liiguta {0:s} alla"
+
+msgctxt "#35095"
+msgid "Move {0:s} down ({1:d})"
+msgstr "Liiguta {0:s} alla ({1:d})"
+
+msgctxt "#35096"
+msgid "Move {0:s} right"
+msgstr "Liiguta {0:s} paremale"
+
+msgctxt "#35097"
+msgid "Move {0:s} right ({1:d})"
+msgstr "Liiguta {0:s} paremale ({1:d})"
+
+msgctxt "#35098"
+msgid "Move {0:s} left"
+msgstr "Liiguta {0:s} vasakule"
+
+msgctxt "#35099"
+msgid "Move {0:s} left ({1:d})"
+msgstr "Liiguta {0:s} vasakule ({1:d})"
+
 msgctxt "#35100"
 msgid "Enable joystick and gamepad support"
 msgstr "Luba juhtkangi ja puldi tugi"
@@ -11508,6 +12048,98 @@ msgstr "Luba juhtkangi ja puldi tugi"
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Keela juhtkang selle seadme puhul"
+
+msgctxt "#35103"
+msgid "Buttons"
+msgstr "Nupud"
+
+msgctxt "#35104"
+msgid "Pointers"
+msgstr "Pointerid"
+
+msgctxt "#35150"
+msgid "Keyboard"
+msgstr "Klaviatuur"
+
+msgctxt "#35151"
+msgid "Player configuration"
+msgstr "Mängija seadistamine"
+
+msgctxt "#35152"
+msgid "Enable keyboard"
+msgstr "Luba klaviatuur"
+
+msgctxt "#35154"
+msgid "Number of keyboard players"
+msgstr "Klaviatuuriga mängijate arv"
+
+msgctxt "#35156"
+msgid "{0:d}"
+msgstr "{0:d}"
+
+msgctxt "#35157"
+msgid "Configure keyboard player 1"
+msgstr "Seadista klaviatuuriga mängija 1"
+
+msgctxt "#35158"
+msgid "Configure keyboard player 2"
+msgstr "Seadista klaviatuuriga mängija 2"
+
+msgctxt "#35159"
+msgid "Configure keyboard player 3"
+msgstr "Seadista klaviatuuriga mängija 3"
+
+msgctxt "#35160"
+msgid "Configure keyboard player 4"
+msgstr "Seadista klaviatuuriga mängija 4"
+
+msgctxt "#35161"
+msgid "Configure keyboard player 5"
+msgstr "Seadista klaviatuuriga mängija 5"
+
+msgctxt "#35162"
+msgid "Configure keyboard player 6"
+msgstr "Seadista klaviatuuriga mängija 6"
+
+msgctxt "#35163"
+msgid "Configure keyboard player 7"
+msgstr "Seadista klaviatuuriga mängija 7"
+
+msgctxt "#35164"
+msgid "Configure keyboard player 8"
+msgstr "Seadista klaviatuuriga mängija 8"
+
+msgctxt "#35165"
+msgid "Keyboard player"
+msgstr "Klaviatuuriga mängija"
+
+msgctxt "#35210"
+msgid "Failed to play game"
+msgstr "Mängu esitamine nurjus"
+
+msgctxt "#35211"
+msgid "This game requires the following add-on: {0:s}"
+msgstr "Mäng vajab järgmiseid lisamooduleid: {0:s}"
+
+msgctxt "#35250"
+msgid "Add games..."
+msgstr "Lisa mäng..."
+
+msgctxt "#35251"
+msgid "Add game source"
+msgstr "Lisa mängu allikas"
+
+msgctxt "#35252"
+msgid "Edit game source"
+msgstr "Muuda mängu allikat"
+
+msgctxt "#35508"
+msgid "Access denied."
+msgstr "Juurdepääs keelatud"
+
+msgctxt "#36000"
+msgid "Pulse-Eight CEC adapter"
+msgstr "Pulse-Eight CEC adapter"
 
 msgctxt "#36001"
 msgid "Pulse-Eight Nyxboard"
@@ -11528,6 +12160,22 @@ msgstr "Vajuta \"kasutaja\" nuppu käsk"
 msgctxt "#36005"
 msgid "Enable switch side commands"
 msgstr "Luba pooli vahetavaid käske"
+
+msgctxt "#36007"
+msgid "Devices to power on during startup"
+msgstr "Käivitamisel sisselülitatavad seadmed"
+
+msgctxt "#36008"
+msgid "Devices to power off during shutdown"
+msgstr "Sulgumisel väljalülitatavad seadmed"
+
+msgctxt "#36009"
+msgid "Put devices in standby mode when activating the screensaver"
+msgstr "Pane seadmed ooterežiimi ekraanisäästja käivitamisel"
+
+msgctxt "#36010"
+msgid "Wake devices when deactivating the screensaver"
+msgstr "Ärata seadmed ekraanisäästja sulgemisel"
 
 msgctxt "#36015"
 msgid "HDMI port number"
@@ -11577,6 +12225,10 @@ msgctxt "#36035"
 msgid "Always"
 msgstr "Alati"
 
+msgctxt "#36036"
+msgid "On start / stop"
+msgstr "Käivitamisel/peatamisel"
+
 msgctxt "#36037"
 msgid "TV"
 msgstr "TV"
@@ -11589,9 +12241,41 @@ msgctxt "#36039"
 msgid "TV and AVR device (explicit)"
 msgstr "TV ja AVR seade (määratud)"
 
+msgctxt "#36040"
+msgid "Detected version of libCEC interface ({0:x}) is lower than the supported version {1:x}."
+msgstr "Tuvastatud libCEC-i ({0:x}) liidese versioon on madalam toetatud {1:x} versioonist."
+
 msgctxt "#36041"
 msgid "* Item folder"
-msgstr "* Nimetuse kataloog"
+msgstr "* Kirje kataloog"
+
+msgctxt "#36042"
+msgid "Use limited colour range (16-235)"
+msgstr "Kasuta piiratud värvi vahemikku (16-235)"
+
+msgctxt "#36043"
+msgid "Number of buffers used by graphics driver"
+msgstr "Graafika draiveri kasutatud puhvrite arv"
+
+msgctxt "#36044"
+msgid "Stop Playback"
+msgstr "Peata taasesitus"
+
+msgctxt "#36045"
+msgid "Pause Playback"
+msgstr "Pane pausile"
+
+msgctxt "#36101"
+msgid "Change the look and feel of the user interface."
+msgstr "Muuda kasutajaliidese välimust ja tunnetust."
+
+msgctxt "#36102"
+msgid "This category contains all skin related settings."
+msgstr "Kategooria sisaldab kõiki rüüga seotud seadeid."
+
+msgctxt "#36103"
+msgid "Select the skin for the user interface. This will define the look and feel of the application."
+msgstr "Vali kasutajaliidesele rüü. See määrab rakenduse välimuse ja tunnetuse."
 
 msgctxt "#36105"
 msgid "Change the theme associated with your selected skin."
@@ -11601,13 +12285,33 @@ msgctxt "#36106"
 msgid "Change the colours of your selected skin."
 msgstr "Vaheta valitud rüü värve."
 
+msgctxt "#36107"
+msgid "Choose the fonts displayed in the user interface. The font sets are configured by your skin."
+msgstr "Vali kasutajaliideses kuvatavad fondid. Fondikomplekti seadistab rüü."
+
+msgctxt "#36108"
+msgid "Resize the view of the user interface."
+msgstr "Muuda kasutajaliidese kuva suurust."
+
+msgctxt "#36109"
+msgid "Select the media window to display on startup."
+msgstr "Vali käivitamisel kuvatav meediaaken."
+
+msgctxt "#36110"
+msgid "Select or disable the sounds used in the user interface."
+msgstr "Vali või keela kasutajaliideses kasutatavad helid."
+
 msgctxt "#36111"
 msgid "Turn this off to remove the scrolling RSS news ticker."
-msgstr "Lülita see välja RSS uudisvoo eemaldamiseks."
+msgstr "Lülita liikuv RSS uudisvoog välja."
 
 msgctxt "#36112"
 msgid "Edit the RSS feeds."
 msgstr "Redigeeri RSS vooge."
+
+msgctxt "#36113"
+msgid "This category contains all locale / regional settings."
+msgstr "Kategooria sisaldab kõiki kohalikke / regionaalseid seadeid."
 
 msgctxt "#36114"
 msgid "Chooses the language of the user interface."
@@ -11615,15 +12319,15 @@ msgstr "Vali kasutajaliidese keel."
 
 msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
-msgstr "Vali temperatuuri, aja ja kuupäeva formaadid. Võimalikud valikud sõltuvad valitud keelest."
+msgstr "Vali temperatuuri, kellaaja ja kuupäeva formaadid. Võimalikud valikud sõltuvad valitud keelest."
 
 msgctxt "#36117"
 msgid "Select country location."
-msgstr "Vali oma asukohariik."
+msgstr "Vali asukohariik."
 
 msgctxt "#36118"
 msgid "Select your current timezone."
-msgstr "Vali oma praegune ajatsoon."
+msgstr "Vali ajatsoon."
 
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
