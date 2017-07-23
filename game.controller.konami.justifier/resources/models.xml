@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<models>
+  <model name="blue">
+    <physicaltopology>
+      <provides controller="game.controller.konami.justifier" model="blue"/>
+      <port id="1">
+        <accepts controller="game.controller.konami.justifier" model="pink"/>
+      </port>
+    </physicaltopology>
+  </model>
+  <model name="pink" icon="icon_player2.png" layout="layout_player2.png"/>
+  <model name="green" icon="icon_playstation.png" layout="layout_playstation.png">
+    <physicaltopology>
+      <provides controller="game.controller.konami.justifier" model="green"/>
+      <port id="1">
+        <accepts controller="game.controller.konami.justifier" model="pink"/>
+      </port>
+    </physicaltopology>
+</models>
