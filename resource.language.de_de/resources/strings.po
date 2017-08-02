@@ -2455,7 +2455,7 @@ msgstr "Komponentenspezifische Protokollierung aktivieren"
 
 msgctxt "#667"
 msgid "Enable Dolby Digital (AC3) transcoding"
-msgstr "Dolby Digital (AC3) Umwandlung einschalten"
+msgstr "Dolby Digital (AC3) Umwandlung aktivieren"
 
 msgctxt "#668"
 msgid "Specify component-specific logging..."
@@ -4831,7 +4831,7 @@ msgstr "Schriftarten"
 
 msgctxt "#13304"
 msgid "Enable flipping bi-directional strings"
-msgstr "Links-/Rechtsläufige Zeichenfolgen ermöglichen"
+msgstr "Links-/Rechtsläufige Zeichenfolgen aktivieren"
 
 msgctxt "#13305"
 msgid "Show RSS news feeds"
@@ -6028,10 +6028,6 @@ msgstr "Regional"
 msgctxt "#14223"
 msgid "Control"
 msgstr "Steuerung"
-
-msgctxt "#14224"
-msgid "Other"
-msgstr "Sonstiges"
 
 msgctxt "#14225"
 msgid "Network Control"
@@ -7661,14 +7657,6 @@ msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Alle Guide-Daten werden gelöscht. Fortfahren?"
 
-msgctxt "#19189"
-msgid "Continue last channel on startup"
-msgstr "Beim Programmstart letzten Kanal wiedergeben"
-
-msgctxt "#19190"
-msgid "Background"
-msgstr "Hintergrund"
-
 msgctxt "#19191"
 msgid "PVR service"
 msgstr "PVR-Dienst"
@@ -8044,10 +8032,6 @@ msgstr "Kanalsymbole werden gesucht"
 msgctxt "#19287"
 msgid "All channels"
 msgstr "Alle Kanäle"
-
-msgctxt "#19288"
-msgid "Foreground"
-msgstr "Vordergrund"
 
 msgctxt "#19289"
 msgid "Hide group"
@@ -9977,6 +9961,10 @@ msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Es gibt derzeit keine Aktualisierungen für dieses Addon."
 
+msgctxt "#21358"
+msgid "Enable UPnP support"
+msgstr "UPnP-Support aktivieren."
+
 msgctxt "#21359"
 msgid "Add media share..."
 msgstr "Quelle hinzufügen"
@@ -11559,7 +11547,7 @@ msgstr "Addon-Migration läuft. Bitte warten"
 
 msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
-msgstr "Dieses Addon ist nicht kompatibel mit dieser Kodi-Version."
+msgstr "Das Addon ist nicht kompatibel mit dieser Kodi-Version."
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -11663,11 +11651,11 @@ msgstr "Passthrough-Audio wird verwendet"
 
 msgctxt "#29803"
 msgid "BD-J menu error"
-msgstr "Blu-ray Disk Java Fehler"
+msgstr "BD-J Menü Fehler"
 
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
-msgstr "Es gab einen Fehler beim Laden von Java, somit kann das BD-J Menü nicht getstartet werden. Das Menü benötigt Java Runtime Environment um zu funktionieren. Bitte prüfe deine Installation und Funktion auf deinem System."
+msgstr "Es gab einen Fehler beim Laden von Java. Darum funktionieren BD-J Menüs derzeit nicht. BD-J Menüs benötigen ein Java Runtime Environment."
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12499,7 +12487,7 @@ msgstr "2-Finger-Tipp oder langer 1-Finger-Tipp für Contextmenü"
 
 msgctxt "#35000"
 msgid "Peripherals"
-msgstr "Geräte"
+msgstr "Peripheriegeräte"
 
 msgctxt "#35001"
 msgid "Generic HID device"
@@ -12579,7 +12567,11 @@ msgstr "Alle analogen Buttons drücken, um sie zu erkennen:[CR][CR]{0:s}"
 
 msgctxt "#35047"
 msgid "Driver settings"
-msgstr "Treiber Einstellungen"
+msgstr "Treiber-Einstellungen"
+
+msgctxt "#35048"
+msgid "View and configure peripheral add-ons."
+msgstr "Peripheriegeräte-Addons ansehen und konfigurieren."
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -12816,6 +12808,10 @@ msgstr "Emulatoren"
 msgctxt "#35208"
 msgid "Standalone games"
 msgstr "Offline-Spiele"
+
+msgctxt "#35209"
+msgid "Game resources"
+msgstr "Spiele-Quellen"
 
 msgctxt "#35210"
 msgid "Failed to play game"
@@ -13253,6 +13249,10 @@ msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "Auswahl, wann die Staffel-Einträge von Serien versteckt werden sollen. Wenn ein Staffel-Eintrag versteckt ist, wird bei Auswahl einer Serie direkt in die Episoden-Ansicht gewechselt."
 
+msgctxt "#36145"
+msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have its own entry in the movie library even if it belongs to a set."
+msgstr "Wenn aktiviert, werden Filme, die zu \"Kollektionen\" gehören, in der Film-Bibliothek unter einem gemeinsamen Eintrag zusammengfaßt. Dieser Eintrag kann dann geöffnet werden, um auf die einzelenen Filme zuzugreifen. Wenn dekativiert, erhält jeder Film seinen eigenen Eintrag in der Film-Bibliothek, auch, wenn der Film zu einer Kollektion gehört."
+
 msgctxt "#36146"
 msgid "Check for new media files on startup."
 msgstr "Beim Start nach neuen Mediendateien suchen."
@@ -13380,6 +13380,10 @@ msgstr "Metadaten, wie den verwendeten Codec, sowie Seitenverhältnis bei Videos
 msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
 msgstr "Wenn eine Datei in die Bibliothek aufgenommen wurde, wird statt des Dateinamens der Name aus den Metadaten der Datei angezeigt."
+
+msgctxt "#36180"
+msgid "Extract thumbnails to display in library mode."
+msgstr "Thumbnails für Anzeige im Bibliotheks-Modus extrahieren."
 
 msgctxt "#36181"
 msgid "No info available yet."
@@ -13560,10 +13564,6 @@ msgstr "Kategorie mit Einstellungen zur PVR-Wiedergabe und zum Kanalwechsel."
 msgctxt "#36227"
 msgid "Switch to full screen display when starting playback of channels and recordings."
 msgstr "Zur Wiedergabe von Kanälen und Aufnahmen auf Vollbild umschalten."
-
-msgctxt "#36228"
-msgid "Continue with the last viewed channel on startup."
-msgstr "Mit dem zuletzt angesehenem Kanal beim Starten fortsetzen."
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
@@ -14087,7 +14087,7 @@ msgstr "Kategorie mit Einstellungen für Eingabegeräte."
 
 msgctxt "#36375"
 msgid "Configure any attached peripheral devices."
-msgstr "Konfiguration eventuell vorhandener Peripheriegeräte."
+msgstr "Angeschlossene Peripheriegeräte konfigurieren."
 
 msgctxt "#36376"
 msgid "When activated, your keyboard arrows will move the selection on the virtual keyboard. When deactivated, they will move the cursor from your text."
@@ -15129,10 +15129,6 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Kategorie mit Einstellungen für die Medienwiedergabe"
 
-msgctxt "#38101"
-msgid "Section that contains the settings for sources and how media information is collected, stored, shown, and navigated"
-msgstr "Kategorie mit Einstellungen für Medien-Quellen, für die Medien-Navigation und Einstellungen zum Sammeln, Speichern und Anzeigen von Medieninformationen"
-
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Kategorie mit Einstellungen für die grafische Benutzeroberfläche"
@@ -15201,10 +15197,6 @@ msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "h264-Wiedergabe beschleunigen"
 
-msgctxt "#39004"
-msgid "This category contains provides access to the windows for source management and the Library settings for the databases"
-msgstr "Hier können Medien-Quellen sowie die Einstellungen der Bibliotheken verwaltet werden"
-
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Hier können Video-Quellen hinzugefügt und verwaltet verwalten."
@@ -15248,3 +15240,7 @@ msgstr "Sollen auch alle mit diesem Addon verknüpften Daten (z.B. Einstellungen
 msgctxt "#39015"
 msgid "Image decoder"
 msgstr "Bild-Dekoder"
+
+msgctxt "#39017"
+msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
+msgstr "Aktiviert UPnP. Dies erlaubt, Medien aus den Bibliotheken zu einem UPnP-Client zu streamen und UPnP-Server zu finden."
