@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.languageflags.completepack"
+	name="Language Flags Complete Pack"
+	version="1.0.0"
+	provider-name="Vojislav Vlasic">
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.resource.images" compile="true" type="languageflags"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Language Flags Complete Pack</summary>
+		<description lang="en_GB">This add-on contains all of the language flags Kodi needs. All of the Kodi supported languages have been taken into account and if there's a flag and a code for it it's in here. I used https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes as a reference for the codes.</description>
+		<disclaimer lang="en_GB">For bugs, requests or general questions visit the github.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<source>https://github.com/vdb86/resource.images.languageflags.completepack</source>
+		<news>1.0.0 (2017-08.21) - Initial release</news>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
