@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Gwall wrth lanhau artistiaid"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "Glanhau mathau..."
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "Gwall wrth lanhau mathau"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Glanhau llwybrau..."
@@ -5273,6 +5265,10 @@ msgctxt "#13434"
 msgid "Play only this"
 msgstr "Chwarae dim ond hwn"
 
+msgctxt "#13435"
+msgid "Enable HQ scalers for scaling above"
+msgstr "Galluogi sgalwyr AU am sgalio uwchben"
+
 msgctxt "#13438"
 msgid "Allow hardware acceleration - amcodec"
 msgstr "Caniatáu cyflymiad caledwedd - amcodec"
@@ -5288,6 +5284,10 @@ msgstr "Caniatáu cyflymiad caledwedd - MediaCodec (Surface)"
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
 msgstr "Defnyddio MPEG-2 VDPAU"
+
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Galluogi'r dewis hwn er mwyn defnyddio cyflymiad caledwedd ar gyfer codecs MPEG-(1/2). Os nad, defnyddir yr uned brosesu ganolog yn ei le."
 
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
@@ -5372,6 +5372,10 @@ msgstr "Dim celf"
 msgctxt "#13516"
 msgid "Add art"
 msgstr "Ychwanegu celf"
+
+msgctxt "#13550"
+msgid "Delay after change of refresh rate"
+msgstr "Oedi ar ôl newid cyfradd adnewyddu"
 
 msgctxt "#13551"
 msgid "Off"
@@ -5993,6 +5997,10 @@ msgctxt "#14223"
 msgid "Control"
 msgstr "Rheoli"
 
+msgctxt "#14224"
+msgid "Startup"
+msgstr "Dechrau"
+
 msgctxt "#14225"
 msgid "Network Control"
 msgstr "Rheoli'r Rhwydwaith"
@@ -6000,6 +6008,10 @@ msgstr "Rheoli'r Rhwydwaith"
 msgctxt "#14226"
 msgid "Manage Sources"
 msgstr "Rheoli Ffynhonellau"
+
+msgctxt "#14227"
+msgid "Startup Settings"
+msgstr "Gosodiadau Dechrau"
 
 msgctxt "#14230"
 msgid "Actions"
@@ -6109,6 +6121,14 @@ msgctxt "#14275"
 msgid "Application control"
 msgstr "Rheolaeth rhaglenni"
 
+msgctxt "#14276"
+msgid "Allow remote control from applications on this system"
+msgstr "Caniatáu rheolaeth bell gyda rhaglenni ar y system hon"
+
+msgctxt "#14277"
+msgid "Allow remote control from applications on other systems"
+msgstr "Caniatáu rheolaeth bell gyda rhaglenni ar systemau eraill"
+
 msgctxt "#14301"
 msgid "Channels"
 msgstr "Sianeli"
@@ -6148,6 +6168,10 @@ msgstr "{0:d} eitem wedi methu ag allforio"
 msgctxt "#15012"
 msgid "Unavailable source"
 msgstr "Ffynhonnell ddim ar gael"
+
+msgctxt "#15013"
+msgid "What would you like to do with media items from {0:s}"
+msgstr "Beth hoffech ei wneud gydag eitemau cyfryngau o {0:s}"
 
 msgctxt "#15014"
 msgid "Keep"
@@ -6233,6 +6257,10 @@ msgctxt "#15039"
 msgid "Pre-processing setup..."
 msgstr "Nodweddion cyn dechrau"
 
+msgctxt "#15041"
+msgid "Unknown mode name"
+msgstr "Enw modd anhysbys"
+
 msgctxt "#15042"
 msgid "Content:"
 msgstr "Cynnwys:"
@@ -6253,13 +6281,65 @@ msgctxt "#15052"
 msgid "Password"
 msgstr "Cyfrinair"
 
+msgctxt "#15058"
+msgid "Pre-processing"
+msgstr "Cyn-brosesu"
+
+msgctxt "#15059"
+msgid "Master processing"
+msgstr "Meistr brosesu"
+
 msgctxt "#15060"
 msgid "Post-processing"
 msgstr "Ôl-brosesu"
 
+msgctxt "#15062"
+msgid "Detailed description"
+msgstr "Disgrifiad manwl"
+
+msgctxt "#15063"
+msgid "No description available"
+msgstr "Dim disgrifiad ar gael"
+
+msgctxt "#15064"
+msgid "Apply changes directly"
+msgstr "Gweithredu'r newidiadau yn syth"
+
+msgctxt "#15065"
+msgid "No audio DSP modes available"
+msgstr "Dim dulliau sain DSP ar gael"
+
+msgctxt "#15066"
+msgid "Clear active modes"
+msgstr "Clirio'r moddau byw"
+
+msgctxt "#15067"
+msgid "Close"
+msgstr "Cau"
+
+msgctxt "#15078"
+msgid "Mode settings"
+msgstr "Gosodiadau Moddau"
+
+msgctxt "#15079"
+msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
+msgstr "Rydych wedi newid ambell osodiad sain DSP.\nHoffech gadw'r gosodiadau newydd?"
+
 msgctxt "#15087"
 msgid "Input"
 msgstr "Mewnbwn"
+
+msgctxt "#15088"
+msgid "Output"
+msgstr "Allbwn"
+
+msgctxt "#15089"
+msgid "Input signal"
+msgstr "Signal mewnbwn"
+
+msgctxt "#15090"
+msgid "Output signal"
+msgstr "Signal allbwn"
 
 msgctxt "#15100"
 msgid "Library"
@@ -7212,10 +7292,6 @@ msgstr "Wedi cychwyn recordio"
 msgctxt "#19227"
 msgid "Recording completed"
 msgstr "Wedi cwblhau recordio"
-
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "Cau Dangosydd ar Sgrin y sianel ar ôl newid sianel"
 
 msgctxt "#19232"
 msgid "Clear search results"
@@ -10245,6 +10321,10 @@ msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Anablu'r ffon hud pan fydd y ddyfais hon ar gael"
 
+msgctxt "#35222"
+msgid "Exit"
+msgstr "Gadael"
+
 msgctxt "#36001"
 msgid "Pulse-Eight Nyxboard"
 msgstr "Pulse-Eight Nyxboard"
@@ -10512,10 +10592,6 @@ msgstr "Dweud wrth y cefn i chwilio am sianeli (os yw'n cael ei gynnal)"
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr "Dangos gwybodaeth am raglenni wrth newid sianel, fel y rhaglen gyfredol."
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "Cau'r rheolyddion ar y sgrin ar ôl newid sianel."
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."

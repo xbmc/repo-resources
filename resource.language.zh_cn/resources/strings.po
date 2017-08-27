@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "清理歌手出错"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "清理类型..."
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "清理类型出错"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "清理路径..."
@@ -6033,6 +6025,10 @@ msgctxt "#14223"
 msgid "Control"
 msgstr "控制"
 
+msgctxt "#14224"
+msgid "Startup"
+msgstr "启动"
+
 msgctxt "#14225"
 msgid "Network Control"
 msgstr "网络控制"
@@ -6040,6 +6036,10 @@ msgstr "网络控制"
 msgctxt "#14226"
 msgid "Manage Sources"
 msgstr "管理源"
+
+msgctxt "#14227"
+msgid "Startup Settings"
+msgstr "启动设置"
 
 msgctxt "#14230"
 msgid "Actions"
@@ -7185,6 +7185,10 @@ msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "此事件已录制。"
 
+msgctxt "#19068"
+msgid "Recording settings"
+msgstr "录像设置"
+
 msgctxt "#19069"
 msgid "Guide"
 msgstr "指南"
@@ -7496,6 +7500,10 @@ msgstr "已分组"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "组"
+
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "将录像的生命周期设置为 {0:d} 天将使录像立即过期，导致录像即时删除。仍要继续吗？"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -7813,10 +7821,6 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "定时器已删除"
 
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "切换频道后关闭频道 OSD 菜单"
-
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "播放时禁止更新"
@@ -8076,6 +8080,10 @@ msgstr "垂直"
 msgctxt "#19298"
 msgid "Horizontal"
 msgstr "横向"
+
+msgctxt "#19299"
+msgid "Expires"
+msgstr "过期"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11473,14 +11481,6 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "要切换到此语言吗？"
 
-msgctxt "#24133"
-msgid "Failed to load language"
-msgstr "载入语言失败"
-
-msgctxt "#24134"
-msgid "We were unable to load your configured language. Please check your language settings."
-msgstr "无法载入你设置的语言，请检查语言设置。"
-
 msgctxt "#24135"
 msgid "Audio DSP"
 msgstr "音频 DSP"
@@ -11551,7 +11551,7 @@ msgstr "正在进行插件迁移 - 请稍候"
 
 msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
-msgstr "该插件与此版本的Kodi不兼容。"
+msgstr "插件与此版本的 Kodi 不兼容。"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -11655,11 +11655,15 @@ msgstr "音频直通输出启用中"
 
 msgctxt "#29803"
 msgid "BD-J menu error"
-msgstr "BD-J菜单错误"
+msgstr "BD-J 菜单错误"
 
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
-msgstr "由于在加载Java时遇到了错误，BD-J菜单将会工作不正常。BD-J菜单需要Java运行时支持，请确保它已经被正确安装并能正常工作。"
+msgstr "由于加载 Java 出错，BD-J 无法正常工作。BD-J 菜单需要 Java 运行环境支持，请确保它已被正确安装并能正常工作。"
+
+msgctxt "#29805"
+msgid "This Blu-ray disc (or file) is encrypted and can't be played."
+msgstr "此蓝光盘（或文件）已加密，无法播放。"
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12543,7 +12547,7 @@ msgstr "检测到新的控制器。可以在“设置 -> 系统设置 -> 输入�
 
 msgctxt "#35014"
 msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]{0:s}"
-msgstr "一些控制器具有会干扰映射的按钮和轴。按下这些以禁用它们:[CR]{0:s}"
+msgstr "一些控制器具有会干扰映射的按钮和轴。按下这些以禁用它们：[CR]{0:s}"
 
 msgctxt "#35015"
 msgid "Button {0:d}"
@@ -12563,11 +12567,11 @@ msgstr "控制器设置依赖一个已禁用插件。要启用它吗？"
 
 msgctxt "#35019"
 msgid "Ignore input"
-msgstr "忽略输入。"
+msgstr "忽略输入"
 
 msgctxt "#35020"
 msgid "Press all analog buttons now to detect them:[CR][CR]{0:s}"
-msgstr "现在按下所有模拟按钮检测它们:[CR][CR]{0:s}"
+msgstr "现在按下所有模拟按钮检测它们：[CR][CR]{0:s}"
 
 msgctxt "#35047"
 msgid "Driver settings"
@@ -12575,7 +12579,7 @@ msgstr "驱动器设置"
 
 msgctxt "#35048"
 msgid "View and configure peripheral add-ons."
-msgstr "查看并配置外围设备插件"
+msgstr "查看并配置外设插件"
 
 msgctxt "#35049"
 msgid "Game add-ons"
@@ -12599,7 +12603,7 @@ msgstr "启用振动提醒"
 
 msgctxt "#35054"
 msgid "Activates controller rumble motors when a notification occurs."
-msgstr "激动控制器的振动用以提醒。"
+msgstr "通知产生时激活控制器振动马达。"
 
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
@@ -12721,6 +12725,10 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "指针"
 
+msgctxt "#35109"
+msgid "Keypad"
+msgstr "键盘"
+
 msgctxt "#35150"
 msgid "Keyboard"
 msgstr "键盘"
@@ -12735,7 +12743,7 @@ msgstr "启用键盘"
 
 msgctxt "#35153"
 msgid "This allows the keyboard to emulate up to 8 game controllers. If disabled, the keyboard can still be used to control emulators like DOSBox which require a full keyboard."
-msgstr "这允许键盘模拟多达8个游戏控制器。 如果禁用，键盘仍然可以用于控制需要完整键盘的DOSBox等模拟器。"
+msgstr "这允许键盘模拟多达8个游戏控制器。如果禁用，键盘仍然可以用于控制需要全键盘的 DOSBox 等模拟器。"
 
 msgctxt "#35154"
 msgid "Number of keyboard players"
@@ -12743,7 +12751,7 @@ msgstr "键盘玩家数"
 
 msgctxt "#35155"
 msgid "Set the number of players using the keyboard. This is intended for devices that use keyboard drivers, but you can also see how many people fit around a keyboard!"
-msgstr "设置使用键盘的玩家人数。 这是用于使用键盘驱动程序的设备，但您也可以看到有多少人适合键盘！"
+msgstr "设置使用键盘的玩家人数。这针对使用键盘驱动程序的设备，但你也可以看到有多少人使用键盘！"
 
 msgctxt "#35156"
 msgid "{0:d}"
@@ -12785,13 +12793,21 @@ msgctxt "#35165"
 msgid "Keyboard player"
 msgstr "键盘玩家"
 
+msgctxt "#35166"
+msgid "All keys"
+msgstr "所有键"
+
+msgctxt "#35167"
+msgid "Single keys"
+msgstr "单键"
+
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
 msgstr "ALL YOUR BASE ARE BELONG[CR]TO US"
 
 msgctxt "#35201"
 msgid "Gameplay"
-msgstr "游戏玩法"
+msgstr "游戏"
 
 msgctxt "#35203"
 msgid "Enable rewind if supported"
@@ -12799,7 +12815,7 @@ msgstr "如果支持，启用倒退"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
-msgstr "如果支持，可以在游戏过程中启用实时倒退。 使用搜索栏按倒带或手动向后搜索。"
+msgstr "如果支持，可以在游戏过程中启用实时倒退。使用搜索栏按倒退或手动回退搜索。"
 
 msgctxt "#35205"
 msgid "Maximum rewind time"
@@ -12807,7 +12823,7 @@ msgstr "最大倒退时间"
 
 msgctxt "#35206"
 msgid "Maximum time possible to rewind, if supported. Large rewind histories can use a lot of RAM."
-msgstr "如果支持，最长可以倒退的时间。 大的倒退历史可以使用大量的内存。"
+msgstr "如果支持，最长可倒退的时间。大的倒退历史要使用大量的内存。"
 
 msgctxt "#35207"
 msgid "Emulators"
@@ -12827,23 +12843,23 @@ msgstr "游戏运行失败"
 
 msgctxt "#35211"
 msgid "This game requires the following add-on: {0:s}"
-msgstr "这个游戏需要以下加插件: {0:s}"
+msgstr "此游戏需要以下插件：{0:s}"
 
 msgctxt "#35212"
 msgid "This game isn't compatible with any available emulators."
-msgstr "这个游戏与任何可用的模拟器不兼容。"
+msgstr "此游戏与所有可用的模拟器不兼容。"
 
 msgctxt "#35213"
 msgid "The emulator \"{0:s}\" had an internal error."
-msgstr "模拟器 \"{0:s}\" 出现内部错误."
+msgstr "模拟器“{0:s}”出现内部错误。"
 
 msgctxt "#35214"
 msgid "This game can only be played directly from a hard drive or partition. Compressed files must be extracted."
-msgstr "这个游戏只能从硬盘驱动器或分区中运行。 压缩文件必须被解压提取才可以运行。"
+msgstr "此游戏只能从硬盘或分区中运行。压缩文件必须先解压才能执行。"
 
 msgctxt "#35215"
 msgid "This game depends on a disabled add-on. Would you like to enable it?"
-msgstr "这个游戏依赖一个被禁用插件， 要启用它吗？"
+msgstr "此游戏依赖一个被禁用插件， 要启用它吗？"
 
 msgctxt "#35216"
 msgid "Support add-ons"
@@ -12852,6 +12868,10 @@ msgstr "支持插件"
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "游戏提供者"
+
+msgctxt "#35222"
+msgid "Exit"
+msgstr "退出"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13520,10 +13540,6 @@ msgstr "变更频道时显示节目信息，如当前剧集。"
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "打开组管理器，以修改组及其所包含的频道。"
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "切换频道后关闭在屏显示控制。"
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -15275,4 +15291,8 @@ msgstr "图像解码器"
 
 msgctxt "#39016"
 msgid "Resume audiobook"
-msgstr "继续播有声读物"
+msgstr "继续播放有声读物"
+
+msgctxt "#39024"
+msgid "Dependencies"
+msgstr "依赖"

@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Sanatçılar temizlenirken hata oluştu"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "Türler temizleniyor..."
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "Türler temizlenirken hata oluştu"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Yollar temizleniyor..."
@@ -7813,10 +7805,6 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "Zamanlayıcı silindi"
 
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "Kanal değiştirdikten sonra OSD'yi kapat"
-
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "Oynatım sırasında güncellemeleri engelle"
@@ -9965,6 +9953,10 @@ msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Bu eklenti için güncelleştirme bulunmamaktadır."
 
+msgctxt "#21358"
+msgid "Enable UPnP support"
+msgstr "UPnP desteğini etkinleştir"
+
 msgctxt "#21359"
 msgid "Add media share..."
 msgstr "Medya paylaşımı ekle..."
@@ -11469,14 +11461,6 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "Bu dile geçiş yapmak ister misiniz?"
 
-msgctxt "#24133"
-msgid "Failed to load language"
-msgstr "Dil yüklenemedi"
-
-msgctxt "#24134"
-msgid "We were unable to load your configured language. Please check your language settings."
-msgstr "Dil yapılandırmanız yüklenemedi. Lütfen dil ayarlarınızı denetleyin."
-
 msgctxt "#24135"
 msgid "Audio DSP"
 msgstr "Ses DSP"
@@ -11656,6 +11640,10 @@ msgstr "BD-J menü hatası"
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
 msgstr "Java yüklenirken bir hata oluştu, bu nedenle BD-J menüleri şu anda işlevsel olmayacak. BD-J menüleri Java Runtime Environment yazılımına ihtiyaç duyar, bu yüzden bu yazılımın kurulu olduğundan ve sisteminizde çalıştığından emin olun."
+
+msgctxt "#29805"
+msgid "This Blu-ray disc (or file) is encrypted and can't be played."
+msgstr "Bu Blu-ray disk (veya dosya) şifreli olduğu için oynatılamaz."
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12849,6 +12837,10 @@ msgctxt "#35220"
 msgid "Game providers"
 msgstr "Oyun sağlayıcı"
 
+msgctxt "#35222"
+msgid "Exit"
+msgstr "Çıkış"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Oyun ekle..."
@@ -12872,6 +12864,10 @@ msgstr "Emülatörleri yönet"
 msgctxt "#35255"
 msgid "Browse all emulators"
 msgstr "Tüm emülatörlere gözat"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "Eklenti yüklenemedi."
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -13516,10 +13512,6 @@ msgstr "Kanal değiştirirken geçerli TV programının program bilgisini görü
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Gurupları ve ilgili kanalları değiştirmeye izin veren grup yöneticisini aç."
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "Kanal değiştirdikten sonra ekran menüsü kontrollerini kapat."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -14609,6 +14601,10 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "3D arama tablosu için çözünürlüğü belirtin. Hızlı önizleme için düşük çözünürlük, daha doğru bir resim için yüksek çözünürlük kullanın.  Yüksek çözünürlük kullanırken parametreler değiştirildiğinde veya yeni bir video başlatıldığında videoyu hazırlamak birkaç saniye sürebilir."
 
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV (BT.2020)"
+
 msgctxt "#36580"
 msgid "3D LUT file"
 msgstr "3D LUT dosyası"
@@ -15272,3 +15268,35 @@ msgstr "Resim kod çözücü"
 msgctxt "#39016"
 msgid "Resume audiobook"
 msgstr "Ses defterini sürdür"
+
+msgctxt "#39017"
+msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
+msgstr "UPnP'yi ekinleştirir. Bu özellik uzak UPnP sunucularını algılamaya ve kitaplığınızdaki medyaları bir UPnP istemcisine akış yapmanızı sağlar."
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "isteğe bağlı"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "yüklü"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "Aşağıdaki ek eklentiler yüklenecektir"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "Yüklemeye devam edilsin mi?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
+msgctxt "#39024"
+msgid "Dependencies"
+msgstr "Bağımlılıklar"

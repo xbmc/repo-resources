@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Chyba při čištění interpretů"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "Čištění žánrů..."
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "Chyba při čistění žánrů"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Čištění cest..."
@@ -4315,7 +4307,7 @@ msgstr "Nastavení a správce souborů"
 
 msgctxt "#12376"
 msgid "Set as default for all media"
-msgstr "Nastavit jako výchozí pro všechna media"
+msgstr "Nastavit jako výchozí pro všechna média"
 
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
@@ -6033,6 +6025,10 @@ msgctxt "#14223"
 msgid "Control"
 msgstr "Ovládání"
 
+msgctxt "#14224"
+msgid "Startup"
+msgstr "Spuštění"
+
 msgctxt "#14225"
 msgid "Network Control"
 msgstr "Ovládání po síti"
@@ -6040,6 +6036,10 @@ msgstr "Ovládání po síti"
 msgctxt "#14226"
 msgid "Manage Sources"
 msgstr "Spravovat zdroje"
+
+msgctxt "#14227"
+msgid "Startup Settings"
+msgstr "Nastavení spuštění"
 
 msgctxt "#14230"
 msgid "Actions"
@@ -6819,7 +6819,7 @@ msgstr "Lanczos3 - Optimalizovaný"
 
 msgctxt "#16316"
 msgid "Auto"
-msgstr "Automatická"
+msgstr "Automaticky"
 
 msgctxt "#16317"
 msgid "Temporal (half)"
@@ -7185,6 +7185,10 @@ msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Tato událost se již nahrává."
 
+msgctxt "#19068"
+msgid "Recording settings"
+msgstr "Nastavení nahrávání"
+
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Televizní program"
@@ -7496,6 +7500,10 @@ msgstr "Seskupeno"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Skupiny"
+
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "Nastavení doby platnosti této nahrávky na {0:d} dní okamžitě ukončí platnost záznamu, což může vést k okamžitému odstranění záznamu. Přesto pokračovat?"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -7813,10 +7821,6 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "Časovač odstraněn"
 
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "Zavřít OSD kanálu po přepnutí kanálů"
-
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "Zabránit aktualizacím během přehrávání"
@@ -8076,6 +8080,10 @@ msgstr "Svisle"
 msgctxt "#19298"
 msgid "Horizontal"
 msgstr "Vodorovně"
+
+msgctxt "#19299"
+msgid "Expires"
+msgstr "Končí platnost"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11473,14 +11481,6 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "Chcete přepnout na tento jazyk?"
 
-msgctxt "#24133"
-msgid "Failed to load language"
-msgstr "Nepodařilo se načíst jazyk"
-
-msgctxt "#24134"
-msgid "We were unable to load your configured language. Please check your language settings."
-msgstr "Nebylo možné načíst váš nastavený jazyk. Zkontrolujte nastavení jazyku."
-
 msgctxt "#24135"
 msgid "Audio DSP"
 msgstr "DSP pro audio"
@@ -11660,6 +11660,10 @@ msgstr "Chyba nabídky BD-J"
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
 msgstr "Při načítání jazyka Java došlo k chybě, takže nabídky BD-J nebudou v tuto chvíli funkční. Nabídky BD-J vyžadují prostředí Java Runtime Environment, takže se ujistěte, že je nainstalováno a funguje ve vašem systému."
+
+msgctxt "#29805"
+msgid "This Blu-ray disc (or file) is encrypted and can't be played."
+msgstr "Tento disk Blu-ray (nebo soubor) je šifrovaný a nemůže být přehrán."
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12721,6 +12725,26 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "Ukazatele"
 
+msgctxt "#35105"
+msgid "Light gun"
+msgstr "Světelná pistol"
+
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "Střílet mimo obrazovku"
+
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "Přepínače konzole"
+
+msgctxt "#35108"
+msgid "Hardware buttons"
+msgstr "Hardwarová tlačítka"
+
+msgctxt "#35109"
+msgid "Keypad"
+msgstr "Klávesnice"
+
 msgctxt "#35150"
 msgid "Keyboard"
 msgstr "Klávesnice"
@@ -12784,6 +12808,14 @@ msgstr "Konfigurovat 8. hráče na klávesnici"
 msgctxt "#35165"
 msgid "Keyboard player"
 msgstr "Hráč na klávesnici"
+
+msgctxt "#35166"
+msgid "All keys"
+msgstr "Všechny klávesy"
+
+msgctxt "#35167"
+msgid "Single keys"
+msgstr "Jednotlivé klávesy"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -12849,9 +12881,29 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Podpůrné doplňky"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "Uložený stav může být načten pouze pomocí \"{0:s}\". Vymazat uložený stav a pokračovat?"
+
+msgctxt "#35218"
+msgid "Erase savestate"
+msgstr "Vymazat uložený stav"
+
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "Poskytovatelé her"
+
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "Nabídka her"
+
+msgctxt "#35222"
+msgid "Exit"
+msgstr "Ukončit"
+
+msgctxt "#35223"
+msgid "Input settings"
+msgstr "Nastavení vstupu"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12876,6 +12928,10 @@ msgstr "Spravovat emulátory"
 msgctxt "#35255"
 msgid "Browse all emulators"
 msgstr "Procházet všechny emulátory"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "Nepodařilo se nainstalovat doplněk."
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -13321,6 +13377,10 @@ msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "Povolit hardwarové dekódování VTB pro soubory videa."
 
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "Vyberte akci, kterou Kodi provede při spuštění:"
+
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "Povolit hardwarové dekódování VideoToolbox pro soubory videa."
@@ -13520,10 +13580,6 @@ msgstr "Zobrazit informace o pořadu při změně kanálů, jako je aktuální s
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Otevřít správce skupin, který umožní změnu skupin a jejich odpovídajících kanálů."
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "Zavřít ovládací prvky zobrazené na obrazovce po přepnutí kanálů."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -13816,6 +13872,10 @@ msgstr "Definuje úroveň komprese pro FLAC, výchozí je 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Automaticky vysunout disk po dokončení kopírování."
+
+msgctxt "#36292"
+msgid "This category contains startup settings."
+msgstr "Tato kategorie obsahuje nastavení spuštění."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14613,6 +14673,10 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Zadejte rozlišení pro 3D vyhledávací tabulku. Použijte nižší rozlišení pro rychlý náhled a vyšší rozlišení pro přesnější obraz. Při použití vysokého rozlišení může trvat příprava několik sekund, když se změní parametry nebo je spuštěno nové video."
 
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV (BT.2020)"
+
 msgctxt "#36580"
 msgid "3D LUT file"
 msgstr "Soubor 3D LUT"
@@ -15161,6 +15225,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sekce, která obsahuje nastavení související s obrázky a jak je s nimi zacházeno."
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Sekce, která obsahuje nastavení pro zdroje a jak jsou informace o médiích shromažďovány, ukládány, zobrazovány a jak je v nich navigováno"
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Sekce, která obsahuje nastavení ovlivňující zkušenosti s grafickým rozhraním a pro ovládání grafického rozhraní nebo systému"
@@ -15229,6 +15297,10 @@ msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Akcelerovat h264"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "Tato kategorie poskytuje přístup do oken pro správu zdrojů a nastavení knihovny pro databáze"
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Toto poskytuje přístup tam, kam mohou být přidány a jinak spravovány zdroje videí."
@@ -15280,3 +15352,43 @@ msgstr "Obnovit audioknihu"
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
 msgstr "Povolí UPnP. Toto vám umožňuje streamovat média ve vašich knihovnách do klienta UPnP a rozpoznávat vzdálené servery UPnP."
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "volitelné"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "nainstalováno"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "Budou nainstalovány následující volitelné doplňky"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "Pokračovat v instalaci?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
+msgctxt "#39024"
+msgid "Dependencies"
+msgstr "Závislosti"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "Provést při spuštění"
+
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "Přehrát televizi"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "Přehrát rádio"

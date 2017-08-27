@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Fel vid städning av artister"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "Städar genrer..."
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "Fel vid städning av genre"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Städar sökvägar..."
@@ -6033,6 +6025,10 @@ msgctxt "#14223"
 msgid "Control"
 msgstr "Kontroll"
 
+msgctxt "#14224"
+msgid "Startup"
+msgstr "Start"
+
 msgctxt "#14225"
 msgid "Network Control"
 msgstr "Nätverkskontroll"
@@ -6040,6 +6036,10 @@ msgstr "Nätverkskontroll"
 msgctxt "#14226"
 msgid "Manage Sources"
 msgstr "Hantera källor"
+
+msgctxt "#14227"
+msgid "Startup Settings"
+msgstr "Startsinställningar"
 
 msgctxt "#14230"
 msgid "Actions"
@@ -7185,6 +7185,10 @@ msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Detta event spelas redan in."
 
+msgctxt "#19068"
+msgid "Recording settings"
+msgstr "Inspelningsinställningar"
+
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Guide"
@@ -7496,6 +7500,10 @@ msgstr "Grupperad"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Grupper"
+
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "Om du vill ställa in livslängden för denna inspelning till {0:d} dagar, upphör genast inspelningen, vilket kan resultera i omedelbar radering av inspelningen. Fortsätt ändå?"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -7813,10 +7821,6 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "Timer raderad"
 
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "Stäng kanal-OSD efter kanalbyte"
-
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "Förhindra uppdateringar under uppspelning"
@@ -8076,6 +8080,10 @@ msgstr "Vertikal"
 msgctxt "#19298"
 msgid "Horizontal"
 msgstr "Horisontell"
+
+msgctxt "#19299"
+msgid "Expires"
+msgstr "Upphör"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11473,14 +11481,6 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "Vill du byta till detta språk?"
 
-msgctxt "#24133"
-msgid "Failed to load language"
-msgstr "Inläsning av språk misslyckades"
-
-msgctxt "#24134"
-msgid "We were unable to load your configured language. Please check your language settings."
-msgstr "Misslyckades med att ladda det valda språket. Vänligen kontrollera språkinställningarna."
-
 msgctxt "#24135"
 msgid "Audio DSP"
 msgstr "Ljud-DSP"
@@ -11660,6 +11660,10 @@ msgstr "BD-J menyfel"
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
 msgstr "Det uppstod ett fel vid laddning av Java, så BD-J-menyer kommer inte att fungera för närvarande. BD-J-menyer kräver Java Runtime Environment, så se till att det här är installerat och fungerar på ditt system."
+
+msgctxt "#29805"
+msgid "This Blu-ray disc (or file) is encrypted and can't be played."
+msgstr "Denna Blu-ray skiva (eller fil) är krypterad och kan därför inte spelas."
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12721,6 +12725,26 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "Markörer"
 
+msgctxt "#35105"
+msgid "Light gun"
+msgstr "Ljuspistol"
+
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "Skjut offscreen"
+
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "Konsolbrytare"
+
+msgctxt "#35108"
+msgid "Hardware buttons"
+msgstr "Hårdvaruknappar"
+
+msgctxt "#35109"
+msgid "Keypad"
+msgstr "Knappsats"
+
 msgctxt "#35150"
 msgid "Keyboard"
 msgstr "Tangentbord"
@@ -12784,6 +12808,14 @@ msgstr "Konfigurera tangentbordsspelare 8"
 msgctxt "#35165"
 msgid "Keyboard player"
 msgstr "Tangentbordsspelare"
+
+msgctxt "#35166"
+msgid "All keys"
+msgstr "Alla knappar"
+
+msgctxt "#35167"
+msgid "Single keys"
+msgstr "Enstaka knappar"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -12849,9 +12881,29 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Stödda tillägg"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "Spartillståndet kan bara laddas med \"{0:s}\". Radera spartillståndet och fortsätt?"
+
+msgctxt "#35218"
+msgid "Erase savestate"
+msgstr "Radera spartillståndet"
+
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "Spelleverantörer"
+
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "Spelmeny"
+
+msgctxt "#35222"
+msgid "Exit"
+msgstr "Avsluta"
+
+msgctxt "#35223"
+msgid "Input settings"
+msgstr "Inmatningsinställningar"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12876,6 +12928,10 @@ msgstr "Hantera emulatorer"
 msgctxt "#35255"
 msgid "Browse all emulators"
 msgstr "Bläddra bland alla emulatorer"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "Det gick inte att installera tillägget."
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -13321,6 +13377,10 @@ msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "Aktivera VTB hårdvaruavkodning av videofiler."
 
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "Välj en åtgärd som Kodi ska utföra vid start."
+
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "Aktivera ViedoToolbox-hårdvaruavkodning av video."
@@ -13520,10 +13580,6 @@ msgstr "Visa programinformation vid kanalbyten, som nuvarande TV-program."
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Öppna grupphanteraren, som tillåter ändringar av grupper och deras respektive kanaler."
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "Göm OSD-kontrollerna efter kanalbyte."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -13816,6 +13872,10 @@ msgstr "För FLAC, ange kompressionsnivå, standard är 5"
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Mata automatiskt ut skivan när rippning är klar."
+
+msgctxt "#36292"
+msgid "This category contains startup settings."
+msgstr "Denna kategori innehåller startinställningar."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14613,6 +14673,10 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Specificerar upplösningen för 3D-uppslagstabellen. Använd en lägre upplösning för snabb förhandsgranskning och en högre upplösning för mer korrekt bild. Vid användning av en hög upplösning, kan det ta några sekunder att förbereda, när parametrarna ändras eller en ny video startas."
 
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV (BT.2020)"
+
 msgctxt "#36580"
 msgid "3D LUT file"
 msgstr "3D LUT fil"
@@ -15161,6 +15225,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sektion med inställningar för uppspelning av media"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Sektion med inställningar för källor och hur mediainformation samlas in, lagras, visas och navigeras"
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Sektion med inställningar som påverkar den grafiska användarupplevelsen och styrning av denna"
@@ -15229,6 +15297,10 @@ msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Accelerera h264"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "Denna kategori ger tillgång till fönstren för källhantering och bibliotekets inställningar för databaserna"
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Denna ger tillgång till där videokällor kan läggas till och på annat sätt hanteras."
@@ -15280,3 +15352,43 @@ msgstr "Återuppta ljudbok"
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
 msgstr "Aktivera UPnP. Detta tillåter dig att strömma media i ditt bibliotek till en UPnP-klient och att detektera fjärranslutna UPnP-servrar."
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "valfri"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "installerad"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "Följande ytterligare tillägg kommer att installeras"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "Fortsätt med installationen?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
+msgctxt "#39024"
+msgid "Dependencies"
+msgstr "Beroenden"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "Utför vid start"
+
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "Spela TV"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "Spela Radio"

@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "整理演出者時錯誤！"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "整理類別…"
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "整理類別錯誤！"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "整理路徑…"
@@ -6033,6 +6025,10 @@ msgctxt "#14223"
 msgid "Control"
 msgstr "控制"
 
+msgctxt "#14224"
+msgid "Startup"
+msgstr "啟動"
+
 msgctxt "#14225"
 msgid "Network Control"
 msgstr "網路控制"
@@ -6040,6 +6036,10 @@ msgstr "網路控制"
 msgctxt "#14226"
 msgid "Manage Sources"
 msgstr "管理來源"
+
+msgctxt "#14227"
+msgid "Startup Settings"
+msgstr "啟動設定"
 
 msgctxt "#14230"
 msgid "Actions"
@@ -7185,6 +7185,10 @@ msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "這個事件已經錄製"
 
+msgctxt "#19068"
+msgid "Recording settings"
+msgstr "錄影設定"
+
 msgctxt "#19069"
 msgid "Guide"
 msgstr "節目表"
@@ -7496,6 +7500,10 @@ msgstr "已加入群組"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "群組"
+
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "將錄影檔的存活時間設至 {0:d} 天將會導致立即到期，可能會導致錄影檔遭到刪除。確定要這麼做嗎?"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -7813,10 +7821,6 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "計時器已刪除"
 
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "切換頻道後關閉頻道播放工具列"
-
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "播放期間不更新"
@@ -8076,6 +8080,10 @@ msgstr "垂直"
 msgctxt "#19298"
 msgid "Horizontal"
 msgstr "平行"
+
+msgctxt "#19299"
+msgid "Expires"
+msgstr "到期"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11473,14 +11481,6 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "你想要切換到這個語言嗎？"
 
-msgctxt "#24133"
-msgid "Failed to load language"
-msgstr "載入語言失敗"
-
-msgctxt "#24134"
-msgid "We were unable to load your configured language. Please check your language settings."
-msgstr "我們無法載入你所選的語言。請檢查你的語言設定。"
-
 msgctxt "#24135"
 msgid "Audio DSP"
 msgstr "音效數位訊號處理"
@@ -11660,6 +11660,10 @@ msgstr "BD-J選單錯誤"
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
 msgstr "由於載入Java時發生錯誤，目前BD-J選單無法正常運作。請確認您的系統中已安裝Java Runtime Environment 並正確執行。"
+
+msgctxt "#29805"
+msgid "This Blu-ray disc (or file) is encrypted and can't be played."
+msgstr "此藍光片(或檔案)已被加密，無法播放。"
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12721,6 +12725,26 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "游標"
 
+msgctxt "#35105"
+msgid "Light gun"
+msgstr "光線槍"
+
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "射擊到螢幕以外"
+
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "平台切換"
+
+msgctxt "#35108"
+msgid "Hardware buttons"
+msgstr "硬體按鍵"
+
+msgctxt "#35109"
+msgid "Keypad"
+msgstr "小型鍵盤"
+
 msgctxt "#35150"
 msgid "Keyboard"
 msgstr "鍵盤"
@@ -12784,6 +12808,14 @@ msgstr "設定鍵盤玩家 8"
 msgctxt "#35165"
 msgid "Keyboard player"
 msgstr "鍵盤玩家"
+
+msgctxt "#35166"
+msgid "All keys"
+msgstr "所有按鍵"
+
+msgctxt "#35167"
+msgid "Single keys"
+msgstr "獨立按鍵"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -12849,9 +12881,29 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "支援的附加元件"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "進度存檔僅能由\"{0:s}\"載入。清除存檔並繼續?"
+
+msgctxt "#35218"
+msgid "Erase savestate"
+msgstr "清除進度存檔"
+
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "遊戲提供者"
+
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "遊戲選單"
+
+msgctxt "#35222"
+msgid "Exit"
+msgstr "離開"
+
+msgctxt "#35223"
+msgid "Input settings"
+msgstr "輸入設定"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12876,6 +12928,10 @@ msgstr "管理模擬器"
 msgctxt "#35255"
 msgid "Browse all emulators"
 msgstr "瀏覽所有的模擬器"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "安裝附加元件失敗"
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -13321,6 +13377,10 @@ msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "啟用影片檔案 VTB 硬體解碼。"
 
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "選擇Kodi啟動時要執行的動作"
+
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "啟用影片檔案 VideoToolbox 硬體解碼。"
@@ -13520,10 +13580,6 @@ msgstr "當切換頻道時顯示節目資訊，如正在播放的節目。"
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "開啟群組管理員，它可以修改群組及所包含的頻道。"
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "切換頻道後關閉播放控制列。"
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -13816,6 +13872,10 @@ msgstr "FLAC 壓縮等級，預設為 5。"
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "擷取完成後自動退出光碟。"
+
+msgctxt "#36292"
+msgid "This category contains startup settings."
+msgstr "本類別包含啟動的相關設定"
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14613,6 +14673,10 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "定義3D LUT的解析度。較低解析度可加快預覽的速度，反之則可得到較精確的圖像。相關數據變更或新的影片開始播放時，使用高解析度可能會花幾秒時間作準備。"
 
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV (BT.2020)"
+
 msgctxt "#36580"
 msgid "3D LUT file"
 msgstr "3D LUT檔案"
@@ -15161,6 +15225,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "本區包含媒體播放相關設定。"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "包含媒體來源相關的設定與媒體資訊的收集、儲存、顯示及瀏覽"
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "本區包含使用者介面的體驗及操作介面/系統的相關設定"
@@ -15229,6 +15297,10 @@ msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "h264加速"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "本類別提供媒體來源管理視窗的使用及資料庫的相關設定"
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "用以增加影片來源及管理"
@@ -15280,3 +15352,43 @@ msgstr "繼續播放有聲書"
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
 msgstr "啟用UPnp可讓您將資料庫內容串流至UPnP客戶端裝置，並偵測遠端的UPnP伺服器。"
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "選用"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "已安裝"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "以下的附加元件將被安裝"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "要執行安裝嗎?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
+msgctxt "#39024"
+msgid "Dependencies"
+msgstr "依賴的附加元件"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "啟動時執行"
+
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "播放電視"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "播放廣播"

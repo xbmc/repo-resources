@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Error limpiando intérpretes"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "Limpiando géneros..."
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "Error limpiando géneros"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Limpiando rutas..."
@@ -6033,6 +6025,10 @@ msgctxt "#14223"
 msgid "Control"
 msgstr "Control"
 
+msgctxt "#14224"
+msgid "Startup"
+msgstr "Arranque"
+
 msgctxt "#14225"
 msgid "Network Control"
 msgstr "Control de Red"
@@ -6040,6 +6036,10 @@ msgstr "Control de Red"
 msgctxt "#14226"
 msgid "Manage Sources"
 msgstr "Gestión de Fuentes"
+
+msgctxt "#14227"
+msgid "Startup Settings"
+msgstr "Ajustes de Arranque"
 
 msgctxt "#14230"
 msgid "Actions"
@@ -7185,6 +7185,10 @@ msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Este evento ya se está grabando."
 
+msgctxt "#19068"
+msgid "Recording settings"
+msgstr "Ajustes de grabación"
+
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Guía"
@@ -7496,6 +7500,10 @@ msgstr "Agrupados"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Grupos"
+
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "Ajustar el tiempo de vida de esta grabación a {0:d} días expirará inmediatamente la grabación, por lo que se borrará inmediatamente. ¿Proceder igualmente?"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -7813,10 +7821,6 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "Programación eliminada"
 
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "Cerrar OSD del canal al cambiar de canal"
-
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "Evitar actualizaciones durante la reproducción"
@@ -8076,6 +8080,10 @@ msgstr "Vertical"
 msgctxt "#19298"
 msgid "Horizontal"
 msgstr "Horizontal"
+
+msgctxt "#19299"
+msgid "Expires"
+msgstr "Expira"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11473,14 +11481,6 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "¿Quiere cambiar a este idioma?"
 
-msgctxt "#24133"
-msgid "Failed to load language"
-msgstr "Fallo al cargar idioma"
-
-msgctxt "#24134"
-msgid "We were unable to load your configured language. Please check your language settings."
-msgstr "Hemos sido incapaces de cargar el idioma configurado. Por favor, compruebe las opciones de idioma."
-
 msgctxt "#24135"
 msgid "Audio DSP"
 msgstr "Audio DSP"
@@ -11660,6 +11660,10 @@ msgstr "Error en menú BD-J"
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
 msgstr "Ha ocurrido un error cargando Java, así que los menúes BD-J no funcionarán. Los menúes BD-J requieren el Entorno de Ejecución de Java (JRE). Asegúrese de que está instalado y funcionando en su sistema."
+
+msgctxt "#29805"
+msgid "This Blu-ray disc (or file) is encrypted and can't be played."
+msgstr "Este disco (o archivo) Blu-ray esta encriptado y no se puede reproducir."
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12721,6 +12725,26 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "Punteros"
 
+msgctxt "#35105"
+msgid "Light gun"
+msgstr "Pistola de luz"
+
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "Disparar fuera de pantalla"
+
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "Interruptores de la consola"
+
+msgctxt "#35108"
+msgid "Hardware buttons"
+msgstr "Botones físicos"
+
+msgctxt "#35109"
+msgid "Keypad"
+msgstr "Teclado numérico"
+
 msgctxt "#35150"
 msgid "Keyboard"
 msgstr "Teclado"
@@ -12784,6 +12808,14 @@ msgstr "Configurar teclado Jugador 8"
 msgctxt "#35165"
 msgid "Keyboard player"
 msgstr "Teclado de jugador"
+
+msgctxt "#35166"
+msgid "All keys"
+msgstr "Todas las teclas"
+
+msgctxt "#35167"
+msgid "Single keys"
+msgstr "Teclas únicas"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -12849,9 +12881,29 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Add-ons de apoyo"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "El punto de guardado solo se puede cargar con \"{0:s}\". ¿Borrar punto de guardado y continuar?"
+
+msgctxt "#35218"
+msgid "Erase savestate"
+msgstr "Borrar punto de guardado"
+
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "Proveedor de juegos"
+
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "Menú del Juego"
+
+msgctxt "#35222"
+msgid "Exit"
+msgstr "Salir"
+
+msgctxt "#35223"
+msgid "Input settings"
+msgstr "Ajustes de control"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12876,6 +12928,10 @@ msgstr "Gestionar emuladores"
 msgctxt "#35255"
 msgid "Browse all emulators"
 msgstr "Buscar todos los emuladores"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "Algo falló al instalar el add-on."
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -13321,6 +13377,10 @@ msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "Activa VTB para la decodificación por hardware de archivos de vídeo."
 
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "Seleccionar acciones que hará Kodi al arrancar."
+
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "Activa VideoToolbox para la decodificación por hardware de archivos de vídeo."
@@ -13520,10 +13580,6 @@ msgstr "Visualiza la información de programación al cambiar de canal, como la 
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Abre el administrador de gupos, que permite modificar los grupos y sus respectivos canales."
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "Cierra los controles de visualización en pantalla después de cambiar de canal."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -13816,6 +13872,10 @@ msgstr "Define el nivel de compresión para FLAC. Por defecto 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Expulsa el disco automáticamente cuando se complete la extracción."
+
+msgctxt "#36292"
+msgid "This category contains startup settings."
+msgstr "Esta categoría contiene los ajustes de arranque."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14613,6 +14673,10 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Especifica la resolución para la tabla de vista 3D. Usa una resolución baja para previsualizar rápidamente y una mas alta para una mejor imagen. Usar una resolución alta puede llevar varios segundos cuando se cambien los parámetros o cuando empiece un nuevo vídeo."
 
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV (BT.2020)"
+
 msgctxt "#36580"
 msgid "3D LUT file"
 msgstr "Archivo 3D LUT"
@@ -15161,6 +15225,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sección que contiene los ajustes para la reproducción de contenido"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Sección que contiene los ajustes sobre las fuentes y cómo se recoge, almacena, muestra y navega por la información del contenido"
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Sección que contiene los ajustes que influyen en la experiencia de usuario con la interfaz y el control del sistema/GUI."
@@ -15229,6 +15297,10 @@ msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Acelerar h264"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "Esta categoría da acceso a las ventanas para gestionar las fuentes y a los ajustes de las bases de datos de las Colecciones"
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Esto proporciona acceso a dónde se pueden agregar y administrar fuentes de vídeo."
@@ -15280,3 +15352,43 @@ msgstr "Reanudar audiolibro"
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
 msgstr "Activa UPnP. Permite emitir los contenidos de las colecciones hacia un cliente UPnP y detectar servidores UPnP remotos."
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "opcional"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "instalado"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "Se instalarán los siguientes add-ons adicionales"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "¿Proceder a la instalación?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
+msgctxt "#39024"
+msgid "Dependencies"
+msgstr "Dependencias"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "Hacer al arrancar"
+
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "Ver TV"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "Escuchar Radio"

@@ -1177,14 +1177,6 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Virhe esittäjien puhdistuksessa"
 
-msgctxt "#322"
-msgid "Cleaning genres..."
-msgstr "Puhdistetaan lajityypit..."
-
-msgctxt "#323"
-msgid "Error cleaning genres"
-msgstr "Virhe lajityyppien puhdistuksessa"
-
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Puhdistetaan tiedostopolut..."
@@ -2859,7 +2851,7 @@ msgstr "Anna hakusana"
 
 msgctxt "#806"
 msgid "Fulltext search (or title search only)"
-msgstr "Kokotekstin haku (tai vain ohjelman nimestä)"
+msgstr "Hae nimen lisäksi kuvauksesta"
 
 msgctxt "#807"
 msgid "Any day"
@@ -5131,7 +5123,7 @@ msgstr "Ääni- ja tekstitysasetukset"
 
 msgctxt "#13397"
 msgid "Enable subtitles"
-msgstr "Tekstitys käytössä"
+msgstr "Näytä tekstitykset"
 
 msgctxt "#13398"
 msgid "Shortcuts"
@@ -6033,6 +6025,10 @@ msgctxt "#14223"
 msgid "Control"
 msgstr "Hallinta"
 
+msgctxt "#14224"
+msgid "Startup"
+msgstr "Käynnistys"
+
 msgctxt "#14225"
 msgid "Network Control"
 msgstr "Verkonhallinta"
@@ -6040,6 +6036,10 @@ msgstr "Verkonhallinta"
 msgctxt "#14226"
 msgid "Manage Sources"
 msgstr "Medialähteet"
+
+msgctxt "#14227"
+msgid "Startup Settings"
+msgstr "Käynnistysasetukset"
 
 msgctxt "#14230"
 msgid "Actions"
@@ -7103,7 +7103,7 @@ msgstr "Uusi kanava"
 
 msgctxt "#19047"
 msgid "Programme information"
-msgstr "Ohjelman tiedot"
+msgstr "Ohjelmatiedot"
 
 msgctxt "#19048"
 msgid "Group manager"
@@ -7184,6 +7184,10 @@ msgstr "Kanavalogot"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Tämän ohjelman tallennus on jo käynnissä."
+
+msgctxt "#19068"
+msgid "Recording settings"
+msgstr "Tallennusasetukset"
 
 msgctxt "#19069"
 msgid "Guide"
@@ -7496,6 +7500,10 @@ msgstr "Ryhmitelty"
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Ryhmät"
+
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "Tallennuksen säilytysajan muuttaminen {0:d}:ksi päiväksi tekee sen heti vanhentuneeksi, mikä saattaa johtaa tallennuksen välittömään poistamiseen. Haluatko silti tehdä muutoksen?"
 
 msgctxt "#19148"
 msgid "Channel"
@@ -7813,10 +7821,6 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "Ajastus poistettu"
 
-msgctxt "#19229"
-msgid "Close channel OSD after switching channels"
-msgstr "Sulje kuvaruutuvalikko kanavavaihdon jälkeen"
-
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "Vältä päivityksiä toiston aikana"
@@ -8077,6 +8081,10 @@ msgctxt "#19298"
 msgid "Horizontal"
 msgstr "Vaaka"
 
+msgctxt "#19299"
+msgid "Expires"
+msgstr "Vanhenee"
+
 msgctxt "#19499"
 msgid "Other / Unknown"
 msgstr "Muu / Tuntematon"
@@ -8147,7 +8155,7 @@ msgstr "Pelishow / Tietovisa / Kilpailu"
 
 msgctxt "#19534"
 msgid "Variety show"
-msgstr "Varieteeshow"
+msgstr "Viihdeohjelma"
 
 msgctxt "#19535"
 msgid "Talk show"
@@ -8999,7 +9007,7 @@ msgstr "Sammuta 120 minuutin kuluttua"
 
 msgctxt "#20150"
 msgid "Custom shutdown timer"
-msgstr "Aseta aika sammutukseen"
+msgstr "Aseta sammutusajastus"
 
 msgctxt "#20151"
 msgid "Cancel shutdown timer"
@@ -9035,7 +9043,7 @@ msgstr "Verkon tiedot"
 
 msgctxt "#20159"
 msgid "Video information"
-msgstr "Näytön tiedot"
+msgstr "Videotiedot"
 
 msgctxt "#20160"
 msgid "Hardware information"
@@ -9435,7 +9443,7 @@ msgstr "Tv-sarjan tiedot"
 
 msgctxt "#20352"
 msgid "Episode information"
-msgstr "Jakson tiedot"
+msgstr "Jaksotiedot"
 
 msgctxt "#20353"
 msgid "Loading TV show details"
@@ -9491,7 +9499,7 @@ msgstr "Jakson juoni"
 
 msgctxt "#20366"
 msgid "* All seasons"
-msgstr "* Kaikki tuotantokaudet"
+msgstr "* Kaikki kaudet"
 
 msgctxt "#20367"
 msgid "Hide watched"
@@ -9511,11 +9519,11 @@ msgstr "* Piilotettu juonipaljastusten välttämiseksi *"
 
 msgctxt "#20371"
 msgid "Set season thumb"
-msgstr "Aseta tuotantokauden pienoiskuva"
+msgstr "Aseta kauden pienoiskuva"
 
 msgctxt "#20372"
 msgid "Season image"
-msgstr "Tuotantokauden kuva"
+msgstr "Kauden kuva"
 
 msgctxt "#20373"
 msgid "Season"
@@ -11311,7 +11319,7 @@ msgstr "Tätä lisäosaa ei voi poistaa käytöstä"
 
 msgctxt "#24092"
 msgid "Checking for add-on updates"
-msgstr "Tarkistaa lisäosien päivityksiä"
+msgstr "Tarkistetaan lisäosien päivityksiä"
 
 msgctxt "#24093"
 msgid "Checking {0:s}..."
@@ -11472,14 +11480,6 @@ msgstr "Etsii videosta \"closed captions\"-tekstejä. Tämä lisää prossessori
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "Haluatko vaihtaa tähän kieleen?"
-
-msgctxt "#24133"
-msgid "Failed to load language"
-msgstr "Kielen lataaminen epäonnistui"
-
-msgctxt "#24134"
-msgid "We were unable to load your configured language. Please check your language settings."
-msgstr "Määrittämääsi kieltä ei voitu ladata. Tarkista kieliasetukset."
 
 msgctxt "#24135"
 msgid "Audio DSP"
@@ -11660,6 +11660,10 @@ msgstr "BD-J-valikon virhe"
 msgctxt "#29804"
 msgid "There was an error encountered loading Java, so BD-J menus will not be functional at this time. BD-J menus require the Java Runtime Environment so make sure this is installed and functioning on your system."
 msgstr "Javan lataamisessa tapahtui virhe, minkä vuoksi BD-J-valikot eivät ole käytettävissä. Valikot tarvitsevat Java Runtime Environmentin toimiakseen, joten varmista, että se on asennettu ja toiminnassa järjestelmässäsi."
+
+msgctxt "#29805"
+msgid "This Blu-ray disc (or file) is encrypted and can't be played."
+msgstr "Tämä Blu-ray-levy (tai tiedosto) on salattu eikä sitä voida toistaa."
 
 msgctxt "#29900"
 msgid "Radiotext Plus info"
@@ -12721,6 +12725,26 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "Osoittimet"
 
+msgctxt "#35105"
+msgid "Light gun"
+msgstr "Valopistooli"
+
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "Ammu ruudun vierestä"
+
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "Konsolin kytkimet"
+
+msgctxt "#35108"
+msgid "Hardware buttons"
+msgstr "Laitteistopainikkeet"
+
+msgctxt "#35109"
+msgid "Keypad"
+msgstr "Numeronäppäimet"
+
 msgctxt "#35150"
 msgid "Keyboard"
 msgstr "Näppäimistö"
@@ -12784,6 +12808,14 @@ msgstr "Pelaajan 8 näppäimistöasetukset"
 msgctxt "#35165"
 msgid "Keyboard player"
 msgstr "Näppäimistöpelaaja"
+
+msgctxt "#35166"
+msgid "All keys"
+msgstr "Kaikki näppäimet"
+
+msgctxt "#35167"
+msgid "Single keys"
+msgstr "Yksittäiset näppäimet"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -12849,9 +12881,29 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Tukilisäosat"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "Tallennettu pelitilanne voidaan ladata vain \"{0:s}:lla\". Haluatko poistaa tallennuksen ja jatkaa?"
+
+msgctxt "#35218"
+msgid "Erase savestate"
+msgstr "Poista tallennus"
+
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "Pelien tarjoajat"
+
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "Pelivalikko"
+
+msgctxt "#35222"
+msgid "Exit"
+msgstr "Lopeta"
+
+msgctxt "#35223"
+msgid "Input settings"
+msgstr "Ohjainasetukset"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12876,6 +12928,10 @@ msgstr "Hallitse emulaattoreita"
 msgctxt "#35255"
 msgid "Browse all emulators"
 msgstr "Selaa emulaattoreita"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "Lisäosan asentaminen epäonnistui"
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -13321,6 +13377,10 @@ msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "Käytä VTB-laitteistopurkua videotiedostoihin."
 
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "Valitse Kodin käynnistyessä suoritettava toiminto"
+
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "Käytä VideoToolBox-laitteistopurkua videotiedostoihin."
@@ -13520,10 +13580,6 @@ msgstr "Näyttää kanavan ohjelmatiedot kanavavaihdon yhteydessä."
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Avaa kanavaryhmien hallinnan, jonka avulla voi muokata kanavaryhmiä ja niihin kuuluvia kanavia."
-
-msgctxt "#36214"
-msgid "Close the on screen display controls after switching channels."
-msgstr "Sulkee kuvaruutuvalikon, kun kanava vaihtuu."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -13816,6 +13872,10 @@ msgstr "Määritä FLAC:in kompressointitaso, oletus 5."
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Poista CD automaattisesti kun rippaus on valmis."
+
+msgctxt "#36292"
+msgid "This category contains startup settings."
+msgstr "Tämä kategoria sisältää käynnistysasetukset."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14575,11 +14635,19 @@ msgstr "Antamalla näyttöprofiilin voit muokata videoparametreja, kuten gamma-,
 
 msgctxt "#36568"
 msgid "Whitepoint"
-msgstr "Värilämpötila"
+msgstr "Valkopiste"
+
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "Videon valkopisteen muuttamisesta D93:ksi on hyötyä vanhan japanilaisen NTSC-materiaalin kanssa, koska se näyttää punertavalta D65-näytöltä katsottuna. Säädä videon kirkkautta alhaisemmaksi, jotta kirkkaimmat sävyt erottuvat toisistaan."
 
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Perusvärit"
+
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "Valitse lähdemateriaalin värikoordinaatit. Vanhempi teräväpiirtomateriaali voi olla käsitelty BT.601-standardin näytöillä. "
 
 msgctxt "#36572"
 msgid "Gamma mode"
@@ -14600,6 +14668,10 @@ msgstr "Hakutaulukon koko"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Valitse 3D-hakutaulukon resoluutio. Käytä matalaa resoluutiota nopeaa esikatselua varten ja korkeaa resoluutiota tarkempaa kuvaa varten. Korkean resoluution käyttäminen vie enemmän aikaa, kun parametrejä muutetaaan tai videotoisto aloitetaan."
+
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV (BT.2020)"
 
 msgctxt "#36580"
 msgid "3D LUT file"
@@ -14811,7 +14883,7 @@ msgstr "ryhmät"
 
 msgctxt "#36912"
 msgid "video"
-msgstr "Näyttö"
+msgstr "video"
 
 msgctxt "#36913"
 msgid "videos"
@@ -15149,6 +15221,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Tämä kategoria sisältää mediatoiston asetukset"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Osio sisältää medialähteiden asetukset sekä mediatietojen keräämiseen, tallentamiseen ja esittämiseen liittyvät asetukset."
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Tämä kategoria sisältää käyttöliittymän ja sen ohjaamiseen liittyvät asetukset."
@@ -15217,6 +15293,10 @@ msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Kiihdytä h264"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "Tämä kategoria sisältää medialähteisiin ja mediakirjastoihin liittyvät asetukset."
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Tästä voi lisätä uusia videolähteitä ja muokata olemassaolevien lähteiden asetuksia."
@@ -15268,3 +15348,43 @@ msgstr "Jatka äänikirjan kuuntelua"
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
 msgstr "Kytkee UPnP-ominaisuuden päälle. Tämän toiminnon avulla voit jakaa mediakirjastosi muille laitteille ja olla yhteydessä toisiin UPnP-palvelimiin."
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "valinnainen"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "asennettu"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "Myös nämä lisäosat asennetaan"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "Jatketaanko asentamista?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
+msgctxt "#39024"
+msgid "Dependencies"
+msgstr "Riippuvuudet"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "Käynnistyksen yhteydessä"
+
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "Katso tv:tä"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "Kuuntele radiota"
