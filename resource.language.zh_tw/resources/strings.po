@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "整理演出者時錯誤！"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "清除類別、角色等資料..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "清除類別、角色等資料時發生錯誤"
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "整理路徑…"
@@ -2500,6 +2508,14 @@ msgstr "[B]視訊[/B]元件的詳細紀錄"
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "[B]網站伺服器[/B]元件的詳細紀錄"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "為[B]資料庫[/B]組件所建立的純文字紀錄檔"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "[B]影音時序資訊[/B]的純文字紀錄檔"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -7593,10 +7609,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "隱藏影片資訊顯示區"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "開始播放時超時"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "切換至全螢幕"
@@ -7641,10 +7653,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "選單/播放工具列"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "顯示日數"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "無線電廣播頻道"
@@ -7668,6 +7676,14 @@ msgstr "清除所有相關的數據。"
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "你全部的節目表資料都將被清除。你確定嗎？"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR後端不允許錄製此事件"
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "執行程式"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -12905,6 +12921,14 @@ msgctxt "#35223"
 msgid "Input settings"
 msgstr "輸入設定"
 
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "暫停 / 繼續"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "影像濾鏡"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "加入遊戲..."
@@ -13597,10 +13621,6 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "此分類包含電子節目表(EPG)的設定。"
 
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "設定要在節目表中顯示及從後端匯入資料的天數"
-
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "從後端取得節目表資料的時間間隔"
@@ -13632,10 +13652,6 @@ msgstr "播放頻道或錄影檔時切換至全螢幕顯示。"
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "在編碼格式資料視窗中顯示訊號品質資訊(前提是附加元件及後端要支援)。"
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "設定從切換頻道到開始接收頻道內容的間隔時間。此功能在OTA頻道偶發訊號不穩定時很有用。"
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -14837,6 +14853,34 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "開啟圖片的高品質降頻(耗用較多記憶體且多少會影響效能)。"
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "最高通訊協定版本"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "設定在進行連結時所使用的最高SMB通訊協定版本。與較老舊的NAS及Windows分享資料夾連結時可能會需要強制相容SMBv2或SMBv1。"
+
+msgctxt "#36623"
+msgid "None"
+msgstr "關閉"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "用戶端"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "電影"
@@ -15220,6 +15264,50 @@ msgstr "是否要擷取專輯及藝人的額外資料?這會花點時間，建�
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "即使音樂檔案沒有更動過也要進行全面的資訊掃描嗎?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "設定預設的資料提供者"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "此藝人的專屬設定"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "設定給所有看得到的藝人"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "此專輯的專屬設定"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "設定給所有看得到的專輯"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "要將在這裡看得到的所有藝人設定為使用這個資訊提供者嗎?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "要將在這裡看得到的所有專輯設定為使用這個資訊提供者嗎?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "要將所有藝人設定為使用這個資訊提供者，並清除所有之前針對個別藝人的設定值嗎?"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "要將所有專輯設定為使用這個資訊提供者，並清除所有之前針對個別藝人的設定值嗎?"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "您現在要為所有項目進行資訊更新嗎?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "您現在要為此項目進行資訊更新嗎?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

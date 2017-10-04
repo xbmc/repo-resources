@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Chyba pri čistení umelcov"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Prebieha čistenie žánrov, rolí, atď...."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Chyba pri čistení žánrov, rolí, atď."
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Prebieha čistenie ciest..."
@@ -2500,6 +2508,14 @@ msgstr "Podrobný záznam pre súčasť [B]Video[/B]"
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "Podrobný záznam pre súčasť [B]Webserver[/B]"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Podrobný záznam pre súčasť [B]Databáza[/B]"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Podrobný záznam pre súčasť [B]informácia o audio/video časovaní[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -7593,10 +7609,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Skryť panel s informáciami o videu"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Časový limit po spustení prehrávania"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "Prepnúť na celú obrazovku"
@@ -7641,10 +7653,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Ponuka / OSD"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Počet dní na zobrazenie"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Rozhlasové kanály"
@@ -7668,6 +7676,14 @@ msgstr "Vymazať všetky súvisiace dáta."
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Všetky vaše údaje v TV programe budú vymazané. Ste si istý?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR backend neumožňuje nahrávať túto udalosť."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Prehrávať program"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -12905,6 +12921,14 @@ msgctxt "#35223"
 msgid "Input settings"
 msgstr "Nastavenia vstupu"
 
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Pozastaviť / Pokračovať"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Filter videa"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Pridať hry..."
@@ -13597,10 +13621,6 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Táto kategória obsahuje nastavenia pre elektronický televízny program (EPG)."
 
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Počet dní, ktoré sa majú zobraziť v TV programe a pre ktoré sa majú importovať údaje z backendov."
-
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "Čas medzi importmi údajov pre TV program z backendov."
@@ -13632,10 +13652,6 @@ msgstr "Prepnúť na zobrazenie na celú obrazovku po spustení prehrávania kan
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Zobrazovať informácie o kvalite signálu v okne s informáciami o použitom kodeku (pokiaľ to podporuje doplnok a backend)."
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Doba, po ktorú čakať na príjem kanálu po zmene kanálu. Užitočné pre voľne vysielané kanály, u ktorých občas dojde k strate sily signálu."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -14837,6 +14853,34 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Povoliť vysokokvalitné škálovanie obrázkov do nižšieho rozlíšenia (používa viac pamäte a má mierny dopad na výkon)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Najvyššia verzia protokolu"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Nastavte najvyššiu verziu SMB protokolu, ktorá sa má vyjednávať počas vytvárania spojení. Vnútenie kompatibility pre SMBv2 alebo SMBv1 možno bude potrebné pri starších NAS a Windows zdieľaniach."
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Žiadne"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Klient"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "film"
@@ -15220,6 +15264,50 @@ msgstr "Získať dodatočné informácie o albumoch a umelcoch? To môže chví�
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Spraviť prehľadávanie všetkých tagov, aj keď nedošlo k zmene hudobných súborov?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Nastaviť predvoleného poskytovateľa informácií"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Nastaviť pre tohto umelca"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Nastaviť pre všetkých zobrazených umelcov"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Nastaviť pre tento album"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Nastaviť pre všetky zobrazené albumy"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Použiť tohto poskytovateľa informácií pre všetkých tu zobrazených umelcov?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Použiť tohto poskytovateľa informácií pre všetky tu zobrazené albumy?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Použiť tohto poskytovateľa informácií pre všetkých umelcov, vďaka čomu sa vymažú všetky predchádzajúce nastavenia pre konkrétnych umelcov?"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Použiť tohto poskytovateľa informácií pre všetky albumy, vďaka čomu sa vymažú všetky predchádzajúce nastavenia pre konkrétne albumy?"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Chcete teraz obnoviť informácie pre všetky tieto položky?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Chcete teraz obnoviť informácie pre túto položku?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

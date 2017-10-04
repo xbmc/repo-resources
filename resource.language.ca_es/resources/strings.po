@@ -1173,6 +1173,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "S'ha produït un error en netejar els artistes"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "S'estan netejant els gèneres, rols, etc..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "S'ha produït un error en netejar els gèneres, rols, etc."
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "S'estan netejant els directoris..."
@@ -6235,7 +6243,7 @@ msgstr "Configuració de preprocessament..."
 
 msgctxt "#15040"
 msgid "The settings dialogue can only be opened from the OSD menu during playback"
-msgstr "Durant la reproducció només es pot obrir el dialèg de les opcions des del menú OSD"
+msgstr "Durant la reproducció només es pot obrir el diàleg de les opcions des del menú OSD"
 
 msgctxt "#15041"
 msgid "Unknown mode name"
@@ -6797,6 +6805,10 @@ msgctxt "#17500"
 msgid "Display sleep timeout"
 msgstr "Display sleep timeout"
 
+msgctxt "#17997"
+msgid "{0:d} MByte"
+msgstr "{0:d} MBytes"
+
 msgctxt "#17998"
 msgid "{0:d} hours"
 msgstr "{0:d} hores"
@@ -7064,6 +7076,10 @@ msgstr "Icones del canal"
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Ja s'està enregistrant aquest esdeveniment."
+
+msgctxt "#19068"
+msgid "Recording settings"
+msgstr "Opcions de l'enregistrament"
 
 msgctxt "#19069"
 msgid "Guide"
@@ -7429,13 +7445,17 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Oculta la caixa d'informació de vídeo"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Temps d'expiració quan s'inicia la reproducció"
-
 msgctxt "#19172"
 msgid "Instant recording duration"
 msgstr "Durada de l'enregistrament instantani"
+
+msgctxt "#19173"
+msgid "TV channel groups"
+msgstr "Grups de canals de TV"
+
+msgctxt "#19174"
+msgid "Radio channel groups"
+msgstr "Grups d'emissores de ràdio"
 
 msgctxt "#19177"
 msgid "Playback"
@@ -7456,10 +7476,6 @@ msgstr "Canals de TV"
 msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Menú / OSD"
-
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Dies a visualitzar"
 
 msgctxt "#19183"
 msgid "Radio channels"
@@ -8855,7 +8871,7 @@ msgstr "Recarrega l'aparença"
 
 msgctxt "#20185"
 msgid "Use poster view styles for TV shows"
-msgstr "Utilitza els estils de visa de pòsters per als programes de TV"
+msgstr "Utilitza els estils de vista de pòsters per als programes de TV"
 
 msgctxt "#20186"
 msgid "Please wait"
@@ -9028,6 +9044,10 @@ msgstr "Play part..."
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Restabliment del calibratge"
+
+msgctxt "#20326"
+msgid "This will reset the calibration values for {0:s}"
+msgstr "Això restablirà els valors del calibratge per a {0:s}"
 
 msgctxt "#20327"
 msgid "to its default values."
@@ -10857,6 +10877,10 @@ msgctxt "#24083"
 msgid "Information libraries"
 msgstr "Biblioteques d'informació"
 
+msgctxt "#24084"
+msgid "Add-on installed"
+msgstr "Complement instal·lat"
+
 msgctxt "#24085"
 msgid "Failed to install a dependency"
 msgstr "No s'ha pogut instal·lar una dependència"
@@ -11869,6 +11893,10 @@ msgctxt "#35003"
 msgid "Generic disk"
 msgstr "Disc genèric"
 
+msgctxt "#35004"
+msgid "There are no settings available for this peripheral."
+msgstr "No hi ha opcions disponibles per aquest perifèric."
+
 msgctxt "#35005"
 msgid "New device configured"
 msgstr "Nou dispositiu configurat"
@@ -11961,9 +11989,21 @@ msgctxt "#35103"
 msgid "Buttons"
 msgstr "Botons"
 
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "Menú del joc"
+
 msgctxt "#35222"
 msgid "Exit"
 msgstr "Surt"
+
+msgctxt "#35223"
+msgid "Input settings"
+msgstr "Opcions d'entrada"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Filtre de vídeo"
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -12476,10 +12516,6 @@ msgstr "Explora per a les icones dels canals que falten."
 msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "En aquesta categoria hi ha les opcions per a la guia electrònica de programació (EPG)."
-
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Nombre de dies per mostrar a la guia i importar les dades des dels dorsals."
 
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
@@ -13377,6 +13413,26 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Habilita la reducció d'escala de l'alta qualitat de les imatges (consumeix més memòria i té un impacte moderat en el rendiment)."
 
+msgctxt "#36623"
+msgid "None"
+msgstr "Cap"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Client"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "pel·lícula"
@@ -13729,9 +13785,33 @@ msgctxt "#38060"
 msgid "Music library needs to rescan tags from files. Would you like to scan now?"
 msgstr "La biblioteca de música requereix tornar a explorar les etiquetes dels fitxers. Ho voleu fer ara?"
 
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Estableix el proveïdor d'informació predeterminat"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Estableix per a aquest artista"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Estableix per a tots els artistes mostrats"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Estableix per a aquest àlbum"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Estableix per a tots els àlbums mostrats"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Secció que conté les opcions per a la reproducció dels mitjans."
+
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Secció que conté les opcions per als orígens i de com es recull la informació dels mitjans, s'emmagatzema o s'hi navega"
 
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
@@ -13797,6 +13877,10 @@ msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "Accelera h264"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "En aquesta categoria hi ha els accessos a les finestres per a la gestió dels orígens i les opcions de les biblioteques per les bases de dades"
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Això proporciona l'accés al lloc on es poden afegir els orígens dels vídeos i on es gestionen altrament."
@@ -13820,6 +13904,22 @@ msgstr "Zoom - 110% ample"
 msgctxt "#39010"
 msgid "Select sort method"
 msgstr "Seleccioneu el mètode d'ordenació"
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "opcional"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "instal·lat"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "S'instal·laran els següents complements addicionals"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "Voleu continuar amb la instal·lació?"
 
 msgctxt "#39024"
 msgid "Dependencies"

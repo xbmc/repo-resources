@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Wystąpił błąd podczas czyszczenia bazy wykonawców"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Czyszczenie gatunków, roli i tym podobnych..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Błąd czyszczenia gatunków, roli i tym podobnych."
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Czyszczenie ścieżek..."
@@ -1227,7 +1235,7 @@ msgstr "Rozpocznij"
 
 msgctxt "#336"
 msgid "Framerate conversion"
-msgstr "Konwersja częstotliwości klatek"
+msgstr "Konwersja klatkażu"
 
 msgctxt "#337"
 msgid "Output configuration"
@@ -1255,7 +1263,7 @@ msgstr "Filmy"
 
 msgctxt "#343"
 msgid "Adjust framerate"
-msgstr "Dostosuj częstotliwość klatek"
+msgstr "Dostosuj klatkaż"
 
 msgctxt "#344"
 msgid "Actors"
@@ -2500,6 +2508,14 @@ msgstr "Rejestruj zdarzenia komponentu [B]Wideo[/B]"
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "Rejestruj komunikaty komponentu [B]Serwer WWW[/B]"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Rejestruj zdarzenia komponentu [B]Baza danych[/B] "
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Rejestruj informacje [B]Synchronizacji audio/wideo[/B] "
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -5283,7 +5299,7 @@ msgstr "Zezwalaj na sprzętową akcelerację - MediaCodec"
 
 msgctxt "#13440"
 msgid "Allow hardware acceleration - MediaCodec (Surface)"
-msgstr "Zezwalaj na sprzętową akcelerację -  - MediaCodec (Powierzchniowy)"
+msgstr "Zezwalaj na sprzętową akcelerację - MediaCodec (Powierzchniowy)"
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
@@ -6247,7 +6263,7 @@ msgstr "Konfiguracja trybu odsłuchu..."
 
 msgctxt "#15026"
 msgid "Speaker / Output setup..."
-msgstr "Konfiguracja Głośniki / Wyjście..."
+msgstr "Konfiguracja - Głośniki / Wyjście..."
 
 msgctxt "#15027"
 msgid "Audio information..."
@@ -7347,7 +7363,7 @@ msgstr "o"
 
 msgctxt "#19108"
 msgid "Fallback framerate"
-msgstr "Zapasowa częstotliwość klatek"
+msgstr "Zapasowy klatkaż"
 
 msgctxt "#19109"
 msgid "Couldn't save timer. Check the log for more information about this message."
@@ -7589,10 +7605,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Ukrywaj informacje o wideo"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Limit czasu na uruchomienie odtwarzania"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "Przełącz do pełnego ekranu"
@@ -7637,10 +7649,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Menu ekranowe"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Wyświetlane dni"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Kanały radiowe"
@@ -7664,6 +7672,14 @@ msgstr "Czyszczenie wszystkich powiązanych danych."
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Wszystkie dane przewodnika zostaną wyczyszczone. Czy jesteś pewien?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "Server telewizji nie zezwala na nagranie tej audycji."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Odtwarzaj program"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -12897,6 +12913,14 @@ msgctxt "#35223"
 msgid "Input settings"
 msgstr "Ustawienia urządzeń wejściowych"
 
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Wstrzymaj / Wznów"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Filtr wideo"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Dodaj gry..."
@@ -13589,10 +13613,6 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Kategoria zawierająca ustawienia przewodnika programów."
 
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Określa liczby dni wyświetlanych w widoku przewodnika i importowanych z serwerów telewizji."
-
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "Określa częstotliwość importowania danych przewodnika z serwerów telewizji."
@@ -13624,10 +13644,6 @@ msgstr "Umożliwia przełączanie do trybu pełnoekranowego po rozpoczęciu odtw
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Umożliwia wyświetlanie informacji o jakości sygnału w oknie informacji o kodekach (jeśli obsługiwane przez klienta i serwer telewizji)."
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Określa czas oczekiwania na odbiór transmisji telewizyjnej po zmianie kanału. Użyteczne w przypadki kanałów odbieranych przy pomocy anteny, które mają problem z siłą sygnału."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -13743,7 +13759,7 @@ msgstr "Brak dostępnych informacji."
 
 msgctxt "#36261"
 msgid "If enabled, this framerate is used for streams we were not able to detect fps."
-msgstr "Określa domyślną częstotliwość odświeżania ekranu, gdy niemożliwe jest wykrycie odświeżania materiału wideo."
+msgstr "Określa domyślną częstotliwość odświeżania ekranu, gdy niemożliwe jest wykrycie klatkażu materiału wideo."
 
 msgctxt "#36262"
 msgid "Export the music library database to XML files. This will optionally overwrite your current XML files."
@@ -14743,11 +14759,11 @@ msgstr "{0:1.2f}"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
-msgstr "Eliminuje pasmowanie spowodowane konwersją poziomów RGB lub innym przetwarzaniem, poprzez dodanie niewielkiej ilości szumu do obrazu. Może to zostać wyłączone na wolniejszych systemach lub gdy Kodi ma skonfigurowany ograniczony zakres RGB i żadne przetwarzanie wideo nie jest potrzebne."
+msgstr "Eliminuje efekt fałszywych konturów spowodowany konwersją poziomów RGB lub innym przetwarzaniem, poprzez dodanie niewielkiej ilości szumu do obrazu. Może to zostać wyłączone na wolniejszych systemach lub gdy Kodi ma skonfigurowany ograniczony zakres RGB i żadne przetwarzanie wideo nie jest potrzebne."
 
 msgctxt "#36599"
 msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
-msgstr "Precyzja rozpraszania tonalnego w bitach. Używaj najwyższej wartości, która nie powoduje nienaturalnych przejść tonalnych. Domyślna wartość 8 jest zalecana dla większości systemów. Jeśli procesor grafiki został skonfigurowany tak, aby skalować wyjściowe poziomy kolorów RGB lub używasz ekranu laptopa, ustawienie 7 lub 6 bitów może dać lepsze efekty. Mniejsze wartości są dostępne wyłącznie w celach testowych, aby ułatwić sprawdzenie czy mechanizm rozsiewania działa i czy rozmiar piksela szumu rozpraszania odpowiada rozdzielczości wyświetlania."
+msgstr "Precyzja rozpraszania tonalnego w bitach. Używaj najwyższej wartości, która nie powoduje efektu fałszywych konturów. Domyślna wartość 8 jest zalecana dla większości systemów. Jeśli procesor grafiki został skonfigurowany tak, aby skalować wyjściowe poziomy kolorów RGB lub używasz ekranu laptopa, ustawienie 7 lub 6 bitów może dać lepsze efekty. Mniejsze wartości są dostępne wyłącznie w celach testowych, aby ułatwić sprawdzenie czy mechanizm rozsiewania działa i czy rozmiar piksela szumu rozpraszania odpowiada rozdzielczości wyświetlania."
 
 msgctxt "#36600"
 msgid "This category contains the settings for how the music library is handled."
@@ -14828,6 +14844,30 @@ msgstr "Skalowanie wysokiej jakości"
 msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Umożliwia aktywowanie wysokiej jakość skalowania obrazów (używa więcej pamięci i ma średni wpływ na wydajność)"
+
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Maksymalna wersja protokołu"
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Brak"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMB wersja 1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMB wersja 2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMB wersja 3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Klient"
 
 msgctxt "#36900"
 msgid "movie"
@@ -15211,7 +15251,47 @@ msgstr "Czy pobierać dodatkowe informacje o albumach i wykonawcach? Ta operacja
 
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
-msgstr "Wykonać pełne wczytywanie znaczników nawet wtedy, gdy pliki muzyki nie uległy zmianie?"
+msgstr "Wykonać pełne wczytywanie znaczników jeśli pliki muzyczne nie uległy zmianie?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Ustaw domyślnego dostawcę informacji"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Ustaw dla tego wykonawcy"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Ustaw dla wszystkich pokazanych wykonawców"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Ustaw dla tego albumu"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Ustaw dla wszystkich pokazanych albumów"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Czy używać tego dostawcy informacji dla wszystkich widocznych wykonawców? "
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Czy używać tego dostawcy informacji dla wszystkich widocznych albumów? "
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Czy używać tego dostawcy informacji dla wszystkich wykonawców, czyszcząc wszystkie ustawienia dla konkretnych wykonawców? "
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Czy używać tego dostawcy informacji dla wszystkich albumów, czyszcząc wszystkie ustawienia dla konkretnych albumów? "
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Czy chcesz teraz odświeżyć informację dla tej pozycji?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
@@ -15219,7 +15299,7 @@ msgstr "Sekcja zawierająca ustawienia związane z odtwarzaniem mediów."
 
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
-msgstr "Sekcja zawierająca ustawienia wpływające na interfejs użytkownika oraz na sterowanie aplikacją i system."
+msgstr "Sekcja zawierająca ustawienia wpływające na interfejs użytkownika oraz na sterowanie aplikacją i systemem."
 
 msgctxt "#38103"
 msgid "This category contains the settings for the playback of videos"
@@ -15323,7 +15403,7 @@ msgstr "Wirtualne systemy plików"
 
 msgctxt "#39014"
 msgid "Would you also like to remove all related data (e.g. settings) of this add-on?"
-msgstr "Czy chcesz także usunąć wszystkie, powiązane z dodatkiem, dane (n.p. ustawienia)?"
+msgstr "Czy chcesz także usunąć wszystkie, powiązane z dodatkiem, dane (np. ustawienia)?"
 
 msgctxt "#39015"
 msgid "Image decoder"
@@ -15331,11 +15411,11 @@ msgstr "Dekoder obrazu"
 
 msgctxt "#39016"
 msgid "Resume audiobook"
-msgstr "Wznów odtwarzanie książki"
+msgstr "Wznów odtwarzanie audiobooka"
 
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
-msgstr "Aktywuje UPnP. Umożliwia to transmisje mediów z biblioteki do klienta UPnP i detekcję zdalnych serwerów UPnP."
+msgstr "Aktywuje UPnP. Umożliwia to transmisję mediów z biblioteki do klienta UPnP i detekcję zdalnych serwerów UPnP."
 
 msgctxt "#39018"
 msgid "optional"
@@ -15347,7 +15427,7 @@ msgstr "zainstalowane"
 
 msgctxt "#39020"
 msgid "The following additional add-ons will be installed"
-msgstr "Zostaną zainstalowane następujące dodatkowe dodatki"
+msgstr "Zostaną zainstalowane następujące dodatki"
 
 msgctxt "#39021"
 msgid "Proceed with installation?"
@@ -15375,4 +15455,4 @@ msgstr "Oglądaj telewizję"
 
 msgctxt "#39102"
 msgid "Play Radio"
-msgstr "Słuchaj radio"
+msgstr "Słuchaj radia"

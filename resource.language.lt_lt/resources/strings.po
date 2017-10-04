@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Atlikėjų valymo klaida"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Valomi žanrai, vaidmenys ir kt."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Klaida valant žanrus, vaidmenis ir kt."
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Valomi keliai..."
@@ -2500,6 +2508,14 @@ msgstr "Išsamus [B]vaizdo[/B] komponento žurnalo rašymas"
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "Išsamus [B]žiniatinklio serverio[/B] komponento žurnalo rašymas"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Išsamus [B]duomenų bazės[/B] komponento žurnalo rašymas"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Išsamus [B]garso/vaizdo laikų[/B] žurnalo rašymas"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -7593,10 +7609,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Slėpti vaizdo informacijos langą"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Laukimo laikas pradėjus atkūrimą"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "Perjungti į viso ekrano režimą"
@@ -7641,10 +7653,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Meniu / OSD"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Rodyti dienų"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Radijo kanalai"
@@ -7668,6 +7676,14 @@ msgstr "Valomi visi susiję duomenys."
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Visi gido duomenys bus išvalyti. Ar tikrai norite tęsti?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR posistemė neleidžia įrašyti šio įvykio."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Paleisti programą"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -12905,6 +12921,14 @@ msgctxt "#35223"
 msgid "Input settings"
 msgstr "Įvesties nustatymai"
 
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Pristabdyti / Tęsti"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Vaizdo filtras"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Pridėti žaidimų..."
@@ -13597,10 +13621,6 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Šioje kategorijoje yra elektroninio programos gido (EPG) nustatymai."
 
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Dienų skaičius, naudojamas atvaizduojant TV gidą ir importuojant duomenis iš posistemių."
-
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "Laikas tarp TV gido duomenų importavimų iš posistemės."
@@ -13632,10 +13652,6 @@ msgstr "Perjungti į viso ekrano režimą, kai pradedamas kanalo ar įrašo atk�
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Atvaizduoti signalo kokybės informaciją kodeko informacijos lange (jei tai palaiko priedas ir posistemė)."
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Laukimo laikas signalo gavimui po kanalo perjungimo. Pravers žiūrint oru transliuojamus kanalus, kurie retkarčiais praranda signalo stiprumą."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -14837,6 +14853,34 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Įjungti aukštos kokybės paveikslėlių raiškos mažinimą (naudoja daugiau atminties ir nestipriai įtakoja našumą)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Maksimali protokolo versija"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Nustatykite maksimalią SMB protokolo versiją ryšio užmezgimui. Priverstinis SMBv2 ar SMBv1 suderinamumas gali būti reikalingas naudojant senesnius NAS ir Windows bendruosius išteklius."
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Joks"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Klientas"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "filmas"
@@ -15220,6 +15264,50 @@ msgstr "Atsiųsti papildomą albumų ir atlikėjų informaciją? Tai gali šiek 
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Atlikti pilną žymių nuskaitymą, net jei muzikos failai nebuvo pakeisti?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Nustatyti numatytąjį informacijos tiekėją"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Nustatyti šiam atlikėjui"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Nustatyti visiems rodomiems atlikėjams"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Nustatyti šiam albumui"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Nustatyti visiems rodomiems albumams"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Naudoti šį informacijos tiekėją visiems čia rodomiems atlikėjams?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Naudoti šį informacijos tiekėją visiems čia rodomiems albumams?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Naudoti šį informacijos tiekėją visiems atlikėjams, išvalant visus ankstesnius konkrečių atlikėjų nustatymus?"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Naudoti šį informacijos tiekėją visiems albumams, išvalant visus ankstesnius konkrečių albumų nustatymus?"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Ar norite atnaujinti informaciją visiems šitiems elementams dabar?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Ar norite atnaujinti informaciją šiam elementui dabar?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

@@ -51,7 +51,7 @@ msgstr "Veður"
 
 msgctxt "#9"
 msgid "Kodi media center"
-msgstr "Kodi miðlunarspilari"
+msgstr "Kodi margmiðlunarspilari"
 
 msgctxt "#11"
 msgid "Monday"
@@ -859,7 +859,7 @@ msgstr "Hreinsa spilunarlista við enda"
 
 msgctxt "#240"
 msgid "Display mode"
-msgstr "Skjáhamur"
+msgstr "Birtingarhamur"
 
 msgctxt "#241"
 msgid "Full screen #{0:d}"
@@ -951,7 +951,7 @@ msgstr "Skriftuúttak"
 
 msgctxt "#263"
 msgid "Allow remote control via HTTP"
-msgstr "Leifa fjarstýringu með HTTP"
+msgstr "Leyfa fjarstýringu með HTTP"
 
 msgctxt "#264"
 msgid "Record"
@@ -1176,6 +1176,14 @@ msgstr "Hreinsa listamannalista..."
 msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Villa við hreinsun listamannalista"
+
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Hreinsa tegundir, hlutverk, o.s.frv..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Villa við að hreinsa tegundir, hlutverk, o.s.frv..."
 
 msgctxt "#324"
 msgid "Cleaning paths..."
@@ -1819,7 +1827,7 @@ msgstr "- Nota stór tákn"
 
 msgctxt "#492"
 msgid "Resize VobSubs"
-msgstr "Breyta stærð VobSub þýðingartexta"
+msgstr "Breyta stærð VobSub skjátexta"
 
 msgctxt "#493"
 msgid "Advanced options (experts only!)"
@@ -1839,7 +1847,7 @@ msgstr "Forkvörðun"
 
 msgctxt "#497"
 msgid "Show file extensions"
-msgstr "Sýna skráarendingar"
+msgstr "Birta skráarendingar"
 
 msgctxt "#498"
 msgid "Sort by: Type"
@@ -2501,6 +2509,14 @@ msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "Ítarleg atvikaskráning fyrir [B]Webserver[/B] eininguna"
 
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Ítarleg atvikaskráning fyrir [B]Database[/B] eininguna"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Ítarleg atvikaskráning fyrir [B]tímasetningar hljóð/myndar[/B]"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Hreinsa upp safn"
@@ -3007,7 +3023,7 @@ msgstr "Bæta við myndskeiðum..."
 
 msgctxt "#1000"
 msgid "Preview"
-msgstr "Forsýna"
+msgstr "Forskoða"
 
 msgctxt "#1001"
 msgid "Unable to connect"
@@ -3131,7 +3147,7 @@ msgstr "Virkja hnappa í undirvalmynd"
 
 msgctxt "#1036"
 msgid "Favourites"
-msgstr "Uppáhalds"
+msgstr "Eftirlæti"
 
 msgctxt "#1037"
 msgid "Video add-ons"
@@ -3951,7 +3967,7 @@ msgstr "Stillingar innihalds"
 
 msgctxt "#10134"
 msgid "Favourites"
-msgstr "Uppáhalds"
+msgstr "Eftirlæti"
 
 msgctxt "#10135"
 msgid "Songs / Info"
@@ -4779,7 +4795,7 @@ msgstr "Hraði örgjörva:"
 
 msgctxt "#13286"
 msgid "Video encoder:"
-msgstr "Skjáhraðall:"
+msgstr "Kóðari myndmerkis:"
 
 msgctxt "#13287"
 msgid "Screen resolution:"
@@ -4831,7 +4847,7 @@ msgstr "Snúa margstefnu texta"
 
 msgctxt "#13305"
 msgid "Show RSS news feeds"
-msgstr "Sýna RSS fréttastreymi"
+msgstr "Birta RSS fréttastreymi"
 
 msgctxt "#13306"
 msgid "Show parent folder items"
@@ -5003,7 +5019,7 @@ msgstr "Hætta skönnun"
 
 msgctxt "#13354"
 msgid "Render method"
-msgstr "Teikni hamur"
+msgstr "Myndgerðarhamur"
 
 msgctxt "#13355"
 msgid "Low quality pixel shader"
@@ -5131,7 +5147,7 @@ msgstr "Flýtileiðir"
 
 msgctxt "#13399"
 msgid "Ignore articles when sorting"
-msgstr "Hundsa atriði þegar raðað er"
+msgstr "Hunsa atriði þegar raðað er"
 
 msgctxt "#13400"
 msgid "Crossfade between songs on the same album"
@@ -5167,7 +5183,7 @@ msgstr "Forstillingar {0:s}"
 
 msgctxt "#13408"
 msgid "(IMDb user rating)"
-msgstr "(IMDb Stjörnugjöf notanda)"
+msgstr "(IMDb-stjörnugjöf notanda)"
 
 msgctxt "#13409"
 msgid "Top 250"
@@ -5195,7 +5211,7 @@ msgstr "Birta upplýsingar um lög og flytjendur á hljómplötu"
 
 msgctxt "#13415"
 msgid "Render method"
-msgstr "Teikni hamur"
+msgstr "Myndgerðarhamur"
 
 msgctxt "#13416"
 msgid "Auto detect"
@@ -5267,7 +5283,7 @@ msgstr "Spila aðeins þetta"
 
 msgctxt "#13435"
 msgid "Enable HQ scalers for scaling above"
-msgstr "Virkja HQ skölun fyrir ofangreinda skölun"
+msgstr "Virkja HQ-kvörðun fyrir kvörðun yfir"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -5331,7 +5347,7 @@ msgstr "Nota VC-1 VAAPI"
 
 msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
-msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir VC-1 kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn. VC-1 flettað er sérstalega erfitt fyrir Intel vélbúnað."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir VC-1 kóðun. Ef þetta er ekki virkt þá verður örgjörvinn notaður í staðinn. Fléttað VC-1 (interlaced) virkar mjög illa á Intel-vélbúnaði."
 
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
@@ -5571,7 +5587,7 @@ msgstr "Myndflýtiminni - DVD-ROM"
 
 msgctxt "#14027"
 msgid "Video cache - Local network"
-msgstr "Myndflýtiminni - Nærnet"
+msgstr "Myndflýtiminni - Staðarnet"
 
 msgctxt "#14028"
 msgid "Video cache - Internet"
@@ -5583,7 +5599,7 @@ msgstr "Hljóð flýtiminni - DVD-ROM"
 
 msgctxt "#14031"
 msgid "Audio cache - Local network"
-msgstr "Hljóðflýtiminni - Nærnet"
+msgstr "Hljóðflýtiminni - Staðarnet"
 
 msgctxt "#14032"
 msgid "Audio cache - Internet"
@@ -5595,7 +5611,7 @@ msgstr "DVD flýtiminni - DVD-ROM"
 
 msgctxt "#14035"
 msgid "Local network"
-msgstr "Staðbundið net"
+msgstr "Staðarnet"
 
 msgctxt "#14036"
 msgid "Services"
@@ -5603,7 +5619,7 @@ msgstr "Miðlarar"
 
 msgctxt "#14037"
 msgid "DVD cache - Local network"
-msgstr "DVD flýtiminni - Nærnet"
+msgstr "DVD flýtiminni - Staðarnet"
 
 msgctxt "#14038"
 msgid "Network settings changed"
@@ -5743,11 +5759,11 @@ msgstr "Nota sumartíma"
 
 msgctxt "#14076"
 msgid "Add to favourites"
-msgstr "Bæta við í uppáhalds"
+msgstr "Bæta við í eftirlætislista"
 
 msgctxt "#14077"
 msgid "Remove from favourites"
-msgstr "Fjarlægja úr uppáhalds"
+msgstr "Fjarlægja úr eftirlætislista"
 
 msgctxt "#14078"
 msgid "Colours"
@@ -5851,7 +5867,7 @@ msgstr "Spila aðalkvikmynd"
 
 msgctxt "#14104"
 msgid "Show simplified menu"
-msgstr "Sýna einfaldaða valmynd"
+msgstr "Birta einfaldaða valmynd"
 
 msgctxt "#14105"
 msgid "Temperature unit"
@@ -5959,7 +5975,7 @@ msgstr "PVR-upptaka og bein sjónvarpsútsending"
 
 msgctxt "#14205"
 msgid "PVR & Live TV settings"
-msgstr "Stillingar PVR-upptöku og beinnar útsendingar"
+msgstr "Stillingar PVR-upptöku og beinna útsendinga"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -6615,7 +6631,7 @@ msgstr "Sjálfvirkt"
 
 msgctxt "#16020"
 msgid "Deinterlace"
-msgstr "Mynd-afflétting"
+msgstr "Af-fléttun"
 
 msgctxt "#16021"
 msgid "Bob"
@@ -6679,15 +6695,15 @@ msgstr "Partí-spilunarlisti"
 
 msgctxt "#16036"
 msgid "Deinterlace (half)"
-msgstr "Af-flétting (hálft)"
+msgstr "Af-flétta (hálft)"
 
 msgctxt "#16037"
 msgid "Deinterlace video"
-msgstr "Deinterlace mynd"
+msgstr "Af-flétta mynd"
 
 msgctxt "#16038"
 msgid "Deinterlace method"
-msgstr "Deinterlace aðferð"
+msgstr "Aðferð við af-fléttun"
 
 msgctxt "#16039"
 msgid "Off"
@@ -6899,7 +6915,7 @@ msgstr "Eftirvinnsla"
 
 msgctxt "#17500"
 msgid "Display sleep timeout"
-msgstr "Sýna biðtíma"
+msgstr "Birta biðtíma"
 
 msgctxt "#17997"
 msgid "{0:d} MByte"
@@ -7115,7 +7131,7 @@ msgstr "Sýna rás"
 
 msgctxt "#19050"
 msgid "Show visible channels"
-msgstr "Sýna sýnilegar rásir"
+msgstr "Birta sýnilegar rásir"
 
 msgctxt "#19051"
 msgid "Show hidden channels"
@@ -7411,11 +7427,11 @@ msgstr "Aðeins Fríar útsendingar"
 
 msgctxt "#19124"
 msgid "Ignore present timers"
-msgstr "Hundsa núverandi tímatökur"
+msgstr "Hunsa núverandi tímatökur"
 
 msgctxt "#19125"
 msgid "Ignore present recordings"
-msgstr "Hundsa núvernadi upptökur"
+msgstr "Hunsa núverandi upptökur"
 
 msgctxt "#19126"
 msgid "Start time"
@@ -7593,10 +7609,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Fela upplýsingabox fyrir mynd"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Biðtími rann út við að ræsa upptöku"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "Skipta í skjáfylliham"
@@ -7641,10 +7653,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Valmynd / Stjórntexti"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Dagar sem sjást"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Útvarpsrásir"
@@ -7668,6 +7676,14 @@ msgstr "Hreinsa allar tengdar upplýsingar"
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Öllum gögnum í dagskrám verður eytt. Eru viss?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "Upptökubakendinn leyfir ekki upptöku á þessum atburði."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Spila dagskrárlið"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -8187,19 +8203,19 @@ msgstr "Hópíþróttir"
 
 msgctxt "#19554"
 msgid "Athletics"
-msgstr "Íþróttamenn"
+msgstr "Frjálsíþróttir"
 
 msgctxt "#19555"
 msgid "Motor sport"
-msgstr "Mótorsport"
+msgstr "Akstursíþróttir"
 
 msgctxt "#19556"
 msgid "Water sport"
-msgstr "Vatnaíþrótt"
+msgstr "Vatnaíþróttir"
 
 msgctxt "#19557"
 msgid "Winter sports"
-msgstr "Vetraríþrótt"
+msgstr "Vetraríþróttir"
 
 msgctxt "#19558"
 msgid "Equestrian"
@@ -8207,7 +8223,7 @@ msgstr "Hestaíþróttir"
 
 msgctxt "#19559"
 msgid "Martial sports"
-msgstr "Bardagaíþrótt"
+msgstr "Bardagaíþróttir"
 
 msgctxt "#19564"
 msgid "Children's / Youth programmes"
@@ -8227,7 +8243,7 @@ msgstr "Skemmtidagskrá fyrir 10 til 16 ára"
 
 msgctxt "#19568"
 msgid "Informational / Educational / School programme"
-msgstr "Upplýsinga / Náms / Skóla-þáttur"
+msgstr "Fræðsla / Nám / Skóli"
 
 msgctxt "#19569"
 msgid "Cartoons / Puppets"
@@ -8295,7 +8311,7 @@ msgstr "Útsending / Prentmiðlar"
 
 msgctxt "#19605"
 msgid "New media"
-msgstr "Nýr gagnamiðill"
+msgstr "Nýr miðill"
 
 msgctxt "#19606"
 msgid "Arts / Culture magazines"
@@ -8303,7 +8319,7 @@ msgstr "Lista / Menningar tímarit"
 
 msgctxt "#19607"
 msgid "Fashion"
-msgstr "Hamur"
+msgstr "Tíska"
 
 msgctxt "#19612"
 msgid "Social / Political / Economics"
@@ -8343,7 +8359,7 @@ msgstr "Erlend lönd / Leiðangrar"
 
 msgctxt "#19633"
 msgid "Social / Spiritual sciences"
-msgstr "Félagsleg / Andleg Vísindi"
+msgstr "Félagsleg / Andleg fræði"
 
 msgctxt "#19634"
 msgid "Further education"
@@ -8755,19 +8771,19 @@ msgstr "Virkja hnappa fyrir flýtileiðir"
 
 msgctxt "#20082"
 msgid "Show programs in main menu"
-msgstr "Sýna forrit í aðalvalmynd"
+msgstr "Birta forrit í aðalvalmynd"
 
 msgctxt "#20083"
 msgid "Show music information"
-msgstr "Sýna tónlistarupplýsingar"
+msgstr "Birta upplýsingar um tónlist"
 
 msgctxt "#20084"
 msgid "Show weather information"
-msgstr "Sýna veðurupplýsingar"
+msgstr "Birta veðurupplýsingar"
 
 msgctxt "#20085"
 msgid "Show system information"
-msgstr "Sýna kerfisupplýsingar"
+msgstr "Birta kerfisupplýsingar"
 
 msgctxt "#20086"
 msgid "Show available disk space C: E: F:"
@@ -9107,7 +9123,7 @@ msgstr "UPnP miðlari"
 
 msgctxt "#20176"
 msgid "Show video information"
-msgstr "Sýna mandbandsupplýsingar"
+msgstr "Birta upplýsingar um myndskeið"
 
 msgctxt "#20177"
 msgid "Done"
@@ -9711,7 +9727,7 @@ msgstr "Handritahöfundar"
 
 msgctxt "#20419"
 msgid "Replace file names with library titles"
-msgstr "Sýna lýsigögn í skráarsýn"
+msgstr "Birta lýsigögn í skráarsýn"
 
 msgctxt "#20420"
 msgid "Never"
@@ -9819,7 +9835,7 @@ msgstr "Aðdáendamyndir"
 
 msgctxt "#20446"
 msgid "Locally stored information found. Ignore and refresh from Internet?"
-msgstr "Fann staðbundnar upplýsingar. Hundsa og uppfæra af Internetinu?"
+msgstr "Fann upplýsingar á tölvunni. Hunsa og uppfæra af Internetinu?"
 
 msgctxt "#20447"
 msgid "Do you want to add the media from this source to your library?"
@@ -10103,7 +10119,7 @@ msgstr "Virkja sérsniðinn bakgrunn"
 
 msgctxt "#21390"
 msgid "Power management level"
-msgstr "Orku stig"
+msgstr "Stig orkustýringar"
 
 msgctxt "#21391"
 msgid "High power"
@@ -10907,7 +10923,7 @@ msgstr "Veldu"
 
 msgctxt "#22081"
 msgid "Show information"
-msgstr "Sýna upplýsingar"
+msgstr "Birta upplýsingar"
 
 msgctxt "#22082"
 msgid "More..."
@@ -12853,6 +12869,10 @@ msgctxt "#35213"
 msgid "The emulator \"{0:s}\" had an internal error."
 msgstr "Innri villa kom upp í \"{0:s}\" herminum."
 
+msgctxt "#35214"
+msgid "This game can only be played directly from a hard drive or partition. Compressed files must be extracted."
+msgstr "Þennan leik er einungis hægt að spila beint af hörðum diski eða disksneið. Þjappaðar skrár verður að afþjappa."
+
 msgctxt "#35215"
 msgid "This game depends on a disabled add-on. Would you like to enable it?"
 msgstr "Þessi leikur er háður viðbót sem hefur verið gerð óvirk. Viltu virkja hana?"
@@ -12880,6 +12900,14 @@ msgstr "Hætta"
 msgctxt "#35223"
 msgid "Input settings"
 msgstr "Stillingar fyrir inntak"
+
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Bið / Halda áfram"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Myndmerkissía"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13203,7 +13231,7 @@ msgstr "Sýna (..) í listum svo hægt sé að fara í upphafsmöppu."
 
 msgctxt "#36123"
 msgid "Show file extensions on media files, for example \"You Enjoy Myself\" would be shown as \"You Enjoy Myself.mp3\"."
-msgstr "Sýna skráarendingar á miðlunarskrám. Til dæmis '\"You Enjoy Myself.mp3\" myndi sjást sem 'You Enjoy Myself' ef þetta er ekki á."
+msgstr "Birta skráarendingar á miðlunarskrám. Til dæmis '\"You Enjoy Myself.mp3\" myndi sjást sem 'You Enjoy Myself' ef þetta er ekki á."
 
 msgctxt "#36124"
 msgid "Ignore certain tokens, e.g. \"The\", during sort operations. \"The Simpsons\" would for example be sorted as \"Simpsons\"."
@@ -13275,7 +13303,7 @@ msgstr "Veldu hvaða hitastigseiningar eru notaðar til að sýna hitastig í no
 
 msgctxt "#36141"
 msgid "Show plot information for unwatched media in the video library."
-msgstr "Sýna söguþráð á miðlum sem ekki er búið að horfa á í Kvikmyndasafninu."
+msgstr "Birta söguþráð fyrir sem ekki er búið að horfa á í kvikmyndasafninu."
 
 msgctxt "#36142"
 msgid "Choose which speed unit is used for displaying speeds in the user interface."
@@ -13543,7 +13571,7 @@ msgstr "Þessi flokkur inniheldur stillingar á valmyndum og stjórntexta (OSD) 
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
-msgstr "Sýna upplýsingar um efnið þegar skipt er um rás, eins og hvaða sjónvarpsþáttur er í gangi."
+msgstr "Birta upplýsingar um efnið þegar skipt er um rás, eins og hvaða sjónvarpsþáttur er í gangi."
 
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
@@ -13564,10 +13592,6 @@ msgstr "Skanna eftir rása-táknmyndum sem vantar."
 msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Þessi flokkur inniheldur stillingar rafræns dagskrárvísis (EPG)."
-
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Fjöldi daga sem á að sýna í dagskrárvísi og innflutningur gagna frá bakenda."
 
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
@@ -13599,11 +13623,7 @@ msgstr "Skipta yfir í heilskjásham þegar byrjað er að spila rásir og uppt�
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
-msgstr "Sýna upplýsingar um gæði merkis í upplýsingarglugga kóðara (ef stutt af viðbót og bakenda)."
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Tími sem á að bíða eftir rás þegar skipt er um rás. Hentugt þegar valdar eru rásir sem eru sendar loftleiðis og geta stundum dottið niður í styrk."
+msgstr "Birta upplýsingar um gæði merkis í upplýsingarglugga kóðara (ef stutt af viðbót og bakenda)."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -13631,7 +13651,7 @@ msgstr "Aukatími bætt við upptöku eftir að tímasettur upptökutími er li�
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
-msgstr "Sýna tilkynningu þegar tímatöku er bætt við, henni lauk, eða hún var fjarlægð af bakendanum."
+msgstr "Birta tilkynningu þegar tímatöku er bætt við, henni lauk, eða hún var fjarlægð af bakendanum."
 
 msgctxt "#36240"
 msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
@@ -13803,7 +13823,7 @@ msgstr "Leita að smámyndum á deildum skráamiðlum og geisladiskum. Þetta h�
 
 msgctxt "#36282"
 msgid "This category contains the settings for how CDs are handled."
-msgstr "Þessi flokkur inniheldur stillingar á hvernig CD eru meðhöndlaðir."
+msgstr "Þessi flokkur inniheldur stillingar á hvernig CD-diskar eru meðhöndlaðir."
 
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
@@ -13887,7 +13907,7 @@ msgstr "Myndir í skyggnusýningu munu hliðrast og breyta aðdrætti í sýning
 
 msgctxt "#36314"
 msgid "View slideshow images in a random order."
-msgstr "Sýna myndir í skyggnusýningu í tilviljunarkenndri röð."
+msgstr "Birta myndir í skyggnusýningu í tilviljunarkenndri röð."
 
 msgctxt "#36315"
 msgid "Section that contains weather related settings."
@@ -14231,7 +14251,7 @@ msgstr "Virkja flýtiminni fyrir afspilun á myndefni frá DVD-ROM."
 
 msgctxt "#36402"
 msgid "Enable cache for video playback from local network."
-msgstr "Virkja flýtiminni fyrir afspilun myndefnis af nærneti."
+msgstr "Virkja flýtiminni fyrir afspilun myndefnis af staðarneti."
 
 msgctxt "#36403"
 msgid "Enable cache for video playback from Internet."
@@ -14243,7 +14263,7 @@ msgstr "Virkja flýtiminni fyrir afspilun á Hljóði frá DVD-ROM."
 
 msgctxt "#36405"
 msgid "Enable cache for audio playback from local network."
-msgstr "Virkja flýtiminni fyrir afspilun hljóðs af nærneti."
+msgstr "Virkja flýtiminni fyrir afspilun hljóðs af staðarneti."
 
 msgctxt "#36406"
 msgid "Enable cache for audio playback from Internet."
@@ -14255,7 +14275,7 @@ msgstr "Virkja flýtiminni fyrir afspilun á DVD frá DVD-ROM."
 
 msgctxt "#36408"
 msgid "Enable cache for DVD playback from local network."
-msgstr "Virkja flýtiminni fyrir afspilun á DVD af nærnetinu."
+msgstr "Virkja flýtiminni fyrir afspilun á DVD af staðarneti."
 
 msgctxt "#36409"
 msgid "Enable cache of unknown types from Internet."
@@ -14327,7 +14347,7 @@ msgstr "Skipta yfir á rás"
 
 msgctxt "#36427"
 msgid "Show information"
-msgstr "Sýna upplýsingar"
+msgstr "Birta upplýsingar"
 
 msgctxt "#36428"
 msgid "Record"
@@ -14339,7 +14359,7 @@ msgstr "Velja hvort hljóðútgangur styður aðeins fjölrása hljóð eins og 
 
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
-msgstr "Skilgreina hvernig myndvinnsla verður hröðuð. Þar á meðal er afkóðun og skölun."
+msgstr "Skilgreina hvernig myndmerkisvinnslu verður hraðað. Þar á meðal eru ferli eins og afkóðun og kvörðun."
 
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
@@ -14360,6 +14380,18 @@ msgstr "Nota VideoPlayer fyrir afkóðun á videoskrám með MMAL-hröðun."
 msgctxt "#36436"
 msgid "Audio DSP manager..."
 msgstr "DSP-hljóðstjórnun..."
+
+msgctxt "#36438"
+msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
+msgstr "Virkjar stafræna vinnslu hljóðmerkis (digital signal processing - DSP) í þeim hljóðrásum sem skilgreindar eru af uppsetningu hátalara."
+
+msgctxt "#36439"
+msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
+msgstr "Öll gögn (stillingar viðbótar og stillingar DSP-hljóðstýringar) í DSP-hljóðgagnagrunninum verða hreinsuð út."
+
+msgctxt "#36440"
+msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
+msgstr "Hreinsa út allar stillingar DSP-viðbótar og stillingar DSP-hljóðstýringar úr DSP-hljóðgagnagrunninum."
 
 msgctxt "#36441"
 msgid "Enable audio DSP processing"
@@ -14733,6 +14765,30 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Virkja hágæða niðurkvörðun ljósmynda (notar meira minni og veldur miðlungs áhrifum á afköst)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Hámarksútgáfa samskiptamáta"
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Ekkert"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Biðlari"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "kvikmynd"
@@ -14971,7 +15027,7 @@ msgstr "Búa til smámyndir á kaflaskilum til að sýna í Kafla / bókamerkja 
 
 msgctxt "#38010"
 msgid "GPU accelerated"
-msgstr "Hraðað með grafískur örgjörva"
+msgstr "Hraðað með grafískum örgjörva"
 
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -15109,6 +15165,50 @@ msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Framkvæma fulla skönnun jafnvel þótt tónlistarskrár séu óbreyttar?"
 
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Setja sjálfgefna upplýsingaveitu"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Setja fyrir þennan listamann"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Setja fyrir alla birta listamenn"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Setja fyrir þessa hljómplötu"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Setja fyrir allar birtar hljómplötur"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Nota þessa upplýsingaveitu fyrir alla listamenn sem birtast hér?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Nota þessa upplýsingaveitu fyrir allar hljómplötur sem birtast hér?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Nota þessa upplýsingaveitu fyrir alla listamenn, hreinsa þannig út allar fyrri stillingar sem gerðar hafa verið fyrir staka listamenn?"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Nota þessa upplýsingaveitu fyrir allar hljómplötur, hreinsa þannig út allar fyrri stillingar sem gerðar hafa verið fyrir stakar hljómplötur?"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Viltu uppfæra núna upplýsingar fyrir öll þessi atriði?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Viltu uppfæra núna upplýsingar fyrir þetta atriði?"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Hluti sem inniheldur stillingar á afspilun efnis"
@@ -15163,7 +15263,7 @@ msgstr "Ná í smámyndir úr myndskeiðum"
 
 msgctxt "#38207"
 msgid "Show EXIF picture information"
-msgstr "Sýna EXIF-myndaupplýsingar"
+msgstr "Birta EXIF-myndaupplýsingar"
 
 msgctxt "#38208"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."

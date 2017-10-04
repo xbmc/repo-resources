@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Fel vid städning av artister"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Städar genrer, roller etc..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Fel vid städning av genrer, roller etc..."
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Städar sökvägar..."
@@ -1887,7 +1895,7 @@ msgstr "Aktivera videolägesväxling"
 
 msgctxt "#512"
 msgid "Startup window"
-msgstr "Uppstartfönster"
+msgstr "Startfönster"
 
 msgctxt "#513"
 msgid "Home window"
@@ -2500,6 +2508,14 @@ msgstr "Detaljerad loggning för [B]Video[/B]-komponent"
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "Detaljerad loggning för [B]Webserver[/B]-komponent"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Detaljerad loggning för [B]Databas[/B]-komponent"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Detaljerad loggning av [B]ljud/video timing information[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -7593,10 +7609,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Dölj rutan med videoinformation"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Timeout när uppspelning startas"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "Växla till fullskärm"
@@ -7641,10 +7653,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Meny / OSD"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Dagar att visa"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Radiokanaler"
@@ -7668,6 +7676,14 @@ msgstr "Rensar all relaterad data."
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "All din guide-data kommer att rensas. Är du säker?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR-backend tillåter inte att spela in det här eventet."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Spela programmet"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -12905,6 +12921,14 @@ msgctxt "#35223"
 msgid "Input settings"
 msgstr "Inmatningsinställningar"
 
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Paus / Återuppta"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Videofilter"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Alla spel..."
@@ -13597,10 +13621,6 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Denna kategori innehåller inställningar för den elektroniska programguiden (EPG)."
 
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Antal dagar att visa i guiden och importera data åt från backends"
-
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "Tid mellan import av styrdata från backend."
@@ -13632,10 +13652,6 @@ msgstr "Växla till fullskärmsläge vid uppspelning av kanaler och inspelningar
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Visa information om signalkvalitet i fönstret för codecinformation (om det stöds av tillägget och backenden)."
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Tid att vänta på en kanal som tas emot efter ett kanalbyte. Användbart för over-the-air kanaler som ibland förlorar signalstyrkan."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -14807,7 +14823,7 @@ msgstr "Visa en avisering när ett tillägg har uppdaterats."
 
 msgctxt "#36613"
 msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
-msgstr "Hantera moduler och stödbibliotek som har automatiskt installeras som ett beroende till andra tillägg. Produkter som markerats som \"Oberoende\" är inte längre nödvändiga av något tillägg och kan därför helt avinstalleras utan att några beroendeproblem uppstår."
+msgstr "Hantera moduler och stödbibliotek som automatiskt har installerats som ett beroende till andra tillägg. Objekt som markerats som \"Oberoende\" är inte längre nödvändiga av något tillägg och kan därför helt avinstalleras utan att några beroendeproblem uppstår."
 
 msgctxt "#36614"
 msgid "Show add-ons that are currently running in the background."
@@ -14836,6 +14852,34 @@ msgstr "Högkvalitativ nedskalning"
 msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Aktivera högkvalitativ nedskalning av bilder (använder mer minne och har liten påverkan på prestanda)."
+
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Maximum protokollversion"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Ange den maximala SMB-protokollversionen att förhandla när anslutningar upprättas. Tvinga SMBv2- eller SMBv1-kompatibilitet kan krävas med äldre NAS- och Windows-utdelningar."
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Ingen"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Klient"
 
 msgctxt "#36900"
 msgid "movie"
@@ -15220,6 +15264,50 @@ msgstr "Hämta tilläggsinformation om album och artister? Det kan ta en stund, 
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Gör fullständig tagg-skanning även när musikfilerna är oförändrade?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Ange standard informationsleverantör"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Ange för denna artist"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Ange för alla visade artister"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Ange för detta album"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Ange för alla visade album"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Använd denna informationsleverantör för alla artister som visar här?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Använd denna informationsleverantör för alla album som visas här?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Använd denna informationsleverantör för alla artister, rensa tidigare inställningar för de specifika artisterna?"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Använd denna informationsleverantör för alla album, rensa tidigare inställningar för de specifika albumen?"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Vill du uppdatera informationen för alla dessa objekt nu?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Vill du uppdatera informationen för detta objekt nu?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

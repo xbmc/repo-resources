@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Virhe esittäjien puhdistuksessa"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Puhdistetaan lajityyppejä, rooleja ym..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Virhe lajityyppien, roolien ym. puhdistuksessa"
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Puhdistetaan tiedostopolut..."
@@ -1203,7 +1211,7 @@ msgstr "Virhe muutoksien tallennuksessa"
 
 msgctxt "#330"
 msgid "This may take some time..."
-msgstr "Odota, tämä kestää jonkin aikaa..."
+msgstr "Odota, tämä kestää hetken..."
 
 msgctxt "#331"
 msgid "Compressing database..."
@@ -2479,7 +2487,7 @@ msgstr "Runsas kirjaaminen [B]JSON-RPC[/B]-pyynnöille"
 
 msgctxt "#676"
 msgid "Verbose logging for the [B]Audio[/B] component"
-msgstr "Runsas kirjaaminen [B]Audio[/B]-komponentille"
+msgstr "Runsas kirjaaminen [B]äänikomponentille[/B]"
 
 msgctxt "#677"
 msgid "Verbose logging for the [B]AirTunes[/B] library"
@@ -2495,11 +2503,19 @@ msgstr "Runsas kirjaaminen [B]libCEC[/B]-kirjastolle"
 
 msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
-msgstr "Runsas kirjaaminen [B]Video[/B]-komponentille"
+msgstr "Runsas kirjaaminen [B]videokomponentille[/B]"
 
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
-msgstr "Runsas kirjaaminen [B]Webserver[/B]-komponentille"
+msgstr "Runsas kirjaaminen [B]web-palvelin-komponentille[/B]"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Runsas kirjaaminen [B]tietokantakomponentille[/B]"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Runsas kirjaaminen [B]äänen ja videon ajoitustiedoille[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2843,7 +2859,7 @@ msgstr "Tyyppi"
 
 msgctxt "#804"
 msgid "Search guide for"
-msgstr "Etsi ohjelmatiedoista "
+msgstr "Hakusana"
 
 msgctxt "#805"
 msgid "Enter the search string to use to lookup matching events in the guide"
@@ -2867,7 +2883,7 @@ msgstr "Mikä tahansa kanava"
 
 msgctxt "#810"
 msgid "Start any time"
-msgstr "Aloita milloin vain"
+msgstr "Alkaa milloin vain"
 
 msgctxt "#811"
 msgid "Recording group"
@@ -2875,7 +2891,7 @@ msgstr "Tallennusryhmä"
 
 msgctxt "#812"
 msgid "Prevent duplicate episodes"
-msgstr "Vältä kaksoiskappaleita jaksoista"
+msgstr "Kaksoiskappaleiden tunnistus"
 
 msgctxt "#813"
 msgid "Start padding time"
@@ -2895,7 +2911,7 @@ msgstr "Tallenna vain uudet jaksot"
 
 msgctxt "#817"
 msgid "End any time"
-msgstr "Lopeta milloin vain"
+msgstr "Loppuu milloin vain"
 
 msgctxt "#818"
 msgid "Max recordings"
@@ -3291,7 +3307,7 @@ msgstr "Musiikki ja videot ja kuvat ja tiedostot"
 
 msgctxt "#1223"
 msgid "Disabled"
-msgstr "Pois käytöstä"
+msgstr "Ei käytössä"
 
 msgctxt "#1226"
 msgid "Files & music & video"
@@ -3819,7 +3835,7 @@ msgstr "Videot / Toistolista"
 
 msgctxt "#10029"
 msgid "Login screen"
-msgstr "Kirjautumisikkuna"
+msgstr "Kirjautumisruutu"
 
 msgctxt "#10034"
 msgid "Settings - Profiles"
@@ -4823,7 +4839,7 @@ msgstr "Tuulettimen pyörintänopeuden säätö"
 
 msgctxt "#13303"
 msgid "Fonts"
-msgstr "Kirjasimet"
+msgstr "Fontit"
 
 msgctxt "#13304"
 msgid "Enable flipping bi-directional strings"
@@ -5103,7 +5119,7 @@ msgstr "Poista/Lataa"
 
 msgctxt "#13392"
 msgid "Use visualisation if playing audio"
-msgstr "Käytä visualisointeja musiikkia toistettaessa"
+msgstr "Näytä musiikkivisualisoinnit"
 
 msgctxt "#13393"
 msgid "Calculate size"
@@ -5535,7 +5551,7 @@ msgstr "Pienoiskuvien osuus (%)"
 
 msgctxt "#14018"
 msgid "View options"
-msgstr "Näkymän asetukset"
+msgstr "Näkymäasetukset"
 
 msgctxt "#14019"
 msgid "Change area code 1"
@@ -5603,7 +5619,7 @@ msgstr "Palvelut"
 
 msgctxt "#14037"
 msgid "DVD cache - Local network"
-msgstr "DVD välimuisti - Lähiverkko"
+msgstr "DVD-välimuisti - Lähiverkko"
 
 msgctxt "#14038"
 msgid "Network settings changed"
@@ -6543,7 +6559,7 @@ msgstr "Työryhmää ei löytynyt"
 
 msgctxt "#15310"
 msgid "Opening multi-path source"
-msgstr "Avataan useapolkuista sijaintia"
+msgstr "Avataan monipolkuista sijaintia"
 
 msgctxt "#15311"
 msgid "Path:"
@@ -6923,11 +6939,11 @@ msgstr "Erottele hakusanat käyttämällä \"AND\", \"OR\" ja/tai \"NOT\"."
 
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
-msgstr "Tai käytä lainausmerkkejä löytääksesi kokonaisia virkkeitä esim. \"The wizard of Oz\"."
+msgstr "Käytä lainausmerkkejä löytääksesi kokonaisia virkkeitä esim. \"The wizard of Oz\"."
 
 msgctxt "#19003"
 msgid "Find similar"
-msgstr "Etsi samankaltaisia"
+msgstr "Etsi samanlaisia"
 
 msgctxt "#19004"
 msgid "Importing guide from clients"
@@ -6939,7 +6955,7 @@ msgstr "PVR-virran tiedot"
 
 msgctxt "#19006"
 msgid "Receiving device"
-msgstr "Vastaanottava laite"
+msgstr "Vastaanotin"
 
 msgctxt "#19007"
 msgid "Device status"
@@ -6959,7 +6975,7 @@ msgstr "Bittivirhesuhde"
 
 msgctxt "#19011"
 msgid "UNC"
-msgstr "Korjaamattomat lohkot"
+msgstr "Korjaamattomat virheet"
 
 msgctxt "#19012"
 msgid "PVR backend"
@@ -6983,7 +6999,7 @@ msgstr "PVR-taustaosa {0:d} - {1:s}"
 
 msgctxt "#19017"
 msgid "Recordings"
-msgstr "Tallennukset"
+msgstr "Tallenteet"
 
 msgctxt "#19018"
 msgid "Folder with channel icons"
@@ -7015,7 +7031,7 @@ msgstr "Radiokanavat"
 
 msgctxt "#19025"
 msgid "Upcoming recordings"
-msgstr "Tulevat tallennukset"
+msgstr "Ajastusten määrä"
 
 msgctxt "#19026"
 msgid "Add timer..."
@@ -7059,7 +7075,7 @@ msgstr "{0:s} ei voida toistaa. Katso lokitiedostosta lisätietoja tästä viest
 
 msgctxt "#19036"
 msgid "This recording can't be played. Check the log for more information about this message."
-msgstr "Tallennusta ei voida toistaa. Katso lokitiedostosta lisätietoja tästä viestistä."
+msgstr "Tallennetta ei voida toistaa. Katso lokitiedostosta lisätietoja tästä viestistä."
 
 msgctxt "#19037"
 msgid "Show signal quality"
@@ -7079,7 +7095,7 @@ msgstr "Ajastukset"
 
 msgctxt "#19041"
 msgid "Are you sure you want to rename this recording?"
-msgstr "Haluatko varmasti muuttaa tämän tallennuksen nimeä?"
+msgstr "Haluatko varmasti nimetä tallenteen uudelleen?"
 
 msgctxt "#19042"
 msgid "Are you sure you want to rename this timer?"
@@ -7127,7 +7143,7 @@ msgstr "Siirrä kanava paikkaan:"
 
 msgctxt "#19053"
 msgid "Recording information"
-msgstr "Tallennustiedot"
+msgstr "Tallennetiedot"
 
 msgctxt "#19054"
 msgid "Hide channel"
@@ -7187,7 +7203,7 @@ msgstr "Tämän ohjelman tallennus on jo käynnissä."
 
 msgctxt "#19068"
 msgid "Recording settings"
-msgstr "Tallennusasetukset"
+msgstr "Tallenneasetukset"
 
 msgctxt "#19069"
 msgid "Guide"
@@ -7247,7 +7263,7 @@ msgstr "Tärkeysaste"
 
 msgctxt "#19083"
 msgid "Lifetime"
-msgstr "Elinikä"
+msgstr "Säilytysaika"
 
 msgctxt "#19084"
 msgid "First day"
@@ -7299,7 +7315,7 @@ msgstr "Ajastussäännön luominen epäonnistui. PVR-lisäosa ei tue tätä ajas
 
 msgctxt "#19096"
 msgid "\"Smart select\""
-msgstr "\"Älykäs valinta\""
+msgstr "Älykäs valinta"
 
 msgctxt "#19097"
 msgid "Enter the name for the timer"
@@ -7311,11 +7327,11 @@ msgstr "Varoitus!"
 
 msgctxt "#19099"
 msgid "Service"
-msgstr "Palvelu"
+msgstr "Kanava"
 
 msgctxt "#19100"
 msgid "Mux"
-msgstr "Kanavanippu"
+msgstr "Taajuus"
 
 msgctxt "#19101"
 msgid "Provider"
@@ -7363,11 +7379,11 @@ msgstr "PVR-taustaosan virhe. Katso lokitiedostosta lisätietoja tästä viestis
 
 msgctxt "#19112"
 msgid "Delete this recording?"
-msgstr "Poistetaanko tämä tallennus?"
+msgstr "Poistetaanko tämä tallenne?"
 
 msgctxt "#19113"
 msgid "Delete all recordings in this folder?"
-msgstr "Poista kaikki tässä kansiossa olevat tallennukset?"
+msgstr "Poistaanko kaikki tässä kansiossa olevat tallenteet?"
 
 msgctxt "#19114"
 msgid "Version"
@@ -7415,23 +7431,23 @@ msgstr "Älä huomioi nykyisiä ajastuksia"
 
 msgctxt "#19125"
 msgid "Ignore present recordings"
-msgstr "Älä huomioi nykyisiä tallennuksia"
+msgstr "Älä huomioi nykyisiä tallenteita"
 
 msgctxt "#19126"
 msgid "Start time"
-msgstr "Aloitusaika"
+msgstr "Alkamisaika"
 
 msgctxt "#19127"
 msgid "End time"
-msgstr "Päättymisaika"
+msgstr "Loppumisaika"
 
 msgctxt "#19128"
 msgid "Start date"
-msgstr "Aloituspäivämäärä"
+msgstr "Alkamispäivä"
 
 msgctxt "#19129"
 msgid "End date"
-msgstr "Päättymispäivämäärä"
+msgstr "Loppumispäivä"
 
 msgctxt "#19130"
 msgid "Minimum duration"
@@ -7451,11 +7467,11 @@ msgstr "Hakulause"
 
 msgctxt "#19134"
 msgid "Include description"
-msgstr "Sisällytä kuvaus"
+msgstr "Etsi kuvauksesta"
 
 msgctxt "#19135"
 msgid "Case sensitive"
-msgstr "Merkkikokoriippuvainen"
+msgstr "Huomioi kirjainkoko"
 
 msgctxt "#19136"
 msgid "Channel unavailable"
@@ -7547,7 +7563,7 @@ msgstr "Seuraava tallennus"
 
 msgctxt "#19158"
 msgid "Currently recording"
-msgstr "Tallennetaan tällä hetkellä"
+msgstr "Tallennus käynnissä"
 
 msgctxt "#19159"
 msgid "from"
@@ -7567,7 +7583,7 @@ msgstr "Tallennus käynnissä"
 
 msgctxt "#19163"
 msgid "Recordings"
-msgstr "Tallennukset"
+msgstr "Tallenteet"
 
 msgctxt "#19164"
 msgid "Can't start recording. Check the log for more information about this message."
@@ -7587,15 +7603,11 @@ msgstr "Hae puuttuvat logot"
 
 msgctxt "#19168"
 msgid "Deleted and recoverable recordings"
-msgstr "Poistetut ja palautettavissa olevat tallennukset"
+msgstr "Poistetut ja palautettavissa olevat tallenteet"
 
 msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Piilota videon tietolaatikko"
-
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Toiston aloituksen aikakatkaisu"
 
 msgctxt "#19171"
 msgid "Switch to full screen"
@@ -7641,17 +7653,13 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Valikko/OSD"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Näytettävät päivät"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Radiokanavat"
 
 msgctxt "#19184"
 msgid "Deleted recordings"
-msgstr "Poistetut tallennukset"
+msgstr "Poistetut tallenteet"
 
 msgctxt "#19185"
 msgid "Clear data"
@@ -7668,6 +7676,14 @@ msgstr "Poistetaan tietoja."
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Kaikki ohjelmatiedot poistetaan. Oletko varma?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR-taustaosa ei salli tämän ohjelman tallentamista."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Toista ohjelma"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -7855,7 +7871,7 @@ msgstr "Ladataan ajastuksia"
 
 msgctxt "#19238"
 msgid "Loading recordings from clients"
-msgstr "Ladataan tallennuksia"
+msgstr "Ladataan tallenteita"
 
 msgctxt "#19239"
 msgid "Starting background threads"
@@ -7863,7 +7879,7 @@ msgstr "Käynnistää taustasäikeitä"
 
 msgctxt "#19241"
 msgid "View timer information"
-msgstr "Näytä ajastuksen tiedot"
+msgstr "Näytä ajastustiedot"
 
 msgctxt "#19242"
 msgid "Edit timer"
@@ -7903,7 +7919,7 @@ msgstr "Noudetaan ohjelmaopasta tietokannasta"
 
 msgctxt "#19251"
 msgid "Update guide information"
-msgstr "Päivitä oppaan tiedot"
+msgstr "Päivitä ohjelmaopas"
 
 msgctxt "#19252"
 msgid "Schedule guide update for this channel?"
@@ -8015,7 +8031,7 @@ msgstr "Asiakasohjelmakohtaiset asetukset"
 
 msgctxt "#19281"
 msgid "Confirm channel switches by pressing \"OK\""
-msgstr "Vahvista kanavien vaihto painamalla OK"
+msgstr "Vahvista kanavanvaihto painamalla OK"
 
 msgctxt "#19282"
 msgid "Current icon"
@@ -8059,11 +8075,11 @@ msgstr "Poista kaikki pysyvästi"
 
 msgctxt "#19293"
 msgid "Remove all deleted recordings from trash? This operation cannot be reverted."
-msgstr "Poistetaanko kaikki roskakorissa olevat tallennukset? Toimintoa ei voi kumota."
+msgstr "Poistetaanko kaikki roskakorissa olevat tallenteet? Toimintoa ei voi kumota."
 
 msgctxt "#19294"
 msgid "Remove this deleted recording from trash? This operation cannot be reverted."
-msgstr "Poistetaanko tämä tallennus roskakorista? Toimintoa ei voi kumota."
+msgstr "Poistetaanko tallenne roskakorista? Toimintoa ei voi kumota."
 
 msgctxt "#19295"
 msgid "Delete timer rule"
@@ -8075,15 +8091,15 @@ msgstr "PVR-lisäosa ei ole käytössä"
 
 msgctxt "#19297"
 msgid "Vertical"
-msgstr "Pysty"
+msgstr "Pystysuunta"
 
 msgctxt "#19298"
 msgid "Horizontal"
-msgstr "Vaaka"
+msgstr "Vaakasuunta"
 
 msgctxt "#19299"
 msgid "Expires"
-msgstr "Vanhenee"
+msgstr "Poistuu"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -8095,7 +8111,7 @@ msgstr "Elokuva / Draama"
 
 msgctxt "#19501"
 msgid "Detective / Thriller"
-msgstr "Salapoliisi / Jännitys"
+msgstr "Rikos / Jännitys"
 
 msgctxt "#19502"
 msgid "Adventure / Western / War"
@@ -8211,7 +8227,7 @@ msgstr "Kamppailulajit"
 
 msgctxt "#19564"
 msgid "Children's / Youth programmes"
-msgstr "Lasten / Nuorten ohjelmat"
+msgstr "Lasten ja nuorten ohjelmat"
 
 msgctxt "#19565"
 msgid "Pre-school children's programmes"
@@ -8307,7 +8323,7 @@ msgstr "Muoti"
 
 msgctxt "#19612"
 msgid "Social / Political / Economics"
-msgstr "Yhteiskunnallinen / Poliittinen / Talous"
+msgstr "Yhteiskunta / Politiikka / Talous"
 
 msgctxt "#19613"
 msgid "Magazines / Reports / Documentary"
@@ -8383,11 +8399,11 @@ msgstr "Mainokset / Ostokset"
 
 msgctxt "#19651"
 msgid "Gardening"
-msgstr "Puutarhan hoito"
+msgstr "Puutarhanhoito"
 
 msgctxt "#19660"
 msgid "Special characteristics"
-msgstr "Erikoisominaisuudet"
+msgstr "Erikoisohjelma"
 
 msgctxt "#19661"
 msgid "Original language"
@@ -8411,7 +8427,7 @@ msgstr "Draama"
 
 msgctxt "#19677"
 msgid "Detective / Thriller"
-msgstr "Salapoliisi / Jännitys"
+msgstr "Rikos / Jännitys"
 
 msgctxt "#19678"
 msgid "Adventure / Western / War"
@@ -8451,7 +8467,7 @@ msgstr "Ohjelmalista"
 
 msgctxt "#19687"
 msgid "Play recording"
-msgstr "Toista tallennus"
+msgstr "Toista tallenne"
 
 msgctxt "#19691"
 msgid "PVR is currently recording '{0:s}' on channel '{1:s}'."
@@ -8811,7 +8827,7 @@ msgstr "Anna lukituskoodi profiilille"
 
 msgctxt "#20096"
 msgid "Login screen"
-msgstr "Kirjaudu sisään"
+msgstr "Kirjautumisruutu"
 
 msgctxt "#20097"
 msgid "Fetching album information"
@@ -9611,7 +9627,7 @@ msgstr "Musiikkivideon tiedot"
 
 msgctxt "#20394"
 msgid "Loading music video information"
-msgstr "Noudetaan musiikkivideon tietoja"
+msgstr "Noudetaan musiikkivideotietoja"
 
 msgctxt "#20395"
 msgid "Mixed"
@@ -9671,7 +9687,7 @@ msgstr "Noudetaan musiikkivideotietoja"
 
 msgctxt "#20409"
 msgid "Downloading TV show information"
-msgstr "Noudetaan tv-sarjan tietoja"
+msgstr "Noudetaan tv-sarjatietoja"
 
 msgctxt "#20410"
 msgid "Trailer"
@@ -9719,7 +9735,7 @@ msgstr "Ei koskaan"
 
 msgctxt "#20421"
 msgid "If only one season"
-msgstr "Jos samalta tuotantokaudelta"
+msgstr "Jos samalta kaudelta"
 
 msgctxt "#20422"
 msgid "Always"
@@ -9971,7 +9987,7 @@ msgstr "Ei päivityksiä saatavilla"
 
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
-msgstr "Tälle lisäosalle ei ole päivityksiä saatavilla."
+msgstr "Tälle lisäosalle ei ole saatavilla päivityksiä."
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -10079,7 +10095,7 @@ msgstr "Vierityspalkit käytössä"
 
 msgctxt "#21384"
 msgid "Make watched filtering a toggle in video library"
-msgstr "Näytä \"Piilota katsotut\"-nappi videokirjastossa"
+msgstr "Näytä \"Piilota katsotut\"-painike videokirjastossa"
 
 msgctxt "#21385"
 msgid "Open"
@@ -10403,7 +10419,7 @@ msgstr "Videon yläpuolella"
 
 msgctxt "#21466"
 msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
-msgstr "Valitsee automaattisesti tv-sarjan ensimmäisen katsomattoman jakson tai tuotantokauden.[CR][Ensimmäisellä kerralla] Siirtyy ensimmäiseen katsomattomaan kohteeseen vain ensimmäisellä kerralla.[CR][Aina] Siirtyy ensimmäiseen katsomattomaan kohteeseen jokaisella kerralla."
+msgstr "Valitsee automaattisesti tv-sarjan ensimmäisen katsomattoman jakson tai kauden.[CR][Ensimmäisellä kerralla] Siirtyy ensimmäiseen katsomattomaan kohteeseen vain ensimmäisellä kerralla.[CR][Aina] Siirtyy ensimmäiseen katsomattomaan kohteeseen jokaisella kerralla."
 
 msgctxt "#21467"
 msgid "{0:.1f} to {1:.1f}"
@@ -10443,7 +10459,7 @@ msgstr "Molemmat"
 
 msgctxt "#21476"
 msgid "Just \"All seasons\""
-msgstr "Vain \"Kaikki tuotantokaudet\""
+msgstr "Vain \"Kaikki kaudet\""
 
 msgctxt "#21477"
 msgid "Just \"Specials\""
@@ -10851,7 +10867,7 @@ msgstr "Himmennä ruutu, jos video on tauolla"
 
 msgctxt "#22015"
 msgid "All recordings"
-msgstr "Kaikki tallennukset"
+msgstr "Kaikki tallenteet"
 
 msgctxt "#22016"
 msgid "By title"
@@ -10863,7 +10879,7 @@ msgstr "Ryhmät"
 
 msgctxt "#22019"
 msgid "Recordings by title"
-msgstr "Tallennukset nimen mukaan"
+msgstr "Tallenteet nimen mukaan"
 
 msgctxt "#22020"
 msgid "Guide"
@@ -11351,7 +11367,7 @@ msgstr "Haluatko vaihtaa tähän ulkoasuun?"
 
 msgctxt "#24100"
 msgid "To use this feature you must download an add-on:"
-msgstr "Tämä toiminto tarvitsee seuraavan lisäosan:"
+msgstr "Toiminnon suorittamiseen tarvitaan seuraava lisäosa:"
 
 msgctxt "#24101"
 msgid "Would you like to download this add-on?"
@@ -11371,7 +11387,7 @@ msgstr "Lisäosa ei ole yhteensopiva, koska sen riippuvuudet eivät täyty."
 
 msgctxt "#24105"
 msgid "Pause when searching for subtitles"
-msgstr "Laita tauolle kun haetaan tekstityksiä"
+msgstr "Pysäytä toisto haun ajaksi"
 
 msgctxt "#24106"
 msgid "Specify where downloaded subtitles should be saved, the same location as the video or a custom location."
@@ -11443,7 +11459,7 @@ msgstr "Päivitä kaikki"
 
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
-msgstr "Pysäytä video tekstityksen haun ajaksi ja jatka videota kun tekstitys on saatavilla."
+msgstr "Pysäyttää videotoiston, kunnes sopiva tekstitys löydetty ja ladattu."
 
 msgctxt "#24124"
 msgid "Next to the video"
@@ -11471,11 +11487,11 @@ msgstr "XBMC:n asetustiedostot on siirretty toiseen kansioon. Lisätietoa osoitt
 
 msgctxt "#24130"
 msgid "Enable parsing for closed captions"
-msgstr "Käytä \"closed captions\"-tekstityksiä"
+msgstr "Näytä \"closed captions\"-tekstitykset"
 
 msgctxt "#24131"
 msgid "Enable to parse for CC in video stream. Puts slightly more load on the CPU"
-msgstr "Etsii videosta \"closed captions\"-tekstejä. Tämä lisää prossessorikuormitusta."
+msgstr "Etsii videosta \"closed captions\"-muodossa olevia tekstityksiä. Tämä lisää prossessorikuormitusta."
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -11595,7 +11611,7 @@ msgstr "Ilmoitukset"
 
 msgctxt "#25001"
 msgid "Hide foreign"
-msgstr "Piilota vieras"
+msgstr "Piilota epäviralliset"
 
 msgctxt "#25002"
 msgid "Select from all titles ..."
@@ -12131,7 +12147,7 @@ msgstr "Odotettavissa"
 
 msgctxt "#33031"
 msgid "Coverflow"
-msgstr "Kuorivirta"
+msgstr "Kotelovirta"
 
 msgctxt "#33032"
 msgid "Translate text"
@@ -12187,7 +12203,7 @@ msgstr "Määritä"
 
 msgctxt "#33054"
 msgid "Seasons"
-msgstr "Tuotantokaudet"
+msgstr "Kaudet"
 
 msgctxt "#33055"
 msgid "Use your"
@@ -12607,15 +12623,15 @@ msgstr "Käyttää peliohjaimen värinämoottoreita ilmoitusten yhteydessä."
 
 msgctxt "#35055"
 msgid "Use the keyboard or remote to select a controller profile. When prompted, press the button on your game controller that best matches what you see on the screen. If you make a mistake you can repeat the process."
-msgstr "Valitse ohjainprofiili näppäimistöllä tai kaukosäätimellä. Valitse peliohjaimestasi nappi, joka sopii parhaiten yhteen ruudulla näkyvän toiminnon kanssa. Tarvittaessa voit asettaa toiminnon uudelleen."
+msgstr "Valitse ohjainprofiili näppäimistöllä tai kaukosäätimellä. Valitse peliohjaimestasi painike, joka sopii parhaiten yhteen ruudulla näkyvän toiminnon kanssa. Tarvittaessa voit asettaa toiminnon uudelleen."
 
 msgctxt "#35058"
 msgid "Controller Configuration"
-msgstr "Ohjaimen asetukset"
+msgstr "Ohjainasetukset"
 
 msgctxt "#35059"
 msgid "Buttons"
-msgstr "Napit"
+msgstr "Painikkeet"
 
 msgctxt "#35060"
 msgid "Reset controller profile"
@@ -12639,11 +12655,11 @@ msgstr "Parita ohjaimesi minkä tahansa pelikoneen ohjainlaiteprofiilin kanssa."
 
 msgctxt "#35074"
 msgid "Face buttons"
-msgstr "Etupuolen napit"
+msgstr "Etupuolen painikkeet"
 
 msgctxt "#35075"
 msgid "Shoulder buttons"
-msgstr "Olkanapit"
+msgstr "Olkapainikkeet"
 
 msgctxt "#35076"
 msgid "Triggers"
@@ -12719,7 +12735,7 @@ msgstr "Poista peliohjain käytöstä kun tämä laite on kytkettynä"
 
 msgctxt "#35103"
 msgid "Buttons"
-msgstr "Napit"
+msgstr "Painikkeet"
 
 msgctxt "#35104"
 msgid "Pointers"
@@ -12759,7 +12775,7 @@ msgstr "Käytä näppäimistöä"
 
 msgctxt "#35153"
 msgid "This allows the keyboard to emulate up to 8 game controllers. If disabled, the keyboard can still be used to control emulators like DOSBox which require a full keyboard."
-msgstr "Näppäimistöllä voidaan emuloida jopa 8 peliohjainta. Jos asetus ei ole käytössä, näppäimistöllä voidaan yhä ohjata DOSBoxin tapaisia emulaattoreita, jotka tarvitsevat näppäimistön."
+msgstr "Näppäimistöllä voidaan emuloida yhteensä jopa 8:aa peliohjainta. Jos asetus ei ole käytössä, näppäimistöllä voidaan yhä ohjata DOSBoxin tapaisia emulaattoreita, jotka tarvitsevat näppäimistön."
 
 msgctxt "#35154"
 msgid "Number of keyboard players"
@@ -12775,35 +12791,35 @@ msgstr "{0:d}"
 
 msgctxt "#35157"
 msgid "Configure keyboard player 1"
-msgstr "Pelaajan 1 näppäimistöasetukset"
+msgstr "Pelaaja 1:n näppäimistöasetukset"
 
 msgctxt "#35158"
 msgid "Configure keyboard player 2"
-msgstr "Pelaajan 2 näppäimistöasetukset"
+msgstr "Pelaaja 2:n näppäimistöasetukset"
 
 msgctxt "#35159"
 msgid "Configure keyboard player 3"
-msgstr "Pelaajan 3 näppäimistöasetukset"
+msgstr "Pelaaja 3:n näppäimistöasetukset"
 
 msgctxt "#35160"
 msgid "Configure keyboard player 4"
-msgstr "Pelaajan 4 näppäimistöasetukset"
+msgstr "Pelaaja 4:n näppäimistöasetukset"
 
 msgctxt "#35161"
 msgid "Configure keyboard player 5"
-msgstr "Pelaajan 5 näppäimistöasetukset"
+msgstr "Pelaaja 5:n näppäimistöasetukset"
 
 msgctxt "#35162"
 msgid "Configure keyboard player 6"
-msgstr "Pelaajan 6 näppäimistöasetukset"
+msgstr "Pelaaja 6:n näppäimistöasetukset"
 
 msgctxt "#35163"
 msgid "Configure keyboard player 7"
-msgstr "Pelaajan 7 näppäimistöasetukset"
+msgstr "Pelaaja 7:n näppäimistöasetukset"
 
 msgctxt "#35164"
 msgid "Configure keyboard player 8"
-msgstr "Pelaajan 8 näppäimistöasetukset"
+msgstr "Pelaaja 8:n näppäimistöasetukset"
 
 msgctxt "#35165"
 msgid "Keyboard player"
@@ -12831,11 +12847,11 @@ msgstr "Käytä kelaustoimintoa"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
-msgstr "Mahdollistaa kelaamisen taaksepäin, jos peli tukee sitä. Paina kelauspainiketta tai klikkaa hakupalkkia siirtyäksesi taaksepäin."
+msgstr "Mahdollistaa siirtymisen taaksepäin pelitilanteessa, jos peli tukee tätä ominaisuutta. Paina kelauspainiketta tai klikkaa hakupalkkia siirtyäksesi taaksepäin."
 
 msgctxt "#35205"
 msgid "Maximum rewind time"
-msgstr "Kelaustoiminnon enimmäisaika"
+msgstr "Suurin sallittu siirtymä"
 
 msgctxt "#35206"
 msgid "Maximum time possible to rewind, if supported. Large rewind histories can use a lot of RAM."
@@ -12904,6 +12920,14 @@ msgstr "Lopeta"
 msgctxt "#35223"
 msgid "Input settings"
 msgstr "Ohjainasetukset"
+
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Tauko / Jatka"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Videosuodatin"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13167,7 +13191,7 @@ msgstr "Valitse käytössä olevan ulkoasun kirjasintyyppi. Jokaisella ulkoasull
 
 msgctxt "#36108"
 msgid "Resize the view of the user interface."
-msgstr "Muuta käyttöliittymän kokoa."
+msgstr "Muuttaa käyttöliittymän kokoa."
 
 msgctxt "#36109"
 msgid "Select the media window to display on startup."
@@ -13199,7 +13223,7 @@ msgstr "Valitse missä muodossa lämpötila, aika ja päiväys näytetään. Vai
 
 msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
-msgstr "Valitse käyttöliittymän tekstien kirjasintyyppi. Tällä ei ole vaikutusta tekstitysten kirjasintyyppiin. Jos haluat muuttaa sitä, siirry valikkoon Soittimen asetukset > Kieli."
+msgstr "Valitse käyttöliittymän tekstien kirjasintyyppi. Tällä ei ole vaikutusta tekstitysten kirjasintyyppiin. Jos haluat muuttaa sitä, siirry valikkoon Asetukset > Soitin > Kieli."
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -13251,7 +13275,7 @@ msgstr "Tämä kategoria sisältää näytönsäästäjiin liittyvät asetukset.
 
 msgctxt "#36129"
 msgid "Set the time to wait for any activity to occur before displaying the screensaver."
-msgstr "Aseta aika, joka odotetaan ennen näytönsäästäjän käynnistämistä."
+msgstr "Määrittää kuinka kauan järjestelmän on oltava toimettomana ennen näytönsäästäjän käynnistymistä."
 
 msgctxt "#36130"
 msgid "Select the screensaver. The \"Dim\" screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
@@ -13267,7 +13291,7 @@ msgstr "Esikatsele valittu näytönsäästäjä."
 
 msgctxt "#36133"
 msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "Käynnistää musiikkia soitettaessa visualisoinnin näytönsäästäjän sijaan."
+msgstr "Näyttää musiikkivisualisointeja näytönsäästäjän sijaan."
 
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
@@ -13295,7 +13319,7 @@ msgstr "Tämä kategoria sisältää videokirjastoon liittyvät asetukset."
 
 msgctxt "#36140"
 msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
-msgstr "Valitse mikä lämpötilayksikkö on käytössä näytettäessä lämpötiloja käyttöliittymässä."
+msgstr "Valitse sovelluksessa käytettävä lämpötilayksikkö."
 
 msgctxt "#36141"
 msgid "Show plot information for unwatched media in the video library."
@@ -13303,7 +13327,7 @@ msgstr "Näytä katsomattomien mediatiedostojen juonikuvaukset videokirjastossa.
 
 msgctxt "#36142"
 msgid "Choose which speed unit is used for displaying speeds in the user interface."
-msgstr "Valitse mikä nopeusyksikkö on käytössä näytettäessä nopeuksia käyttöliittymässä."
+msgstr "Valitse sovelluksessa käytettävä nopeusyksikkö."
 
 msgctxt "#36143"
 msgid "Downloads thumbnails for actors from online databases when adding media to the library."
@@ -13311,7 +13335,7 @@ msgstr "Ladataan näyttelijöiden kuvat verkosta, kun mediaa lisätään kirjast
 
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
-msgstr "Valitse missä tapauksissa haluat piilottaa tv-sarjojen tuotantokaudet. Jos tuotantokaudet ovat piilotettuina, siirrytään sarjanäkymästä suoraan jaksonäkymään."
+msgstr "Valitse missä tapauksissa haluat piilottaa tv-sarjojen kaudet. Jos kaudet ovat piilotettuina, siirrytään sarjanäkymästä suoraan jaksonäkymään."
 
 msgctxt "#36145"
 msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have its own entry in the movie library even if it belongs to a set."
@@ -13403,11 +13427,11 @@ msgstr "Tahdista kuva ja ääni näytön virkistystaajuuteen. Tässä tapauksess
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
-msgstr "Valitse mikä kellonajan esitysmuoto on käytössä näytettäessä aikaa käyttöliittymässä."
+msgstr "Valitse sovelluksessa käytettävä kellonajan aikamuoto."
 
 msgctxt "#36168"
 msgid "Choose whether to use 12 or 24-hour format for displaying the time in the user interface."
-msgstr "Valitse käytetäänkö 12 vai 24 tunnin esitysmuotoa näytettäessä aikaa käyttöliittymässä."
+msgstr "Valitse käyttääkö sovellus 12 vai 24 tunnin aikamuotoa kellonajoissa."
 
 msgctxt "#36169"
 msgid "Select the quality of resampling for cases where the audio output needs to be at a different sampling rate from that used by the source.[CR][Low] Is fast and will have minimal impact on system resources such as the use of the CPU.[CR][Medium] & [High] Will use progressively more system resources."
@@ -13423,7 +13447,7 @@ msgstr "Valitse zoomin taso kun 4:3 videota näytetään laajakuvanäytöllä."
 
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
-msgstr "Valitse mikä lyhyt päivämäärän esitysmuoto on käytössä näytettäessä päiväys käyttöliittymässä."
+msgstr "Valitse sovelluksessa käytettävä päiväyksen lyhyt aikamuoto."
 
 msgctxt "#36174"
 msgid "Enable teletext when watching a live TV stream."
@@ -13583,7 +13607,7 @@ msgstr "Avaa kanavaryhmien hallinnan, jonka avulla voi muokata kanavaryhmiä ja 
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
-msgstr "Valitse mikä pitkä päivämäärän esitysmuoto on käytössä näytettäessä päiväys käyttöliittymässä."
+msgstr "Valitse sovelluksessa käytettävä päiväyksen pitkä aikamuoto."
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
@@ -13596,10 +13620,6 @@ msgstr "Hakee puuttuvat kanavalogot."
 msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Tämä kategoria sisältää ohjelmaoppaan (EPG) asetukset."
-
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Kuinka monen päivän ohjelmatiedot haetaan taustaosalta ohjelmaoppaassa näytettäväksi."
 
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
@@ -13627,15 +13647,11 @@ msgstr "Tämä kategoria sisältää PVR:n toistoon ja kanavien vaihtoon liittyv
 
 msgctxt "#36227"
 msgid "Switch to full screen display when starting playback of channels and recordings."
-msgstr "Aloittaa tv-kanavien ja tallennusten toiston kokoruututilassa."
+msgstr "Aloittaa tv-kanavien ja tallenteiden toiston kokoruututilassa."
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Näytä tv-signaalin laatu- ja voimakkuustiedot kodekkitietojen yhteydessä, jos PVR-lisäosa ja taustaosa tukevat tätä ominaisuutta."
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Kuinka kauan kanavan virittymistä odotetaan. Hyödyllinen tilanteissa, joissa tv-signaalin laatu vaihtelee."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -13651,7 +13667,7 @@ msgstr "Tämä kategoria sisältää tallennusten kestoon liittyvät asetukset."
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
-msgstr "Tallennusnapista asetettujen pikatallennusten kesto. Tätä arvoa käytetään, jos \"Pikatallennuksen toiminto\"-asetuksena käytetään \"Tallenna tietty aika\"."
+msgstr "Tallennuspainikkeesta asetettujen pikatallennusten kesto. Tätä arvoa käytetään, jos \"Pikatallennuksen toiminto\"-asetuksena käytetään \"Tallenna tietty aika\"."
 
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
@@ -14351,7 +14367,7 @@ msgstr "Käytä Amlogic-laitteistopurkua videotiedostoihin."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
-msgstr "Valitse mitä tehdään, kun ohjelma valitaan ohjelmaoppaasta. [Näytä sisältövalikko] avaa sisältövalikon, josta voi valita suoritettavan toiminnon; [Vaihda kanavalle] avaa valitun kanavan; [Näytä tiedot] näyttää valitun ohjelman tiedot; [Tallenna] Tallentaa valitun ohjelman.\" [\"Älykäs valinta\"] Toiminto riippuu siitä, onko ohjelma mennyt, juuri käynnissä vai vasta tulossa."
+msgstr "Valitse mitä tehdään, kun ohjelma valitaan ohjelmaoppaasta. [Näytä sisältövalikko] avaa sisältövalikon, josta voi valita suoritettavan toiminnon; [Vaihda kanavalle] avaa valitun kanavan; [Näytä tiedot] näyttää valitun ohjelman tiedot; [Tallenna] Tallentaa valitun ohjelman. [Älykäs valinta] Toiminto riippuu siitä, onko ohjelma mennyt, juuri käynnissä vai vasta tulossa."
 
 msgctxt "#36425"
 msgid "Show context menu"
@@ -14383,7 +14399,7 @@ msgstr "Näyttää kaikki tähän käyttäjäprofiiliin liittyvät tapahtumaloki
 
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
-msgstr "Valitse virtuaalinäppäimistön asetteluista."
+msgstr "Valitse virtuaalinäppäimistön käyttämät näppäimistöasettelut."
 
 msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
@@ -14603,7 +14619,7 @@ msgstr "Määrittää näytönohjainajurin esityspuskurien määrän. Valitse 2 
 
 msgctxt "#36560"
 msgid "Colour management"
-msgstr "Värien hallinta"
+msgstr "Värinhallinta"
 
 msgctxt "#36561"
 msgid "Reproduce video colours accurately using a display profile or a 3D lookup table."
@@ -14611,7 +14627,7 @@ msgstr "Käytä näyttöprofiilia tai 3D-hakutaulukkoa mahdollisimman tarkan vä
 
 msgctxt "#36562"
 msgid "Colour management mode"
-msgstr "Värien hallintatila"
+msgstr "Värinhallintatila"
 
 msgctxt "#36563"
 msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
@@ -14833,6 +14849,34 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Skaalaa kuvat alaspäin korkealla laadulla (lisää muistinkäyttöä ja vaikuttaa hieman suorituskykyyn)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Protokollan enimmäisversio"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Aseta enimmäisversio, jota SMB-protokolla saa käyttää. Vanhempien verkkokiintolevyjen ja Windows-versioiden kanssa voit joutua käyttämään SMBv1- tai SMBv2-versiota."
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Pois"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Asiakas"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "elokuva"
@@ -15039,7 +15083,7 @@ msgstr "Suosi kuulorajoitteisten ääniraitaa tavallisen samankielisen äänirai
 
 msgctxt "#37038"
 msgid "Prefer subtitles for the hearing impaired"
-msgstr "Suosi tekstityksiä kuulorajoitteellisille"
+msgstr "Suosi kuulorajoitteisten tekstityksiä"
 
 msgctxt "#37039"
 msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
@@ -15047,7 +15091,7 @@ msgstr "Suosi kuulorajoitteisten tekstitysraitaa tavallisen samankielisen teksti
 
 msgctxt "#37040"
 msgid "Prefer default audio streams"
-msgstr "Suosi oletusäänivirtoja"
+msgstr "Suosi oletusääniraitoja"
 
 msgctxt "#37041"
 msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
@@ -15216,6 +15260,50 @@ msgstr "Noudetaanko levyjen ja esittäjien lisätietoja? Siinä voi mennä kauan
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Tutkitaanko tagit, vaikka musiikkitiedostoissa ei ole havaittu muutoksia?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Aseta oletustietojentarjoaja"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Aseta tälle esittäjälle"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Aseta kaikille näkyville esittäjille"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Aseta tälle levylle"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Aseta kaikille näkyville levyille"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Käytetäänkö tätä tietojen tarjoajaa kaikille näille esittäjille?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Käytetäänkö tätä tietojen tarjoajaa kaikille näille levyille?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Käytetäänkö tätä tietojen tarjoajaa kaikille esittäjille? Se korvaa kaikki aiemmin määritetyt esittäjäkohtaiset asetukset."
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Käytetäänkö tätä tietojen tarjoajaa kaikille levyille? Se korvaa kaikki aiemmin määritetyt levykohtaiset asetukset."
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Haluatko päivittää kaikkien näiden nimikkeiden tiedot nyt?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Haluatko päivittää tämän nimikkeen tiedot nyt?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Feil ved rydding av artister"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Rydder opp i sjangere, roller osv…"
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Feil ved rydding av sjangere, roller osv."
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Rydder opp i filstier…"
@@ -2499,7 +2507,15 @@ msgstr "Detaljert logging for [B]Video[/B]-komponent"
 
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
-msgstr "Innholdsrik logging for [B]vevtjener[/B]-komponent"
+msgstr "Detaljert logging for [B]vevtjener[/B]-komponent"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Detaljert logging for [B]database[/B]-komponent"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Detaljert logging for [B]lyd/video klokkesignalsinformasjon[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -7067,7 +7083,7 @@ msgstr "Vis signalkvalitet"
 
 msgctxt "#19038"
 msgid "Not supported by the PVR backend."
-msgstr "Ikke støttet av PVR-tjenerdelen."
+msgstr "Ikke støttet av PVR-bakenden."
 
 msgctxt "#19039"
 msgid "Are you sure you want to hide this channel?"
@@ -7593,10 +7609,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Skjul videoinformasjonsboks"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Timeout når avspilling starter"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "Bytt til fullskjerm"
@@ -7641,10 +7653,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Meny / OSD"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Hvor mange dager skal vises?"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Radio-kanaler"
@@ -7669,13 +7677,21 @@ msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Alle dine data for programguide vil bli slettet. Er du sikker?"
 
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR-bakenden støtter ikke opptak av denne hendelsen."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Spill av program"
+
 msgctxt "#19191"
 msgid "PVR service"
 msgstr "PVR-tjeneste"
 
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
-msgstr "Ingen av de tilkoblede PVR-tjenerdelene støtter skanning etter kanaler."
+msgstr "Ingen av de tilkoblede PVR-bakendene støtter skanning etter kanaler."
 
 msgctxt "#19193"
 msgid "The channel scan can't be started. Check the log for more information about this message."
@@ -7767,7 +7783,7 @@ msgstr "Skriv inn gyldig URL for ny kanal"
 
 msgctxt "#19215"
 msgid "The PVR backend does not support timers."
-msgstr "Denne PVR-tjenerdelen støtter ikke tidsur."
+msgstr "PVR-bakenden støtter ikke tidsur."
 
 msgctxt "#19216"
 msgid "All radio channels"
@@ -12905,6 +12921,14 @@ msgctxt "#35223"
 msgid "Input settings"
 msgstr "Inndatainnstillinger"
 
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Pause / fortsett"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Videofilter"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Legg til spill…"
@@ -13547,7 +13571,7 @@ msgstr "Aktiverer \"Personlig Videoopptak\" (PVR) funksjonene. Dette krever at d
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Hent kanalgrupper fra PVR-tjenerdelen (hvis støttet). Dette vil slette brukeropprettede kanalgrupper som ikke eksisterer på tjenerdelen."
+msgstr "Hent kanalgrupper fra PVR-bakenden (hvis støttet). Dette vil slette brukeropprettede kanalgrupper som ikke eksisterer på bakenden."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use own numbering for channels."
@@ -13597,10 +13621,6 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Denne kategorien inneholder innstillinger for elektronisk programguide (EPG)."
 
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Antall dager å vise i programguide og for importerte data fra tjenerdeler."
-
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "Tid mellom import av programguidedata fra tjenerdeler."
@@ -13633,10 +13653,6 @@ msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Vis informasjon om signalkvaliteten i vinduet for kodekinformasjon (hvis støttet av utvidelsen og tjenerdelen)"
 
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Tid å vente på at en kanal skal mottas etter en kanalendring. Nyttig for kanaler som sendes over lufta som tidvis mister signalstyrke."
-
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
 msgstr "Når man blar gjennom kanaler med kanaler opp/ned knappene, kanalbytte må bekreftes med OK knappen."
@@ -13667,7 +13683,7 @@ msgstr "Vis et varsel når tidsur blir lagt til, er ferdige eller blir fjernet a
 
 msgctxt "#36240"
 msgid "This category contains the PVR power management settings, such as when to wakeup the PVR backend server."
-msgstr "Denne kategorien inneholder innstillinger for PVR-strømstyring, slik som når PVR-tjenerdelen skal vekkes."
+msgstr "Denne kategorien inneholder innstillinger for PVR-strømstyring, slik som når PVR-bakendetjeneren skal vekkes."
 
 msgctxt "#36241"
 msgid "Execute the wakeup command below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
@@ -13695,7 +13711,7 @@ msgstr "Tidspunktet våkne opp kommandoen skal eksekveres."
 
 msgctxt "#36247"
 msgid "This category contains the parental control settings, if the PVR backend server supports parental controls."
-msgstr "Denne kategorien inneholder innstillinger for foreldrekontroll, hvis PVR-tjenerdelen støtter foreldrekontroll."
+msgstr "Denne kategorien inneholder innstillinger for foreldrekontroll, hvis PVR-bakendetjeneren støtter foreldrekontroll."
 
 msgctxt "#36248"
 msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can't be played or recorded without entering a pin code, and the guide information is hidden for those channels."
@@ -14837,6 +14853,34 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Slå på høykvalitets-nedskalering av bilder (bruker mer minne og har en moderat påvirkning av ytelsen)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Høyest tillatte protokollversjon"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Sett høyest tillatte SMB-protokollversjon for å forhandle når tilkoblinger gjøres. Påtvinging av SMBv2- eller SMBv1 -kompabilitet kan kreves på gamle NAS- eller Windows -ressurser."
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Ingen"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Klient"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "film"
@@ -15220,6 +15264,50 @@ msgstr "Hent ekstrainformasjon for album og artister? Dette kan ta noe tid, så 
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Gjør full tag skann selv om musikk filer ikke er endret?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Sett forvalgt informasjonstilbyder"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Sett for denne artisten"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Sett for alle viste artister"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Sett for dette albumet"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Sett for alle viste album"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Bruk denne informasjonstilbyderen for alle artistene vist her?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Bruk denne informasjonstilbyderen for alle albumene vist her?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Bruk denne informasjonstilbyderen for alle artister, og overskriv alle tidligere innstillinger for spesifikke artister?"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Bruk denne informasjonstilbyderen for alle album, og overskriv alle tidligere innstillinger for spesifikke album?"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Ønsker du å oppdatere informasjonen for alle disse elementene nå?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Ønsker du å oppdatere informasjonen for dette elementet nå?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

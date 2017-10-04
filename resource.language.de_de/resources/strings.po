@@ -1177,6 +1177,14 @@ msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Fehler beim Bereinigen der Interpreten"
 
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Genres, Rollen, usw. werden bereinigt..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Fehler beim Bereinigen der Genres, Rollen, usw."
+
 msgctxt "#324"
 msgid "Cleaning paths..."
 msgstr "Pfade werden bereinigt..."
@@ -2496,6 +2504,14 @@ msgstr "Ausführliche Protokollierung der [B]Video[/B]-Komponente"
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "Ausführliche Protokollierung der [B]Webserver[/B]-Komponente"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Ausführliche Protokollierung der [B]Datenbank[/B]-Komponente"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Ausführliche Protokollierung von [B]Audio/Video Timing-Informationen[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -7589,10 +7605,6 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Videoinformationsbox ausblenden"
 
-msgctxt "#19170"
-msgid "Timeout when starting playback"
-msgstr "Zeitüberschreitung beim Starten der Wiedergabe"
-
 msgctxt "#19171"
 msgid "Switch to full screen"
 msgstr "Auf Vollbild umschalten"
@@ -7637,10 +7649,6 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Menü / OSD"
 
-msgctxt "#19182"
-msgid "Days to display"
-msgstr "Anzuzeigende Tage"
-
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Radiosender"
@@ -7664,6 +7672,14 @@ msgstr "Daten werden gelöscht."
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Alle Guide-Daten werden gelöscht. Fortfahren?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "Das PVR-Backend gestattet das Aufnehmen dieser Sendung nicht."
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Sendung ansehen."
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -12857,6 +12873,10 @@ msgctxt "#35223"
 msgid "Input settings"
 msgstr "Eingabe-Einstellungen"
 
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Videofilter"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Spiele hinzufügen..."
@@ -13549,10 +13569,6 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Kategorie mit Einstellungen für den elektronischen Programmführer (EPG, TV-Guide)."
 
-msgctxt "#36220"
-msgid "Number of days to show in the guide and import data for from backends."
-msgstr "Anzahl von Tagen, die im TV-Guide angezeigt und entsprechend Daten vom Backend importiert werden sollen.."
-
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "Zeitspanne zwischen TV-Guide-Importvorgängen."
@@ -13584,10 +13600,6 @@ msgstr "Zur Wiedergabe von Kanälen und Aufnahmen auf Vollbild umschalten."
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Signalqualität im PVR-Informationsfenster anzeigen (wenn von Addon und Backend unterstützt)."
-
-msgctxt "#36230"
-msgid "Time to wait for a channel to be received after a channel change. Useful for over-the-air channels that occasionally lose signal strength."
-msgstr "Zeit, die auf einen Kanal nach dem Umschalten gewartet werden soll. Nützlich für Kanäle mit schwankender Signalstärke."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -14765,6 +14777,34 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Aktiviert die Herunterskalierung von Bildern in hoher Qualität (benötigt mehr Arbeitsspeicher und hat mäßige Auswirkungen auf die Leistung)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Höchste Protokollversion"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Einstellen der maximalen SMB-Protokollversion für das Aushandeln von Verbindungen. Es kann nötig sein, für Kompatbilität mit älteren NAS oder Windowsfreigaben, SMBv2 oder SMBv1 zu erzwingen."
+
+msgctxt "#36623"
+msgid "None"
+msgstr "Aus"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
+msgctxt "#36627"
+msgid "Client"
+msgstr "Client"
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "Film"
@@ -15148,6 +15188,50 @@ msgstr "Zusätzliche Informationen für Alben und Interpreten herunterladen? Die
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Datei-Tags auslesen, auch wenn die Musik-Dateien sich nicht geändert haben?"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Standard-Informationsanbieter festlegen"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Für diesen Künstler"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Für alle angezeigten Künstler"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Für dieses Album"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Für alle angezeigten Alben"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Diesen Informationsanbieter für alle hier angezeigten Künstler festlegen?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Diesen Informationsanbieter für alle hier angezeigten Alben festlegen?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Diesen Informationsanbieter für alle Künstler festlegen? Dabei werden alle vorherigen Einstellungen für einzelne Künstler zurückgesetzt."
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Diesen Informationsanbieter für alle Alben festlegen? Dabei werden alle vorherigen Einstellungen für einzelne Alben zurückgesetzt."
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Sollen die Informationen für alle Einträge aktualisiert werden?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Sollen die Informationen für diesen Eintrag aktualisiert werden?"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
