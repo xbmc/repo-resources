@@ -691,7 +691,7 @@ msgstr "Valitse elokuva:"
 
 msgctxt "#197"
 msgid "Querying {0:s} information"
-msgstr "Haetaan {0:s}:n tietoja"
+msgstr "Haetaan tietoja lähteestä {0:s}"
 
 msgctxt "#198"
 msgid "Loading movie details"
@@ -5967,7 +5967,7 @@ msgstr "Kesäaika käytössä"
 
 msgctxt "#14076"
 msgid "Add to favourites"
-msgstr "Lisää suosikkeihin"
+msgstr "Lisää suosikiksi"
 
 msgctxt "#14077"
 msgid "Remove from favourites"
@@ -6427,7 +6427,7 @@ msgstr "Sijainti ei ole saatavilla"
 
 msgctxt "#15013"
 msgid "What would you like to do with media items from {0:s}"
-msgstr "Mitä haluaisit tehdä kohteen {0:s} medialle"
+msgstr "Mitä tehdään mediatiedoille, jotka viittaavat sijaintiin {0:s}"
 
 msgctxt "#15014"
 msgid "Keep"
@@ -6927,11 +6927,11 @@ msgstr "Kaikki videot"
 
 msgctxt "#16101"
 msgid "Unwatched"
-msgstr "Katsomattomat"
+msgstr "Ei katsottu"
 
 msgctxt "#16102"
 msgid "Watched"
-msgstr "Katsotut"
+msgstr "Katsottu"
 
 msgctxt "#16103"
 msgid "Mark as watched"
@@ -7493,10 +7493,6 @@ msgctxt "#19084"
 msgid "First day"
 msgstr "Ensimmäinen päivä"
 
-msgctxt "#19085"
-msgid "Unknown channel {0:d}"
-msgstr "Tuntematon kanava {0:d}"
-
 msgctxt "#19086"
 msgid "Instant recording action"
 msgstr "Pikatallennuksen toiminto"
@@ -7588,14 +7584,6 @@ msgstr "klo"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Oletusvirkistystaajuus"
-
-msgctxt "#19109"
-msgid "Couldn't save timer. Check the log for more information about this message."
-msgstr "Ajastuksen lisääminen epäonnistui. Katso lokitiedostosta lisätietoja tästä viestistä."
-
-msgctxt "#19110"
-msgid "An unexpected error occurred. Try again later or check the log for more information."
-msgstr "Määrittelemätön virhetilanne. Kokeile uudelleen tai katso lokitiedostosta lisätietoja tästä viestistä."
 
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
@@ -7808,10 +7796,6 @@ msgstr "Tallennus käynnissä"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Tallenteet"
-
-msgctxt "#19164"
-msgid "Can't start recording. Check the log for more information about this message."
-msgstr "Tallennusta ei voitu aloittaa. Katso lokitiedostosta lisätietoja tästä viestistä."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -8159,15 +8143,15 @@ msgstr "Päivitä ohjelmaopas"
 
 msgctxt "#19252"
 msgid "Schedule guide update for this channel?"
-msgstr "Ajasta opppaan päivitys tälle kanavalle?"
+msgstr "Haluatko päivittää ohjelmaoppaan tälle kanavalle?"
 
 msgctxt "#19253"
 msgid "Guide update scheduled for channel"
-msgstr "Oppaan päivitys ajastettu kanavalle"
+msgstr "Ohjelmaoppaan päivitys ajastettu kanavalle"
 
 msgctxt "#19254"
 msgid "Guide update failed for channel"
-msgstr "Kanavan ohjelmatietojen päivitys epäonnistui"
+msgstr "Ohjelmaoppaan päivitys epäonnistui kanavalle"
 
 msgctxt "#19255"
 msgid "{0:d} scheduled"
@@ -9484,6 +9468,26 @@ msgstr "Android-valokuvat"
 msgctxt "#20244"
 msgid "Android apps"
 msgstr "Android-sovellukset"
+
+msgctxt "#20245"
+msgid "Windows music library"
+msgstr "Windowsin musiikkikirjasto"
+
+msgctxt "#20246"
+msgid "Windows videos library"
+msgstr "Windowsin videokirjasto"
+
+msgctxt "#20247"
+msgid "Windows pictures library"
+msgstr "Windowsin kuvakirjasto"
+
+msgctxt "#20248"
+msgid "Windows photos library"
+msgstr "Windowsin valokuvakirjasto"
+
+msgctxt "#20249"
+msgid "Windows documents"
+msgstr "Windowsin tiedostot"
 
 msgctxt "#20250"
 msgid "Party on! (videos)"
@@ -15245,18 +15249,6 @@ msgctxt "#37002"
 msgid "(Director's comments 2)"
 msgstr "(Ohjaajan kommentit 2)"
 
-msgctxt "#37011"
-msgid "(CC)"
-msgstr "(CC)"
-
-msgctxt "#37012"
-msgid "(Forced)"
-msgstr "(Pakotettu)"
-
-msgctxt "#37013"
-msgid "(Director's comments)"
-msgstr "(Ohjaajan kommentit 2)"
-
 msgctxt "#37014"
 msgid "Last used profile"
 msgstr "Viimeksi käytetty profiili"
@@ -15403,7 +15395,7 @@ msgstr "Rajoittaa käyttöliittymän ruudunpäivitysnopeutta (fps) videotoiston 
 
 msgctxt "#38015"
 msgid "Unlimited"
-msgstr "Rajaton"
+msgstr "Rajoittamaton"
 
 msgctxt "#38016"
 msgid "{0:d} fps"
@@ -15705,6 +15697,46 @@ msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "Onko sinulla paikallisia esittäjätietoja (NFO) ja kuvatiedostoja, joita haluat käyttää? Määritä näiden tietojen sijainti nyt."
 
+msgctxt "#38330"
+msgid "Set Music Information Providers"
+msgstr "Aseta musiikkitietojen tarjoajat"
+
+msgctxt "#38331"
+msgid "Set Album Information Provider"
+msgstr "Aseta albumitietojen tarjoaja"
+
+msgctxt "#38332"
+msgid "Set Artist Information Provider"
+msgstr "Aseta esittäjätietojen tarjoaja"
+
+msgctxt "#38333"
+msgid "Fetch additional information and art during scan"
+msgstr "Nouda lisätietoja ja kuvia haun aikana"
+
+msgctxt "#38334"
+msgid "Album information provider"
+msgstr "Albumitietojen tarjoaja"
+
+msgctxt "#38335"
+msgid "Artist information provider"
+msgstr "Esittäjätietojen tarjoaja"
+
+msgctxt "#38336"
+msgid "Local artist information folder"
+msgstr "Paikallinen esittäjätietokansio"
+
+msgctxt "#38337"
+msgid "Options for fetching additional information"
+msgstr "Lisätietojen hakuasetukset"
+
+msgctxt "#38338"
+msgid "Choose how to apply settings"
+msgstr "Valitse, miten asetuksia käytetään"
+
+msgctxt "#38339"
+msgid "How to apply information provider settings"
+msgstr "Asetusten käyttötapa"
+
 msgctxt "#39000"
 msgid "HD and up"
 msgstr "HD ja parempi"
@@ -15816,3 +15848,7 @@ msgstr "Katso tv:tä"
 msgctxt "#39102"
 msgid "Play Radio"
 msgstr "Kuuntele radiota"
+
+msgctxt "#39103"
+msgid "Unable to configure network location. Invalid path given."
+msgstr "Verkkosijainnin määritys epäonnistui. Annettu polku ei kelpaa."

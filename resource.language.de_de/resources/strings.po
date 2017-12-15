@@ -7485,10 +7485,6 @@ msgctxt "#19084"
 msgid "First day"
 msgstr "Erster Tag"
 
-msgctxt "#19085"
-msgid "Unknown channel {0:d}"
-msgstr "Unbekannter Kanal {0:d}"
-
 msgctxt "#19086"
 msgid "Instant recording action"
 msgstr "Sofortaufnahme-Aktion"
@@ -7580,14 +7576,6 @@ msgstr "um"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Standard-Bildwiederholfrequenz"
-
-msgctxt "#19109"
-msgid "Couldn't save timer. Check the log for more information about this message."
-msgstr "Timer konnte nicht gespeichert werden. Für mehr Details Logdatei einsehen."
-
-msgctxt "#19110"
-msgid "An unexpected error occurred. Try again later or check the log for more information."
-msgstr "Ein unerwarteter Fehler ist aufgetreten. Bitte später noch einmal versuchen oder für mehr Details Logdatei einsehen."
 
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
@@ -7800,10 +7788,6 @@ msgstr "Aufnahme aktiv"
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Aufnahmen"
-
-msgctxt "#19164"
-msgid "Can't start recording. Check the log for more information about this message."
-msgstr "Die Aufnahme kann nicht gestartet werden. Für mehr Details Logdatei einsehen."
 
 msgctxt "#19165"
 msgid "Switch"
@@ -9476,6 +9460,26 @@ msgstr "Android Photos"
 msgctxt "#20244"
 msgid "Android apps"
 msgstr "Android Apps"
+
+msgctxt "#20245"
+msgid "Windows music library"
+msgstr "Windows Musik-Bibliothek"
+
+msgctxt "#20246"
+msgid "Windows videos library"
+msgstr "Windows Video-Bibliothek"
+
+msgctxt "#20247"
+msgid "Windows pictures library"
+msgstr "Windows Bilder-Bibliothek"
+
+msgctxt "#20248"
+msgid "Windows photos library"
+msgstr "Windows Bilder-Bibliothek"
+
+msgctxt "#20249"
+msgid "Windows documents"
+msgstr "Windows Dokumente"
 
 msgctxt "#20250"
 msgid "Party on! (videos)"
@@ -11251,7 +11255,7 @@ msgstr "Visualisierung"
 
 msgctxt "#24011"
 msgid "Add-on repository"
-msgstr "Addon-Verzeichnis"
+msgstr "Addon-Repository"
 
 msgctxt "#24012"
 msgid "Subtitles"
@@ -11575,7 +11579,7 @@ msgstr "{0:s} wird geprüft..."
 
 msgctxt "#24094"
 msgid "Add-on disabled due to being marked broken in repository."
-msgstr "Addon deaktiviert, weil es im Repository als 'broken' markiert wurde."
+msgstr "Addon deaktiviert, weil es im Repository als defekt markiert wurde."
 
 msgctxt "#24095"
 msgid "Local package cache"
@@ -11583,7 +11587,7 @@ msgstr "Lokaler Addon-Cache"
 
 msgctxt "#24096"
 msgid "Add-on has been marked broken in repository."
-msgstr "Das Addon wurde im Addon-Verzeichnis als defekt markiert."
+msgstr "Das Addon wurde im Addon-Repository als defekt markiert."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -14803,7 +14807,7 @@ msgstr "Legt fest, in welchem Modus stereoskopische 3D-Videos abgespielt werden.
 
 msgctxt "#36538"
 msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode, between videos in a playlist or when playback ended.[CR][Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists with mixed stereoscopic 3D and 2D content, then the GUI will also stay in stereoscopic 3D mode even when a non-stereoscopic 2D video is playing."
-msgstr "[Aktiviert] Schaltet nach Beenden des Abspielens die Benutzeroberfläche (und einige TVs) zurück in den 2D-Modus, auch zwischen einzelnen Videos einer Playlist, wenn erforderlich.[CR][Deaktiviert] Benutzeroberfläche und TV bleiben im stereoskopischen 3D-Modus. Zwischen einzelnen Videos einer Playlist wird der Modus nicht gewechselt, auch nicht für nichtstereoskopische Videos."
+msgstr "[Aktiviert] Schaltet nach Beenden des Abspielens die Benutzeroberfläche (und einige TVs) zurück in den 2D-Modus, auch zwischen einzelnen Videos einer Wiedergabeliste, wenn erforderlich.[CR][Deaktiviert] Benutzeroberfläche und TV bleiben im stereoskopischen 3D-Modus. Zwischen einzelnen Videos einer Wiedergabeliste wird der Modus nicht gewechselt, auch nicht für nichtstereoskopische Videos."
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
@@ -15205,18 +15209,6 @@ msgctxt "#37002"
 msgid "(Director's comments 2)"
 msgstr "(Kommentare des Regisseurs 2)"
 
-msgctxt "#37011"
-msgid "(CC)"
-msgstr "(CC)"
-
-msgctxt "#37012"
-msgid "(Forced)"
-msgstr "(Erzwungen)"
-
-msgctxt "#37013"
-msgid "(Director's comments)"
-msgstr "(Kommentare des Regisseurs)"
-
 msgctxt "#37014"
 msgid "Last used profile"
 msgstr "Zuletzt verwendetes Profil:"
@@ -15495,7 +15487,7 @@ msgstr "Standard-Informationsanbieter festlegen"
 
 msgctxt "#38064"
 msgid "Set for this artist"
-msgstr "Für diesen Interpret"
+msgstr "Für diesen Interpreten"
 
 msgctxt "#38065"
 msgid "Set for all artists shown"
@@ -15665,6 +15657,46 @@ msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "Sollen lokale Interpreten-Infos (NFO) und Artwork-Dateien benutzt werden? Bitte jetzt angeben, in welchen Ordnern diese zu finden sind"
 
+msgctxt "#38330"
+msgid "Set Music Information Providers"
+msgstr "Musik-Informationsanbieter festlegen"
+
+msgctxt "#38331"
+msgid "Set Album Information Provider"
+msgstr "Album-Informationsanbieter festlegen"
+
+msgctxt "#38332"
+msgid "Set Artist Information Provider"
+msgstr "Interpreten-Informationsanbieter festlegen"
+
+msgctxt "#38333"
+msgid "Fetch additional information and art during scan"
+msgstr "Beim Scannen zusätzliche Informationen laden"
+
+msgctxt "#38334"
+msgid "Album information provider"
+msgstr "Album-Informationsanbieter"
+
+msgctxt "#38335"
+msgid "Artist information provider"
+msgstr "Interpreten-Informationsanbieter"
+
+msgctxt "#38336"
+msgid "Local artist information folder"
+msgstr "Ordner für Interpreten-Informationen"
+
+msgctxt "#38337"
+msgid "Options for fetching additional information"
+msgstr "Optionen für das Laden von Zusatzinformationen"
+
+msgctxt "#38338"
+msgid "Choose how to apply settings"
+msgstr "Auswählen, wie die Einstellungen angewendet werden"
+
+msgctxt "#38339"
+msgid "How to apply information provider settings"
+msgstr "Anwenden von Informationsanbieter-Einstellungen"
+
 msgctxt "#39000"
 msgid "HD and up"
 msgstr "HD-Qualität und besser"
@@ -15776,3 +15808,7 @@ msgstr "TV sehen"
 msgctxt "#39102"
 msgid "Play Radio"
 msgstr "Radio hören"
+
+msgctxt "#39103"
+msgid "Unable to configure network location. Invalid path given."
+msgstr "Netzwerkquelle kann nicht konfiguruert werden. Der Pfad ist ungültig."
