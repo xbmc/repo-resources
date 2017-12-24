@@ -2,7 +2,7 @@
 <models>
   <model name="blue">
     <layout>
-      <physicaltopology hasplayer="true">
+      <physicaltopology providesinput="true">
         <port id="1">
           <accepts controller="game.controller.konami.justifier" model="pink"/>
         </port>
@@ -14,7 +14,7 @@
   </model>
   <model name="green">
     <layout icon="icon_playstation.png" image="layout_playstation.png">
-      <physicaltopology hasplayer="true">
+      <physicaltopology providesinput="true">
         <port id="1">
           <accepts controller="game.controller.konami.justifier" model="pink"/>
         </port>

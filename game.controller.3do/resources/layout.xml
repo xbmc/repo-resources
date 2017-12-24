@@ -15,7 +15,7 @@
     <button name="leftbumper" type="digital" label="30010"/>
     <button name="rightbumper" type="digital" label="30011"/>
   </category>
-  <physicaltopology hasplayer="true">
+  <physicaltopology providesinput="true">
     <port id="1">
       <accepts controller="game.controller.3do"/>
       <accepts controller="game.controller.3do.gamegun"/>
