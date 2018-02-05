@@ -867,7 +867,7 @@ msgstr "Pantalla completa #{0:d}"
 
 msgctxt "#242"
 msgid "Windowed"
-msgstr "Ventana"
+msgstr "En ventana"
 
 msgctxt "#243"
 msgid "Refresh rate"
@@ -1623,7 +1623,7 @@ msgstr "Desde {0:s} hasta {1:d} {2:s}"
 
 msgctxt "#435"
 msgid "No optical disc drive detected"
-msgstr "No se detectó unidad de disco"
+msgstr "No se detectó unidad de disco óptico"
 
 msgctxt "#436"
 msgid "You need an optical disc drive to play this video"
@@ -2623,7 +2623,7 @@ msgstr "Sin contraseña"
 
 msgctxt "#735"
 msgid "Character set"
-msgstr "Conjunto de caracteres"
+msgstr "Conjunto de carácteres"
 
 msgctxt "#736"
 msgid "Style"
@@ -2695,7 +2695,7 @@ msgstr "Editar nombre programa"
 
 msgctxt "#757"
 msgid "Edit path depth"
-msgstr "Editar profundidad ruta"
+msgstr "Editar profundidad de ruta"
 
 msgctxt "#759"
 msgid "View: Big list"
@@ -4227,7 +4227,7 @@ msgstr "Búsqueda de TV"
 
 msgctxt "#10705"
 msgid "Radio channels"
-msgstr "Canales Radio"
+msgstr "Canales de radio"
 
 msgctxt "#10706"
 msgid "Radio recordings"
@@ -4235,7 +4235,7 @@ msgstr "Grabaciones de radio"
 
 msgctxt "#10707"
 msgid "Radio guide"
-msgstr "Guía de Radio"
+msgstr "Guía de radio"
 
 msgctxt "#10708"
 msgid "Radio timers"
@@ -4423,7 +4423,7 @@ msgstr "Introduzca la combinación de botones en el gamepad y"
 
 msgctxt "#12331"
 msgid "press \"OK\", or \"Back\" to cancel"
-msgstr "pulse \"Inicio\", o \"Atrás\" para cancelar"
+msgstr "pulse \"OK\", o \"Atrás\" para cancelar"
 
 msgctxt "#12332"
 msgid "Set lock"
@@ -6023,7 +6023,7 @@ msgstr "Internacional"
 
 msgctxt "#14091"
 msgid "Character set"
-msgstr "Conjunto de caracteres"
+msgstr "Conjunto de carácteres"
 
 msgctxt "#14092"
 msgid "Logging"
@@ -7493,6 +7493,10 @@ msgctxt "#19084"
 msgid "First day"
 msgstr "Primer día"
 
+msgctxt "#19085"
+msgid "Unknown channel {0:s}"
+msgstr "Canal desconocido {0:s}"
+
 msgctxt "#19086"
 msgid "Instant recording action"
 msgstr "Acción de grabación inmediata"
@@ -7584,6 +7588,14 @@ msgstr "a"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Cuadros por segundo en caso de fallo"
+
+msgctxt "#19109"
+msgid "Could not save the timer. Check the log for more information about this message."
+msgstr " No se pudo guardar la programación. Compruebe el registro para obtener mas información sobre este mensaje."
+
+msgctxt "#19110"
+msgid "Could not delete the timer. Check the log for more information about this message."
+msgstr "No se pudo borrar la programación. Compruebe el registro para obtener mas información sobre este mensaje."
 
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
@@ -7797,6 +7809,10 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "Grabaciones"
 
+msgctxt "#19164"
+msgid "Could not start recording. Check the log for more information about this message."
+msgstr "No se pudo empezar a grabar. Compruebe el registro para obtener mas información sobre este mensaje."
+
 msgctxt "#19165"
 msgid "Switch"
 msgstr "Cambiar"
@@ -7816,6 +7832,10 @@ msgstr "Grabaciones borradas recuperables"
 msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Ocultar la caja de información de vídeo"
+
+msgctxt "#19170"
+msgid "Could not stop recording. Check the log for more information about this message."
+msgstr "No se pudo parar la grabación. Compruebe el registro para obtener mas información sobre este mensaje."
 
 msgctxt "#19171"
 msgid "Switch to full screen"
@@ -8185,6 +8205,10 @@ msgctxt "#19262"
 msgid "Parental control. Enter PIN:"
 msgstr "Control paternal. Introduzca PIN:"
 
+msgctxt "#19263"
+msgid "Could not update the timer. Check the log for more information about this message."
+msgstr "No se pudo actualizar la programación. Compruebe el registro para obtener mas información sobre este mensaje."
+
 msgctxt "#19264"
 msgid "Incorrect PIN"
 msgstr "PIN incorrecto"
@@ -8308,14 +8332,6 @@ msgstr "Eliminar regla de programación"
 msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "No hay ningún add-on PVR activado"
-
-msgctxt "#19297"
-msgid "Vertical"
-msgstr "Vertical"
-
-msgctxt "#19298"
-msgid "Horizontal"
-msgstr "Horizontal"
 
 msgctxt "#19299"
 msgid "Expires"
@@ -9536,10 +9552,6 @@ msgstr "Directorio servidor web (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "No se puede escribir en la carpeta:"
-
-msgctxt "#20304"
-msgid "RSS Feed"
-msgstr "Canal RSS"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -13209,6 +13221,10 @@ msgctxt "#35258"
 msgid "Select emulator for {0:s} file"
 msgstr "Escoger emulador para el archivo {0:s}"
 
+msgctxt "#35259"
+msgid "Saved"
+msgstr "Guardado"
+
 msgctxt "#35505"
 msgid "Server is unreachable."
 msgstr "El servidor es inalcanzable."
@@ -13475,7 +13491,7 @@ msgstr "Selecciona los formatos para la temperatura, fecha y hora. Las opciones 
 
 msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
-msgstr "Define el conjunto de caracteres que se usará para el texto de la interfaz de usuario. No cambia el conjunto de caracteres de los subtítulos. Para ello, vaya a Reproductor -> Idioma."
+msgstr "Define el conjunto de carácteres que se usará para el texto de la interfaz de usuario. No cambia el conjunto de carácteres de los subtítulos. Para ello, vaya a Reproductor -> Idioma."
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -15837,6 +15853,18 @@ msgctxt "#39024"
 msgid "Dependencies"
 msgstr "Dependencias"
 
+msgctxt "#39025"
+msgid "Gender"
+msgstr "Género"
+
+msgctxt "#39026"
+msgid "Disambiguation"
+msgstr "Desambiguación"
+
+msgctxt "#39027"
+msgid "Sortname"
+msgstr "Nombre corto"
+
 msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "Hacer al arrancar"
@@ -15852,3 +15880,27 @@ msgstr "Escuchar Radio"
 msgctxt "#39103"
 msgid "Unable to configure network location. Invalid path given."
 msgstr "Imposible configurar la ubicación de red. Ruta no válida."
+
+msgctxt "#39104"
+msgid "View as text"
+msgstr "Ver como texto"
+
+msgctxt "#39105"
+msgid "default"
+msgstr "por defecto"
+
+msgctxt "#39106"
+msgid "forced"
+msgstr "forzado"
+
+msgctxt "#39107"
+msgid "captions"
+msgstr "subtítulo"
+
+msgctxt "#39108"
+msgid "audio description"
+msgstr "descripción de audio"
+
+msgctxt "#39109"
+msgid "Select Program"
+msgstr "Elija Programa"

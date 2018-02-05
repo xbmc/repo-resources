@@ -879,7 +879,7 @@ msgstr "全屏"
 
 msgctxt "#245"
 msgid "Sizing: ({0:d},{1:d})->({2:d},{3:d}) (Zoom x{4:2.2f}) AR:{5:2.2f}:1 (Pixels: {6:2.2f}:1) (VShift: {7:2.2f})"
-msgstr "缩放: ({0:d},{1:d})->({2:d},{3:d}) (缩放比 x{4:2.2f}) 宽高比:{5:2.2f}:1 (像素比: {6:2.2f}:1) (VShift: {7:2.2f})"
+msgstr "缩放：({0:d},{1:d})->({2:d},{3:d}) (缩放比 x{4:2.2f}) 宽高比：{5:2.2f}:1 (像素比：{6:2.2f}:1) (VShift：{7:2.2f})"
 
 msgctxt "#246"
 msgid "Monitor"
@@ -1176,6 +1176,14 @@ msgstr "清理歌手..."
 msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "清理歌手出错"
+
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "清理类型、角色等..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "清理类型、角色等出错"
 
 msgctxt "#324"
 msgid "Cleaning paths..."
@@ -2355,7 +2363,7 @@ msgstr "文件无回放增益信息"
 
 msgctxt "#643"
 msgid "Avoid clipping protection on ReplayGained files"
-msgstr "保护回放增益时避免削波失真"
+msgstr "回放增益处理时避免削波失真"
 
 msgctxt "#644"
 msgid "Stretch 16:9 - Nonlinear"
@@ -2500,6 +2508,14 @@ msgstr "[B]视频[/B]组件详细日志"
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "[B]Web 服务器[/B]组件详细日志"
+
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "[B]数据库[/B]组件详细日志"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "[B]音频/视频定时信息[/B]详细日志"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -3741,6 +3757,10 @@ msgctxt "#10007"
 msgid "System information"
 msgstr "系统信息"
 
+msgctxt "#10008"
+msgid "Settings - Test patterns"
+msgstr "设置 - 测试图"
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "设置 - 视频 - 屏幕校准"
@@ -3749,9 +3769,17 @@ msgctxt "#10016"
 msgid "Settings - System"
 msgstr "设置 - 系统"
 
+msgctxt "#10018"
+msgid "Settings - Service"
+msgstr "设置 - 服务"
+
 msgctxt "#10021"
 msgid "Settings - TV"
 msgstr "设置 - 电视"
+
+msgctxt "#10022"
+msgid "Settings - Games"
+msgstr "设置 - 游戏"
 
 msgctxt "#10024"
 msgid "Titles"
@@ -3769,9 +3797,25 @@ msgctxt "#10029"
 msgid "Login screen"
 msgstr "登录屏"
 
+msgctxt "#10030"
+msgid "Settings - Player"
+msgstr "设置 - 播放器"
+
+msgctxt "#10031"
+msgid "Settings - Media"
+msgstr "设置 - 媒体"
+
+msgctxt "#10032"
+msgid "Settings - Interface"
+msgstr "设置 - 界面"
+
 msgctxt "#10034"
 msgid "Settings - Profiles"
 msgstr "设置 - 用户配置"
+
+msgctxt "#10035"
+msgid "Skin Settings"
+msgstr "皮肤设置"
 
 msgctxt "#10036"
 msgid "Basic"
@@ -3861,6 +3905,54 @@ msgctxt "#10057"
 msgid "Edit file source"
 msgstr "编辑文件源"
 
+msgctxt "#10099"
+msgid "Pointer"
+msgstr "指针"
+
+msgctxt "#10100"
+msgid "Yes / No dialog"
+msgstr "是/否对话框"
+
+msgctxt "#10101"
+msgid "Progress dialog"
+msgstr "进度条对话框"
+
+msgctxt "#10103"
+msgid "Virtual keyboard"
+msgstr "虚拟键盘"
+
+msgctxt "#10104"
+msgid "Volume bar"
+msgstr "音量条"
+
+msgctxt "#10106"
+msgid "Context menu"
+msgstr "上下文菜单"
+
+msgctxt "#10107"
+msgid "Notification dialog"
+msgstr "提示信息对话框"
+
+msgctxt "#10109"
+msgid "Numeric Input"
+msgstr "数字输入"
+
+msgctxt "#10110"
+msgid "Gamepad input"
+msgstr "游戏手柄输入"
+
+msgctxt "#10111"
+msgid "Shutdown menu"
+msgstr "关机菜单"
+
+msgctxt "#10114"
+msgid "Player controls"
+msgstr "播放器控制"
+
+msgctxt "#10115"
+msgid "Seek bar"
+msgstr "搜索条"
+
 msgctxt "#10116"
 msgid "Player process info"
 msgstr "播放器处理信息"
@@ -3868,6 +3960,22 @@ msgstr "播放器处理信息"
 msgctxt "#10120"
 msgid "Music OSD"
 msgstr "音乐 OSD"
+
+msgctxt "#10122"
+msgid "Visualization preset list"
+msgstr "可视化效果预设菜单"
+
+msgctxt "#10123"
+msgid "Video OSD settings"
+msgstr "视频 OSD 设置"
+
+msgctxt "#10124"
+msgid "Audio OSD settings"
+msgstr "音频 OSD 设置"
+
+msgctxt "#10125"
+msgid "Video bookmarks"
+msgstr "视频书签"
 
 msgctxt "#10126"
 msgid "File browser"
@@ -3897,6 +4005,10 @@ msgctxt "#10134"
 msgid "Favourites"
 msgstr "收藏夹"
 
+msgctxt "#10135"
+msgid "Song info"
+msgstr "歌曲信息"
+
 msgctxt "#10136"
 msgid "Smart playlist editor"
 msgstr "智能播放列表编辑器"
@@ -3905,13 +4017,57 @@ msgctxt "#10137"
 msgid "Smart playlist rule editor"
 msgstr "智能播放列表规则编辑器"
 
+msgctxt "#10139"
+msgid "Picture info"
+msgstr "图片信息"
+
 msgctxt "#10140"
 msgid "Add-on settings"
 msgstr "插件设置"
 
+msgctxt "#10142"
+msgid "Fullscreen info"
+msgstr "全屏信息"
+
+msgctxt "#10145"
+msgid "Slider dialog"
+msgstr "滑块对话框"
+
+msgctxt "#10146"
+msgid "Add-on info"
+msgstr "插件信息"
+
+msgctxt "#10147"
+msgid "Text viewer"
+msgstr "文本查看器"
+
+msgctxt "#10150"
+msgid "Peripheral settings"
+msgstr "外设设置"
+
+msgctxt "#10151"
+msgid "Extended progress dialog"
+msgstr "扩展进度条对话框"
+
+msgctxt "#10152"
+msgid "Media filter"
+msgstr "媒体筛选"
+
+msgctxt "#10153"
+msgid "Subtitle search"
+msgstr "字幕搜索"
+
 msgctxt "#10154"
 msgid "Audio DSP manager"
 msgstr "音频 DSP 管理"
+
+msgctxt "#10155"
+msgid "OSD audio DSP settings"
+msgstr "OSD 音频 DSP 设置"
+
+msgctxt "#10157"
+msgid "OSD CMS settings"
+msgstr "OSD CMS 设置"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -3940,6 +4096,10 @@ msgstr "音乐播放列表"
 msgctxt "#10502"
 msgid "Music"
 msgstr "音乐"
+
+msgctxt "#10503"
+msgid "Music playlist editor"
+msgstr "音乐播放列表编辑器"
 
 msgctxt "#10504"
 msgid "Top 100 songs"
@@ -3997,25 +4157,145 @@ msgctxt "#10550"
 msgid "Teletext"
 msgstr "图文字幕"
 
+msgctxt "#10600"
+msgid "PVR guide info"
+msgstr "PVR 指南信息"
+
+msgctxt "#10601"
+msgid "PVR recording info"
+msgstr "PVR 录像信息"
+
+msgctxt "#10602"
+msgid "PVR timer setting"
+msgstr "PVR 定时器设置"
+
+msgctxt "#10603"
+msgid "PVR group manager"
+msgstr "PVR 组管理器"
+
+msgctxt "#10604"
+msgid "PVR channel manager"
+msgstr "PVR 频道管理器"
+
+msgctxt "#10605"
+msgid "PVR guide search"
+msgstr "PVR 指南搜索"
+
+msgctxt "#10606"
+msgid "PVR channel scan"
+msgstr "PVR 频道扫描"
+
+msgctxt "#10607"
+msgid "PVR update progress"
+msgstr "PVR 更新进度"
+
+msgctxt "#10608"
+msgid "PVR OSD channels"
+msgstr "PVR OSD 频道"
+
+msgctxt "#10609"
+msgid "PVR OSD guide"
+msgstr "PVR OSD 指南"
+
+msgctxt "#10610"
+msgid "PVR radio RDS info"
+msgstr "PVR 电台 RDS 信息"
+
+msgctxt "#10611"
+msgid "PVR recording setting"
+msgstr "PVR 录像设置"
+
 msgctxt "#10700"
 msgid "TV channels"
 msgstr "电视频道"
+
+msgctxt "#10701"
+msgid "TV recordings"
+msgstr "电视录像"
 
 msgctxt "#10702"
 msgid "TV guide"
 msgstr "电视指南"
 
+msgctxt "#10703"
+msgid "TV timers"
+msgstr "电视定时器"
+
+msgctxt "#10704"
+msgid "TV search"
+msgstr "电视搜索"
+
 msgctxt "#10705"
 msgid "Radio channels"
 msgstr "电台频道"
+
+msgctxt "#10706"
+msgid "Radio recordings"
+msgstr "电台录音"
 
 msgctxt "#10707"
 msgid "Radio guide"
 msgstr "电台指南"
 
+msgctxt "#10708"
+msgid "Radio timers"
+msgstr "电台定时器"
+
+msgctxt "#10709"
+msgid "Radio search"
+msgstr "电台搜索"
+
+msgctxt "#10710"
+msgid "TV timer rules"
+msgstr "电视定时器规则"
+
+msgctxt "#10711"
+msgid "Radio timer rules"
+msgstr "电台定时器规则"
+
+msgctxt "#10800"
+msgid "Fullscreen live TV"
+msgstr "全屏直播电视"
+
+msgctxt "#10801"
+msgid "Fullscreen radio"
+msgstr "全屏电台"
+
+msgctxt "#10820"
+msgid "Game video filter"
+msgstr "游戏视频筛选"
+
 msgctxt "#10821"
 msgid "Games"
 msgstr "游戏"
+
+msgctxt "#10822"
+msgid "Game OSD"
+msgstr "游戏 OSD"
+
+msgctxt "#10823"
+msgid "Game controllers"
+msgstr "游戏控制器"
+
+msgctxt "#10824"
+msgid "Game video settings"
+msgstr "游戏视频设置"
+
+msgctxt "#12000"
+msgid "Select dialog"
+msgstr "选择对话框"
+
+msgctxt "#12001"
+msgid "Music info"
+msgstr "音乐信息"
+
+msgctxt "#12002"
+msgid "OK dialog"
+msgstr "确定对话框"
+
+msgctxt "#12003"
+msgid "Video info"
+msgstr "视频信息"
 
 msgctxt "#12005"
 msgid "Fullscreen video"
@@ -4316,6 +4596,10 @@ msgstr "屏幕保护"
 msgctxt "#12901"
 msgid "Fullscreen OSD"
 msgstr "全屏 OSD"
+
+msgctxt "#12906"
+msgid "Fullscreen game"
+msgstr "全屏游戏"
 
 msgctxt "#12999"
 msgid "Startup"
@@ -6697,6 +6981,22 @@ msgctxt "#16206"
 msgid "Failed to delete at least one file. Check the log for more information about this message."
 msgstr "至少一个文件删除失败。更多相关信息见日志。"
 
+msgctxt "#16296"
+msgid "Pixelate"
+msgstr "像素化"
+
+msgctxt "#16297"
+msgid "Smooth"
+msgstr "平滑"
+
+msgctxt "#16298"
+msgid "Shows the game's pixels without any modifications."
+msgstr "原样显示游戏像素。"
+
+msgctxt "#16299"
+msgid "Removes the jagged edges of pixels by evenly fading between adjacent pixels."
+msgstr "通过相邻像素均匀渐变消除边缘锯齿。"
+
 msgctxt "#16300"
 msgid "Video scaling method"
 msgstr "视频扫描方式"
@@ -7193,6 +7493,10 @@ msgctxt "#19084"
 msgid "First day"
 msgstr "首日"
 
+msgctxt "#19085"
+msgid "Unknown channel {0:s}"
+msgstr "未知频道 {0:s}"
+
 msgctxt "#19086"
 msgid "Instant recording action"
 msgstr "即时录像动作"
@@ -7284,6 +7588,14 @@ msgstr "于"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "后备帧率"
+
+msgctxt "#19109"
+msgid "Could not save the timer. Check the log for more information about this message."
+msgstr "无法保存定时器。更多相关信息见日志。"
+
+msgctxt "#19110"
+msgid "Could not delete the timer. Check the log for more information about this message."
+msgstr "无法删除定时器。更多相关信息见日志。"
 
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
@@ -7497,6 +7809,10 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "录像"
 
+msgctxt "#19164"
+msgid "Could not start recording. Check the log for more information about this message."
+msgstr "无法开始录像。更多相关信息见日志。"
+
 msgctxt "#19165"
 msgid "Switch"
 msgstr "切换"
@@ -7516,6 +7832,10 @@ msgstr "已删除的可恢复录像"
 msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "隐藏视频信息框"
+
+msgctxt "#19170"
+msgid "Could not stop recording. Check the log for more information about this message."
+msgstr "无法停止录像。更多相关信息见日志。"
 
 msgctxt "#19171"
 msgid "Switch to full screen"
@@ -7561,6 +7881,10 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "菜单/OSD"
 
+msgctxt "#19182"
+msgid "Future days to display"
+msgstr "显示的未来日数"
+
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "电台频道"
@@ -7584,6 +7908,14 @@ msgstr "清理所有相关数据。"
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "所有电视指南数据将被清除。确定吗？"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR 后端不允许记录此事件。"
+
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "播放节目"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -7737,6 +8069,10 @@ msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "定时器已删除"
 
+msgctxt "#19229"
+msgid "Past days to display"
+msgstr "显示的过去日数"
+
 msgctxt "#19230"
 msgid "Prevent updates during playback"
 msgstr "播放时禁止更新"
@@ -7776,6 +8112,10 @@ msgstr "从客户端载入录像"
 msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "启动后台线程"
+
+msgctxt "#19240"
+msgid "Client priorities"
+msgstr "客户端优先级"
 
 msgctxt "#19241"
 msgid "View timer information"
@@ -7864,6 +8204,10 @@ msgstr "修改 PIN"
 msgctxt "#19262"
 msgid "Parental control. Enter PIN:"
 msgstr "家长控制，输入 PIN："
+
+msgctxt "#19263"
+msgid "Could not update the timer. Check the log for more information about this message."
+msgstr "无法更新定时器。更多相关信息见日志。"
 
 msgctxt "#19264"
 msgid "Incorrect PIN"
@@ -7988,14 +8332,6 @@ msgstr "删除定时器规则"
 msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "无启用的 PVR 插件"
-
-msgctxt "#19297"
-msgid "Vertical"
-msgstr "垂直"
-
-msgctxt "#19298"
-msgid "Horizontal"
-msgstr "横向"
 
 msgctxt "#19299"
 msgid "Expires"
@@ -8975,7 +9311,7 @@ msgstr "已使用"
 
 msgctxt "#20163"
 msgid "of"
-msgstr "中"
+msgstr "共"
 
 msgctxt "#20164"
 msgid "Locking not supported"
@@ -9125,6 +9461,10 @@ msgctxt "#20222"
 msgid "Look for external subtitles"
 msgstr "查找外挂字幕"
 
+msgctxt "#20223"
+msgid "Artist information folder"
+msgstr "歌手信息文件夹"
+
 msgctxt "#20240"
 msgid "Android music"
 msgstr "Android 音乐"
@@ -9144,6 +9484,26 @@ msgstr "Android 照片"
 msgctxt "#20244"
 msgid "Android apps"
 msgstr "Android 应用"
+
+msgctxt "#20245"
+msgid "Windows music library"
+msgstr "窗口音乐资料库"
+
+msgctxt "#20246"
+msgid "Windows videos library"
+msgstr "窗口视频资料库"
+
+msgctxt "#20247"
+msgid "Windows pictures library"
+msgstr "窗口图片资料库"
+
+msgctxt "#20248"
+msgid "Windows photos library"
+msgstr "窗口照片资料库"
+
+msgctxt "#20249"
+msgid "Windows documents"
+msgstr "窗口文档"
 
 msgctxt "#20250"
 msgid "Party on! (videos)"
@@ -9192,10 +9552,6 @@ msgstr "WEB 服务器目录（HTTPS）"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "无法写入文件夹："
-
-msgctxt "#20304"
-msgid "RSS Feed"
-msgstr "RSS 信源"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -12349,6 +12705,14 @@ msgctxt "#34128"
 msgid "192.0"
 msgstr "192.0"
 
+msgctxt "#34129"
+msgid "352.8"
+msgstr "352.8"
+
+msgctxt "#34130"
+msgid "384.0"
+msgstr "384.0"
+
 msgctxt "#34201"
 msgid "Can't find a next item to play"
 msgstr "未找到下一播放项目"
@@ -12491,7 +12855,7 @@ msgstr "现在按下所有模拟按钮检测它们：[CR][CR]{0:s}"
 
 msgctxt "#35047"
 msgid "Driver settings"
-msgstr "驱动器设置"
+msgstr "驱动设置"
 
 msgctxt "#35048"
 msgid "View and configure peripheral add-ons."
@@ -12641,6 +13005,22 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "指针"
 
+msgctxt "#35105"
+msgid "Light gun"
+msgstr "光枪"
+
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "超出屏幕"
+
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "控制台开关"
+
+msgctxt "#35108"
+msgid "Hardware buttons"
+msgstr "硬件按钮"
+
 msgctxt "#35109"
 msgid "Keypad"
 msgstr "键盘"
@@ -12781,13 +13161,41 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "支持插件"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "存档仅能由“{0:s}”加载，删除存档并继续吗？"
+
+msgctxt "#35218"
+msgid "Erase savestate"
+msgstr "删除存档"
+
+msgctxt "#35219"
+msgid "The required files can't be found."
+msgstr "需要的文件未找到。"
+
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "游戏提供者"
 
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "游戏菜单"
+
 msgctxt "#35222"
 msgid "Exit"
 msgstr "退出"
+
+msgctxt "#35223"
+msgid "Input settings"
+msgstr "输入设置"
+
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "暂停/继续播放"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "视频筛选"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12800,6 +13208,22 @@ msgstr "添加游戏来源"
 msgctxt "#35252"
 msgid "Edit game source"
 msgstr "编辑游戏来源"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "插件安装失败。"
+
+msgctxt "#35257"
+msgid "Installed"
+msgstr "已安装"
+
+msgctxt "#35258"
+msgid "Select emulator for {0:s} file"
+msgstr "选择 {0:s} 文件的模拟器"
+
+msgctxt "#35259"
+msgid "Saved"
+msgstr "已保存"
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -12971,7 +13395,7 @@ msgstr "电视和 AVR 设备（详情）"
 
 msgctxt "#36040"
 msgid "Detected version of libCEC interface ({0:x}) is lower than the supported version {1:x}."
-msgstr "检测到 libCEC 接口({0:x})版本低于支持的版本{1:x}."
+msgstr "检测到 libCEC 接口（{0:x}）版本低于支持的版本{1:x}。"
 
 msgctxt "#36041"
 msgid "* Item folder"
@@ -13067,7 +13491,7 @@ msgstr "选择温度、日期和时间格式。可用选项依赖于所选语言
 
 msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
-msgstr "选择在用户界面显示文本所使用的字符集。这不会影响到字幕的字符集编码，如果需要修改，请在 播放器 > 语言 中设置。"
+msgstr "选择在用户界面显示文本所使用的字符集。不影响字幕的字符集，其设置见 播放器 > 语言。"
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -13183,7 +13607,7 @@ msgstr "选择什么情况下隐藏剧集的季结点。隐藏时，选择一个
 
 msgctxt "#36145"
 msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have its own entry in the movie library even if it belongs to a set."
-msgstr "当启用时，电影资料库中属于同一影片集的电影归集到同一项下，打开此项时即可显示单个的电影。当禁用时，电影资料库中每部电影为单独的项，即便它属于某影片集。"
+msgstr "启用时，电影资料库中属于同一影片集的电影归集到同一项下，打开此项目即可显示其中的每部电影。禁用时，电影资料库中属于某影片集电影均按单独的项目显示。"
 
 msgctxt "#36146"
 msgid "Check for new media files on startup."
@@ -13200,6 +13624,10 @@ msgstr "从资料库删除无法找到的项目（包括已改名、删除，或
 msgctxt "#36149"
 msgid "Export the video library database to XML files. This will optionally overwrite your current XML files."
 msgstr "将视频资料库数据库导出到 XML 文件。这将有选择地覆盖当前 XML 文件。"
+
+msgctxt "#36150"
+msgid "Import an XML file into the video library database."
+msgstr "从 XML 文件导入到视频资料库数据库。"
 
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
@@ -13240,6 +13668,10 @@ msgstr "启用视频文件 CrystalHD 解码。"
 msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "启用视频文件 VTB 硬件解码。"
+
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "选择启动时 Kodi 执行的动作。"
 
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
@@ -13429,6 +13861,10 @@ msgctxt "#36209"
 msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
 msgstr "删除频道和指南数据库，然后从后端重新导入数据。"
 
+msgctxt "#36210"
+msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
+msgstr "打开客户端优先级对话框，允许根据个人喜好修改启用 PVR 客户端的优先级，如以逐客户端顺序排列频道。更大的数字表示高优先级。 "
+
 msgctxt "#36211"
 msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
 msgstr "此功能区包含 PVR 菜单和在屏显示（OSD）设置，以及频道信息窗口。"
@@ -13457,6 +13893,14 @@ msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "此功能区包含电子节目单（EPG）设置。"
 
+msgctxt "#36219"
+msgid "Number of past days to show in the guide and to import from backends."
+msgstr "从后端导入并显示指南的过去天数。"
+
+msgctxt "#36220"
+msgid "Number of future days to show in the guide and to import from backends."
+msgstr "从后端导入并显示指南的未来天数。"
+
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
 msgstr "从后端导入指南数据时间间隔。"
@@ -13483,7 +13927,7 @@ msgstr "此功能区包含 PVR 播放和频道切换设置。"
 
 msgctxt "#36227"
 msgid "Switch to full screen display when starting playback of channels and recordings."
-msgstr "开始播放频道和录音时切换到全屏显示。"
+msgstr "开始播放频道和录像时切换到全屏显示。"
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
@@ -13491,7 +13935,7 @@ msgstr "在编码信息窗显示信号质量信息（如果插件和后端支持
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
-msgstr "使用频道上/下按钮切换频道时，必须使用OK按钮确认频道切换。"
+msgstr "使用频道上/下按钮切换频道时，必须使用“确认”按钮确认切换。"
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -13605,6 +14049,14 @@ msgctxt "#36261"
 msgid "If enabled, this framerate is used for streams we were not able to detect fps."
 msgstr "如启用，此帧率用于无法检测出帧率的流媒体。"
 
+msgctxt "#36262"
+msgid "Export parts of the music library to an XML file or NFO files. This will optionally overwrite your current NFO and artwork files."
+msgstr "将部分音乐资料库导出到 XML 或 NFO 文件。这将有选择地覆盖当前 NFO 文件和艺术图片文件。"
+
+msgctxt "#36263"
+msgid "Import an XML file into the music library database."
+msgstr "从 XML 文件导入到音乐资料库数据库。"
+
 msgctxt "#36264"
 msgid "This category contains the settings for how music playback is handled."
 msgstr "此功能区包含音频播放处理相关设置。"
@@ -13631,7 +14083,7 @@ msgstr "不含回放增益编码信息的文件使用的参考音量（前置级
 
 msgctxt "#36270"
 msgid "Play file at lower volume, if necessary, to avoid audio limiting clipping protection. Otherwise clipping protection will be provided by the audioengine in those parts that need it."
-msgstr "以较低的音量播放文件，如有必要，以避免音频保护回放增益。 否则回放增益将由音频引擎在需要的部分提供。"
+msgstr "必要时降低音量以避免音频削波失真。 否则在某些必需的片段音频引擎会进行削波保护。"
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
@@ -13716,6 +14168,14 @@ msgstr "为 FLAC 指定压缩级别，默认为5。"
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "抓取完成后弹出光盘"
+
+msgctxt "#36292"
+msgid "This category contains startup settings."
+msgstr "此功能区包含启动设置。"
+
+msgctxt "#36293"
+msgid "Select the folder where artist information (nfo files and images) should be saved in."
+msgstr "选择保存歌手信息（nfo 文件和图片）的文件夹。"
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14191,7 +14651,7 @@ msgstr "启用 Amlogic 解码器的视频硬解码。"
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
-msgstr "设定指南中一个项目被选择时的动作：[显示上下文菜单] 将触发上下文菜单供选择进一步的动作；[切换到频道] 将立即切换到相应频道； [显示信息] 将显示剧情和进一步选项的详细信息；[录像]将创建选定项目的录像定时器。 [\"智能选择\"] 该动作是动态选择的，具体取决于事件是否在过去，现在或将来。"
+msgstr "设定指南中一个项目被选择时的动作：[显示上下文菜单] 将触发上下文菜单供选择进一步的动作；[切换到频道] 将立即切换到相应频道；[显示信息] 将显示剧情和进一步选项的详细信息；[录像] 将创建选定项目的录像定时器。 [\"智能选择\"] 该动作是动态选择的，具体取决于事件在过去，现在或将来。"
 
 msgctxt "#36425"
 msgid "Show context menu"
@@ -14513,6 +14973,10 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "指定 3D 查找表的分辨率。使用较低的分辨率来快速预览，高分辨率获得更准确的图片。使用高分辨率在参数改变或新视频开始时可能需要几秒钟准备时间。"
 
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV（BT.2020）"
+
 msgctxt "#36580"
 msgid "3D LUT file"
 msgstr "3D LUT 文件"
@@ -14673,9 +15137,29 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "启用图片高品质降级（使用更多内存并有中度性能影响）"
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "最高协议版本"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "设置连接时使用的最高 SMB 协议版本。老的 NAS 和 Windows 共享需要强制 SMBv2 或 SMBv1 兼容。"
+
 msgctxt "#36623"
 msgid "None"
 msgstr "无"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
 
 msgctxt "#36627"
 msgid "Client"
@@ -15051,11 +15535,59 @@ msgstr "获取专辑和歌手的附加信息吗？这需要一些时间，你可
 
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
-msgstr "即使当音乐文件没有变动或更改，也要进行全面的扫描码？"
+msgstr "音乐文件无变化也要进行全面标签扫描吗？"
+
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "设置默认信息提供者。"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "设置此歌手"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "设置所有显示的歌手"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "设置此专辑"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "设置所有显示的专辑"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "这里显示的所有歌手都使用此信息提供者吗？"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "这里显示的所有专辑都使用此信息提供者吗？"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "所有歌手都使用此信息提供者，清除此前对特定歌手的设置吗？"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "所有专辑都使用此信息提供者，清除此前对特定专辑的设置吗？"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "现在刷新所有这些项目的信息吗？"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "现在刷新此项目的信息吗？"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "媒体播放相关设置区"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "源和媒体信息获取、存储、显示和浏览相关设置区"
 
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
@@ -15109,9 +15641,117 @@ msgctxt "#38208"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
 msgstr "如果存在 EXIF 信息（日期、时间、相机型号等）将会显示出来。"
 
+msgctxt "#38209"
+msgid "Reset resume position"
+msgstr "重置继续播放位置"
+
+msgctxt "#38300"
+msgid "Export Music Library"
+msgstr "导出音乐资料库"
+
 msgctxt "#38301"
 msgid "Single file"
 msgstr "单文件"
+
+msgctxt "#38302"
+msgid "Separate files for each item"
+msgstr "每个项目为单独文件 "
+
+msgctxt "#38303"
+msgid "To library folders"
+msgstr "到资料库文件夹"
+
+msgctxt "#38304"
+msgid "Choose kind of export output"
+msgstr "选择导出类型"
+
+msgctxt "#38305"
+msgid "Destination folder"
+msgstr "目标文件夹"
+
+msgctxt "#38306"
+msgid "Items to export"
+msgstr "导出的项目"
+
+msgctxt "#38307"
+msgid "Include art work such as thumbnails and fanart"
+msgstr "包含艺术图片如缩略图和同人画"
+
+msgctxt "#38308"
+msgid "Include items that have not been scraped (to create template NFO files)"
+msgstr "包含未刮削的项目（创建 NFO 模板文件）"
+
+msgctxt "#38309"
+msgid "Output only artwork, not NFO files"
+msgstr "仅导出艺术图片，无 NFO 文件"
+
+msgctxt "#38310"
+msgid "Overwrite existing files"
+msgstr "覆盖现有文件"
+
+msgctxt "#38312"
+msgid "Song artists"
+msgstr "歌曲歌手"
+
+msgctxt "#38313"
+msgid "Other artists"
+msgstr "其他歌手"
+
+msgctxt "#38317"
+msgid "Unable to export to library folders as the system artist information folder setting is empty"
+msgstr "无法导出到资料库文件夹，因系统歌手信息文件夹设置为空"
+
+msgctxt "#38318"
+msgid "Unable to export data as the destination folder does not exist"
+msgstr "无法导出数据，因目标文件夹不存在"
+
+msgctxt "#38319"
+msgid "Export"
+msgstr "导出"
+
+msgctxt "#38320"
+msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
+msgstr "有本地歌手信息（NFO）和艺术图片要获取吗？现在设置这些歌手文件夹位置吧。"
+
+msgctxt "#38330"
+msgid "Set Music Information Providers"
+msgstr "设置音乐信息提供者"
+
+msgctxt "#38331"
+msgid "Set Album Information Provider"
+msgstr "设置专辑信息提供者"
+
+msgctxt "#38332"
+msgid "Set Artist Information Provider"
+msgstr "设置歌手信息提供者"
+
+msgctxt "#38333"
+msgid "Fetch additional information and art during scan"
+msgstr "扫描时获取附加信息和艺术图片"
+
+msgctxt "#38334"
+msgid "Album information provider"
+msgstr "专辑信息提供者"
+
+msgctxt "#38335"
+msgid "Artist information provider"
+msgstr "歌手信息提供者"
+
+msgctxt "#38336"
+msgid "Local artist information folder"
+msgstr "本地歌手信息文件夹"
+
+msgctxt "#38337"
+msgid "Options for fetching additional information"
+msgstr "获取附加信息选项"
+
+msgctxt "#38338"
+msgid "Choose how to apply settings"
+msgstr "选择如何应用设置"
+
+msgctxt "#38339"
+msgid "How to apply information provider settings"
+msgstr "如何应用信息提供者设置"
 
 msgctxt "#39000"
 msgid "HD and up"
@@ -15128,6 +15768,10 @@ msgstr "MPEG4 加速"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "h264 加速"
+
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "此功能区提供访问源管理窗口和资料库数据库相关设置"
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -15159,7 +15803,7 @@ msgstr "网络最长等待时间"
 
 msgctxt "#39012"
 msgid "Set the maximum time to wait for the network to come up after starting or waking up. When time has passed before network is up startup will continue."
-msgstr "设置开始或唤醒后等待网络出现的最长时间。 当时间已经过去之前，网络启动将继续。"
+msgstr "设置启动或唤醒后等待网络连接的最长时间。超时网络还未连接，启动将继续。"
 
 msgctxt "#39013"
 msgid "Virtual filesystems"
@@ -15167,7 +15811,7 @@ msgstr "虚拟文件系统"
 
 msgctxt "#39014"
 msgid "Would you also like to remove all related data (e.g. settings) of this add-on?"
-msgstr "您还想删除此附加组件的所有相关数据(例如设置)？"
+msgstr "还要删除此插件的所有相关数据（例如设置）吗？"
 
 msgctxt "#39015"
 msgid "Image decoder"
@@ -15177,6 +15821,86 @@ msgctxt "#39016"
 msgid "Resume audiobook"
 msgstr "继续播放有声读物"
 
+msgctxt "#39017"
+msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
+msgstr "启用 UPnP。将从一个 UPnP 客户端以流媒体播放你的库，以及探测远程 UPnP 服务器。"
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "可选"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "已安装"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "以下附加插件将被安装"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "继续安装吗？"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "（{0:s}）"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "（{0:s}，{1:s}）"
+
 msgctxt "#39024"
 msgid "Dependencies"
 msgstr "依赖"
+
+msgctxt "#39025"
+msgid "Gender"
+msgstr "性别"
+
+msgctxt "#39026"
+msgid "Disambiguation"
+msgstr "重名区分"
+
+msgctxt "#39027"
+msgid "Sortname"
+msgstr "排序名"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "启动时执行"
+
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "播放电视节目"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "收听电台广播"
+
+msgctxt "#39103"
+msgid "Unable to configure network location. Invalid path given."
+msgstr "无法配置网络位置，输入路径无效。"
+
+msgctxt "#39104"
+msgid "View as text"
+msgstr "按文本浏览"
+
+msgctxt "#39105"
+msgid "default"
+msgstr "默认"
+
+msgctxt "#39106"
+msgid "forced"
+msgstr "强制"
+
+msgctxt "#39107"
+msgid "captions"
+msgstr "解说字幕"
+
+msgctxt "#39108"
+msgid "audio description"
+msgstr "语音描述"
+
+msgctxt "#39109"
+msgid "Select Program"
+msgstr "选择程序"

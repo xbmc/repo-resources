@@ -931,7 +931,7 @@ msgstr "Virhe"
 
 msgctxt "#258"
 msgid "Enable tag reading"
-msgstr "Lue tagit tiedostoista"
+msgstr "Lue tiedostojen tagit"
 
 msgctxt "#259"
 msgid "Opening"
@@ -7493,6 +7493,10 @@ msgctxt "#19084"
 msgid "First day"
 msgstr "Ensimmäinen päivä"
 
+msgctxt "#19085"
+msgid "Unknown channel {0:s}"
+msgstr "Tuntematon kanava {0:s}"
+
 msgctxt "#19086"
 msgid "Instant recording action"
 msgstr "Pikatallennuksen toiminto"
@@ -7584,6 +7588,14 @@ msgstr "klo"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Oletusvirkistystaajuus"
+
+msgctxt "#19109"
+msgid "Could not save the timer. Check the log for more information about this message."
+msgstr "Ajastuksen lisääminen epäonnistui. Katso lokitiedostosta lisätietoja tästä viestistä."
+
+msgctxt "#19110"
+msgid "Could not delete the timer. Check the log for more information about this message."
+msgstr "Ajastuksen poistaminen epäonnistui. Katso lokitiedostosta lisätietoja tästä viestistä."
 
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
@@ -7797,6 +7809,10 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "Tallenteet"
 
+msgctxt "#19164"
+msgid "Could not start recording. Check the log for more information about this message."
+msgstr "Tallennuksen aloittaminen epäonnistui. Katso lokitiedostosta lisätietoja tästä viestistä."
+
 msgctxt "#19165"
 msgid "Switch"
 msgstr "Vaihda"
@@ -7816,6 +7832,10 @@ msgstr "Poistetut ja palautettavissa olevat tallenteet"
 msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Piilota videon tietolaatikko"
+
+msgctxt "#19170"
+msgid "Could not stop recording. Check the log for more information about this message."
+msgstr "Tallennuksen pysäyttäminen epäonnistui. Katso lokitiedostosta lisätietoja tästä viestistä."
 
 msgctxt "#19171"
 msgid "Switch to full screen"
@@ -8185,6 +8205,10 @@ msgctxt "#19262"
 msgid "Parental control. Enter PIN:"
 msgstr "Lapsilukon hallinta. Syötä PIN-koodi:"
 
+msgctxt "#19263"
+msgid "Could not update the timer. Check the log for more information about this message."
+msgstr "Ajastuksen päivittäminen epäonnistui. Katso lokitiedostosta lisätietoja tästä viestistä."
+
 msgctxt "#19264"
 msgid "Incorrect PIN"
 msgstr "Väärä PIN"
@@ -8308,14 +8332,6 @@ msgstr "Poista ajastussääntö"
 msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "PVR-lisäosa ei ole käytössä"
-
-msgctxt "#19297"
-msgid "Vertical"
-msgstr "Pystysuunta"
-
-msgctxt "#19298"
-msgid "Horizontal"
-msgstr "Vaakasuunta"
 
 msgctxt "#19299"
 msgid "Expires"
@@ -9536,10 +9552,6 @@ msgstr "Web-palvelimen hakemisto (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "Kansioon ei voi kirjoittaa:"
-
-msgctxt "#20304"
-msgid "RSS Feed"
-msgstr "RSS-syöte"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -13209,6 +13221,10 @@ msgctxt "#35258"
 msgid "Select emulator for {0:s} file"
 msgstr "Valitse, mitä emulaattoria käytetään {0:s}-tiedoston kanssa"
 
+msgctxt "#35259"
+msgid "Saved"
+msgstr "Tallennettu"
+
 msgctxt "#35505"
 msgid "Server is unreachable."
 msgstr "Palvelimeen ei saada yhteyttä."
@@ -14083,7 +14099,7 @@ msgstr "Valitse musiikkitoiston aikana näytettävä visualisointi."
 
 msgctxt "#36274"
 msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "Lue musiikkitiedostojen tagit. Suurilla kansioilla tämä voi pidentää tiedostojen lukuaikaa."
+msgstr "Lukee musiikkitiedostojen tageista löytyvät lisätiedot. Tämä voi kasvattaa lukuaikoja, riippuen tiedostojen määrästä ja sijainnista."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
@@ -15751,7 +15767,7 @@ msgstr "Kiihdytä MPEG4"
 
 msgctxt "#39003"
 msgid "Accelerate h264"
-msgstr "Kiihdytä h264"
+msgstr "Kiihdytä H.264"
 
 msgctxt "#39004"
 msgid "This category provides access to the windows for source management and the Library settings for the databases"
@@ -15837,6 +15853,18 @@ msgctxt "#39024"
 msgid "Dependencies"
 msgstr "Riippuvuudet"
 
+msgctxt "#39025"
+msgid "Gender"
+msgstr "Sukupuoli"
+
+msgctxt "#39026"
+msgid "Disambiguation"
+msgstr "Selvennys"
+
+msgctxt "#39027"
+msgid "Sortname"
+msgstr "Lajittelunimi"
+
 msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "Käynnistyksen yhteydessä"
@@ -15852,3 +15880,27 @@ msgstr "Kuuntele radiota"
 msgctxt "#39103"
 msgid "Unable to configure network location. Invalid path given."
 msgstr "Verkkosijainnin määritys epäonnistui. Annettu polku ei kelpaa."
+
+msgctxt "#39104"
+msgid "View as text"
+msgstr "Avaa tekstiselaimessa"
+
+msgctxt "#39105"
+msgid "default"
+msgstr "oletus"
+
+msgctxt "#39106"
+msgid "forced"
+msgstr "pakotettu"
+
+msgctxt "#39107"
+msgid "captions"
+msgstr "kuulorajoitteiset"
+
+msgctxt "#39108"
+msgid "audio description"
+msgstr "näkörajoitteiset"
+
+msgctxt "#39109"
+msgid "Select Program"
+msgstr "Valitse ohjelma"
