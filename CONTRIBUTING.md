@@ -15,7 +15,7 @@ Issue or bug reports must be send towards the add-on creator which can be found 
 
 If you can, we encourage you to investigate the issue yourself and create a [pull request](https://help.github.com/articles/creating-a-pull-request/) towards the original source of the code. We try to ask each add-on aythor to include this in the [addon.xml] (http://kodi.wiki/view/Addon.xml) file. Should this not be present then we advise you to find the dedicated add-on thread on the forum and ask there.
 
-For bug reports and related discussions, feature requests and all other support, please go to [Kodi community forum's](http://forum.kodi.tv/) and find the dedicated add-on thread.
+For bug reports and related discussions, feature requests and all other support, please go to [Kodi community forum's](http://forum.kodi.tv/) and find the dedicated .
 
 #### Pull Requests
 
