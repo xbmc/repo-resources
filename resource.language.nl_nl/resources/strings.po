@@ -2605,6 +2605,10 @@ msgctxt "#728"
 msgid "FTP server"
 msgstr "FTP-server"
 
+msgctxt "#729"
+msgid "Enable SSL"
+msgstr "SSL inschakelen"
+
 msgctxt "#730"
 msgid "Port"
 msgstr "Poort"
@@ -5349,10 +5353,6 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "Videoinstellingen"
 
-msgctxt "#13396"
-msgid "Audio and subtitle settings"
-msgstr "Geluids- en ondertitelinstellingen"
-
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "Ondertiteling activeren"
@@ -5613,10 +5613,6 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "Geen afbeeldingen"
 
-msgctxt "#13516"
-msgid "Add art"
-msgstr "Voeg afbeeldingen toe"
-
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Drempelwaarde voor pitchcorrectie"
@@ -5624,6 +5620,14 @@ msgstr "Drempelwaarde voor pitchcorrectie"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "Wanneer de snelheidsverandering deze drempelwaarde overschrijdt, zal een pitchfilter toegepast worden. Dit voorkomt \"chipmunkstemmen\" die normaliter voortkomen uit het versnellen van een video."
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Ingesloten art"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Ingesloten fanart"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -8229,6 +8233,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "Verberg \"Geen informatie beschikbaar\" labels"
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Voorselecteren van af te spelen kanaal in lijsten"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Groepeer items"
@@ -8301,6 +8309,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "Alle kanalen"
 
+msgctxt "#19288"
+msgid "Go to date"
+msgstr "Ga naar datum"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "Groep verbergen"
@@ -8333,9 +8345,25 @@ msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "Geen PVR add-on geactiveerd"
 
+msgctxt "#19297"
+msgid "Vertical channels"
+msgstr "Vertikale kanalen"
+
+msgctxt "#19298"
+msgid "Horizontal channels"
+msgstr "Horizontale kanalen"
+
 msgctxt "#19299"
 msgid "Expires"
 msgstr "Verloopt"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Verticale kanalen, geen groepskeuze"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Horizontale kanalen, geen groepskeuze"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9353,6 +9381,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "FTP-server"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "FTPS-server"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "UPnP-server"
@@ -9552,6 +9584,14 @@ msgstr "Webservermap (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "Kan niet schrijven naar map:"
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "RSS-feed (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "RSS-feed (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -10244,6 +10284,14 @@ msgstr "Geen updates beschikbaar"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Er zijn geen updates beschikbaar voor deze add-on."
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "Gebruik videotags"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "Indien MP4- of MKV-bestanden tags bevatten, gebruik deze voor bibliotheekmetadata"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -12917,6 +12965,18 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Koppel uw controllers met de verschillende invoerapparaten van verschillende spelsystemen. "
 
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "Racestuur"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "Flippers"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "Joysticks"
+
 msgctxt "#35074"
 msgid "Face buttons"
 msgstr "Gezicht knoppen"
@@ -13096,6 +13156,18 @@ msgstr "Alle toetsen"
 msgctxt "#35167"
 msgid "Single keys"
 msgstr "Enkelvoudige toetsen"
+
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Kies een toets"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Druk op een toets"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Druk op een toets ({1:d})"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -13876,6 +13948,10 @@ msgstr "Toon de programmeringsinformatie wanneer kanalen worden veranderd, zoals
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Open de groepsbeheerder, die toestaat wijzigingen van groepen en hun respectievelijke kanalen door te voeren."
+
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "Voorselecteren van het afspelende kanaal in vensters of dialogen die kanaallijsten bevatten. Indien ingeschakeld bij een afspelend kanaal zal het afspelende kanaal gekozen worden wanneer een venster of dialoog met een kanaallijst wordt geopend. Indien uitgeschakeld zal het kanaal, dat eerder in een venster of dialoog was gekozen, opnieuw zijn gekozen wanneer een venster of dialoog wordt geopend."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -15165,6 +15241,26 @@ msgctxt "#36627"
 msgid "Client"
 msgstr "Client"
 
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "Minimale protocolversie"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Stel de minimale SMB-protocolversie om verbindingen te maken. Het forceren van SMBv2 is wellicht noodzakelijk om SMBv1-gebruik op sommige systemen te voorkomen."
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "Gebruik verouderde beveiliging"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Gebruik zwakke SMBv1-beveiliging voor compatibiliteit met de USB deelmogelijkheden op sommige WiFi-routers en NAS-apparaten."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "Inschakelen van SSL-encryptie in de webserver. Certificaat special://userdata/server.key and sleutel special://userdata/server.pem dienen handmatig aangemaakt te worden."
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "film"
@@ -15859,7 +15955,7 @@ msgstr "Geslacht"
 
 msgctxt "#39026"
 msgid "Disambiguation"
-msgstr "ondubbelzinnig"
+msgstr "Ondubbelzinnigheid"
 
 msgctxt "#39027"
 msgid "Sortname"
@@ -15899,7 +15995,7 @@ msgstr "Hoofdletters"
 
 msgctxt "#39108"
 msgid "audio description"
-msgstr "Audio omschrijving"
+msgstr "Audio-omschrijving"
 
 msgctxt "#39109"
 msgid "Select Program"

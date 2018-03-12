@@ -2605,6 +2605,10 @@ msgctxt "#728"
 msgid "FTP server"
 msgstr "FTP 伺服器"
 
+msgctxt "#729"
+msgid "Enable SSL"
+msgstr "開啟SSL"
+
 msgctxt "#730"
 msgid "Port"
 msgstr "連接埠"
@@ -5349,10 +5353,6 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "視訊設定"
 
-msgctxt "#13396"
-msgid "Audio and subtitle settings"
-msgstr "音效和字幕設定"
-
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "啟用字幕"
@@ -5613,10 +5613,6 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "沒有圖片"
 
-msgctxt "#13516"
-msgid "Add art"
-msgstr "新增圖片"
-
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "音準校正臨界值"
@@ -5624,6 +5620,14 @@ msgstr "音準校正臨界值"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "當播放速度的變化超過此值時，將會啟動音準校正濾波器。可以避免加速播放影片時常聽到的\"花栗鼠音調\"。"
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "內嵌式美術圖"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "內嵌式相關圖片"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -8229,6 +8233,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "隱藏\"找不到資訊\"標籤"
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "預選擇播放列表中的頻道"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "將項目分組"
@@ -8301,6 +8309,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "所有頻道"
 
+msgctxt "#19288"
+msgid "Go to date"
+msgstr "移至日期"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "隱藏群組"
@@ -8333,9 +8345,25 @@ msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "沒有啟用任何 PVR 附加元件"
 
+msgctxt "#19297"
+msgid "Vertical channels"
+msgstr "垂直式頻道列表"
+
+msgctxt "#19298"
+msgid "Horizontal channels"
+msgstr "水平式頻道列表"
+
 msgctxt "#19299"
 msgid "Expires"
 msgstr "到期"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "垂直式頻道列表，無群組"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "水平式頻道列表，無群組"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9353,6 +9381,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "FTP 伺服器"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "FTPS伺服器"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "UPnP 伺服器"
@@ -9552,6 +9584,14 @@ msgstr "Web 伺服器目錄(HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "無法寫入資料夾："
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "RSS資訊(HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "RSS資訊(HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -10244,6 +10284,14 @@ msgstr "無可用的更新"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "此附加元件目前沒有可用更新"
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "使用影片標籤"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "如果mp4或mkv檔有內含標籤，將其用來作為資料庫的資訊內容之一"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -12917,6 +12965,18 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "與各種不同的遊戲平台專屬的輸入裝置進行配對。"
 
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "賽車方向盤"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "踏板"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "搖桿"
+
 msgctxt "#35074"
 msgid "Face buttons"
 msgstr "正面按鍵"
@@ -13096,6 +13156,18 @@ msgstr "所有按鍵"
 msgctxt "#35167"
 msgid "Single keys"
 msgstr "獨立按鍵"
+
+msgctxt "#35168"
+msgid "Select key"
+msgstr "選擇按鍵"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "按下按鍵"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "按下按鍵 ({1:d})"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -13876,6 +13948,10 @@ msgstr "當切換頻道時顯示節目資訊，如正在播放的節目。"
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "開啟群組管理員，它可以修改群組及所包含的頻道。"
+
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "在視窗或對話框中的頻道列表中自動選定播放中的頻道，此功能開啟後，若有播放中的頻道，則會在視窗或對話框中的頻道列表中自動被選擇，若此功能關閉，則會選擇上一次使用的頻道。"
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -15164,6 +15240,26 @@ msgstr "SMBv3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "用戶端"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "最低通訊協定版本"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "在進行連線時使用最低的SMB通訊協定版本。可能須強制使用SMBv2來避免某些作業系統使用SMBv1。"
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "使用傳統的安全性協議"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "強制使用SMBv1的安全性協議，以便相容於某些無線分享器或NAS的USB分享功能。"
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "開啟網路伺服器的SSL加密連線模式，Certificate special://userdata/server.key 及 Key special://userdata/server.pem 這兩者需手動建立。"
 
 msgctxt "#36900"
 msgid "movie"

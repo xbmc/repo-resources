@@ -823,7 +823,7 @@ msgstr "Filtres vidéo"
 
 msgctxt "#231"
 msgid "None"
-msgstr "Aucun"
+msgstr "Aucun(e)"
 
 msgctxt "#232"
 msgid "Point"
@@ -1319,7 +1319,7 @@ msgstr "Mode économiseur d'écran"
 
 msgctxt "#357"
 msgid "Shutdown function timer"
-msgstr "Délai d'arrêt automatique"
+msgstr "Définir le délai d'arrêt automatique"
 
 msgctxt "#358"
 msgid "All albums"
@@ -2195,7 +2195,7 @@ msgstr "Mode soirée"
 
 msgctxt "#590"
 msgid "Random"
-msgstr "Aléatoire"
+msgstr "Aléatoire "
 
 msgctxt "#591"
 msgid "Off"
@@ -2511,11 +2511,11 @@ msgstr "Journalisation détaillée pour le composant [B]serveur Web[/B]"
 
 msgctxt "#682"
 msgid "Verbose logging for the [B]Database[/B] component"
-msgstr "Journalisation verbeuse pour le composant [B]Base de données[/B]"
+msgstr "Journalisation détaillée pour le composant [B]Base de données[/B]"
 
 msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
-msgstr "Journalisation verbeuse pour l'[B]information de timing audio/vidéo[/B]"
+msgstr "Journalisation détaillée des [B]infos de timing audio/vidéo[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2604,6 +2604,10 @@ msgstr "Serveur Web"
 msgctxt "#728"
 msgid "FTP server"
 msgstr "Serveur FTP"
+
+msgctxt "#729"
+msgid "Enable SSL"
+msgstr "Activer SSL"
 
 msgctxt "#730"
 msgid "Port"
@@ -5349,10 +5353,6 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "Paramètres vidéo"
 
-msgctxt "#13396"
-msgid "Audio and subtitle settings"
-msgstr "Paramètres audio et sous-titres"
-
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "Activer les sous-titres"
@@ -5613,10 +5613,6 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "Pas d'illustration"
 
-msgctxt "#13516"
-msgid "Add art"
-msgstr "Ajouter une illustration"
-
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Seuil de correction de hauteur de son (Pitch)"
@@ -5624,6 +5620,14 @@ msgstr "Seuil de correction de hauteur de son (Pitch)"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "Quand la vitesse est modifiée et dépasse ce seuil, un filtre de correction de hauteur de son (Pitch) sera appliqué. Ceci évite les déformations des voix qui résultent de l'augmentation de la vitesse de lecture vidéo."
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Illustration embarquée"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "FanArt embarqué"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -7499,7 +7503,7 @@ msgstr "Chaîne inconnue {0:s}"
 
 msgctxt "#19086"
 msgid "Instant recording action"
-msgstr "Action d'enregistrement immédiat"
+msgstr "Enregistrement immédiat"
 
 msgctxt "#19087"
 msgid "Record current show (if guide data available)"
@@ -7507,7 +7511,7 @@ msgstr "Enregistrer le programme actuel (si données du guide disponibles)"
 
 msgctxt "#19088"
 msgid "Record for a fixed period of time (Instant recording duration)"
-msgstr "Enregistrer pendant une période de temps fixe (durée d'enregistrement instantané)"
+msgstr "Enregistrer pendant une période de temps fixe (durée d'enregistrement immédiat)"
 
 msgctxt "#19089"
 msgid "Ask what to do"
@@ -7843,7 +7847,7 @@ msgstr "Basculer en plein écran"
 
 msgctxt "#19172"
 msgid "Instant recording duration"
-msgstr "Durée d'enregistrement instantané"
+msgstr "Durée d'enregistrement immédiat"
 
 msgctxt "#19173"
 msgid "TV channel groups"
@@ -8229,6 +8233,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "Masquer les mentions « Pas d'informations disponibles »"
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Présélectionner la chaîne en cours de lecture dans les listes"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Grouper les éléments"
@@ -8301,6 +8309,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "Toutes les chaînes"
 
+msgctxt "#19288"
+msgid "Go to date"
+msgstr "Aller à la date"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "Cacher le groupe"
@@ -8333,9 +8345,25 @@ msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "Aucune extension enregistreur vidéo activée"
 
+msgctxt "#19297"
+msgid "Vertical channels"
+msgstr "Chaînes verticales"
+
+msgctxt "#19298"
+msgid "Horizontal channels"
+msgstr "Chaînes horizontales"
+
 msgctxt "#19299"
 msgid "Expires"
 msgstr "Expire le"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Chaînes verticales sans sélecteur de groupes"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Chaînes horizontales sans sélecteur de groupes"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -8747,7 +8775,7 @@ msgstr "Dossier des bandes-annonces"
 
 msgctxt "#20004"
 msgid "Screenshot folder"
-msgstr "Dossier des captures d'écran"
+msgstr "Dossier des captures d'écran…"
 
 msgctxt "#20006"
 msgid "Playlists folder"
@@ -9353,6 +9381,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "Serveur FTP"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "Serveur FTPS"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "Serveur UPnP"
@@ -9552,6 +9584,14 @@ msgstr "Dossier du serveur Web (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "Impossible d'écrire dans le dossier :"
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "Flux RSS (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "Flux RSS (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -9983,7 +10023,7 @@ msgstr "Scénaristes"
 
 msgctxt "#20419"
 msgid "Replace file names with library titles"
-msgstr "Remplacer les noms de fichiers par les titres de médiathèque"
+msgstr "Remplacer les noms de fichiers par les titres en médiathèque"
 
 msgctxt "#20420"
 msgid "Never"
@@ -10244,6 +10284,14 @@ msgstr "Aucune mise à jour disponible"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Il n'y a actuellement pas de mise à jour disponible pour cette extension."
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "Utiliser les balises vidéo"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "Si des fichiers MP4 ou MKV ont des balises, les utiliser comme métadonnées de médiathèque"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -11159,7 +11207,7 @@ msgstr "Police"
 
 msgctxt "#22031"
 msgid "Size"
-msgstr "Taille"
+msgstr "Taille "
 
 msgctxt "#22032"
 msgid "Colours"
@@ -11411,7 +11459,7 @@ msgstr "Échec de l'installation de l'extension à partir d'un fichier Zip"
 
 msgctxt "#24046"
 msgid "{0:s} is used by the following installed add-on(s)"
-msgstr "{0:s} est utilisé par l(es)'extension(s) suivante(s)"
+msgstr "{0:s} est utilisé par l(es)'extension(s) suivante(s) :"
 
 msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
@@ -11451,7 +11499,7 @@ msgstr "Dernière mise à jour {0:s}"
 
 msgctxt "#24057"
 msgid "Installing {0:s}..."
-msgstr "Installation de {0:s}…"
+msgstr "Installation de {0:s}"
 
 msgctxt "#24058"
 msgid "Checking dependencies..."
@@ -11591,7 +11639,7 @@ msgstr "Cette extension ne peut être désactivée."
 
 msgctxt "#24092"
 msgid "Checking for add-on updates"
-msgstr "Vérification des mises à jour d'extensions"
+msgstr "Vérification des mises à jour d'extensions "
 
 msgctxt "#24093"
 msgid "Checking {0:s}..."
@@ -12855,7 +12903,7 @@ msgstr "Appuyer sur tous les boutons analogiques maintenant pour les détecter :
 
 msgctxt "#35047"
 msgid "Driver settings"
-msgstr "Paramètres des pilotes"
+msgstr "Paramètres des pilotes…"
 
 msgctxt "#35048"
 msgid "View and configure peripheral add-ons."
@@ -12867,7 +12915,7 @@ msgstr "Extensions Jeux"
 
 msgctxt "#35050"
 msgid "Controller profiles"
-msgstr "Profils de manette"
+msgstr "Profils de manettes"
 
 msgctxt "#35051"
 msgid "Test rumble"
@@ -12891,7 +12939,7 @@ msgstr "Utiliser le clavier ou la télécommande pour sélectionner un profil de
 
 msgctxt "#35058"
 msgid "Controller Configuration"
-msgstr "Configuration de manette"
+msgstr "Configuration des manettes"
 
 msgctxt "#35059"
 msgid "Buttons"
@@ -12907,15 +12955,27 @@ msgstr "Faut-il réinitialiser ce profil de manette pour tous les dispositifs co
 
 msgctxt "#35062"
 msgid "All available controller profiles are installed."
-msgstr "Tous les profils de manette disponibles sont installés."
+msgstr "Tous les profils de manettes disponibles sont installés."
 
 msgctxt "#35063"
 msgid "Configure attached controllers"
-msgstr "Configurer les manettes connectées"
+msgstr "Configurer les manettes connectées…"
 
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Associe les manettes avec les divers dispositifs d'entrée des différents systèmes de jeux."
+
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "Volant de course"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "Raquettes"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "Joysticks"
 
 msgctxt "#35074"
 msgid "Face buttons"
@@ -13096,6 +13156,18 @@ msgstr "Toutes les touches"
 msgctxt "#35167"
 msgid "Single keys"
 msgstr "Touches uniques"
+
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Sélectionner une touche"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Presser une touche"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Presser une touche ({1:d})"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -13627,7 +13699,7 @@ msgstr "Permet d'exporter la base de données de la vidéothèque au format XML.
 
 msgctxt "#36150"
 msgid "Import an XML file into the video library database."
-msgstr "Importer un fichier XML dans la base de données de la vidéothèque"
+msgstr "Importe un fichier XML dans la base de données de la vidéothèque."
 
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
@@ -13755,7 +13827,7 @@ msgstr "Combine les vidéos multiparties, les dossiers de DVD ou les dossiers de
 
 msgctxt "#36183"
 msgid "Removes the title, genre, etc. nodes from the library view. Selecting a category takes you straight to the title view."
-msgstr "Retire le titre, le genre etc. de la vue Médiathèque. La sélection d'une catégorie emmène directement à la vue Titre. "
+msgstr "Retire le titre, le genre, etc. de la vue Médiathèque. La sélection d'une catégorie emmène directement à la vue Titre. "
 
 msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
@@ -13877,6 +13949,10 @@ msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Ouvre le gestionnaire de groupes qui permet la modification des groupes et de leurs chaînes respectives."
 
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "Présélectionne la chaîne en cours dans les fenêtres et dialogues contenant des listes de chaînes. Si activé et qu'il existe une chaîne en cours, cette dernière sera sélectionnée lors de leur ouverture. Si désactivé, c'est la chaîne précédemment sélectionnée qui le sera."
+
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
 msgstr "Permet de choisir le format long de la date à afficher sur l'interface utilisateur."
@@ -13947,7 +14023,7 @@ msgstr "Cette catégorie contient les paramètres prédéfinis de durée d'enreg
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
-msgstr "Durée de l'enregistrement immédiat quand le bouton d'enregistrement est pressé. Cette valeur sera prise en compte si l'« Action d'enregistrement immédiat » est définie à « Enregistrer pendant une période de temps fixe »."
+msgstr "Durée de l'enregistrement immédiat quand le bouton d'enregistrement est pressé. Cette valeur sera prise en compte si l'action « Enregistrement immédiat » est définie à « Enregistrer pendant une période de temps fixe »."
 
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
@@ -14055,7 +14131,7 @@ msgstr "Exporte des parties de la musithèque vers des fichiers XML ou NFO. Cela
 
 msgctxt "#36263"
 msgid "Import an XML file into the music library database."
-msgstr "Importer un fichier XML dans la base de données de la musithèque"
+msgstr "Importe un fichier XML dans la base de données de la musithèque."
 
 msgctxt "#36264"
 msgid "This category contains the settings for how music playback is handled."
@@ -15165,6 +15241,26 @@ msgctxt "#36627"
 msgid "Client"
 msgstr "Client"
 
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "Version minimale du protocole"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Définit la version minimale du protocole SMB pour négocier les connexions. Forcer SMBv2 pourrait être requis pour empêcher l'utilisation de SMBv1 sur certains systèmes d'exploitation."
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "Utiliser la sécurité traditionnelle"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Force la sécurité SMBv1 faible pour des raisons de compatibilité avec les fonctionnalités de partage USB sur quelques routeurs et NAS WiFi."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "Active le chiffrement SSL du serveur Web. Le certificat « special://userdata/server.key » et la clé « special://userdata/server.pem » doivent être créés manuellement."
+
 msgctxt "#36900"
 msgid "movie"
 msgstr "film"
@@ -15823,7 +15919,7 @@ msgstr "Reprendre le livre audio"
 
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
-msgstr "Active la prise en charge UPnP. Cela permet de diffuser les médias depuis les médiathèques vers un client UPnP, et de détecter les serveurs UPnP distants."
+msgstr "Active la prise en charge UPnP. Ceci permet de diffuser les médias depuis les médiathèques vers un client UPnP, et de détecter les serveurs UPnP distants."
 
 msgctxt "#39018"
 msgid "optional"
@@ -15867,7 +15963,7 @@ msgstr "Nom de tri"
 
 msgctxt "#39100"
 msgid "Perform on startup"
-msgstr "Effectuer au démarrage"
+msgstr "Action au démarrage"
 
 msgctxt "#39101"
 msgid "Play TV"

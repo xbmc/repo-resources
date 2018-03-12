@@ -2605,6 +2605,10 @@ msgctxt "#728"
 msgid "FTP server"
 msgstr "Servidor FTP"
 
+msgctxt "#729"
+msgid "Enable SSL"
+msgstr "Activar SSL"
+
 msgctxt "#730"
 msgid "Port"
 msgstr "Puerto"
@@ -3095,7 +3099,7 @@ msgstr "Introduzca las rutas o busque la ubicación de los contenidos."
 
 msgctxt "#1022"
 msgid "Enter a name for this media source."
-msgstr "Ingrese un nombre para esta fuente de contenidos."
+msgstr "Introduzca un nombre para esta fuente de contenidos."
 
 msgctxt "#1023"
 msgid "Browse for new share"
@@ -5349,10 +5353,6 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "Ajustes de vídeo"
 
-msgctxt "#13396"
-msgid "Audio and subtitle settings"
-msgstr "Ajustes de sonido y subtítulos"
-
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "Activar subtítulos"
@@ -5613,10 +5613,6 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "No hay arte"
 
-msgctxt "#13516"
-msgid "Add art"
-msgstr "Añadir arte"
-
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Límite de corrección del tono"
@@ -5624,6 +5620,14 @@ msgstr "Límite de corrección del tono"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "Cuando el cambio de velocidad excede este umbral, se aplicará un filtro de corrección de pitch. Esto evita las \"voces de ardilla\" que normalmente resultan al acelerar un vídeo"
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Arte embebido"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Fanart embebido"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -8229,6 +8233,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "Ocultar \"No hay información disponible\""
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Preseleccionar canal a reproducir en las listas"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Grupos"
@@ -8301,6 +8309,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "Todos los canales"
 
+msgctxt "#19288"
+msgid "Go to date"
+msgstr "Ir a la fecha"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "Ocultar grupo"
@@ -8333,9 +8345,25 @@ msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "No hay ningún add-on PVR activado"
 
+msgctxt "#19297"
+msgid "Vertical channels"
+msgstr "Canales en vertical"
+
+msgctxt "#19298"
+msgid "Horizontal channels"
+msgstr "Canales en horizontal"
+
 msgctxt "#19299"
 msgid "Expires"
 msgstr "Expira"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Canales en vertical, sin selector de grupo"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Canales en horizontal, sin selector de grupo"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9353,6 +9381,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "Servidor FTP"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "Servidor FTPS"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "Servidor UPnP"
@@ -9552,6 +9584,14 @@ msgstr "Directorio servidor web (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "No se puede escribir en la carpeta:"
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "Archivo RSS (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "Archivo RSS (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -10244,6 +10284,14 @@ msgstr "No hay actualizaciones disponibles"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "No hay actualizaciones disponibles para este add-on."
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "Usar etiquetas de vídeo"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "Si el fichero mp4 o mkv tiene etiquetas, usarlas para la información de la colección"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -12917,6 +12965,18 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Empareja sus controladores con una variedad de dispositivos de entrada para diferentes sistemas de videojuegos."
 
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "Volante de carreras"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "Paletas"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "Joysticks"
+
 msgctxt "#35074"
 msgid "Face buttons"
 msgstr "Botones de Cara"
@@ -13096,6 +13156,18 @@ msgstr "Todas las teclas"
 msgctxt "#35167"
 msgid "Single keys"
 msgstr "Teclas únicas"
+
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Elegir tecla"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Pulse una tecla"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Pulse una tecla ({1:d})"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -13876,6 +13948,10 @@ msgstr "Visualiza la información de programación al cambiar de canal, como la 
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Abre el administrador de gupos, que permite modificar los grupos y sus respectivos canales."
+
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "Preselecciona el canal al reproducir en las ventanas y diálogos que contienen listas de canales. Si está activado y hay una lista de canales, el canal a reproducir será seleccionado al abrir una ventana o diálogo que contenga una lista de canales. Si no está activado, el canal escogido previamente en una ventana o diálogo será el escogido cuando se abra la ventana que contenga la lista de canales."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -15164,6 +15240,26 @@ msgstr "SMBv3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "Cliente"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "Versión mínima del protocolo"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Establece la versión mínima del protocolo SMB que negociará al hacer conexiones. Forzar SMBv2 puede ser requerido para evitar el uso de SMBv1 en algunos SO."
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "Usar seguridad Legacy"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Fuerza la seguridad débil de SMBv1 para hacer compatible él compartir USB con algunos routers WiFi o dispositivos NAS."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "Activa el cifrado SSL en el servidor web. El certificado special://userdata/server.key y la Llave special://userdata/server.pem deben ser creadas manualmente."
 
 msgctxt "#36900"
 msgid "movie"

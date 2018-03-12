@@ -2605,6 +2605,10 @@ msgctxt "#728"
 msgid "FTP server"
 msgstr "FTP 服务器"
 
+msgctxt "#729"
+msgid "Enable SSL"
+msgstr "启用 SSL"
+
 msgctxt "#730"
 msgid "Port"
 msgstr "端口"
@@ -5349,10 +5353,6 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "视频设置"
 
-msgctxt "#13396"
-msgid "Audio and subtitle settings"
-msgstr "音频和字幕设置"
-
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "启用字幕"
@@ -5612,10 +5612,6 @@ msgstr "本地艺术图片"
 msgctxt "#13515"
 msgid "No art"
 msgstr "无艺术图片"
-
-msgctxt "#13516"
-msgid "Add art"
-msgstr "添加艺术图片"
 
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
@@ -8229,6 +8225,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "隐藏“无可用信息”标签"
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "预先选择列表中的播放频道"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "组项目"
@@ -9353,6 +9353,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "FTP 服务器"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "FTPS 服务器"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "UPnP 服务器"
@@ -9552,6 +9556,14 @@ msgstr "WEB 服务器目录（HTTPS）"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "无法写入文件夹："
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "RSS 订阅 (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "RSS 订阅 (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -10244,6 +10256,14 @@ msgstr "无可用更新"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "当前此插件无可用更新。"
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "使用视频标签"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "如果 mp4 或 mkv 文件具有标签，请将其用于库的元数据"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -12917,6 +12937,10 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "为不同游戏系统的多项输入设备配对控制器"
 
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "游戏杆"
+
 msgctxt "#35074"
 msgid "Face buttons"
 msgstr "正面按钮"
@@ -13096,6 +13120,18 @@ msgstr "所有键"
 msgctxt "#35167"
 msgid "Single keys"
 msgstr "单键"
+
+msgctxt "#35168"
+msgid "Select key"
+msgstr "选择键"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "按一个键"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "按一个键 ({1: d})"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -13876,6 +13912,10 @@ msgstr "变更频道时显示节目信息，如当前剧集。"
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "打开组管理器，以修改组及其所包含的频道。"
+
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "预先选择包含频道列表的窗口和对话框中的播放频道。如果启用并且有播放频道，当打开包含频道列表的窗口或对话框时将选择播放频道。如果禁用，打开包含频道列表的窗口时，将选择之前在窗口或对话框中选择的频道。"
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -15164,6 +15204,26 @@ msgstr "SMBv3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "客户端"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "最低协议版本"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "设置连接时要协商的最低 SMB 协议版本。可能需要强制 SMBv2 防止 SMBv1 在某些操作系统上使用。"
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "使用旧式安全性"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "强制弱化 SMBv1 安全性，以便与某些 WiFi 路由器和 NAS 设备上的 USB 共享功能兼容。"
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "在 Web 服务器中启用SSL加密。证书 special://userdata/server.key 和 密钥 special://userdata/server.pem 必须手动创建"
 
 msgctxt "#36900"
 msgid "movie"

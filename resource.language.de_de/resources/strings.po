@@ -2361,6 +2361,10 @@ msgctxt "#642"
 msgid "Files without ReplayGain information"
 msgstr "Dateien ohne ReplayGain-Informationen"
 
+msgctxt "#643"
+msgid "Avoid clipping protection on ReplayGained files"
+msgstr "Clipping-Schutz auf ReplayGained Dateien vermeiden"
+
 msgctxt "#644"
 msgid "Stretch 16:9 - Nonlinear"
 msgstr "16:9 strecken - nichtlinear"
@@ -2600,6 +2604,10 @@ msgstr "Webserver"
 msgctxt "#728"
 msgid "FTP server"
 msgstr "FTP-Server"
+
+msgctxt "#729"
+msgid "Enable SSL"
+msgstr "SSL aktivieren"
 
 msgctxt "#730"
 msgid "Port"
@@ -5345,10 +5353,6 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "Video-Einstellungen"
 
-msgctxt "#13396"
-msgid "Audio and subtitle settings"
-msgstr "Audio- und Untertitel-Einstellungen"
-
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "Untertitel aktivieren"
@@ -5609,10 +5613,6 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "Keine Grafik"
 
-msgctxt "#13516"
-msgid "Add art"
-msgstr "Grafik hinzufügen"
-
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Schwellenwert für Tonhöhen-Korrektur"
@@ -5620,6 +5620,14 @@ msgstr "Schwellenwert für Tonhöhen-Korrektur"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "Wenn die Wiedergabe-Geschwindigkeit diesen Schwellenwert überschreitet, wird ein Korrektur-Filter auf die Tonhöhe angewandt. Dieser verhindert die sonst üblichen \"quietschenden Stimmen\", die normalerweise beim Beschleunigen von Videos entstehen"
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Eingebettete Grafik"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Eingebettete Fanart"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -6459,7 +6467,7 @@ msgstr "Mastermodus"
 
 msgctxt "#15024"
 msgid "Pre-process setup..."
-msgstr "Einrichten der Vor-Behandlung..."
+msgstr "Konfigurieren der Vorbehandlung..."
 
 msgctxt "#15025"
 msgid "Listening mode setup..."
@@ -6503,7 +6511,7 @@ msgstr "Audio DSP Einstellungen - Resampler"
 
 msgctxt "#15037"
 msgid "Audio DSP settings - Pre-process"
-msgstr "Audio DSP Einstellungen - Vor-Behandlung"
+msgstr "Audio DSP Einstellungen - Vorbehandlung"
 
 msgctxt "#15038"
 msgid "Audio DSP settings - Miscellaneous"
@@ -6511,7 +6519,7 @@ msgstr "Audio DSP Einstellungen - Verschiedenes"
 
 msgctxt "#15039"
 msgid "Pre-processing setup..."
-msgstr "Einrichten der Vor-Behandlung"
+msgstr "Konfigurieren der Vorbehandlung"
 
 msgctxt "#15040"
 msgid "The settings dialogue can only be opened from the OSD menu during playback"
@@ -6543,11 +6551,11 @@ msgstr "Passwort"
 
 msgctxt "#15057"
 msgid "Input resampling"
-msgstr "Re-sampling des Eingangssignals"
+msgstr "Resampling des Eingangssignals"
 
 msgctxt "#15058"
 msgid "Pre-processing"
-msgstr "Vor-Behandlung"
+msgstr "Vorbehandlung"
 
 msgctxt "#15059"
 msgid "Master processing"
@@ -6559,7 +6567,7 @@ msgstr "Video-Nachbearbeitung"
 
 msgctxt "#15061"
 msgid "Output resampling"
-msgstr "Re-sampling des Ausgangssignals"
+msgstr "Resampling des Ausgangssignals"
 
 msgctxt "#15062"
 msgid "Detailed description"
@@ -6595,7 +6603,7 @@ msgstr "Einige Audio DSP Einstellungen wurden geändert.\nDieses Einstellungen b
 
 msgctxt "#15080"
 msgid "Change resampler"
-msgstr "Re-Sampler ändern"
+msgstr "Resampler ändern"
 
 msgctxt "#15081"
 msgid "Process chain (with CPU usage)"
@@ -6615,11 +6623,11 @@ msgstr "Master-Prozess"
 
 msgctxt "#15085"
 msgid "Pre-process"
-msgstr "Vor-Behandlung"
+msgstr "Vorbehandlung"
 
 msgctxt "#15086"
 msgid "Post-process"
-msgstr "Nachbearbeitung"
+msgstr "Nachbehandlung"
 
 msgctxt "#15087"
 msgid "Input"
@@ -6699,11 +6707,11 @@ msgstr "Standardschema"
 
 msgctxt "#15113"
 msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
-msgstr "Hier kann der Modus der Vor-Behandlung konfiguriert werden. In diesem Prozess-Stadium wird lediglich das Eingangs-Signa verändertl."
+msgstr "Hier kann der Modus der Vorbehandlung konfiguriert werden. In diesem Prozess-Stadium wird lediglich das Eingangs-Signal verändert."
 
 msgctxt "#15114"
 msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
-msgstr "Hier kann das Re-Sampling des Eingangssignals konfiguriert werden. Nur ein aktiver Modus is erlaubt!"
+msgstr "Hier kann das Resampling des Eingangssignals konfiguriert werden. Nur ein aktiver Modus is erlaubt!"
 
 msgctxt "#15115"
 msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
@@ -6711,11 +6719,11 @@ msgstr "Hier kann der Master-Prozess konfiguriert werden. Zur Wiedergabe kann nu
 
 msgctxt "#15116"
 msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
-msgstr "Hier kann das Re-Sampling des Ausgangs Signals konfiguriert werden. Nur ein aktiver Modus ist erlaubt!"
+msgstr "Hier kann das Resampling des Ausgangssignals konfiguriert werden. Nur ein aktiver Modus ist erlaubt!"
 
 msgctxt "#15117"
 msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
-msgstr "Hier kann der Modus der Nachbearbeitung konfiguriert werden. Dieses Prozess-Stadium kann für Lautstärken- und Frequenz-Anpassungen verwendet werden."
+msgstr "Hier kann der Modus der Nachbehandlung konfiguriert werden. Dieses Prozess-Stadium kann für Lautstärken- und Frequenz-Anpassungen verwendet werden."
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -6988,6 +6996,10 @@ msgstr "Smooth"
 msgctxt "#16298"
 msgid "Shows the game's pixels without any modifications."
 msgstr "Zeigt die Pixel des Spiels an, ohne sie zu modifizieren"
+
+msgctxt "#16299"
+msgid "Removes the jagged edges of pixels by evenly fading between adjacent pixels."
+msgstr "Entfernt zackige Kanten von Pixeln durch einen gleichmäßigen Verlauf über benachbarte Pixel"
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -8221,6 +8233,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "Anzeige \"Keine Informationen verfügbar\" verstecken"
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Aktiven Kanal in Listen selektieren"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Elemente gruppieren"
@@ -8293,6 +8309,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "Alle Kanäle"
 
+msgctxt "#19288"
+msgid "Go to date"
+msgstr "Zu Datum springen"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "Gruppe verstecken"
@@ -8325,9 +8345,25 @@ msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "Kein PVR-Addon aktiviert"
 
+msgctxt "#19297"
+msgid "Vertical channels"
+msgstr "Vertikale Kanäle"
+
+msgctxt "#19298"
+msgid "Horizontal channels"
+msgstr "Horizontale Kanäle"
+
 msgctxt "#19299"
 msgid "Expires"
 msgstr "Verfällt"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Vertikale Kanäle, keine Gruppenauswahl"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Horizontale Kanäle, keine Gruppenauswahl"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9345,6 +9381,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "FTP-Server"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "FTPS-Server"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "UPnP-Server"
@@ -9544,6 +9584,14 @@ msgstr "Webserver-Verzeichnis (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "Ordner ist nicht beschreibbar:"
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "RSS Feed (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "RSS Feed (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -10236,6 +10284,14 @@ msgstr "Keine Aktualisierungen verfügbar"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Es gibt derzeit keine Aktualisierungen für dieses Addon."
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "Video-Tags verwenden"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "Wenn MP4- oder MKV-Dateien Video-Tags enthalten, diese für Bibliotheks-Metadaten verwenden"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -12909,6 +12965,18 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Controller mit den Eingabegeräten der verschiedenen Spiel-Systeme verknüpfen."
 
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "Rennlenkrad"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "Pedale"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "Joysticks"
+
 msgctxt "#35074"
 msgid "Face buttons"
 msgstr "Obere Buttons"
@@ -13001,6 +13069,10 @@ msgctxt "#35105"
 msgid "Light gun"
 msgstr "Light gun"
 
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "Konsolenschalter"
+
 msgctxt "#35108"
 msgid "Hardware buttons"
 msgstr "Hardware-Tasten"
@@ -13080,6 +13152,18 @@ msgstr "Alle Tasten"
 msgctxt "#35167"
 msgid "Single keys"
 msgstr "Einzelne Taste"
+
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Taste wählen"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Eine Taste drücken"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Eine Taste drücken ({1:d})"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -13861,6 +13945,10 @@ msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Öffnet den Kanalgruppen-Manager. Mit diesem können Gruppen und zugehörige Kanäle bearbeitet werden."
 
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "Wenn aktiviert, wird der aktive Kanal beim Öffnen von Fenstern und Dialogen mit Kanallisten vorausgewählt. Wenn deaktiviert oder es keinen aktiven Kanal gibt, wird der Kanal vorausgewählt, der im zuletzt geöffneten Fenster oder Dialog selektiert war."
+
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
 msgstr "Auswahl des Langformats, das für Datumsanzeigen in der Benutzeroberfläche verwendet werden soll."
@@ -14064,6 +14152,10 @@ msgstr "Referenz-Lautsärke (PreAmp level), die für Daten, die ReplayGain-Infor
 msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
 msgstr "Referenz-Lautsärke (PreAmp level), die für Daten, die keine ReplayGain-Informationen enthalten, zu benutzen ist. Voreingestellt ist 89dB, wie der ReplayGain-Standard es vorsieht. Bitte Vorsicht bei Änderungen!"
+
+msgctxt "#36270"
+msgid "Play file at lower volume, if necessary, to avoid audio limiting clipping protection. Otherwise clipping protection will be provided by the audioengine in those parts that need it."
+msgstr "Die Datei leiser abspielen, um - wenn notwendig - eine Dynamikumfangsbegrenzung zu verhindern. Ansonsten erfolgt eine Begrenzung durch die Audiokomponente, wenn dies notwendig ist."
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
@@ -14879,7 +14971,7 @@ msgstr "Definiert die Stärke des stereoskopischen 3D-Effekts in der GUI. Dies w
 
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
-msgstr "Definiert die Anzahl an Anzeigpuffern, die vom Grafiktreiber verwendet werden. 2 auswählen, wenn der Treiber double buffering verwendet, 3, falls er triple buffering benutzt."
+msgstr "Definiert die Anzahl an Anzeigepuffern, die vom Grafiktreiber verwendet werden. 2 auswählen, wenn der Treiber double buffering verwendet, 3, falls er triple buffering benutzt."
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -14917,9 +15009,17 @@ msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Weißpunkt"
 
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "Den Weißpunkt auf D93 anpassen ist hauptsächlich für älteres japanische NTSC-Material nützlich, dass auf einem D65 Display zu rot erscheint. Die Helligkeit für Video herunterregeln, um zu vermeiden, dass der Dynamikumfang auf den nativen Weißpunkt des Displays begrenzt wird."
+
 msgctxt "#36570"
 msgid "Primaries"
 msgstr "Grundfarben"
+
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "Die Primärfarben passend zum Quellmaterial wählen. Älteres HD-Material kann für Primärfarben nach BT.601 gemastered worden sein."
 
 msgctxt "#36572"
 msgid "Gamma mode"
@@ -15124,6 +15224,26 @@ msgstr "SMBv3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "Client"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "Minimale Protokoll-Version"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Setzen der minimalen SMB-Protokoll-Version, die beim Verbindungsaufbau verwendet werden soll. Setzen von SMBv2 kann erforderlich sein, um die Verwendung von SMBv1 auf einigen Betriebssystemen zu unterbinden."
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "Legacy Security verwenden"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Schwaches SMBv1 verwenden für Kompatibilität mit USB Sharing Funktionen von bestimmten WLAN-Routern and NAS-Geräten."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "Aktiviert SSL-Verschlüsselung für den Webserver. Das Zertifikat special://userdata/server.key und der Key special://userdata/server.pem müssen manuell erzeugt werden"
 
 msgctxt "#36900"
 msgid "movie"
@@ -15816,6 +15936,14 @@ msgstr "Abhängigkeiten"
 msgctxt "#39025"
 msgid "Gender"
 msgstr "Geschlecht"
+
+msgctxt "#39026"
+msgid "Disambiguation"
+msgstr "Begriffserklärung"
+
+msgctxt "#39027"
+msgid "Sortname"
+msgstr "Sortiername"
 
 msgctxt "#39100"
 msgid "Perform on startup"
