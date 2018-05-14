@@ -4061,14 +4061,6 @@ msgctxt "#10153"
 msgid "Subtitle search"
 msgstr "Felirat keresés"
 
-msgctxt "#10154"
-msgid "Audio DSP manager"
-msgstr "Hang DSP-kezelő"
-
-msgctxt "#10155"
-msgid "OSD audio DSP settings"
-msgstr "OSD hang DSP beállítások"
-
 msgctxt "#10157"
 msgid "OSD CMS settings"
 msgstr "OSD CMS beállítások"
@@ -4927,7 +4919,7 @@ msgstr "Ébresztés intervalluma (percben)"
 
 msgctxt "#13210"
 msgid "Started, alarm in {0:d}m"
-msgstr "Elindítva, ébresztés {0:s} perc múlva"
+msgstr "Elindítva, ébresztés {0:d} perc múlva"
 
 msgctxt "#13211"
 msgid "Alarm!"
@@ -5353,6 +5345,10 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "Kép beállítások"
 
+msgctxt "#13396"
+msgid "Audio settings"
+msgstr "Hang beállítások"
+
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "Feliratok bekapcsolása"
@@ -5472,6 +5468,10 @@ msgstr "Hardveres gyorsítás engedélyezése - CrystalHD"
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Hardveres gyorsítás engedélyezése - VTDBDecoder"
+
+msgctxt "#13430"
+msgid "Allow hardware acceleration - PRIME"
+msgstr "Hardveres gyorsítás engedélyezése - PRIME"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -5613,6 +5613,10 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "Nincs kép"
 
+msgctxt "#13516"
+msgid "Add art type"
+msgstr "Képtípus hozzáadása"
+
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Hangmagasság korrekciós küszöb"
@@ -5620,6 +5624,18 @@ msgstr "Hangmagasság korrekciós küszöb"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "A küszöb elérésekor a hangmagasság korrekciós szűrő bekapcsol. Ez megelőzi a felgyorsított videóknál a hangmagasság emelkedését."
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Beágyazott kép"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Beágyazott rajongói alkotás"
+
+msgctxt "#13521"
+msgid "Choose art type"
+msgstr "Képtípus kiválasztása"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -5909,10 +5925,6 @@ msgctxt "#14060"
 msgid "Unknown type cache - Internet"
 msgstr "Ismeretlen típusú gyorsítótár - Internet"
 
-msgctxt "#14061"
-msgid "Auto"
-msgstr "Auto"
-
 msgctxt "#14062"
 msgid "Enter username for"
 msgstr "Felhasználónév a következőhöz:"
@@ -5984,10 +5996,6 @@ msgstr "Időzóna"
 msgctxt "#14081"
 msgid "File lists"
 msgstr "Fájllisták"
-
-msgctxt "#14082"
-msgid "Reset the Audio DSP database..."
-msgstr "A hang DSP adatbázis alaphelyzetbe állítása…"
 
 msgctxt "#14083"
 msgid "Use fullscreen window"
@@ -6337,10 +6345,6 @@ msgctxt "#14250"
 msgid "Audio Decoder"
 msgstr "Hang dekóder"
 
-msgctxt "#14251"
-msgid "Audio DSP"
-msgstr "Hang DSP"
-
 msgctxt "#14252"
 msgid "Audio Passthrough"
 msgstr "Hangtovábbítás"
@@ -6397,22 +6401,6 @@ msgctxt "#14304"
 msgid "RDS Radio"
 msgstr "RDS rádió"
 
-msgctxt "#15004"
-msgid "Basic"
-msgstr "Alapszint"
-
-msgctxt "#15005"
-msgid "Application"
-msgstr "Alkalmazás"
-
-msgctxt "#15006"
-msgid "Phone"
-msgstr "Telefon"
-
-msgctxt "#15007"
-msgid "Message"
-msgstr "Üzenet"
-
 msgctxt "#15011"
 msgid "{0:d} Items failed to export"
 msgstr "{0:d} tétel exportálása nem sikerült"
@@ -6441,94 +6429,6 @@ msgctxt "#15019"
 msgid "Add"
 msgstr "Hozzáadás"
 
-msgctxt "#15020"
-msgid "Audio DSP manager"
-msgstr "Hang DSP-kezelő"
-
-msgctxt "#15021"
-msgid "Content type"
-msgstr "Tartalomtípus"
-
-msgctxt "#15022"
-msgid "Listening mode"
-msgstr "Hallgató mód"
-
-msgctxt "#15023"
-msgid "Master mode"
-msgstr "Mester mód"
-
-msgctxt "#15024"
-msgid "Pre-process setup..."
-msgstr "Előfeldolgozás beállítása…"
-
-msgctxt "#15025"
-msgid "Listening mode setup..."
-msgstr "Hallgató mód beállítása…"
-
-msgctxt "#15026"
-msgid "Speaker / Output setup..."
-msgstr "Hangszóró / Kimenet beállítása…"
-
-msgctxt "#15027"
-msgid "Audio information..."
-msgstr "Hanginformációk…"
-
-msgctxt "#15028"
-msgid "Audio DSP settings - Main"
-msgstr "Hang DSP beállítások - Főképernyő"
-
-msgctxt "#15029"
-msgid "Audio DSP settings - Listening mode"
-msgstr "Hang DSP beállítások - Hallgató mód"
-
-msgctxt "#15030"
-msgid "Audio DSP settings - Speaker / Output"
-msgstr "Hang DSP beállítások - Hangszóró / Kimenet"
-
-msgctxt "#15031"
-msgid "Audio DSP settings - Audio information"
-msgstr "Hang DSP beállítások - Hanginformációk"
-
-msgctxt "#15033"
-msgid "Resampler setup..."
-msgstr "Újramintavételezés beállításai…"
-
-msgctxt "#15034"
-msgid "Miscellaneous..."
-msgstr "Egyéb…"
-
-msgctxt "#15035"
-msgid "Audio DSP settings - Resampler"
-msgstr "Hang DSP beállítások - Újramintavételezés"
-
-msgctxt "#15037"
-msgid "Audio DSP settings - Pre-process"
-msgstr "Hang DSP beállítások - Előfeldolgozás"
-
-msgctxt "#15038"
-msgid "Audio DSP settings - Miscellaneous"
-msgstr "Hang DSP beállítások - Egyéb"
-
-msgctxt "#15039"
-msgid "Pre-processing setup..."
-msgstr "Előfeldolgozás beállítása…"
-
-msgctxt "#15040"
-msgid "The settings dialogue can only be opened from the OSD menu during playback"
-msgstr "A beállítások párbeszédablak csak lejátszás közben nyitható meg az OSD menüből"
-
-msgctxt "#15041"
-msgid "Unknown mode name"
-msgstr "Ismeretlen mód név"
-
-msgctxt "#15042"
-msgid "Content:"
-msgstr "Tartalom:"
-
-msgctxt "#15047"
-msgid "Audio DSP settings"
-msgstr "Hang DSP beállítások"
-
 msgctxt "#15050"
 msgid "Available modes"
 msgstr "Elérhető módok"
@@ -6541,42 +6441,6 @@ msgctxt "#15052"
 msgid "Password"
 msgstr "Jelszó"
 
-msgctxt "#15057"
-msgid "Input resampling"
-msgstr "Bemenet újramintavételezése"
-
-msgctxt "#15058"
-msgid "Pre-processing"
-msgstr "Előfeldolgozás"
-
-msgctxt "#15059"
-msgid "Master processing"
-msgstr "Mester feldolgozás"
-
-msgctxt "#15060"
-msgid "Post-processing"
-msgstr "Utófeldolgozás"
-
-msgctxt "#15061"
-msgid "Output resampling"
-msgstr "Kimenet újramintavételezése"
-
-msgctxt "#15062"
-msgid "Detailed description"
-msgstr "Részletes leírás"
-
-msgctxt "#15063"
-msgid "No description available"
-msgstr "Nem áll rendelkezésre leírás"
-
-msgctxt "#15064"
-msgid "Apply changes directly"
-msgstr "Változások közvetlen érvényesítése"
-
-msgctxt "#15065"
-msgid "No audio DSP modes available"
-msgstr "Nincs elérhető hang DSP mód"
-
 msgctxt "#15066"
 msgid "Clear active modes"
 msgstr "Aktív módok törlése"
@@ -6584,66 +6448,6 @@ msgstr "Aktív módok törlése"
 msgctxt "#15067"
 msgid "Close"
 msgstr "Bezárás"
-
-msgctxt "#15078"
-msgid "Mode settings"
-msgstr "Mód beállítások"
-
-msgctxt "#15079"
-msgid "You have changed some audio DSP settings.\nWould you like to keep the new settings?"
-msgstr "Megváltoztatott néhány hang DSP beállítást.\nSzeretné megtartani az új beállításokat?"
-
-msgctxt "#15080"
-msgid "Change resampler"
-msgstr "Újramintavételező módosítása"
-
-msgctxt "#15081"
-msgid "Process chain (with CPU usage)"
-msgstr "Processz lánc (CPU használattal)"
-
-msgctxt "#15082"
-msgid "Resampling to {0:d} Hz"
-msgstr "Újramintavételezés {0:d} Hz-re"
-
-msgctxt "#15083"
-msgid "Final resampling to {0:d} Hz"
-msgstr "Végső újramintavételezés {0:d} Hz-re"
-
-msgctxt "#15084"
-msgid "Master process"
-msgstr "Mester feldolgozás"
-
-msgctxt "#15085"
-msgid "Pre-process"
-msgstr "Előfeldolgozás"
-
-msgctxt "#15086"
-msgid "Post-process"
-msgstr "Utófeldolgozás"
-
-msgctxt "#15087"
-msgid "Input"
-msgstr "Bemenet"
-
-msgctxt "#15088"
-msgid "Output"
-msgstr "Kimenet"
-
-msgctxt "#15089"
-msgid "Input signal"
-msgstr "Bemeneti jel"
-
-msgctxt "#15090"
-msgid "Output signal"
-msgstr "Kimeneti jel"
-
-msgctxt "#15091"
-msgid "Positions"
-msgstr "Pozíciók"
-
-msgctxt "#15092"
-msgid "CPU usage for DSP"
-msgstr "CPU használat a DSP-hez"
 
 msgctxt "#15100"
 msgid "Library"
@@ -6696,26 +6500,6 @@ msgstr "Téma"
 msgctxt "#15112"
 msgid "Default theme"
 msgstr "Alapértelmezett téma"
-
-msgctxt "#15113"
-msgid "Here you can configure pre-processing modes. This processing stage only change the input data stream."
-msgstr "Itt beállíthatja az előfeldolgozási módokat. Ez a feldolgozási fázis csak a bemeneti adatfolyamot módosíthatja."
-
-msgctxt "#15114"
-msgid "Here you can configure an input resampling process. Notice: Only one active mode is allowed!"
-msgstr "Itt beállíthatja a bemenet újramintavétetezési folyamatát. Megjegyzés: csak egy aktív mód engedélyezett."
-
-msgctxt "#15115"
-msgid "Here you can configure master processing modes. Notice: On playback only one active mode can be selected!"
-msgstr "Itt beállíthatja a mester feldolgozási módokat. Megjegyzés: csak egy mód választható ki a lejátszáshoz!"
-
-msgctxt "#15116"
-msgid "Here you can configure a output resampling process. Notice: Only one active mode is allowed!"
-msgstr "Itt beállíthatja a kimenet újramintavételezési folyamatát. Megjegyzés: csak egy aktív mód engedélyezett!"
-
-msgctxt "#15117"
-msgid "Here you can configure post-processing modes. This processing stage can be used for equalizing and volume correction..."
-msgstr "Itt beállíthatja az utófeldolgozási módokat. Ez a feldolgozási fázis a hangszín módosítására és hangerő korrekcióra használható…"
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -7737,6 +7521,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Csoportok"
 
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "Ha a felvétel élettartama {0:d} napra esik, a felvétel leáll, ami az addig rögzítettek azonnali törléséhez vezethet. Biztosan végrehajtja?"
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Csatorna"
@@ -8221,6 +8009,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "Rejtse el a \"Információ nem elérhető\" cimkéket"
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Csatornák előválasztása a listában"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Elemek csoportosítása"
@@ -8340,6 +8132,14 @@ msgstr "Vízszintes csatornák"
 msgctxt "#19299"
 msgid "Expires"
 msgstr "Lejárat"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Függőleges csatornák, nincs csoportválasztó"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Vízszintes csatornák, nincs csoportválasztó"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9357,6 +9157,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "FTP kiszolgáló"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "FTP szerver"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "UPnP kiszolgáló"
@@ -9556,6 +9360,14 @@ msgstr "Webkiszolgáló könyvtár (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "Mentés a következő mappába sikertelen:"
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "RSS Feed (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "RSS Feed (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -10248,6 +10060,14 @@ msgstr "Nem áll rendelkezésre frissítés"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Nincs elérhető frissítés ehhez a kiegészítőhöz."
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "Videó címke használata"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "Ha az mp4 vagy mkv fájloknak van címkéje, akkor használja ezt a könyvtárat a metaadatokhoz"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -11577,10 +11397,6 @@ msgctxt "#24087"
 msgid "All repositories"
 msgstr "Összes tároló"
 
-msgctxt "#24088"
-msgid "The DSP add-on is currently in use and can't be modified."
-msgstr "A DSP kiegészítő használatban van és nem módosítható."
-
 msgctxt "#24089"
 msgid "Add-on restarts"
 msgstr "Kiegészítő újraindul"
@@ -11757,21 +11573,13 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "Szeretne erre a nyelvre váltani?"
 
-msgctxt "#24135"
-msgid "Audio DSP"
-msgstr "Hang DSP"
+msgctxt "#24133"
+msgid "Subtitle settings"
+msgstr "Felirat beállításai"
 
-msgctxt "#24136"
-msgid "Audio DSP..."
-msgstr "Hang DSP…"
-
-msgctxt "#24137"
-msgid "Not allowed"
-msgstr "Nem engedélyezett"
-
-msgctxt "#24138"
-msgid "DSP add-on is currently in use and can't be removed."
-msgstr "A DSP kiegészítő használatban van és nem törölhető."
+msgctxt "#24134"
+msgid "Download subtitle..."
+msgstr "Felirat letöltése..."
 
 msgctxt "#24139"
 msgid "View Add-on"
@@ -12413,6 +12221,10 @@ msgctxt "#33032"
 msgid "Translate text"
 msgstr "Szöveg lefordítása"
 
+msgctxt "#33033"
+msgid "Map list {0:s} category"
+msgstr "{0:s} listázási kategória"
+
 msgctxt "#33034"
 msgid "36-hour"
 msgstr "36 órás"
@@ -12825,6 +12637,10 @@ msgctxt "#35012"
 msgid "A new controller has been detected. Configuration can be done at any time in \"Settings -> System Settings -> Input\". Would you like to configure it now?"
 msgstr "Új kontroller csatlakoztatva. Bármikor beállítható a \"Rendszer -> Rendszer -> Beviteli-eszközök\" menüben. Szeretnéd most beállítani?"
 
+msgctxt "#35014"
+msgid "Some controllers have buttons and axes that interfere with mapping. Press these now to disable them:[CR]{0:s}"
+msgstr "Néhány vezérlőn olyan gombok és karok találhatóak, melyek megzavarják a billentyűzetkiosztást. Nyomja meg ezeket most a kikapcsolásukhoz:[CR]{0:s}"
+
 msgctxt "#35015"
 msgid "Button {0:d}"
 msgstr "{0:d}. gomb"
@@ -12912,6 +12728,18 @@ msgstr "Csatlakoztatott játékvezérlők beállítása"
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Párosítsa a játékvezérlőit a különböző játékrendszerek bemeneti eszközeivel."
+
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "Versenykormány"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "Pedálok"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "Joystickek"
 
 msgctxt "#35074"
 msgid "Face buttons"
@@ -13033,9 +12861,17 @@ msgctxt "#35152"
 msgid "Enable keyboard"
 msgstr "Billentyűzet bekapcsolása"
 
+msgctxt "#35153"
+msgid "This allows the keyboard to emulate up to 8 game controllers. If disabled, the keyboard can still be used to control emulators like DOSBox which require a full keyboard."
+msgstr "Ezzel a billentyűzet 8 játékvezérlőt emulálhat. Ha le van tiltva, akkor a billentyűzet továbbra is használható marad az olyan emulátorok vezérlésére mint a DOSBox, amely teljes billentyűzetet igényel."
+
 msgctxt "#35154"
 msgid "Number of keyboard players"
 msgstr "Billentyűzeten játszó játékosok száma"
+
+msgctxt "#35155"
+msgid "Set the number of players using the keyboard. This is intended for devices that use keyboard drivers, but you can also see how many people fit around a keyboard!"
+msgstr "Adja meg a játékosok számát a billentyűzeten. Ez olyan eszközök esetére szánt, amelyek billentyűzetmeghajtókat használnak, de megláthatja hogy hányan férnek el a billentyűzeten."
 
 msgctxt "#35156"
 msgid "{0:d}"
@@ -13085,6 +12921,22 @@ msgctxt "#35167"
 msgid "Single keys"
 msgstr "Egy gomb"
 
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Billentyű kiválasztása"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Nyomjon le egy billentyűt"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Nyomjon le egy billentyűt ({1:d})"
+
+msgctxt "#35171"
+msgid "Mouse"
+msgstr "Egér"
+
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
 msgstr "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -13096,6 +12948,10 @@ msgstr "Játékmenet"
 msgctxt "#35203"
 msgid "Enable rewind if supported"
 msgstr "Visszatekerés bekapcsolása, ha támogatott"
+
+msgctxt "#35204"
+msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
+msgstr "Valós idejű visszatekerés bekapcsolása játék közben, ha támogatott. Nyomja meg a visszatekerést, vagy tekerjen vissza kézzel a keresősávval."
 
 msgctxt "#35205"
 msgid "Maximum rewind time"
@@ -13144,6 +13000,10 @@ msgstr "Ez a játék egy letiltott kiegészítőtől függ. Szeretné engedélye
 msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Kiegészítők támogatása"
+
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "A mentési állapot csak ezzel tölthető be: „{0:s}”. Törli a mentési állapotot és folytatja?"
 
 msgctxt "#35218"
 msgid "Erase savestate"
@@ -13196,6 +13056,10 @@ msgstr "A kiegészítő telepítése sikertelen."
 msgctxt "#35257"
 msgid "Installed"
 msgstr "Telepítve"
+
+msgctxt "#35258"
+msgid "Select emulator for {0:s} file"
+msgstr "Válasszon emulátort a(z) {0:s} fájlhoz"
 
 msgctxt "#35259"
 msgid "Saved"
@@ -13397,6 +13261,18 @@ msgctxt "#36046"
 msgid "Force AVR to wake up when Kodi is activated"
 msgstr "AVR egység felébresztése a Kodi indulásakor"
 
+msgctxt "#36047"
+msgid "Remote button press delay before repeating (ms)"
+msgstr "Távirányítógomb lenyomások közti késleltetés, amíg nem számít ismétlésnek (ms)"
+
+msgctxt "#36048"
+msgid "Remote button press repeat rate (ms)"
+msgstr "Távirányítógomb lenyomások ismétlési sebessége (ms)"
+
+msgctxt "#36049"
+msgid "Remote button press release time (ms)"
+msgstr "Távirányítógomb lenyomás utáni felengedési idő (ms)"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Ditherelés"
@@ -13464,6 +13340,10 @@ msgstr "A kezelőfelület nyelvének kiválasztása."
 msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "A hőmérséklet, idő és dátum formátumának választása. A rendelkezésre álló lehetőségeket a kiválasztott nyelv befolyásolja."
+
+msgctxt "#36116"
+msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
+msgstr "Válassza ki a kezelőfelületen megjelenő szöveg karakterkészletét. Ez nem módosítja a feliratokhoz használt karakterkészletet, ahhoz ugorjon a Lejátszó > Nyelv menüponthoz."
 
 msgctxt "#36117"
 msgid "Select country location."
@@ -13577,6 +13457,10 @@ msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
 msgstr "Válassza ki hogy mely esetekben szeretné elrejteni a TV sorozatok évad bejegyzéseit. Ha rejtett, akkor a TV műsor kiválasztása közvetlenül az epizódok nézetbe visz."
 
+msgctxt "#36145"
+msgid "When enabled, movies belonging to a \"Movie set\" are grouped together under one entry for the set in the movie library, this entry can then be opened to display the individual movies. When disabled, each movie will have its own entry in the movie library even if it belongs to a set."
+msgstr "Ha be van kapcsolva, akkor a filmgyűjteménybe tartozó filmek egy csoportban jelennek meg a filmtárban. Ez a bejegyzés aztán megnyitható és megjelennek a filmek egyesével. Ha ki van kapcsolva, akkor minden filmnek saját bejegyzése lesz a filmtárban, még akkor is ha egy gyűjteménybe tartozik."
+
 msgctxt "#36146"
 msgid "Check for new media files on startup."
 msgstr "Új médiafájlok keresése induláskor"
@@ -13680,6 +13564,10 @@ msgstr "A videó felfelé nyújtása a megadott százalékig, a fekete sávok mi
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Kiválasztja a nagyítási értéket, ami a 4:3-as videót szélesvásznú kijelzőhöz igazítja."
+
+msgctxt "#36172"
+msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
+msgstr "A videofájlok PRIME hardveres dekódolásának engedélyezése, ha az ffpmpeg PRIME hwaccel elérhető."
 
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
@@ -13829,6 +13717,10 @@ msgctxt "#36209"
 msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
 msgstr "A csatornák és műsorújság adatbázisának törlése és az adatok újraimportálása a háttérkiszolgálóról."
 
+msgctxt "#36210"
+msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
+msgstr "A kliensprioritások párbeszédablak megnyitása, amellyel módosítható az engedélyezett PVR kliensek prioritásának módosítása, a személyes igényeinek megfelelően. Például, a csatornákat kliensenként sorrendezheti. A magasabb érték magasabb prioritást jelent."
+
 msgctxt "#36211"
 msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
 msgstr "Ez a kategória tartalmazza a PVR menük és a navigációs tálca (OSD) beállításait, valamint a csatornainformációs ablakokat."
@@ -13840,6 +13732,10 @@ msgstr "Program információk megjelenítése a csatornaváltás alatt, mint pé
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "A csoportkezelő megnyitása, amely a csoportok és a megfelelő csatornák módosítását teszi lehetővé"
+
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "A lejátszott csatorna előzetes kiválasztása a csatornalistát tartalmazó ablakokon és párbeszédablakon. Ha engedélyezett, és van lejátszott csatorna, akkor az a csatorna lesz kiválasztva a csatornalistát tartalmazó ablakokon és párbeszédablakokon. Ha tiltott, akkor az előzőleg kiválasztott csatorna lesz kiválasztva."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -13856,6 +13752,14 @@ msgstr "Hiányzó csatornaikonok keresése."
 msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Ez a kategória tartalmazza az elektronikus műsorújság (EPG) beállításokat."
+
+msgctxt "#36219"
+msgid "Number of past days to show in the guide and to import from backends."
+msgstr "A műsorújságban megjelenítendő korábbi napok száma, amelyek adatait a háttérkiszolgálókról is importálni kell."
+
+msgctxt "#36220"
+msgid "Number of future days to show in the guide and to import from backends."
+msgstr "A műsorújságban megjelenítendő jövőbeli napok száma, amelyek adatait a háttérkiszolgálókról is importálni kell."
 
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
@@ -13881,9 +13785,17 @@ msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "A kategória tartalmazza a PVR lejátszás és a csatornaváltási beállításokat."
 
+msgctxt "#36227"
+msgid "Switch to full screen display when starting playback of channels and recordings."
+msgstr "Teljes képernyőre váltás a csatornák és felvételek visszajátszásának elindításakor."
+
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Jelminőség kijelzése a kodekinformácós ablakban (ha a kiegészítő és a háttérkiszolgáló is támogatja)"
+
+msgctxt "#36231"
+msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
+msgstr "Amikor a csatornák között vált a le/föl gombokkal, akkor a csatornaváltást meg kell erősítenie az OK gombbal."
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -13997,6 +13909,10 @@ msgctxt "#36261"
 msgid "If enabled, this framerate is used for streams we were not able to detect fps."
 msgstr "Ha engedélyezett, akkor ez a képkockasebesség lesz használatban azokhoz a videófolyamokhoz ahol nem sikerült a képkockasebességet érzékelni."
 
+msgctxt "#36262"
+msgid "Export parts of the music library to an XML file or NFO files. This will optionally overwrite your current NFO and artwork files."
+msgstr "Zenetár részeinek exportálása XML fájlba vagy NFO fájlokba. Ez választhatóan felülírhatja a jelenlegi NFO és illusztrációs fájlokat."
+
 msgctxt "#36263"
 msgid "Import an XML file into the music library database."
 msgstr "XML fájl importálása a zenetár adatbázisba."
@@ -14024,6 +13940,10 @@ msgstr "Referencia hangerő (PreAmp szint) azokhoz a fájlokhoz, amelyekben van 
 msgctxt "#36269"
 msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
 msgstr "Referencia hangerő (PreAmp szint) azokhoz a fájlokhoz, amelyekben nincs lejátszásszint információ kódolva. Az alapértelmezés a szabvány szerinti 89dB. Óvatosan változtassa."
+
+msgctxt "#36270"
+msgid "Play file at lower volume, if necessary, to avoid audio limiting clipping protection. Otherwise clipping protection will be provided by the audioengine in those parts that need it."
+msgstr "Amennyiben szükséges, a fájl lejátszása alacsonyabb hangerővel, elkerülendő a hangkorlátozó vágási védelmet. Ellenkező esetben szükség esetén a hangvezérlő bekapcsolja a védelmet."
 
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
@@ -14589,6 +14509,10 @@ msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Amlogic hardveres gyorsítás engedélyezése videó dekodolásához."
 
+msgctxt "#36424"
+msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
+msgstr "Válassza ki mi történjen ha egy elem kiválasztásra került a műsorújságban: [Környezeti menü megjelenítése] Aktiválja a környezeti menüt, ahol további műveletek közül választhat; [Csatornára váltás] Azonnal behangolja a csatornát; [Információk megjelenítése] Részletes információk megjelenítése történettel és további lehetőségekkel; [Felvétel] Időzítő létrehozása a kiválasztott elemhez. [„Okos kiválasztás”] A művelet dinamikus kerül kiválasztásra, attól függően, hogy az elem a múltban, a jelenben vagy a jövőben van."
+
 msgctxt "#36425"
 msgid "Show context menu"
 msgstr "Helyi menü mutatása"
@@ -14632,30 +14556,6 @@ msgstr "MMAL hardveres gyorsítás engedélyezése."
 msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
 msgstr "A VideoPlayer használata a videófájlok lejátszásához MMAL gyorsítással."
-
-msgctxt "#36436"
-msgid "Audio DSP manager..."
-msgstr "Hang DSP-kezelő…"
-
-msgctxt "#36437"
-msgid "Allows to configure available modes for different stages in audio processing and to arrange the steps within the processing chain of each selected mode."
-msgstr "Lehetővé teszi az elérhető módok beállítását a hangfeldolgozás különböző lépéseinél, és a lépések sorbarendezését a kiválasztott módok feldolgozási láncában."
-
-msgctxt "#36438"
-msgid "Enables digital signal processing (DSP) of audio channels specified by the speaker configuration."
-msgstr "Engedélyezi az audió csatornák digitális jelfeldolgozását (DSP) a hangszóró beállításoknak megfelően."
-
-msgctxt "#36439"
-msgid "All data (add-on settings and audio DSP manager settings) in the audio DSP database will be erased."
-msgstr "Minden adat (kiegészítő és hang DSP-kezelő beállítások) törlésre kerül a hang DSP-kezelő adatbázisból."
-
-msgctxt "#36440"
-msgid "Erasing all DSP add-on and audio DSP manager settings in the audio DSP database."
-msgstr "Minden DSP kiegészítő és hang DSP-kezelő beállítás törlése a hang DSP adatbázisból."
-
-msgctxt "#36441"
-msgid "Enable audio DSP processing"
-msgstr "Hang DSP feldolgozás engedélyezése"
 
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
@@ -14865,9 +14765,17 @@ msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "ICC kijelző profil"
 
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "A megjelenítési profil megadásával módosíthatja a videóparamétereket, mint a gammát, az alapszíneket és a fehér pontot a lejátszáskor. Az ICC forrásprofil a paraméterek alapján készül, és összekapcsolásra kerül az itt megadott ICC színprofillal. Ez a támogatás kísérleti, és hiányzik belőle a fekete közeli igazítás a kijelző tényleges feketéjéhez képest (magasabb fekete szintet eredményezve), és a fehér skálázás, ha a fehér pont különbözik a képernyő valós értékétől (kerülőmegoldásként módosítsa a videó fényességét, hogy elkerülje a vágást)."
+
 msgctxt "#36568"
 msgid "Whitepoint"
 msgstr "Fehérpont"
+
+msgctxt "#36569"
+msgid "Changing video whitepoint to D93 is mainly useful for older Japanese NTSC material which looks too red when played back on a D65 display. Adjust video brightness setting down to avoid clipping to display native whitepoint."
+msgstr "A videó fehér pont módosítása D93-ra főleg régebbi japán NTSC anyagok esetén hasznos, mert ezek túl vörösek lehetnek, ha D65 kijelzőn jelenítik meg őket. Vegye alacsonyabbra a fényességbeállítást, hogy elkerülje a levágást a kijelző natív fehér pontjára."
 
 msgctxt "#36570"
 msgid "Primaries"
@@ -14881,13 +14789,25 @@ msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Gamma mód"
 
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Válassza ki a gamma görbe képletét. Használjon BT.1886 gamma görbét, amely figyelembe veszi a kijelző fekete és fehér szintjét, így elkerülve az észlelt vágást. Használjon bemeneti eltolást a hasonló görbékhez, amelyeknél a gamma kézzel lett megadva. A kimeneti eltolás észlelt vágást okozhat, de használható a hibás kijelzőbeállítások kompenzálására, ha azok túl sok sötét részlet eredményeznek. Az abszolút gamma nem veszi figyelembe egyáltalán a kijelző feketéjét, és a legalacsonyabb szintnél fog váltani a fekete megjelenítésére, minden olyan kijelzőn, ahol nullánál nagyobb a fekete szintje."
+
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
 
+msgctxt "#36575"
+msgid "Gamma for selected gamma curve type. For input and output offset, the result at 50% will match an absolute gamma curve with this gamma value."
+msgstr "A kiválasztott gamma görbe típus gammája. A be- és kimeneti eltolásnál, az 50%-nál lévő eredmény egyezni fog az ezzel a gamma értékkel számolt abszolút gamma görbével."
+
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Keresőtábla mérete"
+
+msgctxt "#36577"
+msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
+msgstr "Adja meg a 3D-s keresőtábla felbontását. Használjon alacsonyabb felbontást a gyors előnézethez, és nagyobb felbontást a pontos képhez. A magas felbontás használata esetén másodpercekig is tarthat az előkészítés a paraméterek módosításakor, vagy egy új videó elindításakor."
 
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -15080,6 +15000,26 @@ msgstr "SMBv3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "Ügyfél"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "Minimális protokollverzió"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Állítsa be a legalacsonyabb SMB protokollverziót a kapcsolatok létesítése során. Az SMBv2 kompatibilitás kényszerítése szükséges lehet az SMBv1 megakadályozásához egyes operációs rendszerek esetén."
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "Örökölt biztonság használata"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Gyenge SMBv1 biztonság erőltetése, az egyes USB megosztási funkciókkal rendelkező WiFi routerek vagy NAS eszközökkel kompatibilis működés miatt."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "SSL titkosítás engedélyezés a webkiszolgálón. A special://userdata/server.key tanúsítványt és a special://userdata/server.pem kulcsot kézileg kell előállítani"
 
 msgctxt "#36900"
 msgid "movie"
@@ -15501,6 +15441,10 @@ msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Ez a csoport a médialejátszással kapcsolatos beállításokat tartalmazza"
 
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Ez a csoport tartalmazza azokat a beállításokat, melyek a médiainformációk beszerzését, tárolását és megjelenítését szabályozzák."
+
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
 msgstr "Ez a csoport azokat a beállításokat tartalmazza, melyek a GUI élményt és a rendszer vezérlését befolyásolják."
@@ -15569,6 +15513,14 @@ msgctxt "#38302"
 msgid "Separate files for each item"
 msgstr "Külön fájl minden elemhez"
 
+msgctxt "#38303"
+msgid "To library folders"
+msgstr "A médiatár mappákba"
+
+msgctxt "#38304"
+msgid "Choose kind of export output"
+msgstr "Válassza ki az exportálás kimenetét"
+
 msgctxt "#38305"
 msgid "Destination folder"
 msgstr "Célmappa"
@@ -15576,6 +15528,18 @@ msgstr "Célmappa"
 msgctxt "#38306"
 msgid "Items to export"
 msgstr "Exportálandó elemek"
+
+msgctxt "#38307"
+msgid "Include art work such as thumbnails and fanart"
+msgstr "Illusztrációk, mint a bélyegképek, bele vétele"
+
+msgctxt "#38308"
+msgid "Include items that have not been scraped (to create template NFO files)"
+msgstr "A nem átnézett elemek bele vétele (sablon NFO fájlok létrehozásához)"
+
+msgctxt "#38309"
+msgid "Output only artwork, not NFO files"
+msgstr "Csak az illusztrációk kerüljenek a kimenetbe, az NFO fájlok nem"
 
 msgctxt "#38310"
 msgid "Overwrite existing files"
@@ -15589,6 +15553,10 @@ msgctxt "#38313"
 msgid "Other artists"
 msgstr "Egyéb előadók"
 
+msgctxt "#38317"
+msgid "Unable to export to library folders as the system artist information folder setting is empty"
+msgstr "A médiatár mappák nem exportálhatóak, mert a rendszer előadó-információs mappabeállítása üres"
+
 msgctxt "#38318"
 msgid "Unable to export data as the destination folder does not exist"
 msgstr "Adatok exportálása sikertelen, mivel a célmappa nem létezik"
@@ -15596,6 +15564,10 @@ msgstr "Adatok exportálása sikertelen, mivel a célmappa nem létezik"
 msgctxt "#38319"
 msgid "Export"
 msgstr "Exportálás"
+
+msgctxt "#38320"
+msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
+msgstr "Vannak előadó-információs (NFO) és illusztrációs fájljai, amelyeket be akar olvasni? Adja meg ezen mappák nevét most"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15652,6 +15624,10 @@ msgstr "MPEG4 gyorsítás"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "h264 gyorsítás"
+
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "Ez a kategória hozzáférést biztosít a forráskezelés ablakaihoz és az adatbázisok médiatár beállításaihoz"
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -15740,6 +15716,10 @@ msgstr "Nem"
 msgctxt "#39026"
 msgid "Disambiguation"
 msgstr "Egyértelműsítés"
+
+msgctxt "#39027"
+msgid "Sortname"
+msgstr "Rövid név"
 
 msgctxt "#39100"
 msgid "Perform on startup"
