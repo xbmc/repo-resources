@@ -583,7 +583,7 @@ msgstr "Résolution"
 
 msgctxt "#170"
 msgid "Adjust display refresh rate"
-msgstr "Ajuster la fréquence d'actualisation"
+msgstr "Ajuster le taux de rafraîchissement d'affichage"
 
 msgctxt "#171"
 msgid "Sort title"
@@ -871,7 +871,7 @@ msgstr "Fenêtré"
 
 msgctxt "#243"
 msgid "Refresh rate"
-msgstr "Fréquence de rafraîchissement"
+msgstr "Taux de rafraîchissement"
 
 msgctxt "#244"
 msgid "Full screen"
@@ -1880,6 +1880,10 @@ msgstr "Vide"
 msgctxt "#505"
 msgid "Loading media information from files..."
 msgstr "Chargement des informations à partir des fichiers"
+
+msgctxt "#506"
+msgid "Checking media files..."
+msgstr "Vérification des fichiers média…"
 
 msgctxt "#507"
 msgid "Sort by: Usage"
@@ -2899,7 +2903,7 @@ msgstr "Éviter les doublons d'épisodes"
 
 msgctxt "#813"
 msgid "Start padding time"
-msgstr "Heure de départ de remplissage"
+msgstr "Heure de début de remplissage"
 
 msgctxt "#814"
 msgid "End padding time"
@@ -5515,7 +5519,7 @@ msgstr "Utiliser MPEG-2 VDPAU"
 
 msgctxt "#13442"
 msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
-msgstr "Activer cette option afin d'utiliser l'accélération matérielle pour les codecs MPEG-(1/2). Sinon, le processeur sera utilisé à la place. Les vieilles cartes graphiques Radeon ont tendance à planter en « segfault » avec cette option activée."
+msgstr "Activer cette option afin d'utiliser l'accélération matérielle pour les codecs MPEG-(1/2). Sinon, le processeur sera utilisé. Les vieilles cartes graphiques Radeon ont tendance à planter en « segfault » avec cette option activée."
 
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
@@ -5523,7 +5527,7 @@ msgstr "Utiliser MPEG-4 VDPAU"
 
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION hardware has problems with this being enabled by default."
-msgstr "Activer cette option pour utiliser l'accélération matérielle du codec MPEG-4. Sinon, le processeur sera utilisé à la place. Certains matériels ION présentent des problèmes si cette option est activée par défaut."
+msgstr "Activer cette option pour utiliser l'accélération matérielle du codec MPEG-4. Sinon, le processeur sera utilisé. Certains matériels ION présentent des problèmes si cette option est activée par défaut."
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5531,7 +5535,7 @@ msgstr "Utiliser VC-1 VDPAU"
 
 msgctxt "#13446"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD hardware with VDPAU can't decode VC-1 Simple."
-msgstr "Activer cette option pour utiliser l'accélération matérielle pour les codecs basés sur VC-1. Sinon, le processeur sera utilisé à la place. Le matériel AMD avec VDPAU ne peut pas décoder le VC-1 simple."
+msgstr "Activer cette option pour utiliser l'accélération matérielle pour les codecs basés sur VC-1. Sinon, le processeur sera utilisé. Le matériel AMD avec VDPAU ne peut pas décoder le VC-1 simple."
 
 msgctxt "#13447"
 msgid "Use MPEG-2 VAAPI"
@@ -5539,7 +5543,7 @@ msgstr "Utiliser MPEG-2 VAAPI"
 
 msgctxt "#13448"
 msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Some MPEG-2 videos might have green artifacts."
-msgstr "Activer cette option pour utiliser l'accélération matérielle pour les codecs MPEG-(1/2). Sinon, le processeur sera utilisé à la place. Certaines vidéos encodées en MPEG-2 peuvent présenter des artéfacts verts."
+msgstr "Activer cette option pour utiliser l'accélération matérielle pour les codecs MPEG-(1/2). Sinon, le processeur sera utilisé. Certaines vidéos encodées en MPEG-2 peuvent présenter des artefacts verts."
 
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
@@ -5547,7 +5551,7 @@ msgstr "Utiliser MPEG-4 VAAPI"
 
 msgctxt "#13450"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
-msgstr "Activer cette option pour utiliser l'accélération matérielle pour le codec MPEG-4. Sinon le processeur sera utilisé à la place."
+msgstr "Activer cette option pour utiliser l'accélération matérielle pour le codec MPEG-4. Sinon le processeur sera utilisé."
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
@@ -5555,7 +5559,23 @@ msgstr "Utiliser VC-1 VAAPI"
 
 msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
-msgstr "Activer cette option pour utiliser l'accélération matérielle pour les codecs basés sur VC-1. Sinon, le processeur sera utilisé à la place. Les vidéos en VC-1 entrelacé plantent sur le matériel Intel."
+msgstr "Activer cette option pour utiliser l'accélération matérielle pour les codecs basés sur VC-1. Sinon, le processeur sera utilisé. Les vidéos en VC-1 entrelacé plantent sur le matériel Intel."
+
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "Utiliser VP8 VAAPI"
+
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "Activer cette option afin d'utiliser l'accélération matérielle pour le codec VP8. Sinon le processeur sera utilisé."
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "Utiliser VP9 VAAPI"
+
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "Activer cette option afin d'utiliser l'accélération matérielle pour le codec VP9. Si désactivé, le processeur sera utilisé."
 
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
@@ -5568,6 +5588,14 @@ msgstr "Autoriser l'accélération matérielle - OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Utilise OMXPLayer pour décoder les fichiers vidéos."
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "Utiliser HEVC VAAPI"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "Activer cette option afin d'utiliser l'accélération matérielle pour le codec HEVC. Si désactivé, le processeur sera utilisé."
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -5639,7 +5667,7 @@ msgstr "Choisir un type d'illustration"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
-msgstr "Délai après changement de la fréquence d'actualisation"
+msgstr "Délai après changement du taux de rafraîchissement"
 
 msgctxt "#13551"
 msgid "Off"
@@ -6004,6 +6032,10 @@ msgstr "Utiliser une fenêtre plein écran"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Placer en file d'attente les chansons sélectionnées"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Liste blanche"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -7635,11 +7667,11 @@ msgstr "Groupes de chaînes radio"
 
 msgctxt "#19175"
 msgid "Default start padding time"
-msgstr "Décalage de début prédéfini"
+msgstr "Écart de remplissage de début prédéfini"
 
 msgctxt "#19176"
 msgid "Default end padding time"
-msgstr "Décalage de fin prédéfini"
+msgstr "Écart de remplissage de fin prédéfini"
 
 msgctxt "#19177"
 msgid "Playback"
@@ -8140,6 +8172,10 @@ msgstr "Chaînes verticales sans sélecteur de groupes"
 msgctxt "#19301"
 msgid "Horizontal channels, no group selector"
 msgstr "Chaînes horizontales sans sélecteur de groupes"
+
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "Faut-il enregistrer le programme sélectionné ou bien basculer vers le programme actuel ?"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9272,6 +9308,14 @@ msgstr "Rechercher des sous-titres externes"
 msgctxt "#20223"
 msgid "Artist information folder"
 msgstr "Dossier d'informations de l'artiste"
+
+msgctxt "#20224"
+msgid "Prefer online album art"
+msgstr "Préférer les illustrations d'album en ligne"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "Lorsqu'il n'existe pas localement de couverture d'album, une illustration en ligne sera utilisée. Si aucune n'est disponible, les images de couverture embarquées dans les fichiers musicaux seront utilisées."
 
 msgctxt "#20240"
 msgid "Android music"
@@ -13535,15 +13579,15 @@ msgstr "Affiche les séries TV sans épisode lors du parcours de la vidéothèqu
 
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
-msgstr "Autorise le changement de la fréquence de rafraîchissement de l'écran pour correspondre au mieux à celle de la vidéo. Cela peut rendre la lecture vidéo plus fluide."
+msgstr "Autorise le changement du taux de rafraîchissement de l'écran pour correspondre au mieux à celui de la vidéo. Cela peut rendre la lecture vidéo plus fluide."
 
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "Délai de réinitialisation après changement de la fréquence d'actualisation"
+msgstr "Délai de réinitialisation après changement de la fréquence de rafraîchissement"
 
 msgctxt "#36166"
 msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
-msgstr "Synchronise la vidéo et l'audio à la fréquence de rafraichissement de l'écran. Le lecteur VideoPlayer n'utilisera pas le mode laisser-passer (Passthrough) audio dans ce cas car cela nécessiterait un rééchantillonnage."
+msgstr "Synchronise la vidéo et l'audio au taux de rafraîchissement de l'écran. Le lecteur VideoPlayer n'utilisera pas le mode laisser-passer (Passthrough) audio dans ce cas car cela nécessiterait un rééchantillonnage."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -14235,7 +14279,7 @@ msgstr "Change la résolution de l'écran sur lequel l'interface utilisateur est
 
 msgctxt "#36353"
 msgid "Changes the refresh rate that the user interface is displayed in."
-msgstr "Change la fréquence de rafraîchissement de l'écran sur lequel l'interface utilisateur est affichée."
+msgstr "Change le taux de rafraîchissement de l'écran sur lequel l'interface utilisateur est affichée."
 
 msgctxt "#36354"
 msgid "If enabled, fullscreen mode will be applied by using a window instead of a real fullscreen mode. The main benefit is for multi-screen configurations, so that other applications can be used in parallel more easily. This uses more resources so playback may be less smooth."
@@ -14244,6 +14288,10 @@ msgstr "Si activé, le mode plein écran sera appliqué à une fenêtre au lieu 
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Dans une configuration multiécrans, ceux n'affichant pas cette application seront noircis."
+
+msgctxt "#36356"
+msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
+msgstr "Des modes en liste blanche peuvent être acceptés quand la résolution et le taux de rafraîchissement sont modifiés."
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."

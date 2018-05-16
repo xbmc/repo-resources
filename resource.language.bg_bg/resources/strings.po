@@ -1881,6 +1881,10 @@ msgctxt "#505"
 msgid "Loading media information from files..."
 msgstr "Зареждане на информация от файлове…"
 
+msgctxt "#506"
+msgid "Checking media files..."
+msgstr "Проверяване на медийните файлове…"
+
 msgctxt "#507"
 msgid "Sort by: Usage"
 msgstr "Подредба: Употреба"
@@ -5511,7 +5515,7 @@ msgstr "Разреши хардуерното ускорение – MediaCodec 
 
 msgctxt "#13441"
 msgid "Use MPEG-2 VDPAU"
-msgstr "Ползвай Mpeg-2 VDPAU"
+msgstr "Използване на Mpeg-2 VDPAU"
 
 msgctxt "#13442"
 msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
@@ -5519,7 +5523,7 @@ msgstr "Включете опцията, за да ползвате хардуе
 
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
-msgstr "Ползвай Mpeg-4 VDPAU"
+msgstr "Използване на Mpeg-4 VDPAU"
 
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION hardware has problems with this being enabled by default."
@@ -5527,7 +5531,7 @@ msgstr "Включете опцията, за да ползвате хардуе
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
-msgstr "Ползвай VC-1 VDPAU"
+msgstr "Използване на VC-1 VDPAU"
 
 msgctxt "#13446"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD hardware with VDPAU can't decode VC-1 Simple."
@@ -5535,7 +5539,7 @@ msgstr "Включете опцията, за да ползвате хардуе
 
 msgctxt "#13447"
 msgid "Use MPEG-2 VAAPI"
-msgstr "Ползвай Mpeg-2 VAAPI"
+msgstr "Използване на Mpeg-2 VAAPI"
 
 msgctxt "#13448"
 msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Some MPEG-2 videos might have green artifacts."
@@ -5543,7 +5547,7 @@ msgstr "Включете опцията, за да ползвате хардуе
 
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
-msgstr "Ползвай Mpeg-4 VAAPI"
+msgstr "Използване на Mpeg-4 VAAPI"
 
 msgctxt "#13450"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
@@ -5551,11 +5555,27 @@ msgstr "Включете опцията, за да ползвате хардуе
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
-msgstr "Ползвай VC-1 VAAPI"
+msgstr "Използване на VC-1 VAAPI"
 
 msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "Включете опцията, за да ползвате хардуерното ускорение за VC-1 кодеци. Ако не е активна, декодирането ще се изпълнява от централния процесор. Системи, базирани на Intel не могат да декодират VC-1 interlaced видео."
+
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "Използване на VP8 VAAPI"
+
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "Включете това, за да ползвате хардуерното ускорение за кодека VP8. Ако това е изключено декодирането ще се изпълнява от централния процесор."
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "Използване на VP9 VAAPI"
+
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "Включете това, за да ползвате хардуерното ускорение за кодека VP9. Ако това е изключено, декодирането ще се изпълнява от централния процесор."
 
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
@@ -5568,6 +5588,14 @@ msgstr "Разреши хардуерното ускорение – OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Включва OMXPlayer за декодиране на видео файлове."
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "Използване на HEVC VAAPI"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "Включете това, за да ползвате хардуерното ускорение за кодека HEVC. Ако това е изключено декодирането ще се изпълнява от централния процесор."
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -6004,6 +6032,10 @@ msgstr "Прозорец на цял екран"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "При избиране добавяй песните към опашката"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Списък с разрешени"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -8141,6 +8173,10 @@ msgctxt "#19301"
 msgid "Horizontal channels, no group selector"
 msgstr "Хоризонтални канали, без избор на група"
 
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "Искате ли да запишете избраното предаване, или предпочитате да превключите към текущото предаване?"
+
 msgctxt "#19499"
 msgid "Other / Unknown"
 msgstr "Друг / Неизвестен"
@@ -9272,6 +9308,14 @@ msgstr "Търси външни субтитри"
 msgctxt "#20223"
 msgid "Artist information folder"
 msgstr "Папка с информация за изпълнителите"
+
+msgctxt "#20224"
+msgid "Prefer online album art"
+msgstr "Да се предпочитат изображения за албумите от Интернет"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "Когато не съществува местно изображение за албума, ще се използва такова от Интернет. Ако няма нищо налично, ще се използват изображенията, вградени в музикалните файлове."
 
 msgctxt "#20240"
 msgid "Android music"
@@ -14244,6 +14288,10 @@ msgstr "Включва изобразяване в прозорец заемащ
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Затъмнява екраните, които не показват Kodi, когато ползвате повече от един екран."
+
+msgctxt "#36356"
+msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
+msgstr "Може да се превключва към разрешените режими при промяна на резолюцията и честотата на опресняване"
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
