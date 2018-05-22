@@ -1881,6 +1881,10 @@ msgctxt "#505"
 msgid "Loading media information from files..."
 msgstr "Загрузка информации из файлов…"
 
+msgctxt "#506"
+msgid "Checking media files..."
+msgstr "Проверка медиа файлов..."
+
 msgctxt "#507"
 msgid "Sort by: Usage"
 msgstr "Сорт. по частоте"
@@ -4181,6 +4185,18 @@ msgctxt "#10607"
 msgid "PVR update progress"
 msgstr "Ход обновления PVR"
 
+msgctxt "#10608"
+msgid "PVR OSD channels"
+msgstr "PVR OSD каналы"
+
+msgctxt "#10609"
+msgid "PVR OSD guide"
+msgstr "PVR OSD программа"
+
+msgctxt "#10611"
+msgid "PVR recording setting"
+msgstr "PVR настройки записи"
+
 msgctxt "#10700"
 msgid "TV channels"
 msgstr "Телеканалы"
@@ -4229,6 +4245,14 @@ msgctxt "#10711"
 msgid "Radio timer rules"
 msgstr "Правила таймера радио"
 
+msgctxt "#10800"
+msgid "Fullscreen live TV"
+msgstr "Полноэкранное ТВ"
+
+msgctxt "#10801"
+msgid "Fullscreen radio"
+msgstr "Полноэкранное радио"
+
 msgctxt "#10821"
 msgid "Games"
 msgstr "Игры"
@@ -4237,9 +4261,17 @@ msgctxt "#10823"
 msgid "Game controllers"
 msgstr "Игровые контроллеры"
 
+msgctxt "#12000"
+msgid "Select dialog"
+msgstr "Диалог выбора"
+
 msgctxt "#12001"
 msgid "Music info"
 msgstr "Информация о музыке"
+
+msgctxt "#12002"
+msgid "OK dialog"
+msgstr "Диалог подтверждения выбора"
 
 msgctxt "#12003"
 msgid "Video info"
@@ -4544,6 +4576,10 @@ msgstr "Заставка"
 msgctxt "#12901"
 msgid "Fullscreen OSD"
 msgstr "Полноэкранный OSD"
+
+msgctxt "#12906"
+msgid "Fullscreen game"
+msgstr "Полноэкранная игра"
 
 msgctxt "#12999"
 msgid "Startup"
@@ -5417,6 +5453,10 @@ msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Разрешить аппаратное ускорение - VTBDecoder"
 
+msgctxt "#13430"
+msgid "Allow hardware acceleration - PRIME"
+msgstr "Включить аппаратное ускорение - PRIME"
+
 msgctxt "#13431"
 msgid "Pixel shaders"
 msgstr "Пиксельные шейдеры"
@@ -5501,6 +5541,22 @@ msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "Включите, чтобы использовать аппаратное декодирование форматов VC-1. В противном случае декодирование будет выполняться ЦП. Системы на базе Intel не могут декодировать чересстрочноевидео VC-1."
 
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "Использовать VP8 VAAPI"
+
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "Включите, чтобы использовать аппаратное декодирование для кодека VP8. В противном случае будет использоваться ЦП."
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "Использовать VP9 VAAPI"
+
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "Включите, чтобы использовать аппаратное декодирование для кодека VP9. В противном случае будет использоваться ЦП."
+
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Предпочитать обработку VAAPI"
@@ -5512,6 +5568,14 @@ msgstr "Включить аппаратное ускорение - OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Использвать OMXPlayer для декодирование видеофайлов."
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "Использовать HEVC VAAPI"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "Включите, чтобы использовать аппаратное декодирование для кодека HEVC. В противном случае будет использоваться ЦП."
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -5568,6 +5632,14 @@ msgstr "Порог коррекции тона"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "Когда скорость превышает указанный порог, применяется коррекция тона. Это устраняет эффект \"мультяшных голосов\", обычно наблюдаемый при ускорении видео."
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Встроенные иллюстрации"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Встроенный фанарт"
 
 msgctxt "#13521"
 msgid "Choose art type"
@@ -5940,6 +6012,10 @@ msgstr "Использовать окно на весь экран"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Добавлять треки в очередь при выборе"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Белый список"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -7209,6 +7285,10 @@ msgctxt "#19084"
 msgid "First day"
 msgstr "Первый день"
 
+msgctxt "#19085"
+msgid "Unknown channel {0:s}"
+msgstr "Неизвестный канал {0:s}"
+
 msgctxt "#19086"
 msgid "Instant recording action"
 msgstr "Быстрая запись"
@@ -7824,6 +7904,10 @@ msgstr "Загрузка записей с клиентов"
 msgctxt "#19239"
 msgid "Starting background threads"
 msgstr "Запуск фоновых процессов"
+
+msgctxt "#19240"
+msgid "Client priorities"
+msgstr "Приоритеты клиента"
 
 msgctxt "#19241"
 msgid "View timer information"
