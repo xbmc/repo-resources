@@ -467,7 +467,7 @@ msgstr "Procesor:"
 
 msgctxt "#141"
 msgid "GPU:"
-msgstr "GPU:"
+msgstr "Graf. čip:"
 
 msgctxt "#142"
 msgid "Time:"
@@ -855,7 +855,7 @@ msgstr "Zvětšení"
 
 msgctxt "#239"
 msgid "Clear playlist on finish"
-msgstr "Vymazat seznam stop po dokončení"
+msgstr "Po dokončení vymazat seznam stop"
 
 msgctxt "#240"
 msgid "Display mode"
@@ -903,7 +903,7 @@ msgstr "Vizualizace"
 
 msgctxt "#251"
 msgid "Select destination directory"
-msgstr "Vyberte cílový adresář"
+msgstr "Vyberte cílovou složku"
 
 msgctxt "#252"
 msgid "Stereo upmix"
@@ -951,7 +951,7 @@ msgstr "Výstup skriptů"
 
 msgctxt "#263"
 msgid "Allow remote control via HTTP"
-msgstr "Povolit vzdálené ovládání prostřednictvím HTTP"
+msgstr "Umožnit vzdálené ovládání prostřednictvím HTTP"
 
 msgctxt "#264"
 msgid "Record"
@@ -1019,7 +1019,7 @@ msgstr "Nelze načíst nastavení"
 
 msgctxt "#280"
 msgid "Using default settings"
-msgstr "Používání výchozích nastavení"
+msgstr "Používají se výchozí nastavení"
 
 msgctxt "#281"
 msgid "Please check the XML files"
@@ -1120,6 +1120,14 @@ msgstr "Povoleno"
 msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "Neprokládané"
+
+msgctxt "#307"
+msgid "Media default"
+msgstr "Výchozí média"
+
+msgctxt "#308"
+msgid "Original language"
+msgstr "Původní jazyk"
 
 msgctxt "#309"
 msgid "User interface language"
@@ -1611,7 +1619,7 @@ msgstr "Odebrat film z knihovny"
 
 msgctxt "#433"
 msgid "Would you really like to remove '{0:s}' from library?"
-msgstr "Opravdu chcete odebrat ‚{0:s}‘ z knihovny?"
+msgstr "Opravdu chcete odebrat „{0:s}“ z knihovny?"
 
 msgctxt "#434"
 msgid "From {0:s} at {1:d} {2:s}"
@@ -1877,6 +1885,10 @@ msgctxt "#505"
 msgid "Loading media information from files..."
 msgstr "Načítání informací o médiích ze souborů..."
 
+msgctxt "#506"
+msgid "Checking media files..."
+msgstr "Zjišťování souborů s médii…"
+
 msgctxt "#507"
 msgid "Sort by: Usage"
 msgstr "Seřadit podle: Využití"
@@ -2127,7 +2139,7 @@ msgstr "Studio"
 
 msgctxt "#573"
 msgid "Path"
-msgstr "Cesta"
+msgstr "Popis umístění"
 
 msgctxt "#574"
 msgid "Country"
@@ -2513,6 +2525,10 @@ msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
 msgstr "Podrobné protokolování [B]informací o časování audia nebo videa[/B]"
 
+msgctxt "#684"
+msgid "Verbose logging of [B]Windowing[/B] component"
+msgstr "Podrobné protokolování pro komponentu [B]Windowing[/B]"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Čištění knihovny"
@@ -2523,7 +2539,7 @@ msgstr "Odebírání starých skladeb z knihovny"
 
 msgctxt "#702"
 msgid "This path has been scanned before"
-msgstr "Tato cesta již byla prohledána"
+msgstr "Toto umístění už bylo prohledáno"
 
 msgctxt "#705"
 msgid "Network"
@@ -2543,7 +2559,7 @@ msgstr "Internetový protokol (IP)"
 
 msgctxt "#712"
 msgid "Invalid port specified. Value must be between 1 and 65535."
-msgstr "Zadán neplatný port. Hodnota musí být mezi 1 a 65535."
+msgstr "Zadán neplatný port. Je třeba, aby hodnota byla mezi 1 a 65535."
 
 msgctxt "#713"
 msgid "HTTP proxy"
@@ -2583,7 +2599,7 @@ msgstr "Uložit a restartovat"
 
 msgctxt "#724"
 msgid "Invalid address specified. Value must be AAA.BBB.CCC.DDD"
-msgstr "Zadána neplatná adresa. Hodnota musí být AAA.BBB.CCC.DDD"
+msgstr "Zadána neplatná adresa. Je třeba, aby hodnota měla podobu AAA.BBB.CCC.DDD"
 
 msgctxt "#725"
 msgid "with numbers between 0 and 255."
@@ -2603,7 +2619,7 @@ msgstr "Server FTP"
 
 msgctxt "#729"
 msgid "Enable SSL"
-msgstr "Povolit SSL"
+msgstr "Zapnout SSL"
 
 msgctxt "#730"
 msgid "Port"
@@ -2687,7 +2703,7 @@ msgstr "Přidat odkaz na program"
 
 msgctxt "#755"
 msgid "Edit program path"
-msgstr "Upravit cestu k programu"
+msgstr "Upravit popis umístění programu"
 
 msgctxt "#756"
 msgid "Edit program name"
@@ -2843,7 +2859,7 @@ msgstr "Maximální počet klientů"
 
 msgctxt "#798"
 msgid "Internet access"
-msgstr "Přístup k internetu"
+msgstr "Přístup k Internetu"
 
 msgctxt "#799"
 msgid "Library update"
@@ -3759,11 +3775,11 @@ msgstr "Systémové informace"
 
 msgctxt "#10008"
 msgid "Settings - Test patterns"
-msgstr "Nastavení – Testovací vzory"
+msgstr "Nastavení – testovací obrazce"
 
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
-msgstr "Nastavení - Videa - Kalibrace obrazovky"
+msgstr "Nastavení – Videa – Kalibrace obrazovky"
 
 msgctxt "#10016"
 msgid "Settings - System"
@@ -3771,15 +3787,15 @@ msgstr "Nastavení – Systém"
 
 msgctxt "#10018"
 msgid "Settings - Service"
-msgstr "Nastavení - Služby"
+msgstr "Nastavení – Služby"
 
 msgctxt "#10021"
 msgid "Settings - TV"
-msgstr "Nastavení - Televize"
+msgstr "Nastavení – Televize"
 
 msgctxt "#10022"
 msgid "Settings - Games"
-msgstr "Nastavení - Hry"
+msgstr "Nastavení – Hry"
 
 msgctxt "#10024"
 msgid "Titles"
@@ -3799,7 +3815,7 @@ msgstr "Přihlašovací obrazovka"
 
 msgctxt "#10030"
 msgid "Settings - Player"
-msgstr "Nastavení - Přehrávač"
+msgstr "Nastavení – Přehrávač"
 
 msgctxt "#10031"
 msgid "Settings - Media"
@@ -4067,7 +4083,7 @@ msgstr "Vyhledávání titulků…"
 
 msgctxt "#10211"
 msgid "Looking for or caching subtitles..."
-msgstr "Vyhledávání titulků nebo jejich ukládání do mezipaměti..."
+msgstr "Vyhledávání titulků nebo jejich ukládání do mezipaměti…"
 
 msgctxt "#10212"
 msgid "terminating"
@@ -4107,7 +4123,7 @@ msgstr "Programy"
 
 msgctxt "#10507"
 msgid "Configuration"
-msgstr "Konfigurace"
+msgstr "Nastavení"
 
 msgctxt "#10508"
 msgid "Weather forecast"
@@ -4451,7 +4467,7 @@ msgstr "Zadejte nové heslo"
 
 msgctxt "#12341"
 msgid "Re-enter new password"
-msgstr "Zadejte znovu nové heslo"
+msgstr "Zopakujte zadání nového hesla"
 
 msgctxt "#12342"
 msgid "Incorrect password,"
@@ -4463,7 +4479,7 @@ msgstr "zbývající pokusy"
 
 msgctxt "#12344"
 msgid "Passwords entered did not match."
-msgstr "Zadaná hesla se neshodují."
+msgstr "Zadání hesla se neshodují."
 
 msgctxt "#12345"
 msgid "Access denied"
@@ -5519,7 +5535,7 @@ msgstr "Použít MPEG-4 VDPAU"
 
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION hardware has problems with this being enabled by default."
-msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodeky MPEG-4. Pokud je zakázáno, bude namísto toho použit procesor. Některé chipy ION mají problémy, pokud je toto ve výchozím nastavení povoleno."
+msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodek MPEG-4. Pokud je zakázáno, bude namísto toho použit procesor. Některé chipy ION mají problémy, pokud je toto ve výchozím nastavení povoleno."
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5543,7 +5559,7 @@ msgstr "Použít MPEG-4 VAAPI"
 
 msgctxt "#13450"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
-msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodeky MPEG-4. Pokud je zakázáno, bude namísto toho použit procesor."
+msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodek MPEG-4. Pokud je zakázáno, bude namísto toho použit procesor."
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
@@ -5552,6 +5568,22 @@ msgstr "Použít VC-1 VAAPI"
 msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodeky založené na VC-1. Pokud je zakázáno, bude namísto toho použit procesor. Zejména u hardwaru Intel selže prokládané VC-1."
+
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "Použít VP8 VAAPI"
+
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodek VP8. Pokud je zakázáno, bude namísto toho použit procesor."
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "Použít VP9 VAAPI"
+
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodek VP9. Pokud je zakázáno, bude namísto toho použit procesor."
 
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
@@ -5564,6 +5596,14 @@ msgstr "Povolit hardwarovou akceleraci - OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Použít OMXPlayer pro dekódování souborů videa."
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "Použít HEVC VAAPI"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "Povolit tuto možnost pro použití hardwarové akcelerace pro kodek HEVC. Pokud je zakázáno, bude namísto toho použit procesor."
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -6000,6 +6040,10 @@ msgstr "Použít okno na celou obrazovku"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Zařadit skladby do fronty při výběru"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Seznam povolených"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -8137,6 +8181,10 @@ msgctxt "#19301"
 msgid "Horizontal channels, no group selector"
 msgstr "Vodorovné kanály, bez výběru skupiny"
 
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "Chcete nahrát vybraný pořad nebo přepnout na aktuální pořad?"
+
 msgctxt "#19499"
 msgid "Other / Unknown"
 msgstr "Jiné / Neznámé"
@@ -8675,7 +8723,7 @@ msgstr "Opustit hlavní režim"
 
 msgctxt "#20047"
 msgid "Create profile '{0:s}'?"
-msgstr "Vytvořit profil ‚{0:s}‘?"
+msgstr "Vytvořit profil „{0:s}“?"
 
 msgctxt "#20048"
 msgid "Start with fresh settings or copy from default?"
@@ -8795,7 +8843,7 @@ msgstr "- žádný odkaz -"
 
 msgctxt "#20079"
 msgid "Enable animations"
-msgstr "Povolit animace"
+msgstr "Zapnout animace"
 
 msgctxt "#20080"
 msgid "Disable RSS during music"
@@ -9268,6 +9316,14 @@ msgstr "Vyhledat externí titulky"
 msgctxt "#20223"
 msgid "Artist information folder"
 msgstr "Složka s informacemi o interpretovi"
+
+msgctxt "#20224"
+msgid "Prefer online album art"
+msgstr "Upřednostňovat online obrázek alba"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "Když neexistuje žádný místní obal alba, bude použit online obrázek. Pokud není dostupný ani ten, budou použity obrázky obalů vložené do hudebních souborů."
 
 msgctxt "#20240"
 msgid "Android music"
@@ -10067,7 +10123,7 @@ msgstr "Pokud mají soubory mp4 nebo mkv štítky, použít je pro metadata knih
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
-msgstr "Povolit podporu pro UPnP"
+msgstr "Povolit podporu UPnP"
 
 msgctxt "#21359"
 msgid "Add media share..."
@@ -13033,6 +13089,10 @@ msgctxt "#35225"
 msgid "Video filter"
 msgstr "Filtr videa"
 
+msgctxt "#35226"
+msgid "Advanced settings"
+msgstr "Rozšířená nastavení"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Přidat hry..."
@@ -13480,10 +13540,6 @@ msgstr "Importovat soubor XML do databáze knihovny videí."
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
 msgstr "Tato kategorie obsahuje nastavení jak zacházet s přehráváním videa."
-
-msgctxt "#36152"
-msgid "Enable automatic playback of the next file in the list."
-msgstr "Povolit automatické přehrávání následujícího souboru v seznamu."
 
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
@@ -14241,6 +14297,10 @@ msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Ve víceobrazovkové konfiguraci jsou obrazovky, které nezobrazují tuto aplikaci, černé."
 
+msgctxt "#36356"
+msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
+msgstr "Na režimy seznamů povolených je povoleno přepnout při změně rozlišení a obnovovací frekvence"
+
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Kalibrovat uživatelské rozhraní pomocí úpravy okrajů obrazovky. Použijte tento nástroj, pokud je zobrazený obraz příliš velký nebo malý pro vaši obrazovku."
@@ -14647,7 +14707,7 @@ msgstr "Vyberte stereoskopický 3D režim"
 
 msgctxt "#36531"
 msgid "Select alternate mode..."
-msgstr "Vyberte alternativní režim..."
+msgstr "Vyberte alternativní režim…"
 
 msgctxt "#36532"
 msgid "Same as movie"
@@ -15717,6 +15777,10 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Název řazení"
 
+msgctxt "#39030"
+msgid "Source"
+msgstr "Zdroj"
+
 msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "Provést při spuštění"
@@ -15756,3 +15820,11 @@ msgstr "popis zvuku"
 msgctxt "#39109"
 msgid "Select Program"
 msgstr "Vybrat program"
+
+msgctxt "#39110"
+msgid "Select Resolution"
+msgstr "Vyberte rozlišení"
+
+msgctxt "#39111"
+msgid "original"
+msgstr "původní"
