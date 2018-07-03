@@ -2529,6 +2529,14 @@ msgctxt "#684"
 msgid "Verbose logging of [B]Windowing[/B] component"
 msgstr "Runsas kirjaaminen [B]ikkunointikomponentille[/B]"
 
+msgctxt "#685"
+msgid "Verbose logging of [B]PVR[/B] component"
+msgstr "Runsas kirjaaminen [B]PVR[/B]-komponentille"
+
+msgctxt "#686"
+msgid "Verbose logging of [B]EPG[/B] component"
+msgstr "Runsas kirjaaminen [B]EPG[/B]-komponentille"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Puhdistetaan kirjastoa"
@@ -3997,6 +4005,10 @@ msgctxt "#10126"
 msgid "File browser"
 msgstr "Tiedostoselain"
 
+msgctxt "#10127"
+msgid "channels"
+msgstr "kanavaa"
+
 msgctxt "#10128"
 msgid "Network setup"
 msgstr "Verkkoasetukset"
@@ -4076,6 +4088,10 @@ msgstr "Tekstityshaku"
 msgctxt "#10157"
 msgid "OSD CMS settings"
 msgstr "Kuvaruutuvalikon CMS-asetukset"
+
+msgctxt "#10159"
+msgid "Subtitle OSD settings"
+msgstr "Kuvaruutuvalikon tekstitysasetukset"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -5604,6 +5620,22 @@ msgstr "Käytä HEVC VAAPI:a"
 msgctxt "#13461"
 msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
 msgstr "Käytä laitteistopurkua HEVC-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta."
+
+msgctxt "#13462"
+msgid "PRIME Render Method"
+msgstr "PRIME-renderöintimenetelmä"
+
+msgctxt "#13463"
+msgid "This option switches between direct-to-plane and EGL rendering methods."
+msgstr "Asetus määrittää käytetäänkö EGL- vai \"direct to plane\"-renderöintimenetelmää."
+
+msgctxt "#13464"
+msgid "Direct To Plane"
+msgstr "Direct To Plane"
+
+msgctxt "#13465"
+msgid "EGL"
+msgstr "EGL"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -10121,6 +10153,10 @@ msgctxt "#21344"
 msgid "If mp4 or mkv files have tags, use this for library metadata"
 msgstr "Näyttää mp4- ja mkv-tiedostojen tageista löydetyt tiedot videokirjastossa"
 
+msgctxt "#21345"
+msgid "Uncategorized"
+msgstr "Luokittelematon"
+
 msgctxt "#21358"
 msgid "Enable UPnP support"
 msgstr "UPnP käytössä"
@@ -13093,6 +13129,30 @@ msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "Lisäasetukset"
 
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "Kierto"
+
+msgctxt "#35228"
+msgid "0°"
+msgstr "0°"
+
+msgctxt "#35229"
+msgid "90°"
+msgstr "90°"
+
+msgctxt "#35230"
+msgid "180°"
+msgstr "180°"
+
+msgctxt "#35231"
+msgid "270°"
+msgstr "270°"
+
+msgctxt "#35232"
+msgid "Fullscreen"
+msgstr "Koko ruutu"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Lisää pelejä..."
@@ -13540,6 +13600,10 @@ msgstr "Tuo XML-tiedosto videokirjaston tietokantaan."
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
 msgstr "Tämä kategoria sisältää videotoistoon liittyvät asetukset."
+
+msgctxt "#36152"
+msgid "Enable automatic playback of the next file in the list for selected playlist types."
+msgstr "Määritä siirrytäänkö videon päätyttyä toistolistan seuraavaan videoon automaattisesti sekä videotyypit, joiden kohdalla niin tehdään."
 
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
@@ -14793,6 +14857,22 @@ msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "Määrittää näytönohjainajurin puskurointitavan. Valitse 2 tai 3, riippuen siitä, onko käytössä kaksois- vai kolmoispuskurointi."
 
+msgctxt "#36553"
+msgid "Tone mapping"
+msgstr "Sävyn kartoitus"
+
+msgctxt "#36554"
+msgid "off"
+msgstr "ei käytössä"
+
+msgctxt "#36555"
+msgid "Reinhard"
+msgstr "Reinhard"
+
+msgctxt "#36556"
+msgid "Tone mapping parameter"
+msgstr "Sävyn kartoituksen parametri"
+
 msgctxt "#36560"
 msgid "Colour management"
 msgstr "Värinhallinta"
@@ -15779,7 +15859,11 @@ msgstr "Lajittelunimi"
 
 msgctxt "#39030"
 msgid "Source"
-msgstr "Alkuperäinen kuvan tuottaja"
+msgstr "Lähde"
+
+msgctxt "#39031"
+msgid "Sources"
+msgstr "Lähteet"
 
 msgctxt "#39100"
 msgid "Perform on startup"

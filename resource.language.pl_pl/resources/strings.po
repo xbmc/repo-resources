@@ -1121,6 +1121,10 @@ msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "Bez przeplotu"
 
+msgctxt "#307"
+msgid "Media default"
+msgstr "Domyślne dla mediów"
+
 msgctxt "#308"
 msgid "Original language"
 msgstr "Język oryginalny"
@@ -1881,6 +1885,10 @@ msgctxt "#505"
 msgid "Loading media information from files..."
 msgstr "Wczytywanie informacji o mediach z plików..."
 
+msgctxt "#506"
+msgid "Checking media files..."
+msgstr "Sprawdzanie plików mediów..."
+
 msgctxt "#507"
 msgid "Sort by: Usage"
 msgstr "Sortowanie: Użycie"
@@ -2487,7 +2495,7 @@ msgstr "Rejestruj zdarzenia żądań [B]JSON-RPC[/B]"
 
 msgctxt "#676"
 msgid "Verbose logging for the [B]Audio[/B] component"
-msgstr "Rejestruj zdarzenia komponentu [B]Audio[/B]"
+msgstr "Rejestruj zdarzenia komponentu [B]Dźwięk[/B]"
 
 msgctxt "#677"
 msgid "Verbose logging for the [B]AirTunes[/B] library"
@@ -2515,7 +2523,19 @@ msgstr "Rejestruj zdarzenia komponentu [B]Baza danych[/B] "
 
 msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
-msgstr "Rejestruj informacje [B]Synchronizacji audio/wideo[/B] "
+msgstr "Rejestruj informacje [B]Synchronizacji dźwięku/wideo[/B] "
+
+msgctxt "#684"
+msgid "Verbose logging of [B]Windowing[/B] component"
+msgstr "Rejestruj zdarzenia komponentu [B]Windowing[/B]"
+
+msgctxt "#685"
+msgid "Verbose logging of [B]PVR[/B] component"
+msgstr "Rejestruj zdarzenia komponentu [B]Telewizja[/B]"
+
+msgctxt "#686"
+msgid "Verbose logging of [B]EPG[/B] component"
+msgstr "Rejestruj zdarzenia komponentu [B]Przewodnik[/B]"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2604,6 +2624,10 @@ msgstr "Serwer WWW"
 msgctxt "#728"
 msgid "FTP server"
 msgstr "Serwer FTP"
+
+msgctxt "#729"
+msgid "Enable SSL"
+msgstr "Aktywuj SSL"
 
 msgctxt "#730"
 msgid "Port"
@@ -3731,7 +3755,7 @@ msgstr "Błąd dodatku"
 
 msgctxt "#2104"
 msgid "Check the log for more information."
-msgstr "Więcej informacji na ten temat znajdziesz w pliku rejestru zdarzeń."
+msgstr "Więcej informacji na ten temat znajdziesz w pliku dziennika zdarzeń."
 
 msgctxt "#10000"
 msgid "Home"
@@ -3931,7 +3955,7 @@ msgstr "Menu kontekstowe"
 
 msgctxt "#10107"
 msgid "Notification dialog"
-msgstr "Okno powiadomień"
+msgstr "Okno powiadomienia"
 
 msgctxt "#10109"
 msgid "Numeric Input"
@@ -3980,6 +4004,10 @@ msgstr "Zakładki wideo"
 msgctxt "#10126"
 msgid "File browser"
 msgstr "Przeglądarka plików"
+
+msgctxt "#10127"
+msgid "channels"
+msgstr "kanały"
 
 msgctxt "#10128"
 msgid "Network setup"
@@ -4060,6 +4088,10 @@ msgstr "Wyszukiwanie napisów"
 msgctxt "#10157"
 msgid "OSD CMS settings"
 msgstr "Ustawienia menu ekranowego CMS"
+
+msgctxt "#10159"
+msgid "Subtitle OSD settings"
+msgstr "Ustawienia menu ekranowego napisów"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -5341,6 +5373,10 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "Ustawienia obrazu"
 
+msgctxt "#13396"
+msgid "Audio settings"
+msgstr "Ustawienia dźwięku"
+
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "Pokazuj napisy"
@@ -5461,6 +5497,10 @@ msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Zezwalaj na sprzętową akcelerację - VTBDecoder"
 
+msgctxt "#13430"
+msgid "Allow hardware acceleration - PRIME"
+msgstr "Zezwalaj na sprzętową akcelerację - PRIME"
+
 msgctxt "#13431"
 msgid "Pixel shaders"
 msgstr "Przetwarzanie pikseli"
@@ -5545,6 +5585,22 @@ msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "Zaznacz tę opcję, aby używać sprzętowego dekodowania VC-1, w przeciwnym przypadku do dekodowania zostanie użyty procesor. Dekodowanie wideo VC-1 z przeplotem może zakończyć się niepowodzeniem, zwłaszcza na architekturze Intela."
 
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "Używaj VAAPI dla VP8"
+
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "Zaznacz tę opcję, aby używać sprzętowego dekodowania VP8, w przeciwnym przypadku do dekodowania zostanie użyty procesor."
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "Używaj VAAPI dla VP9"
+
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "Zaznacz tę opcję, aby używać sprzętowego dekodowania VP9, w przeciwnym przypadku do dekodowania zostanie użyty procesor."
+
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Preferuj metodę renderowania VAAPI"
@@ -5556,6 +5612,30 @@ msgstr "Zezwalaj na sprzętową akcelerację - OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Zaznacz tę opcję, aby używać sprzętowego dekodowania odtwarzacza OMXPLayer."
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "Używaj VAAPI dla HEVC"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "Zaznacz tę opcję, aby używać sprzętowego dekodowania HEVC, w przeciwnym przypadku do dekodowania zostanie użyty procesor."
+
+msgctxt "#13462"
+msgid "PRIME Render Method"
+msgstr "Metoda renderowania PRIME"
+
+msgctxt "#13463"
+msgid "This option switches between direct-to-plane and EGL rendering methods."
+msgstr "Umożliwia przełączanie pomiędzy metodami renderowania Direct To Plane i EGL."
+
+msgctxt "#13464"
+msgid "Direct To Plane"
+msgstr "Direct To Plane"
+
+msgctxt "#13465"
+msgid "EGL"
+msgstr "EGL"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -5601,6 +5681,10 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "Brak grafiki"
 
+msgctxt "#13516"
+msgid "Add art type"
+msgstr "Dodaj typ grafiki"
+
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Próg korekcji wysokości tonów"
@@ -5608,6 +5692,18 @@ msgstr "Próg korekcji wysokości tonów"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "W przypadku, gdy zmiana prędkości przekroczy ten próg, zostanie zastosowany filtr korekcji wysokości tonu. Zapobiega to piskliwym głosom, które są normalnym rezultatem przyśpieszenia odtwarzania wideo."
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Grafika wbudowana"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Fototapeta wbudowana"
+
+msgctxt "#13521"
+msgid "Choose art type"
+msgstr "Wybierz typ grafiki"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -5976,6 +6072,10 @@ msgstr "Używaj pełnoekranowego okna"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Dodawaj zaznaczone utwory do kolejki"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Biała lista"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -7341,6 +7441,14 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Zapasowy klatkaż"
 
+msgctxt "#19109"
+msgid "Could not save the timer. Check the log for more information about this message."
+msgstr "Nie można zapisać zadania nagrywania. Więcej informacji na ten temat znajdziesz w pliku dziennika zdarzeń."
+
+msgctxt "#19110"
+msgid "Could not delete the timer. Check the log for more information about this message."
+msgstr "Nie można usunąć zadania nagrywania. Więcej informacji na ten temat znajdziesz w pliku dziennika zdarzeń."
+
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
 msgstr "Błąd serwera telewizji. Więcej informacji na ten temat znajdziesz w pliku dziennika zdarzeń."
@@ -7553,6 +7661,10 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "Nagrania"
 
+msgctxt "#19164"
+msgid "Could not start recording. Check the log for more information about this message."
+msgstr "Nie można rozpocząć nagrywania. Więcej informacji na ten temat znajdziesz w pliku dziennika zdarzeń."
+
 msgctxt "#19165"
 msgid "Switch"
 msgstr "Przełącz"
@@ -7572,6 +7684,10 @@ msgstr "Nagranie usunięte i możliwe do odzyskania"
 msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Ukrywaj informacje o wideo"
+
+msgctxt "#19170"
+msgid "Could not stop recording. Check the log for more information about this message."
+msgstr "Nie można zatrzymać nagrywania. Więcej informacji na ten temat znajdziesz w pliku dziennika zdarzeń."
 
 msgctxt "#19171"
 msgid "Switch to full screen"
@@ -7941,6 +8057,10 @@ msgctxt "#19262"
 msgid "Parental control. Enter PIN:"
 msgstr "Kontrola rodzicielska. Wprowadź kod PIN:"
 
+msgctxt "#19263"
+msgid "Could not update the timer. Check the log for more information about this message."
+msgstr "Nie można zmodyfikować zadania nagrywania. Więcej informacji na ten temat znajdziesz w pliku dziennika zdarzeń."
+
 msgctxt "#19264"
 msgid "Incorrect PIN"
 msgstr "Niepoprawny kod PIN"
@@ -7960,6 +8080,10 @@ msgstr "Blokada rodzicielska:"
 msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "Ukrywaj etykiety \"Informacje niedostępne\""
+
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Wybieraj odtwarzanie kanału na listach"
 
 msgctxt "#19270"
 msgid "Group Items"
@@ -8033,6 +8157,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "Wszystkie"
 
+msgctxt "#19288"
+msgid "Go to date"
+msgstr "Przejdź do daty"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "Ukryj grupę"
@@ -8065,9 +8193,29 @@ msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "Brak aktywnego klienta telewizyjnego"
 
+msgctxt "#19297"
+msgid "Vertical channels"
+msgstr "Kanały pionowo"
+
+msgctxt "#19298"
+msgid "Horizontal channels"
+msgstr "Kanały poziomo"
+
 msgctxt "#19299"
 msgid "Expires"
 msgstr "Wygasa"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Kanały pionowo, bez wyboru grupy"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Kanały poziomo, bez wyboru grupy"
+
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "Czy chcesz nagrać wybraną audycję czy przełączyć na tę audycję."
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9085,6 +9233,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "Serwer FTP"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "Server FTPS"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "Serwer UPnP"
@@ -9197,6 +9349,14 @@ msgctxt "#20223"
 msgid "Artist information folder"
 msgstr "Folder informacji o wykonawcach"
 
+msgctxt "#20224"
+msgid "Prefer online album art"
+msgstr "Preferuj okładkę albumu z Internetu"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "W przypadku, gry brakuje lokalnego, używane będą okładki z Internetu. Gdy obie są niedostępne, użyte zostaną okładki wbudowane w pliki muzyczne."
+
 msgctxt "#20240"
 msgid "Android music"
 msgstr "Muzyka Android"
@@ -9284,6 +9444,14 @@ msgstr "Folder serwera WWW (HTTPS)"
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "Nieudany zapisy w folderze:"
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "Strumień nagłówków RSS (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "Strumień nagłówków RSS (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -9977,6 +10145,18 @@ msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Brak aktualnie dostępnych aktualizacji dla tego dodatku."
 
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "Używaj znaczników wideo"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "W przypadku, gdy pliki MP4 lub MKV posiadają znaczniki, zostaną one użyte do zasilenia biblioteki."
+
+msgctxt "#21345"
+msgid "Uncategorized"
+msgstr "Bez kategorii"
+
 msgctxt "#21358"
 msgid "Enable UPnP support"
 msgstr "Aktywuj obsługę UPnP"
@@ -10083,7 +10263,7 @@ msgstr "Pokazuj pasek przewijania"
 
 msgctxt "#21384"
 msgid "Make watched filtering a toggle in video library"
-msgstr "Używaj filtru obejrzanych pozycji w trybie przełącznika"
+msgstr "Używaj filtru obejrzanych pozycji jako przełącznika w bibliotece"
 
 msgctxt "#21385"
 msgid "Open"
@@ -11481,6 +11661,14 @@ msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "Czy chcesz przełączyć na ten język?"
 
+msgctxt "#24133"
+msgid "Subtitle settings"
+msgstr "Ustawienia napisów"
+
+msgctxt "#24134"
+msgid "Download subtitle..."
+msgstr "Pobierz napisy..."
+
 msgctxt "#24139"
 msgid "View Add-on"
 msgstr "Przejdź do dodatku"
@@ -12629,6 +12817,18 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Umożliwia parowania kontrolerów z różnymi urządzeniami wejściowymi dla różnych systemów gier."
 
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "Kierownica wyścigowa"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "Kontrolery z pokrętłami"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "Dżojstiki"
+
 msgctxt "#35074"
 msgid "Face buttons"
 msgstr "Przyciski przednie"
@@ -12809,6 +13009,22 @@ msgctxt "#35167"
 msgid "Single keys"
 msgstr "Pojedyczne przyciski"
 
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Wybierz klawisz"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Naciśnij klawisz"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Naciśnij klawisz ({1:d})"
+
+msgctxt "#35171"
+msgid "Mouse"
+msgstr "Mysz"
+
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
 msgstr "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -12912,6 +13128,30 @@ msgstr "Filtr wideo"
 msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "Ustawienia zaawansowane"
+
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "Rotacja"
+
+msgctxt "#35228"
+msgid "0°"
+msgstr "0°"
+
+msgctxt "#35229"
+msgid "90°"
+msgstr "90°"
+
+msgctxt "#35230"
+msgid "180°"
+msgstr "180°"
+
+msgctxt "#35231"
+msgid "270°"
+msgstr "270°"
+
+msgctxt "#35232"
+msgid "Fullscreen"
+msgstr "Pełny ekran"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13136,6 +13376,18 @@ msgstr "Wstrzymaj odtwarzanie"
 msgctxt "#36046"
 msgid "Force AVR to wake up when Kodi is activated"
 msgstr "Wymuszaj wybudzenie amplitunera podczas uruchomienia Kodi"
+
+msgctxt "#36047"
+msgid "Remote button press delay before repeating (ms)"
+msgstr "Opóźnienie przed powtórzeniem naciśnięcia przycisku pilota (ms)"
+
+msgctxt "#36048"
+msgid "Remote button press repeat rate (ms)"
+msgstr "Tempo powtórzeń naciśnięcia przycisku pilota (ms)"
+
+msgctxt "#36049"
+msgid "Remote button press release time (ms)"
+msgstr "Czas zwolnienia naciśnięcia przycisku pilota (ms)"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -14585,6 +14837,10 @@ msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "Określa liczbę buforów prezentacji używanych przez sterownik grafiki. Wybierz 2 jeśli sterownik używa podwójnego buforowania lub 3 w przypadku potrójnego buforowania."
 
+msgctxt "#36553"
+msgid "Tone mapping"
+msgstr "Mapowanie tonalne"
+
 msgctxt "#36560"
 msgid "Colour management"
 msgstr "Zarządzanie kolorami"
@@ -14848,6 +15104,26 @@ msgstr "SMB wersja 3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "Klient"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "Minimalna wersja protokołu"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Określa minimalną wersję protokołu SMG negocjowaną podczas tworzenia połączenia. Wymuszenie wersji SMBv2 może być wymagane na niektóry systemach, aby zapobiec użyciu wersji SMBv1."
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "Używaj starszych zabezpieczeń"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Wymusza słabe zabezpieczenia SMBv1 w celu zachowania zgodności z funkcjami udostępniania niektórych ruterów WiFi i urządzeń NAS."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "Umożliwia aktywowanie szyfrowania SSL na serwerze webowym. Certyfikat w lokalizacji special://userdata/server.key i Klucz w lokalizacji special://userdata/server.pem muszą zostać utworzone manualnie."
 
 msgctxt "#36900"
 msgid "movie"
@@ -15553,6 +15829,10 @@ msgctxt "#39030"
 msgid "Source"
 msgstr "Źródło"
 
+msgctxt "#39031"
+msgid "Sources"
+msgstr "Źródła"
+
 msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "Wykonuj podczas uruchamiania"
@@ -15568,6 +15848,10 @@ msgstr "Słuchaj radia"
 msgctxt "#39103"
 msgid "Unable to configure network location. Invalid path given."
 msgstr "Nieudana konfiguracja lokalizacji sieciowej. Podana ścieżka jest niepoprawna."
+
+msgctxt "#39104"
+msgid "View as text"
+msgstr "Podejrzyj jako tekst"
 
 msgctxt "#39105"
 msgid "default"
@@ -15588,3 +15872,11 @@ msgstr "opis dźwiękowy"
 msgctxt "#39109"
 msgid "Select Program"
 msgstr "Wybierz program"
+
+msgctxt "#39110"
+msgid "Select Resolution"
+msgstr "Wybierz rozdzielczość"
+
+msgctxt "#39111"
+msgid "original"
+msgstr "oryginalne"
