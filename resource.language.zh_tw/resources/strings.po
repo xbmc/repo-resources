@@ -1121,6 +1121,10 @@ msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "非交錯掃描"
 
+msgctxt "#307"
+msgid "Media default"
+msgstr "媒體預設值"
+
 msgctxt "#308"
 msgid "Original language"
 msgstr "原始語言"
@@ -2520,6 +2524,18 @@ msgstr "為[B]資料庫[/B]組件所建立的純文字紀錄檔"
 msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
 msgstr "[B]影音時序資訊[/B]的純文字紀錄檔"
+
+msgctxt "#684"
+msgid "Verbose logging of [B]Windowing[/B] component"
+msgstr "[B]視窗[/B]元件的詳細紀錄"
+
+msgctxt "#685"
+msgid "Verbose logging of [B]PVR[/B] component"
+msgstr "[B]PVR[/B]元件的詳細紀錄"
+
+msgctxt "#686"
+msgid "Verbose logging of [B]EPG[/B] component"
+msgstr "[B]電子節目表[/B]元件的詳細紀錄"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -3989,6 +4005,10 @@ msgctxt "#10126"
 msgid "File browser"
 msgstr "檔案瀏覽器"
 
+msgctxt "#10127"
+msgid "channels"
+msgstr "頻道"
+
 msgctxt "#10128"
 msgid "Network setup"
 msgstr "網路設定"
@@ -4068,6 +4088,10 @@ msgstr "字幕搜尋"
 msgctxt "#10157"
 msgid "OSD CMS settings"
 msgstr "播放工具列中的内容管理設定"
+
+msgctxt "#10159"
+msgid "Subtitle OSD settings"
+msgstr "字幕顯示設定"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -5596,6 +5620,22 @@ msgstr "使用HEVC VAAPI"
 msgctxt "#13461"
 msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
 msgstr "開啟此選項以針對HEVC編碼器使用硬體加速。若關閉則會改用CPU進行處理。"
+
+msgctxt "#13462"
+msgid "PRIME Render Method"
+msgstr "PRIME渲染模式"
+
+msgctxt "#13463"
+msgid "This option switches between direct-to-plane and EGL rendering methods."
+msgstr "此選項用來選用direct-to-plane或EGL渲染模式"
+
+msgctxt "#13464"
+msgid "Direct To Plane"
+msgstr "Direct To Plane"
+
+msgctxt "#13465"
+msgid "EGL"
+msgstr "EGL"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -10113,6 +10153,10 @@ msgctxt "#21344"
 msgid "If mp4 or mkv files have tags, use this for library metadata"
 msgstr "如果mp4或mkv檔有內含標籤，將其用來作為資料庫的資訊內容之一"
 
+msgctxt "#21345"
+msgid "Uncategorized"
+msgstr "未分類"
+
 msgctxt "#21358"
 msgid "Enable UPnP support"
 msgstr "啟用UPnP支援"
@@ -13069,10 +13113,6 @@ msgctxt "#35222"
 msgid "Exit"
 msgstr "離開"
 
-msgctxt "#35223"
-msgid "Input settings"
-msgstr "輸入設定"
-
 msgctxt "#35224"
 msgid "Pause / Resume"
 msgstr "暫停 / 繼續"
@@ -13084,6 +13124,30 @@ msgstr "影像濾鏡"
 msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "進階設定"
+
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "旋轉"
+
+msgctxt "#35228"
+msgid "0°"
+msgstr "0°"
+
+msgctxt "#35229"
+msgid "90°"
+msgstr "90°"
+
+msgctxt "#35230"
+msgid "180°"
+msgstr "180°"
+
+msgctxt "#35231"
+msgid "270°"
+msgstr "270°"
+
+msgctxt "#35232"
+msgid "Fullscreen"
+msgstr "全螢幕"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13532,6 +13596,10 @@ msgstr "匯入XML檔至影片資料庫"
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
 msgstr "此分類包含如何處理影片播放的設定。"
+
+msgctxt "#36152"
+msgid "Enable automatic playback of the next file in the list for selected playlist types."
+msgstr "在所選擇的播放列表模式中開啟自動連續播放功能"
 
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
@@ -14785,6 +14853,22 @@ msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "設定繪圖驅動程式所使用的緩存通道數。若驅動使用二重緩存則選2，三重緩存則選3。"
 
+msgctxt "#36553"
+msgid "Tone mapping"
+msgstr "色調映射"
+
+msgctxt "#36554"
+msgid "off"
+msgstr "關閉"
+
+msgctxt "#36555"
+msgid "Reinhard"
+msgstr "雷恩哈德"
+
+msgctxt "#36556"
+msgid "Tone mapping parameter"
+msgstr "色調映射參數"
+
 msgctxt "#36560"
 msgid "Colour management"
 msgstr "色彩管理"
@@ -15773,6 +15857,10 @@ msgctxt "#39030"
 msgid "Source"
 msgstr "來源"
 
+msgctxt "#39031"
+msgid "Sources"
+msgstr "來源"
+
 msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "啟動時執行"
@@ -15812,3 +15900,11 @@ msgstr "聲音描述"
 msgctxt "#39109"
 msgid "Select Program"
 msgstr "選擇程式"
+
+msgctxt "#39110"
+msgid "Select Resolution"
+msgstr "選擇解析度"
+
+msgctxt "#39111"
+msgid "original"
+msgstr "原始"
