@@ -545,10 +545,6 @@ msgctxt "#160"
 msgid "Free"
 msgstr "Вольна"
 
-msgctxt "#161"
-msgid "Unavailable"
-msgstr "Недаступна"
-
 msgctxt "#162"
 msgid "Tray open"
 msgstr "Спроба адкрыць"
@@ -1549,10 +1545,6 @@ msgctxt "#415"
 msgid "Downloading thumbnail..."
 msgstr "Спампоўка мініяцюры..."
 
-msgctxt "#416"
-msgid "Not available"
-msgstr "Недаступны"
-
 msgctxt "#417"
 msgid "View: Big icons"
 msgstr "Выгляд: вялікія значкі"
@@ -1616,6 +1608,14 @@ msgstr "Няма кэшу"
 msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Выдаліць фільм з бібліятэкі"
+
+msgctxt "#433"
+msgid "Would you really like to remove '{0:s}' from library?"
+msgstr "Ці вы жадаеце выдаліць «{0:s}» з бібліятэкі?"
+
+msgctxt "#434"
+msgid "From {0:s} at {1:d} {2:s}"
+msgstr "Ад {0:s} а {1:d} {2:s}"
 
 msgctxt "#435"
 msgid "No optical disc drive detected"
@@ -2017,6 +2017,10 @@ msgctxt "#549"
 msgid "Number"
 msgstr "Нумар"
 
+msgctxt "#550"
+msgid "Sort by: {0:s}"
+msgstr "Сартаваць па: {0:s}"
+
 msgctxt "#551"
 msgid "Name"
 msgstr "Назве"
@@ -2240,6 +2244,10 @@ msgstr "Bits/sample"
 msgctxt "#613"
 msgid "Sample rate"
 msgstr "Sample rate"
+
+msgctxt "#614"
+msgid "Virtual folder"
+msgstr "Віртуальны каталог"
 
 msgctxt "#620"
 msgid "Audio CDs"
@@ -2665,6 +2673,10 @@ msgctxt "#767"
 msgid "Grey"
 msgstr "Шэры"
 
+msgctxt "#770"
+msgid "Error {0:d}: share not available"
+msgstr "Памылка {0:d}: абагульненне недасяжнае"
+
 msgctxt "#772"
 msgid "Audio"
 msgstr "Аўдыё"
@@ -3039,7 +3051,7 @@ msgstr "Сервер WINS"
 
 msgctxt "#1208"
 msgid "Mount SMB shares"
-msgstr "Мантаваць SMB абагульненні"
+msgstr "Мантаваць SMB-абагульненні"
 
 msgctxt "#1210"
 msgid "Remove"
@@ -4867,7 +4879,7 @@ msgstr "Film grain effect"
 
 msgctxt "#14059"
 msgid "Search for thumbnails on remote shares"
-msgstr "Шукаць мініяцюры ў адлеглай крыніцы"
+msgstr "Шукаць мініяцюры ў аддаленай крыніцы"
 
 msgctxt "#14060"
 msgid "Unknown type cache - Internet"
@@ -5565,6 +5577,10 @@ msgctxt "#19017"
 msgid "Recordings"
 msgstr "Recordings"
 
+msgctxt "#19018"
+msgid "Folder with channel icons"
+msgstr "Каталог са значкамі каналаў"
+
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Каналы"
@@ -5767,7 +5783,7 @@ msgstr "Please switch to another channel."
 
 msgctxt "#19104"
 msgid "Enter the name of the folder for the recording"
-msgstr "Enter the name of the folder for the recording"
+msgstr "Увядіце назву каталога для запісу"
 
 msgctxt "#19106"
 msgid "Next timer on"
@@ -5776,6 +5792,10 @@ msgstr "Next timer on"
 msgctxt "#19107"
 msgid "at"
 msgstr "at"
+
+msgctxt "#19113"
+msgid "Delete all recordings in this folder?"
+msgstr "Выдаліць усе запісы з гэтага каталога?"
 
 msgctxt "#19114"
 msgid "Version"
@@ -6339,7 +6359,7 @@ msgstr "External DVD player"
 
 msgctxt "#20003"
 msgid "Trainers folder"
-msgstr "Trainers folder"
+msgstr "Каталог трэйлераў"
 
 msgctxt "#20004"
 msgid "Screenshot folder"
@@ -6347,7 +6367,7 @@ msgstr "Каталог здымкаў экрана"
 
 msgctxt "#20006"
 msgid "Playlists folder"
-msgstr "Playlists folder"
+msgstr "Каталог спісаў прайгравання"
 
 msgctxt "#20007"
 msgid "Recordings"
@@ -6503,11 +6523,11 @@ msgstr "Separate"
 
 msgctxt "#20062"
 msgid "Shares with default"
-msgstr "Shares with default"
+msgstr "Абагульненні з агаданымі"
 
 msgctxt "#20063"
 msgid "Shares with default (read only)"
-msgstr "Shares with default (read only)"
+msgstr "Абагульненні з агаданымі (толькі чытанне)"
 
 msgctxt "#20064"
 msgid "Copy default"
@@ -6529,9 +6549,17 @@ msgctxt "#20068"
 msgid "Profile lock"
 msgstr "Profile lock"
 
+msgctxt "#20069"
+msgid "Couldn't create folder"
+msgstr "Не ўдалося стварыць каталог"
+
 msgctxt "#20070"
 msgid "Profile directory"
 msgstr "Profile directory"
+
+msgctxt "#20072"
+msgid "Make sure the selected folder is writable and that the new folder name is valid"
+msgstr "Пераканайцеся, што абраны каталог прыдатны для запісу і што новая назва карэктная"
 
 msgctxt "#20074"
 msgid "MPAA rating"
@@ -6575,7 +6603,7 @@ msgstr "Drive space free"
 
 msgctxt "#20090"
 msgid "Enter the name of an existing share"
-msgstr "Enter the name of an existing share"
+msgstr "Увядзіце назве існуючага абагульнення"
 
 msgctxt "#20091"
 msgid "Lock code"
@@ -6703,7 +6731,7 @@ msgstr "Remove network location"
 
 msgctxt "#20135"
 msgid "Do you want to scan the folder?"
-msgstr "Do you want to scan the folder?"
+msgstr "Вы хочаце сканаваць каталог?"
 
 msgctxt "#20136"
 msgid "Memory unit"
@@ -6909,6 +6937,10 @@ msgctxt "#20198"
 msgid "No artist found!"
 msgstr "No artist found!"
 
+msgctxt "#20223"
+msgid "Artist information folder"
+msgstr "Каталог звестак аб артыстах"
+
 msgctxt "#20240"
 msgid "Android music"
 msgstr "Android music"
@@ -6959,7 +6991,7 @@ msgstr "Web server directory (HTTPS)"
 
 msgctxt "#20302"
 msgid "Unable to write to folder:"
-msgstr "Unable to write to folder:"
+msgstr "Немагчыма запісаць у каталог:"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -6971,7 +7003,7 @@ msgstr "DHCP сервер:"
 
 msgctxt "#20309"
 msgid "Make new folder"
-msgstr "Make new folder"
+msgstr "Стварыць новы каталог"
 
 msgctxt "#20311"
 msgid "Unknown or onboard (protected)"
@@ -7011,7 +7043,7 @@ msgstr "Файл"
 
 msgctxt "#20332"
 msgid "Use file or folder names in lookups?"
-msgstr "Use file or folder names in lookups?"
+msgstr "Выкарыстоўваць назва файлаў і каталогаў для пошуку?"
 
 msgctxt "#20333"
 msgid "Set content"
@@ -7175,7 +7207,7 @@ msgstr "Refresh TV show information"
 
 msgctxt "#20379"
 msgid "Selected folder contains a single TV show"
-msgstr "У абраным каталозе адно ТБ шоў"
+msgstr "У абраным каталозе адно ТБ-шоў"
 
 msgctxt "#20380"
 msgid "Exclude selected folder from scans"
@@ -7187,7 +7219,7 @@ msgstr "Specials"
 
 msgctxt "#20383"
 msgid "Selected folder contains a single video"
-msgstr "У пбраны каталозе адно відэа"
+msgstr "У абраным каталозе адно відэа"
 
 msgctxt "#20384"
 msgid "Link to TV show"
@@ -7459,7 +7491,11 @@ msgstr "Ніколі"
 
 msgctxt "#21359"
 msgid "Add media share..."
-msgstr "Add media share..."
+msgstr "Дадаць абагульненне медыя…"
+
+msgctxt "#21360"
+msgid "Share my libraries"
+msgstr "Абагульць маі бібліятэкі"
 
 msgctxt "#21361"
 msgid "Look for remote UPnP players"
@@ -7471,11 +7507,15 @@ msgstr "Bookmark created"
 
 msgctxt "#21364"
 msgid "Edit media share"
-msgstr "Edit media share"
+msgstr "Рэдагаваць абагульненне медыя"
 
 msgctxt "#21365"
 msgid "Remove media share"
-msgstr "Remove media share"
+msgstr "Выдаліць абагульненне медыя"
+
+msgctxt "#21366"
+msgid "Custom subtitle folder"
+msgstr "Каталог знешніх субтытраў"
 
 msgctxt "#21367"
 msgid "Movie & alternate subtitle directory"
@@ -7715,7 +7755,7 @@ msgstr "Edit party mode rules"
 
 msgctxt "#21440"
 msgid "Home folder"
-msgstr "Home folder"
+msgstr "Хатні каталог"
 
 msgctxt "#21441"
 msgid "Watched count"
@@ -9119,7 +9159,7 @@ msgstr "Select your current timezone."
 
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
-msgstr "Display the (..) item in lists for visiting the parent folder."
+msgstr "Адлюстроўваць элемент (..) у спісе для наведвання бацькоўскага каталога."
 
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
@@ -9161,9 +9201,13 @@ msgctxt "#36181"
 msgid "No info available yet."
 msgstr "No info available yet."
 
+msgctxt "#36182"
+msgid "Combines multi-part video files, DVD folders or movie folders, down to a single item in non-library views."
+msgstr "Аб'ядноўвае часткі відэафайлаў, DVD-каталогі ці кінакаталогі да аднаго элемента ў небіблітэчных выгладах."
+
 msgctxt "#36191"
 msgid "Set a custom directory for your subtitles. This can be a file share."
-msgstr "Set a custom directory for your subtitles. This can be a file share."
+msgstr "Задаць уласны каталог для вашых субтытраў. Гэта можа быть файлавае абагульненне."
 
 msgctxt "#36192"
 msgid "Location of subtitles on the screen."
@@ -9193,6 +9237,10 @@ msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Instruct the backend to search for channels (if supported)."
 
+msgctxt "#36216"
+msgid "Folder where channel icons are stored."
+msgstr "Каталог, дзе захоўваюцца значкі каналаў."
+
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
 msgstr "Display a notification when timers are added, finished or removed by the backend."
@@ -9213,9 +9261,17 @@ msgctxt "#36260"
 msgid "No info available yet."
 msgstr "No info available yet."
 
+msgctxt "#36265"
+msgid "Automatically plays the next item in the current folder, for example in \"Files\" view after a track has been played, the next track in the same folder will automatically play."
+msgstr "Аўтаматычнае прайграванне наступнага элемента ў цэперашніх каталозе, напрыклад, у выглядзе «Файлы» пасля таго, як трэк прайграўся, наступны трэк ў тым жа каталозе будзе прайгравацца аўтаматычна."
+
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
 msgstr "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
+
+msgctxt "#36281"
+msgid "Search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+msgstr "Шукаць прэв'ю на аддаленых абагульненнях і аптычных носьбітах. Гэта часта запавольвае спіс сеткавых каталогаў."
 
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
@@ -9241,6 +9297,10 @@ msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Auto eject disc after rip is complete."
 
+msgctxt "#36293"
+msgid "Select the folder where artist information (nfo files and images) should be saved in."
+msgstr "Абярыце каталоў, у якім павінны захоўвацца звесткі аб артыстах (nfo-файлы і выявы)."
+
 msgctxt "#36302"
 msgid "No info available yet."
 msgstr "No info available yet."
@@ -9251,7 +9311,7 @@ msgstr "No info available yet."
 
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
-msgstr "Automatically generate picture thumbnails when entering picture folder."
+msgstr "Аўтаматычнае стварэнне прэв'ю малюнкаў пры ўваходзе ў каталог з малюнкамі."
 
 msgctxt "#36310"
 msgid "No info available yet."
@@ -9272,6 +9332,10 @@ msgstr "View slideshow images in a random order."
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
 msgstr "Select up to three locations for which the weather can be displayed."
+
+msgctxt "#36350"
+msgid "Automatically send Wake-on-LAN to server(s) right before trying to access shared files or services."
+msgstr "Аўтаматычна адсылаць «Wake-on-LAN» серверам непасрэдна перад спробай доступу да абагуленых файлаў ці сэрвісаў."
 
 msgctxt "#36358"
 msgid "Test patterns for display hardware calibration."
@@ -9328,6 +9392,10 @@ msgstr "Configure the proxy server password."
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
 msgstr "Turn debug logging on or off. Useful for troubleshooting."
+
+msgctxt "#36393"
+msgid "Select the folder where screenshots should be saved in."
+msgstr "Абраць каталог, дзе захоўваюцца здымкі экрана."
 
 msgctxt "#36410"
 msgid "No info available yet."
@@ -9392,6 +9460,10 @@ msgstr "Аўтаматычна "
 msgctxt "#36609"
 msgid "Show notifications"
 msgstr "Паказваць апавяшчэнні"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Задаць максімальную версію пратаколу SMB для перамоў пры падключэнні. Прымушэнне да SMBv1 ці SMBv2 можа спатрэбіцца для злучэння са старымі NAS і абагульненнямі Windows."
 
 msgctxt "#36623"
 msgid "None"
@@ -9504,6 +9576,30 @@ msgstr "If EXIF information exists (date, time, camera used, etc.), it will be d
 msgctxt "#38301"
 msgid "Single file"
 msgstr "Single file"
+
+msgctxt "#38303"
+msgid "To library folders"
+msgstr "У каталогі бібліятэкі"
+
+msgctxt "#38305"
+msgid "Destination folder"
+msgstr "Каталог прызначэння"
+
+msgctxt "#38317"
+msgid "Unable to export to library folders as the system artist information folder setting is empty"
+msgstr "Не ўдалося экспартаваць у каталогі бібліятэкі, бо сістэмная налада аб каталозе звестак аб артыстах пустая"
+
+msgctxt "#38318"
+msgid "Unable to export data as the destination folder does not exist"
+msgstr "Не ўдалося экспартаваць даныя, бо каталог прызначэння не існуе"
+
+msgctxt "#38320"
+msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
+msgstr "Вы маеце лакальныя звесткі аб артыстах (NFO) і графічныя файлы, якія вы хочаце атрымаць? Задайце размяшчэнне гэтых каталогаў артыстаў цяпер"
+
+msgctxt "#38336"
+msgid "Local artist information folder"
+msgstr "Каталог лакальныя звестак аб артыстах"
 
 msgctxt "#39030"
 msgid "Source"

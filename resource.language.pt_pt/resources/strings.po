@@ -545,10 +545,6 @@ msgctxt "#160"
 msgid "Free"
 msgstr "Livre"
 
-msgctxt "#161"
-msgid "Unavailable"
-msgstr "Indisponível"
-
 msgctxt "#162"
 msgid "Tray open"
 msgstr "Bandeja aberta"
@@ -877,6 +873,10 @@ msgctxt "#244"
 msgid "Full screen"
 msgstr "Ecrã completo"
 
+msgctxt "#245"
+msgid "Sizing: ({0:d},{1:d})->({2:d},{3:d}) (Zoom x{4:2.2f}) AR:{5:2.2f}:1 (Pixels: {6:2.2f}:1) (VShift: {7:2.2f})"
+msgstr "Tamanho: ({0:d},{1:d})->({2:d},{3:d}) (Zoom x{4:2.2f}) AR:{5:2.2f}:1 (Pixels: {6:2.2f}:1) (VShift: {7:2.2f})"
+
 msgctxt "#246"
 msgid "Monitor"
 msgstr "Monitor"
@@ -1021,6 +1021,10 @@ msgctxt "#281"
 msgid "Please check the XML files"
 msgstr "Verifique os ficheiros XML"
 
+msgctxt "#282"
+msgid "Found {0:d} items"
+msgstr "Encontrados {0:d} itens"
+
 msgctxt "#283"
 msgid "Search results"
 msgstr "Resultados da procura"
@@ -1081,6 +1085,10 @@ msgctxt "#298"
 msgid "Bookmarks"
 msgstr "Marcadores"
 
+msgctxt "#299"
+msgid "Bookmark {0:d}"
+msgstr "Marcador {0:d}"
+
 msgctxt "#300"
 msgid "MP1 capable receiver"
 msgstr "Recetor compatível com MP1"
@@ -1109,6 +1117,10 @@ msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "Não entrelaçado"
 
+msgctxt "#307"
+msgid "Media default"
+msgstr "Padrão de Média"
+
 msgctxt "#308"
 msgid "Original language"
 msgstr "Idioma original"
@@ -1120,6 +1132,10 @@ msgstr "Idioma da interface do utilizador"
 msgctxt "#310"
 msgid "Keyboard layouts"
 msgstr "Disposições do teclado"
+
+msgctxt "#311"
+msgid "{0:s} {1:s}"
+msgstr "{0:s} {1:s}"
 
 msgctxt "#312"
 msgid "(0=auto)"
@@ -1160,6 +1176,14 @@ msgstr "A limpar os artistas..."
 msgctxt "#321"
 msgid "Error cleaning artists"
 msgstr "Erro ao limpar os artistas"
+
+msgctxt "#322"
+msgid "Cleaning genres, roles etc...."
+msgstr "Limpando géneros, papeis, etc..."
+
+msgctxt "#323"
+msgid "Error cleaning genres, roles etc."
+msgstr "Erro ao limpar géneros, papeis, etc..."
 
 msgctxt "#324"
 msgid "Cleaning paths..."
@@ -1307,7 +1331,7 @@ msgstr "Álbuns adicionados recentemente"
 
 msgctxt "#360"
 msgid "Screensaver"
-msgstr "Protetor de ecrã"
+msgstr "Proteção de ecrã"
 
 msgctxt "#361"
 msgid "Recursive slideshow"
@@ -1521,10 +1545,6 @@ msgctxt "#415"
 msgid "Downloading thumbnail..."
 msgstr "A descarregar miniatura..."
 
-msgctxt "#416"
-msgid "Not available"
-msgstr "Indisponível"
-
 msgctxt "#417"
 msgid "View: Big icons"
 msgstr "Vista: Ícones grandes"
@@ -1588,6 +1608,10 @@ msgstr "Sem cache"
 msgctxt "#432"
 msgid "Remove movie from library"
 msgstr "Remover filme da coleção"
+
+msgctxt "#434"
+msgid "From {0:s} at {1:d} {2:s}"
+msgstr "De {0:s} a {1:d} {2:s}"
 
 msgctxt "#435"
 msgid "No optical disc drive detected"
@@ -2000,6 +2024,10 @@ msgstr "Converter áudio multicanal para estéreo"
 msgctxt "#549"
 msgid "Number"
 msgstr "Número"
+
+msgctxt "#550"
+msgid "Sort by: {0:s}"
+msgstr "Ordenar por: {0:s}"
 
 msgctxt "#551"
 msgid "Name"
@@ -3693,6 +3721,10 @@ msgctxt "#10007"
 msgid "System information"
 msgstr "Informação do sistema"
 
+msgctxt "#10008"
+msgid "Settings - Test patterns"
+msgstr "Configurações - Padrões de teste"
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "Definições - Vídeos - Calibração do Ecrã"
@@ -3701,9 +3733,17 @@ msgctxt "#10016"
 msgid "Settings - System"
 msgstr "Definições - Sistema"
 
+msgctxt "#10018"
+msgid "Settings - Service"
+msgstr "Configurações - Serviço"
+
 msgctxt "#10021"
 msgid "Settings - TV"
 msgstr "Definições - Televisão"
+
+msgctxt "#10022"
+msgid "Settings - Games"
+msgstr "Configurações - Jogos"
 
 msgctxt "#10024"
 msgid "Titles"
@@ -3721,9 +3761,25 @@ msgctxt "#10029"
 msgid "Login screen"
 msgstr "Início de sessão"
 
+msgctxt "#10030"
+msgid "Settings - Player"
+msgstr "Configurações - Leitor Multimédia"
+
+msgctxt "#10031"
+msgid "Settings - Media"
+msgstr "Configurações - Multimédia"
+
+msgctxt "#10032"
+msgid "Settings - Interface"
+msgstr "Configurações - Interface"
+
 msgctxt "#10034"
 msgid "Settings - Profiles"
 msgstr "Definições - Perfis"
+
+msgctxt "#10035"
+msgid "Skin Settings"
+msgstr "Configurações da Skin"
 
 msgctxt "#10036"
 msgid "Basic"
@@ -3813,13 +3869,49 @@ msgctxt "#10057"
 msgid "Edit file source"
 msgstr "Editar fonte de ficheiros"
 
+msgctxt "#10100"
+msgid "Yes / No dialog"
+msgstr "Diálogo Sim/Não"
+
+msgctxt "#10101"
+msgid "Progress dialog"
+msgstr "Janela de progresso"
+
 msgctxt "#10103"
 msgid "Virtual keyboard"
 msgstr "Teclado virtual"
 
+msgctxt "#10104"
+msgid "Volume bar"
+msgstr "Barra de Volume"
+
 msgctxt "#10106"
 msgid "Context menu"
 msgstr "Menu de contexto"
+
+msgctxt "#10107"
+msgid "Notification dialog"
+msgstr "Notificações"
+
+msgctxt "#10109"
+msgid "Numeric Input"
+msgstr "Entrada Numérica"
+
+msgctxt "#10110"
+msgid "Gamepad input"
+msgstr "Entrada de Gamepad"
+
+msgctxt "#10111"
+msgid "Shutdown menu"
+msgstr "Menu de Encerramento"
+
+msgctxt "#10114"
+msgid "Player controls"
+msgstr "Controlos do Leitor"
+
+msgctxt "#10115"
+msgid "Seek bar"
+msgstr "Barra de Pesquisa"
 
 msgctxt "#10116"
 msgid "Player process info"
@@ -3829,9 +3921,29 @@ msgctxt "#10120"
 msgid "Music OSD"
 msgstr "Controlos de música"
 
+msgctxt "#10122"
+msgid "Visualization preset list"
+msgstr "Lista de predefinições de visualização"
+
+msgctxt "#10123"
+msgid "Video OSD settings"
+msgstr "Configurações do OSD do Vídeo"
+
+msgctxt "#10124"
+msgid "Audio OSD settings"
+msgstr "Configurações do OSD do Áudio"
+
+msgctxt "#10125"
+msgid "Video bookmarks"
+msgstr "Marcadores de Vídeo"
+
 msgctxt "#10126"
 msgid "File browser"
 msgstr "Explorador de ficheiros"
+
+msgctxt "#10127"
+msgid "channels"
+msgstr "canais"
 
 msgctxt "#10128"
 msgid "Network setup"
@@ -3857,6 +3969,10 @@ msgctxt "#10134"
 msgid "Favourites"
 msgstr "Favoritos"
 
+msgctxt "#10135"
+msgid "Song info"
+msgstr "Info da Música"
+
 msgctxt "#10136"
 msgid "Smart playlist editor"
 msgstr "Editor da lista de reprodução inteligente"
@@ -3865,9 +3981,29 @@ msgctxt "#10137"
 msgid "Smart playlist rule editor"
 msgstr "Editor das regras da lista de reprodução inteligente"
 
+msgctxt "#10139"
+msgid "Picture info"
+msgstr "Info da Imagem"
+
 msgctxt "#10140"
 msgid "Add-on settings"
 msgstr "Definições do Add-on"
+
+msgctxt "#10142"
+msgid "Fullscreen info"
+msgstr "Info em Ecrã Inteiro"
+
+msgctxt "#10146"
+msgid "Add-on info"
+msgstr "Info do Add-on"
+
+msgctxt "#10147"
+msgid "Text viewer"
+msgstr "Visualizador de Texto"
+
+msgctxt "#10150"
+msgid "Peripheral settings"
+msgstr "Configurações de Periféricos"
 
 msgctxt "#10153"
 msgid "Subtitle search"
@@ -3973,9 +4109,21 @@ msgctxt "#10707"
 msgid "Radio guide"
 msgstr "Guia de rádio"
 
+msgctxt "#10800"
+msgid "Fullscreen live TV"
+msgstr "TV em Ecrã Inteiro"
+
+msgctxt "#10801"
+msgid "Fullscreen radio"
+msgstr "Rádio em Ecrã Inteiro"
+
 msgctxt "#10821"
 msgid "Games"
 msgstr "Jogos"
+
+msgctxt "#12000"
+msgid "Select dialog"
+msgstr "Diálogo de seleção"
 
 msgctxt "#12005"
 msgid "Fullscreen video"
@@ -4272,6 +4420,14 @@ msgstr "Proteção de ecrã"
 msgctxt "#12901"
 msgid "Fullscreen OSD"
 msgstr "OSD em ecrã completo"
+
+msgctxt "#12906"
+msgid "Fullscreen game"
+msgstr "Jogo em Ecrã Inteiro"
+
+msgctxt "#12999"
+msgid "Startup"
+msgstr "Iniciar"
 
 msgctxt "#13000"
 msgid "System"
@@ -4965,6 +5121,10 @@ msgctxt "#13395"
 msgid "Video settings"
 msgstr "Definições de vídeo"
 
+msgctxt "#13396"
+msgid "Audio settings"
+msgstr "Configurações de Áudio"
+
 msgctxt "#13397"
 msgid "Enable subtitles"
 msgstr "Ativar legendas"
@@ -5161,6 +5321,14 @@ msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "Ative esta opção para utilizar aceleração por hardware para codificadores baseados em VC-1. Se inativa, será utilizado o CPU. VC-1 entrelaçado falha bastante em equipamentos Intel."
 
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "Utilizar VP8 VAAPI"
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "Utilizar VP9 VAAPI"
+
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Preferir método de renderização VAAPI"
@@ -5172,6 +5340,10 @@ msgstr "Permitir aceleração por hardware - OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Utilizar OMXPlayer para descodificar os ficheiros de vídeo."
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "Utilizar HEVC VAAPI"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -5216,6 +5388,14 @@ msgstr "Imagem local"
 msgctxt "#13515"
 msgid "No art"
 msgstr "Sem imagem"
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Arte embutida"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Fanart embutido"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -5585,6 +5765,10 @@ msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Ao selecionar, colocar músicas na fila"
 
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Lista branca"
+
 msgctxt "#14086"
 msgid "Playback"
 msgstr "Reprodução"
@@ -5832,6 +6016,10 @@ msgstr "Regional"
 msgctxt "#14223"
 msgid "Control"
 msgstr "Controlo"
+
+msgctxt "#14224"
+msgid "Startup"
+msgstr "Iniciar"
 
 msgctxt "#14225"
 msgid "Network Control"
@@ -7101,6 +7289,10 @@ msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Ocultar caixa de informação de vídeo"
 
+msgctxt "#19171"
+msgid "Switch to full screen"
+msgstr "Mudar para Ecrã Inteiro"
+
 msgctxt "#19172"
 msgid "Instant recording duration"
 msgstr "Duração da gravação instantânea"
@@ -7441,6 +7633,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "Ocultar etiquetas \"Nenhuma informação disponível\""
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Pré-seleccionar o canal de reprodução em listas"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Agrupar itens"
@@ -7536,6 +7732,18 @@ msgstr "Apagar a regra de temporização"
 msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "Não existem add-ons PVR ativos"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Canais na vertical, sem selector de grupo"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Canais na horizontal, sem selector de grupo"
+
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "Deseja gravar o programa seleccionado ou trocar para o programa actual?"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9240,6 +9448,10 @@ msgstr "Etiquetas"
 msgctxt "#20462"
 msgid "New tag..."
 msgstr "Nova etiqueta..."
+
+msgctxt "#20464"
+msgid "Select {0:s}"
+msgstr "Selecione {0:s}"
 
 msgctxt "#20465"
 msgid "Manage movie set"
@@ -11793,13 +12005,109 @@ msgctxt "#35103"
 msgid "Buttons"
 msgstr "Botões"
 
+msgctxt "#35156"
+msgid "{0:d}"
+msgstr "{0:d}"
+
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Selecione tecla"
+
+msgctxt "#35171"
+msgid "Mouse"
+msgstr "Rato"
+
+msgctxt "#35207"
+msgid "Emulators"
+msgstr "Emuladores"
+
+msgctxt "#35219"
+msgid "The required files can't be found."
+msgstr "Os ficheiros necessários não foram encontrados."
+
+msgctxt "#35220"
+msgid "Game providers"
+msgstr "Fornecedor de Jogo"
+
+msgctxt "#35221"
+msgid "Game Menu"
+msgstr "Menu do Jogo"
+
 msgctxt "#35222"
 msgid "Exit"
 msgstr "Sair"
 
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Pausa / Voltar"
+
+msgctxt "#35225"
+msgid "Video filter"
+msgstr "Filtro de vídeo"
+
 msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "Definições avançadas"
+
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "Rotação"
+
+msgctxt "#35228"
+msgid "0°"
+msgstr "0°"
+
+msgctxt "#35229"
+msgid "90°"
+msgstr "90°"
+
+msgctxt "#35230"
+msgid "180°"
+msgstr "180°"
+
+msgctxt "#35231"
+msgid "270°"
+msgstr "270°"
+
+msgctxt "#35232"
+msgid "Fullscreen"
+msgstr "Ecrã Inteiro"
+
+msgctxt "#35233"
+msgid "Stretch mode"
+msgstr "Modo esticado"
+
+msgctxt "#35234"
+msgid "Controls"
+msgstr "Controlos"
+
+msgctxt "#35250"
+msgid "Add games..."
+msgstr "Adicionar jogos..."
+
+msgctxt "#35251"
+msgid "Add game source"
+msgstr "Adicionar fonte do jogo"
+
+msgctxt "#35252"
+msgid "Edit game source"
+msgstr "Editar fonte do jogo"
+
+msgctxt "#35256"
+msgid "Failed to install add-on."
+msgstr "Falha ao instalar add-on"
+
+msgctxt "#35257"
+msgid "Installed"
+msgstr "instalado"
+
+msgctxt "#35258"
+msgid "Select emulator for {0:s} file"
+msgstr "Seleccione emulador para {0:s} ficheiro"
+
+msgctxt "#35259"
+msgid "Saved"
+msgstr "Guardado"
 
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -12189,6 +12497,10 @@ msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
 msgstr "Esta categoria contém as definições para manipular a reprodução de vídeo."
 
+msgctxt "#36152"
+msgid "Enable automatic playback of the next file in the list for selected playlist types."
+msgstr "Activar reprodução automática do próximo ficheiro na lista para os tipos de playlists seleccionados."
+
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Ajuste o método utilizado para processar e mostrar vídeos."
@@ -12220,6 +12532,10 @@ msgstr "Ativar descodificação CrystalHD para ficheiros de vídeo."
 msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "Ativar descodificação de hardware VTB dos ficheiros de vídeo."
+
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "Seleccione uma acção que o Kodi irá executar ao inicializar."
 
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
@@ -12412,6 +12728,10 @@ msgstr "Mostrar informação da programação ao mudar de canais, tais como prog
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Abrir gestor de grupos para modificar os grupos e os seus canais"
+
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "Pré-seleccione o canal de reprodução em janelas e diálogos contendo listas de canais. Se activado e existe um canal de reprodução, o canal de reprodução será seleccionado ao abrir uma janela ou diálogo contendo uma lista de canais. Se desactivado, o canal previamente seleccionado em uma janela ou diálogo será seleccionado ao abrir uma janela contendo uma lista de canais."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -12677,6 +12997,10 @@ msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Ejetar o disco ao terminar a extração."
 
+msgctxt "#36293"
+msgid "Select the folder where artist information (nfo files and images) should be saved in."
+msgstr "Seleccione a pasta onde as informações dos artistas (arquivos NFO e imagens) irão ser guardadas."
+
 msgctxt "#36302"
 msgid "No info available yet."
 msgstr "Ainda não há informação disponível."
@@ -12925,6 +13249,10 @@ msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
 msgstr "Selecione o número máximo de canais de áudio / altifalantes disponíveis para o áudio descodificado. Se forem usadas saídas óticas / coaxiais, este valor deverá ser igual a 2.0"
 
+msgctxt "#36368"
+msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
+msgstr "Seleccione para permitir áudio passthrough para a reprodução de áudio compactado, como Dolby Digital (AC3), DTS, etc. O cliente do AudioEngine, por exemplo VideoPlayer, irá decidir a descodificação do fluxo de áudio sob certas condições. No caso do VideoPlayer, o passthrough não será usado para transmissões ao vivo e quando  sincronizar a reprodução com seu ecrã."
+
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
 msgstr "Selecione esta opção se o seu recetor for capaz de descodificar emissões TrueHD."
@@ -13140,6 +13468,10 @@ msgstr "Ignorar o misturador VDPAU poupa recursos em sistemas menos poderosos, m
 msgctxt "#36422"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "Ativar descodificação por hardware através do descodificador Amlogic."
+
+msgctxt "#36424"
+msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
+msgstr "Seleccione o que acontecerá quando um item estiver seleccionado no guia: [Mostrar menu de contexto] Accionará o menu de contexto a partir do qual poderá escolher outras acções; [Mudar para canal] Sintoniza instantaneamente o canal relacionado; [Mostrar informação] Apresentará uma informação detalhada com o enredo e outras opções; [Gravar] Criará um temporizador de gravação para o item seleccionado. [\"Selecção inteligente\"] A acção é escolhida dinamicamente, dependendo se o evento está no passado, agora ou no futuro."
 
 msgctxt "#36425"
 msgid "Show context menu"
@@ -13385,9 +13717,17 @@ msgctxt "#36564"
 msgid "3D LUT"
 msgstr "LUT 3D"
 
+msgctxt "#36565"
+msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
+msgstr "Seleccione o ficheiro 3DLUT a ser usado por padrão. Se colocar vários ficheiros 3DLUT na mesma pasta, poderá alternar entre eles no menu OSD durante a reprodução de vídeo. Isto permite a vários perfis de exibição para explicar diferentes ambientes de exibição e materiais de base, por exemplo gamma 2.2 para visualização diurna e 2,4 para noturna."
+
 msgctxt "#36566"
 msgid "ICC display profile"
 msgstr "Perfil de visualização ICC"
+
+msgctxt "#36567"
+msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
+msgstr "Ao fornecer um perfil de exibição, poderá modificar os parâmetros de vídeo, como gamma, cores primárias e whitepoint durante a reprodução. Um perfil de fonte ICC é criado com base nos parâmetros e vinculado ao perfil ICC de exibição definido aqui. Este suporte é experimental e não tem ajuste próximo ao preto para exibir um preto nativo (causando aumento do nível de preto) e escala de nível de branco quando um ponto branco diferente da exibição nativa é seleccionado (como solução alternativa, baixe o brilho do vídeo)."
 
 msgctxt "#36568"
 msgid "Whitepoint"
@@ -13397,9 +13737,17 @@ msgctxt "#36570"
 msgid "Primaries"
 msgstr "Primárias"
 
+msgctxt "#36571"
+msgid "Select the primary color coordinates according to source material. Older HD material may have been mastered on displays with BT.601 primaries."
+msgstr "Seleccione as coordenadas de cores primárias de acordo com material de origem. Material HD mais antigo pode ter sido masterizado em ecrãs com primários BT.601."
+
 msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Modo do gama"
+
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Seleccione a fórmula da curva gama. Use BT.1886 para a curva de gamma que é responsável por mostrar negro e níveis de branco e evitar recorte perceptual. Utilize deslocamento para uma curva semelhante com uma gamma eficaz especificada manualmente. Compensar a saída permite recorte perceptual, mas pode ser usado para compensar as configurações de masterização do monitor incorretas que levam a que os detalhes escuros fiquem muito brilhantes. A gamma absoluta não considera a exibição de preto e cortará os níveis mais baixos para exibir preto em qualquer tela com nível de preto maior que zero."
 
 msgctxt "#36574"
 msgid "Gamma"
@@ -13977,9 +14325,37 @@ msgctxt "#38208"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
 msgstr "Se existir informação EXIF (data, hora, câmara usada, etc), esta será exibida."
 
+msgctxt "#38300"
+msgid "Export Music Library"
+msgstr "Exportar biblioteca de Música"
+
 msgctxt "#38301"
 msgid "Single file"
 msgstr "Um ficheiro"
+
+msgctxt "#38305"
+msgid "Destination folder"
+msgstr "Pasta de destino"
+
+msgctxt "#38306"
+msgid "Items to export"
+msgstr "Itens para exportar"
+
+msgctxt "#38310"
+msgid "Overwrite existing files"
+msgstr "Substituir ficheiros existentes"
+
+msgctxt "#38313"
+msgid "Other artists"
+msgstr "Outros artistas"
+
+msgctxt "#38319"
+msgid "Export"
+msgstr "Exportar"
+
+msgctxt "#38338"
+msgid "Choose how to apply settings"
+msgstr "Escolha como aplicar as configurações"
 
 msgctxt "#39000"
 msgid "HD and up"
@@ -14021,10 +14397,90 @@ msgctxt "#39010"
 msgid "Select sort method"
 msgstr "Selecione o método de organização"
 
+msgctxt "#39011"
+msgid "Maximum wait time for network"
+msgstr "Tempo máximo de espera por rede"
+
+msgctxt "#39013"
+msgid "Virtual filesystems"
+msgstr "Sistema de Ficheiros virtual"
+
+msgctxt "#39018"
+msgid "optional"
+msgstr "opcional"
+
+msgctxt "#39019"
+msgid "installed"
+msgstr "instalado"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "Os seguintes add-ons adicionais serão instalados"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "Continuar com a instalação?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
 msgctxt "#39024"
 msgid "Dependencies"
 msgstr "Dependências"
 
+msgctxt "#39025"
+msgid "Gender"
+msgstr "Género"
+
 msgctxt "#39030"
 msgid "Source"
 msgstr "Fonte"
+
+msgctxt "#39031"
+msgid "Sources"
+msgstr "Fontes"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "Executar no arranque"
+
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "Ver Televisão"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "Ouvir Rádio"
+
+msgctxt "#39104"
+msgid "View as text"
+msgstr "Ver como texto"
+
+msgctxt "#39105"
+msgid "default"
+msgstr "padrão"
+
+msgctxt "#39106"
+msgid "forced"
+msgstr "Forçado"
+
+msgctxt "#39108"
+msgid "audio description"
+msgstr "Descrição áudio"
+
+msgctxt "#39109"
+msgid "Select Program"
+msgstr "Selecione Programa"
+
+msgctxt "#39110"
+msgid "Select Resolution"
+msgstr "Selecione Resolução"
+
+msgctxt "#39111"
+msgid "original"
+msgstr "original"
