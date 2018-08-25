@@ -1117,6 +1117,10 @@ msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "非交错"
 
+msgctxt "#307"
+msgid "Media default"
+msgstr "媒体默认"
+
 msgctxt "#308"
 msgid "Original language"
 msgstr "原始语言"
@@ -1873,6 +1877,10 @@ msgctxt "#505"
 msgid "Loading media information from files..."
 msgstr "从文件中载入媒体信息..."
 
+msgctxt "#506"
+msgid "Checking media files..."
+msgstr "检查媒体文件..."
+
 msgctxt "#507"
 msgid "Sort by: Usage"
 msgstr "排序：使用次数"
@@ -2509,6 +2517,18 @@ msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
 msgstr "[B]音频/视频定时信息[/B]详细日志"
 
+msgctxt "#684"
+msgid "Verbose logging of [B]Windowing[/B] component"
+msgstr "[B]窗口[/B]组件详细日志"
+
+msgctxt "#685"
+msgid "Verbose logging of [B]PVR[/B] component"
+msgstr "[B]PVR[/B] 组件详细日志"
+
+msgctxt "#686"
+msgid "Verbose logging of [B]EPG[/B] component"
+msgstr "[B]电子节目单[/B]组件详细日志"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "清理资料库"
@@ -2605,6 +2625,10 @@ msgctxt "#730"
 msgid "Port"
 msgstr "端口"
 
+msgctxt "#731"
+msgid "Black"
+msgstr "黑屏"
+
 msgctxt "#732"
 msgid "Save & apply"
 msgstr "保存 & 应用"
@@ -2656,6 +2680,14 @@ msgstr "黄色"
 msgctxt "#744"
 msgid "Files"
 msgstr "文件"
+
+msgctxt "#745"
+msgid "Background colour"
+msgstr "背景颜色"
+
+msgctxt "#746"
+msgid "Background opacity"
+msgstr "背景不透明度"
 
 msgctxt "#747"
 msgid "Error loading image"
@@ -3749,6 +3781,14 @@ msgctxt "#10004"
 msgid "Settings"
 msgstr "设置"
 
+msgctxt "#10005"
+msgid "Not available"
+msgstr "不可用"
+
+msgctxt "#10006"
+msgid "N/A"
+msgstr "不可用"
+
 msgctxt "#10007"
 msgid "System information"
 msgstr "系统信息"
@@ -3977,6 +4017,10 @@ msgctxt "#10126"
 msgid "File browser"
 msgstr "文件浏览器"
 
+msgctxt "#10127"
+msgid "channels"
+msgstr "频道"
+
 msgctxt "#10128"
 msgid "Network setup"
 msgstr "网络设置"
@@ -4056,6 +4100,10 @@ msgstr "字幕搜索"
 msgctxt "#10157"
 msgid "OSD CMS settings"
 msgstr "OSD CMS 设置"
+
+msgctxt "#10159"
+msgid "Subtitle OSD settings"
+msgstr "字幕 OSD 设置"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -5549,6 +5597,22 @@ msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "启用此选项激活基于 VC-1 的编码的硬件加速，禁用则为 CPU 解码。Intel 硬件解码隔行 VC-1 常常出错。"
 
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "使用 VP8 VAAPI"
+
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "启用此选项激活 VP8 编码的硬件加速，禁用则为 CPU 解码。"
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "使用 VP9 VAAPI"
+
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "启用此选项激活 VP9 编码的硬件加速，禁用则为 CPU 解码。"
+
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "首选 VAAPI 渲染模式"
@@ -5560,6 +5624,30 @@ msgstr "允许硬件加速 - OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "使用 OMXPlayer 解码视频文件。"
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "使用 HEVC VAAPI"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "启用此选项激活 HEVC 编码的硬件加速，禁用则为 CPU 解码。"
+
+msgctxt "#13462"
+msgid "PRIME Render Method"
+msgstr "PRIME 渲染模式"
+
+msgctxt "#13463"
+msgid "This option switches between direct-to-plane and EGL rendering methods."
+msgstr "此选项在直接平面和 EGL 渲染模式间切换。"
+
+msgctxt "#13464"
+msgid "Direct To Plane"
+msgstr "直接平面"
+
+msgctxt "#13465"
+msgid "EGL"
+msgstr "EGL"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -5623,7 +5711,7 @@ msgstr "嵌入的艺术图片"
 
 msgctxt "#13520"
 msgid "Embedded fanart"
-msgstr "嵌入的手绘图片"
+msgstr "嵌入的同人画"
 
 msgctxt "#13521"
 msgid "Choose art type"
@@ -5996,6 +6084,10 @@ msgstr "使用窗口化全屏"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "选中歌曲加入播放列表"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "白名单列表"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -8115,11 +8207,11 @@ msgstr "无启用的 PVR 插件"
 
 msgctxt "#19297"
 msgid "Vertical channels"
-msgstr "垂直方向频道"
+msgstr "纵排频道"
 
 msgctxt "#19298"
 msgid "Horizontal channels"
-msgstr "水平方向频道"
+msgstr "横排频道"
 
 msgctxt "#19299"
 msgid "Expires"
@@ -8127,11 +8219,15 @@ msgstr "过期"
 
 msgctxt "#19300"
 msgid "Vertical channels, no group selector"
-msgstr "垂直方向频道，无分组选择"
+msgstr "纵排频道，无分组选择"
 
 msgctxt "#19301"
 msgid "Horizontal channels, no group selector"
-msgstr "水平方向频道，无分组选择"
+msgstr "横排频道，无分组选择"
+
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "录制已选择节目还是切换到当前节目？"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9265,6 +9361,14 @@ msgctxt "#20223"
 msgid "Artist information folder"
 msgstr "歌手信息文件夹"
 
+msgctxt "#20224"
+msgid "Prefer online album art"
+msgstr "优先选择在线专辑艺术图片"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "无本地专辑封面时，使用在线艺术图片。如本地和在线图片均不可用，则使用音乐文件内嵌封面图片"
+
 msgctxt "#20240"
 msgid "Android music"
 msgstr "Android 音乐"
@@ -9355,11 +9459,11 @@ msgstr "无法写入文件夹："
 
 msgctxt "#20304"
 msgid "RSS Feed (HTTP)"
-msgstr "RSS 订阅 (HTTP)"
+msgstr "RSS 订阅（HTTP）"
 
 msgctxt "#20305"
 msgid "RSS Feed (HTTPS)"
-msgstr "RSS 订阅 (HTTPS)"
+msgstr "RSS 订阅（HTTPS）"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -10059,7 +10163,11 @@ msgstr "使用视频标签"
 
 msgctxt "#21344"
 msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "如果 mp4 或 mkv 文件具有标签，请将其用于库的元数据"
+msgstr "如果 mp4 或 mkv 文件含有标签，将其用于资料库的元数据"
+
+msgctxt "#21345"
+msgid "Uncategorized"
+msgstr "未分类"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -12727,7 +12835,7 @@ msgstr "方向盘"
 
 msgctxt "#35072"
 msgid "Paddles"
-msgstr "球拍"
+msgstr "按键"
 
 msgctxt "#35073"
 msgid "Joysticks"
@@ -12923,7 +13031,7 @@ msgstr "按一个键"
 
 msgctxt "#35170"
 msgid "Press a key ({1:d})"
-msgstr "按一个键 ({1: d})"
+msgstr "按一个键（{1: d}）"
 
 msgctxt "#35171"
 msgid "Mouse"
@@ -13029,6 +13137,38 @@ msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "高级设置"
 
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "旋转"
+
+msgctxt "#35228"
+msgid "0°"
+msgstr "0°"
+
+msgctxt "#35229"
+msgid "90°"
+msgstr "90°"
+
+msgctxt "#35230"
+msgid "180°"
+msgstr "180°"
+
+msgctxt "#35231"
+msgid "270°"
+msgstr "270°"
+
+msgctxt "#35232"
+msgid "Fullscreen"
+msgstr "全屏幕"
+
+msgctxt "#35233"
+msgid "Stretch mode"
+msgstr "拉伸模式"
+
+msgctxt "#35234"
+msgid "Controls"
+msgstr "控制"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "添加游戏..."
@@ -13040,6 +13180,14 @@ msgstr "添加游戏来源"
 msgctxt "#35252"
 msgid "Edit game source"
 msgstr "编辑游戏来源"
+
+msgctxt "#35253"
+msgid "Enable autosave if supported"
+msgstr "如果支持则启用自动保存"
+
+msgctxt "#35254"
+msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
+msgstr "如果支持则在游戏运行时自动保存。游戏可从退出时状态继续。"
 
 msgctxt "#35256"
 msgid "Failed to install add-on."
@@ -13255,15 +13403,15 @@ msgstr "当 Kodi 激活时强制唤醒 AVR"
 
 msgctxt "#36047"
 msgid "Remote button press delay before repeating (ms)"
-msgstr "重复前远程按钮延迟（毫秒）"
+msgstr "遥控器按钮按压重复前延迟（毫秒）"
 
 msgctxt "#36048"
 msgid "Remote button press repeat rate (ms)"
-msgstr "远程按钮按下重复速率（毫秒）"
+msgstr "遥控器按钮按压重复速率（毫秒）"
 
 msgctxt "#36049"
 msgid "Remote button press release time (ms)"
-msgstr "远程按钮按下释放时间（毫秒）"
+msgstr "遥控器按钮按压释放时间（毫秒）"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -13477,6 +13625,10 @@ msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
 msgstr "此功能区包含视频播放处理相关设置。"
 
+msgctxt "#36152"
+msgid "Enable automatic playback of the next file in the list for selected playlist types."
+msgstr "针对选定播放列表类型启用自动播放列表中的下一个文件。"
+
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "调整处理和显示视频的方式。"
@@ -13555,7 +13707,7 @@ msgstr "选择在宽屏显示屏显示4:3视频的缩放级别。"
 
 msgctxt "#36172"
 msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "启用 PRIME 硬件解码视频文件，如果 ffmpeg PRIME hwaccel 可用，则使用该解码。"
+msgstr "启用视频文件 PRIME 硬件解码，当 ffmpeg PRIME hwaccel 可用时使用。"
 
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
@@ -13777,9 +13929,17 @@ msgctxt "#36227"
 msgid "Switch to full screen display when starting playback of channels and recordings."
 msgstr "开始播放频道和录像时切换到全屏显示。"
 
+msgctxt "#36228"
+msgid "Set the colour to be used for the subtitle background."
+msgstr "设置字幕背景使用的颜色。"
+
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "在编码信息窗显示信号质量信息（如果插件和后端支持）。"
+
+msgctxt "#36230"
+msgid "Set the the subtitle background opacity."
+msgstr "设置字幕背景不透明度。"
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -14232,6 +14392,10 @@ msgstr "如启用，全屏模式将使用窗口实现而非真正的全屏模式
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "在多屏配置，不显示此应用的屏幕将黑屏。"
+
+msgctxt "#36356"
+msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
+msgstr "改变分辨率和刷新率时，允许切换到白名单上的模式。"
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -14725,6 +14889,22 @@ msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "定义图形驱动使用的显示缓冲区数。如果驱动使用双缓冲选择 2，使用三重缓冲选择 3。"
 
+msgctxt "#36553"
+msgid "Tone mapping"
+msgstr "色调映射"
+
+msgctxt "#36554"
+msgid "off"
+msgstr "关"
+
+msgctxt "#36555"
+msgid "Reinhard"
+msgstr "莱因哈德"
+
+msgctxt "#36556"
+msgid "Tone mapping parameter"
+msgstr "色调映射参数"
+
 msgctxt "#36560"
 msgid "Colour management"
 msgstr "色彩管理"
@@ -14995,19 +15175,19 @@ msgstr "最低协议版本"
 
 msgctxt "#36629"
 msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
-msgstr "设置连接时要协商的最低 SMB 协议版本。可能需要强制 SMBv2 防止 SMBv1 在某些操作系统上使用。"
+msgstr "设置连接协商使用的最低 SMB 协议版本。可能需要强制 SMBv2 以阻止某些操作系统使用 SMBv1。"
 
 msgctxt "#36630"
 msgid "Use legacy security"
-msgstr "使用旧式安全性"
+msgstr "使用传统安全性"
 
 msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
-msgstr "强制弱化 SMBv1 安全性，以便与某些 WiFi 路由器和 NAS 设备上的 USB 共享功能兼容。"
+msgstr "强制弱 SMBv1 安全性，以兼容某些无线路由器和 NAS 设备上的 USB 共享。"
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
-msgstr "在 Web 服务器中启用SSL加密。证书 special://userdata/server.key 和 密钥 special://userdata/server.pem 必须手动创建"
+msgstr "在 Web 服务器中启用 SSL 加密。证书 special://userdata/server.key 和密钥 special://userdata/server.pem 必须手动创建"
 
 msgctxt "#36900"
 msgid "movie"
@@ -15713,6 +15893,10 @@ msgctxt "#39030"
 msgid "Source"
 msgstr "来源"
 
+msgctxt "#39031"
+msgid "Sources"
+msgstr "来源"
+
 msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "启动时执行"
@@ -15752,3 +15936,11 @@ msgstr "语音描述"
 msgctxt "#39109"
 msgid "Select Program"
 msgstr "选择程序"
+
+msgctxt "#39110"
+msgid "Select Resolution"
+msgstr "选择分辨率"
+
+msgctxt "#39111"
+msgid "original"
+msgstr "原始"
