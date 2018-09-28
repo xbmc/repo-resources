@@ -2529,6 +2529,10 @@ msgctxt "#686"
 msgid "Verbose logging of [B]EPG[/B] component"
 msgstr "Ausführliche Protokollierung der [B]EPG[/B]-Komponente"
 
+msgctxt "#687"
+msgid "From metadata"
+msgstr "Aus Metadaten"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Bibliothek wird bereinigt"
@@ -12933,6 +12937,10 @@ msgctxt "#35105"
 msgid "Light gun"
 msgstr "Light gun"
 
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "Offscreen-Aufnahme"
+
 msgctxt "#35107"
 msgid "Console switches"
 msgstr "Konsolenschalter"
@@ -13179,7 +13187,7 @@ msgstr "Spiele-Quelle editieren"
 
 msgctxt "#35253"
 msgid "Enable autosave if supported"
-msgstr "Autosave aktivieren (falls unterstützt)"
+msgstr "Autosave aktivieren, falls unterstützt"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14953,13 +14961,25 @@ msgctxt "#36572"
 msgid "Gamma mode"
 msgstr "Gamma-Modus"
 
+msgctxt "#36573"
+msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
+msgstr "Auswahl Gammakurvenformel. Verwendung von BT.1886 für die Gammakurve, die die Schwarz-Weiß-Werte der Anzeige berücksichtigt und Wahrnehmungsstörungen vermeidet. Der Eingangsoffset wird für eine ähnliche Kurve mit einem manuell festgelegten effektiven Gamma verwendet. Der Ausgabeoffset ermöglicht ein wahrnehmungsmäßiges Clipping, kann aber verwendet werden, um falsche Einstellungen des Hauptmonitors zu kompensieren, die zu aufgehellten dunklen Details führen. Absolutes Gamma berücksichtigt überhaupt nicht die Anzeige von Schwarz und schneidet die niedrigsten Pegel ab, um Schwarz auf jeder Anzeige mit einem höheren als dem Null-Schwarzpegel anzuzeigen.\n\nÜbersetzt mit www.DeepL.com/Translator"
+
 msgctxt "#36574"
 msgid "Gamma"
 msgstr "Gamma"
 
+msgctxt "#36575"
+msgid "Gamma for selected gamma curve type. For input and output offset, the result at 50% will match an absolute gamma curve with this gamma value."
+msgstr "Gamma für den ausgewählten Gammakurventyp. Für den Eingangs- und Ausgangsoffset entspricht das Ergebnis bei 50% einer absoluten Gammakurve mit diesem Gammawert."
+
 msgctxt "#36576"
 msgid "Lookup table size"
 msgstr "Größe der Lookup Table"
+
+msgctxt "#36577"
+msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
+msgstr "Geben Sie die Auflösung für die 3D-Lookup-Tabelle an. Verwenden einer niedrigeren Auflösung für eine schnelle Vorschau und eine höhere Auflösung für ein genaueres Bild. Die Verwendung einer hohen Auflösung kann unter Umständen Sekunden dauern, bis die Vorbereitung abgeschlossen ist, wenn Parameter geändert oder ein neues Video gestartet wird."
 
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -15928,3 +15948,11 @@ msgstr "Auflösung wählen"
 msgctxt "#39111"
 msgid "original"
 msgstr "Original"
+
+msgctxt "#39112"
+msgid "Downmix: Center Mix Level"
+msgstr "Heruntermischen: Center Mix Pegel"
+
+msgctxt "#39113"
+msgid "Center Mix Level in dB relative to metadata or default (-3 dB)"
+msgstr "Center Mix Pegel in dB, relative zu Metadaten or Standard (-3 dB)"

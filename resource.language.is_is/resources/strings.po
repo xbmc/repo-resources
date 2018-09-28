@@ -1117,6 +1117,10 @@ msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "Ekki línufléttun"
 
+msgctxt "#307"
+msgid "Media default"
+msgstr "Sjálfgefið á gagnamiðli"
+
 msgctxt "#308"
 msgid "Original language"
 msgstr "Upphaflegt tungumál"
@@ -1167,11 +1171,11 @@ msgstr "Villa við hreinsun lagalista"
 
 msgctxt "#320"
 msgid "Cleaning artists..."
-msgstr "Hreinsa listamannalista..."
+msgstr "Hreinsa flytjendalista..."
 
 msgctxt "#321"
 msgid "Error cleaning artists"
-msgstr "Villa við hreinsun listamannalista"
+msgstr "Villa við hreinsun flytjendalista"
 
 msgctxt "#322"
 msgid "Cleaning genres, roles etc...."
@@ -2023,7 +2027,7 @@ msgstr "Gegnumstreymis-úttakstæki"
 
 msgctxt "#547"
 msgid "No biography for this artist"
-msgstr "Ekkert æviágrip fyrir þennan listamann"
+msgstr "Ekkert æviágrip fyrir þennan flytjanda"
 
 msgctxt "#548"
 msgid "Downmix multichannel audio to stereo"
@@ -2099,7 +2103,7 @@ msgstr "Notkun"
 
 msgctxt "#566"
 msgid "Album artist"
-msgstr "Listamenn á hljómplötu"
+msgstr "Flytjendur á hljómplötu"
 
 msgctxt "#567"
 msgid "Play count"
@@ -2123,7 +2127,7 @@ msgstr "Sjálfgefið"
 
 msgctxt "#572"
 msgid "Studio"
-msgstr "Stúdíó"
+msgstr "Útgefandi"
 
 msgctxt "#573"
 msgid "Path"
@@ -2513,6 +2517,22 @@ msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
 msgstr "Ítarleg atvikaskráning fyrir [B]tímasetningar hljóð/myndar[/B]"
 
+msgctxt "#684"
+msgid "Verbose logging of [B]Windowing[/B] component"
+msgstr "Ítarleg atvikaskráning fyrir [B]Glugga[/B] (Windowing)eininguna"
+
+msgctxt "#685"
+msgid "Verbose logging of [B]PVR[/B] component"
+msgstr "Ítarleg atvikaskráning fyrir [B]PVR[/B] eininguna"
+
+msgctxt "#686"
+msgid "Verbose logging of [B]EPG[/B] component"
+msgstr "Ítarleg atvikaskráning fyrir [B]EPG[/B] eininguna"
+
+msgctxt "#687"
+msgid "From metadata"
+msgstr "Úr lýsigögnum"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Hreinsa upp safn"
@@ -2527,7 +2547,7 @@ msgstr "Þessi slóð hefur verið skönnuð áður"
 
 msgctxt "#705"
 msgid "Network"
-msgstr "Net"
+msgstr "Netkerfi"
 
 msgctxt "#706"
 msgid "Server"
@@ -2883,7 +2903,7 @@ msgstr "Leit í öllum texta (eða aðeins leit í titlum)"
 
 msgctxt "#807"
 msgid "Any day"
-msgstr "Hvern dag"
+msgstr "Einhvern dag"
 
 msgctxt "#808"
 msgid "Every day"
@@ -4499,7 +4519,7 @@ msgstr "Aðgangur ekki leyfður"
 
 msgctxt "#12346"
 msgid "Password retry limit exceeded."
-msgstr "Fjöldi tilrauna til að setja inn lykilorð búinn."
+msgstr "Hámarksfjölda tilrauna til að setja inn lykilorð hefur verið náð."
 
 msgctxt "#12347"
 msgid "The system will now power down."
@@ -5275,7 +5295,7 @@ msgstr "Spila hlut"
 
 msgctxt "#13359"
 msgid "Set artist thumb"
-msgstr "Setja smámynd fyrir listamann"
+msgstr "Setja smámynd fyrir flytjanda"
 
 msgctxt "#13360"
 msgid "Automatically generate thumbnails"
@@ -5585,13 +5605,21 @@ msgctxt "#13453"
 msgid "Use VP8 VAAPI"
 msgstr "Nota VP8 VAAPI"
 
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir VP8-kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn."
+
 msgctxt "#13455"
 msgid "Use VP9 VAAPI"
 msgstr "Nota VP9 VAAPI"
 
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir VP9-kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn."
+
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
-msgstr "Kjósa VAAPI renderingu"
+msgstr "Kjósa VAAPI myndgerð"
 
 msgctxt "#13458"
 msgid "Allow hardware acceleration - OMXPlayer"
@@ -5604,6 +5632,22 @@ msgstr "Nota OMXPlayer fyrir afkóðun á videoskrám."
 msgctxt "#13460"
 msgid "Use HEVC VAAPI"
 msgstr "Nota HEVC VAAPI"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir HEVC-kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn."
+
+msgctxt "#13462"
+msgid "PRIME Render Method"
+msgstr "PRIME-myndgerðaraðferð"
+
+msgctxt "#13463"
+msgid "This option switches between direct-to-plane and EGL rendering methods."
+msgstr "Þessi valkostur skiptir á milli beint-á-flöt og EGL myndgerðaraðferða."
+
+msgctxt "#13464"
+msgid "Direct To Plane"
+msgstr "Beint á flöt"
 
 msgctxt "#13465"
 msgid "EGL"
@@ -5635,23 +5679,23 @@ msgstr "Samstilla spilun við skjá"
 
 msgctxt "#13511"
 msgid "Choose art"
-msgstr "Veldu myndverk"
+msgstr "Veldu myndefni"
 
 msgctxt "#13512"
 msgid "Current art"
-msgstr "Núverandi myndverk"
+msgstr "Núverandi myndefni"
 
 msgctxt "#13513"
 msgid "Remote art"
-msgstr "Fjartengt myndverk"
+msgstr "Fjartengt myndefni"
 
 msgctxt "#13514"
 msgid "Local art"
-msgstr "Staðbundið myndverk"
+msgstr "Myndefni á tölvu"
 
 msgctxt "#13515"
 msgid "No art"
-msgstr "Ekkert myndverk"
+msgstr "Ekkert myndefni"
 
 msgctxt "#13516"
 msgid "Add art type"
@@ -6044,6 +6088,10 @@ msgstr "Nota heilskjásglugga"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Setja lög í biðröð við val þeirra"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Listi yfir leyfilegt"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -6679,7 +6727,7 @@ msgstr "Hætti við......"
 
 msgctxt "#16025"
 msgid "Enter the artist name"
-msgstr "Settu inn nafn listamanns"
+msgstr "Settu inn nafn flytjandans"
 
 msgctxt "#16026"
 msgid "Playback failed"
@@ -7639,7 +7687,7 @@ msgstr "Skipta"
 
 msgctxt "#19166"
 msgid "PVR information"
-msgstr "Upplýsingar upptökutækis"
+msgstr "Upplýsingar PVR-upptökutækis"
 
 msgctxt "#19167"
 msgid "Scan for missing icons"
@@ -8180,6 +8228,10 @@ msgstr "Lóðréttar rásir, ekki hópaval"
 msgctxt "#19301"
 msgid "Horizontal channels, no group selector"
 msgstr "Láréttar rásir, ekki hópaval"
+
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "Viltu taka upp valinn dagskrárlið eða skipta á núverandi dagskrárlið?"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9275,7 +9327,7 @@ msgstr "Sjálfgefin gagnaveita fyrir hljómplötuupplýsingar"
 
 msgctxt "#20194"
 msgid "Default provider for artist information"
-msgstr "Sjálfgefin gagnaveita fyrir listamannaupplýsingar"
+msgstr "Sjálfgefin gagnaveita fyrir upplýsingar um flytjendur"
 
 msgctxt "#20195"
 msgid "Change information provider"
@@ -9291,11 +9343,11 @@ msgstr "Flytja inn tónlistarsafn"
 
 msgctxt "#20198"
 msgid "No artist found!"
-msgstr "Fann engan listamann!"
+msgstr "Fann engan flytjanda!"
 
 msgctxt "#20199"
 msgid "Downloading artist information failed"
-msgstr "Misstókst að sækja upplýsingar um listamann"
+msgstr "Misstókst að sækja upplýsingar um flytjanda"
 
 msgctxt "#20220"
 msgid "Prefer online information"
@@ -9303,7 +9355,7 @@ msgstr "Taka upplýsingar af neti framyfir"
 
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
-msgstr "Ef þetta er virkjað þá munu allar upplýsingar sem verða sóttar um hljómplötur og listamenn yfirskrifa allt sem þú hefur sett í merkimiðana þína, svo sem flokkun, ár, tónlistarmenn og svo framvegis. Gagnlegt ef þú ert með MusicBrainz kennitákn í merkimiðum laganna þinna."
+msgstr "Ef þetta er virkjað þá munu allar upplýsingar sem verða sóttar um hljómplötur og flytjendur yfirskrifa allt sem þú hefur sett í merkimiðana þína, svo sem flokkun, ár, tónlistarmenn og svo framvegis. Gagnlegt ef þú ert með MusicBrainz kennitákn í merkimiðum laganna þinna."
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
@@ -9311,7 +9363,15 @@ msgstr "Leita að utanaðkomandi skjátextum"
 
 msgctxt "#20223"
 msgid "Artist information folder"
-msgstr "Mappa með upplýsingum um listamann"
+msgstr "Mappa með upplýsingum um flytjanda"
+
+msgctxt "#20224"
+msgid "Prefer online album art"
+msgstr "Taka myndefni af neti framyfir"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "Þegar engar umslagsmyndir finnast á tækinu, verður myndefni sótt á netið. Þegar hvorugt er tiltækt verður reynt að finna ígræddar myndir í tónlistarskránum sjálfum"
 
 msgctxt "#20240"
 msgid "Android music"
@@ -9323,7 +9383,7 @@ msgstr "Android myndskeið"
 
 msgctxt "#20242"
 msgid "Android pictures"
-msgstr "Android ljósmyndir"
+msgstr "Android myndir"
 
 msgctxt "#20243"
 msgid "Android photos"
@@ -9447,7 +9507,7 @@ msgstr "Skanna sjónvarpsþætti með {0:s}"
 
 msgctxt "#20320"
 msgid "Scanning artists using {0:s}"
-msgstr "Skanna listamenn með {0:s}"
+msgstr "Skanna flytjendur með {0:s}"
 
 msgctxt "#20321"
 msgid "Scanning albums using {0:s}"
@@ -9715,7 +9775,7 @@ msgstr "Þættir, nýlega bætt við"
 
 msgctxt "#20388"
 msgid "Studios"
-msgstr "Kvikmyndaver"
+msgstr "Útgefendur"
 
 msgctxt "#20389"
 msgid "Music videos"
@@ -9747,7 +9807,7 @@ msgstr "Blandaður"
 
 msgctxt "#20396"
 msgid "Go to albums by artist"
-msgstr "Hoppa á hljómplötu eftir tónlistarmanni"
+msgstr "Hoppa á hljómplötu eftir flytjendum"
 
 msgctxt "#20397"
 msgid "Go to album"
@@ -9763,7 +9823,7 @@ msgstr "Hoppa á tónlistarmyndbönd af hljómplötu"
 
 msgctxt "#20400"
 msgid "Go to music videos by artist"
-msgstr "Hoppa á tónlistarmyndbönd eftir tónlistarlistamanni"
+msgstr "Hoppa á tónlistarmyndbönd eftir flytjendum"
 
 msgctxt "#20401"
 msgid "Play music video"
@@ -10863,7 +10923,7 @@ msgstr "Afritaðir tónlistardiskar"
 
 msgctxt "#21884"
 msgid "Query info for all artists"
-msgstr "Leita að upplýsingum fyrir alla tónlistarmenn"
+msgstr "Leita að upplýsingum fyrir alla flytjendur"
 
 msgctxt "#21885"
 msgid "Downloading album information"
@@ -10871,7 +10931,7 @@ msgstr "Sæki upplýsingar um hljómplötu"
 
 msgctxt "#21886"
 msgid "Downloading artist information"
-msgstr "Sæki upplýsingar um listamann"
+msgstr "Sæki upplýsingar um flytjanda"
 
 msgctxt "#21887"
 msgid "Biography"
@@ -10883,7 +10943,7 @@ msgstr "Safnplata"
 
 msgctxt "#21889"
 msgid "Searching artist"
-msgstr "Leita að tónlistarmönnum"
+msgstr "Leita að flytjendum"
 
 msgctxt "#21890"
 msgid "Select artist"
@@ -11143,7 +11203,7 @@ msgstr "Sjónhrif"
 
 msgctxt "#24011"
 msgid "Add-on repository"
-msgstr "Viðbótarsafn"
+msgstr "Viðbótasafn"
 
 msgctxt "#24012"
 msgid "Subtitles"
@@ -11231,7 +11291,7 @@ msgstr "Allar viðbætur"
 
 msgctxt "#24033"
 msgid "Install from repository"
-msgstr "Setja inn úr skráardeilisafni"
+msgstr "Setja inn úr skráadeilisafni"
 
 msgctxt "#24034"
 msgid "Check for updates"
@@ -11263,7 +11323,7 @@ msgstr "(Hreinsa núverandi stillingu)"
 
 msgctxt "#24041"
 msgid "Install from zip file"
-msgstr "Setja inn frá zip skrá"
+msgstr "Setja inn úr ZIP-skrá"
 
 msgctxt "#24042"
 msgid "Downloading {0:d}%"
@@ -11275,7 +11335,7 @@ msgstr "Fáanlegar uppfærslur"
 
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
-msgstr "Mistókst að setja inn viðbót út zip-skrá"
+msgstr "Mistókst að setja inn viðbót úr ZIP-skrá"
 
 msgctxt "#24046"
 msgid "{0:s} is used by the following installed add-on(s)"
@@ -11463,7 +11523,7 @@ msgstr "Athuga {0:s}..."
 
 msgctxt "#24094"
 msgid "Add-on disabled due to being marked broken in repository."
-msgstr "Viðbót var gerð óvirk vegna þess að hún hefur verið merkt sem biluð í hugbúnaðarsafni."
+msgstr "Viðbót var gerð óvirk vegna þess að hún hefur verið merkt sem biluð í skráadeilisafni."
 
 msgctxt "#24095"
 msgid "Local package cache"
@@ -11471,7 +11531,7 @@ msgstr "Pakkaskyndiminni á tölvunni"
 
 msgctxt "#24096"
 msgid "Add-on has been marked broken in repository."
-msgstr "Viðbót hefur verið merkt sem biluð í hugbúnaðarsafni."
+msgstr "Viðbót hefur verið merkt sem biluð í skráadeilisafni."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -11683,7 +11743,7 @@ msgstr "Viðbótin er ekki samhæfð þessari útgáfu af Kodi."
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
-msgstr "Ekki tókst að tengjast hugbúnaðarsafni."
+msgstr "Ekki tókst að tengjast skráadeilisafni."
 
 msgctxt "#24992"
 msgid "System"
@@ -11831,7 +11891,7 @@ msgstr "Forrit"
 
 msgctxt "#29909"
 msgid "Studio"
-msgstr "Stúdíó"
+msgstr "Útgefandi"
 
 msgctxt "#29910"
 msgid "Phone"
@@ -12379,7 +12439,7 @@ msgstr "Sérsniðinn bakgrunnur"
 
 msgctxt "#33071"
 msgid "Custom backgrounds"
-msgstr "Sérsniðinn bakgrunnar"
+msgstr "Sérsniðnir bakgrunnar"
 
 msgctxt "#33072"
 msgid "View readme"
@@ -12595,7 +12655,7 @@ msgstr "Gat ekki stöðvað Zeroconf. AirPlay og iTunes þarfnast þess að Zero
 
 msgctxt "#34400"
 msgid "Video rendering"
-msgstr "Myndteiknun"
+msgstr "Myndgerð myndmerkis"
 
 msgctxt "#34401"
 msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
@@ -13029,6 +13089,10 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Aðstoðarviðbætur"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "Vistunarstöðuna er einungis hægt að hlaða inn með \"{0:s}\". Á að hreinsa vistunarstöðuna og halda áfram?"
+
 msgctxt "#35218"
 msgid "Erase savestate"
 msgstr "Eyða vistunarstöðu"
@@ -13108,6 +13172,10 @@ msgstr "Breyta leikjaveitu"
 msgctxt "#35253"
 msgid "Enable autosave if supported"
 msgstr "Virkja sjálfvirka vistun ef það er stutt"
+
+msgctxt "#35254"
+msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
+msgstr "Vista leikinn sjálfvirkt á meðan leik stendur, ef það er stutt. Síðan er haldið áfram að spila þar sem þú hættir."
 
 msgctxt "#35256"
 msgid "Failed to install add-on."
@@ -13545,6 +13613,10 @@ msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
 msgstr "Þessi flokkur inniheldur stillingar á hvernig myndafspilun er meðhöndluð."
 
+msgctxt "#36152"
+msgid "Enable automatic playback of the next file in the list for selected playlist types."
+msgstr "Virkja sjálfvirka afspilun á næstu skrá í listanum fyrir valdar gerðir spilunarlista."
+
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Stilla hvernig myndefni er unnið og sýnt."
@@ -13829,9 +13901,17 @@ msgctxt "#36227"
 msgid "Switch to full screen display when starting playback of channels and recordings."
 msgstr "Skipta yfir í heilskjásham þegar byrjað er að spila rásir og upptökur."
 
+msgctxt "#36228"
+msgid "Set the colour to be used for the subtitle background."
+msgstr "Setja lit bakgrunns sem er notað fyrir skjátexta."
+
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Birta upplýsingar um gæði merkis í upplýsingarglugga kóðara (ef stutt af viðbót og bakenda)."
+
+msgctxt "#36230"
+msgid "Set the the subtitle background opacity."
+msgstr "Setja ógegnsæi bakgrunns fyrir skjátexta."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -13927,7 +14007,7 @@ msgstr "Þegar þetta er virkt, eru birtar upplýsingar bæði um lög og flytje
 
 msgctxt "#36256"
 msgid "Automatically fetch album and artist information from information providers when adding songs to the library."
-msgstr "Hleður sjálfvirkt niður hljómplötuupplýsingum og upplýsingum um listamenn af netinu þegar lögum er bætt við safnið."
+msgstr "Hleður sjálfvirkt niður hljómplötuupplýsingum og upplýsingum um flytjendur af netinu þegar lögum er bætt við safnið."
 
 msgctxt "#36257"
 msgid "Select the default album information provider."
@@ -13935,7 +14015,7 @@ msgstr "Setur sjálfgefna upplýsingaveitu fyrir hljómplötur."
 
 msgctxt "#36258"
 msgid "Select the default artist information provider."
-msgstr "Velur sjálfgefna gagnaveita fyrir listamannaupplýsingar."
+msgstr "Velur sjálfgefna gagnaveitu fyrir upplýsingar um flytjendur."
 
 msgctxt "#36259"
 msgid "Check for new and removed media files on startup."
@@ -14039,7 +14119,7 @@ msgstr "Keyra sjálfvirkt geisladisk þegar settur í geisladrifið."
 
 msgctxt "#36284"
 msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
-msgstr "Lesa upplýsingar tilheyrandi hljóðdiska, eins og titil laga og flytjanda, frá Internet gagnagrunninum freedb.org."
+msgstr "Lesa upplýsingar tilheyrandi hljóðdiska, eins og titil laga og flytjanda, frá netgagnagrunninum freedb.org."
 
 msgctxt "#36285"
 msgid "Select the location on your hard drive where ripped tracks will be saved to."
@@ -14047,7 +14127,7 @@ msgstr "Veldu staðsetninguna á harða diskinum þínum þar sem afrituðu lög
 
 msgctxt "#36286"
 msgid "Control how saved music is named from the tags. Tags: [B]%N[/B]: TrackNumber, [B]%S[/B]: DiscNumber, [B]%A[/B]: Artist, [B]%T[/B]: Title, [B]%B[/B]: Album, [B]%G[/B]: Genre, [B]%Y[/B]: Year, [B]%F[/B]: FileName, [B]%D[/B]: Duration, [B]%J[/B]: Date, [B]%R[/B]: Rating, [B]%I[/B]: FileSize."
-msgstr "Stjórnar hvernig vistuð tónlist er nafngreind frá merkimiðum. Merkimiðar: [B]%N[/B]: LagaNúmer, [B]%S[/B]: DiskNúmer, [B]%A[/B]: Listamaður, [B]%T[/B]: Titill, [B]%B[/B]: Hljómplata, [B]%G[/B]: Flokkun, [B]%Y[/B]: Ár, [B]%F[/B]: SkráarNafn, [B]%D[/B]: Lengd, [B]%J[/B]: Dagsetning, [B]%R[/B]: Einkunnagjöf, [B]%I[/B]: SkráaStærð."
+msgstr "Stjórnar hvernig vistuð tónlist er nefnd út frá merkingum. Merkingar: [B]%N[/B]: LagaNúmer, [B]%S[/B]: DiskNúmer, [B]%A[/B]: Flytjandi, [B]%T[/B]: Titill, [B]%B[/B]: Hljómplata, [B]%G[/B]: Flokkun, [B]%Y[/B]: Ár, [B]%F[/B]: SkráarNafn, [B]%D[/B]: Lengd, [B]%J[/B]: Dagsetning, [B]%R[/B]: Einkunnagjöf, [B]%I[/B]: SkráaStærð."
 
 msgctxt "#36287"
 msgid "Select which audio encoder to use when ripping."
@@ -14579,7 +14659,7 @@ msgstr "Veldu uppsetningu sýndar-lyklaborðs."
 
 msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
-msgstr "Ef virkjað þá er VAAPI rendering kosin. Þetta gerir minna álag á örgjörva. Ef að allt frýs skaltu afvelja þennan kost!"
+msgstr "Ef virkjað þá er VAAPI-myndgerð kosin. Þetta minnkar álag á örgjörva. Ef allt frýs, skaltu gera þennan valkost óvirkan!"
 
 msgctxt "#36434"
 msgid "Allow hardware acceleration - MMAL"
@@ -14743,7 +14823,7 @@ msgstr "Setur sýnilega dýpt á skjátextum fyrir stereoscopic 3D myndefni. Eft
 
 msgctxt "#36547"
 msgid "Use higher quality textures for covers and fanart (uses more memory)"
-msgstr "Nota hærri gæði í plötuumslög og aðdáendamyndverk (notar meira minni)"
+msgstr "Nota hærri gæði í plötuumslög og aðdáendamyndefni (notar meira minni)"
 
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
@@ -14757,6 +14837,10 @@ msgctxt "#36550"
 msgid "Stereoscopic 3D effect strength"
 msgstr "Styrkur steríóskópískrar 3D-sjónbrellu"
 
+msgctxt "#36553"
+msgid "Tone mapping"
+msgstr "Vörpun litatóna"
+
 msgctxt "#36554"
 msgid "off"
 msgstr "slökkt"
@@ -14764,6 +14848,10 @@ msgstr "slökkt"
 msgctxt "#36555"
 msgid "Reinhard"
 msgstr "Reinhard"
+
+msgctxt "#36556"
+msgid "Tone mapping parameter"
+msgstr "Breyta fyrir vörpun litatóna"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -14911,7 +14999,7 @@ msgstr "Setja uppfærslur sjálfkrafa inn"
 
 msgctxt "#36607"
 msgid "Notify, but don't install updates"
-msgstr "Tilkynna, en ekki setja inn upfærslur"
+msgstr "Tilkynna, en ekki setja inn uppfærslur"
 
 msgctxt "#36608"
 msgid "Never check for updates"
@@ -15135,7 +15223,7 @@ msgstr "Auka styrk Miðrásar þegar blandað er niður"
 
 msgctxt "#37020"
 msgid "Enable higher colour depth artwork"
-msgstr "Virkja myndverk með meiri litadýpt"
+msgstr "Virkja myndefni með meiri litadýpt"
 
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
@@ -15371,7 +15459,7 @@ msgstr "Tónlistarsafnið þarf að endurlesa merkingar úr skrám. Viltu lesa �
 
 msgctxt "#38061"
 msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
-msgstr "Ná í viðbótarupplýsingar fyrir hljómplötur og listamenn? Slíkt getur tekið nokkurn tíma, þannig að þú gætir viljað gera þetta síðar"
+msgstr "Ná í viðbótarupplýsingar fyrir hljómplötur og flytjendur? Slíkt getur tekið nokkurn tíma, þannig að þú gætir viljað gera þetta síðar"
 
 msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
@@ -15383,11 +15471,11 @@ msgstr "Setja sjálfgefna upplýsingaveitu"
 
 msgctxt "#38064"
 msgid "Set for this artist"
-msgstr "Setja fyrir þennan listamann"
+msgstr "Setja fyrir þennan flytjanda"
 
 msgctxt "#38065"
 msgid "Set for all artists shown"
-msgstr "Setja fyrir alla birta listamenn"
+msgstr "Setja fyrir alla birta flytjendur"
 
 msgctxt "#38066"
 msgid "Set for this album"
@@ -15399,7 +15487,7 @@ msgstr "Setja fyrir allar birtar hljómplötur"
 
 msgctxt "#38068"
 msgid "Use this information provider for all the artists shown here?"
-msgstr "Nota þessa upplýsingaveitu fyrir alla listamenn sem birtast hér?"
+msgstr "Nota þessa upplýsingaveitu fyrir alla flytjendur sem birtast hér?"
 
 msgctxt "#38069"
 msgid "Use this information provider for all the albums shown here?"
@@ -15407,7 +15495,7 @@ msgstr "Nota þessa upplýsingaveitu fyrir allar hljómplötur sem birtast hér?
 
 msgctxt "#38070"
 msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
-msgstr "Nota þessa upplýsingaveitu fyrir alla listamenn, hreinsa þannig út allar fyrri stillingar sem gerðar hafa verið fyrir staka listamenn?"
+msgstr "Nota þessa upplýsingaveitu fyrir alla flytjendur, hreinsa þannig út allar fyrri stillingar sem gerðar hafa verið fyrir staka listamenn?"
 
 msgctxt "#38071"
 msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
@@ -15539,7 +15627,7 @@ msgstr "Aðrir flytjendur"
 
 msgctxt "#38317"
 msgid "Unable to export to library folders as the system artist information folder setting is empty"
-msgstr "Get ekki flutt út í safnmöppur þar sem stillingar kerfis um möppu með upplýsingum um listamann vantar"
+msgstr "Get ekki flutt út í safnmöppur þar sem kerfismöppu með upplýsingum um flytjendur vantar"
 
 msgctxt "#38318"
 msgid "Unable to export data as the destination folder does not exist"
@@ -15579,7 +15667,7 @@ msgstr "Upplýsingaveita fyrir flytjendur"
 
 msgctxt "#38336"
 msgid "Local artist information folder"
-msgstr "Staðvær mappa með upplýsingum um listamann"
+msgstr "Staðvær mappa með upplýsingum um flytjendur"
 
 msgctxt "#38337"
 msgid "Options for fetching additional information"
@@ -15709,6 +15797,10 @@ msgctxt "#39030"
 msgid "Source"
 msgstr "Uppruni"
 
+msgctxt "#39031"
+msgid "Sources"
+msgstr "Gagnagjafar"
+
 msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "Framkvæma í ræsingu"
@@ -15756,3 +15848,11 @@ msgstr "Veldu upplausn"
 msgctxt "#39111"
 msgid "original"
 msgstr "upprunaleg"
+
+msgctxt "#39112"
+msgid "Downmix: Center Mix Level"
+msgstr "Niðurblöndun (downmix): Miðja hljóðblöndunarstig"
+
+msgctxt "#39113"
+msgid "Center Mix Level in dB relative to metadata or default (-3 dB)"
+msgstr "Miðja hljóðblöndunarstig í dB miðað við lýsigögn eða sjálfgefið gildi (-3 dB)"
