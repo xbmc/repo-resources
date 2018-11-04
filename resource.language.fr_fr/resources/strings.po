@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kodi Translation Team\n"
@@ -796,10 +796,6 @@ msgstr "Vitesse"
 msgctxt "#225"
 msgid "Vertical shift"
 msgstr "Décalage vertical"
-
-msgctxt "#226"
-msgid "Test patterns..."
-msgstr "Mires de test…"
 
 msgctxt "#227"
 msgid "Load audio CD information from online service"
@@ -2999,7 +2995,7 @@ msgstr "Dimanches"
 
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
-msgstr "Faut-il seulement supprimer cette programmation ou bien aussi la programmation répétée qui l'a créée ?"
+msgstr "Faut-il seulement supprimer cette programmation ou bien aussi la programmation répétée qui l'a planifiée ?"
 
 msgctxt "#841"
 msgid "Only this"
@@ -3015,7 +3011,7 @@ msgstr "Désactiver"
 
 msgctxt "#845"
 msgid "Are you sure you want to delete this timer rule and all timers it has scheduled?"
-msgstr "Faut-il vraiment supprimer cette règle de programmation et toutes ses répétitions ?"
+msgstr "Faut-il vraiment supprimer cette règle de programmation et toutes les répétitions qu'elle a planifiées ?"
 
 msgctxt "#846"
 msgid "Are you sure you want to delete this timer?"
@@ -3797,10 +3793,6 @@ msgctxt "#10007"
 msgid "System information"
 msgstr "Informations sur le système"
 
-msgctxt "#10008"
-msgid "Settings - Test patterns"
-msgstr "Paramètres - Motifs de test"
-
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "Paramètres - Vidéos - Calibration d'écran"
@@ -4015,7 +4007,7 @@ msgstr "Paramètres d'incrustation à l'écran de l'Audio"
 
 msgctxt "#10125"
 msgid "Video bookmarks"
-msgstr "Marque-pages vidéo"
+msgstr "Signets vidéo"
 
 msgctxt "#10126"
 msgid "File browser"
@@ -7801,10 +7793,6 @@ msgctxt "#19194"
 msgid "Continue?"
 msgstr "Faut-il vraiment continuer ?"
 
-msgctxt "#19195"
-msgid "Client actions"
-msgstr "Actions du client"
-
 msgctxt "#19196"
 msgid "PVR client specific actions"
 msgstr "Actions spécifiques pour le client de l'enregistreur vidéo"
@@ -7923,7 +7911,7 @@ msgstr "Enregistrement annulé"
 
 msgctxt "#19225"
 msgid "Recording scheduled"
-msgstr "Enregistrement programmé"
+msgstr "Enregistrement planifié"
 
 msgctxt "#19226"
 msgid "Recording started"
@@ -7985,10 +7973,6 @@ msgctxt "#19240"
 msgid "Client priorities"
 msgstr "Priorités du client"
 
-msgctxt "#19241"
-msgid "View timer information"
-msgstr "Voir infos programmation"
-
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Éditer la programmation"
@@ -8043,7 +8027,7 @@ msgstr "Échec de la mise à jour du guide pour cette chaîne"
 
 msgctxt "#19255"
 msgid "{0:d} scheduled"
-msgstr "{0:d} prévu"
+msgstr "{0:d} planifié"
 
 msgctxt "#19256"
 msgid "Completed"
@@ -8232,6 +8216,10 @@ msgstr "Chaînes horizontales sans sélecteur de groupes"
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Faut-il enregistrer le programme sélectionné ou bien basculer vers le programme actuel ?"
+
+msgctxt "#19303"
+msgid "Use simple timeshift OSD"
+msgstr "Utiliser une incrustation à l'écran simple du décalage"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9372,6 +9360,10 @@ msgstr "Préférer les illustrations d'album en ligne"
 msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
 msgstr "Lorsqu'il n'existe pas localement de couverture d'album, une illustration en ligne sera utilisée. Si aucune n'est disponible, les images de couverture embarquées dans les fichiers musicaux seront utilisées."
+
+msgctxt "#20228"
+msgid "Use artist sortname when sorting by artist"
+msgstr "Utiliser le nom d'artiste pour trier par artiste"
 
 msgctxt "#20240"
 msgid "Android music"
@@ -10668,6 +10660,10 @@ msgstr "Nombre de pistes audio"
 msgctxt "#21482"
 msgid "Subtitle track count"
 msgstr "Nombre de pistes de sous-titres"
+
+msgctxt "#21483"
+msgid "View"
+msgstr "Vue"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -12153,10 +12149,6 @@ msgctxt "#29982"
 msgid "Message traffic advisory"
 msgstr "Message de conseil de trafic"
 
-msgctxt "#29983"
-msgid "RDS inform you about traffic advisory messages"
-msgstr "RDS diffuse des informations de trafic sous forme de messages de conseil."
-
 msgctxt "#29984"
 msgid "Increase volume on traffic advisory"
 msgstr "Augmenter le volume lors d'un message de conseil de trafic"
@@ -13129,6 +13121,10 @@ msgctxt "#35222"
 msgid "Exit"
 msgstr "Quitter"
 
+msgctxt "#35223"
+msgid "Missing: {0:s}"
+msgstr "Manquant : {0:s}"
+
 msgctxt "#35224"
 msgid "Pause / Resume"
 msgstr "Pauser / Reprendre"
@@ -13172,6 +13168,10 @@ msgstr "Adaptation à l'écran"
 msgctxt "#35234"
 msgid "Controls"
 msgstr "Commandes"
+
+msgctxt "#35235"
+msgid "Press {0:s} to open the in-game menu."
+msgstr "Appuyer sur {0:s} pour ouvrir le menu interne du jeu."
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13961,13 +13961,17 @@ msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Durée de l'enregistrement immédiat quand le bouton d'enregistrement est pressé. Cette valeur sera prise en compte si l'action « Enregistrement immédiat » est définie à « Enregistrer pendant une période de temps fixe »."
 
+msgctxt "#36235"
+msgid "Normal timeshift OSD always shows the complete timeshift buffer along with with the currently playing show, whereas the simple timeshift OSD only shows the currently playing show with no visual feedback how far in the timeshift buffer you can jump from the currently playing position."
+msgstr "L'incrustation à l'écran normale du décalage affiche toujours le tampon de décalage total lors de la lecture, tandis que l'incrustation à l'écran simple du décalage affiche seulement la lecture sans retour visuel sur le temps qu'il est possible de sauter dans le tampon de décalage à partir de la position courante lue."
+
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "Temps d'enregistrement supplémentaire avant l'heure de début programmée pour tolérer des changements mineurs de diffusion. Toutes les extensions et tous les serveurs ne sont pas reconnus."
+msgstr "Temps d'enregistrement supplémentaire avant l'heure de début planifiée pour tolérer des changements mineurs de diffusion. Toutes les extensions et tous les serveurs ne sont pas reconnus."
 
 msgctxt "#36238"
 msgid "Additional time to record after the scheduled end time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "Temps d'enregistrement supplémentaire après l'heure de fin programmée pour tolérer des changements mineurs de diffusion. Toutes les extensions et tous les serveurs ne sont pas reconnus."
+msgstr "Temps d'enregistrement supplémentaire après l'heure de fin planifiée pour tolérer des changements mineurs de diffusion. Toutes les extensions et tous les serveurs ne sont pas reconnus."
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
@@ -14031,7 +14035,7 @@ msgstr "Section rassemblant les paramètres relatifs aux fichiers vidéo et à l
 
 msgctxt "#36254"
 msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
-msgstr "Action à exécuter quand le bouton d'enregistrement est pressé. [Enregistrer le programme actuel] enregistrera le programme en cours à partir de « maintenant » jusqu'à sa fin. S'il n'y a pas de données disponibles dans le guide des programmes TV, une durée fixe sera appliquée à partir de « maintenant » jusqu'à la valeur de « Durée d'enregistrement immédiat ». [Enregistrer pendant une période de temps fixe] utilisera une valeur de temps fixe depuis « maintenant » jusqu'à la valeur de « Durée d'enregistrement immédiat ». [Demander que faire] ouvrira une boîte de dialoque pour choisir parmi « Enregistrer le programme actuel », « Enregistrer le programme suivant » et quelques durées d'enregistrement préétablies."
+msgstr "Action à exécuter quand le bouton d'enregistrement est pressé. [Enregistrer le programme actuel] enregistrera le programme en cours à partir de « maintenant » jusqu'à sa fin. S'il n'y a pas de données disponibles dans le guide des programmes TV, une durée fixe sera planifiée à partir de « maintenant » jusqu'à la valeur de « Durée d'enregistrement immédiat ». [Enregistrer pendant une période de temps fixe] utilisera une valeur de temps fixe depuis « maintenant » jusqu'à la valeur de « Durée d'enregistrement immédiat ». [Demander que faire] ouvrira une boîte de dialogue pour choisir parmi « Enregistrer le programme actuel », « Enregistrer le programme suivant » et quelques durées d'enregistrement préétablies."
 
 msgctxt "#36255"
 msgid "When enabled, both song and album artists are shown. When disabled, only album artists are shown and artists that appear only on individual songs from an album are excluded."
@@ -14188,6 +14192,10 @@ msgstr "Cette catégorie contient les paramètres de démarrage."
 msgctxt "#36293"
 msgid "Select the folder where artist information (nfo files and images) should be saved in."
 msgstr "Sélectionne le dossier où les informations d'artistes (fichiers NFO et image) devraient être enregistrées."
+
+msgctxt "#36294"
+msgid "When sorting music items by artist use sortname e.g. Parton, Dolly rather than name."
+msgstr "Pour trier les éléments musicaux par artiste, le nom d'artiste sera utilisé, par ex. Parton, Dolly, plutôt que le prénom."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14404,10 +14412,6 @@ msgstr "Des modes en liste blanche peuvent être acceptés quand la résolution 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Calibre l'interface utilisateur en ajustant le suraffichage. Utiliser cet outil si l'image affichée est trop grande ou trop petite pour l'écran."
-
-msgctxt "#36358"
-msgid "Test patterns for display hardware calibration."
-msgstr "Affiche des mires de test pour calibrer l'affichage."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."

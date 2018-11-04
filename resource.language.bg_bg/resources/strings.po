@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kodi Translation Team\n"
@@ -796,10 +796,6 @@ msgstr "Скорост"
 msgctxt "#225"
 msgid "Vertical shift"
 msgstr "Вертикално отместване"
-
-msgctxt "#226"
-msgid "Test patterns..."
-msgstr "Тестови модели…"
 
 msgctxt "#227"
 msgid "Load audio CD information from online service"
@@ -3796,10 +3792,6 @@ msgstr "Няма"
 msgctxt "#10007"
 msgid "System information"
 msgstr "Информация за системата"
-
-msgctxt "#10008"
-msgid "Settings - Test patterns"
-msgstr "Настройки – Тестови модели"
 
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
@@ -7801,10 +7793,6 @@ msgctxt "#19194"
 msgid "Continue?"
 msgstr "Продължаване?"
 
-msgctxt "#19195"
-msgid "Client actions"
-msgstr "Клиентски действия"
-
 msgctxt "#19196"
 msgid "PVR client specific actions"
 msgstr "Действия, специфични за клиента за ПВР"
@@ -7984,10 +7972,6 @@ msgstr "Стартиране на фонови процеси"
 msgctxt "#19240"
 msgid "Client priorities"
 msgstr "Приоритети на клиента"
-
-msgctxt "#19241"
-msgid "View timer information"
-msgstr "Преглед на инф. за брояча"
 
 msgctxt "#19242"
 msgid "Edit timer"
@@ -8232,6 +8216,10 @@ msgstr "Хоризонтални канали, без избор на група
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Искате ли да запишете избраното предаване, или предпочитате да превключите към текущото предаване?"
+
+msgctxt "#19303"
+msgid "Use simple timeshift OSD"
+msgstr "Просто екранно меню за изместване във времето"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9372,6 +9360,10 @@ msgstr "Да се предпочитат изображения за албум�
 msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
 msgstr "Когато не съществува местно изображение за албума, ще се използва такова от Интернет. Ако няма нищо налично, ще се използват изображенията, вградени в музикалните файлове."
+
+msgctxt "#20228"
+msgid "Use artist sortname when sorting by artist"
+msgstr "Използване на името за сортиране на изпълнителя при сортиране по изпълнител"
 
 msgctxt "#20240"
 msgid "Android music"
@@ -10668,6 +10660,10 @@ msgstr "Брой аудио пътечки"
 msgctxt "#21482"
 msgid "Subtitle track count"
 msgstr "Брой пътечки за субтитри"
+
+msgctxt "#21483"
+msgid "View"
+msgstr "Преглед"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -12153,10 +12149,6 @@ msgctxt "#29982"
 msgid "Message traffic advisory"
 msgstr "Съобщения за трафика"
 
-msgctxt "#29983"
-msgid "RDS inform you about traffic advisory messages"
-msgstr "СПД Ви информира относно съобщения за трафика"
-
 msgctxt "#29984"
 msgid "Increase volume on traffic advisory"
 msgstr "Увеличаване на звука при съобщения за трафика"
@@ -13129,6 +13121,10 @@ msgctxt "#35222"
 msgid "Exit"
 msgstr "Изход от Kodi"
 
+msgctxt "#35223"
+msgid "Missing: {0:s}"
+msgstr "Липсва: {0:s}"
+
 msgctxt "#35224"
 msgid "Pause / Resume"
 msgstr "Пауза/продължаване"
@@ -13139,7 +13135,7 @@ msgstr "Видео филтър"
 
 msgctxt "#35226"
 msgid "Advanced settings"
-msgstr "Разширени настройки"
+msgstr "Допълнителни настройки"
 
 msgctxt "#35227"
 msgid "Rotation"
@@ -13172,6 +13168,10 @@ msgstr "Разтегнат режим"
 msgctxt "#35234"
 msgid "Controls"
 msgstr "Управление"
+
+msgctxt "#35235"
+msgid "Press {0:s} to open the in-game menu."
+msgstr "Натиснете {0:s}, за да отворите игралното меню."
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13961,6 +13961,10 @@ msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Продължителност на моменталните записи при натискане на бутона за запис. Тази стойност ще се вземе предвид, ако за „Действие за моментален запис“ е зададено „Запис с фиксирана продължителност“."
 
+msgctxt "#36235"
+msgid "Normal timeshift OSD always shows the complete timeshift buffer along with with the currently playing show, whereas the simple timeshift OSD only shows the currently playing show with no visual feedback how far in the timeshift buffer you can jump from the currently playing position."
+msgstr "Нормалното екранно меню за изместване във времето винаги показва целия буфер за изместване във времето, заедно с текущо гледаното предаване, а опростеното екранно меню показва само текущо гледаното предаване, без да показва докъде в буфера можете да прескочите от текущото място."
+
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
 msgstr "Допълнително време на запис преди насроченото начално време, с цел предотвратяване на проблеми при леки промени на графика на самото излъчване. Това не се поддържа от всички добавки и сървъри."
@@ -14189,6 +14193,10 @@ msgctxt "#36293"
 msgid "Select the folder where artist information (nfo files and images) should be saved in."
 msgstr "Изберете папка, в която да се съхранява информацията (файлове NFO и изображения) за изпълнителите."
 
+msgctxt "#36294"
+msgid "When sorting music items by artist use sortname e.g. Parton, Dolly rather than name."
+msgstr "При сортиране на музиката по изпълнител, да се използва името за сортиране. Например: „Партън, Доли“, вместо името."
+
 msgctxt "#36302"
 msgid "No info available yet."
 msgstr "Все още няма налична информация."
@@ -14404,10 +14412,6 @@ msgstr "Може да се превключва към разрешените р
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Калибрира потребителския интерфейс чрез коригиране на областта на изображението. Ползвайте инструмента, ако картината не се побира на екрана или е по-малко от размерите на вашия дисплей."
-
-msgctxt "#36358"
-msgid "Test patterns for display hardware calibration."
-msgstr "Тестови модели за калибриране на дисплея."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
