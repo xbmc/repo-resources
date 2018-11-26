@@ -2509,6 +2509,18 @@ msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
 msgstr "[B]Ses/görüntü bilgisi[/B] için ayrıntılı günlük"
 
+msgctxt "#684"
+msgid "Verbose logging of [B]Windowing[/B] component"
+msgstr "[B]Pencereleme[/B] bileşeni için ayrıntılı günlük"
+
+msgctxt "#685"
+msgid "Verbose logging of [B]PVR[/B] component"
+msgstr "[B]PVR[/B] bileşeni için ayrıntılı günlük"
+
+msgctxt "#686"
+msgid "Verbose logging of [B]EPG[/B] component"
+msgstr "[B]EPG[/B] bileşeni için ayrıntılı günlük"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Kitaplık temizleniyor"
@@ -3919,11 +3931,11 @@ msgstr "İmleç"
 
 msgctxt "#10100"
 msgid "Yes / No dialog"
-msgstr "Evet / Hayır diyaloğu"
+msgstr "Evet / Hayır iletişim kutusu"
 
 msgctxt "#10101"
 msgid "Progress dialog"
-msgstr "Süreç diyaloğu"
+msgstr "İlerleme iletişim kutusu"
 
 msgctxt "#10103"
 msgid "Virtual keyboard"
@@ -3939,7 +3951,7 @@ msgstr "Bağlam menüsü"
 
 msgctxt "#10107"
 msgid "Notification dialog"
-msgstr "Uyarı diyaloğu"
+msgstr "Bildirim iletişim kutusu"
 
 msgctxt "#10109"
 msgid "Numeric Input"
@@ -4041,6 +4053,10 @@ msgctxt "#10142"
 msgid "Fullscreen info"
 msgstr "Tam ekran bilgisi"
 
+msgctxt "#10145"
+msgid "Slider dialog"
+msgstr "Kaydırıcı iletişim kutusu"
+
 msgctxt "#10146"
 msgid "Add-on info"
 msgstr "Eklenti bilgisi"
@@ -4052,6 +4068,10 @@ msgstr "Metin görüntüleyici"
 msgctxt "#10150"
 msgid "Peripheral settings"
 msgstr "Çevre birim ayarları"
+
+msgctxt "#10151"
+msgid "Extended progress dialog"
+msgstr "Uzatılmış ilerleme iletişim kutusu"
 
 msgctxt "#10152"
 msgid "Media filter"
@@ -4268,6 +4288,10 @@ msgstr "İletişim kutusu seçiniz"
 msgctxt "#12001"
 msgid "Music info"
 msgstr "Müzik bilgisi"
+
+msgctxt "#12002"
+msgid "OK dialog"
+msgstr "OK iletişim kutusu"
 
 msgctxt "#12003"
 msgid "Video info"
@@ -5449,6 +5473,10 @@ msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Donanım hızlandırmasına izin ver - VTBDecoder"
 
+msgctxt "#13430"
+msgid "Allow hardware acceleration - PRIME"
+msgstr "Donanım hızlandırmasına izin ver - PRIME"
+
 msgctxt "#13431"
 msgid "Pixel shaders"
 msgstr "Piksel gölgelendiriciler"
@@ -5533,6 +5561,22 @@ msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
 msgstr "VC-1 tabanlı codec bileşenleri donanım hızlandırmasını kullanmak için bu seçeneği etkinleştirin. Eğer devre dışı ise CPU kullanılır. Özellikle Intel donanımlarında VC-1 titreşimsiz çok başarısızdır."
 
+msgctxt "#13453"
+msgid "Use VP8 VAAPI"
+msgstr "VP8 VAAPI Kullan"
+
+msgctxt "#13454"
+msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
+msgstr "VP8 codec bileşenleri donanım hızlandırmasını kullanmak için bu seçeneği etkinleştirin. Eğer devre dışı ise CPU kullanılır."
+
+msgctxt "#13455"
+msgid "Use VP9 VAAPI"
+msgstr "VP9 VAAPI Kullan"
+
+msgctxt "#13456"
+msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
+msgstr "VP9 codec bileşenleri donanım hızlandırmasını kullanmak için bu seçeneği etkinleştirin. Eğer devre dışı ise CPU kullanılır."
+
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "VAAPI işleyici yöntemini tercih et"
@@ -5544,6 +5588,18 @@ msgstr "Donanım hızlandırmasına izin ver - OMXPlayer"
 msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Video dosyalarının kod çözmesi için OMXPlayer kullan."
+
+msgctxt "#13460"
+msgid "Use HEVC VAAPI"
+msgstr "HEVC VAAPI Kullan"
+
+msgctxt "#13461"
+msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
+msgstr "HEVC codec bileşenleri donanım hızlandırmasını kullanmak için bu seçeneği etkinleştirin. Eğer devre dışı ise CPU kullanılır."
+
+msgctxt "#13462"
+msgid "PRIME Render Method"
+msgstr "PRIME İşleyici Yöntemi"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -7317,6 +7373,14 @@ msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Temel kare hızı"
 
+msgctxt "#19109"
+msgid "Could not save the timer. Check the log for more information about this message."
+msgstr "Zamanlayıcı kaydedilemedi. Bu mesaj hakkında daha fazla bilgi için günlük dosyasını denetleyin."
+
+msgctxt "#19110"
+msgid "Could not delete the timer. Check the log for more information about this message."
+msgstr "Zamanlayıcı silinemedi. Bu mesaj hakkında daha fazla bilgi için günlük dosyasını denetleyin."
+
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
 msgstr "PVR arka uç hatası. Bu mesaj hakkında daha fazla bilgi için günlük dosyasını denetleyin."
@@ -7525,6 +7589,10 @@ msgctxt "#19163"
 msgid "Recordings"
 msgstr "Kayıtlar"
 
+msgctxt "#19164"
+msgid "Could not start recording. Check the log for more information about this message."
+msgstr "Kayıt başlatılamadı. Bu mesaj hakkında daha fazla bilgi için günlük dosyasını denetleyin."
+
 msgctxt "#19165"
 msgid "Switch"
 msgstr "Değiştir"
@@ -7544,6 +7612,10 @@ msgstr "Silinmiş ve kurtarılabilen kayıtlar"
 msgctxt "#19169"
 msgid "Hide video information box"
 msgstr "Video bilgisi kutusunu gizle"
+
+msgctxt "#19170"
+msgid "Could not stop recording. Check the log for more information about this message."
+msgstr "Kayıt durdurulamadı. Bu mesaj hakkında daha fazla bilgi için günlük dosyasını denetleyin."
 
 msgctxt "#19171"
 msgid "Switch to full screen"
@@ -7612,6 +7684,10 @@ msgstr "İlgili tüm veri temizleniyor."
 msgctxt "#19188"
 msgid "All your guide data will be cleared. Are you sure?"
 msgstr "Tüm rehber verileriniz temizlenecek. Emin misiniz?"
+
+msgctxt "#19189"
+msgid "The PVR backend does not allow to record this event."
+msgstr "PVR arka uç bu etkinliği kaydetmeye izin vermiyor."
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -7805,6 +7881,10 @@ msgctxt "#19240"
 msgid "Client priorities"
 msgstr "Kullanıcı öncelikleri"
 
+msgctxt "#19241"
+msgid "View timer"
+msgstr "Zamanlayıcıyı göster"
+
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Zamanlayıcıyı düzenle"
@@ -7888,6 +7968,10 @@ msgstr "PİN'i değiştir"
 msgctxt "#19262"
 msgid "Parental control. Enter PIN:"
 msgstr "Ebeveyn denetimi. PİN'i girin:"
+
+msgctxt "#19263"
+msgid "Could not update the timer. Check the log for more information about this message."
+msgstr "Zamanlayıcı güncellenemedi. Bu mesaj hakkında daha fazla bilgi için günlük dosyasını denetleyin."
 
 msgctxt "#19264"
 msgid "Incorrect PIN"
@@ -12825,6 +12909,34 @@ msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "Gelişmiş Ayarlar"
 
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "Döndürme"
+
+msgctxt "#35228"
+msgid "0°"
+msgstr "0°"
+
+msgctxt "#35229"
+msgid "90°"
+msgstr "90°"
+
+msgctxt "#35230"
+msgid "180°"
+msgstr "180°"
+
+msgctxt "#35231"
+msgid "270°"
+msgstr "270°"
+
+msgctxt "#35232"
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+msgctxt "#35234"
+msgid "Controls"
+msgstr "Kontroller"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Oyun ekle..."
@@ -12836,6 +12948,10 @@ msgstr "Oyun kaynağı ekle"
 msgctxt "#35252"
 msgid "Edit game source"
 msgstr "Oyun kaynağını düzenle"
+
+msgctxt "#35253"
+msgid "Enable autosave if supported"
+msgstr "Otomatik kayıt işlemi destekleniyorsa etkinleştir"
 
 msgctxt "#35256"
 msgid "Failed to install add-on."
@@ -13525,9 +13641,17 @@ msgctxt "#36227"
 msgid "Switch to full screen display when starting playback of channels and recordings."
 msgstr "Kanalların ve kayıtların oynatımını başlatırken tam ekran görüntüsüne geçin."
 
+msgctxt "#36228"
+msgid "Set the colour to be used for the subtitle background."
+msgstr "Altyazı arka planı için kullanılacak rengi ayarla."
+
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
 msgstr "Codec bilgisi penceresinde sinyal kalitesi bilgisini göster (eklenti ve arka uç tarafından destekleniyorsa)."
+
+msgctxt "#36230"
+msgid "Set the the subtitle background opacity."
+msgstr "Altyazı arka planı saydamlığını ayarla."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -14689,6 +14813,18 @@ msgctxt "#36623"
 msgid "None"
 msgstr "Yok"
 
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
+
 msgctxt "#36627"
 msgid "Client"
 msgstr "İstemci"
@@ -15125,6 +15261,30 @@ msgctxt "#38301"
 msgid "Single file"
 msgstr "Tek dosya"
 
+msgctxt "#38319"
+msgid "Export"
+msgstr "Dışarı aktar"
+
+msgctxt "#38334"
+msgid "Album information provider"
+msgstr " Albüm bilgisi sağlayıcı"
+
+msgctxt "#38335"
+msgid "Artist information provider"
+msgstr "Sanatçı bilgisi sağlayıcı"
+
+msgctxt "#38336"
+msgid "Local artist information folder"
+msgstr "Yerel sanatçı bilgisi sağlayıcı"
+
+msgctxt "#38338"
+msgid "Choose how to apply settings"
+msgstr "Ayarların uygulama şeklini seçin"
+
+msgctxt "#38339"
+msgid "How to apply information provider settings"
+msgstr "Bilgi sağlayıcı ayarlarının uygulama şekli"
+
 msgctxt "#39000"
 msgid "HD and up"
 msgstr "HD ve üstü"
@@ -15221,10 +15381,42 @@ msgctxt "#39024"
 msgid "Dependencies"
 msgstr "Bağımlılıklar"
 
+msgctxt "#39025"
+msgid "Gender"
+msgstr "Cins"
+
 msgctxt "#39030"
 msgid "Source"
 msgstr "Kaynak"
 
+msgctxt "#39031"
+msgid "Sources"
+msgstr "Kaynaklar"
+
+msgctxt "#39100"
+msgid "Perform on startup"
+msgstr "Başlangıçta uygula"
+
+msgctxt "#39104"
+msgid "View as text"
+msgstr "Metin olarak göster"
+
+msgctxt "#39105"
+msgid "default"
+msgstr "varsayılan"
+
+msgctxt "#39108"
+msgid "audio description"
+msgstr "ses açıklaması"
+
 msgctxt "#39109"
 msgid "Select Program"
 msgstr "Programı Seçiniz"
+
+msgctxt "#39110"
+msgid "Select Resolution"
+msgstr "Çözünürlük seç"
+
+msgctxt "#39111"
+msgid "original"
+msgstr "Özgün"
