@@ -871,7 +871,7 @@ msgstr "Teljes képernyő"
 
 msgctxt "#245"
 msgid "Sizing: ({0:d},{1:d})->({2:d},{3:d}) (Zoom x{4:2.2f}) AR:{5:2.2f}:1 (Pixels: {6:2.2f}:1) (VShift: {7:2.2f})"
-msgstr "Méretezés: ({0:d},[1:d])->({2:d},{3:d}) (Nagyítás x{4:2.f}) Arány: {5:2.2f}:1 (Képpontarány: {6:2.2f}:1) (Függőleges eltolás: {7:2.2f})"
+msgstr "Méretezés: ({0:d},[1:d])->({2:d},{3:d}) (Nagyítás x{4:2.2f}) Arány:{5:2.2f}:1 (Képpontarány: {6:2.2f}:1) (Függőleges eltolás: {7:2.2f})"
 
 msgctxt "#246"
 msgid "Monitor"
@@ -3792,6 +3792,10 @@ msgstr "Nem elérhető"
 msgctxt "#10007"
 msgid "System information"
 msgstr "Rendszerinfó"
+
+msgctxt "#10008"
+msgid "Play next"
+msgstr "Következő lejátszása"
 
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
@@ -7793,6 +7797,10 @@ msgctxt "#19194"
 msgid "Continue?"
 msgstr "Folytatás?"
 
+msgctxt "#19195"
+msgid "Delay mark last watched"
+msgstr "Utoljára megnézett késleltetése"
+
 msgctxt "#19196"
 msgid "PVR client specific actions"
 msgstr "PVR ügyféllel kapcsolatos műveletek"
@@ -9692,10 +9700,6 @@ msgstr "Megnézettek rejtése"
 msgctxt "#20368"
 msgid "Prod code"
 msgstr "Prod kód"
-
-msgctxt "#20369"
-msgid "Show plot for unwatched items"
-msgstr "Tartalom megjelenítése nem látott filmek esetén"
 
 msgctxt "#20370"
 msgid "* Hidden to prevent spoilers *"
@@ -13977,6 +13981,10 @@ msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Az azonnali felvétel ideje a felvétel gomb megnyomásakor. Ez az érték az \"Azonnali felvételi lehetőségek\" szekció alatti \"Rögzítés megadott ideig\" beállítás esetén érvényes."
 
+msgctxt "#36236"
+msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
+msgstr "Ha nullánál nagyobb értékre van beállítva, a csatorna lejátszásának megkezdése után az adott időtartam elteltével a csatornák legutoljára nézett időpontja kerül tárolásra. Ellenkező esetben az utolsó megtekintett idő azonnal a csatorna lejátszás kezdetén tárolódik."
+
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
 msgstr "További felvételi idő az ütemezett kezdési idő előtt, a kisebb adási eltérések kezelése miatt. Nem minden kiegészítő és háttérkiszolgáló támogatja."
@@ -14296,6 +14304,10 @@ msgstr "UPnP ügyfelek értesítése, ha kézi vagy automatikus médiatár friss
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
 msgstr "UPnP ügyfél engedélyezése. Ez lehetővé teszi bármelyik UPnP kiszolgálóról a lejátszást, és a lejátszás vezérlését arról kiszolgálóról."
+
+msgctxt "#36326"
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control its playback."
+msgstr "A UPnP vezérlőpont engedélyezése. Ez lehetővé teszi a média megosztását bármely UPnP ügyfél számára, és vezérli a lejátszást."
 
 msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."

@@ -3793,6 +3793,10 @@ msgctxt "#10007"
 msgid "System information"
 msgstr "Сведения о системе"
 
+msgctxt "#10008"
+msgid "Play next"
+msgstr "Воспроизвести следующий"
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "Настройки - Видео - Калибровка дисплея"
@@ -7973,6 +7977,10 @@ msgctxt "#19240"
 msgid "Client priorities"
 msgstr "Приоритеты клиента"
 
+msgctxt "#19241"
+msgid "View timer"
+msgstr "Показать таймер"
+
 msgctxt "#19242"
 msgid "Edit timer"
 msgstr "Изменить таймер"
@@ -8216,6 +8224,10 @@ msgstr "Горизонтальные каналы, без выбора груп�
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Вы хотите записать выбранную программу или перейти к текущей программе?"
+
+msgctxt "#19304"
+msgid "View timer rule"
+msgstr "Показать шкалу таймера"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9357,6 +9369,10 @@ msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
 msgstr "Если обложка альбома отсутствует, будет использована онлайн обложка. Если ни одна из них не доступна, будет использовано изображение обложки встроенное в музыкальный файл."
 
+msgctxt "#20228"
+msgid "Use artist sortname when sorting by artist"
+msgstr "Использовать сортировку по имени исполнителя"
+
 msgctxt "#20240"
 msgid "Android music"
 msgstr "Музыка Android"
@@ -9680,10 +9696,6 @@ msgstr "Без просмотренных"
 msgctxt "#20368"
 msgid "Prod code"
 msgstr "Код продукта"
-
-msgctxt "#20369"
-msgid "Show plot for unwatched items"
-msgstr "Показывать сюжет для непросмотренного"
 
 msgctxt "#20370"
 msgid "* Hidden to prevent spoilers *"
@@ -12753,6 +12765,10 @@ msgctxt "#35020"
 msgid "Press all analog buttons now to detect them:[CR][CR]{0:s}"
 msgstr "Для идентификации кнопок на контроллёре, нажмите их сейчас: [CR][CR]{0:s}"
 
+msgctxt "#35021"
+msgid "Get all"
+msgstr "Получить все"
+
 msgctxt "#35047"
 msgid "Driver settings"
 msgstr "Настройки драйвера"
@@ -13001,6 +13017,18 @@ msgctxt "#35166"
 msgid "All keys"
 msgstr " Все ключи"
 
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Выбрать клавишу"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Нажать клавишу"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Нажать клавишу ({1:d})"
+
 msgctxt "#35171"
 msgid "Mouse"
 msgstr "Мышь"
@@ -13084,6 +13112,10 @@ msgstr "Видеофильтр"
 msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "Дополнительные настройки"
+
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "Вращение"
 
 msgctxt "#35228"
 msgid "0°"
@@ -14557,6 +14589,10 @@ msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
 msgstr "Использовать VideoPlayer для декодирования видеофайлов с ускорением MMAL."
 
+msgctxt "#36436"
+msgid "Select OS keyboard layout."
+msgstr "Выбрать раскладку ОС"
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Установите количество шагов регулировки громкости"
@@ -15373,6 +15409,14 @@ msgctxt "#38063"
 msgid "Set default information provider"
 msgstr "Установите поставщика информации по-умолчанию"
 
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Применить для этого исполнителя"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Применить для этого альбома"
+
 msgctxt "#38069"
 msgid "Use this information provider for all the albums shown here?"
 msgstr "Использовать этого поставщика информации для всех альбомов,  показанных здесь?"
@@ -15441,21 +15485,61 @@ msgctxt "#38208"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
 msgstr "Показывать данные EXIF (дата, время, модель фотоаппарата и т. п.) при их наличии."
 
+msgctxt "#38209"
+msgid "Reset resume position"
+msgstr "Сбросить позицию возобновления"
+
+msgctxt "#38300"
+msgid "Export Music Library"
+msgstr "Экспорт Музыкальной Библиотеки"
+
 msgctxt "#38301"
 msgid "Single file"
 msgstr "В одну папку"
+
+msgctxt "#38302"
+msgid "Separate files for each item"
+msgstr "Раздельные файлы для каждого элемента"
+
+msgctxt "#38303"
+msgid "To library folders"
+msgstr "К папкам библиотеки"
+
+msgctxt "#38304"
+msgid "Choose kind of export output"
+msgstr "Выбрать тип экспорта "
 
 msgctxt "#38305"
 msgid "Destination folder"
 msgstr "Папка назначения"
 
+msgctxt "#38306"
+msgid "Items to export"
+msgstr "Элементы на экспорт"
+
 msgctxt "#38310"
 msgid "Overwrite existing files"
 msgstr "Перезаписывать существующие файлы"
 
+msgctxt "#38312"
+msgid "Song artists"
+msgstr "Исполнители композиций"
+
+msgctxt "#38313"
+msgid "Other artists"
+msgstr "Другие исполнители"
+
+msgctxt "#38318"
+msgid "Unable to export data as the destination folder does not exist"
+msgstr "Невозможно экспортировать данные т.к. папки назначения не существует"
+
 msgctxt "#38319"
 msgid "Export"
 msgstr "Экспорт"
+
+msgctxt "#38320"
+msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
+msgstr "Есть ли у вас информация о исполнителе (NFO) и файлы которые вы хотите загрузить? Установить расположение папок этих исполнителей сейчас"
 
 msgctxt "#38331"
 msgid "Set Album Information Provider"
@@ -15464,6 +15548,10 @@ msgstr "Установить поставщика информации об ал
 msgctxt "#38334"
 msgid "Album information provider"
 msgstr "Источник сведений об альбоме"
+
+msgctxt "#38338"
+msgid "Choose how to apply settings"
+msgstr "Выберите как применять настройки"
 
 msgctxt "#39000"
 msgid "HD and up"
@@ -15600,6 +15688,10 @@ msgstr "по умолчанию"
 msgctxt "#39106"
 msgid "forced"
 msgstr "форсировано"
+
+msgctxt "#39107"
+msgid "captions"
+msgstr "заголовки"
 
 msgctxt "#39108"
 msgid "audio description"
