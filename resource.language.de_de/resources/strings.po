@@ -5423,7 +5423,7 @@ msgstr "Fortsetzen"
 
 msgctxt "#13405"
 msgid "Get thumb"
-msgstr "Lade Vorschaubild"
+msgstr "Vorschaubild laden"
 
 msgctxt "#13406"
 msgid "Picture information"
@@ -6607,7 +6607,7 @@ msgstr "Ausgeglichene Audio/Video-Synchronisation verwenden"
 
 msgctxt "#15215"
 msgid "Hide file names in thumbs view"
-msgstr "Dateinamen in der Symbolansicht ausblenden"
+msgstr "Dateinamen in der Vorschaubild-Ansicht ausblenden"
 
 msgctxt "#15216"
 msgid "Play in party mode"
@@ -8679,19 +8679,19 @@ msgstr "Nach Wiedergabeliste"
 
 msgctxt "#20015"
 msgid "Remote thumb"
-msgstr "Online-Cover"
+msgstr "Online-Vorschaubild"
 
 msgctxt "#20016"
 msgid "Current thumb"
-msgstr "Aktuelles Cover"
+msgstr "Aktuelles Vorschaubild"
 
 msgctxt "#20017"
 msgid "Local thumb"
-msgstr "Lokales Cover"
+msgstr "Lokales Vorschaubild"
 
 msgctxt "#20018"
 msgid "No thumb"
-msgstr "Kein Cover"
+msgstr "Kein Vorschaubild"
 
 msgctxt "#20019"
 msgid "Choose thumbnail"
@@ -9523,7 +9523,7 @@ msgstr "Inhalt-Scanning-Einstellungen"
 
 msgctxt "#20323"
 msgid "Movie plot"
-msgstr "Handlung"
+msgstr "Film-Handlung"
 
 msgctxt "#20324"
 msgid "Play part..."
@@ -9687,7 +9687,7 @@ msgstr "Serie"
 
 msgctxt "#20365"
 msgid "Episode plot"
-msgstr "Handlung (Episode)"
+msgstr "Episoden-Handlung"
 
 msgctxt "#20366"
 msgid "* All seasons"
@@ -9701,13 +9701,17 @@ msgctxt "#20368"
 msgid "Prod code"
 msgstr "Produktions-Code"
 
+msgctxt "#20369"
+msgid "Show information for unwatched items"
+msgstr "Informationen für ungesehene Filme anzeigen"
+
 msgctxt "#20370"
 msgid "* Hidden to prevent spoilers *"
 msgstr "* Die Handlung wird nicht angezeigt. *"
 
 msgctxt "#20371"
 msgid "Set season thumb"
-msgstr "Staffel-Cover setzen"
+msgstr "Staffel-Vorschaubild setzen"
 
 msgctxt "#20372"
 msgid "Season image"
@@ -11337,6 +11341,10 @@ msgctxt "#24043"
 msgid "Available updates"
 msgstr "Verfügbare Aktualisierungen"
 
+msgctxt "#24044"
+msgid "Installing {0:d}%"
+msgstr "Installieren: {0:d}%"
+
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
 msgstr "Installation des Addons aus ZIP-Datei fehlgeschlagen"
@@ -12773,6 +12781,14 @@ msgctxt "#35020"
 msgid "Press all analog buttons now to detect them:[CR][CR]{0:s}"
 msgstr "Alle analogen Buttons drücken, um sie zu erkennen:[CR][CR]{0:s}"
 
+msgctxt "#35021"
+msgid "Get all"
+msgstr "Alle installieren"
+
+msgctxt "#35022"
+msgid "Nothing to map"
+msgstr "Keine Buttons zum Mappen verfügbar."
+
 msgctxt "#35047"
 msgid "Driver settings"
 msgstr "Treiber-Einstellungen"
@@ -13184,6 +13200,10 @@ msgstr "Steuerung"
 msgctxt "#35235"
 msgid "Press {0:s} to open the in-game menu."
 msgstr "Zum Öffnen des In-Game Menüs, {0:s} drücken."
+
+msgctxt "#35236"
+msgid "In this release, only controllers can be used to play games."
+msgstr "In dieser Version können nur Controller zum Spielen verwendet werden."
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -13597,6 +13617,10 @@ msgctxt "#36140"
 msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
 msgstr "Auswahl der Maßeinheit, die für die Anzeige von Temperaturen in der Benutzeroberfläche verwendet werden soll."
 
+msgctxt "#36141"
+msgid "Show information for unwatched media in the video library or hide them if not selected to prevent spoilers. Available options are 'Movie plot', 'Episode plot' and 'Episode thumb'."
+msgstr "Informationen für ungesehene Filme der Video-Bibliothek anzeigen oder verstecken, um Spoiler zu verhindern. Verfügbare Optionen sind \"Film-Handlung\", \"Episoden-Handlung\" und \"Episoden-Vorschaubild\"."
+
 msgctxt "#36142"
 msgid "Choose which speed unit is used for displaying speeds in the user interface."
 msgstr "Auswahl der Maßeinheit, die für die Anzeige von Geschwindigkeiten in der Benutzeroberfläche verwendet werden soll."
@@ -13751,7 +13775,7 @@ msgstr "Wenn eine Datei in die Bibliothek aufgenommen wurde, wird statt des Date
 
 msgctxt "#36180"
 msgid "Extract thumbnails to display in library mode."
-msgstr "Thumbnails für Anzeige im Bibliotheks-Modus extrahieren."
+msgstr "Vorschaubilder für Anzeige im Bibliotheks-Modus extrahieren."
 
 msgctxt "#36181"
 msgid "No info available yet."
@@ -15427,11 +15451,15 @@ msgstr "Legt die Zeit fest, die auf weitere Tastendrücke gewartet wird, before 
 
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
-msgstr "Kapitelvorschaubilder extrahieren"
+msgstr "Kapitel-Vorschaubilder extrahieren"
 
 msgctxt "#37045"
 msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
-msgstr "Kapitelvorschaubilder zur Darstellung im Kapitel-/Lesenzeichendialog extrahieren. Dies kann  eine höhere CPU-Last zur Folge haben."
+msgstr "Kapitel-Vorschaubilder zur Darstellung im Kapitel-/Lesenzeichendialog extrahieren. Dies kann  eine höhere CPU-Last zur Folge haben."
+
+msgctxt "#37046"
+msgid "1080"
+msgstr "1080"
 
 msgctxt "#38010"
 msgid "GPU accelerated"
@@ -15675,7 +15703,7 @@ msgstr "Kategorie mit weiteren Einstellungen für die grafische Benutzeroberflä
 
 msgctxt "#38190"
 msgid "Extract thumbnails from video files"
-msgstr "Thumbnails aus Video-Dateien extrahieren"
+msgstr "Vorschaubilder aus Video-Dateien extrahieren"
 
 msgctxt "#38207"
 msgid "Show EXIF picture information"
@@ -15719,7 +15747,7 @@ msgstr "Zu exportierende Einträge"
 
 msgctxt "#38307"
 msgid "Include art work such as thumbnails and fanart"
-msgstr "Artwork, wie Thumbnails und Fanart, mit einbeziehen"
+msgstr "Artwork, wie Vorschaubilder und Fanart, mit einbeziehen"
 
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
@@ -15972,3 +16000,15 @@ msgstr "Heruntermischen: Center Mix Pegel"
 msgctxt "#39113"
 msgid "Center Mix Level in dB relative to metadata or default (-3 dB)"
 msgstr "Center Mix Pegel in dB, relative zu Metadaten or Standard (-3 dB)"
+
+msgctxt "#39114"
+msgid "Episode thumb"
+msgstr "Episoden-Vorschaubild"
+
+msgctxt "#39115"
+msgid "Movie plot"
+msgstr "Film-Handlung"
+
+msgctxt "#39116"
+msgid "Episode plot"
+msgstr "Episoden-Handlung"
