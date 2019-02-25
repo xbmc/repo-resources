@@ -1323,7 +1323,7 @@ msgstr "Alle albummer"
 
 msgctxt "#359"
 msgid "Recently added albums"
-msgstr "Nyligt tilføjede albummer"
+msgstr "Nye albummer"
 
 msgctxt "#360"
 msgid "Screensaver"
@@ -9755,11 +9755,11 @@ msgstr "Fjern forbindelse til TV-serie"
 
 msgctxt "#20386"
 msgid "Recently added movies"
-msgstr "Nyligt tilføjede film"
+msgstr "Nye film"
 
 msgctxt "#20387"
 msgid "Recently added episodes"
-msgstr "Nyligt tilføjede afsnit"
+msgstr "Nye afsnit"
 
 msgctxt "#20388"
 msgid "Studios"
@@ -9771,7 +9771,7 @@ msgstr "Musikvideoer"
 
 msgctxt "#20390"
 msgid "Recently added music videos"
-msgstr "Nyligt tilføjede musikvideoer"
+msgstr "Nye musikvideoer"
 
 msgctxt "#20391"
 msgid "Music video"
@@ -11808,6 +11808,10 @@ msgstr "Menuen i denne Blu-ray er ikke understøttet"
 msgctxt "#25010"
 msgid "Chapter {0:d}"
 msgstr "Kapitel {0:d}"
+
+msgctxt "#25011"
+msgid "Commercial"
+msgstr "Reklame"
 
 msgctxt "#25012"
 msgid "Auto-skip off"
@@ -14865,6 +14869,10 @@ msgctxt "#36621"
 msgid "Maximum protocol version"
 msgstr "Maksimal protokolversion"
 
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Indstil den maksimale SMB-protokol der forhandles, når der oprettes forbindelser. Gennemtvingning af SBMv2- eller SMBv1-kompatibilitet kan være påkrævet med ældre NAS- og Windows-enheder."
+
 msgctxt "#36623"
 msgid "None"
 msgstr "Ingen"
@@ -14888,6 +14896,18 @@ msgstr "Klient"
 msgctxt "#36628"
 msgid "Minimum protocol version"
 msgstr "Minimum protokolversion"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Indstil den minimale SMB-protokolversion der forhandles, når der oprettes forbindelser. Gennemtvingning af SMBv2 kan være påkrævet for at forhindre brug af SMBv1 på nogle styresystemer."
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Gennemtving svag SMBv1-sikkerhed for kompatibilitet med USB-delingsfunktionerne på nogle WiFi-routere og NAS-enheder."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "Aktiverer SSL-kryptering i webserveren. Certifikat special://userdata/server.key og nøgle special://userdata/server.pem skal oprettes manuelt"
 
 msgctxt "#36900"
 msgid "movie"
@@ -15093,9 +15113,17 @@ msgctxt "#37040"
 msgid "Prefer default audio streams"
 msgstr "Foretræk standardindstilling for lydspor"
 
+msgctxt "#37041"
+msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
+msgstr "Hvis det er aktiveret, foretrækkes lydstrømme, der er markeret som standard (og matcher det foretrukne sprog) over lydstrømme af højere kvalitet (antal kanaler, codec osv.)."
+
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
 msgstr "Lav miniaturebilleder fra kapitler"
+
+msgctxt "#37045"
+msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
+msgstr "Uddrag kapitel miniaturebilleder til præsentation i dialogen for kapitler og bogmærker. Dette kan øge CPU-belastningen."
 
 msgctxt "#37046"
 msgid "1080"
@@ -15401,6 +15429,10 @@ msgctxt "#38313"
 msgid "Other artists"
 msgstr "Andre kunstnere"
 
+msgctxt "#38317"
+msgid "Unable to export to library folders as the system artist information folder setting is empty"
+msgstr "Kan ikke eksportere til biblioteksmapperne, da indstillingen for systemets mappe til kunstnerinformation er tom"
+
 msgctxt "#38318"
 msgid "Unable to export data as the destination folder does not exist"
 msgstr "Kan ikke eksportere data fordi destinationsmappen ikke eksisterer."
@@ -15500,6 +15532,10 @@ msgstr "Vælg sorteringsmetode"
 msgctxt "#39011"
 msgid "Maximum wait time for network"
 msgstr "Maksimal ventetid for netværk"
+
+msgctxt "#39012"
+msgid "Set the maximum time to wait for the network to come up after starting or waking up. When time has passed before network is up startup will continue."
+msgstr "Indstil maksimal tid der ventes på at netværket skal komme op efter start eller opvågning. Når tiden er gået, inden netværket er oppe, fortsætter opstarten."
 
 msgctxt "#39013"
 msgid "Virtual filesystems"
@@ -15616,6 +15652,14 @@ msgstr "Vælg opløsning"
 msgctxt "#39111"
 msgid "original"
 msgstr "original"
+
+msgctxt "#39112"
+msgid "Downmix: Center Mix Level"
+msgstr "Nedmix: niveau for centermix"
+
+msgctxt "#39113"
+msgid "Center Mix Level in dB relative to metadata or default (-3 dB)"
+msgstr "Niveau for centermix målt i dB relativ til metadata eller standard (-3 dB)"
 
 msgctxt "#39114"
 msgid "Episode thumb"

@@ -1113,6 +1113,10 @@ msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "Non-interleaved"
 
+msgctxt "#307"
+msgid "Media default"
+msgstr "Medya varsayılanı"
+
 msgctxt "#308"
 msgid "Original language"
 msgstr "Orjinal dil"
@@ -1175,7 +1179,7 @@ msgstr "Türler, roller vb.. temizleniyor"
 
 msgctxt "#323"
 msgid "Error cleaning genres, roles etc."
-msgstr "Türler, roller vb.. temizlenirken Hata"
+msgstr "Türler, roller vb. temizlenirken hata oluştu."
 
 msgctxt "#324"
 msgid "Cleaning paths..."
@@ -2521,6 +2525,10 @@ msgctxt "#686"
 msgid "Verbose logging of [B]EPG[/B] component"
 msgstr "[B]EPG[/B] bileşeni için ayrıntılı günlük"
 
+msgctxt "#687"
+msgid "From metadata"
+msgstr "Meta verisinden"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Kitaplık temizleniyor"
@@ -2543,7 +2551,7 @@ msgstr "Sunucu"
 
 msgctxt "#708"
 msgid "Use proxy server"
-msgstr "Vekil sunucu kullan"
+msgstr "Vekil sunucusu kullan"
 
 msgctxt "#711"
 msgid "Internet Protocol (IP)"
@@ -2583,7 +2591,7 @@ msgstr "Varsayılan ağ geçidi"
 
 msgctxt "#722"
 msgid "DNS server"
-msgstr "DNS sunucu"
+msgstr "DNS sunucusu"
 
 msgctxt "#723"
 msgid "Save & restart"
@@ -2611,7 +2619,7 @@ msgstr "FTP sunucusu"
 
 msgctxt "#729"
 msgid "Enable SSL"
-msgstr "SSL i etkinleştir"
+msgstr "SSL'i etkinleştir"
 
 msgctxt "#730"
 msgid "Port"
@@ -2679,7 +2687,7 @@ msgstr "Arka plan rengi"
 
 msgctxt "#746"
 msgid "Background opacity"
-msgstr "Arka plan opaklığı"
+msgstr "Arka plan saydamlığı"
 
 msgctxt "#747"
 msgid "Error loading image"
@@ -3777,9 +3785,17 @@ msgctxt "#10005"
 msgid "Not available"
 msgstr "Kullanılamıyor"
 
+msgctxt "#10006"
+msgid "N/A"
+msgstr "Yok"
+
 msgctxt "#10007"
 msgid "System information"
 msgstr "Sistem bilgisi"
+
+msgctxt "#10008"
+msgid "Play next"
+msgstr "Sonrakini oynat"
 
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
@@ -3947,7 +3963,7 @@ msgstr "Ses çubuğu"
 
 msgctxt "#10106"
 msgid "Context menu"
-msgstr "Bağlam menüsü"
+msgstr "İçerik menüsü"
 
 msgctxt "#10107"
 msgid "Notification dialog"
@@ -3959,7 +3975,7 @@ msgstr "Sayısal Girdi"
 
 msgctxt "#10110"
 msgid "Gamepad input"
-msgstr "Oyun kolu girdisi"
+msgstr "Gamepad girdisi"
 
 msgctxt "#10111"
 msgid "Shutdown menu"
@@ -3967,7 +3983,7 @@ msgstr "Kapatma menüsü"
 
 msgctxt "#10114"
 msgid "Player controls"
-msgstr "Yürütücü kontrolleri"
+msgstr "Yürütücü denetimleri"
 
 msgctxt "#10115"
 msgid "Seek bar"
@@ -3983,7 +3999,7 @@ msgstr "Müzik OSD"
 
 msgctxt "#10122"
 msgid "Visualization preset list"
-msgstr "Görsel Öğe önayarları listesi"
+msgstr "Görsel öğe önayarları listesi"
 
 msgctxt "#10123"
 msgid "Video OSD settings"
@@ -4067,7 +4083,7 @@ msgstr "Metin görüntüleyici"
 
 msgctxt "#10150"
 msgid "Peripheral settings"
-msgstr "Çevre birim ayarları"
+msgstr "Çevre birimi ayarları"
 
 msgctxt "#10151"
 msgid "Extended progress dialog"
@@ -4084,6 +4100,10 @@ msgstr "Altyazı arama"
 msgctxt "#10157"
 msgid "OSD CMS settings"
 msgstr "OSD CMS ayarları"
+
+msgctxt "#10159"
+msgid "Subtitle OSD settings"
+msgstr "Altyazı OSD ayarları"
 
 msgctxt "#10210"
 msgid "Looking for subtitles..."
@@ -4173,6 +4193,10 @@ msgctxt "#10550"
 msgid "Teletext"
 msgstr "Teleteks"
 
+msgctxt "#10600"
+msgid "PVR guide info"
+msgstr "PVR rehber bilgisi"
+
 msgctxt "#10601"
 msgid "PVR recording info"
 msgstr "PVR kayıt bilgisi"
@@ -4189,13 +4213,25 @@ msgctxt "#10604"
 msgid "PVR channel manager"
 msgstr "PVR kanal yöneticisi"
 
+msgctxt "#10605"
+msgid "PVR guide search"
+msgstr "PVR rehber araması"
+
 msgctxt "#10606"
 msgid "PVR channel scan"
 msgstr "PVR kanal tarama"
 
+msgctxt "#10607"
+msgid "PVR update progress"
+msgstr "PVR güncellemesi ilerleme durumu"
+
 msgctxt "#10608"
 msgid "PVR OSD channels"
 msgstr "PVR OSD kanalları"
+
+msgctxt "#10609"
+msgid "PVR OSD guide"
+msgstr "PVR OSD rehberi"
 
 msgctxt "#10610"
 msgid "PVR radio RDS info"
@@ -4263,7 +4299,7 @@ msgstr "Tam ekran radyo"
 
 msgctxt "#10820"
 msgid "Game video filter"
-msgstr "Oyun görüntü filitresi"
+msgstr "Oyun video filitresi"
 
 msgctxt "#10821"
 msgid "Games"
@@ -4275,11 +4311,11 @@ msgstr "Oyun OSD"
 
 msgctxt "#10823"
 msgid "Game controllers"
-msgstr "Oyun kontrolcüleri"
+msgstr "Oyun denetleyicileri"
 
 msgctxt "#10824"
 msgid "Game video settings"
-msgstr "Oyun görüntü ayarları"
+msgstr "Oyun video ayarları"
 
 msgctxt "#12000"
 msgid "Select dialog"
@@ -4291,11 +4327,11 @@ msgstr "Müzik bilgisi"
 
 msgctxt "#12002"
 msgid "OK dialog"
-msgstr "OK iletişim kutusu"
+msgstr "Tamam iletişim kutusu"
 
 msgctxt "#12003"
 msgid "Video info"
-msgstr "Görüntü bilgisi"
+msgstr "Video bilgisi"
 
 msgctxt "#12005"
 msgid "Fullscreen video"
@@ -5063,7 +5099,7 @@ msgstr "Çift yönlü dizeleri çevirmeyi etkinleştir"
 
 msgctxt "#13305"
 msgid "Show RSS news feeds"
-msgstr "RSS haber kaynaklarını göster"
+msgstr "RSS haber akışlarını göster"
 
 msgctxt "#13306"
 msgid "Show parent folder items"
@@ -5271,7 +5307,7 @@ msgstr "Aygıtı etkinleştir"
 
 msgctxt "#13376"
 msgid "Volume"
-msgstr "Ses Düzeyi"
+msgstr "Ses düzeyi"
 
 msgctxt "#13377"
 msgid "Default view mode"
@@ -5351,7 +5387,7 @@ msgstr "Video ayarları"
 
 msgctxt "#13396"
 msgid "Audio settings"
-msgstr "Ses Ayarları"
+msgstr "Ses ayarları"
 
 msgctxt "#13397"
 msgid "Enable subtitles"
@@ -5601,6 +5637,18 @@ msgctxt "#13462"
 msgid "PRIME Render Method"
 msgstr "PRIME İşleyici Yöntemi"
 
+msgctxt "#13463"
+msgid "This option switches between direct-to-plane and EGL rendering methods."
+msgstr "Bu seçenek direct-to-plane ve EGL işleyici yöntemleri arasında geçiş yapar."
+
+msgctxt "#13464"
+msgid "Direct To Plane"
+msgstr "Direct To Plane"
+
+msgctxt "#13465"
+msgid "EGL"
+msgstr "EGL"
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Yeniden örnekleme kalitesi"
@@ -5645,6 +5693,10 @@ msgctxt "#13515"
 msgid "No art"
 msgstr "Resim yok"
 
+msgctxt "#13516"
+msgid "Add art type"
+msgstr "Resim türü ekle"
+
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
 msgstr "Ses perdesi düzeltme eşiği"
@@ -5652,6 +5704,18 @@ msgstr "Ses perdesi düzeltme eşiği"
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr "Hız değişimi esnasında ses perdesi eşiği aşıldığında, ses perdesi düzeltme filtresi uygulanır. Bu videonun hızlandırılması sonucu normal olarak oluşan \"sincap sesleri\" gibi sesleri önler."
+
+msgctxt "#13519"
+msgid "Embedded art"
+msgstr "Gömülü resim"
+
+msgctxt "#13520"
+msgid "Embedded fanart"
+msgstr "Gömülü fanart"
+
+msgctxt "#13521"
+msgid "Choose art type"
+msgstr "Resim türü seçin"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -6020,6 +6084,10 @@ msgstr "Tam ekran penceresi kullan"
 msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Seçilen şarkıları sıraya al"
+
+msgctxt "#14085"
+msgid "Whitelist"
+msgstr "Beyaz liste"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -6777,9 +6845,21 @@ msgctxt "#16206"
 msgid "Failed to delete at least one file. Check the log for more information about this message."
 msgstr "En az bir dosya silinemedi. Bu mesaj hakkında daha fazla bilgi için günlük dosyasını denetleyin."
 
+msgctxt "#16296"
+msgid "Pixelate"
+msgstr "Pikselli"
+
 msgctxt "#16297"
 msgid "Smooth"
-msgstr "Yumuşak"
+msgstr "Pürüzsüz"
+
+msgctxt "#16298"
+msgid "Shows the game's pixels without any modifications."
+msgstr "Oyunların piksellerini hiçbir değişiklik yapmadan gösterir."
+
+msgctxt "#16299"
+msgid "Removes the jagged edges of pixels by evenly fading between adjacent pixels."
+msgstr "Bitişik piksellerin arasını eşit miktarda soluk bırakarak piksellerin pürüzlü kenarlarını kaldırır."
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -7525,6 +7605,10 @@ msgctxt "#19146"
 msgid "Groups"
 msgstr "Gruplar"
 
+msgctxt "#19147"
+msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
+msgstr "Bu kaydın saklama ömrünün {0:d} gün olarak ayarlanması kaydın süresinin dolmasına ve kaydın anında silinmesine neden olabilir. Yine de devam edilsin mi?"
+
 msgctxt "#19148"
 msgid "Channel"
 msgstr "Kanal"
@@ -7661,6 +7745,10 @@ msgctxt "#19181"
 msgid "Menu / OSD"
 msgstr "Menü / OSD"
 
+msgctxt "#19182"
+msgid "Future days to display"
+msgstr "Görüntülenecek gelecek günler"
+
 msgctxt "#19183"
 msgid "Radio channels"
 msgstr "Radyo kanalları"
@@ -7689,6 +7777,10 @@ msgctxt "#19189"
 msgid "The PVR backend does not allow to record this event."
 msgstr "PVR arka uç bu etkinliği kaydetmeye izin vermiyor."
 
+msgctxt "#19190"
+msgid "Play programme"
+msgstr "Programı oynat"
+
 msgctxt "#19191"
 msgid "PVR service"
 msgstr "PVR hizmeti"
@@ -7704,6 +7796,10 @@ msgstr "Kanal tarama başlatılamadı. Bu mesaj hakkında daha fazla bilgi için
 msgctxt "#19194"
 msgid "Continue?"
 msgstr "Devam edilsin mi?"
+
+msgctxt "#19195"
+msgid "Delay mark last watched"
+msgstr "Son izlenme zamanı işareti gecikmesi"
 
 msgctxt "#19196"
 msgid "PVR client specific actions"
@@ -7836,6 +7932,10 @@ msgstr "Kayıt tamamlandı"
 msgctxt "#19228"
 msgid "Timer deleted"
 msgstr "Zamanlayıcı silindi"
+
+msgctxt "#19229"
+msgid "Past days to display"
+msgstr "Görüntülenecek geçmiş günler"
 
 msgctxt "#19230"
 msgid "Prevent updates during playback"
@@ -7993,6 +8093,10 @@ msgctxt "#19268"
 msgid "Hide \"No information available\" labels"
 msgstr "\"Hiçbir bilgi yok\" etiketlerini gizle"
 
+msgctxt "#19269"
+msgid "Preselect playing channel in lists"
+msgstr "Listelerde oynatılan kanal seçili olsun"
+
 msgctxt "#19270"
 msgid "Group Items"
 msgstr "Gruplanmış öğeler"
@@ -8065,6 +8169,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "Tüm kanallar"
 
+msgctxt "#19288"
+msgid "Go to date"
+msgstr "Tarihe git"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "Grubu gizle"
@@ -8096,6 +8204,34 @@ msgstr "Zamanlayıcı kuralını sil"
 msgctxt "#19296"
 msgid "No PVR add-on enabled"
 msgstr "Hiçbir PVR eklentisi etkin değil"
+
+msgctxt "#19297"
+msgid "Vertical channels"
+msgstr "Dikey kanallar"
+
+msgctxt "#19298"
+msgid "Horizontal channels"
+msgstr "Yatay kanallar"
+
+msgctxt "#19299"
+msgid "Expires"
+msgstr "Saklama ömrü"
+
+msgctxt "#19300"
+msgid "Vertical channels, no group selector"
+msgstr "Dikey kanallar, grup seçici yok"
+
+msgctxt "#19301"
+msgid "Horizontal channels, no group selector"
+msgstr "Yatay kanallar, grup seçici yok"
+
+msgctxt "#19302"
+msgid "Do you want to record the selected programme or to switch to the current programme?"
+msgstr "Seçili programı kaydetmek mi yoksa mevcut programa mı geçmek istiyorsunuz?"
+
+msgctxt "#19304"
+msgid "View timer rule"
+msgstr "Zamanlayıcı kuralını göster"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -8759,7 +8895,7 @@ msgstr "Animasyonları etkinleştir"
 
 msgctxt "#20080"
 msgid "Disable RSS during music"
-msgstr "Müzik çalarken RSS beslemelerini devre dışı bırak"
+msgstr "Müzik çalarken RSS akışını devre dışı bırak"
 
 msgctxt "#20081"
 msgid "Enable shortcut buttons"
@@ -9113,6 +9249,10 @@ msgctxt "#20173"
 msgid "FTP server"
 msgstr "FTP sunucusu"
 
+msgctxt "#20174"
+msgid "FTPS server"
+msgstr "FTPS sunucusu"
+
 msgctxt "#20175"
 msgid "UPnP server"
 msgstr "UPnP sunucusu"
@@ -9221,6 +9361,22 @@ msgctxt "#20222"
 msgid "Look for external subtitles"
 msgstr "Harici altyazıları ara"
 
+msgctxt "#20223"
+msgid "Artist information folder"
+msgstr "Sanatçı bilgisi klasörü"
+
+msgctxt "#20224"
+msgid "Prefer online album art"
+msgstr "Çevrimiçi albüm resmini tercih et"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "Yerel bir albüm kapağının olmadığı yerlerde, çevrimiçi resim kullanılacaktır. Hiçbiri uygun olmadığında, müzik dosyalarına gömülü olan kapak resimleri kullanılacaktır"
+
+msgctxt "#20228"
+msgid "Use artist sortname when sorting by artist"
+msgstr "Sanatçıya göre sıralarken sanatçı soyadını kullan"
+
 msgctxt "#20240"
 msgid "Android music"
 msgstr "Android müzik"
@@ -9243,19 +9399,19 @@ msgstr "Android uygulamaları"
 
 msgctxt "#20245"
 msgid "Windows music library"
-msgstr "Windows müzik kütüphanesi"
+msgstr "Windows müzik kitaplığı"
 
 msgctxt "#20246"
 msgid "Windows videos library"
-msgstr "Windows video kütüphanesi"
+msgstr "Windows video kitaplığı"
 
 msgctxt "#20247"
 msgid "Windows pictures library"
-msgstr "Windows resim kütüphanesi"
+msgstr "Windows resim kitaplığı"
 
 msgctxt "#20248"
 msgid "Windows photos library"
-msgstr "Windows fotoğraf kütüphanesi"
+msgstr "Windows fotoğraf kitaplığı"
 
 msgctxt "#20249"
 msgid "Windows documents"
@@ -9275,11 +9431,11 @@ msgstr "Bardaklar dolduruluyor (videolar)"
 
 msgctxt "#20253"
 msgid "WebDAV server (HTTP)"
-msgstr "WebDAV sunucu (HTTP)"
+msgstr "WebDAV sunucusu (HTTP)"
 
 msgctxt "#20254"
 msgid "WebDAV server (HTTPS)"
-msgstr "WebDAV sunucu (HTTPS)"
+msgstr "WebDAV sunucusu (HTTPS)"
 
 msgctxt "#20255"
 msgid "First logon, edit your profile"
@@ -9299,15 +9455,23 @@ msgstr "Zeroconf tarayıcısı"
 
 msgctxt "#20300"
 msgid "Web server directory (HTTP)"
-msgstr "Web sunucu dizini (HTTP)"
+msgstr "Web sunucusu dizini (HTTP)"
 
 msgctxt "#20301"
 msgid "Web server directory (HTTPS)"
-msgstr "Web sunucu dizini (HTTPS)"
+msgstr "Web sunucusu dizini (HTTPS)"
 
 msgctxt "#20302"
 msgid "Unable to write to folder:"
 msgstr "Klasöre yazılamıyor:"
+
+msgctxt "#20304"
+msgid "RSS Feed (HTTP)"
+msgstr "RSS Akışı (HTTP)"
+
+msgctxt "#20305"
+msgid "RSS Feed (HTTPS)"
+msgstr "RSS Akışı (HTTPS)"
 
 msgctxt "#20307"
 msgid "Secondary DNS"
@@ -9536,6 +9700,10 @@ msgstr "İzlenenleri gizle"
 msgctxt "#20368"
 msgid "Prod code"
 msgstr "Üretim kodu"
+
+msgctxt "#20369"
+msgid "Show information for unwatched items"
+msgstr " İzlenmemiş öğeler için bilgi göster"
 
 msgctxt "#20370"
 msgid "* Hidden to prevent spoilers *"
@@ -9996,6 +10164,18 @@ msgstr "Hiçbir güncelleme bulunamadı"
 msgctxt "#21342"
 msgid "There are currently no updates available for this add-on."
 msgstr "Bu eklenti için güncelleştirme bulunmamaktadır."
+
+msgctxt "#21343"
+msgid "Use video tags"
+msgstr "Video etiketlerini kullan"
+
+msgctxt "#21344"
+msgid "If mp4 or mkv files have tags, use this for library metadata"
+msgstr "Mp4 veya mkv dosyalarının etiketleri varsa, bunu kitaplık meta verileri için kullan"
+
+msgctxt "#21345"
+msgid "Uncategorized"
+msgstr "Sınıflandırılmamış"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -10495,7 +10675,7 @@ msgstr "Altyazı sayısı"
 
 msgctxt "#21483"
 msgid "View"
-msgstr "Görünüm"
+msgstr "Görüntüle"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -11161,6 +11341,10 @@ msgctxt "#24043"
 msgid "Available updates"
 msgstr "Kullanılabilir güncellemeler"
 
+msgctxt "#24044"
+msgid "Installing {0:d}%"
+msgstr "{0:d}% yükleniyor"
+
 msgctxt "#24045"
 msgid "Failed to install Add-on from zip file"
 msgstr "Eklenti zip dosyasından yüklenemedi"
@@ -11504,6 +11688,14 @@ msgstr "Video akışlarında kapalı açıklamalı altyazı ayrıştırmasını 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
 msgstr "Bu dile geçiş yapmak ister misiniz?"
+
+msgctxt "#24133"
+msgid "Subtitle settings"
+msgstr "Altyazı ayarları"
+
+msgctxt "#24134"
+msgid "Download subtitle..."
+msgstr "Altyazı indir..."
 
 msgctxt "#24139"
 msgid "View Add-on"
@@ -11972,6 +12164,10 @@ msgstr "RDS verisi varsa kullanılabilir"
 msgctxt "#29982"
 msgid "Message traffic advisory"
 msgstr "Trafik önerisi mesajı"
+
+msgctxt "#29983"
+msgid "RDS informs you about traffic advisory messages"
+msgstr "RDS sizi trafik önerisi mesajları hakkında bilgilendirir"
 
 msgctxt "#29984"
 msgid "Increase volume on traffic advisory"
@@ -12585,6 +12781,14 @@ msgctxt "#35020"
 msgid "Press all analog buttons now to detect them:[CR][CR]{0:s}"
 msgstr "Algılanması için şimdi tüm analog düğmelere basınız:[CR][CR]{0:s}"
 
+msgctxt "#35021"
+msgid "Get all"
+msgstr "Hepsini al"
+
+msgctxt "#35022"
+msgid "Nothing to map"
+msgstr "Eşlenecek tuş yok"
+
 msgctxt "#35047"
 msgid "Driver settings"
 msgstr "Sürücü ayarları"
@@ -12648,6 +12852,18 @@ msgstr "Takılı denetleyicileri yapılandır"
 msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr "Denetleyicilerinizi farklı oyun sistemlerindeki çeşitli giriş aygıtları ile eşleştirin."
+
+msgctxt "#35071"
+msgid "Racing wheel"
+msgstr "Yarış direksiyonu"
+
+msgctxt "#35072"
+msgid "Paddles"
+msgstr "Pedallar"
+
+msgctxt "#35073"
+msgid "Joysticks"
+msgstr "Oyun çubukları"
 
 msgctxt "#35074"
 msgid "Face buttons"
@@ -12737,6 +12953,18 @@ msgctxt "#35104"
 msgid "Pointers"
 msgstr "İşaretçiler"
 
+msgctxt "#35105"
+msgid "Light gun"
+msgstr "Oyun tabancası"
+
+msgctxt "#35106"
+msgid "Shoot offscreen"
+msgstr "Ekranın dışına ateş edin"
+
+msgctxt "#35107"
+msgid "Console switches"
+msgstr "Konsol anahtarları"
+
 msgctxt "#35108"
 msgid "Hardware buttons"
 msgstr "Donanım düğmeleri"
@@ -12817,6 +13045,22 @@ msgctxt "#35167"
 msgid "Single keys"
 msgstr "Tek tuş"
 
+msgctxt "#35168"
+msgid "Select key"
+msgstr "Tuş seçin"
+
+msgctxt "#35169"
+msgid "Press a key"
+msgstr "Bir tuşa basın"
+
+msgctxt "#35170"
+msgid "Press a key ({1:d})"
+msgstr "Bir tuşa basın ({1:d})"
+
+msgctxt "#35171"
+msgid "Mouse"
+msgstr "Fare"
+
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
 msgstr "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -12881,6 +13125,18 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Destek eklentileri"
 
+msgctxt "#35217"
+msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+msgstr "Savestate sadece \"{0:s}\" ile yüklenebilir. Savestate silinip devam edilsin mi?"
+
+msgctxt "#35218"
+msgid "Erase savestate"
+msgstr "Savestate'i sil"
+
+msgctxt "#35219"
+msgid "The required files can't be found."
+msgstr "Gerekli dosyalar bulunamıyor."
+
 msgctxt "#35220"
 msgid "Game providers"
 msgstr "Oyun sağlayıcı"
@@ -12893,9 +13149,13 @@ msgctxt "#35222"
 msgid "Exit"
 msgstr "Çıkış"
 
+msgctxt "#35223"
+msgid "Missing: {0:s}"
+msgstr "Eksik: {0:s}"
+
 msgctxt "#35224"
 msgid "Pause / Resume"
-msgstr "Durakla / Devam et"
+msgstr "Duraklat / Devam et"
 
 msgctxt "#35225"
 msgid "Video filter"
@@ -12903,7 +13163,7 @@ msgstr "Video filitresi"
 
 msgctxt "#35226"
 msgid "Advanced settings"
-msgstr "Gelişmiş Ayarlar"
+msgstr "Gelişmiş ayarlar"
 
 msgctxt "#35227"
 msgid "Rotation"
@@ -12929,9 +13189,21 @@ msgctxt "#35232"
 msgid "Fullscreen"
 msgstr "Tam ekran"
 
+msgctxt "#35233"
+msgid "Stretch mode"
+msgstr "Genişletme modu"
+
 msgctxt "#35234"
 msgid "Controls"
-msgstr "Kontroller"
+msgstr "Denetimler"
+
+msgctxt "#35235"
+msgid "Press {0:s} to open the in-game menu."
+msgstr "Oyun içi menüyü açmak için {0:s} tuşuna basın."
+
+msgctxt "#35236"
+msgid "In this release, only controllers can be used to play games."
+msgstr "Bu sürümde, oyun oynamak için yalnızca denetyeliyiciler kullanılabilir."
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12949,6 +13221,10 @@ msgctxt "#35253"
 msgid "Enable autosave if supported"
 msgstr "Otomatik kayıt işlemi destekleniyorsa etkinleştir"
 
+msgctxt "#35254"
+msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
+msgstr "Eğer destekleniyorsa oyunu oynarken otomatik olarak kaydet. Daha sonra kaldığınız yerden oynamaya devam edin."
+
 msgctxt "#35256"
 msgid "Failed to install add-on."
 msgstr "Eklenti yüklenemedi."
@@ -12956,6 +13232,10 @@ msgstr "Eklenti yüklenemedi."
 msgctxt "#35257"
 msgid "Installed"
 msgstr "Yüklendi"
+
+msgctxt "#35258"
+msgid "Select emulator for {0:s} file"
+msgstr "{0:s} dosyası için emulatör seçin"
 
 msgctxt "#35259"
 msgid "Saved"
@@ -13157,6 +13437,18 @@ msgctxt "#36046"
 msgid "Force AVR to wake up when Kodi is activated"
 msgstr "Kodi etkinleştirildiğinde AVR'yi uyandırmaya zorla"
 
+msgctxt "#36047"
+msgid "Remote button press delay before repeating (ms)"
+msgstr "Uzaktan kumanda tuşunun yineleme gecikmesi (ms)"
+
+msgctxt "#36048"
+msgid "Remote button press repeat rate (ms)"
+msgstr "Uzaktan kumanda tuşunun tekrarlama oranı (ms)"
+
+msgctxt "#36049"
+msgid "Remote button press release time (ms)"
+msgstr "Uzaktan kumanda tuşuna basma süresi (ms)"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Dithering"
@@ -13211,7 +13503,7 @@ msgstr "RSS'in otomatik kaydırmasını kaldırmak için bunu kapatın."
 
 msgctxt "#36112"
 msgid "Edit the RSS feeds."
-msgstr "RSS beslemelerini düzenle."
+msgstr "RSS akışlarını düzenle."
 
 msgctxt "#36113"
 msgid "This category contains all locale / regional settings."
@@ -13325,6 +13617,10 @@ msgctxt "#36140"
 msgid "Choose which temperature unit is used for displaying temperatures in the user interface."
 msgstr "Kullanıcı arabiriminde sıcaklıkları görüntülemek için kullanılacak sıcaklık birimini seçin."
 
+msgctxt "#36141"
+msgid "Show information for unwatched media in the video library or hide them if not selected to prevent spoilers. Available options are 'Movie plot', 'Episode plot' and 'Episode thumb'."
+msgstr "Video kitaplığında izlenmemiş medya bilgilerini göster veya spoileri önlemek için seçimi kaldırıp gizle. Mevcut seçenekler 'Film özeti', 'Bölüm özeti' and 'Bölüm küçük resmi'."
+
 msgctxt "#36142"
 msgid "Choose which speed unit is used for displaying speeds in the user interface."
 msgstr "Kullanıcı arabiriminde hızları görüntülemek için kullanılacak hız birimini seçin."
@@ -13357,9 +13653,17 @@ msgctxt "#36149"
 msgid "Export the video library database to XML files. This will optionally overwrite your current XML files."
 msgstr "Video kitaplığı veritabanını XML dosyaları olarak dışarı aktar. İsteğe bağlı olarak geçerli XML dosyalarınızın üzerine yazılır."
 
+msgctxt "#36150"
+msgid "Import an XML file into the video library database."
+msgstr "Video kitaplığı veritabanını bir XML dosyasından içeri aktar."
+
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
 msgstr "Bu kategori video oynatımının nasıl işleğeceği ile ilgili ayarları içerir."
+
+msgctxt "#36152"
+msgid "Enable automatic playback of the next file in the list for selected playlist types."
+msgstr "Seçili çalma listesi türlerinde listedeki bir sonraki dosyayı otomatik oynatmayı etkinleştir."
 
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
@@ -13392,6 +13696,10 @@ msgstr "Video dosyalarının CrystalHD kod çözmesini etkinleştir."
 msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
 msgstr "Video dosyalarının VTB donanımsal kod çözmesini etkinleştir."
+
+msgctxt "#36161"
+msgid "Select an action Kodi will perform on startup."
+msgstr "Kodi'nin başlangıçta gerçekleştireceği bir eylem seçin."
 
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
@@ -13432,6 +13740,10 @@ msgstr "Siyah çubukları azaltmak için videoyu ayarlanan yüzdeye kadar geniş
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Geniş ekranlarda görüntülenecek 4:3 videoların yakınlaştırma düzeyini seçin."
+
+msgctxt "#36172"
+msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
+msgstr "Eğer ffmpeg PRIME hwaccel varsa, video dosyalarının PRIME donanımsal kod çözmesini etkinleştir."
 
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
@@ -13581,6 +13893,10 @@ msgctxt "#36209"
 msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
 msgstr "Kanal ve rehber veritabanlarını sil ve daha sonra veriyi arka uçtan yeniden al."
 
+msgctxt "#36210"
+msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
+msgstr "Kişisel tercihlerinize göre etkin PVR istemcileri için önceliği değiştirmeyi sağlayan istemci öncelikleri iletişim kutusunu açın. Daha yüksek değer, daha yüksek öncelik anlamına gelir."
+
 msgctxt "#36211"
 msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
 msgstr "Bu kategori PVR menüleri, ekran menüsü (OSD) ve kanal bilgisi pencereleri ayarlarını içerir."
@@ -13592,6 +13908,10 @@ msgstr "Kanal değiştirirken geçerli TV programının program bilgisini görü
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
 msgstr "Gurupları ve ilgili kanalları değiştirmeye izin veren grup yöneticisini aç."
+
+msgctxt "#36214"
+msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
+msgstr "Kanal listelerini içeren pencere ve iletişim kutularında oynatılan kanal seçili olsun. Etkinleştirilirse ve oynatılan bir kanal varsa, açılacak olan kanal listeleri penceresi veya iletişim kutusunda oynatılan kanal seçilecektir. Devre dışı bırakılırsa, kanal listeleri penceresi veya iletişim kutusu açıldığında daha önce seçilen kanal seçilecektir."
 
 msgctxt "#36215"
 msgid "Choose which long date format is used for displaying the date in the user interface."
@@ -13608,6 +13928,14 @@ msgstr "Eksik kanal logoları için tara."
 msgctxt "#36218"
 msgid "This category contains the electronic programming guide (EPG) settings."
 msgstr "Bu kategori elektronik program rehberi (EPG) ayarlarını içerir."
+
+msgctxt "#36219"
+msgid "Number of past days to show in the guide and to import from backends."
+msgstr "Rehberde gösterilecek ve arka uçlardan içe aktarılacak geçmiş gün sayısı."
+
+msgctxt "#36220"
+msgid "Number of future days to show in the guide and to import from backends."
+msgstr "Rehberde gösterilecek ve arka uçlardan içe aktarılacak gelecek gün sayısı."
 
 msgctxt "#36221"
 msgid "Time between imports of guide data from backends."
@@ -13651,7 +13979,7 @@ msgstr "Altyazı arka planı saydamlığını ayarla."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
-msgstr "Kanal değiştirmeleri yukarı/aşağı düğmeleri ile kanal seçildikten sonra OK tuşuna basarak onaylanması gereklidir."
+msgstr "Kanal değiştirmeleri yukarı/aşağı düğmeleri ile kanal seçildikten sonra Tamam tuşuna basarak onaylanması gereklidir."
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -13664,6 +13992,10 @@ msgstr "Bu kategori varsayılan kayıt süresi ayarlarını içerir."
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Kayıt düğmesine basıldığında hızlı kayıtların süresi. Bu değer \"Hızlı kayıt eylemi\" seçeneğinde \"Sabit bir süre için kaydet\" değeri seçildiyse dikkate alınacaktır."
+
+msgctxt "#36236"
+msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
+msgstr "Sıfırdan büyük bir değere ayarlanırsa, kanalların son izlenme zamanı, kanalın oynatılmasının başlamasından sonra verilen süre kadar saklanır. Aksi takdirde, son izlenme zamanı, kanalın oynatılmasının başlangıcında hemen kaydedilir."
 
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
@@ -13764,6 +14096,14 @@ msgstr "Henüz hiçbir bilgi yok."
 msgctxt "#36261"
 msgid "If enabled, this framerate is used for streams we were not able to detect fps."
 msgstr "Etkinleştirilirse, bu kare hızı fps değerinin algılanamadığı akışlarda kullanılacak."
+
+msgctxt "#36262"
+msgid "Export parts of the music library to an XML file or NFO files. This will optionally overwrite your current NFO and artwork files."
+msgstr "Müzik kitaplığı bölümlerini bir XML dosyasına veya NFO dosyalarına dışarı aktarın. Bu, isteğe bağlı olarak mevcut NFO  ve resim dosyalarınızın üzerine yazacaktır."
+
+msgctxt "#36263"
+msgid "Import an XML file into the music library database."
+msgstr "Müzik kitaplığı veritabanını bir XML dosyasından içeri aktar."
 
 msgctxt "#36264"
 msgid "This category contains the settings for how music playback is handled."
@@ -13877,6 +14217,18 @@ msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "CD kopyalama işlemi bitince diski otomatik olarak çıkar."
 
+msgctxt "#36292"
+msgid "This category contains startup settings."
+msgstr "Bu kategori başlangıç ile ilgili ayarları içerir."
+
+msgctxt "#36293"
+msgid "Select the folder where artist information (nfo files and images) should be saved in."
+msgstr "Sanatçı bilgilerinin (nfo dosyaları ve resimler) hangi klasöre kaydedileceğini seçin."
+
+msgctxt "#36294"
+msgid "When sorting music items by artist use sortname e.g. Parton, Dolly rather than name."
+msgstr "Müzik öğelerini sanatçıya göre sıralarken sanatçının ismi yerine soyadını kullan. (Örneğin Dolly Parton yerine Parton, Dolly gibi)"
+
 msgctxt "#36302"
 msgid "No info available yet."
 msgstr "Henüz hiçbir bilgi yok."
@@ -13965,6 +14317,10 @@ msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
 msgstr "UPnP istemcisini etkinleştir. Bu özellik herhangi bir UPnP sunucusundan medya akışı yapmanızı ve oynatımı sunucudan kontrol etmenizi sağlar."
 
+msgctxt "#36326"
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control its playback."
+msgstr "UPnP denetim noktasını etkinleştir. Bu özellik herhangi bir UPnP istemcisinden medya akışı yapmanızı ve oynatımı kontrol etmenizi sağlar."
+
 msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Bu kategori web sunucusu hizmetinin ve uygulama kontrol hizmetinin nasıl işleğeceği ile ilgili ayarları içerir."
@@ -13975,7 +14331,7 @@ msgstr "Yerleşik web sunucusu aracılığıyla uzak kullanıcıların bu uygula
 
 msgctxt "#36329"
 msgid "Define the web server port."
-msgstr "Web sunucu bağlantı noktasını tanımla."
+msgstr "Web sunucusu bağlantı noktasını tanımla."
 
 msgctxt "#36330"
 msgid "Define the web server username. This only takes effect when both the username and the password are set."
@@ -13983,7 +14339,7 @@ msgstr "Web sunucusu kullanıcı adını tanımla. Bu yalnızca kullanıcı adı
 
 msgctxt "#36331"
 msgid "Define the web server password. This only takes effect when both the username and the password are set."
-msgstr "Web sunucu parolasını tanımla. Bu yalnızca kullanıcı adı ve parola ayarlandığında etkinleşir."
+msgstr "Web sunucusu parolasını tanımla. Bu yalnızca kullanıcı adı ve parola ayarlandığında etkinleşir."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14080,6 +14436,10 @@ msgstr "Etkinleştirilirse, gerçek tam ekran yerine tam ekran penceresi kullan�
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Çoklu ekran yapılandırmasında, bu uygulamayı görüntülemeyen ekranlar karartılır."
+
+msgctxt "#36356"
+msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
+msgstr "Çözünürlük ve yenileme hızını değiştirirken beyaz listedeki modlar arasında geçiş yapılmasına izin verilir"
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -14179,19 +14539,19 @@ msgstr "Ne tür bir vekil sunucu kullanıldığını yapılandırın."
 
 msgctxt "#36382"
 msgid "Configure the proxy server address."
-msgstr "Vekil sunucu adresini yapılandırın."
+msgstr "Vekil sunucusu adresini yapılandırın."
 
 msgctxt "#36383"
 msgid "Configure the proxy server port."
-msgstr "Vekil sunucu bağlantı noktasını yapılandırın."
+msgstr "Vekil sunucusu bağlantı noktasını yapılandırın."
 
 msgctxt "#36384"
 msgid "Configure the proxy server username."
-msgstr "Vekil sunucu kullanıcı adını yapılandırın."
+msgstr "Vekil sunucusu kullanıcı adını yapılandırın."
 
 msgctxt "#36385"
 msgid "Configure the proxy server password."
-msgstr "Vekil sunucu parolasını yapılandırın."
+msgstr "Vekil sunucusu parolasını yapılandırın."
 
 msgctxt "#36386"
 msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
@@ -14389,6 +14749,10 @@ msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
 msgstr "Video dosyalarının kod çözmesi için MMAL hızlandırmalı VideoPlayer kullan."
 
+msgctxt "#36436"
+msgid "Select OS keyboard layout."
+msgstr "İşletim sistemi klavye düzenini seçin."
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Ses kontrolü adımlarının sayısını ayarlayın."
@@ -14568,6 +14932,22 @@ msgstr "GUI'nin stereoscopic 3D efektinin gücünü tanımlar. Bunu GUI içindek
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
 msgstr "Grafik sürücüsü tarafından kullanılan sunu arabelleklerinin sayısını tanımlar. Eğer sürücü iki kez arabelleğe alma kullanıyorsa 2'yi, üç kez arabelleğe alma kullanıyorsa 3'ü seçin."
+
+msgctxt "#36553"
+msgid "Tone mapping"
+msgstr "Tone mapping"
+
+msgctxt "#36554"
+msgid "off"
+msgstr "kapalı"
+
+msgctxt "#36555"
+msgid "Reinhard"
+msgstr "Reinhard"
+
+msgctxt "#36556"
+msgid "Tone mapping parameter"
+msgstr "Tone mapping parametresi"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -14805,6 +15185,14 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Yüksek kalite resim aşağı ölçekleme ozelligini etkinleştir (daha fazla bellek kullanır ve performansa orta derecede etkisi vardır)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "En yüksek iletişim kuralı sürümü"
+
+msgctxt "#36622"
+msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
+msgstr "Bağlantı için en yüksek SMB iletişim kuralı sürümünü ayarlayın. Eski NAS ve Windows paylaşımlarında SMBv2 veya SMBv1 uyumluluğunu kullanmaya zorlamak gerekebilir."
+
 msgctxt "#36623"
 msgid "None"
 msgstr "Yok"
@@ -14824,6 +15212,26 @@ msgstr "SMBv3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "İstemci"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "En düşük iletişim kuralı sürümü"
+
+msgctxt "#36629"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "Bağlantılar için kullanılacak en düşük SMB iletişim kuralı sürümünü ayarlayın. Bazı işletim sistemlerinde SMBv1 kullanılmasını önlemek için SMBv2 sürümünü kullanmaya zorlamak gerekebilir."
+
+msgctxt "#36630"
+msgid "Use legacy security"
+msgstr "Eski güvenliği kullan"
+
+msgctxt "#36631"
+msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
+msgstr "Bazı WiFi yönlendiricilerinde ve NAS cihazlarında USB paylaşım özellikleriyle uyumluluk için zayıf olan SMBv1 güvenliğini kullanmaya zorlayın."
+
+msgctxt "#36899"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+msgstr "Web sunucusunda SSL şifrelemesini etkinleştirir. Sertifika special://userdata/server.key ve Anahtar special://userdata/server.pem el ile oluşturulmalıdır"
 
 msgctxt "#36900"
 msgid "movie"
@@ -15049,6 +15457,10 @@ msgctxt "#37045"
 msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
 msgstr "Bölümler / yer işaretleri iletişim kutusunda görüntülemek için bölüm küçük resimlerini ayıkla. Bu CPU yükünü arttırabilir."
 
+msgctxt "#37046"
+msgid "1080"
+msgstr "1080"
+
 msgctxt "#38010"
 msgid "GPU accelerated"
 msgstr "GPU hızlandırmalı"
@@ -15197,9 +15609,57 @@ msgctxt "#38062"
 msgid "Do full tag scan even when music files are unchanged?"
 msgstr "Müzik dosyaları değişmemiş olsa bile tam etiket taraması yapılsın mı?"
 
+msgctxt "#38063"
+msgid "Set default information provider"
+msgstr "Varsayılan bilgi sağlayıcısını ayarlayın"
+
+msgctxt "#38064"
+msgid "Set for this artist"
+msgstr "Bu sanatçı için ayarla"
+
+msgctxt "#38065"
+msgid "Set for all artists shown"
+msgstr "Gösterilen tüm sanatçılar için ayarla"
+
+msgctxt "#38066"
+msgid "Set for this album"
+msgstr "Bu albüm için ayarla"
+
+msgctxt "#38067"
+msgid "Set for all albums shown"
+msgstr "Gösterilen tüm albümler için ayarla"
+
+msgctxt "#38068"
+msgid "Use this information provider for all the artists shown here?"
+msgstr "Burada gösterilen tüm sanatçılar için bu bilgi sağlayıcı kullanılsın mı?"
+
+msgctxt "#38069"
+msgid "Use this information provider for all the albums shown here?"
+msgstr "Burada gösterilen tüm albümler için bu bilgi sağlayıcı kullanılsın mı?"
+
+msgctxt "#38070"
+msgid "Use this information provider for all artists, clearing any previous settings for specific artists?"
+msgstr "Bu bilgi sağlayıcıyı tüm sanatçılar için kullanın. Belirli sanatçılar için önceki ayarlar temizlensin mi?"
+
+msgctxt "#38071"
+msgid "Use this information provider for all albums, clearing any previous settings for specific albums?"
+msgstr "Bu bilgi sağlayıcıyı tüm albümler için kullanın. Belirli albümler için önceki ayarlar temizlensin mi?"
+
+msgctxt "#38072"
+msgid "Do you want to refresh information for all these items now?"
+msgstr "Tüm bu öğelerin bilgilerini şimdi yenilemek istiyor musunuz?"
+
+msgctxt "#38073"
+msgid "Do you want to refresh information for this item now?"
+msgstr "Bu öğenin bilgilerini şimdi yenilemek istiyor musunuz?"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Medya oynatımı ile ilgili ayarları içeren bölüm"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Kaynakların ve medya bilgilerinin nasıl toplanacağı, depolanacağı, gösterileceği ve gezileceği ile ilgili ayarları içeren bölüm"
 
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
@@ -15253,13 +15713,93 @@ msgctxt "#38208"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
 msgstr "Eğer EXIF bilgisi varsa (tarih, kullanılan kamera, vs.), görüntülenecek."
 
+msgctxt "#38209"
+msgid "Reset resume position"
+msgstr "Sürdürme konumunu sıfırla"
+
+msgctxt "#38300"
+msgid "Export Music Library"
+msgstr "Müzik Kitaplığını Dışarı Aktar"
+
 msgctxt "#38301"
 msgid "Single file"
 msgstr "Tek dosya"
 
+msgctxt "#38302"
+msgid "Separate files for each item"
+msgstr "Her öğe için ayrı dosya"
+
+msgctxt "#38303"
+msgid "To library folders"
+msgstr "Kitaplık klasörlerine"
+
+msgctxt "#38304"
+msgid "Choose kind of export output"
+msgstr "Dışarı aktarma türünü seçin"
+
+msgctxt "#38305"
+msgid "Destination folder"
+msgstr "Hedef klasör"
+
+msgctxt "#38306"
+msgid "Items to export"
+msgstr "Dışarı aktarılacak öğeler"
+
+msgctxt "#38307"
+msgid "Include art work such as thumbnails and fanart"
+msgstr "Küçük resimler ve fanart gibi öğeleri dahil et"
+
+msgctxt "#38308"
+msgid "Include items that have not been scraped (to create template NFO files)"
+msgstr "Alınmamış öğeleri dahil et (şablon NFO dosyaları oluşturmak için)"
+
+msgctxt "#38309"
+msgid "Output only artwork, not NFO files"
+msgstr "Sadece resimleri dışarı aktar, NFO dosyalarını dahil etme"
+
+msgctxt "#38310"
+msgid "Overwrite existing files"
+msgstr "Varolan dosyaların üzerine yaz"
+
+msgctxt "#38312"
+msgid "Song artists"
+msgstr "Şarkı sanatçıları"
+
+msgctxt "#38313"
+msgid "Other artists"
+msgstr "Diğer sanatçılar"
+
+msgctxt "#38317"
+msgid "Unable to export to library folders as the system artist information folder setting is empty"
+msgstr "Sistem ayarlarındaki sanatçı bilgisi klasörü ayarı boş olduğu için kitaplık klasörlerine dışarı aktarılamıyor"
+
+msgctxt "#38318"
+msgid "Unable to export data as the destination folder does not exist"
+msgstr "Hedef klasör mevcut olmadığından dolayı veri dışarı aktarılamıyor"
+
 msgctxt "#38319"
 msgid "Export"
 msgstr "Dışarı aktar"
+
+msgctxt "#38320"
+msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
+msgstr "Yerel sanatçı bilgisine (NFO) ve almak istediğiniz resim dosyalarına sahip misiniz? Bu sanatçı klasörlerinin konumunu şimdi ayarlayın"
+
+msgctxt "#38330"
+msgid "Set Music Information Providers"
+msgstr "Müzik Bilgi Sağlayıcılarını Ayarla"
+
+msgctxt "#38331"
+msgid "Set Album Information Provider"
+msgstr "Albüm Bilgi Sağlayıcılarını Ayarla"
+
+msgctxt "#38332"
+msgid "Set Artist Information Provider"
+msgstr "Sanatçı Bilgi Sağlayıcılarını Ayarla"
+
+msgctxt "#38333"
+msgid "Fetch additional information and art during scan"
+msgstr "Tarama sırasında ek bilgileri ve resimleri al"
 
 msgctxt "#38334"
 msgid "Album information provider"
@@ -15272,6 +15812,10 @@ msgstr "Sanatçı bilgisi sağlayıcı"
 msgctxt "#38336"
 msgid "Local artist information folder"
 msgstr "Yerel sanatçı bilgisi sağlayıcı"
+
+msgctxt "#38337"
+msgid "Options for fetching additional information"
+msgstr "Ek bilgileri almak için seçenekler"
 
 msgctxt "#38338"
 msgid "Choose how to apply settings"
@@ -15296,6 +15840,10 @@ msgstr "MPEG4 Hızlandırma"
 msgctxt "#39003"
 msgid "Accelerate h264"
 msgstr "h264 Hızlandırma"
+
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and the Library settings for the databases"
+msgstr "Bu kategori veritabanları için kaynak yönetimi ve kitaplık ile ilgili ayar pencerelerine erişim sağlar."
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -15379,7 +15927,15 @@ msgstr "Bağımlılıklar"
 
 msgctxt "#39025"
 msgid "Gender"
-msgstr "Cins"
+msgstr "Cinsiyet"
+
+msgctxt "#39026"
+msgid "Disambiguation"
+msgstr "Kısa yorum"
+
+msgctxt "#39027"
+msgid "Sortname"
+msgstr "Soyadı"
 
 msgctxt "#39030"
 msgid "Source"
@@ -15393,6 +15949,18 @@ msgctxt "#39100"
 msgid "Perform on startup"
 msgstr "Başlangıçta uygula"
 
+msgctxt "#39101"
+msgid "Play TV"
+msgstr "TV Oynat"
+
+msgctxt "#39102"
+msgid "Play Radio"
+msgstr "Radyo Çal"
+
+msgctxt "#39103"
+msgid "Unable to configure network location. Invalid path given."
+msgstr "Ağ konumu yapılandırılamıyor. Geçersiz yol verildi."
+
 msgctxt "#39104"
 msgid "View as text"
 msgstr "Metin olarak göster"
@@ -15400,6 +15968,14 @@ msgstr "Metin olarak göster"
 msgctxt "#39105"
 msgid "default"
 msgstr "varsayılan"
+
+msgctxt "#39106"
+msgid "forced"
+msgstr "forced"
+
+msgctxt "#39107"
+msgid "captions"
+msgstr "captions"
 
 msgctxt "#39108"
 msgid "audio description"
@@ -15415,7 +15991,19 @@ msgstr "Çözünürlük seç"
 
 msgctxt "#39111"
 msgid "original"
-msgstr "Özgün"
+msgstr "özgün"
+
+msgctxt "#39112"
+msgid "Downmix: Center Mix Level"
+msgstr "Downmix: Orta Kanal Düzeyi"
+
+msgctxt "#39113"
+msgid "Center Mix Level in dB relative to metadata or default (-3 dB)"
+msgstr "Meta veriye veya varsayılana göre (-3 dB) dB cinsinden Orta Kanal Düzeyi"
+
+msgctxt "#39114"
+msgid "Episode thumb"
+msgstr "Bölüm küçük resmi"
 
 msgctxt "#39115"
 msgid "Movie plot"
