@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.classificationicons.colour" name="Classification Icons - Colour" version="0.0.1" provider-name="Wyrm">
+	<extension point="kodi.resource.images" compile="true" type="classificationicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Colour Video Classification Icons</summary>
+		<description lang="en_GB">Colour square aspect (64x64) video classification icons for use with MPAA ListItem in Kodi. Can be used by Kodi skins using skin variables to show icons or the much quicker $INFO as a texture method. Details of usage and supported icons in the README.md file.</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+		<source>https://github.com/wyrm65/resource.images.classificationicons.colour</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>0.0.1[CR]  - Initial release.[CR]</news>
+	</extension>
+</addon>
