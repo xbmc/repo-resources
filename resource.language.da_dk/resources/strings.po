@@ -5353,10 +5353,6 @@ msgctxt "#13388"
 msgid "Preset"
 msgstr "Forudindstilling"
 
-msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "Der er ingen forudindstillinger tilgængelige\ntil denne visualisering"
-
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
 msgstr "Der er ingen indstillinger tilgængelige\ntil denne visualisering"
@@ -8212,6 +8208,10 @@ msgstr "Horisontale kanaler uden gruppevælger"
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Vil du optage det valgte program eller skifte til det aktuelle program?"
+
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "Luk kanal-OSD efter kanalskift"
 
 msgctxt "#19304"
 msgid "View timer rule"
@@ -13317,6 +13317,10 @@ msgctxt "#36046"
 msgid "Force AVR to wake up when Kodi is activated"
 msgstr "Tving AVR til at vågne op når Kodi er aktiveret"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "Ved start"
+
 msgctxt "#36101"
 msgid "Change the look and feel of the user interface."
 msgstr "Ændring af udseendet og fornemmelsen af ​​brugerfladen."
@@ -13821,6 +13825,10 @@ msgctxt "#36233"
 msgid "This category contains the default recording duration settings."
 msgstr "Kategori indeholdende indstillinger for standard optagelsesvarighed."
 
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "Luk kanal-OSD efter kanalskift"
+
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
 msgstr "Yderligere tid der skal optages før den planlagte starttid for at tage højde for programændringer. Ikke understøttet af alle add-ons og backends."
@@ -14071,11 +14079,11 @@ msgstr "Kategori indeholdende indstillinger for håndtering af billed-diasshow."
 
 msgctxt "#36312"
 msgid "Select the amount of time that each image is displayed in a slideshow."
-msgstr "Indstil den tid som hvert billede er vist i en billedfremvisning."
+msgstr "Indstil den tid som hvert billede er vist i et diasshow."
 
 msgctxt "#36313"
 msgid "Images in a slideshow will pan and zoom while displayed."
-msgstr "Billeder i en billedfremvisning vil panorere og zoome, når de bliver vist."
+msgstr "Billeder i et diasshow vil panorere og zoome, når de bliver vist."
 
 msgctxt "#36314"
 msgid "View slideshow images in a random order."
@@ -14517,6 +14525,10 @@ msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
 msgstr "Anvend videoafspiller til dekodning af videofiler med MMAL-accelleration."
 
+msgctxt "#36436"
+msgid "Select OS keyboard layout."
+msgstr "Vælg OS tastaturlayout."
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Indstil antallet af trin for lydstyrkekontrol"
@@ -14864,6 +14876,10 @@ msgstr "Af sikkerhedsmæssige grunde er installation af add-ons fra ukendte kild
 msgctxt "#36619"
 msgid "High quality downscaling"
 msgstr "Højkvalitets nedskalering"
+
+msgctxt "#36620"
+msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
+msgstr "Aktiver høj-kvalitets nedskalering af billeder (anvender mere hukommelse og har moderat indvirkning på ydeevnen)."
 
 msgctxt "#36621"
 msgid "Maximum protocol version"
@@ -15414,10 +15430,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Inkluder emner som ikke har info endnu (til at oprette NFO filer)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "Eksporter kun grafik, ikke NFO filer."
+msgid "Output information to NFO files"
+msgstr "Eksporter information til NFO-filer"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "Eksporter information til NFO-filer (eksporterer i øjeblikket udelukkende mapper for kunstnere)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "Overskriv eksisterende filer"
 
@@ -15444,6 +15464,26 @@ msgstr "Eksporter"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "Har du lokal kunstnerinformation (NFO) og kunstfiler, du vil hente? Indstil placeringen af disse kunstnermapper nu."
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "Udelukkende mapper for kunstner"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "Kunstnere eksporteret til mappen for kunstnerinformation og albums til musikmapper"
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "Albums eksporteret til musikmapper"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "Kunstnere eksporteret til mappen for kunstnerinformation"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "Undermapper for kunstner oprettet i mappen for kunstnerinformation"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15484,6 +15524,26 @@ msgstr "Vælg hvordan indstillingerne skal anvendes"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "Hvordan indstillinger for informationsleverandør anvendes"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "Importerer afspilningshistorie for sang"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Matcher data"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Opdaterer sange"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "Importerer historie for sange -  {0:d} opdateret ud af {0:d} importerede sange"
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "Kunne ikke læse xml-fil"
 
 msgctxt "#39000"
 msgid "HD and up"

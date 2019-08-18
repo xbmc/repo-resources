@@ -5357,10 +5357,6 @@ msgctxt "#13388"
 msgid "Preset"
 msgstr "Előbeállítások"
 
-msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "Nincs elérhető előbeállítás\nehhez a vizualizációhoz"
-
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
 msgstr "Nincs elérhető beállítás\nehhez a vizualizációhoz"
@@ -8228,6 +8224,10 @@ msgstr "Vízszintes csatornák, nincs csoportválasztó"
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Szeretné felvenni a kiválasztott programot vagy átállna az aktuális programra?"
+
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "A csatorna OSD bezárása csatornaváltáskor"
 
 msgctxt "#19304"
 msgid "View timer rule"
@@ -13449,6 +13449,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "Távirányítógomb lenyomás utáni felengedési idő (ms)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "Indításkor"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Ditherelés"
@@ -13992,6 +13996,10 @@ msgstr "Ez a kategória tartalmazza az alapértelmezett felvételi időtartam be
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Az azonnali felvétel ideje a felvétel gomb megnyomásakor. Ez az érték az \"Azonnali felvételi lehetőségek\" szekció alatti \"Rögzítés megadott ideig\" beállítás esetén érvényes."
+
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "A képernyőn megjelenő vezérlők bezárása csatornaváltás után."
 
 msgctxt "#36236"
 msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
@@ -15754,10 +15762,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "A nem átnézett elemek bele vétele (sablon NFO fájlok létrehozásához)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "Csak az illusztrációk kerüljenek a kimenetbe, az NFO fájlok nem"
+msgid "Output information to NFO files"
+msgstr "Információ az NFO fájlokhoz"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "Információ az NFO fájlokhoz (jelenleg csak az előadói mappákat exportálja)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "Létező fájlok felülírása"
 
@@ -15784,6 +15796,26 @@ msgstr "Exportálás"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "Vannak előadó-információs (NFO) és illusztrációs fájljai, amelyeket be akar olvasni? Adja meg ezen mappák nevét most"
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "Csak előadói mappák"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "Az előadók az Előadói mappába és az albumok a zenei mappákba exportálva"
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "Az albumok a zenei mappákba exportálva"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "Az albumok az Előadói mappába exportálva"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "Az Előadói mappában létrehozott előadó-almappák"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15824,6 +15856,26 @@ msgstr "Hogyan legyenek alkalmazva a beállítások"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "Hogyan legyenek alkalmazva az információkiszolgálók beállításai"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "A dal lejátszási előzményeinek importálása"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Egyező adatok"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Dalok frissítése"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "A dal történetének importálása - {0: d} frissült a(z) {0: d} importált dalokból"
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "Nem lehet olvasni az xml fájlt"
 
 msgctxt "#39000"
 msgid "HD and up"

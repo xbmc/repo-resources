@@ -5358,8 +5358,8 @@ msgid "Preset"
 msgstr "Шаблон"
 
 msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "Няма налични шаблони\nза визуализацията"
+msgid "There are no presets available for this visualisation"
+msgstr "Няма налични шаблони за тази визуализация"
 
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
@@ -8228,6 +8228,10 @@ msgstr "Хоризонтални канали, без избор на група
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Искате ли да запишете избраното предаване, или предпочитате да превключите към текущото предаване?"
+
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "Скривай екранното меню за канала при превключване на каналите"
 
 msgctxt "#19304"
 msgid "View timer rule"
@@ -13449,6 +13453,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "Време на отпускане на натиснат бутон на дистанционното (мсек)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "При пускане"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Шум"
@@ -13992,6 +14000,10 @@ msgstr "Категорията съдържа настройки за станд
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Продължителност на моменталните записи при натискане на бутона за запис. Тази стойност ще се вземе предвид, ако за „Действие за моментален запис“ е зададено „Запис с фиксирана продължителност“."
+
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "Скрий бутоните за управление на дисплея след превключване на каналите."
 
 msgctxt "#36236"
 msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
@@ -15754,10 +15766,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Включване на елементи, които не са били извлечени (за създаване на шаблонни файлове NFO)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "Извеждане само на изображенията, без файлове NFO"
+msgid "Output information to NFO files"
+msgstr "Извеждане на информация във файлове NFO"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "Извеждане на информация във файлове NFO (в момента се изнасят само папките на изпълнители)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "Презаписване на съществуващите файлове"
 
@@ -15784,6 +15800,26 @@ msgstr "Изнасяне"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "Имате ли местни файлове се информация за изпълнителите (NFO) и изображения, които искате да извлечете? Посочете местоположението на папките с тези файлове сега."
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "Само папките на изпълнители"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "Изпълнителите се изнасят в папка с информация за изпълнителите, а албумите – в папки с музика."
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "Албумите се изнасят в папки с музика"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "Изпълнителите се изнасят в папка с информация за изпълнителите"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "Създадени са под-папки за изпълнителите в папката с информация за изпълнителите"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15824,6 +15860,26 @@ msgstr "Изберете как да се приложат настройкит�
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "Как да се приложат настройките за източници на инф."
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "Внасяне на историята за възпроизвеждането на песни"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Свързване на данните"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Обновяване на песните"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "Внасяне на историята за песните – обновени са {0:d} от {0:d} внесени песни"
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "Файлът xml не може да бъде прочетен"
 
 msgctxt "#39000"
 msgid "HD and up"

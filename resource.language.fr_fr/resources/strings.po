@@ -5358,8 +5358,8 @@ msgid "Preset"
 msgstr "Préréglages"
 
 msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "Il n'y a pas de préréglages disponibles\npour cette visualisation."
+msgid "There are no presets available for this visualisation"
+msgstr "Il n'existe pas de présélections disponibles pour cette visualisation"
 
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
@@ -8228,6 +8228,10 @@ msgstr "Chaînes horizontales sans sélecteur de groupes"
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Faut-il enregistrer le programme sélectionné ou bien basculer vers le programme actuel ?"
+
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "Fermer l'incrustation à l'écran après un changement de chaîne"
 
 msgctxt "#19304"
 msgid "View timer rule"
@@ -13449,6 +13453,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "Temps de relâchement du bouton de la télécommande (ms)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "Au départ"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Tramage"
@@ -13992,6 +14000,10 @@ msgstr "Cette catégorie contient les paramètres prédéfinis de durée d'enreg
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Durée de l'enregistrement immédiat quand le bouton d'enregistrement est pressé. Cette valeur sera prise en compte si l'action « Enregistrement immédiat » est définie à « Enregistrer pendant une période de temps fixe »."
+
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "Ferme les incrustations à l'écran (OSD) après un changement de chaîne."
 
 msgctxt "#36236"
 msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
@@ -15754,10 +15766,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Inclure les éléments non récupérés (pour créer des fichiers NFO modèles)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "Sortir seulement les illustrations sans les fichiers NFO"
+msgid "Output information to NFO files"
+msgstr "Infos de sortie vers des fichiers NFO"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "Infos de sortie vers des fichiers NFO (seulement dossiers en cours des artistes exportés)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "Écraser les fichiers existants"
 
@@ -15784,6 +15800,26 @@ msgstr "Exporter"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "Y a-t-il des informations d'artiste locales (NFO) et des fichiers d'illustration à récupérer ? Définir l'emplacement de ces dossiers d'artiste maintenant"
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "Seulement les dossiers d'artistes"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "Artistes exportés vers le Dossier d'Informations des Artistes et des albums vers les dossiers de musiques"
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "Albums exportés vers les dossiers de musiques"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "Artistes exportés vers le Dossier d'Informations des Artistes"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "Sous-dossiers d'artiste créé dans le Dossier d'Informations des Artistes"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15824,6 +15860,26 @@ msgstr "Choisir comment appliquer les paramètres"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "Comment appliquer les paramètres de fournisseur d'informations"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "Importation de l'historique des chansons jouées"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Données correspondantes"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Mise à jour des chansons"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "Importation de l'historique - {0:d} màj sur {0:d} chansons importées"
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "Impossible de lire un fichier XML"
 
 msgctxt "#39000"
 msgid "HD and up"

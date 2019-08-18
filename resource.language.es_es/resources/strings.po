@@ -5267,7 +5267,7 @@ msgstr "Escanear elemento para la colección"
 
 msgctxt "#13353"
 msgid "Stop scanning"
-msgstr "Parando el escaneo"
+msgstr "Detener escaneo"
 
 msgctxt "#13354"
 msgid "Render method"
@@ -5358,8 +5358,8 @@ msgid "Preset"
 msgstr "Ajustes predeterminados"
 
 msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "No hay ajustes por defecto disponibles⏎ para esta visualización"
+msgid "There are no presets available for this visualisation"
+msgstr "No hay preajustes disponibles para esta visualización"
 
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
@@ -8229,6 +8229,10 @@ msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "¿Desea grabar el programa seleccionado o cambiar al programa actual?"
 
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "Cerrar OSD del canal al cambiar de canal"
+
 msgctxt "#19304"
 msgid "View timer rule"
 msgstr "Ver regla de programación"
@@ -10171,7 +10175,7 @@ msgstr "Usar etiquetas de vídeo"
 
 msgctxt "#21344"
 msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "Si el fichero mp4 o mkv tiene etiquetas, usarlas para la información de la colección"
+msgstr "Si el archivo mp4 o mkv tiene etiquetas, usarlas para la información de la colección"
 
 msgctxt "#21345"
 msgid "Uncategorized"
@@ -13115,7 +13119,7 @@ msgstr "El emulador \"{0:s}\" ha sufrido un error interno."
 
 msgctxt "#35214"
 msgid "This game can only be played directly from a hard drive or partition. Compressed files must be extracted."
-msgstr "Este juego sólo se puede jugar directamente desde un disco duro o una partición. Se deben extraer los ficheros comprimidos."
+msgstr "Este juego sólo se puede jugar directamente desde un disco duro o una partición. Se deben extraer los archivos comprimidos."
 
 msgctxt "#35215"
 msgid "This game depends on a disabled add-on. Would you like to enable it?"
@@ -13449,6 +13453,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "Tiempo de liberación de pulsación de botón en el mando (ms)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "Al arrancar"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Tramado"
@@ -13655,7 +13663,7 @@ msgstr "Exporta la base de datos de la colección de vídeo a archivos XML. Esto
 
 msgctxt "#36150"
 msgid "Import an XML file into the video library database."
-msgstr "Importa fichero XML a la base de datos de la colección de vídeo."
+msgstr "Importa archivo XML a la base de datos de la colección de vídeo."
 
 msgctxt "#36151"
 msgid "This category contains the settings for how video playback is handled."
@@ -13993,6 +14001,10 @@ msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Duración de la grabación inmediata cuando presiona el botón Grabar. Este valor se utilizará si la \"acción de grabación inmediata\" está configurada como \"Grabar un periodo fijo de tiempo\""
 
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "Cierra los controles de visualización en pantalla después de cambiar de canal."
+
 msgctxt "#36236"
 msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
 msgstr "Si establece un valor mayor que cero, el tiempo de último visto de cada canal se guardará con el valor añadido despues de empezar a ver el canal. Si no, el tiempo de último visto que se guardará será el tiempo exacto en que empezó a ver el canal."
@@ -14223,7 +14235,7 @@ msgstr "Esta categoría contiene los ajustes de arranque."
 
 msgctxt "#36293"
 msgid "Select the folder where artist information (nfo files and images) should be saved in."
-msgstr "Indica la carpeta donde se grabará la información del intérprete (imágenes y ficheros NFO)"
+msgstr "Indica la carpeta donde se grabará la información del intérprete (imágenes y archivos NFO)"
 
 msgctxt "#36294"
 msgid "When sorting music items by artist use sortname e.g. Parton, Dolly rather than name."
@@ -15703,7 +15715,7 @@ msgstr "Esta categoría contiene otros ajustes de la interfaz de usuario."
 
 msgctxt "#38190"
 msgid "Extract thumbnails from video files"
-msgstr "Extraer miniaturas de los ficheros del vídeo"
+msgstr "Extraer miniaturas de los archivos del vídeo"
 
 msgctxt "#38207"
 msgid "Show EXIF picture information"
@@ -15754,10 +15766,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Incluir elementos que no tienen información (para crear las plantillas de archivos NFO)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "Sólo arte, sin archivos NFO"
+msgid "Output information to NFO files"
+msgstr "Sacar información a archivos NFO"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "Sacar información a archivos NFO (ahora solo exporta en las carpetas de intérprete)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "Sobrescribir archivos existentes"
 
@@ -15784,6 +15800,26 @@ msgstr "Exportar"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "¿Tiene información del intérprete en local (NFO) y artes que quiera añadir? Defina la ubicación de esas carpetas ahora."
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "Solo carpetas de intérprete"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "Intérpretes exportados a la Carpeta de Información de Intérprete y los álbumes a las carpetas de música"
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "Álbumes exportados a las carpetas de música"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "Intérpretes exportados a la Carpeta de Información de Intérprete"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "Subcarpetas de intérpretes creadas en la Carpeta de Información de Intérprete"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15824,6 +15860,26 @@ msgstr "Elegir cómo aplicar los ajustes"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "Cómo aplicar los ajustes de proveedor de información"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "Importando historial de reproducción de la canción"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Correlando datos"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Actualizando canciones"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "Importando historial de canciones - Actualizados {0:d} de {0:d} canciones importadas"
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "Imposible leer archivo xml"
 
 msgctxt "#39000"
 msgid "HD and up"

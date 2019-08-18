@@ -5357,10 +5357,6 @@ msgctxt "#13388"
 msgid "Preset"
 msgstr "사전설정"
 
-msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "이 시각화에 사용가능한\n사전설정이 없습니다"
-
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
 msgstr "이 시각화에 사용가능한\n설정이 없습니다"
@@ -6267,11 +6263,11 @@ msgstr "라이브러리 설정"
 
 msgctxt "#14204"
 msgid "PVR & Live TV"
-msgstr "PVR & Live TV"
+msgstr "PVR과 라이브 TV"
 
 msgctxt "#14205"
 msgid "PVR & Live TV settings"
-msgstr "PVR & Live TV 설정"
+msgstr "PVR과 라이브 TV 설정"
 
 msgctxt "#14206"
 msgid "Interface"
@@ -8228,6 +8224,10 @@ msgstr "가로 채널, 그룹 선택 없음"
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "선택한 프로그램을 녹화할까요, 현재 프로그램으로 바꿀까요?"
+
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "채널 변경 후 채널 OSD 닫기"
 
 msgctxt "#19304"
 msgid "View timer rule"
@@ -13449,6 +13449,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "리모트 버튼의 떼기 지연 (ms)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "시작할 때"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "디더링"
@@ -13859,11 +13863,11 @@ msgstr "기본 뮤직 비디오 정보 소스를 선택합니다. 애드온 관�
 
 msgctxt "#36201"
 msgid "Settings for PVR & Live TV."
-msgstr "PVR & TV 설정"
+msgstr "PVR과 TV 설정"
 
 msgctxt "#36202"
 msgid "This category contains the general settings for the PVR & Live TV."
-msgstr "PVR & TV 일반 설정 그룹입니다."
+msgstr "PVR과 TV 일반 설정 그룹입니다."
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
@@ -13992,6 +13996,10 @@ msgstr "기본 녹화 시간 관련 설정 그룹입니다."
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "녹화 버튼을 누르는 경우 즉시 녹화 시간. 이 값은 \"즉시 녹화 동작\"이 \"정해진 시간 녹화\"로 설정되어 있을때 적용됩니다."
+
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "채널 변경 후 화면에 표시되는 채널 컨트롤을 닫습니다."
 
 msgctxt "#36236"
 msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
@@ -15754,10 +15762,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "가져올 정보가 없는 항목 포함 (NFO 템플릿 파일을 만들기 위해서)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "NFO 파일이 아닌 아트워크만 출력"
+msgid "Output information to NFO files"
+msgstr "NFO 파일의 출력 정보"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "NFO 파일의 출력 정보 (현재 아티스트 폴더만 내보냄)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "기존 파일 덮어쓰기"
 
@@ -15784,6 +15796,26 @@ msgstr "내보내기"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "가져올 로컬 아티스트 정보와 (NFO) 아트 파일이 있나요? 이 아티스트 폴더 위치를 설정합니다 "
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "아티스트 폴더만"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "아티스트를 아티스트 정보 폴더로, 앨범을 음악 폴더로 내보냄"
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "앨범을 음악 폴더로 내보냄"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "아티스트를 아티스트 정보 폴더로 내보냄"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "아티스트 정보 폴더에 생성된 아티스트 서브폴더"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15824,6 +15856,26 @@ msgstr "설정을 적용하는 방법 선택"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "정보 제공자 설정을 적용하는 방법"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "노래 재생 이력 불러오는 중"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "데이터 맞추는 중"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "노래 업데이트 중"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "노래 이력 불러오는 중 - {0:d} 업데이트 됨 {0:d} 불러온 노래 중에"
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "xml 파일을 읽을 수 없음"
 
 msgctxt "#39000"
 msgid "HD and up"

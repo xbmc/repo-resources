@@ -5357,10 +5357,6 @@ msgctxt "#13388"
 msgid "Preset"
 msgstr "預設"
 
-msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "該視覺效果\n沒有預置檔"
-
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
 msgstr "該視覺效果\n沒有可用的設定"
@@ -8228,6 +8224,10 @@ msgstr "水平式頻道列表，無群組"
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "你要錄製選定的節目或者切換到目前播放的節目?"
+
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "切換頻道後關閉頻道播放工具列"
 
 msgctxt "#19304"
 msgid "View timer rule"
@@ -13449,6 +13449,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "遙控器按鍵按下後送出訊號的時間(ms)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "在開始時"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "抖色"
@@ -13992,6 +13996,10 @@ msgstr "此分類包和預設錄影長度的設定。"
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "按下錄影鍵後的即時錄影長度。這個值在\"即時錄影動作\"選項被設定為\"錄製固定一段時間的影像\"時將會被採用。"
+
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "切換頻道後關閉播放控制列。"
 
 msgctxt "#36236"
 msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
@@ -15754,10 +15762,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "包含還沒有收集到的項目(用以產生NFO檔模板)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "僅輸出美術圖，而不包含nfo檔"
+msgid "Output information to NFO files"
+msgstr "將資訊輸出至NFO檔案"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "將資訊輸出至NFO檔案 (目前僅匯出藝人資料夾)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "覆蓋既存檔案"
 
@@ -15784,6 +15796,26 @@ msgstr "匯出"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "您在本機有存放演出者資訊(NFO)及圖片檔嗎?請立即設定這些資料夾"
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "僅藝人資料夾"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "匯出至藝人專屬資料夾的藝人資訊，以及匯出至音樂資料夾的專輯資訊。"
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "匯出至音樂資料夾的專輯資訊"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "匯出至藝人專屬資料夾的藝人資訊"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "在藝人資訊資料夾中建立子資料夾"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15824,6 +15856,26 @@ msgstr "選擇套用設定的方式"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "如何套用資訊提供者的設定"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "歌曲播放紀錄匯入中"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "資料比對中"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "更新曲目中"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "匯入歌曲紀錄中 - {0:d} 首已完成，總數 {0:d} "
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "無法讀取xml檔"
 
 msgctxt "#39000"
 msgid "HD and up"

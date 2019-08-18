@@ -5357,10 +5357,6 @@ msgctxt "#13388"
 msgid "Preset"
 msgstr "Förinställning"
 
-msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "Det finns inga förinställningar\nför den här visualiseringen"
-
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
 msgstr "Det finns inga inställningar tillgängliga\nför den här visualiseringen"
@@ -8224,6 +8220,10 @@ msgstr "Horisontella kanaler, ingen gruppväljare"
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Vill du spela in det markerade programmet eller växla till det aktuella programmet?"
+
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "Stäng kanal-OSD efter kanalbyte"
 
 msgctxt "#19304"
 msgid "View timer rule"
@@ -13445,6 +13445,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "Fjärrkontrollknappens frisättningstid (ms)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "Vid start"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Gitter"
@@ -13988,6 +13992,14 @@ msgstr "Denna kategori innehåller standardinställningar för inspelningstid."
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Inspelningstiden för direktinspelningar när du trycker på inspelningsknappen. Detta värde kommer att beaktas om \"Direktinspelningsåtgärd\" är inställd på \"Spela in under begränsad tid\""
+
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "Göm OSD-kontrollerna efter kanalbyte."
+
+msgctxt "#36236"
+msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
+msgstr "Om du ställer in ett värde som är större än noll kommer den senaste bevakade tiden för kanaler att lagras den angivna tiden efter starten av kanaluppspelningen. Annars lagras den senast bevakade tiden omedelbart i början av kanaluppspelningen."
 
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
@@ -15745,11 +15757,7 @@ msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Inkludera objekt som inte har skrapats (för att skapa mall-NFO-filer)"
 
-msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "Mata endast ut utsmyckning, inte NFO-filer"
-
-msgctxt "#38310"
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "Skriv över existerande filer"
 

@@ -47,7 +47,7 @@ msgstr "Dosya yöneticisi"
 
 msgctxt "#8"
 msgid "Weather"
-msgstr "Hava Durumu"
+msgstr "Hava durumu"
 
 msgctxt "#9"
 msgid "Kodi media center"
@@ -563,7 +563,7 @@ msgstr "Disk var"
 
 msgctxt "#166"
 msgid "Skin"
-msgstr "Dış Görünüm"
+msgstr "Dış görünüm"
 
 msgctxt "#167"
 msgid "Cancel file operations"
@@ -3175,7 +3175,7 @@ msgstr "Alt menü tuşlarını etkinleştir"
 
 msgctxt "#1036"
 msgid "Favourites"
-msgstr "Sık Kullanılanlar"
+msgstr "Sık kullanılanlar"
 
 msgctxt "#1037"
 msgid "Video add-ons"
@@ -4043,7 +4043,7 @@ msgstr "İçerik ayarları"
 
 msgctxt "#10134"
 msgid "Favourites"
-msgstr "Sık Kullanılanlar"
+msgstr "Sık kullanılanlar"
 
 msgctxt "#10135"
 msgid "Song info"
@@ -5027,7 +5027,7 @@ msgstr "Varsayılan"
 
 msgctxt "#13279"
 msgid "Network"
-msgstr "Ağ Bağlantıları"
+msgstr "Ağ bağlantıları"
 
 msgctxt "#13280"
 msgid "Video"
@@ -5356,10 +5356,6 @@ msgstr "Parça adlandırma şablonu - sağ"
 msgctxt "#13388"
 msgid "Preset"
 msgstr "Önayar"
-
-msgctxt "#13389"
-msgid "There are no presets available\nfor this visualisation"
-msgstr "Bu görsel öğenin\nkullanılabilir önayarları yok"
 
 msgctxt "#13390"
 msgid "There are no settings available\nfor this visualisation"
@@ -6151,7 +6147,7 @@ msgstr "CD kopyalamayı durdur"
 
 msgctxt "#14101"
 msgid "Processing"
-msgstr "İşleniyor"
+msgstr "İşleme"
 
 msgctxt "#14102"
 msgid "Blu-ray playback mode"
@@ -6227,7 +6223,7 @@ msgstr "Düzey: {0:s}"
 
 msgctxt "#14120"
 msgid "Show higher levels"
-msgstr "Daha yüksek düzeyleri göster"
+msgstr "Yüksek düzeyleri göster"
 
 msgctxt "#14121"
 msgid "Blu-ray region Code"
@@ -8229,6 +8225,10 @@ msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
 msgstr "Seçili programı kaydetmek mi yoksa mevcut programa mı geçmek istiyorsunuz?"
 
+msgctxt "#19303"
+msgid "Close channel OSD after switching channels"
+msgstr "Kanal değiştirdikten sonra OSD'yi kapat"
+
 msgctxt "#19304"
 msgid "View timer rule"
 msgstr "Zamanlayıcı kuralını göster"
@@ -9291,7 +9291,7 @@ msgstr "Dış görünümü yeniden yükle"
 
 msgctxt "#20185"
 msgid "Use poster view styles for TV shows"
-msgstr "TV Programları için poster görünümü stillerini kullan"
+msgstr "TV programları için poster görünümü stillerini kullan"
 
 msgctxt "#20186"
 msgid "Please wait"
@@ -13449,6 +13449,10 @@ msgctxt "#36049"
 msgid "Remote button press release time (ms)"
 msgstr "Uzaktan kumanda tuşuna basma süresi (ms)"
 
+msgctxt "#36050"
+msgid "On start"
+msgstr "Başlangıçta"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Dithering"
@@ -13992,6 +13996,10 @@ msgstr "Bu kategori varsayılan kayıt süresi ayarlarını içerir."
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Kayıt düğmesine basıldığında hızlı kayıtların süresi. Bu değer \"Hızlı kayıt eylemi\" seçeneğinde \"Sabit bir süre için kaydet\" değeri seçildiyse dikkate alınacaktır."
+
+msgctxt "#36235"
+msgid "Close the on screen display controls after switching channels."
+msgstr "Kanal değiştirdikten sonra ekran menüsü kontrollerini kapat."
 
 msgctxt "#36236"
 msgid "If set to a value greater than zero last watched time of channels will be stored the given amount of time after start of channel playback. Otherwise the last watched time will be stored immediately at start of channel playback."
@@ -15754,10 +15762,14 @@ msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Alınmamış öğeleri dahil et (şablon NFO dosyaları oluşturmak için)"
 
 msgctxt "#38309"
-msgid "Output only artwork, not NFO files"
-msgstr "Sadece resimleri dışarı aktar, NFO dosyalarını dahil etme"
+msgid "Output information to NFO files"
+msgstr "Bilgileri NFO dosyalarına dışarı aktar"
 
 msgctxt "#38310"
+msgid "Output information to NFO files (currently exporting artist folders only)"
+msgstr "Bilgileri NFO dosyalarına dışarı aktar (şu anda yalnızca sanatçı klasörlerini dışarı aktarıyor)"
+
+msgctxt "#38311"
 msgid "Overwrite existing files"
 msgstr "Varolan dosyaların üzerine yaz"
 
@@ -15784,6 +15796,26 @@ msgstr "Dışarı aktar"
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
 msgstr "Yerel sanatçı bilgisine (NFO) ve almak istediğiniz resim dosyalarına sahip misiniz? Bu sanatçı klasörlerinin konumunu şimdi ayarlayın"
+
+msgctxt "#38321"
+msgid "Artist folders only"
+msgstr "Sadece sanatçı klasörleri"
+
+msgctxt "#38322"
+msgid "Artists exported to Artist Information Folder and albums to music folders"
+msgstr "Sanatçılar, Sanatçı Bilgisi Klasörüne, albümler, müzik klasörlerine dışarı aktarıldı"
+
+msgctxt "#38323"
+msgid "Albums exported to music folders"
+msgstr "Albümler, müzik klasörlerine dışarı aktarıldı"
+
+msgctxt "#38324"
+msgid "Artists exported to Artist Information Folder"
+msgstr "Sanatçılar, Sanatçı Bilgisi Klasörüne dışarı aktarıldı"
+
+msgctxt "#38325"
+msgid "Artist subfolders created in Artist Information Folder"
+msgstr "Sanatçı Bilgisi Klasörü içinde sanatçı alt klasörleri oluşturuldu"
 
 msgctxt "#38330"
 msgid "Set Music Information Providers"
@@ -15824,6 +15856,26 @@ msgstr "Ayarların uygulama şeklini seçin"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "Bilgi sağlayıcı ayarlarının uygulama şekli"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "Şarkı çalma geçmişi içeri aktarılıyor"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Veri eşleşiyor"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Şarkılar güncelleniyor"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "Şarkı geçmişi içeri aktarma - içeri aktarılan {0:d} / {0:d} şarkı güncellendi"
+
+msgctxt "#38354"
+msgid "Unable to read xml file"
+msgstr "xml dosyası okunamıyor"
 
 msgctxt "#39000"
 msgid "HD and up"
@@ -15987,7 +16039,7 @@ msgstr "Programı Seçiniz"
 
 msgctxt "#39110"
 msgid "Select Resolution"
-msgstr "Çözünürlük seç"
+msgstr "Çözünürlük Seç"
 
 msgctxt "#39111"
 msgid "original"
