@@ -2977,10 +2977,6 @@ msgctxt "#841"
 msgid "Only this"
 msgstr "僅本次"
 
-msgctxt "#842"
-msgid "New!"
-msgstr "新上架!"
-
 msgctxt "#843"
 msgid "Activate"
 msgstr "啟動"
@@ -5685,6 +5681,22 @@ msgctxt "#13521"
 msgid "Choose art type"
 msgstr "選擇美術圖類型"
 
+msgctxt "#13522"
+msgid "Split albums into individual discs"
+msgstr "將多CD專輯拆分成獨立的CD"
+
+msgctxt "#13523"
+msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
+msgstr "啟用時將多CD專輯拆分為個別CD，而不直接列出專輯中所有曲目。僅顯示所選擇CD包含之曲目。"
+
+msgctxt "#13524"
+msgid "Use original release date of albums for year"
+msgstr "使用原始的專輯發行年份"
+
+msgctxt "#13525"
+msgid "When enabled, use the original year of release rather than the album release year (if available)."
+msgstr "啟用時顯示專輯最初的發行年份而不是再版年份(若有資料的話)。"
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "改變螢幕刷新率之後的延遲時間"
@@ -7237,6 +7249,14 @@ msgctxt "#19062"
 msgid "Sort by: Channel"
 msgstr "排序：頻道"
 
+msgctxt "#19063"
+msgid "First programme"
+msgstr "第一集"
+
+msgctxt "#19064"
+msgid "Last programme"
+msgstr "最後一集"
+
 msgctxt "#19065"
 msgid "Timer settings"
 msgstr "定時器設定"
@@ -7256,6 +7276,10 @@ msgstr "錄影設定"
 msgctxt "#19069"
 msgid "Guide"
 msgstr "節目表"
+
+msgctxt "#19070"
+msgid "Current programme"
+msgstr "最新一集"
 
 msgctxt "#19071"
 msgid "Update interval"
@@ -7345,6 +7369,14 @@ msgctxt "#19093"
 msgid "Instant recording: {0:s}"
 msgstr "即時錄影: {0:s}"
 
+msgctxt "#19094"
+msgid "Timer creation failed. Unsupported timer type."
+msgstr "新增定時器失敗。不支援的定時器類型。"
+
+msgctxt "#19095"
+msgid "Timer rule creation failed. Unsupported timer type."
+msgstr "新增定時器規則失敗。不支援的定時器類型。"
+
 msgctxt "#19096"
 msgid "\"Smart select\""
 msgstr "\"智選\""
@@ -7384,6 +7416,10 @@ msgstr "輸入存放這個錄影的資料夾名稱"
 msgctxt "#19105"
 msgid "Please select a channel"
 msgstr "請選擇一個頻道"
+
+msgctxt "#19106"
+msgid "Next recording on"
+msgstr "下次錄影開始於"
 
 msgctxt "#19107"
 msgid "at"
@@ -7701,6 +7737,10 @@ msgctxt "#19185"
 msgid "Clear data"
 msgstr "清除資料"
 
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "所有的電視節目相關資料(頻道、群組、節目表、定時器、終端服務)都會被清除。你確定嗎？"
+
 msgctxt "#19187"
 msgid "Clearing all related data."
 msgstr "清除所有相關的數據。"
@@ -7812,6 +7852,10 @@ msgstr "選擇後端"
 msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "輸入新頻道的有效 URL"
+
+msgctxt "#19215"
+msgid "Reminders"
+msgstr "提醒通知"
 
 msgctxt "#19216"
 msgid "All radio channels"
@@ -8097,6 +8141,10 @@ msgctxt "#19287"
 msgid "All channels"
 msgstr "所有頻道"
 
+msgctxt "#19288"
+msgid "Date selector"
+msgstr "日期選擇"
+
 msgctxt "#19289"
 msgid "Hide group"
 msgstr "隱藏群組"
@@ -8160,6 +8208,94 @@ msgstr "切換頻道後關閉頻道播放工具列"
 msgctxt "#19304"
 msgid "View timer rule"
 msgstr "檢視定時器規則"
+
+msgctxt "#19305"
+msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "已刪除錯過的錄製提醒：'{1:s}' 頻道的 '{0:s}' 節目於 '{2:s}'"
+
+msgctxt "#19306"
+msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "已刪除錯過的錄製提醒於 '{0:s}' 頻道於 '{1:s}'"
+
+msgctxt "#19307"
+msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
+msgstr "錄製提醒， [B]{1:s}[/B] 頻道的 [B]{0:s}[/B] 節目於 [B]{2:s}[/B]。"
+
+msgctxt "#19308"
+msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
+msgstr "錄製提醒， [B]{0:s}[/B] 頻道於 [B]{1:s}[/B]。"
+
+msgctxt "#19309"
+msgid "(Auto-close of this reminder will schedule a recording...)"
+msgstr "(本訊息自動關閉後將直接設定錄製排程...)"
+
+msgctxt "#19310"
+msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "已將自動關閉的錄製提醒加入排程， '{1:s}' 頻道的 '{0:s}' 節目於 '{2:s}'"
+
+msgctxt "#19311"
+msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "已將自動關閉的錄製提醒加入排程， '{0:s}' 頻道於 '{1:s}'"
+
+msgctxt "#19312"
+msgid "PVR reminder"
+msgstr "PVR提醒"
+
+msgctxt "#19313"
+msgid "Automatically close reminder popup after"
+msgstr "自動關閉跳出式提醒視窗的延遲時間"
+
+msgctxt "#19314"
+msgid "Schedule recording when auto-closing the reminder popup"
+msgstr "跳出式提醒視窗自動關閉後即加入錄製排程"
+
+msgctxt "#19315"
+msgid "Backend order"
+msgstr "後端順序"
+
+msgctxt "#19316"
+msgid "Start group channel numbers from 1"
+msgstr "頻道群組從 1 開始編號"
+
+msgctxt "#19317"
+msgid "12 hours back"
+msgstr "12小時前"
+
+msgctxt "#19318"
+msgid "12 hours forward"
+msgstr "12小時後"
+
+msgctxt "#19319"
+msgid "Previous group"
+msgstr "前一個群組"
+
+msgctxt "#19320"
+msgid "Next group"
+msgstr "下一個群組"
+
+msgctxt "#19321"
+msgid "Group selector"
+msgstr "群組選擇"
+
+msgctxt "#19322"
+msgid "First channel"
+msgstr "第一個頻道"
+
+msgctxt "#19323"
+msgid "Playing channel"
+msgstr "播放中的頻道"
+
+msgctxt "#19324"
+msgid "Last channel"
+msgstr "最後一個頻道"
+
+msgctxt "#19325"
+msgid "Programme"
+msgstr "節目表"
+
+msgctxt "#19326"
+msgid "Navigate..."
+msgstr "導覽"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -8528,6 +8664,10 @@ msgstr "頻道指南"
 msgctxt "#19687"
 msgid "Play recording"
 msgstr "播放錄影"
+
+msgctxt "#19690"
+msgid "PVR has scheduled a reminder for '{0:s}' on channel '{1:s}' in {2:s}."
+msgstr "PVR已將於 {2:s} 之 '{1:s}' 頻道的 '{0:s}' 節目加入排程。"
 
 msgctxt "#19691"
 msgid "PVR is currently recording '{0:s}' on channel '{1:s}'."
@@ -9300,6 +9440,10 @@ msgstr "優先使用線上專輯封面圖"
 msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
 msgstr "若本機沒有該專輯封面，則會使用網路上的美術圖。若兩者皆無法取得，則會使用嵌在音樂檔案中的封面圖。"
+
+msgctxt "#20226"
+msgid "Movie set information folder"
+msgstr "電影集資訊資料夾"
 
 msgctxt "#20228"
 msgid "Use artist sortname when sorting by artist"
@@ -11323,7 +11467,7 @@ msgstr "正在安裝{0:s}..."
 
 msgctxt "#24058"
 msgid "Checking dependencies..."
-msgstr "正在檢查依賴的附加元件..."
+msgstr "正在檢查必要的附加元件..."
 
 msgctxt "#24059"
 msgid "Would you like to enable this add-on?"
@@ -11407,7 +11551,7 @@ msgstr "正在下載附加元件..."
 
 msgctxt "#24079"
 msgid "Installing add-on dependencies..."
-msgstr "正在安裝依賴的附加元件...."
+msgstr "正在安裝必要的附加元件...."
 
 msgctxt "#24080"
 msgid "Try to reconnect?"
@@ -11431,7 +11575,7 @@ msgstr "附加元件已安裝"
 
 msgctxt "#24085"
 msgid "Failed to install a dependency"
-msgstr "一個依賴的附加元件安裝失敗"
+msgstr "一個必要的附加元件安裝失敗"
 
 msgctxt "#24086"
 msgid "Installing add-on..."
@@ -11625,6 +11769,10 @@ msgctxt "#24134"
 msgid "Download subtitle..."
 msgstr "下載字幕..."
 
+msgctxt "#24135"
+msgid "To use this feature you must enable an add-on:"
+msgstr "需啟用一個附加元件來使用這個功能："
+
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "您想要啟用這個附加元件嗎？"
@@ -11685,6 +11833,50 @@ msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "該附加元件不相容於此版本的Kodi。"
 
+msgctxt "#24153"
+msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
+msgstr "使Siri遙控功能對應常規的Apple tvOS動作"
+
+msgctxt "#24154"
+msgid "Idle remote handling after N seconds"
+msgstr "N 秒後將遙控器待機"
+
+msgctxt "#24155"
+msgid "After remote idles, the first tap/swipe received will wake it"
+msgstr "遙控器進入待機狀態後，接收到點或滑的動作將會喚醒它"
+
+msgctxt "#24156"
+msgid "30 Seconds"
+msgstr "30秒"
+
+msgctxt "#24157"
+msgid "60 Seconds"
+msgstr "60秒"
+
+msgctxt "#24158"
+msgid "90 Seconds"
+msgstr "90秒"
+
+msgctxt "#24159"
+msgid "120 Seconds"
+msgstr "120秒"
+
+msgctxt "#24160"
+msgid "Enable Siri remote timeout"
+msgstr "啟用Siri遙控逾時"
+
+msgctxt "#24161"
+msgid "Enable remote input timeout for tap/swipe"
+msgstr "啟用 點/滑 手勢遙控輸入逾時"
+
+msgctxt "#24162"
+msgid "Use Kodi virtual keyboard"
+msgstr "使用Kodi虛擬鍵盤"
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr "對應Apple tvOS標準(Siri 遙控)"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "無法連線到來源庫。"
@@ -11707,7 +11899,7 @@ msgstr "無主"
 
 msgctxt "#24996"
 msgid "Manage dependencies"
-msgstr "管理依賴的附加元件"
+msgstr "管理必要的附加元件"
 
 msgctxt "#24997"
 msgid "Look and feel"
@@ -13809,6 +14001,14 @@ msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "從 PVR 後端匯入頻道群組 (如果支援的話)。 如果使用者建立的頻道群組在後端找不到的話將會被刪除。"
 
+msgctxt "#36205"
+msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
+msgstr "依據後端提供的頻道號碼做排序，但使用本機的頻道編號。"
+
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend. Only works with one enabled PVR add-on!"
+msgstr "使用後端提供的頻道編號順序，僅能在有已啟用的PVR附加元件時有作用。"
+
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
 msgstr "開啟頻道管理員，它可以修改頻道順序、頻道名稱、圖示等等。"
@@ -13885,10 +14085,6 @@ msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "此分類包含 PVR 播放和頻道切換的設定。"
 
-msgctxt "#36227"
-msgid "Switch to full screen display when starting playback of channels and recordings."
-msgstr "播放頻道或錄影檔時切換至全螢幕顯示。"
-
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."
 msgstr "設定字幕的背景顏色"
@@ -13908,6 +14104,10 @@ msgstr "當使用頻道上下鍵來回切換時，必須按下OK鍵以確認頻�
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "當升或降頻道被按下時，延遲實際頻道的切換，讓使用者可以快速翻轉頻道而不用每次都等待頻道切換。"
+
+msgctxt "#36233"
+msgid "This category contains settings for recordings."
+msgstr "本分類包含節目錄製相關的設定"
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
@@ -14153,6 +14353,34 @@ msgctxt "#36294"
 msgid "When sorting music items by artist use sortname e.g. Parton, Dolly rather than name."
 msgstr "以藝人名為音樂檔案排序時，使用姓氏，而不是名，如：周, 杰倫。"
 
+msgctxt "#36295"
+msgid "Set the the subtitle opacity."
+msgstr "設定字幕透明度"
+
+msgctxt "#36296"
+msgid "This category contains settings for reminders."
+msgstr "本分類包含提醒功能的設定"
+
+msgctxt "#36297"
+msgid "Choose a time in seconds after which PVR reminder popups will be automatically closed."
+msgstr "選擇跳出式PVR提醒自動關閉前的秒數"
+
+msgctxt "#36298"
+msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
+msgstr "啟用後，若PVR附加元件及後端有支援，會在彈出式提醒自動關閉後將該錄製工作加入排程。"
+
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.\nIf disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "播放HDR影片時將顯示器切換至HDR模式，關閉時則由Kodi內部的HDR路徑套用HDR資訊。"
+
+msgctxt "#36300"
+msgid "Select the folder where movie set information (images) are saved locally."
+msgstr "選擇用來儲存電影集資訊(圖片)的本地資料夾。"
+
+msgctxt "#36301"
+msgid "No 'Movie set information folder' is configured to store movie set images so they will not be exported. Do you want to proceed?"
+msgstr "尚未設定要用來儲存電影集資訊的資料夾，所以相關圖片無法匯出。你要執行嗎？"
+
 msgctxt "#36302"
 msgid "No info available yet."
 msgstr "無可用資訊。"
@@ -14168,6 +14396,10 @@ msgstr "本區包含圖片相關的設定及檔案處理方式。"
 msgctxt "#36305"
 msgid "This category contains the settings for how picture file lists are handled."
 msgstr "此分類包含如何處理圖片檔案列表的設定。"
+
+msgctxt "#36306"
+msgid "If not using backend channel numbers then start all groups channel numbers from 1."
+msgstr "若不使用後端提供的頻道號碼，則從1開始為所有群組頻道做編號。"
 
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
@@ -14272,6 +14504,10 @@ msgstr "從附加元件管理員選擇一個已安裝的網頁介面。"
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "此分類包含如何處理遠端遙控服務的設定。"
+
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the web interface or the JSON-RPC interface protocol."
+msgstr "允許安裝在本機的程式經由網頁介面或JSON-PRC通訊協定控制本軟體。"
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -15569,6 +15805,34 @@ msgctxt "#38073"
 msgid "Do you want to refresh information for this item now?"
 msgstr "您現在要為此項目進行資訊更新嗎?"
 
+msgctxt "#38074"
+msgid "Boxsets"
+msgstr "盒裝"
+
+msgctxt "#38075"
+msgid "* All discs"
+msgstr "* 所有光碟片"
+
+msgctxt "#38076"
+msgid "Disc title"
+msgstr "光碟標題"
+
+msgctxt "#38077"
+msgid "Total discs"
+msgstr "總光碟數"
+
+msgctxt "#38078"
+msgid "Original year"
+msgstr "初版年份"
+
+msgctxt "#38079"
+msgid "Original date"
+msgstr "初版日期"
+
+msgctxt "#38080"
+msgid "BPM"
+msgstr "BPM"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "本區包含媒體播放相關設定。"
@@ -15616,6 +15880,10 @@ msgstr "此分類包含資料庫的相關設定"
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
 msgstr "此分類包含使用者介面的相關設定"
+
+msgctxt "#38112"
+msgid "Automatically go to the visualisation window when audio playback starts"
+msgstr "開始播放時自動切換至音訊視覺化視窗"
 
 msgctxt "#38190"
 msgid "Extract thumbnails from video files"
@@ -15867,7 +16135,7 @@ msgstr "({0:s}, {1:s})"
 
 msgctxt "#39024"
 msgid "Dependencies"
-msgstr "依賴的附加元件"
+msgstr "必要的附加元件"
 
 msgctxt "#39025"
 msgid "Gender"
@@ -15960,3 +16228,7 @@ msgstr "單集劇情"
 msgctxt "#39117"
 msgid "Verbose logging for the [B]Announcer[/B] component"
 msgstr "[B]Announcer[/B]組件的詳細日誌記錄"
+
+msgctxt "#39118"
+msgid "Share debug log"
+msgstr "分享偵錯紀錄"

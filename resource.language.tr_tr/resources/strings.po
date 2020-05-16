@@ -1119,7 +1119,7 @@ msgstr "Medya varsayılanı"
 
 msgctxt "#308"
 msgid "Original language"
-msgstr "Orjinal dil"
+msgstr "Özgün dil"
 
 msgctxt "#309"
 msgid "User interface language"
@@ -2976,10 +2976,6 @@ msgstr "Yalnızca bu zamanlayıcıyı mi yoksa beraberinde planlanmış olan zam
 msgctxt "#841"
 msgid "Only this"
 msgstr "Sadece bunu"
-
-msgctxt "#842"
-msgid "New!"
-msgstr "Yeni!"
 
 msgctxt "#843"
 msgid "Activate"
@@ -5693,6 +5689,14 @@ msgctxt "#13523"
 msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
 msgstr "Etkinleştirildiğinde, çok diskli bir albümün açılması diskleri tüm şarkılar yerine ayrı ayrı öğeler olarak gösterir. Bir disk açıldığında, o diskteki şarkıları gösterir."
 
+msgctxt "#13524"
+msgid "Use original release date of albums for year"
+msgstr "Yıl için albümlerin orijinal çıkış tarihini kullanın"
+
+msgctxt "#13525"
+msgid "When enabled, use the original year of release rather than the album release year (if available)."
+msgstr "Aktifleştirildiğinde, albüm çıkış tarihi yerine orijinal çıkış tarihini kullanır (eğer varsa)."
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Yenileme hızı değiştikten sonraki gecikme"
@@ -8205,6 +8209,34 @@ msgctxt "#19304"
 msgid "View timer rule"
 msgstr "Zamanlayıcı kuralını göster"
 
+msgctxt "#19305"
+msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "'{2:s}' tarihinde '{1:s}' kanalındaki '{0:s}' programı için kaçırılan anımsatıcı silindi."
+
+msgctxt "#19306"
+msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "'{1:s}' tarihinde '{0:s}' kanalı için kaçırılan PVR anımsatıcı silindi"
+
+msgctxt "#19307"
+msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
+msgstr "[B]{2:s}[/B] tarihinde [B]{1:s}[/B] kanalındaki [B]{0:s}[/B] programı için anımsatıcı."
+
+msgctxt "#19308"
+msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
+msgstr "[B]{1:s}[/B] tarihinde [B]{0:s}[/B] kanalı için anımsatıcı."
+
+msgctxt "#19309"
+msgid "(Auto-close of this reminder will schedule a recording...)"
+msgstr "(Bu anımsatıcının otomatik kapanışı bir kayıt planlayacaktır...)"
+
+msgctxt "#19310"
+msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "'{2:s}' tarihinde '{1:s}' kanalındaki '{0:s}' programı için, otomatik kapanan PVR anımsatıcısı ile zamanlanmış kayıt"
+
+msgctxt "#19311"
+msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "'{1:s}' tarihinde '{0:s}' kanalı için, otomatik kapanan PVR anımsatıcısı ile zamanlanmış kayıt"
+
 msgctxt "#19312"
 msgid "PVR reminder"
 msgstr "PVR anımsatıcı"
@@ -8213,9 +8245,17 @@ msgctxt "#19313"
 msgid "Automatically close reminder popup after"
 msgstr "Anımsatıcı açılır pencereyi otomatik olarak kapat:"
 
+msgctxt "#19314"
+msgid "Schedule recording when auto-closing the reminder popup"
+msgstr "Anımsatıcı açılır penceresini otomatik olarak kapatırken kayıt zamanla"
+
 msgctxt "#19315"
 msgid "Backend order"
 msgstr "Arka uç sırası"
+
+msgctxt "#19316"
+msgid "Start group channel numbers from 1"
+msgstr "Grup kanal numaralarını 1'den başlat"
 
 msgctxt "#19317"
 msgid "12 hours back"
@@ -8563,7 +8603,7 @@ msgstr "Özellikler"
 
 msgctxt "#19661"
 msgid "Original language"
-msgstr "Orjinal dil"
+msgstr "Özgün dil"
 
 msgctxt "#19662"
 msgid "Black & white"
@@ -8625,13 +8665,17 @@ msgctxt "#19687"
 msgid "Play recording"
 msgstr "Kaydı oynat"
 
+msgctxt "#19690"
+msgid "PVR has scheduled a reminder for '{0:s}' on channel '{1:s}' in {2:s}."
+msgstr "PVR, {2:s} içinde '{1:s}' kanalındaki '{0:s}' programı için bir anımsatıcı planladı"
+
 msgctxt "#19691"
 msgid "PVR is currently recording '{0:s}' on channel '{1:s}'."
 msgstr "PVR şu anda '{1:s}' kanalındaki '{0:s}' programını kaydediyor."
 
 msgctxt "#19692"
 msgid "PVR will start recording '{0:s}' on channel '{1:s}' in {2:s}."
-msgstr "PVR {2:s} dakika içinde '{1:s}' kanalındaki '{0:s}' programının kaydına başlayacak."
+msgstr "PVR {2:s} içinde '{1:s}' kanalındaki '{0:s}' programının kaydına başlayacak."
 
 msgctxt "#19693"
 msgid "Daily wakeup is due in {0:s}."
@@ -9396,6 +9440,10 @@ msgstr "Çevrimiçi albüm resmini tercih et"
 msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
 msgstr "Yerel bir albüm kapağının olmadığı yerlerde, çevrimiçi resim kullanılacaktır. Hiçbiri uygun olmadığında, müzik dosyalarına gömülü olan kapak resimleri kullanılacaktır"
+
+msgctxt "#20226"
+msgid "Movie set information folder"
+msgstr "Film kümesi bilgi klasörü"
 
 msgctxt "#20228"
 msgid "Use artist sortname when sorting by artist"
@@ -11789,6 +11837,14 @@ msgctxt "#24153"
 msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr "Siri kumandasının normal Apple tvOS davranışıyla eşleşmesini sağlamak için etkinleştirin"
 
+msgctxt "#24154"
+msgid "Idle remote handling after N seconds"
+msgstr "N saniye sonra uzaktan kumandayı devre dışı bırak"
+
+msgctxt "#24155"
+msgid "After remote idles, the first tap/swipe received will wake it"
+msgstr "Kumanda devre dışı kaldıktan sonra ilk tıklama/kaydırma aktifleştirir"
+
 msgctxt "#24156"
 msgid "30 Seconds"
 msgstr "30 Saniye"
@@ -11808,6 +11864,10 @@ msgstr "120 Saniye"
 msgctxt "#24160"
 msgid "Enable Siri remote timeout"
 msgstr "Siri kumandası zaman aşımını etkinleştir"
+
+msgctxt "#24161"
+msgid "Enable remote input timeout for tap/swipe"
+msgstr "Kumanda zaman aşımını tıklama/kaydırma olarak aktifleştir"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
@@ -14025,10 +14085,6 @@ msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "Bu kategori PVR oynatımı ve kanal değiştirme ayarlarını içerir."
 
-msgctxt "#36227"
-msgid "Switch to full screen display when starting playback of channels and recordings."
-msgstr "Kanalların ve kayıtların oynatımını başlatırken tam ekran görüntüsüne geçin."
-
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."
 msgstr "Altyazı arka planı için kullanılacak rengi ayarla."
@@ -14305,6 +14361,26 @@ msgctxt "#36296"
 msgid "This category contains settings for reminders."
 msgstr "Bu kategori anımsatıcılar ile ilgili ayarları içerir."
 
+msgctxt "#36297"
+msgid "Choose a time in seconds after which PVR reminder popups will be automatically closed."
+msgstr "PVR anımsatıcı açılır pencerelerinin otomatik olarak kapanması için saniye olarak süre belirleyin."
+
+msgctxt "#36298"
+msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
+msgstr "Etkinleştirilirse ve PVR eklentisi ve arka uç tarafından destekleniyorsa, anımsatıcı açılır penceresi otomatik olarak kapanarak programın anımsatılması için bir kayıt planlanır."
+
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.\nIf disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "HDR bilgisi içeren bir medya oynatılıyorsa ekranınızı HDR moduna getirin. Devre dışı bırakılmışsa Kodi'nin dahili HDR yolu kullanılır."
+
+msgctxt "#36300"
+msgid "Select the folder where movie set information (images) are saved locally."
+msgstr "Film bilgilerinin (resimler) kaydedildiği dosyayı seçin."
+
+msgctxt "#36301"
+msgid "No 'Movie set information folder' is configured to store movie set images so they will not be exported. Do you want to proceed?"
+msgstr "Film resimlerinin depolanacağı hiçbir dosya seçilmedi, dışa aktarılmayacaklar. Devam etmek istiyor musunuz?"
+
 msgctxt "#36302"
 msgid "No info available yet."
 msgstr "Henüz hiçbir bilgi yok."
@@ -14320,6 +14396,10 @@ msgstr "Resimler ile ilgili ayarların nasıl işleğeceğini içeren bölüm."
 msgctxt "#36305"
 msgid "This category contains the settings for how picture file lists are handled."
 msgstr "Bu kategori resim dosyası listelerinin nasıl işleğeceği ile ilgili ayarları içerir."
+
+msgctxt "#36306"
+msgid "If not using backend channel numbers then start all groups channel numbers from 1."
+msgstr "Arka uç kanal numaralarını kullanmıyorsanız bütün grupları kanal numaraları 1'den itibaren başlatın."
 
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
@@ -14424,6 +14504,10 @@ msgstr "Eklenti yöneticisi ile yüklenmiş web arabirimleri arasından istediğ
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Bu kategori uzaktan denetim hizmetinin nasıl işleğeceği ile ilgili ayarları içerir."
+
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the web interface or the JSON-RPC interface protocol."
+msgstr "Bu cihazdaki programların bu uygulamayı ağ arayüzü veya JSON-RPC arayüzü protokolü ile kontrol etmesine izin ver."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -15721,6 +15805,10 @@ msgctxt "#38073"
 msgid "Do you want to refresh information for this item now?"
 msgstr "Bu öğenin bilgilerini şimdi yenilemek istiyor musunuz?"
 
+msgctxt "#38074"
+msgid "Boxsets"
+msgstr "Boxsetler"
+
 msgctxt "#38075"
 msgid "* All discs"
 msgstr "* Tüm diskler"
@@ -15732,6 +15820,18 @@ msgstr "Disk başlığı"
 msgctxt "#38077"
 msgid "Total discs"
 msgstr "Toplam diskler"
+
+msgctxt "#38078"
+msgid "Original year"
+msgstr "Orijinal yıl"
+
+msgctxt "#38079"
+msgid "Original date"
+msgstr "Orijinal tarih"
+
+msgctxt "#38080"
+msgid "BPM"
+msgstr "BPM"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
@@ -15939,7 +16039,7 @@ msgstr "Şarkı çalma geçmişi içeri aktarılıyor"
 
 msgctxt "#38351"
 msgid "Matching data"
-msgstr "Veri eşleşiyor"
+msgstr "Eşleşen veri"
 
 msgctxt "#38352"
 msgid "Updating songs"
@@ -16091,7 +16191,7 @@ msgstr "captions"
 
 msgctxt "#39108"
 msgid "audio description"
-msgstr "ses açıklaması"
+msgstr "sesli açıklama"
 
 msgctxt "#39109"
 msgid "Select Program"

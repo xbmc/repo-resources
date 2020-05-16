@@ -1011,7 +1011,7 @@ msgstr "Не удалось загрузить настройки"
 
 msgctxt "#280"
 msgid "Using default settings"
-msgstr "Используются стандартные настройки"
+msgstr "Используются настройки по умолчанию"
 
 msgctxt "#281"
 msgid "Please check the XML files"
@@ -2587,7 +2587,7 @@ msgstr "Маска подсети"
 
 msgctxt "#721"
 msgid "Default gateway"
-msgstr "Основной шлюз"
+msgstr "Шлюз по умолчанию"
 
 msgctxt "#722"
 msgid "DNS server"
@@ -2709,6 +2709,10 @@ msgctxt "#751"
 msgid "Removing source"
 msgstr "Удаление источника"
 
+msgctxt "#752"
+msgid "Opacity"
+msgstr "Непрозрачность"
+
 msgctxt "#754"
 msgid "Add program link"
 msgstr "Добавить ссылку на программу"
@@ -2760,6 +2764,10 @@ msgstr "Светло-серый"
 msgctxt "#767"
 msgid "Grey"
 msgstr "Серый"
+
+msgctxt "#768"
+msgid "Dark Grey"
+msgstr "Тёмно-серый"
 
 msgctxt "#770"
 msgid "Error {0:d}: share not available"
@@ -2871,7 +2879,7 @@ msgstr "Интервал в конце записи"
 
 msgctxt "#815"
 msgid "Record all episodes"
-msgstr "Запись всех эпизодов"
+msgstr "Записывать все серии"
 
 msgctxt "#816"
 msgid "Record only new episodes"
@@ -2901,9 +2909,25 @@ msgctxt "#823"
 msgid "Timer rule (guide-based)"
 msgstr "Правило таймера (по программе)"
 
+msgctxt "#826"
+msgid "Set reminder"
+msgstr "Поставить напоминание"
+
+msgctxt "#827"
+msgid "Delete reminder"
+msgstr "Удалить напоминание"
+
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Правило таймера удалено"
+
+msgctxt "#829"
+msgid "View reminder"
+msgstr "Показать напоминание"
+
+msgctxt "#830"
+msgid "Edit reminder"
+msgstr "Править напоминание"
 
 msgctxt "#831"
 msgid "Mondays"
@@ -3207,7 +3231,7 @@ msgstr "Имя пользователя по умолчанию"
 
 msgctxt "#1204"
 msgid "Default password"
-msgstr "Пароль пользователя по умолчанию"
+msgstr "Пароль по умолчанию"
 
 msgctxt "#1207"
 msgid "WINS server"
@@ -3811,7 +3835,7 @@ msgstr "Браузер дополнений"
 
 msgctxt "#10041"
 msgid "Reset above settings to default"
-msgstr "Сбросить настройки до значений по умолчанию"
+msgstr "Вернуть настройки по умолчанию"
 
 msgctxt "#10042"
 msgid "Are you sure you want to reset the settings in this category?"
@@ -3827,7 +3851,7 @@ msgstr "Справка недоступна"
 
 msgctxt "#10045"
 msgid "Resets all the visible settings to their default values."
-msgstr "Сбросить все доступные настройки до значений по умолчанию."
+msgstr "Вернуть настройки по умолчанию для всех видимых"
 
 msgctxt "#10046"
 msgid "No categories available"
@@ -4433,6 +4457,10 @@ msgctxt "#12342"
 msgid "Incorrect password,"
 msgstr "Неверный пароль,"
 
+msgctxt "#12343"
+msgid "retries left"
+msgstr "попыток осталось"
+
 msgctxt "#12344"
 msgid "Passwords entered did not match."
 msgstr "Введенные пароли не совпадают."
@@ -4487,7 +4515,7 @@ msgstr "Настройки и менеджер файлов"
 
 msgctxt "#12376"
 msgid "Set as default for all media"
-msgstr "Установить по-умолчанию для всех медиа"
+msgstr "Установить по умолчанию для всех медиа"
 
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
@@ -5239,19 +5267,19 @@ msgstr "Громкость"
 
 msgctxt "#13377"
 msgid "Default view mode"
-msgstr "Основной режим просмотра"
+msgstr "Режим просмотра по умолчанию"
 
 msgctxt "#13378"
 msgid "Default brightness"
-msgstr "Стандартная яркость"
+msgstr "Яркость по умолчанию"
 
 msgctxt "#13379"
 msgid "Default contrast"
-msgstr "Стандартная контрастность"
+msgstr "Контрастность по умолчанию"
 
 msgctxt "#13380"
 msgid "Default gamma"
-msgstr "Стандартная гамма"
+msgstr "Гамма по умолчанию"
 
 msgctxt "#13381"
 msgid "Resume video"
@@ -5461,6 +5489,10 @@ msgctxt "#13435"
 msgid "Enable HQ scalers for scaling above"
 msgstr "Разрешить высококач. методы при масштабировании свыше"
 
+msgctxt "#13436"
+msgid "Use display HDR capabilities"
+msgstr "Использовать широкий динамический диапазон"
+
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
 msgstr "Испрользовать VDPAU Video Mixer по умолчанию"
@@ -5487,7 +5519,7 @@ msgstr "Использовать MPEG-4 VDPAU"
 
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION hardware has problems with this being enabled by default."
-msgstr "Включите, чтобы использовать аппаратное декодирование формата MPEG-4. В противном случае декодирование будет выполняться ЦП. Включение этой настройки может вызывать сбои в системах на базе ION."
+msgstr "Включите для аппаратного декодирование MPEG-4. В противном случае декодирование будет выполняться ЦП. Может вызывать сбои в системах на базе ION."
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5632,6 +5664,10 @@ msgstr "Встроенный фанарт"
 msgctxt "#13521"
 msgid "Choose art type"
 msgstr "Выберите тип изображения"
+
+msgctxt "#13522"
+msgid "Split albums into individual discs"
+msgstr "Разбить альбом на диски"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -6487,7 +6523,7 @@ msgstr "Звуки интерфейса"
 
 msgctxt "#15109"
 msgid "Skin default"
-msgstr "Стандартн."
+msgstr "По умолчанию"
 
 msgctxt "#15110"
 msgid "Larger font size"
@@ -6499,7 +6535,7 @@ msgstr "Тема"
 
 msgctxt "#15112"
 msgid "Default theme"
-msgstr "Стандартная тема"
+msgstr "Тема по умолчанию"
 
 msgctxt "#15200"
 msgid "Last.fm"
@@ -7185,6 +7221,14 @@ msgctxt "#19062"
 msgid "Sort by: Channel"
 msgstr "Сортировать по каналам"
 
+msgctxt "#19063"
+msgid "First programme"
+msgstr "Первая программа"
+
+msgctxt "#19064"
+msgid "Last programme"
+msgstr "Последняя программа"
+
 msgctxt "#19065"
 msgid "Timer settings"
 msgstr "Установки таймера"
@@ -7204,6 +7248,10 @@ msgstr "Настройки записи"
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Программа"
+
+msgctxt "#19070"
+msgid "Current programme"
+msgstr "Текущая программа"
 
 msgctxt "#19071"
 msgid "Update interval"
@@ -7315,7 +7363,7 @@ msgstr "Микшировать"
 
 msgctxt "#19101"
 msgid "Provider"
-msgstr "Поставщик"
+msgstr "Источник"
 
 msgctxt "#19102"
 msgid "Please switch to another channel."
@@ -7332,6 +7380,10 @@ msgstr "Введите имя папки для записи"
 msgctxt "#19105"
 msgid "Please select a channel"
 msgstr "Выберите канал"
+
+msgctxt "#19106"
+msgid "Next recording on"
+msgstr "Следующая запись в"
 
 msgctxt "#19107"
 msgid "at"
@@ -7607,11 +7659,11 @@ msgstr "Группы радиоканалов"
 
 msgctxt "#19175"
 msgid "Default start padding time"
-msgstr "Отступ по времени в начале по-умолчанию"
+msgstr "Начальная задержка по умолчанию"
 
 msgctxt "#19176"
 msgid "Default end padding time"
-msgstr "Отступ по времени в конце по-умолчанию"
+msgstr "Конечная задержка по умолчанию"
 
 msgctxt "#19177"
 msgid "Playback"
@@ -8108,6 +8160,26 @@ msgstr "Закрывать OSD после переключения канало�
 msgctxt "#19304"
 msgid "View timer rule"
 msgstr "Показать шкалу таймера"
+
+msgctxt "#19319"
+msgid "Previous group"
+msgstr "Предыдущая группа"
+
+msgctxt "#19320"
+msgid "Next group"
+msgstr "Следующая группа"
+
+msgctxt "#19322"
+msgid "First channel"
+msgstr "Первый канал"
+
+msgctxt "#19324"
+msgid "Last channel"
+msgstr "Последний канал"
+
+msgctxt "#19325"
+msgid "Programme"
+msgstr "Программа"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -8651,7 +8723,7 @@ msgstr "Создать профиль '{0:s}'?"
 
 msgctxt "#20048"
 msgid "Start with fresh settings or copy from default?"
-msgstr "Запустить с чистыми параметрами или скопировать из профиля по-умолчанию?"
+msgstr "Запустить с чистыми настройками или скопировать из профиля по умолчанию?"
 
 msgctxt "#20049"
 msgid "Best available"
@@ -9199,11 +9271,11 @@ msgstr "Получать дополнительную информацию во 
 
 msgctxt "#20193"
 msgid "Default provider for album information"
-msgstr "Источник сведений об альбомах по-умолчанию "
+msgstr "Источник сведений по умолчанию для альбомов"
 
 msgctxt "#20194"
 msgid "Default provider for artist information"
-msgstr "Источник сведений об исполнителях по-умолчанию "
+msgstr "Источник сведений по умолчанию для исполнителей"
 
 msgctxt "#20195"
 msgid "Change information provider"
@@ -9379,7 +9451,7 @@ msgstr "Сканирование фильмов с помощью {0:s}"
 
 msgctxt "#20318"
 msgid "Scanning music videos using {0:s}"
-msgstr "Сканирование муз. видео с помощью {0:s}"
+msgstr "Клипы сканируются с помощью {0:s}"
 
 msgctxt "#20319"
 msgid "Scanning TV shows using {0:s}"
@@ -9415,7 +9487,7 @@ msgstr "Это сбросит калибровочные значения для
 
 msgctxt "#20327"
 msgid "to its default values."
-msgstr "к исходному значению."
+msgstr "к значениям по умолчанию"
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -9523,7 +9595,7 @@ msgstr "Получение расписания серий…"
 
 msgctxt "#20355"
 msgid "Loading information for episodes in directory"
-msgstr "Загрузка сведений о серий в папке"
+msgstr "Сведения о сериях в папке загружаются"
 
 msgctxt "#20356"
 msgid "Select TV show:"
@@ -9659,27 +9731,27 @@ msgstr "Студии"
 
 msgctxt "#20389"
 msgid "Music videos"
-msgstr "Муз. видео"
+msgstr "Клипы"
 
 msgctxt "#20390"
 msgid "Recently added music videos"
-msgstr "Последние муз. видео"
+msgstr "Последние клипы"
 
 msgctxt "#20391"
 msgid "Music video"
-msgstr "Музыкальное видео"
+msgstr "Клип"
 
 msgctxt "#20392"
 msgid "Remove music video from library"
-msgstr "Удалить музыкальное видео из медиатеки"
+msgstr "Удалить клип из медиатеки"
 
 msgctxt "#20393"
 msgid "Music video information"
-msgstr "Сведения о муз. видео"
+msgstr "Сведения о клипе"
 
 msgctxt "#20394"
 msgid "Loading music video information"
-msgstr "Загрузка сведений о муз. видео…"
+msgstr "Сведения о клипе загружаются…"
 
 msgctxt "#20395"
 msgid "Mixed"
@@ -9699,15 +9771,15 @@ msgstr "Воспр. песню"
 
 msgctxt "#20399"
 msgid "Go to music videos from album"
-msgstr "Перейти к музыкальным видео из альбома"
+msgstr "Перейти к клипам из альбома"
 
 msgctxt "#20400"
 msgid "Go to music videos by artist"
-msgstr "Перейти к музыкальным видео по исполнителю"
+msgstr "Перейти к клипам по исполнителю"
 
 msgctxt "#20401"
 msgid "Play music video"
-msgstr "Воспр. музыкальное видео"
+msgstr "Воспроизвести клип"
 
 msgctxt "#20402"
 msgid "Download actor thumbnails"
@@ -9723,11 +9795,11 @@ msgstr "Удалить закладку"
 
 msgctxt "#20405"
 msgid "Remove episode bookmark"
-msgstr "Удалить закладку серии"
+msgstr "Удалить закладку с серии"
 
 msgctxt "#20406"
 msgid "Set episode bookmark"
-msgstr "Создать закладку серии"
+msgstr "Создать закладку на серии"
 
 msgctxt "#20407"
 msgid "Information provider settings"
@@ -9735,7 +9807,7 @@ msgstr "Установки источника сведений"
 
 msgctxt "#20408"
 msgid "Downloading music video information"
-msgstr "Загрузка сведений о музыкальном видео…"
+msgstr "Загружаются сведения о клипе…"
 
 msgctxt "#20409"
 msgid "Downloading TV show information"
@@ -10075,7 +10147,7 @@ msgstr "Закладка создана"
 
 msgctxt "#21363"
 msgid "Episode bookmark created"
-msgstr "Закладка эпизода создана"
+msgstr "Закладка на серии создана"
 
 msgctxt "#21364"
 msgid "Edit media share"
@@ -10271,19 +10343,19 @@ msgstr "Источники сведений"
 
 msgctxt "#21413"
 msgid "Default provider for movie information"
-msgstr "Источник сведений о фильмах по-умолчанию"
+msgstr "Источник сведений по умолчанию для фильмов"
 
 msgctxt "#21414"
 msgid "Default provider for TV show information"
-msgstr "Источник сведений о сериалах по-умолчанию"
+msgstr "Источник сведений по умолчанию для сериалов"
 
 msgctxt "#21415"
 msgid "Default provider for music video information"
-msgstr "Источник сведений о музыкальных видео по-умолчанию"
+msgstr "Источник сведений по умолчанию для клипов"
 
 msgctxt "#21416"
 msgid "Select first unwatched TV show season / episode"
-msgstr "Выбирать первый непросмотренный сезон / серию"
+msgstr "Выбирать первый непросмотренный сезон или серию"
 
 msgctxt "#21417"
 msgid "Settings"
@@ -10447,7 +10519,7 @@ msgstr "Внешнее хранилище"
 
 msgctxt "#21457"
 msgid "Watched episode count"
-msgstr "Кол-во просмотренных серий"
+msgstr "Просмотренных серий"
 
 msgctxt "#21458"
 msgid "Group by"
@@ -11103,7 +11175,7 @@ msgstr "Сведения о сериалах"
 
 msgctxt "#24015"
 msgid "Music video information"
-msgstr "Сведения о муз. видео"
+msgstr "Сведения о клипе"
 
 msgctxt "#24016"
 msgid "Album information"
@@ -11632,6 +11704,22 @@ msgstr "Подождите, выполняется миграция дополн
 msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "Дополнение несовместимо с этой версией Kodi."
+
+msgctxt "#24156"
+msgid "30 Seconds"
+msgstr "30 секунд"
+
+msgctxt "#24157"
+msgid "60 Seconds"
+msgstr "60 секунд"
+
+msgctxt "#24158"
+msgid "90 Seconds"
+msgstr "90 секунд"
+
+msgctxt "#24159"
+msgid "120 Seconds"
+msgstr "120 секунд"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -13833,10 +13921,6 @@ msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "Настройки просмотра и переключения ТВ-каналов."
 
-msgctxt "#36227"
-msgid "Switch to full screen display when starting playback of channels and recordings."
-msgstr "При запуске воспроизведения каналов и записей переключитесь в полноэкранный режим."
-
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."
 msgstr "Установить цвет, используемый для фона субтитров."
@@ -13951,11 +14035,11 @@ msgstr "Автоматически загружать сведения об ал
 
 msgctxt "#36257"
 msgid "Select the default album information provider."
-msgstr "Выберите источник сведений об альбомах используемый по-умолчанию."
+msgstr "Выбрать источник сведений по умолчанию для альбомов"
 
 msgctxt "#36258"
 msgid "Select the default artist information provider."
-msgstr "Выберите источник сведений об исполнителях используемый по-умолчанию."
+msgstr "Выбрать источник сведений по умолчанию для исполнителей"
 
 msgctxt "#36259"
 msgid "Check for new and removed media files on startup."
@@ -15131,11 +15215,11 @@ msgstr "серии"
 
 msgctxt "#36908"
 msgid "music video"
-msgstr "музыкальное видео"
+msgstr "клип"
 
 msgctxt "#36909"
 msgid "music videos"
-msgstr "музыкальное видео"
+msgstr "клипы"
 
 msgctxt "#36910"
 msgid "set"
@@ -15475,7 +15559,7 @@ msgstr "Производить полное сканирование тегов,
 
 msgctxt "#38063"
 msgid "Set default information provider"
-msgstr "Установите поставщика информации по-умолчанию"
+msgstr "Установить источник сведений по умолчанию"
 
 msgctxt "#38064"
 msgid "Set for this artist"
@@ -15516,6 +15600,14 @@ msgstr "Вы хотите обновить информацию обо всех 
 msgctxt "#38073"
 msgid "Do you want to refresh information for this item now?"
 msgstr "Вы хотите обновить информацию об этом элементе сейчас?"
+
+msgctxt "#38076"
+msgid "Disc title"
+msgstr "Название диска"
+
+msgctxt "#38080"
+msgid "BPM"
+msgstr "уд./мин."
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
@@ -15895,7 +15987,7 @@ msgstr "Сenter Mix Level в дБ относительно метаданных 
 
 msgctxt "#39114"
 msgid "Episode thumb"
-msgstr "Эскиз серии"
+msgstr "Миниатюра серии"
 
 msgctxt "#39115"
 msgid "Movie plot"
@@ -15904,3 +15996,7 @@ msgstr "Сюжет фильма"
 msgctxt "#39116"
 msgid "Episode plot"
 msgstr "Сюжет серии"
+
+msgctxt "#39118"
+msgid "Share debug log"
+msgstr "Отправить журнал отладки"

@@ -43,7 +43,7 @@ msgstr "Git de Kodi"
 
 msgctxt "#7"
 msgid "File manager"
-msgstr "Gestor de archivos"
+msgstr "Explorador de archivos"
 
 msgctxt "#8"
 msgid "Weather"
@@ -1279,7 +1279,7 @@ msgstr "Receptor compatible con DTS-HD"
 
 msgctxt "#348"
 msgid "Allow passthrough"
-msgstr "Permitir passthrough"
+msgstr "Permitir traspaso"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -2019,7 +2019,7 @@ msgstr "Dispositivo de salida de audio"
 
 msgctxt "#546"
 msgid "Passthrough output device"
-msgstr "Dispositivo de salida passthrough"
+msgstr "Dispositivo de salida de traspaso"
 
 msgctxt "#547"
 msgid "No biography for this artist"
@@ -2977,10 +2977,6 @@ msgctxt "#841"
 msgid "Only this"
 msgstr "Sólo este"
 
-msgctxt "#842"
-msgid "New!"
-msgstr "¡Nuevo!"
-
 msgctxt "#843"
 msgid "Activate"
 msgstr "Activar"
@@ -3399,7 +3395,7 @@ msgstr "Dispositivo de audio personalizado"
 
 msgctxt "#1301"
 msgid "Custom passthrough device"
-msgstr "Dispositivo passthrough personalizado"
+msgstr "Dispositivo de traspaso personalizado"
 
 msgctxt "#1302"
 msgid "Volume control steps"
@@ -5693,6 +5689,14 @@ msgctxt "#13523"
 msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
 msgstr "Si esta activo, al abrir un álbum multi-disco muestra los discos como elementos individuales en lugar de todas las canciones. Al abrir un disco, muestra las canciones de ese disco."
 
+msgctxt "#13524"
+msgid "Use original release date of albums for year"
+msgstr "Usar fecha de lanzamiento original de los álbumes como año"
+
+msgctxt "#13525"
+msgid "When enabled, use the original year of release rather than the album release year (if available)."
+msgstr "Si se activa, usara el año de lanzamiento original en lugar del año de lanzamiento del álbum (si se conoce)."
+
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
 msgstr "Tiempo de espera tras cambio de tasa de refresco"
@@ -6407,7 +6411,7 @@ msgstr "Decodificador de Audio"
 
 msgctxt "#14252"
 msgid "Audio Passthrough"
-msgstr "Passthrough de Audio"
+msgstr "Traspaso de Audio"
 
 msgctxt "#14255"
 msgid "Sleep / Shutdown"
@@ -11971,7 +11975,7 @@ msgstr "Teclado QWERTY"
 
 msgctxt "#29802"
 msgid "Passthrough audio in use"
-msgstr "Passthrough de audio en uso"
+msgstr "Traspaso de audio en uso"
 
 msgctxt "#29803"
 msgid "BD-J menu error"
@@ -13587,7 +13591,7 @@ msgstr "Cambia la apariencia de la interfaz de usuario."
 
 msgctxt "#36102"
 msgid "This category contains all skin related settings."
-msgstr "Esta categoría contiene los ajustes de la skin."
+msgstr "Esta categoría contiene todos los ajustes relacionados con el skin."
 
 msgctxt "#36103"
 msgid "Select the skin for the user interface. This will define the look and feel of the application."
@@ -13595,7 +13599,7 @@ msgstr "Seleccione el skin para la interfaz de usuario. Esto definirá el aspect
 
 msgctxt "#36104"
 msgid "Select to change the skin specific settings. Which options are available for configuration depends on the features provided by the skin."
-msgstr "Seleccione para cambiar las opciones especificas de la skin. Las opciones disponibles para configuración dependen de la caracteristicas incluidas en la skin."
+msgstr "Seleccione para cambiar las opciones especificas del skin. Las opciones disponibles para configuración dependen de la caracteristicas incluidas en el skin."
 
 msgctxt "#36105"
 msgid "Change the theme associated with your selected skin."
@@ -13843,7 +13847,7 @@ msgstr "Tiempo de espera del evento de reseteado tras un cambio en la tasa de re
 
 msgctxt "#36166"
 msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
-msgstr "Sincroniza el audio y el vídeo a la tasa de refresco del monitor. VideoPlayer no utilizará el passthrough de audio porque se requiere de un resampleado."
+msgstr "Sincroniza el audio y el vídeo a la tasa de refresco del monitor. VideoPlayer no utilizará el traspaso de audio porque se requiere de un resampleado."
 
 msgctxt "#36167"
 msgid "Choose which time format is used for displaying the time in the user interface."
@@ -14080,10 +14084,6 @@ msgstr "Borra los datos de guía en caché y reimportarlos del servidor."
 msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "Esta categoría contiene los ajustes para la reproducción de PVR y del cambio de canal."
-
-msgctxt "#36227"
-msgid "Switch to full screen display when starting playback of channels and recordings."
-msgstr "Cambia a pantalla completa cuando se reproduzcan canales o grabaciones."
 
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."
@@ -14615,7 +14615,7 @@ msgstr "Selecciona cómo se comporta la salida de audio: [Fijo] Las propiedades 
 
 msgctxt "#36362"
 msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
-msgstr "Selecciona el número de canales soportados por la conexión de audio, o el número de altavoces si están conectados mediante conexiones analógicas. Este ajuste no se aplica en passthrough. Nota: S/PDIF sólo soporta canales 2.0, pero puede sacar audio multicanal usando un formato soportado por passthrough."
+msgstr "Selecciona el número de canales soportados por la conexión de audio, o el número de altavoces si están conectados mediante conexiones analógicas. Este ajuste no se aplica en traspaso de audio. Nota: S/PDIF sólo soporta canales 2.0, pero puede sacar audio multicanal usando un formato soportado por el traspaso."
 
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
@@ -14639,7 +14639,7 @@ msgstr "Selecciona el número máximo de canales de audio / altavoces disponible
 
 msgctxt "#36368"
 msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
-msgstr "Actívelo para dejar pasar sin decodificar el audio comprimido como Dolby Digital (AC3), DTS, etc. El Cliente del motor de Audio, p. ej. VideoPlayer, podrá decidir si decodificar el audio bajo determinadas condiciones. En el caso de VideoPlayer, no se dejará pasar cuando sea una emisión en directo ni cuando esté activada la sincronización con el monitor."
+msgstr "Actívelo para dejar traspasar sin decodificar el audio comprimido como Dolby Digital (AC3), DTS, etc. El Cliente del motor de Audio, p. ej. VideoPlayer, podrá decidir si decodificar el audio bajo determinadas condiciones. En el caso de VideoPlayer, no se dejará traspasar cuando sea una emisión en directo ni cuando esté activada la sincronización con el monitor."
 
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
@@ -15820,6 +15820,18 @@ msgstr "Título del disco"
 msgctxt "#38077"
 msgid "Total discs"
 msgstr "Total discos"
+
+msgctxt "#38078"
+msgid "Original year"
+msgstr "Año original"
+
+msgctxt "#38079"
+msgid "Original date"
+msgstr "Fecha original"
+
+msgctxt "#38080"
+msgid "BPM"
+msgstr "BPM"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"

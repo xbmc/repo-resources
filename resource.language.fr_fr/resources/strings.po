@@ -2977,10 +2977,6 @@ msgctxt "#841"
 msgid "Only this"
 msgstr "Seulement ceci"
 
-msgctxt "#842"
-msgid "New!"
-msgstr "Nouveau !"
-
 msgctxt "#843"
 msgid "Activate"
 msgstr "Activer"
@@ -5692,6 +5688,14 @@ msgstr "Séparer les albums en disques individuels"
 msgctxt "#13523"
 msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
 msgstr "Si activé, l'ouverture d'un album multidisques affichera les disques en éléments individuels plutôt que toutes les chansons. Ouvrir un disque affichera ensuite les chansons de ce disque."
+
+msgctxt "#13524"
+msgid "Use original release date of albums for year"
+msgstr "Utiliser l'année d'origine pour les sorties d'albums"
+
+msgctxt "#13525"
+msgid "When enabled, use the original year of release rather than the album release year (if available)."
+msgstr "Si activé, l'année d'origine de la sortie sera utilisée plutôt que celle de sortie de l'album (si disponible)."
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -13183,7 +13187,7 @@ msgstr "Souris"
 
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
-msgstr "TOUTES VOS BASE APPARTENIR[CR]À NOUS"
+msgstr "ALL YOUR BASE ARE BELONG[CR]TO US"
 
 msgctxt "#35201"
 msgid "Gameplay"
@@ -13323,7 +13327,7 @@ msgstr "Appuyer sur {0:s} pour ouvrir le menu interne du jeu."
 
 msgctxt "#35236"
 msgid "In this release, only controllers can be used to play games."
-msgstr "Dans cette version, seuls des contrôleurs peuvent être utilisés pour jouer."
+msgstr "Dans cette version, seules des manettes peuvent être utilisées pour jouer."
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14081,10 +14085,6 @@ msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "Cette catégorie contient les paramètres de lecture de l'enregistreur vidéo (PVR) et de changement de chaînes."
 
-msgctxt "#36227"
-msgid "Switch to full screen display when starting playback of channels and recordings."
-msgstr "Bascule en affichage plein écran au démarrage de la lecture des chaînes et des enregistrements."
-
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."
 msgstr "Définit la couleur utilisée pour l'arrière-plan des sous-titres."
@@ -14319,7 +14319,7 @@ msgstr "Sélectionne l'emplacement du dispositif de stockage où seront enregist
 
 msgctxt "#36286"
 msgid "Control how saved music is named from the tags. Tags: [B]%N[/B]: TrackNumber, [B]%S[/B]: DiscNumber, [B]%A[/B]: Artist, [B]%T[/B]: Title, [B]%B[/B]: Album, [B]%G[/B]: Genre, [B]%Y[/B]: Year, [B]%F[/B]: FileName, [B]%D[/B]: Duration, [B]%J[/B]: Date, [B]%R[/B]: Rating, [B]%I[/B]: FileSize."
-msgstr "Contrôle comment la musique enregistrée est nommée à partir des balises suivantes. [B]%N[/B] : Numéro de la piste, [B]%S[/B] : Numéro du disque, [B]%A[/B] : Artiste, [B]%T[/B] : Titre, [B]%B[/B] : Album, [B]%G[/B] : Genre, [B]%Y[/B] : Année, [B]%F[/B] : Nom du fichier, [B]%D[/B] : Durée, [B]%J[/B] : Date, [B]%R[/B] : Notation, [B]%I[/B] : Taille du fichier."
+msgstr "Contrôle comment la musique enregistrée est nommée à partir des balises suivantes. [B]%N[/B] : numéro de la piste, [B]%S[/B] : numéro du disque, [B]%A[/B] : artiste, [B]%T[/B] : titre, [B]%B[/B] : album, [B]%G[/B] : genre, [B]%Y[/B] : année, [B]%F[/B] : nom du fichier, [B]%D[/B] : durée, [B]%J[/B] : date, [B]%R[/B] : notation, [B]%I[/B] : taille du fichier."
 
 msgctxt "#36287"
 msgid "Select which audio encoder to use when ripping."
@@ -14611,7 +14611,7 @@ msgstr "Cette catégorie contient les paramètres de traitement de la sortie aud
 
 msgctxt "#36361"
 msgid "Select how the properties of the audio output are set: [Fixed] Output properties are set to the specified sampling rate & speaker configuration at all times; [Best Match] Output properties are set to always be as close a match to the source properties as possible; [Optimized] Output properties are set at the start of playback and will not change if the properties of the source change."
-msgstr "Sélectionner comment définir les propriétés de la sortie audio :[CR][Fixe] Les propriétés de sortie sont définies pour le taux d'échantillonnage spécifié et la configuration des enceintes.[CR][Meilleure correspondance] Les propriétés de sortie sont définies pour être toujours les plus proches possibles de la source.[CR][Optimisée] Les propriétés de sortie sont définies au début de la lecture et ne changeront pas si les propriétés de la source sont modifiées."
+msgstr "Sélectionne comment définir les propriétés de la sortie audio :[CR][Fixe] - Les propriétés de sortie sont définies pour le taux d'échantillonnage spécifié et la configuration des enceintes.[CR][Meilleure correspondance] - Les propriétés de sortie sont définies pour être toujours les plus proches possibles de la source.[CR][Optimisée] - Les propriétés de sortie sont définies au début de la lecture et ne changeront pas si les propriétés de la source sont modifiées."
 
 msgctxt "#36362"
 msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
@@ -14875,7 +14875,7 @@ msgstr "Enregistrer"
 
 msgctxt "#36429"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
-msgstr "Sélectionner cette option si la sortie audio ne reconnait que l'audio multicanal comme le Dolby Digital 5.1 (AC-3) via une connexion S/PDIF. SI le système gère le PCM multicanal via HDMI, laisser cette option désactivée."
+msgstr "Sélectionner cette option si la sortie audio ne reconnaît que l'audio multicanal comme le Dolby Digital 5.1 (AC-3) via une connexion S/PDIF. Si le système gère le PCM multicanal via HDMI, laisser cette option désactivée."
 
 msgctxt "#36430"
 msgid "Configure how video processing will be accelerated. This includes things like decoding and scaling."
@@ -15820,6 +15820,18 @@ msgstr "Titre du disque"
 msgctxt "#38077"
 msgid "Total discs"
 msgstr "Disques totaux"
+
+msgctxt "#38078"
+msgid "Original year"
+msgstr "Année d'origine"
+
+msgctxt "#38079"
+msgid "Original date"
+msgstr "Date d'origine"
+
+msgctxt "#38080"
+msgid "BPM"
+msgstr "BPM"
 
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
