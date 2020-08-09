@@ -2,19 +2,19 @@
 ## ABOUT resource.images.classificationicons.colour
 Provides a collection of square aspect ratio video classification icons from around the world. This is my attempt to set a standard to provide classification icon images for use in Kodi media centre skins.
 By providing a standard naming scheme for the images it is my hope that this will become the standard way for Kodi skins to support more than a tiny subset of available classification icons.
-  
+
 
 ## NAMING SCHEME:
 
 Icons in this colletion are named using the following rules:
 
-[CountryName]{(Region)}[ {TV-}Classification].png
+[Country Name]{ (Region)}[ {TV-}Classification].png
 
 [] - Required
 {} - Optional
 
-* CountryName Contains NO spaces but uses Camel code for naming. For example NewZealand NOT New Zealand. Required part of filename, uses English country name.
-* Region Not required but if used must also not contain spaces and must be surrounded by brackets. For example Canada(Quebec) if using classifications from Quebec.
+* Country Name Can contain spaces but uses Camel code for naming. For example New Zealand. Required part of filename, uses English country name.
+* Region Not required but if used must also not contain spaces and must be surrounded by brackets. For example Canada (Quebec) if using classifications from Quebec.
 * TV- For if country has a seperate classification scheme for TV broadcasts. A lot of countries do not use a seperate classification scheme for Movies and TV, thus is not required.
 * Classification Once again the English version of the text used to describe classification.
 * .png Images are png's and thus required ListItem.Mpaa field will contain everything above minus the .png
@@ -41,44 +41,48 @@ Unfortunately you can't bake a cake without breaking a few eggs. The following i
 
 The following code can be used to access the icons in the resource file. The code consists of one Image control and thus is very quick. Additional code can be used to provide fallback for old method of icon display.
 
-	<control type="group">
-		<visible>$EXP[isnotEmptyDBID]</visible>
-		<control type="image" id="4550">
-			<!-- Classification Rating (quick way) -->
-			<left>36</left>
-			<top>414</top>
+		<control type="image"><!-- Classification Rating (quick way) -->
+			<left>1796</left>
+			<top>56</top>
 			<width>64</width>
 			<height>64</height>
+			<align>right</align>
 			<aligny>bottom</aligny>
-			<texture fallback="blank.png">$INFO[ListItem.Mpaa,resource://resource.images.classificationicons.colour/,.png]</texture>
+			<texture fallback="resource://resource.images.classificationicons.colour/Check Classification.png">$VAR[MPAARatingIcons]</texture>
 			<aspectratio>keep</aspectratio>
+			<visible>$EXP[isnotEmptyDBID]</visible>
 		</control>
-		<control type="image">
-			<!-- Classification Rating -->
-			<left>36</left>
-			<top>414</top>
-			<width>64</width>
-			<height>64</height>
-			<aligny>bottom</aligny>
-			<texture>$VAR[ClassificationRating]</texture>
-			<aspectratio>keep</aspectratio>
-			<visible>String.IsEqual(Control.GetLabel(4550),blank.png)</visible>
-		</control>
-	</control>
 
-## CONVERTING TO NEW SCHEME
+	<variable name="MPAARatingIcons">
+		<value condition="Skin.HasSetting(defaultmpaa-locale)">$INFO[Listitem.MPAA,resource://resource.images.classificationicons.colour/,.png]</value>
+		<value condition="!Skin.HasSetting(defaultmpaa-locale)">$INFO[Window(home).property(locale.country),
+		resource://resource.images.classificationicons.colour/] $INFO[Listitem.MPAA,,.png]</value>
+	</variable>
+
+Variable code above not strictly required, but does allow for the user to stick with United States certification over their local region if required.
+
+## CONVERTING TO NEW SCHEME:
 
 Unfortunately the new naming scheme is not really compatible with the old scheme and thus will require the user to make changes to their video database.
 The suggested way to convert to the new scheme include:
 
 * Use the Universal movie scrapper. Under the scrappers configuration settings 'Ratings' change to your prefered certification country to your required country.
-  Then change the certification prefix setting to required country followed by a space. Rescrape your video library. Slow and only applies to movie library.
+  Then change the certification prefix setting to required country followed by a space. Rescrape your video library. Slow and only applies to movie library. (Don't need to use certification prefix as this is now provided automagically)
 * Export your library to seperate .nfo files and then edit MPAA entry of each file. Slow and tedious, but does get the job done.
-* Making use of an external library managment program to edit MPAA entries to use new scheme. I have not used these type of programs so have nothing to say on their usefulness.
-* Hopefully I can convince a script writer to write a script to bulk convert to new naming scheme. This has the best potiential to provide a seemless transition to new system. Fingers crossed.
+* Making use of an external library managment program to edit MPAA entries to use new scheme. I have not used these types of programs so have nothing to say on their usefulness.
+* Hopefully I can convince a script writer to write a script to bulk convert to new naming scheme. This has the best potiential to provide a seemless transition to new system. Fingers crossed. ( Nope, no takers. Have made minors changes to allow for this. )
 * And finally, the scrapper writters see the value of new scheme and update their scrappers to suit.
 
-## SUPPORTED COUNTRIES
+## ADDENDUM TO ABOVE POINT:
+
+The previous section does not reflect the current state of this scheme as a number of skin and script writers pointed out a number of issues, these include.
+
+* A number of skins do not use icons for MPAA certification ratings and were not open to including additional information in the Listitem.MPAA field as it would mess with text field formatting in their skins.
+* Users where unlikely to run a script to shift to new scheme. An automagical system was required to encourage user uptake. Also I was unable to find a script writer willing to write a script for the conversion.
+
+With the above in mind I have made a number of minor changes to scheme to address previous issues. While the file naming scheme of the resource file has NOT changed, the way to access the file as a skin writer has. Scheme no longer requires the region to be included in the Listitem.MPAA info string. Thanks to Sulafred (writer of Embuary skin and Emburary skin helper script) a way has been provided to access the users locale country via a helper script in Kodi Leia and Kodi Matrix provides this thru the skin engine. Using this information, the skin writer can provide a string to access the correct file from the provided resource file. Sulafred's Metadata Editor (or other library editing script if the user prefers) can provide a way for the user to edit individule library entries that don't match. So for the most part solution is automagical.
+
+## SUPPORTED COUNTRIES:
 
 The following countries are currently supported, hopefully more to follow.
 
@@ -87,28 +91,38 @@ The following countries are currently supported, hopefully more to follow.
 * Brazil
 * Canada
 * Canada TV
-* Canada(Quebec)
 * Denmark
 * Finland
 * France TV
 * Germany
+* Hong Kong
 * Hungary
+* Hungary TV
 * India
 * Ireland
 * Italy
 * Japan
+* Korea
+* Korea TV
 * Netherlands
-* NewZealand
+* New Zealand
+* Norway
 * Russia
-* SouthKorea
-* SouthKorea TV
 * Spain
-* UK
-* USA
-* USA TV
+* Switzerland
+* Taiwan
+* United Kingdom
+* United States
+* United States TV
+* Vietnam
 
-In addition I have provided a Check Classification icon and have duplicated the USA and USA TV set of icons as Rated and TV- to allow for the old naming scheme.
-The USA icons under the old scheme could also contain the : character, which is an illegal character under some file systems, so they have not been provided.
+In addition I have provided a Check Classification icon and have duplicated the United States and United States TV set of icons as Rated and TV- to allow for the old naming scheme.
+The United States icons under the old scheme could also contain the : character, which is an illegal character under some file systems, so they have not been provided.
+
+## FINALLY:
+
+As the resource currently stands it provides a fast way to access a large number of different country certification icons. It also allows for the rapid addition of countries without the need to update supporting skins. If your country is not currently supported and you have square aspect images of the certification icons, contact Wyrm via the Kodi forums and they will be added. Also the scheme allows for alternate naming of certification icons, so if icon is present but the Listitem.MPAA field returns an alternate naming for the icon, please contact Wyrm to correct issue.
+
 ## DEVELOPMENT:
 [Github](https://github.com/wyrm65/resource.images.classificationicons.colour)
 
