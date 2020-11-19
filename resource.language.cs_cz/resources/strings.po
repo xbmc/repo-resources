@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs_CZ\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -2969,6 +2969,14 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Neděle"
 
+msgctxt "#838"
+msgid "Première"
+msgstr "Premiéra"
+
+msgctxt "#839"
+msgid "Live"
+msgstr "Živě"
+
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
 msgstr "Chcete odstranit pouze tento časovač nebo také pravidlo časovače, které ho mělo naplánováno?"
@@ -2976,6 +2984,10 @@ msgstr "Chcete odstranit pouze tento časovač nebo také pravidlo časovače, k
 msgctxt "#841"
 msgid "Only this"
 msgstr "Pouze toto"
+
+msgctxt "#842"
+msgid "New"
+msgstr "Nové"
 
 msgctxt "#843"
 msgid "Activate"
@@ -3000,6 +3012,10 @@ msgstr "Potvrzovat zastavení nahrávání"
 msgctxt "#848"
 msgid "Are you sure you want to stop this recording?"
 msgstr "Opravdu chcete zastavit toto nahrávání?"
+
+msgctxt "#849"
+msgid "Finale"
+msgstr "Finále"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -5613,6 +5629,14 @@ msgctxt "#13465"
 msgid "EGL"
 msgstr "EGL"
 
+msgctxt "#13466"
+msgid "1080 / 720 (>30Hz)"
+msgstr "1080 / 720 (>30Hz)"
+
+msgctxt "#13467"
+msgid "Unlimited / 1080 (>30Hz)"
+msgstr "Neomezeno / 1080 (>30Hz)"
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Kvalita převzorkování"
@@ -7992,6 +8016,10 @@ msgstr "Čas denního probouzení (HH:MM:SS)"
 msgctxt "#19249"
 msgid "Filter channels"
 msgstr "Filtrovat kanály"
+
+msgctxt "#19250"
+msgid "TV and radio channels"
+msgstr "Televizní a rozhlasové kanály"
 
 msgctxt "#19251"
 msgid "Update guide information"
@@ -14084,6 +14112,10 @@ msgstr "Odstranit data televizního programu v mezipaměti a znovu importovat da
 msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "Tato kategorie obsahuje nastavení přehrávání PVR a přepínání kanálů."
+
+msgctxt "#36227"
+msgid "Switch to full screen display when starting playback of channels."
+msgstr "Při spuštění přehrávání kanálů přepnout na zobrazení na celou obrazovku."
 
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."

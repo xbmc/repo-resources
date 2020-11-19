@@ -631,7 +631,7 @@ msgstr "Pistas"
 
 msgctxt "#183"
 msgid "Review"
-msgstr "Revisión"
+msgstr "Crítica"
 
 msgctxt "#184"
 msgid "Refresh"
@@ -1531,7 +1531,7 @@ msgstr "Manual"
 
 msgctxt "#414"
 msgid "No review for this album"
-msgstr "Sen revisións para este álbum"
+msgstr "Sen críticas para este álbum"
 
 msgctxt "#415"
 msgid "Downloading thumbnail..."
@@ -2701,6 +2701,10 @@ msgctxt "#751"
 msgid "Removing source"
 msgstr "Borrando fonte"
 
+msgctxt "#752"
+msgid "Opacity"
+msgstr "Opacidade"
+
 msgctxt "#754"
 msgid "Add program link"
 msgstr "Engandir ligazón do programa"
@@ -2752,6 +2756,10 @@ msgstr "Gris claro"
 msgctxt "#767"
 msgid "Grey"
 msgstr "Gris"
+
+msgctxt "#768"
+msgid "Dark Grey"
+msgstr "Gris escuro"
 
 msgctxt "#770"
 msgid "Error {0:d}: share not available"
@@ -2893,9 +2901,33 @@ msgctxt "#823"
 msgid "Timer rule (guide-based)"
 msgstr "Regra do temporizador (baseado na guía)"
 
+msgctxt "#824"
+msgid "Reminder: {0:s}"
+msgstr "Recordatorio: {0:s}"
+
+msgctxt "#825"
+msgid "Recording: {0:s}"
+msgstr "Gravación: {0:s}"
+
+msgctxt "#826"
+msgid "Set reminder"
+msgstr "Definir recordatorio"
+
+msgctxt "#827"
+msgid "Delete reminder"
+msgstr "Eliminar recordatorio"
+
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Regra do temporizador eleminada"
+
+msgctxt "#829"
+msgid "View reminder"
+msgstr "Ver recordatorio"
+
+msgctxt "#830"
+msgid "Edit reminder"
+msgstr "Editar recordatorio"
 
 msgctxt "#831"
 msgid "Mondays"
@@ -2925,6 +2957,10 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Domingos"
 
+msgctxt "#839"
+msgid "Live"
+msgstr "En directo"
+
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
 msgstr "Queres eliminar este temporizador ou só a regra que o programou?"
@@ -2932,6 +2968,10 @@ msgstr "Queres eliminar este temporizador ou só a regra que o programou?"
 msgctxt "#841"
 msgid "Only this"
 msgstr "Só este"
+
+msgctxt "#842"
+msgid "New"
+msgstr "Nova"
 
 msgctxt "#843"
 msgid "Activate"
@@ -3996,6 +4036,10 @@ msgstr "Configuración do complemento"
 msgctxt "#10142"
 msgid "Fullscreen info"
 msgstr "Info. a pantalla completa"
+
+msgctxt "#10145"
+msgid "Slider dialog"
+msgstr "Diálogo esvarante"
 
 msgctxt "#10146"
 msgid "Add-on info"
@@ -5516,6 +5560,14 @@ msgstr "Método de renderizado PRIME"
 msgctxt "#13465"
 msgid "EGL"
 msgstr "EGL"
+
+msgctxt "#13466"
+msgid "1080 / 720 (>30Hz)"
+msgstr "1080 / 720 (>30Hz)"
+
+msgctxt "#13467"
+msgid "Unlimited / 1080 (>30Hz)"
+msgstr "Ilimitado / 1080 (>30Hz)"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -7113,6 +7165,14 @@ msgctxt "#19062"
 msgid "Sort by: Channel"
 msgstr "Ordenar por: Canle"
 
+msgctxt "#19063"
+msgid "First programme"
+msgstr "Primeiro programa"
+
+msgctxt "#19064"
+msgid "Last programme"
+msgstr "Último programa"
+
 msgctxt "#19065"
 msgid "Timer settings"
 msgstr "Axuste do temporizador"
@@ -7132,6 +7192,10 @@ msgstr "Axustes de gravación"
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Guía"
+
+msgctxt "#19070"
+msgid "Current programme"
+msgstr "Programa actual"
 
 msgctxt "#19071"
 msgid "Update interval"
@@ -7221,6 +7285,10 @@ msgctxt "#19093"
 msgid "Instant recording: {0:s}"
 msgstr "Gravación instantánea: {0:s}"
 
+msgctxt "#19094"
+msgid "Timer creation failed. Unsupported timer type."
+msgstr "Fallou a creación do temporizador. Tipo de temporizador non soportado."
+
 msgctxt "#19096"
 msgid "\"Smart select\""
 msgstr "\"Selección intelixente\""
@@ -7268,6 +7336,14 @@ msgstr "ás"
 msgctxt "#19108"
 msgid "Fallback framerate"
 msgstr "Fotogramas por segundo de reserva"
+
+msgctxt "#19109"
+msgid "Could not save the timer. Check the log for more information about this message."
+msgstr "Non foi posíbel gardar o temporizador. Busca no rexistro para máis información canto a esta mensaxe."
+
+msgctxt "#19110"
+msgid "Could not delete the timer. Check the log for more information about this message."
+msgstr "Non foi posíbel eliminar o temporizador. Busca no rexistro para máis información canto a esta mensaxe."
 
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
@@ -7564,6 +7640,10 @@ msgstr "Gravacións eliminadas"
 msgctxt "#19185"
 msgid "Clear data"
 msgstr "Limpar datos"
+
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "Toda a túa información da TV (canles, grupos, guías, temporizadores, clientes) vai ser eliminada. Estás certo/a?"
 
 msgctxt "#19187"
 msgid "Clearing all related data."
@@ -8013,6 +8093,46 @@ msgctxt "#19303"
 msgid "Close channel OSD after switching channels"
 msgstr "Pechar o OSD despois de trocar de canle"
 
+msgctxt "#19317"
+msgid "12 hours back"
+msgstr "12 horas atrás "
+
+msgctxt "#19318"
+msgid "12 hours forward"
+msgstr "12 horas adiante"
+
+msgctxt "#19319"
+msgid "Previous group"
+msgstr "Grupo previo"
+
+msgctxt "#19320"
+msgid "Next group"
+msgstr "Seguinte grupo"
+
+msgctxt "#19321"
+msgid "Group selector"
+msgstr "Selector de grupo"
+
+msgctxt "#19322"
+msgid "First channel"
+msgstr "Primeira canle"
+
+msgctxt "#19323"
+msgid "Playing channel"
+msgstr "Canle en reproducción"
+
+msgctxt "#19324"
+msgid "Last channel"
+msgstr "Última canle"
+
+msgctxt "#19325"
+msgid "Programme"
+msgstr "Program"
+
+msgctxt "#19326"
+msgid "Navigate..."
+msgstr "Ir a..."
+
 msgctxt "#19499"
 msgid "Other / Unknown"
 msgstr "Outro / Descoñecido"
@@ -8380,6 +8500,10 @@ msgstr "Guía de TV"
 msgctxt "#19687"
 msgid "Play recording"
 msgstr "Reproducir gravación"
+
+msgctxt "#19690"
+msgid "PVR has scheduled a reminder for '{0:s}' on channel '{1:s}' in {2:s}."
+msgstr "O PVR programau un recordatorio para '{0:s}' na canle '{1:s}' en {2:s}."
 
 msgctxt "#19691"
 msgid "PVR is currently recording '{0:s}' on channel '{1:s}'."
@@ -9087,7 +9211,7 @@ msgstr "Notificar as actualizacións da biblioteca"
 
 msgctxt "#20189"
 msgid "Enable auto scrolling for plot & review"
-msgstr "Activar autodesprazamento para a sinopse  e a reportaxe"
+msgstr "Activar autodesprazamento para a sinopse  e a crítica"
 
 msgctxt "#20190"
 msgid "Custom"
@@ -9148,6 +9272,10 @@ msgstr "Cartafol de información do artista"
 msgctxt "#20224"
 msgid "Prefer online album art"
 msgstr "Preferir o arte en liña do álbum"
+
+msgctxt "#20225"
+msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
+msgstr "Se non existe unha capa local para o álbum, empregarase unha en liña. Se non ningunha está dispoñíbel, empregarase a anexada ao ficheiro de música."
 
 msgctxt "#20240"
 msgid "Android music"
@@ -11529,6 +11657,26 @@ msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "O complemento non é compatíbel con esta versión do Kodi."
 
+msgctxt "#24156"
+msgid "30 Seconds"
+msgstr "30 segundos"
+
+msgctxt "#24157"
+msgid "60 Seconds"
+msgstr "60 segundos"
+
+msgctxt "#24158"
+msgid "90 Seconds"
+msgstr "90 segundos"
+
+msgctxt "#24159"
+msgid "120 Seconds"
+msgstr "120 segundos"
+
+msgctxt "#24162"
+msgid "Use Kodi virtual keyboard"
+msgstr "Empregar o teclado virtual do Kodi"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Non se puido conectar ao repositorio."
@@ -13689,6 +13837,10 @@ msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "Ao presionar os botóns arriba ou abaixo de canles, retrásase o troco, permitindo ao usuario a ir a un número de canle sen ter que esperar por cada troco de canle."
 
+msgctxt "#36233"
+msgid "This category contains settings for recordings."
+msgstr "Está categoría contén os axustes para as gravacións."
+
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
 msgstr "Duración das gravacións instantáneas ao presionar o botón de gravación. Este valor terase en conta se \"Acción de gravación instantánea\" está fixado como \"Gravar un periodo fixado de tempo\""
@@ -13920,6 +14072,18 @@ msgstr "Esta categoría contén os axustes de inicio."
 msgctxt "#36293"
 msgid "Select the folder where artist information (nfo files and images) should be saved in."
 msgstr "Selecciona o cartafol onde gardar a información dos artistas (ficheiros nfo e imaxes)."
+
+msgctxt "#36295"
+msgid "Set the the subtitle opacity."
+msgstr "Definir a opacidade dos subtítulos"
+
+msgctxt "#36296"
+msgid "This category contains settings for reminders."
+msgstr "Esta categoría contén os axustes de recordatorios."
+
+msgctxt "#36300"
+msgid "Select the folder where movie set information (images) are saved locally."
+msgstr "Seleccionar o cartafol onde a información do filme (imaxes) é gardada localmente."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14425,6 +14589,10 @@ msgctxt "#36435"
 msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
 msgstr "Usar o Reprodutor de Vídeo (VideoPlayer) para decodificar arquivos de vídeo con aceleración MMAL."
 
+msgctxt "#36436"
+msgid "Select OS keyboard layout."
+msgstr "Escoller a disposición do teclado do SO."
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Definir o número de pasos de control do volume."
@@ -14849,6 +15017,10 @@ msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
 msgstr "Habilitar descalado de alta calidade de imaxes (usa máis memoria e ten un impacto no resultado moderado)."
 
+msgctxt "#36621"
+msgid "Maximum protocol version"
+msgstr "Versión máxima do protocolo"
+
 msgctxt "#36623"
 msgid "None"
 msgstr "Ningún"
@@ -14868,6 +15040,10 @@ msgstr "SMBv3"
 msgctxt "#36627"
 msgid "Client"
 msgstr "Cliente"
+
+msgctxt "#36628"
+msgid "Minimum protocol version"
+msgstr "Versión mínima do protocolo"
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -15285,9 +15461,37 @@ msgctxt "#38073"
 msgid "Do you want to refresh information for this item now?"
 msgstr "Queres actualizar a información deste elemento agora?"
 
+msgctxt "#38075"
+msgid "* All discs"
+msgstr "* Tódolos discos"
+
+msgctxt "#38076"
+msgid "Disc title"
+msgstr "Título do disco"
+
+msgctxt "#38077"
+msgid "Total discs"
+msgstr "Total de discos"
+
+msgctxt "#38078"
+msgid "Original year"
+msgstr "Ano orixinal"
+
+msgctxt "#38079"
+msgid "Original date"
+msgstr "Data orixinal"
+
+msgctxt "#38080"
+msgid "BPM"
+msgstr "BPM"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sección que contén os axustes da reprodución de medios"
+
+msgctxt "#38101"
+msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
+msgstr "Sección que contén os axustes das fontes e como a información dos medios é obtida, gardada, amosada e como navegar por ela"
 
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
@@ -15328,6 +15532,10 @@ msgstr "Esta categoría contén os axustes das bases de datos das bibliotecas"
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
 msgstr "Esta categoría contén outros axustes da interface gráfica"
+
+msgctxt "#38112"
+msgid "Automatically go to the visualisation window when audio playback starts"
+msgstr "Ir automaticamente á xanela de visualización cando comeza a reprodución de son"
 
 msgctxt "#38190"
 msgid "Extract thumbnails from video files"
@@ -15436,6 +15644,22 @@ msgstr "Seleccionar como aplicar os axustes"
 msgctxt "#38339"
 msgid "How to apply information provider settings"
 msgstr "Como aplicar os axustes do fornecedor de información"
+
+msgctxt "#38350"
+msgid "Importing song playback history"
+msgstr "Importando o historial de reprodución da canción"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Casando datos"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Actualizando cancións"
+
+msgctxt "#38353"
+msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
+msgstr "Importando o historial da canción - actualizadas {0:d} de {0:d} cancións importadas"
 
 msgctxt "#38354"
 msgid "Unable to read xml file"

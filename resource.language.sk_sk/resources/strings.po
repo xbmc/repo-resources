@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk_SK\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -2709,6 +2709,10 @@ msgctxt "#751"
 msgid "Removing source"
 msgstr "Odstraňuje sa zdroj"
 
+msgctxt "#752"
+msgid "Opacity"
+msgstr "Krytie"
+
 msgctxt "#754"
 msgid "Add program link"
 msgstr "Pridať odkaz programu"
@@ -2889,6 +2893,10 @@ msgctxt "#818"
 msgid "Max recordings"
 msgstr "Max. počet nahrávok"
 
+msgctxt "#819"
+msgid "One time (Scheduled by timer rule)"
+msgstr "Len raz (Naplánované pomocou pravidla časovača)"
+
 msgctxt "#820"
 msgid "One time"
 msgstr "Iba raz"
@@ -2904,6 +2912,14 @@ msgstr "Pravidlo časovača"
 msgctxt "#823"
 msgid "Timer rule (guide-based)"
 msgstr "Pravidlo časovača (podľa TV programu)"
+
+msgctxt "#824"
+msgid "Reminder: {0:s}"
+msgstr "Pripomienka: {0:s}"
+
+msgctxt "#825"
+msgid "Recording: {0:s}"
+msgstr "Nahrávanie: {0:s}"
 
 msgctxt "#826"
 msgid "Set reminder"
@@ -2953,6 +2969,14 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Nedele"
 
+msgctxt "#838"
+msgid "Première"
+msgstr "Premiéra"
+
+msgctxt "#839"
+msgid "Live"
+msgstr "Naživo"
+
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
 msgstr "Chcete odstrániť iba tento časovač alebo aj pravidlo časovača, ktoré ho naplánovalo?"
@@ -2960,6 +2984,10 @@ msgstr "Chcete odstrániť iba tento časovač alebo aj pravidlo časovača, kto
 msgctxt "#841"
 msgid "Only this"
 msgstr "Iba tento"
+
+msgctxt "#842"
+msgid "New"
+msgstr "Nové"
 
 msgctxt "#843"
 msgid "Activate"
@@ -2984,6 +3012,10 @@ msgstr "Potvrdenie zastavenia nahrávania"
 msgctxt "#848"
 msgid "Are you sure you want to stop this recording?"
 msgstr "Skutočne chcete zastaviť toto nahrávanie?"
+
+msgctxt "#849"
+msgid "Finale"
+msgstr "Finále"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -4453,6 +4485,10 @@ msgctxt "#12342"
 msgid "Incorrect password,"
 msgstr "Nesprávne heslo,"
 
+msgctxt "#12343"
+msgid "retries left"
+msgstr "opakovaní zostáva"
+
 msgctxt "#12344"
 msgid "Passwords entered did not match."
 msgstr "Zadané heslá nie sú totožné."
@@ -5481,6 +5517,10 @@ msgctxt "#13435"
 msgid "Enable HQ scalers for scaling above"
 msgstr "Povoliť vysokokvalitné škálovacie algoritmy pre zväčšenie obrazu"
 
+msgctxt "#13436"
+msgid "Use display HDR capabilities"
+msgstr "Použiť HDR možnosti obrazovky"
+
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
 msgstr "Uprednostniť zmiešavač videa VPDAU"
@@ -5585,6 +5625,14 @@ msgctxt "#13465"
 msgid "EGL"
 msgstr "EGL"
 
+msgctxt "#13466"
+msgid "1080 / 720 (>30Hz)"
+msgstr "1080 / 720 (>30Hz)"
+
+msgctxt "#13467"
+msgid "Unlimited / 1080 (>30Hz)"
+msgstr "Neobmedzené / 1080 (>30Hz)"
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Kvalita zmeny rýchlosti"
@@ -5652,6 +5700,10 @@ msgstr "Vložený fanart"
 msgctxt "#13521"
 msgid "Choose art type"
 msgstr "Vybrať typ grafiky"
+
+msgctxt "#13522"
+msgid "Split albums into individual discs"
+msgstr "Rozdeliť albumy na jednotlivé disky"
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -7205,6 +7257,14 @@ msgctxt "#19062"
 msgid "Sort by: Channel"
 msgstr "Zoradiť podľa: kanál"
 
+msgctxt "#19063"
+msgid "First programme"
+msgstr "Prvý program"
+
+msgctxt "#19064"
+msgid "Last programme"
+msgstr "Posledný program"
+
 msgctxt "#19065"
 msgid "Timer settings"
 msgstr "Nastavenia časovača"
@@ -7224,6 +7284,10 @@ msgstr "Nastavenia nahrávania"
 msgctxt "#19069"
 msgid "Guide"
 msgstr "TV program"
+
+msgctxt "#19070"
+msgid "Current programme"
+msgstr "Aktuálny program"
 
 msgctxt "#19071"
 msgid "Update interval"
@@ -7313,6 +7377,14 @@ msgctxt "#19093"
 msgid "Instant recording: {0:s}"
 msgstr "Okamžité nahrávanie: {0:s}"
 
+msgctxt "#19094"
+msgid "Timer creation failed. Unsupported timer type."
+msgstr "Vytvorenie časovača zlyhalo. Nepodporovaný typ časovača."
+
+msgctxt "#19095"
+msgid "Timer rule creation failed. Unsupported timer type."
+msgstr "Vytvorenie pravidla pre časovač zlyhalo. Nepodporovaný typ časovača."
+
 msgctxt "#19096"
 msgid "\"Smart select\""
 msgstr "\"Inteligentný výber\""
@@ -7352,6 +7424,10 @@ msgstr "Zadajte názov priečinka pre nahrávanie"
 msgctxt "#19105"
 msgid "Please select a channel"
 msgstr "Vyberte si, prosím, kanál"
+
+msgctxt "#19106"
+msgid "Next recording on"
+msgstr "Nasledujúce nahrávanie"
 
 msgctxt "#19107"
 msgid "at"
@@ -7781,6 +7857,10 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Zadajte platnú URL hodnotu pre nový kanál"
 
+msgctxt "#19215"
+msgid "Reminders"
+msgstr "Pripomienky"
+
 msgctxt "#19216"
 msgid "All radio channels"
 msgstr "Všetky rozhlasové kanály"
@@ -7916,6 +7996,10 @@ msgstr "Čas prebúdzania z režimu spánku (HH:MM:SS)"
 msgctxt "#19249"
 msgid "Filter channels"
 msgstr "Filtrovať kanály"
+
+msgctxt "#19250"
+msgid "TV and radio channels"
+msgstr "Televízne a rádiové kanály"
 
 msgctxt "#19251"
 msgid "Update guide information"
@@ -8128,6 +8212,30 @@ msgstr "Zavrieť OSD kanálu po prepnutí kanálov "
 msgctxt "#19304"
 msgid "View timer rule"
 msgstr "Zobraziť pravidlá časovača"
+
+msgctxt "#19317"
+msgid "12 hours back"
+msgstr "12 hodín dozadu"
+
+msgctxt "#19318"
+msgid "12 hours forward"
+msgstr "12 hodín dopredu"
+
+msgctxt "#19319"
+msgid "Previous group"
+msgstr "Predošlá skupina"
+
+msgctxt "#19320"
+msgid "Next group"
+msgstr "Nasledovná skupina"
+
+msgctxt "#19325"
+msgid "Programme"
+msgstr "Program"
+
+msgctxt "#19326"
+msgid "Navigate..."
+msgstr "Navigovať..."
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9031,23 +9139,23 @@ msgstr "Automatické vypnutie"
 
 msgctxt "#20145"
 msgid "Shutdown interval (in minutes)"
-msgstr "Vypnúť za (v minútach)"
+msgstr "Vypnúť o (v minútach)"
 
 msgctxt "#20146"
 msgid "Started, shutdown in {0:d}m"
-msgstr "Spustené, vypnutie za {0:d}m"
+msgstr "Spustené, vypnutie o {0:d}m"
 
 msgctxt "#20147"
 msgid "Shutdown in 30 minutes"
-msgstr "Vypnutie za 30 minút"
+msgstr "Vypnutie o 30 minút"
 
 msgctxt "#20148"
 msgid "Shutdown in 60 minutes"
-msgstr "Vypnutie za 60 minút"
+msgstr "Vypnutie o 60 minút"
 
 msgctxt "#20149"
 msgid "Shutdown in 120 minutes"
-msgstr "Vypnutie za 120 minút"
+msgstr "Vypnutie o 120 minút"
 
 msgctxt "#20150"
 msgid "Custom shutdown timer"
@@ -11653,6 +11761,22 @@ msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "Tento doplnok nie je kompatibilný s touto verziou Kodi."
 
+msgctxt "#24156"
+msgid "30 Seconds"
+msgstr "30 sekúnd"
+
+msgctxt "#24157"
+msgid "60 Seconds"
+msgstr "60 sekúnd"
+
+msgctxt "#24158"
+msgid "90 Seconds"
+msgstr "90 sekúnd"
+
+msgctxt "#24159"
+msgid "120 Seconds"
+msgstr "120 sekúnd"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Nepodarilo sa pripojiť do repozitára."
@@ -13763,7 +13887,7 @@ msgstr "Vyberte si predvolený zdroj informácií o hudobných videách. Všetky
 
 msgctxt "#36201"
 msgid "Settings for PVR & Live TV."
-msgstr "Nastavenia pre PVR a televíziu."
+msgstr "Nastavenia pre PVR a živú televíziu."
 
 msgctxt "#36202"
 msgid "This category contains the general settings for the PVR & Live TV."
@@ -13872,6 +13996,10 @@ msgstr "Počas prepínania kanálov tlačidlami kanál nahor/nadol musia byť pr
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "Pri stlačení tlačidiel kanál + a kanál - je prepnutie kanálu pozdržané, aby používateľ mohol nalistovať konkrétny kanál bez čakania na jednotlivé prepnutia medzi kanálmi."
+
+msgctxt "#36233"
+msgid "This category contains settings for recordings."
+msgstr "Táto kategória obsahuje nastavenia pre nahrávanie."
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
@@ -15533,6 +15661,34 @@ msgctxt "#38073"
 msgid "Do you want to refresh information for this item now?"
 msgstr "Chcete teraz obnoviť informácie pre túto položku?"
 
+msgctxt "#38074"
+msgid "Boxsets"
+msgstr "Boxsety"
+
+msgctxt "#38075"
+msgid "* All discs"
+msgstr "* Všetky disky"
+
+msgctxt "#38076"
+msgid "Disc title"
+msgstr "Názov disku"
+
+msgctxt "#38077"
+msgid "Total discs"
+msgstr "Celkovo diskov"
+
+msgctxt "#38078"
+msgid "Original year"
+msgstr "Pôvodný rok"
+
+msgctxt "#38079"
+msgid "Original date"
+msgstr "Pôvodný dátum"
+
+msgctxt "#38080"
+msgid "BPM"
+msgstr "BPM"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Sekcia, ktorá obsahuje nastavenia pre prehrávanie médií"
@@ -15924,3 +16080,7 @@ msgstr "Obsah epizódy"
 msgctxt "#39117"
 msgid "Verbose logging for the [B]Announcer[/B] component"
 msgstr "Detailné protokolovanie pre komponent [B]Announcer[/B]"
+
+msgctxt "#39118"
+msgid "Share debug log"
+msgstr "Zdielať debug log"

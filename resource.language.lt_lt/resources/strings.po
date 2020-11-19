@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt_LT\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -2969,6 +2969,14 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Sekmadieniais"
 
+msgctxt "#838"
+msgid "Première"
+msgstr "Premjera"
+
+msgctxt "#839"
+msgid "Live"
+msgstr "Tiesiogiai"
+
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
 msgstr "Ar norite pašalinti tik šį laikmatį ar kartu ir laikmačio taisyklę, kuri jį sukūrė?"
@@ -2976,6 +2984,10 @@ msgstr "Ar norite pašalinti tik šį laikmatį ar kartu ir laikmačio taisyklę
 msgctxt "#841"
 msgid "Only this"
 msgstr "Tik šį"
+
+msgctxt "#842"
+msgid "New"
+msgstr "Naujiena"
 
 msgctxt "#843"
 msgid "Activate"
@@ -3000,6 +3012,10 @@ msgstr "Patvirtinti įrašymo sustabdymą"
 msgctxt "#848"
 msgid "Are you sure you want to stop this recording?"
 msgstr "Ar tikrai norite sustabdyti šį įrašymą?"
+
+msgctxt "#849"
+msgid "Finale"
+msgstr "Finalas"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -5613,6 +5629,14 @@ msgctxt "#13465"
 msgid "EGL"
 msgstr "EGL"
 
+msgctxt "#13466"
+msgid "1080 / 720 (>30Hz)"
+msgstr "1080 / 720 (>30Hz)"
+
+msgctxt "#13467"
+msgid "Unlimited / 1080 (>30Hz)"
+msgstr "Neribotai / 1080 (>30Hz)"
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Diskretizavimo dažnio keitimo kokybė"
@@ -7993,6 +8017,10 @@ msgctxt "#19249"
 msgid "Filter channels"
 msgstr "Filtruoti kanalus"
 
+msgctxt "#19250"
+msgid "TV and radio channels"
+msgstr "Televizijos ir radijo kanalai"
+
 msgctxt "#19251"
 msgid "Update guide information"
 msgstr "Atnaujinti TV gido informaciją"
@@ -8664,6 +8692,10 @@ msgstr "Kanalo gidas"
 msgctxt "#19687"
 msgid "Play recording"
 msgstr "Atkurti įrašą"
+
+msgctxt "#19690"
+msgid "PVR has scheduled a reminder for '{0:s}' on channel '{1:s}' in {2:s}."
+msgstr "PVR suplanavo '{0:s}' įrašymą kanale '{1:s}' po {2:s}."
 
 msgctxt "#19691"
 msgid "PVR is currently recording '{0:s}' on channel '{1:s}'."
@@ -10247,7 +10279,7 @@ msgstr "Nekategorizuotas"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
-msgstr "Įjungti UPnPpalaikymą"
+msgstr "Įjungti UPnP palaikymą"
 
 msgctxt "#21359"
 msgid "Add media share..."
@@ -11829,6 +11861,18 @@ msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "Priedas yra nesuderinamas su šia Kodi versija."
 
+msgctxt "#24153"
+msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
+msgstr "Įjunkite, jei norite kad Siri nuotolinio valdymo pultas atitiktų normalią Apple tvOS elgseną"
+
+msgctxt "#24154"
+msgid "Idle remote handling after N seconds"
+msgstr "Užmigdyti nuotolinio valdymo pulto signalo apdorojimą po N sekundžių"
+
+msgctxt "#24155"
+msgid "After remote idles, the first tap/swipe received will wake it"
+msgstr "Kai nuotolinio valdymo pulto signalo apdorojimas užmigdytas, pirmasis gautas signalas jį pažadins"
+
 msgctxt "#24156"
 msgid "30 Seconds"
 msgstr "30 sekundžių"
@@ -11849,9 +11893,17 @@ msgctxt "#24160"
 msgid "Enable Siri remote timeout"
 msgstr "Įgalinti Siri nuotolinio valdymo pulto laukimo laiką"
 
+msgctxt "#24161"
+msgid "Enable remote input timeout for tap/swipe"
+msgstr "Įgalinti nuotolinio valdymo pulto įvesties laukimo laiką bakstelėjimui/perbraukimui"
+
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Naudoti virtualią Kodi klaviatūrą"
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr "Atitikti Apple tvOS standartą (Siri nuotolinio valdymo pultas)"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -13977,6 +14029,14 @@ msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Importuoti kanalų grupes iš PVR posistemės (jei jos palaikomos). Vartotojo sukurtos grupės, kurios nebus rastos posistemėje, bus ištrintos."
 
+msgctxt "#36205"
+msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
+msgstr "Rūšiuoti kanalus pagal kanalo numerį iš posistemės, tačiau naudoti lokalią kanalų numeraciją."
+
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend. Only works with one enabled PVR add-on!"
+msgstr "Naudoti kanalų numeraciją iš posistemės. Veikia tik kai įjungtas vienas PVR priedas!"
+
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
 msgstr "Atidaryti kanalų tvarkyklę, kuri leidžia pakeisti kanalo vietą sąraše, kanalo pavadinimą, piktogramą ir t.t."
@@ -14052,6 +14112,10 @@ msgstr "Pašalinti TV gido duomenis iš podėlio ir iš naujo importuoti juos i�
 msgctxt "#36226"
 msgid "This category contains the PVR playback and channel switching settings."
 msgstr "Šioje kategorijoje yra PVR atkūrimo ir kanalų perjungimo nustatymai."
+
+msgctxt "#36227"
+msgid "Switch to full screen display when starting playback of channels."
+msgstr "Perjungti į viso ekrano režimą, kai pradedamas kanalo atkūrimas."
 
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."
@@ -14329,9 +14393,25 @@ msgctxt "#36296"
 msgid "This category contains settings for reminders."
 msgstr "Šioje kategorijoje yra priminimų nustatymai."
 
+msgctxt "#36297"
+msgid "Choose a time in seconds after which PVR reminder popups will be automatically closed."
+msgstr "Pasirinkite laiką sekundėmis, kuriam praėjus iššokantis PVR priminimo langas bus automatiškai uždarytas."
+
 msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
 msgstr "Kai įjungta, bus pridėtas suplanuotas programos įrašymas, jei jos priminimo iššokantis langas buvo uždarytas automatiškai ir jei tai palaiko PVR priedas ir posistemė."
+
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.\nIf disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "Perjungti ekraną į HDR režimą, jei atkuriamas medija įrašas su HDR infomacija. Jei išjungta, HDR informacija bus pritaikoma naudojant vidinį Kodi HDR kelią."
+
+msgctxt "#36300"
+msgid "Select the folder where movie set information (images) are saved locally."
+msgstr "Pasirinkite aplanką, kuriame yra lokaliai išsaugota filmų rinkinio informacija (atvaizdai)."
+
+msgctxt "#36301"
+msgid "No 'Movie set information folder' is configured to store movie set images so they will not be exported. Do you want to proceed?"
+msgstr "'Filmų rinkinio informacijos aplankas' nėra sukonfigūruotas filmų rinkinių vaizdams saugoti, todėl jie nebus eksportuojami. Ar norite tęsti?"
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14348,6 +14428,10 @@ msgstr "Skyrius, kuriame yra su nuotraukomis ir jų tvarkymu susiję nustatymai.
 msgctxt "#36305"
 msgid "This category contains the settings for how picture file lists are handled."
 msgstr "Šioje kategorijoje yra nustatymai, skirti nuotraukų failų sąrašų tvarkymui."
+
+msgctxt "#36306"
+msgid "If not using backend channel numbers then start all groups channel numbers from 1."
+msgstr "Jei nenaudojama posistemės kanalų numeracija, tada pradėti visų grupių numeraciją nuo 1."
 
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
@@ -14452,6 +14536,10 @@ msgstr "Pasirinkite iš įdiegtų žiniatinklio sąsajų, naudodami priedų tvar
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Šioje kategorijoje yra nustatymai, skirti nuotolinio valdymo paslaugos tvarkymui."
+
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the web interface or the JSON-RPC interface protocol."
+msgstr "Leisti programoms, esančioms šiame įrenginyje, valdyti šią programą naudojant žiniatinklio sąsajos ar JSON-RPC sąsajos protokolą."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -15824,6 +15912,10 @@ msgstr "Šioje kategorijoje yra bibliotekos duomenų bazių nustatymai"
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
 msgstr "Šioje kategorijoje yra kiti vartotojo sąsajos nustatymai"
+
+msgctxt "#38112"
+msgid "Automatically go to the visualisation window when audio playback starts"
+msgstr "Automatiškai atidaryti vizualizacijos langą pradėjus garso įrašo atkūrimą."
 
 msgctxt "#38190"
 msgid "Extract thumbnails from video files"
