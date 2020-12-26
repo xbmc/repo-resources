@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt_LT\n"
-"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4721,14 +4721,6 @@ msgctxt "#13023"
 msgid "Successfully removed storage device"
 msgstr "Saugyklos įrenginys sėkmingai atjungtas"
 
-msgctxt "#13024"
-msgid "Joystick plugged"
-msgstr "Vairalazdė prijungta"
-
-msgctxt "#13025"
-msgid "Joystick unplugged"
-msgstr "Vairalazdė atjungta"
-
 msgctxt "#13026"
 msgid "Try to wakeup remote servers on access"
 msgstr "Mėginti pažadinti nuotolinius serverius prisijungiant"
@@ -5349,10 +5341,6 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "Ši vizualizacija neturi išankstinių parinkčių"
 
-msgctxt "#13390"
-msgid "There are no settings available\nfor this visualisation"
-msgstr "Ši vizualizacija\nneturi jokių nustatymų"
-
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Atidaryti / Uždaryti"
@@ -5496,10 +5484,6 @@ msgstr "Leisti aparatinės įrangos spartinimą - CrystalHD"
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Leisti aparatinės įrangos spartinimą - VTBDecoder"
-
-msgctxt "#13430"
-msgid "Allow hardware acceleration - PRIME"
-msgstr "Leisti aparatinės įrangos spartinimą - PRIME"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -6089,10 +6073,6 @@ msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Pridėti pasirinktas dainas į eilę"
 
-msgctxt "#14085"
-msgid "Whitelist"
-msgstr "Baltasis sąrašas"
-
 msgctxt "#14086"
 msgid "Playback"
 msgstr "Atkūrimas"
@@ -6252,6 +6232,10 @@ msgstr "Regionas C"
 msgctxt "#14125"
 msgid "Input"
 msgstr "Įvestis"
+
+msgctxt "#14126"
+msgid "Whitelist"
+msgstr "Baltasis sąrašas"
 
 msgctxt "#14200"
 msgid "Player"
@@ -6877,10 +6861,6 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "Bilinear"
 
-msgctxt "#16303"
-msgid "Bicubic"
-msgstr "Bicubic"
-
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6972,22 +6952,6 @@ msgstr "VAAPI - Judesio pritaikymas"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Judesio kompensavimas"
-
-msgctxt "#16330"
-msgid "MMAL - Advanced"
-msgstr "MMAL - Išplėstinis"
-
-msgctxt "#16331"
-msgid "MMAL - Advanced (half)"
-msgstr "MMAL - Išplėstinis (pusė)"
-
-msgctxt "#16332"
-msgid "MMAL - Bob"
-msgstr "MMAL - Bob"
-
-msgctxt "#16333"
-msgid "MMAL - Bob (half)"
-msgstr "MMAL - Bob (pusė)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -7184,14 +7148,6 @@ msgstr "Ar tikrai norite paslėpti šį kanalą?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Laikmačiai"
-
-msgctxt "#19041"
-msgid "Are you sure you want to rename this recording?"
-msgstr "Ar tikrai norite pervadinti šį įrašą?"
-
-msgctxt "#19042"
-msgid "Are you sure you want to rename this timer?"
-msgstr "Ar tikrai norite pervadinti šį laikmatį?"
 
 msgctxt "#19043"
 msgid "Recording"
@@ -10261,10 +10217,6 @@ msgctxt "#21341"
 msgid "No updates available"
 msgstr "Atnaujinimas nerastas"
 
-msgctxt "#21342"
-msgid "There are currently no updates available for this add-on."
-msgstr "Šiuo metu šiam priedui prieinamų atnaujinimų nėra."
-
 msgctxt "#21343"
 msgid "Use video tags"
 msgstr "Naudoti video žymas"
@@ -11537,10 +11489,6 @@ msgctxt "#24068"
 msgid "Update available"
 msgstr "Galimas atnaujinimas"
 
-msgctxt "#24069"
-msgid "Update"
-msgstr "Atnaujinti"
-
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
 msgstr "Priedas negali būti įkeltas."
@@ -11745,10 +11693,6 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Įveskite paieškos eilutę"
 
-msgctxt "#24122"
-msgid "Update all"
-msgstr "Atnaujinti visus"
-
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
 msgstr "Laikinai pristabdyti vaizdo įrašo atkūrimą ieškant subtitrų ir tęsti atkūrimą, kai tik subtitrai taps prieinami."
@@ -11804,6 +11748,10 @@ msgstr "Norint naudoti šią funkciją, reikia įjungti šį priedą:"
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "Ar norėtumėte įjungti šį priedą?"
+
+msgctxt "#24138"
+msgid "Update"
+msgstr "Atnaujinti"
 
 msgctxt "#24139"
 msgid "View Add-on"
@@ -11905,6 +11853,14 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "Atitikti Apple tvOS standartą (Siri nuotolinio valdymo pultas)"
 
+msgctxt "#24169"
+msgid "Normal"
+msgstr "Normalus"
+
+msgctxt "#24171"
+msgid "Broken"
+msgstr "Pavieniai"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Neįmanoma prisijungti prie saugyklos."
@@ -11996,6 +11952,10 @@ msgstr "Automatinis praleidimas išjungtas"
 msgctxt "#25013"
 msgid "Auto-skip on"
 msgstr "Automatinis praleidimas įjungtas"
+
+msgctxt "#25014"
+msgid "Manual"
+msgstr "Rankiniu būdu"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -13089,14 +13049,6 @@ msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "Pastumkite {0:s} kairėn ({1:d})"
 
-msgctxt "#35100"
-msgid "Enable joystick and gamepad support"
-msgstr "Įjungti vairalazdės ir žaidimų pulto palaikymą"
-
-msgctxt "#35102"
-msgid "Disable joystick when this device is present"
-msgstr "Išjungti vairalasdę, kai šis įrenginys veikia"
-
 msgctxt "#35103"
 msgid "Buttons"
 msgstr "Mygtukai"
@@ -13897,10 +13849,6 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Pasirinkite priartinimo lygį, kuriuo 4:3 formato vaizdo įrašai bus rodomi plačiaekraniuose televizoriuose."
 
-msgctxt "#36172"
-msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "Įjungti PRIME aparatinės įrangos video failų dekodavimą, kuris bus naudojamas, jei prieinamas ffmpeg PRIME hwaccel."
-
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Pasirinkite, kurį trumpą datos formatą naudoti datos atvaizdavimui vartotojo sąsajoje."
@@ -14033,10 +13981,6 @@ msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
 msgstr "Rūšiuoti kanalus pagal kanalo numerį iš posistemės, tačiau naudoti lokalią kanalų numeraciją."
 
-msgctxt "#36206"
-msgid "Use the channel numbering from the backend. Only works with one enabled PVR add-on!"
-msgstr "Naudoti kanalų numeraciją iš posistemės. Veikia tik kai įjungtas vienas PVR priedas!"
-
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
 msgstr "Atidaryti kanalų tvarkyklę, kuri leidžia pakeisti kanalo vietą sąraše, kanalo pavadinimą, piktogramą ir t.t."
@@ -14100,6 +14044,10 @@ msgstr "Laikas tarp TV gido duomenų importavimų iš posistemės."
 msgctxt "#36222"
 msgid "Don't import the guide data while playing TV to minimise CPU usage."
 msgstr "Nevykdyti TV gido duomenų importo TV atkūrimo metu siekiant sumažinti CPU naudojimą."
+
+msgctxt "#36223"
+msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
+msgstr "Įjungti PRIME aparatinės įrangos video failų dekodavimą, kuris bus naudojamas, jei prieinamas ffmpeg PRIME hwaccel."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -14301,10 +14249,6 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Pasirinkite vizualizaciją, kuri bus rodoma klausantis muzikos."
 
-msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "Nuskaityti žymų informaciją iš muzikos failų. Dideliems katalogams tai gali prailginti nuskaitymo laiką, ypač kai nuskaitoma iš tinklo."
-
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Nustatykite kaip atvaizduoti dainų pavadinimus vartotojo sąsajoje. Kad veiktų tinkamai, reikia įjungti žymų skaitymą."
@@ -14400,10 +14344,6 @@ msgstr "Pasirinkite laiką sekundėmis, kuriam praėjus iššokantis PVR primini
 msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
 msgstr "Kai įjungta, bus pridėtas suplanuotas programos įrašymas, jei jos priminimo iššokantis langas buvo uždarytas automatiškai ir jei tai palaiko PVR priedas ir posistemė."
-
-msgctxt "#36299"
-msgid "Switch display into HDR mode if media with HDR information is played.\nIf disabled, HDR information are applied using Kodi's internal HDR path."
-msgstr "Perjungti ekraną į HDR režimą, jei atkuriamas medija įrašas su HDR infomacija. Jei išjungta, HDR informacija bus pritaikoma naudojant vidinį Kodi HDR kelią."
 
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
@@ -14513,21 +14453,9 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Šioje kategorijoje yra nustatymai, skirti žiniatinklio serverio ir programos valdymo paslaugų tvarkymui."
 
-msgctxt "#36328"
-msgid "Enable remote users to control this application through the built-in web server."
-msgstr "Leisti nutolusiems vartotojams valdyti šią programą, naudojant integruotą žiniatinklio serverį."
-
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Nustatyti žiniatinklio serverio prievadą."
-
-msgctxt "#36330"
-msgid "Define the web server username. This only takes effect when both the username and the password are set."
-msgstr "Nustatykite žiniatinklio serverio vartotojo vardą. Galioja tik tada, kai nustatytas ir vartotojo vardas, ir slaptažodis."
-
-msgctxt "#36331"
-msgid "Define the web server password. This only takes effect when both the username and the password are set."
-msgstr "Nustatykite žiniatinklio serverio slaptažodį. Galioja tik tada, kai nustatytas ir vartotojo vardas, ir slaptažodis."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14536,10 +14464,6 @@ msgstr "Pasirinkite iš įdiegtų žiniatinklio sąsajų, naudodami priedų tvar
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Šioje kategorijoje yra nustatymai, skirti nuotolinio valdymo paslaugos tvarkymui."
-
-msgctxt "#36334"
-msgid "Allow programs on this device to control this application via the web interface or the JSON-RPC interface protocol."
-msgstr "Leisti programoms, esančioms šiame įrenginyje, valdyti šią programą naudojant žiniatinklio sąsajos ar JSON-RPC sąsajos protokolą."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -14552,10 +14476,6 @@ msgstr "Nustatyti nuotolinio valdymo prievadų rėžį."
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Nustatyti maksimalų prisijungusių klientų skaičių."
-
-msgctxt "#36338"
-msgid "Allow programs on the network to control this application."
-msgstr "Leisti programoms, esančioms tinkle, valdyti šią programą."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14624,10 +14544,6 @@ msgstr "Kai įjungta, viso ekrano režimas bus sukurtas naudojant langą, o ne t
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Kelių ekranų konfigūracijoje, ekranai, kuriuose nėra atvaizduojama ši programa, bus užtemdyti."
-
-msgctxt "#36356"
-msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
-msgstr "Režimai, esantys baltajame sąraše, bus leidžiami keičiant raišką ir atnaujinimo dažnį."
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -14708,10 +14624,6 @@ msgstr "Kai aktyvuota, rodyklės jūsų klaviatūroje keis pasirinktą klavišą
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "Naudoti pelę ar įrenginį su liečiamuoju ekranu sąsajos valdymui. Pastaba: išjungus prarasite galimybę valdyti šią programą, jei nėra klaviatūros ar nuotolinio valdymo."
-
-msgctxt "#36378"
-msgid "Use a joystick to control the interface."
-msgstr "Naudoti vairalazdę sąsajos valdymui."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14925,14 +14837,6 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Kai įjungta, pirmenybė teikiama VAAPI atvaizdavimo režimui bei mažiau apkraunamas CPU. Jei pasitaiko pakibimų, išjunkite šią parinktį."
 
-msgctxt "#36434"
-msgid "Allow hardware acceleration - MMAL"
-msgstr "Leisti aparatinės įrangos spartinimą - MMAL"
-
-msgctxt "#36435"
-msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "Naudoti VideoPlayer video failų dekodavimui su MMAL spartinimu."
-
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Pasirinkti OS klaviatūros išdėstymą."
@@ -15073,14 +14977,6 @@ msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "Leisti valdyti garsą iš AirPlay klientų."
 
-msgctxt "#36542"
-msgid "Output to both analogue (headphones) and HDMI"
-msgstr "Išvesti garsą tiek į analoginę išvestį (ausinės), tiek į HDMI"
-
-msgctxt "#36543"
-msgid "Enable this to make dialogue louder compared to background sounds when downmixing multichannel audio"
-msgstr "Įjunkite, jei norite padaryti dialogus garsesnius palyginus su fono garsais, kai daugiakanalis garsas permiksuojamas į stereo."
-
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "Įjungti video failų aparatinės įrangos dekodavimą."
@@ -15092,10 +14988,6 @@ msgstr "Stereoskopinių 3D subtitrų gylis"
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Nustatyti vizualinį subtitrų gylį stereoskopiniams 3D vaizdo įrašams. Kuo didesnė vertė, tuo arčiau žiūrovų bus rodomi subtitrai."
-
-msgctxt "#36547"
-msgid "Use higher quality textures for covers and fanart (uses more memory)"
-msgstr "Naudoti aukštesnės kokybės tekstūras viršeliams ir Fanart (naudoja daugiau atminties)"
 
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
@@ -15529,18 +15421,6 @@ msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
 msgstr "Pasirinkite šią parinktį, jei jūsų imtuvas gali dekoduoti Dolby Digital Plus (E-AC3) srautus."
 
-msgctxt "#37017"
-msgid "Dual audio output"
-msgstr "Dviguba garso išvestis"
-
-msgctxt "#37018"
-msgid "Boost centre channel when downmixing"
-msgstr "Pagarsinti centrinį kanalą permiksuojant"
-
-msgctxt "#37020"
-msgid "Enable higher colour depth artwork"
-msgstr "Įjungti didesnio spalvų gylio iliustracijas"
-
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
 msgstr "Nustatyti GUI raiškos ribą"
@@ -15552,10 +15432,6 @@ msgstr "UPnP grotuvas"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "Ar norite sustabdyti atkūrimą nutolusiame įrenginyje?"
-
-msgctxt "#37024"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
-msgstr "Pasirinkite, jei garso išvesties jungtis palaiko tik daugiakanalį garsą, tokį kaip Dolby Digital 5.1 (AC3). Tai leidžia daugiakanalį garsą, tokį kaip  AAC 5.1 ar FLAC 5.1 perklausyti kaip 5.1 erdvinį garsą. Pastaba: nerekomenduojama Pi įrenginiams, nes tai reikalauja daug CPU resursų."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -15645,10 +15521,6 @@ msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
 
-msgctxt "#38010"
-msgid "GPU accelerated"
-msgstr "GPU spartinimas"
-
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
 msgstr "Rodyti \"Visų elementų\" įrašą"
@@ -15700,22 +15572,6 @@ msgstr "Pasirinkite informacijos tiekėją"
 msgctxt "#38026"
 msgid "Appearances"
 msgstr "Pasirodymai"
-
-msgctxt "#38027"
-msgid "Decode the stereo stream from 3D files"
-msgstr "Dekoduoti stereo srautą iš 3D failų"
-
-msgctxt "#38028"
-msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
-msgstr "Kai įjungta, vaizdo įrašai sukurti Multiview Video Coding (MVC) formatu taip pat gali būti peržiūrėti stereoskopiniu 3D režimu. MVC formatas paprastai sutinkamas 3D Blu-ray diskuose.[CR]Pastaba: šių duomenų apdorojimas gali sumažinti atkūrimo efektyvumą, todėl įjunkite tik jei jums reikalingas stereoskopinio 3D režimo palaikymas."
-
-msgctxt "#38029"
-msgid "Enable Full HD HDMI modes for stereoscopic 3D"
-msgstr "Įjungti Full HD HDMI režimus stereoskopiniam 3D"
-
-msgctxt "#38030"
-msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
-msgstr "Ši parinktis naudoja kadrų pakavimą, kad išvestų pilnos raiškos 3D vaizdą per HDMI.[CR]Įjungus ją pagerėja Multiview Video Coding (MVC) vaizdo įrašų kokybė, bet ne visi ekranai gali ją palaikyti."
 
 msgctxt "#38031"
 msgid "Video stream"
@@ -15961,10 +15817,6 @@ msgctxt "#38306"
 msgid "Items to export"
 msgstr "Elementai, kuriuos eksportuoti"
 
-msgctxt "#38307"
-msgid "Include art work such as thumbnails and fanart"
-msgstr "Įtraukti iliustracijas, tokias kaip miniatūros ir Fanart"
-
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Įtraukti elementus, kurie nebuvo nuskaityti (kad sukurti NFO failų šablonus)"
@@ -16084,10 +15936,6 @@ msgstr "Importuojama dainų istorija -  {0:d} atnaujinta iš {0:d} importuotų d
 msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "Neįmanoma nuskaityti xml failo"
-
-msgctxt "#39004"
-msgid "This category provides access to the windows for source management and the Library settings for the databases"
-msgstr "Ši kategorija suteikia prieigą prie šaltinių valdymo lango ir bibliotekos duomenų bazių nustatymų."
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -16264,3 +16112,19 @@ msgstr "Išsamus [B]Announcer[/B] komponento žurnalo rašymas"
 msgctxt "#39118"
 msgid "Share debug log"
 msgstr "Bendrinti derinimo žurnalą"
+
+msgctxt "#39123"
+msgid "Artwork"
+msgstr "Iliustracijos"
+
+msgctxt "#39140"
+msgid "Maximum"
+msgstr "Maksimalus"
+
+msgctxt "#39141"
+msgid "Basic"
+msgstr "Pagrindiniai"
+
+msgctxt "#39142"
+msgid "Custom"
+msgstr "Savas"

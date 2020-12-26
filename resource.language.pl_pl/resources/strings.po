@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl_PL\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4661,14 +4661,6 @@ msgctxt "#13023"
 msgid "Successfully removed storage device"
 msgstr "Usunięcie wymiennego nośnika danych zakończone sukcesem"
 
-msgctxt "#13024"
-msgid "Joystick plugged"
-msgstr "Podłączono dżojstik"
-
-msgctxt "#13025"
-msgid "Joystick unplugged"
-msgstr "Odłączono dżojstik"
-
 msgctxt "#13026"
 msgid "Try to wakeup remote servers on access"
 msgstr "Próbuj wybudzać serwery przed próbą dostępu"
@@ -5289,10 +5281,6 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "Brak dostępnych ustawień dla tej wizualizacji"
 
-msgctxt "#13390"
-msgid "There are no settings available\nfor this visualisation"
-msgstr "Brak dostępnych opcji \ndla tej wizualizacji"
-
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Wysuń / Wsuń"
@@ -5436,10 +5424,6 @@ msgstr "Zezwalaj na sprzętową akcelerację - CrystalHD"
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Zezwalaj na sprzętową akcelerację - VTBDecoder"
-
-msgctxt "#13430"
-msgid "Allow hardware acceleration - PRIME"
-msgstr "Zezwalaj na sprzętową akcelerację - PRIME"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -6001,10 +5985,6 @@ msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Dodawaj zaznaczone utwory do kolejki"
 
-msgctxt "#14085"
-msgid "Whitelist"
-msgstr "Biała lista"
-
 msgctxt "#14086"
 msgid "Playback"
 msgstr "Odtwarzanie"
@@ -6164,6 +6144,10 @@ msgstr "Region C"
 msgctxt "#14125"
 msgid "Input"
 msgstr "Wejście"
+
+msgctxt "#14126"
+msgid "Whitelist"
+msgstr "Biała lista"
 
 msgctxt "#14200"
 msgid "Player"
@@ -6789,10 +6773,6 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "Dwuliniowo"
 
-msgctxt "#16303"
-msgid "Bicubic"
-msgstr "Dwusześciennie"
-
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6884,22 +6864,6 @@ msgstr "VAAPI - Adaptacyjnie"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Kompensacja ruchu"
-
-msgctxt "#16330"
-msgid "MMAL - Advanced"
-msgstr "MMAL - Zaawansowane"
-
-msgctxt "#16331"
-msgid "MMAL - Advanced (half)"
-msgstr "MMAL - Zaawansowane (półobrazy)"
-
-msgctxt "#16332"
-msgid "MMAL - Bob"
-msgstr "MMAL - Liniowo"
-
-msgctxt "#16333"
-msgid "MMAL - Bob (half)"
-msgstr "MMAL - Liniowo (półobrazy)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -7096,14 +7060,6 @@ msgstr "Czy na pewno chcesz ukryć ten kanał?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Zadania"
-
-msgctxt "#19041"
-msgid "Are you sure you want to rename this recording?"
-msgstr "Czy na pewno chcesz zmienić nazwę tego nagrania?"
-
-msgctxt "#19042"
-msgid "Are you sure you want to rename this timer?"
-msgstr "Na pewno chcesz zmienić nazwę zadania?"
 
 msgctxt "#19043"
 msgid "Recording"
@@ -10033,10 +9989,6 @@ msgctxt "#21341"
 msgid "No updates available"
 msgstr "Brak dostępnych aktualizacji"
 
-msgctxt "#21342"
-msgid "There are currently no updates available for this add-on."
-msgstr "Brak aktualnie dostępnych aktualizacji dla tego dodatku."
-
 msgctxt "#21343"
 msgid "Use video tags"
 msgstr "Używaj znaczników wideo"
@@ -11309,10 +11261,6 @@ msgctxt "#24068"
 msgid "Update available"
 msgstr "Dostępna aktualizacja"
 
-msgctxt "#24069"
-msgid "Update"
-msgstr "Aktualizuj"
-
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
 msgstr "Błąd podczas wczytywania dodatku."
@@ -11517,10 +11465,6 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Wprowadź tekst do wyszukania"
 
-msgctxt "#24122"
-msgid "Update all"
-msgstr "Aktualizuj wszystkie"
-
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
 msgstr "Wstrzymuje odtwarzanie wideo podczas szukania napisów i wznawia odtwarzanie po ich pobraniu."
@@ -11572,6 +11516,10 @@ msgstr "Pobierz napisy..."
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "Czy chcesz aktywować ten dodatek?"
+
+msgctxt "#24138"
+msgid "Update"
+msgstr "Aktualizuj"
 
 msgctxt "#24139"
 msgid "View Add-on"
@@ -11628,6 +11576,14 @@ msgstr "Migracja dodatków w toku - proszę czekać"
 msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "Ten dodatek jest niekompatybilny z aktualną wersją Kodi."
+
+msgctxt "#24169"
+msgid "Normal"
+msgstr "Normalny"
+
+msgctxt "#24171"
+msgid "Broken"
+msgstr "Uszkodzona"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -11720,6 +11676,10 @@ msgstr "Pomijanie manualne"
 msgctxt "#25013"
 msgid "Auto-skip on"
 msgstr "Pomijanie automatyczne"
+
+msgctxt "#25014"
+msgid "Manual"
+msgstr "Manualnie"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -12813,14 +12773,6 @@ msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "Przesuń {0:s} w lewo ({1:d})"
 
-msgctxt "#35100"
-msgid "Enable joystick and gamepad support"
-msgstr "Aktywuj obsługę dżojstika i kontrolera gier"
-
-msgctxt "#35102"
-msgid "Disable joystick when this device is present"
-msgstr "Dezaktywuj dżojstik, kiedy to urządzenie jest dostępne"
-
 msgctxt "#35103"
 msgid "Buttons"
 msgstr "Przyciski"
@@ -13617,10 +13569,6 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Określa poziom powiększenie materiałów wideo o proporcjach 4:3 na wyświetlaczach panoramicznych."
 
-msgctxt "#36172"
-msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "Włącz sprzętowe dekodowanie plików wideo PRIME, jest używane, jeśli dostępny jest ffmpeg PRIME hwaccel."
-
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Określa skrócony format daty używany do wyświetania daty w interfejsie użytkownika."
@@ -13804,6 +13752,10 @@ msgstr "Określa częstotliwość importowania danych przewodnika z serwerów te
 msgctxt "#36222"
 msgid "Don't import the guide data while playing TV to minimise CPU usage."
 msgstr "Umożliwia zablokowanie importowania danych przewodnika podczas odtwarzania telewizji, w celu minimalizacji użycia procesora."
+
+msgctxt "#36223"
+msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
+msgstr "Włącz sprzętowe dekodowanie plików wideo PRIME, jest używane, jeśli dostępny jest ffmpeg PRIME hwaccel."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -13993,10 +13945,6 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Określa wizualizację, która będzie wyświetlana podczas odtwarzania muzyki."
 
-msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "Umożliwia wczytywanie informacji ze znaczników opisujących pliki muzyczne. Może to wydłużyć czas wczytywania zawartości folderów o dużej liczbie plików, w szczególności folderów sieciowych."
-
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Określa sposób w jaki nazwy utworów są wyświetlane w interfejsie użytkownika. Do poprawnego działania wymagana jest aktywna funkcja wczytywania znaczników."
@@ -14173,21 +14121,9 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Kategoria zawierająca ustawienia związane z obsługą serwera webowego i funkcji zdalnego sterowania."
 
-msgctxt "#36328"
-msgid "Enable remote users to control this application through the built-in web server."
-msgstr "Umożliwia użytkownikom zdalnym sterowanie działaniem Kodi przy pomocy wbudowanego serwera WWW."
-
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Określa port serwera WWW."
-
-msgctxt "#36330"
-msgid "Define the web server username. This only takes effect when both the username and the password are set."
-msgstr "Określa użytkownika serwera WWW. Ta opcja brana jest pod uwagę tylko wtedy, gdy wprowadzono także hasło."
-
-msgctxt "#36331"
-msgid "Define the web server password. This only takes effect when both the username and the password are set."
-msgstr "Określa hasło serwera WWW. Ta opcja brana jest pod uwagę tylko wtedy, gdy wprowadzono także użytkownika."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14208,10 +14144,6 @@ msgstr "Określa zakres portów zdalnego sterowania."
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Określa maksymalną listę podłączonych klientów."
-
-msgctxt "#36338"
-msgid "Allow programs on the network to control this application."
-msgstr "Umożliwia programom na innych urządzeniach sterowanie działaniem Kodi."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14280,10 +14212,6 @@ msgstr "Jeśli aktywne, tryb ekranowy będzie wykorzystywał pełnoekranowe okno
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Umożliwia w konfiguracji z wieloma wyświetlaczami wygaszanie nieużywanych przez aplikację."
-
-msgctxt "#36356"
-msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
-msgstr "Tryby umieszczone na białej liście można przełączać podczas zmiany rozdzielczości i częstotliwości odświeżania"
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -14364,10 +14292,6 @@ msgstr "Jeśli aktywne, klawisze kursora będą umożliwiały przesunięcie zazn
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "Umożliwia używanie myszy lub ekranu dotykowego do sterowania interfejsem użytkownika. Uwaga: Odznaczenie tej opcji może spowodować utratę kontroli nad tą aplikacją, w przypadku braku podłączonej klawiatury lub pilota zdalnego sterowania."
-
-msgctxt "#36378"
-msgid "Use a joystick to control the interface."
-msgstr "Umożliwia wykorzystywanie dżojstika do nawigacji w interfejsie użytkownika."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14581,14 +14505,6 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Zaznacz tę opcję, aby używać metody renderowania VAAPI. Zmiejsza ona obciążenie procesora, ale może powodować zawieszenie sterownika."
 
-msgctxt "#36434"
-msgid "Allow hardware acceleration - MMAL"
-msgstr "Zezwalaj na sprzętową akcelerację - MMAL"
-
-msgctxt "#36435"
-msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "Umożliwia użycie domyślnego odtwarzacza do dekodowania plików wideo, przy pomocy akceleracji MMAL."
-
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Określa systemowy układ klawiatury."
@@ -14729,14 +14645,6 @@ msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "Umożliwia klientom AirPlay regulację głośności."
 
-msgctxt "#36542"
-msgid "Output to both analogue (headphones) and HDMI"
-msgstr "Jednoczesne odtwarzanie analogowe (słuchawki) i HDMI"
-
-msgctxt "#36543"
-msgid "Enable this to make dialogue louder compared to background sounds when downmixing multichannel audio"
-msgstr "Zaznaczenie tej opcji zwiększy głośność dialogów w stosunku do dźwięków tła, podczas miksowania w dół dźwięku wielokanałowego do stereo."
-
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "Umożliwia sprzętowe dekodowanie plików wideo."
@@ -14748,10 +14656,6 @@ msgstr "Głębokość stereoskopowych napisów 3D"
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Określa głębię napisów dla stereoskopowych materiałów wideo 3D. Im wyższa wartość, tym napisy wydają się być bliżej widza."
-
-msgctxt "#36547"
-msgid "Use higher quality textures for covers and fanart (uses more memory)"
-msgstr "Używaj tekstur wyższej jakości dla okładek i fototapet (zwiększa użycie pamięci)"
 
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
@@ -15185,18 +15089,6 @@ msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
 msgstr "Zaznacz tę opcję, jeśli urządzenie odbiorcze obsługuje dekodowanie ścieżek Dolby Digital Plus (E-AC3)."
 
-msgctxt "#37017"
-msgid "Dual audio output"
-msgstr "Zdublowane odtwarzanie dźwięku"
-
-msgctxt "#37018"
-msgid "Boost centre channel when downmixing"
-msgstr "Wzmacniaj kanał centralny przy miksowaniu w dół"
-
-msgctxt "#37020"
-msgid "Enable higher colour depth artwork"
-msgstr "Używaj powiększonej głębi koloru grafik"
-
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
 msgstr "Limit rozdzielczości interfejsu"
@@ -15208,10 +15100,6 @@ msgstr "Odtwarzacz UPnP"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "Chcesz zatrzymać odtwarzanie na zdalnym urządzeniu?"
-
-msgctxt "#37024"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
-msgstr "Zaznacz tę opcję, gdy złącze dźwiękowe obsługuje wielokanałowy dźwięk tylko w formacie Dolby Digital 5.1 (AC3), a chcesz odtwarzać wielokanałowy dźwięk w formatach AACS5.1 lub FLAC5.1 na systemie dźwięku przestrzennego 5.1. Uwaga - nierekomendowane dla platformy Pi z powodu mocnego użycia procesora."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -15301,10 +15189,6 @@ msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
 
-msgctxt "#38010"
-msgid "GPU accelerated"
-msgstr "Akceleracja sprzętowa"
-
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
 msgstr "Pokazuj na listach pozycję \"Wszystkie pozycje\""
@@ -15356,22 +15240,6 @@ msgstr "Wybierz dostawcę informacji"
 msgctxt "#38026"
 msgid "Appearances"
 msgstr "Występy"
-
-msgctxt "#38027"
-msgid "Decode the stereo stream from 3D files"
-msgstr "Umożliwia dekodowanie ścieżek stereoskopowych z plików 3D"
-
-msgctxt "#38028"
-msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
-msgstr "Jeśli aktywne, wideo w formacie Multiview Video Coding (MVC) może być również oglądane w stereoskopowym trybie 3D. Format MVC można zwykle znaleźć na płytach Blu-ray 3D.[CR]Uwaga: Przetwarzanie tych danych może obniżyć wydajność odtwarzania, aktywuj tylko wtedy, gdy wymagana jest obsługa trybu stereoskopowego."
-
-msgctxt "#38029"
-msgid "Enable Full HD HDMI modes for stereoscopic 3D"
-msgstr "Aktywuj tryby Full HD złącza HDMI podczas odtwarzania 3D"
-
-msgctxt "#38030"
-msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
-msgstr "Umożliwia korzystanie z funkcji pakowania ramek w celu wyświetlania pełnej rozdzielczości 3D dla złącza HDMI.[CR] Aktywowanie tej funkcji poprawia jakość dekodowania wideo w formacie Multiview Video Coding (MVC), ale nie jest obsługiwane przez wszystkie wyświetlacze."
 
 msgctxt "#38031"
 msgid "Video stream"
@@ -15585,10 +15453,6 @@ msgctxt "#38306"
 msgid "Items to export"
 msgstr "Pozycje do wyeksportowania"
 
-msgctxt "#38307"
-msgid "Include art work such as thumbnails and fanart"
-msgstr "Uwzględniaj grafiki takie, jak miniatury i fototapety"
-
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Uwzględniaj pozycje bez informacji od dostawców (tworzy szablony plików NFO)"
@@ -15708,10 +15572,6 @@ msgstr "Importowanie historii utworów - {0:d}  zaktualizowano z {0:d} zaimporto
 msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "Nie można odczytać pliku XML"
-
-msgctxt "#39004"
-msgid "This category provides access to the windows for source management and the Library settings for the databases"
-msgstr "Kategoria zawierająca ustawienia związane z zarządzaniem źród‭łami oraz ustawieniami baz danych biblioteki."
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -15880,3 +15740,19 @@ msgstr "Fabuła filmu"
 msgctxt "#39116"
 msgid "Episode plot"
 msgstr "Fabuła odcinka"
+
+msgctxt "#39123"
+msgid "Artwork"
+msgstr "Grafika"
+
+msgctxt "#39140"
+msgid "Maximum"
+msgstr "Maksymalna"
+
+msgctxt "#39141"
+msgid "Basic"
+msgstr "Podstawowy"
+
+msgctxt "#39142"
+msgid "Custom"
+msgstr "Niestandardowe"

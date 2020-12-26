@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk_SK\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4717,14 +4717,6 @@ msgctxt "#13023"
 msgid "Successfully removed storage device"
 msgstr "Úspešné odpojenie pevného disku"
 
-msgctxt "#13024"
-msgid "Joystick plugged"
-msgstr "Joystick bol pripojený"
-
-msgctxt "#13025"
-msgid "Joystick unplugged"
-msgstr "Joystick bol odpojený"
-
 msgctxt "#13026"
 msgid "Try to wakeup remote servers on access"
 msgstr "Pokúsiť sa zobudiť vzdialený server pri prístupe"
@@ -5345,10 +5337,6 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "Pre túto vizualizáciu nie sú dostupné žiadne predvoľby"
 
-msgctxt "#13390"
-msgid "There are no settings available\nfor this visualisation"
-msgstr "Pre túto vizualizáciu nie sú dostupné\nžiadne nastavenia"
-
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Vysunúť / Zasunúť"
@@ -5492,10 +5480,6 @@ msgstr "Povoliť hardvérovú akceleráciu - CrystalHD"
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Zapnúť hardvérovú akceleráciu - VTBDecoder"
-
-msgctxt "#13430"
-msgid "Allow hardware acceleration - PRIME"
-msgstr "Povoliť hardvérovú akceleráciu - PRIME"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -6073,10 +6057,6 @@ msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Pridávať skladby do fronty pri ich výbere"
 
-msgctxt "#14085"
-msgid "Whitelist"
-msgstr "Povolené režimy"
-
 msgctxt "#14086"
 msgid "Playback"
 msgstr "Prehrávanie"
@@ -6236,6 +6216,10 @@ msgstr "Región C"
 msgctxt "#14125"
 msgid "Input"
 msgstr "Vstup"
+
+msgctxt "#14126"
+msgid "Whitelist"
+msgstr "Povolené režimy"
 
 msgctxt "#14200"
 msgid "Player"
@@ -6861,10 +6845,6 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "Bilineárny"
 
-msgctxt "#16303"
-msgid "Bicubic"
-msgstr "Bikubický"
-
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6956,22 +6936,6 @@ msgstr "VAAPI - Motion adaptive"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Motion compensated"
-
-msgctxt "#16330"
-msgid "MMAL - Advanced"
-msgstr "MMAL - Advanced"
-
-msgctxt "#16331"
-msgid "MMAL - Advanced (half)"
-msgstr "MMAL - Pokročilý (polovičný)"
-
-msgctxt "#16332"
-msgid "MMAL - Bob"
-msgstr "MMAL - Bob"
-
-msgctxt "#16333"
-msgid "MMAL - Bob (half)"
-msgstr "MMAL - Bob (polovičný)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -7168,14 +7132,6 @@ msgstr "Skutočne chcete skryť tento kanál?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Časovače"
-
-msgctxt "#19041"
-msgid "Are you sure you want to rename this recording?"
-msgstr "Skutočne chcete premenovať túto nahrávku?"
-
-msgctxt "#19042"
-msgid "Are you sure you want to rename this timer?"
-msgstr "Skutočne chcete premenovať tento časovač?"
 
 msgctxt "#19043"
 msgid "Recording"
@@ -10165,10 +10121,6 @@ msgctxt "#21341"
 msgid "No updates available"
 msgstr "Aktualizácia nie je k dispozícii"
 
-msgctxt "#21342"
-msgid "There are currently no updates available for this add-on."
-msgstr "V tejto chvíli pre tento doplnok neexistujú žiadne aktualizácie."
-
 msgctxt "#21343"
 msgid "Use video tags"
 msgstr "Použiť štítky videa"
@@ -11441,10 +11393,6 @@ msgctxt "#24068"
 msgid "Update available"
 msgstr "Aktualizácia k dispozícii"
 
-msgctxt "#24069"
-msgid "Update"
-msgstr "Aktualizovať"
-
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
 msgstr "Doplnok nebolo možné načítať."
@@ -11649,10 +11597,6 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Zadajte hľadaný výraz"
 
-msgctxt "#24122"
-msgid "Update all"
-msgstr "Aktualizovať všetko"
-
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
 msgstr "Pozastaviť prehrávanie aktuálneho videa počas hľadania titulkov a pokračovať v prehrávaní, len čo sú titulky k dispozícii."
@@ -11704,6 +11648,10 @@ msgstr "Prevziať titulky..."
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "Prajete si aktivovať tento doplnok?"
+
+msgctxt "#24138"
+msgid "Update"
+msgstr "Aktualizovať"
 
 msgctxt "#24139"
 msgid "View Add-on"
@@ -11776,6 +11724,14 @@ msgstr "90 sekúnd"
 msgctxt "#24159"
 msgid "120 Seconds"
 msgstr "120 sekúnd"
+
+msgctxt "#24169"
+msgid "Normal"
+msgstr "Normálne"
+
+msgctxt "#24171"
+msgid "Broken"
+msgstr "pretrhaná"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -11868,6 +11824,10 @@ msgstr "Automatické preskočenie vypnuté"
 msgctxt "#25013"
 msgid "Auto-skip on"
 msgstr "Automatické preskočenie zapnuté"
+
+msgctxt "#25014"
+msgid "Manual"
+msgstr "Manuálne"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -12961,14 +12921,6 @@ msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "Posuňte {0:s} doľava ({1:d})"
 
-msgctxt "#35100"
-msgid "Enable joystick and gamepad support"
-msgstr "Zapnúť podporu pákových ovládačov a gamepadov"
-
-msgctxt "#35102"
-msgid "Disable joystick when this device is present"
-msgstr "Zakázať joystick, pokiaľ je toto zariadenie prítomné"
-
 msgctxt "#35103"
 msgid "Buttons"
 msgstr "Tlačidlá"
@@ -13769,10 +13721,6 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Nastavte úroveň zväčšenia videa 4:3 pre zobrazenie na širokouhlej obrazovke."
 
-msgctxt "#36172"
-msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "Povoliť hardvérové dekódovanie PRIME pre súbory videa, ktoré sa použije, ak je k dispozícii hardvérová akcelerácia ffmpeg PRIME."
-
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Vyberte si, aký formát krátkeho dátumu sa použije na zobrazenie dátumu v používateľskom prostredí."
@@ -13964,6 +13912,10 @@ msgstr "Čas medzi importmi údajov pre TV program z backendov."
 msgctxt "#36222"
 msgid "Don't import the guide data while playing TV to minimise CPU usage."
 msgstr "Neimportovať údaje pre TV program počas prehrávania TV, aby sa minimalizovalo využitie procesora."
+
+msgctxt "#36223"
+msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
+msgstr "Povoliť hardvérové dekódovanie PRIME pre súbory videa, ktoré sa použije, ak je k dispozícii hardvérová akcelerácia ffmpeg PRIME."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -14161,10 +14113,6 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Zvoľte vizualizáciu, ktorá bude zobrazená pri prehrávaní hudby."
 
-msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "Čítať zo súborov skladieb informácie v tagoch. Pre veľké priečinky to môže zvýšiť dobu čítania, obzvlášť cez sieť."
-
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Mení spôsob zobrazenia názvu skladby v uživateľskom rozhraní. Pre správne fungovanie, musí byť povolené čítanie tagov."
@@ -14341,21 +14289,9 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Táto kategória obsahuje nastavenia toho, ako sa má zaobchádzať so službou webového servera a službou na ovládanie aplikácie."
 
-msgctxt "#36328"
-msgid "Enable remote users to control this application through the built-in web server."
-msgstr "Povoliť vzdialeným používateľom ovládať túto aplikáciu prostredníctvom vstavaného webového servera."
-
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Definujte port webového servera."
-
-msgctxt "#36330"
-msgid "Define the web server username. This only takes effect when both the username and the password are set."
-msgstr "Definujte meno používateľa webového servera. Toto nastavenie je funkčné len vtedy, ak je nastavené meno používateľa aj heslo."
-
-msgctxt "#36331"
-msgid "Define the web server password. This only takes effect when both the username and the password are set."
-msgstr "Definujte heslo webového servera. Toto nastavenie je funkčné len vtedy, ak je nastavené meno používateľa aj heslo."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14376,10 +14312,6 @@ msgstr "Nastaviť rozsah portov diaľkového ovládania."
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Nastaviť maximálny počet klientov ktorí sa môžu pripojiť."
-
-msgctxt "#36338"
-msgid "Allow programs on the network to control this application."
-msgstr "Umožniť programom v sieti ovládať túto aplikáciu."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14448,10 +14380,6 @@ msgstr "Pokiaľ je zapnuté, režim celej obrazovky sa aplikuje pomocou okna nam
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "V konfigurácii s viacerými obrazovkami sú obrazovky, ktoré nezobrazujú túto aplikáciu, stmavené."
-
-msgctxt "#36356"
-msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
-msgstr "Povolené režimy, na ktoré je možné sa prepnúť pri zmene rozlíšenia a obnovovacej frekvencie"
 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
@@ -14532,10 +14460,6 @@ msgstr "Keď je aktivované, šípkami vašej klávesnice sa posúvate po virtu�
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "Pre kontrolu tohto prostredia použite myš alebo zariadenie s dotykovou obrazovkou. Poznámka: Ak to vypnete, stratíte kontrolu nad touto aplikáciou, pokiaľ nebude prítomná klávesnica alebo diaľkové ovládanie."
-
-msgctxt "#36378"
-msgid "Use a joystick to control the interface."
-msgstr "Použiť na ovládanie tohto prostredia pákový ovládač."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14749,14 +14673,6 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Pokiaľ je zapnuté, je uprednostňovaná VAAPI vykresľovacia metóda a procesor má menšie vyťaženie. Pokiaľ zažijete zatuhnutia obrazu, vypnite túto možnosť."
 
-msgctxt "#36434"
-msgid "Allow hardware acceleration - MMAL"
-msgstr "Povoliť hardvérovú akceleráciu - MMAL"
-
-msgctxt "#36435"
-msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "Použiť VideoPlayer na dekódovanie súborov videí s MMAL akceleráciou."
-
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Voľba rozloženia systémovej klávesnice."
@@ -14897,14 +14813,6 @@ msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "AirPlay klientom povolí ovládanie hlasitosti."
 
-msgctxt "#36542"
-msgid "Output to both analogue (headphones) and HDMI"
-msgstr "Výstup aj analógového zvuku (pre slúchadlá) aj HDMI"
-
-msgctxt "#36543"
-msgid "Enable this to make dialogue louder compared to background sounds when downmixing multichannel audio"
-msgstr "Povoľte, ak chcete zvýšiť hlasitosť dialógov oproti zvukom pozadia pri downmixe viackanálového zvuku"
-
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "Povoliť hardvérové dekódovanie video súborov."
@@ -14916,10 +14824,6 @@ msgstr "Stereoskopická 3D hĺbka titulkov"
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Nastaví vizuálnu hĺbku titulkov pre stereoskopické 3D videá. Čím vyššia je hodnota, tým sa budú javiť titulky divákovi bližšie."
-
-msgctxt "#36547"
-msgid "Use higher quality textures for covers and fanart (uses more memory)"
-msgstr "Pre obaly a umeleckú grafiku použiť textúry vyššej kvality (potrebuje viac pamäte)"
 
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
@@ -15353,18 +15257,6 @@ msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
 msgstr "Vyberte si túto možnosť, pokiaľ je váš prijímač schopný dekódovať stream s Dolby Digital Plus (E-AC3)."
 
-msgctxt "#37017"
-msgid "Dual audio output"
-msgstr "Dual audio output"
-
-msgctxt "#37018"
-msgid "Boost centre channel when downmixing"
-msgstr "Boost centre channel when downmixing"
-
-msgctxt "#37020"
-msgid "Enable higher colour depth artwork"
-msgstr "Povoliť obrázky s vyššou farebnou hĺbkou"
-
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
 msgstr "Nastaviť limit rozlíšenia užívateľského prostredia"
@@ -15376,10 +15268,6 @@ msgstr "UPnP prehrávač"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "Želáte si zastaviť prehrávanie na ovládanom zariadení?"
-
-msgctxt "#37024"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
-msgstr "Vyberte túto možnosť v prípade, že výstup zvuku podporuje iba viackanálový zvuk ako Dolby Digital 5.1 (AC3), toto nastavenie umožní, aby bolo možné si vypočuť viackanálový zvuk ako napr. AAC 5.1 alebo FLAC 5.1 ako 5.1 priestorový zvuk. Poznámka: Neodporúča sa na Pi, keďže táto operácia veľmi zaťažuje procesor."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -15469,10 +15357,6 @@ msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
 
-msgctxt "#38010"
-msgid "GPU accelerated"
-msgstr "GPU akcelerácia"
-
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
 msgstr "Zobraziť údaj \"Všetky položky\""
@@ -15524,22 +15408,6 @@ msgstr "Vyberte si poskytovateľa informácií"
 msgctxt "#38026"
 msgid "Appearances"
 msgstr "Výskyty"
-
-msgctxt "#38027"
-msgid "Decode the stereo stream from 3D files"
-msgstr "Dekódovať stereo stream v 3D súboroch"
-
-msgctxt "#38028"
-msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
-msgstr "Pokiaľ je zapnuté, videá vytvorené vo formáte Multiview Video Coding (MVC) je možné tiež sledovať v stereoskopickom 3D. MVC formát sa typicky nachádza na 3D Blu-ray diskoch.[CR]Poznámka: Spracovanie týchto dát môže znížiť výkon pri prehrávaní, takže to zapnite iba v prípade, že požadujete podporu pre stereoskopické 3D."
-
-msgctxt "#38029"
-msgid "Enable Full HD HDMI modes for stereoscopic 3D"
-msgstr "Zapnúť Full HD HDMI režimy pre stereoskopické 3D"
-
-msgctxt "#38030"
-msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
-msgstr "Táto možnosť používa frame-packing, aby sa dosiahlo plné rozlíšenie pre 3D prostredníctvom HDMI.[CR]Zapnutie tejto možnosti zvýši kvalitu Multiview Video Coding (MVC) videí, no nemusia to podporovať všetky obrazovky."
 
 msgctxt "#38031"
 msgid "Video stream"
@@ -15781,10 +15649,6 @@ msgctxt "#38306"
 msgid "Items to export"
 msgstr "Položky na exportovanie"
 
-msgctxt "#38307"
-msgid "Include art work such as thumbnails and fanart"
-msgstr "Zahrnúť artworky ako náhľady a fanart"
-
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Zahrnúť položky, ktoré neboli scrapované (na vytvorenie šablónových NFO súborov)"
@@ -15904,10 +15768,6 @@ msgstr "Importovať históriu nahrávok - {0:d} aktualizovaných z {0:d} importo
 msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "Nepodarilo sa nahrať XML súbor"
-
-msgctxt "#39004"
-msgid "This category provides access to the windows for source management and the Library settings for the databases"
-msgstr "Táto kategória poskytuje prístup k oknám pre správu zdrojov a nastavenia knižnice pre databázy"
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -16084,3 +15944,19 @@ msgstr "Detailné protokolovanie pre komponent [B]Announcer[/B]"
 msgctxt "#39118"
 msgid "Share debug log"
 msgstr "Zdielať debug log"
+
+msgctxt "#39123"
+msgid "Artwork"
+msgstr "Artwork"
+
+msgctxt "#39140"
+msgid "Maximum"
+msgstr "Maximálny"
+
+msgctxt "#39141"
+msgid "Basic"
+msgstr "Základné"
+
+msgctxt "#39142"
+msgid "Custom"
+msgstr "Vlastné"

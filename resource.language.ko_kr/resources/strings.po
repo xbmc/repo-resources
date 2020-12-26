@@ -3221,6 +3221,14 @@ msgctxt "#1051"
 msgid "Enter web address"
 msgstr "웹 주소 입력"
 
+msgctxt "#1052"
+msgid "Require authentication"
+msgstr "인증이 필요함"
+
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "웹 서버에서 사용자와 비밀번호를 선택하는데, 사용하면 아래에 설정해야 함. 이 설정을 항상 사용하는 것을 추천함."
+
 msgctxt "#1180"
 msgid "Proxy type"
 msgstr "프록시 형식"
@@ -3928,6 +3936,10 @@ msgstr "프로그램 소스 수정"
 msgctxt "#10057"
 msgid "Edit file source"
 msgstr "파일 소스 수정"
+
+msgctxt "#10058"
+msgid "Remove tag from library"
+msgstr "라이브러리에서 태그를 지움"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -4721,14 +4733,6 @@ msgctxt "#13023"
 msgid "Successfully removed storage device"
 msgstr "정상적으로 저장 장치 제거됨"
 
-msgctxt "#13024"
-msgid "Joystick plugged"
-msgstr "조이스틱 연결됨"
-
-msgctxt "#13025"
-msgid "Joystick unplugged"
-msgstr "조이스틱 연결해제됨"
-
 msgctxt "#13026"
 msgid "Try to wakeup remote servers on access"
 msgstr "접속할 때 원격 서버 깨우기 시도"
@@ -5350,8 +5354,8 @@ msgid "There are no presets available for this visualisation"
 msgstr "이 시각화에 사용 가능한 사전설정이 없습니다"
 
 msgctxt "#13390"
-msgid "There are no settings available\nfor this visualisation"
-msgstr "이 시각화에 사용가능한\n설정이 없습니다"
+msgid "There are no settings available[CR]for this visualisation"
+msgstr "이 시각화의[CR]설정이 없음"
 
 msgctxt "#13391"
 msgid "Eject / Load"
@@ -5498,8 +5502,8 @@ msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "하드웨어 가속 허용 - VTBDecoder"
 
 msgctxt "#13430"
-msgid "Allow hardware acceleration - PRIME"
-msgstr "하드웨어 가속 허용 - PRIME"
+msgid "Allow using DRM PRIME decoder"
+msgstr "DRM PRIME 디코더 허용"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -5528,6 +5532,10 @@ msgstr "HDR 기능 표시"
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
 msgstr "VDPAU 비디오 믹서 우선"
+
+msgctxt "#13438"
+msgid "Allow hardware acceleration with DRM PRIME"
+msgstr "DRM PRIME의 하드웨어 가속 허용"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -6089,10 +6097,6 @@ msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "선택시 노래 대기열에 추가"
 
-msgctxt "#14085"
-msgid "Whitelist"
-msgstr "화이트리스트"
-
 msgctxt "#14086"
 msgid "Playback"
 msgstr "재생"
@@ -6252,6 +6256,18 @@ msgstr "지역 C"
 msgctxt "#14125"
 msgid "Input"
 msgstr "입력"
+
+msgctxt "#14126"
+msgid "Whitelist"
+msgstr "화이트리스트"
+
+msgctxt "#14127"
+msgid "Allow 3:2 pulldown refresh rates"
+msgstr "3:2 풀다운 리프레시 비율 허용"
+
+msgctxt "#14128"
+msgid "Allow double refresh rates"
+msgstr "이중 리프레시 비율 허용"
 
 msgctxt "#14200"
 msgid "Player"
@@ -6878,8 +6894,8 @@ msgid "Bilinear"
 msgstr "이중선형"
 
 msgctxt "#16303"
-msgid "Bicubic"
-msgstr "바이큐빅"
+msgid "Bicubic (B-Spline)"
+msgstr "Bicubic (B-스플라인)"
 
 msgctxt "#16304"
 msgid "Lanczos2"
@@ -6921,6 +6937,10 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - 선명도"
 
+msgctxt "#16314"
+msgid "Bicubic (Mitchell)"
+msgstr "Bicubic (Mitchell)"
+
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - Optimised"
@@ -6945,6 +6965,10 @@ msgctxt "#16320"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16321"
+msgid "Bicubic (Catmull-Rom)"
+msgstr "Bicubic (Catmull-Rom)"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6961,6 +6985,10 @@ msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
 
+msgctxt "#16326"
+msgid "Bicubic (0,0.75)"
+msgstr "Bicubic (0,0.75)"
+
 msgctxt "#16327"
 msgid "VAAPI - Bob"
 msgstr "VAAPI - Bob"
@@ -6974,20 +7002,8 @@ msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Motion compensated"
 
 msgctxt "#16330"
-msgid "MMAL - Advanced"
-msgstr "MMAL - Advanced"
-
-msgctxt "#16331"
-msgid "MMAL - Advanced (half)"
-msgstr "MMAL - Advanced (half)"
-
-msgctxt "#16332"
-msgid "MMAL - Bob"
-msgstr "MMAL - Bob"
-
-msgctxt "#16333"
-msgid "MMAL - Bob (half)"
-msgstr "MMAL - Bob (half)"
+msgid "Bicubic (0,1.)"
+msgstr "Bicubic (0,1.)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -7184,14 +7200,6 @@ msgstr "이 채널을 정말로 숨기겠습니까?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "녹화 예약"
-
-msgctxt "#19041"
-msgid "Are you sure you want to rename this recording?"
-msgstr "이 녹화의 이름을 변경하겠습니까?"
-
-msgctxt "#19042"
-msgid "Are you sure you want to rename this timer?"
-msgstr "이 예약의 이름을 변경하겠습니까?"
 
 msgctxt "#19043"
 msgid "Recording"
@@ -8324,6 +8332,34 @@ msgstr "프로그램"
 msgctxt "#19326"
 msgid "Navigate..."
 msgstr "찾기..."
+
+msgctxt "#19327"
+msgid "Delete watched"
+msgstr "미시청 삭제"
+
+msgctxt "#19328"
+msgid "Delete all watched recordings in this folder?"
+msgstr "이 폴더의 모든 미시청 기록을 삭제할까요?"
+
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "하나 이상의 PVR 애드온을 가진 백엔드 채널 번호 허용"
+
+msgctxt "#19330"
+msgid "Switch to channel when auto-closing the reminder popup"
+msgstr "알림 팝업이 자동으로 닫히면 채널 변경"
+
+msgctxt "#19331"
+msgid "(Auto-close of this reminder will switch to channel...)"
+msgstr "(알림이 자동으로 닫히면 채널 변경함...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "'{2:s}'의 '{1:s}' 채널 '{0:s}' PVR 알림이 자동으로 닫히면 채널 변경"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "'{1:s}'의 '{0:s}' 채널 PVR 알림이 자동으로 닫히면 채널 변경"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -10213,6 +10249,10 @@ msgctxt "#20471"
 msgid "Show empty TV shows"
 msgstr "비어 있는 TV 쇼 보기"
 
+msgctxt "#20472"
+msgid "Show all performers for music videos"
+msgstr "뮤직 비디오의 모든 연주자 표시"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "숨김 파일 및 디렉터리 보기"
@@ -10262,8 +10302,8 @@ msgid "No updates available"
 msgstr "업데이트 없음"
 
 msgctxt "#21342"
-msgid "There are currently no updates available for this add-on."
-msgstr "현재 이 애드온의 업데이트가 없습니다."
+msgid "There are currently no versions available for this add-on."
+msgstr "현재 이 애드온의 버전이 없습니다."
 
 msgctxt "#21343"
 msgid "Use video tags"
@@ -11461,6 +11501,10 @@ msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "비디오플레이어 InputStream"
 
+msgctxt "#24049"
+msgid "Add-on has been marked deprecated in repository."
+msgstr "애드온이 저장소에 사용할 수 없도록 표시되었습니다."
+
 msgctxt "#24050"
 msgid "Available add-ons"
 msgstr "사용 가능한 애드온"
@@ -11538,8 +11582,8 @@ msgid "Update available"
 msgstr "업데이트 사용가능"
 
 msgctxt "#24069"
-msgid "Update"
-msgstr "업데이트"
+msgid "Versions"
+msgstr "버전"
 
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
@@ -11612,6 +11656,10 @@ msgstr "애드온 설치 중..."
 msgctxt "#24087"
 msgid "All repositories"
 msgstr "모든 저장소"
+
+msgctxt "#24088"
+msgid "Failed to install repository"
+msgstr "저장소를 설치할 수 없음"
 
 msgctxt "#24089"
 msgid "Add-on restarts"
@@ -11746,8 +11794,8 @@ msgid "Enter search string"
 msgstr "검색어 입력"
 
 msgctxt "#24122"
-msgid "Update all"
-msgstr "모두 업데이트"
+msgid "Install all updates"
+msgstr "모든 업데이트 설치"
 
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
@@ -11804,6 +11852,14 @@ msgstr "이 기능을 사용하기 위해 필요한 애드온:"
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "이 애드온을 사용 하습니까?"
+
+msgctxt "#24137"
+msgid "Install auto updates only"
+msgstr "자동 업데이트만 설치"
+
+msgctxt "#24138"
+msgid "Update"
+msgstr "업데이트"
 
 msgctxt "#24139"
 msgid "View Add-on"
@@ -11905,6 +11961,58 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "애플 tvOS 기준 맞춤 (Siri 리모트)"
 
+msgctxt "#24164"
+msgid "Addon \"{0:s}\" broken"
+msgstr "\"{0:s}\" 애드온 깨짐"
+
+msgctxt "#24165"
+msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "애드온이 다음과 같이 깨어진 것으로 표시됨:[CR][B][I]{0:s}[/I][/B][CR][CR]사용할까요?"
+
+msgctxt "#24166"
+msgid "Addon \"{0:s}\" deprecated"
+msgstr "\"{0:s}\" 애드온 사라짐"
+
+msgctxt "#24167"
+msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "애드온이 다음과 같이 사용할 수 없는 것으로 표시됨:[CR][B][I]{0:s}[/I][/B][CR][CR]사용할까요?"
+
+msgctxt "#24168"
+msgid "Deprecated: {0:s}"
+msgstr "사용할 수 없음: {0:s}"
+
+msgctxt "#24169"
+msgid "Normal"
+msgstr "보통"
+
+msgctxt "#24170"
+msgid "Deprecated"
+msgstr "사용할 수 없음"
+
+msgctxt "#24171"
+msgid "Broken"
+msgstr "작동 안 됨"
+
+msgctxt "#24180"
+msgid "Minimum: {0:s}{3:s}"
+msgstr "최소: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "최소: {0:s} => 설치: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "최소: {0:s} / 설치함: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "최소: {0:s} / 설치함: {1:s} => 업데이트: {2:s}{3:s}"
+
+msgctxt "#24184"
+msgid " (optional)"
+msgstr "(옵션)"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "저장소에 연결할 수 없습니다."
@@ -11996,6 +12104,10 @@ msgstr "자동 스킵 꺼짐"
 msgctxt "#25013"
 msgid "Auto-skip on"
 msgstr "자동 스킵 켜짐"
+
+msgctxt "#25014"
+msgid "Manual"
+msgstr "수동"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -12657,6 +12769,10 @@ msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "원격 커뮤니케이션 서버"
 
+msgctxt "#33104"
+msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
+msgstr "이전에 비밀번호 설정 없이 웹 인터페이스를 사용하도록 설정하였습니다. 비밀번호를 사용하거나 인증을 설정할 때까지 이 웹 서버는 사용할 수 없습니다. 설정을 확인해야 합니다. "
+
 msgctxt "#33200"
 msgid "Detected new connection"
 msgstr "새 연결 감지함"
@@ -12800,6 +12916,26 @@ msgstr "재생할 다음 항목이 없습니다"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "재생할 이전 항목이 없습니다"
+
+msgctxt "#34220"
+msgid "HDR is OFF"
+msgstr "HDR 꺼짐"
+
+msgctxt "#34221"
+msgid "Display HDR is Off"
+msgstr "화면 HDR 꺼짐"
+
+msgctxt "#34222"
+msgid "HDR is ON"
+msgstr "HDR 켜짐"
+
+msgctxt "#34223"
+msgid "Display HDR is On"
+msgstr "화면 HDR 켜짐"
+
+msgctxt "#34224"
+msgid "Tone map method is:"
+msgstr "톤 맵 방식:"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -13090,12 +13226,12 @@ msgid "Move {0:s} left ({1:d})"
 msgstr "왼쪽으로 {0:s} 이동 ({1:d})"
 
 msgctxt "#35100"
-msgid "Enable joystick and gamepad support"
-msgstr "조이스틱과 게임패드 사용"
+msgid "Enable controller support"
+msgstr "컨트롤러 지원 사용"
 
 msgctxt "#35102"
-msgid "Disable joystick when this device is present"
-msgstr "이 장치가 있을 때 조이스틱 사용 안 함"
+msgid "Disable controllers when this device is present"
+msgstr "이 장치가 있을 때 컨트롤러 사용 안 함"
 
 msgctxt "#35103"
 msgid "Buttons"
@@ -13898,8 +14034,8 @@ msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "와이드스크린 디스플레이에 4:3 비디오를 재생할 때 확대/축소 수준을 선택합니다."
 
 msgctxt "#36172"
-msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "ffmpeg PRIME hwaccel이 사용 가능할 경우, 비디오 파일의 PRIME 하드웨어 디코딩을 사용합니다."
+msgid "Enable PRIME decoding of video files"
+msgstr "비디오 파일의 PRIME 디코더 사용"
 
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
@@ -14034,8 +14170,8 @@ msgid "Sort the channels by channel number from the backend, but use local numbe
 msgstr "백엔드의 채널 번호 순서로 채널을 정렬하지만, 채널 자체 번호를 사용합니다."
 
 msgctxt "#36206"
-msgid "Use the channel numbering from the backend. Only works with one enabled PVR add-on!"
-msgstr "백엔드의 채널 번호 순서로 채널을 정렬합니다. PVR 애드온을 사용하는 경우에만!"
+msgid "Use the channel numbering from the backend."
+msgstr "백엔드의 채널 번호 사용"
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -14100,6 +14236,10 @@ msgstr "백엔드에서 데이터를 가져오는 시간 간격입니다."
 msgctxt "#36222"
 msgid "Don't import the guide data while playing TV to minimise CPU usage."
 msgstr "TV 재생 중에는 CPU 사용을 최소화 하기 위해 편성표 데이터를 가져오지 않습니다."
+
+msgctxt "#36223"
+msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
+msgstr "ffmpeg PRIME hwaccel이 사용 가능할 경우, 비디오 파일의 PRIME 하드웨어 디코딩을 사용합니다."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -14302,8 +14442,8 @@ msgid "Select the visualisation that will be displayed while listening to music.
 msgstr "음악을 듣는 동안 표시될 시각화를 선택합니다."
 
 msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "노래 파일에서 태그 정보를 읽습니다. 네트워크를 통해 큰 디렉터리를 읽어오는 경우 많은 시간이 걸릴 수 있습니다."
+msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
+msgstr "파일 보기의 음악 파일을 열 때, 음악 라이브러리에 없는 태그를 읽습니다. 큰 디렉터리를, 특히 네트워크를 통해, 표시할 때 오래 걸릴 수 있습니다. "
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
@@ -14402,8 +14542,8 @@ msgid "If enabled, a recording for the programme to remind will be scheduled whe
 msgstr "사용하고 PVR 애드온이나 백엔드가 지원하면, 알림 팝업이 자동으로 닫히면 알림 프로그램 녹화가 예약됩니다. "
 
 msgctxt "#36299"
-msgid "Switch display into HDR mode if media with HDR information is played.\nIf disabled, HDR information are applied using Kodi's internal HDR path."
-msgstr "HDR 정보가 있는 미디어가 재생되면 HDR 모드로 전환합니다.\n사용하지 않으면 내부 HDR 경로로 HDR 정보가 적용됩니다."
+msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "HDR 정보가 있는 미디어가 재생되면 HDR 모드로 전환합니다.[CR]사용하지 않으면 내부 HDR 경로로 HDR 정보가 적용됩니다."
 
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
@@ -14436,6 +14576,10 @@ msgstr "백엔드 채널 숫자를 사용하지 않으면 모든 그룹의 채�
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "사진 폴더에 들어갈 때 자동으로 썸네일을 생성합니다."
+
+msgctxt "#36308"
+msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
+msgstr "사용하면, 뮤직 비디오의 주 아티스트만 아니라 모든 아티스트를 표시합니다."
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -14514,20 +14658,20 @@ msgid "This category contains the settings for how the web server service and th
 msgstr "웹 서버 서비스와 애플리케이션 컨트롤 서비스 관련 설정 그룹입니다."
 
 msgctxt "#36328"
-msgid "Enable remote users to control this application through the built-in web server."
-msgstr "원격 사용자가 내장 웹서버를 통해 이 애플리케이션을 제어할 수 있게 합니다."
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "원격 사용자가 내장 웹 서버를 통해 이 어플리케이션을 제어할 수 있게 합니다. 웹 서버 포트를 인터넷에 알리지 않아야 합니다."
 
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "웹서버 포트를 설정합니다."
 
 msgctxt "#36330"
-msgid "Define the web server username. This only takes effect when both the username and the password are set."
-msgstr "웹서버의 사용자명을 정의합니다. 사용자명과 비밀번호가 모두 설정됐을 때만 동작합니다."
+msgid "Define the web server username. Must be set when authentication is enabled."
+msgstr "웹 서버 이름을 정합니다. 인증을 사용하면 반드시 설정해야 합니다."
 
 msgctxt "#36331"
-msgid "Define the web server password. This only takes effect when both the username and the password are set."
-msgstr "웹서버의 비밀번호를 정의합니다. 사용자명과 비밀번호가 모두 설정됐을 때만 동작합니다."
+msgid "Define the web server password. Must be set when authentication is enabled."
+msgstr "웹 서버 비밀번호를 정합니다. 인증을 사용하면 반드시 설정해야 합니다."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14538,8 +14682,8 @@ msgid "This category contains the settings for how the remote control service is
 msgstr "원격 제어 서비스 관련 설정 그룹입니다."
 
 msgctxt "#36334"
-msgid "Allow programs on this device to control this application via the web interface or the JSON-RPC interface protocol."
-msgstr "이 장치의 프로그램이 웹 인터페이스나 JSON-RPC 인터페이스 프로토콜을 통해 이 어플리케이션을 제어하는 것을 허용합니다."
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "이 장치의 프로그램이 인증 없이 WebSocket, JSON-RPC over TCP, 또는 EventServer 프로토콜을 통해 이 어플리케이션을 제어하는 것을 허용합니다."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -14554,8 +14698,8 @@ msgid "Define the maximum number of clients that can connect."
 msgstr "연결 가능한 클라이언트 수를 설정합니다."
 
 msgctxt "#36338"
-msgid "Allow programs on the network to control this application."
-msgstr "네트워크에 있는 프로그램이 이 애플리케이션을 제어하는 것을 허용합니다."
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "이 장치의 프로그램이 인증 없이 WebSocket, JSON-RPC over TCP, 또는 EventServer 프로토콜을 통해 이 어플리케이션을 제어하는 것을 허용합니다. 누구라도 이 네트워크에 접속해서 어플리케이션을 완전히 제어할 수 있습니다. 이 인터페이스를 인터넷에 알리지 않아야 합니다."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14625,13 +14769,13 @@ msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "다중 모니터 구성에서, 이 애플리케이션을 표시하지 않는 모니터를 검은 화면으로 처리합니다."
 
-msgctxt "#36356"
-msgid "Whitelisted modes are allowed to be switched to when changing resolution and refresh rate"
-msgstr "화이트리스트 모드는 해상도와 새로 고침 빈도를 바꿀 때 선택이 허용됩니다"
-
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "오버스캔을 조정하여 사용자 인터페이스를 보정합니다. 디스플레이 장치에 표시되는 이미지가 너무 크거나 작은 경우에 사용합니다."
+
+msgctxt "#36358"
+msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
+msgstr "다수 백엔드의 채널 번호 사용을 허용합니다. 이 옵션을 사용하면 모든 채널 그룹이 다수의 동일한 채널 번호를 가질 수 있습니다. 모든 채널 그룹에서 채널 번호 전환이 제대로 동작하지 않을 수 있습니다. "
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
@@ -14710,8 +14854,8 @@ msgid "Use a mouse or touch screen device to control the interface. Note: Disabl
 msgstr "마우스나 터치 스크린 장치로 인터페이스를 제어합니다. 주의: 키보드나 리모트가 없는 경우에 이 옵션을 끄면 이 애플리케이션을 제어할 수 없게됩니다."
 
 msgctxt "#36378"
-msgid "Use a joystick to control the interface."
-msgstr "조이스틱으로 인터페이스를 제어합니다."
+msgid "Use a game controller to control the interface."
+msgstr "게임 컨트롤러로 인터페이스를 제어합니다."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14885,6 +15029,14 @@ msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "VDPAU 믹서를 우회하면 낮은 사양의 시스템에서 자원을 절약할 수 았으나 약간의 화질 감소가 있습니다."
 
+msgctxt "#36422"
+msgid "Update official add-ons from"
+msgstr "공식 애드온 업데이트 출처"
+
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "기본으로 공식 저장소의 애드온은 개인 저장소로부터 자동 업데이트 되지 않습니다. 애드온 베타 저장소엣서 업데이트하는 경우, 이 옵션을 [모든 저장소]로 바꿀 수 있습니다 (안전하지 않은 옵션으로 비 호환성이나 충돌이 있을 수 있습니다)."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "편성표에서 항목을 선택합니다. [컨텍스트 메뉴 보기]는 다른 실행을 할 수 있는 컨텍스트 메뉴를 엽니다; [채널로 가기]는 관련된 채널로 바로 이동합니다; [정보 보기]는 줄거리를 포함한 상세한 정보와 더 많은 옵션을 보여줍니다; [녹화]는 선택된 항목의 녹화 타이머를 만듭니다. [\"스마트한 선택\"]은 이벤트가 지났는지, 지금인지, 미래인지에 따라 실행이 동적으로 선택됩니다."
@@ -14926,20 +15078,36 @@ msgid "When enabled, VAAPI render method is preferred and the CPU has less load.
 msgstr "VAAPI 렌더링 방식을 우선적으로 사용하여 CPU 부하를 줄일 수 있습니다. 멈춤 현상이 발생하면 이 옵션을 끄세요."
 
 msgctxt "#36434"
-msgid "Allow hardware acceleration - MMAL"
-msgstr "하드웨어 가속 허용 - MMAL"
-
-msgctxt "#36435"
-msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "MMAL 가속이 있는 비디오 파일 디코딩에 비디오플레이어를 사용합니다."
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "알림 팝업을 자동으로 닫을 때, 프로그램의 채널 변경을 알립니다."
 
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "OS 키보드 배열 선택"
 
+msgctxt "#36437"
+msgid "Official repositories only (default)"
+msgstr "공식 저장소만 (기본)"
+
+msgctxt "#36438"
+msgid "Any repositories"
+msgstr "모든 저장소"
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "음량 제어 단계의 크기 설정"
+
+msgctxt "#36443"
+msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
+msgstr "화이트리스트 모드에서는 사용자가 허용되거나 되지 않은 디스플레이 모드를 선택할 수 있습니다."
+
+msgctxt "#36444"
+msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
+msgstr "이 옵션은 3:2 풀다운 리프레시 비율을 허용합니다 (59.94 Hz 모니터의 23.976 FPS 비디오나 60 Hz 모니터의 24 FPS 비디오 재생). 모니터에 23.976 Hz나 24 Hz 모드가 없으면 사용할 수 있습니다."
+
+msgctxt "#36445"
+msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
+msgstr "이 옵션은 이중 리프레시 비율을 허용합니다 (59.94 Hz 모니터의 23.976 FPS 비디오나 60 Hz 모니터의 24 FPS 비디오 재생). 모니터에 29.97 Hz나 30 Hz 모드가 없으면 사용할 수 있습니다."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -15073,14 +15241,6 @@ msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "AirPlay 클라이언트에서 음량 조정 허용"
 
-msgctxt "#36542"
-msgid "Output to both analogue (headphones) and HDMI"
-msgstr "아나로그 (헤드폰) 및 HDMI 양쪽으로 출력합니다"
-
-msgctxt "#36543"
-msgid "Enable this to make dialogue louder compared to background sounds when downmixing multichannel audio"
-msgstr "멀티채널 오디오를 다운믹싱할 때 대사 음량을 배경 사운드보다 크게 합니다."
-
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "비디오 하드웨어 디코딩을 사용합니다."
@@ -15092,10 +15252,6 @@ msgstr "3D 자막 심도"
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "3D 비디오 자막의 심도를 설정합니다. 설정값이 높을수록 시청자에 가깝게 보입니다"
-
-msgctxt "#36547"
-msgid "Use higher quality textures for covers and fanart (uses more memory)"
-msgstr "커버와 팬아트에서 고품질의 텍스처를 사용합니다 (더 많은 메모리를 사용함)"
 
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
@@ -15132,6 +15288,14 @@ msgstr "라인하르트"
 msgctxt "#36556"
 msgid "Tone mapping parameter"
 msgstr "톤 매핑 변수"
+
+msgctxt "#36557"
+msgid "ACES Filmic"
+msgstr "ACES Filmic"
+
+msgctxt "#36558"
+msgid "Hable"
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -15413,6 +15577,30 @@ msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "일부 와이파이 라우터의 USB 공유와 NAS 장치 호환을 위해서 취약한 SMBv1 보안을 강제합니다."
 
+msgctxt "#36632"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
+msgstr "웹 인터페이스에 접근하는 누구라도 이 어플리케이션과 장치를 완전히 제어할 수 있으므로, 인터넷에 알리지 않아야 합니다. 아래 비밀번호가 설정되어야 합니다. 계속할까요?"
+
+msgctxt "#36633"
+msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
+msgstr "이 서비스는 인증과 암호를 사용하지 않습니다. 연결하는 누구라도 이 어플리케이션과 장치를 완전히 제어할 수 있으므로, 인터넷에 알리지 않아야 합니다. 계속할까요?"
+
+msgctxt "#36634"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
+msgstr "웹 인터페이스에 접근하는 누구라도 이 어플리케이션과 장치를 완전히 제어할 수 있으므로, 비밀번호로 보호해야 합니다. 계속할까요?"
+
+msgctxt "#36635"
+msgid "If web server authentication is enabled, a password must be entered as well."
+msgstr "웹 서버 인증을 사용하면, 비밀번호도 입력해야 합니다."
+
+msgctxt "#36636"
+msgid "You must first enter a password before web server authentication can be enabled."
+msgstr "웹 서버 인증을 사용하기 전에, 먼저 비밀번호를 입력해야 합니다."
+
+msgctxt "#36637"
+msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
+msgstr "zip 애드온을 설치하는 것은 (서비스 저장소를 제외하고) 자동으로 되지 않고 수동으로 업데이트해야 합니다. 계속할까요?"
+
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
 msgstr "웹서버의 SSL 암호를 사용합니다. 인증 special://userdata/server.key 과 키 special://userdata/server.pem 는 수동으로 생성되어야 합니다."
@@ -15529,18 +15717,6 @@ msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
 msgstr "리시버가 돌비 디지털 플러스 (E-AC3) 디코딩을 지원하면 선택합니다."
 
-msgctxt "#37017"
-msgid "Dual audio output"
-msgstr "듀얼 오디오 출력"
-
-msgctxt "#37018"
-msgid "Boost centre channel when downmixing"
-msgstr "다운믹스할 때 센터 채널 증폭"
-
-msgctxt "#37020"
-msgid "Enable higher colour depth artwork"
-msgstr "고품질 아트워크 사용"
-
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
 msgstr "GUI 해상도 제한 설정"
@@ -15552,10 +15728,6 @@ msgstr "UPnP 플레이어"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "원격 장치에서 재생을 중지하겠습니까?"
-
-msgctxt "#37024"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), this allows multichannel audio such as AAC 5.1 or FLAC 5.1 to be listened to in 5.1 surround sound. Note: Not recommended on Pi as this requires a lot of CPU."
-msgstr "연결된 오디오 장치의 멀티 채널이 돌비 디지털 5.1 (AC3)만 지원하는 경우 선택하세요. AAC 5.1 이나 FLAC 5.1 오디오도 5.1 서라운드 사운드로 감상할 수 있습니다. 주의: 많은 CPU 자원이 필요하므로 Pi(라즈베리 파이)에서는 권장하지 않습니다."
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -15645,10 +15817,6 @@ msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
 
-msgctxt "#38010"
-msgid "GPU accelerated"
-msgstr "GPU 가속"
-
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
 msgstr "\"모든 항목\" 버튼 표시"
@@ -15700,22 +15868,6 @@ msgstr "사용할 정보 제공자"
 msgctxt "#38026"
 msgid "Appearances"
 msgstr "Appearances"
-
-msgctxt "#38027"
-msgid "Decode the stereo stream from 3D files"
-msgstr "3D 파일들로부터 스테레오 스트림 디코드"
-
-msgctxt "#38028"
-msgid "If enabled, videos created in Multiview Video Coding (MVC) format can also be watched in stereoscopic 3D. MVC format is typically found on 3D Blu-rays.[CR]Note: Processing of this data may reduce playback performance, so only enable if you require stereoscopic 3D support."
-msgstr "활성화 하면 MVC(Multi-view Video Coding, 다시점 비디오 부호화) 포맷으로 만들어진 비디오를 3D로 볼 수 있습니다. MVC 포맷은 일반적으로 3D 블루레이에서 찾을 수 있습니다. [CR]주의: 이 데이터를 처리하는 경우 재생 성능이 떨어질 수 있으니 3D 지원이 필요한 경우에만 사용하세요."
-
-msgctxt "#38029"
-msgid "Enable Full HD HDMI modes for stereoscopic 3D"
-msgstr "3D 비디오에 Full HD HDMI 모드 사용"
-
-msgctxt "#38030"
-msgid "This option uses frame-packing to output full resolution for 3D through HDMI.[CR]Enabling this improves quality of Multiview Video Coding (MVC) videos, but may not be supported by all displays."
-msgstr "이 옵션은 HDMI를 통해  최대 3D 해상도를 출력하기 위해 프레임 패킹을 사용합니다. [CR]활성화하면 MVC(Multi-view Video Coding, 다시점 비디오 부호화) 비디오의 품질이 증가하지만, 모든 디스플레이가 지원하지는 않습니다."
 
 msgctxt "#38031"
 msgid "Video stream"
@@ -15865,6 +16017,10 @@ msgctxt "#38080"
 msgid "BPM"
 msgstr "BPM"
 
+msgctxt "#38081"
+msgid "Release status"
+msgstr "릴리스 현황"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "미디어 재생 관련 설정 섹션입니다."
@@ -15962,7 +16118,7 @@ msgid "Items to export"
 msgstr "내보내기를 할 항목"
 
 msgctxt "#38307"
-msgid "Include art work such as thumbnails and fanart"
+msgid "Include artwork such as thumbnails and fanart"
 msgstr "썸네일과 팬아트 같은 아트워크 포함"
 
 msgctxt "#38308"
@@ -16086,8 +16242,8 @@ msgid "Unable to read xml file"
 msgstr "xml 파일을 읽을 수 없음"
 
 msgctxt "#39004"
-msgid "This category provides access to the windows for source management and the Library settings for the databases"
-msgstr "이 카테고리는 소스 관리와 데이터베이스의 라이브러리 설정을 위한 윈도 접근을 제공합니다."
+msgid "This category provides access to the windows for source management and library management facilities"
+msgstr "이 카테고리는 소스 관리와 라이브러리 관리를 위한 윈도 접근을 제공합니다."
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -16181,6 +16337,10 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Sortname"
 
+msgctxt "#39028"
+msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+msgstr "애드온 \"{0:s}\"[CR]출처 \"{1:s}\"[CR]버전 \"{2:s}\"[CR]- 지우고 대체됩니다. 계속할까요?"
+
 msgctxt "#39030"
 msgid "Source"
 msgstr "소스"
@@ -16264,3 +16424,131 @@ msgstr "[B]진행자[/B] 항목의 상세한 로그"
 msgctxt "#39118"
 msgid "Share debug log"
 msgstr "디버그 로그 공유"
+
+msgctxt "#39119"
+msgid "Last modified"
+msgstr "마지막 수정"
+
+msgctxt "#39120"
+msgid "Skip filename matching for external audio tracks"
+msgstr "외부 오디오 곡의 파일 이름 맞추기 건너뜀"
+
+msgctxt "#39121"
+msgid "Library Display and Navigation"
+msgstr "라이브러리 표시와 보기"
+
+msgctxt "#39122"
+msgid "Library Information Sources"
+msgstr "라이브러리 정보 출처"
+
+msgctxt "#39123"
+msgid "Artwork"
+msgstr "아트워크"
+
+msgctxt "#39125"
+msgid "Enable tag reading in file view"
+msgstr "파일 보기의 태그 읽기 사용"
+
+msgctxt "#39127"
+msgid "Use all local image files as artwork"
+msgstr "모든 로컬 이미지 파일을 아트워크로 사용"
+
+msgctxt "#39128"
+msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
+msgstr "라이브러리 검색에서, 미디어 파일과 함께 있는 아트 형식 파일 이름의 모든 이미지 파일을 아트워크 파일로 사용합니다."
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "스크레이퍼로 가져온 모든 원격 아트워크 사용"
+
+msgctxt "#39130"
+msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
+msgstr "없거나 로컬에 추가되지 않은 아트에, 스크레이퍼의 원격 아트워크에서 첫 번째 아트 형식을 사용합니다."
+
+msgctxt "#39131"
+msgid "Artist art types whitelist"
+msgstr "아티스트 아트 타입 화이트리스트"
+
+msgctxt "#39132"
+msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "로컬이나 스크레이트 원격 아트 결과에서 가져온 아티스트 아트워크를 화이트리스트의 아트 형식으로 제한"
+
+msgctxt "#39133"
+msgid "Album art types whitelist"
+msgstr "앨범 아트 타입 화이트리스트"
+
+msgctxt "#39134"
+msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "로컬이나 스크레이트 원격 아트 결과에서 가져온 앨범 아트워크를 화이트리스트의 아트 형식으로 제한"
+
+msgctxt "#39135"
+msgid "Thumbnail image files"
+msgstr "썸네일 이미지 파일"
+
+msgctxt "#39136"
+msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
+msgstr "주 아트워크를 (썸네일) 포함하는 파일 이름으로, 일반적으로 네모나고 전체와 크기를 줄여서 사용되며 폴더, 아티스트, 앨범 또는 노래를 시각화"
+
+msgctxt "#39137"
+msgid "Artwork level"
+msgstr "아트워크 수준"
+
+msgctxt "#39138"
+msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
+msgstr "자동으로 선택된 아트워크 크기 - [최대] 모든 로컬 이미지와 원격 아트; [기본] 단순한 스킨으로 장치의 저장 공간을 줄임; [사용자] 사용자의 상세한 설정; [없음] 아트 없음"
+
+msgctxt "#39140"
+msgid "Maximum"
+msgstr "최대"
+
+msgctxt "#39141"
+msgid "Basic"
+msgstr "초급"
+
+msgctxt "#39142"
+msgid "Custom"
+msgstr "사용자 지정"
+
+msgctxt "#39143"
+msgid "Movie art types whitelist"
+msgstr "영화 아트 타입 화이트리스트"
+
+msgctxt "#39144"
+msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "로컬이나 스크레이트 원격 아트 결과에서 가져온 영화나 영화 세트 아트워크를 화이트리스트의 아트 형식으로 제한"
+
+msgctxt "#39145"
+msgid "TV show art types whitelist"
+msgstr "TV 쇼 아트 타입 화이트리스트"
+
+msgctxt "#39146"
+msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "로컬이나 스크레이트 원격 아트 결과에서 가져온 TV 쇼나 시즌 아트워크를 화이트리스트의 아트 형식으로 제한"
+
+msgctxt "#39147"
+msgid "Episode art types whitelist"
+msgstr "에피소드 아트 타입 화이트리스트"
+
+msgctxt "#39148"
+msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "로컬이나 스크레이트 원격 아트 결과에서 가져온 에피소드 아트워크를 화이트리스트의 아트 형식으로 제한"
+
+msgctxt "#39149"
+msgid "Music video art types whitelist"
+msgstr "뮤직 비디오 아트 타입 화이트리스트"
+
+msgctxt "#39150"
+msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "로컬이나 스크레이트 원격 아트 결과에서 가져온 뮤직 비디오 아트워크를 화이트리스트의 아트 형식으로 제한"
+
+msgctxt "#39151"
+msgid "Display hardware scaling filter"
+msgstr "하드웨어 스케일링 필터 표시"
+
+msgctxt "#39152"
+msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
+msgstr "Integer scaling (IS)은 디스플레이 엔진을 사용하는 Nearest-Neighbor(NN) 업스케일링 기술"
+
+msgctxt "#39153"
+msgid "Windowing system:"
+msgstr "윈도 시스템:"

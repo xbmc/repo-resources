@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk_UA\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4661,14 +4661,6 @@ msgctxt "#13023"
 msgid "Successfully removed storage device"
 msgstr "Накопичувач успішно вилучено"
 
-msgctxt "#13024"
-msgid "Joystick plugged"
-msgstr "Джойстик підключено"
-
-msgctxt "#13025"
-msgid "Joystick unplugged"
-msgstr "Джойстик відключено"
-
 msgctxt "#13026"
 msgid "Try to wakeup remote servers on access"
 msgstr "Намагатися розбудити віддалені сервери"
@@ -5289,10 +5281,6 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "Немає задаваних значень для цієї візуалізації"
 
-msgctxt "#13390"
-msgid "There are no settings available\nfor this visualisation"
-msgstr "Немає доступних налаштувань\nдля цієї візуалізації"
-
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Відкрити / Закрити"
@@ -5436,10 +5424,6 @@ msgstr "Увімкнути апаратне прискорення - CrystalHD"
 msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Увімкнути апаратне прискорення — VTBDecoder"
-
-msgctxt "#13430"
-msgid "Allow hardware acceleration - PRIME"
-msgstr "Увімкнути апаратне прискорення - PRIME"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -6001,10 +5985,6 @@ msgctxt "#14084"
 msgid "Queue songs on selection"
 msgstr "Додавати треки до черги при виборі"
 
-msgctxt "#14085"
-msgid "Whitelist"
-msgstr "\"Білий\" список"
-
 msgctxt "#14086"
 msgid "Playback"
 msgstr "Відтворення"
@@ -6164,6 +6144,10 @@ msgstr "Регіон "
 msgctxt "#14125"
 msgid "Input"
 msgstr "Введення"
+
+msgctxt "#14126"
+msgid "Whitelist"
+msgstr "\"Білий\" список"
 
 msgctxt "#14200"
 msgid "Player"
@@ -6789,10 +6773,6 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "Bilinear"
 
-msgctxt "#16303"
-msgid "Bicubic"
-msgstr "Bicubic"
-
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6884,22 +6864,6 @@ msgstr "VAAPI - Адаптація руху"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Компенсація руху"
-
-msgctxt "#16330"
-msgid "MMAL - Advanced"
-msgstr "MMAL — розширен."
-
-msgctxt "#16331"
-msgid "MMAL - Advanced (half)"
-msgstr "MMAL — розширені (1 поле)"
-
-msgctxt "#16332"
-msgid "MMAL - Bob"
-msgstr "MMAL  Bob"
-
-msgctxt "#16333"
-msgid "MMAL - Bob (half)"
-msgstr "MMAL — Bob (1 поле)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -7096,14 +7060,6 @@ msgstr "Справді приховати цей канал?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Таймери"
-
-msgctxt "#19041"
-msgid "Are you sure you want to rename this recording?"
-msgstr "Справді перейменувати цей запис?"
-
-msgctxt "#19042"
-msgid "Are you sure you want to rename this timer?"
-msgstr "Справді перейменувати цей таймер?"
 
 msgctxt "#19043"
 msgid "Recording"
@@ -10033,10 +9989,6 @@ msgctxt "#21341"
 msgid "No updates available"
 msgstr "Немає доступних оновлень"
 
-msgctxt "#21342"
-msgid "There are currently no updates available for this add-on."
-msgstr "Зараз немає оновлень для цієї надбудови."
-
 msgctxt "#21343"
 msgid "Use video tags"
 msgstr "Використовувати мітки відео"
@@ -11309,10 +11261,6 @@ msgctxt "#24068"
 msgid "Update available"
 msgstr "Доступне оновлення"
 
-msgctxt "#24069"
-msgid "Update"
-msgstr "Оновити"
-
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
 msgstr "Не вдалося завантажити надбудову"
@@ -11517,10 +11465,6 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Рядок пошуку"
 
-msgctxt "#24122"
-msgid "Update all"
-msgstr "Оновити все"
-
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
 msgstr "Призупиняти відтворення відео під час пошуку субтитрів і продовжувати після того, як субтитри завантажено."
@@ -11572,6 +11516,10 @@ msgstr "Завантажити субтитри..."
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "Увімкнути цю надбудову?"
+
+msgctxt "#24138"
+msgid "Update"
+msgstr "Оновити"
 
 msgctxt "#24139"
 msgid "View Add-on"
@@ -11628,6 +11576,14 @@ msgstr "Триває міграція надбудов. Зачекайте"
 msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "Надбудова несумісна з цією версією Kodi."
+
+msgctxt "#24169"
+msgid "Normal"
+msgstr "Нормальне"
+
+msgctxt "#24171"
+msgid "Broken"
+msgstr "Зіпсован."
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -11720,6 +11676,10 @@ msgstr "Автопропущення вимкн."
 msgctxt "#25013"
 msgid "Auto-skip on"
 msgstr "Автопропущення ввімкн."
+
+msgctxt "#25014"
+msgid "Manual"
+msgstr "Уручну"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -12804,14 +12764,6 @@ msgstr "Рухайте {0:s} ліворуч"
 msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "Рухайте {0:s} ліворуч ({1:d})"
-
-msgctxt "#35100"
-msgid "Enable joystick and gamepad support"
-msgstr "Увімкнути джойстик і геймпад"
-
-msgctxt "#35102"
-msgid "Disable joystick when this device is present"
-msgstr "Вимкнути джойстик, коли підключено цей пристрій."
 
 msgctxt "#35103"
 msgid "Buttons"
@@ -13941,10 +13893,6 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Виберіть візуалізацію, яка буде показуватися під час відтворення музики."
 
-msgctxt "#36274"
-msgid "Read the tag information from song files. For large directories this can increase read time, especially over a network."
-msgstr "Зчитувати інформаційні мітки з музичних файлів. Може сповільнити сканування папок з великою кількістю файлів, особливо по мережі."
-
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Налаштування відображення назв пісень у інтерфейсі . Для правильного функціонування потрібно ввімкнути зчитування теґів."
@@ -14113,21 +14061,9 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Ця категорія містить налаштування служби веб-серверу і віддаленого керування."
 
-msgctxt "#36328"
-msgid "Enable remote users to control this application through the built-in web server."
-msgstr "Дозволити віддаленим користувачам керування цим додатком через вбудований веб-сервер."
-
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Визначте порт веб-серверу."
-
-msgctxt "#36330"
-msgid "Define the web server username. This only takes effect when both the username and the password are set."
-msgstr "Ім'я користувача веб-серверу. Це налаштування діє лише, якщо задано ім'я користувача і пароль."
-
-msgctxt "#36331"
-msgid "Define the web server password. This only takes effect when both the username and the password are set."
-msgstr "Пароль веб-серверу. Це налаштування діє лише, якщо задано ім'я користувача і пароль."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14148,10 +14084,6 @@ msgstr "Діапазон портів дистанційного керуван�
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Максимальна кількість клієнтів, що можуть підключатися."
-
-msgctxt "#36338"
-msgid "Allow programs on the network to control this application."
-msgstr "Дозволити програмам в мережі керувати цим додатком."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14292,10 +14224,6 @@ msgstr "При включенні, стрілки вашої клавіатур�
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "Керування інтерфейсом за допомогою миші або сенсорного екрану. Увага: якщо вимкнути налаштування при відсутності клавіатури чи пульту, керування програмою буде втрачено."
-
-msgctxt "#36378"
-msgid "Use a joystick to control the interface."
-msgstr "Керування інтерфейсом за допомогою джойстика."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14493,14 +14421,6 @@ msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Вибрати розкладки екранної клавіатури."
 
-msgctxt "#36434"
-msgid "Allow hardware acceleration - MMAL"
-msgstr "Увімкнути апаратне прискорення - MMAL"
-
-msgctxt "#36435"
-msgid "Use VideoPlayer for decoding of video files with MMAL acceleration."
-msgstr "Використовувати VideoPlayer для декодування відеофайлів із прискоренням за допомогою MMAL."
-
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Встановити кількість кроків керування гучністю."
@@ -14605,14 +14525,6 @@ msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "Дозволяє регулятор гучності від AirPlay клієнтів."
 
-msgctxt "#36542"
-msgid "Output to both analogue (headphones) and HDMI"
-msgstr "Вивід звуку через аналоговий вихід (на навушники) та HDMI."
-
-msgctxt "#36543"
-msgid "Enable this to make dialogue louder compared to background sounds when downmixing multichannel audio"
-msgstr "Підвищувати гучність діалогів порівняно з фоновими звуками при мікшуванні багатоканального звуку."
-
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "Увімкнути апаратне декодування відеофайлів."
@@ -14624,10 +14536,6 @@ msgstr "Стереоскопічна глибина субтитрів"
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Налаштування візуальної глибини субтитрів у стереоскопічному відео. Що більше значення, то ближче відображаються субтитри до глядача."
-
-msgctxt "#36547"
-msgid "Use higher quality textures for covers and fanart (uses more memory)"
-msgstr "Високоякісні текстури для обкладинок і фанарту (потрібно більше пам'яті)."
 
 msgctxt "#36548"
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
@@ -14861,18 +14769,6 @@ msgctxt "#37014"
 msgid "Last used profile"
 msgstr "Останній використаний профіль"
 
-msgctxt "#37017"
-msgid "Dual audio output"
-msgstr "Виведення звуку на два виходи"
-
-msgctxt "#37018"
-msgid "Boost centre channel when downmixing"
-msgstr "Підвищувати гучність центрального каналу при мікшуванні"
-
-msgctxt "#37020"
-msgid "Enable higher colour depth artwork"
-msgstr "Картинки з більшою глибиною кольору"
-
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
 msgstr "Обмежити роздільну здатність інтерфейсу"
@@ -14944,10 +14840,6 @@ msgstr "Віддати перевагу аудіопотокам за промо
 msgctxt "#37041"
 msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
 msgstr "Якщо увімкнено, аудіопотокам, що помічені як за промовчанням (і відповідають обраній мові) віддається перевага над потоками з більшою якістю (кількістю каналів, кращім кодеком, тощо)."
-
-msgctxt "#38010"
-msgid "GPU accelerated"
-msgstr "Прискорення за допомогою відеокарти"
 
 msgctxt "#38015"
 msgid "Unlimited"
@@ -15056,3 +14948,19 @@ msgstr "Сюжет фільму"
 msgctxt "#39116"
 msgid "Episode plot"
 msgstr "Сюжет серії"
+
+msgctxt "#39123"
+msgid "Artwork"
+msgstr "Картинки"
+
+msgctxt "#39140"
+msgid "Maximum"
+msgstr "Максимальна"
+
+msgctxt "#39141"
+msgid "Basic"
+msgstr "Базовий"
+
+msgctxt "#39142"
+msgid "Custom"
+msgstr "Додатково"
