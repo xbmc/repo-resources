@@ -869,6 +869,10 @@ msgctxt "#244"
 msgid "Full screen"
 msgstr "Цео екран"
 
+msgctxt "#245"
+msgid "Sizing: ({0:d},{1:d})->({2:d},{3:d}) (Zoom x{4:2.2f}) AR:{5:2.2f}:1 (Pixels: {6:2.2f}:1) (VShift: {7:2.2f})"
+msgstr "Величина: ({0:d},{1:d})->({2:d},{3:d}) (Увећање x{4:2.2f}) AR:{5:2.2f}:1 (Пиксела: {6:2.2f}:1) (ВПомерај: {7:2.2f})"
+
 msgctxt "#246"
 msgid "Monitor"
 msgstr "Монитор"
@@ -1109,6 +1113,10 @@ msgctxt "#306"
 msgid "Non-interleaved"
 msgstr "Неиспреплетани"
 
+msgctxt "#307"
+msgid "Media default"
+msgstr "Медији подразумевано"
+
 msgctxt "#308"
 msgid "Original language"
 msgstr "Оригинални језик"
@@ -1167,11 +1175,11 @@ msgstr "Грешка чишћења извођача"
 
 msgctxt "#322"
 msgid "Cleaning genres, roles etc...."
-msgstr "Чишћење жанрова, улога итд...."
+msgstr "Чишћење жанрова, улога итд..."
 
 msgctxt "#323"
 msgid "Error cleaning genres, roles etc."
-msgstr "Грешка чишћења жанрова, улога итд."
+msgstr "Грешка при чишћењу жанрова, улога итд."
 
 msgctxt "#324"
 msgid "Cleaning paths..."
@@ -1599,7 +1607,7 @@ msgstr "Уклони филм из библиотеке"
 
 msgctxt "#433"
 msgid "Would you really like to remove '{0:s}' from library?"
-msgstr "Да ли стварно желите да уклоните '{0:s}' из библиотеке?"
+msgstr "Да ли стварно желите да уклоните „{0:s}“ из библиотеке?"
 
 msgctxt "#434"
 msgid "From {0:s} at {1:d} {2:s}"
@@ -1864,6 +1872,10 @@ msgstr "Празно"
 msgctxt "#505"
 msgid "Loading media information from files..."
 msgstr "Учитавање података медија из датотека..."
+
+msgctxt "#506"
+msgid "Checking media files..."
+msgstr "Провера медијских датотека..."
 
 msgctxt "#507"
 msgid "Sort by: Usage"
@@ -2493,6 +2505,30 @@ msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
 msgstr "Опширно евидентирање за [B]Webserver[/B] компоненту"
 
+msgctxt "#682"
+msgid "Verbose logging for the [B]Database[/B] component"
+msgstr "Детаљно евидентирање за компоненту [B]База података[/B]"
+
+msgctxt "#683"
+msgid "Verbose logging of [B]audio/video timing information[/B]"
+msgstr "Детаљно евидентирање [B]информација о временском трајању за аудио/видео[/B]"
+
+msgctxt "#684"
+msgid "Verbose logging of [B]Windowing[/B] component"
+msgstr "Детаљно евидентирање компоненте [B]Уоквиравање[/B]"
+
+msgctxt "#685"
+msgid "Verbose logging of [B]PVR[/B] component"
+msgstr "Детаљно евидентирање компоненте [B]ПВР[/B]"
+
+msgctxt "#686"
+msgid "Verbose logging of [B]EPG[/B] component"
+msgstr "Детаљно евидентирање компоненте [B]ЕПГ[/B]"
+
+msgctxt "#687"
+msgid "From metadata"
+msgstr "Из метаподатака"
+
 msgctxt "#700"
 msgid "Cleaning up library"
 msgstr "Чишћење библиотеке"
@@ -2673,6 +2709,10 @@ msgctxt "#751"
 msgid "Removing source"
 msgstr "Уклањање извора"
 
+msgctxt "#752"
+msgid "Opacity"
+msgstr "Непрозирност"
+
 msgctxt "#754"
 msgid "Add program link"
 msgstr "Додај везу ка програму"
@@ -2724,6 +2764,10 @@ msgstr "Светло сива"
 msgctxt "#767"
 msgid "Grey"
 msgstr "Сива"
+
+msgctxt "#768"
+msgid "Dark Grey"
+msgstr "Тамно сива"
 
 msgctxt "#770"
 msgid "Error {0:d}: share not available"
@@ -2849,6 +2893,10 @@ msgctxt "#818"
 msgid "Max recordings"
 msgstr "Максимално снимака"
 
+msgctxt "#819"
+msgid "One time (Scheduled by timer rule)"
+msgstr "Једнократно (заказано правилом тајмера)"
+
 msgctxt "#820"
 msgid "One time"
 msgstr "Једном"
@@ -2865,9 +2913,33 @@ msgctxt "#823"
 msgid "Timer rule (guide-based)"
 msgstr "Правило тајмера (засновано на водичу)"
 
+msgctxt "#824"
+msgid "Reminder: {0:s}"
+msgstr "Подсетник: {0:s}"
+
+msgctxt "#825"
+msgid "Recording: {0:s}"
+msgstr "Снимање: {0:s}"
+
+msgctxt "#826"
+msgid "Set reminder"
+msgstr "Постави подсетник"
+
+msgctxt "#827"
+msgid "Delete reminder"
+msgstr "Избриши подсетник"
+
 msgctxt "#828"
 msgid "Timer rule deleted"
 msgstr "Правило тајмера избрисано"
+
+msgctxt "#829"
+msgid "View reminder"
+msgstr "Прикажи подсетник"
+
+msgctxt "#830"
+msgid "Edit reminder"
+msgstr "Изменити подсетник"
 
 msgctxt "#831"
 msgid "Mondays"
@@ -2897,6 +2969,14 @@ msgctxt "#837"
 msgid "Sundays"
 msgstr "Недељама"
 
+msgctxt "#838"
+msgid "Première"
+msgstr "Премијера"
+
+msgctxt "#839"
+msgid "Live"
+msgstr "Уживо"
+
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
 msgstr "Да ли желите да избришете само овај тајмер или такође и правило тајмера које га је заказало?"
@@ -2904,6 +2984,10 @@ msgstr "Да ли желите да избришете само овај тај�
 msgctxt "#841"
 msgid "Only this"
 msgstr "Само ово"
+
+msgctxt "#842"
+msgid "New"
+msgstr "Ново"
 
 msgctxt "#843"
 msgid "Activate"
@@ -2928,6 +3012,10 @@ msgstr "Потврдите заустављање снимања"
 msgctxt "#848"
 msgid "Are you sure you want to stop this recording?"
 msgstr "Да ли сте сигурни да желите да зауставите ово снимање?"
+
+msgctxt "#849"
+msgid "Finale"
+msgstr "Финале"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3097,6 +3185,14 @@ msgctxt "#1040"
 msgid "Loading directory"
 msgstr "Учитавање фасцикле"
 
+msgctxt "#1041"
+msgid "Retrieved {0:d} items"
+msgstr "Преузето {0:d} ставки"
+
+msgctxt "#1042"
+msgid "Retrieved {0:d} of {1:d} items"
+msgstr "Преузето {0:d} од {1:d} ставки"
+
 msgctxt "#1043"
 msgid "Program add-ons"
 msgstr "Додатни програми за програме"
@@ -3124,6 +3220,14 @@ msgstr "Појединачни"
 msgctxt "#1051"
 msgid "Enter web address"
 msgstr "Унесите web адресу"
+
+msgctxt "#1052"
+msgid "Require authentication"
+msgstr "Захтева потврду идентитета"
+
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "Изаберите да ли захтеви за веб сервер захтевају корисничко име и лозинку, који морају бити постављени у наставку ако су омогућени. Препоручује се да ову поставку увек оставите омогућеном."
 
 msgctxt "#1180"
 msgid "Proxy type"
@@ -3675,6 +3779,10 @@ msgstr "Подешавања"
 
 msgctxt "#10005"
 msgid "Not available"
+msgstr "Није доступно"
+
+msgctxt "#10006"
+msgid "N/A"
 msgstr "Није доступно"
 
 msgctxt "#10007"
@@ -4593,6 +4701,14 @@ msgctxt "#13211"
 msgid "Alarm!"
 msgstr "Аларм!"
 
+msgctxt "#13213"
+msgid "{0:2.0f}m"
+msgstr "{0:2.0f}m"
+
+msgctxt "#13214"
+msgid "{0:2.0f}s"
+msgstr "{0:2.0f}s"
+
 msgctxt "#13249"
 msgid "Search for subtitles in RARs"
 msgstr "Претражи титлове у РАР-овима"
@@ -5176,6 +5292,10 @@ msgstr "Омогућите ову опцију ради коришћења ха�
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Дати предност VAAPI начину приказивања"
+
+msgctxt "#13465"
+msgid "EGL"
+msgstr "EGL"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -10689,6 +10809,22 @@ msgctxt "#24151"
 msgid "Add-on migration in progress - please wait"
 msgstr "Миграција додатних програма у току - молимо сачекајте"
 
+msgctxt "#24156"
+msgid "30 Seconds"
+msgstr "30 секунди"
+
+msgctxt "#24157"
+msgid "60 Seconds"
+msgstr "60 секунди"
+
+msgctxt "#24158"
+msgid "90 Seconds"
+msgstr "90 секунди"
+
+msgctxt "#24159"
+msgid "120 Seconds"
+msgstr "120 секунди"
+
 msgctxt "#24169"
 msgid "Normal"
 msgstr "Нормална"
@@ -11537,6 +11673,14 @@ msgctxt "#34128"
 msgid "192.0"
 msgstr "192.0"
 
+msgctxt "#34129"
+msgid "352.8"
+msgstr "352.8"
+
+msgctxt "#34130"
+msgid "384.0"
+msgstr "384.0"
+
 msgctxt "#34201"
 msgid "Can't find a next item to play"
 msgstr "Није пронађена следећа ставка за репродукцију"
@@ -11825,6 +11969,14 @@ msgctxt "#35222"
 msgid "Exit"
 msgstr "Изађи"
 
+msgctxt "#35223"
+msgid "Missing: {0:s}"
+msgstr "Недостаје: {0:s}"
+
+msgctxt "#35224"
+msgid "Pause / Resume"
+msgstr "Паузирај / Настави"
+
 msgctxt "#35225"
 msgid "Video filter"
 msgstr "Видео филтери"
@@ -11832,6 +11984,34 @@ msgstr "Видео филтери"
 msgctxt "#35226"
 msgid "Advanced settings"
 msgstr "Напредна подешавања"
+
+msgctxt "#35227"
+msgid "Rotation"
+msgstr "Ротација"
+
+msgctxt "#35228"
+msgid "0°"
+msgstr "0°"
+
+msgctxt "#35229"
+msgid "90°"
+msgstr "90°"
+
+msgctxt "#35230"
+msgid "180°"
+msgstr "180°"
+
+msgctxt "#35231"
+msgid "270°"
+msgstr "270°"
+
+msgctxt "#35232"
+msgid "Fullscreen"
+msgstr "Пун екран"
+
+msgctxt "#35234"
+msgid "Controls"
+msgstr "Контроле"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -12036,6 +12216,10 @@ msgstr "Паузирај Репродукцију"
 msgctxt "#36046"
 msgid "Force AVR to wake up when Kodi is activated"
 msgstr "Натерај АВР да се пробуди када се Коди активира"
+
+msgctxt "#36050"
+msgid "On start"
+msgstr "Приликом покретања"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -13421,6 +13605,10 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Одредите резолуцију за 3D табелу претраживања. Користите нижу резолуцију за брзи преглед и вишу резолуцију за тачнију слику. При коришћењу високе резолуције може бити потребно пар секунди за припрему када се параметри промене или се нови видео започне."
 
+msgctxt "#36579"
+msgid "UHDTV (BT.2020)"
+msgstr "UHDTV (BT.2020)"
+
 msgctxt "#36580"
 msgid "3D LUT file"
 msgstr "3D LUT датотека"
@@ -13488,6 +13676,10 @@ msgstr "64x64x64"
 msgctxt "#36596"
 msgid "256x256x256"
 msgstr "256x256x256"
+
+msgctxt "#36597"
+msgid "{0:1.2f}"
+msgstr "{0:1.2f}"
 
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
@@ -13580,6 +13772,18 @@ msgstr "Омогући висок квалитет умањења слика (к
 msgctxt "#36623"
 msgid "None"
 msgstr "Ништа"
+
+msgctxt "#36624"
+msgid "SMBv1"
+msgstr "SMBv1"
+
+msgctxt "#36625"
+msgid "SMBv2"
+msgstr "SMBv2"
+
+msgctxt "#36626"
+msgid "SMBv3"
+msgstr "SMBv3"
 
 msgctxt "#36627"
 msgid "Client"
@@ -13793,6 +13997,10 @@ msgctxt "#37045"
 msgid "Extract chapter thumbnails for presentation in the chapters / bookmarks dialogue. This might increase CPU load."
 msgstr "Извади сличице поглавља за излагање у дијалозима поглавља / обележивача. Ово може увећати оптерећење CPU-а."
 
+msgctxt "#37046"
+msgid "1080"
+msgstr "1080"
+
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
 msgstr "Прикажи унос \"Све ставке\""
@@ -13965,9 +14173,21 @@ msgctxt "#38208"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
 msgstr "Ако EXIF подаци постоје (датум, време, коришћен фотоапарат, итд.), биће приказани."
 
+msgctxt "#38209"
+msgid "Reset resume position"
+msgstr "Ресетуј позицију за настављање"
+
 msgctxt "#38301"
 msgid "Single file"
 msgstr "Једна датотека"
+
+msgctxt "#38351"
+msgid "Matching data"
+msgstr "Подударање података"
+
+msgctxt "#38352"
+msgid "Updating songs"
+msgstr "Ажурирање песама"
 
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
@@ -13993,9 +14213,33 @@ msgctxt "#39010"
 msgid "Select sort method"
 msgstr "Одаберите начин слагања"
 
+msgctxt "#39019"
+msgid "installed"
+msgstr "инсталирано"
+
+msgctxt "#39020"
+msgid "The following additional add-ons will be installed"
+msgstr "Биће инсталирани следећи додаци"
+
+msgctxt "#39021"
+msgid "Proceed with installation?"
+msgstr "Наставити са инсталацијом?"
+
+msgctxt "#39022"
+msgid "({0:s})"
+msgstr "({0:s})"
+
+msgctxt "#39023"
+msgid "({0:s}, {1:s})"
+msgstr "({0:s}, {1:s})"
+
 msgctxt "#39024"
 msgid "Dependencies"
 msgstr "Зависности"
+
+msgctxt "#39025"
+msgid "Gender"
+msgstr "Пол"
 
 msgctxt "#39030"
 msgid "Source"

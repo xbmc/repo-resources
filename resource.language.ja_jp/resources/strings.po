@@ -3221,6 +3221,14 @@ msgctxt "#1051"
 msgid "Enter web address"
 msgstr "Webアドレスの入力"
 
+msgctxt "#1052"
+msgid "Require authentication"
+msgstr "認証が必要"
+
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "Webサーバーへのリクエストにユーザー名とパスワードが必要かどうかを選択します。これらを有効にする場合は、下記で設定しておく必要があります。なお、この設定は常に有効にしておくことをお勧めします。"
+
 msgctxt "#1180"
 msgid "Proxy type"
 msgstr "プロキシタイプ"
@@ -3928,6 +3936,10 @@ msgstr "プログラムソースの編集"
 msgctxt "#10057"
 msgid "Edit file source"
 msgstr "ファイルソースの編集"
+
+msgctxt "#10058"
+msgid "Remove tag from library"
+msgstr "ライブラリからタグを取り除く"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -5341,6 +5353,10 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "このビジュアライザに利用可能なプリセットはありません"
 
+msgctxt "#13390"
+msgid "There are no settings available[CR]for this visualisation"
+msgstr "このビジュアライザに[CR]設定はありません"
+
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "イジェクト / ロード"
@@ -5485,6 +5501,10 @@ msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "ハードウェアアクセラレーションを許可する - VTBDecoder"
 
+msgctxt "#13430"
+msgid "Allow using DRM PRIME decoder"
+msgstr "DRM PRIMEデコーダーの使用を許可する"
+
 msgctxt "#13431"
 msgid "Pixel shaders"
 msgstr "ピクセルシェーダー"
@@ -5512,6 +5532,10 @@ msgstr "ディスプレイHDR機能を使用する"
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
 msgstr "VDPAUビデオミキサーを優先する"
+
+msgctxt "#13438"
+msgid "Allow hardware acceleration with DRM PRIME"
+msgstr "DRM PRIMEでハードウェアアクセラレーションを許可する"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -6237,6 +6261,14 @@ msgctxt "#14126"
 msgid "Whitelist"
 msgstr "ホワイトリスト"
 
+msgctxt "#14127"
+msgid "Allow 3:2 pulldown refresh rates"
+msgstr "3:2 のプルダウンリフレッシュレートを許可する"
+
+msgctxt "#14128"
+msgid "Allow double refresh rates"
+msgstr "2倍のリフレッシュレートを許可する"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "プレーヤー"
@@ -6861,6 +6893,10 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "バイリニア"
 
+msgctxt "#16303"
+msgid "Bicubic (B-Spline)"
+msgstr "バイキュービック(B-Spline)"
+
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6901,6 +6937,10 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - シャープネス"
 
+msgctxt "#16314"
+msgid "Bicubic (Mitchell)"
+msgstr "バイキュービック(Mitchell)"
+
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - 最適化"
@@ -6925,6 +6965,10 @@ msgctxt "#16320"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16321"
+msgid "Bicubic (Catmull-Rom)"
+msgstr "バイキュービック(Catmull-Rom)"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6941,6 +6985,10 @@ msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
 
+msgctxt "#16326"
+msgid "Bicubic (0,0.75)"
+msgstr "バイキュービック(0,0.75)"
+
 msgctxt "#16327"
 msgid "VAAPI - Bob"
 msgstr "VAAPI - Bob"
@@ -6952,6 +7000,10 @@ msgstr "VAAPI - Motion適応"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Motion補正"
+
+msgctxt "#16330"
+msgid "Bicubic (0,1.)"
+msgstr "バイキュービック(0,1.)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -11449,6 +11501,10 @@ msgctxt "#24068"
 msgid "Update available"
 msgstr "アップデート可能"
 
+msgctxt "#24069"
+msgid "Versions"
+msgstr "バージョン"
+
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
 msgstr "アドオンが読み込めませんでした。"
@@ -11520,6 +11576,10 @@ msgstr "アドオンのインストールをしています..."
 msgctxt "#24087"
 msgid "All repositories"
 msgstr "すべてのリポジトリ"
+
+msgctxt "#24088"
+msgid "Failed to install repository"
+msgstr "リポジトリのインストールに失敗しました"
 
 msgctxt "#24089"
 msgid "Add-on restarts"
@@ -11652,6 +11712,10 @@ msgstr "手動検索文字列"
 msgctxt "#24121"
 msgid "Enter search string"
 msgstr "検索文字列の入力"
+
+msgctxt "#24122"
+msgid "Install all updates"
+msgstr "すべてのアップデートをインストールする"
 
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
@@ -11805,13 +11869,25 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "Apple tvOS Standardと一致(Siriリモート)"
 
+msgctxt "#24168"
+msgid "Deprecated: {0:s}"
+msgstr "非推奨: {0:s}"
+
 msgctxt "#24169"
 msgid "Normal"
 msgstr "中"
 
+msgctxt "#24170"
+msgid "Deprecated"
+msgstr "非推奨"
+
 msgctxt "#24171"
 msgid "Broken"
 msgstr "破損"
+
+msgctxt "#24184"
+msgid " (optional)"
+msgstr "(任意)"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -12713,6 +12789,26 @@ msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "前に再生するアイテムが見つかりません"
 
+msgctxt "#34220"
+msgid "HDR is OFF"
+msgstr "HDRはオフです"
+
+msgctxt "#34221"
+msgid "Display HDR is Off"
+msgstr "ディスプレイHDRがオフ"
+
+msgctxt "#34222"
+msgid "HDR is ON"
+msgstr "HDRはオンです"
+
+msgctxt "#34223"
+msgid "Display HDR is On"
+msgstr "ディスプレイHDRがオン"
+
+msgctxt "#34224"
+msgid "Tone map method is:"
+msgstr "トーンマップの方法:"
+
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconfの起動に失敗しました"
@@ -13000,6 +13096,10 @@ msgstr "移動 {0:s} 左"
 msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "移動 {0:s} 左 ({1:d})"
+
+msgctxt "#35100"
+msgid "Enable controller support"
+msgstr "コントローラのサポートを有効にする"
 
 msgctxt "#35103"
 msgid "Buttons"
@@ -13747,15 +13847,15 @@ msgstr "有効にすると、ムービーライブラリにそのセットの単
 
 msgctxt "#36158"
 msgid "Enable DXVA2 hardware decoding of video files."
-msgstr "ビデオファイルのDXA2ハードウェアデコーディングを有効にする。"
+msgstr "ビデオファイルでDXA2ハードウェアデコーディングを有効にする。"
 
 msgctxt "#36159"
 msgid "Enable CrystalHD decoding of video files."
-msgstr "ビデオファイルのCrystalHDデコーディングを有効にする。"
+msgstr "ビデオファイルでCrystalHDデコーディングを有効にする。"
 
 msgctxt "#36160"
 msgid "Enable VTB hardware decoding of video files."
-msgstr "ビデオファイルのVTBハードウェアデコーディングを有効にする。"
+msgstr "ビデオファイルでVTBハードウェアデコーディングを有効にする。"
 
 msgctxt "#36161"
 msgid "Select an action Kodi will perform on startup."
@@ -13763,7 +13863,7 @@ msgstr "Kodiが起動時に実行するアクションを選択。"
 
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
-msgstr "ビデオファイルのVideoToolboxハードウェアデコーディングを有効にする。"
+msgstr "ビデオファイルでVideoToolboxハードウェアデコーディングを有効にする。"
 
 msgctxt "#36163"
 msgid "Show TV shows with no episodes when browsing the video library."
@@ -13800,6 +13900,10 @@ msgstr "黒いバーを最小限に抑えるようにセットしたパーセン
 msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "ワイドスクリーンディスプレイで、4:3ビデオのズームレベルの選択をする。"
+
+msgctxt "#36172"
+msgid "Enable PRIME decoding of video files"
+msgstr "ビデオファイルでPRIMEデコーディングを有効にする。"
 
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
@@ -14553,6 +14657,10 @@ msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "マウスまたはタッチスクリーンデバイスを使用してインターフェースを操作する。[CR]注意: キーボードやリモコンがないまま無効にすると、このアプリケーションを操作できなくなります。"
 
+msgctxt "#36378"
+msgid "Use a game controller to control the interface."
+msgstr "ゲームコントローラー使ってインターフェイスを操作する。"
+
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
 msgstr "このカテゴリーには、インターネットアクセスの扱いを処理する設定が含まれています。デフォルトのWebインターフェースはここで選択できます。"
@@ -14769,6 +14877,14 @@ msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "OSのキーボードレイアウト選択する。"
 
+msgctxt "#36437"
+msgid "Official repositories only (default)"
+msgstr "公式リポジトリのみ(デフォルト)"
+
+msgctxt "#36438"
+msgid "Any repositories"
+msgstr "任意のリポジトリ"
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "音量調整のステップ数をセット。"
@@ -14907,7 +15023,7 @@ msgstr "AirPlayクライアントからの音量調整を許可する。"
 
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
-msgstr "ビデオファイルの再生でハードウェア デコーディングを有効にする。"
+msgstr "ビデオファイルでハードウェア デコーディングを有効にする。"
 
 msgctxt "#36545"
 msgid "Stereoscopic 3D depth of subtitles"
@@ -14952,6 +15068,14 @@ msgstr "ラインハルト"
 msgctxt "#36556"
 msgid "Tone mapping parameter"
 msgstr "トーンマッピング パラメータ"
+
+msgctxt "#36557"
+msgid "ACES Filmic"
+msgstr "ACES Filmic"
+
+msgctxt "#36558"
+msgid "Hable"
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -15649,6 +15773,10 @@ msgctxt "#38080"
 msgid "BPM"
 msgstr "BPM"
 
+msgctxt "#38081"
+msgid "Release status"
+msgstr "リリースステータス"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "メディア再生の設定を含むセクション"
@@ -16037,9 +16165,21 @@ msgctxt "#39118"
 msgid "Share debug log"
 msgstr "シェア デバッグログ"
 
+msgctxt "#39119"
+msgid "Last modified"
+msgstr "最終更新日"
+
 msgctxt "#39123"
 msgid "Artwork"
 msgstr "アートワーク"
+
+msgctxt "#39135"
+msgid "Thumbnail image files"
+msgstr "サムネイルイメージ ファイル"
+
+msgctxt "#39137"
+msgid "Artwork level"
+msgstr "アートワーク レベル"
 
 msgctxt "#39140"
 msgid "Maximum"
@@ -16052,3 +16192,7 @@ msgstr "ベーシック"
 msgctxt "#39142"
 msgid "Custom"
 msgstr "カスタム"
+
+msgctxt "#39151"
+msgid "Display hardware scaling filter"
+msgstr "ハードウェアスケーリングフィルターを表示する"
