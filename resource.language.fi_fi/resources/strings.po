@@ -3221,6 +3221,14 @@ msgctxt "#1051"
 msgid "Enter web address"
 msgstr "Anna nettiosoite"
 
+msgctxt "#1052"
+msgid "Require authentication"
+msgstr "Vaadi tunnistautuminen"
+
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "Määritä, vaativatko yhteydet palvelimeen käyttäjätunnuksen ja salasanan, jotka tulee syöttää alle, jos asetusta käytetään. On suositeltavaa pitää asetus aina käytössä."
+
 msgctxt "#1180"
 msgid "Proxy type"
 msgstr "Välityspalvelimen tyyppi"
@@ -3928,6 +3936,10 @@ msgstr "Muokkaa ohjelmalähdettä"
 msgctxt "#10057"
 msgid "Edit file source"
 msgstr "Muokkaa tiedostolähdettä"
+
+msgctxt "#10058"
+msgid "Remove tag from library"
+msgstr "Poista tagi kirjastosta"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -5341,6 +5353,10 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "Tälle visualisoinnille ei ole esiasetuksia"
 
+msgctxt "#13390"
+msgid "There are no settings available[CR]for this visualisation"
+msgstr "Tälle visualisoinnille[CR]ei ole asetuksia."
+
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Poista/Lataa"
@@ -5512,6 +5528,10 @@ msgstr "Käytä näyttölaitteen HDR-ominaisuuksia"
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
 msgstr "Suosi VDPAU videomikseriä"
+
+msgctxt "#13438"
+msgid "Allow hardware acceleration with DRM PRIME"
+msgstr "Salli laitteistokiihdytys - DRM PRIME"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -8281,6 +8301,14 @@ msgctxt "#19326"
 msgid "Navigate..."
 msgstr "Siirry..."
 
+msgctxt "#19327"
+msgid "Delete watched"
+msgstr "Poista katsotut"
+
+msgctxt "#19328"
+msgid "Delete all watched recordings in this folder?"
+msgstr "Poista kaikki katsotut nauhoitukset tästä kansiosta?"
+
 msgctxt "#19499"
 msgid "Other / Unknown"
 msgstr "Muu / Tuntematon"
@@ -10169,6 +10197,10 @@ msgctxt "#20471"
 msgid "Show empty TV shows"
 msgstr "Näytä tyhjät tv-sarjat"
 
+msgctxt "#20472"
+msgid "Show all performers for music videos"
+msgstr "Näytä musiikkivideoille kaikki esittäjät"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Näytä piilotetut tiedostot ja kansiot"
@@ -10216,6 +10248,10 @@ msgstr "Automaattinen päivitys"
 msgctxt "#21341"
 msgid "No updates available"
 msgstr "Ei päivityksiä saatavilla"
+
+msgctxt "#21342"
+msgid "There are currently no versions available for this add-on."
+msgstr "Tälle lisäosalle ei tällä hetkellä ole saatavilla versioita."
 
 msgctxt "#21343"
 msgid "Use video tags"
@@ -11413,6 +11449,10 @@ msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "Videosoitin"
 
+msgctxt "#24049"
+msgid "Add-on has been marked deprecated in repository."
+msgstr "Lisäosa on ohjelmavarastossa merkitty vanhentuneeksi."
+
 msgctxt "#24050"
 msgid "Available add-ons"
 msgstr "Saatavilla olevat lisäosat"
@@ -11489,6 +11529,10 @@ msgctxt "#24068"
 msgid "Update available"
 msgstr "Päivitys saatavilla"
 
+msgctxt "#24069"
+msgid "Versions"
+msgstr "Versiot"
+
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
 msgstr "Lisäosaa ei voida ladata."
@@ -11560,6 +11604,10 @@ msgstr "Asennetaan lisäosaa..."
 msgctxt "#24087"
 msgid "All repositories"
 msgstr "Kaikki ohjelmavarastot"
+
+msgctxt "#24088"
+msgid "Failed to install repository"
+msgstr "Ohjelmavaraston asennus epäonnistui"
 
 msgctxt "#24089"
 msgid "Add-on restarts"
@@ -11693,6 +11741,10 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Anna hakusana"
 
+msgctxt "#24122"
+msgid "Install all updates"
+msgstr "Asenna kaikki päivitykset"
+
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
 msgstr "Pysäyttää videotoiston, kunnes sopiva tekstitys löydetty ja ladattu."
@@ -11748,6 +11800,10 @@ msgstr "Tämän ominaisuuden käyttö vaatii toimiakseen lisäosan:"
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "Haluatko ottaa käyttöön tämän lisäosan?"
+
+msgctxt "#24137"
+msgid "Install auto updates only"
+msgstr "Asenna vain automaattiset päivitykset"
 
 msgctxt "#24138"
 msgid "Update"
@@ -11853,13 +11909,57 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "Käytä Apple tvOS:n tapaa (Siri-kaukosäädin)"
 
+msgctxt "#24164"
+msgid "Addon \"{0:s}\" broken"
+msgstr "Lisäosa \"{0:s}\" on viallinen"
+
+msgctxt "#24165"
+msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Lisäosa on merkitty vialliseksi seuraavalla perusteella:[CR][B][I]{0:s}[/I][/B][CR][CR]Haluatko ottaa käyttöön?"
+
+msgctxt "#24166"
+msgid "Addon \"{0:s}\" deprecated"
+msgstr "Lisäosa \"{0:s}\" on vanhuntunut"
+
+msgctxt "#24167"
+msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Lisäosa on merkitty vanhentuneeksi seuraavalla perusteella:[CR][B][I]{0:s}[/I][/B][CR][CR]Haluatko ottaa käyttöön?"
+
+msgctxt "#24168"
+msgid "Deprecated: {0:s}"
+msgstr "Vanhentunut: {0:s}"
+
 msgctxt "#24169"
 msgid "Normal"
 msgstr "Normaali"
 
+msgctxt "#24170"
+msgid "Deprecated"
+msgstr "Vanhentunut"
+
 msgctxt "#24171"
 msgid "Broken"
 msgstr "Viallinen"
+
+msgctxt "#24180"
+msgid "Minimum: {0:s}{3:s}"
+msgstr "Minimi: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "Minimi: {0:s} => Asennetaan: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "Minimi: {0:s} / Asennettu: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "Minimi: {0:s} / Asennettu: {1:s} => Päivitetään: {2:s}{3:s}"
+
+msgctxt "#24184"
+msgid " (optional)"
+msgstr "(valinnainen)"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -12617,6 +12717,10 @@ msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Etäviestipalvelin"
 
+msgctxt "#33104"
+msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
+msgstr "Olet aiemmin ottanut web-käyttöliittymän käyttöön ilman salasanaa. Palvelin on poistettu käytöstä kunnes erityisesti hyväksyt tämän tai määrität tunnistautumisen. Tarkista asetuksesi."
+
 msgctxt "#33200"
 msgid "Detected new connection"
 msgstr "Uusi yhteys tunnistettu"
@@ -12760,6 +12864,22 @@ msgstr "Seuraavaa kohdetta ei löydy"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Edellistä kohdetta ei löydy"
+
+msgctxt "#34220"
+msgid "HDR is OFF"
+msgstr "HDR pois päältä"
+
+msgctxt "#34221"
+msgid "Display HDR is Off"
+msgstr "Näytön HDR pois päältä"
+
+msgctxt "#34222"
+msgid "HDR is ON"
+msgstr "HDR päällä"
+
+msgctxt "#34223"
+msgid "Display HDR is On"
+msgstr "Näytön HDR päällä"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -13048,6 +13168,14 @@ msgstr "Siirrä {0:s} vasemmalle"
 msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "Siirrä {0:s} vasemmalle ({1:d})"
+
+msgctxt "#35100"
+msgid "Enable controller support"
+msgstr "Ota ohjaintuki käyttöön"
+
+msgctxt "#35102"
+msgid "Disable controllers when this device is present"
+msgstr "Poista ohjaimet käytöstä kun tämä laite on yhdistetty"
 
 msgctxt "#35103"
 msgid "Buttons"
@@ -14249,6 +14377,10 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Valitse musiikkitoiston aikana näytettävä visualisointi."
 
+msgctxt "#36274"
+msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
+msgstr "Selattaessa musiikkitiedostoja tiedostonäkymässä, lue tagit automaattisesti niistä, joita ei ole musiikkikirjastossa. Tämä saattaa hidastaa suurteen kansioiden näyttöä, erityisesti verkon yli."
+
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Valitse millä tavalla kappaleiden nimet näytetään. Tämä vaatii toimiakseen tagien lukemista."
@@ -14345,6 +14477,10 @@ msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
 msgstr "Jos asetus on käytössä ja PVR-lisäosa tukee sitä, ohjelma tallennetaan automaattisesti muistutuksen sulkeutuessa."
 
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "Vaihda näyttö HDR-tilaan toistettaessa HDR-tiedot sisältävää mediaa.[CR]Jos ei käytössä, HDR-tietoja käytetään Kodin sisäisellä HDR-polulla."
+
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
 msgstr "Valitse sijainti, johon elokuvaryhmien tiedot (kuvat) on tallennettu."
@@ -14376,6 +14512,10 @@ msgstr "Jos taustaosan kanavanumerointia ei käytetä, aloita kaikkien kanavaryh
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Luo kuvien pienoiskuvat automaattisesti, kun siirrytään kuvakansioon."
+
+msgctxt "#36308"
+msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
+msgstr "Kun käytössä, näyttää kaikki esittäjät musiikkivideoiden artistilistalla pelkän pääesittäjän sijasta."
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -14453,9 +14593,21 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Tämä kategoria sisältää web-palvelimeen ja etähallintaan liittyvät asetukset."
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "Anna etäkäyttäjien ohjata tätä sovellusta sisäänrakennetun palvelimen välityksellä. Älä paljasta palvelimen porttia internetiin."
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Määritä web-palvelimen portti."
+
+msgctxt "#36330"
+msgid "Define the web server username. Must be set when authentication is enabled."
+msgstr "Määritä palvelimen käyttäjätunnus. Vaaditaan tunnistautumisen ollessa käytössä."
+
+msgctxt "#36331"
+msgid "Define the web server password. Must be set when authentication is enabled."
+msgstr "Aseta palvelimen salasana. Vaaditaan tunnistautumisen ollessa käytössä."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14464,6 +14616,10 @@ msgstr "Valitse käytettävä web-käyttöliittymä."
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Tämä kategoria sisältää etähallintaan liittyvät asetukset."
+
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "Salli tämän laitteen ohjelmien ohjata tätä sovellusta JSON-RPC over WebSocket, JSON-RPC over TCP tai EventServer -protokollien välityksellä, ilman todennusta."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -14624,6 +14780,10 @@ msgstr "Asetuksen ollessa päällä näppäimistön nuolet ohjaavat virtuaalinä
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "Ohjaa laitetta hiirellä tai kosketusnäytöllä. Huom! Asetuksen ollessa pois päältä tarvitset kaukosäädintä tai näppäimistöä laitteen ohjaamiseen."
+
+msgctxt "#36378"
+msgid "Use a game controller to control the interface."
+msgstr "Käytä peliohjainta käyttöliittymän ohjaukseen."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14797,6 +14957,14 @@ msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "VDPAU-mikserin ohittaminen vähentää kuormitusta vähätehoisilla laitteilla, mutta heikentää kuvanlaatua."
 
+msgctxt "#36422"
+msgid "Update official add-ons from"
+msgstr "Päivitä viralliset laajennukset lähteestä"
+
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "Oletuksena, virallisista ohjelmavarastoista olevien lisäosien automaattinen päivitys yksityisistä varastoista estetään. Esimerkiksi lisäosien beta-varastosta päivitystä varten tämä asetus voidaan vaihtaa valintaan [Kaikki ohjelmavarastot] (huomioi, että tämä on turvattomampi vaihtoehto ja sen käyttöönotto saattaa aiheuttaa yhteensopivuusongelmia ja kaatumisia)."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "Valitse mitä tehdään, kun ohjelma valitaan ohjelmaoppaasta. [Näytä sisältövalikko] avaa sisältövalikon, josta voi valita suoritettavan toiminnon; [Vaihda kanavalle] avaa valitun kanavan; [Näytä tiedot] näyttää valitun ohjelman tiedot; [Tallenna] Tallentaa valitun ohjelman. [Älykäs valinta] Toiminto riippuu siitä, onko ohjelma mennyt, juuri käynnissä vai vasta tulossa."
@@ -14840,6 +15008,14 @@ msgstr "VAAPI-renderöintimenetelmä vähentää suorittimen kuormitusta. Jos oh
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Valitse käyttöjärjestelmän näppäimistöasettelu."
+
+msgctxt "#36437"
+msgid "Official repositories only (default)"
+msgstr "Vain viralliset ohjelmavarastot (oletus)"
+
+msgctxt "#36438"
+msgid "Any repositories"
+msgstr "Kaikki ohjelmavarastot"
 
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
@@ -15305,6 +15481,14 @@ msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "Käyttää tieturvaltaan heikkoa SMBv1-protokollaa yhteensopivuuden takaamiseksi vanhempien reitittimien ja verkkokiintolevyjen kanssa."
 
+msgctxt "#36635"
+msgid "If web server authentication is enabled, a password must be entered as well."
+msgstr "Jos palvelimella on tunnistautuminen käytössä, on myös salasana syötettävä."
+
+msgctxt "#36636"
+msgid "You must first enter a password before web server authentication can be enabled."
+msgstr "Sinun on syötettävä salasana ennen kuin palvelimen tunnistautuminen voidaan ottaa käyttöön."
+
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
 msgstr "Ottaa web-palvelimen SSL-salauksen käyttöön. Käyttäjän on luotava sertifikaatti ja avain itse tiedostoihin special://userdata/server.key ja special://userdata/server.pem"
@@ -15721,6 +15905,10 @@ msgctxt "#38080"
 msgid "BPM"
 msgstr "BPM"
 
+msgctxt "#38081"
+msgid "Release status"
+msgstr "Julkaisun tila"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Tämä kategoria sisältää mediatoiston asetukset"
@@ -16113,9 +16301,21 @@ msgctxt "#39118"
 msgid "Share debug log"
 msgstr "Jaa virheenkorjausloki"
 
+msgctxt "#39119"
+msgid "Last modified"
+msgstr "Viimeksi muokattu"
+
+msgctxt "#39122"
+msgid "Library Information Sources"
+msgstr "Kirjaston tietolähteet"
+
 msgctxt "#39123"
 msgid "Artwork"
 msgstr "Kuvat"
+
+msgctxt "#39125"
+msgid "Enable tag reading in file view"
+msgstr "Lue tagit tiedostonäkymässä"
 
 msgctxt "#39140"
 msgid "Maximum"

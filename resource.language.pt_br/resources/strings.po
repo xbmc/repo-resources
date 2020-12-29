@@ -3221,6 +3221,14 @@ msgctxt "#1051"
 msgid "Enter web address"
 msgstr "Digite a URL"
 
+msgctxt "#1052"
+msgid "Require authentication"
+msgstr "Requer autenticação"
+
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "Escolha se as requisições no servidor web requer um usuário e senha, que deve ser configurada abaixo, se habilitado. É recomendado sempre deixar essa configuração habilitada."
+
 msgctxt "#1180"
 msgid "Proxy type"
 msgstr "Proxy Tipo"
@@ -3928,6 +3936,10 @@ msgstr "Editar fonte de programa"
 msgctxt "#10057"
 msgid "Edit file source"
 msgstr "Editar fonte de arquivo"
+
+msgctxt "#10058"
+msgid "Remove tag from library"
+msgstr "Remover tag da biblioteca"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -5341,6 +5353,10 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "Não há pré-ajustes disponíveis para esta visualização"
 
+msgctxt "#13390"
+msgid "There are no settings available[CR]for this visualisation"
+msgstr "Não existe configuração disponível[CR]para essa visualização"
+
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Ejetar / Carregar"
@@ -5485,6 +5501,10 @@ msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Permitir aceleração do hardware - VTBDecoder"
 
+msgctxt "#13430"
+msgid "Allow using DRM PRIME decoder"
+msgstr "Permitir o uso do decodificador DRM PRIME"
+
 msgctxt "#13431"
 msgid "Pixel shaders"
 msgstr "Pixel shaders"
@@ -5512,6 +5532,10 @@ msgstr "Usar recursos de exibição HDR"
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
 msgstr "Preferir mixer de vídeo VDPAU"
+
+msgctxt "#13438"
+msgid "Allow hardware acceleration with DRM PRIME"
+msgstr "Permitir o uso de aceleração por hardware no DRM PRIME"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -6237,6 +6261,14 @@ msgctxt "#14126"
 msgid "Whitelist"
 msgstr "Lista de permissão"
 
+msgctxt "#14127"
+msgid "Allow 3:2 pulldown refresh rates"
+msgstr "Permitir 3:2 taxa de atualizações pulldown"
+
+msgctxt "#14128"
+msgid "Allow double refresh rates"
+msgstr "Permitir taxa de atualizações dobradas"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "Reprodutor"
@@ -6861,6 +6893,10 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "Bilinear"
 
+msgctxt "#16303"
+msgid "Bicubic (B-Spline)"
+msgstr "Bicúbico (B-Spline)"
+
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6901,6 +6937,10 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - Sharpness"
 
+msgctxt "#16314"
+msgid "Bicubic (Mitchell)"
+msgstr "Bicúbico (Mitchell)"
+
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - Otimizado"
@@ -6925,6 +6965,10 @@ msgctxt "#16320"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16321"
+msgid "Bicubic (Catmull-Rom)"
+msgstr "Bicúbico (Catmull-Rom)"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6941,6 +6985,10 @@ msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
 
+msgctxt "#16326"
+msgid "Bicubic (0,0.75)"
+msgstr "Bicúbico (0,0.75)"
+
 msgctxt "#16327"
 msgid "VAAPI - Bob"
 msgstr "VAAPI - Bob"
@@ -6952,6 +7000,10 @@ msgstr "VAAPI - Motion adaptive"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Motion compensated"
+
+msgctxt "#16330"
+msgid "Bicubic (0,1.)"
+msgstr "Bicúbico (0,1.)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -8280,6 +8332,34 @@ msgstr "Programa"
 msgctxt "#19326"
 msgid "Navigate..."
 msgstr "Navegar..."
+
+msgctxt "#19327"
+msgid "Delete watched"
+msgstr "Remover assistidos"
+
+msgctxt "#19328"
+msgid "Delete all watched recordings in this folder?"
+msgstr "Remover todas as gravações assistidas nesta pasta?"
+
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Permitir números do canais do backend com mais de um addons de PVR"
+
+msgctxt "#19330"
+msgid "Switch to channel when auto-closing the reminder popup"
+msgstr "Alterar para o canal quando o popup de lembrete for fechado automaticamente"
+
+msgctxt "#19331"
+msgid "(Auto-close of this reminder will switch to channel...)"
+msgstr "(Fechar automaticamente este lembrete vai alterar para o canal...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Alterado para o canal por fechar automaticamente o lembrete de PVR por '{0:s}' no canal '{1:s}' aos '{2:s}'"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Alterado para o canal por fechar automaticamente o lembrete de PVR no canal '{0:s}' aos '{1:s}'"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -10169,6 +10249,10 @@ msgctxt "#20471"
 msgid "Show empty TV shows"
 msgstr "Mostrar seriados sem episódios"
 
+msgctxt "#20472"
+msgid "Show all performers for music videos"
+msgstr "Mostrar todos os artistas dos videoclipes"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Exibir arquivos e diretórios ocultos"
@@ -10216,6 +10300,10 @@ msgstr "Auto-atualizar"
 msgctxt "#21341"
 msgid "No updates available"
 msgstr "Nenhuma atualização disponível"
+
+msgctxt "#21342"
+msgid "There are currently no versions available for this add-on."
+msgstr "Não existem versões disponíveis para este add-on."
 
 msgctxt "#21343"
 msgid "Use video tags"
@@ -11413,6 +11501,10 @@ msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "VideoPlayer InputStream"
 
+msgctxt "#24049"
+msgid "Add-on has been marked deprecated in repository."
+msgstr "Add-on marcado como depreciado no repositório."
+
 msgctxt "#24050"
 msgid "Available add-ons"
 msgstr "Add-ons disponíveis"
@@ -11489,6 +11581,10 @@ msgctxt "#24068"
 msgid "Update available"
 msgstr "Atualização Disponível"
 
+msgctxt "#24069"
+msgid "Versions"
+msgstr "Versões"
+
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
 msgstr "Add-on não pôde ser carregado."
@@ -11560,6 +11656,10 @@ msgstr "Instalando add-on..."
 msgctxt "#24087"
 msgid "All repositories"
 msgstr "Todos os repositórios"
+
+msgctxt "#24088"
+msgid "Failed to install repository"
+msgstr "Falha ao instalar repositório"
 
 msgctxt "#24089"
 msgid "Add-on restarts"
@@ -11693,6 +11793,10 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Entre com o título para procura manual"
 
+msgctxt "#24122"
+msgid "Install all updates"
+msgstr "Instalar todas as atualizações"
+
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
 msgstr "Pausar o vídeo atual enquanto procurando por legendas e retomar quando a legenda estiver disponível."
@@ -11748,6 +11852,10 @@ msgstr "Para usar este recurso você deve habilitar um add-on:"
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "Deseja ativar este add-on?"
+
+msgctxt "#24137"
+msgid "Install auto updates only"
+msgstr "Apenas instalar atualizações automatizadas"
 
 msgctxt "#24138"
 msgid "Update"
@@ -11853,13 +11961,57 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "Corresponder Padrão do Apple tvOS (Siri remota)"
 
+msgctxt "#24164"
+msgid "Addon \"{0:s}\" broken"
+msgstr "Add-on \"{0:s}\" quebrado"
+
+msgctxt "#24165"
+msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Add-on marcado como quebrado com as seguintes notas:[CR][B][I]{0:s}[/I][/B][CR][CR]Deseja habilitar?"
+
+msgctxt "#24166"
+msgid "Addon \"{0:s}\" deprecated"
+msgstr "Add-on \"{0:s}\" depreciado"
+
+msgctxt "#24167"
+msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Add-on marcado como depreciado com as seguintes notas:[CR][B][I]{0:s}[/I][/B][CR][CR]Deseja habilitar?"
+
+msgctxt "#24168"
+msgid "Deprecated: {0:s}"
+msgstr "Depreciado: {0:s}"
+
 msgctxt "#24169"
 msgid "Normal"
 msgstr "Normal"
 
+msgctxt "#24170"
+msgid "Deprecated"
+msgstr "Depreciado"
+
 msgctxt "#24171"
 msgid "Broken"
 msgstr "Indisponível"
+
+msgctxt "#24180"
+msgid "Minimum: {0:s}{3:s}"
+msgstr "Mínimo: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "Mínimo: {0:s} => Instalar: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "Mínimo: {0:s} / Instalado: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "Mínimo: {0:s} / Instalado: {1:s} => Atualizar para: {2:s}{3:s}"
+
+msgctxt "#24184"
+msgid " (optional)"
+msgstr "(opcional)"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -12617,6 +12769,10 @@ msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Servidor de Comunicação Remota"
 
+msgctxt "#33104"
+msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
+msgstr "Você habilitou previamente a interface web sem configurar uma senha. A interface foi desabilitada até que você configure isto explicitamente ou configure a autenticação. Favor revisar as configurações."
+
 msgctxt "#33200"
 msgid "Detected new connection"
 msgstr "Detectado nova conexão"
@@ -12760,6 +12916,26 @@ msgstr "Não existe um próximo item"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Não existe um item anterior"
+
+msgctxt "#34220"
+msgid "HDR is OFF"
+msgstr "HDR está desligado"
+
+msgctxt "#34221"
+msgid "Display HDR is Off"
+msgstr "Monitor HDR está desligado"
+
+msgctxt "#34222"
+msgid "HDR is ON"
+msgstr "HDR está ligado"
+
+msgctxt "#34223"
+msgid "Display HDR is On"
+msgstr "Monitor HDR está ligado"
+
+msgctxt "#34224"
+msgid "Tone map method is:"
+msgstr "O método do mapa de tons é:"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -13048,6 +13224,14 @@ msgstr "Mover {0:s} esquerda"
 msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "Mover {0:s} esquerda ({1:d})"
+
+msgctxt "#35100"
+msgid "Enable controller support"
+msgstr "Habilitar suporte a controle"
+
+msgctxt "#35102"
+msgid "Disable controllers when this device is present"
+msgstr "Desativar controle quando este dispositivo estiver presente"
 
 msgctxt "#35103"
 msgid "Buttons"
