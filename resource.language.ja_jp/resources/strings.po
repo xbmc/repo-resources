@@ -11869,6 +11869,14 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "Apple tvOS Standardと一致(Siriリモート)"
 
+msgctxt "#24164"
+msgid "Addon \"{0:s}\" broken"
+msgstr "アドオン \"{0:s}\" は壊れています"
+
+msgctxt "#24166"
+msgid "Addon \"{0:s}\" deprecated"
+msgstr "アドオン \"{0:s}\" は非推奨"
+
 msgctxt "#24168"
 msgid "Deprecated: {0:s}"
 msgstr "非推奨: {0:s}"
@@ -11884,6 +11892,22 @@ msgstr "非推奨"
 msgctxt "#24171"
 msgid "Broken"
 msgstr "破損"
+
+msgctxt "#24180"
+msgid "Minimum: {0:s}{3:s}"
+msgstr "最小Ver: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "最小Ver: {0:s} => インストール: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "最小Ver: {0:s} => インストール済: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "最小Ver: {0:s} => インストール済: {1:s} => 更新先: {2:s}{3:s}"
 
 msgctxt "#24184"
 msgid " (optional)"
@@ -14485,9 +14509,21 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "このカテゴリーには、Webサーバー サービスとアプリケーション コントロール サービスの扱いを処理する設定が含まれています。"
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "リモートのユーザーが内蔵されているwebサーバーを経由して、このアプリケーションの操作をすることを有効にする。絶対にWebサーバーのポートをインターネットに公開しないでください。"
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Webサーバーのポートを定義する。"
+
+msgctxt "#36330"
+msgid "Define the web server username. Must be set when authentication is enabled."
+msgstr "Webサーバーのユーザー名を定義します。認証を有効にするには設定をしておく必要があります。"
+
+msgctxt "#36331"
+msgid "Define the web server password. Must be set when authentication is enabled."
+msgstr "Webサーバーのパスワードを定義します。認証を有効にするには設定をしておく必要があります。"
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14496,6 +14532,10 @@ msgstr "アドオンマネージャーを経由してインストールされた
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "このカテゴリーには、リモートコントロールサービスの扱いを処理する設定が含まれています。"
+
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "このデバイス上のプログラムが、認証なしで、JSON-RPC over WebSocket、JSON-RPC over TCP、またはEventServerプロトコルを介してこのアプリケーションを制御できるようにします。"
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -14508,6 +14548,10 @@ msgstr "リモートコントロール用のポート番号の範囲を定義す
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "接続可能なクライアントの最大数を定義する。"
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "ネットワーク上のプログラムが、認証なしで、JSON-RPC over WebSocket、JSON-RPC over TCP、またはEventServerプロトコルを介してこのアプリケーションを制御できるようにします。そのため、ネットワークにアクセスできるすべての人がこのアプリケーション、つまりこのデバイスを完全に制御できるようになります。これらのインターフェースをインターネットに公開しないでください。"
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14833,6 +14877,14 @@ msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "VDPAUミキサーをバイパスすることで、非力なシステムではリソースを節約できますが、画質が若干落ちます。"
 
+msgctxt "#36422"
+msgid "Update official add-ons from"
+msgstr "公式なアドオンを更新"
+
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "デフォルトでは、公式リポジトリにあるアドオン類の場合、たとえプライベートリポジトリにあったとしても自動更新される対象にはされません。アドオンのベータリポジトリからの更新などの場合、このオプションを [任意のリポジトリ] に切り替えることができます。(これは安全性を低くするオプションなので、有効にすると互換性の問題やクラッシュが発生しかねないことに注意してください)"
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "ガイドでアイテムが選択されたときに何が起こるかを選択する: [コンテキストメニューを表示] 選択し、さらなる動作としてコンテキストメニューをトリガー。[チャンネルに切り替える] 即座に関連したチャンネルへ切り替える。[情報を表示] プロットとその他のオプションで詳細情報を表示。[録画] 選択したアイテムの録画タイマーを作成。[\"スマート セレクト\"] イベントが過去、現在、未来のいずれであるかに応じて、動的に選択されます。"
@@ -14888,6 +14940,14 @@ msgstr "任意のリポジトリ"
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "音量調整のステップ数をセット。"
+
+msgctxt "#36444"
+msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
+msgstr "このオプションを選択すると、3:2プルダウンリフレッシュレートになります(59.94Hzモニターで23.976FPSビデオを再生するか、60Hzモニターで24FPSビデオを再生する) モニターに23.976Hzまたは24Hzモードがない場合は、このオプションを使用してみることを勧めします。"
+
+msgctxt "#36445"
+msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
+msgstr "このオプションを選択すると、リフレッシュレートを2倍にします(59.94Hzモニターで29.97FPSビデオを再生するか、60Hzモニターで30FPSビデオを再生する) モニターに29.97Hzまたは30Hzモードがない場合は、このオプションを使用してみることをお勧めします。"
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -15356,6 +15416,14 @@ msgstr "古いセキュリティを使用する"
 msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "一部のWiFiルーターがもつUSB共有機能やNASデバイスとの互換性のため、強制的にセキュリティが弱いSMBv1を使用。"
+
+msgctxt "#36635"
+msgid "If web server authentication is enabled, a password must be entered as well."
+msgstr "Webサーバー認証が有効になっている場合は、パスワードも入力する必要があります。"
+
+msgctxt "#36636"
+msgid "You must first enter a password before web server authentication can be enabled."
+msgstr "Webサーバー認証を有効にする前に、まずパスワードを入力する必要があります。"
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -15869,6 +15937,10 @@ msgctxt "#38306"
 msgid "Items to export"
 msgstr "アイテムのエクスポート"
 
+msgctxt "#38307"
+msgid "Include artwork such as thumbnails and fanart"
+msgstr "サムネイルやファンアートなどのアートワークを含める"
+
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "スクラップしていないアイテムを含める(テンプレートNFOファイルを作成するため)"
@@ -16169,9 +16241,41 @@ msgctxt "#39119"
 msgid "Last modified"
 msgstr "最終更新日"
 
+msgctxt "#39120"
+msgid "Skip filename matching for external audio tracks"
+msgstr "外部オーディオトラックのファイル名マッチングをスキップする"
+
+msgctxt "#39121"
+msgid "Library Display and Navigation"
+msgstr "ライブラリの表示とナビゲーション"
+
+msgctxt "#39122"
+msgid "Library Information Sources"
+msgstr "ライブラリー情報のソース"
+
 msgctxt "#39123"
 msgid "Artwork"
 msgstr "アートワーク"
+
+msgctxt "#39125"
+msgid "Enable tag reading in file view"
+msgstr "ファイルビューでタグの読み取りを有効にする"
+
+msgctxt "#39127"
+msgid "Use all local image files as artwork"
+msgstr "ローカルにあるすべての画像ファイルをアートワークとして使用する"
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "スクレーパーによって取り込んだ、リモートアートワークをすべて使用する"
+
+msgctxt "#39131"
+msgid "Artist art types whitelist"
+msgstr "アーティスト アートタイプのホワイトリスト"
+
+msgctxt "#39133"
+msgid "Album art types whitelist"
+msgstr "アルバム アートタイプのホワイトリスト"
 
 msgctxt "#39135"
 msgid "Thumbnail image files"
@@ -16192,6 +16296,22 @@ msgstr "ベーシック"
 msgctxt "#39142"
 msgid "Custom"
 msgstr "カスタム"
+
+msgctxt "#39143"
+msgid "Movie art types whitelist"
+msgstr "ムービー アートタイプのホワイトリスト"
+
+msgctxt "#39145"
+msgid "TV show art types whitelist"
+msgstr "TV番組アートタイプのホワイトリスト"
+
+msgctxt "#39147"
+msgid "Episode art types whitelist"
+msgstr "エピソード アートタイプのホワイトリスト"
+
+msgctxt "#39149"
+msgid "Music video art types whitelist"
+msgstr "ミュージックビデオ アートタイプのホワイトリスト"
 
 msgctxt "#39151"
 msgid "Display hardware scaling filter"

@@ -8341,6 +8341,26 @@ msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
 msgstr "Minden megnézett felvétel törlésre kerüljön a mappában?"
 
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Engedélyezze a háttérkiszolgáló számát egynél több PVR-kiegészítővel"
+
+msgctxt "#19330"
+msgid "Switch to channel when auto-closing the reminder popup"
+msgstr "Váltson csatornára, amikor automatikusan bezárja az emlékeztető felugró ablakot"
+
+msgctxt "#19331"
+msgid "(Auto-close of this reminder will switch to channel...)"
+msgstr "(Az emlékeztető automatikus bezárása csatornára vált ...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Csatornára váltott a(z) „{0:s}” automatikusan lezárt PVR emlékeztetője a(z) „{1:s}” csatornán a(z) „{2:s}” csatornán"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Csatornára váltott az automatikusan lezárt PVR emlékeztető a(z) „{0:s}” csatornához a(z) „{1:s}”"
+
 msgctxt "#19499"
 msgid "Other / Unknown"
 msgstr "Más / Ismeretlen"
@@ -11945,6 +11965,18 @@ msgctxt "#24164"
 msgid "Addon \"{0:s}\" broken"
 msgstr "Hibás addon: \"{0:s}\""
 
+msgctxt "#24165"
+msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Megszakítottként megjelölt kiegészítő a következő megjegyzéssel: [CR][B][I]{0:s}[/I][/B][CR][CR]Engedélyezni szeretné?"
+
+msgctxt "#24166"
+msgid "Addon \"{0:s}\" deprecated"
+msgstr "A(z) \"{0:s}\" kiegészítő elavult"
+
+msgctxt "#24167"
+msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "A kiegészítő elavultként van megjelölve a következő megjegyzéssel: [CR][B][I]{0:s}[/I][/B][CR][CR]Engedélyezni szeretné?"
+
 msgctxt "#24168"
 msgid "Deprecated: {0:s}"
 msgstr "Elavult: {0:s}"
@@ -11960,6 +11992,22 @@ msgstr "Elavult"
 msgctxt "#24171"
 msgid "Broken"
 msgstr "Szakadozott"
+
+msgctxt "#24180"
+msgid "Minimum: {0:s}{3:s}"
+msgstr "Minimum: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "Minimum: {0:s} => Telepítés: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "Minimum: {0:s} / Telepítve: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "Minimum: {0:s} / Telepítve: {1:s} => Frissítés a(z): {2:s}{3:s}"
 
 msgctxt "#24184"
 msgid " (optional)"
@@ -12885,6 +12933,10 @@ msgctxt "#34223"
 msgid "Display HDR is On"
 msgstr "HDR kijelzése bekapcsolva"
 
+msgctxt "#34224"
+msgid "Tone map method is:"
+msgstr "Leképezési módszer:"
+
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconf indítása meghiúsult"
@@ -13172,6 +13224,14 @@ msgstr "Mozgassa balra: {0:s}"
 msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "Mozgassa balra: {0:s} ({1:d})"
+
+msgctxt "#35100"
+msgid "Enable controller support"
+msgstr "Engedélyezze a vezérlő támogatását"
+
+msgctxt "#35102"
+msgid "Disable controllers when this device is present"
+msgstr "Tiltsa le a vezérlőket, ha ez az eszköz jelen van"
 
 msgctxt "#35103"
 msgid "Buttons"
@@ -13973,6 +14033,10 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Kiválasztja a nagyítási értéket, ami a 4:3-as videót szélesvásznú kijelzőhöz igazítja."
 
+msgctxt "#36172"
+msgid "Enable PRIME decoding of video files"
+msgstr "Engedélyezze a videofájlok PRIME dekódolását"
+
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Válassza ki melyik rövid dátumformátum legyen használatban a felhasználói felületen."
@@ -14104,6 +14168,10 @@ msgstr "Csatorna csoportok importálása a PVR háttérkiszolgálóból (ha tám
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
 msgstr "Csatornák rendezése a csatornák száma alapjá,n a háttérrendszerből, de a csatornákhoz használja a helyi számozást."
+
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend."
+msgstr "Használja a háttérszolgáltatás csatornaszámozását."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -14373,6 +14441,10 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Zenelejátszás alatt használt vizualizáció kiválasztása."
 
+msgctxt "#36274"
+msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
+msgstr "Amikor zenefájlokat böngészünk fájlnézetben, olvasás közben olvassa el azok nevét akik nincsenek a zenei könyvtárban. Ez lassíthatja a nagy könyvtárak megjelenítését, különösen hálózaton keresztül."
+
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Vezérli a nevek kijelzését a felhasználói felületen. A helyes működéshez engedélyezni kell cimkék olvasását."
@@ -14469,6 +14541,10 @@ msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
 msgstr "Ha engedélyezve van, akkor az emlékeztető program felvételét ütemezni kell az emlékeztető felugró ablak automatikus bezárásakor, ha a PVR kiegészítő és a háttérkiszolgáló támogatja."
 
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "Váltson HDR módba ha HDR információkat tartalmazó médiát játszik le. [CR]Ha le van tiltva akkor a HDR információkat a Kodi belső HDR útvonalán keresztül alkalmazza."
+
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
 msgstr "Válassza ki a mappát, ahová a filmek információit (képeket) helyileg menti."
@@ -14500,6 +14576,10 @@ msgstr "Ha nem használja a háttérkiszolgáló-csatorna számát, akkor kezdje
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Bélyegképek automatikus készítése mikor kép mappába lép be."
+
+msgctxt "#36308"
+msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
+msgstr "Ha engedélyezve van akkor az összes előadó megjelenik a zenei videók előadói listájában, nem csak a fő előadó"
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -14577,6 +14657,10 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Ez a kategória a webszerver-szolgáltatás beállításait tartalmazza."
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "Engedélyezze a távoli felhasználók számára az alkalmazás vezérlését a beépített webszerveren keresztül. Soha ne tegye ki a webkiszolgáló portját az internetnek."
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Adja meg a webkiszolgáló portot."
@@ -14597,6 +14681,10 @@ msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Ez a kategória a távvezérlési-szolgáltatás beállításait tartalmazza."
 
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "Engedélyezi az ezen az eszközön lévő programoknak, hogy hitelesítés nélkül vezéreljék ezt az alkalmazást a WebSocketen keresztüli JSON-RPC, a TCP felett JSON-RPC vagy az EventServer protokollon keresztül."
+
 msgctxt "#36335"
 msgid "Define the remote control port."
 msgstr "Megadható a távvezérlés hálózati elérési portjának a száma."
@@ -14608,6 +14696,10 @@ msgstr "Megadható a távvezérlés hálózati elérési portjának intervalluma
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Meghatározza a kapcsolódó kliensek maximális számát."
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "Engedélyezze a hálózati programoknak, hogy hitelesítés nélkül vezéreljék ezt az alkalmazást a WebSocketen keresztüli JSON-RPC, a TCP felett JSON-RPC vagy az EventServer protokollon keresztül. Ez lehetővé teszi, hogy bárki, aki hozzáfér a hálózathoz, teljesen irányítsa ezt az alkalmazást, ezáltal az eszközt is. Soha ne tegye ki ezeket az interfészeket az internet számára."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14680,6 +14772,10 @@ msgstr "Többképernyős konfiguráció esetén, a képernyők amelyeken nem ez 
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "A felhasználói felület kalibrálása a túllógás hangolásával. Használja ezt az eszközt, ha a megjelenített kép túl nagy, vagy túl kicsi a megjelenítője számára."
+
+msgctxt "#36358"
+msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
+msgstr "Engedélyezze a csatornák számozásának használatát több háttérprogramból. Vegye figyelembe, hogy az Összes csatorna csoport több csatornát is tartalmazhat, ha ezt az opciót használja. Ez azt jelenti, hogy lehet, hogy a csatornaszámra ugrás nem működik megfelelően az Összes csatorna csoportban."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
@@ -14933,6 +15029,14 @@ msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "Kihagyja a VDPAU keverőt, ezáltal erőforrást takarít meg az alacsonyabb teljesítményű rendszeren, de kismértékben rontja a képminőséget."
 
+msgctxt "#36422"
+msgid "Update official add-ons from"
+msgstr "Frissítse a(z) hivatalos kiegészítőit"
+
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "Alapértelmezés szerint a hivatalos adattárakból származó kiegészítőket nem lehet automatikusan frissíteni a privát tárakból. Az olyan esetekben, mint a frissítés egy kiegészítő bétatárból, ez az opció átváltható [Bármely adattárra] (ne feledje, hogy ez kevésbé biztonságos opció, és engedélyezése inkompatibilitást és összeomlást okozhat)."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "Válassza ki mi történjen ha egy elem kiválasztásra került a műsorújságban: [Környezeti menü megjelenítése] Aktiválja a környezeti menüt, ahol további műveletek közül választhat; [Csatornára váltás] Azonnal behangolja a csatornát; [Információk megjelenítése] Részletes információk megjelenítése történettel és további lehetőségekkel; [Felvétel] Időzítő létrehozása a kiválasztott elemhez. [„Okos kiválasztás”] A művelet dinamikus kerül kiválasztásra, attól függően, hogy az elem a múltban, a jelenben vagy a jövőben van."
@@ -14973,13 +15077,37 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Engedélyezéskor a VAAPI lesz az előnyben részesített renderelő és a CPU terhelése kisebb lesz. Ha fagyást tapasztal, akkor kapcsolja ki ez a beállítást."
 
+msgctxt "#36434"
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "Ha engedélyezve van, váltson arra a csatornára ahol a program emlékezteti az emlékeztető felugró ablak automatikus bezárásakor"
+
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Válassza az operációs rendszer billentyűzetkiosztását."
 
+msgctxt "#36437"
+msgid "Official repositories only (default)"
+msgstr "Csak hivatalos adattárak (alapértelmezett)"
+
+msgctxt "#36438"
+msgid "Any repositories"
+msgstr "Bármely adattár"
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Hangerőszabályozás lépéseinek száma"
+
+msgctxt "#36443"
+msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
+msgstr "Az engedélyezési listára helyezett üzemmódok lehetővé teszik a felhasználó számára, hogy kiválassza mely megjelenítési módokat használhatja"
+
+msgctxt "#36444"
+msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
+msgstr "Válassza ezt az opciót a 3:2 legördülő (pulldown) frissítési frekvencia használatához (23,976 FPS videó lejátszása 59,94 Hz-es monitoron vagy 24 FPS videó lejátszása 60 Hz-es monitoron). Akkor érdemes használni ezt az opciót, ha a monitor nem rendelkezik 23,976 Hz vagy 24 Hz üzemmóddal."
+
+msgctxt "#36445"
+msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
+msgstr "Válassza ezt az opciót a kettős frissítési frekvencia használatának engedélyezéséhez (29,97 FPS videó lejátszása 59,94 Hz-es monitoron vagy 30 FPS videó lejátszása 60 Hz-es monitoron). Akkor érdemes használni ezt az opciót, ha a monitor nem rendelkezik 29,97 Hz vagy 30 Hz üzemmóddal."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -15160,6 +15288,10 @@ msgstr "Reinhard"
 msgctxt "#36556"
 msgid "Tone mapping parameter"
 msgstr "Hangok leképezési paraméterei"
+
+msgctxt "#36558"
+msgid "Hable"
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -15440,6 +15572,30 @@ msgstr "Örökölt biztonság használata"
 msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "Gyenge SMBv1 biztonság erőltetése, az egyes USB megosztási funkciókkal rendelkező WiFi routerek vagy NAS eszközökkel kompatibilis működés miatt."
+
+msgctxt "#36632"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
+msgstr "Bárki, aki rendelkezik hozzáféréssel a webes felülethez, teljes mértékben irányíthatja ezt az alkalmazást és ezáltal ezt az eszközt is, ezért soha nem szabad kitenni az interneten. Jelszót kell alább beállítani. Folytatja?"
+
+msgctxt "#36633"
+msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
+msgstr "Ezek a szolgáltatások nem kínálnak sem hitelesítést, sem titkosítást. Bárki, aki csatlakozni tud hozzájuk, képes lesz teljesen irányítani ezt az alkalmazást, tehát ezt az eszközt is, így soha nem szabad kitenni az internetnek. Folytatja?"
+
+msgctxt "#36634"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
+msgstr "Bárki, aki rendelkezik hozzáféréssel a webes felülethez, teljes mértékben irányíthatja ezt az alkalmazást, tehát ezt az eszközt is, ezért jelszóval kell védeni. Biztosan letiltja a hitelesítést?"
+
+msgctxt "#36635"
+msgid "If web server authentication is enabled, a password must be entered as well."
+msgstr "Ha a webszerver hitelesítése engedélyezett, akkor a jelszót is meg kell adni."
+
+msgctxt "#36636"
+msgid "You must first enter a password before web server authentication can be enabled."
+msgstr "A webkiszolgáló hitelesítésének engedélyezése előtt először meg kell adnia egy jelszót."
+
+msgctxt "#36637"
+msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
+msgstr "Ne feledje, hogy a zip-ből telepített kiegészítők (a kiszolgált tárak kivételével) nem frissülnek automatikusan, és manuálisan kell őket frissíteni. Szeretné folytatni?"
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -15857,6 +16013,10 @@ msgctxt "#38080"
 msgid "BPM"
 msgstr "BPM"
 
+msgctxt "#38081"
+msgid "Release status"
+msgstr "Kiadási állapot"
+
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
 msgstr "Ez a csoport a médialejátszással kapcsolatos beállításokat tartalmazza"
@@ -15952,6 +16112,10 @@ msgstr "Célmappa"
 msgctxt "#38306"
 msgid "Items to export"
 msgstr "Exportálandó elemek"
+
+msgctxt "#38307"
+msgid "Include artwork such as thumbnails and fanart"
+msgstr "Tartalmazza az olyan grafikákat, mint a miniatűrök és a fanart"
 
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
@@ -16073,6 +16237,10 @@ msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "Nem lehet olvasni az xml fájlt"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and library management facilities"
+msgstr "Ez a kategória hozzáférést biztosít a forráskezelés és a könyvtárkezelés lehetőségeinek ablakaihoz"
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Hozzáférést biztosít a filmek forrás beállításaihoz"
@@ -16164,6 +16332,10 @@ msgstr "Egyértelműsítés"
 msgctxt "#39027"
 msgid "Sortname"
 msgstr "Rövid név"
+
+msgctxt "#39028"
+msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+msgstr "A(z) \"{0:s}\"[CR]Origin \"{1:s}\"[CR]\"{2:s}\"[CR] verzió - eltávolítja és kicseréli. Szeretné folytatni?"
 
 msgctxt "#39030"
 msgid "Source"
@@ -16257,17 +16429,69 @@ msgctxt "#39120"
 msgid "Skip filename matching for external audio tracks"
 msgstr "Fájlnév egyeztetésének kihagyása külső zenei fájlok esetén"
 
+msgctxt "#39121"
+msgid "Library Display and Navigation"
+msgstr "Könyvtár megjelenítése és navigálás"
+
+msgctxt "#39122"
+msgid "Library Information Sources"
+msgstr "Könyvtári információs források"
+
 msgctxt "#39123"
 msgid "Artwork"
 msgstr "Illusztráció"
+
+msgctxt "#39125"
+msgid "Enable tag reading in file view"
+msgstr "A címkeolvasás engedélyezése fájlnézetben"
 
 msgctxt "#39127"
 msgid "Use all local image files as artwork"
 msgstr "Helyi képfájlok használata illusztrációként"
 
+msgctxt "#39128"
+msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
+msgstr "A médiafájlok mellett elhelyezett összes képfájlt a könyvtár szkennelése során grafikaként veszi fel, a fájlnév pedig a mű típusa."
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "Használjon minden, lehúzóval (scraper) előhívott távoli illusztrációt"
+
+msgctxt "#39130"
+msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
+msgstr "Használja a távoli grafika minden egyes művészeti típusából az elsőt a lehúzó eredményekben, hogy minden hiányzó művet ne töltsön be helyi művel."
+
+msgctxt "#39131"
+msgid "Artist art types whitelist"
+msgstr "Művész művésztípusok engedélyezési listája"
+
+msgctxt "#39132"
+msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Korlátozza a helyileg letöltött vagy a lehúzó távoli művészeti eredményekből alkalmazott művészi alkotásokat csak azokra a művészeti típusokra, amelyek szerepelnek az engedélyezési listán"
+
+msgctxt "#39133"
+msgid "Album art types whitelist"
+msgstr "Albumkép típusok engedélyezési listája"
+
+msgctxt "#39134"
+msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Korlátozza a helyileg letöltött vagy a lehúzó távoli művészeti eredményei közül alkalmazott lemezborítékokat csak azokra a rajzfajtákra, amelyek szerepelnek az engedélyezési listán"
+
+msgctxt "#39135"
+msgid "Thumbnail image files"
+msgstr "Bélyegkép képfájlok"
+
+msgctxt "#39136"
+msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
+msgstr "Az elsődleges grafikákat (bélyegképeket) tartalmazó fájlok neve, négyzet alakú, teljes és csökkentett méretben is használható egy mappa, előadó, album vagy dal vizuális azonosításához"
+
 msgctxt "#39137"
 msgid "Artwork level"
 msgstr "Illusztráció használatának szintje"
+
+msgctxt "#39138"
+msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
+msgstr "Az automatikusan kiválasztott műalkotások mennyisége - [Maximum] az összes helyi kép és távoli kép; [Basic] helyet takaríthat meg korlátozott eszközökön vagy egyszerű felület használatakor; [Custom] a felhasználó által konfigurálva a részletes vezérléshez; [Nincs] nincs mű"
 
 msgctxt "#39140"
 msgid "Maximum"
@@ -16280,3 +16504,47 @@ msgstr "Alapszint"
 msgctxt "#39142"
 msgid "Custom"
 msgstr "Egyéni"
+
+msgctxt "#39143"
+msgid "Movie art types whitelist"
+msgstr "Filmművészeti típusok engedélyezési listája"
+
+msgctxt "#39144"
+msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Korlátozza a helyileg letöltött vagy a távoli lehúzó eredményei közül alkalmazott filmeket és filmkészleteket csak azokra a típusokra amelyek szerepelnek az engedélyezési listán"
+
+msgctxt "#39145"
+msgid "TV show art types whitelist"
+msgstr "Sorozatok művészeti típusainak engedélyezési listája"
+
+msgctxt "#39146"
+msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Korlátozza a sorozatok és a szezonális grafikákat amelyeket a helyszínen letöltöttek vagy amelyek a lehúzó távoli művészeti eredményeiből lettek felhasználva, csak azokra a művészeti típusokra, amelyek szerepelnek az engedélyezési listán"
+
+msgctxt "#39147"
+msgid "Episode art types whitelist"
+msgstr "Az epizód képtípusainak engedélyezési listája"
+
+msgctxt "#39148"
+msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Korlátozza a helyileg beolvasott vagy a lehúzó távoli művészeti eredményeiből alkalmazott epizódművet csak azokra a típusokra amelyek szerepelnek az engedélyezési listán"
+
+msgctxt "#39149"
+msgid "Music video art types whitelist"
+msgstr "Zenei videoművészeti típusok engedélyezési listája"
+
+msgctxt "#39150"
+msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Korlátozza a helyileg letöltött vagy a lehúzó távoli művészeti eredményeiből alkalmazott zenei videók művét csak azokra a művészeti típusokra amelyek szerepelnek az engedélyezési listán"
+
+msgctxt "#39151"
+msgid "Display hardware scaling filter"
+msgstr "Hardver méretezési szűrő megjelenítése"
+
+msgctxt "#39152"
+msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
+msgstr "Az egész számméretezés (IS) a Nearest-Neighbor(NN) skálázási technika a Display Engine használatával"
+
+msgctxt "#39153"
+msgid "Windowing system:"
+msgstr "Ablakrendszer:"
