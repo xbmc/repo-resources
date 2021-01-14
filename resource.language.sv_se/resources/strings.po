@@ -607,11 +607,11 @@ msgstr "Stilar"
 
 msgctxt "#177"
 msgid "{0:s} successfully started"
-msgstr "{0:s} startades framgångsrikt"
+msgstr "{0:s} startades"
 
 msgctxt "#178"
 msgid "{0:s} has been successfully started."
-msgstr "{0:s} har startats framgångsrikt."
+msgstr "{0:s} har startats."
 
 msgctxt "#179"
 msgid "Song"
@@ -775,7 +775,7 @@ msgstr "DVD-enhet"
 
 msgctxt "#219"
 msgid "Please insert disc"
-msgstr "Var god sätt i skiva"
+msgstr "Vänligen sätt i skiva"
 
 msgctxt "#220"
 msgid "Remote share"
@@ -1015,7 +1015,7 @@ msgstr "Använder standardinställningar"
 
 msgctxt "#281"
 msgid "Please check the XML files"
-msgstr "Var god kontrollera XML-filerna"
+msgstr "Vänligen kontrollera XML-filerna"
 
 msgctxt "#282"
 msgid "Found {0:d} items"
@@ -1591,7 +1591,7 @@ msgstr "Sätt i korrekt CD/DVD"
 
 msgctxt "#429"
 msgid "Please insert the following disc:"
-msgstr "Var god sätt i följande skiva:"
+msgstr "Vänligen sätt i följande skiva:"
 
 msgctxt "#430"
 msgid "Sort by: DVD#"
@@ -1847,7 +1847,7 @@ msgstr "Sortera efter: Typ"
 
 msgctxt "#499"
 msgid "Unable to connect to online lookup service"
-msgstr "Kunde inte kontakta informationsserver"
+msgstr "Kunde inte ansluta till uppslagstjänsten på nätet"
 
 msgctxt "#500"
 msgid "Downloading album information failed"
@@ -5717,6 +5717,10 @@ msgctxt "#13522"
 msgid "Split albums into individual discs"
 msgstr "Dela upp album i enskilda skivor"
 
+msgctxt "#13523"
+msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
+msgstr "När aktiverad, när ett album med flera skivor öppnas visas skivorna som individuella objekt istället för att visa alla låtar. När en skiva sedan öppnas visas alla låtar på den skivan."
+
 msgctxt "#13524"
 msgid "Use original release date of albums for year"
 msgstr "Använd ursprungliga utgivningsdatum av album för år"
@@ -6889,6 +6893,10 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "Bilinjär"
 
+msgctxt "#16303"
+msgid "Bicubic (B-Spline)"
+msgstr "Bikubisk (B-Spline)"
+
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6929,6 +6937,10 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - Skärpa"
 
+msgctxt "#16314"
+msgid "Bicubic (Mitchell)"
+msgstr "Bikubisk (Mitchell)"
+
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - Optimerad"
@@ -6953,6 +6965,10 @@ msgctxt "#16320"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16321"
+msgid "Bicubic (Catmull-Rom)"
+msgstr "Bikubisk (Catmull-Rom)"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6969,6 +6985,10 @@ msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
 
+msgctxt "#16326"
+msgid "Bicubic (0,0.75)"
+msgstr "Bikubisk (0,0.75)"
+
 msgctxt "#16327"
 msgid "VAAPI - Bob"
 msgstr "VAAPI - Bob"
@@ -6980,6 +7000,10 @@ msgstr "VAAPI - Rörelseanpassad"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Rörelsekompenserad"
+
+msgctxt "#16330"
+msgid "Bicubic (0,1.)"
+msgstr "Bikubisk (0,1.)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -7381,6 +7405,10 @@ msgctxt "#19094"
 msgid "Timer creation failed. Unsupported timer type."
 msgstr "Skapande av tidtagare misslyckades. Osupporterad tidtagare typ."
 
+msgctxt "#19095"
+msgid "Timer rule creation failed. Unsupported timer type."
+msgstr "Skapandet av timer-regel misslyckades. Timertypen stöds inte."
+
 msgctxt "#19096"
 msgid "\"Smart select\""
 msgstr "\"Smart val\""
@@ -7407,7 +7435,7 @@ msgstr "Leverantör"
 
 msgctxt "#19102"
 msgid "Please switch to another channel."
-msgstr "Var god byt till en annan kanal."
+msgstr "Vänligen byt till en annan kanal."
 
 msgctxt "#19103"
 msgid "Go to channel"
@@ -7741,6 +7769,10 @@ msgctxt "#19185"
 msgid "Clear data"
 msgstr "Rensa data"
 
+msgctxt "#19186"
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "All din TV-relaterade data (kanaler, grupper, programguide, timers, klienter) kommer att rensas. Är du säker?"
+
 msgctxt "#19187"
 msgid "Clearing all related data."
 msgstr "Rensar all relaterad data."
@@ -7772,6 +7804,10 @@ msgstr "Kanalsökningen kan inte påbörjas. Se loggen för mer information om d
 msgctxt "#19194"
 msgid "Continue?"
 msgstr "Fortsätt?"
+
+msgctxt "#19195"
+msgid "Delay mark last watched"
+msgstr "Fördröj markering av senast visad"
 
 msgctxt "#19196"
 msgid "PVR client specific actions"
@@ -8209,21 +8245,53 @@ msgctxt "#19304"
 msgid "View timer rule"
 msgstr "Visa tidtagarregel"
 
+msgctxt "#19305"
+msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Tog bort missad PVR-påminnelse för '{0:s}' på kanal '{1:s}' vid '{2:s}'"
+
 msgctxt "#19306"
 msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
 msgstr "Borttagen missad PVR-påminnelse för kanal '{0:s}' vid '{1:s}'"
+
+msgctxt "#19307"
+msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
+msgstr "Påminnelse för [B]{0:s}[/B] på kanal [B]{1:s}[/B] vid [B]{2:s}[/B]."
 
 msgctxt "#19308"
 msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
 msgstr "Påminnelse för kanal [B]{0:s}[/B] vid [B]{1:s}[/B]."
 
+msgctxt "#19309"
+msgid "(Auto-close of this reminder will schedule a recording...)"
+msgstr "(Autostängning av denna påminnelse kommer att schemalägga en inspelning...)"
+
 msgctxt "#19310"
 msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
 msgstr "Schemalagd inspelning för automatisk stängd PVR-påminnelse för '{0:s}' på kanal '{1:s}' vid '{2:s}'"
 
+msgctxt "#19311"
+msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Schemalade inspelning för autostängd PVR-påminnelse för kanal '{0:s}' vid '{1:s}'"
+
 msgctxt "#19312"
 msgid "PVR reminder"
 msgstr "PVR-påminnelse"
+
+msgctxt "#19313"
+msgid "Automatically close reminder popup after"
+msgstr "Stäng påminnelse-popup automatiskt efter"
+
+msgctxt "#19314"
+msgid "Schedule recording when auto-closing the reminder popup"
+msgstr "Schemalägg inspelning vid autostängning av påminnelse-popup"
+
+msgctxt "#19315"
+msgid "Backend order"
+msgstr "Backend-ordning"
+
+msgctxt "#19316"
+msgid "Start group channel numbers from 1"
+msgstr "Starta gruppkanalnummer från 1"
 
 msgctxt "#19317"
 msgid "12 hours back"
@@ -8257,9 +8325,41 @@ msgctxt "#19324"
 msgid "Last channel"
 msgstr "Föregående kanal"
 
+msgctxt "#19325"
+msgid "Programme"
+msgstr "Program"
+
 msgctxt "#19326"
 msgid "Navigate..."
 msgstr "Navigera..."
+
+msgctxt "#19327"
+msgid "Delete watched"
+msgstr "Radera sedda"
+
+msgctxt "#19328"
+msgid "Delete all watched recordings in this folder?"
+msgstr "Radera alla sedda inspelningar i denna mapp?"
+
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Tillåt kanalnummer från backend med fler än ett PVR-tillägg"
+
+msgctxt "#19330"
+msgid "Switch to channel when auto-closing the reminder popup"
+msgstr "Byt till kanal vid automatisk stängning av påminnelse-popup"
+
+msgctxt "#19331"
+msgid "(Auto-close of this reminder will switch to channel...)"
+msgstr "(Automatisk stängning av denna påminnelse kommer att byta till kanalen...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Bytte till kanal för autostängd PVR-påminnelse för '{0:s}' på kanal '{1:s}' vid '{2:s}'"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Bytte till kanal för automatisk stängd PVR-påminnelse för kanal '{0:s}' vid '{1:s}'"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9327,7 +9427,7 @@ msgstr "Använd postervisning för tv-serier"
 
 msgctxt "#20186"
 msgid "Please wait"
-msgstr "Var god vänta"
+msgstr "Vänligen vänta"
 
 msgctxt "#20187"
 msgid "UPnP / DLNA"
@@ -9383,7 +9483,7 @@ msgstr "Hämtningen av artistinformation misslyckades"
 
 msgctxt "#20220"
 msgid "Prefer online information"
-msgstr "Föredra online-information"
+msgstr "Föredra information på nätet"
 
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
@@ -9399,11 +9499,15 @@ msgstr "Mapp för artistinformation"
 
 msgctxt "#20224"
 msgid "Prefer online album art"
-msgstr "Föredra online-albumbilder"
+msgstr "Föredra albumbilder på nätet"
 
 msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
-msgstr "Om det inte finns något lokalt albumomslag, används onlinebilder. Om varken eller finns tillgängligt, kommer de omslagsbilder som är inbäddade i musikfiler att användas"
+msgstr "Om det inte finns något lokalt albumomslag, används bilder på nätet. Om varken eller finns tillgängligt, kommer de omslagsbilder som är inbäddade i musikfiler att användas"
+
+msgctxt "#20226"
+msgid "Movie set information folder"
+msgstr "Informationsmapp för filmuppsättning"
 
 msgctxt "#20228"
 msgid "Use artist sortname when sorting by artist"
@@ -10145,6 +10249,10 @@ msgctxt "#20471"
 msgid "Show empty TV shows"
 msgstr "Visa tomma tv-serier"
 
+msgctxt "#20472"
+msgid "Show all performers for music videos"
+msgstr "Visa alla medverkande för musikvideor"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Visa dolda filer och mappar"
@@ -10192,6 +10300,10 @@ msgstr "Autouppdatera"
 msgctxt "#21341"
 msgid "No updates available"
 msgstr "Inga uppdateringar tillgängliga"
+
+msgctxt "#21342"
+msgid "There are currently no versions available for this add-on."
+msgstr "Det finns inga versioner tillgängliga för detta tillägg."
 
 msgctxt "#21343"
 msgid "Use video tags"
@@ -11389,6 +11501,10 @@ msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "VideoPlayer Inmatningsström"
 
+msgctxt "#24049"
+msgid "Add-on has been marked deprecated in repository."
+msgstr "Tillägget har markerats som föråldrat i tilläggsförrådet."
+
 msgctxt "#24050"
 msgid "Available add-ons"
 msgstr "Tillgängliga tillägg"
@@ -11540,6 +11656,10 @@ msgstr "Installerar tillägg..."
 msgctxt "#24087"
 msgid "All repositories"
 msgstr "Alla förråd"
+
+msgctxt "#24088"
+msgid "Failed to install repository"
+msgstr "Misslyckades att installera förråd"
 
 msgctxt "#24089"
 msgid "Add-on restarts"
@@ -11797,6 +11917,10 @@ msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
 msgstr "Tillägget är inte kompatibelt med denna version av Kodi."
 
+msgctxt "#24153"
+msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
+msgstr "Aktivera att Siri-fjärrkontrollen matchar det normala Apple tvOS-beteendet"
+
 msgctxt "#24156"
 msgid "30 Seconds"
 msgstr "30 sekunder"
@@ -11817,13 +11941,61 @@ msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Använd Kodi:s virtuella tangentbord"
 
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr "Matcha Apples tvOS standard (Siri remote)"
+
+msgctxt "#24164"
+msgid "Addon \"{0:s}\" broken"
+msgstr "Tillägget \"{0:s}\" är trasigt"
+
+msgctxt "#24165"
+msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Tillägg markerat som trasigt med följande kommentar:[CR][B][I]{0:s}[/I][/B][CR][CR]Vill du aktivera det?"
+
+msgctxt "#24166"
+msgid "Addon \"{0:s}\" deprecated"
+msgstr "Tillägg \"{0:s}\" är föråldrat"
+
+msgctxt "#24167"
+msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Tillägg markerat som föråldrat med följande kommentar:[CR][B][I]{0:s}[/I][/B][CR][CR]Vill du aktivera det?"
+
+msgctxt "#24168"
+msgid "Deprecated: {0:s}"
+msgstr "Föråldrat: {0:s}"
+
 msgctxt "#24169"
 msgid "Normal"
 msgstr "Normal"
 
+msgctxt "#24170"
+msgid "Deprecated"
+msgstr "Föråldrat"
+
 msgctxt "#24171"
 msgid "Broken"
 msgstr "Trasigt"
+
+msgctxt "#24180"
+msgid "Minimum: {0:s}{3:s}"
+msgstr "Minimum: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "Minimum: {0:s} => Att installera: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "Minimum: {0:s} / Installerad: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "Minimum: {0:s} / Installerad: {1:s} => Uppdatera till: {2:s}{3:s}"
+
+msgctxt "#24184"
+msgid " (optional)"
+msgstr " (frivillig)"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -12581,6 +12753,10 @@ msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Fjärrkommunikationsserver"
 
+msgctxt "#33104"
+msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
+msgstr "Du har tidigare aktiverat webbgränssnittet utan att ha ställt in ett lösenord. Webbservern har inaktiverats tills du antingen uttryckligen tillåter detta eller ställer in autentisering. Vänligen kontrollera inställningarna."
+
 msgctxt "#33200"
 msgid "Detected new connection"
 msgstr "Ny anslutning detekterad"
@@ -12724,6 +12900,26 @@ msgstr "Kan inte hitta ett nästa objekt att spela"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Kan inte hitta ett föregående objekt att spela"
+
+msgctxt "#34220"
+msgid "HDR is OFF"
+msgstr "HDR är AV"
+
+msgctxt "#34221"
+msgid "Display HDR is Off"
+msgstr "Skärmens HDR är Av"
+
+msgctxt "#34222"
+msgid "HDR is ON"
+msgstr "HDR är PÅ"
+
+msgctxt "#34223"
+msgid "Display HDR is On"
+msgstr "Skärmens HDR är På"
+
+msgctxt "#34224"
+msgid "Tone map method is:"
+msgstr "Tonmappningsmetoden är:"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -13016,6 +13212,10 @@ msgstr "Dra {0:s} åt vänster ({1:d})"
 msgctxt "#35100"
 msgid "Enable controller support"
 msgstr "Aktivera stöd för kontroller"
+
+msgctxt "#35102"
+msgid "Disable controllers when this device is present"
+msgstr "Inaktivera spelkontroller när denna enhet är inkopplad"
 
 msgctxt "#35103"
 msgid "Buttons"
@@ -13817,6 +14017,10 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Välj den zoomnivå som videor i 4:3-format visas på bredbildsskärmar."
 
+msgctxt "#36172"
+msgid "Enable PRIME decoding of video files"
+msgstr "Aktivera PRIME-avkodning av videofiler"
+
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Välj vilket datumformat som ska användas vid visning av datum i gränssnittet."
@@ -13944,6 +14148,14 @@ msgstr "Aktivera \"Personal Video Recorder\" (PVR)-funktioner. Detta kräver att
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Importera kanalgrupper från PVR-backenden (om det stöds). Detta kommer ta bort skapta grupper om de inte hittas på backenden."
+
+msgctxt "#36205"
+msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
+msgstr "Sortera kanaler efter kanalnummer från backend, men använd lokal numrering för kanaler."
+
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend."
+msgstr "Använd kanalnumrering från backend."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -14208,6 +14420,10 @@ msgstr "Tillåt övertonade låtövergångar om båda spåren är från samma al
 msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Välj vilken visualisering som ska visas när du lyssnar på musik."
+
+msgctxt "#36274"
+msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
+msgstr "Vid visning av musikfiler i filvyn, läs in taggar för objekt som inte finns i musikbiblioteket efter hand. Detta kan göra det långsamt att bläddra igenom stora mappar, särskilt om dessa finns på en nätverksplats."
 
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
@@ -14784,6 +15000,10 @@ msgstr "Välj layout för det virtuella tangentbord."
 msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Om aktiverad, VAAPI-rendering föredras och CPU'n belastas inte lika mycket. Om du upplever hängningar, avaktivera detta val."
+
+msgctxt "#36434"
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "Om aktiverad, byt till kanalen med programmet för att påminna när påminnelse-popupen stängs automatiskt."
 
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
@@ -16044,6 +16264,10 @@ msgstr "Avsnittshandling"
 msgctxt "#39118"
 msgid "Share debug log"
 msgstr "Dela felsökningslogg"
+
+msgctxt "#39119"
+msgid "Last modified"
+msgstr "Senast ändrad"
 
 msgctxt "#39123"
 msgid "Artwork"

@@ -599,7 +599,7 @@ msgstr "Koottu:"
 
 msgctxt "#175"
 msgid "Moods"
-msgstr "Musiikkityyli"
+msgstr "Fiilikset"
 
 msgctxt "#176"
 msgid "Styles"
@@ -1955,7 +1955,7 @@ msgstr "Virhe: Nimi on jo olemassa"
 
 msgctxt "#530"
 msgid "Select genre"
-msgstr "Valitse näytettävä lajityyppi"
+msgstr "Valitse lajityyppi"
 
 msgctxt "#531"
 msgid "New genre"
@@ -1967,7 +1967,7 @@ msgstr "Oma lisäys"
 
 msgctxt "#533"
 msgid "Enter genre"
-msgstr "Anna lajityyppi"
+msgstr "Syötä lajityyppi"
 
 msgctxt "#534"
 msgid "View: {0:s}"
@@ -6257,6 +6257,10 @@ msgctxt "#14126"
 msgid "Whitelist"
 msgstr "Valkoinen lista"
 
+msgctxt "#14128"
+msgid "Allow double refresh rates"
+msgstr "Salli kaksinkertaiset virkistystaajuudet"
+
 msgctxt "#14200"
 msgid "Player"
 msgstr "Soitin"
@@ -6611,7 +6615,7 @@ msgstr "Toista käyttäen..."
 
 msgctxt "#15214"
 msgid "Use smoothed A/V synchronisation"
-msgstr "Käytä tasaista A/V-synkronointia"
+msgstr "Käytä pehmeämpää A/V-synkronointia"
 
 msgctxt "#15215"
 msgid "Hide file names in thumbs view"
@@ -6881,6 +6885,10 @@ msgctxt "#16302"
 msgid "Bilinear"
 msgstr "Bilineaarinen"
 
+msgctxt "#16303"
+msgid "Bicubic (B-Spline)"
+msgstr "Bicubic (B-Spline)"
+
 msgctxt "#16304"
 msgid "Lanczos2"
 msgstr "Lanczos2"
@@ -6921,6 +6929,10 @@ msgctxt "#16313"
 msgid "VDPAU - Sharpness"
 msgstr "VDPAU - Terävyys"
 
+msgctxt "#16314"
+msgid "Bicubic (Mitchell)"
+msgstr "Bicubic (Mitchell)"
+
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
 msgstr "Lanczos3 - Optimoitu"
@@ -6945,6 +6957,10 @@ msgctxt "#16320"
 msgid "DXVA"
 msgstr "DXVA"
 
+msgctxt "#16321"
+msgid "Bicubic (Catmull-Rom)"
+msgstr "Bicubic (Catmull-Rom)"
+
 msgctxt "#16322"
 msgid "Spline36"
 msgstr "Spline36"
@@ -6961,6 +6977,10 @@ msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Synk. parittomat"
 
+msgctxt "#16326"
+msgid "Bicubic (0,0.75)"
+msgstr "Bicubic (0,0.75)"
+
 msgctxt "#16327"
 msgid "VAAPI - Bob"
 msgstr "VAAPI - Synk. parittomat"
@@ -6972,6 +6992,10 @@ msgstr "VAAPI - Liikkeeseen sopeutuva"
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
 msgstr "VAAPI - Liikekompensoitu"
+
+msgctxt "#16330"
+msgid "Bicubic (0,1.)"
+msgstr "Bicubic (0,1.)"
 
 msgctxt "#16334"
 msgid "Bob (half)"
@@ -9435,7 +9459,7 @@ msgstr "Suosi internetistä löytyviä tietoja"
 
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
-msgstr "Korvaa musiikkitiedostojen tageista löydetyt tiedot, kuten lajityypin, julkaisuvuoden tai esittäjätiedot, internetistä haetuilla tiedoilla. Toiminnosta on hyötyä, jos käytät MusicBrainz-tunnisteita musiikkitiedostojesi tageissa."
+msgstr "Korvaa musiikkitiedostojen tageista löydetyt tiedot, kuten lajityyppi-, julkaisuvuosi- tai esittäjätiedot, internetistä haetuilla tiedoilla. Toiminnosta on hyötyä, jos käytät MusicBrainz-tunnisteita musiikkitiedostojesi tageissa."
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
@@ -12881,6 +12905,10 @@ msgctxt "#34223"
 msgid "Display HDR is On"
 msgstr "Näytön HDR päällä"
 
+msgctxt "#34224"
+msgid "Tone map method is:"
+msgstr "Äänensävyn kartoitustapa:"
+
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconfin käynnistys epäonnistui"
@@ -15201,6 +15229,14 @@ msgctxt "#36556"
 msgid "Tone mapping parameter"
 msgstr "Sävyn kartoituksen parametri"
 
+msgctxt "#36557"
+msgid "ACES Filmic"
+msgstr "ACES Filmic"
+
+msgctxt "#36558"
+msgid "Hable"
+msgstr "Hable"
+
 msgctxt "#36560"
 msgid "Colour management"
 msgstr "Värinhallinta"
@@ -15488,6 +15524,10 @@ msgstr "Jos palvelimella on tunnistautuminen käytössä, on myös salasana syö
 msgctxt "#36636"
 msgid "You must first enter a password before web server authentication can be enabled."
 msgstr "Sinun on syötettävä salasana ennen kuin palvelimen tunnistautuminen voidaan ottaa käyttöön."
+
+msgctxt "#36637"
+msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
+msgstr "Huomioi, että zip-tiedostoista asennetut lisäosat (poislukien tarjotut ohjelmavarastot) eivät päivity automaattisesti vaan ne on päivitettävä manuaalisesti. Haluatko jatkaa?"
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -16005,6 +16045,10 @@ msgctxt "#38306"
 msgid "Items to export"
 msgstr "Vietävät tietotyypit"
 
+msgctxt "#38307"
+msgid "Include artwork such as thumbnails and fanart"
+msgstr "Sisällytä mediakuvitukset kuten pienoiskuvat ja fanitaide"
+
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
 msgstr "Vie myös puutteelliset tiedot (NFO-tiedostomallien luomiseksi)"
@@ -16125,6 +16169,10 @@ msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "Xml-tiedoston lukeminen epäonnistui"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and library management facilities"
+msgstr "Tämä kategoria sisältää medialähteisiin ja mediakirjastoihin liittyvät asetukset."
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Tästä voi lisätä uusia videolähteitä ja muokata olemassaolevien lähteiden asetuksia."
@@ -16217,6 +16265,10 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Lajittelunimi"
 
+msgctxt "#39028"
+msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+msgstr "Lisäosa \"{0:s}\"[CR]Alkuperä \"{1:s}\"[CR]Versio \"{2:s}\"[CR]- poistetaan ja korvataan. Haluatko jatkaa?"
+
 msgctxt "#39030"
 msgid "Source"
 msgstr "Lähde"
@@ -16305,6 +16357,14 @@ msgctxt "#39119"
 msgid "Last modified"
 msgstr "Viimeksi muokattu"
 
+msgctxt "#39120"
+msgid "Skip filename matching for external audio tracks"
+msgstr "Ohita ulkoisten ääniraitojen tiedostonimen tunnistus "
+
+msgctxt "#39121"
+msgid "Library Display and Navigation"
+msgstr "Kirjaston näyttö ja navigointi"
+
 msgctxt "#39122"
 msgid "Library Information Sources"
 msgstr "Kirjaston tietolähteet"
@@ -16317,6 +16377,18 @@ msgctxt "#39125"
 msgid "Enable tag reading in file view"
 msgstr "Lue tagit tiedostonäkymässä"
 
+msgctxt "#39127"
+msgid "Use all local image files as artwork"
+msgstr "Käytä paikallisia kuvatiedostoja mediakuvituksena"
+
+msgctxt "#39128"
+msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
+msgstr "Kaikki mediatiedostojen ohessa olevat kuvatiedostot valitaan käytettäväksi mediakuvituksena kirjaston tarkistuksen aikana, käyttäen tiedostojen nimiä kuvituksen tyypin valintaan."
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "Käytä noudettuja kuvatiedostoja mediakuvituksille"
+
 msgctxt "#39131"
 msgid "Artist art types whitelist"
 msgstr "Esittäjille sallittut mediakuvitukset"
@@ -16324,6 +16396,14 @@ msgstr "Esittäjille sallittut mediakuvitukset"
 msgctxt "#39133"
 msgid "Album art types whitelist"
 msgstr "Albumeille sallittut mediakuvitukset"
+
+msgctxt "#39135"
+msgid "Thumbnail image files"
+msgstr "Pienoiskuvatiedostot"
+
+msgctxt "#39137"
+msgid "Artwork level"
+msgstr "Mediakuvituksen taso"
 
 msgctxt "#39140"
 msgid "Maximum"
