@@ -1617,10 +1617,6 @@ msgctxt "#435"
 msgid "No optical disc drive detected"
 msgstr "Nu a fost găsit nici un disc optic."
 
-msgctxt "#436"
-msgid "You need an optical disc drive to play this video"
-msgstr "Este necesar un disc optic pentru a reproduce acest video."
-
 msgctxt "#437"
 msgid "Removable disk"
 msgstr "Disc detașabil"
@@ -7317,6 +7313,10 @@ msgctxt "#19071"
 msgid "Update interval"
 msgstr "Interval actualizare"
 
+msgctxt "#19072"
+msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
+msgstr "Pentru a adăuga / actualiza un cronometru, data și ora de încheiere trebuie să fie mai mari decât data și ora de începere."
+
 msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Întârziere schimbare canal"
@@ -8245,6 +8245,62 @@ msgctxt "#19304"
 msgid "View timer rule"
 msgstr "Vizualizați regula cronometrului"
 
+msgctxt "#19305"
+msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Memento PVR ratat șters pentru „{0:s}” de pe canalul „{1:s}” la „{2:s}”"
+
+msgctxt "#19306"
+msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Memento PVR ratat șters pentru canalul „{0:s}” la „{1:s}”"
+
+msgctxt "#19307"
+msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
+msgstr "Memento pentru [B]{0: s}[/B] pe canalul [B] {1:s} [/B] la [B] {2:s} [/B]."
+
+msgctxt "#19308"
+msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
+msgstr "Memento pentru canalul [B] {0:s} [/B] la [B] {1:s} [/B]."
+
+msgctxt "#19309"
+msgid "(Auto-close of this reminder will schedule a recording...)"
+msgstr "(Închiderea automată a acestui memento va programa o înregistrare...)"
+
+msgctxt "#19310"
+msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Înregistrare programată pentru memento PVR închis automat pentru „{0:s}” pe canalul „{1:s}” la „{2:s}”"
+
+msgctxt "#19311"
+msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Înregistrare programată pentru memento PVR închis automat pentru canalul „{0:s}” la „{1:s}”"
+
+msgctxt "#19312"
+msgid "PVR reminder"
+msgstr "Memento PVR"
+
+msgctxt "#19313"
+msgid "Automatically close reminder popup after"
+msgstr "Închide automat fereastra pop-up de memento după"
+
+msgctxt "#19314"
+msgid "Schedule recording when auto-closing the reminder popup"
+msgstr "Programați înregistrarea la închiderea automată a ferestrei pop-up de memento"
+
+msgctxt "#19315"
+msgid "Backend order"
+msgstr "Comandă backend"
+
+msgctxt "#19316"
+msgid "Start group channel numbers from 1"
+msgstr "Porniți numerele canalelor de grup de la 1"
+
+msgctxt "#19317"
+msgid "12 hours back"
+msgstr "12 ore în urmă"
+
+msgctxt "#19318"
+msgid "12 hours forward"
+msgstr "12 ore înainte"
+
 msgctxt "#19319"
 msgid "Previous group"
 msgstr "Precedentul grup"
@@ -8253,9 +8309,17 @@ msgctxt "#19320"
 msgid "Next group"
 msgstr "Următorul grup"
 
+msgctxt "#19321"
+msgid "Group selector"
+msgstr "Selector de grup"
+
 msgctxt "#19322"
 msgid "First channel"
 msgstr "Primul canal"
+
+msgctxt "#19323"
+msgid "Playing channel"
+msgstr "Redare canal"
 
 msgctxt "#19324"
 msgid "Last channel"
@@ -8264,6 +8328,22 @@ msgstr "Ultimul canal"
 msgctxt "#19325"
 msgid "Programme"
 msgstr "Program"
+
+msgctxt "#19326"
+msgid "Navigate..."
+msgstr "Navigați..."
+
+msgctxt "#19327"
+msgid "Delete watched"
+msgstr "Ștergeți vizionate"
+
+msgctxt "#19328"
+msgid "Delete all watched recordings in this folder?"
+msgstr "Ștergeți toate înregistrările vizionate din acest dosar?"
+
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Permiteți numerele de canale backend cu mai mult de un addon PVR"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11673,6 +11753,10 @@ msgctxt "#24121"
 msgid "Enter search string"
 msgstr "Introduceți text de căutat"
 
+msgctxt "#24122"
+msgid "Install all updates"
+msgstr "Instalați toate actualizările"
+
 msgctxt "#24123"
 msgid "Pause the current video while searching for subtitles and resume once the subtitle is available."
 msgstr "Pune în pauză filmul actual în timp ce se caută subtitluri și reia redarea după ce subtitlul a fost descărcat."
@@ -11721,9 +11805,17 @@ msgctxt "#24134"
 msgid "Download subtitle..."
 msgstr "Descărcare subtitlu..."
 
+msgctxt "#24135"
+msgid "To use this feature you must enable an add-on:"
+msgstr "Pentru a utiliza această caracteristică trebuie să activați un addon:"
+
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
 msgstr "Doriți să activați acest supliment?"
+
+msgctxt "#24137"
+msgid "Install auto updates only"
+msgstr "Instalați numai actualizări automate"
 
 msgctxt "#24138"
 msgid "Update"
@@ -11801,13 +11893,33 @@ msgctxt "#24159"
 msgid "120 Seconds"
 msgstr "120 secunde"
 
+msgctxt "#24162"
+msgid "Use Kodi virtual keyboard"
+msgstr "Utilizați tastatura virtuală Kodi"
+
+msgctxt "#24164"
+msgid "Addon \"{0:s}\" broken"
+msgstr "Addon „{0:s}” este stricat"
+
+msgctxt "#24168"
+msgid "Deprecated: {0:s}"
+msgstr "Învechit: {0:s}"
+
 msgctxt "#24169"
 msgid "Normal"
 msgstr "Normal"
 
+msgctxt "#24170"
+msgid "Deprecated"
+msgstr "Învechit"
+
 msgctxt "#24171"
 msgid "Broken"
 msgstr "Defect"
+
+msgctxt "#24184"
+msgid " (optional)"
+msgstr "(opțional)"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -12708,6 +12820,22 @@ msgstr "Următorul element de redat nu poate fi găsit"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Elementul anterior de redat nu poate fi găsit"
+
+msgctxt "#34220"
+msgid "HDR is OFF"
+msgstr "HDR este OPRIT"
+
+msgctxt "#34221"
+msgid "Display HDR is Off"
+msgstr "Afișajul HDR este oprit"
+
+msgctxt "#34222"
+msgid "HDR is ON"
+msgstr "HDR este PORNIT"
+
+msgctxt "#34223"
+msgid "Display HDR is On"
+msgstr "Afișajul HDR este pornit"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
