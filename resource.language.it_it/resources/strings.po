@@ -923,7 +923,7 @@ msgstr "Errore"
 
 msgctxt "#258"
 msgid "Enable tag reading"
-msgstr "Abilita la lettura dell'etichetta"
+msgstr "Abilita la lettura tag"
 
 msgctxt "#259"
 msgid "Opening"
@@ -1616,6 +1616,10 @@ msgstr "Da {0:s} a {1:d} {2:s}"
 msgctxt "#435"
 msgid "No optical disc drive detected"
 msgstr "Nessun disco rilevato"
+
+msgctxt "#436"
+msgid "This video is stored on an optical disc (e.g. DVD, Blu-ray) and cannot be played as your device does not have an appropriate drive."
+msgstr "Questo video è salvato su un disco ottico (es. DVD Blu-ray) e non può essere riprodotto poiché il tuo dispositivo non ha un lettore dedicato."
 
 msgctxt "#437"
 msgid "Removable disk"
@@ -3135,7 +3139,7 @@ msgstr "Modifica sorgente"
 
 msgctxt "#1029"
 msgid "Enter the new label"
-msgstr "Inserire nuova etichetta"
+msgstr "Inserisci la nuova etichetta"
 
 msgctxt "#1030"
 msgid "Browse for image"
@@ -7313,6 +7317,10 @@ msgctxt "#19071"
 msgid "Update interval"
 msgstr "Intervallo aggiornamento"
 
+msgctxt "#19072"
+msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
+msgstr "Per poter aggiungere/aggiornare un timer data e tempo di fine devono essere maggiori di data e tempo di inizio."
+
 msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Ritarda cambio canale"
@@ -8337,6 +8345,10 @@ msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
 msgstr "Cancellare tutte le registrazioni già viste in questa cartella?"
 
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Permetti numeri canali dei backend con più di un add-on PVR"
+
 msgctxt "#19330"
 msgid "Switch to channel when auto-closing the reminder popup"
 msgstr "Cambia automaticamente canale alla chiusura automatica del popup di promemoria"
@@ -8344,6 +8356,14 @@ msgstr "Cambia automaticamente canale alla chiusura automatica del popup di prom
 msgctxt "#19331"
 msgid "(Auto-close of this reminder will switch to channel...)"
 msgstr "(La chiusura automatica di questo promemoria cambierà canale...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Canale cambiato per promemoria PVR chiuso automaticamente per  '{0:s}' sul canale '{1:s}' alle '{2:s}'"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Canale cambiato per promemoria PVR chiuso automaticamente per il canale '{0:s}' alle '{1:s}'"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -14523,7 +14543,7 @@ msgstr "Choose a time in seconds after which PVR reminder popups will be automat
 
 msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
-msgstr "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
+msgstr "Se abilitato, la registrazione per il programma da ricordare sarà pianificata alla chiusura automatica del popup di promemoria, se supportato dall'add-on PVR e dal backend."
 
 msgctxt "#36299"
 msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
@@ -14681,6 +14701,10 @@ msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Imposta il numero massimo di client che si possono connettere contemporaneamente."
 
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "Consenti ai programmi nella rete di controllare questa applicazione tramite JSON-RPC su WebSocket, JSON-RPC su TCP o protocollo EventServer, senza autenticazione. Permette a chiunque con accesso alla rete di controllare completamente questa applicazione e, di conseguenza, questo dispositivo. Non esporre mai queste interfacce a Internet."
+
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
 msgstr "Ritardo di ripetizione iniziale (ms)."
@@ -14752,6 +14776,10 @@ msgstr "In una configurazione multi schermo, gli schermi che non stanno visualiz
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Calibra l'interfaccia utente aggiustando l'overscan. Usare questo strumento se l'immagine risulta troppo grande o troppo piccola per il display"
+
+msgctxt "#36358"
+msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
+msgstr "Permetti di usare numerazioni canale da più backend. Tieni presente che il gruppo Tutti i canali potrà contenere multipli dello stesso numero canale se si usa questa opzione. Questo significa che il salto al numero canale potrebbe non funzionare correttamente per il gruppo Tutti i canali."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
@@ -15053,6 +15081,10 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Quando attivo, il metodo di render VAAPI è preferito e la CPU ha meno carico. Se riscontri impuntamenti, disabilita questa opzione."
 
+msgctxt "#36434"
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "Se abilitato, cambia al canale con il programma da ricordare alla chiusura automatica del popup di promemoria."
+
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Seleziona il layout tastiera dell'OS."
@@ -15260,6 +15292,14 @@ msgstr "Reinhard"
 msgctxt "#36556"
 msgid "Tone mapping parameter"
 msgstr "Parametro mappatura toni"
+
+msgctxt "#36557"
+msgid "ACES Filmic"
+msgstr "ACES Filmic"
+
+msgctxt "#36558"
+msgid "Hable"
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -16393,9 +16433,73 @@ msgctxt "#39119"
 msgid "Last modified"
 msgstr "Ultima modifica"
 
+msgctxt "#39120"
+msgid "Skip filename matching for external audio tracks"
+msgstr "Salta corrispondenza nome file per tracce audio esterne"
+
+msgctxt "#39121"
+msgid "Library Display and Navigation"
+msgstr "Visualizzazione e Navigazione Libreria"
+
+msgctxt "#39122"
+msgid "Library Information Sources"
+msgstr "Sorgenti informazioni Libreria"
+
 msgctxt "#39123"
 msgid "Artwork"
 msgstr "Artwork"
+
+msgctxt "#39125"
+msgid "Enable tag reading in file view"
+msgstr "Abilita lettura tag nella vista file"
+
+msgctxt "#39127"
+msgid "Use all local image files as artwork"
+msgstr "Usa tutte le immagini locali come artwork"
+
+msgctxt "#39128"
+msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
+msgstr "Tutti i file immagine collocati a fianco dei file media saranno usati come artwork durante la scansione libreria, con il nome del file come tipologia di immagine."
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "Usa tutti gli artwork remoti trovati dagli scraper"
+
+msgctxt "#39130"
+msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
+msgstr "Usa il primo di ogni tipo di immagine di artwork remoto nei risultati dello scraper per riempire ogni immagine non popolata con file locali."
+
+msgctxt "#39131"
+msgid "Artist art types whitelist"
+msgstr "Whitelist tipi immagine Artista"
+
+msgctxt "#39132"
+msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Limita gli artwork artista trovati localmente o applicati dai risultati immagini scraper remote ai soli tipi di immagine nella whitelist"
+
+msgctxt "#39133"
+msgid "Album art types whitelist"
+msgstr "Whitelist tipi immagine Album"
+
+msgctxt "#39134"
+msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Limita gli artwork album trovati localmente o applicati dai risultati immagini scraper remote ai soli tipi di immagine nella whitelist"
+
+msgctxt "#39135"
+msgid "Thumbnail image files"
+msgstr "File immagine anteprima"
+
+msgctxt "#39136"
+msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
+msgstr "I nomi dei file che contengono gli artwork primari (anteprime), generalmente quadrati e usati sia in dimensione intera che ridotta per identificare visivamente una cartella, artista, album o brano"
+
+msgctxt "#39137"
+msgid "Artwork level"
+msgstr "Livello artwork"
+
+msgctxt "#39138"
+msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
+msgstr "La quantità di artwork selezionata automaticamente - [Massimo] tutte le immagini locali e remote; [Base] salva spazio su dispositivi limitati o se si usa una skin semplice; [Personalizzato] configurato dall'utente per un controllo dettagliato; [Nessuno] nessuna immagine"
 
 msgctxt "#39140"
 msgid "Maximum"
@@ -16408,3 +16512,47 @@ msgstr "Base"
 msgctxt "#39142"
 msgid "Custom"
 msgstr "Personalizzato"
+
+msgctxt "#39143"
+msgid "Movie art types whitelist"
+msgstr "Whitelist tipi immagine Film"
+
+msgctxt "#39144"
+msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Limita gli artwork film trovati localmente o applicati dai risultati immagini scraper remote ai soli tipi di immagine nella whitelist"
+
+msgctxt "#39145"
+msgid "TV show art types whitelist"
+msgstr "Whitelist tipi immagine Serie TV"
+
+msgctxt "#39146"
+msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Limita gli artwork serie TV trovati localmente o applicati dai risultati immagini scraper remote ai soli tipi di immagine nella whitelist"
+
+msgctxt "#39147"
+msgid "Episode art types whitelist"
+msgstr "Whitelist tipi immagine Episodi"
+
+msgctxt "#39148"
+msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Limita gli artwork episodi trovati localmente o applicati dai risultati immagini scraper remote ai soli tipi di immagine nella whitelist"
+
+msgctxt "#39149"
+msgid "Music video art types whitelist"
+msgstr "Whitelist tipi immagine Video Musicali"
+
+msgctxt "#39150"
+msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Limita gli artwork video musicali trovati localmente o applicati dai risultati immagini scraper remote ai soli tipi di immagine nella whitelist"
+
+msgctxt "#39151"
+msgid "Display hardware scaling filter"
+msgstr "Filtro hardware scalatura display"
+
+msgctxt "#39152"
+msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
+msgstr "Integer scaling (IS) è una tecnica di upscaling Nearest-Neighbor(NN) che usa il Display Engine"
+
+msgctxt "#39153"
+msgid "Windowing system:"
+msgstr "Sistema di finestre:"

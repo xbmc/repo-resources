@@ -695,7 +695,7 @@ msgstr "載入電影詳細資料"
 
 msgctxt "#199"
 msgid "Web interface"
-msgstr "Web 介面"
+msgstr "Web 介面皮膚"
 
 msgctxt "#200"
 msgid "Audio encoders"
@@ -943,7 +943,7 @@ msgstr "腳本輸出"
 
 msgctxt "#263"
 msgid "Allow remote control via HTTP"
-msgstr "允許 HTTP 遠端遙控"
+msgstr "允許 HTTP 遠端遙控 (網頁版Kodi)"
 
 msgctxt "#264"
 msgid "Record"
@@ -1355,7 +1355,7 @@ msgstr "排序：年份"
 
 msgctxt "#367"
 msgid "Sort by: Rating"
-msgstr "排序：評等"
+msgstr "排序：網站評分"
 
 msgctxt "#368"
 msgid "IMDb"
@@ -2083,7 +2083,7 @@ msgstr "年份"
 
 msgctxt "#563"
 msgid "Rating"
-msgstr "評等"
+msgstr "網站評分"
 
 msgctxt "#564"
 msgid "Type"
@@ -2787,7 +2787,7 @@ msgstr "遠端遙控"
 
 msgctxt "#791"
 msgid "Allow remote control by programs on this system"
-msgstr "允許本機的程式遠端遙控"
+msgstr "允許本裝置的其他程式遙控Kodi"
 
 msgctxt "#792"
 msgid "Port"
@@ -3216,6 +3216,14 @@ msgstr "單曲"
 msgctxt "#1051"
 msgid "Enter web address"
 msgstr "輸入網路位址"
+
+msgctxt "#1052"
+msgid "Require authentication"
+msgstr "使用身份驗證"
+
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "選擇是否需要帳號及密碼才能登入。建議\"是\"。"
 
 msgctxt "#1180"
 msgid "Proxy type"
@@ -5219,7 +5227,7 @@ msgstr "電影資訊"
 
 msgctxt "#13347"
 msgid "Queue item"
-msgstr "佇列項目"
+msgstr "加進播放列表"
 
 msgctxt "#13348"
 msgid "Search IMDb..."
@@ -6447,7 +6455,7 @@ msgstr "應用程式控制"
 
 msgctxt "#14276"
 msgid "Allow remote control from applications on this system"
-msgstr "允許本機的應用程式遠端遙控"
+msgstr "允許本裝置的其他程式遙控Kodi"
 
 msgctxt "#14277"
 msgid "Allow remote control from applications on other systems"
@@ -6799,7 +6807,7 @@ msgstr "管理..."
 
 msgctxt "#16107"
 msgid "Edit sort title"
-msgstr "編輯標題"
+msgstr "編輯類別標題"
 
 msgctxt "#16200"
 msgid "Operation was aborted"
@@ -8919,7 +8927,7 @@ msgstr "確定選擇的資料夾是可寫入的而且新資料夾名稱是有效
 
 msgctxt "#20074"
 msgid "MPAA rating"
-msgstr "MPAA 分級"
+msgstr "美國電影協會分級"
 
 msgctxt "#20075"
 msgid "Enter master lock code"
@@ -13045,6 +13053,10 @@ msgctxt "#35099"
 msgid "Move {0:s} left ({1:d})"
 msgstr "將{0:s}往左移動({1:d})"
 
+msgctxt "#35100"
+msgid "Enable controller support"
+msgstr "啟用遊戲手制支援。"
+
 msgctxt "#35103"
 msgid "Buttons"
 msgstr "按鍵"
@@ -14291,7 +14303,7 @@ msgstr "選擇音軌擷取後要存放的位置。"
 
 msgctxt "#36286"
 msgid "Control how saved music is named from the tags. Tags: [B]%N[/B]: TrackNumber, [B]%S[/B]: DiscNumber, [B]%A[/B]: Artist, [B]%T[/B]: Title, [B]%B[/B]: Album, [B]%G[/B]: Genre, [B]%Y[/B]: Year, [B]%F[/B]: FileName, [B]%D[/B]: Duration, [B]%J[/B]: Date, [B]%R[/B]: Rating, [B]%I[/B]: FileSize."
-msgstr "控制儲存的音樂會如何運用標籤資訊來命名。支援的標籤：[B]%N[/B]：音軌編號, [B]%S[/B]：光碟編號, [B]%A[/B]：演出者, [B]%T[/B]：標題, [B]%B[/B]：專輯, [B]%G[/B]：類別, [B]%Y[/B]：年份, [B]%F[/B]：檔案名稱, [B]%D[/B]：播放時間, [B]%J[/B]：日期, [B]%R[/B]：評等, [B]%I[/B]: 檔案大小。"
+msgstr "控制儲存的音樂會如何運用標籤資訊來命名。支援的標籤：[B]%N[/B]：音軌編號, [B]%S[/B]：光碟編號, [B]%A[/B]：演出者, [B]%T[/B]：標題, [B]%B[/B]：專輯, [B]%G[/B]：類別, [B]%Y[/B]：年份, [B]%F[/B]：檔案名稱, [B]%D[/B]：播放時間, [B]%J[/B]：日期, [B]%R[/B]：評分, [B]%I[/B]: 檔案大小。"
 
 msgctxt "#36287"
 msgid "Select which audio encoder to use when ripping."
@@ -14431,7 +14443,7 @@ msgstr "此分類包含UPnP服務的設定。在大部分的消費電子產品�
 
 msgctxt "#36323"
 msgid "Enables the UPnP server. This allows you to stream media in your libraries to a UPnP client."
-msgstr "啟用 UPnP 服務。此功能可讓您將資料庫內容串流至 UPnP 用戶端。"
+msgstr "啟用 UPnP 伺務器。此功能可讓您將資料庫內容串流至其他 UPnP 用戶端。"
 
 msgctxt "#36324"
 msgid "When a manual or automatic library update occurs, notify UPnP clients."
@@ -14439,7 +14451,7 @@ msgstr "當資料庫手動或自動更新時，通知 UPnP 用戶端。"
 
 msgctxt "#36325"
 msgid "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
-msgstr "啟用 UPnP 用戶端。這將允許您從任何 UPnP 伺服器串流媒體且包含播放控制的功能。"
+msgstr "啟用 UPnP 用戶端。這將允許您從其他 UPnP 伺服器串流媒體至此，且包含播放控制的功能。"
 
 msgctxt "#36326"
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control its playback."
@@ -14449,9 +14461,21 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "此分類包含網頁伺服器及程式控制服務運作的相關設定"
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "容許用戶透過HTTP控制本Kodi。基於資安考慮，別把埠號開通至公網！"
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "設定網路伺服器的連接埠。"
+
+msgctxt "#36330"
+msgid "Define the web server username. Must be set when authentication is enabled."
+msgstr "設定HTTP登入用的帳號。"
+
+msgctxt "#36331"
+msgid "Define the web server password. Must be set when authentication is enabled."
+msgstr "設定HTTP登入用的密碼。"
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14460,6 +14484,10 @@ msgstr "從附加元件管理員選擇一個已安裝的網頁介面。"
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "此分類包含如何處理遠端遙控服務的設定。"
+
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "本裝置的其他程式可透過JSON-RPC以WebSocket或TCP或EventServer協定來控制Kodi，而無需身份驗證。"
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -14472,6 +14500,10 @@ msgstr "設定遠端遙控的連接埠範圍。"
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "設定用戶端連線數的最大值。"
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "網絡上的其他程式可透過JSON-RPC以WebSocket或TCP或EventServer協定來完全控制Kodi甚至本裝置，而無需身份驗證。基於資安考慮，別把這些介面暴露至外網。"
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14620,6 +14652,10 @@ msgstr "啟用時，您的鍵盤方向鍵可以移動虛擬鍵盤的選擇框。
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "使用滑鼠或觸控螢幕裝置來控制介面。注意：當沒有安裝鍵盤或遙控器時，關閉此選項將會導致無法操作本軟體。"
+
+msgctxt "#36378"
+msgid "Use a game controller to control the interface."
+msgstr "使用遊戲控制器去操作Kodi。"
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14793,6 +14829,14 @@ msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "為節省資源，在低階系統中不進行VDPAU影像處理，但會稍微影響畫質。"
 
+msgctxt "#36422"
+msgid "Update official add-ons from"
+msgstr "更新官方附加元件時的來源地"
+
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "一般來說，官方的附加元件是不應從非官方元件庫進行更新，是基於安全性及兼容性考量。然而為了測試目的，來源地提供了任何元件庫的選項。"
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "選擇指南中的項目被點選時執行的動作: [顯示動作選單] 可讓您選擇欲執行的動作; [切換至該頻道] 將直接切換至相關頻道; [顯示資訊] 可顯示詳細資訊及進階的選項; [錄製] 會為該項目產生一個錄製定時器。[\"智選\"] 本動作內容為動態生成，取決於該事件事發生在過去、現在或未來。"
@@ -14836,6 +14880,14 @@ msgstr "開啟後會優先使用VAAPI影像渲染方式，可減低CPU負載。�
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "選擇作業系統鍵盤佈局。"
+
+msgctxt "#36437"
+msgid "Official repositories only (default)"
+msgstr "官方元件庫(預設)"
+
+msgctxt "#36438"
+msgid "Any repositories"
+msgstr "任何元件庫"
 
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
@@ -15983,7 +16035,7 @@ msgstr "繼續播放有聲書"
 
 msgctxt "#39017"
 msgid "Enables UPnP. This allows you to stream media in your libraries to a UPnP client and to detect remote UPnP servers."
-msgstr "啟用UPnp可讓您將資料庫內容串流至UPnP客戶端裝置，並偵測遠端的UPnP伺服器。"
+msgstr "啟用UPnP可讓您將資料庫內容串流至UPnP用戶端裝置，並偵測遠端的UPnP伺服器。"
 
 msgctxt "#39018"
 msgid "optional"

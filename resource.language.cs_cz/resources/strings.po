@@ -1617,6 +1617,10 @@ msgctxt "#435"
 msgid "No optical disc drive detected"
 msgstr "Nebyla rozpoznána žádná optická jednotka"
 
+msgctxt "#436"
+msgid "This video is stored on an optical disc (e.g. DVD, Blu-ray) and cannot be played as your device does not have an appropriate drive."
+msgstr "Toto video je uloženo na optickém disku (např. DVD, Blu-ray) a nelze jej přehrát, protože vaše zařízení nemá příslušnou jednotku."
+
 msgctxt "#437"
 msgid "Removable disk"
 msgstr "Přenosný disk"
@@ -3221,6 +3225,10 @@ msgctxt "#1052"
 msgid "Require authentication"
 msgstr "Vyžaduje autentifikaci"
 
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "Zvolte, zda požadavky na webový server vyžadují uživatelské jméno a heslo, které je potřeba nastavit níže, pokud je povoleno. Je doporučeno ponechat toto nastavení vždy zapnuté."
+
 msgctxt "#1180"
 msgid "Proxy type"
 msgstr "Typ proxy"
@@ -3523,7 +3531,7 @@ msgstr "Ojediněle"
 
 msgctxt "#1401"
 msgid "Thundershowers"
-msgstr "Přeháňky/hřmění"
+msgstr "Bouřky"
 
 msgctxt "#1402"
 msgid "Thunder"
@@ -5711,7 +5719,7 @@ msgstr "Rozdělit alba na jednotlivé disky"
 
 msgctxt "#13523"
 msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
-msgstr "Pokud povolíte, bude místo výpisu všech skladeb při otevření multi-disc alba nejprve zobrazen výpis disků tohoto alba. Až po otevření disku se zobrazí skladby na něm obsažené."
+msgstr "Pokud je povoleno, otevření vícediskového alba zobrazí disky jako samostatné položky namísto všech skladeb. Otevření disku pak zobrazí skladby na tomto disku."
 
 msgctxt "#13524"
 msgid "Use original release date of albums for year"
@@ -7309,6 +7317,10 @@ msgctxt "#19071"
 msgid "Update interval"
 msgstr "Interval aktualizace"
 
+msgctxt "#19072"
+msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
+msgstr "Aby bylo možné přidat nebo aktualizovat časovač, musí být datum a čas ukončení větší než datum a čas zahájení."
+
 msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Zpozdit přepínání kanálů o"
@@ -8239,43 +8251,43 @@ msgstr "Zobrazit pravidlo časovače"
 
 msgctxt "#19305"
 msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr "Smazané změškané připomínky pro '{0:s}' na kanálu '{1:s}' v '{2:s}' "
+msgstr "Odstraněno zmeškané připomenutí PVR pro ‚{0:s}‘ na kanálu ‚{1:s}‘ v ‚{2:s}‘"
 
 msgctxt "#19306"
 msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr "Smazána zmeškaná připomínka pro kanál '{0:s}' v '{1:s}' "
+msgstr "Odstraněno zmeškané připomenutí PVR pro kanál ‚{0:s}‘ v ‚{1:s}"
 
 msgctxt "#19307"
 msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
-msgstr "Připomínka pro [B]{0:s}[/B] na kanálu [B]{1:s}[/B] v [B]{2:s}[/B]."
+msgstr "Připomenutí pro [B]{0:s}[/B] na kanálu [B]{1:s}[/B] v [B]{2:s}[/B]."
 
 msgctxt "#19308"
 msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
-msgstr "Připomínka pro kanál [B]{0:s}[/B] v [B]{1:s}[/B]."
+msgstr "Připomenutí pro kanál [B]{0:s}[/B] v [B]{1:s}[/B]."
 
 msgctxt "#19309"
 msgid "(Auto-close of this reminder will schedule a recording...)"
-msgstr "(Samo-zavření této připomínky naplánuje nahrávání...)"
+msgstr "(Automatické zavření tohoto připomenutí naplánuje nahrávání…)"
 
 msgctxt "#19310"
 msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr "Naplánováno nahrávání samo-zavřené PVR připomínky pro {0:s}' na kanálu '{1:s}' v '{2:s}'"
+msgstr "Naplánováno nahrávání pro automatické zavření připomenutí PVR pro ‚{0:s}‘ na kanálu ‚{1:s}‘ v ‚{2:s}‘"
 
 msgctxt "#19311"
 msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr "Naplánováno nahrávání samo-zavřené PVR připomínky pro kanál '{0:s}' v '{1:s}'"
+msgstr "Naplánováno nahrávání pro automatické zavření připomenutí PVR pro kanál ‚{0:s}‘ v ‚{1:s}‘"
 
 msgctxt "#19312"
 msgid "PVR reminder"
-msgstr "Připomínka PVR"
+msgstr "Připomenutí PVR"
 
 msgctxt "#19313"
 msgid "Automatically close reminder popup after"
-msgstr "Poté automaticky zavřít vyskakovací připomínku"
+msgstr "Automaticky zavřít vyskakovací připomenutí po"
 
 msgctxt "#19314"
 msgid "Schedule recording when auto-closing the reminder popup"
-msgstr "Naplánovat nahrávání když se automaticky zavře vyskakovací připomínka"
+msgstr "Naplánovat nahrávání, když se automaticky zavře vyskakovací připomenutí"
 
 msgctxt "#19315"
 msgid "Backend order"
@@ -8327,11 +8339,31 @@ msgstr "Přejdi..."
 
 msgctxt "#19327"
 msgid "Delete watched"
-msgstr "Smazat zhlédnuté"
+msgstr "Odstranit zhlédnuté"
 
 msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
 msgstr "Odstranit všechny zhlédnuté nahrávky v této složce?"
+
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Povolit čísla kanálů backendu s více než jedním doplňkem PVR"
+
+msgctxt "#19330"
+msgid "Switch to channel when auto-closing the reminder popup"
+msgstr "Přepnout na kanál, když se automaticky zavře vyskakovací připomenutí"
+
+msgctxt "#19331"
+msgid "(Auto-close of this reminder will switch to channel...)"
+msgstr "(Automatické zavření tohoto připomenutí přepne na kanál…)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Přepnuto na kanál pro automatické zavření připomenutí PVR pro ‚{0:s}‘ na kanálu ‚{1:s}‘ v ‚{2:s}‘"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Přepnuto na kanál pro automatické zavření připomenutí PVR pro kanál ‚{0:s}‘ v ‚{1:s}‘"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -8703,7 +8735,7 @@ msgstr "Přehrát nahrávku"
 
 msgctxt "#19690"
 msgid "PVR has scheduled a reminder for '{0:s}' on channel '{1:s}' in {2:s}."
-msgstr "PVR naplánoval připomenutí pro '{0:s}' na kanálu '{1:s}' v {2:s}."
+msgstr "PVR naplánovalo připomenutí pro ‚{0:s}‘ na kanálu ‚{1:s}‘ v {2:s}."
 
 msgctxt "#19691"
 msgid "PVR is currently recording '{0:s}' on channel '{1:s}'."
@@ -10221,6 +10253,10 @@ msgctxt "#20471"
 msgid "Show empty TV shows"
 msgstr "Zobrazit prázdné seriály"
 
+msgctxt "#20472"
+msgid "Show all performers for music videos"
+msgstr "Zobrazovat všechny umělce pro hudební videa"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Zobrazovat skryté soubory a adresáře"
@@ -10268,6 +10304,10 @@ msgstr "Automatická aktualizace"
 msgctxt "#21341"
 msgid "No updates available"
 msgstr "Nejsou dostupné žádné aktualizace"
+
+msgctxt "#21342"
+msgid "There are currently no versions available for this add-on."
+msgstr "Pro tento doplněk nejsou aktuálně dostupné žádné verze."
 
 msgctxt "#21343"
 msgid "Use video tags"
@@ -11465,6 +11505,10 @@ msgctxt "#24048"
 msgid "VideoPlayer InputStream"
 msgstr "InputStream VideoPlayeru"
 
+msgctxt "#24049"
+msgid "Add-on has been marked deprecated in repository."
+msgstr "Doplněk byl v repozitáři označen jako zastaralý."
+
 msgctxt "#24050"
 msgid "Available add-ons"
 msgstr "Dostupné doplňky"
@@ -11783,7 +11827,7 @@ msgstr "Konfigurace byla přesunuta"
 
 msgctxt "#24129"
 msgid "The configuration of XBMC has been moved to the new location for Kodi. Please refer to http://kodi.wiki/view/Migration - this message will not be shown again!"
-msgstr "Konfigurace XBMC byla přesunuta do nového umístění pro Kodi. Více informací naleznete na http://kodi.wiki/view/Migration – tato zpráva nebude znovu zobrazena!"
+msgstr "Konfigurace XBMC byla přesunuta do nového umístění pro Kodi. Více informací naleznete na http://kodi.wiki/view/Migration – tato zpráva nebude znovu zobrazena!"
 
 msgctxt "#24130"
 msgid "Enable parsing for closed captions"
@@ -11925,9 +11969,29 @@ msgctxt "#24164"
 msgid "Addon \"{0:s}\" broken"
 msgstr "Doplněk {0:s} je poškozen"
 
+msgctxt "#24165"
+msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Doplněk označen jako poškozený s následující poznámkou:[CR][B][I]{0:s}[/I][/B][CR][CR]Chcete ho povolit?"
+
+msgctxt "#24166"
+msgid "Addon \"{0:s}\" deprecated"
+msgstr "Doplněk „{0:s}“ je zastaralý"
+
+msgctxt "#24167"
+msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Doplněk označen jako zastaralý s následující poznámkou:[CR][B][I]{0:s}[/I][/B][CR][CR]Chcete ho povolit?"
+
+msgctxt "#24168"
+msgid "Deprecated: {0:s}"
+msgstr "Zastaralý {0:s}"
+
 msgctxt "#24169"
 msgid "Normal"
 msgstr "Normální"
+
+msgctxt "#24170"
+msgid "Deprecated"
+msgstr "Zastaralý"
 
 msgctxt "#24171"
 msgid "Broken"
@@ -11936,6 +12000,18 @@ msgstr "Protrhaná"
 msgctxt "#24180"
 msgid "Minimum: {0:s}{3:s}"
 msgstr "Minimum: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "Minimálně: {0:s} => Instalovat: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "Minimálně: {0:s} / Instalováno: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "Minimálně: {0:s} / Instalováno: {1:s} => Aktualizovat na: {2:s}{3:s}"
 
 msgctxt "#24184"
 msgid " (optional)"
@@ -12697,6 +12773,10 @@ msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Vzdálený server pro komunikaci"
 
+msgctxt "#33104"
+msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
+msgstr "Dříve jste povolili webové rozhraní bez nastavení hesla. Webový server byl zakázán, dokud toto výslovně nepovolíte nebo nenastavíte ověřování. Zkontrolujte prosím svá nastavení."
+
 msgctxt "#33200"
 msgid "Detected new connection"
 msgstr "Rozpoznáno nové připojení"
@@ -12847,11 +12927,19 @@ msgstr "HDR je vypnuté"
 
 msgctxt "#34221"
 msgid "Display HDR is Off"
-msgstr "HDR display je vypnutý"
+msgstr "HDR displej je vypnutý"
 
 msgctxt "#34222"
 msgid "HDR is ON"
 msgstr "HDR je zapnuté"
+
+msgctxt "#34223"
+msgid "Display HDR is On"
+msgstr "HDR displej je zapnutý"
+
+msgctxt "#34224"
+msgid "Tone map method is:"
+msgstr "Metoda mapy tónů je:"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -13144,6 +13232,10 @@ msgstr "Pohněte {0:s} vlevo ({1:d})"
 msgctxt "#35100"
 msgid "Enable controller support"
 msgstr "Povolit podporu ovladače"
+
+msgctxt "#35102"
+msgid "Disable controllers when this device is present"
+msgstr "Zakázat ovladače, když je přítomno toto zařízení"
 
 msgctxt "#35103"
 msgid "Buttons"
@@ -13671,7 +13763,7 @@ msgstr "Tato kategorie obsahuje všechna nastavení související se vzhledem."
 
 msgctxt "#36103"
 msgid "Select the skin for the user interface. This will define the look and feel of the application."
-msgstr "Vyberte vzhled pro uživatelské rozhraní. Toto ovlivní vzhled a chování aplikace."
+msgstr "Vyberte vzhled pro uživatelské rozhraní. Toto definuje vzhled a chování aplikace."
 
 msgctxt "#36104"
 msgid "Select to change the skin specific settings. Which options are available for configuration depends on the features provided by the skin."
@@ -13945,6 +14037,10 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Vyberte úroveň přiblížení, pomocí které budou videa 4:3 zobrazována na širokoúhlých obrazovkách."
 
+msgctxt "#36172"
+msgid "Enable PRIME decoding of video files"
+msgstr "Povolit dekódování PRIME pro soubory videa."
+
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Zvolte, který krátký formát data bude použit pro zobrazení data v uživatelském rozhraní."
@@ -14079,7 +14175,7 @@ msgstr "Seřadit kanály podle čísel kanálů z backendu, ale použít místn�
 
 msgctxt "#36206"
 msgid "Use the channel numbering from the backend."
-msgstr "Použít čísla kanálů z backendu"
+msgstr "Použít číslování kanálů z backendu."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -14349,6 +14445,10 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Vyberte vizualizaci, která bude zobrazena při poslouchání hudby."
 
+msgctxt "#36274"
+msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
+msgstr "Při procházení hudebních souborů v zobrazení souborů číst průběžně štítky těch, které nejsou v hudební knihovně. To může zpomalit zobrazení velkých adresářů, zejména v síti."
+
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Ovládejte způsob, jakým jsou názvy skladeb zobrazeny v uživatelském rozhraní. Pro správnou funkčnost musí být povoleno čtení štítků."
@@ -14439,11 +14539,15 @@ msgstr "Tato kategorie obsahuje nastavení pro připomenutí."
 
 msgctxt "#36297"
 msgid "Choose a time in seconds after which PVR reminder popups will be automatically closed."
-msgstr "Zvolte čas v sekundách, po kterém budou automaticky otevíraná okna připomenutí PVR automaticky zavřena."
+msgstr "Zvolte čas v sekundách, po kterém budou vyskakovací připomenutí PVR automaticky zavřena."
 
 msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
-msgstr "Pokud je povoleno, bude naplánováno připomenutí nahrávání pro pořad při automatickém zavření automaticky otevíraného okna připomenutí, pokud je to podporováno doplňkem PVR a backendem."
+msgstr "Pokud je povoleno, bude naplánováno připomenutí nahrávání pro pořad při automatickém zavření vyskakovacího připomenutí, pokud je to podporováno doplňkem PVR a backendem."
+
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "Přepnout displej do režimu HDR, pokud jsou přehrávána média s informací HDR.[CR]Pokud je zakázáno, informace HDR jsou použity pomocí vnitřní cesty HDR Kodi."
 
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
@@ -14476,6 +14580,10 @@ msgstr "Pokud nejsou použita čísla kanálů backendu, pak začít všecha č�
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Automaticky generovat náhledy obrázků při vstupu do složky obrázků."
+
+msgctxt "#36308"
+msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
+msgstr "Když je povoleno, zobrazit všechny umělce v seznamu interpretů pro hudební videa, ne jen hlavního interpreta"
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -14553,13 +14661,21 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Tato kategorie obsahuje nastavení jak zacházet se službou webového serveru a službou ovládání aplikace."
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "Povolit vzdáleným uživatelům, aby ovládali tuto aplikaci prostřednictvím vestavěného webového serveru. Nikdy nevystavujte port webového serveru internetu."
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Definujte port webového serveru."
 
+msgctxt "#36330"
+msgid "Define the web server username. Must be set when authentication is enabled."
+msgstr "Definujte uživatelské jméno pro webový server. Musí být nastaveno, když je zapnuto ověřování."
+
 msgctxt "#36331"
 msgid "Define the web server password. Must be set when authentication is enabled."
-msgstr "Zadejte heslo pro webserver. Pokud je zapnuté ověřování, heslo musí být nastaveno."
+msgstr "Definujte heslo pro webový server. Musí být nastaveno, když je zapnuto ověřování."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14568,6 +14684,10 @@ msgstr "Vyberte mezi webovými rozhraními nainstalovanými prostřednictvím sp
 msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Tato kategorie obsahuje nastavení jak zacházet se službou vzdáleného ovládání."
+
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "Povolit programům v tomto zařízení ovládat tuto aplikaci prostřednictvím JSON-RPC přes WebSocket, JSON-RPC přes TCP nebo protokol EventServer, bez ověřování."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -14580,6 +14700,10 @@ msgstr "Definujte rozsah portů vzdáleného ovládání."
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Definujte maximální počet klientů, kteří mohou být připojeni."
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "Povolit programům v síti ovládat tuto aplikaci prostřednictvím JSON-RPC přes WebSocket, JSON-RPC přes TCP nebo protokol EventServer, bez ověřování. To umožní komukoliv s přístupem k síti plně ovládat tuto aplikaci a tedy i toto zařízení. Nikdy nevystavujte tato rozhraní internetu."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14652,6 +14776,10 @@ msgstr "Ve víceobrazovkové konfiguraci jsou obrazovky, které nezobrazují tut
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Kalibrovat uživatelské rozhraní pomocí úpravy okrajů obrazovky. Použijte tento nástroj, pokud je zobrazený obraz příliš velký nebo malý pro vaši obrazovku."
+
+msgctxt "#36358"
+msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
+msgstr "Povolit použití číslování kanálů z více backendů. Pamatujte, že skupina Všechny kanály může při použití této možnosti obsahovat více stejných čísel kanálů. To znamená, že skok na číslo kanálu nemusí fungovat správně pro skupinu Všechny kanály."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
@@ -14728,6 +14856,10 @@ msgstr "Když je aktivováno, šipky klávesnice přesunou výběr na virtuáln�
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "Použít myš nebo zařízení s dotykovou obrazovkou pro ovládání rozhraní. Poznámka: Zakázáním ztratíte kontrolu nad touto aplikací, když nebude připojena žádná klávesnice nebo dálkové ovládání."
+
+msgctxt "#36378"
+msgid "Use a game controller to control the interface."
+msgstr "Použít herní ovladače pro ovládání rozhraní."
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14901,6 +15033,14 @@ msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "Obcházení mixéru VDPAU šetří systémové zdroje na méně výkonných systémech, ale mírně snížuje kvalitu obrazu."
 
+msgctxt "#36422"
+msgid "Update official add-ons from"
+msgstr "Aktualizovat oficiální doplňky z"
+
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "Ve výchozím nastavení bude doplňkům z oficiálních repozitářů zabráněno v  automatických aktualizacích ze soukromých repozitářů. V případech, jako je aktualizace z beta repozitářů doplňků, lze tuto možnost přepnout na [Jakékoliv repozitáře] (mějte na paměti, že toto je méně bezpečná možnost a její povolení může způsobit nekompatibilitu a pády)."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "Vyberte, co se stane, když je položky vybrána v televizním programu: [Zobrazit místní nabídku] Aktivuje místní nabídku, ze které můžete zvolit další akce; [Přepnout na kanál] Okamžitě naladí související kanál; [Zobrazit informace] Zobrazí podrobné informace s dějem a dalšími možnostmi; [Nahrávat] Vytvoří časovač nahrávání pro vybranou položku. [„Chytrý výběr“] Akce je zvolena dynamicky podle toho, zda je událost v minulosti, nyní nebo v budoucnu."
@@ -14941,13 +15081,29 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Když je povolen, je upřednostňována metoda vykreslení VAAPI a procesor je méně zatížen. Pokud pozorujete zadrhávání, zakažte tuto volbu."
 
+msgctxt "#36434"
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "Pokud je povoleno, přepnout na kanál s programem k připomenutí, když se automaticky zavře vyskakovací připomenutí."
+
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Vyberte rozložení klávesnice OS."
 
+msgctxt "#36437"
+msgid "Official repositories only (default)"
+msgstr "Pouze oficiální repozitáře (výchozí)"
+
+msgctxt "#36438"
+msgid "Any repositories"
+msgstr "Jakékoliv repozitáře"
+
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Nastavte počet kroků pro nastavení hlasitosti."
+
+msgctxt "#36443"
+msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
+msgstr "Seznam povolených režimů dává uživateli kontrolu nad výběrem, které režimy zobrazení jsou povoleny nebo zakázány používat"
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -15128,6 +15284,14 @@ msgstr "Reinhard"
 msgctxt "#36556"
 msgid "Tone mapping parameter"
 msgstr "Parametr mapování tónu"
+
+msgctxt "#36557"
+msgid "ACES Filmic"
+msgstr "ACES Filmic"
+
+msgctxt "#36558"
+msgid "Hable"
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -15408,6 +15572,30 @@ msgstr "Použít starší zabezpečení"
 msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "Vynutit slabé zabezpečení SMBv1 pro kompatibilitu s funkcemi sdílení USB v některých směrovačích WiFi a zařízeních NAS."
+
+msgctxt "#36632"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
+msgstr "Každý, kdo má přístup k webovému rozhraní, bude moci plně ovládat tuto aplikaci a tedy i toto zařízení, takže by nikdy nemělo být vystaveno na internetu. Níže by mělo být nastaveno heslo. Pokračovat?"
+
+msgctxt "#36633"
+msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
+msgstr "Tyto služby nenabízejí ani ověřování ani šifrování. Každý, kdo se k nim může připojit, bude moci plně ovládat tuto aplikaci a tedy i toto zařízení, takže by nikdy neměly být vystaveny internetu. Pokračovat?"
+
+msgctxt "#36634"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
+msgstr "Každý, kdo má přístup k webovému rozhraní, bude moci plně ovládat tuto aplikaci a tedy i toto zařízení, takže by mělo být zabezpečeno heslem. Opravdu chcete zakázat ověřování?"
+
+msgctxt "#36635"
+msgid "If web server authentication is enabled, a password must be entered as well."
+msgstr "Pokud je povoleno ověřování webového serveru, je nutné zadat také heslo."
+
+msgctxt "#36636"
+msgid "You must first enter a password before web server authentication can be enabled."
+msgstr "Před povolením ověřování webového serveru musíte nejprve zadat heslo."
+
+msgctxt "#36637"
+msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
+msgstr "Pamatujte, že doplňky nainstalované ze souboru zip (kromě poskytovaných repozitářů) se nebudou automaticky aktualizovat a musí být aktualizovány ručně. Chcete pokračovat?"
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -15887,7 +16075,7 @@ msgstr "Extrahovat ze souborů videí náhledy"
 
 msgctxt "#38207"
 msgid "Show EXIF picture information"
-msgstr "Zobrazovat EXIF informace o obrázku"
+msgstr "Zobrazovat informace EXIF obrázku"
 
 msgctxt "#38208"
 msgid "If EXIF information exists (date, time, camera used, etc.), it will be displayed."
@@ -15924,6 +16112,10 @@ msgstr "Cílová složka"
 msgctxt "#38306"
 msgid "Items to export"
 msgstr "Položky k exportu"
+
+msgctxt "#38307"
+msgid "Include artwork such as thumbnails and fanart"
+msgstr "Zahrnout obrázky, jako jsou náhledy a fanart"
 
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
@@ -16045,6 +16237,10 @@ msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "Nelze přečíst soubor xml"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and library management facilities"
+msgstr "Tato kategorie poskytuje přístup do oken pro správu zdrojů a správu knihovny pro databáze"
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Toto poskytuje přístup tam, kam mohou být přidány a jinak spravovány zdroje videí."
@@ -16136,6 +16332,10 @@ msgstr "Odstranění nejednoznačností"
 msgctxt "#39027"
 msgid "Sortname"
 msgstr "Název řazení"
+
+msgctxt "#39028"
+msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+msgstr "Doplněk „{0:s}“[CR]Původ „{1:s}“[CR]Verze „{2:s}“[CR]– bude odinstalován a nahrazen. Chcete pokračovat?"
 
 msgctxt "#39030"
 msgid "Source"
@@ -16233,6 +16433,58 @@ msgctxt "#39123"
 msgid "Artwork"
 msgstr "Obrázek"
 
+msgctxt "#39125"
+msgid "Enable tag reading in file view"
+msgstr "Povolit čtení štítků v zobrazení souborů"
+
+msgctxt "#39127"
+msgid "Use all local image files as artwork"
+msgstr "Použít místní soubory obrázků jako obrázky"
+
+msgctxt "#39128"
+msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
+msgstr "Všechny soubory obrázků umístěné vedle souborů médií se během prohledávání knihovny vezmou jako obrázky s názvem souboru jako typem obrázku."
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "Použít všechny vzdálené obrázky načtené stahováním informací"
+
+msgctxt "#39130"
+msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
+msgstr "Použít první z každého typu obrázku vzdáleného obrázku ve výsledcích načítání informací k vyplnění jakéhokoliv chybějícího obrázku, který není naplněn místním obrázkem."
+
+msgctxt "#39131"
+msgid "Artist art types whitelist"
+msgstr "Seznam povolených typů obrázků interpreta"
+
+msgctxt "#39132"
+msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Omezit obrázky interpreta načtené místně nebo použité z výsledků vzdáleného načítání informací o obrázcích pouze na typy obrázků v seznamu povolených"
+
+msgctxt "#39133"
+msgid "Album art types whitelist"
+msgstr "Seznam povolených typů obrázků alba"
+
+msgctxt "#39134"
+msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Omezit obrázky alba načtené místně nebo použité z výsledků vzdáleného načítání informací o obrázcích pouze na typy obrázků v seznamu povolených"
+
+msgctxt "#39135"
+msgid "Thumbnail image files"
+msgstr "Náhledy souborů obrázků"
+
+msgctxt "#39136"
+msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
+msgstr "Názvy souborů obsahujících primární obrázky (náhledy), obvykle čtvercové a používají se jak v plné velikosti, tak ve zmenšené velikosti k vizuální identifikaci složky, umělce, alba nebo skladby"
+
+msgctxt "#39137"
+msgid "Artwork level"
+msgstr "Úroveň obrázků"
+
+msgctxt "#39138"
+msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
+msgstr "Množství automaticky vybraných obrázků – [Maximální] všech místních obrázků a vzdálených obrázků; [Základní] šetří místo na omezených zařízeních nebo při použití jednoduchého vzhledu; [Vlastní] nakonfigurovaný uživatelem pro podrobné ovládání; [Žádné] bez obrázků"
+
 msgctxt "#39140"
 msgid "Maximum"
 msgstr "Nejvyšší"
@@ -16244,3 +16496,39 @@ msgstr "Základní"
 msgctxt "#39142"
 msgid "Custom"
 msgstr "Vlastní"
+
+msgctxt "#39143"
+msgid "Movie art types whitelist"
+msgstr "Seznam povolených typů obrázků filmu"
+
+msgctxt "#39144"
+msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Omezit obrázky filmu a kolekce filmů načtené místně nebo použité z výsledků vzdáleného načítání informací o obrázcích pouze na typy obrázků v seznamu povolených"
+
+msgctxt "#39145"
+msgid "TV show art types whitelist"
+msgstr "Seznam povolených typů obrázků seriálu"
+
+msgctxt "#39146"
+msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Omezit obrázky seriálu a sezóny načtené místně nebo použité z výsledků vzdáleného načítání informací o obrázcích pouze na typy obrázků v seznamu povolených"
+
+msgctxt "#39147"
+msgid "Episode art types whitelist"
+msgstr "Seznam povolených typů obrázků epizody"
+
+msgctxt "#39148"
+msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Omezit obrázky epizody načtené místně nebo použité z výsledků vzdáleného načítání informací o obrázcích pouze na typy obrázků v seznamu povolených"
+
+msgctxt "#39149"
+msgid "Music video art types whitelist"
+msgstr "Seznam povolených typů obrázků hudebního videa"
+
+msgctxt "#39150"
+msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Omezit obrázky hudebního videa načtené místně nebo použité z výsledků vzdáleného načítání informací o obrázcích pouze na typy obrázků v seznamu povolených"
+
+msgctxt "#39153"
+msgid "Windowing system:"
+msgstr "Systém práce s okny:"
