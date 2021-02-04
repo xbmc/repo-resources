@@ -1617,6 +1617,10 @@ msgctxt "#435"
 msgid "No optical disc drive detected"
 msgstr "Optista levyasemaa ei löytynyt"
 
+msgctxt "#436"
+msgid "This video is stored on an optical disc (e.g. DVD, Blu-ray) and cannot be played as your device does not have an appropriate drive."
+msgstr "Tämä video on tallennettu optiselle levylle (DVD tai Blu-ray) eikä sitä voida toistaa, koska laitteestasi puuttuu sopiva asema."
+
 msgctxt "#437"
 msgid "Removable disk"
 msgstr "Siirrettävä levy"
@@ -3420,6 +3424,10 @@ msgstr "Mukautettu pakatun äänen laite"
 msgctxt "#1302"
 msgid "Volume control steps"
 msgstr "Äänenvoimakkuussäätimen asteikko"
+
+msgctxt "#1374"
+msgid "Breezy"
+msgstr "tuulinen"
 
 msgctxt "#1375"
 msgid "Temperature"
@@ -5497,6 +5505,10 @@ msgctxt "#13429"
 msgid "Allow hardware acceleration - VTBDecoder"
 msgstr "Salli laitteistokiihdytys - VTBDecoder"
 
+msgctxt "#13430"
+msgid "Allow using DRM PRIME decoder"
+msgstr "Salli DRM PRIME -purkajan käyttö"
+
 msgctxt "#13431"
 msgid "Pixel shaders"
 msgstr "Pikselivarjostimet"
@@ -6252,6 +6264,10 @@ msgstr "Ohjaus"
 msgctxt "#14126"
 msgid "Whitelist"
 msgstr "Valkoinen lista"
+
+msgctxt "#14127"
+msgid "Allow 3:2 pulldown refresh rates"
+msgstr "Salli 3:2 pulldown -virkistystaajuudet"
 
 msgctxt "#14128"
 msgid "Allow double refresh rates"
@@ -7305,6 +7321,10 @@ msgctxt "#19071"
 msgid "Update interval"
 msgstr "Päivitysväli"
 
+msgctxt "#19072"
+msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
+msgstr "Ajastuksen päättymisajan ja -päivän tulee olla alkamisaikaa ja -päivää suurempia."
+
 msgctxt "#19073"
 msgid "Delay channel switch"
 msgstr "Viive kanavan vaihdolle"
@@ -8015,7 +8035,7 @@ msgstr "Suodata kanavia"
 
 msgctxt "#19250"
 msgid "TV and radio channels"
-msgstr "TV ja radiokanavat"
+msgstr "Tv- ja radiokanavat"
 
 msgctxt "#19251"
 msgid "Update guide information"
@@ -8327,7 +8347,27 @@ msgstr "Poista katsotut"
 
 msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
-msgstr "Poista kaikki katsotut nauhoitukset tästä kansiosta?"
+msgstr "Poistetaanko kaikki katsotut tallenteet tästä kansiosta?"
+
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Käytä taustaosien kanavanumerointia, kun käytössä on useita PVR-palveluita"
+
+msgctxt "#19330"
+msgid "Switch to channel when auto-closing the reminder popup"
+msgstr "Vaihda kanavalle, kun muistutus sulkeutuu automaattisesti"
+
+msgctxt "#19331"
+msgid "(Auto-close of this reminder will switch to channel...)"
+msgstr "(Kanava vaihtuu automaattisesti muistutuksen sulkeutuessa...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Ohjelman nimi: '{0:s}', kanava '{1:s}' aika '{2:s}'."
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Kanavan nimi: '{0:s}', aika '{1:s}'."
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11939,7 +11979,7 @@ msgstr "Lisäosa on merkitty vialliseksi seuraavalla perusteella:[CR][B][I]{0:s}
 
 msgctxt "#24166"
 msgid "Addon \"{0:s}\" deprecated"
-msgstr "Lisäosa \"{0:s}\" on vanhuntunut"
+msgstr "Lisäosa \"{0:s}\" on vanhentunut"
 
 msgctxt "#24167"
 msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
@@ -12884,26 +12924,6 @@ msgstr "Seuraavaa kohdetta ei löydy"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Edellistä kohdetta ei löydy"
-
-msgctxt "#34220"
-msgid "HDR is OFF"
-msgstr "HDR pois päältä"
-
-msgctxt "#34221"
-msgid "Display HDR is Off"
-msgstr "Näytön HDR pois päältä"
-
-msgctxt "#34222"
-msgid "HDR is ON"
-msgstr "HDR päällä"
-
-msgctxt "#34223"
-msgid "Display HDR is On"
-msgstr "Näytön HDR päällä"
-
-msgctxt "#34224"
-msgid "Tone map method is:"
-msgstr "Äänensävyn kartoitustapa:"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -14001,6 +14021,10 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Valitse mitä tehdään, kun 4:3-kuvasuhteen videota katsotaan laajakuvanäytöltä."
 
+msgctxt "#36172"
+msgid "Enable PRIME decoding of video files"
+msgstr "Käytä PRIME-laitteistopurkua videotiedostoihin."
+
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Valitse sovelluksessa käytettävä päiväyksen lyhyt aikamuoto."
@@ -14132,6 +14156,10 @@ msgstr "Tuo kanavaryhmät PVR-taustaosasta. Poistaa käyttäjän luomat kanavary
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
 msgstr "Järjestä kanavat taustaosan numeroinnin mukaan, mutta käytä itse määriteltyä numerointia."
+
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend."
+msgstr "Käyttää taustaosassa määritettyä kanavanumerointia."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -14657,6 +14685,10 @@ msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Määritä yhdistettyjen asiakkaiden enimmäismäärä."
 
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "Sallii samassa verkossa toimivien ohjelmien hallita tätä laitetta ilman tunnistautumista JSON-RPC:llä WebSocketin kautta, JSON-RPC:llä TCP:n kautta tai EventServer-protokollan kautta. Se mahdollistaa kenelle tahansa samassa verkossa olevalle sovelluksen ja laitteen täyden hallinnan. Älä koskaan avaa näitä rajapintoja internetiin."
+
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
 msgstr "Kertatapahtuman viive (ms)."
@@ -14728,6 +14760,10 @@ msgstr "Pimentää muut näytöt moninäyttökokoonpanoissa."
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Säädä kuvan kokoa. Käytä tätä työkalua, jos osa kuvasta jää ruudun ulkopuolelle tai kuva ei täytä koko ruutua."
+
+msgctxt "#36358"
+msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
+msgstr "Käyttää taustaosien kanavanumerointia, jos käytössä on useita PVR-palveluita samanaikaisesti. Voi johtaa päällekkäisyyksiin kanavanumeroinnissa ja sitä kautta siirtyminen oikealle kanavalle ei välttämättä onnistu."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
@@ -14983,7 +15019,7 @@ msgstr "VDPAU-mikserin ohittaminen vähentää kuormitusta vähätehoisilla lait
 
 msgctxt "#36422"
 msgid "Update official add-ons from"
-msgstr "Päivitä viralliset laajennukset lähteestä"
+msgstr "Päivitä viralliset lisäosat lähteestä"
 
 msgctxt "#36423"
 msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
@@ -15029,6 +15065,10 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "VAAPI-renderöintimenetelmä vähentää suorittimen kuormitusta. Jos ohjelma kaatuilee, kytke tämä asetus pois päältä."
 
+msgctxt "#36434"
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "Vaihtaa kanavaa muistutuksessa näkyvälle kanavalle automaattisesti, kun ilmoitus sulkeutuu."
+
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Valitse käyttöjärjestelmän näppäimistöasettelu."
@@ -15044,6 +15084,18 @@ msgstr "Kaikki ohjelmavarastot"
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Aseta äänenvoimakkuussäätimen käyttämä asteikko."
+
+msgctxt "#36443"
+msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
+msgstr "Valkoisella listalla määritetään mitä näyttötiloja sovellus saa ja ei saa käyttää."
+
+msgctxt "#36444"
+msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
+msgstr "Sallii 3:2 pulldown -virkistystaajuuksien käytön (23,976 fps videon toisto 59,94 Hz:n monitorilla tai 24 fps videon toisto 60 Hz:n monitorilla). Asetuksesta on hyötyä, jos näyttölaite ei tue 23,976 Hz:n tai 24 Hz:n tiloja."
+
+msgctxt "#36445"
+msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
+msgstr "Sallii virkistystaajuuden tuplaamisen (29,97 fps videon toisto 59,94 Hz:n monitorilla tai 30 fps videon toisto 60 Hz:n monitorilla). Asetuksesta on hyötyä, jos näyttölaite ei tue 29,97 Hz:n tai 30 Hz:n tiloja."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -15513,6 +15565,18 @@ msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "Käyttää tieturvaltaan heikkoa SMBv1-protokollaa yhteensopivuuden takaamiseksi vanhempien reitittimien ja verkkokiintolevyjen kanssa."
 
+msgctxt "#36632"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
+msgstr "Kuka tahansa, jolla on pääsy verkkokäyttöliittymään voi hallita täysin tätä sovellusta ja laitetta. Siksi sitä ei tulisi koskaan avata internetiin. Toiminnolle tulisi asettaa salasana. Jatketaanko?"
+
+msgctxt "#36633"
+msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
+msgstr "Nämä palvelut eivät tarjoa tunnistautumista eikä salausta. Kuka tahansa, jolla on pääsy niihin voi hallita täysin tätä sovellusta ja laitetta. Siksi niitä ei tulisi koskaan avata internetiin. Jatketaanko?"
+
+msgctxt "#36634"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
+msgstr "Kuka tahansa, jolla on pääsy verkkokäyttöliittymään voi hallita täysin tätä sovellusta ja laitetta. Siksi sille tulisi asettaa salasana. Haluatko varmasti poistaa tunnistautumisen?"
+
 msgctxt "#36635"
 msgid "If web server authentication is enabled, a password must be entered as well."
 msgstr "Jos palvelimella on tunnistautuminen käytössä, on myös salasana syötettävä."
@@ -15791,7 +15855,7 @@ msgstr "Valite tietojen tarjoaja"
 
 msgctxt "#38026"
 msgid "Appearances"
-msgstr "Käyttöliittymät"
+msgstr "Esiintymiset"
 
 msgctxt "#38031"
 msgid "Video stream"
@@ -16385,21 +16449,41 @@ msgctxt "#39129"
 msgid "Use all remote artwork fetched by scrapers"
 msgstr "Käytä noudettuja kuvatiedostoja mediakuvituksille"
 
+msgctxt "#39130"
+msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
+msgstr "Täydentää paikallisten kuvitusten puutteet noutamalla puuttuvat kuvat internetistä."
+
 msgctxt "#39131"
 msgid "Artist art types whitelist"
 msgstr "Esittäjille sallittut mediakuvitukset"
+
+msgctxt "#39132"
+msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee esittäjille."
 
 msgctxt "#39133"
 msgid "Album art types whitelist"
 msgstr "Albumeille sallittut mediakuvitukset"
 
+msgctxt "#39134"
+msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee levyille."
+
 msgctxt "#39135"
 msgid "Thumbnail image files"
 msgstr "Pienoiskuvatiedostot"
 
+msgctxt "#39136"
+msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
+msgstr "Tiedostonimet, joita kuvitustiedostot käyttävät. Kansioilla, esittäjillä, levyillä ja kappaleilla on omat kuva- ja tiedostotyyppinsä."
+
 msgctxt "#39137"
 msgid "Artwork level"
 msgstr "Mediakuvituksen taso"
+
+msgctxt "#39138"
+msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
+msgstr "Automaattisesti valitun kuvituksen määrä - [Maksimi] kaikki paikalliset ja kuvapalveluiden kuvat; [Perus] säästää tilaa hitailla laitteilla tai yksinkertaisilla ulkoasuilla; [Mukautus] käyttäjän itse määrittelemät asetukset; [Ei käytössä] ei kuvitusta."
 
 msgctxt "#39140"
 msgid "Maximum"
@@ -16417,21 +16501,41 @@ msgctxt "#39143"
 msgid "Movie art types whitelist"
 msgstr "Elokuville sallitut mediakuvitukset"
 
+msgctxt "#39144"
+msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee elokuville ja elokuvaryhmille."
+
 msgctxt "#39145"
 msgid "TV show art types whitelist"
 msgstr "Sarjoille sallitut mediakuvitukset"
+
+msgctxt "#39146"
+msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee sarjoille ja tuotantokausille."
 
 msgctxt "#39147"
 msgid "Episode art types whitelist"
 msgstr "Jaksoille sallitut mediakuvitukset"
 
+msgctxt "#39148"
+msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee jaksoille."
+
 msgctxt "#39149"
 msgid "Music video art types whitelist"
 msgstr "Musiikkivideoille sallitut mediakuvitukset"
 
+msgctxt "#39150"
+msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee musiikkivideoille."
+
 msgctxt "#39151"
 msgid "Display hardware scaling filter"
 msgstr "Näytä laitteistopohjaisen skaalauksen suodatin"
+
+msgctxt "#39152"
+msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
+msgstr "Kokonaislukuskaalaus (IS) on lähin viereinen (NN) -tyyppinen ylösskaalaustekniikka, jota Display Engine käyttää."
 
 msgctxt "#39153"
 msgid "Windowing system:"
