@@ -443,7 +443,7 @@ msgstr "Şarkılar"
 
 msgctxt "#135"
 msgid "Genres"
-msgstr "Türler"
+msgstr "Tarzlar"
 
 msgctxt "#136"
 msgid "Playlists"
@@ -1175,11 +1175,11 @@ msgstr "Sanatçılar temizlenirken hata oluştu"
 
 msgctxt "#322"
 msgid "Cleaning genres, roles etc...."
-msgstr "Türler, roller vb.. temizleniyor"
+msgstr "Tarzlar, roller vb. temizleniyor"
 
 msgctxt "#323"
 msgid "Error cleaning genres, roles etc."
-msgstr "Türler, roller vb. temizlenirken hata oluştu."
+msgstr "Tarzlar, roller vb. temizlenirken hata oluştu."
 
 msgctxt "#324"
 msgid "Cleaning paths..."
@@ -1619,7 +1619,7 @@ msgstr "Optik disk sürücüsü algılanmadı"
 
 msgctxt "#436"
 msgid "This video is stored on an optical disc (e.g. DVD, Blu-ray) and cannot be played as your device does not have an appropriate drive."
-msgstr "Bu video bir optik diskte (örn. DVD, Blu-ray) saklanır ve cihazınızda uygun bir sürücü olmadığından oynatılamaz."
+msgstr "Bu video bir optik diskte (örn. DVD, Blu-ray) depolandığı ve cihazınızda uygun bir sürücü olmadığından oynatılamaz."
 
 msgctxt "#437"
 msgid "Removable disk"
@@ -1903,7 +1903,7 @@ msgstr "El ile yapılan ayarlar"
 
 msgctxt "#515"
 msgid "Genre"
-msgstr "Tür"
+msgstr "Tarz"
 
 msgctxt "#517"
 msgid "Recently played albums"
@@ -1955,11 +1955,11 @@ msgstr "Hata: Yinelenen başlık"
 
 msgctxt "#530"
 msgid "Select genre"
-msgstr "Tür seçin"
+msgstr "Tarz seçin"
 
 msgctxt "#531"
 msgid "New genre"
-msgstr "Yeni tür"
+msgstr "Yeni tarz"
 
 msgctxt "#532"
 msgid "Manual addition"
@@ -1967,7 +1967,7 @@ msgstr "El ile ekleme"
 
 msgctxt "#533"
 msgid "Enter genre"
-msgstr "Tür girin"
+msgstr "Tarz girin"
 
 msgctxt "#534"
 msgid "View: {0:s}"
@@ -3225,6 +3225,10 @@ msgctxt "#1052"
 msgid "Require authentication"
 msgstr "Kimlik doğrulama gerektir"
 
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "Web sunucusuna gelen isteklerin bir kullanıcı adı ve şifre gerektirip gerektirmeyeceğini seçin. Etkinleştirilirse aşağıda ayarlanması gerekir. Bu ayarın her zaman etkin bırakılması önerilir."
+
 msgctxt "#1180"
 msgid "Proxy type"
 msgstr "Vekil sunucu türü"
@@ -4299,7 +4303,7 @@ msgstr "Tam ekran radyo"
 
 msgctxt "#10820"
 msgid "Game video filter"
-msgstr "Oyun video filitresi"
+msgstr "Oyun için video filtresi"
 
 msgctxt "#10821"
 msgid "Games"
@@ -4315,7 +4319,7 @@ msgstr "Oyun kumandaları"
 
 msgctxt "#10824"
 msgid "Game video settings"
-msgstr "Oyun video ayarları"
+msgstr "Oyun için video ayarları"
 
 msgctxt "#12000"
 msgid "Select dialog"
@@ -5353,6 +5357,10 @@ msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
 msgstr "Bu görsel öğenin kullanılabilir önayarları yok"
 
+msgctxt "#13390"
+msgid "There are no settings available[CR]for this visualisation"
+msgstr "Bu görsel öğenin[CR]kullanılabilir ayarları yok"
+
 msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Çıkart / Tak"
@@ -5523,7 +5531,7 @@ msgstr "Yukarıdaki ölçeklendirmeler için yüksek kalite ölçekleyiciyi etki
 
 msgctxt "#13436"
 msgid "Use display HDR capabilities"
-msgstr "Ekran HDR özelliklerini kullan"
+msgstr "Ekranın HDR özelliklerini kullan"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -5715,7 +5723,7 @@ msgstr "Albümleri ayrı disklere böl"
 
 msgctxt "#13523"
 msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
-msgstr "Etkinleştirildiğinde, çok diskli bir albümün açılması diskleri tüm şarkılar yerine ayrı ayrı öğeler olarak gösterir. Bir disk açıldığında, o diskteki şarkıları gösterir."
+msgstr "Etkinleştirildiğinde, çok diskli bir albümün açılması diskleri tüm şarkılar yerine ayrı ayrı öğeler olarak gösterir. Bir diskin açılması daha sonra o diskteki şarkıları gösterir."
 
 msgctxt "#13524"
 msgid "Use original release date of albums for year"
@@ -6571,7 +6579,7 @@ msgstr "* Bütün şarkılar"
 
 msgctxt "#15105"
 msgid "* All genres"
-msgstr "* Bütün türler"
+msgstr "* Bütün tarzlar"
 
 msgctxt "#15106"
 msgid "Skin built-in"
@@ -7555,7 +7563,7 @@ msgstr "En uzun süre"
 
 msgctxt "#19132"
 msgid "Include unknown genres"
-msgstr "Bilinmeyen türleri dahil et"
+msgstr "Bilinmeyen tarzları dahil et"
 
 msgctxt "#19133"
 msgid "Search string"
@@ -8340,6 +8348,26 @@ msgstr "İzlenenleri sil"
 msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
 msgstr "Bu klasördeki bütün izlenmiş kayıtlar silinsin mi?"
+
+msgctxt "#19329"
+msgid "Allow backend channel numbers with more than one PVR add-on"
+msgstr "Birden fazla PVR eklentisi için arka uç kanal numaralarına izin ver"
+
+msgctxt "#19330"
+msgid "Switch to channel when auto-closing the reminder popup"
+msgstr "Anımsatıcı açılır penceresini otomatik kapatırken kanala geçiş yap"
+
+msgctxt "#19331"
+msgid "(Auto-close of this reminder will switch to channel...)"
+msgstr "(Bu anımsatıcının otomatik kapanışı kanalı değiştirecektir...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "'{2:s}' tarihinde '{1:s}' kanalındaki '{0:s}' programı için, otomatik kapanan PVR anımsatıcısı ile kanala geçiş yap"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "'{1:s}' tarihinde '{0:s}' kanalı için, otomatik kapanan PVR anımsatıcısı ile kanala geçiş yap"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -9467,7 +9495,7 @@ msgstr "Çevrimiçi bilgi tercih et"
 
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
-msgstr "Bu etkinleştirildiğinde, albümler ve sanatçılar için indirilen herhangi bir bilgi, sizin ayarladığınız türler, yıl, sanatçı vb. gibi şarkı etiketlerinizin üzerine yazılır. Eğer şarkı etiketlerinde MusicBrainz tanımlayıcıları varsa yararlıdır."
+msgstr "Bu etkinleştirildiğinde, albümler ve sanatçılar için indirilen herhangi bir bilgi, sizin ayarladığınız tarz, yıl, sanatçı vb. gibi şarkı etiketlerinizin üzerine yazılır. Eğer şarkı etiketlerinde MusicBrainz tanımlayıcıları varsa yararlıdır."
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
@@ -11931,7 +11959,7 @@ msgstr "Siri kumandası zaman aşımını etkinleştir"
 
 msgctxt "#24161"
 msgid "Enable remote input timeout for tap/swipe"
-msgstr "Kumanda zaman aşımını tıklama/kaydırma olarak aktifleştir"
+msgstr "Tıklama ve kaydırma için kumanda zaman aşımını etkinleştir"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
@@ -12897,6 +12925,10 @@ msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Çalınacak önceki öğe bulunamadı"
 
+msgctxt "#34224"
+msgid "Tone mapping method"
+msgstr "Tone mapping yöntemi"
+
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
 msgstr "Zeroconf başlatılamadı"
@@ -13375,11 +13407,11 @@ msgstr "Destek eklentileri"
 
 msgctxt "#35217"
 msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
-msgstr "Savestate sadece \"{0:s}\" ile yüklenebilir. Savestate silinip devam edilsin mi?"
+msgstr "Kaydedilmiş durum sadece \"{0:s}\" ile yüklenebilir. Kaydedilmiş durum silinip devam edilsin mi?"
 
 msgctxt "#35218"
 msgid "Erase savestate"
-msgstr "Savestate'i sil"
+msgstr "Kaydedilmiş durumu sil"
 
 msgctxt "#35219"
 msgid "The required files can't be found."
@@ -13603,7 +13635,7 @@ msgstr "Kapatma sırasında \"Etkin olmayan kaynak\" komutu gönder"
 
 msgctxt "#36026"
 msgid "Devices to also put in standby mode"
-msgstr "Bekleme moduna geçirilecek aygıtlar"
+msgstr "Aygıtlarıda bekleme moduna geçir"
 
 msgctxt "#36027"
 msgid "This device needs servicing"
@@ -13643,7 +13675,7 @@ msgstr "Her zaman"
 
 msgctxt "#36036"
 msgid "On start / stop"
-msgstr "başlangıçta / dururken"
+msgstr "Başlangıçta ve durduktan sonra"
 
 msgctxt "#36037"
 msgid "TV"
@@ -13659,7 +13691,7 @@ msgstr "TV ve AVR aygıtı (kesin)"
 
 msgctxt "#36040"
 msgid "Detected version of libCEC interface ({0:x}) is lower than the supported version {1:x}."
-msgstr "Algılanan libCEC arabirimi sürümü ({0:x}) desteklenen sürümden {1:x} daha düşük."
+msgstr "Algılanan libCEC arabirimi sürümü ({0:x}) desteklenen {1:x} sürümden daha düşük."
 
 msgctxt "#36041"
 msgid "* Item folder"
@@ -14039,7 +14071,7 @@ msgstr "Kitaplık görünümü dışındaki görünümlerde çok parçalı video
 
 msgctxt "#36183"
 msgid "Removes the title, genre, etc. nodes from the library view. Selecting a category takes you straight to the title view."
-msgstr "Başlık, tür gibi kriterleri kitaplık görünümünden kaldırır. Bir kategoriyi seçmek sizi direk olarak başlık görünümüne götürür."
+msgstr "Başlık, tarz gibi kriterleri kitaplık görünümünden kaldırır. Bir kategoriyi seçmek sizi direk olarak başlık görünümüne götürür."
 
 msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
@@ -14129,6 +14161,10 @@ msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
 msgstr "Kanalları arka uç kanal numaralarına göre sıralarken kanalların yerel numaralandırmasını kullan."
 
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend."
+msgstr "Arka uç kanal numaralandırmasını kullanın"
+
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
 msgstr "Kanal sırası, kanal ismi, logo vb. değiştirmeye izin veren kanal yöneticisini aç."
@@ -14195,7 +14231,7 @@ msgstr "CPU kullanımını en aza indirmek için TV oynatılırken rehber verisi
 
 msgctxt "#36223"
 msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "Eğer ffmpeg PRIME hwaccel varsa, video dosyalarının PRIME donanımsal kod çözmesini etkinleştir."
+msgstr "Eğer ffmpeg PRIME hwaccel özelliği kullanılabiliyorsa, video dosyalarının PRIME donanımsal kod çözmesini etkinleştir."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -14397,6 +14433,10 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Müzik dinlerken hangi görsel öğenin gösterileceğini seçin."
 
+msgctxt "#36274"
+msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
+msgstr "Dosya görünümünde müzik dosyalarına göz atarken, müzik kitaplığında olmayanların etiketlerini okuyun. Bu, büyük dizinlerin özellikle bir ağ üzerinden görüntülenmesini yavaşlatabilir."
+
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Şarkı adlarının kullanıcı arabiriminde görüntülenme şeklini denetler. Düzgün çalışması için, etiket okuma özelliğinin etkin olması gerekir."
@@ -14443,7 +14483,7 @@ msgstr "Kopyalanan parçaların sabit sürücünüzde kaydedileceği konumu seç
 
 msgctxt "#36286"
 msgid "Control how saved music is named from the tags. Tags: [B]%N[/B]: TrackNumber, [B]%S[/B]: DiscNumber, [B]%A[/B]: Artist, [B]%T[/B]: Title, [B]%B[/B]: Album, [B]%G[/B]: Genre, [B]%Y[/B]: Year, [B]%F[/B]: FileName, [B]%D[/B]: Duration, [B]%J[/B]: Date, [B]%R[/B]: Rating, [B]%I[/B]: FileSize."
-msgstr "Kaydedilmiş müziğin etiketler tarafından nasıl adlandırılacağını kontrol edin. Etiketler: [B]%N[/B]: ParçaNumarası, [B]%S[/B]: DiskNumarası, [B]%A[/B]: Artist, [B]%T[/B]: Başlık, [B]%B[/B]: Albüm, [B]%G[/B]: Tür, [B]%Y[/B]: Yıl, [B]%F[/B]: DosyaAdı, [B]%D[/B]: Süre, [B]%J[/B]: Tarih, [B]%R[/B]: Derecelendirme, [B]%I[/B]: DosyaBoyutu."
+msgstr "Kaydedilmiş müziğin etiketler tarafından nasıl adlandırılacağını kontrol edin. Etiketler: [B]%N[/B]: ParçaNumarası, [B]%S[/B]: DiskNumarası, [B]%A[/B]: Artist, [B]%T[/B]: Başlık, [B]%B[/B]: Albüm, [B]%G[/B]: Tarz, [B]%Y[/B]: Yıl, [B]%F[/B]: DosyaAdı, [B]%D[/B]: Süre, [B]%J[/B]: Tarih, [B]%R[/B]: Derecelendirme, [B]%I[/B]: DosyaBoyutu."
 
 msgctxt "#36287"
 msgid "Select which audio encoder to use when ripping."
@@ -14493,13 +14533,17 @@ msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
 msgstr "Etkinleştirilirse ve PVR eklentisi ve arka uç tarafından destekleniyorsa, anımsatıcı açılır penceresi otomatik olarak kapanarak programın anımsatılması için bir kayıt planlanır."
 
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "HDR bilgisi içeren bir medya oynatılıyorsa ekranınızı HDR moduna değiştirir.[CR]Devre dışı bırakılmışsa HDR bilgisi için Kodi'nin dahili HDR yolu kullanılır."
+
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
-msgstr "Film bilgilerinin (resimler) kaydedildiği dosyayı seçin."
+msgstr "Film seti bilgisi (resimlerinin) kaydedileceği klasörü seçin."
 
 msgctxt "#36301"
 msgid "No 'Movie set information folder' is configured to store movie set images so they will not be exported. Do you want to proceed?"
-msgstr "Film resimlerinin depolanacağı hiçbir dosya seçilmedi, dışa aktarılmayacaklar. Devam etmek istiyor musunuz?"
+msgstr "Film seti resimlerini saklamak için hiçbir 'Film seti bilgi klasörü' yapılandırılmadı. Bu nedenle dışa aktarılmayacaklar. Devam etmek istiyor musunuz?"
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14519,11 +14563,15 @@ msgstr "Bu kategori resim dosyası listelerinin nasıl işleyeceği ile ilgili a
 
 msgctxt "#36306"
 msgid "If not using backend channel numbers then start all groups channel numbers from 1."
-msgstr "Arka uç kanal numaralarını kullanmıyorsanız bütün grupları kanal numaraları 1'den itibaren başlatın."
+msgstr "Arka uç kanal numaralarını kullanmıyorsanız bütün grupların kanal numaralarını 1'den itibaren başlatın."
 
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Resim klasörüne girerken küçük resimleri otomatik olarak oluştur."
+
+msgctxt "#36308"
+msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
+msgstr "Etkinleştirildiğinde, müzik videolarındaki yalnızca ana sanatçıyı değil, sanatçı listesindeki tüm sanatçıları gösterir"
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -14601,6 +14649,10 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Bu kategori web sunucusu hizmetinin ve uygulama kontrol hizmetinin nasıl işleyeceği ile ilgili ayarları içerir."
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "Yerleşik web sunucusu aracılığıyla uzak kullanıcıların bu uygulamayı kontrol etmesini etkinleştirin. Web sunucusu bağlantı noktasını asla internete açmayın."
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Web sunucusu bağlantı noktasını tanımla."
@@ -14621,6 +14673,10 @@ msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Bu kategori uzaktan denetim hizmetinin nasıl işleyeceği ile ilgili ayarları içerir."
 
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "Bu cihazdaki programların, kimlik doğrulaması olmadan WebSocket veya TCP üzerinden JSON-RPC ile ya da EventServer protokolü ile bu uygulamayı kontrol etmesine izin verin."
+
 msgctxt "#36335"
 msgid "Define the remote control port."
 msgstr "Uzaktan denetim bağlantı noktasını tanımla."
@@ -14632,6 +14688,10 @@ msgstr "Uzaktan denetim bağlantı noktası aralığını tanımla."
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Bağlanabilecek en çok istemci sayısını tanımla."
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "Bu ağdaki programların, kimlik doğrulaması olmadan WebSocket veya TCP üzerinden JSON-RPC ile ya da EventServer protokolü ile bu uygulamayı kontrol etmesine izin verin. Ağa erişimi olan herkesin bu uygulamayı ve dolayısıyla bu cihazı tamamen kontrol etmesine izin verir. Bu arayüzleri asla internete açık halde bırakmayın."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14704,6 +14764,10 @@ msgstr "Çoklu ekran yapılandırmasında, bu uygulamayı görüntülemeyen ekra
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Kullanıcı arabirimi taramasını ayarlar. Görüntülenen resmin ekranınız için çok büyük veya küçük olması durumunda bu aracı kullanın."
+
+msgctxt "#36358"
+msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
+msgstr "Birden fazla arka uçtan kanal numaralandırmasına izin verin. Bu seçenek kullanılırsa, Tüm kanallar grubunun aynı kanal numarasından birden fazlasını içerebileceğini unutmayın. Bu, kanal numarasına atlamanın Tüm kanallar grubu için doğru çalışmayabileceği anlamına gelir."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
@@ -14961,6 +15025,10 @@ msgctxt "#36422"
 msgid "Update official add-ons from"
 msgstr "Resmi eklentileri buradan güncelle:"
 
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "Varsayılan olarak, resmi depolardan gelen eklentilerin özel depolardan otomatik olarak güncellenmesi engellenir. Bir eklentinin beta deposundan güncelleme yapılmak istenmesi gibi durumlarda bu seçenek [Herhangi bir depodan] seçeneği ile değiştirilebilir (bunun daha az güvenli bir seçenek olduğunu ve uyumsuzluğa ve çökmelere neden olabileceğini unutmayın)."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "Rehberde bir öğe seçildiğinde ne olacağını seçin: [İçerik menüsünü göster] Daha fazla eylem seçebileceğiniz içerik menüsünü tetikler; [Kanal değiştir] İlgili kanala anında geçer; [Bilgileri görüntüle] İçerik ile ayrıntılı bilgi ve daha fazla seçenek gösterir; [Kayıt] Seçili öğe için bir kayıt zamanlayıcısı yaratır. [\"Akıllı seçim\"] Eylem, etkinliğin geçmişte, şimdi veya gelecekte olup olmadığına bağlı olarak dinamik olarak seçilir."
@@ -15001,6 +15069,10 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Etkin olduğunda, VAAPI işleyici yöntemi tercih edilir. Bu CPU'ya daha az yük bindirir. Eğer kilitlenmelerle karşılaşırsanız, bu seçeneği devre dışı bırakın."
 
+msgctxt "#36434"
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "Etkinleştirilirse, anımsatıcı açılır penceresini otomatik olarak kapatırken hatırlatmak için programın kanalına geçiş yapar."
+
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "İşletim sistemi klavye düzenini seçin."
@@ -15016,6 +15088,18 @@ msgstr "Herhangi bir depodan"
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Ses kontrolü adımlarının sayısını ayarlayın."
+
+msgctxt "#36443"
+msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
+msgstr "Beyaz listedeki modlar, kullanıcıya hangi görüntüleme modlarının kullanılmasına izin verilip verilmeyeceğini seçme kontrolü verir."
+
+msgctxt "#36444"
+msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
+msgstr "3:2 pulldown yenileme hızının kullanılmasına izin vermek için bu seçeneği seçin (59.94 Hz monitörde 23.976 FPS video oynatma veya 60 Hz monitörde 24 FPS video oynatma). Monitörünüzün 23.976 Hz veya 24 Hz modu yoksa bu seçeneği kullanmak isteyebilirsiniz."
+
+msgctxt "#36445"
+msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
+msgstr "Çift yenileme hızının kullanılmasına izin vermek için bu seçeneği seçin (59.94 Hz monitörde 29.97 FPS video oynatma veya 60 Hz monitörde 30 FPS video oynatma). Monitörünüzün 29.97 Hz veya 30 Hz modu yoksa bu seçeneği kullanmak isteyebilirsiniz."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -15196,6 +15280,14 @@ msgstr "Reinhard"
 msgctxt "#36556"
 msgid "Tone mapping parameter"
 msgstr "Tone mapping parametresi"
+
+msgctxt "#36557"
+msgid "ACES Filmic"
+msgstr "ACES Filmic"
+
+msgctxt "#36558"
+msgid "Hable"
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -15479,7 +15571,11 @@ msgstr "Bazı WiFi yönlendiricilerinde ve NAS cihazlarında USB paylaşım öze
 
 msgctxt "#36632"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
-msgstr "Web arayüzüne erişimi olan herkes bu uygulamayı, hatta bu cihazı kontrol edebilir. Bu sebepten ötürü bu bilgiler internette açığa çıkmamalıdır. Aşağıdan bir parolanın ayarlanması gerekmektedir. Devam edilsin mi?"
+msgstr "Web arayüzüne erişimi olan herkes bu uygulamayı, hatta bu cihazı kontrol edebilir. Bu sebepten ötürü web arayüzü asla internette açığa çıkmamalıdır. Aşağıdan bir parolanın ayarlanması gerekmektedir. Devam edilsin mi?"
+
+msgctxt "#36633"
+msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
+msgstr "Bu hizmetler ne kimlik doğrulama ne de şifreleme sunar. Bu hizmetlere bağlanabilen herkes bu uygulamayı, hatta bu cihazı kontrol edebilir. Bu sebepten ötürü bu servisler internette açığa çıkmamalıdır. Devam edilsin mi?"
 
 msgctxt "#36634"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
@@ -16123,7 +16219,7 @@ msgstr "Şarkı çalma geçmişi içeri aktarılıyor"
 
 msgctxt "#38351"
 msgid "Matching data"
-msgstr "Eşleşen veri"
+msgstr "Veri eşleştiriliyor"
 
 msgctxt "#38352"
 msgid "Updating songs"
@@ -16131,7 +16227,7 @@ msgstr "Şarkılar güncelleniyor"
 
 msgctxt "#38353"
 msgid "Importing song history - {0:d} updated out of {0:d} imported songs"
-msgstr "Şarkı geçmişi içeri aktarma - içeri aktarılan {0:d} / {0:d} şarkı güncellendi"
+msgstr "Şarkı geçmişi içeri aktarma - içeri aktarılan {1:d} şarkının {0:d} tanesi güncellendi"
 
 msgctxt "#38354"
 msgid "Unable to read xml file"
@@ -16271,11 +16367,11 @@ msgstr "varsayılan"
 
 msgctxt "#39106"
 msgid "forced"
-msgstr "forced"
+msgstr "zorunlu"
 
 msgctxt "#39107"
 msgid "captions"
-msgstr "captions"
+msgstr "açıklamalı altyazılar"
 
 msgctxt "#39108"
 msgid "audio description"
@@ -16283,11 +16379,11 @@ msgstr "sesli açıklama"
 
 msgctxt "#39109"
 msgid "Select Program"
-msgstr "Programı Seçiniz"
+msgstr "Program Seçin"
 
 msgctxt "#39110"
 msgid "Select Resolution"
-msgstr "Çözünürlük Seç"
+msgstr "Çözünürlük Seçin"
 
 msgctxt "#39111"
 msgid "original"
@@ -16329,6 +16425,14 @@ msgctxt "#39120"
 msgid "Skip filename matching for external audio tracks"
 msgstr "Harici ses dosyaları için dosya adı eşleştirmeyi atla"
 
+msgctxt "#39121"
+msgid "Library Display and Navigation"
+msgstr "Kitaplık Görünümü ve Gezinti"
+
+msgctxt "#39122"
+msgid "Library Information Sources"
+msgstr "Kitaplık Bilgisi Kaynakları"
+
 msgctxt "#39123"
 msgid "Artwork"
 msgstr "Resim"
@@ -16341,13 +16445,49 @@ msgctxt "#39127"
 msgid "Use all local image files as artwork"
 msgstr "Bütün yerel resim dosyalarını kapak resmi olarak kullan"
 
+msgctxt "#39128"
+msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
+msgstr "Ortam dosyalarının yanında bulunan tüm resim dosyaları, dosya adı resim türü olacak şekilde kitaplık taraması sırasında resim olarak alınır."
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "Bilgi sağlayıcılar tarafından getirilen tüm uzak resimleri kullan"
+
+msgctxt "#39130"
+msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
+msgstr "Yerel resimle doldurulmamış eksik resimleri doldurmak için bilgi sağlayıcı sonuçlarında uzak resmin her resim türünün ilkini kullanın."
+
+msgctxt "#39131"
+msgid "Artist art types whitelist"
+msgstr "Sanatçılar için izin verilen resim türleri"
+
+msgctxt "#39132"
+msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Yerel olarak getirilen veya uzak resim sonuçlarından bilgi sağlayıcısı ile uygulanan sanatçı resmini yalnızca izin verilen resim türleriyle sınırlayın"
+
+msgctxt "#39133"
+msgid "Album art types whitelist"
+msgstr "Albümler için izin verilen resim türleri"
+
+msgctxt "#39134"
+msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Yerel olarak getirilen veya uzak resim sonuçlarından bilgi sağlayıcısı ile uygulanan albüm resmini yalnızca izin verilen resim türleriyle sınırlayın"
+
 msgctxt "#39135"
 msgid "Thumbnail image files"
 msgstr "Küçük resim dosyaları"
 
+msgctxt "#39136"
+msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
+msgstr "Bir klasör, sanatçı, albüm veya şarkıyı görsel olarak tanımlamak için hem tam hem de küçültülmüş boyutta kullanılan, genellikle kare şeklindeki birincil resim (küçük resimler) içeren dosyaların adları"
+
 msgctxt "#39137"
 msgid "Artwork level"
 msgstr "Resim seviyesi"
+
+msgctxt "#39138"
+msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
+msgstr "Otomatik olarak seçilen resim miktarı - [En Yüksek] tüm yerel resimler ve uzak resimler; [Temel] basit bir dış görünüm kullanırken veya sınırlı cihazlarda yerden tasarruf etmek için; [Özel] kullanıcı tarafından yapılandırılıp ayrıntılı olarak kontrol etmek için; [Hiçbiri] resim yok"
 
 msgctxt "#39140"
 msgid "Maximum"
@@ -16361,9 +16501,45 @@ msgctxt "#39142"
 msgid "Custom"
 msgstr "Özel"
 
+msgctxt "#39143"
+msgid "Movie art types whitelist"
+msgstr "Film için izin verilen resim türleri"
+
+msgctxt "#39144"
+msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Yerel olarak getirilen veya uzak resim sonuçlarından bilgi sağlayıcısı ile uygulanan film ve film seti resmini yalnızca izin verilen resim türleriyle sınırlayın"
+
+msgctxt "#39145"
+msgid "TV show art types whitelist"
+msgstr "TV programları için izin verilen resim türleri"
+
+msgctxt "#39146"
+msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Yerel olarak getirilen veya uzak resim sonuçlarından bilgi sağlayıcısı ile uygulanan TV programları ve sezon resmini yalnızca izin verilen resim türleriyle sınırlayın"
+
+msgctxt "#39147"
+msgid "Episode art types whitelist"
+msgstr "Bölümler için izin verilen resim türleri"
+
+msgctxt "#39148"
+msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Yerel olarak getirilen veya uzak resim sonuçlarından bilgi sağlayıcısı ile uygulanan bölüm resmini yalnızca izin verilen resim türleriyle sınırlayın"
+
+msgctxt "#39149"
+msgid "Music video art types whitelist"
+msgstr "Müzik videosu için izin verilen resim türleri"
+
+msgctxt "#39150"
+msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Yerel olarak getirilen veya uzak resim sonuçlarından bilgi sağlayıcısı ile uygulanan müzik videosu resmini yalnızca izin verilen resim türleriyle sınırlayın"
+
 msgctxt "#39151"
 msgid "Display hardware scaling filter"
 msgstr "Donanım ölçeklendirme filtresini göster"
+
+msgctxt "#39152"
+msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
+msgstr "Integer scaling (IS), Display Engine kullanan bir Nearest-Neighbor(NN) upscaling tekniğidir"
 
 msgctxt "#39153"
 msgid "Windowing system:"
