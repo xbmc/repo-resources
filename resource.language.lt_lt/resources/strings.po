@@ -1617,6 +1617,10 @@ msgctxt "#435"
 msgid "No optical disc drive detected"
 msgstr "Neaptiktas joks optinių diskų įrenginys"
 
+msgctxt "#436"
+msgid "This video is stored on an optical disc (e.g. DVD, Blu-ray) and cannot be played as your device does not have an appropriate drive."
+msgstr "Šis vaizdo įrašas saugomas optiniame diske (pvz., DVD, Blu-ray) ir jo negalima atkurti, nes jūsų įrenginyje nėra tinkamo diskų įrenginio."
+
 msgctxt "#437"
 msgid "Removable disk"
 msgstr "Išorinis diskas"
@@ -3220,6 +3224,10 @@ msgstr "Įveskite žiniatinklio adresą"
 msgctxt "#1052"
 msgid "Require authentication"
 msgstr "Reikalauti autentifikavimo"
+
+msgctxt "#1053"
+msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
+msgstr "Pasirinkite, ar užklausoms į žiniatinklio serverį reikia vartotojo vardo ir slaptažodžio, kuriuos, jei įgalinta, reikia nustatyti žemiau. Rekomenduojama visada palikti šį nustatymą įjungtą."
 
 msgctxt "#1180"
 msgid "Proxy type"
@@ -7308,6 +7316,10 @@ msgstr "Dabartinė programa"
 msgctxt "#19071"
 msgid "Update interval"
 msgstr "Atnaujinimo intervalas"
+
+msgctxt "#19072"
+msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
+msgstr "Norint pridėti/atnaujinti laikmatį, pabaigos data ir laikas turi būti didesni nei pradžios data ir laikas."
 
 msgctxt "#19073"
 msgid "Delay channel switch"
@@ -11969,6 +11981,26 @@ msgctxt "#24171"
 msgid "Broken"
 msgstr "Pavieniai"
 
+msgctxt "#24180"
+msgid "Minimum: {0:s}{3:s}"
+msgstr "Minimali: {0:s}{3:s}"
+
+msgctxt "#24181"
+msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
+msgstr "Minimali: {0:s} => Įdiegti: {2:s}{3:s}"
+
+msgctxt "#24182"
+msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
+msgstr "Minimali: {0:s} / Įdiegta: {1:s}{3:s}"
+
+msgctxt "#24183"
+msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
+msgstr "Minimali: {0:s} / Įdiegta: {1:s} => Atnaujinti į: {2:s}{3:s}"
+
+msgctxt "#24184"
+msgid " (optional)"
+msgstr " (neprivaloma)"
+
 msgctxt "#24991"
 msgid "Could not connect to repository."
 msgstr "Neįmanoma prisijungti prie saugyklos."
@@ -12725,6 +12757,10 @@ msgctxt "#33103"
 msgid "Remote communication server"
 msgstr "Nuotolinis komunikacijos serveris"
 
+msgctxt "#33104"
+msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
+msgstr "Anksčiau įgalinote žiniatinklio sąsają nenustatę slaptažodžio. Žiniatinklio serveris buvo išjungtas, kol jūs to aiškiai neleisite arba nustatysite autentifikavimą. Peržiūrėkite savo nustatymus."
+
 msgctxt "#33200"
 msgid "Detected new connection"
 msgstr "Aptiktas naujas prisijungimas"
@@ -12868,6 +12904,18 @@ msgstr "Nepavyksta rasti kito elemento atkūrimui"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Nepavyksta rasti ankstesnio elemento atkūrimui"
+
+msgctxt "#34220"
+msgid "HDR status"
+msgstr "HDR būsena"
+
+msgctxt "#34221"
+msgid "Off"
+msgstr "Išjungta"
+
+msgctxt "#34222"
+msgid "On"
+msgstr "Įjungta"
 
 msgctxt "#34224"
 msgid "Tone mapping method"
@@ -14097,6 +14145,10 @@ msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
 msgstr "Rūšiuoti kanalus pagal kanalo numerį iš posistemės, tačiau naudoti lokalią kanalų numeraciją."
 
+msgctxt "#36206"
+msgid "Use the channel numbering from the backend."
+msgstr "Naudoti kanalų numeraciją iš posistemės"
+
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
 msgstr "Atidaryti kanalų tvarkyklę, kuri leidžia pakeisti kanalo vietą sąraše, kanalo pavadinimą, piktogramą ir t.t."
@@ -14461,6 +14513,10 @@ msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
 msgstr "Kai įjungta, bus pridėtas suplanuotas programos įrašymas, jei jos priminimo iššokantis langas buvo uždarytas automatiškai ir jei tai palaiko PVR priedas ir posistemė."
 
+msgctxt "#36299"
+msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
+msgstr "Perjungti ekraną į HDR režimą, jei atkuriamas medija įrašas su HDR infomacija.[CR]Jei išjungta, HDR informacija bus pritaikoma naudojant vidinį Kodi HDR kelią."
+
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
 msgstr "Pasirinkite aplanką, kuriame yra lokaliai išsaugota filmų rinkinio informacija (atvaizdai)."
@@ -14492,6 +14548,10 @@ msgstr "Jei nenaudojama posistemės kanalų numeracija, tada pradėti visų grup
 msgctxt "#36307"
 msgid "Automatically generate picture thumbnails when entering picture folder."
 msgstr "Automatiškai generuoti nuotraukų miniatiūras atidarius nuotraukų aplanką."
+
+msgctxt "#36308"
+msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
+msgstr "Kai įjungta, rodomi visi atlikėjai muzikinio vaizdo įrašo atlikėjų sąraše, o ne tik pagrindinis atlikėjas"
 
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
@@ -14572,6 +14632,14 @@ msgstr "Šioje kategorijoje yra nustatymai, skirti žiniatinklio serverio ir pro
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Nustatyti žiniatinklio serverio prievadą."
+
+msgctxt "#36330"
+msgid "Define the web server username. Must be set when authentication is enabled."
+msgstr "Nustatykite žiniatinklio serverio vartotojo vardą. Turi būti nustatyta, kai įgalinamas autentifikavimas."
+
+msgctxt "#36331"
+msgid "Define the web server password. Must be set when authentication is enabled."
+msgstr "Apibrėžkite žiniatinklio serverio slaptažodį. Turi būti nustatyta, kai įgalinamas autentifikavimas."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14664,6 +14732,10 @@ msgstr "Kelių ekranų konfigūracijoje, ekranai, kuriuose nėra atvaizduojama �
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
 msgstr "Kalibruoti vartotojo teminę sąsaja koreguojant išdidinimą. Naudokite šį įrankį, jei vaizdas rodomas jūsų ekrane yra per didelis arba per mažas."
+
+msgctxt "#36358"
+msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
+msgstr "Leisti naudoti kanalų numeravimą iš kelių posistemių. Atminkite, kad naudojant šią parinktį visų kanalų grupėje gali būti keli tie patys kanalų numeriai. Tai reiškia, kad kanalų perjungimas naudojant numerius, gali neveikti visų kanalų grupėje."
 
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
@@ -15440,6 +15512,14 @@ msgstr "Naudoti seną saugumą"
 msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "Naudoti silpną SMBv1 saugumą suderinamumui su senesnių WiFi maršrutizatorių ir NAS įrengnių USB bendrinimo funkcija."
+
+msgctxt "#36635"
+msgid "If web server authentication is enabled, a password must be entered as well."
+msgstr "Jei įgalintas žiniatinklio serverio autentifikavimas, taip pat reikia įvesti ir slaptažodį."
+
+msgctxt "#36636"
+msgid "You must first enter a password before web server authentication can be enabled."
+msgstr "Pirmiausia turite įvesti slaptažodį, kad būtų galima įgalinti žiniatinklio serverio autentifikavimą."
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -16281,6 +16361,22 @@ msgctxt "#39127"
 msgid "Use all local image files as artwork"
 msgstr "Naudoti visus vietinius atvaizdų failus kaip iliustracijas"
 
+msgctxt "#39131"
+msgid "Artist art types whitelist"
+msgstr "Atlikėjų iliustracijų tipų baltasis sąrašas"
+
+msgctxt "#39132"
+msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Leisti atlikėjų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
+
+msgctxt "#39133"
+msgid "Album art types whitelist"
+msgstr "Albumų iliustracijų tipų baltasis sąrašas"
+
+msgctxt "#39134"
+msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Leisti albumų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
+
 msgctxt "#39137"
 msgid "Artwork level"
 msgstr "Iliustracijų lygis"
@@ -16296,3 +16392,39 @@ msgstr "Pagrindiniai"
 msgctxt "#39142"
 msgid "Custom"
 msgstr "Savas"
+
+msgctxt "#39143"
+msgid "Movie art types whitelist"
+msgstr "Filmų iliustracijų tipų baltasis sąrašas"
+
+msgctxt "#39144"
+msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Leisti filmų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
+
+msgctxt "#39145"
+msgid "TV show art types whitelist"
+msgstr "TV laidų iliustracijų tipų baltasis sąrašas"
+
+msgctxt "#39146"
+msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Leisti TV laidų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
+
+msgctxt "#39147"
+msgid "Episode art types whitelist"
+msgstr "Epizodų iliustracijų tipų baltasis sąrašas"
+
+msgctxt "#39148"
+msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Leisti epizodų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
+
+msgctxt "#39149"
+msgid "Music video art types whitelist"
+msgstr "Muzikinių vaizdo įrašų iliustracijų tipų baltasis sąrašas"
+
+msgctxt "#39150"
+msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
+msgstr "Leisti muzikinių vaizdo įrašų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
+
+msgctxt "#39153"
+msgid "Windowing system:"
+msgstr "Langų sistema:"

@@ -1617,6 +1617,10 @@ msgctxt "#435"
 msgid "No optical disc drive detected"
 msgstr "Er is geen optisch diskstation gedetecteerd"
 
+msgctxt "#436"
+msgid "This video is stored on an optical disc (e.g. DVD, Blu-ray) and cannot be played as your device does not have an appropriate drive."
+msgstr "Deze video is opgeslagen op een optische schijf (zoals dvd of Blu-Ray) en kan niet afgespeeld worden omdat er geen geschikt schijfstation is aangesloten op dit systeem."
+
 msgctxt "#437"
 msgid "Removable disk"
 msgstr "Verwisselbare schijf"
@@ -5523,7 +5527,7 @@ msgstr "Activeer HQ Schalers voo het herschalen boven"
 
 msgctxt "#13436"
 msgid "Use display HDR capabilities"
-msgstr "Gebruik beeldscherm HDR mogelijkheden"
+msgstr "Gebruik HDR-mogelijkheden van beeldscherm"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -5531,7 +5535,7 @@ msgstr "Voorkeur VDPAU videomixer"
 
 msgctxt "#13438"
 msgid "Allow hardware acceleration with DRM PRIME"
-msgstr "Sta hardware versnelling met DRM PRIME toe"
+msgstr "Sta hardwareversnelling met DRM PRIME toe"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -7312,6 +7316,10 @@ msgstr "Huidige programma"
 msgctxt "#19071"
 msgid "Update interval"
 msgstr "Updatefrequentie"
+
+msgctxt "#19072"
+msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
+msgstr "Om een timer toe te voegen of aan te passen, moet de einddatum/eindtijd later zijn dan de begindatum/begintijd."
 
 msgctxt "#19073"
 msgid "Delay channel switch"
@@ -9503,7 +9511,7 @@ msgstr "Waar geen albumcovers aanwezig zijn, zullen online-afbeeldingen gebruikt
 
 msgctxt "#20226"
 msgid "Movie set information folder"
-msgstr "Filmset informatie map"
+msgstr "Map met filmsetinformatie"
 
 msgctxt "#20228"
 msgid "Use artist sortname when sorting by artist"
@@ -10247,7 +10255,7 @@ msgstr "Toon lege tv-programma's"
 
 msgctxt "#20472"
 msgid "Show all performers for music videos"
-msgstr "Toon alle artiesten bij muziek video's"
+msgstr "Toon alle artiesten bij muziekvideo's"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -11927,19 +11935,19 @@ msgstr "Na inactiviteit op afstand zal de eerste tik / veeg die wordt ontvangen 
 
 msgctxt "#24156"
 msgid "30 Seconds"
-msgstr "30 Seconden"
+msgstr "30 seconden"
 
 msgctxt "#24157"
 msgid "60 Seconds"
-msgstr "60 Seconden"
+msgstr "60 seconden"
 
 msgctxt "#24158"
 msgid "90 Seconds"
-msgstr "90 Seconden"
+msgstr "90 seconden"
 
 msgctxt "#24159"
 msgid "120 Seconds"
-msgstr "120 Seconden"
+msgstr "120 seconden"
 
 msgctxt "#24160"
 msgid "Enable Siri remote timeout"
@@ -11951,7 +11959,7 @@ msgstr "Schakel timeout voor invoer op afstand in voor tap/swipe"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
-msgstr "Gebruik Kodi virtuele toetsenbord"
+msgstr "Gebruik virtueel toetsenbord van Kodi"
 
 msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
@@ -12912,6 +12920,22 @@ msgstr "Kan volgende item niet vinden om af te spelen"
 msgctxt "#34202"
 msgid "Can't find a previous item to play"
 msgstr "Kan vorige item niet vinden om af te spelen"
+
+msgctxt "#34220"
+msgid "HDR status"
+msgstr "HDR-status"
+
+msgctxt "#34221"
+msgid "Off"
+msgstr "Uit"
+
+msgctxt "#34222"
+msgid "On"
+msgstr "Aan"
+
+msgctxt "#34224"
+msgid "Tone mapping method"
+msgstr "Tonemappingmethode"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -14503,7 +14527,7 @@ msgstr "Bij het sorteren van muziekitems, gebruik de sorteernaam. Bijvoorbeeld P
 
 msgctxt "#36295"
 msgid "Set the the subtitle opacity."
-msgstr "Stel de ondertiteling ondoorzichtigheid in."
+msgstr "Stel de ondoorzichtigheid van ondertiteling in."
 
 msgctxt "#36296"
 msgid "This category contains settings for reminders."
@@ -14512,6 +14536,10 @@ msgstr "Deze categorie bevat instellingen voor herinneringen."
 msgctxt "#36297"
 msgid "Choose a time in seconds after which PVR reminder popups will be automatically closed."
 msgstr "Kies een tijd in seconden waarna PVR herinneringspopups automatisch worden gesloten."
+
+msgctxt "#36300"
+msgid "Select the folder where movie set information (images) are saved locally."
+msgstr "Selecteer de map waarin filmsetinformatie (afbeeldingen) lokaal wordt opgeslagen."
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -14612,6 +14640,14 @@ msgstr "Deze categorie bevat de instellingen voor de manier hoe de webserverdien
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Definieer de webserverpoort."
+
+msgctxt "#36330"
+msgid "Define the web server username. Must be set when authentication is enabled."
+msgstr "Gebruikersnaam voor de webserver. Moet ingesteld zijn als authenticatie is ingeschakeld."
+
+msgctxt "#36331"
+msgid "Define the web server password. Must be set when authentication is enabled."
+msgstr "Wachtwoord voor de webserver. Moet ingesteld zijn als authenticatie is ingeschakeld."
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
@@ -14956,6 +14992,10 @@ msgstr "Zoek naar externe ondertitels voor video's verkregen via de UPnP-server.
 msgctxt "#36421"
 msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
 msgstr "Het omzeilen van de VDPAU mixer beperkt de impact op minder krachtige systemen, maar vermindert enigszins de beeldkwaliteit."
+
+msgctxt "#36422"
+msgid "Update official add-ons from"
+msgstr "Officiële add-ons bijwerken van"
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
@@ -16315,7 +16355,7 @@ msgstr "Bibliotheek Tonen en Navigatie"
 
 msgctxt "#39122"
 msgid "Library Information Sources"
-msgstr "Bibliotheek Informatie Bronnen"
+msgstr "Bibliotheekinformatiebronnen"
 
 msgctxt "#39123"
 msgid "Artwork"
