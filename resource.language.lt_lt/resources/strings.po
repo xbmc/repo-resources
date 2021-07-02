@@ -6265,6 +6265,10 @@ msgctxt "#14126"
 msgid "Whitelist"
 msgstr "Baltasis sąrašas"
 
+msgctxt "#14127"
+msgid "Allow 3:2 pulldown refresh rates"
+msgstr "Leisti 3:2 išskleidžiamojo atnaujinimo dažnius"
+
 msgctxt "#14128"
 msgid "Allow double refresh rates"
 msgstr "Leisti dvigubus atnaujinimo dažnius"
@@ -8356,6 +8360,14 @@ msgstr "Perjungti kanalą po automatinio priminimo lango uždarymo"
 msgctxt "#19331"
 msgid "(Auto-close of this reminder will switch to channel...)"
 msgstr "(Automatiškai užsidarius šiam priminimui bus perjungtas kanalas...)"
+
+msgctxt "#19332"
+msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
+msgstr "Įjungtas kanalas '{1:s}' programo laikui '{2:s}' dėl automatiškai uždaryto PVR priminimo kanalui '{0:s}'"
+
+msgctxt "#19333"
+msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
+msgstr "Įjungtas kanalas programo laikui '{1:s}' dėl automatiškai uždaryto PVR priminimo kanalui '{0:s}'"
 
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11961,9 +11973,17 @@ msgctxt "#24164"
 msgid "Addon \"{0:s}\" broken"
 msgstr "Priedas \"{0:s}\" sugadintas"
 
+msgctxt "#24165"
+msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Priedas pažymėtas kaip sugadintas su tokia pastaba:[CR][B][I]{0:s}[/I][/B][CR][CR]Ar norite jį įgalinti?"
+
 msgctxt "#24166"
 msgid "Addon \"{0:s}\" deprecated"
 msgstr "Priedas \"{0:s}\" nebenaudojamas"
+
+msgctxt "#24167"
+msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Priedas pažymėtas kaip nebenaudojamas su tokia pastaba:[CR][B][I]{0:s}[/I][/B][CR][CR]Ar norite jį įgalinti?"
 
 msgctxt "#24168"
 msgid "Deprecated: {0:s}"
@@ -12000,6 +12020,10 @@ msgstr "Minimali: {0:s} / Įdiegta: {1:s} => Atnaujinti į: {2:s}{3:s}"
 msgctxt "#24184"
 msgid " (optional)"
 msgstr " (neprivaloma)"
+
+msgctxt "#24185"
+msgid "Minimum: {0:s} / Not available{3:s}"
+msgstr "Minimal: {0:s} / Neprieinama{3:s}"
 
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -13213,6 +13237,10 @@ msgctxt "#35100"
 msgid "Enable controller support"
 msgstr "Įjungti valdiklio palaikymą"
 
+msgctxt "#35102"
+msgid "Disable controllers when this device is present"
+msgstr "Išjungti valdiklius, kai veikia šis įrenginys"
+
 msgctxt "#35103"
 msgid "Buttons"
 msgstr "Mygtukai"
@@ -14013,6 +14041,10 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Pasirinkite priartinimo lygį, kuriuo 4:3 formato vaizdo įrašai bus rodomi plačiaekraniuose televizoriuose."
 
+msgctxt "#36172"
+msgid "Enable PRIME decoding of video files"
+msgstr "Įjungti vaizdo failų PRIME dekodavimą"
+
 msgctxt "#36173"
 msgid "Choose which short date format is used for displaying the date in the user interface."
 msgstr "Pasirinkite, kurį trumpą datos formatą naudoti datos atvaizdavimui vartotojo sąsajoje."
@@ -14417,6 +14449,10 @@ msgctxt "#36273"
 msgid "Select the visualisation that will be displayed while listening to music."
 msgstr "Pasirinkite vizualizaciją, kuri bus rodoma klausantis muzikos."
 
+msgctxt "#36274"
+msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
+msgstr "Naršant muzikos failus failų rodinyje, skaityti žymes tų, kurių nėra muzikos bibliotekoje. Dėl to dideli katalogai gali būti lėtai atvaizduojami, ypač tinkle."
+
 msgctxt "#36275"
 msgid "Control the way that the names of songs are displayed in the user interface. In order to function properly, tag reading needs to be enabled."
 msgstr "Nustatykite kaip atvaizduoti dainų pavadinimus vartotojo sąsajoje. Kad veiktų tinkamai, reikia įjungti žymų skaitymą."
@@ -14629,6 +14665,10 @@ msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
 msgstr "Šioje kategorijoje yra nustatymai, skirti žiniatinklio serverio ir programos valdymo paslaugų tvarkymui."
 
+msgctxt "#36328"
+msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
+msgstr "Leisti nuotoliniams vartotojams valdyti šią programą naudojant integruotą žiniatinklio serverį. Niekada nepadarykite žiniatinklio serverio prievado matomo internete."
+
 msgctxt "#36329"
 msgid "Define the web server port."
 msgstr "Nustatyti žiniatinklio serverio prievadą."
@@ -14649,6 +14689,10 @@ msgctxt "#36333"
 msgid "This category contains the settings for how the remote control service is handled."
 msgstr "Šioje kategorijoje yra nustatymai, skirti nuotolinio valdymo paslaugos tvarkymui."
 
+msgctxt "#36334"
+msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
+msgstr "Leisti šiame įrenginyje esančioms programoms be autentifikacijos valdyti šią programą naudojant JSON-RPC per WebSocket, JSON-RPC per TCP ar EventServer protokolą."
+
 msgctxt "#36335"
 msgid "Define the remote control port."
 msgstr "Nustatyti nuotolinio valdymo prievadą."
@@ -14660,6 +14704,10 @@ msgstr "Nustatyti nuotolinio valdymo prievadų rėžį."
 msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Nustatyti maksimalų prisijungusių klientų skaičių."
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
+msgstr "Leisti šiame įrenginyje esančioms tinkle be autentifikacijos valdyti šią programą naudojant JSON-RPC per WebSocket, JSON-RPC per TCP ar EventServer protokolą. Tai leidžia visiems, turintiems prieigą prie tinklo, visiškai valdyti šią programą, taigi ir šį įrenginį. Niekada neatskleiskite šių sąsajų internete."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -14812,6 +14860,10 @@ msgstr "Kai aktyvuota, rodyklės jūsų klaviatūroje keis pasirinktą klavišą
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
 msgstr "Naudoti pelę ar įrenginį su liečiamuoju ekranu sąsajos valdymui. Pastaba: išjungus prarasite galimybę valdyti šią programą, jei nėra klaviatūros ar nuotolinio valdymo."
+
+msgctxt "#36378"
+msgid "Use a game controller to control the interface."
+msgstr "Naudoti žaidimų valdiklį vartotojo sąsajos valdymui"
 
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
@@ -14989,6 +15041,10 @@ msgctxt "#36422"
 msgid "Update official add-ons from"
 msgstr "Atnaujinti oficialius priedus iš"
 
+msgctxt "#36423"
+msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
+msgstr "Pagal numatytuosius nustatymus oficialių saugyklų priedai nebus automatiškai atnaujinami iš privačių saugyklų. Tokiems atvejams, kaip priedų atnaujinimas iš beta saugyklos, šią parinktį galima perjungti į [Bet kurios saugyklos] (turėkite omenyje, kad tai yra mažiau saugi parinktis, o jos įjungimas gali sukelti nesuderinamumą ir strigtis)."
+
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
 msgstr "Pasirinkite kas nutiks, kai pasirinksite elementą TV gide: [Rodyti kontekstinį meniu] Atidarys kontekstinį meniu, kuriame galėsite pasirinkti tolesnius veiksmus; [Perjungti į kanalą] Nedelsiant įjungs atitinkamą kanalą; [Rodyti informaciją] Parodys išsamią informaciją su siužetu ir tolimesnėmis parinktimis; [Įrašyti] Sukurs įrašymo laikmatį pasirinktam elementui. [\"Išmanusis pasirinkimas\"] Veiksmas bus parinktas dinamiškai, priklausomai nuo to ar įvykis yra praeityje, dabartyje ar ateityje."
@@ -15029,6 +15085,10 @@ msgctxt "#36433"
 msgid "When enabled, VAAPI render method is preferred and the CPU has less load. If you experience hangs, disable this option."
 msgstr "Kai įjungta, pirmenybė teikiama VAAPI atvaizdavimo režimui bei mažiau apkraunamas CPU. Jei pasitaiko pakibimų, išjunkite šią parinktį."
 
+msgctxt "#36434"
+msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr "Kai įjungta, įjungti kanalo programos laidą, kai jos priminimo iššokantis langas buvo uždarytas automatiškai."
+
 msgctxt "#36436"
 msgid "Select OS keyboard layout."
 msgstr "Pasirinkti OS klaviatūros išdėstymą."
@@ -15044,6 +15104,18 @@ msgstr "Bet kurios saugyklos"
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
 msgstr "Nustatyti garsumo valdymo žingsnių skaičių."
+
+msgctxt "#36443"
+msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
+msgstr "Į baltąjį sąrašą įtraukti režimai suteikia vartotojui galimybę pasirinkti, kuriuos rodymo režimus leidžiama naudoti"
+
+msgctxt "#36444"
+msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
+msgstr "Pasirinkite šią parinktį, jei norite naudoti 3:2 išskleidžiamojo atnaujinimo dažnius (atkuriant 23,976 FPS vaizdo įrašą 59,94 Hz monitoriuje arba 24 FPS vaizdo įrašą 60 Hz monitoriuje). Galite naudoti šią parinktį, jei jūsų monitoriuje nėra 23,976 Hz arba 24 Hz režimo."
+
+msgctxt "#36445"
+msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
+msgstr "Pasirinkite šią parinktį, jei norite naudoti dvigubus atnaujinimo dažnius (atkuriant 29,97 FPS vaizdo įrašą 59,94 Hz monitoriuje arba 30 FPS vaizdo įrašą 60 Hz monitoriuje). Galite naudoti šią parinktį, jei jūsų monitoriuje nėra 29,97 Hz arba 30 Hz režimo."
 
 msgctxt "#36460"
 msgid "Event logging allows to keep track of what has happened."
@@ -15513,6 +15585,18 @@ msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
 msgstr "Naudoti silpną SMBv1 saugumą suderinamumui su senesnių WiFi maršrutizatorių ir NAS įrengnių USB bendrinimo funkcija."
 
+msgctxt "#36632"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
+msgstr "Bet kas, turintis prieigą prie žiniatinklio sąsajos, galės pilnai valdyti šią programą, taigi ir šį įrenginį, todėl ji niekada neturėtų būti laisvai prieinama internete. Slaptažodis turėtų būti nustatytas žemiau. Tęsti?"
+
+msgctxt "#36633"
+msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
+msgstr "Šios paslaugos nesiūlo nei autentifikavimo, nei šifravimo. Kiekvienas, galintis prisijungti prie jų, galės pilnai valdyti šią programą, taigi ir šį įrenginį, todėl jos niekada neturėtų būti laisvai prieinamos internete. Tęsti?"
+
+msgctxt "#36634"
+msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
+msgstr "Bet kas, turintis prieigą prie žiniatinklio sąsajos, galės pilnai valdyti šią programą, taigi ir šį įrenginį, todėl ji turėtų būti apsaugota slaptažodžiu. Ar tikrai norite išjungti autentifikavimą?"
+
 msgctxt "#36635"
 msgid "If web server authentication is enabled, a password must be entered as well."
 msgstr "Jei įgalintas žiniatinklio serverio autentifikavimas, taip pat reikia įvesti ir slaptažodį."
@@ -15520,6 +15604,10 @@ msgstr "Jei įgalintas žiniatinklio serverio autentifikavimas, taip pat reikia 
 msgctxt "#36636"
 msgid "You must first enter a password before web server authentication can be enabled."
 msgstr "Pirmiausia turite įvesti slaptažodį, kad būtų galima įgalinti žiniatinklio serverio autentifikavimą."
+
+msgctxt "#36637"
+msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
+msgstr "Atminkite, kad iš zip įdiegti priedai (išskyrus pateiktas saugyklas) nebus automatiškai atnaujinami ir turi būti atnaujinti rankiniu būdu. Ar norėtumėte tęsti?"
 
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -16161,6 +16249,10 @@ msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "Neįmanoma nuskaityti xml failo"
 
+msgctxt "#39004"
+msgid "This category provides access to the windows for source management and library management facilities"
+msgstr "Ši kategorija suteikia prieigą prie šaltinių ir bibliotekos priemonių valdymo langų."
+
 msgctxt "#39005"
 msgid "This provides access to where video sources can be added and otherwise managed."
 msgstr "Tai suteikia prieigą prie vietos, kur galima pridėti ir kitaip valdyti vaizdo įrašų šaltinius."
@@ -16253,6 +16345,10 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Rikiavimo vardas"
 
+msgctxt "#39028"
+msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+msgstr "Priedas \"{0:s}\"[CR]Kilmė \"{1:s}\"[CR]Versija \"{2:s}\"[CR]- bus pašalintas ir pakeistas. Ar norite tęsti?"
+
 msgctxt "#39030"
 msgid "Source"
 msgstr "Šaltinis"
@@ -16341,6 +16437,10 @@ msgctxt "#39119"
 msgid "Last modified"
 msgstr "Paskutinį kartą keistas"
 
+msgctxt "#39120"
+msgid "Skip filename matching for external audio tracks"
+msgstr "Praleisti išorinių garso takelių failų pavadinimų atitikmens paiešką"
+
 msgctxt "#39121"
 msgid "Library Display and Navigation"
 msgstr "Bibliotekos rodymas ir naršymas"
@@ -16361,6 +16461,18 @@ msgctxt "#39127"
 msgid "Use all local image files as artwork"
 msgstr "Naudoti visus vietinius atvaizdų failus kaip iliustracijas"
 
+msgctxt "#39128"
+msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
+msgstr "Visi atvaizdų failai, esantys šalia medijos failų, bibliotekos nuskaitymo metu yra paimami kaip iliustracijos, naudojant failo pavadinimąkaip iliustracijos tipą."
+
+msgctxt "#39129"
+msgid "Use all remote artwork fetched by scrapers"
+msgstr "Naudoti visas nuotolines iliustracijas gautas iš skreperio"
+
+msgctxt "#39130"
+msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
+msgstr "Norint gauti bet kurią trūkstamą iliustraciją, kurios nėra tarp lokalių iliustracijų, naudoti pirmą kiekvieno iliustracijos tipo nuotolinę iliustraciją iš skreperio rezultatų."
+
 msgctxt "#39131"
 msgid "Artist art types whitelist"
 msgstr "Atlikėjų iliustracijų tipų baltasis sąrašas"
@@ -16377,9 +16489,21 @@ msgctxt "#39134"
 msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
 msgstr "Leisti albumų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
 
+msgctxt "#39135"
+msgid "Thumbnail image files"
+msgstr "Miniatiūrų atvaizdų failai"
+
+msgctxt "#39136"
+msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
+msgstr "Failų pavadinimai, kuriuose yra pirminių iliustracijų (miniatiūrų), paprastai kvadratiniai ir naudojami tiek pilni, tiek mažesnio dydžio, kad vizualiai identifikuotų aplanką, atlikėją, albumą ar dainą"
+
 msgctxt "#39137"
 msgid "Artwork level"
 msgstr "Iliustracijų lygis"
+
+msgctxt "#39138"
+msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
+msgstr "Automatiškai parinktų iliustracijų kiekis - [Maksimalus] visi vietiniai vaizdai ir nuotolinės iliustracijos; [Pagrindinis] taupo vietą riboto pajėgumo įrenginiuose arba naudojant paprastą teminę išvaizdą; [Savas] vartotojo sukonfigūruotas išsamiam valdymui; [Nėra] be iliustracijų"
 
 msgctxt "#39140"
 msgid "Maximum"
@@ -16424,6 +16548,14 @@ msgstr "Muzikinių vaizdo įrašų iliustracijų tipų baltasis sąrašas"
 msgctxt "#39150"
 msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
 msgstr "Leisti muzikinių vaizdo įrašų iliustracijas, parsisiųstas lokaliai arba pritaikytas iš skreperio nuotolinių iliustracijų rezultatų, tik baltąjame sąraše esančių iliustracijų tipų"
+
+msgctxt "#39151"
+msgid "Display hardware scaling filter"
+msgstr "Rodyti aparatinės įrangos mastelio filtrą"
+
+msgctxt "#39152"
+msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
+msgstr "'Integer scaling' (IS) yra 'Nearest-Neighbor' (NN) vaizdo raiškos didinimo technologija naudojant 'Display Engine'"
 
 msgctxt "#39153"
 msgid "Windowing system:"
