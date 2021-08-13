@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-17 21:28+0000\n"
+"PO-Revision-Date: 2021-07-31 18:46+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1865,7 +1865,7 @@ msgstr "스킨 & 언어"
 
 msgctxt "#480"
 msgid "Appearance"
-msgstr "Appearance"
+msgstr "모양새"
 
 msgctxt "#481"
 msgid "Audio options"
@@ -3394,7 +3394,7 @@ msgstr "SOCKS5"
 
 msgctxt "#1185"
 msgid "SOCKS5 with remote DNS resolving"
-msgstr "SOCKS5 with remote DNS resolving"
+msgstr ""
 
 msgctxt "#1200"
 msgid "SMB client"
@@ -3987,11 +3987,11 @@ msgstr "자세한 정보는 로그를 확인하세요."
 # empty strings from id 2105 to 2202
 msgctxt "#2203"
 msgid "Use DTS Core"
-msgstr ""
+msgstr "DTS 코어 사용"
 
 msgctxt "#2204"
 msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr ""
+msgstr "DTS-HD 포맷을 DTS 형식으로 패스스루하려면 이 옵션을 선택하세요, 아니면 DTS-HD 포맷이 PCM 형식으로 재생됩니다"
 
 msgctxt "#10000"
 msgid "Home"
@@ -4617,6 +4617,17 @@ msgstr "처음부터 재생"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "{0:s}부터 다시 시작"
+
+# empty strings from id 12023 to 12307
+#. Label of the show password button in the keyboard dialog
+msgctxt "#12308"
+msgid "Show password"
+msgstr ""
+
+#. Label of the hide password button in the keyboard dialog
+msgctxt "#12309"
+msgid "Hide password"
+msgstr ""
 
 msgctxt "#12310"
 msgid "0"
@@ -5723,6 +5734,8 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "렌더링 방식"
 
+#. Value for setting with label #13415 "Player / Videos / Render method"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "자동감지"
@@ -6056,7 +6069,7 @@ msgstr "Apple 리모트"
 
 msgctxt "#13601"
 msgid "Apple TV"
-msgstr ""
+msgstr "애플 TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -10779,7 +10792,8 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "파일 이름 대신 라이브러리 제목 사용"
 
-#. Settings -> PVR -> Playback -> Switch to fullscreen value
+#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20420"
 msgid "Never"
 msgstr "안 함"
@@ -10788,6 +10802,8 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "한 시즌일 때만"
 
+#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "항상"
@@ -12743,11 +12759,11 @@ msgstr "애플 tvOS처럼 Siri 리모트 사용함"
 
 msgctxt "#24154"
 msgid "Consider Siri remote in idle state after N seconds"
-msgstr ""
+msgstr "N 초 후에 시리 리모트가 휴면상태로 들어간다고 간주"
 
 msgctxt "#24155"
 msgid "Time to wait before considering the Siri remote in idle state"
-msgstr ""
+msgstr "시리 리모트가 휴면 상태라고 간주하는 대기 시간"
 
 msgctxt "#24156"
 msgid "30 Seconds"
@@ -12767,11 +12783,11 @@ msgstr "120초"
 
 msgctxt "#24160"
 msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr ""
+msgstr "이 시간 동안 동작이 없으면 첫번째 탭/건드리기/손가락 벌리기를 무시"
 
 msgctxt "#24161"
 msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr ""
+msgstr "이렇게 하면 손으로 리모트를 집을 때 우발적인 탭/밀기/손가락 벌리기 인식을 방지함"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
@@ -13748,15 +13764,15 @@ msgstr "Windows 미디어 오디오 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
 msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
+msgstr "문자 입력이 필요할 때, 내장 tvOS 키보드 대신 Kodi 가상 키보드가 나옵니다"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
+msgstr "시리 리모트 손가락 벌리기 제스쳐 가로방향으로 인식"
 
 msgctxt "#34010"
 msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
+msgstr "시리 리모트 손가락 벌리기 세로 방향 인식"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14836,6 +14852,12 @@ msgstr "리모트 버튼의 떼기 지연 (ms)"
 msgctxt "#36050"
 msgid "On start"
 msgstr "시작할 때"
+
+# empty strings from id 36051 to 36097
+#. Label of setting "System / Display / Use 10 bit for SDR"
+msgctxt "#36098"
+msgid "Use 10 bit for SDR"
+msgstr ""
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -16779,6 +16801,11 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "3D 룩업 테이블의 해상도를 명시합니다. 빠른 미리 보기를 하려면 낮은 해상도를 쓰고, 보다 정확한 그림은 높은 해상도를 씁니다. 높은 해상도는 새로운 비디오가 시작되거나 변수가 바뀌면 대응하는 데에 수초가 걸릴 수 있습니다."
 
+#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
+msgctxt "#36578"
+msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+msgstr ""
+
 #. primaries labels
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -17287,6 +17314,25 @@ msgstr "챕터 / 책갈피 대화창에 표시할 챕터 썸네일을 추출합�
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
+
+msgctxt "#37047"
+msgid "WS-Discovery"
+msgstr ""
+
+#. Setting #37048 Enable WS-Discovery Service"
+msgctxt "#37048"
+msgid "Enable WS-Discovery Service"
+msgstr ""
+
+#. Description of setting #37048 Enable WS-Discovery Service"
+msgctxt "#37049"
+msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+msgstr ""
+
+#. Label for component level debug logging setting
+msgctxt "#37050"
+msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+msgstr ""
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"

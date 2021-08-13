@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-10 21:08+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-08-13 08:00+0000\n"
+"Last-Translator: Artem Moskalchuk <akc666@gmail.com>\n"
 "Language-Team: Ukrainian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/uk_ua/>\n"
 "Language: uk_ua\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -2804,7 +2804,7 @@ msgstr "Видалення джерела"
 
 msgctxt "#752"
 msgid "Opacity"
-msgstr ""
+msgstr "Непрозорість"
 
 msgctxt "#754"
 msgid "Add program link"
@@ -2860,7 +2860,7 @@ msgstr "Сірий"
 
 msgctxt "#768"
 msgid "Dark Grey"
-msgstr ""
+msgstr "Темно-сірий"
 
 msgctxt "#770"
 msgid "Error {0:d}: share not available"
@@ -3008,7 +3008,7 @@ msgstr "Макс. кількість записів"
 #. Representation of a one-time timer which has been scheduled by a timer rule.
 msgctxt "#819"
 msgid "One time (Scheduled by timer rule)"
-msgstr ""
+msgstr "Один раз (заплановано за правилом таймера)"
 
 #. Representation of a one-time timer.
 msgctxt "#820"
@@ -3033,22 +3033,22 @@ msgstr "Правило таймера (за телепрограмою)"
 #. Complete prefixed representation of a reminder timer type.
 msgctxt "#824"
 msgid "Reminder: {0:s}"
-msgstr ""
+msgstr "Нагадування: {0:s}"
 
 #. Complete prefixed representation of a recording timer type.
 msgctxt "#825"
 msgid "Recording: {0:s}"
-msgstr ""
+msgstr "Запис: {0:s}"
 
 #. Label for a context menu entry to add a reminder timer
 msgctxt "#826"
 msgid "Set reminder"
-msgstr ""
+msgstr "Встановити нагадування"
 
 #. Label for a context menu entry to delete a reminder timer
 msgctxt "#827"
 msgid "Delete reminder"
-msgstr ""
+msgstr "Видалити нагадування"
 
 #. Text for notification that a timer rule has been deleted
 msgctxt "#828"
@@ -3058,12 +3058,12 @@ msgstr "Правило таймера видалено"
 #. Label for a context menu entry to view a read-only reminder timer
 msgctxt "#829"
 msgid "View reminder"
-msgstr ""
+msgstr "Переглянути нагадування"
 
 #. Label for a context menu entry to edit a reminder timer
 msgctxt "#830"
 msgid "Edit reminder"
-msgstr ""
+msgstr "Редагувати нагадування"
 
 #. Weekday representation
 msgctxt "#831"
@@ -3103,12 +3103,12 @@ msgstr "Щонеділі"
 #. Label for a TV show Premiere
 msgctxt "#838"
 msgid "Première"
-msgstr ""
+msgstr "Прем'єра"
 
 #. Label for a Live TV show
 msgctxt "#839"
 msgid "Live"
-msgstr ""
+msgstr "Наживо"
 
 #. Message in a dialog when a user wants to delete a timer that was scheduled by a timer rule
 msgctxt "#840"
@@ -3123,7 +3123,7 @@ msgstr "Лице цей"
 #. Label for a first aired TV show
 msgctxt "#842"
 msgid "New"
-msgstr ""
+msgstr "Новинка"
 
 #. Label for a context menu entry to activate a currently inactive timer
 msgctxt "#843"
@@ -3158,7 +3158,7 @@ msgstr "Ви впевнені, що хочете припинити цей за�
 #. Label for a finale of a TV show
 msgctxt "#849"
 msgid "Finale"
-msgstr ""
+msgstr "Фінал"
 
 msgctxt "#850"
 msgid "Invalid port number entered"
@@ -3366,7 +3366,7 @@ msgstr "Уведіть веб-адресу"
 
 msgctxt "#1052"
 msgid "Require authentication"
-msgstr ""
+msgstr "Потрібна автентифікація"
 
 msgctxt "#1053"
 msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
@@ -4620,6 +4620,17 @@ msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Продовжити з {0:s}"
 
+# empty strings from id 12023 to 12307
+#. Label of the show password button in the keyboard dialog
+msgctxt "#12308"
+msgid "Show password"
+msgstr ""
+
+#. Label of the hide password button in the keyboard dialog
+msgctxt "#12309"
+msgid "Hide password"
+msgstr ""
+
 msgctxt "#12310"
 msgid "0"
 msgstr "0"
@@ -5726,6 +5737,8 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Метод обробки"
 
+#. Value for setting with label #13415 "Player / Videos / Render method"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Автовизначення"
@@ -10783,7 +10796,8 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Показувати назви з медіатеки замість імен файлів"
 
-#. Settings -> PVR -> Playback -> Switch to fullscreen value
+#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20420"
 msgid "Never"
 msgstr "Ніколи"
@@ -10792,6 +10806,8 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Якщо один сезон"
 
+#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Ніколи"
@@ -14847,6 +14863,12 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "При запуску"
 
+# empty strings from id 36051 to 36097
+#. Label of setting "System / Display / Use 10 bit for SDR"
+msgctxt "#36098"
+msgid "Use 10 bit for SDR"
+msgstr ""
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Розмиття"
@@ -16792,6 +16814,11 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr ""
 
+#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
+msgctxt "#36578"
+msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+msgstr ""
+
 #. primaries labels
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -17301,6 +17328,25 @@ msgstr ""
 
 msgctxt "#37046"
 msgid "1080"
+msgstr ""
+
+msgctxt "#37047"
+msgid "WS-Discovery"
+msgstr ""
+
+#. Setting #37048 Enable WS-Discovery Service"
+msgctxt "#37048"
+msgid "Enable WS-Discovery Service"
+msgstr ""
+
+#. Description of setting #37048 Enable WS-Discovery Service"
+msgctxt "#37049"
+msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+msgstr ""
+
+#. Label for component level debug logging setting
+msgctxt "#37050"
+msgid "Verbose logging for the [B]WS-Discovery[/B] component"
 msgstr ""
 
 # empty strings from id 37047 to 38010

@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-18 22:18+0000\n"
+"PO-Revision-Date: 2021-07-31 18:46+0000\n"
 "Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4178,7 +4178,7 @@ msgstr "編輯檔案來源"
 
 msgctxt "#10058"
 msgid "Remove tag from library"
-msgstr ""
+msgstr "從資料庫中移除標籤"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -4619,6 +4619,17 @@ msgstr "從頭開始播放"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "從 {0:s} 繼續"
+
+# empty strings from id 12023 to 12307
+#. Label of the show password button in the keyboard dialog
+msgctxt "#12308"
+msgid "Show password"
+msgstr ""
+
+#. Label of the hide password button in the keyboard dialog
+msgctxt "#12309"
+msgid "Hide password"
+msgstr ""
 
 msgctxt "#12310"
 msgid "0"
@@ -5623,7 +5634,7 @@ msgstr "沒有此視覺效果的設定檔"
 
 msgctxt "#13390"
 msgid "There are no settings available[CR]for this visualisation"
-msgstr ""
+msgstr "該視覺效果沒有可用的設定"
 
 msgctxt "#13391"
 msgid "Eject / Load"
@@ -5725,6 +5736,8 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "渲染模式"
 
+#. Value for setting with label #13415 "Player / Videos / Render method"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "自動偵測"
@@ -5771,7 +5784,7 @@ msgstr "允許硬體加速 - VTBDecoder"
 
 msgctxt "#13430"
 msgid "Allow using DRM PRIME decoder"
-msgstr ""
+msgstr "允許使用DRM PRIME解碼器"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -5804,7 +5817,7 @@ msgstr "使用 VDPAU 影片混合器"
 
 msgctxt "#13438"
 msgid "Allow hardware acceleration with DRM PRIME"
-msgstr ""
+msgstr "允許使用DRM PRIME硬體加速"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -6058,7 +6071,7 @@ msgstr "Apple 遙控器"
 
 msgctxt "#13601"
 msgid "Apple TV"
-msgstr ""
+msgstr "Apple TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -6576,11 +6589,11 @@ msgstr "白名單"
 
 msgctxt "#14127"
 msgid "Allow 3:2 pulldown refresh rates"
-msgstr ""
+msgstr "允許3:2下拉刷新率"
 
 msgctxt "#14128"
 msgid "Allow double refresh rates"
-msgstr ""
+msgstr "允許雙倍刷新率"
 
 msgctxt "#14200"
 msgid "Player"
@@ -7223,7 +7236,7 @@ msgstr "二元直線"
 
 msgctxt "#16303"
 msgid "Bicubic (B-Spline)"
-msgstr ""
+msgstr "Bicubic (B-Spline)"
 
 msgctxt "#16304"
 msgid "Lanczos2"
@@ -10781,7 +10794,8 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "在檔案檢視中顯示媒體資訊"
 
-#. Settings -> PVR -> Playback -> Switch to fullscreen value
+#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20420"
 msgid "Never"
 msgstr "從不"
@@ -10790,6 +10804,8 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "如果只有一季"
 
+#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "總是"
@@ -14845,6 +14861,12 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "在開始時"
 
+# empty strings from id 36051 to 36097
+#. Label of setting "System / Display / Use 10 bit for SDR"
+msgctxt "#36098"
+msgid "Use 10 bit for SDR"
+msgstr ""
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "抖色"
@@ -16787,6 +16809,11 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "定義3D LUT的解析度。較低解析度可加快預覽的速度，反之則可得到較精確的圖像。相關數據變更或新的影片開始播放時，使用高解析度可能會花幾秒時間作準備。"
 
+#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
+msgctxt "#36578"
+msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+msgstr ""
+
 #. primaries labels
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -17295,6 +17322,25 @@ msgstr "將章節中的縮圖粹取出來顯示在章節 / 書籤對話框中，
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
+
+msgctxt "#37047"
+msgid "WS-Discovery"
+msgstr ""
+
+#. Setting #37048 Enable WS-Discovery Service"
+msgctxt "#37048"
+msgid "Enable WS-Discovery Service"
+msgstr ""
+
+#. Description of setting #37048 Enable WS-Discovery Service"
+msgctxt "#37049"
+msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+msgstr ""
+
+#. Label for component level debug logging setting
+msgctxt "#37050"
+msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+msgstr ""
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"

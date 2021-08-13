@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-23 20:14+0000\n"
+"PO-Revision-Date: 2021-08-13 08:00+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -2604,7 +2604,7 @@ msgstr "Ausführliche Protokollierung der [B]Datenbank[/B]-Komponente"
 
 msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
-msgstr "Ausführliche Protokollierung von [B]Audio/Video Timing-Informationen[/B]"
+msgstr "Ausführliche Protokollierung von [B]Audio-/Video-Timing-Informationen[/B]"
 
 msgctxt "#684"
 msgid "Verbose logging of [B]Windowing[/B] component"
@@ -4618,6 +4618,17 @@ msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Bei {0:s} fortsetzen"
 
+# empty strings from id 12023 to 12307
+#. Label of the show password button in the keyboard dialog
+msgctxt "#12308"
+msgid "Show password"
+msgstr "Passwort anzeigen"
+
+#. Label of the hide password button in the keyboard dialog
+msgctxt "#12309"
+msgid "Hide password"
+msgstr "Passwort verstecken"
+
 msgctxt "#12310"
 msgid "0"
 msgstr "0"
@@ -5723,6 +5734,8 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Render-Methode"
 
+#. Value for setting with label #13415 "Player / Videos / Render method"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Auto-Erkennung"
@@ -6909,7 +6922,7 @@ msgstr "Klangschemata"
 
 msgctxt "#15109"
 msgid "Skin default"
-msgstr "Standartwert des Skins"
+msgstr "Standardwert des Skins"
 
 msgctxt "#15110"
 msgid "Larger font size"
@@ -10779,7 +10792,8 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Dateinamen durch Bibliothekseinträge ersetzen"
 
-#. Settings -> PVR -> Playback -> Switch to fullscreen value
+#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20420"
 msgid "Never"
 msgstr "Nie"
@@ -10788,6 +10802,8 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Wenn es nur eine Staffel gibt"
 
+#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Immer"
@@ -14837,6 +14853,12 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "Beim Start"
 
+# empty strings from id 36051 to 36097
+#. Label of setting "System / Display / Use 10 bit for SDR"
+msgctxt "#36098"
+msgid "Use 10 bit for SDR"
+msgstr "10 bit für HDR verwenden"
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Dithering"
@@ -16779,6 +16801,11 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Auflösung für die 3D Lookup Table. Verwenden einer niedrigeren Auflösung für eine schnelle Vorschau und einer höheren Auflösung für ein genaueres Bild. Bei Verwendung einer hohen Auflösung kann es unter Umständen Sekunden dauern, bis die Vorbereitung abgeschlossen ist, wenn Parameter geändert werden oder ein neues Video gestartet wird."
 
+#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
+msgctxt "#36578"
+msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+msgstr "Verbessert die Videoqualität für Standard Dynamic Range (SDR) durch Verwendung von 10-bit Video-Oberflächen.[CR][Auto-Erkennung]Aktiviert 10 bit für SDR nur, wenn der angeschlossene Bildschirm HDR unterstützt.[CR][Immer]Aktiviert 10 bit für SDR auch, wenn der angeschlossene Bildschirm kein HDR unterstützt.[CR][Nie]10 bit für SDR wird nicht verwendet.[CR]Der HDR-Passthrough-Modus benutzt 10 bit, unabhängig von dieser Einstellung."
+
 #. primaries labels
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -17287,6 +17314,25 @@ msgstr "Kapitelvorschaubilder zur Darstellung im Kapitel- / Lesezeichendialog ex
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
+
+msgctxt "#37047"
+msgid "WS-Discovery"
+msgstr "WS-Discovery"
+
+#. Setting #37048 Enable WS-Discovery Service"
+msgctxt "#37048"
+msgid "Enable WS-Discovery Service"
+msgstr "WS-Discovery-Service aktivieren"
+
+#. Description of setting #37048 Enable WS-Discovery Service"
+msgctxt "#37049"
+msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+msgstr "Service zum Suchen von SMB-Services mit dem WS-Discovery-Protokoll aktivieren"
+
+#. Label for component level debug logging setting
+msgctxt "#37050"
+msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+msgstr "Ausführliche Protokollierung der [B]WS-Discovery[/B]-Komponente"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"

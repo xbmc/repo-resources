@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-23 20:14+0000\n"
-"Last-Translator: Dis90 <suominen90@gmail.com>\n"
+"PO-Revision-Date: 2021-07-31 18:46+0000\n"
+"Last-Translator: Tommi Raulahti <traulahti@gmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
 "MIME-Version: 1.0\n"
@@ -325,7 +325,7 @@ msgstr "Muuttuja"
 
 msgctxt "#98"
 msgid "View: Auto"
-msgstr "Näkymä: Autom."
+msgstr "Näkymä: Automaattinen"
 
 msgctxt "#99"
 msgid "View: Auto big"
@@ -993,7 +993,7 @@ msgstr "Tallenna"
 
 msgctxt "#265"
 msgid "Stop Rec."
-msgstr "Pysäytä tallennus"
+msgstr "Pysäytä tallennus."
 
 msgctxt "#266"
 msgid "Sort by: Track"
@@ -1231,7 +1231,7 @@ msgstr "Puhdistetaan lajityyppejä, rooleja ym..."
 
 msgctxt "#323"
 msgid "Error cleaning genres, roles etc."
-msgstr "Virhe lajityyppien, roolien ym. puhdistuksessa"
+msgstr "Virhe lajityyppien, roolien ym. puhdistuksessa."
 
 msgctxt "#324"
 msgid "Cleaning paths..."
@@ -1622,7 +1622,7 @@ msgstr "Ladataan pienoiskuvaa..."
 
 msgctxt "#417"
 msgid "View: Big icons"
-msgstr "Näkymä: Suuret kuvak."
+msgstr "Näkymä: Suuret kuvakkeet"
 
 msgctxt "#418"
 msgid "Low"
@@ -1670,7 +1670,7 @@ msgstr "Aseta oikea CD/DVD-levy"
 
 msgctxt "#429"
 msgid "Please insert the following disc:"
-msgstr "Aseta seuraava CD/DVD-levy"
+msgstr "Aseta seuraava CD/DVD-levy:"
 
 msgctxt "#430"
 msgid "Sort by: DVD#"
@@ -2072,7 +2072,7 @@ msgstr "Suuri lista"
 
 msgctxt "#538"
 msgid "Big icons"
-msgstr "Suuret kuvak."
+msgstr "Suuret kuvakkeet"
 
 msgctxt "#539"
 msgid "Wide"
@@ -2528,7 +2528,7 @@ msgstr "Valitse vientikansio"
 
 msgctxt "#662"
 msgid "This file is no longer available."
-msgstr "Valittu tiedosto ei ole enää saatavilla"
+msgstr "Valittu tiedosto ei ole enää saatavilla."
 
 msgctxt "#663"
 msgid "Would you like to remove it from the library?"
@@ -2552,7 +2552,7 @@ msgstr "Käytä Dolby Digital (AC3) -muunnosta"
 
 msgctxt "#668"
 msgid "Specify component-specific logging..."
-msgstr "Valitse komponentit"
+msgstr "Määritä komponenttikohtainen kirjaus..."
 
 msgctxt "#669"
 msgid "Verbose logging for the [B]SMB[/B] library"
@@ -3254,11 +3254,11 @@ msgstr "Anna käyttäjätunnus"
 
 msgctxt "#1021"
 msgid "Enter the paths or browse for the media locations."
-msgstr "Tiedostopolku:"
+msgstr "Tiedostopolku."
 
 msgctxt "#1022"
 msgid "Enter a name for this media source."
-msgstr "Medialähteen nimi"
+msgstr "Syötä tämän medialähteen nimi."
 
 msgctxt "#1023"
 msgid "Browse for new share"
@@ -3987,11 +3987,11 @@ msgstr "Katso lokitiedostosta lisätietoja tästä viestistä."
 # empty strings from id 2105 to 2202
 msgctxt "#2203"
 msgid "Use DTS Core"
-msgstr ""
+msgstr "Käytä DTS Corea"
 
 msgctxt "#2204"
 msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr ""
+msgstr "Valitse tämä vaihtoehto, jos haluat siirtää DTS-HD-muodot DTS:ksi, muuten DTS-HD-muodot toistetaan PCM:n kautta"
 
 msgctxt "#10000"
 msgid "Home"
@@ -4618,6 +4618,17 @@ msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Jatka kohdasta {0:s}"
 
+# empty strings from id 12023 to 12307
+#. Label of the show password button in the keyboard dialog
+msgctxt "#12308"
+msgid "Show password"
+msgstr ""
+
+#. Label of the hide password button in the keyboard dialog
+msgctxt "#12309"
+msgid "Hide password"
+msgstr ""
+
 msgctxt "#12310"
 msgid "0"
 msgstr "0"
@@ -4688,7 +4699,7 @@ msgstr "Anna avauskoodi"
 
 msgctxt "#12329"
 msgid "or press \"C\" to cancel"
-msgstr "tai paina \"C\" peruaksesi."
+msgstr "tai paina \"C\" peruaksesi"
 
 msgctxt "#12330"
 msgid "Enter gamepad button combo and"
@@ -5621,7 +5632,7 @@ msgstr "Tälle visualisoinnille ei ole esiasetuksia"
 
 msgctxt "#13390"
 msgid "There are no settings available[CR]for this visualisation"
-msgstr "Tälle visualisoinnille[CR]ei ole asetuksia."
+msgstr "Tälle visualisoinnille[CR]ei ole asetuksia"
 
 msgctxt "#13391"
 msgid "Eject / Load"
@@ -5713,7 +5724,7 @@ msgstr "Toista tästä kohdasta"
 
 msgctxt "#13413"
 msgid "Downloading"
-msgstr "Ladataan..."
+msgstr "Ladataan"
 
 msgctxt "#13414"
 msgid "Show song and album artists"
@@ -5723,6 +5734,8 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Renderöintimenetelmä"
 
+#. Value for setting with label #13415 "Player / Videos / Render method"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Automaattinen tunnistus"
@@ -5981,7 +5994,7 @@ msgstr "Äänen virekorjauksen kynnys"
 
 msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
-msgstr "Virekorjausta käytetään, kun videon nopeusmuutos ylittää asetetun kynnysarvon. Virekorjauksella vältetään videon nopeuttamisesta aiheutuvat \"tikutaku\"-äänet."
+msgstr "Virekorjausta käytetään, kun videon nopeusmuutos ylittää asetetun kynnysarvon. Virekorjauksella vältetään videon nopeuttamisesta aiheutuvat \"tikutaku\"-äänet"
 
 msgctxt "#13519"
 msgid "Embedded art"
@@ -6088,7 +6101,7 @@ msgstr "Apple Remote-kauko-ohjain virhe"
 
 msgctxt "#13621"
 msgid "Apple Remote support couldn't be enabled."
-msgstr "Apple Remote -kaukosäätimen tuen käyttöönotto epäonnistui"
+msgstr "Apple Remote -kaukosäätimen tuen käyttöönotto epäonnistui."
 
 msgctxt "#14000"
 msgid "Stack"
@@ -7090,7 +7103,7 @@ msgstr "Kirjastosta ei löytynyt sopivia kappaleita."
 
 msgctxt "#16032"
 msgid "Couldn't initialise database."
-msgstr "Tietokantaa ei voida alustaa"
+msgstr "Tietokantaa ei voida alustaa."
 
 msgctxt "#16033"
 msgid "Couldn't open database."
@@ -7249,7 +7262,7 @@ msgstr "Sinc (ohjelmallinen)"
 
 msgctxt "#16310"
 msgid "Temporal"
-msgstr "Temporal"
+msgstr "Väliaikainen"
 
 msgctxt "#16311"
 msgid "Temporal / Spatial"
@@ -8022,7 +8035,7 @@ msgstr "Kanava ei ole saatavilla"
 #. channel group manager dialog error message box text
 msgctxt "#19137"
 msgid "No groups defined. Please create a group first"
-msgstr "Kanavaryhmiä ei ole määritelty. Luo ensin uusi kanavaryhmä."
+msgstr "Kanavaryhmiä ei ole määritelty. Luo ensin uusi kanavaryhmä"
 
 #. Label of timer rules tv/radio home submenu item
 msgctxt "#19138"
@@ -8332,7 +8345,7 @@ msgstr "Kanavien hallinta"
 
 msgctxt "#19200"
 msgid "Guide source:"
-msgstr "Ohjelmatietojen lähde"
+msgstr "Ohjelmatietojen lähde:"
 
 msgctxt "#19201"
 msgid "Channel name:"
@@ -8340,7 +8353,7 @@ msgstr "Kanavan nimi:"
 
 msgctxt "#19202"
 msgid "Channel icon:"
-msgstr "Kanavalogo"
+msgstr "Kanavalogo:"
 
 #. used by several skins
 msgctxt "#19203"
@@ -8358,7 +8371,7 @@ msgstr "Ryhmien hallinta"
 
 msgctxt "#19206"
 msgid "Activate guide:"
-msgstr "Näytä ohjelmatiedot"
+msgstr "Näytä ohjelmatiedot:"
 
 #. used by several skins
 msgctxt "#19207"
@@ -8661,7 +8674,7 @@ msgstr "Lapsilukko käytössä"
 
 msgctxt "#19267"
 msgid "Parental locked:"
-msgstr "Lapsilukittu kanava"
+msgstr "Lapsilukittu kanava:"
 
 #. pvr settings 'hide no info available labels' setting label. Instead of displaying "no information available" text (for example in epg grid for time spans without epg data), show nothing
 msgctxt "#19268"
@@ -8986,12 +8999,12 @@ msgstr "(Kanava vaihtuu automaattisesti muistutuksen sulkeutuessa...)"
 #. text for event log entry for logging auto channel switch for auto-closed reminders
 msgctxt "#19332"
 msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Ohjelman nimi: '{0:s}', kanava '{1:s}' aika '{2:s}'."
+msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Ohjelman nimi: '{0:s}', kanava '{1:s}' aika '{2:s}'"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Kanavan nimi: '{0:s}', aika '{1:s}'."
+msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Kanavan nimi: '{0:s}', aika '{1:s}'"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -9912,7 +9925,7 @@ msgstr "Noudetaan ohjelman tiedot"
 
 msgctxt "#20121"
 msgid "Party on!"
-msgstr "Musiikin soitto alkaa"
+msgstr "Musiikin soitto alkaa!"
 
 msgctxt "#20122"
 msgid "True"
@@ -9932,7 +9945,7 @@ msgstr "Kirjautuneena:"
 
 msgctxt "#20126"
 msgid "Log off"
-msgstr "Kirjaudu ulos:"
+msgstr "Kirjaudu ulos"
 
 msgctxt "#20129"
 msgid "Weave"
@@ -10136,7 +10149,7 @@ msgstr "Vaihto"
 
 msgctxt "#20179"
 msgid "Caps Lock"
-msgstr "Vaihto luk."
+msgstr "Caps Lock"
 
 msgctxt "#20180"
 msgid "Symbols"
@@ -10779,7 +10792,8 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Korvaa tiedostojen nimet kirjaston sisältämillä nimillä"
 
-#. Settings -> PVR -> Playback -> Switch to fullscreen value
+#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20420"
 msgid "Never"
 msgstr "Ei koskaan"
@@ -10788,6 +10802,8 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Jos samalta kaudelta"
 
+#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Aina"
@@ -11446,7 +11462,7 @@ msgstr "Internetyhteys vaaditaan."
 
 msgctxt "#21452"
 msgid "Get more..."
-msgstr "Nouda lisää"
+msgstr "Nouda lisää..."
 
 msgctxt "#21453"
 msgid "Root filesystem"
@@ -12636,7 +12652,7 @@ msgstr "Näytä \"closed captions\"-tekstitykset"
 
 msgctxt "#24131"
 msgid "Enable to parse for CC in video stream. Puts slightly more load on the CPU"
-msgstr "Etsii videosta \"closed captions\"-muodossa olevia tekstityksiä. Tämä lisää prossessorikuormitusta."
+msgstr "Etsii videosta \"closed captions\"-muodossa olevia tekstityksiä. Tämä lisää prossessorikuormitusta"
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -12739,15 +12755,15 @@ msgstr "Lisäosa ei ole yhteensopiva tämän Kodi-version kanssa."
 
 msgctxt "#24153"
 msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
-msgstr "Jos asetus on käytössä, Siri-kaukosäädin toimii normaaliin Apple tvOS -tapaan."
+msgstr "Jos asetus on käytössä, Siri-kaukosäädin toimii normaaliin Apple tvOS -tapaan"
 
 msgctxt "#24154"
 msgid "Consider Siri remote in idle state after N seconds"
-msgstr ""
+msgstr "Harkitse Sirin kaukosäädintä lepotilassa N sekunnin kuluttua"
 
 msgctxt "#24155"
 msgid "Time to wait before considering the Siri remote in idle state"
-msgstr ""
+msgstr "Odotusaika ennenkuin pidetään Sirin kaukosäädintä lepotilassa"
 
 msgctxt "#24156"
 msgid "30 Seconds"
@@ -12767,11 +12783,11 @@ msgstr "120 sekuntia"
 
 msgctxt "#24160"
 msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr ""
+msgstr "Ohita Siri-kaukosäätimen ensimmäinen napautus/pyyhkäisy/panorointi jonkin aikaa käyttämättömyyden jälkeen"
 
 msgctxt "#24161"
 msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr ""
+msgstr "Tämä estää sinua vahingossa napauttamasta/pyyhkäisemästä/panoroimasta, kun otat kaukosäätimen käteesi"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
@@ -12902,7 +12918,7 @@ msgstr "Piilota epäviralliset"
 
 msgctxt "#25002"
 msgid "Select from all titles ..."
-msgstr "Valitse kaikista otsakkeista"
+msgstr "Valitse kaikista otsakkeista..."
 
 #. A Blu-ray playback mode and a option in the simplified Blu-ray menu
 msgctxt "#25003"
@@ -13367,7 +13383,7 @@ msgstr "Nosta äänenvoimakkuutta liikennetiedotteen saapuessa"
 #. Help text of boolean on/off value
 msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
-msgstr "Nostaa äänenvoimakkuutta, RDS lähettää liikennetiedotteen."
+msgstr "Nostaa äänenvoimakkuutta, RDS lähettää liikennetiedotteen"
 
 #. Node title for music artist role, plural of #38036
 msgctxt "#29987"
@@ -13495,7 +13511,7 @@ msgstr "Sademäärä"
 
 msgctxt "#33022"
 msgid "Precip"
-msgstr "Sadem."
+msgstr "Sademäärä"
 
 msgctxt "#33023"
 msgid "Humid"
@@ -13515,7 +13531,7 @@ msgstr "Poikkeama normaalista"
 
 msgctxt "#33027"
 msgid "Sunrise"
-msgstr "Aurinko nous."
+msgstr "Aurinko nousee"
 
 msgctxt "#33028"
 msgid "Sunset"
@@ -13692,7 +13708,7 @@ msgstr "Automaattinen sisäänkirjautuminen"
 
 msgctxt "#33100"
 msgid "Failed to start"
-msgstr "Käynnistys epäonnistui:"
+msgstr "Käynnistys epäonnistui"
 
 msgctxt "#33101"
 msgid "Web server"
@@ -13748,15 +13764,15 @@ msgstr "Windows media audio 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
 msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
+msgstr "Kun sinun tarvitsee syöttää jotain tekstiä, Kodin virtuaalinäppäimistö tulee esiin sisäänrakennetun tvOS näppäimistön sijaan"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
+msgstr "Siri kaukosäätimen vaaka eleen herkkyys"
 
 msgctxt "#34010"
 msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
+msgstr "Siri kaukosäätimen pysty eleen herkkyys"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -13930,7 +13946,7 @@ msgstr "Videon renderöintitapa"
 
 msgctxt "#34401"
 msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
-msgstr "Videosuodattimien/skaalainten käynnistys epäonnistui. Bilineaarinen skaalaus otettu käyttöön."
+msgstr "Videosuodattimien/skaalainten käynnistys epäonnistui. Bilineaarinen skaalaus otettu käyttöön"
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
@@ -13942,7 +13958,7 @@ msgstr "Tarkista ääniasetukset"
 
 msgctxt "#34404"
 msgid "Use gestures for navigation:"
-msgstr "Käytä eleitä navigoinnissa"
+msgstr "Käytä eleitä navigoinnissa:"
 
 msgctxt "#34405"
 msgid "One finger swipe left,right,up,down for cursors"
@@ -13958,7 +13974,7 @@ msgstr "1:n sormen näpäytys Enter"
 
 msgctxt "#34408"
 msgid "Two finger single tap or one finger long press for contextmenu"
-msgstr "Avaa sisältövalikko kahden sormen näpäytyksellä tai yhden sormen pitkällä painalluksella."
+msgstr "Avaa sisältövalikko kahden sormen näpäytyksellä tai yhden sormen pitkällä painalluksella"
 
 msgctxt "#35000"
 msgid "Peripherals"
@@ -14595,7 +14611,7 @@ msgstr "Tallentaa pelitilanteen automaattisesti, jos peli tukee sitä. Voit jatk
 #. Error message when a game client fails to install when a game is being launched
 msgctxt "#35256"
 msgid "Failed to install add-on."
-msgstr "Lisäosan asentaminen epäonnistui"
+msgstr "Lisäosan asentaminen epäonnistui."
 
 #. Label on installed emulators in the emulator selection dialog
 msgctxt "#35257"
@@ -14837,6 +14853,12 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "Toiston alkaessa"
 
+# empty strings from id 36051 to 36097
+#. Label of setting "System / Display / Use 10 bit for SDR"
+msgctxt "#36098"
+msgid "Use 10 bit for SDR"
+msgstr ""
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Värin koostaminen"
@@ -14928,7 +14950,7 @@ msgstr "Valitse käyttöliittymän tekstien kirjasintyyppi. Tällä ei ole vaiku
 #. Description of setting with label #14079 "Timezone country"
 msgctxt "#36117"
 msgid "Select country location."
-msgstr "Valitse maan sijainti"
+msgstr "Valitse maan sijainti."
 
 #. Description of setting with label #14080 "Timezone"
 msgctxt "#36118"
@@ -15165,7 +15187,7 @@ msgstr "Vaihda näytön virkistystaajuutta videon virkistystaajuuden mukaiseksi 
 #. Description of setting with label #13550 "Delay after change of refresh rate"
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "Laittaa videon tauolle määritetyksi ajaksi virkistystaajuutta vaihdettaessa."
+msgstr "Laittaa videon tauolle määritetyksi ajaksi virkistystaajuutta vaihdettaessa"
 
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
@@ -15200,7 +15222,7 @@ msgstr "Valitse mitä tehdään, kun 4:3-kuvasuhteen videota katsotaan laajakuva
 #. Description of setting with label #13430 "Allow hardware acceleration - PRIME"
 msgctxt "#36172"
 msgid "Enable PRIME decoding of video files"
-msgstr "Käytä PRIME-laitteistopurkua videotiedostoihin."
+msgstr "Käytä PRIME-laitteistopurkua videotiedostoihin"
 
 #. Description of setting with label #14109 "Short date format"
 msgctxt "#36173"
@@ -15215,7 +15237,7 @@ msgstr "Näyttää teksti-tv:n tv-lähetyksiä katsottaessa."
 #. Description of setting with label #23055 "Scale Teletext to 4:3"
 msgctxt "#36175"
 msgid "Scale teletext to 4:3 ratio."
-msgstr "Skaalaa teksti-tv 4:3-kuvasuhteeseen"
+msgstr "Skaalaa teksti-tv 4:3-kuvasuhteeseen."
 
 #. Description of settings category with label #14081 "File lists"
 msgctxt "#36176"
@@ -15387,7 +15409,7 @@ msgstr "Näyttää kanavan ohjelmatiedot kanavavaihdon yhteydessä."
 
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
-msgstr "Avaa kanavaryhmien hallinnan, jonka avulla voi muokata kanavaryhmiä ja niihin kuuluvia kanavia."
+msgstr "Avaa kanavaryhmien hallinnan, jonka avulla voi muokata kanavaryhmiä ja niihin kuuluvia kanavia"
 
 msgctxt "#36214"
 msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
@@ -15475,7 +15497,7 @@ msgstr "Tämä kategoria sisältää tallennuksiin liittyvät asetukset."
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
-msgstr "Tallennuspainikkeesta asetettujen pikatallennusten kesto. Tätä arvoa käytetään, jos \"Pikatallennuksen toiminto\"-asetuksena käytetään \"Tallenna tietty aika\"."
+msgstr "Tallennuspainikkeesta asetettujen pikatallennusten kesto. Tätä arvoa käytetään, jos \"Pikatallennuksen toiminto\"-asetuksena käytetään \"Tallenna tietty aika\""
 
 msgctxt "#36235"
 msgid "Close the on screen display controls after switching channels."
@@ -15818,7 +15840,7 @@ msgstr "Luo kuvien pienoiskuvat automaattisesti, kun siirrytään kuvakansioon."
 #. Description of setting with label #20472 "Show all performers for music videos"
 msgctxt "#36308"
 msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
-msgstr "Kun käytössä, näyttää kaikki esittäjät musiikkivideoiden artistilistalla pelkän pääesittäjän sijasta."
+msgstr "Kun käytössä, näyttää kaikki esittäjät musiikkivideoiden artistilistalla pelkän pääesittäjän sijasta"
 
 #. Description of setting with label #22022 "Show video files in listings"
 msgctxt "#36309"
@@ -15998,7 +16020,7 @@ msgstr "Voit vastaanottaa AirPlay-yhteensopivien laitteiden ja sovellusten sisä
 #. Description of setting with label #1272 "Use password protection"
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
-msgstr "Käytä AirPlayn salasanasuojausta"
+msgstr "Käytä AirPlayn salasanasuojausta."
 
 #. Description of setting with label #733 "Password"
 msgctxt "#36345"
@@ -16105,7 +16127,7 @@ msgstr "Valitse tämä, jos vahvistimesi pystyy purkamaan DTS-sisältöä."
 
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
-msgstr "Valitse käytössäolevien äänikanavien/kaiuttimien enimmäismäärä. Optista ääniliitäntää käytettäessä asetuksen on oltava 2.0."
+msgstr "Valitse käytössäolevien äänikanavien/kaiuttimien enimmäismäärä. Optista ääniliitäntää käytettäessä asetuksen on oltava 2.0"
 
 #. Description of setting with label #348 "Enable passthrough"
 msgctxt "#36368"
@@ -16145,7 +16167,7 @@ msgstr "Tämä kategoria sisältää ohjauslaitteisiin liittyvät asetukset."
 #. Description of setting with label #35000 "Peripherals"
 msgctxt "#36375"
 msgid "Configure any attached peripheral devices."
-msgstr "Muokkaa liitettyjen oheislaitteiden asetuksia"
+msgstr "Muokkaa liitettyjen oheislaitteiden asetuksia."
 
 #. Description of setting with label #21449 "Remote control sends keyboard presses"
 msgctxt "#36376"
@@ -16275,7 +16297,7 @@ msgstr "Käytä välimuistia videon, audion tai DVD:n toistoon kiintolevyltä."
 #. Description of settings category with label #14026 "Video cache - DVD-ROM"
 msgctxt "#36401"
 msgid "Enable cache for playback of video from DVD-ROM."
-msgstr "Käytä välimuistia videoiden toistoon DVD-ROM:ilta:"
+msgstr "Käytä välimuistia videoiden toistoon DVD-ROM:ilta."
 
 #. Description of settings category with label #14027 "Video cache - Local Network"
 msgctxt "#36402"
@@ -16290,7 +16312,7 @@ msgstr "Käytä välimuistia videoiden toistoon internetistä."
 #. Description of settings category with label #14030 "Audio cache - DVD-ROM"
 msgctxt "#36404"
 msgid "Enable cache for playback of audio from DVD-ROM."
-msgstr "Käytä välimuistia äänen toistoon DVD-ROM:ilta:"
+msgstr "Käytä välimuistia äänen toistoon DVD-ROM:ilta."
 
 #. Description of settings category with label #14031 "Audio cache - Local Network"
 msgctxt "#36405"
@@ -16305,7 +16327,7 @@ msgstr "Käytä välimuistia äänen toistoon internetistä."
 #. Description of setting with label #14034 "DVD cache - DVD-ROM"
 msgctxt "#36407"
 msgid "Enable cache for playback of DVD from DVD-ROM."
-msgstr "Käytä välimuistia äänen toistoon DVD-ROM:ilta:"
+msgstr "Käytä välimuistia äänen toistoon DVD-ROM:ilta."
 
 #. Description of setting with label #14037 "DVD cache - Local Network"
 msgctxt "#36408"
@@ -16452,7 +16474,7 @@ msgstr "Aseta äänenvoimakkuussäätimen käyttämä asteikko."
 #. Description of setting with label #14126 "Whitelist"
 msgctxt "#36443"
 msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
-msgstr "Valkoisella listalla määritetään mitä näyttötiloja sovellus saa ja ei saa käyttää."
+msgstr "Valkoisella listalla määritetään mitä näyttötiloja sovellus saa ja ei saa käyttää"
 
 #. Description of setting with label #14127 "Whitelist"
 msgctxt "#36444"
@@ -16778,6 +16800,11 @@ msgstr "Hakutaulukon koko"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Valitse 3D-hakutaulukon resoluutio. Käytä matalaa resoluutiota nopeaa esikatselua varten ja korkeaa resoluutiota tarkempaa kuvaa varten. Korkean resoluution käyttäminen vie enemmän aikaa, kun parametrejä muutetaaan tai videotoisto aloitetaan."
+
+#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
+msgctxt "#36578"
+msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+msgstr ""
 
 #. primaries labels
 msgctxt "#36579"
@@ -17232,7 +17259,7 @@ msgstr "Suosi näkörajoitteisten ääniraitaa"
 #. Description of setting #37034 Accessibility
 msgctxt "#37035"
 msgid "Prefer the audio stream for the visually impaired to other audio streams of the same language"
-msgstr "Suosi näkörajoitteisten ääniraitaa tavallisen samankielisen ääniraidan sijasta."
+msgstr "Suosi näkörajoitteisten ääniraitaa tavallisen samankielisen ääniraidan sijasta"
 
 #. Setting #37036 Settings -> Video -> Accessibility
 msgctxt "#37036"
@@ -17242,7 +17269,7 @@ msgstr "Suosi kuulorajoitteisten ääniraitaa"
 #. Description of setting #37036 Accessibility
 msgctxt "#37037"
 msgid "Prefer the audio stream for the hearing impaired to other audio streams of the same language"
-msgstr "Suosi kuulorajoitteisten ääniraitaa tavallisen samankielisen ääniraidan sijasta."
+msgstr "Suosi kuulorajoitteisten ääniraitaa tavallisen samankielisen ääniraidan sijasta"
 
 #. Setting #37038 Accessibility
 msgctxt "#37038"
@@ -17252,7 +17279,7 @@ msgstr "Suosi kuulorajoitteisten tekstityksiä"
 #. Description of setting #37038 Accessibility
 msgctxt "#37039"
 msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
-msgstr "Suosi kuulorajoitteisten tekstitysraitaa tavallisen samankielisen tekstitysraidan sijasta."
+msgstr "Suosi kuulorajoitteisten tekstitysraitaa tavallisen samankielisen tekstitysraidan sijasta"
 
 #. Setting #37040 Playback
 msgctxt "#37040"
@@ -17287,6 +17314,25 @@ msgstr "Luo kappaleiden pienoiskuvat kappaleet/kirjanmerkit-valikkoa varten. Tä
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
+
+msgctxt "#37047"
+msgid "WS-Discovery"
+msgstr ""
+
+#. Setting #37048 Enable WS-Discovery Service"
+msgctxt "#37048"
+msgid "Enable WS-Discovery Service"
+msgstr ""
+
+#. Description of setting #37048 Enable WS-Discovery Service"
+msgctxt "#37049"
+msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+msgstr ""
+
+#. Label for component level debug logging setting
+msgctxt "#37050"
+msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+msgstr ""
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -17437,7 +17483,7 @@ msgstr "Musiikkirjaston täytyy etsiä tageja tiedostoista. Haluatko etsiä niit
 #. Extra scraping question on upgrade from previous version
 msgctxt "#38061"
 msgid "Fetch additional information for albums and artists? This could take some time so you may prefer to do this later"
-msgstr "Noudetaanko albumien ja esittäjien lisätietoja? Siinä voi mennä kauan aikaa, joten saatat haluta tehdä sen myöhemmin."
+msgstr "Noudetaanko albumien ja esittäjien lisätietoja? Siinä voi mennä kauan aikaa, joten saatat haluta tehdä sen myöhemmin"
 
 #. Full tag scanning question on library update (by default tags are only scanned when the file has changed since last time)
 msgctxt "#38062"
@@ -17541,12 +17587,12 @@ msgstr "Tämä kategoria sisältää mediatoiston asetukset"
 #. Description of section #14201 "Media"
 msgctxt "#38101"
 msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
-msgstr "Osio sisältää medialähteiden asetukset sekä mediatietojen keräämiseen, tallentamiseen ja esittämiseen liittyvät asetukset."
+msgstr "Osio sisältää medialähteiden asetukset sekä mediatietojen keräämiseen, tallentamiseen ja esittämiseen liittyvät asetukset"
 
 #. Description of section #14203 "Customise"
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
-msgstr "Tämä kategoria sisältää käyttöliittymän ja sen ohjaamiseen liittyvät asetukset."
+msgstr "Tämä kategoria sisältää käyttöliittymän ja sen ohjaamiseen liittyvät asetukset"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38103"
@@ -17556,37 +17602,37 @@ msgstr "Tämä kategoria sisältää videotoiston asetukset"
 #. Description of category #14211 "Music"
 msgctxt "#38104"
 msgid "This category contains the settings for the playback of music"
-msgstr "Tämä kategoria sisältää musiikkitoistoon liittyvät asetukset."
+msgstr "Tämä kategoria sisältää musiikkitoistoon liittyvät asetukset"
 
 #. Description of category #14212 "Pictures"
 msgctxt "#38105"
 msgid "This category contains the settings for playback of pictures via a slideshow"
-msgstr "Tämä kategoria sisältää sisältää kuvaesitykseen liittyvät asetukset."
+msgstr "Tämä kategoria sisältää kuvaesitykseen liittyvät asetukset"
 
 #. Description of category #14213 "Language"
 msgctxt "#38106"
 msgid "This category contains the settings for audio & subtitle language"
-msgstr "Tämä kategoria sisältää ääni- ja tekstitysasetukset."
+msgstr "Tämä kategoria sisältää ääni- ja tekstitysasetukset"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38107"
 msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
-msgstr "Tämä kategoria sisältää videotietojen keräämiseen, säilyttämiseen, näyttämiseen ja selaamiseen liittyvät asetukset."
+msgstr "Tämä kategoria sisältää videotietojen keräämiseen, säilyttämiseen, näyttämiseen ja selaamiseen liittyvät asetukset"
 
 #. Description of category #14211 "Music"
 msgctxt "#38108"
 msgid "This category contains the settings for how information for music is collected, stored, shown, and navigated"
-msgstr "Tämä kategoria sisältää musiikkitietojen keräämiseen, säilyttämiseen, näyttämiseen ja selaamiseen liittyvät asetukset."
+msgstr "Tämä kategoria sisältää musiikkitietojen keräämiseen, säilyttämiseen, näyttämiseen ja selaamiseen liittyvät asetukset"
 
 #. Description of category #14212 "Pictures"
 msgctxt "#38109"
 msgid "This category contains the settings for how information for pictures is shown and navigated"
-msgstr "Tämä kategoria sisältää kuvatietojen näyttämiseen ja selaamiseen liittyvät asetukset."
+msgstr "Tämä kategoria sisältää kuvatietojen näyttämiseen ja selaamiseen liittyvät asetukset"
 
 #. Description of category #14215 "Databases"
 msgctxt "#38110"
 msgid "This category contains the settings for the library databases"
-msgstr "Tämä kategoria sisältää mediatietokantoihin liittyvät asetukset."
+msgstr "Tämä kategoria sisältää mediatietokantoihin liittyvät asetukset"
 
 #. Description of category #14224 "Other"
 msgctxt "#38111"
@@ -17701,7 +17747,7 @@ msgstr "Vie"
 #. Message when adding music source and setting #20223 is empty
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
-msgstr "Onko sinulla paikallisia esittäjätietoja (NFO) ja kuvatiedostoja, joita haluat käyttää? Määritä näiden tietojen sijainti nyt."
+msgstr "Onko sinulla paikallisia esittäjätietoja (NFO) ja kuvatiedostoja, joita haluat käyttää? Määritä näiden tietojen sijainti nyt"
 
 #. Kind of export output, see #38304
 msgctxt "#38321"
@@ -17806,7 +17852,7 @@ msgstr "Xml-tiedoston lukeminen epäonnistui"
 #. Description of category "Library" with label #14202
 msgctxt "#39004"
 msgid "This category provides access to the windows for source management and library management facilities"
-msgstr "Tämä kategoria sisältää medialähteisiin ja mediakirjastoihin liittyvät asetukset."
+msgstr "Tämä kategoria sisältää medialähteisiin ja mediakirjastoihin liittyvät asetukset"
 
 #. Description of setting "Videos... with label #14242
 msgctxt "#39005"
@@ -18066,7 +18112,7 @@ msgstr "Esittäjille sallittut mediakuvitukset"
 #. Description of setting with label #39131 "Artist art types whitelist"
 msgctxt "#39132"
 msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Määritä mitä kuvatyyppejä sovellus hakee esittäjille."
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee esittäjille"
 
 msgctxt "#39133"
 msgid "Album art types whitelist"
@@ -18075,7 +18121,7 @@ msgstr "Albumeille sallittut mediakuvitukset"
 #. Description of setting with label #39133 "Album art types whitelist"
 msgctxt "#39134"
 msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Määritä mitä kuvatyyppejä sovellus hakee levyille."
+msgstr "Määritä mitä kuvatyyppejä sovellus hakee levyille"
 
 msgctxt "#39135"
 msgid "Thumbnail image files"
@@ -18084,7 +18130,7 @@ msgstr "Pienoiskuvatiedostot"
 #. Description of setting with label #39135 "Thumbnail image files"
 msgctxt "#39136"
 msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
-msgstr "Tiedostonimet, joita kuvitustiedostot käyttävät. Kansioilla, esittäjillä, levyillä ja kappaleilla on omat kuva- ja tiedostotyyppinsä."
+msgstr "Tiedostonimet, joita kuvitustiedostot käyttävät. Kansioilla, esittäjillä, levyillä ja kappaleilla on omat kuva- ja tiedostotyyppinsä"
 
 msgctxt "#39137"
 msgid "Artwork level"
@@ -18093,7 +18139,7 @@ msgstr "Mediakuvituksen taso"
 #. Description of setting with label #39137 "Artwork level"
 msgctxt "#39138"
 msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
-msgstr "Automaattisesti valitun kuvituksen määrä - [Maksimi] kaikki paikalliset ja kuvapalveluiden kuvat; [Perus] säästää tilaa hitailla laitteilla tai yksinkertaisilla ulkoasuilla; [Mukautus] käyttäjän itse määrittelemät asetukset; [Ei käytössä] ei kuvitusta."
+msgstr "Automaattisesti valitun kuvituksen määrä - [Maksimi] kaikki paikalliset ja kuvapalveluiden kuvat; [Perus] säästää tilaa hitailla laitteilla tai yksinkertaisilla ulkoasuilla; [Mukautus] käyttäjän itse määrittelemät asetukset; [Ei käytössä] ei kuvitusta"
 
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39140"
@@ -18117,7 +18163,7 @@ msgstr "Elokuville sallitut mediakuvitukset"
 #. Description of setting with label #39150 "Movie art types whitelist"
 msgctxt "#39144"
 msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Määritä mitä kuvatyyppejä sovellus hakee elokuville ja elokuvaryhmille."
+msgstr "Rajoita paikallisesti haetun tai etätuloksista käytetyn elokuvan ja elokuvasarjan kuvitus vain sallittujen luettelossa oleviin"
 
 msgctxt "#39145"
 msgid "TV show art types whitelist"
@@ -18126,7 +18172,7 @@ msgstr "Sarjoille sallitut mediakuvitukset"
 #. Description of setting with label #39152 "TV show art types whitelist"
 msgctxt "#39146"
 msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Määritä mitä kuvatyyppejä sovellus hakee sarjoille ja tuotantokausille."
+msgstr "Rajoita paikallisesti haettujen tai etätuloksista käytettyjen TV-ohjelmien ja kauden kuvamateriaalien vain sallittujen luettelossa oleviin"
 
 msgctxt "#39147"
 msgid "Episode art types whitelist"
@@ -18135,7 +18181,7 @@ msgstr "Jaksoille sallitut mediakuvitukset"
 #. Description of setting with label #39154 "Episode art types whitelist"
 msgctxt "#39148"
 msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Määritä mitä kuvatyyppejä sovellus hakee jaksoille."
+msgstr "Rajoita paikallisesti haettujen tai etätuloksista käytettyjen jaksojen kuvitus tuloksista vain sallittujen luettelossa olevat"
 
 msgctxt "#39149"
 msgid "Music video art types whitelist"
@@ -18144,7 +18190,7 @@ msgstr "Musiikkivideoille sallitut mediakuvitukset"
 #. Description of setting with label #39156 "Music video art types whitelist"
 msgctxt "#39150"
 msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Määritä mitä kuvatyyppejä sovellus hakee musiikkivideoille."
+msgstr "Rajoita paikallisesti haettujen tai etätuloksista käytettyjen musiikkivideoiden kuvitus tuloksista vain sallittujen luettelossa olevat"
 
 #. Display Hardware scaling filter setting toggle
 msgctxt "#39151"
@@ -18154,7 +18200,7 @@ msgstr "Näytä laitteistopohjaisen skaalauksen suodatin"
 #. Description
 msgctxt "#39152"
 msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
-msgstr "Kokonaislukuskaalaus (IS) on lähin viereinen (NN) -tyyppinen ylösskaalaustekniikka, jota Display Engine käyttää."
+msgstr "Kokonaislukuskaalaus (IS) on lähin viereinen (NN) -tyyppinen ylösskaalaustekniikka, jota Display Engine käyttää"
 
 msgctxt "#39153"
 msgid "Windowing system:"

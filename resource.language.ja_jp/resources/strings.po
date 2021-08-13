@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-17 21:28+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-08-13 08:00+0000\n"
+"Last-Translator: yohru <yohru7@gmail.com>\n"
 "Language-Team: Japanese <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ja_jp/>\n"
 "Language: ja_jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4618,6 +4618,17 @@ msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "{0:s} から再開"
 
+# empty strings from id 12023 to 12307
+#. Label of the show password button in the keyboard dialog
+msgctxt "#12308"
+msgid "Show password"
+msgstr "パスワードを表示"
+
+#. Label of the hide password button in the keyboard dialog
+msgctxt "#12309"
+msgid "Hide password"
+msgstr "パスワードを隠す"
+
 msgctxt "#12310"
 msgid "0"
 msgstr "0"
@@ -5723,6 +5734,8 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "レンダリング方法"
 
+#. Value for setting with label #13415 "Player / Videos / Render method"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "自動検出"
@@ -6056,7 +6069,7 @@ msgstr "Apple Remote"
 
 msgctxt "#13601"
 msgid "Apple TV"
-msgstr ""
+msgstr "Apple TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -10780,7 +10793,8 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "ファイル名をライブラリのタイトルに置き換える"
 
-#. Settings -> PVR -> Playback -> Switch to fullscreen value
+#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20420"
 msgid "Never"
 msgstr "使用しない"
@@ -10789,6 +10803,8 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "1シーズンのみの場合"
 
+#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "常時"
@@ -14838,6 +14854,12 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "起動時に"
 
+# empty strings from id 36051 to 36097
+#. Label of setting "System / Display / Use 10 bit for SDR"
+msgctxt "#36098"
+msgid "Use 10 bit for SDR"
+msgstr ""
+
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "ディザリング"
@@ -16780,6 +16802,11 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "3Dルックアップテーブルの解像度を指定する。クイックプレビューには低解像度を使用し、より正確な画像には高解像度を使用。高解像度を使用すると、パラメータが変更されたときや新しいビデオが開始されたときの準備で数秒かかることがあります。"
 
+#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
+msgctxt "#36578"
+msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+msgstr ""
+
 #. primaries labels
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -17288,6 +17315,25 @@ msgstr "チャプター / ブックマークダイアログの表現用にチャ
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
+
+msgctxt "#37047"
+msgid "WS-Discovery"
+msgstr ""
+
+#. Setting #37048 Enable WS-Discovery Service"
+msgctxt "#37048"
+msgid "Enable WS-Discovery Service"
+msgstr ""
+
+#. Description of setting #37048 Enable WS-Discovery Service"
+msgctxt "#37049"
+msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+msgstr ""
+
+#. Label for component level debug logging setting
+msgctxt "#37050"
+msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+msgstr ""
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
