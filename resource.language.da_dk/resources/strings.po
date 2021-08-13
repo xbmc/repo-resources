@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-23 20:14+0000\n"
+"PO-Revision-Date: 2021-08-13 08:00+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -3969,7 +3969,7 @@ msgstr "Gik tilbage til overordnet liste, da den aktive liste er blevet tømt"
 
 msgctxt "#2101"
 msgid "Newer version needed. Check the log for more information about this message."
-msgstr "Nyere version påkrævet. Se log-filen for detaljer om denne besked."
+msgstr "Nyere version påkrævet. Se logfilen for flere detaljer."
 
 #. Notification message indicating an add-on error. "<Add-on name> error".
 msgctxt "#2102"
@@ -3984,7 +3984,7 @@ msgstr "Fejl i add-on"
 #. Used for add-on error kaitoast.
 msgctxt "#2104"
 msgid "Check the log for more information."
-msgstr "Se log-filen for mere information."
+msgstr "Se logfilen for mere information."
 
 # empty strings from id 2105 to 2202
 msgctxt "#2203"
@@ -4620,6 +4620,17 @@ msgstr "Afspil fra start"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Genoptag fra {0:s}"
+
+# empty strings from id 12023 to 12307
+#. Label of the show password button in the keyboard dialog
+msgctxt "#12308"
+msgid "Show password"
+msgstr "Vis adgangskode"
+
+#. Label of the hide password button in the keyboard dialog
+msgctxt "#12309"
+msgid "Hide password"
+msgstr "Skjul adgangskode"
 
 msgctxt "#12310"
 msgid "0"
@@ -5726,6 +5737,8 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Renderingsmetode"
 
+#. Value for setting with label #13415 "Player / Videos / Render method"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Find automatisk"
@@ -7072,7 +7085,7 @@ msgstr "Fejl ved afspilning"
 
 msgctxt "#16027"
 msgid "One or more items failed to play. Check the log for more information about this message."
-msgstr "Afspilningen af én eller flere elementer mislykkedes. Check loggen for detaljer om denne besked."
+msgstr "Afspilningen af en eller flere elementer mislykkedes. Se logfilen for flere detaljer."
 
 msgctxt "#16028"
 msgid "Enter value"
@@ -7081,7 +7094,7 @@ msgstr "Indtast værdi"
 #. PVR error messages dialog text.
 msgctxt "#16029"
 msgid "Check the log for more information about this message."
-msgstr "Check loggen for detaljer om denne besked."
+msgstr "Se logfilen for detaljer om denne besked."
 
 msgctxt "#16030"
 msgid "Party mode aborted."
@@ -7172,7 +7185,7 @@ msgstr "Kopiering mislykkedes"
 
 msgctxt "#16202"
 msgid "Failed to copy at least one file. Check the log for more information about this message."
-msgstr "Kopieringen af mindst én fil mislykkedes. Check loggen for detaljer om denne besked."
+msgstr "Kopieringen af mindst én fil mislykkedes. Se logfilen for flere detaljer."
 
 msgctxt "#16203"
 msgid "Move failed"
@@ -7180,7 +7193,7 @@ msgstr "Flytning mislykkedes"
 
 msgctxt "#16204"
 msgid "Failed to move at least one file. Check the log for more information about this message."
-msgstr "Flytningen af mindst én fil mislykkedes. Check loggen for detaljer om denne besked."
+msgstr "Flytningen af mindst én fil mislykkedes. Se logfilen for flere detaljer."
 
 msgctxt "#16205"
 msgid "Delete failed"
@@ -7188,7 +7201,7 @@ msgstr "Sletning mislykkedes"
 
 msgctxt "#16206"
 msgid "Failed to delete at least one file. Check the log for more information about this message."
-msgstr "Sletningen af mindst én fil mislykkedes. Check loggen for detaljer om denne besked."
+msgstr "Sletningen af mindst én fil mislykkedes. Se logfilen for flere detaljer."
 
 #. Name of the video filter that uses jagged pixels without smoothing
 msgctxt "#16296"
@@ -7203,7 +7216,7 @@ msgstr "Jævn"
 #. Description of the video filter that uses jagged pixels without smoothing
 msgctxt "#16298"
 msgid "Shows the game's pixels without any modifications."
-msgstr "Viser spilets pixels uden ændringer."
+msgstr "Viser spillets pixels uden ændringer."
 
 #. Description of the video filter that smooths pixels to remove jagged edges
 msgctxt "#16299"
@@ -7256,11 +7269,11 @@ msgstr "Midlertidig"
 
 msgctxt "#16311"
 msgid "Temporal / Spatial"
-msgstr "Midlertidig/Rumlig"
+msgstr "Midlertidig/rumlig"
 
 msgctxt "#16312"
 msgid "VDPAU - Noise reduction"
-msgstr "VDPAU - Støjreducerende"
+msgstr "VDPAU - Støjreducering"
 
 msgctxt "#16313"
 msgid "VDPAU - Sharpness"
@@ -7284,7 +7297,7 @@ msgstr "Midlertidig (halv)"
 
 msgctxt "#16318"
 msgid "Temporal / Spatial (half)"
-msgstr "Midlertidig/Rumlig (halv)"
+msgstr "Midlertidig/rumlig (halv)"
 
 msgctxt "#16319"
 msgid "DXVA"
@@ -7308,7 +7321,7 @@ msgstr "Spline36 - Optimeret"
 
 msgctxt "#16324"
 msgid "Software - Blend"
-msgstr "Software - Blend"
+msgstr "Software - Bland"
 
 msgctxt "#16325"
 msgid "VDPAU - Bob"
@@ -7376,7 +7389,7 @@ msgstr "Skift til kanal"
 
 msgctxt "#19001"
 msgid "Separate the search words by using AND, OR and / or NOT."
-msgstr "Adskil søgeordene ved at bruge 'AND', 'OR' og '/' eller 'NOT'."
+msgstr "Adskil søgeordene ved at bruge 'AND', 'OR' og/eller 'NOT'."
 
 msgctxt "#19002"
 msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
@@ -7485,7 +7498,7 @@ msgstr "Skjult"
 #. generic label for 'Live TV channels' used in different places
 msgctxt "#19023"
 msgid "TV channels"
-msgstr "TV-kanaler"
+msgstr "Tv-kanaler"
 
 #. generic label for pvr-provided 'Radio channels' used in different places
 msgctxt "#19024"
@@ -7545,12 +7558,12 @@ msgstr "Der er allerede indstillet en timer for denne begivenhed"
 #. message box text stating that a pvr channel could not be played.
 msgctxt "#19035"
 msgid "{0:s} can't be played. Check the log for more information about this message."
-msgstr "{0:s} kan ikke afspilles. Se logfilen for mere information omkring denne besked."
+msgstr "{0:s} kan ikke afspilles. Se logfilen for flere detaljer."
 
 #. message box text stating that a recording could not be played.
 msgctxt "#19036"
 msgid "This recording can't be played. Check the log for more information about this message."
-msgstr "Optagelse kunne ikke afspilles. Check loggen for detaljer om denne besked."
+msgstr "Optagelse kunne ikke afspilles. Se logfilen for flere detaljer."
 
 #. pvr settings "show signal quality" label
 msgctxt "#19037"
@@ -7578,11 +7591,11 @@ msgstr "Optagelse"
 
 msgctxt "#19044"
 msgid "Please check your configuration. Check the log for more information about this message."
-msgstr "Check indstillingerne. Check loggen for detaljer om denne besked."
+msgstr "Check indstillingerne. Se logfilen for flere detaljer."
 
 msgctxt "#19045"
 msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
-msgstr "Ingen PVR-klienter er startet endnu. Afvent at PVR-klienterne starter eller se loggen for detaljer."
+msgstr "Ingen PVR-klienter er startet endnu. Afvent at PVR-klienterne starter. Se logfilen for flere detaljer."
 
 msgctxt "#19046"
 msgid "New channel"
@@ -7712,7 +7725,7 @@ msgstr "Opdateringsinterval"
 #. Dialog warning text for invalid timer setting
 msgctxt "#19072"
 msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
-msgstr ""
+msgstr "For at tilføje/opdatere en timer skal slutdato og -tid være senere end startdato og -tid."
 
 #. pvr settings "delay channel switch" setting label
 msgctxt "#19073"
@@ -7746,7 +7759,7 @@ msgstr "Kanal"
 #. Label of days of week button in PVR timer settings dialog
 msgctxt "#19079"
 msgid "Days of week"
-msgstr "Dage i ugen"
+msgstr "Ugedage"
 
 #. used by several skins
 msgctxt "#19080"
@@ -7896,17 +7909,17 @@ msgstr "Fald tilbage til billedfrekvens"
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
 msgid "Could not save the timer. Check the log for more information about this message."
-msgstr "Kunne ikke gemme timeren. Check loggen for detaljer om denne besked."
+msgstr "Kunne ikke gemme timeren. Se logfilen for flere detaljer."
 
 #. message box text stating that a timer could not be deleted
 msgctxt "#19110"
 msgid "Could not delete the timer. Check the log for more information about this message."
-msgstr "Kunne ikke slette timeren. Check loggen for detaljer om denne besked."
+msgstr "Kunne ikke slette timeren. Se logfilen for flere detaljer."
 
 #. message box text stating that a PVR backend error occurred
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
-msgstr "PVR backend fejl. Check loggen for detaljer om denne besked."
+msgstr "PVR backend fejl. Se logfilen for flere detaljer."
 
 #. delete recordings confirmation message box text
 msgctxt "#19112"
@@ -8000,7 +8013,7 @@ msgstr "Minimum varighed"
 
 msgctxt "#19131"
 msgid "Maximum duration"
-msgstr "Maksimum varighed"
+msgstr "Maksimal varighed"
 
 msgctxt "#19132"
 msgid "Include unknown genres"
@@ -8072,7 +8085,7 @@ msgstr "Grupper"
 #. Dialog warning text for lifetime recording setting
 msgctxt "#19147"
 msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
-msgstr "Indstilling af levetiden for denne optagelse til {0:d} dage, vil straks få optagelsen til at ophøre. Dette kan resultere i øjeblikkelig sletning af optagelsen. Vil du alligevel fortsætte?"
+msgstr "Indstilling af levetiden for denne optagelse til {0:d} dage vil straks få optagelsen til at ophøre. Dette kan resultere i øjeblikkelig sletning af optagelsen. Vil du alligevel fortsætte?"
 
 #. generic PVR 'channel' label used in different places
 msgctxt "#19148"
@@ -8155,7 +8168,7 @@ msgstr "Optagelser"
 #. error box text stating that recording could not be started
 msgctxt "#19164"
 msgid "Could not start recording. Check the log for more information about this message."
-msgstr "Kunne ikke starte optagelsen. Check loggen for detaljer om denne besked."
+msgstr "Kunne ikke starte optagelsen. Se logfilen for flere detaljer."
 
 #. Label for "switch to channel" button""
 msgctxt "#19165"
@@ -8175,7 +8188,7 @@ msgstr "Skan efter manglende ikoner"
 #. label for PVR number of deleted recordings in system information's PVR section
 msgctxt "#19168"
 msgid "Deleted and recoverable recordings"
-msgstr "Slettede og optagelser, der kan gendannes"
+msgstr "Slettede og genoprettelige optagelser"
 
 #. unused?
 msgctxt "#19169"
@@ -8185,7 +8198,7 @@ msgstr "Skjul infoboks til video"
 #. error box text stating that recording could not be stopped
 msgctxt "#19170"
 msgid "Could not stop recording. Check the log for more information about this message."
-msgstr "Kunne ikke stoppe optagelsen. Check loggen for detaljer om denne besked."
+msgstr "Kunne ikke stoppe optagelsen. Se logfilen for flere detaljer."
 
 #. pvr settings "start playback full screen" setting label
 msgctxt "#19171"
@@ -8210,12 +8223,12 @@ msgstr "Radiokanalgrupper"
 #. pvr settings "default time to add before the start of an event to record (according to its epg data)" setting label
 msgctxt "#19175"
 msgid "Default start padding time"
-msgstr "Standard starttidspunkt"
+msgstr "Standard omkringliggende tid fra start"
 
 #. pvr settings "default time to add after the end of an event to record (according to epg its data)" setting label
 msgctxt "#19176"
 msgid "Default end padding time"
-msgstr "\tStandard sluttidspunkt"
+msgstr "Standard omkringliggende tid fra slut"
 
 #. pvr settings category and group label
 msgctxt "#19177"
@@ -8301,7 +8314,7 @@ msgstr "Ingen af de tilsluttede PVR backend's understøtter skanning af kanaler.
 #. error message box text stating that a given pvr channel could not be played
 msgctxt "#19193"
 msgid "The channel scan can't be started. Check the log for more information about this message."
-msgstr "Kanalskanningen kunne ikke startes. Check loggen for detaljer om denne besked."
+msgstr "Kanalskanningen kunne ikke startes. Se logfilen for flere detaljer."
 
 #. unused?
 msgctxt "#19194"
@@ -8645,7 +8658,7 @@ msgstr "Forældrekontrol. Indtast PIN:"
 #. message box text stating that a timer could not be updated
 msgctxt "#19263"
 msgid "Could not update the timer. Check the log for more information about this message."
-msgstr "Kunne ikke optatere timeren. Check loggen for detaljer om denne besked."
+msgstr "Kunne ikke optatere timeren. Se logfilen for flere detaljer."
 
 #. label for 'incorrect pin' error dialog header
 msgctxt "#19264"
@@ -8689,12 +8702,12 @@ msgstr "Ingen PVR-add-ons kunne findes"
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
 msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Det kræver en TV-tuner, backend soft og en add-on for at backenden kan bruges til PVR. Se venligst http://kodi.wiki/view/PVR for mere info."
+msgstr "Det kræver en TV-tuner, backend software og en add-on for at backenden kan bruges til PVR. Se venligst http://kodi.wiki/view/PVR for mere info."
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
 msgid "TV guide"
-msgstr "TV guide"
+msgstr "Tv-guide"
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19274"
@@ -8854,37 +8867,37 @@ msgstr "Se regel for timeroptagelse"
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19305"
 msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "Slettet glippet PVR-påmindelse for '{0:s}' på kanalen '{1:s}' ved '{2:s}'"
 
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19306"
 msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
+msgstr "Slettet glippet PVR-påmindelse for kanal '{0:s}' ved '{1:s}'"
 
 #. text for reminder announcement dialog
 msgctxt "#19307"
 msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
-msgstr ""
+msgstr "Påmindelse for [B]{0:s}[/B] på kanal [B]{1:s}[/B] ved [B]{2:s}[/B]."
 
 #. text for reminder announcement dialog
 msgctxt "#19308"
 msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
-msgstr ""
+msgstr "Påmindelse for kanal [B]{0:s}[/B] ved [B]{1:s}[/B]."
 
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19309"
 msgid "(Auto-close of this reminder will schedule a recording...)"
-msgstr ""
+msgstr "(Automatisk lukning af denne påmindelse vil planlægge en optagelse...)"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19310"
 msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "Planlagt optagelse til automatisk lukket PVR-påmindelse for '{0:s}' på kanalen '{1:s}' ved '{2:s}'"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19311"
 msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
+msgstr "Planlagt optagelse til automatisk lukket PVR-påmindelse for kanalen '{0:s}' ved '{1:s}'"
 
 #. heading for pvr reminder notification dialog
 msgctxt "#19312"
@@ -8899,7 +8912,7 @@ msgstr "Luk automatisk påmindelser efter"
 #. pvr settings "schedule recording on reminder auto-close" setting label
 msgctxt "#19314"
 msgid "Schedule recording when auto-closing the reminder popup"
-msgstr ""
+msgstr "Planlæg optagelse når dialogen med påmindelse automatisk lukkes"
 
 #. generic 'backend order' label
 msgctxt "#19315"
@@ -8909,7 +8922,7 @@ msgstr "Rækkefølge for backend"
 #. pvr settings "Start all group channel numbers from 1" setting label
 msgctxt "#19316"
 msgid "Start group channel numbers from 1"
-msgstr ""
+msgstr "Start kanalnumre for grupper fra 1"
 
 #. Label for epg grid window "Jump 12 hours back" context menu entry and epg grid controls dialog help text
 msgctxt "#19317"
@@ -8924,7 +8937,7 @@ msgstr "12 timer frem"
 #. Label for epg grid window "Activate previous channel group" context menu entry and epg grid controls dialog help text
 msgctxt "#19319"
 msgid "Previous group"
-msgstr "Tidligere gruppe"
+msgstr "Forrige gruppe"
 
 #. Label for epg grid window "Activate next channel group" context menu entry and epg grid controls dialog help text
 msgctxt "#19320"
@@ -8944,7 +8957,7 @@ msgstr "Første kanal"
 #. Label for epg grid window "Jump to playing channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19323"
 msgid "Playing channel"
-msgstr "Afspillende kanal"
+msgstr "Afspillede kanal"
 
 #. Label for epg grid window "Jump to last channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19324"
@@ -8974,27 +8987,27 @@ msgstr "Slet alle sete optagelser i denne mappe?"
 #. label for PVR settings use backend channel numbers always
 msgctxt "#19329"
 msgid "Allow backend channel numbers with more than one PVR add-on"
-msgstr ""
+msgstr "Tillad backend-kanalnumre med mere end et PVR-add-on"
 
 #. pvr settings "switch to channel on reminder auto-close" setting label
 msgctxt "#19330"
 msgid "Switch to channel when auto-closing the reminder popup"
-msgstr ""
+msgstr "Skift til kanal, når dialogen med påmindelse automatisk lukkes"
 
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19331"
 msgid "(Auto-close of this reminder will switch to channel...)"
-msgstr ""
+msgstr "(Automatisk lukning af denne påmindelse skifter til kanal...)"
 
 #. text for event log entry for logging auto channel switch for auto-closed reminders
 msgctxt "#19332"
 msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "Skiftede til kanal for automatisk lukket PVR-påmindelse for '{0:s}' på kanal '{1:s}' ved '{2:s}'"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
+msgstr "Skiftede til kanal for automatisk lukket PVR-påmindelse for kanal '{0:s}' ved '{1:s}'"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -9074,12 +9087,12 @@ msgstr "Diskussion / Interview / Debat"
 #. label for "show/game show" epg subgenre value
 msgctxt "#19532"
 msgid "Show / Game show"
-msgstr "Show / TV-quiz"
+msgstr "Show / Game show"
 
 #. label for "show/game show" epg subgenre value
 msgctxt "#19533"
 msgid "Game show / Quiz / Contest"
-msgstr "TV-quiz / Quiz / Konkurrence"
+msgstr "Game show / Quiz / Konkurrence"
 
 #. label for "show/game show" epg subgenre value
 msgctxt "#19534"
@@ -9458,7 +9471,7 @@ msgstr "Afspil optagelse"
 #. Text for shutdown confirmation dialog
 msgctxt "#19690"
 msgid "PVR has scheduled a reminder for '{0:s}' on channel '{1:s}' in {2:s}."
-msgstr ""
+msgstr "PVR har planlagt en påmindelse for '{0:s}' på kanalen '{1:s}' i {2:s}."
 
 #. Text for shutdown confirmation dialog.
 msgctxt "#19691"
@@ -9552,7 +9565,7 @@ msgstr "Nuværende miniaturebillede"
 
 msgctxt "#20017"
 msgid "Local thumb"
-msgstr "Lokalt miniaturebilede"
+msgstr "Lokalt miniaturebillede"
 
 msgctxt "#20018"
 msgid "No thumb"
@@ -9643,7 +9656,7 @@ msgstr "Opret profilen '{0:s}'?"
 
 msgctxt "#20048"
 msgid "Start with fresh settings or copy from default?"
-msgstr "Start med nye indstillinger eller benyt standard indstillingerne?"
+msgstr "Start med nye indstillinger eller benyt standardindstillingerne?"
 
 msgctxt "#20049"
 msgid "Best available"
@@ -9836,7 +9849,7 @@ msgstr "Henter albuminformationer"
 
 msgctxt "#20098"
 msgid "Fetching information for album"
-msgstr "Henter informationer for albummet"
+msgstr "Henter informationer om albummet"
 
 msgctxt "#20099"
 msgid "A CD or track can't be ripped while being played"
@@ -9944,7 +9957,7 @@ msgstr "Flet"
 
 msgctxt "#20130"
 msgid "Weave - Inverted"
-msgstr "Weave - inverteret"
+msgstr "Flet - inverteret"
 
 msgctxt "#20131"
 msgid "Blend"
@@ -9996,11 +10009,11 @@ msgstr "Brugernavn"
 
 msgctxt "#20143"
 msgid "Enter password for"
-msgstr "Indtast adganskode til"
+msgstr "Indtast adgangskode til"
 
 msgctxt "#20144"
 msgid "Shutdown timer"
-msgstr "Sluk nedtælling"
+msgstr "Timer til nedlukning"
 
 msgctxt "#20145"
 msgid "Shutdown interval (in minutes)"
@@ -10024,11 +10037,11 @@ msgstr "Luk ned om 120 minutter"
 
 msgctxt "#20150"
 msgid "Custom shutdown timer"
-msgstr "Tilpasset sluk nedtælling"
+msgstr "Brugerdefineret timer til nedlukning"
 
 msgctxt "#20151"
 msgid "Cancel shutdown timer"
-msgstr "Annuller sluk nedtælling"
+msgstr "Annuller timer til nedlukning"
 
 msgctxt "#20152"
 msgid "Lock preferences for {0:s}"
@@ -10092,7 +10105,7 @@ msgstr "Låst"
 
 msgctxt "#20167"
 msgid "Frozen"
-msgstr "Sidder fast"
+msgstr "Fastfrosset"
 
 msgctxt "#20168"
 msgid "Requires reset"
@@ -10164,7 +10177,7 @@ msgstr "Brug plakatvisning til tv-serier"
 
 msgctxt "#20186"
 msgid "Please wait"
-msgstr "Vent et øjeblik"
+msgstr "Vent venligst"
 
 msgctxt "#20187"
 msgid "UPnP / DLNA"
@@ -10172,7 +10185,7 @@ msgstr "UPnP / DLNA"
 
 msgctxt "#20188"
 msgid "Announce library updates"
-msgstr "Announcer biblioteksopdateringer"
+msgstr "Meddel biblioteksopdateringer"
 
 msgctxt "#20189"
 msgid "Enable auto scrolling for plot & review"
@@ -10184,7 +10197,7 @@ msgstr "Brugerdefineret"
 
 msgctxt "#20191"
 msgid "Enable debug logging"
-msgstr "Aktiver fejlfindingslogning"
+msgstr "Aktiver fejlfindingslogføring"
 
 msgctxt "#20192"
 msgid "Fetch additional information during updates"
@@ -10192,11 +10205,11 @@ msgstr "Hent yderligere informationer når der opdateres"
 
 msgctxt "#20193"
 msgid "Default provider for album information"
-msgstr "Standardleverandør for albuminformation"
+msgstr "Standardleverandør til albuminformation"
 
 msgctxt "#20194"
 msgid "Default provider for artist information"
-msgstr "Standardleverandør for kunstnerinformation"
+msgstr "Standardleverandør til kunstnerinformation"
 
 msgctxt "#20195"
 msgid "Change information provider"
@@ -10783,7 +10796,8 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Erstat filnavne med bibliotekets titler"
 
-#. Settings -> PVR -> Playback -> Switch to fullscreen value
+#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20420"
 msgid "Never"
 msgstr "Aldrig"
@@ -10792,6 +10806,8 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Hvis kun én sæson"
 
+#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
+#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Altid"
@@ -11002,7 +11018,7 @@ msgstr "Vis tomme tv-serier"
 
 msgctxt "#20472"
 msgid "Show all performers for music videos"
-msgstr ""
+msgstr "Vis alle performere for musikvideoen"
 
 msgctxt "#20473"
 msgid "Premiered"
@@ -12785,7 +12801,7 @@ msgstr "Benyt Kodi virtuelt tastatur"
 #. Header text for yes/no dialog about enable of broken addon
 msgctxt "#24164"
 msgid "Addon \"{0:s}\" broken"
-msgstr ""
+msgstr "Add-onen \"{0:s}\" is istykker"
 
 #. Yes/no dialog text with addon broken string value and to ask for use
 msgctxt "#24165"
@@ -13755,7 +13771,7 @@ msgstr "Windows media audio 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
 msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
+msgstr "Kodi's virtuelle tastetur anvendes istedet for tvOS's når der skrives tekst"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
@@ -13900,7 +13916,7 @@ msgstr "Kan ikke finde tidligere emne at afspille"
 #. Manual HDR toggle (ACTION_HDR_TOGGLE) - HDR On/Off toast caption
 msgctxt "#34220"
 msgid "HDR status"
-msgstr ""
+msgstr "HDR status"
 
 #. Manual HDR toggle (ACTION_HDR_TOGGLE) - HDR Off toast message
 msgctxt "#34221"
@@ -13915,7 +13931,7 @@ msgstr "Til"
 # empty string with id 34223
 msgctxt "#34224"
 msgid "Tone mapping method"
-msgstr ""
+msgstr "Tone mapping metode"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -13923,7 +13939,7 @@ msgstr "Kunne ikke starte Zeroconf"
 
 msgctxt "#34301"
 msgid "Is Apple's Bonjour service installed? Check the log for more information about this message."
-msgstr "Er Apple's Bonjour-tjeneste installeret? Se loggen for detaljer om denne besked."
+msgstr "Er Apple's Bonjour-tjeneste installeret? Se logfilen for flere detaljer."
 
 msgctxt "#34302"
 msgid "Failed to start AirPlay as it requires Zeroconf to be enabled."
@@ -14153,12 +14169,12 @@ msgstr "Par dine controllere med de forskellige input enheder i forskellige spil
 #. Label for buttons that appear on a racing wheel for games. Used in the controller mapping dialog.
 msgctxt "#35071"
 msgid "Racing wheel"
-msgstr ""
+msgstr "Racer rat"
 
 #. Label for paddle buttons that appear on a racing wheel for games. Used in the controller mapping dialog.
 msgctxt "#35072"
 msgid "Paddles"
-msgstr ""
+msgstr "Pedaler"
 
 #. Label for buttons that appear on a joystick for games. Used in the controller mapping dialog.
 msgctxt "#35073"
@@ -14848,6 +14864,12 @@ msgstr ""
 msgctxt "#36050"
 msgid "On start"
 msgstr "Ved start"
+
+# empty strings from id 36051 to 36097
+#. Label of setting "System / Display / Use 10 bit for SDR"
+msgctxt "#36098"
+msgid "Use 10 bit for SDR"
+msgstr "Anvend 10 bit for SDR"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -16791,6 +16813,11 @@ msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr ""
 
+#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
+msgctxt "#36578"
+msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+msgstr ""
+
 #. primaries labels
 msgctxt "#36579"
 msgid "UHDTV (BT.2020)"
@@ -17300,6 +17327,25 @@ msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
 
+msgctxt "#37047"
+msgid "WS-Discovery"
+msgstr ""
+
+#. Setting #37048 Enable WS-Discovery Service"
+msgctxt "#37048"
+msgid "Enable WS-Discovery Service"
+msgstr ""
+
+#. Description of setting #37048 Enable WS-Discovery Service"
+msgctxt "#37049"
+msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+msgstr ""
+
+#. Label for component level debug logging setting
+msgctxt "#37050"
+msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+msgstr ""
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -17513,27 +17559,27 @@ msgstr "Vil du opdatere oplysninger for dette element nu?"
 
 msgctxt "#38074"
 msgid "Boxsets"
-msgstr ""
+msgstr "Bokssæt"
 
 msgctxt "#38075"
 msgid "* All discs"
-msgstr ""
+msgstr "* Alle diske"
 
 msgctxt "#38076"
 msgid "Disc title"
-msgstr ""
+msgstr "Disk title"
 
 msgctxt "#38077"
 msgid "Total discs"
-msgstr ""
+msgstr "Total diske"
 
 msgctxt "#38078"
 msgid "Original year"
-msgstr ""
+msgstr "Original år"
 
 msgctxt "#38079"
 msgid "Original date"
-msgstr ""
+msgstr "Original dato"
 
 #. Music property - Beats Per Minute
 msgctxt "#38080"
@@ -17543,7 +17589,7 @@ msgstr ""
 #. Music property - Album release status
 msgctxt "#38081"
 msgid "Release status"
-msgstr ""
+msgstr "Frigivelses status"
 
 #. Description of section #14200 "Player""
 msgctxt "#38100"
@@ -18025,15 +18071,15 @@ msgstr ""
 #. Label for action to present native iOS sharing sheet
 msgctxt "#39118"
 msgid "Share debug log"
-msgstr ""
+msgstr "Del debug log"
 
 msgctxt "#39119"
 msgid "Last modified"
-msgstr ""
+msgstr "Sidst modificeret"
 
 msgctxt "#39120"
 msgid "Skip filename matching for external audio tracks"
-msgstr ""
+msgstr "Drop at matche filenavn med eksterne lydspor"
 
 #. Label for section of settings controling what is shown on the library windows
 msgctxt "#39121"
@@ -18164,7 +18210,7 @@ msgstr ""
 #. Display Hardware scaling filter setting toggle
 msgctxt "#39151"
 msgid "Display hardware scaling filter"
-msgstr ""
+msgstr "Vis hardwareskalerings filter"
 
 #. Description
 msgctxt "#39152"
