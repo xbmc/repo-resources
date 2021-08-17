@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-08-13 08:00+0000\n"
+"PO-Revision-Date: 2021-08-17 08:58+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -1176,8 +1176,8 @@ msgstr "Sprache der Benutzeroberfläche"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Keyboard layouts"
-msgstr "Tastaturbelegungen"
+msgid "Virtual keyboard layouts"
+msgstr "Virtuelle Tastaturlayouts"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,6 +1591,10 @@ msgstr "Taupunkt"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Luftfeuchtigkeit"
+
+msgctxt "#407"
+msgid "Hardware keyboard layouts"
+msgstr "Hardware-Tastaturlayouts"
 
 msgctxt "#409"
 msgid "Defaults"
@@ -15726,8 +15730,8 @@ msgstr "Autostart, wenn CDs in das Laufwerk eingelegt werden."
 
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
-msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
-msgstr "Audio-CD-Informationen, wie Titel und Interpret, von der Internetdatenbank freedb.org herunterladen."
+msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database gnudb.org."
+msgstr "Audio-CD-Informationen, wie Titel und Interpret, von der Internetdatenbank gnudb.org herunterladen."
 
 #. Description of setting label #20000 "Saved music folder"
 msgctxt "#36285"
@@ -16437,7 +16441,9 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Zeigt für das aktuelle Profil alle Einträge im Ereignis-Protokoll an, mit Option, die Anzeige auf bestimmte Stufen einzuschränken."
 
-#. Description for setting #310: "Keyboard layouts"
+#. Description for setting #310: "Virtual keyboard layouts"
+#. Setting in Interface -> Regional -> Virtual keyboard layouts
+#. Select the layout of a virtual keyboard
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Auswahl virtueller Tastaturbelegungen."
@@ -16451,10 +16457,13 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "Wenn aktiviert, wird zu dem Kanal umgeschaltet, für den ein Erinnerungs-Popup automatisch geschlossen wurde."
 
-#. Description for setting #310: "Keyboard layouts"
+# empty string with id 36435
+#. Description for setting #407: "Hardware keyboard layouts"
+#. Setting in System -> Input -> Hardware keyboard layouts
+#. Select the layout of a physically attached keyboard
 msgctxt "#36436"
-msgid "Select OS keyboard layout."
-msgstr "Tastaturbelegung des Betriebssystems auswählen."
+msgid "Select hardware keyboard layout."
+msgstr "Hardware-Tastaturlayout auswählen."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -17005,7 +17014,7 @@ msgstr "Höchste Protokollversion"
 #. Description of setting with label #36621 "Maximum protocol version"
 msgctxt "#36622"
 msgid "Set the maximum SMB protocol version to negotiate when making connections. Forcing SMBv2 or SMBv1 compatibility may be required with older NAS and Windows shares."
-msgstr "Einstellen der maximalen SMB-Protokollversion für das Aushandeln von Verbindungen. Es kann nötig sein, für Kompatbilität mit älteren NAS oder Windowsfreigaben, SMBv2 oder SMBv1 zu erzwingen."
+msgstr "Einstellen der maximalen SMB-Protokollversion für das Aushandeln von Verbindungen. Es kann nötig sein, für Kompatibilität mit älteren NAS oder Windowsfreigaben, SMBv2 oder SMBv1 zu erzwingen."
 
 #. Values for setting with label #36621 and #36628 "Minimum/Maximum protocol version" - none means "no protocol version is forced"
 msgctxt "#36623"
@@ -18205,6 +18214,18 @@ msgstr "Integer Scaling (IS) ist eine Nearest-Neighbour(NN) Hochskalierungstechn
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "Windowing-System:"
+
+#~ msgctxt "#310"
+#~ msgid "Keyboard layouts"
+#~ msgstr "Tastaturbelegungen"
+
+#~ msgctxt "#36436"
+#~ msgid "Select OS keyboard layout."
+#~ msgstr "Tastaturbelegung des Betriebssystems auswählen."
+
+#~ msgctxt "#36284"
+#~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
+#~ msgstr "Audio-CD-Informationen, wie Titel und Interpret, von der Internetdatenbank freedb.org herunterladen."
 
 #~ msgctxt "#29900"
 #~ msgid "Radiotext Plus info"

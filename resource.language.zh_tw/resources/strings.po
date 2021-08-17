@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-31 18:46+0000\n"
+"PO-Revision-Date: 2021-08-17 08:58+0000\n"
 "Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
@@ -1176,8 +1176,8 @@ msgstr "使用者介面語言"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Keyboard layouts"
-msgstr "鍵盤佈局"
+msgid "Virtual keyboard layouts"
+msgstr "虛擬鍵盤佈局"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,6 +1591,10 @@ msgstr "露點"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "濕度"
+
+msgctxt "#407"
+msgid "Hardware keyboard layouts"
+msgstr "實體鍵盤佈局"
 
 msgctxt "#409"
 msgid "Defaults"
@@ -4624,12 +4628,12 @@ msgstr "從 {0:s} 繼續"
 #. Label of the show password button in the keyboard dialog
 msgctxt "#12308"
 msgid "Show password"
-msgstr ""
+msgstr "顯示密碼"
 
 #. Label of the hide password button in the keyboard dialog
 msgctxt "#12309"
 msgid "Hide password"
-msgstr ""
+msgstr "遮蔽密碼"
 
 msgctxt "#12310"
 msgid "0"
@@ -7280,7 +7284,7 @@ msgstr "VDPAU - 銳化"
 
 msgctxt "#16314"
 msgid "Bicubic (Mitchell)"
-msgstr ""
+msgstr "Bicubic (Mitchell)"
 
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
@@ -7724,7 +7728,7 @@ msgstr "更新間隔"
 #. Dialog warning text for invalid timer setting
 msgctxt "#19072"
 msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
-msgstr ""
+msgstr "若要新增或修改定時器，結束時間必須大於開始時間。"
 
 #. pvr settings "delay channel switch" setting label
 msgctxt "#19073"
@@ -8976,22 +8980,22 @@ msgstr "導覽..."
 #. Label for a context menu entry to delete alle watched recordings contained in a folder
 msgctxt "#19327"
 msgid "Delete watched"
-msgstr ""
+msgstr "刪除已看過的"
 
 #. delete multiple recordings confirmation message box text
 msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
-msgstr ""
+msgstr "刪除此資料夾中已看過的錄像？"
 
 #. label for PVR settings use backend channel numbers always
 msgctxt "#19329"
 msgid "Allow backend channel numbers with more than one PVR add-on"
-msgstr ""
+msgstr "允許多個PVR附加元件提供後端的頻道號碼"
 
 #. pvr settings "switch to channel on reminder auto-close" setting label
 msgctxt "#19330"
 msgid "Switch to channel when auto-closing the reminder popup"
-msgstr ""
+msgstr "自動關閉提醒彈出窗口時切換頻道"
 
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19331"
@@ -15734,8 +15738,8 @@ msgstr "插入 CD 時自動播放。"
 
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
-msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
-msgstr "從網路資料庫freedb.org讀取音樂CD的歌名及演出者名等資料。"
+msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database gnudb.org."
+msgstr ""
 
 #. Description of setting label #20000 "Saved music folder"
 msgctxt "#36285"
@@ -16445,7 +16449,9 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "顯示在目前設定檔所屬事件記錄檔中所有的事件，附加可設定顯示特定層級的選項。"
 
-#. Description for setting #310: "Keyboard layouts"
+#. Description for setting #310: "Virtual keyboard layouts"
+#. Setting in Interface -> Regional -> Virtual keyboard layouts
+#. Select the layout of a virtual keyboard
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "選擇虛擬鍵盤的佈局。"
@@ -16459,10 +16465,13 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr ""
 
-#. Description for setting #310: "Keyboard layouts"
+# empty string with id 36435
+#. Description for setting #407: "Hardware keyboard layouts"
+#. Setting in System -> Input -> Hardware keyboard layouts
+#. Select the layout of a physically attached keyboard
 msgctxt "#36436"
-msgid "Select OS keyboard layout."
-msgstr "選擇作業系統鍵盤佈局。"
+msgid "Select hardware keyboard layout."
+msgstr ""
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -18216,6 +18225,18 @@ msgstr ""
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr ""
+
+#~ msgctxt "#310"
+#~ msgid "Keyboard layouts"
+#~ msgstr "鍵盤佈局"
+
+#~ msgctxt "#36436"
+#~ msgid "Select OS keyboard layout."
+#~ msgstr "選擇作業系統鍵盤佈局。"
+
+#~ msgctxt "#36284"
+#~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
+#~ msgstr "從網路資料庫freedb.org讀取音樂CD的歌名及演出者名等資料。"
 
 #~ msgctxt "#29900"
 #~ msgid "Radiotext Plus info"
