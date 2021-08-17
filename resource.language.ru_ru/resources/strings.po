@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-08-13 08:00+0000\n"
 "Last-Translator: vdkbsd <valexgus@gmail.com>\n"
@@ -1176,8 +1176,8 @@ msgstr "Язык интерфейса"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Keyboard layouts"
-msgstr "Раскладки клавиатуры"
+msgid "Virtual keyboard layouts"
+msgstr ""
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,6 +1591,10 @@ msgstr "Точка росы"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Влажность"
+
+msgctxt "#407"
+msgid "Hardware keyboard layouts"
+msgstr ""
 
 msgctxt "#409"
 msgid "Defaults"
@@ -15735,8 +15739,8 @@ msgstr "Автоматический запуск CD-диска при его в
 
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
-msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
-msgstr "Читать информацию о CD-диске, такие как название композиции и исполнителя, из источника данных в Интернете freedb.org."
+msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database gnudb.org."
+msgstr ""
 
 #. Description of setting label #20000 "Saved music folder"
 msgctxt "#36285"
@@ -16446,7 +16450,9 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Показывает все события в журнале событий для текущего профиля с возможностью выбора показывать только определенные уровни."
 
-#. Description for setting #310: "Keyboard layouts"
+#. Description for setting #310: "Virtual keyboard layouts"
+#. Setting in Interface -> Regional -> Virtual keyboard layouts
+#. Select the layout of a virtual keyboard
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Выбрать раскладки экранной клавиатуры."
@@ -16460,10 +16466,13 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "Если включено – переключение на канал с программой для напоминания при автоматическом закрытии всплывающего окна напоминания."
 
-#. Description for setting #310: "Keyboard layouts"
+# empty string with id 36435
+#. Description for setting #407: "Hardware keyboard layouts"
+#. Setting in System -> Input -> Hardware keyboard layouts
+#. Select the layout of a physically attached keyboard
 msgctxt "#36436"
-msgid "Select OS keyboard layout."
-msgstr "Выбрать раскладку клавиатуры ОС."
+msgid "Select hardware keyboard layout."
+msgstr ""
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -18217,6 +18226,18 @@ msgstr "Целочисленное масштабирование (IS) - это 
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "Оконная система:"
+
+#~ msgctxt "#310"
+#~ msgid "Keyboard layouts"
+#~ msgstr "Раскладки клавиатуры"
+
+#~ msgctxt "#36436"
+#~ msgid "Select OS keyboard layout."
+#~ msgstr "Выбрать раскладку клавиатуры ОС."
+
+#~ msgctxt "#36284"
+#~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
+#~ msgstr "Читать информацию о CD-диске, такие как название композиции и исполнителя, из источника данных в Интернете freedb.org."
 
 #~ msgctxt "#29900"
 #~ msgid "Radiotext Plus info"

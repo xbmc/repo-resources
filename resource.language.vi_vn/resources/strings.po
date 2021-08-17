@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-08-13 08:00+0000\n"
+"PO-Revision-Date: 2021-08-17 08:58+0000\n"
 "Last-Translator: Nguyễn Trung Hậu <trunghau1712@gmail.com>\n"
 "Language-Team: Vietnamese <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/vi_vn/>\n"
 "Language: vi_vn\n"
@@ -1152,7 +1152,7 @@ msgstr "Ngôn ngữ"
 #. Label of timers state in PVR timer/timer rule window
 msgctxt "#305"
 msgid "Enabled"
-msgstr "Đã bật"
+msgstr "Bật"
 
 msgctxt "#306"
 msgid "Non-interleaved"
@@ -1176,8 +1176,8 @@ msgstr "Ngôn ngữ giao diện"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Keyboard layouts"
-msgstr "Sơ đồ bàn phím"
+msgid "Virtual keyboard layouts"
+msgstr "Bố cục bàn phím ảo"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,6 +1591,10 @@ msgstr "Điểm sương"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Độ ẩm"
+
+msgctxt "#407"
+msgid "Hardware keyboard layouts"
+msgstr "Bố cục bàn phím phần cứng"
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3809,7 +3813,7 @@ msgstr "Trung bình"
 #. Weather token
 msgctxt "#1421"
 msgid "Very high"
-msgstr ""
+msgstr "Rất cao"
 
 #. Weather token
 msgctxt "#1422"
@@ -5380,7 +5384,7 @@ msgstr "Hiển thị các mục trong thư mục cha"
 
 msgctxt "#13307"
 msgid "Track naming template"
-msgstr "Mẫu đặt tên track"
+msgstr "Mẫu đặt tên bài hát"
 
 msgctxt "#13308"
 msgid "Do you wish to reboot your system instead of just this application?"
@@ -8742,7 +8746,7 @@ msgstr "Lỗi ghi"
 #. pvr settings 'client specific' category label.
 msgctxt "#19279"
 msgid "Client specific"
-msgstr "Chuyên biệt cho máy khách"
+msgstr "Máy khách chuyên biệt"
 
 #. pvr client specific settings 'client specific settings' action control label.
 msgctxt "#19280"
@@ -15768,8 +15772,8 @@ msgstr "Tự động chạy đĩa CD khi đưa vào ổ đĩa."
 
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
-msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
-msgstr "Đọc thông tin thuộc về CD âm thanh, như tên bài hát và nghệ sĩ, từ cơ sở dữ liệu internet freedb.org."
+msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database gnudb.org."
+msgstr ""
 
 #. Description of setting label #20000 "Saved music folder"
 msgctxt "#36285"
@@ -16479,7 +16483,9 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Hiển thị tất cả sự kiện trong nhật ký sự kiện cho cấu hình hiện tại với các tùy chọn chỉ hiển thị các mức cụ thể."
 
-#. Description for setting #310: "Keyboard layouts"
+#. Description for setting #310: "Virtual keyboard layouts"
+#. Setting in Interface -> Regional -> Virtual keyboard layouts
+#. Select the layout of a virtual keyboard
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Chọn bố trí bàn phím ảo."
@@ -16493,10 +16499,13 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr ""
 
-#. Description for setting #310: "Keyboard layouts"
+# empty string with id 36435
+#. Description for setting #407: "Hardware keyboard layouts"
+#. Setting in System -> Input -> Hardware keyboard layouts
+#. Select the layout of a physically attached keyboard
 msgctxt "#36436"
-msgid "Select OS keyboard layout."
-msgstr "Chọn bố trí bàn phím."
+msgid "Select hardware keyboard layout."
+msgstr ""
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -18003,7 +18012,7 @@ msgstr "Tên ngắn"
 #. Text for yes/no dialog when silently uninstalling an addon
 msgctxt "#39028"
 msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
-msgstr ""
+msgstr "Tiện ích \"{0:s}\"[CR]Nguồn \"{1:s}\"[CR]Phiên bản \"{2:s}\"[CR]- sẽ được gỡ cài đặt và thay thế. Bạn có muốn tiếp tục không?"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18172,7 +18181,7 @@ msgstr ""
 
 msgctxt "#39135"
 msgid "Thumbnail image files"
-msgstr ""
+msgstr "Tập tin hình ảnh thu nhỏ"
 
 #. Description of setting with label #39135 "Thumbnail image files"
 msgctxt "#39136"
@@ -18191,7 +18200,7 @@ msgstr ""
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39140"
 msgid "Maximum"
-msgstr "Max"
+msgstr "Tối đa"
 
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39141"
@@ -18252,3 +18261,15 @@ msgstr ""
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr ""
+
+#~ msgctxt "#310"
+#~ msgid "Keyboard layouts"
+#~ msgstr "Sơ đồ bàn phím"
+
+#~ msgctxt "#36436"
+#~ msgid "Select OS keyboard layout."
+#~ msgstr "Chọn bố trí bàn phím."
+
+#~ msgctxt "#36284"
+#~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
+#~ msgstr "Đọc thông tin thuộc về CD âm thanh, như tên bài hát và nghệ sĩ, từ cơ sở dữ liệu internet freedb.org."
