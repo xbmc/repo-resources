@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-08-19 07:34+0000\n"
+"PO-Revision-Date: 2021-08-25 10:16+0000\n"
 "Last-Translator: Nguyễn Trung Hậu <trunghau1712@gmail.com>\n"
 "Language-Team: Vietnamese <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/vi_vn/>\n"
 "Language: vi_vn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3370,11 +3370,11 @@ msgstr "Nhập địa chỉ web"
 
 msgctxt "#1052"
 msgid "Require authentication"
-msgstr ""
+msgstr "Yêu cầu xác thực"
 
 msgctxt "#1053"
 msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
-msgstr ""
+msgstr "Chọn xem các yêu cầu đến máy chủ web có yêu cầu tên người dùng và mật khẩu hay không, nếu được bật thì phải đặt tên người dùng và mật khẩu này. Bạn nên bật cài đặt này."
 
 msgctxt "#1180"
 msgid "Proxy type"
@@ -9621,7 +9621,7 @@ msgstr "Vùng"
 # string id's 20027 thru 20034 are reserved for temperature strings (LocalizeStrings.cpp)
 msgctxt "#20035"
 msgid "Regional ({0:s})"
-msgstr ""
+msgstr "Khu vực ({0:s})"
 
 #. Used for date/time format settings like "10:00:00 (HH:mm:ss)"
 msgctxt "#20036"
@@ -12784,7 +12784,7 @@ msgstr "Tiện ích không tương thích với phiên bản Kodi này."
 
 msgctxt "#24153"
 msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
-msgstr ""
+msgstr "Bật để làm cho điều khiển từ xa Siri khớp với hoạt động bình thường của Apple tvOS"
 
 msgctxt "#24154"
 msgid "Consider Siri remote in idle state after N seconds"
@@ -14305,7 +14305,7 @@ msgstr ""
 
 msgctxt "#35100"
 msgid "Enable controller support"
-msgstr ""
+msgstr "Bật hỗ trợ bộ điều khiển"
 
 # empty string with id 35101
 msgctxt "#35102"
@@ -15986,7 +15986,7 @@ msgstr "Danh mục này chứa các cài đặt về cách xử lý dịch vụ 
 #. Description of setting with label #263 "Allow remote control via HTTP"
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
-msgstr ""
+msgstr "Cho phép người dùng từ xa điều khiển ứng dụng này thông qua máy chủ web được tích hợp sẵn. Không bao giờ để lộ cổng máy chủ web trên internet."
 
 #. Description of setting with label #730 "Port"
 msgctxt "#36329"
@@ -15996,12 +15996,12 @@ msgstr "Xác định cổng máy chủ web."
 #. Description of setting with label #1048 "Username"
 msgctxt "#36330"
 msgid "Define the web server username. Must be set when authentication is enabled."
-msgstr ""
+msgstr "Xác định tên người dùng máy chủ web. Phải được đặt khi kích hoạt xác thực."
 
 #. Description of setting with label #1048 "Password"
 msgctxt "#36331"
 msgid "Define the web server password. Must be set when authentication is enabled."
-msgstr ""
+msgstr "Xác định mật khẩu máy chủ web. Phải được đặt khi kích hoạt xác thực."
 
 #. Description of setting with label #199 "Web interface"
 msgctxt "#36332"
@@ -16016,7 +16016,7 @@ msgstr "Danh mục này chứa các cài đặt về cách xử lý dịch vụ 
 #. Description of setting with label #791 "Allow remote control from programs on this system"
 msgctxt "#36334"
 msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
-msgstr ""
+msgstr "Cho phép các chương trình trên thiết bị này điều khiển ứng dụng bằng JSON-RPC qua WebSocket, JSON-RPC qua TCP hoặc giao thức EventServer mà không cần xác thực."
 
 #. Description of setting with label #792 "Port"
 msgctxt "#36335"
@@ -16036,7 +16036,7 @@ msgstr "Xác định số lượng máy khách tối đa có thể kết nối."
 #. Description of setting with label #794 "Allow remote control from programs on other systems"
 msgctxt "#36338"
 msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
-msgstr ""
+msgstr "Cho phép các chương trình trên mạng điều khiển ứng dụng bằng JSON-RPC qua WebSocket, JSON-RPC qua TCP hoặc giao thức EventServer mà không cần xác thực. Nó cho phép bất kỳ ai có quyền truy cập vào mạng đều có thể kiểm soát ứng dụng này và do đó, thiết bị này. Không nên để lộ giao diện này trên internet."
 
 #. Description of setting with label #795 "Initial repeat delay (ms)"
 msgctxt "#36339"
@@ -16228,7 +16228,7 @@ msgstr "Sử dụng chuột hoặc thiết bị màn hình cảm ứng để đi
 #. Description of setting with label #35100 "Enable controller support"
 msgctxt "#36378"
 msgid "Use a game controller to control the interface."
-msgstr ""
+msgstr "Sử dụng bộ điều khiển trò chơi để điều khiển giao diện."
 
 #. Description of settings category with label #798 Internet access
 msgctxt "#36379"
@@ -16268,7 +16268,7 @@ msgstr "Định cấu hình mật khẩu máy chủ proxy."
 #. Description of setting with label #14041 "Internet connection bandwidth limitation"
 msgctxt "#36386"
 msgid "If your Internet connection has limited bandwidth available, use this setting to keep bandwidth usage by this application within defined limits."
-msgstr ""
+msgstr "Nếu kết nối internet của bạn có băng thông hạn chế, hãy sử dụng cài đặt này để giữ cho việc sử dụng băng thông của ứng dụng trong giới hạn xác định."
 
 #. Description of settings category with label #14095 "Power saving"
 msgctxt "#36387"
@@ -16505,7 +16505,7 @@ msgstr ""
 #. Select the layout of a physically attached keyboard
 msgctxt "#36436"
 msgid "Select hardware keyboard layout."
-msgstr ""
+msgstr "Chọn bố cục bàn phím cứng."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -17753,7 +17753,7 @@ msgstr "Mục để xuất"
 
 msgctxt "#38307"
 msgid "Include artwork such as thumbnails and fanart"
-msgstr ""
+msgstr "Bao gồm các ảnh minh họa như là hình thu nhỏ và fanart"
 
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
@@ -17906,7 +17906,7 @@ msgstr "Không thể đọc tập tin xml"
 #. Description of category "Library" with label #14202
 msgctxt "#39004"
 msgid "This category provides access to the windows for source management and library management facilities"
-msgstr ""
+msgstr "Danh mục này cung cấp quyền truy cập vào các cửa sổ để quản lý nguồn và cơ sở quản lý thư viện"
 
 #. Description of setting "Videos... with label #14242
 msgctxt "#39005"
@@ -18145,12 +18145,12 @@ msgstr ""
 # empty string with id 39126
 msgctxt "#39127"
 msgid "Use all local image files as artwork"
-msgstr ""
+msgstr "Sử dụng tất cả tập tin hình ảnh cục bộ làm ảnh minh họa"
 
 #. Description of setting with label #39127 "Use all local image files as artwork"
 msgctxt "#39128"
 msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
-msgstr ""
+msgstr "Tất cả tập tin hình ảnh nằm cùng với tập tin đa phương tiện được chọn dưới dạng ảnh minh họa trong quá trình quét thư viện, với tên tập tin là loại hình nghệ thuật."
 
 msgctxt "#39129"
 msgid "Use all remote artwork fetched by scrapers"
@@ -18190,12 +18190,12 @@ msgstr ""
 
 msgctxt "#39137"
 msgid "Artwork level"
-msgstr ""
+msgstr "Mức độ ảnh minh họa"
 
 #. Description of setting with label #39137 "Artwork level"
 msgctxt "#39138"
 msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
-msgstr ""
+msgstr "Số lượng ảnh minh họa được chọn tự động - [Tối đa] tất cả hình ảnh cục bộ và ảnh minh họa từ xa; [Cơ bản] tiết kiệm dung lượng trên các thiết bị hạn chế hoặc khi sử dụng một giao diện đơn giản; [Tùy chỉnh] được định cấu hình bởi người dùng để kiểm soát chi tiết; [Không] không có ảnh"
 
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39140"
