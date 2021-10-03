@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-02 13:36+0000\n"
+"PO-Revision-Date: 2021-10-03 09:21+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -7476,7 +7476,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Ordner mit Kanalsymbolen"
 
-#. label for PVR backend number of channels in system information's PVR section
+#. generic label for pvr channels used in different places
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kanäle"
@@ -7588,7 +7588,7 @@ msgstr "Timer"
 #. Label for button to refresh the channel logos
 msgctxt "#19041"
 msgid "Refresh channel logos"
-msgstr ""
+msgstr "Kanalsymbole aktualisieren"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7713,7 +7713,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "Aufnahmeeinstellungen"
 
-#. Electronic program guide
+#. generic label for the electronic program guide (EPG) used in different places
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Programm-Guide"
@@ -8084,6 +8084,7 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "Gruppiert"
 
+#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Kanalgruppen"
@@ -8285,18 +8286,18 @@ msgstr "Daten löschen"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-msgstr "Alle TV-Daten (Kanäle, Kanalgruppen, Programm-Guide, Timer, Clients) werden gelöscht. Fortfahren?"
+msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
+msgstr "Die ausgewählten Daten werden gelöscht. Einige Informationen können danach nicht von den PVR Clients wiederhergestellt werden. Trotzdem fortfahren?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing all related data."
+msgid "Clearing data."
 msgstr "Daten werden gelöscht."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All your guide data will be cleared. Are you sure?"
-msgstr "Alle Programm-Guide-Daten werden gelöscht. Fortfahren?"
+msgid "All guide data will be cleared. Are you sure?"
+msgstr "Alle Programm-Guide-Daten werden gelöscht. Trotzdem fortfahren?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8422,7 +8423,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Bitte eine gültige URL für den neuen Kanal eingeben"
 
-#. pvr settings "reminders" category label
+#. generic label for PVR reminders used in different places
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "Erinnerungen"
@@ -12182,6 +12183,7 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "Dienste"
 
+#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "PVR-Clients"
@@ -15407,8 +15409,8 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Weist das Backend an, nach Kanälen zu suchen. Funktion wird nicht von allen Backends unterstützt."
 
 msgctxt "#36209"
-msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-msgstr "Löscht die Kanal- und TV-Guide-Datenbank und importiert danach die Daten erneut."
+msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
+msgstr "Datenbanken für z. B. Kanäle, Gruppen, Reminder und Programm-Guide bereinigen. Bitte beachten, dass danach nicht alle Daten von den Backends wiederhergestellt werden können."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -18250,6 +18252,22 @@ msgstr "Stile"
 msgctxt "#39158"
 msgid "Styles and positions"
 msgstr "Stile und Positionen"
+
+#~ msgctxt "#19186"
+#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+#~ msgstr "Alle TV-Daten (Kanäle, Kanalgruppen, Programm-Guide, Timer, Clients) werden gelöscht. Fortfahren?"
+
+#~ msgctxt "#19187"
+#~ msgid "Clearing all related data."
+#~ msgstr "Daten werden gelöscht."
+
+#~ msgctxt "#19188"
+#~ msgid "All your guide data will be cleared. Are you sure?"
+#~ msgstr "Alle Programm-Guide-Daten werden gelöscht. Fortfahren?"
+
+#~ msgctxt "#36209"
+#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+#~ msgstr "Löscht die Kanal- und TV-Guide-Datenbank und importiert danach die Daten erneut."
 
 #~ msgctxt "#21461"
 #~ msgid "Fixed"
