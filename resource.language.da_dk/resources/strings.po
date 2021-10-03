@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-03 11:40+0000\n"
+"PO-Revision-Date: 2021-10-03 20:29+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -7593,6 +7593,11 @@ msgctxt "#19041"
 msgid "Refresh channel logos"
 msgstr "Opdater kanallogoer"
 
+#. label for PVR backend number of channel groups in system information's PVR section
+msgctxt "#19042"
+msgid "Channel Groups"
+msgstr "Kanalgrupper"
+
 #. pvr settings "recording" category label
 msgctxt "#19043"
 msgid "Recording"
@@ -9018,6 +9023,11 @@ msgstr "Skiftede til kanal for automatisk lukket PVR-påmindelse for '{0:s}' på
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
 msgstr "Skiftede til kanal for automatisk lukket PVR-påmindelse for kanal '{0:s}' ved '{1:s}'"
+
+#. label for PVR backend number of channel providers in system information's PVR section
+msgctxt "#19334"
+msgid "Providers"
+msgstr "Leverandører"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -12531,7 +12541,7 @@ msgstr "Ønsker du at deaktivere det i dit system?"
 
 msgctxt "#24098"
 msgid "Broken"
-msgstr "Ødelagt"
+msgstr "Defekt"
 
 msgctxt "#24099"
 msgid "Would you like to switch to this skin?"
@@ -12556,7 +12566,7 @@ msgstr "Skin'et mangler nogle filer"
 #. Error message shown when a game add-on can't be loaded due to missing dependencies
 msgctxt "#24104"
 msgid "Add-on is incompatible due to unmet dependencies."
-msgstr "Add-on er ikke kompatibel grundet ikke-imødekommede afhængigheder."
+msgstr "Add-on er ikke kompatibel grundet uopfyldte afhængigheder."
 
 msgctxt "#24105"
 msgid "Pause when searching for subtitles"
@@ -12569,7 +12579,7 @@ msgstr "Angiv hvor hentede undertekster skal gemmes - det samme sted som video e
 
 msgctxt "#24107"
 msgid "Searching for subtitles ..."
-msgstr "Søger efter undertekster ..."
+msgstr "Søger efter undertekster..."
 
 msgctxt "#24108"
 msgid "{0:d} subtitles found"
@@ -12590,7 +12600,7 @@ msgstr "Sprog der skal downloades undertekster til"
 #. Description of setting "Videos -> Subtitles -> Languages to download subtitles for" with label #24111
 msgctxt "#24112"
 msgid "Set languages to use when searching for subtitles.[CR]Note: Not all subtitle services will use all languages."
-msgstr "Indstil de sprog som skal benyttes, når der søges efter undertekster. [CR]Husk: ikke alle underteksttjenester vil benytte alle sprog."
+msgstr "Indstil de sprog som skal benyttes, når der søges efter undertekster.[CR]Husk: ikke alle underteksttjenester vil benytte alle sprog."
 
 msgctxt "#24113"
 msgid "Failed to download subtitle"
@@ -12673,7 +12683,7 @@ msgstr "Aktiver analysering af undertekster til hørehæmmede"
 
 msgctxt "#24131"
 msgid "Enable to parse for CC in video stream. Puts slightly more load on the CPU"
-msgstr "Aktiver analysering af undertekster for hørehæmmede i videoen. Dette belaster CPU'en en lille smule mere"
+msgstr "Aktiver analysering af undertekster for hørehæmmede i videoen. Dette belaster CPU'en en smule mere"
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -12818,7 +12828,7 @@ msgstr "Benyt Kodi virtuelt tastatur"
 #. Header text for yes/no dialog about enable of broken addon
 msgctxt "#24164"
 msgid "Addon \"{0:s}\" broken"
-msgstr "Add-onen \"{0:s}\" is istykker"
+msgstr "Add-on \"{0:s}\" er defekt"
 
 #. Yes/no dialog text with addon broken string value and to ask for use
 msgctxt "#24165"
@@ -12853,7 +12863,7 @@ msgstr "Forældet"
 #. Lifecycle state name, for broken and not usable addons. Used also on skin to compare and identify related state.
 msgctxt "#24171"
 msgid "Broken"
-msgstr "Ødelagt"
+msgstr "Defekt"
 
 # empty strings from id 24172 to 24179
 # 24171-24179 reserved for future use of lifecycle state name (to have continuous chain of GUI)
@@ -13357,7 +13367,7 @@ msgstr "Dokumentar"
 #. Program style name
 msgctxt "#29970"
 msgid "Alarm Test"
-msgstr "Alarm test"
+msgstr "Test alarm"
 
 #. Program style name
 msgctxt "#29971"
@@ -13652,7 +13662,7 @@ msgstr "Indstil"
 
 msgctxt "#33060"
 msgid "Power"
-msgstr "Sluk"
+msgstr "Tænd/sluk"
 
 msgctxt "#33061"
 msgid "Menu"
@@ -13788,7 +13798,7 @@ msgstr "Windows media audio 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
 msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr "Kodi's virtuelle tastetur anvendes istedet for tvOS's når der skrives tekst"
+msgstr "Kodi's virtuelle tastetur anvendes istedet for tvOS's, når der skrives tekst"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
@@ -13860,7 +13870,7 @@ msgstr "Vælg opførslen når lyd ikke er påkrævet for hverken afspilning elle
 #. Indicates if Audio Engine should transmit noise or real silence
 msgctxt "#34112"
 msgid "Send low volume noise"
-msgstr "Afspil lavvolumen støj"
+msgstr "Afspil støj ved lavt lydniveau"
 
 #. Description of setting with label #34112 "Send low volume noise"
 msgctxt "#34113"
@@ -13948,7 +13958,7 @@ msgstr "Til"
 # empty string with id 34223
 msgctxt "#34224"
 msgid "Tone mapping method"
-msgstr "Tone mapping metode"
+msgstr "Metode til tone mapping"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -13972,7 +13982,7 @@ msgstr "Videorendering"
 
 msgctxt "#34401"
 msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
-msgstr "Kunne ikke initialisere videofiltre / skalering og falder tilbage til bilinær skalering"
+msgstr "Kunne ikke initialisere videofiltre/skalering og falder tilbage til bilinær skalering"
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
