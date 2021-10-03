@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-02 16:00+0000\n"
+"PO-Revision-Date: 2021-10-03 11:40+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -2800,7 +2800,7 @@ msgstr "Lustrzane odbicie obrazu"
 
 msgctxt "#750"
 msgid "Are you sure?"
-msgstr "Czy jesteś pewny?"
+msgstr "Czy na pewno to zrobić?"
 
 msgctxt "#751"
 msgid "Removing source"
@@ -4817,7 +4817,7 @@ msgstr "Ustaw jako domyślne dla wszystkich mediów"
 
 msgctxt "#12377"
 msgid "This will reset any previously saved values. Are you sure?"
-msgstr "Spowoduje to wyczyszczenie wcześniej zapisanych wartości. Jesteś pewien?"
+msgstr "Spowoduje to wyczyszczenie wcześniej zapisanych wartości. Czy na pewno to zrobić?"
 
 msgctxt "#12378"
 msgid "Amount of time to display each image"
@@ -7478,7 +7478,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Folder z ikonami kanałów"
 
-#. label for PVR backend number of channels in system information's PVR section
+#. generic label for pvr channels used in different places
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kanały"
@@ -7715,7 +7715,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "Ustawienia nagrywania"
 
-#. Electronic program guide
+#. generic label for the electronic program guide (EPG) used in different places
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Przewodnik"
@@ -8086,6 +8086,7 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "W grupie"
 
+#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Grupy"
@@ -8287,18 +8288,18 @@ msgstr "Wyczyść dane"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-msgstr "Wszystkie dane dotyczące telewizji (kanały, grupy, przewodnik, liczniki czasu, klienci) zostaną wyczyszczone. Jesteś pewny?"
+msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
+msgstr "Wszystkie wybrane dane zostaną usunięte. Niektórych informacji nie da się potem przywrócić z klientów. Kontynuować mimo to?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing all related data."
-msgstr "Czyszczenie wszystkich powiązanych danych."
+msgid "Clearing data."
+msgstr "Czyszczenie danych."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All your guide data will be cleared. Are you sure?"
-msgstr "Wszystkie dane przewodnika zostaną wyczyszczone. Czy jesteś pewien?"
+msgid "All guide data will be cleared. Are you sure?"
+msgstr "Wszystkie dane przewodnika zostaną usunięte. Czy na pewno to zrobić?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8424,7 +8425,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Wprowadź poprawny adres URL dla nowego kanału"
 
-#. pvr settings "reminders" category label
+#. generic label for PVR reminders used in different places
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "Przypomnienia"
@@ -12185,6 +12186,7 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "Usługi"
 
+#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "Klienty telewizji"
@@ -15091,7 +15093,7 @@ msgstr "Określa jednostkę temperatury używaną do wyświetania temperatury w 
 #. Description of setting with label #20369 "Show information for unwatched items"
 msgctxt "#36141"
 msgid "Show information for unwatched media in the video library or hide them if not selected to prevent spoilers. Available options are 'Movie plot', 'Episode plot' and 'Episode thumb'."
-msgstr "Pokaż informacje o nieobejrznych mediach w bibliotece wideo lub ukryj je, jeśli nie wybrano, aby zapobiec spoilerom. Dostępne opcje to „Fabuła filmu”, „Fabuła odcinka” i „Miniatura epizodu”."
+msgstr "Pokazuje informacje o nieobejrznych mediach w bibliotece wideo lub ukryj je, jeśli nie wybrano, aby zapobiec spoilerom. Dostępne opcje to „Fabuła filmu”, „Fabuła odcinka” i „Miniatura epizodu”."
 
 #. Description of setting with label #14106 "Speed unit"
 msgctxt "#36142"
@@ -15146,7 +15148,7 @@ msgstr "Kategoria zawierająca ustawienia związane z obsługą odtwarzania wide
 #. Description of setting with label #13433 "Play next video automatically"
 msgctxt "#36152"
 msgid "Enable automatic playback of the next file in the list for selected playlist types."
-msgstr "Włącz automatyczne odtwarzanie następnego pliku na liście dla wybranych typów list odtwarzania."
+msgstr "Włącza automatyczne odtwarzanie następnego pliku na liście dla wybranych typów list odtwarzania."
 
 #. Description of setting with label #13415 "Render method"
 msgctxt "#36153"
@@ -15156,7 +15158,7 @@ msgstr "Określa metodę przetwarzania i wyświetlania wideo."
 #. Description of setting with label #13435 "Enable HQ Scalers for scaling above"
 msgctxt "#36154"
 msgid "Use high quality scalers when upscaling a video by at least this percentage. A value below 5% makes little sense as video is processed with high GPU load without any visible picture quality improvements."
-msgstr "Użyj skalerów wysokiej jakości podczas skalowania wideo o co najmniej wskazany procent. Wartości poniżej 5% nie mają wiele sensu, ponieważ wideo jest przetwarzane przy dużym obciążeniu GPU bez widocznej poprawy jakości obrazu."
+msgstr "Używa skalerów wysokiej jakości podczas skalowania wideo o co najmniej wskazany procent. Wartości poniżej 5% nie mają wiele sensu, ponieważ wideo jest przetwarzane przy dużym obciążeniu GPU bez widocznej poprawy jakości obrazu."
 
 #. Description of setting with label #13425 "Allow hardware acceleration (VDPAU)"
 msgctxt "#36155"
@@ -15246,7 +15248,7 @@ msgstr "Określa poziom powiększenie materiałów wideo o proporcjach 4:3 na wy
 #. Description of setting with label #13430 "Allow hardware acceleration - PRIME"
 msgctxt "#36172"
 msgid "Enable PRIME decoding of video files"
-msgstr "Włącz dekodowanie plików wideo PRIME"
+msgstr "Włącza dekodowanie plików wideo PRIME"
 
 #. Description of setting with label #14109 "Short date format"
 msgctxt "#36173"
@@ -15401,7 +15403,7 @@ msgstr "Importuje grupy kanałów z serwera telewizji (jeśli obsługiwane). Wsz
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
-msgstr "Posortuj kanały według numeru kanału z serwera, ale użyj lokalnego numerowania dla kanałów."
+msgstr "Sortuje kanały według numeru kanału z serwera, ale użyj lokalnego numerowania dla kanałów."
 
 msgctxt "#36206"
 msgid "Use the channel numbering from the backend."
@@ -15416,12 +15418,12 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Zleca serwerowi telewizji wyszukiwanie kanałów (jeśli obsługiwane)."
 
 msgctxt "#36209"
-msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-msgstr "Umożliwia usunięcie bazy kanałów i bazy przewodnika, a następnie ponownie zaimportowanie ich z serwera funkcji telewizyjnych."
+msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
+msgstr "Czyści bazy danych z danych nagrywania, takich jak kanały, grupy, przypomnienia i przewodnik. Należy pamiętać, że nie wszystkie dane można później przywrócić z serwera."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
-msgstr "Otwórz okno dialogowe priorytetów klienta, które pozwala modyfikować priorytet włączonych klientów PVR zgodnie z osobistymi preferencjami, na przykład, aby zamówić kanały klient po kliencie. Wyższa wartość oznacza wyższy priorytet."
+msgstr "Otwiera okno dialogowe priorytetów klienta, które pozwala modyfikować priorytet włączonych klientów PVR zgodnie z osobistymi preferencjami, na przykład, aby zamówić kanały klient po kliencie. Wyższa wartość oznacza wyższy priorytet."
 
 msgctxt "#36211"
 msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
@@ -15437,7 +15439,7 @@ msgstr "Otwiera menedżera grup, który umożliwia modyfikacje grup i zgrupowany
 
 msgctxt "#36214"
 msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
-msgstr "Wybierz kanał odtwarzania w oknach i oknach dialogowych zawierających listy kanałów. Jeśli jest włączony i istnieje kanał do odtwarzania, kanał do odtwarzania zostanie wybrany podczas otwierania okna lub okna dialogowego zawierającego listę kanałów. Jeśli wyłączone, kanał wybrany wcześniej w oknie lub oknie dialogowym zostanie wybrany podczas otwierania okna zawierającego listę kanałów. "
+msgstr "Wybiera kanał odtwarzania w oknach i oknach dialogowych zawierających listy kanałów. Jeśli jest włączony i istnieje kanał do odtwarzania, kanał do odtwarzania zostanie wybrany podczas otwierania okna lub okna dialogowego zawierającego listę kanałów. Jeśli wyłączone, kanał wybrany wcześniej w oknie lub oknie dialogowym zostanie wybrany podczas otwierania okna zawierającego listę kanałów. "
 
 #. Description of setting with label #14110 "Long date format"
 msgctxt "#36215"
@@ -15491,7 +15493,7 @@ msgstr "Kategoria zawierająca ustawienia odtwarzania programów telewizyjnych i
 
 msgctxt "#36227"
 msgid "Switch to full screen display when starting playback of channels."
-msgstr "Włącz wyświetlanie pełnoekranowe podczas rozpoczynania odtwarzania kanałów."
+msgstr "Włącza wyświetlanie pełnoekranowe podczas rozpoczynania odtwarzania kanałów."
 
 #. Description of setting with label #745 "Background Colour"
 msgctxt "#36228"
@@ -18262,6 +18264,22 @@ msgstr "Style"
 msgctxt "#39158"
 msgid "Styles and positions"
 msgstr "Style i pozycje"
+
+#~ msgctxt "#19186"
+#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+#~ msgstr "Wszystkie dane dotyczące telewizji (kanały, grupy, przewodnik, liczniki czasu, klienci) zostaną wyczyszczone. Jesteś pewny?"
+
+#~ msgctxt "#19187"
+#~ msgid "Clearing all related data."
+#~ msgstr "Czyszczenie wszystkich powiązanych danych."
+
+#~ msgctxt "#19188"
+#~ msgid "All your guide data will be cleared. Are you sure?"
+#~ msgstr "Wszystkie dane przewodnika zostaną wyczyszczone. Czy jesteś pewien?"
+
+#~ msgctxt "#36209"
+#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+#~ msgstr "Umożliwia usunięcie bazy kanałów i bazy przewodnika, a następnie ponownie zaimportowanie ich z serwera funkcji telewizyjnych."
 
 #~ msgctxt "#21461"
 #~ msgid "Fixed"
