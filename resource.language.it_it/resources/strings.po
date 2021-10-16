@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-09-21 16:55+0000\n"
-"Last-Translator: Gian Maria Calzolari <giangi@gcalzo.net>\n"
+"PO-Revision-Date: 2021-10-08 02:00+0000\n"
+"Last-Translator: Simone Grandi <gresy88@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
 "MIME-Version: 1.0\n"
@@ -7588,12 +7588,12 @@ msgstr "Timer"
 #. Label for button to refresh the channel logos
 msgctxt "#19041"
 msgid "Refresh channel logos"
-msgstr ""
+msgstr "Aggiorna loghi canali"
 
 #. label for PVR backend number of channel groups in system information's PVR section
 msgctxt "#19042"
 msgid "Channel Groups"
-msgstr ""
+msgstr "Gruppi Canali"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -8292,17 +8292,17 @@ msgstr "Elimina dati"
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
 msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr ""
+msgstr "Tutti i dati selezionati saranno eliminati. Alcune informazioni non potranno essere ripristinate dai client. Procedere comunque?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
 msgid "Clearing data."
-msgstr ""
+msgstr "Eliminazione dati."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
 msgid "All guide data will be cleared. Are you sure?"
-msgstr ""
+msgstr "Tutti i dati delle guide saranno eliminati. Sei sicuro?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -9024,7 +9024,7 @@ msgstr "Canale cambiato per promemoria PVR chiuso automaticamente per il canale 
 #. label for PVR backend number of channel providers in system information's PVR section
 msgctxt "#19334"
 msgid "Providers"
-msgstr ""
+msgstr "Provider"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11520,7 +11520,7 @@ msgstr "Posizione sottotitoli sullo schermo"
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
 msgid "Manual"
-msgstr ""
+msgstr "Manuale"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
@@ -15348,7 +15348,7 @@ msgstr "Imposta una cartella personalizzata per i tuoi sottotitoli. Può essere 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
 msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr ""
+msgstr "Posizione dei sottotitoli sullo schermo. [Manuale] La posizione dei sottotitoli può essere personalizzata usando le impostazioni di calibrazione video. [Sotto] / [Sopra video] Quando possibile i sottotitoli saranno posizionati dentro le bande nere (dipende dalla codifica video). Tieni presente che alcune posizioni forzate nei sottotitoli non possono essere cambiate."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15420,7 +15420,7 @@ msgstr "Istruisci l'interfaccia a cercare canali (se supportato)."
 
 msgctxt "#36209"
 msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr ""
+msgstr "Svuota i database per i dati PVR come canali, gruppi, avvisi e guide. Tieni presente che non tutti i dati potrebbero essere ripristinati in seguito dal backend."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -17114,6 +17114,31 @@ msgctxt "#36637"
 msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
 msgstr "Tieni presente che i componenti aggiuntivi installati da zip (esclusi i repository serviti) non si aggiorneranno automaticamente e devono essere aggiornati manualmente. Vuoi continuare?"
 
+#. Menuitem at "Settings -> System -> Add-ons"
+msgctxt "#36638"
+msgid "Remove all orphaned add-ons"
+msgstr "Rimuovi tutti gli add-on orfani"
+
+#. Description of setting with label #36638 "Remove all orphaned dependencies"
+msgctxt "#36639"
+msgid "Remove all modules and support libraries that have been automatically installed and are in an orphaned state."
+msgstr "Rimuovi tutti i moduli e le librerie di supporto che sono stati installati automaticamente e che sono in uno stato di orfanità."
+
+#. Dialog caption
+msgctxt "#36640"
+msgid "Orphaned add-ons"
+msgstr "Add-on orfani"
+
+#. Dialog text if orphaned add-ons were found and removed
+msgctxt "#36641"
+msgid "The following orphaned add-ons were removed from your system: {0:s}."
+msgstr "I seguenti add-on orfani sono stati rimossi dal tuo dispositivo: {0:s}."
+
+#. Dialog text if no more orphaned add-ons left on the system
+msgctxt "#36642"
+msgid "No orphaned add-ons to remove."
+msgstr "Nessun add-on orfano da rimuovere."
+
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -18241,26 +18266,101 @@ msgstr "Sistema di finestre:"
 #. Override ASS / SSA subtitles styles setting list
 msgctxt "#39154"
 msgid "Override ASS / SSA subtitles styles"
-msgstr ""
+msgstr "Sovrascrivi stili sottotitoli ASS / SSA"
 
 #. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
 msgctxt "#39155"
 msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+msgstr "Il formato SSA/ASS può includere dati come stile carattere, colori, dimensione, allineamenti, posizioni, ecc. Puoi sovrascrivere gli stili con le tue personalizzazioni (tieni presente che potrebbero verificarsi effetti collaterali in alcuni casi)."
 
 #. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
 msgctxt "#39156"
 msgid "Positions"
-msgstr ""
+msgstr "Posizioni"
 
 #. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
 msgctxt "#39157"
 msgid "Styles"
-msgstr ""
+msgstr "Stili"
 
 #. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
 msgctxt "#39158"
 msgid "Styles and positions"
+msgstr "Stili e posizioni"
+
+#. Subtitle border size setting toggle
+msgctxt "#39159"
+msgid "Border size"
+msgstr ""
+
+#. Subtitle border colour setting
+msgctxt "#39160"
+msgid "Border colour"
+msgstr ""
+
+#. CC Subtitles text alignment setting list
+msgctxt "#39161"
+msgid "Text alignment"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39162"
+msgid "Left"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39163"
+msgid "Center"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39164"
+msgid "Right"
+msgstr ""
+
+#. Type of background for displaying the subtitles
+msgctxt "#39165"
+msgid "Background type"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39166"
+msgid "Shadow"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39167"
+msgid "Box"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39168"
+msgid "Square box"
+msgstr ""
+
+#. Description of setting with label #39166 "Background type"
+msgctxt "#39169"
+msgid "Type of background to apply to subtitles."
+msgstr ""
+
+#. Subtitle shadow size setting
+msgctxt "#39170"
+msgid "Shadow size"
+msgstr ""
+
+#. Subtitle shadow colour setting
+msgctxt "#39171"
+msgid "Shadow colour"
+msgstr ""
+
+#. Subtitle shadow opacity setting
+msgctxt "#39172"
+msgid "Shadow opacity"
+msgstr ""
+
+#. Subtitle blur setting
+msgctxt "#39173"
+msgid "Blur"
 msgstr ""
 
 #~ msgctxt "#19186"

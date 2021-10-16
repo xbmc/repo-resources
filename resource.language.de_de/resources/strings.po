@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-03 09:21+0000\n"
+"PO-Revision-Date: 2021-10-08 02:00+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -7593,7 +7593,7 @@ msgstr "Kanalsymbole aktualisieren"
 #. label for PVR backend number of channel groups in system information's PVR section
 msgctxt "#19042"
 msgid "Channel Groups"
-msgstr ""
+msgstr "Kanalgruppen"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -9024,7 +9024,7 @@ msgstr "Umgeschaltet für autom. geschlossene PVR-Erinnerung auf Kanal „{0:s}�
 #. label for PVR backend number of channel providers in system information's PVR section
 msgctxt "#19334"
 msgid "Providers"
-msgstr ""
+msgstr "Anbieter"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -16992,7 +16992,7 @@ msgstr "Benachrichtigung anzeigen, wenn Addons aktualisiert wurden."
 #. Description of setting with label #24996 "Manage dependencies"
 msgctxt "#36613"
 msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
-msgstr "Module und Supportbibliotheken, die automatisch als Abhängigkeit anderer Addons installiert wurden, organisieren. Inhalte die als „verwaist“ markiert sind, werden nicht länder von anderen Addons gebraucht und könnnen gefahrlos deinstalliert werden."
+msgstr "Module und Unterstützungsbibliotheken organisieren, die automatisch als Abhängigkeit anderer Addons installiert wurden. Als „verwaist“ markierte Einträge werden nicht länger von anderen Addons gebraucht und könnnen gefahrlos deinstalliert werden."
 
 #. Description of setting with label #24994 "Running"
 msgctxt "#36614"
@@ -17113,6 +17113,31 @@ msgstr "Bevor Webserver-Authentifizierung aktiviert werden kann, muss ein Passwo
 msgctxt "#36637"
 msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
 msgstr "Bitte beachten, dass aus ZIP-Dateien installierte Addons (mit Ausnahme von offiziellen Repositories) nicht automatisch aktualisiert werden. Sie müssen manuell aktualisiert werden. Trotzdem fortfahren?"
+
+#. Menuitem at "Settings -> System -> Add-ons"
+msgctxt "#36638"
+msgid "Remove all orphaned add-ons"
+msgstr "Alle verwaisten Addons entfernen"
+
+#. Description of setting with label #36638 "Remove all orphaned dependencies"
+msgctxt "#36639"
+msgid "Remove all modules and support libraries that have been automatically installed and are in an orphaned state."
+msgstr "Alle automatisch installierten Module und Unterstützungsbibliotheken entfernen, die als verwaist markiert sind."
+
+#. Dialog caption
+msgctxt "#36640"
+msgid "Orphaned add-ons"
+msgstr "Verwaiste Addons"
+
+#. Dialog text if orphaned add-ons were found and removed
+msgctxt "#36641"
+msgid "The following orphaned add-ons were removed from your system: {0:s}."
+msgstr "Folgende verwaiste Addons wurden entfernt; {0:s}."
+
+#. Dialog text if no more orphaned add-ons left on the system
+msgctxt "#36642"
+msgid "No orphaned add-ons to remove."
+msgstr "Keine verwaisten Addons zu entfernen."
 
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
@@ -18262,6 +18287,101 @@ msgstr "Stile"
 msgctxt "#39158"
 msgid "Styles and positions"
 msgstr "Stile und Positionen"
+
+#. Subtitle border size setting toggle
+msgctxt "#39159"
+msgid "Border size"
+msgstr ""
+
+#. Subtitle border colour setting
+msgctxt "#39160"
+msgid "Border colour"
+msgstr ""
+
+#. CC Subtitles text alignment setting list
+msgctxt "#39161"
+msgid "Text alignment"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39162"
+msgid "Left"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39163"
+msgid "Center"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39164"
+msgid "Right"
+msgstr ""
+
+#. Type of background for displaying the subtitles
+msgctxt "#39165"
+msgid "Background type"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39166"
+msgid "Shadow"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39167"
+msgid "Box"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39168"
+msgid "Square box"
+msgstr ""
+
+#. Description of setting with label #39166 "Background type"
+msgctxt "#39169"
+msgid "Type of background to apply to subtitles."
+msgstr ""
+
+#. Subtitle shadow size setting
+msgctxt "#39170"
+msgid "Shadow size"
+msgstr ""
+
+#. Subtitle shadow colour setting
+msgctxt "#39171"
+msgid "Shadow colour"
+msgstr ""
+
+#. Subtitle shadow opacity setting
+msgctxt "#39172"
+msgid "Shadow opacity"
+msgstr ""
+
+#. Subtitle blur setting
+msgctxt "#39173"
+msgid "Blur"
+msgstr ""
+
+#~ msgctxt "#36638"
+#~ msgid "Remove all orphaned dependencies"
+#~ msgstr "Alle verwaisten Abhängigkeiten entfernen"
+
+#~ msgctxt "#36639"
+#~ msgid "Remove all modules and support libraries that have been automatically installed as a dependency to other add-ons and are in an orphaned state."
+#~ msgstr "Alle Module und Unterstützungbibliotheken mit Status „verwaist“, die automatisch als Abhängigkeit für andere Addons installiert wurden, entfernen."
+
+#~ msgctxt "#36640"
+#~ msgid "Orphaned dependencies"
+#~ msgstr "Verwaiste Abghängigkeiten"
+
+#~ msgctxt "#36641"
+#~ msgid "The following orphaned dependency add-ons were removed from your system: {0:s}."
+#~ msgstr "Folgende verwaiste Addons wurden entfernt: {0:s}."
+
+#~ msgctxt "#36642"
+#~ msgid "No orphaned dependency add-ons to remove."
+#~ msgstr "Keine verwaisten Addons zum Entfernen gefunden."
 
 #~ msgctxt "#19186"
 #~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
