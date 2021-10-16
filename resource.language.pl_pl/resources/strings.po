@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-03 11:40+0000\n"
+"PO-Revision-Date: 2021-10-08 02:00+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -7595,7 +7595,7 @@ msgstr "Odśwież logo kanałów"
 #. label for PVR backend number of channel groups in system information's PVR section
 msgctxt "#19042"
 msgid "Channel Groups"
-msgstr ""
+msgstr "Grupy kanałów"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -9026,7 +9026,7 @@ msgstr "Przełączono na kanał dla przypomnienia o automatycznym zamknięciu PV
 #. label for PVR backend number of channel providers in system information's PVR section
 msgctxt "#19334"
 msgid "Providers"
-msgstr ""
+msgstr "Dostawcy"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -9386,7 +9386,7 @@ msgstr "Motoryzacja"
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19648"
 msgid "Fitness & health"
-msgstr "Kondycja & Zdrowie"
+msgstr "Fitness i zdrowie"
 
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19649"
@@ -17123,6 +17123,31 @@ msgctxt "#36637"
 msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
 msgstr "Pamiętaj, że dodatki instalowane z zip (z wyłączeniem obsługiwanych repozytoriów) nie będą aktualizowane automatycznie i muszą być aktualizowane ręcznie. Czy chcesz kontynuować?"
 
+#. Menuitem at "Settings -> System -> Add-ons"
+msgctxt "#36638"
+msgid "Remove all orphaned add-ons"
+msgstr "Usuń wszystkie osierocone dodatki"
+
+#. Description of setting with label #36638 "Remove all orphaned dependencies"
+msgctxt "#36639"
+msgid "Remove all modules and support libraries that have been automatically installed and are in an orphaned state."
+msgstr "Usuwa wszystkie moduły i biblioteki obsługi, które zostały automatycznie zainstalowane i są w stanie osieroconym."
+
+#. Dialog caption
+msgctxt "#36640"
+msgid "Orphaned add-ons"
+msgstr "Osierocone dodatki"
+
+#. Dialog text if orphaned add-ons were found and removed
+msgctxt "#36641"
+msgid "The following orphaned add-ons were removed from your system: {0:s}."
+msgstr "Następujące osierocone dodatki zostały usunięte z systemu: {0:s}."
+
+#. Dialog text if no more orphaned add-ons left on the system
+msgctxt "#36642"
+msgid "No orphaned add-ons to remove."
+msgstr "Brak osieroconych dodatków do usunięcia."
+
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
@@ -18274,6 +18299,101 @@ msgstr "Style"
 msgctxt "#39158"
 msgid "Styles and positions"
 msgstr "Style i pozycje"
+
+#. Subtitle border size setting toggle
+msgctxt "#39159"
+msgid "Border size"
+msgstr ""
+
+#. Subtitle border colour setting
+msgctxt "#39160"
+msgid "Border colour"
+msgstr ""
+
+#. CC Subtitles text alignment setting list
+msgctxt "#39161"
+msgid "Text alignment"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39162"
+msgid "Left"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39163"
+msgid "Center"
+msgstr ""
+
+#. Item list value of setting with label #39161 "Text alignment"
+msgctxt "#39164"
+msgid "Right"
+msgstr ""
+
+#. Type of background for displaying the subtitles
+msgctxt "#39165"
+msgid "Background type"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39166"
+msgid "Shadow"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39167"
+msgid "Box"
+msgstr ""
+
+#. Item list value of setting with label #39166 "Background type"
+msgctxt "#39168"
+msgid "Square box"
+msgstr ""
+
+#. Description of setting with label #39166 "Background type"
+msgctxt "#39169"
+msgid "Type of background to apply to subtitles."
+msgstr ""
+
+#. Subtitle shadow size setting
+msgctxt "#39170"
+msgid "Shadow size"
+msgstr ""
+
+#. Subtitle shadow colour setting
+msgctxt "#39171"
+msgid "Shadow colour"
+msgstr ""
+
+#. Subtitle shadow opacity setting
+msgctxt "#39172"
+msgid "Shadow opacity"
+msgstr ""
+
+#. Subtitle blur setting
+msgctxt "#39173"
+msgid "Blur"
+msgstr ""
+
+#~ msgctxt "#36638"
+#~ msgid "Remove all orphaned dependencies"
+#~ msgstr "Usuń wszystkie osierocone zależności"
+
+#~ msgctxt "#36639"
+#~ msgid "Remove all modules and support libraries that have been automatically installed as a dependency to other add-ons and are in an orphaned state."
+#~ msgstr "Usuwa wszystkie moduły i biblioteki obsługi, które zostały automatycznie zainstalowane jako zależność innych dodatków i są w stanie osieroconym."
+
+#~ msgctxt "#36640"
+#~ msgid "Orphaned dependencies"
+#~ msgstr "Osierocone zależności"
+
+#~ msgctxt "#36641"
+#~ msgid "The following orphaned dependency add-ons were removed from your system: {0:s}."
+#~ msgstr "Poniższe osierocone zależności dodatków zostały usunięte z systemu: {0:s}."
+
+#~ msgctxt "#36642"
+#~ msgid "No orphaned dependency add-ons to remove."
+#~ msgstr "Brak osieroconych zależności dodatków do usunięcia."
 
 #~ msgctxt "#19186"
 #~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
