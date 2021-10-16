@@ -2,7 +2,7 @@ name: Increment version of updated languages
 
 on:
   push:
-    branches: [ matrix, nexus ]
+    branches: [ matrix ]
     paths:
       - '**resource.language.**strings.po'
       - '**resource.language.**langinfo.xml'
