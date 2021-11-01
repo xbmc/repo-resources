@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-10-30 20:50+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
@@ -1176,8 +1176,8 @@ msgstr "사용자 인터페이스 언어"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Virtual keyboard layouts"
-msgstr "가상 키보드 레이아웃"
+msgid "Keyboard layouts"
+msgstr "키보드 레이아웃"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,10 +1591,6 @@ msgstr "이슬점"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "습도"
-
-msgctxt "#407"
-msgid "Hardware keyboard layouts"
-msgstr "하드웨어 키보드 레이아웃"
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3988,15 +3984,6 @@ msgctxt "#2104"
 msgid "Check the log for more information."
 msgstr "자세한 정보는 로그를 확인하세요."
 
-# empty strings from id 2105 to 2202
-msgctxt "#2203"
-msgid "Use DTS Core"
-msgstr "DTS 코어 사용"
-
-msgctxt "#2204"
-msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr "DTS-HD 포맷을 DTS 형식으로 패스스루하려면 이 옵션을 선택하세요, 아니면 DTS-HD 포맷이 PCM 형식으로 재생됩니다"
-
 msgctxt "#10000"
 msgid "Home"
 msgstr "홈"
@@ -4621,17 +4608,6 @@ msgstr "처음부터 재생"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "{0:s}부터 다시 시작"
-
-# empty strings from id 12023 to 12307
-#. Label of the show password button in the keyboard dialog
-msgctxt "#12308"
-msgid "Show password"
-msgstr "비밀번호 표시"
-
-#. Label of the hide password button in the keyboard dialog
-msgctxt "#12309"
-msgid "Hide password"
-msgstr "비밀번호 숨기기"
 
 msgctxt "#12310"
 msgid "0"
@@ -5738,8 +5714,6 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "렌더링 방식"
 
-#. Value for setting with label #13415 "Player / Videos / Render method"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "자동감지"
@@ -6070,10 +6044,6 @@ msgstr "건너뛰기 지연"
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Apple 리모트"
-
-msgctxt "#13601"
-msgid "Apple TV"
-msgstr "애플 TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -7476,7 +7446,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "채널 아이콘 폴더"
 
-#. generic label for pvr channels used in different places
+#. label for PVR backend number of channels in system information's PVR section
 msgctxt "#19019"
 msgid "Channels"
 msgstr "채널"
@@ -7584,16 +7554,6 @@ msgstr "이 채널을 정말로 숨기겠습니까?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "녹화 예약"
-
-#. Label for button to refresh the channel logos
-msgctxt "#19041"
-msgid "Refresh channel logos"
-msgstr "채널 로고 새로고침"
-
-#. label for PVR backend number of channel groups in system information's PVR section
-msgctxt "#19042"
-msgid "Channel Groups"
-msgstr "채널 그룹"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7718,7 +7678,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "녹화 설정"
 
-#. generic label for the electronic program guide (EPG) used in different places
+#. Electronic program guide
 msgctxt "#19069"
 msgid "Guide"
 msgstr "편성표"
@@ -8089,7 +8049,6 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "그룹화 됨"
 
-#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "그룹"
@@ -8291,18 +8250,18 @@ msgstr "데이터 초기화"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr "선택한 모든 데이터가 지워집니다. 일부 정보는 나중에 클라이언트에서 복원할 수 없습니다. 진행할까요?"
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "TV 관련 모든 데이터 (채널, 그룹, 편성표, 예약, 클라이언트)를 지웁니다. 확실합니까?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing data."
-msgstr "데이터 지우는 중."
+msgid "Clearing all related data."
+msgstr "모든 관련 데이터 지우기."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All guide data will be cleared. Are you sure?"
-msgstr "모든 가이드 데이터가 삭제됩니다. 확실합니까?"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "모든 편성표 데이터를 초기화합니다. 확실합니까?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8428,7 +8387,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "새 채널의 올바른 URL을 입력하세요"
 
-#. generic label for PVR reminders used in different places
+#. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "알림"
@@ -9020,11 +8979,6 @@ msgstr "'{2:s}'의 '{1:s}' 채널 '{0:s}' PVR 알림이 자동으로 닫히면 �
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
 msgstr "'{1:s}'의 '{0:s}' 채널 PVR 알림이 자동으로 닫히면 채널 변경"
-
-#. label for PVR backend number of channel providers in system information's PVR section
-msgctxt "#19334"
-msgid "Providers"
-msgstr "공급자"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -10812,8 +10766,7 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "파일 이름 대신 라이브러리 제목 사용"
 
-#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
+#. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#20420"
 msgid "Never"
 msgstr "안 함"
@@ -10822,8 +10775,6 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "한 시즌일 때만"
 
-#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "항상"
@@ -11035,10 +10986,6 @@ msgstr "비어 있는 TV 쇼 보기"
 msgctxt "#20472"
 msgid "Show all performers for music videos"
 msgstr "뮤직 비디오의 모든 연주자 표시"
-
-msgctxt "#20473"
-msgid "Premiered"
-msgstr "초연"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -11512,32 +11459,26 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "섞기"
 
-#. Subtitle position on screen setting list
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "자막 위치"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
-msgid "Manual"
-msgstr "수동"
+msgid "Fixed"
+msgstr "고정"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
 msgid "Bottom of video"
 msgstr "비디오 하단"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
 msgid "Below video"
 msgstr "비디오 아래"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
 msgid "Top of video"
 msgstr "비디오 상단"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "비디오 위"
@@ -12193,7 +12134,6 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "서비스"
 
-#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "PVR 클라이언트"
@@ -12785,12 +12725,12 @@ msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr "애플 tvOS처럼 Siri 리모트 사용함"
 
 msgctxt "#24154"
-msgid "Consider Siri remote in idle state after N seconds"
-msgstr "N 초 후에 시리 리모트가 휴면상태로 들어간다고 간주"
+msgid "Idle remote handling after N seconds"
+msgstr "N 초 후에 리모트 조작 쉼"
 
 msgctxt "#24155"
-msgid "Time to wait before considering the Siri remote in idle state"
-msgstr "시리 리모트가 휴면 상태라고 간주하는 대기 시간"
+msgid "After remote idles, the first tap/swipe received will wake it"
+msgstr "리모트 쉼 이후 첫 탭/밀기에서 깨어남"
 
 msgctxt "#24156"
 msgid "30 Seconds"
@@ -12809,16 +12749,20 @@ msgid "120 Seconds"
 msgstr "120초"
 
 msgctxt "#24160"
-msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr "이 시간 동안 동작이 없으면 첫번째 탭/건드리기/손가락 벌리기를 무시"
+msgid "Enable Siri remote timeout"
+msgstr "Siri 리모트 시간 초과 사용"
 
 msgctxt "#24161"
-msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr "이렇게 하면 손으로 리모트를 집을 때 우발적인 탭/밀기/손가락 벌리기 인식을 방지함"
+msgid "Enable remote input timeout for tap/swipe"
+msgstr "리모트 입력 시간 초과에 탭/밀기 사용"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Kodi 가상 키보드 사용"
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr "애플 tvOS 기준 맞춤 (Siri 리모트)"
 
 #. Header text for yes/no dialog about enable of broken addon
 msgctxt "#24164"
@@ -12888,12 +12832,6 @@ msgstr "최소: {0:s} / 설치함: {1:s} => 업데이트: {2:s}{3:s}"
 msgctxt "#24184"
 msgid " (optional)"
 msgstr " (옵션)"
-
-#. The minimum version, only lower versions are available for install
-#. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
-msgctxt "#24185"
-msgid "Minimum: {0:s} / Not available{3:s}"
-msgstr "최소: {0:s} / 사용할 수 없음{3:s}"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -13021,10 +12959,9 @@ msgctxt "#29805"
 msgid "This Blu-ray disc (or file) is encrypted and can't be played."
 msgstr "이 블루레이 디스크가 (또는 파일이) 암호화되어 재생할 수 없습니다."
 
-# empty strings from id 29806 to 29899
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
-msgid "RadioText Plus info"
+msgid "Radiotext Plus info"
 msgstr "Radiotext Plus 정보"
 
 #. Music band name which make the song (if present)
@@ -13788,18 +13725,6 @@ msgstr "MPEG-4 오디오 (FFmpeg M4A AAC)"
 msgctxt "#34007"
 msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows 미디어 오디오 2 (FFmpeg wmav2)"
-
-msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr "문자 입력이 필요할 때, 내장 tvOS 키보드 대신 Kodi 가상 키보드가 나옵니다"
-
-msgctxt "#34009"
-msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr "시리 리모트 손가락 벌리기 제스쳐 가로방향으로 인식"
-
-msgctxt "#34010"
-msgid "Siri remote pan gesture vertical sensitivity"
-msgstr "시리 리모트 손가락 벌리기 세로 방향 인식"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14880,12 +14805,6 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "시작할 때"
 
-# empty strings from id 36051 to 36097
-#. Label of setting "System / Display / Use 10 bit for SDR"
-msgctxt "#36098"
-msgid "Use 10 bit for SDR"
-msgstr "SDR에 10비트 사용"
-
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "디더링"
@@ -15347,8 +15266,8 @@ msgstr "자막이 저장되어 있는 디렉터리를 설정합니다. 네트워
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "화면상의 자막 위치. [수동] 비디오 보정 설정을 사용하여 자막 위치를 사용자 지정할 수 있습니다. [동영상 아래] / [위] 가능한 경우 자막이 검은색 막대 안에 배치됩니다(동영상 인코딩에 따라 다름). 자막의 일부 강제 위치는 변경할 수 없습니다."
+msgid "Location of subtitles on the screen."
+msgstr "화면상의 자막 위치."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15419,8 +15338,8 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "백엔드에 채널 검색 명령을 보냅니다 (지원하는 경우)."
 
 msgctxt "#36209"
-msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr "채널, 그룹, 알림 및 가이드와 같은 PVR 데이터에 대한 데이터베이스를 지웁니다. 나중에 백엔드에서 모든 데이터를 복원할 수 있는 것은 아닙니다."
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+msgstr "채널과 편성표 데이터베이스를 삭제하고, 나중에 백엔드에서 데이터를 다시 가져옵니다."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -16464,9 +16383,7 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "현재 프로파일의 이벤트 로그에서 모든 이벤트를 설정된 수준에서 표시합니다."
 
-#. Description for setting #310: "Virtual keyboard layouts"
-#. Setting in Interface -> Regional -> Virtual keyboard layouts
-#. Select the layout of a virtual keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "가상 키보드 레이아웃을 선택합니다."
@@ -16480,13 +16397,10 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "알림 팝업을 자동으로 닫을 때, 프로그램의 채널 변경을 알립니다."
 
-# empty string with id 36435
-#. Description for setting #407: "Hardware keyboard layouts"
-#. Setting in System -> Input -> Hardware keyboard layouts
-#. Select the layout of a physically attached keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36436"
-msgid "Select hardware keyboard layout."
-msgstr "하드웨어 키보드 레이아웃을 선택합니다."
+msgid "Select OS keyboard layout."
+msgstr "OS 키보드 배열 선택"
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16832,11 +16746,6 @@ msgstr "룩업 테이블 크기"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "3D 룩업 테이블의 해상도를 명시합니다. 빠른 미리 보기를 하려면 낮은 해상도를 쓰고, 보다 정확한 그림은 높은 해상도를 씁니다. 높은 해상도는 새로운 비디오가 시작되거나 변수가 바뀌면 대응하는 데에 수초가 걸릴 수 있습니다."
-
-#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
-msgctxt "#36578"
-msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr "SDR(Standard Dynamic Range) 비디오에 10비트 비디오면을 사용하여 비디오 품질을 개선합니다.[CR][자동 감지] 연결된 디스플레이가 HDR을 지원하는 경우에만 SDR에 10비트를 활성화합니다.[CR][항상] 연결된 디스플레이가 HDR을 지원하지 않더라도 SDR에 10비트를 활성화합니다.[CR][사용 안 함] SDR에 10비트를 사용하지 않습니다.[CR]HDR 패스스루 모드는 이 설정에 관계없이 항상 10비트를 사용합니다."
 
 #. primaries labels
 msgctxt "#36579"
@@ -17346,25 +17255,6 @@ msgstr "챕터 / 책갈피 대화창에 표시할 챕터 썸네일을 추출합�
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
-
-msgctxt "#37047"
-msgid "WS-Discovery"
-msgstr "WS-찾기"
-
-#. Setting #37048 Enable WS-Discovery Service"
-msgctxt "#37048"
-msgid "Enable WS-Discovery Service"
-msgstr "WS-찾기 서비스 사용"
-
-#. Description of setting #37048 Enable WS-Discovery Service"
-msgctxt "#37049"
-msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr "WS-찾기 프로토콜을 사용하여 SMB 검색하는 서비스 활성화"
-
-#. Label for component level debug logging setting
-msgctxt "#37050"
-msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr "[B]WS-찾기[/B] 구성 요소에 대한 자세한 로그"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18238,87 +18128,163 @@ msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "윈도 시스템:"
 
-#. Override ASS / SSA subtitles styles setting list
-msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr "ASS / SSA 자막 스타일 재정의"
+#~ msgctxt "#310"
+#~ msgid "Virtual keyboard layouts"
+#~ msgstr "가상 키보드 레이아웃"
 
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr "SSA/ASS 형식에는 글꼴 스타일, 색상, 크기, 정렬, 위치 등과 같은 메타데이터가 포함될 수 있습니다. 사용자 정의로 스타일을 재정의할 수 있습니다(경우에 따라 부작용이 발생할 수 있음)."
+#~ msgctxt "#407"
+#~ msgid "Hardware keyboard layouts"
+#~ msgstr "하드웨어 키보드 레이아웃"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39156"
-msgid "Positions"
-msgstr "위치"
+# empty strings from id 2105 to 2202
+#~ msgctxt "#2203"
+#~ msgid "Use DTS Core"
+#~ msgstr "DTS 코어 사용"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39157"
-msgid "Styles"
-msgstr "스타일"
+#~ msgctxt "#2204"
+#~ msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
+#~ msgstr "DTS-HD 포맷을 DTS 형식으로 패스스루하려면 이 옵션을 선택하세요, 아니면 DTS-HD 포맷이 PCM 형식으로 재생됩니다"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39158"
-msgid "Styles and positions"
-msgstr "스타일 및 위치"
+# empty strings from id 12023 to 12307
+#~ msgctxt "#12308"
+#~ msgid "Show password"
+#~ msgstr "비밀번호 표시"
+
+#~ msgctxt "#12309"
+#~ msgid "Hide password"
+#~ msgstr "비밀번호 숨기기"
+
+#~ msgctxt "#13601"
+#~ msgid "Apple TV"
+#~ msgstr "애플 TV"
+
+#~ msgctxt "#19041"
+#~ msgid "Refresh channel logos"
+#~ msgstr "채널 로고 새로고침"
+
+#~ msgctxt "#19042"
+#~ msgid "Channel Groups"
+#~ msgstr "채널 그룹"
 
 #~ msgctxt "#19186"
-#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-#~ msgstr "TV 관련 모든 데이터 (채널, 그룹, 편성표, 예약, 클라이언트)를 지웁니다. 확실합니까?"
+#~ msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
+#~ msgstr "선택한 모든 데이터가 지워집니다. 일부 정보는 나중에 클라이언트에서 복원할 수 없습니다. 진행할까요?"
 
 #~ msgctxt "#19187"
-#~ msgid "Clearing all related data."
-#~ msgstr "모든 관련 데이터 지우기."
+#~ msgid "Clearing data."
+#~ msgstr "데이터 지우는 중."
 
 #~ msgctxt "#19188"
-#~ msgid "All your guide data will be cleared. Are you sure?"
-#~ msgstr "모든 편성표 데이터를 초기화합니다. 확실합니까?"
+#~ msgid "All guide data will be cleared. Are you sure?"
+#~ msgstr "모든 가이드 데이터가 삭제됩니다. 확실합니까?"
 
-#~ msgctxt "#36209"
-#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-#~ msgstr "채널과 편성표 데이터베이스를 삭제하고, 나중에 백엔드에서 데이터를 다시 가져옵니다."
+#~ msgctxt "#19334"
+#~ msgid "Providers"
+#~ msgstr "공급자"
+
+#~ msgctxt "#20473"
+#~ msgid "Premiered"
+#~ msgstr "초연"
 
 #~ msgctxt "#21461"
-#~ msgid "Fixed"
-#~ msgstr "고정"
+#~ msgid "Manual"
+#~ msgstr "수동"
+
+#~ msgctxt "#24154"
+#~ msgid "Consider Siri remote in idle state after N seconds"
+#~ msgstr "N 초 후에 시리 리모트가 휴면상태로 들어간다고 간주"
+
+#~ msgctxt "#24155"
+#~ msgid "Time to wait before considering the Siri remote in idle state"
+#~ msgstr "시리 리모트가 휴면 상태라고 간주하는 대기 시간"
+
+#~ msgctxt "#24160"
+#~ msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
+#~ msgstr "이 시간 동안 동작이 없으면 첫번째 탭/건드리기/손가락 벌리기를 무시"
+
+#~ msgctxt "#24161"
+#~ msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
+#~ msgstr "이렇게 하면 손으로 리모트를 집을 때 우발적인 탭/밀기/손가락 벌리기 인식을 방지함"
+
+#~ msgctxt "#24185"
+#~ msgid "Minimum: {0:s} / Not available{3:s}"
+#~ msgstr "최소: {0:s} / 사용할 수 없음{3:s}"
+
+# empty strings from id 29806 to 29899
+#~ msgctxt "#29900"
+#~ msgid "RadioText Plus info"
+#~ msgstr "Radiotext Plus 정보"
+
+#~ msgctxt "#34008"
+#~ msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
+#~ msgstr "문자 입력이 필요할 때, 내장 tvOS 키보드 대신 Kodi 가상 키보드가 나옵니다"
+
+#~ msgctxt "#34009"
+#~ msgid "Siri remote pan gesture horizontal sensitivity"
+#~ msgstr "시리 리모트 손가락 벌리기 제스쳐 가로방향으로 인식"
+
+#~ msgctxt "#34010"
+#~ msgid "Siri remote pan gesture vertical sensitivity"
+#~ msgstr "시리 리모트 손가락 벌리기 세로 방향 인식"
+
+# empty strings from id 36051 to 36097
+#~ msgctxt "#36098"
+#~ msgid "Use 10 bit for SDR"
+#~ msgstr "SDR에 10비트 사용"
 
 #~ msgctxt "#36192"
-#~ msgid "Location of subtitles on the screen."
-#~ msgstr "화면상의 자막 위치."
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "화면상의 자막 위치. [수동] 비디오 보정 설정을 사용하여 자막 위치를 사용자 지정할 수 있습니다. [동영상 아래] / [위] 가능한 경우 자막이 검은색 막대 안에 배치됩니다(동영상 인코딩에 따라 다름). 자막의 일부 강제 위치는 변경할 수 없습니다."
 
-#~ msgctxt "#310"
-#~ msgid "Keyboard layouts"
-#~ msgstr "키보드 레이아웃"
+#~ msgctxt "#36209"
+#~ msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
+#~ msgstr "채널, 그룹, 알림 및 가이드와 같은 PVR 데이터에 대한 데이터베이스를 지웁니다. 나중에 백엔드에서 모든 데이터를 복원할 수 있는 것은 아닙니다."
 
+# empty string with id 36435
 #~ msgctxt "#36436"
-#~ msgid "Select OS keyboard layout."
-#~ msgstr "OS 키보드 배열 선택"
+#~ msgid "Select hardware keyboard layout."
+#~ msgstr "하드웨어 키보드 레이아웃을 선택합니다."
+
+#~ msgctxt "#36578"
+#~ msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+#~ msgstr "SDR(Standard Dynamic Range) 비디오에 10비트 비디오면을 사용하여 비디오 품질을 개선합니다.[CR][자동 감지] 연결된 디스플레이가 HDR을 지원하는 경우에만 SDR에 10비트를 활성화합니다.[CR][항상] 연결된 디스플레이가 HDR을 지원하지 않더라도 SDR에 10비트를 활성화합니다.[CR][사용 안 함] SDR에 10비트를 사용하지 않습니다.[CR]HDR 패스스루 모드는 이 설정에 관계없이 항상 10비트를 사용합니다."
+
+#~ msgctxt "#37047"
+#~ msgid "WS-Discovery"
+#~ msgstr "WS-찾기"
+
+#~ msgctxt "#37048"
+#~ msgid "Enable WS-Discovery Service"
+#~ msgstr "WS-찾기 서비스 사용"
+
+#~ msgctxt "#37049"
+#~ msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+#~ msgstr "WS-찾기 프로토콜을 사용하여 SMB 검색하는 서비스 활성화"
+
+#~ msgctxt "#37050"
+#~ msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+#~ msgstr "[B]WS-찾기[/B] 구성 요소에 대한 자세한 로그"
+
+#~ msgctxt "#39154"
+#~ msgid "Override ASS / SSA subtitles styles"
+#~ msgstr "ASS / SSA 자막 스타일 재정의"
+
+#~ msgctxt "#39155"
+#~ msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
+#~ msgstr "SSA/ASS 형식에는 글꼴 스타일, 색상, 크기, 정렬, 위치 등과 같은 메타데이터가 포함될 수 있습니다. 사용자 정의로 스타일을 재정의할 수 있습니다(경우에 따라 부작용이 발생할 수 있음)."
+
+#~ msgctxt "#39156"
+#~ msgid "Positions"
+#~ msgstr "위치"
+
+#~ msgctxt "#39157"
+#~ msgid "Styles"
+#~ msgstr "스타일"
+
+#~ msgctxt "#39158"
+#~ msgid "Styles and positions"
+#~ msgstr "스타일 및 위치"
 
 #~ msgctxt "#36284"
 #~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
 #~ msgstr "노래 제목과 아티스트등의 오디오 CD 정보를 인터넷 데이터베이스 freedb.org에서 읽어 옵니다."
-
-#~ msgctxt "#29900"
-#~ msgid "Radiotext Plus info"
-#~ msgstr "Radiotext Plus 정보"
-
-#~ msgctxt "#24154"
-#~ msgid "Idle remote handling after N seconds"
-#~ msgstr "N 초 후에 리모트 조작 쉼"
-
-#~ msgctxt "#24155"
-#~ msgid "After remote idles, the first tap/swipe received will wake it"
-#~ msgstr "리모트 쉼 이후 첫 탭/밀기에서 깨어남"
-
-#~ msgctxt "#24160"
-#~ msgid "Enable Siri remote timeout"
-#~ msgstr "Siri 리모트 시간 초과 사용"
-
-#~ msgctxt "#24161"
-#~ msgid "Enable remote input timeout for tap/swipe"
-#~ msgstr "리모트 입력 시간 초과에 탭/밀기 사용"
-
-#~ msgctxt "#24163"
-#~ msgid "Match Apple tvOS Standard (Siri remote)"
-#~ msgstr "애플 tvOS 기준 맞춤 (Siri 리모트)"

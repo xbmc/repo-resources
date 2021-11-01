@@ -1176,8 +1176,8 @@ msgstr "Lietotāja saskarnes valoda"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Virtual keyboard layouts"
-msgstr ""
+msgid "Keyboard layouts"
+msgstr "Tastatūras izkārtojumi"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,10 +1591,6 @@ msgstr "Rasas punkts"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Mitrums"
-
-msgctxt "#407"
-msgid "Hardware keyboard layouts"
-msgstr ""
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3990,15 +3986,6 @@ msgctxt "#2104"
 msgid "Check the log for more information."
 msgstr "Plašāku informāciju skatiet žurnālā"
 
-# empty strings from id 2105 to 2202
-msgctxt "#2203"
-msgid "Use DTS Core"
-msgstr ""
-
-msgctxt "#2204"
-msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr ""
-
 msgctxt "#10000"
 msgid "Home"
 msgstr "Sākums"
@@ -4623,17 +4610,6 @@ msgstr "Atskaņot no sākuma"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Atsākt no {0:s}"
-
-# empty strings from id 12023 to 12307
-#. Label of the show password button in the keyboard dialog
-msgctxt "#12308"
-msgid "Show password"
-msgstr ""
-
-#. Label of the hide password button in the keyboard dialog
-msgctxt "#12309"
-msgid "Hide password"
-msgstr ""
 
 msgctxt "#12310"
 msgid "0"
@@ -5740,8 +5716,6 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Apstrādes metode"
 
-#. Value for setting with label #13415 "Player / Videos / Render method"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Auto noteikšana"
@@ -6072,10 +6046,6 @@ msgstr "Izlaišana aizkave"
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Apple pults"
-
-msgctxt "#13601"
-msgid "Apple TV"
-msgstr ""
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -7478,7 +7448,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Mape ar kanālu ikonām"
 
-#. generic label for pvr channels used in different places
+#. label for PVR backend number of channels in system information's PVR section
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kanāli"
@@ -7586,16 +7556,6 @@ msgstr "Vai tiešām paslēpt šo kanālu?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Taimeri"
-
-#. Label for button to refresh the channel logos
-msgctxt "#19041"
-msgid "Refresh channel logos"
-msgstr ""
-
-#. label for PVR backend number of channel groups in system information's PVR section
-msgctxt "#19042"
-msgid "Channel Groups"
-msgstr ""
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7720,7 +7680,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "Ierakstīšanas iestatījumi"
 
-#. generic label for the electronic program guide (EPG) used in different places
+#. Electronic program guide
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Gids"
@@ -8091,7 +8051,6 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "Grupēti"
 
-#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Grupas"
@@ -8293,18 +8252,18 @@ msgstr "Notīrīt datus"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr ""
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "Visi ar TV saistītie dati (kanāli, grupas, gids, taimeri, klienti) būs notīrīti. Vai turpināt?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing data."
-msgstr ""
+msgid "Clearing all related data."
+msgstr "Notīra visusu saistītos datus."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All guide data will be cleared. Are you sure?"
-msgstr ""
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Visi gida dati būs notīrīti. Vai turpināt?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8430,7 +8389,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Ievadiet derīgu vietrādi URL jaunajam kanālam"
 
-#. generic label for PVR reminders used in different places
+#. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "Atgādinājumi"
@@ -9021,11 +8980,6 @@ msgstr ""
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
-
-#. label for PVR backend number of channel providers in system information's PVR section
-msgctxt "#19334"
-msgid "Providers"
 msgstr ""
 
 #. label for epg genre value
@@ -10818,8 +10772,7 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Aizstāt failu nosaukumus ar bibliotēkas nosaukumiem"
 
-#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
+#. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#20420"
 msgid "Never"
 msgstr "Nekad"
@@ -10828,8 +10781,6 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Ja tikai viena sezona"
 
-#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Vienmēr"
@@ -11040,10 +10991,6 @@ msgstr "Rādīt tukšas TV pārraides"
 
 msgctxt "#20472"
 msgid "Show all performers for music videos"
-msgstr ""
-
-msgctxt "#20473"
-msgid "Premiered"
 msgstr ""
 
 msgctxt "#21330"
@@ -11519,32 +11466,26 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "jaukts"
 
-#. Subtitle position on screen setting list
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "Subtitru novietojums uz ekrāna"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
-msgid "Manual"
-msgstr ""
+msgid "Fixed"
+msgstr "Fiksēts"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
 msgid "Bottom of video"
 msgstr "Video apakšā"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
 msgid "Below video"
 msgstr "Zem video"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
 msgid "Top of video"
 msgstr "Video augšā"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "Virs video"
@@ -12201,7 +12142,6 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "Pakalpojumi"
 
-#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "PVR klienti"
@@ -12793,11 +12733,11 @@ msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr ""
 
 msgctxt "#24154"
-msgid "Consider Siri remote in idle state after N seconds"
+msgid "Idle remote handling after N seconds"
 msgstr ""
 
 msgctxt "#24155"
-msgid "Time to wait before considering the Siri remote in idle state"
+msgid "After remote idles, the first tap/swipe received will wake it"
 msgstr ""
 
 msgctxt "#24156"
@@ -12817,15 +12757,19 @@ msgid "120 Seconds"
 msgstr ""
 
 msgctxt "#24160"
-msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
+msgid "Enable Siri remote timeout"
 msgstr ""
 
 msgctxt "#24161"
-msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
+msgid "Enable remote input timeout for tap/swipe"
 msgstr ""
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
+msgstr ""
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr ""
 
 # empty string with id 24163
@@ -12898,12 +12842,6 @@ msgstr ""
 #. used in #24180 - #24183 as {3:s}
 msgctxt "#24184"
 msgid " (optional)"
-msgstr ""
-
-#. The minimum version, only lower versions are available for install
-#. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
-msgctxt "#24185"
-msgid "Minimum: {0:s} / Not available{3:s}"
 msgstr ""
 
 # empty strings from id 24186 to 24990
@@ -13036,7 +12974,7 @@ msgstr ""
 # empty strings from id 29806 to 29899
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
-msgid "RadioText Plus info"
+msgid "Radiotext Plus info"
 msgstr ""
 
 #. Music band name which make the song (if present)
@@ -13803,18 +13741,6 @@ msgstr "MPEG-4 audio (FFmpeg M4A AAC)"
 msgctxt "#34007"
 msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows media audio 2 (FFmpeg wmav2)"
-
-msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
-
-msgctxt "#34009"
-msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
-
-msgctxt "#34010"
-msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14904,12 +14830,6 @@ msgctxt "#36050"
 msgid "On start"
 msgstr ""
 
-# empty strings from id 36051 to 36097
-#. Label of setting "System / Display / Use 10 bit for SDR"
-msgctxt "#36098"
-msgid "Use 10 bit for SDR"
-msgstr ""
-
 # empty strings from id 36051 to 36098
 msgctxt "#36099"
 msgid "Dithering"
@@ -15372,8 +15292,8 @@ msgstr "Atlasīt pielāgotu direktoriju subtitriem. Tas var būt failu koplietoj
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr ""
+msgid "Location of subtitles on the screen."
+msgstr "Subtitru atrašanās vieta uz ekrāna."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15444,7 +15364,7 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Instruēt galasistēmu meklēt kanālus (ja atbalsta)."
 
 msgctxt "#36209"
-msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
 msgstr ""
 
 msgctxt "#36210"
@@ -16489,9 +16409,7 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Rāda notikumu žunālā visus pašreizējā profila notikumus, ar opciju rādīt tikai norādītos līmeņus."
 
-#. Description for setting #310: "Virtual keyboard layouts"
-#. Setting in Interface -> Regional -> Virtual keyboard layouts
-#. Select the layout of a virtual keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Virtuālās tastatūras izkārtojumu izvēle."
@@ -16505,13 +16423,10 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr ""
 
-# empty string with id 36435
-#. Description for setting #407: "Hardware keyboard layouts"
-#. Setting in System -> Input -> Hardware keyboard layouts
-#. Select the layout of a physically attached keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36436"
-msgid "Select hardware keyboard layout."
-msgstr ""
+msgid "Select OS keyboard layout."
+msgstr "OS tastatūras izkārtojuma izvēle."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16857,11 +16772,6 @@ msgstr "Pārlūkošanas tabulas izmērs"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Norādiet 3D pārlūkošanas tabulas izšķirtspēju. Izmantojiet zemāku izšķirtspēju ātrai priekšskatīšanai un augstāku izšķirtspēju precīzāka attēla iegūšanai. Augstas izšķirtspējas lietošana var paildzināt parametru maiņu vai jauna video atskaņošanu."
-
-#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
-msgctxt "#36578"
-msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr ""
 
 #. primaries labels
 msgctxt "#36579"
@@ -17371,25 +17281,6 @@ msgstr "Nodaļas sīktēlu izvilkšana rādīšanai nodaļu / grāmatzīmju dial
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
-
-msgctxt "#37047"
-msgid "WS-Discovery"
-msgstr ""
-
-#. Setting #37048 Enable WS-Discovery Service"
-msgctxt "#37048"
-msgid "Enable WS-Discovery Service"
-msgstr ""
-
-#. Description of setting #37048 Enable WS-Discovery Service"
-msgctxt "#37049"
-msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr ""
-
-#. Label for component level debug logging setting
-msgctxt "#37050"
-msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr ""
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18265,56 +18156,3 @@ msgstr ""
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr ""
-
-#. Override ASS / SSA subtitles styles setting list
-msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr ""
-
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39156"
-msgid "Positions"
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39157"
-msgid "Styles"
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39158"
-msgid "Styles and positions"
-msgstr ""
-
-#~ msgctxt "#19186"
-#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-#~ msgstr "Visi ar TV saistītie dati (kanāli, grupas, gids, taimeri, klienti) būs notīrīti. Vai turpināt?"
-
-#~ msgctxt "#19187"
-#~ msgid "Clearing all related data."
-#~ msgstr "Notīra visusu saistītos datus."
-
-#~ msgctxt "#19188"
-#~ msgid "All your guide data will be cleared. Are you sure?"
-#~ msgstr "Visi gida dati būs notīrīti. Vai turpināt?"
-
-#~ msgctxt "#21461"
-#~ msgid "Fixed"
-#~ msgstr "Fiksēts"
-
-#~ msgctxt "#36192"
-#~ msgid "Location of subtitles on the screen."
-#~ msgstr "Subtitru atrašanās vieta uz ekrāna."
-
-#~ msgctxt "#310"
-#~ msgid "Keyboard layouts"
-#~ msgstr "Tastatūras izkārtojumi"
-
-#~ msgctxt "#36436"
-#~ msgid "Select OS keyboard layout."
-#~ msgstr "OS tastatūras izkārtojuma izvēle."

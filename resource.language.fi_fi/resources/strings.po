@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-10-30 20:50+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
@@ -1176,8 +1176,8 @@ msgstr "Käyttöliittymän kieli"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Virtual keyboard layouts"
-msgstr "Virtuaaliset näppäimistöasettelut"
+msgid "Keyboard layouts"
+msgstr "Näppäimistöasettelut"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,10 +1591,6 @@ msgstr "Kastepiste"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Kosteus"
-
-msgctxt "#407"
-msgid "Hardware keyboard layouts"
-msgstr "Laitteiston näppäimistöasettelut"
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3988,15 +3984,6 @@ msgctxt "#2104"
 msgid "Check the log for more information."
 msgstr "Katso lokitiedostosta lisätietoja tästä viestistä."
 
-# empty strings from id 2105 to 2202
-msgctxt "#2203"
-msgid "Use DTS Core"
-msgstr "Käytä DTS Corea"
-
-msgctxt "#2204"
-msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr "Valitse tämä vaihtoehto, jos haluat siirtää DTS-HD-muodot DTS:ksi, muuten DTS-HD-muodot toistetaan PCM:n kautta"
-
 msgctxt "#10000"
 msgid "Home"
 msgstr "Päävalikko"
@@ -4621,17 +4608,6 @@ msgstr "Toista alusta"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Jatka kohdasta {0:s}"
-
-# empty strings from id 12023 to 12307
-#. Label of the show password button in the keyboard dialog
-msgctxt "#12308"
-msgid "Show password"
-msgstr "Näytä salasana"
-
-#. Label of the hide password button in the keyboard dialog
-msgctxt "#12309"
-msgid "Hide password"
-msgstr "Piilota salasana"
 
 msgctxt "#12310"
 msgid "0"
@@ -5738,8 +5714,6 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Renderöintimenetelmä"
 
-#. Value for setting with label #13415 "Player / Videos / Render method"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Automaattinen tunnistus"
@@ -6070,10 +6044,6 @@ msgstr "Aikahypyn viive"
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Apple Remote"
-
-msgctxt "#13601"
-msgid "Apple TV"
-msgstr "Apple TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -7476,7 +7446,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Kanavalogojen kansio"
 
-#. generic label for pvr channels used in different places
+#. label for PVR backend number of channels in system information's PVR section
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kanavat"
@@ -7584,16 +7554,6 @@ msgstr "Haluatko varmasti piilottaa tämän kanavan?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Ajastukset"
-
-#. Label for button to refresh the channel logos
-msgctxt "#19041"
-msgid "Refresh channel logos"
-msgstr "Päivitä kanavien logot"
-
-#. label for PVR backend number of channel groups in system information's PVR section
-msgctxt "#19042"
-msgid "Channel Groups"
-msgstr "Kanavaryhmät"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7718,7 +7678,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "Tallenneasetukset"
 
-#. generic label for the electronic program guide (EPG) used in different places
+#. Electronic program guide
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Ohjelmaopas"
@@ -8089,7 +8049,6 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "Ryhmitelty"
 
-#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Ryhmät"
@@ -8291,18 +8250,18 @@ msgstr "Poista tiedot"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr "Kaikki valitut tiedot poistetaan. Joitakin tietoja ei voida palauttaa jälkikäteen. Jatka silti?"
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "Kaikki tv-ominaisuuteen liittyvät tiedot (kanavat, kanavaryhmät, ajastukset, palvelut) poistetaan. Oletko varma asiasta?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing data."
+msgid "Clearing all related data."
 msgstr "Poistetaan tietoja."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All guide data will be cleared. Are you sure?"
-msgstr "Kaikki oppaan tiedot poistetaan. Oletko varma?"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Kaikki ohjelmatiedot poistetaan. Oletko varma?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8428,7 +8387,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Anna uuden kanavan osoite"
 
-#. generic label for PVR reminders used in different places
+#. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "Muistutukset"
@@ -9020,11 +8979,6 @@ msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Ohjelman 
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
 msgstr "Kanavaa vaihdettiin automaattisesti muistutuksen sulkeutuessa. Kanavan nimi: '{0:s}', aika '{1:s}'"
-
-#. label for PVR backend number of channel providers in system information's PVR section
-msgctxt "#19334"
-msgid "Providers"
-msgstr "Palveluntarjoajat"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -10812,8 +10766,7 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Korvaa tiedostojen nimet kirjaston sisältämillä nimillä"
 
-#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
+#. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#20420"
 msgid "Never"
 msgstr "Ei koskaan"
@@ -10822,8 +10775,6 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Jos samalta kaudelta"
 
-#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Aina"
@@ -11035,10 +10986,6 @@ msgstr "Näytä tyhjät tv-sarjat"
 msgctxt "#20472"
 msgid "Show all performers for music videos"
 msgstr "Näytä musiikkivideoille kaikki esittäjät"
-
-msgctxt "#20473"
-msgid "Premiered"
-msgstr "Ensi-ilta"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -11512,32 +11459,26 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "sekoitettu"
 
-#. Subtitle position on screen setting list
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "Tekstityksen paikka ruudulla"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
-msgid "Manual"
-msgstr "Manuaalinen"
+msgid "Fixed"
+msgstr "Kiinteä"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
 msgid "Bottom of video"
 msgstr "Videon alalaidassa"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
 msgid "Below video"
 msgstr "Videon alapuolella"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
 msgid "Top of video"
 msgstr "Videon ylälaidassa"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "Videon yläpuolella"
@@ -12193,7 +12134,6 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "Palvelut"
 
-#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "PVR-asiakasohjelmat"
@@ -12785,12 +12725,12 @@ msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr "Jos asetus on käytössä, Siri-kaukosäädin toimii normaaliin Apple tvOS -tapaan"
 
 msgctxt "#24154"
-msgid "Consider Siri remote in idle state after N seconds"
-msgstr "Harkitse Sirin kaukosäädintä lepotilassa N sekunnin kuluttua"
+msgid "Idle remote handling after N seconds"
+msgstr "Aseta kaukosäädin lepotilaan, aika sekunteina"
 
 msgctxt "#24155"
-msgid "Time to wait before considering the Siri remote in idle state"
-msgstr "Odotusaika ennenkuin pidetään Sirin kaukosäädintä lepotilassa"
+msgid "After remote idles, the first tap/swipe received will wake it"
+msgstr "Kaukosäädin herää lepotilasta ensimmäisen painalluksen/pyyhkäisyn jälkeen"
 
 msgctxt "#24156"
 msgid "30 Seconds"
@@ -12809,16 +12749,20 @@ msgid "120 Seconds"
 msgstr "120 sekuntia"
 
 msgctxt "#24160"
-msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr "Ohita Siri-kaukosäätimen ensimmäinen napautus/pyyhkäisy/panorointi jonkin aikaa käyttämättömyyden jälkeen"
+msgid "Enable Siri remote timeout"
+msgstr "Käytä Siri-kaukosäätimen aikakatkaisua"
 
 msgctxt "#24161"
-msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr "Tämä estää sinua vahingossa napauttamasta/pyyhkäisemästä/panoroimasta, kun otat kaukosäätimen käteesi"
+msgid "Enable remote input timeout for tap/swipe"
+msgstr "Käytä kaukosäätimen aikakatkaisua painallukselle/pyyhkäisylle"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Käytä Kodin virtuaalinäppäimistöä"
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr "Käytä Apple tvOS:n tapaa (Siri-kaukosäädin)"
 
 #. Header text for yes/no dialog about enable of broken addon
 msgctxt "#24164"
@@ -12888,12 +12832,6 @@ msgstr "Minimi: {0:s} / Asennettu: {1:s} => Päivitetään: {2:s}{3:s}"
 msgctxt "#24184"
 msgid " (optional)"
 msgstr " (valinnainen)"
-
-#. The minimum version, only lower versions are available for install
-#. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
-msgctxt "#24185"
-msgid "Minimum: {0:s} / Not available{3:s}"
-msgstr "Minimi: {0:s} / Ei käytettävissä{3:s}"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -13021,11 +12959,10 @@ msgctxt "#29805"
 msgid "This Blu-ray disc (or file) is encrypted and can't be played."
 msgstr "Tämä Blu-ray-levy (tai tiedosto) on salattu eikä sitä voida toistaa."
 
-# empty strings from id 29806 to 29899
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
-msgid "RadioText Plus info"
-msgstr "RadioText Plus -tiedot"
+msgid "Radiotext Plus info"
+msgstr "Radiotext Plus -tiedot"
 
 #. Music band name which make the song (if present)
 msgctxt "#29901"
@@ -13788,18 +13725,6 @@ msgstr "MPEG-4-ääni (FFmpeg M4A AAC)"
 msgctxt "#34007"
 msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows media audio 2 (FFmpeg wmav2)"
-
-msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr "Kun sinun tarvitsee syöttää jotain tekstiä, Kodin virtuaalinäppäimistö tulee esiin sisäänrakennetun tvOS näppäimistön sijaan"
-
-msgctxt "#34009"
-msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr "Siri kaukosäätimen vaaka eleen herkkyys"
-
-msgctxt "#34010"
-msgid "Siri remote pan gesture vertical sensitivity"
-msgstr "Siri kaukosäätimen pysty eleen herkkyys"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14880,12 +14805,6 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "Toiston alkaessa"
 
-# empty strings from id 36051 to 36097
-#. Label of setting "System / Display / Use 10 bit for SDR"
-msgctxt "#36098"
-msgid "Use 10 bit for SDR"
-msgstr "Käytä 10 bittistä SDR:lle"
-
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Värin koostaminen"
@@ -15347,8 +15266,8 @@ msgstr "Aseta tekstitysten tallennuskansio. Voit käyttää myös verkkosijainti
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "Tekstitysten sijainti näytöllä. [Manuaalinen] Tekstityksen sijaintia voidaan mukauttaa käyttämällä videon kalibrointiasetuksia. [Alla] / [Videon yläpuolella] Tekstitykset sijoitetaan mahdollisuuksien mukaan mustien palkkien sisään (riippuen videokoodauksesta). Huomaa, että joitakin tekstitysten pakotettuja paikkoja ei voi muuttaa."
+msgid "Location of subtitles on the screen."
+msgstr "Määrittää tekstityksen paikan ruudulla."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15419,8 +15338,8 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Käynnistää kanavahaun, jos taustaosa tukee tätä ominaisuuutta."
 
 msgctxt "#36209"
-msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr "Tyhjennä PVR tietojen tietokannat, kuten kanavat, ryhmät, muistutukset ja opas. Huomaa, että kaikkia tietoja ei voi palauttaa taustaosasta jälkikäteen."
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+msgstr "Tyhjentää kanavien ja ohjelmaoppaan tietokannan, minkä jälkeen tiedot haetaan uudelleen taustaosalta."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -16464,9 +16383,7 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Näyttää kaikki tähän käyttäjäprofiiliin liittyvät tapahtumalokin merkinnät. Lokia voi rajoittaa näyttämään eri tasojen tapahtumia."
 
-#. Description for setting #310: "Virtual keyboard layouts"
-#. Setting in Interface -> Regional -> Virtual keyboard layouts
-#. Select the layout of a virtual keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Valitse virtuaalinäppäimistön käyttämät näppäimistöasettelut."
@@ -16480,13 +16397,10 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "Vaihtaa kanavaa muistutuksessa näkyvälle kanavalle automaattisesti, kun ilmoitus sulkeutuu."
 
-# empty string with id 36435
-#. Description for setting #407: "Hardware keyboard layouts"
-#. Setting in System -> Input -> Hardware keyboard layouts
-#. Select the layout of a physically attached keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36436"
-msgid "Select hardware keyboard layout."
-msgstr "Valitse laitteiston näppäimistöasettelu."
+msgid "Select OS keyboard layout."
+msgstr "Valitse käyttöjärjestelmän näppäimistöasettelu."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16832,11 +16746,6 @@ msgstr "Hakutaulukon koko"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Valitse 3D-hakutaulukon resoluutio. Käytä matalaa resoluutiota nopeaa esikatselua varten ja korkeaa resoluutiota tarkempaa kuvaa varten. Korkean resoluution käyttäminen vie enemmän aikaa, kun parametrejä muutetaaan tai videotoisto aloitetaan."
-
-#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
-msgctxt "#36578"
-msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr "Parantaa videon laatua käyttämällä 10-bittisiä videopintoja SDR (Standard Dynamic Range) -videolle.[CR][Automaattinen tunnistus] Ottaa 10 bitin käyttöön SDR: lle vain, jos liitetty näyttö tukee HDR: ää.[CR][Aina] Ottaa käyttöön 10 bitin SDR: lle vaikka liitetty näyttö ei tue HDR: ää.[CR][Ei koskaan] Älä käytä 10-bittistä SDR: ää.[CR]HDR-läpivientitila käyttää aina 10-bittistä asetuksesta riippumatta."
 
 #. primaries labels
 msgctxt "#36579"
@@ -17346,25 +17255,6 @@ msgstr "Luo kappaleiden pienoiskuvat kappaleet/kirjanmerkit-valikkoa varten. Tä
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
-
-msgctxt "#37047"
-msgid "WS-Discovery"
-msgstr "WS-Discovery"
-
-#. Setting #37048 Enable WS-Discovery Service"
-msgctxt "#37048"
-msgid "Enable WS-Discovery Service"
-msgstr "Ota WS-Discovery käyttöön"
-
-#. Description of setting #37048 Enable WS-Discovery Service"
-msgctxt "#37049"
-msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr "Ota palvelu käyttöön hakeaksesi SMB-palveluita WS-Discovery protokollan avulla"
-
-#. Label for component level debug logging setting
-msgctxt "#37050"
-msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr "Monipuolinen lokikirjaus [B]WS-Discovery[/B] komponentille"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18238,87 +18128,159 @@ msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "Ikkunointijärjestelmä:"
 
-#. Override ASS / SSA subtitles styles setting list
-msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr ""
+#~ msgctxt "#310"
+#~ msgid "Virtual keyboard layouts"
+#~ msgstr "Virtuaaliset näppäimistöasettelut"
 
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr "SSA/ASS formaatti voi sisältää metatietoja, kuten kirjasintyylin, värit, koon, kohdistukset, sijainnit jne. Voit ohittaa tyylit mukautuksillasi (huomaa, että joissakin tapauksissa voi esiintyä sivuvaikutuksia)."
+#~ msgctxt "#407"
+#~ msgid "Hardware keyboard layouts"
+#~ msgstr "Laitteiston näppäimistöasettelut"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39156"
-msgid "Positions"
-msgstr "Sijainnit"
+# empty strings from id 2105 to 2202
+#~ msgctxt "#2203"
+#~ msgid "Use DTS Core"
+#~ msgstr "Käytä DTS Corea"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39157"
-msgid "Styles"
-msgstr "Tyylit"
+#~ msgctxt "#2204"
+#~ msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
+#~ msgstr "Valitse tämä vaihtoehto, jos haluat siirtää DTS-HD-muodot DTS:ksi, muuten DTS-HD-muodot toistetaan PCM:n kautta"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39158"
-msgid "Styles and positions"
-msgstr "Tyylit ja sijainnit"
+# empty strings from id 12023 to 12307
+#~ msgctxt "#12308"
+#~ msgid "Show password"
+#~ msgstr "Näytä salasana"
+
+#~ msgctxt "#12309"
+#~ msgid "Hide password"
+#~ msgstr "Piilota salasana"
+
+#~ msgctxt "#13601"
+#~ msgid "Apple TV"
+#~ msgstr "Apple TV"
+
+#~ msgctxt "#19041"
+#~ msgid "Refresh channel logos"
+#~ msgstr "Päivitä kanavien logot"
+
+#~ msgctxt "#19042"
+#~ msgid "Channel Groups"
+#~ msgstr "Kanavaryhmät"
 
 #~ msgctxt "#19186"
-#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-#~ msgstr "Kaikki tv-ominaisuuteen liittyvät tiedot (kanavat, kanavaryhmät, ajastukset, palvelut) poistetaan. Oletko varma asiasta?"
+#~ msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
+#~ msgstr "Kaikki valitut tiedot poistetaan. Joitakin tietoja ei voida palauttaa jälkikäteen. Jatka silti?"
 
 #~ msgctxt "#19187"
-#~ msgid "Clearing all related data."
+#~ msgid "Clearing data."
 #~ msgstr "Poistetaan tietoja."
 
 #~ msgctxt "#19188"
-#~ msgid "All your guide data will be cleared. Are you sure?"
-#~ msgstr "Kaikki ohjelmatiedot poistetaan. Oletko varma?"
+#~ msgid "All guide data will be cleared. Are you sure?"
+#~ msgstr "Kaikki oppaan tiedot poistetaan. Oletko varma?"
 
-#~ msgctxt "#36209"
-#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-#~ msgstr "Tyhjentää kanavien ja ohjelmaoppaan tietokannan, minkä jälkeen tiedot haetaan uudelleen taustaosalta."
+#~ msgctxt "#19334"
+#~ msgid "Providers"
+#~ msgstr "Palveluntarjoajat"
+
+#~ msgctxt "#20473"
+#~ msgid "Premiered"
+#~ msgstr "Ensi-ilta"
 
 #~ msgctxt "#21461"
-#~ msgid "Fixed"
-#~ msgstr "Kiinteä"
+#~ msgid "Manual"
+#~ msgstr "Manuaalinen"
+
+#~ msgctxt "#24154"
+#~ msgid "Consider Siri remote in idle state after N seconds"
+#~ msgstr "Harkitse Sirin kaukosäädintä lepotilassa N sekunnin kuluttua"
+
+#~ msgctxt "#24155"
+#~ msgid "Time to wait before considering the Siri remote in idle state"
+#~ msgstr "Odotusaika ennenkuin pidetään Sirin kaukosäädintä lepotilassa"
+
+#~ msgctxt "#24160"
+#~ msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
+#~ msgstr "Ohita Siri-kaukosäätimen ensimmäinen napautus/pyyhkäisy/panorointi jonkin aikaa käyttämättömyyden jälkeen"
+
+#~ msgctxt "#24161"
+#~ msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
+#~ msgstr "Tämä estää sinua vahingossa napauttamasta/pyyhkäisemästä/panoroimasta, kun otat kaukosäätimen käteesi"
+
+#~ msgctxt "#24185"
+#~ msgid "Minimum: {0:s} / Not available{3:s}"
+#~ msgstr "Minimi: {0:s} / Ei käytettävissä{3:s}"
+
+# empty strings from id 29806 to 29899
+#~ msgctxt "#29900"
+#~ msgid "RadioText Plus info"
+#~ msgstr "RadioText Plus -tiedot"
+
+#~ msgctxt "#34008"
+#~ msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
+#~ msgstr "Kun sinun tarvitsee syöttää jotain tekstiä, Kodin virtuaalinäppäimistö tulee esiin sisäänrakennetun tvOS näppäimistön sijaan"
+
+#~ msgctxt "#34009"
+#~ msgid "Siri remote pan gesture horizontal sensitivity"
+#~ msgstr "Siri kaukosäätimen vaaka eleen herkkyys"
+
+#~ msgctxt "#34010"
+#~ msgid "Siri remote pan gesture vertical sensitivity"
+#~ msgstr "Siri kaukosäätimen pysty eleen herkkyys"
+
+# empty strings from id 36051 to 36097
+#~ msgctxt "#36098"
+#~ msgid "Use 10 bit for SDR"
+#~ msgstr "Käytä 10 bittistä SDR:lle"
 
 #~ msgctxt "#36192"
-#~ msgid "Location of subtitles on the screen."
-#~ msgstr "Määrittää tekstityksen paikan ruudulla."
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "Tekstitysten sijainti näytöllä. [Manuaalinen] Tekstityksen sijaintia voidaan mukauttaa käyttämällä videon kalibrointiasetuksia. [Alla] / [Videon yläpuolella] Tekstitykset sijoitetaan mahdollisuuksien mukaan mustien palkkien sisään (riippuen videokoodauksesta). Huomaa, että joitakin tekstitysten pakotettuja paikkoja ei voi muuttaa."
 
-#~ msgctxt "#310"
-#~ msgid "Keyboard layouts"
-#~ msgstr "Näppäimistöasettelut"
+#~ msgctxt "#36209"
+#~ msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
+#~ msgstr "Tyhjennä PVR tietojen tietokannat, kuten kanavat, ryhmät, muistutukset ja opas. Huomaa, että kaikkia tietoja ei voi palauttaa taustaosasta jälkikäteen."
 
+# empty string with id 36435
 #~ msgctxt "#36436"
-#~ msgid "Select OS keyboard layout."
-#~ msgstr "Valitse käyttöjärjestelmän näppäimistöasettelu."
+#~ msgid "Select hardware keyboard layout."
+#~ msgstr "Valitse laitteiston näppäimistöasettelu."
+
+#~ msgctxt "#36578"
+#~ msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+#~ msgstr "Parantaa videon laatua käyttämällä 10-bittisiä videopintoja SDR (Standard Dynamic Range) -videolle.[CR][Automaattinen tunnistus] Ottaa 10 bitin käyttöön SDR: lle vain, jos liitetty näyttö tukee HDR: ää.[CR][Aina] Ottaa käyttöön 10 bitin SDR: lle vaikka liitetty näyttö ei tue HDR: ää.[CR][Ei koskaan] Älä käytä 10-bittistä SDR: ää.[CR]HDR-läpivientitila käyttää aina 10-bittistä asetuksesta riippumatta."
+
+#~ msgctxt "#37047"
+#~ msgid "WS-Discovery"
+#~ msgstr "WS-Discovery"
+
+#~ msgctxt "#37048"
+#~ msgid "Enable WS-Discovery Service"
+#~ msgstr "Ota WS-Discovery käyttöön"
+
+#~ msgctxt "#37049"
+#~ msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+#~ msgstr "Ota palvelu käyttöön hakeaksesi SMB-palveluita WS-Discovery protokollan avulla"
+
+#~ msgctxt "#37050"
+#~ msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+#~ msgstr "Monipuolinen lokikirjaus [B]WS-Discovery[/B] komponentille"
+
+#~ msgctxt "#39155"
+#~ msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
+#~ msgstr "SSA/ASS formaatti voi sisältää metatietoja, kuten kirjasintyylin, värit, koon, kohdistukset, sijainnit jne. Voit ohittaa tyylit mukautuksillasi (huomaa, että joissakin tapauksissa voi esiintyä sivuvaikutuksia)."
+
+#~ msgctxt "#39156"
+#~ msgid "Positions"
+#~ msgstr "Sijainnit"
+
+#~ msgctxt "#39157"
+#~ msgid "Styles"
+#~ msgstr "Tyylit"
+
+#~ msgctxt "#39158"
+#~ msgid "Styles and positions"
+#~ msgstr "Tyylit ja sijainnit"
 
 #~ msgctxt "#36284"
 #~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
 #~ msgstr "Hakee CD-levyn tiedot, kuten kappaleen nimen ja esittäjän, internetin freedb.org-tietokannasta."
-
-#~ msgctxt "#29900"
-#~ msgid "Radiotext Plus info"
-#~ msgstr "Radiotext Plus -tiedot"
-
-#~ msgctxt "#24154"
-#~ msgid "Idle remote handling after N seconds"
-#~ msgstr "Aseta kaukosäädin lepotilaan, aika sekunteina"
-
-#~ msgctxt "#24155"
-#~ msgid "After remote idles, the first tap/swipe received will wake it"
-#~ msgstr "Kaukosäädin herää lepotilasta ensimmäisen painalluksen/pyyhkäisyn jälkeen"
-
-#~ msgctxt "#24160"
-#~ msgid "Enable Siri remote timeout"
-#~ msgstr "Käytä Siri-kaukosäätimen aikakatkaisua"
-
-#~ msgctxt "#24161"
-#~ msgid "Enable remote input timeout for tap/swipe"
-#~ msgstr "Käytä kaukosäätimen aikakatkaisua painallukselle/pyyhkäisylle"
-
-#~ msgctxt "#24163"
-#~ msgid "Match Apple tvOS Standard (Siri remote)"
-#~ msgstr "Käytä Apple tvOS:n tapaa (Siri-kaukosäädin)"

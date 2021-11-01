@@ -1176,8 +1176,8 @@ msgstr "Taal van de gebruikersinterface"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Virtual keyboard layouts"
-msgstr ""
+msgid "Keyboard layouts"
+msgstr "Toetsenbordindelingen"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,10 +1591,6 @@ msgstr "Dauwpunt"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Vochtigheid"
-
-msgctxt "#407"
-msgid "Hardware keyboard layouts"
-msgstr ""
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3990,15 +3986,6 @@ msgctxt "#2104"
 msgid "Check the log for more information."
 msgstr "Controleer het log voor meer informatie."
 
-# empty strings from id 2105 to 2202
-msgctxt "#2203"
-msgid "Use DTS Core"
-msgstr "Gebruik DTS core"
-
-msgctxt "#2204"
-msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr "Kies deze optie als je passthrough DTS-HD formats als DTS wilt, anders zal DTS-HD als PCM afgespeeld worden."
-
 msgctxt "#10000"
 msgid "Home"
 msgstr "Beginscherm"
@@ -4623,17 +4610,6 @@ msgstr "Afspelen vanaf het begin"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Hervatten vanaf {0:s}"
-
-# empty strings from id 12023 to 12307
-#. Label of the show password button in the keyboard dialog
-msgctxt "#12308"
-msgid "Show password"
-msgstr "Toon wachtwoord"
-
-#. Label of the hide password button in the keyboard dialog
-msgctxt "#12309"
-msgid "Hide password"
-msgstr "Verberg wachtwoord"
 
 msgctxt "#12310"
 msgid "0"
@@ -5740,8 +5716,6 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Rendermethode"
 
-#. Value for setting with label #13415 "Player / Videos / Render method"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Automatisch detecteren"
@@ -6072,10 +6046,6 @@ msgstr "Vertraging overslaan"
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Apple Remote"
-
-msgctxt "#13601"
-msgid "Apple TV"
-msgstr "Apple TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -7478,7 +7448,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Folder met kanaaliconen"
 
-#. generic label for pvr channels used in different places
+#. label for PVR backend number of channels in system information's PVR section
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kanalen"
@@ -7586,16 +7556,6 @@ msgstr "Weet u zeker dat u dit kanaal wilt verbergen?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Timers"
-
-#. Label for button to refresh the channel logos
-msgctxt "#19041"
-msgid "Refresh channel logos"
-msgstr ""
-
-#. label for PVR backend number of channel groups in system information's PVR section
-msgctxt "#19042"
-msgid "Channel Groups"
-msgstr ""
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7720,7 +7680,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "Opname instellingen"
 
-#. generic label for the electronic program guide (EPG) used in different places
+#. Electronic program guide
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Gids"
@@ -8091,7 +8051,6 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "Gegroepeerd"
 
-#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Groepen"
@@ -8293,18 +8252,18 @@ msgstr "Wissen gegevens"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr ""
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "Al uw tv-gerelateerde gegevens (kanalen, groepen, gids, timers, klanten) worden gewist. Weet je het zeker?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing data."
-msgstr ""
+msgid "Clearing all related data."
+msgstr "Opruimen van alle gerelateerde gegevens."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All guide data will be cleared. Are you sure?"
-msgstr ""
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Al je gidsgegevens worden gewist. Weet je het zeker?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8430,7 +8389,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Voer een geldige URL in voor het kanaal"
 
-#. generic label for PVR reminders used in different places
+#. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "Herinneringen"
@@ -9022,11 +8981,6 @@ msgstr "Geschakeld naar kanaal voor auto-sluitende PVR herinnering voor '{0:s}' 
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
 msgstr "Geschakeld naar kanaal voor auto-sluitende PVR herinnering op kanaal '{0:s}' om '{1:s}'"
-
-#. label for PVR backend number of channel providers in system information's PVR section
-msgctxt "#19334"
-msgid "Providers"
-msgstr ""
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -10814,8 +10768,7 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Vervang bestandsnamen met bibliotheektitels"
 
-#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
+#. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#20420"
 msgid "Never"
 msgstr "Nooit"
@@ -10824,8 +10777,6 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Alleen indien één seizoen"
 
-#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Altijd"
@@ -11037,10 +10988,6 @@ msgstr "Toon lege tv-programma's"
 msgctxt "#20472"
 msgid "Show all performers for music videos"
 msgstr "Toon alle artiesten bij muziekvideo's"
-
-msgctxt "#20473"
-msgid "Premiered"
-msgstr "In première gegaan"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -11514,32 +11461,26 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "gemixed"
 
-#. Subtitle position on screen setting list
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "Ondertitelpositie op het scherm"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
-msgid "Manual"
-msgstr ""
+msgid "Fixed"
+msgstr "Vast"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
 msgid "Bottom of video"
 msgstr "Onderaan video"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
 msgid "Below video"
 msgstr "Onder video"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
 msgid "Top of video"
 msgstr "Bovenaan video"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "Boven video"
@@ -12195,7 +12136,6 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "Diensten"
 
-#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "PVR-cliënten"
@@ -12787,12 +12727,12 @@ msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr "Schakel dit in om ervoor te zorgen dat de Siri-afstandsbediening overeenkomt met het normale Apple tvOS-gedrag"
 
 msgctxt "#24154"
-msgid "Consider Siri remote in idle state after N seconds"
-msgstr "Beschouw Siri remote als idle na N seconden"
+msgid "Idle remote handling after N seconds"
+msgstr "Inactieve bediening op afstand na N seconden"
 
 msgctxt "#24155"
-msgid "Time to wait before considering the Siri remote in idle state"
-msgstr "Tijd voordat Siri idle is"
+msgid "After remote idles, the first tap/swipe received will wake it"
+msgstr "Na inactiviteit op afstand zal de eerste tik / veeg die wordt ontvangen hem wakker maken"
 
 msgctxt "#24156"
 msgid "30 Seconds"
@@ -12811,16 +12751,20 @@ msgid "120 Seconds"
 msgstr "120 seconden"
 
 msgctxt "#24160"
-msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr ""
+msgid "Enable Siri remote timeout"
+msgstr "Schakel Siri remote timeout in"
 
 msgctxt "#24161"
-msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr ""
+msgid "Enable remote input timeout for tap/swipe"
+msgstr "Schakel timeout voor invoer op afstand in voor tap/swipe"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Gebruik virtueel toetsenbord van Kodi"
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr "Voldoe aan Apple tvOS Standaard (Siri remote)"
 
 #. Header text for yes/no dialog about enable of broken addon
 msgctxt "#24164"
@@ -12890,12 +12834,6 @@ msgstr "Minimum: {0:s} / Geinstalleerd: {1:s} => Update naar: {2:s}{3:s}"
 msgctxt "#24184"
 msgid " (optional)"
 msgstr " (optioneel)"
-
-#. The minimum version, only lower versions are available for install
-#. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
-msgctxt "#24185"
-msgid "Minimum: {0:s} / Not available{3:s}"
-msgstr "Minimum: {0:s} / Niet beschikbaar{3:s}"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -13023,11 +12961,10 @@ msgctxt "#29805"
 msgid "This Blu-ray disc (or file) is encrypted and can't be played."
 msgstr "Deze Blu-ray disc (of bestand) is encrypted en kan niet worden afgespeeld."
 
-# empty strings from id 29806 to 29899
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
-msgid "RadioText Plus info"
-msgstr "RadioText Plus-informatie"
+msgid "Radiotext Plus info"
+msgstr "Radiotext Plus-informatie"
 
 #. Music band name which make the song (if present)
 msgctxt "#29901"
@@ -13790,18 +13727,6 @@ msgstr "MPEG-4 audio (FFmpeg M4A AAC)"
 msgctxt "#34007"
 msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows media audio 2 (FFmpeg wmav2)"
-
-msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
-
-msgctxt "#34009"
-msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
-
-msgctxt "#34010"
-msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14882,12 +14807,6 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "Bij starten"
 
-# empty strings from id 36051 to 36097
-#. Label of setting "System / Display / Use 10 bit for SDR"
-msgctxt "#36098"
-msgid "Use 10 bit for SDR"
-msgstr "Gebruik 10 bit voor SDR"
-
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Dithering"
@@ -15349,8 +15268,8 @@ msgstr "Instellen van een andere folder voor ondertiteling. Dit mag een netwerkl
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr ""
+msgid "Location of subtitles on the screen."
+msgstr "Plaatsing van de ondertiteling op het scherm."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15421,8 +15340,8 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Geef de back-end de opdracht om kanalen te zoeken (indien ondersteund)."
 
 msgctxt "#36209"
-msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr ""
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+msgstr "Verwijder databases van kanalen en gidsen en herimporteer de data van de server daarna."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -16466,9 +16385,7 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Toont alle gebeurtenissen in de gebeurtenissenregistratie voor het huidige profiel met opties om enkel specifieke niveaus te tonen."
 
-#. Description for setting #310: "Virtual keyboard layouts"
-#. Setting in Interface -> Regional -> Virtual keyboard layouts
-#. Select the layout of a virtual keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Selecteer virtuele toetsenbordlayouts."
@@ -16482,13 +16399,10 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr ""
 
-# empty string with id 36435
-#. Description for setting #407: "Hardware keyboard layouts"
-#. Setting in System -> Input -> Hardware keyboard layouts
-#. Select the layout of a physically attached keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36436"
-msgid "Select hardware keyboard layout."
-msgstr ""
+msgid "Select OS keyboard layout."
+msgstr "Kies de OS-toetsenbordindeling."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16834,11 +16748,6 @@ msgstr "Lookup tabelgrootte"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Specificeer de resolutie voor de 3d lookuptabel. Gebruik een lagere resolutie voor een snel voorbeeld en een hogere resolutie voor een nauwkeuriger beeld. Gebruik van een hoge resolutie kan langer duren wanneer de parameters worden gewijzigd of een nieuwe video wordt gestart."
-
-#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
-msgctxt "#36578"
-msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr ""
 
 #. primaries labels
 msgctxt "#36579"
@@ -17348,25 +17257,6 @@ msgstr "Uitpakken hoofdstukminiaturen voor presentatie in hoofdstukken / bladwij
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
-
-msgctxt "#37047"
-msgid "WS-Discovery"
-msgstr ""
-
-#. Setting #37048 Enable WS-Discovery Service"
-msgctxt "#37048"
-msgid "Enable WS-Discovery Service"
-msgstr ""
-
-#. Description of setting #37048 Enable WS-Discovery Service"
-msgctxt "#37049"
-msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr ""
-
-#. Label for component level debug logging setting
-msgctxt "#37050"
-msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr ""
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18241,87 +18131,54 @@ msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "Windowing system:"
 
-#. Override ASS / SSA subtitles styles setting list
-msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr ""
+# empty strings from id 2105 to 2202
+#~ msgctxt "#2203"
+#~ msgid "Use DTS Core"
+#~ msgstr "Gebruik DTS core"
 
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+#~ msgctxt "#2204"
+#~ msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
+#~ msgstr "Kies deze optie als je passthrough DTS-HD formats als DTS wilt, anders zal DTS-HD als PCM afgespeeld worden."
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39156"
-msgid "Positions"
-msgstr ""
+# empty strings from id 12023 to 12307
+#~ msgctxt "#12308"
+#~ msgid "Show password"
+#~ msgstr "Toon wachtwoord"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39157"
-msgid "Styles"
-msgstr ""
+#~ msgctxt "#12309"
+#~ msgid "Hide password"
+#~ msgstr "Verberg wachtwoord"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39158"
-msgid "Styles and positions"
-msgstr ""
+#~ msgctxt "#13601"
+#~ msgid "Apple TV"
+#~ msgstr "Apple TV"
 
-#~ msgctxt "#19186"
-#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-#~ msgstr "Al uw tv-gerelateerde gegevens (kanalen, groepen, gids, timers, klanten) worden gewist. Weet je het zeker?"
+#~ msgctxt "#20473"
+#~ msgid "Premiered"
+#~ msgstr "In première gegaan"
 
-#~ msgctxt "#19187"
-#~ msgid "Clearing all related data."
-#~ msgstr "Opruimen van alle gerelateerde gegevens."
+#~ msgctxt "#24154"
+#~ msgid "Consider Siri remote in idle state after N seconds"
+#~ msgstr "Beschouw Siri remote als idle na N seconden"
 
-#~ msgctxt "#19188"
-#~ msgid "All your guide data will be cleared. Are you sure?"
-#~ msgstr "Al je gidsgegevens worden gewist. Weet je het zeker?"
+#~ msgctxt "#24155"
+#~ msgid "Time to wait before considering the Siri remote in idle state"
+#~ msgstr "Tijd voordat Siri idle is"
 
-#~ msgctxt "#36209"
-#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-#~ msgstr "Verwijder databases van kanalen en gidsen en herimporteer de data van de server daarna."
+#~ msgctxt "#24185"
+#~ msgid "Minimum: {0:s} / Not available{3:s}"
+#~ msgstr "Minimum: {0:s} / Niet beschikbaar{3:s}"
 
-#~ msgctxt "#21461"
-#~ msgid "Fixed"
-#~ msgstr "Vast"
+# empty strings from id 29806 to 29899
+#~ msgctxt "#29900"
+#~ msgid "RadioText Plus info"
+#~ msgstr "RadioText Plus-informatie"
 
-#~ msgctxt "#36192"
-#~ msgid "Location of subtitles on the screen."
-#~ msgstr "Plaatsing van de ondertiteling op het scherm."
-
-#~ msgctxt "#310"
-#~ msgid "Keyboard layouts"
-#~ msgstr "Toetsenbordindelingen"
-
-#~ msgctxt "#36436"
-#~ msgid "Select OS keyboard layout."
-#~ msgstr "Kies de OS-toetsenbordindeling."
+# empty strings from id 36051 to 36097
+#~ msgctxt "#36098"
+#~ msgid "Use 10 bit for SDR"
+#~ msgstr "Gebruik 10 bit voor SDR"
 
 #~ msgctxt "#36284"
 #~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
 #~ msgstr "Lees de informatie van een audiocd, zoals nummer, titel en artiest, van de freedb.org internetdatabase."
-
-#~ msgctxt "#29900"
-#~ msgid "Radiotext Plus info"
-#~ msgstr "Radiotext Plus-informatie"
-
-#~ msgctxt "#24154"
-#~ msgid "Idle remote handling after N seconds"
-#~ msgstr "Inactieve bediening op afstand na N seconden"
-
-#~ msgctxt "#24155"
-#~ msgid "After remote idles, the first tap/swipe received will wake it"
-#~ msgstr "Na inactiviteit op afstand zal de eerste tik / veeg die wordt ontvangen hem wakker maken"
-
-#~ msgctxt "#24160"
-#~ msgid "Enable Siri remote timeout"
-#~ msgstr "Schakel Siri remote timeout in"
-
-#~ msgctxt "#24161"
-#~ msgid "Enable remote input timeout for tap/swipe"
-#~ msgstr "Schakel timeout voor invoer op afstand in voor tap/swipe"
-
-#~ msgctxt "#24163"
-#~ msgid "Match Apple tvOS Standard (Siri remote)"
-#~ msgstr "Voldoe aan Apple tvOS Standaard (Siri remote)"
