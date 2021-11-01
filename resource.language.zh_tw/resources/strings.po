@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-10-30 20:20+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
@@ -1176,8 +1176,8 @@ msgstr "使用者介面語言"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Virtual keyboard layouts"
-msgstr "虛擬鍵盤佈局"
+msgid "Keyboard layouts"
+msgstr "鍵盤佈局"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,10 +1591,6 @@ msgstr "露點"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "濕度"
-
-msgctxt "#407"
-msgid "Hardware keyboard layouts"
-msgstr "實體鍵盤佈局"
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3990,15 +3986,6 @@ msgctxt "#2104"
 msgid "Check the log for more information."
 msgstr "更多資訊請查看日誌檔。"
 
-# empty strings from id 2105 to 2202
-msgctxt "#2203"
-msgid "Use DTS Core"
-msgstr "使用DTS Core"
-
-msgctxt "#2204"
-msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr "如果您要將DTS-HD的訊號直通為DTS，則可選擇此選項，否則會以PCM的格式播放DTS-HD的訊號"
-
 msgctxt "#10000"
 msgid "Home"
 msgstr "首頁"
@@ -4623,17 +4610,6 @@ msgstr "從頭開始播放"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "從 {0:s} 繼續"
-
-# empty strings from id 12023 to 12307
-#. Label of the show password button in the keyboard dialog
-msgctxt "#12308"
-msgid "Show password"
-msgstr "顯示密碼"
-
-#. Label of the hide password button in the keyboard dialog
-msgctxt "#12309"
-msgid "Hide password"
-msgstr "遮蔽密碼"
 
 msgctxt "#12310"
 msgid "0"
@@ -5740,8 +5716,6 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "渲染模式"
 
-#. Value for setting with label #13415 "Player / Videos / Render method"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "自動偵測"
@@ -6072,10 +6046,6 @@ msgstr "略過延遲"
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Apple 遙控器"
-
-msgctxt "#13601"
-msgid "Apple TV"
-msgstr "Apple TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -7478,7 +7448,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "頻道圖示的資料夾"
 
-#. generic label for pvr channels used in different places
+#. label for PVR backend number of channels in system information's PVR section
 msgctxt "#19019"
 msgid "Channels"
 msgstr "頻道"
@@ -7586,16 +7556,6 @@ msgstr "您確定要隱藏這個頻道嗎？"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "定時"
-
-#. Label for button to refresh the channel logos
-msgctxt "#19041"
-msgid "Refresh channel logos"
-msgstr "刷新頻道標誌"
-
-#. label for PVR backend number of channel groups in system information's PVR section
-msgctxt "#19042"
-msgid "Channel Groups"
-msgstr "頻道群組"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7720,7 +7680,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "錄影設定"
 
-#. generic label for the electronic program guide (EPG) used in different places
+#. Electronic program guide
 msgctxt "#19069"
 msgid "Guide"
 msgstr "節目表"
@@ -8091,7 +8051,6 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "已加入群組"
 
-#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "群組"
@@ -8293,18 +8252,18 @@ msgstr "清除資料"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr "所有被選取的資料都會被清除。之後將無法再從客戶端取得部份訊息。您仍要執行嗎？"
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "所有的電視節目相關資料(頻道、群組、節目表、定時器、終端服務)都會被清除。你確定嗎？"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing data."
-msgstr "清除資料中。"
+msgid "Clearing all related data."
+msgstr "清除所有相關的數據。"
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All guide data will be cleared. Are you sure?"
-msgstr "所有指南資料將會被清除。您確定嗎？"
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "您全部的節目表資料都將被清除。您確定嗎？"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8430,7 +8389,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "輸入新頻道的有效 URL"
 
-#. generic label for PVR reminders used in different places
+#. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "提醒通知"
@@ -9022,11 +8981,6 @@ msgstr "已依自動關閉式PVR提示，切換至定時於'{2:s}'於'{1:s}'頻�
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
 msgstr "已依自動關閉式PVR提示，切換至定時於'{1:s}'於'{0:s}'頻道"
-
-#. label for PVR backend number of channel providers in system information's PVR section
-msgctxt "#19334"
-msgid "Providers"
-msgstr "提供者"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -10814,8 +10768,7 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "在檔案檢視中顯示媒體資訊"
 
-#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
+#. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#20420"
 msgid "Never"
 msgstr "從不"
@@ -10824,8 +10777,6 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "如果只有一季"
 
-#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "總是"
@@ -11037,10 +10988,6 @@ msgstr "顯示空的電視劇"
 msgctxt "#20472"
 msgid "Show all performers for music videos"
 msgstr "顯示音樂影片中的所有演出者"
-
-msgctxt "#20473"
-msgid "Premiered"
-msgstr "首映"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -11514,32 +11461,26 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "混合"
 
-#. Subtitle position on screen setting list
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "字幕在螢幕上的位置"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
-msgid "Manual"
-msgstr "手動"
+msgid "Fixed"
+msgstr "固定"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
 msgid "Bottom of video"
 msgstr "影片底部"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
 msgid "Below video"
 msgstr "影片之下"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
 msgid "Top of video"
 msgstr "影片頂部"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "影片之上"
@@ -12195,7 +12136,6 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "服務"
 
-#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "PVR 用戶端"
@@ -12787,12 +12727,12 @@ msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr "使Siri遙控功能對應常規的Apple tvOS動作"
 
 msgctxt "#24154"
-msgid "Consider Siri remote in idle state after N seconds"
-msgstr "在N秒後讓Siri遙控器進入閒置狀態"
+msgid "Idle remote handling after N seconds"
+msgstr "N 秒後將遙控器待機"
 
 msgctxt "#24155"
-msgid "Time to wait before considering the Siri remote in idle state"
-msgstr "讓Siri遙控器進入待機狀態之前的等待時間"
+msgid "After remote idles, the first tap/swipe received will wake it"
+msgstr "遙控器進入待機狀態後，接收到點或滑的動作將會喚醒它"
 
 msgctxt "#24156"
 msgid "30 Seconds"
@@ -12811,16 +12751,20 @@ msgid "120 Seconds"
 msgstr "120秒"
 
 msgctxt "#24160"
-msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr "忽略Siri遙控器在靜置一段時間後的第一次動作"
+msgid "Enable Siri remote timeout"
+msgstr "啟用Siri遙控逾時"
 
 msgctxt "#24161"
-msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr "這可防止您手持遙控器時發生誤操作"
+msgid "Enable remote input timeout for tap/swipe"
+msgstr "啟用 點/滑 手勢遙控輸入逾時"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "使用Kodi虛擬鍵盤"
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr "對應Apple tvOS標準(Siri 遙控)"
 
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken addon
@@ -12893,12 +12837,6 @@ msgstr "最低：{0:s} / 已安裝：{1:s} => 更新到：{2:s}{3:s}"
 msgctxt "#24184"
 msgid " (optional)"
 msgstr " （選用）"
-
-#. The minimum version, only lower versions are available for install
-#. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
-msgctxt "#24185"
-msgid "Minimum: {0:s} / Not available{3:s}"
-msgstr "最低：{0:s} / 不可用{3:s}"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -13026,11 +12964,10 @@ msgctxt "#29805"
 msgid "This Blu-ray disc (or file) is encrypted and can't be played."
 msgstr "此藍光片(或檔案)已被加密，無法播放。"
 
-# empty strings from id 29806 to 29899
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
-msgid "RadioText Plus info"
-msgstr "RadioText Plus 資訊"
+msgid "Radiotext Plus info"
+msgstr "Radiotext Plus 資訊"
 
 #. Music band name which make the song (if present)
 msgctxt "#29901"
@@ -13793,18 +13730,6 @@ msgstr "MPEG-4 音效 (FFmpeg M4A AAC)"
 msgctxt "#34007"
 msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows 媒體音效 2 (FFmpeg wmav2)"
-
-msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr "當您需要輸入一些文字時，將會顯示Kodi虛擬鍵盤而不是內建的tvOS鍵盤"
-
-msgctxt "#34009"
-msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr "Siri遙控器水平手勢靈敏度"
-
-msgctxt "#34010"
-msgid "Siri remote pan gesture vertical sensitivity"
-msgstr "Siri遙控器垂直手勢靈敏度"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14888,12 +14813,6 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "在開始時"
 
-# empty strings from id 36051 to 36097
-#. Label of setting "System / Display / Use 10 bit for SDR"
-msgctxt "#36098"
-msgid "Use 10 bit for SDR"
-msgstr "SDR使用10位元"
-
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "抖色"
@@ -15355,8 +15274,8 @@ msgstr "自訂存放字幕的資料夾。它可以是一個分享資料夾。"
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "字幕在螢幕上的位置。[手動]可使用影片校正設定來自定字幕位置。[影片下方]/[影片上方]盡可能將字幕限位在黑條內(取決於影片編碼方式)。請注意，部分在字幕中所設定的位置無法更動。"
+msgid "Location of subtitles on the screen."
+msgstr "字幕在螢幕中的位置。"
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15427,8 +15346,8 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "下達掃描頻道的指令給後端 (如果後端支援的話)。"
 
 msgctxt "#36209"
-msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr "清除資料庫中的PVR資料如頻道、群組、提示與節目表。請注意，不是所有資料都可以在事後從後端恢復。"
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+msgstr "刪除頻道及節目表等資料庫項目，然後從後端重新匯入資料。"
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -16472,9 +16391,7 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "顯示在目前設定檔所屬事件記錄檔中所有的事件，附加可設定顯示特定層級的選項。"
 
-#. Description for setting #310: "Virtual keyboard layouts"
-#. Setting in Interface -> Regional -> Virtual keyboard layouts
-#. Select the layout of a virtual keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "選擇虛擬鍵盤的佈局。"
@@ -16488,13 +16405,10 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "如果啟用，則在自動關閉提醒顯示時，切換到提示所指定的節目頻道。"
 
-# empty string with id 36435
-#. Description for setting #407: "Hardware keyboard layouts"
-#. Setting in System -> Input -> Hardware keyboard layouts
-#. Select the layout of a physically attached keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36436"
-msgid "Select hardware keyboard layout."
-msgstr "選擇硬體鍵盤佈局。"
+msgid "Select OS keyboard layout."
+msgstr "選擇作業系統鍵盤佈局。"
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16840,11 +16754,6 @@ msgstr "演色表大小"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "定義3D LUT的解析度。較低解析度可加快預覽的速度，反之則可得到較精確的圖像。相關數據變更或新的影片開始播放時，使用高解析度可能會花幾秒時間作準備。"
-
-#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
-msgctxt "#36578"
-msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr "使用10位元視訊表面處理來為標準動態範圍(SDR)影片提高畫質。[CR][自動偵測]僅在連接的顯示器支援HDR時才為SDR啟用10位元。[CR][總是使用]即使連接的顯示器不支援HDR也照樣使用。[CR][不使用]不為SDR使用10位元。[CR]不論此設定為何，HDR直通模式會始終使用10位元。"
 
 #. primaries labels
 msgctxt "#36579"
@@ -17354,25 +17263,6 @@ msgstr "將章節中的縮圖粹取出來顯示在章節 / 書籤對話框中，
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
-
-msgctxt "#37047"
-msgid "WS-Discovery"
-msgstr "網路服務探索"
-
-#. Setting #37048 Enable WS-Discovery Service"
-msgctxt "#37048"
-msgid "Enable WS-Discovery Service"
-msgstr "啟用網路服務探索"
-
-#. Description of setting #37048 Enable WS-Discovery Service"
-msgctxt "#37049"
-msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr "使用網服探索協議來尋找SMB服務"
-
-#. Label for component level debug logging setting
-msgctxt "#37050"
-msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr "[B]網路服務探索[/B]元件的詳細日誌"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18249,87 +18139,155 @@ msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "視窗系統："
 
-#. Override ASS / SSA subtitles styles setting list
-msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr ""
+#~ msgctxt "#310"
+#~ msgid "Virtual keyboard layouts"
+#~ msgstr "虛擬鍵盤佈局"
 
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+#~ msgctxt "#407"
+#~ msgid "Hardware keyboard layouts"
+#~ msgstr "實體鍵盤佈局"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39156"
-msgid "Positions"
-msgstr "位置"
+# empty strings from id 2105 to 2202
+#~ msgctxt "#2203"
+#~ msgid "Use DTS Core"
+#~ msgstr "使用DTS Core"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39157"
-msgid "Styles"
-msgstr "樣式"
+#~ msgctxt "#2204"
+#~ msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
+#~ msgstr "如果您要將DTS-HD的訊號直通為DTS，則可選擇此選項，否則會以PCM的格式播放DTS-HD的訊號"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39158"
-msgid "Styles and positions"
-msgstr "樣式和位置"
+# empty strings from id 12023 to 12307
+#~ msgctxt "#12308"
+#~ msgid "Show password"
+#~ msgstr "顯示密碼"
+
+#~ msgctxt "#12309"
+#~ msgid "Hide password"
+#~ msgstr "遮蔽密碼"
+
+#~ msgctxt "#13601"
+#~ msgid "Apple TV"
+#~ msgstr "Apple TV"
+
+#~ msgctxt "#19041"
+#~ msgid "Refresh channel logos"
+#~ msgstr "刷新頻道標誌"
+
+#~ msgctxt "#19042"
+#~ msgid "Channel Groups"
+#~ msgstr "頻道群組"
 
 #~ msgctxt "#19186"
-#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-#~ msgstr "所有的電視節目相關資料(頻道、群組、節目表、定時器、終端服務)都會被清除。你確定嗎？"
+#~ msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
+#~ msgstr "所有被選取的資料都會被清除。之後將無法再從客戶端取得部份訊息。您仍要執行嗎？"
 
 #~ msgctxt "#19187"
-#~ msgid "Clearing all related data."
-#~ msgstr "清除所有相關的數據。"
+#~ msgid "Clearing data."
+#~ msgstr "清除資料中。"
 
 #~ msgctxt "#19188"
-#~ msgid "All your guide data will be cleared. Are you sure?"
-#~ msgstr "您全部的節目表資料都將被清除。您確定嗎？"
+#~ msgid "All guide data will be cleared. Are you sure?"
+#~ msgstr "所有指南資料將會被清除。您確定嗎？"
 
-#~ msgctxt "#36209"
-#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-#~ msgstr "刪除頻道及節目表等資料庫項目，然後從後端重新匯入資料。"
+#~ msgctxt "#19334"
+#~ msgid "Providers"
+#~ msgstr "提供者"
+
+#~ msgctxt "#20473"
+#~ msgid "Premiered"
+#~ msgstr "首映"
 
 #~ msgctxt "#21461"
-#~ msgid "Fixed"
-#~ msgstr "固定"
+#~ msgid "Manual"
+#~ msgstr "手動"
+
+#~ msgctxt "#24154"
+#~ msgid "Consider Siri remote in idle state after N seconds"
+#~ msgstr "在N秒後讓Siri遙控器進入閒置狀態"
+
+#~ msgctxt "#24155"
+#~ msgid "Time to wait before considering the Siri remote in idle state"
+#~ msgstr "讓Siri遙控器進入待機狀態之前的等待時間"
+
+#~ msgctxt "#24160"
+#~ msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
+#~ msgstr "忽略Siri遙控器在靜置一段時間後的第一次動作"
+
+#~ msgctxt "#24161"
+#~ msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
+#~ msgstr "這可防止您手持遙控器時發生誤操作"
+
+#~ msgctxt "#24185"
+#~ msgid "Minimum: {0:s} / Not available{3:s}"
+#~ msgstr "最低：{0:s} / 不可用{3:s}"
+
+# empty strings from id 29806 to 29899
+#~ msgctxt "#29900"
+#~ msgid "RadioText Plus info"
+#~ msgstr "RadioText Plus 資訊"
+
+#~ msgctxt "#34008"
+#~ msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
+#~ msgstr "當您需要輸入一些文字時，將會顯示Kodi虛擬鍵盤而不是內建的tvOS鍵盤"
+
+#~ msgctxt "#34009"
+#~ msgid "Siri remote pan gesture horizontal sensitivity"
+#~ msgstr "Siri遙控器水平手勢靈敏度"
+
+#~ msgctxt "#34010"
+#~ msgid "Siri remote pan gesture vertical sensitivity"
+#~ msgstr "Siri遙控器垂直手勢靈敏度"
+
+# empty strings from id 36051 to 36097
+#~ msgctxt "#36098"
+#~ msgid "Use 10 bit for SDR"
+#~ msgstr "SDR使用10位元"
 
 #~ msgctxt "#36192"
-#~ msgid "Location of subtitles on the screen."
-#~ msgstr "字幕在螢幕中的位置。"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "字幕在螢幕上的位置。[手動]可使用影片校正設定來自定字幕位置。[影片下方]/[影片上方]盡可能將字幕限位在黑條內(取決於影片編碼方式)。請注意，部分在字幕中所設定的位置無法更動。"
 
-#~ msgctxt "#310"
-#~ msgid "Keyboard layouts"
-#~ msgstr "鍵盤佈局"
+#~ msgctxt "#36209"
+#~ msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
+#~ msgstr "清除資料庫中的PVR資料如頻道、群組、提示與節目表。請注意，不是所有資料都可以在事後從後端恢復。"
 
+# empty string with id 36435
 #~ msgctxt "#36436"
-#~ msgid "Select OS keyboard layout."
-#~ msgstr "選擇作業系統鍵盤佈局。"
+#~ msgid "Select hardware keyboard layout."
+#~ msgstr "選擇硬體鍵盤佈局。"
+
+#~ msgctxt "#36578"
+#~ msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+#~ msgstr "使用10位元視訊表面處理來為標準動態範圍(SDR)影片提高畫質。[CR][自動偵測]僅在連接的顯示器支援HDR時才為SDR啟用10位元。[CR][總是使用]即使連接的顯示器不支援HDR也照樣使用。[CR][不使用]不為SDR使用10位元。[CR]不論此設定為何，HDR直通模式會始終使用10位元。"
+
+#~ msgctxt "#37047"
+#~ msgid "WS-Discovery"
+#~ msgstr "網路服務探索"
+
+#~ msgctxt "#37048"
+#~ msgid "Enable WS-Discovery Service"
+#~ msgstr "啟用網路服務探索"
+
+#~ msgctxt "#37049"
+#~ msgid "Enable service to search for SMB services using the WS-Discovery protocol"
+#~ msgstr "使用網服探索協議來尋找SMB服務"
+
+#~ msgctxt "#37050"
+#~ msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+#~ msgstr "[B]網路服務探索[/B]元件的詳細日誌"
+
+#~ msgctxt "#39156"
+#~ msgid "Positions"
+#~ msgstr "位置"
+
+#~ msgctxt "#39157"
+#~ msgid "Styles"
+#~ msgstr "樣式"
+
+#~ msgctxt "#39158"
+#~ msgid "Styles and positions"
+#~ msgstr "樣式和位置"
 
 #~ msgctxt "#36284"
 #~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
 #~ msgstr "從網路資料庫freedb.org讀取音樂CD的歌名及演出者名等資料。"
-
-#~ msgctxt "#29900"
-#~ msgid "Radiotext Plus info"
-#~ msgstr "Radiotext Plus 資訊"
-
-#~ msgctxt "#24154"
-#~ msgid "Idle remote handling after N seconds"
-#~ msgstr "N 秒後將遙控器待機"
-
-#~ msgctxt "#24155"
-#~ msgid "After remote idles, the first tap/swipe received will wake it"
-#~ msgstr "遙控器進入待機狀態後，接收到點或滑的動作將會喚醒它"
-
-#~ msgctxt "#24160"
-#~ msgid "Enable Siri remote timeout"
-#~ msgstr "啟用Siri遙控逾時"
-
-#~ msgctxt "#24161"
-#~ msgid "Enable remote input timeout for tap/swipe"
-#~ msgstr "啟用 點/滑 手勢遙控輸入逾時"
-
-#~ msgctxt "#24163"
-#~ msgid "Match Apple tvOS Standard (Siri remote)"
-#~ msgstr "對應Apple tvOS標準(Siri 遙控)"

@@ -1176,8 +1176,8 @@ msgstr "Ngôn ngữ giao diện"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Virtual keyboard layouts"
-msgstr "Bố cục bàn phím ảo"
+msgid "Keyboard layouts"
+msgstr "Sơ đồ bàn phím"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,10 +1591,6 @@ msgstr "Điểm sương"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Độ ẩm"
-
-msgctxt "#407"
-msgid "Hardware keyboard layouts"
-msgstr "Bố cục bàn phím phần cứng"
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3990,15 +3986,6 @@ msgctxt "#2104"
 msgid "Check the log for more information."
 msgstr "Kiểm tra tập tin nhật ký để biết thêm thông tin"
 
-# empty strings from id 2105 to 2202
-msgctxt "#2203"
-msgid "Use DTS Core"
-msgstr ""
-
-msgctxt "#2204"
-msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr "Chọn tùy chọn này nếu bạn muốn passthrough các định dạng DTS-HD thành DTS, nếu không, các định dạng DTS-HD sẽ được phát qua PCM"
-
 msgctxt "#10000"
 msgid "Home"
 msgstr "Màn hình chính"
@@ -4625,17 +4612,6 @@ msgstr "Phát lại từ đầu"
 msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "Tiếp tục từ {0:s}"
-
-# empty strings from id 12023 to 12307
-#. Label of the show password button in the keyboard dialog
-msgctxt "#12308"
-msgid "Show password"
-msgstr "Hiện mật khẩu"
-
-#. Label of the hide password button in the keyboard dialog
-msgctxt "#12309"
-msgid "Hide password"
-msgstr "Ẩn mật khẩu"
 
 msgctxt "#12310"
 msgid "0"
@@ -5743,8 +5719,6 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Phương pháp render"
 
-#. Value for setting with label #13415 "Player / Videos / Render method"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Tự động dò tìm"
@@ -6075,10 +6049,6 @@ msgstr "Độ trễ khi tua"
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Apple Remote"
-
-msgctxt "#13601"
-msgid "Apple TV"
-msgstr "Apple TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -7484,7 +7454,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Thư mục với các biểu tượng kênh"
 
-#. generic label for pvr channels used in different places
+#. label for PVR backend number of channels in system information's PVR section
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kênh"
@@ -7592,16 +7562,6 @@ msgstr "Bạn có chắc chắn muốn ẩn kênh này?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Hẹn giờ"
-
-#. Label for button to refresh the channel logos
-msgctxt "#19041"
-msgid "Refresh channel logos"
-msgstr ""
-
-#. label for PVR backend number of channel groups in system information's PVR section
-msgctxt "#19042"
-msgid "Channel Groups"
-msgstr ""
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7726,7 +7686,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr "Cài đặt ghi âm"
 
-#. generic label for the electronic program guide (EPG) used in different places
+#. Electronic program guide
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Lịch phát sóng"
@@ -8097,7 +8057,6 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr ""
 
-#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Nhóm"
@@ -8299,18 +8258,18 @@ msgstr "Xóa dữ liệu"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr ""
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
+msgstr "Tất cả dữ liệu liên quan đến TV của bạn (kênh, nhóm, epg, bộ hẹn giờ, máy khách) sẽ bị xóa. Bạn có chắc chắn không?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing data."
-msgstr ""
+msgid "Clearing all related data."
+msgstr "Xóa tất cả dữ liệu liên quan."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All guide data will be cleared. Are you sure?"
-msgstr ""
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Tất cả dữ liệu lịch phát sóng của bạn sẽ bị xóa. Bạn có chắc chắn không?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8436,7 +8395,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Nhập một URL hợp lệ cho kênh mới"
 
-#. generic label for PVR reminders used in different places
+#. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
 msgstr "Nhắc nhở"
@@ -9027,11 +8986,6 @@ msgstr ""
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
-
-#. label for PVR backend number of channel providers in system information's PVR section
-msgctxt "#19334"
-msgid "Providers"
 msgstr ""
 
 #. label for epg genre value
@@ -10835,8 +10789,7 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Thay thế tên tập tin bằng tiêu đề thư viện"
 
-#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
+#. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#20420"
 msgid "Never"
 msgstr "Không bao giờ"
@@ -10845,8 +10798,6 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Nếu chỉ một mùa"
 
-#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Luôn luôn"
@@ -11057,10 +11008,6 @@ msgstr "Hiển thị chương trình TV trống"
 
 msgctxt "#20472"
 msgid "Show all performers for music videos"
-msgstr ""
-
-msgctxt "#20473"
-msgid "Premiered"
 msgstr ""
 
 msgctxt "#21330"
@@ -11536,32 +11483,26 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "trộn"
 
-#. Subtitle position on screen setting list
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "Vị trí phụ đề trên màn hình"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
-msgid "Manual"
-msgstr ""
+msgid "Fixed"
+msgstr "Tự tùy chỉnh"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
 msgid "Bottom of video"
 msgstr "Phía dưới của video"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
 msgid "Below video"
 msgstr "Bên dưới video"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
 msgid "Top of video"
 msgstr "Phía trên của video"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "Bên trên video"
@@ -12218,7 +12159,6 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "Dịch vụ"
 
-#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "Máy khách PVR"
@@ -12810,11 +12750,11 @@ msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr "Bật để làm cho điều khiển từ xa Siri khớp với hoạt động bình thường của Apple tvOS"
 
 msgctxt "#24154"
-msgid "Consider Siri remote in idle state after N seconds"
+msgid "Idle remote handling after N seconds"
 msgstr ""
 
 msgctxt "#24155"
-msgid "Time to wait before considering the Siri remote in idle state"
+msgid "After remote idles, the first tap/swipe received will wake it"
 msgstr ""
 
 msgctxt "#24156"
@@ -12834,16 +12774,20 @@ msgid "120 Seconds"
 msgstr "120 giây"
 
 msgctxt "#24160"
-msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
+msgid "Enable Siri remote timeout"
 msgstr ""
 
 msgctxt "#24161"
-msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
+msgid "Enable remote input timeout for tap/swipe"
 msgstr ""
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Sử dụng bàn phím ảo Kodi"
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
+msgstr ""
 
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken addon
@@ -12915,12 +12859,6 @@ msgstr ""
 #. used in #24180 - #24183 as {3:s}
 msgctxt "#24184"
 msgid " (optional)"
-msgstr ""
-
-#. The minimum version, only lower versions are available for install
-#. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
-msgctxt "#24185"
-msgid "Minimum: {0:s} / Not available{3:s}"
 msgstr ""
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
@@ -13052,7 +12990,7 @@ msgstr "Đĩa Blu-ray (hoặc tập tin) này bị mã hóa và không thể ph�
 # empty strings from id 29806 to 29899
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
-msgid "RadioText Plus info"
+msgid "Radiotext Plus info"
 msgstr ""
 
 #. Music band name which make the song (if present)
@@ -13821,18 +13759,6 @@ msgstr "Âm thanh MPEG-4 (FFmpeg M4A AAC)"
 
 msgctxt "#34007"
 msgid "Windows media audio 2 (FFmpeg wmav2)"
-msgstr ""
-
-msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
-
-msgctxt "#34009"
-msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
-
-msgctxt "#34010"
-msgid "Siri remote pan gesture vertical sensitivity"
 msgstr ""
 
 msgctxt "#34100"
@@ -14921,12 +14847,6 @@ msgctxt "#36050"
 msgid "On start"
 msgstr "Khi khởi động"
 
-# empty strings from id 36051 to 36097
-#. Label of setting "System / Display / Use 10 bit for SDR"
-msgctxt "#36098"
-msgid "Use 10 bit for SDR"
-msgstr ""
-
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Phối màu"
@@ -15389,8 +15309,8 @@ msgstr "Đặt thư mục tùy chỉnh cho phụ đề của bạn. Đây có th
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr ""
+msgid "Location of subtitles on the screen."
+msgstr "Vị trí của phụ đề trên màn hình."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15461,8 +15381,8 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Hướng dẫn phụ trợ để tìm kiếm các kênh (nếu được hỗ trợ)."
 
 msgctxt "#36209"
-msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr ""
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+msgstr "Xóa cơ sở dữ liệu cho các kênh và hướng dẫn và nhập lại dữ liệu từ phụ trợ sau đó."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -16506,9 +16426,7 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Hiển thị tất cả sự kiện trong nhật ký sự kiện cho cấu hình hiện tại với các tùy chọn chỉ hiển thị các mức cụ thể."
 
-#. Description for setting #310: "Virtual keyboard layouts"
-#. Setting in Interface -> Regional -> Virtual keyboard layouts
-#. Select the layout of a virtual keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Chọn bố trí bàn phím ảo."
@@ -16522,13 +16440,10 @@ msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr ""
 
-# empty string with id 36435
-#. Description for setting #407: "Hardware keyboard layouts"
-#. Setting in System -> Input -> Hardware keyboard layouts
-#. Select the layout of a physically attached keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36436"
-msgid "Select hardware keyboard layout."
-msgstr "Chọn bố cục bàn phím cứng."
+msgid "Select OS keyboard layout."
+msgstr "Chọn bố trí bàn phím."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16875,11 +16790,6 @@ msgstr ""
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr ""
-
-#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
-msgctxt "#36578"
-msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr "Cải thiện chất lượng video bằng cách sử dụng bề mặt video 10 bit cho video Dải động tiêu chuẩn (SDR).[CR][Tự động phát hiện] Chỉ bật 10 bit cho SDR nếu màn hình được kết nối hỗ trợ HDR.[CR][Luôn luôn] Bật 10 bit cho SDR ngay cả khi màn hình được kết nối không hỗ trợ HDR.[CR][Không bao giờ] Không sử dụng 10 bit cho SDR.[CR]Chế độ passthrough HDR luôn sử dụng 10 bit bất kể cài đặt này là gì."
 
 #. primaries labels
 msgctxt "#36579"
@@ -17390,25 +17300,6 @@ msgstr "Trích xuất hình thu nhỏ của chương để hiển thị trong m�
 msgctxt "#37046"
 msgid "1080"
 msgstr "1080"
-
-msgctxt "#37047"
-msgid "WS-Discovery"
-msgstr ""
-
-#. Setting #37048 Enable WS-Discovery Service"
-msgctxt "#37048"
-msgid "Enable WS-Discovery Service"
-msgstr ""
-
-#. Description of setting #37048 Enable WS-Discovery Service"
-msgctxt "#37049"
-msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr ""
-
-#. Label for component level debug logging setting
-msgctxt "#37050"
-msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr ""
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18285,62 +18176,39 @@ msgctxt "#39153"
 msgid "Windowing system:"
 msgstr ""
 
-#. Override ASS / SSA subtitles styles setting list
-msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr ""
-
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39156"
-msgid "Positions"
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39157"
-msgid "Styles"
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39158"
-msgid "Styles and positions"
-msgstr ""
-
-#~ msgctxt "#19186"
-#~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
-#~ msgstr "Tất cả dữ liệu liên quan đến TV của bạn (kênh, nhóm, epg, bộ hẹn giờ, máy khách) sẽ bị xóa. Bạn có chắc chắn không?"
-
-#~ msgctxt "#19187"
-#~ msgid "Clearing all related data."
-#~ msgstr "Xóa tất cả dữ liệu liên quan."
-
-#~ msgctxt "#19188"
-#~ msgid "All your guide data will be cleared. Are you sure?"
-#~ msgstr "Tất cả dữ liệu lịch phát sóng của bạn sẽ bị xóa. Bạn có chắc chắn không?"
-
-#~ msgctxt "#36209"
-#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-#~ msgstr "Xóa cơ sở dữ liệu cho các kênh và hướng dẫn và nhập lại dữ liệu từ phụ trợ sau đó."
-
-#~ msgctxt "#21461"
-#~ msgid "Fixed"
-#~ msgstr "Tự tùy chỉnh"
-
-#~ msgctxt "#36192"
-#~ msgid "Location of subtitles on the screen."
-#~ msgstr "Vị trí của phụ đề trên màn hình."
-
 #~ msgctxt "#310"
-#~ msgid "Keyboard layouts"
-#~ msgstr "Sơ đồ bàn phím"
+#~ msgid "Virtual keyboard layouts"
+#~ msgstr "Bố cục bàn phím ảo"
 
+#~ msgctxt "#407"
+#~ msgid "Hardware keyboard layouts"
+#~ msgstr "Bố cục bàn phím phần cứng"
+
+#~ msgctxt "#2204"
+#~ msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
+#~ msgstr "Chọn tùy chọn này nếu bạn muốn passthrough các định dạng DTS-HD thành DTS, nếu không, các định dạng DTS-HD sẽ được phát qua PCM"
+
+# empty strings from id 12023 to 12307
+#~ msgctxt "#12308"
+#~ msgid "Show password"
+#~ msgstr "Hiện mật khẩu"
+
+#~ msgctxt "#12309"
+#~ msgid "Hide password"
+#~ msgstr "Ẩn mật khẩu"
+
+#~ msgctxt "#13601"
+#~ msgid "Apple TV"
+#~ msgstr "Apple TV"
+
+# empty string with id 36435
 #~ msgctxt "#36436"
-#~ msgid "Select OS keyboard layout."
-#~ msgstr "Chọn bố trí bàn phím."
+#~ msgid "Select hardware keyboard layout."
+#~ msgstr "Chọn bố cục bàn phím cứng."
+
+#~ msgctxt "#36578"
+#~ msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
+#~ msgstr "Cải thiện chất lượng video bằng cách sử dụng bề mặt video 10 bit cho video Dải động tiêu chuẩn (SDR).[CR][Tự động phát hiện] Chỉ bật 10 bit cho SDR nếu màn hình được kết nối hỗ trợ HDR.[CR][Luôn luôn] Bật 10 bit cho SDR ngay cả khi màn hình được kết nối không hỗ trợ HDR.[CR][Không bao giờ] Không sử dụng 10 bit cho SDR.[CR]Chế độ passthrough HDR luôn sử dụng 10 bit bất kể cài đặt này là gì."
 
 #~ msgctxt "#36284"
 #~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."

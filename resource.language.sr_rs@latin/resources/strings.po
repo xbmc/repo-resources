@@ -1176,8 +1176,8 @@ msgstr "Jezik korisničkog interfejsa"
 
 #. Setting in international settings
 msgctxt "#310"
-msgid "Virtual keyboard layouts"
-msgstr ""
+msgid "Keyboard layouts"
+msgstr "Rasporedi tastature"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1591,10 +1591,6 @@ msgstr "Tačka rose"
 msgctxt "#406"
 msgid "Humidity"
 msgstr "Vlažnost"
-
-msgctxt "#407"
-msgid "Hardware keyboard layouts"
-msgstr ""
 
 msgctxt "#409"
 msgid "Defaults"
@@ -3993,15 +3989,6 @@ msgctxt "#2104"
 msgid "Check the log for more information."
 msgstr "Proverite evidenciju za više informacija."
 
-# empty strings from id 2105 to 2202
-msgctxt "#2203"
-msgid "Use DTS Core"
-msgstr ""
-
-msgctxt "#2204"
-msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr ""
-
 msgctxt "#10000"
 msgid "Home"
 msgstr "Glavni ekran"
@@ -4642,17 +4629,6 @@ msgstr "Pusti od početka"
 #. Label of various controls for resuming playback from a certain point in time
 msgctxt "#12022"
 msgid "Resume from {0:s}"
-msgstr ""
-
-# empty strings from id 12023 to 12307
-#. Label of the show password button in the keyboard dialog
-msgctxt "#12308"
-msgid "Show password"
-msgstr ""
-
-#. Label of the hide password button in the keyboard dialog
-msgctxt "#12309"
-msgid "Hide password"
 msgstr ""
 
 msgctxt "#12310"
@@ -5764,8 +5740,6 @@ msgctxt "#13415"
 msgid "Render method"
 msgstr "Način prikazivanja"
 
-#. Value for setting with label #13415 "Player / Videos / Render method"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Automatsko otkrivanje"
@@ -6097,10 +6071,6 @@ msgstr "Odlaganje preskakanja"
 msgctxt "#13600"
 msgid "Apple Remote"
 msgstr "Apple Daljinski Upravljač"
-
-msgctxt "#13601"
-msgid "Apple TV"
-msgstr ""
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -7506,7 +7476,7 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Fascikla sa ikonama kanala"
 
-#. generic label for pvr channels used in different places
+#. label for PVR backend number of channels in system information's PVR section
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kanali"
@@ -7614,16 +7584,6 @@ msgstr "Da li ste sigurni da želite da sakrijete ovaj kanal?"
 msgctxt "#19040"
 msgid "Timers"
 msgstr "Tajmeri"
-
-#. Label for button to refresh the channel logos
-msgctxt "#19041"
-msgid "Refresh channel logos"
-msgstr ""
-
-#. label for PVR backend number of channel groups in system information's PVR section
-msgctxt "#19042"
-msgid "Channel Groups"
-msgstr ""
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
@@ -7748,7 +7708,7 @@ msgctxt "#19068"
 msgid "Recording settings"
 msgstr ""
 
-#. generic label for the electronic program guide (EPG) used in different places
+#. Electronic program guide
 msgctxt "#19069"
 msgid "Guide"
 msgstr "Vodič"
@@ -8119,7 +8079,6 @@ msgctxt "#19145"
 msgid "Grouped"
 msgstr "Grupisano"
 
-#. generic label for pvr channel groups used in different places
 msgctxt "#19146"
 msgid "Groups"
 msgstr "Grupe"
@@ -8321,18 +8280,18 @@ msgstr "Ukloni podatke"
 
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
-msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
+msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
 msgstr ""
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
-msgid "Clearing data."
-msgstr ""
+msgid "Clearing all related data."
+msgstr "Uklanjanje svih povezanih podataka."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
-msgid "All guide data will be cleared. Are you sure?"
-msgstr ""
+msgid "All your guide data will be cleared. Are you sure?"
+msgstr "Svi vaši podaci vodiča biće uklonjeni. Da li ste sigurni?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8458,7 +8417,7 @@ msgctxt "#19214"
 msgid "Enter a valid URL for the new channel"
 msgstr "Unesite ispravan URL za novi kanal"
 
-#. generic label for PVR reminders used in different places
+#. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
 msgstr ""
@@ -9049,11 +9008,6 @@ msgstr ""
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
-
-#. label for PVR backend number of channel providers in system information's PVR section
-msgctxt "#19334"
-msgid "Providers"
 msgstr ""
 
 #. label for epg genre value
@@ -10847,8 +10801,7 @@ msgctxt "#20419"
 msgid "Replace file names with library titles"
 msgstr "Zameni imena datoteka sa nazivima iz biblioteke"
 
-#. Value for setting with label #19171 "PVR & Live TV / Playback / Switch to full screen"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
+#. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#20420"
 msgid "Never"
 msgstr "Nikada"
@@ -10857,8 +10810,6 @@ msgctxt "#20421"
 msgid "If only one season"
 msgstr "Ukoliko je samo jedna sezona"
 
-#. Value for setting with label #170 "Player / Videos / Adjust display refresh rate"
-#. Value for setting with label #36098 "System / Display / Use 10 bit for SDR"
 msgctxt "#20422"
 msgid "Always"
 msgstr "Uvek"
@@ -11069,10 +11020,6 @@ msgstr "Prikaži prazne TV serije"
 
 msgctxt "#20472"
 msgid "Show all performers for music videos"
-msgstr ""
-
-msgctxt "#20473"
-msgid "Premiered"
 msgstr ""
 
 msgctxt "#21330"
@@ -11548,32 +11495,26 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "mešano"
 
-#. Subtitle position on screen setting list
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "Pozicija titla na ekranu"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
-msgid "Manual"
-msgstr ""
+msgid "Fixed"
+msgstr "Fiksno"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
 msgid "Bottom of video"
 msgstr "Na dnu videa"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
 msgid "Below video"
 msgstr "Ispod videa"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
 msgid "Top of video"
 msgstr "Na vrhu videa"
 
-#. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
 msgid "Above video"
 msgstr "Iznad videa"
@@ -12229,7 +12170,6 @@ msgctxt "#24018"
 msgid "Services"
 msgstr "Servisi"
 
-#. generic label to denote the addon type pvr clients, used in different places
 msgctxt "#24019"
 msgid "PVR clients"
 msgstr "PVR klijenti"
@@ -12821,11 +12761,11 @@ msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
 msgstr ""
 
 msgctxt "#24154"
-msgid "Consider Siri remote in idle state after N seconds"
+msgid "Idle remote handling after N seconds"
 msgstr ""
 
 msgctxt "#24155"
-msgid "Time to wait before considering the Siri remote in idle state"
+msgid "After remote idles, the first tap/swipe received will wake it"
 msgstr ""
 
 msgctxt "#24156"
@@ -12845,15 +12785,19 @@ msgid "120 Seconds"
 msgstr ""
 
 msgctxt "#24160"
-msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
+msgid "Enable Siri remote timeout"
 msgstr ""
 
 msgctxt "#24161"
-msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
+msgid "Enable remote input timeout for tap/swipe"
 msgstr ""
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
+msgstr ""
+
+msgctxt "#24163"
+msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr ""
 
 # empty string with id 24163
@@ -12926,12 +12870,6 @@ msgstr ""
 #. used in #24180 - #24183 as {3:s}
 msgctxt "#24184"
 msgid " (optional)"
-msgstr ""
-
-#. The minimum version, only lower versions are available for install
-#. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
-msgctxt "#24185"
-msgid "Minimum: {0:s} / Not available{3:s}"
 msgstr ""
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
@@ -13060,11 +12998,10 @@ msgctxt "#29805"
 msgid "This Blu-ray disc (or file) is encrypted and can't be played."
 msgstr ""
 
-# empty strings from id 29806 to 29899
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
-msgid "RadioText Plus info"
-msgstr "RadioText Plus podaci"
+msgid "Radiotext Plus info"
+msgstr "Radiotext Plus podaci"
 
 #. Music band name which make the song (if present)
 msgctxt "#29901"
@@ -13828,18 +13765,6 @@ msgstr "MPEG-4 audio (FFmpeg M4A AAC)"
 msgctxt "#34007"
 msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows media audio 2 (FFmpeg wmav2)"
-
-msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
-
-msgctxt "#34009"
-msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
-
-msgctxt "#34010"
-msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14931,12 +14856,6 @@ msgctxt "#36050"
 msgid "On start"
 msgstr ""
 
-# empty strings from id 36051 to 36097
-#. Label of setting "System / Display / Use 10 bit for SDR"
-msgctxt "#36098"
-msgid "Use 10 bit for SDR"
-msgstr ""
-
 msgctxt "#36099"
 msgid "Dithering"
 msgstr "Međutonovi"
@@ -15398,8 +15317,8 @@ msgstr "Postavite prilagođenu fasciklu za vaše titlove. Ovo može biti razmena
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr ""
+msgid "Location of subtitles on the screen."
+msgstr "Pozicija titlova na ekranu."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15470,8 +15389,8 @@ msgid "Instruct the backend to search for channels (if supported)."
 msgstr "Naloži pozadini da traži kanale (ako je podržano)."
 
 msgctxt "#36209"
-msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr ""
+msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
+msgstr "Izbriši baze podataka za kanale i vodič i nakon toga ponovo uvesti podatke iz pozadine."
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -16515,9 +16434,7 @@ msgctxt "#36431"
 msgid "Shows all events in the event log for the current profile with options to only show specific levels."
 msgstr "Prikazuje sve događaje u evidenciji događaja za trenutni profil sa opcijama da se prikažu samo određeni nivoi."
 
-#. Description for setting #310: "Virtual keyboard layouts"
-#. Setting in Interface -> Regional -> Virtual keyboard layouts
-#. Select the layout of a virtual keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Odaberite raspored virtuelne tastature."
@@ -16532,11 +16449,9 @@ msgid "If enabled, switch to the channel with the programme to remind when auto-
 msgstr ""
 
 # empty string with id 36435
-#. Description for setting #407: "Hardware keyboard layouts"
-#. Setting in System -> Input -> Hardware keyboard layouts
-#. Select the layout of a physically attached keyboard
+#. Description for setting #310: "Keyboard layouts"
 msgctxt "#36436"
-msgid "Select hardware keyboard layout."
+msgid "Select OS keyboard layout."
 msgstr ""
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
@@ -16883,11 +16798,6 @@ msgstr "Veličina tabele pretraživanja"
 msgctxt "#36577"
 msgid "Specify the resolution for the 3D lookup table. Use a lower resolution for quick preview and higher resolution for more accurate picture. Using a high resolution may take seconds to prepare when parameters are changed or a new video is started."
 msgstr "Odredite rezoluciju za 3D tabelu pretraživanja. Koristite nižu rezoluciju za brzi pregled i višu rezoluciju za tačniju sliku. Pri korišćenju visoke rezolucije može biti potrebno par sekundi za pripremu kada se parametri promene ili se novi video započne."
-
-#. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
-msgctxt "#36578"
-msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr ""
 
 # empty string with id 36578
 #. primaries labels
@@ -17398,25 +17308,6 @@ msgstr "Izvadi sličice poglavlja za izlaganje u dijalozima poglavlja / obeleži
 
 msgctxt "#37046"
 msgid "1080"
-msgstr ""
-
-msgctxt "#37047"
-msgid "WS-Discovery"
-msgstr ""
-
-#. Setting #37048 Enable WS-Discovery Service"
-msgctxt "#37048"
-msgid "Enable WS-Discovery Service"
-msgstr ""
-
-#. Description of setting #37048 Enable WS-Discovery Service"
-msgctxt "#37049"
-msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr ""
-
-#. Label for component level debug logging setting
-msgctxt "#37050"
-msgid "Verbose logging for the [B]WS-Discovery[/B] component"
 msgstr ""
 
 #. Setting #38011 "Show All Items entry"
@@ -18300,59 +18191,11 @@ msgctxt "#39153"
 msgid "Windowing system:"
 msgstr ""
 
-#. Override ASS / SSA subtitles styles setting list
-msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr ""
-
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39156"
-msgid "Positions"
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39157"
-msgid "Styles"
-msgstr ""
-
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
-msgctxt "#39158"
-msgid "Styles and positions"
-msgstr ""
-
-#~ msgctxt "#19187"
-#~ msgid "Clearing all related data."
-#~ msgstr "Uklanjanje svih povezanih podataka."
-
-#~ msgctxt "#19188"
-#~ msgid "All your guide data will be cleared. Are you sure?"
-#~ msgstr "Svi vaši podaci vodiča biće uklonjeni. Da li ste sigurni?"
-
-#~ msgctxt "#36209"
-#~ msgid "Delete the databases for channels and guide and reimport the data from the backend afterwards."
-#~ msgstr "Izbriši baze podataka za kanale i vodič i nakon toga ponovo uvesti podatke iz pozadine."
-
-#~ msgctxt "#21461"
-#~ msgid "Fixed"
-#~ msgstr "Fiksno"
-
-#~ msgctxt "#36192"
-#~ msgid "Location of subtitles on the screen."
-#~ msgstr "Pozicija titlova na ekranu."
-
-#~ msgctxt "#310"
-#~ msgid "Keyboard layouts"
-#~ msgstr "Rasporedi tastature"
+# empty strings from id 29806 to 29899
+#~ msgctxt "#29900"
+#~ msgid "RadioText Plus info"
+#~ msgstr "RadioText Plus podaci"
 
 #~ msgctxt "#36284"
 #~ msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database freedb.org."
 #~ msgstr "Pročitaj podatke koji pripadaju audio CD-u, kao što su naziv pesme i izvođač, iz Internet baze podataka freedb.org."
-
-#~ msgctxt "#29900"
-#~ msgid "Radiotext Plus info"
-#~ msgstr "Radiotext Plus podaci"
