@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-25 09:12+0000\n"
-"Last-Translator: Dmitry Petrov <dimakrm361@gmail.com>\n"
+"PO-Revision-Date: 2021-10-30 21:31+0000\n"
+"Last-Translator: vdkbsd <valexgus@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ru_ru/>\n"
 "Language: ru_ru\n"
 "MIME-Version: 1.0\n"
@@ -11151,8 +11151,8 @@ msgid "Movie & alternate subtitle directory"
 msgstr "Папка для фильмов и альтернативных субтитров"
 
 msgctxt "#21368"
-msgid "Override ASS / SSA subtitles fonts"
-msgstr "Игнорировать шрифты субтитров ASS / SSA"
+msgid "Override subtitles fonts"
+msgstr "Изменить шрифты субтитров"
 
 msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
@@ -15344,10 +15344,10 @@ msgctxt "#36189"
 msgid "Set the font character set to be used for subtitles."
 msgstr "Установить набор символов для показа субтитров."
 
-#. Description of setting with label #21368 "Override ASS/SSA subtitles fonts"
+#. Description of setting with label #21368 "Override subtitles fonts"
 msgctxt "#36190"
-msgid "Override ASS / SSA subtitles fonts."
-msgstr "Игнорировать шрифты субтитров ASS / SSA."
+msgid "Override subtitles fonts in subtitle formats such as ASS / SSA."
+msgstr "Переопределение шрифтов субтитров для таких форматов, как ASS / SSA."
 
 #. Description of setting with label #21366 "Custom subtitle folder"
 msgctxt "#36191"
@@ -18275,27 +18275,27 @@ msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "Оконная система:"
 
-#. Override ASS / SSA subtitles styles setting list
+#. Override subtitles styles setting list
 msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr "Переопределение стилей субтитров ASS / SSA"
+msgid "Override subtitles styles"
+msgstr "Изменить стили субтитров"
 
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr "Формат SSA/ASS может включать такие метаданные, как стиль шрифта, цвета, размер, выравнивание, положение и т.д. Вы можете переопределить стили с помощью своих настроек (обратите внимание, что в некоторых случаях могут возникнуть побочные эффекты)."
+msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
+msgstr "Некоторые форматы субтитров (SSA / ASS / WebVTT) могут включать такие метаданные, как стиль шрифта, цвета, размер, выравнивание, положение и т.д. Вы можете переопределить стили с помощью своих настроек (обратите внимание, что в некоторых случаях могут возникнуть побочные эффекты)."
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
 msgid "Positions"
 msgstr "Позиции"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39157"
 msgid "Styles"
 msgstr "Стили"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39158"
 msgid "Styles and positions"
 msgstr "Стили и позиции"
@@ -18303,12 +18303,12 @@ msgstr "Стили и позиции"
 #. Subtitle border size setting toggle
 msgctxt "#39159"
 msgid "Border size"
-msgstr ""
+msgstr "Размер границы субтитров"
 
 #. Subtitle border colour setting
 msgctxt "#39160"
 msgid "Border colour"
-msgstr ""
+msgstr "Цвет границы субтитров"
 
 #. CC Subtitles text alignment setting list
 msgctxt "#39161"
@@ -18338,7 +18338,7 @@ msgstr "Тип фона"
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39166"
 msgid "Shadow"
-msgstr ""
+msgstr "Тени"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39167"
@@ -18358,22 +18358,38 @@ msgstr "Тип фона, применяемый к субтитрам."
 #. Subtitle shadow size setting
 msgctxt "#39170"
 msgid "Shadow size"
-msgstr ""
+msgstr "Размер тени"
 
 #. Subtitle shadow colour setting
 msgctxt "#39171"
 msgid "Shadow colour"
-msgstr ""
+msgstr "Цвет тени"
 
 #. Subtitle shadow opacity setting
 msgctxt "#39172"
 msgid "Shadow opacity"
-msgstr ""
+msgstr "Прозрачность тени"
 
 #. Subtitle blur setting
 msgctxt "#39173"
 msgid "Blur"
-msgstr ""
+msgstr "Размытие"
+
+#~ msgctxt "#21368"
+#~ msgid "Override ASS / SSA subtitles fonts"
+#~ msgstr "Игнорировать шрифты субтитров ASS / SSA"
+
+#~ msgctxt "#36190"
+#~ msgid "Override ASS / SSA subtitles fonts."
+#~ msgstr "Игнорировать шрифты субтитров ASS / SSA."
+
+#~ msgctxt "#39154"
+#~ msgid "Override ASS / SSA subtitles styles"
+#~ msgstr "Переопределение стилей субтитров ASS / SSA"
+
+#~ msgctxt "#39155"
+#~ msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
+#~ msgstr "Формат SSA/ASS может включать такие метаданные, как стиль шрифта, цвета, размер, выравнивание, положение и т.д. Вы можете переопределить стили с помощью своих настроек (обратите внимание, что в некоторых случаях могут возникнуть побочные эффекты)."
 
 #~ msgctxt "#19186"
 #~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"

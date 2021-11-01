@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-21 11:24+0000\n"
-"Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
+"PO-Revision-Date: 2021-10-30 21:31+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
@@ -11149,8 +11149,8 @@ msgid "Movie & alternate subtitle directory"
 msgstr "電影和替代字幕資料夾"
 
 msgctxt "#21368"
-msgid "Override ASS / SSA subtitles fonts"
-msgstr "覆蓋 ASS/SSA 字幕的字型"
+msgid "Override subtitles fonts"
+msgstr "取代字幕字型"
 
 msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
@@ -12856,7 +12856,7 @@ msgstr "一般"
 #. Lifecycle state name, for deprecated addons. Used also on skin to compare and identify related state.
 msgctxt "#24170"
 msgid "Deprecated"
-msgstr ""
+msgstr "已廢棄"
 
 #. Lifecycle state name, for broken and not usable addons. Used also on skin to compare and identify related state.
 msgctxt "#24171"
@@ -12869,36 +12869,36 @@ msgstr "已損壞"
 #. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
 msgctxt "#24180"
 msgid "Minimum: {0:s}{3:s}"
-msgstr ""
+msgstr "最低：{0:s}{3:s}"
 
 #. The minimum version, plus the version going to be installed
 #. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
 msgctxt "#24181"
 msgid "Minimum: {0:s} => Install: {2:s}{3:s}"
-msgstr ""
+msgstr "最低：{0:s} => 安裝：{2:s}{3:s}"
 
 #. The minimum version, plus the currently installed version
 #. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
 msgctxt "#24182"
 msgid "Minimum: {0:s} / Installed: {1:s}{3:s}"
-msgstr ""
+msgstr "最低：{0:s} / 已安裝： {1:s}{3:s}"
 
 #. The minimum version, the currently installed, plus the updated version we're going to install
 #. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
 msgctxt "#24183"
 msgid "Minimum: {0:s} / Installed: {1:s} => Update to: {2:s}{3:s}"
-msgstr ""
+msgstr "最低：{0:s} / 已安裝：{1:s} => 更新到：{2:s}{3:s}"
 
 #. used in #24180 - #24183 as {3:s}
 msgctxt "#24184"
 msgid " (optional)"
-msgstr ""
+msgstr " （選用）"
 
 #. The minimum version, only lower versions are available for install
 #. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
 msgctxt "#24185"
 msgid "Minimum: {0:s} / Not available{3:s}"
-msgstr ""
+msgstr "最低：{0:s} / 不可用{3:s}"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -13756,7 +13756,7 @@ msgstr "遠端通訊伺服器"
 
 msgctxt "#33104"
 msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
-msgstr ""
+msgstr "您之前已啟用web介面，但尚未設定密碼。在您尚未明確允許或設定身份驗證之前，web服務器已暫時被停用。請檢視您的設定。"
 
 msgctxt "#33200"
 msgid "Detected new connection"
@@ -13796,15 +13796,15 @@ msgstr "Windows 媒體音效 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
 msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
+msgstr "當您需要輸入一些文字時，將會顯示Kodi虛擬鍵盤而不是內建的tvOS鍵盤"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
+msgstr "Siri遙控器水平手勢靈敏度"
 
 msgctxt "#34010"
 msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
+msgstr "Siri遙控器垂直手勢靈敏度"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -13941,7 +13941,7 @@ msgstr "找不到前一個播放項目"
 #. Manual HDR toggle (ACTION_HDR_TOGGLE) - HDR On/Off toast caption
 msgctxt "#34220"
 msgid "HDR status"
-msgstr ""
+msgstr "HDR狀態"
 
 #. Manual HDR toggle (ACTION_HDR_TOGGLE) - HDR Off toast message
 msgctxt "#34221"
@@ -13956,7 +13956,7 @@ msgstr "開啟"
 # empty string with id 34223
 msgctxt "#34224"
 msgid "Tone mapping method"
-msgstr ""
+msgstr "色調映射方式"
 
 msgctxt "#34300"
 msgid "Failed to start Zeroconf"
@@ -14302,7 +14302,7 @@ msgstr "啟用遊戲控制器支援"
 # empty string with id 35101
 msgctxt "#35102"
 msgid "Disable controllers when this device is present"
-msgstr ""
+msgstr "此設備存在時禁用遙控器"
 
 #. Label for mouse buttons. Used in the controller mapping dialog.
 msgctxt "#35103"
@@ -14892,7 +14892,7 @@ msgstr "在開始時"
 #. Label of setting "System / Display / Use 10 bit for SDR"
 msgctxt "#36098"
 msgid "Use 10 bit for SDR"
-msgstr ""
+msgstr "SDR使用10位元"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -15257,7 +15257,7 @@ msgstr "選擇 4:3 影片在寬螢幕播放時的放大等級。"
 #. Description of setting with label #13430 "Allow hardware acceleration - PRIME"
 msgctxt "#36172"
 msgid "Enable PRIME decoding of video files"
-msgstr ""
+msgstr "啟用影片檔的PRIME解碼"
 
 #. Description of setting with label #14109 "Short date format"
 msgctxt "#36173"
@@ -15343,10 +15343,10 @@ msgctxt "#36189"
 msgid "Set the font character set to be used for subtitles."
 msgstr "設定字幕使用的字元集。"
 
-#. Description of setting with label #21368 "Override ASS/SSA subtitles fonts"
+#. Description of setting with label #21368 "Override subtitles fonts"
 msgctxt "#36190"
-msgid "Override ASS / SSA subtitles fonts."
-msgstr "取代 ASS/SSA 字幕的字型。"
+msgid "Override subtitles fonts in subtitle formats such as ASS / SSA."
+msgstr "取代如ASS/SSA字幕檔中指定的字型。"
 
 #. Description of setting with label #21366 "Custom subtitle folder"
 msgctxt "#36191"
@@ -15356,7 +15356,7 @@ msgstr "自訂存放字幕的資料夾。它可以是一個分享資料夾。"
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
 msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr ""
+msgstr "字幕在螢幕上的位置。[手動]可使用影片校正設定來自定字幕位置。[影片下方]/[影片上方]盡可能將字幕限位在黑條內(取決於影片編碼方式)。請注意，部分在字幕中所設定的位置無法更動。"
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15416,7 +15416,7 @@ msgstr "依據後端提供的頻道號碼做排序，但使用本機的頻道編
 
 msgctxt "#36206"
 msgid "Use the channel numbering from the backend."
-msgstr ""
+msgstr "使用後端的頻道號碼。"
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -15428,7 +15428,7 @@ msgstr "下達掃描頻道的指令給後端 (如果後端支援的話)。"
 
 msgctxt "#36209"
 msgid "Clear the databases for PVR data like channels, groups, reminders and guide. Please note that not all data can be restored from the backend afterwards."
-msgstr ""
+msgstr "清除資料庫中的PVR資料如頻道、群組、提示與節目表。請注意，不是所有資料都可以在事後從後端恢復。"
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
@@ -15712,7 +15712,7 @@ msgstr "選擇播放音樂時要顯示的視覺效果。"
 #. Description of setting with label #39125 "Enable tag reading in file view"
 msgctxt "#36274"
 msgid "When browsing music files in file view read the tags of those not in the music library as you go. This can make large directories slow to display, especially over a network."
-msgstr ""
+msgstr "在檔案檢視模式中瀏覽音樂檔案時，隨時讀取不在音樂資料庫中的標籤。這可能會使大型目錄顯示緩慢，特別是在網路上。"
 
 #. Description of setting with label #13307 "Track naming template" for musicfiles.trackformat
 msgctxt "#36275"
@@ -15762,7 +15762,7 @@ msgstr "插入 CD 時自動播放。"
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
 msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database gnudb.org."
-msgstr ""
+msgstr "從網路資料庫gnudb.org讀取音樂CD的曲名、歌手等資訊。"
 
 #. Description of setting label #20000 "Saved music folder"
 msgctxt "#36285"
@@ -15834,7 +15834,7 @@ msgstr "啟用後，若PVR附加元件及後端有支援，會在彈出式提醒
 #. Description of setting with label #13436 "Use display HDR capabilities"
 msgctxt "#36299"
 msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
-msgstr ""
+msgstr "如果播放內含HDR資訊的媒體檔，則將顯示切換為HDR模式。 [CR]如果關閉則使用Kodi的內部HDR路徑加以套用。"
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -15875,7 +15875,7 @@ msgstr "當進入圖片資料夾時，自動產生圖片縮圖。"
 #. Description of setting with label #20472 "Show all performers for music videos"
 msgctxt "#36308"
 msgid "When enabled, shows all performers in the artist list for music videos, not just the main artist"
-msgstr ""
+msgstr "啟用後，音樂影片顯示藝人列表中的所有參與者，而不僅止於主要的歌手"
 
 #. Description of setting with label #22022 "Show video files in listings"
 msgctxt "#36309"
@@ -16119,7 +16119,7 @@ msgstr "調整視訊畫面的畫寬設定值以校正使用者介面。如果您
 
 msgctxt "#36358"
 msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
-msgstr ""
+msgstr "允許使用來自多個後端的頻道號碼。請注意，如果使用此選項，則所有頻道群組可以包含多個相同的頻道號碼。這有可能會導致頻道跳轉的功能可能無法在所有頻道群組中正常操作。"
 
 #. Description of setting with label #36042 "Use limited colour range (16-235)"
 msgctxt "#36359"
@@ -16486,7 +16486,7 @@ msgstr "開啟後會優先使用VAAPI影像渲染方式，可減低CPU負載。�
 
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
-msgstr ""
+msgstr "如果啟用，則在自動關閉提醒顯示時，切換到提示所指定的節目頻道。"
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -16494,7 +16494,7 @@ msgstr ""
 #. Select the layout of a physically attached keyboard
 msgctxt "#36436"
 msgid "Select hardware keyboard layout."
-msgstr ""
+msgstr "選擇硬體鍵盤佈局。"
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16514,17 +16514,17 @@ msgstr "設定音量控制階數。"
 #. Description of setting with label #14126 "Whitelist"
 msgctxt "#36443"
 msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
-msgstr ""
+msgstr "白名單模式允許用戶選擇各個顯示模式的使用與否"
 
 #. Description of setting with label #14127 "Whitelist"
 msgctxt "#36444"
 msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
-msgstr ""
+msgstr "選擇此項以允許使用3:2折刷新率(在59.94 Hz顯示器上播放23.976 FPS的影片或在60 Hz顯示器上播放24 FPS影片)。如果您的顯示器沒有23.976 Hz或24 Hz模式，則可能要選用此項目。"
 
 #. Description of setting with label #14128 "Whitelist"
 msgctxt "#36445"
 msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
-msgstr ""
+msgstr "選擇此項以允許使用雙倍刷新率(在59.94 Hz顯示器上播放29.97 FPS的影片或在60 Hz顯示器上播放30 FPS影片)。如果您的顯示器沒有29.97 Hz或30 Hz模式，則可能要選用此項目。"
 
 #. Description of settings with label #14112 "Enable event logging"
 msgctxt "#36460"
@@ -16753,12 +16753,12 @@ msgstr "色調映射參數"
 #. label of a setting, tone mapping method
 msgctxt "#36557"
 msgid "ACES Filmic"
-msgstr ""
+msgstr "ACES Filmic"
 
 #. label of a setting, tone mapping method
 msgctxt "#36558"
 msgid "Hable"
-msgstr ""
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -16844,7 +16844,7 @@ msgstr "定義3D LUT的解析度。較低解析度可加快預覽的速度，反
 #. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
 msgctxt "#36578"
 msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr ""
+msgstr "使用10位元視訊表面處理來為標準動態範圍(SDR)影片提高畫質。[CR][自動偵測]僅在連接的顯示器支援HDR時才為SDR啟用10位元。[CR][總是使用]即使連接的顯示器不支援HDR也照樣使用。[CR][不使用]不為SDR使用10位元。[CR]不論此設定為何，HDR直通模式會始終使用10位元。"
 
 #. primaries labels
 msgctxt "#36579"
@@ -17095,57 +17095,57 @@ msgstr "強制使用SMBv1的安全性協議，以便相容於某些無線分享�
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control via HTTP"
 msgctxt "#36632"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
-msgstr ""
+msgstr "任何有權使用web介面的人都可以完全控制此應用程式，甚至是這台設備，所以不應將其暴露在網路上。應在下方設定密碼。要繼續嗎？"
 
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control from applications on other systems"
 msgctxt "#36633"
 msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
-msgstr ""
+msgstr "這些服務既不提供身份驗證也不能加密。任何可以連上的用戶都可以完全控制這個應用程式，甚至是整台設備，所以絕對不應被暴露在網路上。要繼續嗎？"
 
 #. Text in confirm dialog when disabling setting "Services -> Control -> Require authentication"
 msgctxt "#36634"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
-msgstr ""
+msgstr "任何可連上web介面的用戶都可以完全控制此應用程式，甚至是這台設備，因此應該設定密碼來加以保護，您確定要關閉身份驗證？"
 
 #. Text in error dialog when trying to enter an invalid web server configuration
 msgctxt "#36635"
 msgid "If web server authentication is enabled, a password must be entered as well."
-msgstr ""
+msgstr "如果啟用web伺服器身份驗證，則必須輸入密碼。"
 
 #. Text in error dialog when trying to enter an invalid web server configuration by enabling authentication without a password set
 msgctxt "#36636"
 msgid "You must first enter a password before web server authentication can be enabled."
-msgstr ""
+msgstr "必須先輸入密碼，才能啟用web伺服器身份驗證。"
 
 #. Text in confirm dialog when installing addon from zip
 msgctxt "#36637"
 msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
-msgstr ""
+msgstr "請注意，從zip安裝的附加元件(來源庫除外)將不會自動更新，僅能手動更新。您要繼續嗎？"
 
 #. Menuitem at "Settings -> System -> Add-ons"
 msgctxt "#36638"
 msgid "Remove all orphaned add-ons"
-msgstr ""
+msgstr "刪除所有孤兒附加元件"
 
 #. Description of setting with label #36638 "Remove all orphaned dependencies"
 msgctxt "#36639"
 msgid "Remove all modules and support libraries that have been automatically installed and are in an orphaned state."
-msgstr ""
+msgstr "刪除所有被自動安裝且處於孤兒狀態的模組與支援庫。"
 
 #. Dialog caption
 msgctxt "#36640"
 msgid "Orphaned add-ons"
-msgstr ""
+msgstr "孤兒附加元件"
 
 #. Dialog text if orphaned add-ons were found and removed
 msgctxt "#36641"
 msgid "The following orphaned add-ons were removed from your system: {0:s}."
-msgstr ""
+msgstr "下列孤兒附加元件將被系統刪除：{0:s}。"
 
 #. Dialog text if no more orphaned add-ons left on the system
 msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
-msgstr ""
+msgstr "沒有可刪除的孤兒附加元件。"
 
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
@@ -17382,22 +17382,22 @@ msgstr "1080"
 
 msgctxt "#37047"
 msgid "WS-Discovery"
-msgstr ""
+msgstr "網路服務探索"
 
 #. Setting #37048 Enable WS-Discovery Service"
 msgctxt "#37048"
 msgid "Enable WS-Discovery Service"
-msgstr ""
+msgstr "啟用網路服務探索"
 
 #. Description of setting #37048 Enable WS-Discovery Service"
 msgctxt "#37049"
 msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr ""
+msgstr "使用網服探索協議來尋找SMB服務"
 
 #. Label for component level debug logging setting
 msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr ""
+msgstr "[B]網路服務探索[/B]元件的詳細日誌"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -17642,7 +17642,7 @@ msgstr "BPM"
 #. Music property - Album release status
 msgctxt "#38081"
 msgid "Release status"
-msgstr ""
+msgstr "發行狀態"
 
 #. Description of section #14200 "Player""
 msgctxt "#38100"
@@ -17765,7 +17765,7 @@ msgstr "要匯出的項目"
 
 msgctxt "#38307"
 msgid "Include artwork such as thumbnails and fanart"
-msgstr ""
+msgstr "包含如縮圖及同人作品的美術圖片"
 
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
@@ -17918,7 +17918,7 @@ msgstr "無法讀取xml檔"
 #. Description of category "Library" with label #14202
 msgctxt "#39004"
 msgid "This category provides access to the windows for source management and library management facilities"
-msgstr ""
+msgstr "此功能區提供來源管理及資料庫管理工具的窗口"
 
 #. Description of setting "Videos... with label #14242
 msgctxt "#39005"
@@ -18024,7 +18024,7 @@ msgstr "排序名稱"
 #. Text for yes/no dialog when silently uninstalling an addon
 msgctxt "#39028"
 msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
-msgstr ""
+msgstr "附加元件 \"{0:s}\"[CR] 源自 \"{1:s}\"[CR] 版本 \"{2:s}\"[CR]- 將被卸載並替換。您要繼續嗎？"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18119,7 +18119,7 @@ msgstr "單集劇情"
 #. Label for component level debug logging setting
 msgctxt "#39117"
 msgid "Verbose logging for the [B]Announcer[/B] component"
-msgstr "[B]Announcer[/B]組件的詳細日誌記錄"
+msgstr "[B]公告[/B]元件的詳細日誌記錄"
 
 #. Label for action to present native iOS sharing sheet
 msgctxt "#39118"
@@ -18128,21 +18128,21 @@ msgstr "分享偵錯紀錄"
 
 msgctxt "#39119"
 msgid "Last modified"
-msgstr ""
+msgstr "最近修改"
 
 msgctxt "#39120"
 msgid "Skip filename matching for external audio tracks"
-msgstr ""
+msgstr "跳過外部音軌的檔名比對"
 
 #. Label for section of settings controling what is shown on the library windows
 msgctxt "#39121"
 msgid "Library Display and Navigation"
-msgstr ""
+msgstr "資料庫顯示與導覽"
 
 #. Label for section of settings controling how library is populated
 msgctxt "#39122"
 msgid "Library Information Sources"
-msgstr ""
+msgstr "資料庫資訊源"
 
 #. Label for section of settings
 msgctxt "#39123"
@@ -18152,62 +18152,62 @@ msgstr "美術作品"
 # empty string with id 39124
 msgctxt "#39125"
 msgid "Enable tag reading in file view"
-msgstr ""
+msgstr "在檔案檢視模式中開啟標籤讀取"
 
 # empty string with id 39126
 msgctxt "#39127"
 msgid "Use all local image files as artwork"
-msgstr ""
+msgstr "使用所有本機圖片檔作為美術圖"
 
 #. Description of setting with label #39127 "Use all local image files as artwork"
 msgctxt "#39128"
 msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
-msgstr ""
+msgstr "在資料庫掃描過程中，在媒體檔周邊的所有圖片類型檔案，都會被擷取為美術圖。"
 
 msgctxt "#39129"
 msgid "Use all remote artwork fetched by scrapers"
-msgstr ""
+msgstr "使用所有擷取器從網路上抓來的美術圖"
 
 #. Description of setting with label #39129 "Use all remote artwork fetched by scrapers"
 msgctxt "#39130"
 msgid "Use the first of each art type of the remote artwork in scraper results to fill any missing art not populated with local art."
-msgstr ""
+msgstr "使用網路上獲取的各類圖片類型的第一張圖檔，來填補本機缺漏的各類美術圖。"
 
 msgctxt "#39131"
 msgid "Artist art types whitelist"
-msgstr ""
+msgstr "藝人相關圖片類型白名單"
 
 #. Description of setting with label #39131 "Artist art types whitelist"
 msgctxt "#39132"
 msgid "Limit the artist artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr ""
+msgstr "用白名單來限制從本機或從資訊擷取器抓來的藝人相關美術圖類型"
 
 msgctxt "#39133"
 msgid "Album art types whitelist"
-msgstr ""
+msgstr "專輯美術圖白名單"
 
 #. Description of setting with label #39133 "Album art types whitelist"
 msgctxt "#39134"
 msgid "Limit the album artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr ""
+msgstr "用白名單來限制從本機或從資訊擷取器抓來的專輯美術圖類型"
 
 msgctxt "#39135"
 msgid "Thumbnail image files"
-msgstr ""
+msgstr "縮圖檔"
 
 #. Description of setting with label #39135 "Thumbnail image files"
 msgctxt "#39136"
 msgid "The names of files that contain primary artwork (thumbnails), generally square and used both full and in reduced size to visually identify a folder, artist, album or song"
-msgstr ""
+msgstr "包含主要美術圖片(縮圖)的檔名，通常為正方形並使用原寸及縮圖藉以直覺的辨識資料夾、藝人、專輯或歌曲"
 
 msgctxt "#39137"
 msgid "Artwork level"
-msgstr ""
+msgstr "美術圖等級"
 
 #. Description of setting with label #39137 "Artwork level"
 msgctxt "#39138"
 msgid "The amount of artwork automatically selected - [Maximum] all local images and remote art; [Basic] save space on limited devices or when using a simple skin; [Custom] configured by user for detailed control; [None] no art"
-msgstr ""
+msgstr "自動選擇的美術圖數量 - [最大] 所有本機及遠端圖片；[基本] 當硬體空間受限或使用簡易型佈景主題時； [自訂] 由用戶自行配置； [無] 不使用美術圖"
 
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39140"
@@ -18226,153 +18226,161 @@ msgstr "自訂"
 
 msgctxt "#39143"
 msgid "Movie art types whitelist"
-msgstr ""
+msgstr "電影美術圖類型白名單"
 
 #. Description of setting with label #39150 "Movie art types whitelist"
 msgctxt "#39144"
 msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr ""
+msgstr "用白名單來限制從本機或從資訊擷取器抓來的電影美術圖類型"
 
 msgctxt "#39145"
 msgid "TV show art types whitelist"
-msgstr ""
+msgstr "電視劇美術圖類型白名單"
 
 #. Description of setting with label #39152 "TV show art types whitelist"
 msgctxt "#39146"
 msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr ""
+msgstr "用白名單來限制從本機或從資訊擷取器抓來的電視劇及各季美術圖類型"
 
 msgctxt "#39147"
 msgid "Episode art types whitelist"
-msgstr ""
+msgstr "單集美術圖類型白名單"
 
 #. Description of setting with label #39154 "Episode art types whitelist"
 msgctxt "#39148"
 msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr ""
+msgstr "用白名單來限制從本機或從資訊擷取器抓來的單集美術圖類型"
 
 msgctxt "#39149"
 msgid "Music video art types whitelist"
-msgstr ""
+msgstr "音樂影片美術圖類型白名單"
 
 #. Description of setting with label #39156 "Music video art types whitelist"
 msgctxt "#39150"
 msgid "Limit the music video artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr ""
+msgstr "用白名單來限制從本機或從資訊擷取器抓來的音樂影片美術圖類型"
 
 #. Display Hardware scaling filter setting toggle
 msgctxt "#39151"
 msgid "Display hardware scaling filter"
-msgstr ""
+msgstr "顯示器硬體縮放濾鏡"
 
 #. Description
 msgctxt "#39152"
 msgid "Integer scaling (IS) is a Nearest-Neighbor(NN) upscaling technique using Display Engine"
-msgstr ""
+msgstr "整數縮放 (簡稱IS) 是一種使用顯示引擎的相鄰畫素(簡稱NN)放大技術"
 
 msgctxt "#39153"
 msgid "Windowing system:"
-msgstr ""
+msgstr "視窗系統："
 
-#. Override ASS / SSA subtitles styles setting list
+#. Override subtitles styles setting list
 msgctxt "#39154"
-msgid "Override ASS / SSA subtitles styles"
-msgstr ""
+msgid "Override subtitles styles"
+msgstr "取代字幕樣式"
 
-#. Description of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
-msgid "The SSA/ASS format can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
+msgstr "有些SSA / ASS/ WebVTT 字幕檔會為字幕指定各種樣式如字型、顏色、尺寸、對齊方式、位置等等。您可以用您的自定值將其取代(請注意，在某些狀況下可能會出現副作用)。"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
 msgid "Positions"
-msgstr ""
+msgstr "位置"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39157"
 msgid "Styles"
-msgstr ""
+msgstr "樣式"
 
-#. Item list value of setting with label #39154 "Override ASS / SSA subtitles styles"
+#. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39158"
 msgid "Styles and positions"
-msgstr ""
+msgstr "樣式和位置"
 
 #. Subtitle border size setting toggle
 msgctxt "#39159"
 msgid "Border size"
-msgstr ""
+msgstr "邊框大小"
 
 #. Subtitle border colour setting
 msgctxt "#39160"
 msgid "Border colour"
-msgstr ""
+msgstr "邊框顏色"
 
 #. CC Subtitles text alignment setting list
 msgctxt "#39161"
 msgid "Text alignment"
-msgstr ""
+msgstr "文字對齊"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39162"
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39163"
 msgid "Center"
-msgstr ""
+msgstr "中"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39164"
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #. Type of background for displaying the subtitles
 msgctxt "#39165"
 msgid "Background type"
-msgstr ""
+msgstr "背景類型"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39166"
 msgid "Shadow"
-msgstr ""
+msgstr "陰影"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39167"
 msgid "Box"
-msgstr ""
+msgstr "方框"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39168"
 msgid "Square box"
-msgstr ""
+msgstr "正方框"
 
 #. Description of setting with label #39166 "Background type"
 msgctxt "#39169"
 msgid "Type of background to apply to subtitles."
-msgstr ""
+msgstr "套用在字幕上的背景類型。"
 
 #. Subtitle shadow size setting
 msgctxt "#39170"
 msgid "Shadow size"
-msgstr ""
+msgstr "陰影大小"
 
 #. Subtitle shadow colour setting
 msgctxt "#39171"
 msgid "Shadow colour"
-msgstr ""
+msgstr "陰影顏色"
 
 #. Subtitle shadow opacity setting
 msgctxt "#39172"
 msgid "Shadow opacity"
-msgstr ""
+msgstr "陰影透明度"
 
 #. Subtitle blur setting
 msgctxt "#39173"
 msgid "Blur"
-msgstr ""
+msgstr "模糊"
+
+#~ msgctxt "#21368"
+#~ msgid "Override ASS / SSA subtitles fonts"
+#~ msgstr "覆蓋 ASS/SSA 字幕的字型"
+
+#~ msgctxt "#36190"
+#~ msgid "Override ASS / SSA subtitles fonts."
+#~ msgstr "取代 ASS/SSA 字幕的字型。"
 
 #~ msgctxt "#19186"
 #~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
