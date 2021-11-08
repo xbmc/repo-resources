@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-03 07:08+0000\n"
+"PO-Revision-Date: 2021-11-04 23:03+0000\n"
 "Last-Translator: HansCR <h.vanek@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/cs_cz/>\n"
 "Language: cs_cz\n"
@@ -9029,47 +9029,47 @@ msgstr "Poskytovatelé"
 #. label for special PVR search window list item
 msgctxt "#19335"
 msgid "New search..."
-msgstr ""
+msgstr "Nové hledání…"
 
 #. label for special PVR search window list item
 msgctxt "#19336"
 msgid "Edit search..."
-msgstr ""
+msgstr "Změna hledání…"
 
 #. label for special PVR search window list item
 msgctxt "#19337"
 msgid "Saved searches"
-msgstr ""
+msgstr "Uložená hledání"
 
 #. delete saved search confirmation message box text
 msgctxt "#19338"
 msgid "Delete this saved search?"
-msgstr ""
+msgstr "Smazat toto uložené hledání?"
 
 #. PVR guide search dialog label
 msgctxt "#19339"
 msgid "Ignore finished broadcasts"
-msgstr ""
+msgstr "Ignorovat dokončená vysílání"
 
 #. PVR guide search dialog label
 msgctxt "#19340"
 msgid "Ignore future broadcasts"
-msgstr ""
+msgstr "Ignorovat budoucí vysílání"
 
 #. label to ask user to save an EPG search
 msgctxt "#19341"
 msgid "Save the current search?"
-msgstr ""
+msgstr "Uložit aktuální vyhledávání?"
 
 #. "search not saved" label, used in PVR search window breadcrumb
 msgctxt "#19342"
 msgid "[not saved]"
-msgstr ""
+msgstr "[neuloženo]"
 
 #. "search saved" label, used in PVR search window breadcrumb
 msgctxt "#19343"
 msgid "[saved]"
-msgstr ""
+msgstr "[uloženo]"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11193,7 +11193,7 @@ msgstr "Film a alternativní adresář s titulky"
 
 msgctxt "#21368"
 msgid "Override subtitles fonts"
-msgstr ""
+msgstr "Přepsat font titulků"
 
 msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
@@ -11670,6 +11670,16 @@ msgstr "Počet stop titulků"
 msgctxt "#21483"
 msgid "View"
 msgstr "Zobrazení"
+
+#. Button label to show list of supported types, e.g. supported file extensions
+msgctxt "#21484"
+msgid "Show support"
+msgstr ""
+
+#. Dialog header label to show list of supported types, e.g. supported file extensions
+msgctxt "#21485"
+msgid "Supported file extensions and media types"
+msgstr ""
 
 msgctxt "#21602"
 msgid "(External)"
@@ -15384,7 +15394,7 @@ msgstr "Nastavte znakovou sadu písma použitou pro titulky."
 #. Description of setting with label #21368 "Override subtitles fonts"
 msgctxt "#36190"
 msgid "Override subtitles fonts in subtitle formats such as ASS / SSA."
-msgstr ""
+msgstr "Přepsat font titulků u titulků ve formátech typu ASS / SSA."
 
 #. Description of setting with label #21366 "Custom subtitle folder"
 msgctxt "#36191"
@@ -18060,8 +18070,13 @@ msgstr "Název řazení"
 
 #. Text for yes/no dialog when silently uninstalling an addon
 msgctxt "#39028"
-msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
-msgstr "Doplněk „{0:s}“[CR]Původ „{1:s}“[CR]Verze „{2:s}“[CR]– bude odinstalován a nahrazen. Chcete pokračovat?"
+msgid "Addon: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr ""
+
+#. Text for yes/no dialog to indicate that an add-on was manually installed
+msgctxt "#39029"
+msgid "Manually installed"
+msgstr ""
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18312,12 +18327,12 @@ msgstr "Systém práce s okny:"
 #. Override subtitles styles setting list
 msgctxt "#39154"
 msgid "Override subtitles styles"
-msgstr ""
+msgstr "Přepsat styl titulků"
 
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
 msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+msgstr "Některé typy titulků jako SSA / ASS / WebVTT mohou obsahovat metadata jako styl fontů, barvy, velikost, zarovnání, pozice apod. Tyto styly můžete přepsat vlastním nastavením (vezměte prosím na vědomí, že se v některých případech mohou objevit nežádoucí účinky)."
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
@@ -18408,6 +18423,10 @@ msgstr "Průhlednost stínu"
 msgctxt "#39173"
 msgid "Blur"
 msgstr "Rozostření"
+
+#~ msgctxt "#39028"
+#~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+#~ msgstr "Doplněk „{0:s}“[CR]Původ „{1:s}“[CR]Verze „{2:s}“[CR]– bude odinstalován a nahrazen. Chcete pokračovat?"
 
 #~ msgctxt "#21368"
 #~ msgid "Override ASS / SSA subtitles fonts"
