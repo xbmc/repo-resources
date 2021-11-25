@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-06 08:58+0000\n"
+"PO-Revision-Date: 2021-11-25 10:17+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Latvian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/lv_lv/>\n"
 "Language: lv_lv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -8715,8 +8715,8 @@ msgstr "Nevienu PVR pielikumu nevar atrast"
 
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
-msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Lai izmantotu PVR, nepieciešams uztvērējs, galasistēmas programmatūra un pielikums galasistēmas lietošanai. Lūdzu, apskatiet http://kodi.wiki/view/PVR, lai uzzinātu vairāk."
+msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
+msgstr ""
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -11157,6 +11157,16 @@ msgctxt "#21345"
 msgid "Uncategorized"
 msgstr ""
 
+#. Used to give heading list entry for an file extension description, e.g. to show as 'Extension: ".mp3"'
+msgctxt "#21346"
+msgid "Extension: \"{0:s}\""
+msgstr ""
+
+#. Used to give heading list entry for an mimetype description, e.g. to show as 'MIME type: "audio/mpeg3"'
+msgctxt "#21347"
+msgid "MIME type: \"{0:s}\""
+msgstr ""
+
 # empty strings from id 21346 to 21357
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -12368,7 +12378,7 @@ msgstr "Instalē {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
+msgid "Failed to install add-on from zip file"
 msgstr "Neizdevās instalēt pielikumu no zip faila"
 
 msgctxt "#24046"
@@ -12774,9 +12784,9 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "Atjaunināt"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
+msgid "View add-on"
 msgstr "Skatīt pielikumu"
 
 #. Label for the action provided by media library events to jump to a specific path/file
@@ -12796,7 +12806,7 @@ msgstr "Atkarību no {0:s} versijas {1:s} nevar apmierināt."
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
 msgstr "Instalēt pielikumu no zip faila, kas atrodas {0:s} neizdevās, jo nederīga struktūra."
 
 #. Used as an event log description for add-ons that have been uninstalled
@@ -12884,24 +12894,24 @@ msgid "Use Kodi virtual keyboard"
 msgstr ""
 
 # empty string with id 24163
-#. Header text for yes/no dialog about enable of broken addon
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
+msgid "Add-on \"{0:s}\" broken"
 msgstr ""
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr ""
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
+msgid "Add-on \"{0:s}\" deprecated"
 msgstr ""
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr ""
 
 #. Notification event to show addon marked as deprecated.
@@ -18093,9 +18103,9 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Kārtošanas nosaukums"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
 msgstr ""
 
 #. Text for yes/no dialog to indicate that an add-on was manually installed
@@ -18450,6 +18460,27 @@ msgstr ""
 msgctxt "#39173"
 msgid "Blur"
 msgstr ""
+
+#. SystemInfo string for the display's supported HDR types
+msgctxt "#39174"
+msgid "Display supported HDR types"
+msgstr ""
+
+#~ msgctxt "#19272"
+#~ msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
+#~ msgstr "Lai izmantotu PVR, nepieciešams uztvērējs, galasistēmas programmatūra un pielikums galasistēmas lietošanai. Lūdzu, apskatiet http://kodi.wiki/view/PVR, lai uzzinātu vairāk."
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "Neizdevās instalēt pielikumu no zip faila"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "Skatīt pielikumu"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "Instalēt pielikumu no zip faila, kas atrodas {0:s} neizdevās, jo nederīga struktūra."
 
 #~ msgctxt "#19186"
 #~ msgid "All your TV related data (channels, groups, guide, timers, clients) will be cleared. Are you sure?"
