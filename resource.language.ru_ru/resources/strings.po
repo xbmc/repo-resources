@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-10 09:48+0000\n"
+"PO-Revision-Date: 2021-11-25 09:42+0000\n"
 "Last-Translator: vdkbsd <valexgus@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -8716,8 +8716,8 @@ msgstr "Дополнения PVR не найдены"
 
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
-msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Для использования функций PVR необходим тюнер, серверное ПО и соответствующее дополнение. Посетите http://kodi.wiki/view/PVR для получения дополнительной информации."
+msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
+msgstr "Для использования PVR необходимо установить, включить и настроить дополнение PVR. Посетите сайт http://kodi.wiki/view/PVR, чтобы узнать больше."
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -11155,6 +11155,16 @@ msgctxt "#21345"
 msgid "Uncategorized"
 msgstr "Не категоризовано"
 
+#. Used to give heading list entry for an file extension description, e.g. to show as 'Extension: ".mp3"'
+msgctxt "#21346"
+msgid "Extension: \"{0:s}\""
+msgstr "Расширение: \"{0:s}\""
+
+#. Used to give heading list entry for an mimetype description, e.g. to show as 'MIME type: "audio/mpeg3"'
+msgctxt "#21347"
+msgid "MIME type: \"{0:s}\""
+msgstr "МIME-тип: \"{0:s}\""
+
 msgctxt "#21358"
 msgid "Enable UPnP support"
 msgstr "Включить поддержку UPnP"
@@ -12346,7 +12356,7 @@ msgstr "(Очистить текущие настройки)"
 
 msgctxt "#24041"
 msgid "Install from zip file"
-msgstr "Установить из файла ZIP"
+msgstr "Установить из zip-файла"
 
 #. Used to show on addon list the current download process
 msgctxt "#24042"
@@ -12364,7 +12374,7 @@ msgstr "Установка {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
+msgid "Failed to install add-on from zip file"
 msgstr "Не удалось установить дополнение из zip-файла"
 
 msgctxt "#24046"
@@ -12770,10 +12780,10 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "Обновить"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
-msgstr "Перейти к дополнению"
+msgid "View add-on"
+msgstr "Просмотр дополнения"
 
 #. Label for the action provided by media library events to jump to a specific path/file
 msgctxt "#24140"
@@ -12792,8 +12802,8 @@ msgstr "Требуемое дополнение {0:s} версии {1:s} не н
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
-msgstr "Не удалось установить дополнение из zip-файла {0:s} из-за неверной структуры."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
+msgstr "Установка дополнения из zip-файла, расположенного по ссылке {0:s}, не удалась из-за неверной структуры."
 
 #. Used as an event log description for add-ons that have been uninstalled
 msgctxt "#24144"
@@ -12879,25 +12889,26 @@ msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Использовать экранную клавиатуру Kodi"
 
-#. Header text for yes/no dialog about enable of broken addon
+# empty string with id 24163
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
-msgstr "Дополнение \"{0:s}\" не работает"
+msgid "Add-on \"{0:s}\" broken"
+msgstr "Дополнение \"{0:s}\" повреждено"
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "Дополнение помечено как нерабочее со следующим примечанием:[CR][B][I]{0:s}[/I][/B][CR][CR]Всё равно включить?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Дополнение помечено как неработающее со следующим примечанием:[CR][B][I]{0:s}[/I][/B][CR][CR]Действительно хотите его включить?"
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
+msgid "Add-on \"{0:s}\" deprecated"
 msgstr "Дополнение \"{0:s}\" устарело"
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "Дополнение помечено как устаревшее со следующим примечанием:[CR][B][I]{0:s}[/I][/B][CR][CR]Всё равно включить?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Дополнение помечено как устаревшее со следующим примечанием:[CR][B][I]{0:s}[/I][/B][CR][CR]Действительно хотите его включить?"
 
 #. Notification event to show addon marked as deprecated.
 msgctxt "#24168"
@@ -18077,10 +18088,10 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Фамилия"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
-msgstr "Дополнение: {0:s}[CR]Источник: {1:s}[CR]Версия: {2:s}[CR]- будет деинсталлирован и заменен. Вы хотите продолжить?"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr "Дополнение: {0:s}[CR]Источник: {1:s}[CR]Версия: {2:s}[CR]- будет деинсталлировано и заменено. Хотите продолжить?"
 
 #. Text for yes/no dialog to indicate that an add-on was manually installed
 msgctxt "#39029"
@@ -18434,6 +18445,47 @@ msgstr "Прозрачность тени"
 msgctxt "#39173"
 msgid "Blur"
 msgstr "Размытие"
+
+#. SystemInfo string for the display's supported HDR types
+msgctxt "#39174"
+msgid "Display supported HDR types"
+msgstr "Отображение поддерживаемых типов HDR"
+
+#~ msgctxt "#19272"
+#~ msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
+#~ msgstr "Для использования функций PVR необходим тюнер, серверное ПО и соответствующее дополнение. Посетите http://kodi.wiki/view/PVR для получения дополнительной информации."
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "Не удалось установить дополнение из zip-файла"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "Перейти к дополнению"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "Не удалось установить дополнение из zip-файла {0:s} из-за неверной структуры."
+
+#~ msgctxt "#24164"
+#~ msgid "Addon \"{0:s}\" broken"
+#~ msgstr "Дополнение \"{0:s}\" не работает"
+
+#~ msgctxt "#24165"
+#~ msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Дополнение помечено как нерабочее со следующим примечанием:[CR][B][I]{0:s}[/I][/B][CR][CR]Всё равно включить?"
+
+#~ msgctxt "#24166"
+#~ msgid "Addon \"{0:s}\" deprecated"
+#~ msgstr "Дополнение \"{0:s}\" устарело"
+
+#~ msgctxt "#24167"
+#~ msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Дополнение помечено как устаревшее со следующим примечанием:[CR][B][I]{0:s}[/I][/B][CR][CR]Всё равно включить?"
+
+#~ msgctxt "#39028"
+#~ msgid "Addon: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+#~ msgstr "Дополнение: {0:s}[CR]Источник: {1:s}[CR]Версия: {2:s}[CR]- будет деинсталлирован и заменен. Вы хотите продолжить?"
 
 #~ msgctxt "#39028"
 #~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"

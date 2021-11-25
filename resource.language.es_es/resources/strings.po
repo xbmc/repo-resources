@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-30 21:31+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-11-23 14:47+0000\n"
+"Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_es/>\n"
 "Language: es_es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -8713,8 +8713,8 @@ msgstr "No se encontraron add-ons de PVR"
 
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
-msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Es necesario un sintonizador, un software servidor y un add-on para que el servidor pueda utilizar el PVR. Por favor, visite http://kodi.wiki/view/PVR para más información."
+msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
+msgstr "Para usar PVR necesita instalar, activar y configurar un add-on PVR. Visite http://kodi.wiki/view/PVR para saber mas."
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -9029,47 +9029,47 @@ msgstr "Proveedores"
 #. label for special PVR search window list item
 msgctxt "#19335"
 msgid "New search..."
-msgstr ""
+msgstr "Nueva búsqueda..."
 
 #. label for special PVR search window list item
 msgctxt "#19336"
 msgid "Edit search..."
-msgstr ""
+msgstr "Editar búsqueda..."
 
 #. label for special PVR search window list item
 msgctxt "#19337"
 msgid "Saved searches"
-msgstr ""
+msgstr "Búsquedas guardadas"
 
 #. delete saved search confirmation message box text
 msgctxt "#19338"
 msgid "Delete this saved search?"
-msgstr ""
+msgstr "¿Eliminar esta búsqueda guardada?"
 
 #. PVR guide search dialog label
 msgctxt "#19339"
 msgid "Ignore finished broadcasts"
-msgstr ""
+msgstr "Ignorar emisiones terminadas"
 
 #. PVR guide search dialog label
 msgctxt "#19340"
 msgid "Ignore future broadcasts"
-msgstr ""
+msgstr "Ignorar emisiones futuras"
 
 #. label to ask user to save an EPG search
 msgctxt "#19341"
 msgid "Save the current search?"
-msgstr ""
+msgstr "¿Guardar búsqueda actual?"
 
 #. "search not saved" label, used in PVR search window breadcrumb
 msgctxt "#19342"
 msgid "[not saved]"
-msgstr ""
+msgstr "[no guardada]"
 
 #. "search saved" label, used in PVR search window breadcrumb
 msgctxt "#19343"
 msgid "[saved]"
-msgstr ""
+msgstr "[guardada]"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11151,6 +11151,16 @@ msgctxt "#21345"
 msgid "Uncategorized"
 msgstr "Sin categorizar"
 
+#. Used to give heading list entry for an file extension description, e.g. to show as 'Extension: ".mp3"'
+msgctxt "#21346"
+msgid "Extension: \"{0:s}\""
+msgstr "Extensión: \"{0:s}\""
+
+#. Used to give heading list entry for an mimetype description, e.g. to show as 'MIME type: "audio/mpeg3"'
+msgctxt "#21347"
+msgid "MIME type: \"{0:s}\""
+msgstr "Tipo MIME: \"{0:s}\""
+
 msgctxt "#21358"
 msgid "Enable UPnP support"
 msgstr "Activar soporte UPnP"
@@ -11674,12 +11684,12 @@ msgstr "Vista"
 #. Button label to show list of supported types, e.g. supported file extensions
 msgctxt "#21484"
 msgid "Show support"
-msgstr ""
+msgstr "Mostrar soporte"
 
 #. Dialog header label to show list of supported types, e.g. supported file extensions
 msgctxt "#21485"
 msgid "Supported file extensions and media types"
-msgstr ""
+msgstr "Extensiones y tipos de contenido soportados"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -12360,8 +12370,8 @@ msgstr "Instalando {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
-msgstr "Falló la instalación del Add-on desde un archivo zip"
+msgid "Failed to install add-on from zip file"
+msgstr "Fallo al instalar add-on desde un archivo zip"
 
 msgctxt "#24046"
 msgid "{0:s} is used by the following installed add-on(s)"
@@ -12766,10 +12776,10 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "Actualizar"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
-msgstr "Ver Add-on"
+msgid "View add-on"
+msgstr "Ver add-on"
 
 #. Label for the action provided by media library events to jump to a specific path/file
 msgctxt "#24140"
@@ -12788,8 +12798,8 @@ msgstr "No se puede satisfacer la dependencia de {0:s} versión {1:s}."
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
-msgstr "La instalación del Add-on desde el archivo zip localizado en {0:s} falló porque tiene una estructura inválida."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
+msgstr "La instalación del add-on desde el archivo zip de {0:s} fallo debido a una estructura no válida."
 
 #. Used as an event log description for add-ons that have been uninstalled
 msgctxt "#24144"
@@ -12875,25 +12885,26 @@ msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Usar teclado virtual de Kodi"
 
-#. Header text for yes/no dialog about enable of broken addon
+# empty string with id 24163
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
-msgstr "Complemento \"{0:s}\" roto"
+msgid "Add-on \"{0:s}\" broken"
+msgstr "Add-on \"{0:s}\" roto"
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "Complemento marcado como roto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres habilitarlo?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Add-on marcado como roto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quiere activarlo?"
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
-msgstr "Complemento \"{0:s}\" obsoleto"
+msgid "Add-on \"{0:s}\" deprecated"
+msgstr "Add-on \"{0:s}\" obsoleto"
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "Complemento marcado como obsoleto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres habilitarlo?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "Add-on marcado como obsoleto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quiere activarlo?"
 
 #. Notification event to show addon marked as deprecated.
 msgctxt "#24168"
@@ -17172,27 +17183,27 @@ msgstr "Tenga en cuenta que los complementos instalados desde zip (excluidos los
 #. Menuitem at "Settings -> System -> Add-ons"
 msgctxt "#36638"
 msgid "Remove all orphaned add-ons"
-msgstr ""
+msgstr "Eliminar todos los add-ons huérfanos"
 
 #. Description of setting with label #36638 "Remove all orphaned dependencies"
 msgctxt "#36639"
 msgid "Remove all modules and support libraries that have been automatically installed and are in an orphaned state."
-msgstr ""
+msgstr "Elimina todos los módulos y librerias de soporte que se instalaron automáticamente y están en estado huérfano."
 
 #. Dialog caption
 msgctxt "#36640"
 msgid "Orphaned add-ons"
-msgstr ""
+msgstr "Add-ons huérfanos"
 
 #. Dialog text if orphaned add-ons were found and removed
 msgctxt "#36641"
 msgid "The following orphaned add-ons were removed from your system: {0:s}."
-msgstr ""
+msgstr "Los siguientes add-ons huérfanos serán eliminados del sistema: {0:s}."
 
 #. Dialog text if no more orphaned add-ons left on the system
 msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
-msgstr ""
+msgstr "No hay add-ons huérfanos que eliminar."
 
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
@@ -18067,15 +18078,15 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Nombre corto"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
-msgstr ""
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr "Add-on: {0:s}[CR]Origen: {1:s}[CR]Versión: {2:s}[CR]- será desinstalado y reemplazado. ¿Proceder?"
 
 #. Text for yes/no dialog to indicate that an add-on was manually installed
 msgctxt "#39029"
 msgid "Manually installed"
-msgstr ""
+msgstr "Instalado manualmente"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18326,17 +18337,17 @@ msgstr "Sistema de ventanas:"
 #. Override subtitles styles setting list
 msgctxt "#39154"
 msgid "Override subtitles styles"
-msgstr ""
+msgstr "Reemplazar estilo de subtítulos"
 
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
 msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+msgstr "Algunos formatos de subtítulos como SSA / ASS / WebVTT pueden incluir datos como tipo de letra, color, tamaño, alineación, posición, etc. Puede reemplazar estos estilos con otras personlizaciones (Pueden ocurrir efectos indeseados en algunos casos)."
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
 msgid "Positions"
-msgstr ""
+msgstr "Posiciones"
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39157"
@@ -18346,82 +18357,119 @@ msgstr "Estilos"
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39158"
 msgid "Styles and positions"
-msgstr ""
+msgstr "Estilos y posiciones"
 
 #. Subtitle border size setting toggle
 msgctxt "#39159"
 msgid "Border size"
-msgstr ""
+msgstr "Tamaño del borde"
 
 #. Subtitle border colour setting
 msgctxt "#39160"
 msgid "Border colour"
-msgstr ""
+msgstr "Color del borde"
 
 #. CC Subtitles text alignment setting list
 msgctxt "#39161"
 msgid "Text alignment"
-msgstr ""
+msgstr "Alineación del texto"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39162"
 msgid "Left"
-msgstr ""
+msgstr "Izquierda"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39163"
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39164"
 msgid "Right"
-msgstr ""
+msgstr "Derecha"
 
 #. Type of background for displaying the subtitles
 msgctxt "#39165"
 msgid "Background type"
-msgstr ""
+msgstr "Tipo de fondo"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39166"
 msgid "Shadow"
-msgstr ""
+msgstr "Sombra"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39167"
 msgid "Box"
-msgstr ""
+msgstr "Caja"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39168"
 msgid "Square box"
-msgstr ""
+msgstr "Caja cuadrada"
 
 #. Description of setting with label #39166 "Background type"
 msgctxt "#39169"
 msgid "Type of background to apply to subtitles."
-msgstr ""
+msgstr "Tipo de fondo a aplicar a los subtítulos."
 
 #. Subtitle shadow size setting
 msgctxt "#39170"
 msgid "Shadow size"
-msgstr ""
+msgstr "Tamaño de sombra"
 
 #. Subtitle shadow colour setting
 msgctxt "#39171"
 msgid "Shadow colour"
-msgstr ""
+msgstr "Color de sombra"
 
 #. Subtitle shadow opacity setting
 msgctxt "#39172"
 msgid "Shadow opacity"
-msgstr ""
+msgstr "Opacidad de sombra"
 
 #. Subtitle blur setting
 msgctxt "#39173"
 msgid "Blur"
-msgstr ""
+msgstr "Difuminado"
+
+#. SystemInfo string for the display's supported HDR types
+msgctxt "#39174"
+msgid "Display supported HDR types"
+msgstr "Mostrar tipos HDR soportados"
+
+#~ msgctxt "#19272"
+#~ msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
+#~ msgstr "Es necesario un sintonizador, un software servidor y un add-on para que el servidor pueda utilizar el PVR. Por favor, visite http://kodi.wiki/view/PVR para más información."
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "Falló la instalación del Add-on desde un archivo zip"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "Ver Add-on"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "La instalación del Add-on desde el archivo zip localizado en {0:s} falló porque tiene una estructura inválida."
+
+#~ msgctxt "#24164"
+#~ msgid "Addon \"{0:s}\" broken"
+#~ msgstr "Complemento \"{0:s}\" roto"
+
+#~ msgctxt "#24165"
+#~ msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Complemento marcado como roto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres habilitarlo?"
+
+#~ msgctxt "#24166"
+#~ msgid "Addon \"{0:s}\" deprecated"
+#~ msgstr "Complemento \"{0:s}\" obsoleto"
+
+#~ msgctxt "#24167"
+#~ msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Complemento marcado como obsoleto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres habilitarlo?"
 
 #~ msgctxt "#39028"
 #~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"

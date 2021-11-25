@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-08 17:29+0000\n"
-"Last-Translator: JuenTingShie <t104340042@ntut.org.tw>\n"
+"PO-Revision-Date: 2021-11-23 09:01+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -8715,8 +8715,8 @@ msgstr "找不到任何 PVR 附加元件"
 
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
-msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "您需要選台器、支援軟體及其附加元件才能使用 PVR。請參考 http://kodi.wiki/view/PVR。"
+msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
+msgstr ""
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -11153,6 +11153,16 @@ msgctxt "#21345"
 msgid "Uncategorized"
 msgstr "未分類"
 
+#. Used to give heading list entry for an file extension description, e.g. to show as 'Extension: ".mp3"'
+msgctxt "#21346"
+msgid "Extension: \"{0:s}\""
+msgstr ""
+
+#. Used to give heading list entry for an mimetype description, e.g. to show as 'MIME type: "audio/mpeg3"'
+msgctxt "#21347"
+msgid "MIME type: \"{0:s}\""
+msgstr ""
+
 msgctxt "#21358"
 msgid "Enable UPnP support"
 msgstr "啟用UPnP支援"
@@ -12362,7 +12372,7 @@ msgstr "安裝中{0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
+msgid "Failed to install add-on from zip file"
 msgstr "從zip檔安裝附加元件失敗"
 
 msgctxt "#24046"
@@ -12768,9 +12778,9 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "更新"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
+msgid "View add-on"
 msgstr "檢視附加元件"
 
 #. Label for the action provided by media library events to jump to a specific path/file
@@ -12790,7 +12800,7 @@ msgstr "需要 {0:s} 版本 {1:s} 以上。"
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
 msgstr "由於架構問題，安裝位於{0:s}的zip檔中的附加元件失敗。"
 
 #. Used as an event log description for add-ons that have been uninstalled
@@ -12878,24 +12888,24 @@ msgid "Use Kodi virtual keyboard"
 msgstr "使用Kodi虛擬鍵盤"
 
 # empty string with id 24163
-#. Header text for yes/no dialog about enable of broken addon
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
+msgid "Add-on \"{0:s}\" broken"
 msgstr "附加元件 \"{0:s}\" 已毀損"
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "附加元件被標示為已毀損，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
+msgid "Add-on \"{0:s}\" deprecated"
 msgstr "附加元件 \"{0:s}\" 已被廢棄"
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "附加元件已被廢棄，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
 
 #. Notification event to show addon marked as deprecated.
@@ -18076,9 +18086,9 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "排序名稱"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
 msgstr "插件: {0:s}[CR]原始: {1:s}[CR]版本: {2:s}[CR]- 將會被移除並取代。確定要繼續嗎?"
 
 #. Text for yes/no dialog to indicate that an add-on was manually installed
@@ -18433,6 +18443,48 @@ msgstr "陰影透明度"
 msgctxt "#39173"
 msgid "Blur"
 msgstr "模糊"
+
+#. SystemInfo string for the display's supported HDR types
+msgctxt "#39174"
+msgid "Display supported HDR types"
+msgstr ""
+
+#~ msgctxt "#19272"
+#~ msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
+#~ msgstr "您需要選台器、支援軟體及其附加元件才能使用 PVR。請參考 http://kodi.wiki/view/PVR。"
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "從zip檔安裝附加元件失敗"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "檢視附加元件"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "由於架構問題，安裝位於{0:s}的zip檔中的附加元件失敗。"
+
+# empty string with id 24163
+#~ msgctxt "#24164"
+#~ msgid "Addon \"{0:s}\" broken"
+#~ msgstr "附加元件 \"{0:s}\" 已毀損"
+
+#~ msgctxt "#24165"
+#~ msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "附加元件被標示為已毀損，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
+
+#~ msgctxt "#24166"
+#~ msgid "Addon \"{0:s}\" deprecated"
+#~ msgstr "附加元件 \"{0:s}\" 已被廢棄"
+
+#~ msgctxt "#24167"
+#~ msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "附加元件已被廢棄，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
+
+#~ msgctxt "#39028"
+#~ msgid "Addon: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+#~ msgstr "插件: {0:s}[CR]原始: {1:s}[CR]版本: {2:s}[CR]- 將會被移除並取代。確定要繼續嗎?"
 
 #~ msgctxt "#39028"
 #~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
