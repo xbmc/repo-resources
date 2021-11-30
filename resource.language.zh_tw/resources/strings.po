@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-30 20:20+0000\n"
+"PO-Revision-Date: 2021-11-23 09:00+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/zh_tw/>\n"
 "Language: zh_tw\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -12247,7 +12247,7 @@ msgstr "安裝中{0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
+msgid "Failed to install add-on from zip file"
 msgstr "從zip檔安裝附加元件失敗"
 
 msgctxt "#24046"
@@ -12653,9 +12653,9 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "更新"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
+msgid "View add-on"
 msgstr "檢視附加元件"
 
 #. Label for the action provided by media library events to jump to a specific path/file
@@ -12675,7 +12675,7 @@ msgstr "需要 {0:s} 版本 {1:s} 以上。"
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
 msgstr "由於架構問題，安裝位於{0:s}的zip檔中的附加元件失敗。"
 
 #. Used as an event log description for add-ons that have been uninstalled
@@ -12766,25 +12766,24 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "對應Apple tvOS標準(Siri 遙控)"
 
-# empty string with id 24163
-#. Header text for yes/no dialog about enable of broken addon
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
+msgid "Add-on \"{0:s}\" broken"
 msgstr "附加元件 \"{0:s}\" 已毀損"
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "附加元件被標示為已毀損，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
+msgid "Add-on \"{0:s}\" deprecated"
 msgstr "附加元件 \"{0:s}\" 已被廢棄"
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "附加元件已被廢棄，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
 
 #. Notification event to show addon marked as deprecated.
@@ -17886,10 +17885,15 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "排序名稱"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
-msgstr "附加元件 \"{0:s}\"[CR] 源自 \"{1:s}\"[CR] 版本 \"{2:s}\"[CR]- 將被卸載並替換。您要繼續嗎？"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr "插件: {0:s}[CR]原始: {1:s}[CR]版本: {2:s}[CR]- 將會被移除並取代。確定要繼續嗎?"
+
+#. Text for yes/no dialog to indicate that an add-on was manually installed
+msgctxt "#39029"
+msgid "Manually installed"
+msgstr "手動安裝"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18138,6 +18142,39 @@ msgstr "整數縮放 (簡稱IS) 是一種使用顯示引擎的相鄰畫素(簡�
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "視窗系統："
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "從zip檔安裝附加元件失敗"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "檢視附加元件"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "由於架構問題，安裝位於{0:s}的zip檔中的附加元件失敗。"
+
+# empty string with id 24163
+#~ msgctxt "#24164"
+#~ msgid "Addon \"{0:s}\" broken"
+#~ msgstr "附加元件 \"{0:s}\" 已毀損"
+
+#~ msgctxt "#24165"
+#~ msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "附加元件被標示為已毀損，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
+
+#~ msgctxt "#24166"
+#~ msgid "Addon \"{0:s}\" deprecated"
+#~ msgstr "附加元件 \"{0:s}\" 已被廢棄"
+
+#~ msgctxt "#24167"
+#~ msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "附加元件已被廢棄，並帶有以下註釋：[CR][B][I]{0:s}[/I][/B][CR][CR]您要啟用嗎？"
+
+#~ msgctxt "#39028"
+#~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+#~ msgstr "附加元件 \"{0:s}\"[CR] 源自 \"{1:s}\"[CR] 版本 \"{2:s}\"[CR]- 將被卸載並替換。您要繼續嗎？"
 
 #~ msgctxt "#310"
 #~ msgid "Virtual keyboard layouts"

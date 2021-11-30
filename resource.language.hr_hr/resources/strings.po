@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-10 21:08+0000\n"
+"PO-Revision-Date: 2021-11-25 17:49+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
-"Language-Team: Croatian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/hr_hr/>\n"
+"Language-Team: Croatian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/hr_hr/>\n"
 "Language: hr_hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3008,7 +3008,7 @@ msgstr "Najviše snimanja"
 #. Representation of a one-time timer which has been scheduled by a timer rule.
 msgctxt "#819"
 msgid "One time (Scheduled by timer rule)"
-msgstr ""
+msgstr "Jednom (Zakazano zadanim rasporedom)"
 
 #. Representation of a one-time timer.
 msgctxt "#820"
@@ -12249,7 +12249,7 @@ msgstr "Instaliram {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
+msgid "Failed to install add-on from zip file"
 msgstr "Neuspjelo instaliranje dodatka iz zip arhive"
 
 msgctxt "#24046"
@@ -12655,9 +12655,9 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "Nadopuni"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
+msgid "View add-on"
 msgstr "Prikaži dodatak"
 
 #. Label for the action provided by media library events to jump to a specific path/file
@@ -12677,7 +12677,7 @@ msgstr "Zavisnost {0:s} inačice {1:s} se ne može udovoljiti."
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
 msgstr "Instalacija dodatka iz zip datoteke locirane u {0:s} je neuspjelo zbog neispravne strukture."
 
 #. Used as an event log description for add-ons that have been uninstalled
@@ -12768,25 +12768,24 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr ""
 
-# empty string with id 24163
-#. Header text for yes/no dialog about enable of broken addon
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
+msgid "Add-on \"{0:s}\" broken"
 msgstr ""
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr ""
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
+msgid "Add-on \"{0:s}\" deprecated"
 msgstr ""
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr ""
 
 #. Notification event to show addon marked as deprecated.
@@ -17888,9 +17887,14 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Naziv razvrstavanja"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr ""
+
+#. Text for yes/no dialog to indicate that an add-on was manually installed
+msgctxt "#39029"
+msgid "Manually installed"
 msgstr ""
 
 #. Media source, a filter and smart playlist rule option
@@ -18140,6 +18144,18 @@ msgstr ""
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr ""
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "Neuspjelo instaliranje dodatka iz zip arhive"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "Prikaži dodatak"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "Instalacija dodatka iz zip datoteke locirane u {0:s} je neuspjelo zbog neispravne strukture."
 
 # empty strings from id 29806 to 29899
 #~ msgctxt "#29900"

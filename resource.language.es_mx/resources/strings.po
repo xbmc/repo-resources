@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-30 20:50+0000\n"
+"PO-Revision-Date: 2021-11-23 14:47+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Spanish (Mexico) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/es_mx/>\n"
 "Language: es_mx\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -12245,7 +12245,7 @@ msgstr "Instalando {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
+msgid "Failed to install add-on from zip file"
 msgstr "Error al instalar complemento desde un archivo zip"
 
 msgctxt "#24046"
@@ -12651,9 +12651,9 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "Actualizar"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
+msgid "View add-on"
 msgstr "Ver complemento"
 
 #. Label for the action provided by media library events to jump to a specific path/file
@@ -12673,7 +12673,7 @@ msgstr "La dependencia en {0:s} versión {1:s} no pudo satisfacerse."
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
 msgstr "No se pudo instalar el complemento desde ZIP ubicado en {0:s}: estructura no válida."
 
 #. Used as an event log description for add-ons that have been uninstalled
@@ -12764,24 +12764,24 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "Igual que Apple tvOS estándar (Siri Remote)"
 
-#. Header text for yes/no dialog about enable of broken addon
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
+msgid "Add-on \"{0:s}\" broken"
 msgstr "Complemento \"{0:s}\" roto"
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "Complemento marcado como roto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres activarlo?"
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
+msgid "Add-on \"{0:s}\" deprecated"
 msgstr "Complemento \"{0:s}\" obsoleto"
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "Complemento marcado como obsoleto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres activarlo?"
 
 #. Notification event to show addon marked as deprecated.
@@ -17877,10 +17877,15 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Orden de nombre"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
-msgstr "El complemento \"{0:s}\"[CR]De origen \"{1:s}\"[CR]Versión \"{2:s}\"[CR]- se desinstalará y será reemplazado. ¿Deseas continuar?"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr "El complemento: {0:s}[CR]De origen: {1:s}[CR]Versión: {2:s}[CR]- se desinstalará y será reemplazado. ¿Deseas continuar?"
+
+#. Text for yes/no dialog to indicate that an add-on was manually installed
+msgctxt "#39029"
+msgid "Manually installed"
+msgstr ""
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18127,6 +18132,38 @@ msgstr "Integer Scaling (IS) es una técnica de escalado tipo Vecino más cercan
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "Sistema de gestión de ventanas:"
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "Error al instalar complemento desde un archivo zip"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "Ver complemento"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "No se pudo instalar el complemento desde ZIP ubicado en {0:s}: estructura no válida."
+
+#~ msgctxt "#24164"
+#~ msgid "Addon \"{0:s}\" broken"
+#~ msgstr "Complemento \"{0:s}\" roto"
+
+#~ msgctxt "#24165"
+#~ msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Complemento marcado como roto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres activarlo?"
+
+#~ msgctxt "#24166"
+#~ msgid "Addon \"{0:s}\" deprecated"
+#~ msgstr "Complemento \"{0:s}\" obsoleto"
+
+#~ msgctxt "#24167"
+#~ msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Complemento marcado como obsoleto con la siguiente nota:[CR][B][I]{0:s}[/I][/B][CR][CR]¿Quieres activarlo?"
+
+#~ msgctxt "#39028"
+#~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+#~ msgstr "El complemento \"{0:s}\"[CR]De origen \"{1:s}\"[CR]Versión \"{2:s}\"[CR]- se desinstalará y será reemplazado. ¿Deseas continuar?"
 
 #~ msgctxt "#310"
 #~ msgid "Virtual keyboard layouts"
