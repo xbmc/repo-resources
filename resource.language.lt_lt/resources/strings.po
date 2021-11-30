@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-02 13:36+0000\n"
-"Last-Translator: Raimondas Dužinskas <raimondas.duzinskas@gmail.com>\n"
-"Language-Team: Lithuanian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/lt_lt/>\n"
+"PO-Revision-Date: 2021-11-23 14:48+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Lithuanian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/lt_lt/>\n"
 "Language: lt_lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -12245,7 +12245,7 @@ msgstr "Diegiama: {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
+msgid "Failed to install add-on from zip file"
 msgstr "Nepavyko įdiegti priedo iš zip failo"
 
 msgctxt "#24046"
@@ -12651,9 +12651,9 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "Atnaujinti"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
+msgid "View add-on"
 msgstr "Peržiūrėti priedą"
 
 #. Label for the action provided by media library events to jump to a specific path/file
@@ -12673,7 +12673,7 @@ msgstr "{0:s} versijos {1:s} priklausomybė negali būti patenkinta."
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
 msgstr "Priedo diegimas iš zip failo, esančio {0:s}, nepavyko dėl neteisingos struktūros."
 
 #. Used as an event log description for add-ons that have been uninstalled
@@ -12764,24 +12764,24 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "Atitikti Apple tvOS standartą (Siri nuotolinio valdymo pultas)"
 
-#. Header text for yes/no dialog about enable of broken addon
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
+msgid "Add-on \"{0:s}\" broken"
 msgstr "Priedas \"{0:s}\" sugadintas"
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "Priedas pažymėtas kaip sugadintas su tokia pastaba:[CR][B][I]{0:s}[/I][/B][CR][CR]Ar norite jį įgalinti?"
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
+msgid "Add-on \"{0:s}\" deprecated"
 msgstr "Priedas \"{0:s}\" nebenaudojamas"
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
 msgstr "Priedas pažymėtas kaip nebenaudojamas su tokia pastaba:[CR][B][I]{0:s}[/I][/B][CR][CR]Ar norite jį įgalinti?"
 
 #. Notification event to show addon marked as deprecated.
@@ -15673,7 +15673,7 @@ msgstr "Automatiškai paleisti CD diską, įdėjus jį į diskų įrenginį."
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
 msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database gnudb.org."
-msgstr ""
+msgstr "Nuskaityti informaciją, priklausančią audio CD, tokią kaip dainos pavadinimas ir atlikėjas, iš internetinės duomenų bazės gnudb.org."
 
 #. Description of setting label #20000 "Saved music folder"
 msgctxt "#36285"
@@ -17877,10 +17877,15 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "Rikiavimo vardas"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
-msgstr "Priedas \"{0:s}\"[CR]Kilmė \"{1:s}\"[CR]Versija \"{2:s}\"[CR]- bus pašalintas ir pakeistas. Ar norite tęsti?"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr "Priedas: {0:s}[CR]Kilmė: {1:s}[CR]Versija: {2:s}[CR]- bus pašalintas ir pakeistas. Ar norite tęsti?"
+
+#. Text for yes/no dialog to indicate that an add-on was manually installed
+msgctxt "#39029"
+msgid "Manually installed"
+msgstr ""
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18127,6 +18132,38 @@ msgstr "'Integer scaling' (IS) yra 'Nearest-Neighbor' (NN) vaizdo raiškos didin
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "Langų sistema:"
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "Nepavyko įdiegti priedo iš zip failo"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "Peržiūrėti priedą"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "Priedo diegimas iš zip failo, esančio {0:s}, nepavyko dėl neteisingos struktūros."
+
+#~ msgctxt "#24164"
+#~ msgid "Addon \"{0:s}\" broken"
+#~ msgstr "Priedas \"{0:s}\" sugadintas"
+
+#~ msgctxt "#24165"
+#~ msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Priedas pažymėtas kaip sugadintas su tokia pastaba:[CR][B][I]{0:s}[/I][/B][CR][CR]Ar norite jį įgalinti?"
+
+#~ msgctxt "#24166"
+#~ msgid "Addon \"{0:s}\" deprecated"
+#~ msgstr "Priedas \"{0:s}\" nebenaudojamas"
+
+#~ msgctxt "#24167"
+#~ msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "Priedas pažymėtas kaip nebenaudojamas su tokia pastaba:[CR][B][I]{0:s}[/I][/B][CR][CR]Ar norite jį įgalinti?"
+
+#~ msgctxt "#39028"
+#~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+#~ msgstr "Priedas \"{0:s}\"[CR]Kilmė \"{1:s}\"[CR]Versija \"{2:s}\"[CR]- bus pašalintas ir pakeistas. Ar norite tęsti?"
 
 #~ msgctxt "#310"
 #~ msgid "Virtual keyboard layouts"

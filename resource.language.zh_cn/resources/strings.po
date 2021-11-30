@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-30 20:50+0000\n"
+"PO-Revision-Date: 2021-11-23 09:00+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/zh_cn/>\n"
 "Language: zh_cn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -12245,8 +12245,8 @@ msgstr "安装 {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
-msgid "Failed to install Add-on from zip file"
-msgstr "从 zip 文件安装插件失败"
+msgid "Failed to install add-on from zip file"
+msgstr "无法从zip文件安装加载项"
 
 msgctxt "#24046"
 msgid "{0:s} is used by the following installed add-on(s)"
@@ -12651,10 +12651,10 @@ msgctxt "#24138"
 msgid "Update"
 msgstr "更新"
 
-#. Label for the action provided by addon management events to jump to a specific Add-on
+#. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
-msgid "View Add-on"
-msgstr "浏览插件"
+msgid "View add-on"
+msgstr "查看加载项"
 
 #. Label for the action provided by media library events to jump to a specific path/file
 msgctxt "#24140"
@@ -12673,8 +12673,8 @@ msgstr "对版本 {1:s} 的 {0:s} 依赖无法满足。"
 
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
-msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
-msgstr "因无效结构，从 {0:s} 的 zip 文件安装插件失败。"
+msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
+msgstr "由于结构无效，从位于{0:s}的zip文件安装加载项失败。"
 
 #. Used as an event log description for add-ons that have been uninstalled
 msgctxt "#24144"
@@ -12764,25 +12764,25 @@ msgctxt "#24163"
 msgid "Match Apple tvOS Standard (Siri remote)"
 msgstr "匹配 Apple tvOS 标准（Siri 遥控器）"
 
-#. Header text for yes/no dialog about enable of broken addon
+#. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
-msgid "Addon \"{0:s}\" broken"
-msgstr "插件 \"{0:s}\" 已失效"
+msgid "Add-on \"{0:s}\" broken"
+msgstr "加载项“{0:s}”已损坏"
 
-#. Yes/no dialog text with addon broken string value and to ask for use
+#. Yes/no dialog text with add-on broken string value and to ask for use
 msgctxt "#24165"
-msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "插件标记为已失效，并带有以下注释：[CR][B][I]{0:s}[/I][/B][CR][CR] 您要启用吗？"
+msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "加载项被标记为已损坏，并带有以下注释:[CR][B][I]{0:s}[/I][/B][CR][CR]是否要启用？"
 
-#. Header text for yes/no dialog about enable of deprecated addon
+#. Header text for yes/no dialog about enable of deprecated add-on
 msgctxt "#24166"
-msgid "Addon \"{0:s}\" deprecated"
-msgstr "插件 \"{0:s}\" 已弃用"
+msgid "Add-on \"{0:s}\" deprecated"
+msgstr "加载项“{0:s}”已弃用"
 
-#. Yes/no dialog text with addon deprecated string value and to ask for use
+#. Yes/no dialog text with add-on deprecated string value and to ask for use
 msgctxt "#24167"
-msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "插件标记为已弃用，并带有以下注释：[CR][B][I]{0:s}[/I][/B][CR][CR] 您要启用吗？"
+msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+msgstr "加载项被标记为已弃用，并带有以下注释:[CR][B][I]{0:s}[/I][/B][CR][CR]是否要启用？"
 
 #. Notification event to show addon marked as deprecated.
 msgctxt "#24168"
@@ -13568,7 +13568,7 @@ msgstr "配置您的"
 
 msgctxt "#33054"
 msgid "Seasons"
-msgstr "季节"
+msgstr "季"
 
 msgctxt "#33055"
 msgid "Use your"
@@ -17877,10 +17877,15 @@ msgctxt "#39027"
 msgid "Sortname"
 msgstr "排序名"
 
-#. Text for yes/no dialog when silently uninstalling an addon
+#. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
-msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
-msgstr "插件 \"{0:s}\"[CR] 来源 \"{1:s}\"[CR] 版本 \"{2:s}\"[CR]- 将被卸载并被替换。您想继续吗？"
+msgid "Add-on: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- will be uninstalled and replaced. Would you like to proceed?"
+msgstr "加载项：{0:s}[CR]来源：{1:s}[CR]版本：{2:s}[CR]——将会被卸载并替换。是否要继续？"
+
+#. Text for yes/no dialog to indicate that an add-on was manually installed
+msgctxt "#39029"
+msgid "Manually installed"
+msgstr "已手动安装"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18127,6 +18132,38 @@ msgstr "整数缩放（IS）是使用显示引擎的近邻（NN）放大技术"
 msgctxt "#39153"
 msgid "Windowing system:"
 msgstr "视窗系统："
+
+#~ msgctxt "#24045"
+#~ msgid "Failed to install Add-on from zip file"
+#~ msgstr "从 zip 文件安装插件失败"
+
+#~ msgctxt "#24139"
+#~ msgid "View Add-on"
+#~ msgstr "浏览插件"
+
+#~ msgctxt "#24143"
+#~ msgid "Installing the Add-on from zip file located at {0:s} failed due to an invalid structure."
+#~ msgstr "因无效结构，从 {0:s} 的 zip 文件安装插件失败。"
+
+#~ msgctxt "#24164"
+#~ msgid "Addon \"{0:s}\" broken"
+#~ msgstr "插件 \"{0:s}\" 已失效"
+
+#~ msgctxt "#24165"
+#~ msgid "Addon marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "插件标记为已失效，并带有以下注释：[CR][B][I]{0:s}[/I][/B][CR][CR] 您要启用吗？"
+
+#~ msgctxt "#24166"
+#~ msgid "Addon \"{0:s}\" deprecated"
+#~ msgstr "插件 \"{0:s}\" 已弃用"
+
+#~ msgctxt "#24167"
+#~ msgid "Addon marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
+#~ msgstr "插件标记为已弃用，并带有以下注释：[CR][B][I]{0:s}[/I][/B][CR][CR] 您要启用吗？"
+
+#~ msgctxt "#39028"
+#~ msgid "Addon \"{0:s}\"[CR]Origin \"{1:s}\"[CR]Version \"{2:s}\"[CR]- will uninstall and be replaced. Would you like to proceed?"
+#~ msgstr "插件 \"{0:s}\"[CR] 来源 \"{1:s}\"[CR] 版本 \"{2:s}\"[CR]- 将被卸载并被替换。您想继续吗？"
 
 #~ msgctxt "#310"
 #~ msgid "Virtual keyboard layouts"
