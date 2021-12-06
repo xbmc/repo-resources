@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-23 09:01+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-12-06 05:03+0000\n"
+"Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.9.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5347,6 +5347,11 @@ msgctxt "#13297"
 msgid "Not connected. Check network settings."
 msgstr "無法連線，請檢查網路設定。"
 
+#. Label of the button used to disconnect a game controller from the emulated game port
+msgctxt "#13298"
+msgid "Disconnected"
+msgstr ""
+
 msgctxt "#13299"
 msgid "Target temperature"
 msgstr "目標溫度"
@@ -8716,7 +8721,7 @@ msgstr "找不到任何 PVR 附加元件"
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
 msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr ""
+msgstr "您需安裝並啟用PVR附加元件才可以使用PVR。請至http://kodi.wiki/view/PVR查閱詳情。"
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -11156,12 +11161,12 @@ msgstr "未分類"
 #. Used to give heading list entry for an file extension description, e.g. to show as 'Extension: ".mp3"'
 msgctxt "#21346"
 msgid "Extension: \"{0:s}\""
-msgstr ""
+msgstr "延時: \"{0:s}\""
 
 #. Used to give heading list entry for an mimetype description, e.g. to show as 'MIME type: "audio/mpeg3"'
 msgctxt "#21347"
 msgid "MIME type: \"{0:s}\""
-msgstr ""
+msgstr "MIME類別: \"{0:s}\""
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -14404,6 +14409,31 @@ msgctxt "#35109"
 msgid "Keypad"
 msgstr "小型鍵盤"
 
+#. Label for the button that opens the port setup dialog
+msgctxt "#35110"
+msgid "Ports"
+msgstr ""
+
+#. Title of the window for setting up controller ports used by the game
+msgctxt "#35111"
+msgid "Port Setup"
+msgstr ""
+
+#. Label of a port with a numeric identifier. {0:s} is the port ID, e.g. "1" for "Port 1"
+msgctxt "#35112"
+msgid "Port {0:s}"
+msgstr ""
+
+#. Title of the dialog for selecting a game controller
+msgctxt "#35113"
+msgid "Select a Controller"
+msgstr ""
+
+#. Title of the error dialog when changing a controller port fails
+msgctxt "#35114"
+msgid "Failed to change controller"
+msgstr ""
+
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
 msgid "Keyboard"
@@ -17212,10 +17242,11 @@ msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
 msgstr "沒有可刪除的孤兒附加元件。"
 
+# empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
-msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
-msgstr "開啟網路伺服器的SSL加密連線模式，Certificate special://userdata/server.key 及 Key special://userdata/server.pem 這兩者需手動建立"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.pem and Key special://userdata/server.key must be created manually"
+msgstr "在網頁伺服器中啟用SSL加密。證書 special://userdata/server.pem 及密鑰 special://userdata/server.key 必須手動建立"
 
 msgctxt "#36900"
 msgid "movie"
@@ -18447,7 +18478,11 @@ msgstr "模糊"
 #. SystemInfo string for the display's supported HDR types
 msgctxt "#39174"
 msgid "Display supported HDR types"
-msgstr ""
+msgstr "顯示支援的HDR類型"
+
+#~ msgctxt "#36899"
+#~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+#~ msgstr "開啟網路伺服器的SSL加密連線模式，Certificate special://userdata/server.key 及 Key special://userdata/server.pem 這兩者需手動建立"
 
 #~ msgctxt "#19272"
 #~ msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
