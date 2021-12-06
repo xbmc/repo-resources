@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-23 09:00+0000\n"
+"PO-Revision-Date: 2021-12-06 10:55+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.9.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5346,6 +5346,11 @@ msgstr "Dostępny"
 msgctxt "#13297"
 msgid "Not connected. Check network settings."
 msgstr "Brak połączenia. Zweryfikuj ustawienia sieci."
+
+#. Label of the button used to disconnect a game controller from the emulated game port
+msgctxt "#13298"
+msgid "Disconnected"
+msgstr "Rozłączony"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -14405,6 +14410,31 @@ msgctxt "#35109"
 msgid "Keypad"
 msgstr "Klawiatura numeryczna"
 
+#. Label for the button that opens the port setup dialog
+msgctxt "#35110"
+msgid "Ports"
+msgstr "Porty"
+
+#. Title of the window for setting up controller ports used by the game
+msgctxt "#35111"
+msgid "Port Setup"
+msgstr "Konfiguracja portów"
+
+#. Label of a port with a numeric identifier. {0:s} is the port ID, e.g. "1" for "Port 1"
+msgctxt "#35112"
+msgid "Port {0:s}"
+msgstr "Port {0:s}"
+
+#. Title of the dialog for selecting a game controller
+msgctxt "#35113"
+msgid "Select a Controller"
+msgstr "Wybierz kontroler"
+
+#. Title of the error dialog when changing a controller port fails
+msgctxt "#35114"
+msgid "Failed to change controller"
+msgstr "Nie udało się zmienić kontrolera"
+
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
 msgid "Keyboard"
@@ -17213,10 +17243,11 @@ msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
 msgstr "Brak osieroconych dodatków do usunięcia."
 
+# empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
-msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
-msgstr "Umożliwia aktywowanie szyfrowania SSL na serwerze webowym. Certyfikat w lokalizacji special://userdata/server.key i Klucz w lokalizacji special://userdata/server.pem muszą zostać utworzone manualnie"
+msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.pem and Key special://userdata/server.key must be created manually"
+msgstr "Włącza szyfrowanie SSL na serwerze WWW. Certyfikat special://userdata/server.pem oraz klucz special://userdata/server.key należy utworzyć ręcznie"
 
 msgctxt "#36900"
 msgid "movie"
@@ -18449,6 +18480,10 @@ msgstr "Rozmycie"
 msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Obsługiwane typy HDR przez wyświetlacz"
+
+#~ msgctxt "#36899"
+#~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
+#~ msgstr "Umożliwia aktywowanie szyfrowania SSL na serwerze webowym. Certyfikat w lokalizacji special://userdata/server.key i Klucz w lokalizacji special://userdata/server.pem muszą zostać utworzone manualnie"
 
 #~ msgctxt "#19272"
 #~ msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."
