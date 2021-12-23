@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-03 11:41+0000\n"
+"PO-Revision-Date: 2021-12-23 11:35+0000\n"
 "Last-Translator: Minho Park <parkmino@gmail.com>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1859,6 +1859,7 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "재생목록을 읽을수 없음"
 
+#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -3044,7 +3045,7 @@ msgctxt "#825"
 msgid "Recording: {0:s}"
 msgstr "녹화: {0:s}"
 
-#. Label for a context menu entry to add a reminder timer
+#. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
 msgid "Set reminder"
 msgstr "알림 설정"
@@ -5348,7 +5349,7 @@ msgstr "연결안됨. 네트워크 설정을 확인하세요."
 #. Label of the button used to disconnect a game controller from the emulated game port
 msgctxt "#13298"
 msgid "Disconnected"
-msgstr ""
+msgstr "연결 안 됨"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -9076,6 +9077,11 @@ msgctxt "#19343"
 msgid "[saved]"
 msgstr "[저장됨]"
 
+#. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
+msgctxt "#19344"
+msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
+msgstr "선택한 프로그램에 대한 알림을 설정하거나 현재 프로그램으로 전환하시겠습니까?"
+
 #. label for epg genre value
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11148,8 +11154,8 @@ msgid "Use video tags"
 msgstr "비디오 태그 사용"
 
 msgctxt "#21344"
-msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "mp4나 mkv 파일에 태그가 있으면, 이를 라이브러리 메타데이터에 사용"
+msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
+msgstr "라이브러리 메타데이터에 대해 mp4 또는 mkv 파일에 포함된 태그를 사용하도록 설정합니다. 스크레이퍼가 올바르게 작동하는 것을 방지합니다."
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -14405,27 +14411,27 @@ msgstr "키패드"
 #. Label for the button that opens the port setup dialog
 msgctxt "#35110"
 msgid "Ports"
-msgstr ""
+msgstr "포트"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#35111"
 msgid "Port Setup"
-msgstr ""
+msgstr "포트 설정"
 
 #. Label of a port with a numeric identifier. {0:s} is the port ID, e.g. "1" for "Port 1"
 msgctxt "#35112"
 msgid "Port {0:s}"
-msgstr ""
+msgstr "포트 {0:s}"
 
 #. Title of the dialog for selecting a game controller
 msgctxt "#35113"
 msgid "Select a Controller"
-msgstr ""
+msgstr "컨트롤러 선택"
 
 #. Title of the error dialog when changing a controller port fails
 msgctxt "#35114"
 msgid "Failed to change controller"
-msgstr ""
+msgstr "컨트롤러 변경 실패함"
 
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
@@ -18469,6 +18475,35 @@ msgstr "흐림"
 msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "지원되는 HDR 형식 표시"
+
+#. Description of settings category "OSD" with label #478
+msgctxt "#39175"
+msgid "This category contains all the on screen display (OSD) related settings."
+msgstr "이 범주에는 모든 OSD(화면 디스플레이) 관련 설정이 포함됩니다."
+
+#. Automatically close video OSD bool setting in Settings/Interface/OSD
+msgctxt "#39176"
+msgid "Automatically close video OSD"
+msgstr "자동으로 비디오 OSD 닫기"
+
+#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
+msgctxt "#39177"
+msgid "The video OSD window will be automatically closed if visible after a specified time"
+msgstr "지정된 시간이 지나면 비디오 OSD 창이 자동으로 닫힙니다"
+
+#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
+msgctxt "#39178"
+msgid "Video OSD autoclose time (seconds)"
+msgstr "비디오 OSD 자동 닫기 시간(초)"
+
+#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
+msgctxt "#39179"
+msgid "The time in seconds for the video OSD to be automatically closed"
+msgstr "비디오 OSD가 자동으로 닫히는 시간(초)"
+
+#~ msgctxt "#21344"
+#~ msgid "If mp4 or mkv files have tags, use this for library metadata"
+#~ msgstr "mp4나 mkv 파일에 태그가 있으면, 이를 라이브러리 메타데이터에 사용"
 
 #~ msgctxt "#36899"
 #~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
