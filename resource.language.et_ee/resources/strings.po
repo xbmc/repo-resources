@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:29+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-12-14 10:26+0000\n"
+"Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/et_ee/>\n"
 "Language: et_ee\n"
 "MIME-Version: 1.0\n"
@@ -325,7 +325,7 @@ msgstr "Muutuja"
 
 msgctxt "#98"
 msgid "View: Auto"
-msgstr "Kuva: Autom."
+msgstr "Kuva: Automaatne"
 
 msgctxt "#99"
 msgid "View: Auto big"
@@ -1859,6 +1859,7 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Esitusloendit pole võimalik laadida"
 
+#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -3044,7 +3045,7 @@ msgctxt "#825"
 msgid "Recording: {0:s}"
 msgstr "Salvestus: {0:s}"
 
-#. Label for a context menu entry to add a reminder timer
+#. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
 msgid "Set reminder"
 msgstr "Sea meeldetuletus"
@@ -7271,7 +7272,7 @@ msgstr "Sinc (tarkvaraline)"
 
 msgctxt "#16310"
 msgid "Temporal"
-msgstr "Temporal"
+msgstr "Ajaline"
 
 msgctxt "#16311"
 msgid "Temporal / Spatial"
@@ -9076,6 +9077,11 @@ msgctxt "#19343"
 msgid "[saved]"
 msgstr ""
 
+#. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
+msgctxt "#19344"
+msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
+msgstr ""
+
 #. label for epg genre value
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -10011,7 +10017,7 @@ msgstr "Muusikanautimiseks valmis"
 
 msgctxt "#20125"
 msgid "Logged on as"
-msgstr "Sisse logitud:"
+msgstr "Sisse logitud kasutajana"
 
 msgctxt "#20126"
 msgid "Log off"
@@ -11148,8 +11154,8 @@ msgid "Use video tags"
 msgstr "Kasuta video märksõnu"
 
 msgctxt "#21344"
-msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "Kui mp4 või mkv failidel on sildid, kasuta seda meediakogu metaandmete jaoks"
+msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
+msgstr ""
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -12761,7 +12767,7 @@ msgstr "Subtiitrite seaded"
 
 msgctxt "#24134"
 msgid "Download subtitle..."
-msgstr "Hangi subtiitrid"
+msgstr "Hangi subtiitrid..."
 
 msgctxt "#24135"
 msgid "To use this feature you must enable an add-on:"
@@ -18469,6 +18475,35 @@ msgstr ""
 msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr ""
+
+#. Description of settings category "OSD" with label #478
+msgctxt "#39175"
+msgid "This category contains all the on screen display (OSD) related settings."
+msgstr ""
+
+#. Automatically close video OSD bool setting in Settings/Interface/OSD
+msgctxt "#39176"
+msgid "Automatically close video OSD"
+msgstr ""
+
+#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
+msgctxt "#39177"
+msgid "The video OSD window will be automatically closed if visible after a specified time"
+msgstr ""
+
+#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
+msgctxt "#39178"
+msgid "Video OSD autoclose time (seconds)"
+msgstr ""
+
+#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
+msgctxt "#39179"
+msgid "The time in seconds for the video OSD to be automatically closed"
+msgstr ""
+
+#~ msgctxt "#21344"
+#~ msgid "If mp4 or mkv files have tags, use this for library metadata"
+#~ msgstr "Kui mp4 või mkv failidel on sildid, kasuta seda meediakogu metaandmete jaoks"
 
 #~ msgctxt "#36899"
 #~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"

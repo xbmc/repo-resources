@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:29+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-12-14 10:26+0000\n"
+"Last-Translator: Edson Armando <edsonarmando78@outlook.com>\n"
 "Language-Team: Spanish (Mexico) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_mx/>\n"
 "Language: es_mx\n"
 "MIME-Version: 1.0\n"
@@ -1859,6 +1859,7 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "No se pudo cargar la lista de reproducción"
 
+#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -3044,7 +3045,7 @@ msgctxt "#825"
 msgid "Recording: {0:s}"
 msgstr "Grabación: {0:s}"
 
-#. Label for a context menu entry to add a reminder timer
+#. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
 msgid "Set reminder"
 msgstr "Programar recordatorio"
@@ -5348,7 +5349,7 @@ msgstr "No conectado. Comprueba la configuración de red."
 #. Label of the button used to disconnect a game controller from the emulated game port
 msgctxt "#13298"
 msgid "Disconnected"
-msgstr ""
+msgstr "Desconectado"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -8719,7 +8720,7 @@ msgstr "No se encontraron complementos PVR"
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
 msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr ""
+msgstr "Para utilizar el PVR, necesitas instalar, activar y configurar un complemento PVR. Visita http://kodi.wiki/view/PVR para aprender más."
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -9034,47 +9035,52 @@ msgstr "Proveedores"
 #. label for special PVR search window list item
 msgctxt "#19335"
 msgid "New search..."
-msgstr ""
+msgstr "Nueva búsqueda..."
 
 #. label for special PVR search window list item
 msgctxt "#19336"
 msgid "Edit search..."
-msgstr ""
+msgstr "Editar búsqueda..."
 
 #. label for special PVR search window list item
 msgctxt "#19337"
 msgid "Saved searches"
-msgstr ""
+msgstr "Búsquedas guardadas"
 
 #. delete saved search confirmation message box text
 msgctxt "#19338"
 msgid "Delete this saved search?"
-msgstr ""
+msgstr "¿Eliminar esta búsqueda guardada?"
 
 #. PVR guide search dialog label
 msgctxt "#19339"
 msgid "Ignore finished broadcasts"
-msgstr ""
+msgstr "Ignorar transmisiones finalizadas"
 
 #. PVR guide search dialog label
 msgctxt "#19340"
 msgid "Ignore future broadcasts"
-msgstr ""
+msgstr "Ignorar transmisiones futuras"
 
 #. label to ask user to save an EPG search
 msgctxt "#19341"
 msgid "Save the current search?"
-msgstr ""
+msgstr "¿Guardar la búsqueda actual?"
 
 #. "search not saved" label, used in PVR search window breadcrumb
 msgctxt "#19342"
 msgid "[not saved]"
-msgstr ""
+msgstr "[sin guardar]"
 
 #. "search saved" label, used in PVR search window breadcrumb
 msgctxt "#19343"
 msgid "[saved]"
-msgstr ""
+msgstr "[guardada]"
+
+#. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
+msgctxt "#19344"
+msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
+msgstr "¿Quieres establecer un recordatorio para el programa seleccionado o quieres cambiar al programa actual?"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11148,8 +11154,8 @@ msgid "Use video tags"
 msgstr "Usar etiquetas de video"
 
 msgctxt "#21344"
-msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "Si los archivos mp4 o mkv tienen etiquetas, utilizarlas para los metadatos de la biblioteca"
+msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
+msgstr ""
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -11159,12 +11165,12 @@ msgstr "Sin categoría"
 #. Used to give heading list entry for an file extension description, e.g. to show as 'Extension: ".mp3"'
 msgctxt "#21346"
 msgid "Extension: \"{0:s}\""
-msgstr ""
+msgstr "Extensión: \"{0:s}\""
 
 #. Used to give heading list entry for an mimetype description, e.g. to show as 'MIME type: "audio/mpeg3"'
 msgctxt "#21347"
 msgid "MIME type: \"{0:s}\""
-msgstr ""
+msgstr "Tipo MIME: \"{0:s}\""
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -11208,7 +11214,7 @@ msgstr "Carpeta de subtítulos de películas y otros"
 
 msgctxt "#21368"
 msgid "Override subtitles fonts"
-msgstr ""
+msgstr "Forzar fuentes de subtítulos"
 
 msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
@@ -11689,12 +11695,12 @@ msgstr "Ver"
 #. Button label to show list of supported types, e.g. supported file extensions
 msgctxt "#21484"
 msgid "Show support"
-msgstr ""
+msgstr "Mostrar soporte de medios"
 
 #. Dialog header label to show list of supported types, e.g. supported file extensions
 msgctxt "#21485"
 msgid "Supported file extensions and media types"
-msgstr ""
+msgstr "Tipos de medios y extensiones de archivo soportados"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -14405,27 +14411,27 @@ msgstr "Teclado numérico"
 #. Label for the button that opens the port setup dialog
 msgctxt "#35110"
 msgid "Ports"
-msgstr ""
+msgstr "Puertos"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#35111"
 msgid "Port Setup"
-msgstr ""
+msgstr "Configuración de puertos"
 
 #. Label of a port with a numeric identifier. {0:s} is the port ID, e.g. "1" for "Port 1"
 msgctxt "#35112"
 msgid "Port {0:s}"
-msgstr ""
+msgstr "Puerto {0:s}"
 
 #. Title of the dialog for selecting a game controller
 msgctxt "#35113"
 msgid "Select a Controller"
-msgstr ""
+msgstr "Selecciona un control"
 
 #. Title of the error dialog when changing a controller port fails
 msgctxt "#35114"
 msgid "Failed to change controller"
-msgstr ""
+msgstr "Error cambiando control"
 
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
@@ -15434,7 +15440,7 @@ msgstr "Establece el juego de caracteres a utilizar para los subtítulos."
 #. Description of setting with label #21368 "Override subtitles fonts"
 msgctxt "#36190"
 msgid "Override subtitles fonts in subtitle formats such as ASS / SSA."
-msgstr ""
+msgstr "Fuerza las fuentes de subtítulo en formatos tales como ASS / SSA."
 
 #. Description of setting with label #21366 "Custom subtitle folder"
 msgctxt "#36191"
@@ -18117,7 +18123,7 @@ msgstr "El complemento: {0:s}[CR]De origen: {1:s}[CR]Versión: {2:s}[CR]- se des
 #. Text for yes/no dialog to indicate that an add-on was manually installed
 msgctxt "#39029"
 msgid "Manually installed"
-msgstr ""
+msgstr "Instalado manualmente"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18368,12 +18374,12 @@ msgstr "Sistema de gestión de ventanas:"
 #. Override subtitles styles setting list
 msgctxt "#39154"
 msgid "Override subtitles styles"
-msgstr ""
+msgstr "Estilos de subtítulos forzados"
 
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
 msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+msgstr "Algunos formatos de subtítulo tales como SSA /ASS /WebVTT pueden incluir metadatos como estilo de fuente, colores, tamaño, alineación, posición, etc. Puedes forzar los estilos con tus propios ajustes (considera que pueden ocurrir efectos secundarios en algunos casos)."
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
@@ -18393,82 +18399,111 @@ msgstr "Estilos y posiciones"
 #. Subtitle border size setting toggle
 msgctxt "#39159"
 msgid "Border size"
-msgstr ""
+msgstr "Tamaño del borde"
 
 #. Subtitle border colour setting
 msgctxt "#39160"
 msgid "Border colour"
-msgstr ""
+msgstr "Color del borde"
 
 #. CC Subtitles text alignment setting list
 msgctxt "#39161"
 msgid "Text alignment"
-msgstr ""
+msgstr "Alineación del texto"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39162"
 msgid "Left"
-msgstr ""
+msgstr "Izquierda"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39163"
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39164"
 msgid "Right"
-msgstr ""
+msgstr "Derecha"
 
 #. Type of background for displaying the subtitles
 msgctxt "#39165"
 msgid "Background type"
-msgstr ""
+msgstr "Tipo de fondo"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39166"
 msgid "Shadow"
-msgstr ""
+msgstr "Sombra"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39167"
 msgid "Box"
-msgstr ""
+msgstr "Caja"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39168"
 msgid "Square box"
-msgstr ""
+msgstr "Caja cuadrada"
 
 #. Description of setting with label #39166 "Background type"
 msgctxt "#39169"
 msgid "Type of background to apply to subtitles."
-msgstr ""
+msgstr "Tipo de fondo a aplicar a los subtítulos."
 
 #. Subtitle shadow size setting
 msgctxt "#39170"
 msgid "Shadow size"
-msgstr ""
+msgstr "Tamaño de sombra"
 
 #. Subtitle shadow colour setting
 msgctxt "#39171"
 msgid "Shadow colour"
-msgstr ""
+msgstr "Color de sombra"
 
 #. Subtitle shadow opacity setting
 msgctxt "#39172"
 msgid "Shadow opacity"
-msgstr ""
+msgstr "Opacidad de sombra"
 
 #. Subtitle blur setting
 msgctxt "#39173"
 msgid "Blur"
-msgstr ""
+msgstr "Desenfoque"
 
 #. SystemInfo string for the display's supported HDR types
 msgctxt "#39174"
 msgid "Display supported HDR types"
+msgstr "Mostrar tipos de HDR soportados"
+
+#. Description of settings category "OSD" with label #478
+msgctxt "#39175"
+msgid "This category contains all the on screen display (OSD) related settings."
 msgstr ""
+
+#. Automatically close video OSD bool setting in Settings/Interface/OSD
+msgctxt "#39176"
+msgid "Automatically close video OSD"
+msgstr ""
+
+#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
+msgctxt "#39177"
+msgid "The video OSD window will be automatically closed if visible after a specified time"
+msgstr ""
+
+#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
+msgctxt "#39178"
+msgid "Video OSD autoclose time (seconds)"
+msgstr ""
+
+#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
+msgctxt "#39179"
+msgid "The time in seconds for the video OSD to be automatically closed"
+msgstr ""
+
+#~ msgctxt "#21344"
+#~ msgid "If mp4 or mkv files have tags, use this for library metadata"
+#~ msgstr "Si los archivos mp4 o mkv tienen etiquetas, utilizarlas para los metadatos de la biblioteca"
 
 #~ msgctxt "#36899"
 #~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 10:55+0000\n"
+"PO-Revision-Date: 2021-12-23 11:35+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1859,6 +1859,7 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Nieudane wczytywanie listy odtwarzania"
 
+#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "Menu ekranowe"
@@ -3044,7 +3045,7 @@ msgctxt "#825"
 msgid "Recording: {0:s}"
 msgstr "Nagranie: {0:s}"
 
-#. Label for a context menu entry to add a reminder timer
+#. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
 msgid "Set reminder"
 msgstr "Ustaw przypomnienie"
@@ -9078,6 +9079,11 @@ msgctxt "#19343"
 msgid "[saved]"
 msgstr "[zapisane]"
 
+#. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
+msgctxt "#19344"
+msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
+msgstr "Czy chcesz ustawić przypomnienie dla wybranego programu czy przełączyć się na bieżący program?"
+
 #. label for epg genre value
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11151,8 +11157,8 @@ msgid "Use video tags"
 msgstr "Używaj znaczników wideo"
 
 msgctxt "#21344"
-msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "W przypadku, gdy pliki MP4 lub MKV posiadają znaczniki, zostaną one użyte do zasilenia biblioteki"
+msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
+msgstr "Aktywuj, aby używać osadzonych znaczników w plikach mp4 lub mkv dla metadanych biblioteki. Uniemożliwi prawidłowe działanie skrobaków."
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -17524,7 +17530,7 @@ msgstr "Nieograniczony"
 #. Used to format framerate values. {0:d} will be replaced with the according number/integer, like "24 fps", "50 fps"
 msgctxt "#38016"
 msgid "{0:d} fps"
-msgstr "{0:d} fps"
+msgstr "{0:d} kl./s"
 
 #. Description of setting #14111 "Blu-ray region code"
 msgctxt "#38017"
@@ -18480,6 +18486,35 @@ msgstr "Rozmycie"
 msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Obsługiwane typy HDR przez wyświetlacz"
+
+#. Description of settings category "OSD" with label #478
+msgctxt "#39175"
+msgid "This category contains all the on screen display (OSD) related settings."
+msgstr "Ta kategoria zawiera wszystkie ustawienia związane z menu ekranowym (OSD)."
+
+#. Automatically close video OSD bool setting in Settings/Interface/OSD
+msgctxt "#39176"
+msgid "Automatically close video OSD"
+msgstr "Automatycznie zamykaj menu ekranowe wideo"
+
+#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
+msgctxt "#39177"
+msgid "The video OSD window will be automatically closed if visible after a specified time"
+msgstr "Okno menu ekranowego wideo zostanie automatycznie zamknięte, jeśli będzie widoczne po określonym czasie"
+
+#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
+msgctxt "#39178"
+msgid "Video OSD autoclose time (seconds)"
+msgstr "Czas automatycznego zamykania menu ekranowego wideo (sekundy)"
+
+#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
+msgctxt "#39179"
+msgid "The time in seconds for the video OSD to be automatically closed"
+msgstr "Czas w sekundach, po którym menu ekranowe wideo zostanie automatycznie zamknięte"
+
+#~ msgctxt "#21344"
+#~ msgid "If mp4 or mkv files have tags, use this for library metadata"
+#~ msgstr "W przypadku, gdy pliki MP4 lub MKV posiadają znaczniki, zostaną one użyte do zasilenia biblioteki"
 
 #~ msgctxt "#36899"
 #~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 05:03+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-12-14 10:26+0000\n"
+"Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
 "MIME-Version: 1.0\n"
@@ -1859,6 +1859,7 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Toistolistaa ei voitu ladata"
 
+#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "Kuvaruutuvalikko"
@@ -3044,7 +3045,7 @@ msgctxt "#825"
 msgid "Recording: {0:s}"
 msgstr "Tallennus: {0:s}"
 
-#. Label for a context menu entry to add a reminder timer
+#. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
 msgid "Set reminder"
 msgstr "Aseta muistutus"
@@ -5348,7 +5349,7 @@ msgstr "Ei ole yhdistetty. Tarkista verkkoasetukset."
 #. Label of the button used to disconnect a game controller from the emulated game port
 msgctxt "#13298"
 msgid "Disconnected"
-msgstr ""
+msgstr "Yhteys katkaistu"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -9076,6 +9077,11 @@ msgctxt "#19343"
 msgid "[saved]"
 msgstr "[tallennettu]"
 
+#. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
+msgctxt "#19344"
+msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
+msgstr "Haluatko asettaa muistutuksen valitusta ohjelmasta vai vaihtaa nykyiseen ohjelmaan?"
+
 #. label for epg genre value
 msgctxt "#19499"
 msgid "Other / Unknown"
@@ -11148,8 +11154,8 @@ msgid "Use video tags"
 msgstr "Lue videotiedostojen tagit"
 
 msgctxt "#21344"
-msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "Näyttää mp4- ja mkv-tiedostojen tageista löydetyt tiedot videokirjastossa"
+msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
+msgstr ""
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -14405,27 +14411,27 @@ msgstr "Numeronäppäimet"
 #. Label for the button that opens the port setup dialog
 msgctxt "#35110"
 msgid "Ports"
-msgstr ""
+msgstr "Liitännät"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#35111"
 msgid "Port Setup"
-msgstr ""
+msgstr "Liitäntöjen määritys"
 
 #. Label of a port with a numeric identifier. {0:s} is the port ID, e.g. "1" for "Port 1"
 msgctxt "#35112"
 msgid "Port {0:s}"
-msgstr ""
+msgstr "Liitäntä {0:s}"
 
 #. Title of the dialog for selecting a game controller
 msgctxt "#35113"
 msgid "Select a Controller"
-msgstr ""
+msgstr "Valitse ohjain"
 
 #. Title of the error dialog when changing a controller port fails
 msgctxt "#35114"
 msgid "Failed to change controller"
-msgstr ""
+msgstr "Ohjaimen vaihto epäonnistui"
 
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
@@ -18469,6 +18475,35 @@ msgstr "Sumeus"
 msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Näytön tukemat HDR-tyypit"
+
+#. Description of settings category "OSD" with label #478
+msgctxt "#39175"
+msgid "This category contains all the on screen display (OSD) related settings."
+msgstr ""
+
+#. Automatically close video OSD bool setting in Settings/Interface/OSD
+msgctxt "#39176"
+msgid "Automatically close video OSD"
+msgstr ""
+
+#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
+msgctxt "#39177"
+msgid "The video OSD window will be automatically closed if visible after a specified time"
+msgstr ""
+
+#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
+msgctxt "#39178"
+msgid "Video OSD autoclose time (seconds)"
+msgstr ""
+
+#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
+msgctxt "#39179"
+msgid "The time in seconds for the video OSD to be automatically closed"
+msgstr ""
+
+#~ msgctxt "#21344"
+#~ msgid "If mp4 or mkv files have tags, use this for library metadata"
+#~ msgstr "Näyttää mp4- ja mkv-tiedostojen tageista löydetyt tiedot videokirjastossa"
 
 #~ msgctxt "#36899"
 #~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:28+0000\n"
+"PO-Revision-Date: 2021-12-23 11:35+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1859,6 +1859,7 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Kan ikke indlæse playliste"
 
+#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -3044,7 +3045,7 @@ msgctxt "#825"
 msgid "Recording: {0:s}"
 msgstr "Optagelse: {0:s}"
 
-#. Label for a context menu entry to add a reminder timer
+#. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
 msgid "Set reminder"
 msgstr "Sæt påmindelse"
@@ -4026,7 +4027,7 @@ msgstr "Ikke tilgængelig"
 #. Abbreviation of "Not Available"
 msgctxt "#10006"
 msgid "N/A"
-msgstr "N/A"
+msgstr "Ikke tilgængelig"
 
 msgctxt "#10007"
 msgid "System information"
@@ -7610,7 +7611,7 @@ msgstr "Optagelse"
 
 msgctxt "#19044"
 msgid "Please check your configuration. Check the log for more information about this message."
-msgstr "Check indstillingerne. Se logfilen for flere detaljer."
+msgstr "Kontroller indstillingerne. Se logfilen for flere detaljer."
 
 msgctxt "#19045"
 msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
@@ -9078,6 +9079,11 @@ msgstr "[ikke gemt]"
 msgctxt "#19343"
 msgid "[saved]"
 msgstr "[gemt]"
+
+#. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
+msgctxt "#19344"
+msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
+msgstr "Vil du oprette en påmindelse for det valgte program eller skifte til det aktuelle program?"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11152,8 +11158,8 @@ msgid "Use video tags"
 msgstr "Anvend videomærkater"
 
 msgctxt "#21344"
-msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "Hvis mp4- eller mkv-filer har mærkater, anvendes disse som metadata i biblioteket"
+msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
+msgstr "Aktiver for at bruge indlejrede tags i mp4- eller mkv-filer til bibliotekets metadata. Forhindrer scraperne i at fungere korrekt."
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -18483,6 +18489,35 @@ msgstr "Sløring"
 msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Vis understøttede HDR-typer"
+
+#. Description of settings category "OSD" with label #478
+msgctxt "#39175"
+msgid "This category contains all the on screen display (OSD) related settings."
+msgstr "Kategori indeholdende alle OSD-relaterede indstillinger."
+
+#. Automatically close video OSD bool setting in Settings/Interface/OSD
+msgctxt "#39176"
+msgid "Automatically close video OSD"
+msgstr "Luk automatisk video OSD"
+
+#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
+msgctxt "#39177"
+msgid "The video OSD window will be automatically closed if visible after a specified time"
+msgstr "Video OSD lukkes automatisk, hvis det er synligt efter et angivet tidsrum"
+
+#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
+msgctxt "#39178"
+msgid "Video OSD autoclose time (seconds)"
+msgstr "Tid før automatisk lukning af video OSD (sekunder)"
+
+#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
+msgctxt "#39179"
+msgid "The time in seconds for the video OSD to be automatically closed"
+msgstr "Tid i sekunder før automatisk lukning af video OSD"
+
+#~ msgctxt "#21344"
+#~ msgid "If mp4 or mkv files have tags, use this for library metadata"
+#~ msgstr "Hvis mp4- eller mkv-filer har mærkater, anvendes disse som metadata i biblioteket"
 
 #~ msgctxt "#36899"
 #~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"

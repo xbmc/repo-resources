@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:50+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-12-23 11:35+0000\n"
+"Last-Translator: Emir Sarı <bitigchi@me.com>\n"
 "Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/tr_tr/>\n"
 "Language: tr_tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1859,6 +1859,7 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Çalma listesi yüklenemiyor"
 
+#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -3044,7 +3045,7 @@ msgctxt "#825"
 msgid "Recording: {0:s}"
 msgstr "Kayıt: {0:s}"
 
-#. Label for a context menu entry to add a reminder timer
+#. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
 msgid "Set reminder"
 msgstr "Anımsatıcı ayarla"
@@ -5348,7 +5349,7 @@ msgstr "Bağlı değil. Ağ ayarlarını denetleyin."
 #. Label of the button used to disconnect a game controller from the emulated game port
 msgctxt "#13298"
 msgid "Disconnected"
-msgstr ""
+msgstr "Bağlantı kesildi"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -8719,7 +8720,7 @@ msgstr "Hiçbir PVR eklentisi bulunamadı"
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
 msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr ""
+msgstr "PVR'yi kullanmak için bir PVR eklentisi yüklemeli, etkinleştirmeli ve yapılandırmalısınız. Daha fazla bilgi için lütfen https://kodi.wiki/view/PVR adresini ziyaret edin."
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -9075,6 +9076,11 @@ msgstr "[kaydedilmedi]"
 msgctxt "#19343"
 msgid "[saved]"
 msgstr "[kaydedildi]"
+
+#. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
+msgctxt "#19344"
+msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
+msgstr "Seçili program için bir anımsatıcı ayarlamak mı yoksa geçerli programa mı geçiş yapmak istersiniz?"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11148,8 +11154,8 @@ msgid "Use video tags"
 msgstr "Video etiketlerini kullan"
 
 msgctxt "#21344"
-msgid "If mp4 or mkv files have tags, use this for library metadata"
-msgstr "Mp4 veya mkv dosyalarının etiketleri varsa, bunu kitaplık meta verileri için kullan"
+msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
+msgstr "Kitaplık üstverisi için mp4 veya mkv dosyalarında gömülü etiketlerin kullanımını etkinleştirin. Kazıyıcıların düzgün çalışmasına engel olur."
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -14405,27 +14411,27 @@ msgstr "Tuş takımı"
 #. Label for the button that opens the port setup dialog
 msgctxt "#35110"
 msgid "Ports"
-msgstr ""
+msgstr "Kapılar"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#35111"
 msgid "Port Setup"
-msgstr ""
+msgstr "Kapı Kurulumu"
 
 #. Label of a port with a numeric identifier. {0:s} is the port ID, e.g. "1" for "Port 1"
 msgctxt "#35112"
 msgid "Port {0:s}"
-msgstr ""
+msgstr "Kapı {0:s}"
 
 #. Title of the dialog for selecting a game controller
 msgctxt "#35113"
 msgid "Select a Controller"
-msgstr ""
+msgstr "Bir Denetleyici Seçin"
 
 #. Title of the error dialog when changing a controller port fails
 msgctxt "#35114"
 msgid "Failed to change controller"
-msgstr ""
+msgstr "Denetleyici değiştirilemedi"
 
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
@@ -18469,6 +18475,35 @@ msgstr "Bulanıklık"
 msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Desteklenen HDR türlerini görüntüle"
+
+#. Description of settings category "OSD" with label #478
+msgctxt "#39175"
+msgid "This category contains all the on screen display (OSD) related settings."
+msgstr "Bu kategori, tüm ekran üstü kumanda (OSD) ile ilgili ayarları içerir."
+
+#. Automatically close video OSD bool setting in Settings/Interface/OSD
+msgctxt "#39176"
+msgid "Automatically close video OSD"
+msgstr "Video OSD'sini kendiliğinden kapat"
+
+#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
+msgctxt "#39177"
+msgid "The video OSD window will be automatically closed if visible after a specified time"
+msgstr "Video OSD penceresi belirli bir süreden sonra hâlâ görünürse kendiliğinden kapatılır"
+
+#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
+msgctxt "#39178"
+msgid "Video OSD autoclose time (seconds)"
+msgstr "Video OSD kendiliğinden kapanma süresi (saniye)"
+
+#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
+msgctxt "#39179"
+msgid "The time in seconds for the video OSD to be automatically closed"
+msgstr "Video OSD'sinin saniye türünden kendiliğinden kapanma süresi"
+
+#~ msgctxt "#21344"
+#~ msgid "If mp4 or mkv files have tags, use this for library metadata"
+#~ msgstr "Mp4 veya mkv dosyalarının etiketleri varsa, bunu kitaplık meta verileri için kullan"
 
 #~ msgctxt "#36899"
 #~ msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.key and Key special://userdata/server.pem must be created manually"
