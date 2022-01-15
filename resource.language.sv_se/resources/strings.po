@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:50+0000\n"
+"PO-Revision-Date: 2022-01-15 12:07+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sv_se/>\n"
 "Language: sv_se\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Kalibrera användargränssnitt..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Videokalibrering..."
+msgid "Video calibration"
+msgstr "Videokalibrering"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "Topp 100"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Överskanningsersättning uppe till vänster"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Nedre höger overscan-kompensation"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Undertextsposition"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Justering av pixelförhållande"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Justera rektangeln till en perfekt fyrkant"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Överskanningsersättning uppe till vänster"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Nedre höger overscan-kompensation"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Justera pilen för att ändra overscan-omfång"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Undertextsposition"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Justera stapeln för att ändra undertextsposition"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Justera rektangeln till en perfekt fyrkant"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9037,32 +9045,32 @@ msgstr "Leverantörer"
 #. label for special PVR search window list item
 msgctxt "#19335"
 msgid "New search..."
-msgstr ""
+msgstr "Ny sökning..."
 
 #. label for special PVR search window list item
 msgctxt "#19336"
 msgid "Edit search..."
-msgstr ""
+msgstr "Redigera sökning..."
 
 #. label for special PVR search window list item
 msgctxt "#19337"
 msgid "Saved searches"
-msgstr ""
+msgstr "Sparade sökningar"
 
 #. delete saved search confirmation message box text
 msgctxt "#19338"
 msgid "Delete this saved search?"
-msgstr ""
+msgstr "Ta bort den här sparade sökningen?"
 
 #. PVR guide search dialog label
 msgctxt "#19339"
 msgid "Ignore finished broadcasts"
-msgstr ""
+msgstr "Ignorera avslutade sändningar"
 
 #. PVR guide search dialog label
 msgctxt "#19340"
 msgid "Ignore future broadcasts"
-msgstr ""
+msgstr "Ignorera framtida sändningar"
 
 #. label to ask user to save an EPG search
 msgctxt "#19341"
@@ -9072,17 +9080,17 @@ msgstr ""
 #. "search not saved" label, used in PVR search window breadcrumb
 msgctxt "#19342"
 msgid "[not saved]"
-msgstr ""
+msgstr "[inte sparad]"
 
 #. "search saved" label, used in PVR search window breadcrumb
 msgctxt "#19343"
 msgid "[saved]"
-msgstr ""
+msgstr "[sparad]"
 
 #. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
-msgstr ""
+msgstr "Vill du ställa in en påminnelse för det valda programmet eller växla till det aktuella programmet?"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -9291,11 +9299,16 @@ msgstr "Folk / Traditionell musik"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr "Jazz"
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Musikal / Opera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Balett"
 
@@ -10491,17 +10504,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Spela del..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Kalibreringsåterställning"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Detta kommer att återställa kalibreringsvärdena för {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "till sina standardvärden."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10693,6 +10709,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Frigör innehållet"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Originaltitel"
@@ -11098,6 +11115,11 @@ msgctxt "#20473"
 msgid "Premiered"
 msgstr "Hade premiär"
 
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
+msgstr "HDR typ"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Visa dolda filer och mappar"
@@ -11172,7 +11194,7 @@ msgstr ""
 #. Used to give heading list entry for an mimetype description, e.g. to show as 'MIME type: "audio/mpeg3"'
 msgctxt "#21347"
 msgid "MIME type: \"{0:s}\""
-msgstr ""
+msgstr "MIME typ: \"{0:s}\""
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -11216,7 +11238,7 @@ msgstr "Film & alternativ undertextmapp"
 
 msgctxt "#21368"
 msgid "Override subtitles fonts"
-msgstr ""
+msgstr "Åsidosätt teckensnitt för undertexter"
 
 msgctxt "#21369"
 msgid "Enable mouse and touch screen support"
@@ -11702,7 +11724,7 @@ msgstr ""
 #. Dialog header label to show list of supported types, e.g. supported file extensions
 msgctxt "#21485"
 msgid "Supported file extensions and media types"
-msgstr ""
+msgstr "Filtillägg och mediatyper som stöds"
 
 msgctxt "#21602"
 msgid "(External)"
@@ -12892,7 +12914,7 @@ msgstr ""
 
 msgctxt "#24161"
 msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr ""
+msgstr "Detta förhindrar att du oavsiktligt trycker/sveper/panorerar när du tar fjärrkontrollen i handen"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
@@ -13104,7 +13126,7 @@ msgstr "Denna Blu-ray skiva (eller fil) är krypterad och kan därför inte spel
 #. Header string on RDS Radiotext+ Info dialog
 msgctxt "#29900"
 msgid "RadioText Plus info"
-msgstr ""
+msgstr "RadioText Plus info"
 
 #. Music band name which make the song (if present)
 msgctxt "#29901"
@@ -14413,27 +14435,27 @@ msgstr "Knappsats"
 #. Label for the button that opens the port setup dialog
 msgctxt "#35110"
 msgid "Ports"
-msgstr ""
+msgstr "Portar"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#35111"
 msgid "Port Setup"
-msgstr ""
+msgstr "Portinställning"
 
 #. Label of a port with a numeric identifier. {0:s} is the port ID, e.g. "1" for "Port 1"
 msgctxt "#35112"
 msgid "Port {0:s}"
-msgstr ""
+msgstr "Port {0:s}"
 
 #. Title of the dialog for selecting a game controller
 msgctxt "#35113"
 msgid "Select a Controller"
-msgstr ""
+msgstr "Välj en handkontroll"
 
 #. Title of the error dialog when changing a controller port fails
 msgctxt "#35114"
 msgid "Failed to change controller"
-msgstr ""
+msgstr "Misslyckades att byta handkontroll"
 
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
@@ -14988,7 +15010,7 @@ msgstr "Vid start"
 #. Label of setting "System / Display / Use 10 bit for SDR"
 msgctxt "#36098"
 msgid "Use 10 bit for SDR"
-msgstr ""
+msgstr "Använd 10 bit för SDR"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -15442,7 +15464,7 @@ msgstr "Välj teckenuppsättning som ska användas för undertexter."
 #. Description of setting with label #21368 "Override subtitles fonts"
 msgctxt "#36190"
 msgid "Override subtitles fonts in subtitle formats such as ASS / SSA."
-msgstr ""
+msgstr "Åsidosätt undertextteckensnitt i undertextformat som ASS/SSA."
 
 #. Description of setting with label #21366 "Custom subtitle folder"
 msgctxt "#36191"
@@ -16101,7 +16123,7 @@ msgstr "Denna kategorin innehåller inställningar för hur fjärrkontrolltjäns
 #. Description of setting with label #791 "Allow remote control from programs on this system"
 msgctxt "#36334"
 msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
-msgstr ""
+msgstr "Tillåt program på den här enheten att styra den här applikationen via JSON-RPC över WebSocket, JSON-RPC över TCP eller EventServer-protokoll, utan autentisering."
 
 #. Description of setting with label #792 "Port"
 msgctxt "#36335"
@@ -16121,7 +16143,7 @@ msgstr "Ange maximalt antal klienter som kan ansluta."
 #. Description of setting with label #794 "Allow remote control from programs on other systems"
 msgctxt "#36338"
 msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
-msgstr ""
+msgstr "Tillåt program på nätverket att styra denna applikation via JSON-RPC över WebSocket, JSON-RPC över TCP eller EventServer-protokoll, utan autentisering. Det tillåter alla med tillgång till nätverket att fullständigt kontrollera denna applikation och därmed den här enheten. Utsätt aldrig dessa gränssnitt för Internet."
 
 #. Description of setting with label #795 "Initial repeat delay (ms)"
 msgctxt "#36339"
@@ -16590,7 +16612,7 @@ msgstr "Om aktiverad, byt till kanalen med programmet för att påminna när på
 #. Select the layout of a physically attached keyboard
 msgctxt "#36436"
 msgid "Select hardware keyboard layout."
-msgstr ""
+msgstr "Välj hårdvarutangentbordslayout."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16620,7 +16642,7 @@ msgstr "Välj det här alternativet för att tillåta användning av 3:2-uppdate
 #. Description of setting with label #14128 "Whitelist"
 msgctxt "#36445"
 msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
-msgstr ""
+msgstr "Välj det här alternativet för att tillåta användning av dubbla uppdateringsfrekvenser (uppspelning av 29,97 FPS-video på en 59,94 Hz-skärm eller uppspelning av 30 FPS-video på en 60 Hz-skärm). Du kanske vill använda det här alternativet om din bildskärm inte har ett 29,97 Hz eller 30 Hz läge."
 
 #. Description of settings with label #14112 "Enable event logging"
 msgctxt "#36460"
@@ -16849,12 +16871,12 @@ msgstr "Parameter för tonmappning"
 #. label of a setting, tone mapping method
 msgctxt "#36557"
 msgid "ACES Filmic"
-msgstr ""
+msgstr "ACES Filmic"
 
 #. label of a setting, tone mapping method
 msgctxt "#36558"
 msgid "Hable"
-msgstr ""
+msgstr "Hable"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -16940,7 +16962,7 @@ msgstr "Specificerar upplösningen för 3D-uppslagstabellen. Använd en lägre u
 #. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
 msgctxt "#36578"
 msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr ""
+msgstr "Förbättrar videokvaliteten genom att använda 10-bitars videoytor för Standard Dynamic Range (SDR)-video.[CR][Autoavkänning] Aktiverar 10 bitar för SDR endast om den anslutna skärmen stöder HDR.[CR][Alltid] Aktiverar 10 bitar för SDR även om den anslutna skärmen inte stöder HDR.[CR][Aldrig] Använd inte 10-bitars för SDR.[CR]HDR-genomströmningsläget använder alltid 10-bitars oavsett denna inställning."
 
 #. primaries labels
 msgctxt "#36579"
@@ -17191,17 +17213,17 @@ msgstr "Tvinga svag SMBv1-säkerhet för kompatibilitet med USB-delningsfunktion
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control via HTTP"
 msgctxt "#36632"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
-msgstr ""
+msgstr "Alla som har tillgång till webbgränssnittet kommer att helt kunna kontrollera detta program och därmed den här enheten, så den bör aldrig exponeras på Internet. Ett lösenord bör anges nedan. Fortsätt?"
 
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control from applications on other systems"
 msgctxt "#36633"
 msgid "These services offer neither authentication nor encryption. Anyone who can connect to them will be able to completely control this application and, therefore, this device, so they should never be exposed to the Internet. Proceed?"
-msgstr ""
+msgstr "Dessa tjänster erbjuder varken autentisering eller kryptering. Alla som kan ansluta till dem kommer att helt kunna kontrollera denna applikation och därmed den här enheten, så de bör aldrig utsättas för Internet. Fortsätt?"
 
 #. Text in confirm dialog when disabling setting "Services -> Control -> Require authentication"
 msgctxt "#36634"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
-msgstr ""
+msgstr "Alla som har tillgång till webbgränssnittet kommer att helt kunna kontrollera detta program och därmed den här enheten, så den bör säkras med ett lösenord. Är du säker på att du vill inaktivera autentisering?"
 
 #. Text in error dialog when trying to enter an invalid web server configuration
 msgctxt "#36635"
@@ -17221,27 +17243,27 @@ msgstr "Observera att tillägg installerade från zip (exklusive serverade förr
 #. Menuitem at "Settings -> System -> Add-ons"
 msgctxt "#36638"
 msgid "Remove all orphaned add-ons"
-msgstr ""
+msgstr "Ta bort alla föräldralösa tillägg"
 
 #. Description of setting with label #36638 "Remove all orphaned dependencies"
 msgctxt "#36639"
 msgid "Remove all modules and support libraries that have been automatically installed and are in an orphaned state."
-msgstr ""
+msgstr "Ta bort alla moduler och supportbibliotek som har installerats automatiskt och är i ett föräldralöst tillstånd."
 
 #. Dialog caption
 msgctxt "#36640"
 msgid "Orphaned add-ons"
-msgstr ""
+msgstr "Föräldralösa tillägg"
 
 #. Dialog text if orphaned add-ons were found and removed
 msgctxt "#36641"
 msgid "The following orphaned add-ons were removed from your system: {0:s}."
-msgstr ""
+msgstr "Följande föräldralösa tillägg togs bort från ditt system: {0:s}."
 
 #. Dialog text if no more orphaned add-ons left on the system
 msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
-msgstr ""
+msgstr "Inga föräldralösa tillägg att ta bort."
 
 # empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
@@ -17479,22 +17501,22 @@ msgstr "1080"
 
 msgctxt "#37047"
 msgid "WS-Discovery"
-msgstr ""
+msgstr "WS-Discovery"
 
 #. Setting #37048 Enable WS-Discovery Service"
 msgctxt "#37048"
 msgid "Enable WS-Discovery Service"
-msgstr ""
+msgstr "Aktivera WS-Discovery tjänst"
 
 #. Description of setting #37048 Enable WS-Discovery Service"
 msgctxt "#37049"
 msgid "Enable service to search for SMB services using the WS-Discovery protocol"
-msgstr ""
+msgstr "Aktivera tjänsten för att söka efter SMB-tjänster med WS-Discovery-protokollet"
 
 #. Label for component level debug logging setting
 msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr ""
+msgstr "Utförlig loggning för komponenten [B]WS-Discovery[/B]"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18125,7 +18147,7 @@ msgstr "Tillägget: {0:s}[CR]Origin: {1:s}[CR]Version: {2:s}[CR]- kommer att avi
 #. Text for yes/no dialog to indicate that an add-on was manually installed
 msgctxt "#39029"
 msgid "Manually installed"
-msgstr ""
+msgstr "Manuellt installerad"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -18292,7 +18314,7 @@ msgstr "Begränsa albumomslag som hämtas lokalt eller tillämpas från skrapare
 
 msgctxt "#39135"
 msgid "Thumbnail image files"
-msgstr ""
+msgstr "Tumnagel bildfiler"
 
 #. Description of setting with label #39135 "Thumbnail image files"
 msgctxt "#39136"
@@ -18376,47 +18398,47 @@ msgstr "Fönstersystemet:"
 #. Override subtitles styles setting list
 msgctxt "#39154"
 msgid "Override subtitles styles"
-msgstr ""
+msgstr "Åsidosätt undertextstilar"
 
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
 msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr ""
+msgstr "Vissa undertextformat som SSA / ASS / WebVTT kan inkludera metadata som typsnittsstil, färger, storlek, justeringar, positioner, etc. du kan åsidosätta stilarna med dina anpassningar (observera att biverkningar kan uppstå i vissa fall)."
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
 msgid "Positions"
-msgstr ""
+msgstr "Positioner"
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39157"
 msgid "Styles"
-msgstr ""
+msgstr "Stilar"
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39158"
 msgid "Styles and positions"
-msgstr ""
+msgstr "Stilar och positioner"
 
 #. Subtitle border size setting toggle
 msgctxt "#39159"
 msgid "Border size"
-msgstr ""
+msgstr "Kantstorlek"
 
 #. Subtitle border colour setting
 msgctxt "#39160"
 msgid "Border colour"
-msgstr ""
+msgstr "Kantfärg"
 
 #. CC Subtitles text alignment setting list
 msgctxt "#39161"
 msgid "Text alignment"
-msgstr ""
+msgstr "Textjustering"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39162"
 msgid "Left"
-msgstr ""
+msgstr "Vänster"
 
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39163"
@@ -18426,52 +18448,52 @@ msgstr ""
 #. Item list value of setting with label #39161 "Text alignment"
 msgctxt "#39164"
 msgid "Right"
-msgstr ""
+msgstr "Höger"
 
 #. Type of background for displaying the subtitles
 msgctxt "#39165"
 msgid "Background type"
-msgstr ""
+msgstr "Bakgrundstyp"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39166"
 msgid "Shadow"
-msgstr ""
+msgstr "Skugga"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39167"
 msgid "Box"
-msgstr ""
+msgstr "Låda"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39168"
 msgid "Square box"
-msgstr ""
+msgstr "Fyrkantig låda"
 
 #. Description of setting with label #39166 "Background type"
 msgctxt "#39169"
 msgid "Type of background to apply to subtitles."
-msgstr ""
+msgstr "Typ av bakgrund att tillämpa på undertexter."
 
 #. Subtitle shadow size setting
 msgctxt "#39170"
 msgid "Shadow size"
-msgstr ""
+msgstr "Skuggstorlek"
 
 #. Subtitle shadow colour setting
 msgctxt "#39171"
 msgid "Shadow colour"
-msgstr ""
+msgstr "Skuggfärg"
 
 #. Subtitle shadow opacity setting
 msgctxt "#39172"
 msgid "Shadow opacity"
-msgstr ""
+msgstr "Skuggopacitet"
 
 #. Subtitle blur setting
 msgctxt "#39173"
 msgid "Blur"
-msgstr ""
+msgstr "Suddighet"
 
 #. SystemInfo string for the display's supported HDR types
 msgctxt "#39174"
@@ -18486,22 +18508,66 @@ msgstr ""
 #. Automatically close video OSD bool setting in Settings/Interface/OSD
 msgctxt "#39176"
 msgid "Automatically close video OSD"
-msgstr ""
+msgstr "Automatiskt stäng video OSD"
 
 #. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
 msgctxt "#39177"
 msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr ""
+msgstr "Video OSD-fönstret stängs automatiskt om det är synligt efter en viss tid"
 
 #. Video OSD autoclose time (seconds) in Settings/Interface/OSD
 msgctxt "#39178"
 msgid "Video OSD autoclose time (seconds)"
-msgstr ""
+msgstr "Video OSD autostängningstid (sekunder)"
 
 #. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr ""
+msgstr "Tiden i sekunder för video-OSD att stängas automatiskt"
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Videokalibrering..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Överskanningsersättning uppe till vänster"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Nedre höger overscan-kompensation"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Undertextsposition"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Justering av pixelförhållande"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Justera stapeln för att ändra undertextsposition"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Justera rektangeln till en perfekt fyrkant"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Detta kommer att återställa kalibreringsvärdena för {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "till sina standardvärden."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Musikal / Opera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Balett"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

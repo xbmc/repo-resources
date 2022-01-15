@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:50+0000\n"
+"PO-Revision-Date: 2022-01-14 20:23+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Portuguese (Portugal) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pt_pt/>\n"
 "Language: pt_pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Calibrar interface do utilizador..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Calibração do vídeo..."
+msgid "Video calibration"
+msgstr "Calibração do vídeo"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "Melhores 100"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Compensação da imagem na margem superior esquerda"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Compensação da imagem na margem inferior direita"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Posição das legendas"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Ajuste da proporção dos pixeis"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Ajuste o retângulo para ficar um quadrado perfeito"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Compensação da imagem na margem superior esquerda"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Compensação da imagem na margem inferior direita"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Ajuste a seta para compensar o tamanho da imagem"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Posição das legendas"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Ajuste a barra para alterar a posição das legendas"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Ajuste o retângulo para ficar um quadrado perfeito"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -3013,7 +3021,7 @@ msgstr "Máx. gravações"
 #. Representation of a one-time timer which has been scheduled by a timer rule.
 msgctxt "#819"
 msgid "One time (Scheduled by timer rule)"
-msgstr ""
+msgstr "Uma vez (Agendado pelas regras do temporizador)"
 
 #. Representation of a one-time timer.
 msgctxt "#820"
@@ -3038,12 +3046,12 @@ msgstr "Regra de temporização (baseada no guia)"
 #. Complete prefixed representation of a reminder timer type.
 msgctxt "#824"
 msgid "Reminder: {0:s}"
-msgstr ""
+msgstr "Lembrete: {0:s}"
 
 #. Complete prefixed representation of a recording timer type.
 msgctxt "#825"
 msgid "Recording: {0:s}"
-msgstr ""
+msgstr "Gravação: {0:s}"
 
 #. Label for buttons to add a PVR reminder timer
 msgctxt "#826"
@@ -3108,7 +3116,7 @@ msgstr "Domingos"
 #. Label for a TV show Premiere
 msgctxt "#838"
 msgid "Première"
-msgstr ""
+msgstr "Estreia"
 
 #. Label for a Live TV show
 msgctxt "#839"
@@ -3375,7 +3383,7 @@ msgstr "Pedir autenticação"
 
 msgctxt "#1053"
 msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
-msgstr ""
+msgstr "Definir se os pedidos para o servidor web necessitam de nome de utilizador e password, que deverão ser definidos abaixo se ativo. É recomendado que esta definição esteja sempre ativa."
 
 msgctxt "#1180"
 msgid "Proxy type"
@@ -5349,7 +5357,7 @@ msgstr "Desligado. Verifique as definições de rede."
 #. Label of the button used to disconnect a game controller from the emulated game port
 msgctxt "#13298"
 msgid "Disconnected"
-msgstr ""
+msgstr "Desconectado"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -5638,11 +5646,11 @@ msgstr "Pré-ajuste"
 
 msgctxt "#13389"
 msgid "There are no presets available for this visualisation"
-msgstr ""
+msgstr "Não existem presets para esta visualização"
 
 msgctxt "#13390"
 msgid "There are no settings available[CR]for this visualisation"
-msgstr ""
+msgstr "Não existe definições[CR]para esta visualização"
 
 msgctxt "#13391"
 msgid "Eject / Load"
@@ -5792,7 +5800,7 @@ msgstr "Permitir aceleração por hardware - VTBDecoder"
 
 msgctxt "#13430"
 msgid "Allow using DRM PRIME decoder"
-msgstr ""
+msgstr "Utilizar descodificador DRM PRIME"
 
 msgctxt "#13431"
 msgid "Pixel shaders"
@@ -5817,7 +5825,7 @@ msgstr "Ativar escalas HQ para Ajustar acima"
 
 msgctxt "#13436"
 msgid "Use display HDR capabilities"
-msgstr ""
+msgstr "Utilizar capacidades HDR do ecrã"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -5825,7 +5833,7 @@ msgstr "Preferir gestor de vídeo VDPAU"
 
 msgctxt "#13438"
 msgid "Allow hardware acceleration with DRM PRIME"
-msgstr ""
+msgstr "Ativar aceleração por hardware com DRM PRIME"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -8955,12 +8963,12 @@ msgstr ""
 #. Label for epg grid window "Activate previous channel group" context menu entry and epg grid controls dialog help text
 msgctxt "#19319"
 msgid "Previous group"
-msgstr ""
+msgstr "Grupo anterior"
 
 #. Label for epg grid window "Activate next channel group" context menu entry and epg grid controls dialog help text
 msgctxt "#19320"
 msgid "Next group"
-msgstr ""
+msgstr "Próximo grupo"
 
 #. Label for epg grid window "Activate channel group selector" context menu entry and epg grid controls dialog help text
 msgctxt "#19321"
@@ -9289,11 +9297,16 @@ msgstr "Música folclórica/Tradicional"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Musical/Ópera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Bailado"
 
@@ -10490,17 +10503,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Reproduzir parte..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Reposição de calibração"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Irá repor os valores de calibração de {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "para os valores padrão."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10692,6 +10708,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Desativar atribuição de conteúdo"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Título original"
@@ -11095,6 +11112,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -18509,6 +18531,50 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Calibração do vídeo..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Compensação da imagem na margem superior esquerda"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Compensação da imagem na margem inferior direita"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Posição das legendas"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Ajuste da proporção dos pixeis"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Ajuste a barra para alterar a posição das legendas"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Ajuste o retângulo para ficar um quadrado perfeito"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Irá repor os valores de calibração de {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "para os valores padrão."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Musical/Ópera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Bailado"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

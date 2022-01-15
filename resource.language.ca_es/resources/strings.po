@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-23 14:47+0000\n"
+"PO-Revision-Date: 2022-01-13 11:02+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Catalan (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ca_es/>\n"
 "Language: ca_es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Calibra la interfície d'usuari..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Calibratge del vídeo..."
+msgid "Video calibration"
+msgstr "Calibratge del vídeo"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "100 millors"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Compensació cantonada superior esquerra"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Compensació cantonada inferior dreta"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Posició dels subtítols"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Ajust de la relació del píxel"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Ajusteu el rectangle fins que sigui un quadrat perfecte"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Compensació cantonada superior esquerra"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Compensació cantonada inferior dreta"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Ajusteu la fletxa per canviar la quantitat d'overscan"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Posició dels subtítols"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Ajusteu la barra per canviar la posició dels subtítols"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Ajusteu el rectangle fins que sigui un quadrat perfecte"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9306,11 +9314,16 @@ msgstr "Folk / Música tradicional"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Musical / Òpera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Ballet"
 
@@ -10508,17 +10521,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Play part..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Restabliment del calibratge"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Això restablirà els valors del calibratge per a {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "als seus valors predeterminats."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10710,6 +10726,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Desassigna el contingut"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Títol original"
@@ -11113,6 +11130,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -18544,6 +18566,50 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Calibratge del vídeo..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Compensació cantonada superior esquerra"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Compensació cantonada inferior dreta"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Posició dels subtítols"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Ajust de la relació del píxel"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Ajusteu la barra per canviar la posició dels subtítols"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Ajusteu el rectangle fins que sigui un quadrat perfecte"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Això restablirà els valors del calibratge per a {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "als seus valors predeterminats."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Musical / Òpera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Ballet"
 
 #~ msgctxt "#24045"
 #~ msgid "Failed to install Add-on from zip file"

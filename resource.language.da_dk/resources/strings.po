@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-01 16:51+0000\n"
+"PO-Revision-Date: 2022-01-13 11:02+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Kalibrer brugerflade..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Kalibrer skærmareal..."
+msgid "Video calibration"
+msgstr "Kalibrer skærmareal"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "Top 100"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Overskanderingskompensation - øverst til venstre"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Overskanderingskompensation - nederst til højre"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Placering af undertekster"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Justering af pixelforhold"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Juster firkanten, så den bliver perfekt kvadratisk"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Overskanderingskompensation - øverst til venstre"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Overskanderingskompensation - nederst til højre"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Juster pilen for at ændre mængden af overskandering"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Placering af undertekster"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Flyt bjælken for at ændre placering af underteksterne"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Juster firkanten, så den bliver perfekt kvadratisk"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9292,11 +9300,16 @@ msgstr "Folk / Traditionel musik"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr "Jazz"
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Musical / Opera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Ballet"
 
@@ -10493,17 +10506,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Afspil del..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Nulstil kalibrering"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Dette vil nulstille kalibreringen af {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr "Vil du nulstille kalibreringen til standardindstillinger for \"{0:s}\"-opløsning?"
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "til dets standardværdier."
+msgid "Current value: {}"
+msgstr "Nuværende værdi: {}"
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10695,6 +10711,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Løsriv indhold"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Originaltitel"
@@ -11099,6 +11116,11 @@ msgstr "Vis alle performere til musikvideoer"
 msgctxt "#20473"
 msgid "Premiered"
 msgstr "Haft premiere"
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
+msgstr "HDR-type"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -18514,6 +18536,50 @@ msgstr "Tid før automatisk lukning af video OSD (sekunder)"
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr "Tid i sekunder før automatisk lukning af video OSD"
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Kalibrer skærmareal..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Overskanderingskompensation - øverst til venstre"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Overskanderingskompensation - nederst til højre"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Placering af undertekster"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Justering af pixelforhold"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Flyt bjælken for at ændre placering af underteksterne"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Juster firkanten, så den bliver perfekt kvadratisk"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Dette vil nulstille kalibreringen af {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "til dets standardværdier."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Musical / Opera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Ballet"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

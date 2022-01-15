@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-14 10:26+0000\n"
+"PO-Revision-Date: 2022-01-14 20:23+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Käyttöliittymän säätö..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Kuvaruudun säätö..."
+msgid "Video calibration"
+msgstr "Kuvaruudun säätö"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "100 suosituinta"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Kuvan vasen yläkulma"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Kuvan oikea alakulma"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Aseta tekstityksen paikka"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Määritä pikselin muoto"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Säädä suorakulmiota, kunnes se on täydellinen neliö"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Kuvan vasen yläkulma"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Kuvan oikea alakulma"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Siirtämällä nuolta voit määrittää näkyvän kuva-alan"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
-msgid "Adjust the bar to change the subtitles position"
-msgstr "Siirtämällä palkkia voit määrittää tekstityksen paikan"
+msgid "Subtitle positioning"
+msgstr "Määritä tekstityksen sijainti"
 
+#. Window screen calibration: calibration by using the subtitle bar
 msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Säädä suorakulmiota, kunnes se on täysin neliömäinen"
+msgid "Adjust the bar to change the subtitles position"
+msgstr "Määritä tekstityksen sijainti siirtämällä palkkia"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -1376,7 +1384,7 @@ msgstr "Kaikki albumit"
 
 msgctxt "#359"
 msgid "Recently added albums"
-msgstr "Hiljattain lisätyt albumit"
+msgstr "Viimeksi lisätyt albumit"
 
 msgctxt "#360"
 msgid "Screensaver"
@@ -1996,7 +2004,7 @@ msgstr "Lajityyppi"
 
 msgctxt "#517"
 msgid "Recently played albums"
-msgstr "Hiljattain toistetut albumit"
+msgstr "Viimeksi toistetut albumit"
 
 msgctxt "#518"
 msgid "Launch"
@@ -2561,67 +2569,67 @@ msgstr "Määritä komponenttikohtainen kirjaus..."
 
 msgctxt "#669"
 msgid "Verbose logging for the [B]SMB[/B] library"
-msgstr "Runsas kirjaaminen [B]SMB[/B]-kirjastolle"
+msgstr "Laaja kirjaus [B]SMB-kirjastolle[/B]"
 
 msgctxt "#670"
 msgid "Verbose logging for the [B]libcURL[/B] library (HTTP(S), DAV)"
-msgstr "Runsas kirjaaminen [B]libcURL[/B]-kirjastolle (HTTP(S), DAV)"
+msgstr "Laaja kirjaus [B]libcURL-kirjastolle[/B] (HTTP(S), DAV)"
 
 msgctxt "#672"
 msgid "Verbose logging for the [B]FFmpeg[/B] libraries"
-msgstr "Runsas kirjaaminen [B]FFmpeg[/B]-kirjastoille"
+msgstr "Laaja kirjaus [B]FFmpeg-kirjastoille[/B]"
 
 msgctxt "#674"
 msgid "Verbose logging for [B]D-Bus[/B] calls"
-msgstr "Runsas kirjaaminen [B]D-Bus[/B]-kutsuille"
+msgstr "Laaja kirjaus [B]D-Bus-kutsuille[/B]"
 
 msgctxt "#675"
 msgid "Verbose logging for [B]JSON-RPC[/B] requests"
-msgstr "Runsas kirjaaminen [B]JSON-RPC[/B]-pyynnöille"
+msgstr "Laaja kirjaus [B]JSON-RPC-pyynnöille[/B]"
 
 msgctxt "#676"
 msgid "Verbose logging for the [B]Audio[/B] component"
-msgstr "Runsas kirjaaminen [B]äänikomponentille[/B]"
+msgstr "Laaja kirjaus [B]äänikomponentille[/B]"
 
 msgctxt "#677"
 msgid "Verbose logging for the [B]AirTunes[/B] library"
-msgstr "Runsas kirjaaminen [B]AirTunes[/B]-kirjastolle"
+msgstr "Laaja kirjaus [B]AirTunes-kirjastolle[/B]"
 
 msgctxt "#678"
 msgid "Verbose logging for the [B]UPnP[/B] components"
-msgstr "Runsas kirjaaminen [B]UPnP[/B]-komponenteille"
+msgstr "Laaja kirjaus [B]UPnP-komponenteille[/B]"
 
 msgctxt "#679"
 msgid "Verbose logging for the [B]libCEC[/B] library"
-msgstr "Runsas kirjaaminen [B]libCEC[/B]-kirjastolle"
+msgstr "Laaja kirjaus [B]libCEC-kirjastolle[/B]"
 
 msgctxt "#680"
 msgid "Verbose logging for the [B]Video[/B] component"
-msgstr "Runsas kirjaaminen [B]videokomponentille[/B]"
+msgstr "Laaja kirjaus [B]videokomponentille[/B]"
 
 msgctxt "#681"
 msgid "Verbose logging for the [B]Webserver[/B] component"
-msgstr "Runsas kirjaaminen [B]web-palvelin-komponentille[/B]"
+msgstr "Laaja kirjaus [B]verkkopalvelinkomponentille[/B]"
 
 msgctxt "#682"
 msgid "Verbose logging for the [B]Database[/B] component"
-msgstr "Runsas kirjaaminen [B]tietokantakomponentille[/B]"
+msgstr "Laaja kirjaus [B]tietokantakomponentille[/B]"
 
 msgctxt "#683"
 msgid "Verbose logging of [B]audio/video timing information[/B]"
-msgstr "Runsas kirjaaminen [B]äänen ja videon ajoitustiedoille[/B]"
+msgstr "Laaja kirjaus [B]äänen ja videon ajoitustiedoille[/B]"
 
 msgctxt "#684"
 msgid "Verbose logging of [B]Windowing[/B] component"
-msgstr "Runsas kirjaaminen [B]ikkunointikomponentille[/B]"
+msgstr "Laaja kirjaus [B]ikkunointikomponentille[/B]"
 
 msgctxt "#685"
 msgid "Verbose logging of [B]PVR[/B] component"
-msgstr "Runsas kirjaaminen [B]PVR[/B]-komponentille"
+msgstr "Laaja kirjaus [B]PVR-komponentille[/B]"
 
 msgctxt "#686"
 msgid "Verbose logging of [B]EPG[/B] component"
-msgstr "Runsas kirjaaminen [B]EPG[/B]-komponentille"
+msgstr "Laaja kirjaus [B]EPG-komponentille[/B]"
 
 msgctxt "#687"
 msgid "From metadata"
@@ -2709,7 +2717,7 @@ msgstr "Muutoksia ei ole tallennettu. Poistutaanko tallentamatta?"
 
 msgctxt "#727"
 msgid "Web server"
-msgstr "Web-palvelin"
+msgstr "Verkkopalvelin"
 
 msgctxt "#728"
 msgid "FTP server"
@@ -3375,7 +3383,7 @@ msgstr "Vaadi tunnistautuminen"
 
 msgctxt "#1053"
 msgid "Choose whether requests to the web server require a username and a password, which must be set below if enabled. It is recommended to always leave this setting enabled."
-msgstr "Määritä, vaativatko yhteydet palvelimeen käyttäjätunnuksen ja salasanan, jotka tulee syöttää alle, jos asetusta käytetään. On suositeltavaa pitää asetus aina käytössä."
+msgstr "Määritä, vaaditaanko palvelinyhteyksiin aina käyttäjätunnus ja salasana. Kun asetus on käytössä, ne määritetään alla ja niiden käyttö on vahvempaa suojausta varten suositeltavaa."
 
 msgctxt "#1180"
 msgid "Proxy type"
@@ -7032,7 +7040,7 @@ msgstr "Syötä albumin nimi"
 
 msgctxt "#16012"
 msgid "Enter the playlist name"
-msgstr "Syötä toistolistan nimi"
+msgstr "Syötä toistolistalle nimi"
 
 msgctxt "#16013"
 msgid "Enter new filename"
@@ -9289,11 +9297,16 @@ msgstr "Kansallinen / Perinteinen musiikki"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr "Jazz"
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Musikaali / Ooppera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Baletti"
 
@@ -9305,7 +9318,7 @@ msgstr "Taide / Kulttuuri"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19597"
 msgid "Performing arts"
-msgstr "Ilmaisu- ja näyttämötaiteet"
+msgstr "Esittävät taiteet"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19598"
@@ -9335,12 +9348,12 @@ msgstr "Filmi / Elokuva"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19603"
 msgid "Experimental film / video"
-msgstr "Kokeellinen filmi / Video"
+msgstr "Kokeellinen filmi/video"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19604"
 msgid "Broadcasting / Press"
-msgstr "Televisiointi / Lehdistö"
+msgstr "Lähetys/painettu"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19605"
@@ -9350,7 +9363,7 @@ msgstr "Uusi media"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19606"
 msgid "Arts / Culture magazines"
-msgstr "Taide / Kulttuurimakasiinit"
+msgstr "Taide-/kulttuurilehdet"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19607"
@@ -9360,52 +9373,52 @@ msgstr "Muoti"
 #. label for "social/political/economics" epg genre value
 msgctxt "#19612"
 msgid "Social / Political / Economics"
-msgstr "Yhteiskunta / Politiikka / Talous"
+msgstr "Yhteiskunta/politiittinen/talous"
 
 #. label for "social/political/economics" epg subgenre value
 msgctxt "#19613"
 msgid "Magazines / Reports / Documentary"
-msgstr "Ajankohtaisohjelma / Katsaus / Dokumentti"
+msgstr "Lehdet/raportit/dokumentti"
 
 #. label for "social/political/economics" epg subgenre value
 msgctxt "#19614"
 msgid "Economics / Social advisory"
-msgstr "Talous / Yhteiskunta"
+msgstr "Talous/yhteiskunta"
 
 #. label for "social/political/economics" epg subgenre value
 msgctxt "#19615"
 msgid "Remarkable people"
-msgstr "Tunnettuja ihmisiä"
+msgstr "Merkittäviä ihmisiä"
 
 #. label for "education/science/factual" epg genre value
 msgctxt "#19628"
 msgid "Education / Science / Factual"
-msgstr "Koulutus / Tiede / Asiaohjelma"
+msgstr "Koulutus/tiede/asiaohjelma"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19629"
 msgid "Nature / Animals / Environment"
-msgstr "Luonto / Eläimet / Ympäristö"
+msgstr "Luonto/eläimet/ympäristö"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19630"
 msgid "Technology / Natural sciences"
-msgstr "Teknologia / Luonnontieteet"
+msgstr "Teknologia/luonnontieteet"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19631"
 msgid "Medicine / Physiology / Psychology"
-msgstr "Lääketiede / Fysiologia / Psykologia"
+msgstr "Lääketiede/fysiologia/psykologia"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19632"
 msgid "Foreign countries / Expeditions"
-msgstr "Ulkomaat / Tutkimusmatkat"
+msgstr "Ulkomaat/tutkimusmatkailu"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19633"
 msgid "Social / Spiritual sciences"
-msgstr "Sosiaaliset / Hengelliset tieteet"
+msgstr "Sosiaaliset/hengelliset tieteet"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19634"
@@ -9420,12 +9433,12 @@ msgstr "Kielet"
 #. label for "leisure/hobbies" epg genre value
 msgctxt "#19644"
 msgid "Leisure / Hobbies"
-msgstr "Vapaa-aika / Harrastukset"
+msgstr "Vapaa-aika/harrastukset"
 
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19645"
 msgid "Tourism / Travel"
-msgstr "Turismi / Matkailu"
+msgstr "Turismi/matkailu"
 
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19646"
@@ -9450,7 +9463,7 @@ msgstr "Ruuanlaitto"
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19650"
 msgid "Advertisement / Shopping"
-msgstr "Mainokset / Ostokset"
+msgstr "Mainonta/ostokset"
 
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19651"
@@ -9490,17 +9503,17 @@ msgstr "Draama"
 #. label for "user defined" epg subgenre value
 msgctxt "#19677"
 msgid "Detective / Thriller"
-msgstr "Rikos / Jännitys"
+msgstr "Rikos/jännitys"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19678"
 msgid "Adventure / Western / War"
-msgstr "Seikkailu / Lännenelokuva / Sota"
+msgstr "Seikkailu/länkkäri/sota"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19679"
 msgid "Science fiction / Fantasy / Horror"
-msgstr "Sci-Fi / Fantasia / Kauhu"
+msgstr "Tieteis/fantasia/kauhu"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19680"
@@ -10269,7 +10282,7 @@ msgstr "Mukautus"
 
 msgctxt "#20191"
 msgid "Enable debug logging"
-msgstr "Suorituslokin tallennus (debug log)"
+msgstr "Käytä vianselvityslokia"
 
 msgctxt "#20192"
 msgid "Fetch additional information during updates"
@@ -10415,11 +10428,11 @@ msgstr "Zeroconf-selain"
 
 msgctxt "#20300"
 msgid "Web server directory (HTTP)"
-msgstr "Web-palvelimen hakemisto (HTTP)"
+msgstr "Verkkopalvelimen hakemisto (HTTP)"
 
 msgctxt "#20301"
 msgid "Web server directory (HTTPS)"
-msgstr "Web-palvelimen hakemisto (HTTPS)"
+msgstr "Verkkopalvelimen hakemisto (HTTPS)"
 
 msgctxt "#20302"
 msgid "Unable to write to folder:"
@@ -10489,17 +10502,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Toista osa..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Kalibroinnin nollaus"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Tämä palauttaa {0:s}:n kalibroinnin oletusarvohinsa"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr "Haluatko palauttaa resoluution \"{0:s}\" kalibroinnin oletusarvot?"
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "oletusarvoihinsa."
+msgid "Current value: {}"
+msgstr "Nykyinen arvo: {}"
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10691,6 +10707,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Määrittelemätön sisältö"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Alkuperäinen nimi"
@@ -10718,7 +10735,7 @@ msgstr "Erikoisjaksot"
 
 msgctxt "#20382"
 msgid "Recently added"
-msgstr "Hiljattain lisätyt"
+msgstr "Viimeksi lisätyt"
 
 msgctxt "#20383"
 msgid "Selected folder contains a single video"
@@ -10738,7 +10755,7 @@ msgstr "Viimeksi lisätyt elokuvat"
 
 msgctxt "#20387"
 msgid "Recently added episodes"
-msgstr "Hiljattain lisätyt jaksot"
+msgstr "Viimeksi lisätyt jaksot"
 
 msgctxt "#20388"
 msgid "Studios"
@@ -10750,7 +10767,7 @@ msgstr "Musiikkivideot"
 
 msgctxt "#20390"
 msgid "Recently added music videos"
-msgstr "Hiljattain lisätyt musiikkivideot"
+msgstr "Viimeksi lisätyt musiikkivideot"
 
 msgctxt "#20391"
 msgid "Music video"
@@ -11096,6 +11113,11 @@ msgctxt "#20473"
 msgid "Premiered"
 msgstr "Ensi-ilta"
 
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
+msgstr "HDR-tyyppi"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "Näytä piilotetut tiedostot ja kansiot"
@@ -11155,7 +11177,7 @@ msgstr "Lue videotiedostojen tagit"
 
 msgctxt "#21344"
 msgid "Enable to use embedded tags in mp4 or mkv files for library metadata. Will prevent scrapers from operating correctly."
-msgstr ""
+msgstr "Salli upotettujen tunnisteiden käyttö mp4- tai mkv-tiedostoissa kirjaston metatiedoissa. Estää skreippereitä toimimasta oikein."
 
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
@@ -12210,7 +12232,7 @@ msgstr "Tietoja lisäosasta"
 #. Name of menu in the add-on browser
 msgctxt "#24004"
 msgid "Recently updated"
-msgstr "Hiljattain päivitetyt"
+msgstr "Viimeksi päivitetyt"
 
 msgctxt "#24005"
 msgid "Media sources"
@@ -13172,7 +13194,7 @@ msgstr "Kuumalinja"
 #. Website address (if present)
 msgctxt "#29914"
 msgid "Website"
-msgstr "Nettisivu"
+msgstr "Verkkosivu"
 
 #. General information news, in list selector (if present)
 msgctxt "#29915"
@@ -13816,7 +13838,7 @@ msgstr "Käynnistys epäonnistui"
 
 msgctxt "#33101"
 msgid "Web server"
-msgstr "Web-palvelin"
+msgstr "Verkkopalvelin"
 
 msgctxt "#33102"
 msgid "Event server"
@@ -13828,7 +13850,7 @@ msgstr "Etäviestipalvelin"
 
 msgctxt "#33104"
 msgid "You have previously enabled the web interface without setting up a password. The web server has been disabled until you either explicitly allow this or set up authentication. Please review your settings."
-msgstr "Olet aiemmin ottanut web-käyttöliittymän käyttöön ilman salasanaa. Palvelin on poistettu käytöstä kunnes erityisesti hyväksyt tämän tai määrität tunnistautumisen. Tarkista asetuksesi."
+msgstr "Olet aiemmin ottanut verkkokäyttöliittymän käyttöön ilman salasanaa. Palvelin on poistettu käytöstä kunnes erityisesti hyväksyt tämän tai määrität tunnistautumisen. Tarkista asetuksesi."
 
 msgctxt "#33200"
 msgid "Detected new connection"
@@ -16064,32 +16086,32 @@ msgstr "Kytkee UPnP-ohjauspisteen päälle. Sen avulla voidaan lähettää media
 #. Description of settings category with label #20187 "Control"
 msgctxt "#36327"
 msgid "This category contains the settings for how the web server service and the application control service is handled."
-msgstr "Tämä kategoria sisältää web-palvelimeen ja etähallintaan liittyvät asetukset."
+msgstr "Tämä kategoria sisältää verkkopalvelimeen ja sovelluksen etähallintaan liittyviä asetuksia."
 
 #. Description of setting with label #263 "Allow remote control via HTTP"
 msgctxt "#36328"
 msgid "Enable remote users to control this application through the built-in web server. Never expose the web server port to the Internet."
-msgstr "Anna etäkäyttäjien ohjata tätä sovellusta sisäänrakennetun palvelimen välityksellä. Älä paljasta palvelimen porttia internetiin."
+msgstr "Anna etäkäyttäjien ohjata sovellusta sisäänrakennetun palvelimen välityksellä. Älä paljasta palvelimen porttia Internetiin."
 
 #. Description of setting with label #730 "Port"
 msgctxt "#36329"
 msgid "Define the web server port."
-msgstr "Määritä web-palvelimen portti."
+msgstr "Määritä verkkopalvelimen portti."
 
 #. Description of setting with label #1048 "Username"
 msgctxt "#36330"
 msgid "Define the web server username. Must be set when authentication is enabled."
-msgstr "Määritä palvelimen käyttäjätunnus. Vaaditaan tunnistautumisen ollessa käytössä."
+msgstr "Aseta palvelimen käyttäjätunnus. Vaaditaan käytettäessä tunnistautumista."
 
 #. Description of setting with label #1048 "Password"
 msgctxt "#36331"
 msgid "Define the web server password. Must be set when authentication is enabled."
-msgstr "Aseta palvelimen salasana. Vaaditaan tunnistautumisen ollessa käytössä."
+msgstr "Aseta palvelimen salasana. Vaaditaan käytettäessä tunnistautumista."
 
 #. Description of setting with label #199 "Web interface"
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
-msgstr "Valitse käytettävä web-käyttöliittymä."
+msgstr "Valitse käytettävä verkkokäyttöliittymä laajennusten hallinnasta."
 
 #. Description of settings category with label #790 "Remote Control"
 msgctxt "#36333"
@@ -16099,7 +16121,7 @@ msgstr "Tämä kategoria sisältää etähallintaan liittyvät asetukset."
 #. Description of setting with label #791 "Allow remote control from programs on this system"
 msgctxt "#36334"
 msgid "Allow programs on this device to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication."
-msgstr "Salli tämän laitteen ohjelmien ohjata tätä sovellusta JSON-RPC over WebSocket, JSON-RPC over TCP tai EventServer -protokollien välityksellä, ilman todennusta."
+msgstr "Salli tämän laitteen sovellusten ohjata sovellusta JSON-RPC over WebSocket, JSON-RPC over TCP tai EventServer-protokollien välityksellä ilman todennusta."
 
 #. Description of setting with label #792 "Port"
 msgctxt "#36335"
@@ -16119,7 +16141,7 @@ msgstr "Määritä yhdistettyjen asiakkaiden enimmäismäärä."
 #. Description of setting with label #794 "Allow remote control from programs on other systems"
 msgctxt "#36338"
 msgid "Allow programs on the network to control this application via the JSON-RPC over WebSocket, JSON-RPC over TCP, or EventServer protocol, without authentication. It allows anyone with access to the network to completely control this application and, therefore, this device. Never expose these interfaces to the Internet."
-msgstr "Sallii samassa verkossa toimivien ohjelmien hallita tätä laitetta ilman tunnistautumista JSON-RPC:llä WebSocketin kautta, JSON-RPC:llä TCP:n kautta tai EventServer-protokollan kautta. Se mahdollistaa kenelle tahansa samassa verkossa olevalle sovelluksen ja laitteen täyden hallinnan. Älä koskaan avaa näitä rajapintoja internetiin."
+msgstr "Sallii paikallisessa verkossa toimivien sovellusten hallita laitetta ilman tunnistautumista JSON-RPC over WebSocket, JSON-RPC over TCP tai EventServer-protokollien välityksellä. Tämä mahdollistaa sovelluksen ja sitä kautta laitteen täyden hallinnan kenelle tahansa samassa verkossa. Älä koskaan avaa näitä rajapintoja Internetiin."
 
 #. Description of setting with label #795 "Initial repeat delay (ms)"
 msgctxt "#36339"
@@ -16316,7 +16338,7 @@ msgstr "Käytä peliohjainta käyttöliittymän ohjaukseen."
 #. Description of settings category with label #798 Internet access
 msgctxt "#36379"
 msgid "This category contains the settings for how Internet access is handled. The default web interface can also be selected here."
-msgstr "Tämä kategoria sisältää internetyhteyteen ja web-käyttöliittymään liittyvät asetukset."
+msgstr "Tämä kategoria sisältää Internet-yhteyteen ja verkkokäyttöliittymään liittyviä asetuksia."
 
 #. Description of setting with label #708 "Use proxy server"
 msgctxt "#36380"
@@ -16376,12 +16398,12 @@ msgstr "Valitse sammutusajastuksen yhteydessä suoritettava toiminto."
 #. Description of settings category with label #14092 "Logging"
 msgctxt "#36391"
 msgid "This category contains the settings for enabling event and debug logging. You can also enable component-specific debug logging in order to help troubleshoot related issues in more detail."
-msgstr "Tämä kategoria sisältää vianetsintäasetukset. Voit ottaa käyttöön tapahtuma- ja suorituslokien kirjoittamisen. Yksityiskohtaisimmat vianetsintätiedot saat kytkemällä päälle komponenttikohtaisen suorituslokin."
+msgstr "Tämä kategoria sisältää vianselvitysasetuksia tapahtuma- ja suorituslokien käyttöön. Yksityiskohtaisimmat vianetsintätiedot saat ottamalla komponenttikohtaiset vianetsintälokit käyttöön."
 
 #. Description of setting with label #20191 "Enable debug logging"
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
-msgstr "Kytkee suorituslokin päälle tai pois päältä. Helpottaa vianetsintää."
+msgstr "Kytke suoritusloki käyttöön tai pois käytöstä. Helpottaa vianetsintää."
 
 #. Description of setting with label #20004 "Screenshot folder"
 msgctxt "#36393"
@@ -16391,7 +16413,7 @@ msgstr "Valitse kansio, johon kuvankaappaukset tallennetaan."
 #. Description of setting with label #666 "Enable component-specific logging"
 msgctxt "#36394"
 msgid "Enables verbose messages from additional libraries to be included in the debug log."
-msgstr "Kirjaa lisätietoja muista kirjastoista suorituslokiin."
+msgstr "Ottaa laajan kirjauksen muista kirjastoista käyttöön vianselvityslokia varten."
 
 #. Description of settings category with label #12360 "Master lock"
 msgctxt "#36395"
@@ -16748,7 +16770,7 @@ msgstr "Valitse käytetty alasmiksaustapa, kun siirrytään 5.1:stä 2.0:aan.[CR
 #. Description of setting with label #668 "Component-specific logging..."
 msgctxt "#36534"
 msgid "Specify additional libraries whose verbose messages are to be included in the debug log."
-msgstr "Valitse minkä kirjastojen lisätiedot kirjataan suorituslokiin."
+msgstr "Valitse kirjastot, joiden laajat tiedot kirjataan vianselvityslokiin."
 
 #. label of a setting, allowing to specify the stereoscopic 3D mode of a video
 msgctxt "#36535"
@@ -17189,7 +17211,7 @@ msgstr "Käyttää tieturvaltaan heikkoa SMBv1-protokollaa yhteensopivuuden taka
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control via HTTP"
 msgctxt "#36632"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should never be exposed on the Internet. A password should be set below. Proceed?"
-msgstr "Kuka tahansa, jolla on pääsy verkkokäyttöliittymään voi hallita täysin tätä sovellusta ja laitetta. Siksi sitä ei tulisi koskaan avata internetiin. Toiminnolle tulisi asettaa salasana. Jatketaanko?"
+msgstr "Kuka tahansa, jolla on pääsy verkkokäyttöliittymään voi hallita sovellusta ja sitä kautta myös tätä laitetta täysin ja sen vuoksi sitä ei tule koskaan paljastaa Internetiin. Toiminnolle tulisi asettaa salasana. Jatketaanko?"
 
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control from applications on other systems"
 msgctxt "#36633"
@@ -17199,12 +17221,12 @@ msgstr "Nämä palvelut eivät tarjoa tunnistautumista eikä salausta. Kuka taha
 #. Text in confirm dialog when disabling setting "Services -> Control -> Require authentication"
 msgctxt "#36634"
 msgid "Anyone who has access to the web interface will be able to completely control this application and, therefore, this device, so it should be secured by a password. Are you sure you want to disable authentication?"
-msgstr "Kuka tahansa, jolla on pääsy verkkokäyttöliittymään voi hallita täysin tätä sovellusta ja laitetta. Siksi sille tulisi asettaa salasana. Haluatko varmasti poistaa tunnistautumisen?"
+msgstr "Kuka tahansa, jolla on pääsy verkkokäyttöliittymään voi hallita sovellusta ja sitä kautta myös tätä laitetta täysin ja sen vuoksi toiminnolle tulisi asettaa salasana. Haluatko varmasti poistaa tunnistautumisen käytöstä?"
 
 #. Text in error dialog when trying to enter an invalid web server configuration
 msgctxt "#36635"
 msgid "If web server authentication is enabled, a password must be entered as well."
-msgstr "Jos palvelimella on tunnistautuminen käytössä, on myös salasana syötettävä."
+msgstr "Jos tunnistautuminen on otettu palvelimella käyttöön, on myös salasana syötettävä."
 
 #. Text in error dialog when trying to enter an invalid web server configuration by enabling authentication without a password set
 msgctxt "#36636"
@@ -17245,7 +17267,7 @@ msgstr "Ei hylättyjä lisäosia poistettavana."
 #. Description of setting with label #729 "Enable SSL"
 msgctxt "#36899"
 msgid "Enables SSL encryption in the webserver. Certificate special://userdata/server.pem and Key special://userdata/server.key must be created manually"
-msgstr "Ottaa SSL-salauksen käyttöön verkkopalvelimella. Varmenne special://userdata/server.pem ja avain special://userdata/server.key on luotava manuaalisesti"
+msgstr "Ottaa SSL-salauksen käyttöön verkkopalvelimelle. Varmenne special://userdata/server.pem ja avain special://userdata/server.key on luotava manuaalisesti."
 
 msgctxt "#36900"
 msgid "movie"
@@ -17492,7 +17514,7 @@ msgstr "Ota palvelu käyttöön hakeaksesi SMB-palveluita WS-Discovery protokoll
 #. Label for component level debug logging setting
 msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
-msgstr "Monipuolinen lokikirjaus [B]WS-Discovery[/B] komponentille"
+msgstr "Laaja kirjaus [B]WS-Discovery-komponentille[/B]"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18218,12 +18240,12 @@ msgstr "Jakson juoni"
 #. Label for component level debug logging setting
 msgctxt "#39117"
 msgid "Verbose logging for the [B]Announcer[/B] component"
-msgstr "Runsas kirjaaminen [B]Announcer[/B]-komponentille"
+msgstr "Laaja kirjaus [B]Announcer-komponentille[/B]"
 
 #. Label for action to present native iOS sharing sheet
 msgctxt "#39118"
 msgid "Share debug log"
-msgstr "Jaa virheenkorjausloki"
+msgstr "Jaa vianselvitysloki"
 
 msgctxt "#39119"
 msgid "Last modified"
@@ -18379,7 +18401,7 @@ msgstr "Ohita tekstitysten tyylit"
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
 msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr "Jotkin tekstitysmuodot, kuten SSA / ASS / WebVTT, voivat sisältää metatietoja, kuten kirjasintyylin, värit, koon, kohdistuksia, sijainteja jne. Voit ohittaa tyylit muokkauksillasi (huomaa, että joissakin tapauksissa saattaa esiintyä sivuvaikutuksia)."
+msgstr "Jotkin tekstitysmuodot, kuten SSA/ASS/WebVTT, saattavat sisältää metatietoja, kuten kirjasintyylejä, värejä, kokoja, kohdistuksia, sijainteja yms. Voit ohittaa tyylit omilla mukautuksillasi (huomioi, että joissakin tapauksissa saattaa esiintyä sivuvaikutuksia)."
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
@@ -18479,27 +18501,71 @@ msgstr "Näytön tukemat HDR-tyypit"
 #. Description of settings category "OSD" with label #478
 msgctxt "#39175"
 msgid "This category contains all the on screen display (OSD) related settings."
-msgstr ""
+msgstr "Tämä luokka sisältää kaikki kuvaruutunäyttöön (OSD) liittyvät asetukset."
 
 #. Automatically close video OSD bool setting in Settings/Interface/OSD
 msgctxt "#39176"
 msgid "Automatically close video OSD"
-msgstr ""
+msgstr "Sulje videon OSD automaattisesti"
 
 #. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
 msgctxt "#39177"
 msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr ""
+msgstr "Videon OSD-ikkuna sulkeutuu automaattisesti, jos se näkyy tietyn ajan kuluttua"
 
 #. Video OSD autoclose time (seconds) in Settings/Interface/OSD
 msgctxt "#39178"
 msgid "Video OSD autoclose time (seconds)"
-msgstr ""
+msgstr "Videon OSD:n automaattinen sulkemisaika (sekunteina)"
 
 #. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr ""
+msgstr "Aika sekunteina, jolloin videon OSD sulkeutuu automaattisesti"
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Kuvaruudun säätö..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Kuvan vasen yläkulma"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Kuvan oikea alakulma"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Aseta tekstityksen paikka"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Määritä pikselin muoto"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Siirtämällä palkkia voit määrittää tekstityksen paikan"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Säädä suorakulmiota, kunnes se on täysin neliömäinen"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Tämä palauttaa {0:s}:n kalibroinnin oletusarvohinsa"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "oletusarvoihinsa."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Musikaali / Ooppera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Baletti"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

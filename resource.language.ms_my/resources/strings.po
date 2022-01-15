@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:50+0000\n"
+"PO-Revision-Date: 2022-01-14 20:23+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Malay <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ms_my/>\n"
 "Language: ms_my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Tentukur antaramuka pengguna..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Penentukuran video..."
+msgid "Video calibration"
+msgstr "Penentukuran video"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "100 Teratas"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Pemampasan imbas limpah Kiri-Atas"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Pemampasan imbas limpah Bawah-Kanan"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Kedudukan sarikata"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Pelarasan nisbah piksel"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Laras segiempat supaya ia benar-benar segiempat sama"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Pemampasan imbas limpah Kiri-Atas"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Pemampasan imbas limpah Bawah-Kanan"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Laras anak panah untuk mengubah amaun imbas limpah"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Kedudukan sarikata"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Laras palang untuk mengubah kedudukan sarikata"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Laras segiempat supaya ia benar-benar segiempat sama"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -2809,7 +2817,7 @@ msgstr "Membuang sumber"
 
 msgctxt "#752"
 msgid "Opacity"
-msgstr ""
+msgstr "Kelegapan"
 
 msgctxt "#754"
 msgid "Add program link"
@@ -3013,7 +3021,7 @@ msgstr "Rakaman maksimum"
 #. Representation of a one-time timer which has been scheduled by a timer rule.
 msgctxt "#819"
 msgid "One time (Scheduled by timer rule)"
-msgstr ""
+msgstr "Satu Kali (Dijadual mengikut peraturan pemasa)"
 
 #. Representation of a one-time timer.
 msgctxt "#820"
@@ -9292,11 +9300,16 @@ msgstr "Muzik Desa / Tradisional"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Muzikal / Opera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Ballet"
 
@@ -10493,17 +10506,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Main bahagian..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Tetap semula penentukuran"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Ini akan menetap semula nilai penentukuran untuk {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "kepada nilai lalainya."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10695,6 +10711,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Kandungan belum diumpuk"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Tajuk asal"
@@ -11098,6 +11115,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -18512,6 +18534,50 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Penentukuran video..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Pemampasan imbas limpah Kiri-Atas"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Pemampasan imbas limpah Bawah-Kanan"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Kedudukan sarikata"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Pelarasan nisbah piksel"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Laras palang untuk mengubah kedudukan sarikata"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Laras segiempat supaya ia benar-benar segiempat sama"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Ini akan menetap semula nilai penentukuran untuk {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "kepada nilai lalainya."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Muzikal / Opera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Ballet"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

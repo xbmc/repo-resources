@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-23 11:35+0000\n"
+"PO-Revision-Date: 2022-01-13 11:02+0000\n"
 "Last-Translator: vdkbsd <valexgus@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Калибровка интерфейса…"
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Калибровка дисплея…"
+msgid "Video calibration"
+msgstr "Калибровка видео"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "100 лучших"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Настройка размеров экрана (левый верхний угол)"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Настройка размеров экрана (правый нижний угол)"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Позиция субтитров"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
-msgstr "Настройка пропорций"
+msgstr "Регулировка соотношения пикселей"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Отрегулируйте прямоугольник так, чтобы он был идеально квадратным"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Выравнивание оверскана по левому верхнему краю"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Выравнивание оверскана по правому верхнему краю"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Двигайте стрелки для регулировки размеров экрана"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
-msgid "Adjust the bar to change the subtitles position"
-msgstr "Двигайте полоску, чтобы изменить позицию субтитров"
+msgid "Subtitle positioning"
+msgstr "Позиционирование субтитров"
 
+#. Window screen calibration: calibration by using the subtitle bar
 msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Измените прямоугольник так, чтобы добиться идеального квадрата"
+msgid "Adjust the bar to change the subtitles position"
+msgstr "Отрегулируйте полосу, чтобы изменить положение субтитров"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9292,11 +9300,16 @@ msgstr "Народная / Традиционная музыка"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
-msgid "Musical / Opera"
-msgstr "Музыка / Опера"
+msgid "Jazz"
+msgstr "Джаз"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19585"
+msgid "Musical / Opera"
+msgstr "Мюзикл / Опера"
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Балет"
 
@@ -10493,17 +10506,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Воспр. часть…"
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Сброс калибровки"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Это сбросит калибровочные значения для {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr "Вы хотите сбросить калибровку на значения по умолчанию для разрешения \"{0:s}\"?"
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "к значениям по умолчанию."
+msgid "Current value: {}"
+msgstr "Текущее значение: {}"
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10695,6 +10711,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Очистить тип содержимого"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Оригинальное название"
@@ -11099,6 +11116,11 @@ msgstr "Показывать всех исполнителей для музык
 msgctxt "#20473"
 msgid "Premiered"
 msgstr "Премьера"
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
+msgstr "Тип HDR"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -18512,6 +18534,50 @@ msgstr "Время автозакрытия экранного меню (OSD) в
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr "Время (в секундах) автоматического закрытия экранного меню (OSD) видео"
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Калибровка дисплея…"
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Настройка размеров экрана (левый верхний угол)"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Настройка размеров экрана (правый нижний угол)"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Позиция субтитров"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Настройка пропорций"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Двигайте полоску, чтобы изменить позицию субтитров"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Измените прямоугольник так, чтобы добиться идеального квадрата"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Это сбросит калибровочные значения для {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "к значениям по умолчанию."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Музыка / Опера"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Балет"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

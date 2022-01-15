@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-06 11:28+0000\n"
+"PO-Revision-Date: 2022-01-13 11:02+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Bulgarian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/bg_bg/>\n"
 "Language: bg_bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Калибриране на потребителския интерфейс…"
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Калибриране на потребителския интерфейс…"
+msgid "Video calibration"
+msgstr "Калибриране на потребителския интерфе"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "Топ 100"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Компенсиране на overscan горе вляво"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Компенсиране на overscan долу вдясно"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Позициониране на субтитрите"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Регулиране пропорцията на пикселите"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Променете правоъгълника, така че да стане идеален квадрат"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Компенсиране на overscan горе вляво"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Компенсиране на overscan долу вдясно"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Ползвайте стрелките, за да промените overscan-а (в %-ти)"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Позициониране на субтитрите"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Преместете лентата, за да промените позицията на субтитрите"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Променете правоъгълника, така че да стане идеален квадрат"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9035,7 +9043,7 @@ msgstr ""
 #. label for special PVR search window list item
 msgctxt "#19335"
 msgid "New search..."
-msgstr ""
+msgstr "НОВО ТЪРСЕНЕ..."
 
 #. label for special PVR search window list item
 msgctxt "#19336"
@@ -9289,11 +9297,16 @@ msgstr "Фолк / Традиционна музика"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Мюзикъл / Опера"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Балет"
 
@@ -10489,17 +10502,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Възпроизвеждане на част…"
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Нулиране на калибровката"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Това ще анулира стойностите за калибриране на {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "към стандартната ѝ стойност."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10691,6 +10707,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Неопределено съдържание"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Оригинално заглавие"
@@ -11094,6 +11111,11 @@ msgstr "Показване на всички изпълнители за муз�
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr "Премиера"
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -11586,7 +11608,7 @@ msgstr "Позиция на субтитрите на екрана"
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
 msgid "Manual"
-msgstr ""
+msgstr "Ръчно"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
@@ -18500,6 +18522,50 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Калибриране на потребителския интерфейс…"
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Компенсиране на overscan горе вляво"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Компенсиране на overscan долу вдясно"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Позициониране на субтитрите"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Регулиране пропорцията на пикселите"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Преместете лентата, за да промените позицията на субтитрите"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Променете правоъгълника, така че да стане идеален квадрат"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Това ще анулира стойностите за калибриране на {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "към стандартната ѝ стойност."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Мюзикъл / Опера"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Балет"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

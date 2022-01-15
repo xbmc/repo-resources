@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-23 14:47+0000\n"
+"PO-Revision-Date: 2022-01-13 11:02+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Welsh (United Kingdom) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/cy_gb/>\n"
 "Language: cy_gb\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Calibro rhyngwyneb y defnyddiwr..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Calibro'r fideo..."
+msgid "Video calibration"
+msgstr "Calibro'r fideo"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "100 Uchaf"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Cydadferiad tros-sganio Brig Chwith"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Cydadferiad tros-sganio Gwaelod De"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Gosod isdeitlau"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Newid cyfradd picseli"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Newid y petryal fel ei fod yn berffaith sgwâr"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Cydadferiad tros-sganio Brig Chwith"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Cydadferiad tros-sganio Gwaelod De"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Newid y saeth i newid maint y tros-sganio"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Gosod isdeitlau"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Newid y bar i newid safle'r isdeitlau"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Newid y petryal fel ei fod yn berffaith sgwâr"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9292,11 +9300,16 @@ msgstr ""
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
-msgid "Musical / Opera"
+msgid "Jazz"
 msgstr ""
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19585"
+msgid "Musical / Opera"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Bale"
 
@@ -10506,17 +10519,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Chwarae rhan..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Ailosod calibro"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
 msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "i'w werthoedd rhagosodedig"
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10708,6 +10724,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Dadbenodi cynnwys"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Teitl gwreiddiol"
@@ -11111,6 +11128,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -18578,6 +18600,42 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Calibro'r fideo..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Cydadferiad tros-sganio Brig Chwith"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Cydadferiad tros-sganio Gwaelod De"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Gosod isdeitlau"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Newid cyfradd picseli"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Newid y bar i newid safle'r isdeitlau"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Newid y petryal fel ei fod yn berffaith sgwâr"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "i'w werthoedd rhagosodedig"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Bale"
 
 #~ msgctxt "#24045"
 #~ msgid "Failed to install Add-on from zip file"

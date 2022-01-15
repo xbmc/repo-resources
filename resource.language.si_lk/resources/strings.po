@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-08 10:47+0000\n"
+"PO-Revision-Date: 2022-01-15 12:07+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Sinhala (Sri Lanka) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/si_lk/>\n"
 "Language: si_lk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,8 +793,9 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "පරිශීලක මුහුණත ක්‍රමාංකනය"
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
+msgid "Video calibration"
 msgstr "දෘශ්‍ය ක්‍රමාංකනය"
 
 msgctxt "#215"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "මුල් 100 "
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "ඉහල-වම දර්ශනය නොවීමේ ප්‍රතිඵලය "
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "පහත-දකුණ දර්ශනය නොවීමේ ප්‍රතිඵලය "
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "උපසිරැසි ස්ථානගත කරමින්"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
-msgstr "ඒකක අනුපාත සිරුමාරුව "
+msgstr "ඒකක අනුපාත සිරුමාරුව"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "සෘජුකෝණාශ්‍රය සීරුමාරු කරන්න එවිට එය පරිපුර්ණ සමචතුරශ්‍රයකි"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "ඉහල-වම දර්ශනය නොවීමේ ප්‍රතිඵලය"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "පහත-දකුණ දර්ශනය නොවීමේ ප්‍රතිඵලය"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "දර්ශනය නොවීමේ ප්‍රමාණ වෙනස් කිරීමට ඊතලය සීරුමාරු කරන්න "
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
-msgid "Adjust the bar to change the subtitles position"
-msgstr "උපසිරැසි ස්ථානය වෙනස් කිරීමට පටිය සීරුමාරු කරන්න "
+msgid "Subtitle positioning"
+msgstr "උපසිරැසි ස්ථානගත කරමින්"
 
+#. Window screen calibration: calibration by using the subtitle bar
 msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "සෘජුකෝණාශ්‍රය සීරුමාරු කරන්න එවිට එය පරිපුර්ණ සමචතුරශ්‍රයකි."
+msgid "Adjust the bar to change the subtitles position"
+msgstr "උපසිරැසි ස්ථානය වෙනස් කිරීමට පටිය සීරුමාරු කරන්න"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9373,11 +9381,16 @@ msgstr ""
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
-msgid "Musical / Opera"
+msgid "Jazz"
 msgstr ""
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19585"
+msgid "Musical / Opera"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19586"
 msgid "Ballet"
 msgstr ""
 
@@ -10606,16 +10619,19 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr ""
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr ""
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
 msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
+msgid "Current value: {}"
 msgstr ""
 
 msgctxt "#20328"
@@ -10808,6 +10824,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr ""
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr ""
@@ -11211,6 +11228,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 # empty strings from id 20474 to 21329
@@ -18721,6 +18743,34 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "දෘශ්‍ය ක්‍රමාංකනය"
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "ඉහල-වම දර්ශනය නොවීමේ ප්‍රතිඵලය "
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "පහත-දකුණ දර්ශනය නොවීමේ ප්‍රතිඵලය "
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "උපසිරැසි ස්ථානගත කරමින්"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "ඒකක අනුපාත සිරුමාරුව "
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "උපසිරැසි ස්ථානය වෙනස් කිරීමට පටිය සීරුමාරු කරන්න "
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "සෘජුකෝණාශ්‍රය සීරුමාරු කරන්න එවිට එය පරිපුර්ණ සමචතුරශ්‍රයකි."
 
 #~ msgctxt "#21461"
 #~ msgid "Fixed"
