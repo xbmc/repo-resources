@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-23 14:47+0000\n"
+"PO-Revision-Date: 2022-01-14 20:23+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Hebrew (Israel) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/he_il/>\n"
 "Language: he_il\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "כיול ממשק משתמש..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "כיול וידאו..."
+msgid "Video calibration"
+msgstr "כיול וידאו"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "מאה הגדולים"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "פיצוי סריקת יתר משמאל למעלה"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "פיצוי סריקת יתר מימין למטה"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "מיקום כתוביות"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "התאמת יחס פיקסל"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "יש להפוך את המלבן לריבוע מושלם"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "פיצוי סריקת יתר משמאל למעלה"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "פיצוי סריקת יתר מימין למטה"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "יש להוזיז את הסמן להתאמת סריקת יתר"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "מיקום כתוביות"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "יש להוזיז את הסמן לשינוי מיקום הכתוביות"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "יש להפוך את המלבן לריבוע מושלם"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -4347,7 +4355,7 @@ msgstr "חיפוש כתובית"
 # empty strings from id 10154 to 10156
 msgctxt "#10157"
 msgid "OSD CMS settings"
-msgstr ""
+msgstr "הגדרות OSD CMS"
 
 # empty string with id 10158
 msgctxt "#10159"
@@ -5357,7 +5365,7 @@ msgstr "לא מחובר. יש לבדוק הגדרות רשת."
 #. Label of the button used to disconnect a game controller from the emulated game port
 msgctxt "#13298"
 msgid "Disconnected"
-msgstr ""
+msgstr "מנותק"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -5937,7 +5945,7 @@ msgstr "שיטת עיבוד PRIME"
 #. Description of setting with label #13462 "PRIME Render Method"
 msgctxt "#13463"
 msgid "This option switches between direct-to-plane and EGL rendering methods."
-msgstr ""
+msgstr "אפשרות זו מחליפה בין שיטת רינדור direct-to-plane לEGL"
 
 #. String for options 1 of setting with label #13462 "PRIME Render Method"
 msgctxt "#13464"
@@ -5955,7 +5963,7 @@ msgstr ""
 
 msgctxt "#13467"
 msgid "Unlimited / 1080 (>30Hz)"
-msgstr ""
+msgstr "לא מוגבל / 1080 (>30Hz)"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -6016,11 +6024,11 @@ msgstr "כששינוי המהירות עובר את הסף הזה, מסנן הצ
 
 msgctxt "#13519"
 msgid "Embedded art"
-msgstr ""
+msgstr "אומנות מובנית"
 
 msgctxt "#13520"
 msgid "Embedded fanart"
-msgstr ""
+msgstr "אומנות מעריצים מובנית"
 
 #. Heading for selection of a type of art e.g. "thumb", "poster", "fanart" etc.
 msgctxt "#13521"
@@ -6030,7 +6038,7 @@ msgstr "בחר סוג אומנות"
 #. label of a setting that allows splitting of albums into component discs
 msgctxt "#13522"
 msgid "Split albums into individual discs"
-msgstr ""
+msgstr "פצל אלבומים לדיסקים נפרדים"
 
 #. Description of setting with label #13522 "Split albums into individual discs"
 msgctxt "#13523"
@@ -9297,11 +9305,16 @@ msgstr "שירי עם / מוזיקה מסורתית"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "מוזיקלי / אופרה"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "בלט"
 
@@ -10499,17 +10512,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "נגן חלק..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "איפוס כיול"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "פעולה זו תאפס את ערכי הכיול עבור {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "לערכי ברירת המחדל."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10701,6 +10717,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "תוכן לא מוקצה"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "כותרת מקורית"
@@ -11104,6 +11121,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -18521,6 +18543,50 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "כיול וידאו..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "פיצוי סריקת יתר משמאל למעלה"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "פיצוי סריקת יתר מימין למטה"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "מיקום כתוביות"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "התאמת יחס פיקסל"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "יש להוזיז את הסמן לשינוי מיקום הכתוביות"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "יש להפוך את המלבן לריבוע מושלם"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "פעולה זו תאפס את ערכי הכיול עבור {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "לערכי ברירת המחדל."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "מוזיקלי / אופרה"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "בלט"
 
 #~ msgctxt "#19272"
 #~ msgid "You need a tuner, backend software, and an add-on for the backend to be able to use PVR. Please visit http://kodi.wiki/view/PVR to learn more."

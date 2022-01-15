@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-12-09 18:25+0000\n"
+"PO-Revision-Date: 2022-01-14 20:23+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Croatian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/hr_hr/>\n"
 "Language: hr_hr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Kalibrirajte korisničko sučelje..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Kalibracija slike..."
+msgid "Video calibration"
+msgstr "Kalibracija slike"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "Top 100"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Kompenzacija obrezivanja na gornjem-lijevom kutu"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Kompenzacija obrezivanja na donjem-desnom rubu"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Položaj podnaslova"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Ugađanje omjera piksela"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Namjestite pravokutnik tako da bude pravilan kvadrat"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Kompenzacija obrezivanja na gornjem-lijevom kutu"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Kompenzacija obrezivanja na donjem-desnom rubu"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Pomakni strelicu za izmjenu veličine obrezivanja videa"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Položaj podnaslova"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Pomaknite traku za promjenu položaja podnaslova"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Namjestite pravokutnik tako da bude pravilan kvadrat"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9292,11 +9300,16 @@ msgstr "Folklforna/Tradicionalna glazba"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Mjuzikl/Opera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Balet"
 
@@ -10493,17 +10506,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Reproduciraj dio..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Vrati kalibraciju na početno"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
-msgstr "Ovo će vratiti vrijednost kalibracije za {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
+msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "na njihove uobičajene vrijednosti."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10695,6 +10711,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Nepotpisan sadržaj"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Izvoran naslov"
@@ -11098,6 +11115,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -18512,6 +18534,50 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Kalibracija slike..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Kompenzacija obrezivanja na gornjem-lijevom kutu"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Kompenzacija obrezivanja na donjem-desnom rubu"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Položaj podnaslova"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Ugađanje omjera piksela"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Pomaknite traku za promjenu položaja podnaslova"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Namjestite pravokutnik tako da bude pravilan kvadrat"
+
+#~ msgctxt "#20326"
+#~ msgid "This will reset the calibration values for {0:s}"
+#~ msgstr "Ovo će vratiti vrijednost kalibracije za {0:s}"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "na njihove uobičajene vrijednosti."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Mjuzikl/Opera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Balet"
 
 #~ msgctxt "#21344"
 #~ msgid "If mp4 or mkv files have tags, use this for library metadata"

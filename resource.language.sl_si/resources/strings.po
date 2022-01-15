@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-25 10:17+0000\n"
+"PO-Revision-Date: 2022-01-15 12:07+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Slovenian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sl_si/>\n"
 "Language: sl_si\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -793,9 +793,10 @@ msgctxt "#213"
 msgid "Calibrate user interface..."
 msgstr "Umeri uporabniški vmesnik ..."
 
+#. To open window screen calibration and as window title
 msgctxt "#214"
-msgid "Video calibration..."
-msgstr "Umeritev slike ..."
+msgid "Video calibration"
+msgstr "Umeritev slike"
 
 msgctxt "#215"
 msgid "Soften"
@@ -1019,33 +1020,40 @@ msgctxt "#271"
 msgid "Top 100"
 msgstr "Top 100"
 
+#. Window screen calibration: calibration from the rectangle box
 msgctxt "#272"
-msgid "Top-Left overscan compensation"
-msgstr "Prekrivanje zaslona zgoraj levo"
-
-msgctxt "#273"
-msgid "Bottom-Right overscan compensation"
-msgstr "Prekrivanje zaslona spodaj desno"
-
-msgctxt "#274"
-msgid "Subtitle positioning"
-msgstr "Položaj podnapisov"
-
-msgctxt "#275"
 msgid "Pixel ratio adjustment"
 msgstr "Nastavitev razmerja pixlov"
 
+#. Window screen calibration: calibration by using the rectangle box
+msgctxt "#273"
+msgid "Adjust the rectangle so it is perfectly square"
+msgstr "Preoblikujte pravokotnik v popolni kvadrat"
+
+#. Window screen calibration: calibration from the top-left angle
+msgctxt "#274"
+msgid "Top-Left overscan compensation"
+msgstr "Prekrivanje zaslona zgoraj levo"
+
+#. Window screen calibration: calibration from the bottom-right angle
+msgctxt "#275"
+msgid "Bottom-Right overscan compensation"
+msgstr "Prekrivanje zaslona spodaj desno"
+
+#. Window screen calibration: calibration by using the top-left or bottom-right arrows
 msgctxt "#276"
 msgid "Adjust the arrow to change the amount of overscan"
 msgstr "Premaknite puščico za prilagoditev prekrivanja zaslona"
 
+#. Window screen calibration: calibration of subtitle bar
 msgctxt "#277"
+msgid "Subtitle positioning"
+msgstr "Položaj podnapisov"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#278"
 msgid "Adjust the bar to change the subtitles position"
 msgstr "Premaknite črto za nastavitev položaja podnapisov"
-
-msgctxt "#278"
-msgid "Adjust the rectangle so it is perfectly square"
-msgstr "Preoblikujte pravokotnik v popolni kvadrat"
 
 msgctxt "#279"
 msgid "Unable to load settings"
@@ -9316,11 +9324,16 @@ msgstr "Ljudska/tradicionalna glasba"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
+msgid "Jazz"
+msgstr ""
+
+#. label for "music/ballet/dance" epg subgenre value
+msgctxt "#19585"
 msgid "Musical / Opera"
 msgstr "Muzikal/opera"
 
 #. label for "music/ballet/dance" epg subgenre value
-msgctxt "#19585"
+msgctxt "#19586"
 msgid "Ballet"
 msgstr "Balet"
 
@@ -10525,17 +10538,20 @@ msgctxt "#20324"
 msgid "Play part..."
 msgstr "Predvajaj odlomek ..."
 
+#. Window screen calibration: as title to reset calibration settings
 msgctxt "#20325"
 msgid "Calibration reset"
 msgstr "Ponastavitev prilagoditev"
 
+#. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
-msgid "This will reset the calibration values for {0:s}"
+msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
 msgstr ""
 
+#. Window screen calibration: the current calibration value
 msgctxt "#20327"
-msgid "to its default values."
-msgstr "na privzete vrednosti."
+msgid "Current value: {}"
+msgstr ""
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -10727,6 +10743,7 @@ msgctxt "#20375"
 msgid "Unassign content"
 msgstr "Odstrani vsebino"
 
+#. Original title of the movie/tvshow (could differ from local distributor title) (ListItem.OriginalTitle)
 msgctxt "#20376"
 msgid "Original title"
 msgstr "Naslov izvirnika"
@@ -11130,6 +11147,11 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
+msgstr ""
+
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20474"
+msgid "HDR type"
 msgstr ""
 
 msgctxt "#21330"
@@ -18574,6 +18596,46 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#214"
+#~ msgid "Video calibration..."
+#~ msgstr "Umeritev slike ..."
+
+#~ msgctxt "#272"
+#~ msgid "Top-Left overscan compensation"
+#~ msgstr "Prekrivanje zaslona zgoraj levo"
+
+#~ msgctxt "#273"
+#~ msgid "Bottom-Right overscan compensation"
+#~ msgstr "Prekrivanje zaslona spodaj desno"
+
+#~ msgctxt "#274"
+#~ msgid "Subtitle positioning"
+#~ msgstr "Položaj podnapisov"
+
+#~ msgctxt "#275"
+#~ msgid "Pixel ratio adjustment"
+#~ msgstr "Nastavitev razmerja pixlov"
+
+#~ msgctxt "#277"
+#~ msgid "Adjust the bar to change the subtitles position"
+#~ msgstr "Premaknite črto za nastavitev položaja podnapisov"
+
+#~ msgctxt "#278"
+#~ msgid "Adjust the rectangle so it is perfectly square"
+#~ msgstr "Preoblikujte pravokotnik v popolni kvadrat"
+
+#~ msgctxt "#20327"
+#~ msgid "to its default values."
+#~ msgstr "na privzete vrednosti."
+
+#~ msgctxt "#19584"
+#~ msgid "Musical / Opera"
+#~ msgstr "Muzikal/opera"
+
+#~ msgctxt "#19585"
+#~ msgid "Ballet"
+#~ msgstr "Balet"
 
 #~ msgctxt "#24139"
 #~ msgid "View Add-on"
