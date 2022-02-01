@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-23 12:39+0000\n"
-"Last-Translator: Minho Park <parkmino@gmail.com>\n"
+"PO-Revision-Date: 2022-01-27 13:15+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
 "MIME-Version: 1.0\n"
@@ -5957,6 +5957,15 @@ msgctxt "#13467"
 msgid "Unlimited / 1080 (>30Hz)"
 msgstr "무제한 / 1080 (>30Hz)"
 
+msgctxt "#13468"
+msgid "Use AV1 VAAPI"
+msgstr "AV1 VAAPI 사용"
+
+#. Description of setting with label #13468 "Use AV1 VAAPI"
+msgctxt "#13469"
+msgid "Enable this option to use hardware acceleration for the AV1 codec. If disabled the CPU will be used instead."
+msgstr "이 옵션은 AV1 코덱을 위한 하드웨어 가속을 사용합니다. 사용하지 않으면 CPU가 대신 쓰입니다."
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "리샘플 품질"
@@ -8560,11 +8569,6 @@ msgstr "클라이언트에서 녹화 예약을 불러오는 중"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "클라이언트에서 녹화를 불러오는 중"
-
-#. label 'starting background tasks' for progress dialog text
-msgctxt "#19239"
-msgid "Starting background threads"
-msgstr "백그라운드 스레드 시작중"
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -18522,6 +18526,10 @@ msgstr "비디오 OSD 자동 닫기 시간(초)"
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr "비디오 OSD가 자동으로 닫히는 시간(초)"
+
+#~ msgctxt "#19239"
+#~ msgid "Starting background threads"
+#~ msgstr "백그라운드 스레드 시작중"
 
 #~ msgctxt "#214"
 #~ msgid "Video calibration..."

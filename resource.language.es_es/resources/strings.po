@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-13 11:02+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-01-26 11:59+0000\n"
+"Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_es/>\n"
 "Language: es_es\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "Gestor de archivos"
 
 msgctxt "#8"
 msgid "Weather"
-msgstr "El Tiempo"
+msgstr "Meteorología"
 
 msgctxt "#9"
 msgid "Kodi media center"
@@ -1574,7 +1574,7 @@ msgstr "Velocidad en"
 
 msgctxt "#400"
 msgid "Weather"
-msgstr "El Tiempo"
+msgstr "Meteorología"
 
 msgctxt "#401"
 msgid "Temp"
@@ -1610,11 +1610,11 @@ msgstr "Por defecto"
 
 msgctxt "#410"
 msgid "Accessing weather service"
-msgstr "Accediendo a El Tiempo"
+msgstr "Accediendo al servicio de meteorología"
 
 msgctxt "#411"
 msgid "Getting weather for:"
-msgstr "Obteniendo el tiempo para:"
+msgstr "Obteniendo meteorología para:"
 
 msgctxt "#412"
 msgid "Unable to get weather data"
@@ -4406,7 +4406,7 @@ msgstr "Configuración"
 
 msgctxt "#10508"
 msgid "Weather forecast"
-msgstr "Pronóstico del Tiempo"
+msgstr "Pronóstico meteorológico"
 
 msgctxt "#10509"
 msgid "Network gaming"
@@ -4889,7 +4889,7 @@ msgstr "Nivel de batería"
 
 msgctxt "#12600"
 msgid "Weather"
-msgstr "El Tiempo"
+msgstr "Meteorología"
 
 msgctxt "#12900"
 msgid "Screensaver"
@@ -5956,6 +5956,15 @@ msgstr "1080 / 720 (>30Hz)"
 msgctxt "#13467"
 msgid "Unlimited / 1080 (>30Hz)"
 msgstr "Ilimitado / 1080 (>30Hz)"
+
+msgctxt "#13468"
+msgid "Use AV1 VAAPI"
+msgstr "Usar AV1 VAAPI"
+
+#. Description of setting with label #13468 "Use AV1 VAAPI"
+msgctxt "#13469"
+msgid "Enable this option to use hardware acceleration for the AV1 codec. If disabled the CPU will be used instead."
+msgstr "Active esta opción para usar aceleración por hardware con el códec AV1. Si se desactiva se usará la CPU."
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -8561,11 +8570,6 @@ msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Cargando grabaciones desde clientes"
 
-#. label 'starting background tasks' for progress dialog text
-msgctxt "#19239"
-msgid "Starting background threads"
-msgstr "Comenzando hilos en segundo plano"
-
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
 msgid "Client priorities"
@@ -10510,12 +10514,12 @@ msgstr "Reiniciar calibrado"
 #. Window screen calibration: ask to reset calibration settings
 msgctxt "#20326"
 msgid "Do you want reset the calibration to their defaults for \"{0:s}\" resolution?"
-msgstr ""
+msgstr "¿Quiere restablecer la calibración por defecto para la resolución \"{0:s}\"?"
 
 #. Window screen calibration: the current calibration value
 msgctxt "#20327"
 msgid "Current value: {}"
-msgstr ""
+msgstr "Valor actual: {}"
 
 msgctxt "#20328"
 msgid "Browse for destination"
@@ -11116,7 +11120,7 @@ msgstr "Estrenado"
 #. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
 msgctxt "#20474"
 msgid "HDR type"
-msgstr ""
+msgstr "Tipo HDR"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -12329,11 +12333,11 @@ msgstr "Idiomas"
 
 msgctxt "#24027"
 msgid "Weather"
-msgstr "El Tiempo"
+msgstr "Meteorología"
 
 msgctxt "#24028"
 msgid "Weather.com (standard)"
-msgstr "Weather.com (estandar)"
+msgstr "Weather.com (estándar)"
 
 msgctxt "#24029"
 msgid "Service for weather information"
@@ -13389,7 +13393,7 @@ msgstr "Otra música"
 #. Program style name
 msgctxt "#29956"
 msgid "Weather"
-msgstr "El Tiempo"
+msgstr "Meteorología"
 
 #. Program style name
 msgctxt "#29957"
@@ -16036,12 +16040,12 @@ msgstr "Esta categoría contiene los ajustes sobre la gestión del servicio de m
 #. Description of settings category with label #0 "Locations"
 msgctxt "#36317"
 msgid "Select up to three locations for which the weather can be displayed."
-msgstr "Selecciona hasta tres localizaciones en las que mostrar el tiempo."
+msgstr "Selecciona hasta tres localizaciones de las que mostrar la meteorología."
 
 #. Description of setting with label #24029 "Service for weather information"
 msgctxt "#36318"
 msgid "Specify the default weather information source. See the add-ons manager for options."
-msgstr "Selecciona la fuente de información meteorológica. Vea el gestor de add-ons para las opciones."
+msgstr "Selecciona la fuente de información meteorológica. Mira el gestor de add-ons para las opciones."
 
 #. Description of settings section with label #14036  "Services"
 msgctxt "#36319"
@@ -16532,7 +16536,7 @@ msgstr "Especifica el retardo en las secuencias de botones en un mando a distanc
 #. Description of setting with label #21417 "Settings"
 msgctxt "#36419"
 msgid "Define locations used for retrieving weather information."
-msgstr "Define las localizaciones para las que se obtendrá la información del tiempo."
+msgstr "Define las localizaciones para las que se obtendrá la información meteorológica."
 
 #. Description of setting with label #20222 "Look for external subtitles"
 msgctxt "#36420"
@@ -18522,6 +18526,10 @@ msgstr "Tiempo para cerrar OSD video (segundos)"
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr "El tiempo en segundos en que el OSD vídeo se cerrará automáticamente"
+
+#~ msgctxt "#19239"
+#~ msgid "Starting background threads"
+#~ msgstr "Comenzando hilos en segundo plano"
 
 #~ msgctxt "#214"
 #~ msgid "Video calibration..."

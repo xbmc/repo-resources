@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-15 12:07+0000\n"
+"PO-Revision-Date: 2022-01-27 13:15+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Japanese <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ja_jp/>\n"
 "Language: ja_jp\n"
@@ -5957,6 +5957,15 @@ msgctxt "#13467"
 msgid "Unlimited / 1080 (>30Hz)"
 msgstr "制限なし / 1080 (>30Hz)"
 
+msgctxt "#13468"
+msgid "Use AV1 VAAPI"
+msgstr "AV1 VAAPIを使用する"
+
+#. Description of setting with label #13468 "Use AV1 VAAPI"
+msgctxt "#13469"
+msgid "Enable this option to use hardware acceleration for the AV1 codec. If disabled the CPU will be used instead."
+msgstr "このオプションを有効にすると、このオプションは、AV1コーデックでハードウェアアクセラレーションを使用します。無効にすると代わりにCPUを利用します。"
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "リサンプル クオリティ"
@@ -8561,11 +8570,6 @@ msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "クライアントから録画をロードしています"
 
-#. label 'starting background tasks' for progress dialog text
-msgctxt "#19239"
-msgid "Starting background threads"
-msgstr "バックグラウンド スレッドの開始中"
-
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
 msgid "Client priorities"
@@ -11112,7 +11116,7 @@ msgstr ""
 
 msgctxt "#20473"
 msgid "Premiered"
-msgstr ""
+msgstr "封切り"
 
 #. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
 msgctxt "#20474"
@@ -11609,7 +11613,7 @@ msgstr "字幕の表示位置"
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
 msgid "Manual"
-msgstr ""
+msgstr "マニュアル"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21462"
@@ -15879,7 +15883,7 @@ msgstr "CDがドライブに挿入されたら、自動再生する。"
 #. Description of setting with label #227 "Load audio CD information from online service"
 msgctxt "#36284"
 msgid "Read the information belonging to an audio CD, like song title and artist, from the Internet database gnudb.org."
-msgstr ""
+msgstr "インターネットデータベースgnudb.orgから、曲のタイトルやアーティストなど、オーディオCDに属する情報を読み取ります。"
 
 #. Description of setting label #20000 "Saved music folder"
 msgctxt "#36285"
@@ -18524,6 +18528,10 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#19239"
+#~ msgid "Starting background threads"
+#~ msgstr "バックグラウンド スレッドの開始中"
 
 #~ msgctxt "#214"
 #~ msgid "Video calibration..."

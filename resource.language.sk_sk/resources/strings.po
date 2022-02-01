@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-15 12:07+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-02-01 09:51+0000\n"
+"Last-Translator: Patrik Špaňo <patrik.spano@gmail.com>\n"
 "Language-Team: Slovak <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sk_sk/>\n"
 "Language: sk_sk\n"
 "MIME-Version: 1.0\n"
@@ -734,11 +734,11 @@ msgstr "Webové rozhranie"
 
 msgctxt "#200"
 msgid "Audio encoders"
-msgstr "Zvukové kodéry"
+msgstr "Audio kodéry"
 
 msgctxt "#201"
 msgid "Audio decoders"
-msgstr "Zvukové dekodéry"
+msgstr "Audio dekodéry"
 
 msgctxt "#202"
 msgid "Tagline"
@@ -1110,7 +1110,7 @@ msgstr "Video"
 
 msgctxt "#292"
 msgid "Audio"
-msgstr "Zvuk"
+msgstr "Audio"
 
 msgctxt "#293"
 msgid "Browse for subtitles"
@@ -1749,7 +1749,7 @@ msgstr "Video"
 
 msgctxt "#445"
 msgid "Audio"
-msgstr "Zvuk"
+msgstr "Audio"
 
 msgctxt "#446"
 msgid "DVD"
@@ -1809,7 +1809,7 @@ msgstr "Titulky"
 
 msgctxt "#460"
 msgid "Audio stream"
-msgstr "Zvukový stream"
+msgstr "Audio stream"
 
 msgctxt "#461"
 msgid "[active]"
@@ -2881,7 +2881,7 @@ msgstr "Chyba {0:d}: zdieľaná položka je nedostupná"
 
 msgctxt "#772"
 msgid "Audio"
-msgstr "Zvuk"
+msgstr "Audio"
 
 msgctxt "#773"
 msgid "Seeking"
@@ -4000,11 +4000,11 @@ msgstr "Viac informácií nájdete v denníku udalostí."
 # empty strings from id 2105 to 2202
 msgctxt "#2203"
 msgid "Use DTS Core"
-msgstr ""
+msgstr "Použiť DTS Core"
 
 msgctxt "#2204"
 msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr ""
+msgstr "Túto možnosť vyberte, pokiaľ chcete formáty DTS-HD preposielať ako DTS, inak budú formáty DTS-HD prehrávané prostredníctvom PCM"
 
 msgctxt "#10000"
 msgid "Home"
@@ -4635,12 +4635,12 @@ msgstr "Pokračovať od {0:s}"
 #. Label of the show password button in the keyboard dialog
 msgctxt "#12308"
 msgid "Show password"
-msgstr ""
+msgstr "Zobraziť heslo"
 
 #. Label of the hide password button in the keyboard dialog
 msgctxt "#12309"
 msgid "Hide password"
-msgstr ""
+msgstr "Skryť heslo"
 
 msgctxt "#12310"
 msgid "0"
@@ -5357,7 +5357,7 @@ msgstr "Nepripojené. Skontrolujte sieťové nastavenia."
 #. Label of the button used to disconnect a game controller from the emulated game port
 msgctxt "#13298"
 msgid "Disconnected"
-msgstr ""
+msgstr "Odpojené"
 
 msgctxt "#13299"
 msgid "Target temperature"
@@ -5833,7 +5833,7 @@ msgstr "Uprednostniť zmiešavač videa VPDAU"
 
 msgctxt "#13438"
 msgid "Allow hardware acceleration with DRM PRIME"
-msgstr ""
+msgstr "Povoliť hardvérovú akceleráciu s DRM PRIME"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -5957,6 +5957,15 @@ msgctxt "#13467"
 msgid "Unlimited / 1080 (>30Hz)"
 msgstr "Neobmedzené / 1080 (>30Hz)"
 
+msgctxt "#13468"
+msgid "Use AV1 VAAPI"
+msgstr "Použiť AV1 VAAPI"
+
+#. Description of setting with label #13468 "Use AV1 VAAPI"
+msgctxt "#13469"
+msgid "Enable this option to use hardware acceleration for the AV1 codec. If disabled the CPU will be used instead."
+msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodek AV1. Ak je vypnutá, namiesto toho sa použije procesor."
+
 msgctxt "#13505"
 msgid "Resample quality"
 msgstr "Kvalita zmeny rýchlosti"
@@ -6004,7 +6013,7 @@ msgstr "Bez grafiky"
 #. Button to add a new type of art e.g. "thumb", "poster", "fanart" etc.
 msgctxt "#13516"
 msgid "Add art type"
-msgstr "Pridať typ obrázka"
+msgstr "Pridať typ grafiky"
 
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
@@ -6016,7 +6025,7 @@ msgstr "Keď zmena rýchlosti prekročí tento prah, bude sa aplikovať filter n
 
 msgctxt "#13519"
 msgid "Embedded art"
-msgstr "Vložený obrázok"
+msgstr "Vložená grafika"
 
 msgctxt "#13520"
 msgid "Embedded fanart"
@@ -6035,17 +6044,17 @@ msgstr "Rozdeliť albumy na jednotlivé disky"
 #. Description of setting with label #13522 "Split albums into individual discs"
 msgctxt "#13523"
 msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
-msgstr ""
+msgstr "Pokiaľ je povolené, otvorenie viac-diskového albumu zobrazia sa disky ako samostatné položky namiesto všetkých skladieb. Otvorenie disku následne zobrazí skladby na tomto disku."
 
 #. Label of a setting that allows original release dates to be used instead of album release date
 msgctxt "#13524"
 msgid "Use original release date of albums for year"
-msgstr ""
+msgstr "Použiť pôvodný dátum vydania albumov pre rok"
 
 #. Description of setting with label #13524
 msgctxt "#13525"
 msgid "When enabled, use the original year of release rather than the album release year (if available)."
-msgstr ""
+msgstr "Ak je povolené, bude použitý (ak je k dispozícií) pôvodný rok vydania ako rok vydania albumu."
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
@@ -6087,7 +6096,7 @@ msgstr "Diaľkové ovládanie Apple"
 
 msgctxt "#13601"
 msgid "Apple TV"
-msgstr ""
+msgstr "Apple TV"
 
 msgctxt "#13602"
 msgid "Allow start of Kodi using the remote"
@@ -6605,11 +6614,11 @@ msgstr "Povolené režimy"
 
 msgctxt "#14127"
 msgid "Allow 3:2 pulldown refresh rates"
-msgstr ""
+msgstr "Povoliť 3:2 zníženie obnovovacích frekvencií"
 
 msgctxt "#14128"
 msgid "Allow double refresh rates"
-msgstr ""
+msgstr "Povoliť dvojnásobné obnovovacie frekvencie"
 
 msgctxt "#14200"
 msgid "Player"
@@ -6789,11 +6798,11 @@ msgstr "Importovať knižnicu"
 
 msgctxt "#14250"
 msgid "Audio Decoder"
-msgstr "Dekodér zvuku"
+msgstr "Audio Dekodér"
 
 msgctxt "#14252"
 msgid "Audio Passthrough"
-msgstr "Preposielanie zvukového signálu"
+msgstr "Preposielanie audio signálu"
 
 msgctxt "#14255"
 msgid "Sleep / Shutdown"
@@ -7252,7 +7261,7 @@ msgstr "Bilineárny"
 
 msgctxt "#16303"
 msgid "Bicubic (B-Spline)"
-msgstr ""
+msgstr "Bikubicky (B-Spline)"
 
 msgctxt "#16304"
 msgid "Lanczos2"
@@ -7268,15 +7277,15 @@ msgstr "Sinc8"
 
 msgctxt "#16307"
 msgid "Bicubic (software)"
-msgstr "Bikubický (software)"
+msgstr "Bikubicky (softvérovo)"
 
 msgctxt "#16308"
 msgid "Lanczos (software)"
-msgstr "Lanczos (software)"
+msgstr "Lanczos (softvérovo)"
 
 msgctxt "#16309"
 msgid "Sinc (software)"
-msgstr "Sinc (software)"
+msgstr "Sinc (softvérovo)"
 
 msgctxt "#16310"
 msgid "Temporal"
@@ -7296,7 +7305,7 @@ msgstr "VDPAU - Ostrosť"
 
 msgctxt "#16314"
 msgid "Bicubic (Mitchell)"
-msgstr ""
+msgstr "Bikubicky (Mitchell)"
 
 msgctxt "#16315"
 msgid "Lanczos3 - Optimised"
@@ -7324,7 +7333,7 @@ msgstr "DXVA"
 
 msgctxt "#16321"
 msgid "Bicubic (Catmull-Rom)"
-msgstr ""
+msgstr "Bikubicky (Catmull-Rom)"
 
 msgctxt "#16322"
 msgid "Spline36"
@@ -7336,7 +7345,7 @@ msgstr "Spline36 - Optimalizovaný"
 
 msgctxt "#16324"
 msgid "Software - Blend"
-msgstr "Softvér - Blend"
+msgstr "Softvérovo - Zmiešavanie"
 
 msgctxt "#16325"
 msgid "VDPAU - Bob"
@@ -7344,7 +7353,7 @@ msgstr "VDPAU - Bob"
 
 msgctxt "#16326"
 msgid "Bicubic (0,0.75)"
-msgstr ""
+msgstr "Bikubicky (0,0.75)"
 
 msgctxt "#16327"
 msgid "VAAPI - Bob"
@@ -7352,15 +7361,15 @@ msgstr "VAAPI - Bob"
 
 msgctxt "#16328"
 msgid "VAAPI - Motion adaptive"
-msgstr "VAAPI - Motion adaptive"
+msgstr "VAAPI - Pohybovo adaptívne"
 
 msgctxt "#16329"
 msgid "VAAPI - Motion compensated"
-msgstr "VAAPI - Motion compensated"
+msgstr "VAAPI - Kompenzovaný pohybom"
 
 msgctxt "#16330"
 msgid "Bicubic (0,1.)"
-msgstr ""
+msgstr "Bikubicky (0,1.)"
 
 #. Description of OSD video settings for deinterlace method with label #16334
 msgctxt "#16334"
@@ -7383,7 +7392,7 @@ msgstr "Post-processing"
 
 msgctxt "#17500"
 msgid "Display sleep timeout"
-msgstr "Zobraziť čas do vypnutia"
+msgstr "Zobraziť čas do uspania"
 
 msgctxt "#17997"
 msgid "{0:d} MByte"
@@ -7553,7 +7562,7 @@ msgstr "Teraz"
 #. generic 'next' label used in different places in pvr context
 msgctxt "#19031"
 msgid "Next"
-msgstr "Násl."
+msgstr "Nasledujúce"
 
 #. 'timeline' label used in pvr guide window
 msgctxt "#19032"
@@ -7602,17 +7611,17 @@ msgstr "Časovače"
 #. Label for button to refresh the channel logos
 msgctxt "#19041"
 msgid "Refresh channel logos"
-msgstr ""
+msgstr "Obnoviť logá kanálov"
 
 #. label for PVR backend number of channel groups in system information's PVR section
 msgctxt "#19042"
 msgid "Channel Groups"
-msgstr ""
+msgstr "Skupiny kanálov"
 
 #. pvr settings "recording" category label
 msgctxt "#19043"
 msgid "Recording"
-msgstr "Nahrávka"
+msgstr "Nahrávanie"
 
 msgctxt "#19044"
 msgid "Please check your configuration. Check the log for more information about this message."
@@ -7750,7 +7759,7 @@ msgstr "Doba aktualizácie"
 #. Dialog warning text for invalid timer setting
 msgctxt "#19072"
 msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
-msgstr ""
+msgstr "Aby bolo možné pridať alebo aktualizovať časovač, musí byť dátum a čas ukončenia väčší ako dátum a čas zahájenia."
 
 #. pvr settings "delay channel switch" setting label
 msgctxt "#19073"
@@ -8063,7 +8072,7 @@ msgstr "Kanál nie je k dispozícii"
 #. channel group manager dialog error message box text
 msgctxt "#19137"
 msgid "No groups defined. Please create a group first"
-msgstr "Nie sú definované žiadne skupiny. Najprv vytvorte skupinu."
+msgstr "Nie sú definované žiadne skupiny. Najprv vytvorte skupinu"
 
 #. Label of timer rules tv/radio home submenu item
 msgctxt "#19138"
@@ -8306,17 +8315,17 @@ msgstr "Vymazať údaje"
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
 msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr ""
+msgstr "Všetky označené dáta budú vymazané. Niektoré informácie nemôžu byť neskôr z klientov obnovené. Napriek tomu pokračovať?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
 msgid "Clearing data."
-msgstr ""
+msgstr "Mazanie dát."
 
 #. message box text for epg data reset confirmation
 msgctxt "#19188"
 msgid "All guide data will be cleared. Are you sure?"
-msgstr ""
+msgstr "Všetky dáta programu budú vymazané. Si si istý?"
 
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
@@ -8561,11 +8570,6 @@ msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Načítavajú sa nahrávky od klientov"
 
-#. label 'starting background tasks' for progress dialog text
-msgctxt "#19239"
-msgid "Starting background threads"
-msgstr "Spúšťajú sa vlákna na pozadí"
-
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
 msgid "Client priorities"
@@ -8728,7 +8732,7 @@ msgstr "Nenašli sa žiadne doplnky pre funkciu PVR"
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
 msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr ""
+msgstr "Ak chcete používať PVR, musíte nainštalovať, povoliť a nakonfigurovať doplnok PVR. Ďalšie informácie nájdete na adrese http://kodi.wiki/view/PVR."
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -8808,7 +8812,7 @@ msgstr "Všetky kanály"
 #. Label for epg grid window "go to date" context menu entry
 msgctxt "#19288"
 msgid "Date selector"
-msgstr ""
+msgstr "Výber dátumu"
 
 #. Label for button to hide a group in the group manager
 msgctxt "#19289"
@@ -8893,32 +8897,32 @@ msgstr "Zobraziť pravidlá časovača"
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19305"
 msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "Odstránené zmeškané pripomenutie PVR pre ‚{0:s}‘ na kanále ‚{1:s}‘ o ‚{2:s}‘"
 
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19306"
 msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
+msgstr "Vymazané zmeškané pripomenutie PVR pre kanál '{0:s}' v '{1:s}'"
 
 #. text for reminder announcement dialog
 msgctxt "#19307"
 msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
-msgstr ""
+msgstr "Pripomenutie pre [B]{0:s}[/B] na kanále [B]{1:s}[/B] v [B]{2:s}[/B]."
 
 #. text for reminder announcement dialog
 msgctxt "#19308"
 msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
-msgstr ""
+msgstr "Pripomenutie pre kanál [B]{0:s}[/B] at [B]{1:s}[/B]."
 
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19309"
 msgid "(Auto-close of this reminder will schedule a recording...)"
-msgstr ""
+msgstr "(Automatické zatvorenie tothoto pripomenutia naplánuje nahrávanie...)"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19310"
 msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "Naplánované nahrávanie pre automatické zavretie pripomenutia PVR pre '{0:s}' na kanále '{1:s}' v '{2:s}'"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19311"
@@ -8928,12 +8932,12 @@ msgstr ""
 #. heading for pvr reminder notification dialog
 msgctxt "#19312"
 msgid "PVR reminder"
-msgstr ""
+msgstr "Pripomenutie PVR"
 
 #. pvr settings "reminder auto close delay" setting label
 msgctxt "#19313"
 msgid "Automatically close reminder popup after"
-msgstr ""
+msgstr "Automaticky zavrieť kontextové okno pripomienky po"
 
 #. pvr settings "schedule recording on reminder auto-close" setting label
 msgctxt "#19314"
@@ -8978,17 +8982,17 @@ msgstr ""
 #. Label for epg grid window "Jump to first channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19322"
 msgid "First channel"
-msgstr ""
+msgstr "Prvý kanál"
 
 #. Label for epg grid window "Jump to playing channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19323"
 msgid "Playing channel"
-msgstr ""
+msgstr "Prehrávaný kanál"
 
 #. Label for epg grid window "Jump to last channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19324"
 msgid "Last channel"
-msgstr ""
+msgstr "Posledný kanál"
 
 #. Label for epg grid controls "Programme" group header"
 msgctxt "#19325"
@@ -9003,12 +9007,12 @@ msgstr "Navigovať..."
 #. Label for a context menu entry to delete alle watched recordings contained in a folder
 msgctxt "#19327"
 msgid "Delete watched"
-msgstr ""
+msgstr "Odstrániť videné"
 
 #. delete multiple recordings confirmation message box text
 msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
-msgstr ""
+msgstr "Odstrániť všetky videné nahrávky v tomto priečinku?"
 
 #. label for PVR settings use backend channel numbers always
 msgctxt "#19329"
@@ -10039,7 +10043,7 @@ msgstr "Odhlásiť"
 
 msgctxt "#20129"
 msgid "Weave"
-msgstr "Weave"
+msgstr "Väzba"
 
 msgctxt "#20130"
 msgid "Weave - Inverted"
@@ -10341,7 +10345,7 @@ msgstr "Uprednostňovať online album art"
 #. Description of setting with label #20224 "Prefer online album art"
 msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
-msgstr "Tam, kde neexistuje žiadny miestny obal albumu, použije sa online art. Kde nie je k dispozícii ani jedno, použijú sa obrázky vložené v hudobných súboroch."
+msgstr "Tam, kde neexistuje žiadny miestny obal albumu, použije sa online grafika. Kde nie je k dispozícii ani jedno, použijú sa obrázky vložené v hudobných súboroch."
 
 msgctxt "#20226"
 msgid "Movie set information folder"
@@ -11394,11 +11398,11 @@ msgstr "menej ako"
 
 msgctxt "#21408"
 msgid "after"
-msgstr "násl."
+msgstr "po"
 
 msgctxt "#21409"
 msgid "before"
-msgstr "pred."
+msgstr "pred"
 
 msgctxt "#21410"
 msgid "in the last"
@@ -11546,7 +11550,7 @@ msgstr "Kodek videa"
 
 msgctxt "#21446"
 msgid "Audio codec"
-msgstr "Koded audia"
+msgstr "Kodek audia"
 
 msgctxt "#21447"
 msgid "Audio language"
@@ -12080,7 +12084,7 @@ msgstr "OpenGL vendor:"
 
 msgctxt "#22008"
 msgid "OpenGL renderer:"
-msgstr "OpenGL renderer:"
+msgstr "Vykreslovač OpenGL:"
 
 msgctxt "#22009"
 msgid "OpenGL version:"
@@ -13106,7 +13110,7 @@ msgstr "QWERTY klávesnica"
 
 msgctxt "#29802"
 msgid "Passthrough audio in use"
-msgstr "Používa sa preposielanie zvukového signálu"
+msgstr "Používa sa preposielanie audio signálu"
 
 #. Header text for the BD-J warning dialog
 msgctxt "#29803"
@@ -13777,7 +13781,7 @@ msgstr "Editor"
 
 msgctxt "#33066"
 msgid "About your"
-msgstr "O. . ."
+msgstr "O vašom"
 
 msgctxt "#33067"
 msgid "Star rating"
@@ -15141,7 +15145,7 @@ msgstr "Zobrazí prípony súborov pre súbory médií, napríklad \"Myslím že
 #. Description of setting with label #13399 "Ignore articles when sorting"
 msgctxt "#36124"
 msgid "Ignore certain tokens, e.g. \"The\", during sort operations. \"The Simpsons\" would for example be sorted as \"Simpsons\"."
-msgstr "Počas zoraďovania ignorovať určité tokeny, t.j. \"The\". \"The Simpsons\" bude napríklad zoradený ako \"Simpsons\"."
+msgstr "Ignorovať určité výrazy, ako \"The\" počas zoraďovania. \"The Simpsons\" bude napríklad zoradený ako \"Simpsons\"."
 
 #. Description of setting with label #14071 "Allow file renaming and deletion"
 msgctxt "#36125"
@@ -16156,7 +16160,7 @@ msgstr "Úvodné oneskorenie opakovania (ms)."
 #. Description of setting with label #796 "Continuous repeat delay (ms)"
 msgctxt "#36340"
 msgid "Continuous repeat delay (ms)."
-msgstr "Následujúce oneskorenie opakovania (ms)"
+msgstr "Oneskorenie nepretržitého opakovania (ms)."
 
 #. Description of settings category with label #1259 "Zeroconf"
 msgctxt "#36341"
@@ -17376,7 +17380,7 @@ msgstr "(komentár režiséra 2)"
 
 msgctxt "#37014"
 msgid "Last used profile"
-msgstr "Last used profile"
+msgstr "Naposledy použitý profil"
 
 msgctxt "#37015"
 msgid "Browse into"
@@ -18367,7 +18371,7 @@ msgstr ""
 #. Description of setting with label #39152 "TV show art types whitelist"
 msgctxt "#39146"
 msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Obmedziť načítanie umeleckej grafiky TV seriálu a sezóny lokálne alebo použiť z výsledkov zo vzdialených zdrojov iba tie typy grafiky, ktoré sú v zozname povolených."
+msgstr "Obmedziť načítanie umeleckej grafiky TV seriálu a série lokálne alebo použiť z výsledkov zo vzdialených zdrojov iba tie typy grafiky, ktoré sú v zozname povolených"
 
 msgctxt "#39147"
 msgid "Episode art types whitelist"
@@ -18530,6 +18534,10 @@ msgstr ""
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
 msgstr ""
+
+#~ msgctxt "#19239"
+#~ msgid "Starting background threads"
+#~ msgstr "Spúšťajú sa vlákna na pozadí"
 
 #~ msgctxt "#214"
 #~ msgid "Video calibration..."
