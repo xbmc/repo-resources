@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-06 18:05+0000\n"
+"PO-Revision-Date: 2022-03-27 13:30+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -4091,7 +4091,7 @@ msgstr "Indstillinger - Medie"
 
 msgctxt "#10032"
 msgid "Settings - Interface"
-msgstr "Indstillinger - Grænseflade"
+msgstr "Indstillinger - Brugerflade"
 
 msgctxt "#10034"
 msgid "Settings - Profiles"
@@ -6649,11 +6649,11 @@ msgstr "Indstillinger for PVR og direkte tv"
 
 msgctxt "#14206"
 msgid "Interface"
-msgstr "Grænseflade"
+msgstr "Brugerflade"
 
 msgctxt "#14207"
 msgid "Interface settings"
-msgstr "Grænsefladens indstillinger"
+msgstr "Brugerfladens indstillinger"
 
 msgctxt "#14208"
 msgid "Service settings"
@@ -7017,6 +7017,26 @@ msgstr "Åbner kilde med flere stier"
 msgctxt "#15311"
 msgid "Path:"
 msgstr "Sti:"
+
+#. Game settings category name
+msgctxt "#15312"
+msgid "Achievements"
+msgstr "Præstationer"
+
+#. Group label for Achievements category in game settings
+msgctxt "#15313"
+msgid "Login to RetroAchievements"
+msgstr "Log ind på RetroAchievements"
+
+#. Label for button in the in-game savestate manager
+msgctxt "#15314"
+msgid "Save progress"
+msgstr "Gem fremskridt"
+
+#. Caption for "Save progress" button in the in-game savestate manager
+msgctxt "#15315"
+msgid "Save progress to new save file"
+msgstr "Gem fremskridt til ny fil"
 
 msgctxt "#16000"
 msgid "General"
@@ -14754,6 +14774,12 @@ msgctxt "#35236"
 msgid "In this release, only controllers can be used to play games."
 msgstr "I denne version kan der udelukkende benyttes controllere til at spille spil."
 
+# empty strings from id 35237 to 35248
+#. Button to open the saved game manager from the game OSD
+msgctxt "#35249"
+msgid "Saved games"
+msgstr "Gemte spil"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Tilføj spil..."
@@ -14793,6 +14819,63 @@ msgstr "Vælg emulator for {0:s} fil"
 msgctxt "#35259"
 msgid "Saved"
 msgstr "Gemt"
+
+#. Title of the dialog to select a savestate for the current game
+msgctxt "#35260"
+msgid "Select savestate"
+msgstr "Vælg savestate"
+
+#. Button for creating a new save state from the select savestate dialog
+msgctxt "#35261"
+msgid "New game"
+msgstr "Nyt spil"
+
+#. Help text for RetroAchievements username input setting
+msgctxt "#35262"
+msgid "Enter your RetroAchievements account username"
+msgstr "Indtast brugernavnet til din RetroAchievements-konto"
+
+#. Help text for RetroAchievements password input setting
+msgctxt "#35263"
+msgid "Enter your RetroAchievements account password"
+msgstr "Indtast adgangskoden til din RetroAchievements-konto"
+
+#. Label for notification events regarding RetroAchievements login
+msgctxt "#35264"
+msgid "RetroAchievements"
+msgstr "RetroAchievements"
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35265"
+msgid "Incorrect User/Password!"
+msgstr "Forkert bruger/adgangskode!"
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35266"
+msgid "Failed to contact server"
+msgstr "Kunne ikke kontakte serveren"
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35267"
+msgid "Invalid response from server"
+msgstr "Ugyldigt svar fra server"
+
+#. Setting to show if the user is logged in to RetroAchievements
+#. Settings -> Games -> Achievements -> Logged in
+msgctxt "#35268"
+msgid "Logged in"
+msgstr "Logget ind"
+
+#. Help text for the setting that shows if the user is logged in to RetroAchievements
+#. Settings -> Games -> Achievements -> Logged in
+msgctxt "#35269"
+msgid "Toggle this setting to log in or out of RetroAchievements."
+msgstr "Skift denne indstilling for at logge ind eller ud af RetroAchievements."
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35270"
+msgid "Your account is not verified. Please check your email to complete your sign up."
+msgstr "Din konto er ikke bekræftet. Tjek venligst din email for at fuldføre din tilmelding."
 
 #. connection state "host unreachable"
 msgctxt "#35505"
@@ -14975,7 +15058,7 @@ msgstr "Tv og AVR-enhed (eksplicit)"
 
 msgctxt "#36040"
 msgid "Detected version of libCEC interface ({0:x}) is lower than the supported version {1:x}."
-msgstr "Den detekterede version af libCEC-grænseflade ({0:x}) er lavere end den understøttede version {1:x}."
+msgstr "Den detekterede version af libCEC-brugerflade ({0:x}) er lavere end den understøttede version {1:x}."
 
 msgctxt "#36041"
 msgid "* Item folder"
@@ -16343,12 +16426,12 @@ msgstr "Ved aktivering, vil dine tastaturpile flytte valget på det virtuelle ta
 #. Description of setting with label #21369 "Enable mouse and Touch Screen support"
 msgctxt "#36377"
 msgid "Use a mouse or touch screen device to control the interface. Note: Disabling will cause you to lose control over this application when no keyboard or remote is present."
-msgstr "Brug en mus eller berøringsfølsom skærm til at styre grænsefladen. Bemærk: Hvis du deaktiverer, mister du kontrollen over denne applikation, når der ikke er tastatur eller fjernbetjening til stede."
+msgstr "Brug en mus eller berøringsfølsom skærm til at styre brugerfladen. Bemærk: Hvis du deaktiverer, mister du kontrollen over denne applikation, når der ikke er tastatur eller fjernbetjening til stede."
 
 #. Description of setting with label #35100 "Enable controller support"
 msgctxt "#36378"
 msgid "Use a game controller to control the interface."
-msgstr "Brug en spilcontroller til at styre grænsefladen."
+msgstr "Brug en spilcontroller til at styre brugerfladen."
 
 #. Description of settings category with label #798 Internet access
 msgctxt "#36379"

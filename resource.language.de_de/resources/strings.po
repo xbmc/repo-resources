@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-06 18:05+0000\n"
+"PO-Revision-Date: 2022-03-27 01:19+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -7014,6 +7014,26 @@ msgstr "Multipfadquelle wird geöffnet"
 msgctxt "#15311"
 msgid "Path:"
 msgstr "Pfad:"
+
+#. Game settings category name
+msgctxt "#15312"
+msgid "Achievements"
+msgstr "Erfolge"
+
+#. Group label for Achievements category in game settings
+msgctxt "#15313"
+msgid "Login to RetroAchievements"
+msgstr "Anmelden bei RetroAchievements"
+
+#. Label for button in the in-game savestate manager
+msgctxt "#15314"
+msgid "Save progress"
+msgstr "Fortschritt speichern"
+
+#. Caption for "Save progress" button in the in-game savestate manager
+msgctxt "#15315"
+msgid "Save progress to new save file"
+msgstr "Fortschritt in neue Datei speichern"
 
 msgctxt "#16000"
 msgid "General"
@@ -14743,6 +14763,12 @@ msgctxt "#35236"
 msgid "In this release, only controllers can be used to play games."
 msgstr "In dieser Version können nur Controller zum Spielen verwendet werden."
 
+# empty strings from id 35237 to 35248
+#. Button to open the saved game manager from the game OSD
+msgctxt "#35249"
+msgid "Saved games"
+msgstr "Gespeicherte Spiele"
+
 msgctxt "#35250"
 msgid "Add games..."
 msgstr "Spiele hinzufügen ..."
@@ -14782,6 +14808,63 @@ msgstr "Emulator für {0:s}-Datei auswählen"
 msgctxt "#35259"
 msgid "Saved"
 msgstr "Gespeichert"
+
+#. Title of the dialog to select a savestate for the current game
+msgctxt "#35260"
+msgid "Select savestate"
+msgstr "Gespeicherten Zustand auswählen"
+
+#. Button for creating a new save state from the select savestate dialog
+msgctxt "#35261"
+msgid "New game"
+msgstr "Neues Spiel"
+
+#. Help text for RetroAchievements username input setting
+msgctxt "#35262"
+msgid "Enter your RetroAchievements account username"
+msgstr "Benutzername für RetroAchievements-Konto eingeben"
+
+#. Help text for RetroAchievements password input setting
+msgctxt "#35263"
+msgid "Enter your RetroAchievements account password"
+msgstr "Passwort für RetroAchievements-Konto eingeben"
+
+#. Label for notification events regarding RetroAchievements login
+msgctxt "#35264"
+msgid "RetroAchievements"
+msgstr "RetroAchievements"
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35265"
+msgid "Incorrect User/Password!"
+msgstr "Benutzername/Passwort nicht korrekt!"
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35266"
+msgid "Failed to contact server"
+msgstr "Server konnte nicht kontaktiert werden"
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35267"
+msgid "Invalid response from server"
+msgstr "Ungültige Antwort vom Server"
+
+#. Setting to show if the user is logged in to RetroAchievements
+#. Settings -> Games -> Achievements -> Logged in
+msgctxt "#35268"
+msgid "Logged in"
+msgstr "Angemeldet"
+
+#. Help text for the setting that shows if the user is logged in to RetroAchievements
+#. Settings -> Games -> Achievements -> Logged in
+msgctxt "#35269"
+msgid "Toggle this setting to log in or out of RetroAchievements."
+msgstr "Einstellung zum An- und Abmelden bei RetroAchievements verwenden."
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35270"
+msgid "Your account is not verified. Please check your email to complete your sign up."
+msgstr "Konto ist nicht verifiziert. Bitte Emails prüfen, um die Anmeldung abzuschliessen."
 
 #. connection state "host unreachable"
 msgctxt "#35505"
@@ -18531,6 +18614,10 @@ msgstr "Zeit in Sekunden, nach der das Video-OSD automatisch geschlossen werden 
 msgctxt "#39180"
 msgid "Building font cache in progress - please wait"
 msgstr "Cache für Schriftarten wird erstellt - bitte warten"
+
+#~ msgctxt "#35269"
+#~ msgid "Toggle this setting to log in or out of RetroAchievemts."
+#~ msgstr "Einstellung zum An- und Abmelden bei RetroAchievements verwenden."
 
 #~ msgctxt "#19239"
 #~ msgid "Starting background threads"
