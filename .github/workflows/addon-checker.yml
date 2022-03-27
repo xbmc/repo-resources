@@ -24,7 +24,7 @@ jobs:
         pip3 install --user kodi-addon-checker
     - name: Extract job variables
       shell: bash
-      run: echo "##[set-output name=addon;]$(git diff --diff-filter=d --name-only HEAD~ | grep / | cut -d / -f1 | sort | uniq)"
+      run: echo "##[set-output name=addon;]$(git diff --diff-filter=d --name-only HEAD~ | grep / | cut -d / -f1 | sort | uniq | tr -d '"')"
       id: extract_vars
 
     - name: Addon-Check
