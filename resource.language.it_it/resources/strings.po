@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-27 13:15+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-03-15 20:55+0000\n"
+"Last-Translator: Venice Man <marco@spezzamonte.it>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -7015,6 +7015,26 @@ msgctxt "#15311"
 msgid "Path:"
 msgstr "Percorso:"
 
+#. Game settings category name
+msgctxt "#15312"
+msgid "Achievements"
+msgstr ""
+
+#. Group label for Achievements category in game settings
+msgctxt "#15313"
+msgid "Login to RetroAchievements"
+msgstr ""
+
+#. Label for button in the in-game savestate manager
+msgctxt "#15314"
+msgid "Save progress"
+msgstr ""
+
+#. Caption for "Save progress" button in the in-game savestate manager
+msgctxt "#15315"
+msgid "Save progress to new save file"
+msgstr ""
+
 msgctxt "#16000"
 msgid "General"
 msgstr "Generale"
@@ -9092,7 +9112,7 @@ msgstr "[salvata]"
 #. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
-msgstr ""
+msgstr "Vuoi impostere un promemoria per il programma selezionato o passare al programma corrente?"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -10242,7 +10262,7 @@ msgstr "Maiuscolo"
 
 msgctxt "#20179"
 msgid "Caps Lock"
-msgstr "Bloc.Maiusc."
+msgstr "Bloc Maiusc"
 
 msgctxt "#20180"
 msgid "Symbols"
@@ -10681,7 +10701,7 @@ msgstr "Nascondi già visti"
 
 msgctxt "#20368"
 msgid "Prod code"
-msgstr "Codice prod."
+msgstr "Codice prodotto"
 
 msgctxt "#20369"
 msgid "Show information for unwatched items"
@@ -13488,12 +13508,12 @@ msgstr "Nostalgia"
 #. Settings boolean value to enable/disable RDS
 msgctxt "#29980"
 msgid "Enable RDS for radio channels"
-msgstr "Abilita RDS per canali Radio."
+msgstr "Abilita RDS per canali radio"
 
 #. Help text for RDS enable/disable
 msgctxt "#29981"
 msgid "RDS data can be used if present"
-msgstr "I dati RDS possono essere usati se presenti."
+msgstr "I dati RDS possono essere usati se presenti"
 
 #. Boolean value to enable traffic advisory from RDS
 msgctxt "#29982"
@@ -13503,7 +13523,7 @@ msgstr "Messaggi avviso traffico"
 #. Help text of boolean on/off value
 msgctxt "#29983"
 msgid "RDS informs you about traffic advisory messages"
-msgstr "L'RDS ti informa di messaggi di avviso relativi al traffico."
+msgstr "L'RDS ti informa di messaggi di avviso relativi al traffico"
 
 #. Boolean value on settings
 msgctxt "#29984"
@@ -13513,7 +13533,7 @@ msgstr "Aumenta volume per avvisi traffico"
 #. Help text of boolean on/off value
 msgctxt "#29985"
 msgid "If traffic advisory is send from RDS, volume is increased"
-msgstr "Se viene mandato un avviso traffico dall'RDS, il volume sarà aumentato."
+msgstr "Se viene mandato un avviso traffico dall'RDS, il volume sarà aumentato"
 
 #. Node title for music artist role, plural of #38036
 msgctxt "#29987"
@@ -14214,7 +14234,7 @@ msgstr "Impostazioni driver"
 #. Description of setting with label #35047 "Driver settings"
 msgctxt "#35048"
 msgid "View and configure peripheral add-ons."
-msgstr "Visualizza e configura Add-On periferiche"
+msgstr "Visualizza e configura Add-On periferiche."
 
 #. Name of game add-ons category
 msgctxt "#35049"
@@ -14244,7 +14264,7 @@ msgstr "Abilita vibrazione per le notifiche"
 #. Description of setting to enable rumble for GUI notifications
 msgctxt "#35054"
 msgid "Activates controller rumble motors when a notification occurs."
-msgstr "Attiva funzione di vibrazione del controller quando ricevi una notifica"
+msgstr "Attiva la vibrazione del controller quando ricevi una notifica."
 
 #. Help text for controller window
 msgctxt "#35055"
@@ -14736,12 +14756,18 @@ msgstr "Controlli"
 #. Help text shown when the user first plays a game. {0:s} - Button combo to open the in-game menu
 msgctxt "#35235"
 msgid "Press {0:s} to open the in-game menu."
-msgstr "Premi {0:s} per aprire il menu all'interno del gioco"
+msgstr "Premi {0:s} per aprire il menu nel gioco."
 
 #. Additional help text shown when the user first plays a game. This will be removed in the future.
 msgctxt "#35236"
 msgid "In this release, only controllers can be used to play games."
 msgstr "In questa release, solo i controller possono essere usati nei giochi."
+
+# empty strings from id 35237 to 35248
+#. Button to open the saved game manager from the game OSD
+msgctxt "#35249"
+msgid "Saved games"
+msgstr ""
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14782,6 +14808,63 @@ msgstr "Seleziona emulatore per il file {0:s}"
 msgctxt "#35259"
 msgid "Saved"
 msgstr "Salvato"
+
+#. Title of the dialog to select a savestate for the current game
+msgctxt "#35260"
+msgid "Select savestate"
+msgstr ""
+
+#. Button for creating a new save state from the select savestate dialog
+msgctxt "#35261"
+msgid "New game"
+msgstr ""
+
+#. Help text for RetroAchievements username input setting
+msgctxt "#35262"
+msgid "Enter your RetroAchievements account username"
+msgstr ""
+
+#. Help text for RetroAchievements password input setting
+msgctxt "#35263"
+msgid "Enter your RetroAchievements account password"
+msgstr ""
+
+#. Label for notification events regarding RetroAchievements login
+msgctxt "#35264"
+msgid "RetroAchievements"
+msgstr ""
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35265"
+msgid "Incorrect User/Password!"
+msgstr ""
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35266"
+msgid "Failed to contact server"
+msgstr ""
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35267"
+msgid "Invalid response from server"
+msgstr ""
+
+#. Setting to show if the user is logged in to RetroAchievements
+#. Settings -> Games -> Achievements -> Logged in
+msgctxt "#35268"
+msgid "Logged in"
+msgstr ""
+
+#. Help text for the setting that shows if the user is logged in to RetroAchievements
+#. Settings -> Games -> Achievements -> Logged in
+msgctxt "#35269"
+msgid "Toggle this setting to log in or out of RetroAchievements."
+msgstr ""
+
+#. Description for notification event regarding unsuccessful RetroAchievements login
+msgctxt "#35270"
+msgid "Your account is not verified. Please check your email to complete your sign up."
+msgstr ""
 
 #. connection state "host unreachable"
 msgctxt "#35505"
@@ -15030,7 +15113,7 @@ msgstr "Cambia l'aspetto dell'interfaccia utente."
 #. Description of settings category "Appearance -> Skin" with label #166
 msgctxt "#36102"
 msgid "This category contains all skin related settings."
-msgstr "Categoria contenente tutte le impostazioni della skin"
+msgstr "Categoria che contiene tutte le impostazioni della skin."
 
 #. Description of setting with label #166 "Skin"
 msgctxt "#36103"
@@ -15100,7 +15183,7 @@ msgstr "Seleziona i formati per la temperatura, l'orario e la data. Le opzioni d
 #. Description of setting with label #14091 "Character set"
 msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
-msgstr "Seleziona il set di caratteri da usare per il testo dell'interfaccia utente. Questo non cambia il set di caratteri usato per i sottotitoli, per questo vai in Lettore > Lingua"
+msgstr "Scegli il set di caratteri da usare per il testo dell'interfaccia utente. Questo non cambia il set di caratteri usato per i sottotitoli, per questo vai in Lettore > Lingua."
 
 #. Description of setting with label #14079 "Timezone country"
 msgctxt "#36117"
@@ -15277,7 +15360,7 @@ msgstr "Categoria contenente impostazioni sulla gestione della riproduzione vide
 #. Description of setting with label #13433 "Play next video automatically"
 msgctxt "#36152"
 msgid "Enable automatic playback of the next file in the list for selected playlist types."
-msgstr "Abilita la riproduzione automatica del file successivo nella lista per i tipi di playlist selezionati"
+msgstr "Abilita la riproduzione automatica del file successivo nella lista per i tipi di playlist selezionati."
 
 #. Description of setting with label #13415 "Render method"
 msgctxt "#36153"
@@ -15342,7 +15425,7 @@ msgstr "Permette di cambiare il refresh rate del display consentendo un miglior 
 #. Description of setting with label #13550 "Delay after change of refresh rate"
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "Ritardo dell'evento reset dopo un cambio di frequenza di agg."
+msgstr "Ritardo del reset dopo un cambio di frequenza di aggiornamento"
 
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
@@ -15564,7 +15647,7 @@ msgstr "Mostra le informazioni del programma quando si cambia canale, come la se
 
 msgctxt "#36213"
 msgid "Open the group manager, which allows modification of groups and their respective channels"
-msgstr "Apri il gestore gruppi, che permette la modifica dei gruppi e dei loro rispettivi canali."
+msgstr "Apri il gestore gruppi, che permette la modifica dei gruppi e dei loro rispettivi canali"
 
 msgctxt "#36214"
 msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
@@ -15627,7 +15710,7 @@ msgstr "Switch to full screen display when starting playback of channels."
 #. Description of setting with label #745 "Background Colour"
 msgctxt "#36228"
 msgid "Set the colour to be used for the subtitle background."
-msgstr "Imposta il colore da usare como sfondo dei sottotitoli"
+msgstr "Imposta il colore da usare como sfondo dei sottotitoli."
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
@@ -15636,7 +15719,7 @@ msgstr "Mostra informazioni sulla qualità del segnale nella finestra informazio
 #. Description of setting with label #746 "Background Opacity"
 msgctxt "#36230"
 msgid "Set the the subtitle background opacity."
-msgstr "Imposta l'opacità dello sfondo dei sottotitoli"
+msgstr "Imposta l'opacità dello sfondo dei sottotitoli."
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
@@ -15907,7 +15990,7 @@ msgstr "Selezionare con quale qualità vuoi salvare i tuoi file."
 #. Description of setting with label #623 "Bitrate"
 msgctxt "#36289"
 msgid "Select which bitrate to use for the specified audio encoder for audio compression."
-msgstr "Seleziona quale bitrate usare per l'encoder audio scelto per la compressione audio"
+msgstr "Seleziona quale bitrate usare per l'encoder audio scelto per la compressione audio."
 
 #. Description of setting with label #665 "Compression level"
 msgctxt "#36290"
@@ -15932,12 +16015,12 @@ msgstr "Scegli la cartella dove saranno salvati le informazioni sugli artisti (f
 #. Description of setting with label #20228 "Use artist sortname"
 msgctxt "#36294"
 msgid "When sorting music items by artist use sortname e.g. Parton, Dolly rather than name."
-msgstr "Nell'ordinamento delle voci musicali per artista, usa il nome ordinato, cioè ad esempio Parton, Dolly invece del nome"
+msgstr "Nell'ordinamento delle voci musicali per artista, usa il nome ordinato, cioè ad esempio Parton, Dolly invece del nome."
 
 #. Description of setting with label #752 "Opacity"
 msgctxt "#36295"
 msgid "Set the the subtitle opacity."
-msgstr "Imposta la trasparenza dello sfondo dei sottotitoli"
+msgstr "Imposta la trasparenza dello sfondo dei sottotitoli."
 
 msgctxt "#36296"
 msgid "This category contains settings for reminders."
@@ -16235,7 +16318,7 @@ msgstr "In una configurazione multi schermo, gli schermi che non stanno visualiz
 #. Description of setting with label #214 "Video calibration..."
 msgctxt "#36357"
 msgid "Calibrate the user interface by adjusting the overscan. Use this tool if the image being displayed is too large or small for your display."
-msgstr "Calibra l'interfaccia utente aggiustando l'overscan. Usare questo strumento se l'immagine risulta troppo grande o troppo piccola per il display"
+msgstr "Calibra l'interfaccia utente regolando l'overscan. Usare questo strumento se l'immagine risulta troppo grande o troppo piccola per lo schermo."
 
 msgctxt "#36358"
 msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
@@ -16292,7 +16375,7 @@ msgstr "Selezione per permettere il passthrough audio per la riproduzione di aud
 #. Description of setting with label #349 "TrueHD capable receiver"
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
-msgstr "Scegli questa opzione se il tuo ricevitore è in grado di decodificare i flussi TrueHD"
+msgstr "Scegli questa opzione se il tuo ricevitore è in grado di decodificare i flussi TrueHD."
 
 #. Description of setting with label #347 "DTS-HD capable receiver"
 msgctxt "#36370"
@@ -16442,7 +16525,7 @@ msgstr "Definisci il numero massimo di tentativi prima che questo programma veng
 #. Description of settings category with label #439 "Cache"
 msgctxt "#36399"
 msgid "This category contains the settings for how the cache function is handled."
-msgstr "Categoria contenente le impostazioni sulla gestione della funzione cache"
+msgstr "Categoria contenente le impostazioni sulla gestione della funzione cache."
 
 #. Description of settings category with label #14025 "Video/Audio/DVD cache - Hard disk"
 msgctxt "#36400"
@@ -16614,7 +16697,7 @@ msgstr "Se abilitato, cambia al canale con il programma da ricordare alla chiusu
 #. Select the layout of a physically attached keyboard
 msgctxt "#36436"
 msgid "Select hardware keyboard layout."
-msgstr "Seleziona layout tastiera fisica"
+msgstr "Seleziona layout tastiera fisica."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -17200,7 +17283,7 @@ msgstr "Versione minima del protocollo"
 #. Description of setting with label #36628 "Minimum protocol version"
 msgctxt "#36629"
 msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
-msgstr "Imposta la versione minima del protollo SMB utilizzata per negozionare le connessioni. La forzatura di SMBv2 per prevenire l'uso di SMBv1 in certi sistemi operativi"
+msgstr "Imposta la versione minima del protollo SMB utilizzata per negozionare le connessioni. Può essere necessaria la forzatura di SMBv2 per prevenire l'uso di SMBv1 in certi sistemi operativi."
 
 #. Label of a setting, sets additional config required for some proprietary SMBv1 implementations (mostly routers)
 msgctxt "#36630"
@@ -17210,7 +17293,7 @@ msgstr "Usa la sicurezza originaria"
 #. Description of setting with label #36630 "Use legacy security"
 msgctxt "#36631"
 msgid "Force weak SMBv1 security for compatibility with the USB sharing features on some WiFi routers and NAS devices."
-msgstr "Forza la sicurezza scarsa di SMBv1 per mantenere la compatibilità con le funzioni di condivisione tramite USB di alcuni router WiFi o alcuni NAS"
+msgstr "Forza la sicurezza debole di SMBv1 per mantenere la compatibilità con le funzioni di condivisione tramite USB di alcuni router WiFi o alcuni NAS."
 
 #. Text in confirm dialog when enabling setting "Services -> Control -> Allow remote control via HTTP"
 msgctxt "#36632"
@@ -17435,7 +17518,7 @@ msgstr "Accessibilità"
 #. Description of category #37032 Accessibility
 msgctxt "#37033"
 msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
-msgstr "Impostazioni riproduzione video relative all'accessibilità, come \"Preferisci sottotitoli per non udenti\""
+msgstr "Impostazioni riproduzione video relative all'accessibilità, ad es. \"Preferisci sottotitoli per non udenti\"."
 
 #. Setting #37034 Accessibility
 msgctxt "#37034"
@@ -17445,7 +17528,7 @@ msgstr "Preferisci traccia audio per non vedenti"
 #. Description of setting #37034 Accessibility
 msgctxt "#37035"
 msgid "Prefer the audio stream for the visually impaired to other audio streams of the same language"
-msgstr "Preferisci la traccia audio per i non vedenti alle altre tracce audio della stessa lingua."
+msgstr "Preferisci la traccia audio per i non vedenti alle altre tracce audio della stessa lingua"
 
 #. Setting #37036 Settings -> Video -> Accessibility
 msgctxt "#37036"
@@ -17455,7 +17538,7 @@ msgstr "Preferisci traccia audio per i non udenti"
 #. Description of setting #37036 Accessibility
 msgctxt "#37037"
 msgid "Prefer the audio stream for the hearing impaired to other audio streams of the same language"
-msgstr "Preferisci la traccia audio per i non udenti alla altre tracce audio della stessa lingua."
+msgstr "Preferisci la traccia audio per i non udenti alla altre tracce audio della stessa lingua"
 
 #. Setting #37038 Accessibility
 msgctxt "#37038"
@@ -17465,7 +17548,7 @@ msgstr "Preferisci sottotitoli per i non udenti"
 #. Description of setting #37038 Accessibility
 msgctxt "#37039"
 msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
-msgstr "Preferisci i sottotitoli per i non udenti agli altri sottotitoli della stessa lingua."
+msgstr "Preferisci i sottotitoli per i non udenti agli altri sottotitoli della stessa lingua"
 
 #. Setting #37040 Playback
 msgctxt "#37040"
@@ -17773,57 +17856,57 @@ msgstr "Sezione contenente le impostazioni per la riproduzione dei contenuti"
 #. Description of section #14201 "Media"
 msgctxt "#38101"
 msgid "Section that contains the settings for sources and how media information is collected, stored, shown and navigated"
-msgstr "Sezione contenente le impostazioni per le sorgenti e come le informazioni multimediali sono raccolte, salvate, mostrate e sfogliate."
+msgstr "Sezione contenente le impostazioni per le sorgenti e come le informazioni multimediali sono raccolte, salvate, mostrate e sfogliate"
 
 #. Description of section #14203 "Customise"
 msgctxt "#38102"
 msgid "Section that contains the settings influencing the GUI experience and for controlling the GUI/system"
-msgstr "Sezione contenente le impostazioni che influenzano l'esperienza della GUI e per controllare il dispositivo/GUI."
+msgstr "Sezione contenente le impostazioni che influenzano l'esperienza della GUI e per controllare il dispositivo/GUI"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38103"
 msgid "This category contains the settings for the playback of videos"
-msgstr "Categoria contenente le impostazioni per la riproduzione video."
+msgstr "Categoria contenente le impostazioni per la riproduzione video"
 
 #. Description of category #14211 "Music"
 msgctxt "#38104"
 msgid "This category contains the settings for the playback of music"
-msgstr "Categoria contenente le impostazioni per la riproduzione musicale."
+msgstr "Categoria contenente le impostazioni per la riproduzione musicale"
 
 #. Description of category #14212 "Pictures"
 msgctxt "#38105"
 msgid "This category contains the settings for playback of pictures via a slideshow"
-msgstr "Categoria contenente le impostazioni per la riproduzione di immagini tramite presentazione."
+msgstr "Categoria contenente le impostazioni per la riproduzione di immagini tramite presentazione"
 
 #. Description of category #14213 "Language"
 msgctxt "#38106"
 msgid "This category contains the settings for audio & subtitle language"
-msgstr "Categoria contenente le impostazioni per l'audio e la lingua dei sottotitoli."
+msgstr "Categoria contenente le impostazioni per l'audio e la lingua dei sottotitoli"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38107"
 msgid "This category contains the settings for how information for videos is collected, stored, shown, and navigated"
-msgstr "Sezione contenente le impostazioni per come le informazioni video sono raccolte, salvate, mostrate e sfogliate."
+msgstr "Sezione contenente le impostazioni per come le informazioni video sono raccolte, salvate, mostrate e sfogliate"
 
 #. Description of category #14211 "Music"
 msgctxt "#38108"
 msgid "This category contains the settings for how information for music is collected, stored, shown, and navigated"
-msgstr "Sezione contenente le impostazioni per come le informazioni musicali sono raccolte, salvate, mostrate e sfogliate."
+msgstr "Sezione contenente le impostazioni per come le informazioni musicali sono raccolte, salvate, mostrate e sfogliate"
 
 #. Description of category #14212 "Pictures"
 msgctxt "#38109"
 msgid "This category contains the settings for how information for pictures is shown and navigated"
-msgstr "Sezione contenente le impostazioni per come le informazioni immagini sono mostrate e sfogliate."
+msgstr "Sezione contenente le impostazioni per come le informazioni immagini sono mostrate e sfogliate"
 
 #. Description of category #14215 "Databases"
 msgctxt "#38110"
 msgid "This category contains the settings for the library databases"
-msgstr "Categoria contenente le impostazioni per i database delle librerie."
+msgstr "Categoria contenente le impostazioni per i database delle librerie"
 
 #. Description of category #14224 "Other"
 msgctxt "#38111"
 msgid "This category contains other settings for the GUI interface"
-msgstr "Categoria contenente altre impostazioni per l'interfaccia GUI."
+msgstr "Categoria contenente altre impostazioni per l'interfaccia GUI"
 
 #. Description of setting with label #12381 "Switch to visualisation on playback"
 msgctxt "#38112"
@@ -18510,27 +18593,27 @@ msgstr "Questa categoria contiene tutte le impostazioni che riguardano l'on scre
 #. Automatically close video OSD bool setting in Settings/Interface/OSD
 msgctxt "#39176"
 msgid "Automatically close video OSD"
-msgstr ""
+msgstr "Chiudi automaticamente OSD video"
 
 #. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
 msgctxt "#39177"
 msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr ""
+msgstr "La finestra OSD video sarà chiusa automaticamente dopo un tempo specificato"
 
 #. Video OSD autoclose time (seconds) in Settings/Interface/OSD
 msgctxt "#39178"
 msgid "Video OSD autoclose time (seconds)"
-msgstr ""
+msgstr "Tempo di chiusura automatica OSD video (secondi)"
 
 #. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
 msgctxt "#39179"
 msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr ""
+msgstr "Tempo in secondi per la chiusura automatica della finestra OSD video"
 
 #. Progress text on splash screen, to build the font cache
 msgctxt "#39180"
 msgid "Building font cache in progress - please wait"
-msgstr ""
+msgstr "Creazione cache font in corso - attendere prego"
 
 #~ msgctxt "#19239"
 #~ msgid "Starting background threads"
