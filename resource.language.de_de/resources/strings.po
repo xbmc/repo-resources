@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-27 01:19+0000\n"
+"PO-Revision-Date: 2022-04-26 15:32+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Wiedergabeliste konnte nicht geladen werden"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -5005,7 +5004,7 @@ msgstr "Versuchen, nicht-lokal laufende Server beim Zugriff zu wecken"
 
 msgctxt "#13027"
 msgid "Wake-on-LAN ({0:s})"
-msgstr "Wake on LAN ({0:s})"
+msgstr "Wake-On-LAN ({0:s})"
 
 msgctxt "#13028"
 msgid "Waiting for network to connect..."
@@ -5013,7 +5012,7 @@ msgstr "Auf Netzwerkverbindung warten ..."
 
 msgctxt "#13029"
 msgid "Failed to execute Wake-on-LAN!"
-msgstr "Fehler beim Ausführen von Wake-on-LAN!"
+msgstr "Fehler beim Ausführen von Wake-On-LAN!"
 
 msgctxt "#13030"
 msgid "Waiting for server to wake up..."
@@ -8335,7 +8334,7 @@ msgstr "Daten löschen"
 #. message box text for pvr data reset confirmation
 msgctxt "#19186"
 msgid "All selected data will be cleared. Some information cannot be restored from the clients afterwards. Proceed anyway?"
-msgstr "Die ausgewählten Daten werden gelöscht. Einige Informationen können danach nicht von den PVR Clients wiederhergestellt werden. Trotzdem fortfahren?"
+msgstr "Die ausgewählten Daten werden gelöscht. Einige Informationen können danach nicht von den PVR-Clients wiederhergestellt werden. Trotzdem fortfahren?"
 
 #. progress dialog text shown while purging pvr data
 msgctxt "#19187"
@@ -8589,6 +8588,11 @@ msgstr "Timer werden von den PVR-Clients geladen"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Aufnahmen werden von den PVR-Clients geladen"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr "PVR-Clients werden erzeugt"
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -15558,8 +15562,8 @@ msgstr "Angabe eines benutzerdefinierten Verzeichnisses für Untertitel. Dies ka
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "Position von Untertiteln auf dem Bildschirm. [Manuell] Die Position kann mit Videokalibrierungs-Einstellungen festgelegt werden. [Oben] / [Unten] Die Position wird so gewählt, dass die Untertitel innerhalb der „schwarzen Balken“ liegen, falls diese vorhanden sind. Bitte beachten, dass manche erzwungenen Untertitelpositionen nicht verändert werden können."
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr "Position von Untertiteln auf dem Bildschirm. [Unter] / [Über dem Video] Untertitel werden, wenn möglich, innerhalb der schwarzen Balken positioniert (hängt vom Video-Encoding ab). Bitte beachten, dass einigige erzwungene Positionen von Untertiteln nicht verändert werden können."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -16288,7 +16292,7 @@ msgstr "Abschnitt mit Systemeinstellungen für das Gerät, auf dem diese Anwendu
 #. Description of setting with label #13026 "Try to wake remote servers on access"
 msgctxt "#36350"
 msgid "Automatically send Wake-on-LAN to server(s) right before trying to access shared files or services."
-msgstr "Automatisch ein „Wake on LAN“-Kommando an Server senden, kurz bevor auf Dateien oder Dienste auf diesem Servern zugegriffen werden soll."
+msgstr "Automatisch ein Wake-On-LAN-Kommando an Server senden, kurz bevor auf Dateien oder Dienste auf diesem Servern zugegriffen werden soll."
 
 #. Description of setting with label #21373 "Display Mode"
 msgctxt "#36351"
@@ -18585,35 +18589,47 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Unterstützte HDR-Typen anzeigen"
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "Kategorie mit sämtlichen Einstellungen zum On Screen Display (OSD)."
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "Video-OSD automatisch schliessen"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr "Das Video-OSD wird automatisch nach einer einstellbaren Zeit geschlossen"
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "Video-OSD automatisch schliessen nach (Sekunden)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr "Zeit in Sekunden, nach der das Video-OSD automatisch geschlossen werden soll"
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr "Cache für Schriftarten wird erstellt - bitte warten"
+msgstr "Font-Cache wird erstellt - bitte warten"
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr "Relative Lautstärke für GUI-Töne"
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "Kategorie mit sämtlichen Einstellungen zum On Screen Display (OSD)."
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "Video-OSD automatisch schliessen"
+
+#~ msgctxt "#39177"
+#~ msgid "The video OSD window will be automatically closed if visible after a specified time"
+#~ msgstr "Das Video-OSD wird automatisch nach einer einstellbaren Zeit geschlossen"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "Video-OSD automatisch schliessen nach (Sekunden)"
+
+#~ msgctxt "#39179"
+#~ msgid "The time in seconds for the video OSD to be automatically closed"
+#~ msgstr "Zeit in Sekunden, nach der das Video-OSD automatisch geschlossen werden soll"
+
+#~ msgctxt "#39180"
+#~ msgid "Building font cache in progress - please wait"
+#~ msgstr "Cache für Schriftarten wird erstellt - bitte warten"
+
+#~ msgctxt "#39181"
+#~ msgid "Relative volume for gui sounds"
+#~ msgstr "Relative Lautstärke für GUI-Sounds"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "Position von Untertiteln auf dem Bildschirm. [Manuell] Die Position kann mit Videokalibrierungs-Einstellungen festgelegt werden. [Oben] / [Unten] Die Position wird so gewählt, dass die Untertitel innerhalb der „schwarzen Balken“ liegen, falls diese vorhanden sind. Bitte beachten, dass manche erzwungenen Untertitelpositionen nicht verändert werden können."
 
 #~ msgctxt "#35269"
 #~ msgid "Toggle this setting to log in or out of RetroAchievemts."

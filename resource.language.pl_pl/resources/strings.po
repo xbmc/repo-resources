@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-27 01:19+0000\n"
+"PO-Revision-Date: 2022-04-26 15:32+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Nieudane wczytywanie listy odtwarzania"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "Menu ekranowe"
@@ -8591,6 +8590,11 @@ msgstr "Wczytywanie harmonogramu nagrań"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Wczytywanie nagrań z serwerów"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr "Tworzenie klientów telewizji"
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -15566,8 +15570,8 @@ msgstr "Określa niestandardowy folder przechowywania napisów. Może to być ud
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "Pozycja napisów na ekranie. [Manualna] Pozycję napisów można dostosować za pomocą ustawień kalibracji wideo. [Poniżej] / [Powyżej wideo] Jeśli to możliwe, napisy zostaną umieszczone wewnątrz czarnych pasów (w zależności od kodowania wideo). Należy pamiętać, że niektórych wymuszonych pozycji w napisach nie można zmienić."
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr "Położenie napisów na ekranie. [Poniżej] / [Powyżej wideo] Jeśli to możliwe, napisy zostaną umieszczone wewnątrz czarnych pasków (w zależności od kodowania wideo). Należy pamiętać, że niektórych wymuszonych pozycji w napisach nie można zmienić."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -18596,35 +18600,47 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Obsługiwane typy HDR przez wyświetlacz"
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "Ta kategoria zawiera wszystkie ustawienia związane z menu ekranowym (OSD)."
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "Automatycznie zamykaj menu ekranowe wideo"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr "Okno menu ekranowego wideo zostanie automatycznie zamknięte, jeśli będzie widoczne po określonym czasie"
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "Czas automatycznego zamykania menu ekranowego wideo (sekundy)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr "Czas w sekundach, po którym menu ekranowe wideo zostanie automatycznie zamknięte"
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr "Trwa budowanie pamięci podręcznej czcionek – proszę czekać"
+msgstr "Trwa budowanie pamięci podręcznej czcionek - proszę czekać"
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr "Względna głośność dźwięków interfejsu użytkownika"
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "Ta kategoria zawiera wszystkie ustawienia związane z menu ekranowym (OSD)."
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "Automatycznie zamykaj menu ekranowe wideo"
+
+#~ msgctxt "#39177"
+#~ msgid "The video OSD window will be automatically closed if visible after a specified time"
+#~ msgstr "Okno menu ekranowego wideo zostanie automatycznie zamknięte, jeśli będzie widoczne po określonym czasie"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "Czas automatycznego zamykania menu ekranowego wideo (sekundy)"
+
+#~ msgctxt "#39179"
+#~ msgid "The time in seconds for the video OSD to be automatically closed"
+#~ msgstr "Czas w sekundach, po którym menu ekranowe wideo zostanie automatycznie zamknięte"
+
+#~ msgctxt "#39180"
+#~ msgid "Building font cache in progress - please wait"
+#~ msgstr "Trwa budowanie pamięci podręcznej czcionek – proszę czekać"
+
+#~ msgctxt "#39181"
+#~ msgid "Relative volume for gui sounds"
+#~ msgstr "Względna głośność dźwięków interfejsu użytkownika"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "Pozycja napisów na ekranie. [Manualna] Pozycję napisów można dostosować za pomocą ustawień kalibracji wideo. [Poniżej] / [Powyżej wideo] Jeśli to możliwe, napisy zostaną umieszczone wewnątrz czarnych pasów (w zależności od kodowania wideo). Należy pamiętać, że niektórych wymuszonych pozycji w napisach nie można zmienić."
 
 #~ msgctxt "#35269"
 #~ msgid "Toggle this setting to log in or out of RetroAchievemts."

@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-30 06:43+0000\n"
+"PO-Revision-Date: 2022-04-19 17:53+0000\n"
 "Last-Translator: Minho Park <parkmino@gmail.com>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "재생목록을 읽을수 없음"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -8589,6 +8588,11 @@ msgstr "클라이언트에서 녹화 예약을 불러오는 중"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "클라이언트에서 녹화를 불러오는 중"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr "PVR 클라이언트 생성"
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -15558,8 +15562,8 @@ msgstr "자막이 저장되어 있는 디렉터리를 설정합니다. 네트워
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "화면상의 자막 위치. [수동] 비디오 보정 설정을 사용하여 자막 위치를 사용자 지정할 수 있습니다. [동영상 아래] / [위] 가능한 경우 자막이 검은색 막대 안에 배치됩니다(동영상 인코딩에 따라 다름). 자막의 일부 강제 위치는 변경할 수 없습니다."
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr "화면상의 자막 위치. [아래] / [동영상 위] 가능한 경우 자막이 검은색 막대 안에 배치됩니다(동영상 인코딩에 따라 다름). 자막의 일부 강제 위치는 변경할 수 없습니다."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -18585,35 +18589,47 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "지원되는 HDR 형식 표시"
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "이 범주에는 모든 OSD(화면 디스플레이) 관련 설정이 포함됩니다."
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "자동으로 비디오 OSD 닫기"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr "지정된 시간이 지나면 비디오 OSD 창이 자동으로 닫힙니다"
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "비디오 OSD 자동 닫기 시간(초)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr "비디오 OSD가 자동으로 닫히는 시간(초)"
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr "글꼴 캐시 작성 중 - 잠시만 기다려 주십시오"
+msgstr ""
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr ""
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "이 범주에는 모든 OSD(화면 디스플레이) 관련 설정이 포함됩니다."
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "자동으로 비디오 OSD 닫기"
+
+#~ msgctxt "#39177"
+#~ msgid "The video OSD window will be automatically closed if visible after a specified time"
+#~ msgstr "지정된 시간이 지나면 비디오 OSD 창이 자동으로 닫힙니다"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "비디오 OSD 자동 닫기 시간(초)"
+
+#~ msgctxt "#39179"
+#~ msgid "The time in seconds for the video OSD to be automatically closed"
+#~ msgstr "비디오 OSD가 자동으로 닫히는 시간(초)"
+
+#~ msgctxt "#39180"
+#~ msgid "Building font cache in progress - please wait"
+#~ msgstr "글꼴 캐시 작성 중 - 잠시만 기다려 주십시오"
+
+#~ msgctxt "#39181"
+#~ msgid "Relative volume for gui sounds"
+#~ msgstr "GUI 사운드의 상대 볼륨"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "화면상의 자막 위치. [수동] 비디오 보정 설정을 사용하여 자막 위치를 사용자 지정할 수 있습니다. [동영상 아래] / [위] 가능한 경우 자막이 검은색 막대 안에 배치됩니다(동영상 인코딩에 따라 다름). 자막의 일부 강제 위치는 변경할 수 없습니다."
 
 #~ msgctxt "#35269"
 #~ msgid "Toggle this setting to log in or out of RetroAchievemts."

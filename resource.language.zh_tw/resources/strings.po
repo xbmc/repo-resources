@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-02-26 11:18+0000\n"
+"PO-Revision-Date: 2022-04-19 17:53+0000\n"
 "Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "無法讀取播放列表"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "播放工具列"
@@ -7020,22 +7019,22 @@ msgstr "路徑："
 #. Game settings category name
 msgctxt "#15312"
 msgid "Achievements"
-msgstr ""
+msgstr "成就"
 
 #. Group label for Achievements category in game settings
 msgctxt "#15313"
 msgid "Login to RetroAchievements"
-msgstr ""
+msgstr "登入 RetroAchievements"
 
 #. Label for button in the in-game savestate manager
 msgctxt "#15314"
 msgid "Save progress"
-msgstr ""
+msgstr "儲存進度"
 
 #. Caption for "Save progress" button in the in-game savestate manager
 msgctxt "#15315"
 msgid "Save progress to new save file"
-msgstr ""
+msgstr "將進度另存新檔"
 
 msgctxt "#16000"
 msgid "General"
@@ -8591,6 +8590,11 @@ msgstr "正在從用戶端載入計時器"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "正在從用戶端載入錄影檔"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr "建立 PVR 客戶端"
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -14774,7 +14778,7 @@ msgstr "在此版本中，僅能使用控制器來操作遊戲。"
 #. Button to open the saved game manager from the game OSD
 msgctxt "#35249"
 msgid "Saved games"
-msgstr ""
+msgstr "已儲存的遊戲"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14819,59 +14823,59 @@ msgstr "已儲存"
 #. Title of the dialog to select a savestate for the current game
 msgctxt "#35260"
 msgid "Select savestate"
-msgstr ""
+msgstr "選擇存檔進度"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
 msgid "New game"
-msgstr ""
+msgstr "新遊戲"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
 msgid "Enter your RetroAchievements account username"
-msgstr ""
+msgstr "輸入您的 RetroAchievements 帳號用戶名"
 
 #. Help text for RetroAchievements password input setting
 msgctxt "#35263"
 msgid "Enter your RetroAchievements account password"
-msgstr ""
+msgstr "輸入您的 RetroAchievements 帳號密碼"
 
 #. Label for notification events regarding RetroAchievements login
 msgctxt "#35264"
 msgid "RetroAchievements"
-msgstr ""
+msgstr "RetroAchievements"
 
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35265"
 msgid "Incorrect User/Password!"
-msgstr ""
+msgstr "不正確的用戶名/密碼!"
 
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35266"
 msgid "Failed to contact server"
-msgstr ""
+msgstr "伺服器連結失敗"
 
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35267"
 msgid "Invalid response from server"
-msgstr ""
+msgstr "伺服器未有效回應"
 
 #. Setting to show if the user is logged in to RetroAchievements
 #. Settings -> Games -> Achievements -> Logged in
 msgctxt "#35268"
 msgid "Logged in"
-msgstr ""
+msgstr "已登入"
 
 #. Help text for the setting that shows if the user is logged in to RetroAchievements
 #. Settings -> Games -> Achievements -> Logged in
 msgctxt "#35269"
 msgid "Toggle this setting to log in or out of RetroAchievements."
-msgstr ""
+msgstr "切換此設定值以登入或登出 RetroAchievements 。"
 
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35270"
 msgid "Your account is not verified. Please check your email to complete your sign up."
-msgstr ""
+msgstr "您的帳戶尚未被驗證。請查看您的email並完成註冊。"
 
 #. connection state "host unreachable"
 msgctxt "#35505"
@@ -15565,8 +15569,8 @@ msgstr "自訂存放字幕的資料夾。它可以是一個分享資料夾。"
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "字幕在螢幕上的位置。[手動]可使用影片校正設定來自定字幕位置。[影片下方]/[影片上方]盡可能將字幕限位在黑條內(取決於影片編碼方式)。請注意，部分在字幕中所設定的位置無法更動。"
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr "字幕在螢幕上的位置。[影片下方] / [上方] 字幕會盡可能放置在黑畫面處 (視影片解碼器而定)。請注意在字幕檔中被指定位置的字串無法更動。"
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -18595,35 +18599,47 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "顯示支援的HDR類型"
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "此分類包含所有螢幕選單(OSD)相關的設定。"
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "自動關閉影片OSD"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr "影片OSD視窗會在顯示持續指定的時間之後自動關閉"
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "影片OSD自動關閉時間(秒)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr "影片OSD自動關閉前的秒數"
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr "建立字型快取中 - 請稍候"
+msgstr ""
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr ""
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "此分類包含所有螢幕選單(OSD)相關的設定。"
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "自動關閉影片OSD"
+
+#~ msgctxt "#39177"
+#~ msgid "The video OSD window will be automatically closed if visible after a specified time"
+#~ msgstr "影片OSD視窗會在顯示持續指定的時間之後自動關閉"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "影片OSD自動關閉時間(秒)"
+
+#~ msgctxt "#39179"
+#~ msgid "The time in seconds for the video OSD to be automatically closed"
+#~ msgstr "影片OSD自動關閉前的秒數"
+
+#~ msgctxt "#39180"
+#~ msgid "Building font cache in progress - please wait"
+#~ msgstr "建立字型快取中 - 請稍候"
+
+#~ msgctxt "#39181"
+#~ msgid "Relative volume for gui sounds"
+#~ msgstr "操作介面音效使用相對音量"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "字幕在螢幕上的位置。[手動]可使用影片校正設定來自定字幕位置。[影片下方]/[影片上方]盡可能將字幕限位在黑條內(取決於影片編碼方式)。請注意，部分在字幕中所設定的位置無法更動。"
 
 #~ msgctxt "#19239"
 #~ msgid "Starting background threads"
