@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-30 06:43+0000\n"
+"PO-Revision-Date: 2022-04-26 15:32+0000\n"
 "Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_es/>\n"
 "Language: es_es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "No se puede cargar la lista de reproducción"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -8589,6 +8588,11 @@ msgstr "Cargando programaciones desde clientes"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Cargando grabaciones desde clientes"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr "Creando clientes PVR"
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -15558,8 +15562,8 @@ msgstr "Establece una carpeta personalizada para los subtítulos. Puede ser un r
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "Localización de subtítulos en la pantalla. [Manual] Los subtítulos pueden ser personalizados utilizando los ajustes de calibración de vídeo. [Debajo] / [Encima del vídeo] Siempre que sea posible, los subtítulos serán posicionados dentro de las barras negras (depende de la codificación del vídeo). Por favor note que algunas posiciones forzadas en los subtítulos no pueden ser cambiadas."
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr "Ubicación de los subtítulos en la pantalla. [Debajo] / [Por encima] Cuando sea posible, los subtítulo se colocarán dentro de las barras negras (depende de la codificación del vídeo). Ten en cuenta que algunas posiciones forzadas en los subtítulos no se pueden cambiar."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -18585,35 +18589,47 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Mostrar tipos HDR soportados"
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "Esta categoría contiene todos los ajustes relacionados con la información en pantalla (OSD)."
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "Cerrar OSD vídeo automáticamente"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr "La ventana OSD de video se cerrará automáticamente despues de un tiempo definido"
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "Tiempo para cerrar OSD video (segundos)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr "El tiempo en segundos en que el OSD vídeo se cerrará automáticamente"
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr "Construyendo caché de tipografías. Por favor, espere."
+msgstr "Construyendo caché de tipos de letra - Por favor, espere"
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr "Volúmen relativo para los sonidos de la interfaz"
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "Esta categoría contiene todos los ajustes relacionados con la información en pantalla (OSD)."
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "Cerrar OSD vídeo automáticamente"
+
+#~ msgctxt "#39177"
+#~ msgid "The video OSD window will be automatically closed if visible after a specified time"
+#~ msgstr "La ventana OSD de video se cerrará automáticamente despues de un tiempo definido"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "Tiempo para cerrar OSD video (segundos)"
+
+#~ msgctxt "#39179"
+#~ msgid "The time in seconds for the video OSD to be automatically closed"
+#~ msgstr "El tiempo en segundos en que el OSD vídeo se cerrará automáticamente"
+
+#~ msgctxt "#39180"
+#~ msgid "Building font cache in progress - please wait"
+#~ msgstr "Construyendo caché de tipografías. Por favor, espere"
+
+#~ msgctxt "#39181"
+#~ msgid "Relative volume for gui sounds"
+#~ msgstr "Volumen relativo para los sonidos de la interfaz"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "Localización de subtítulos en la pantalla. [Manual] Los subtítulos pueden ser personalizados utilizando los ajustes de calibración de vídeo. [Debajo] / [Encima del vídeo] Siempre que sea posible, los subtítulos serán posicionados dentro de las barras negras (depende de la codificación del vídeo). Por favor note que algunas posiciones forzadas en los subtítulos no pueden ser cambiadas."
 
 #~ msgctxt "#35269"
 #~ msgid "Toggle this setting to log in or out of RetroAchievemts."

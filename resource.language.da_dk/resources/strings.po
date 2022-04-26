@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-27 13:30+0000\n"
+"PO-Revision-Date: 2022-04-26 15:32+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Kan ikke indlæse playliste"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -8592,6 +8591,11 @@ msgstr "Indlæser timeroptagelser fra klienter"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Indlæser optagelser fra klienter"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr "Opretter af PVR-klienter"
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -15569,8 +15573,8 @@ msgstr "Angiv en brugerdefineret mappe til undertekster. Dette kan være en netv
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "Placering af undertekster på skærmen. [Manuelt] Undertekstens position kan tilpasses ved hjælp af videokalibreringsindstillinger. [Nedenunder] / [Over video] Når det er muligt, vil underteksterne blive placeret inden for de sorte bjælker (afhænger af videokodning). Bemærk, at nogle tvungne positioner i underteksterne ikke kan ændres."
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr "Placering af undertekster på skærmen. [Under] / [Over video] Når det er muligt, vil underteksterne blive placeret inde i de sorte bjælker (afhænger af videoens kodning). Bemærk venligst, at nogle tvungne positioner i underteksterne ikke kan ændres."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -18599,35 +18603,47 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Vis understøttede HDR-typer"
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "Kategori indeholdende alle OSD-relaterede indstillinger."
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "Luk automatisk video OSD"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr "Video OSD lukkes automatisk, hvis det er synligt efter et angivet tidsrum"
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "Tid før automatisk lukning af video OSD (sekunder)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr "Tid i sekunder før automatisk lukning af video OSD"
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
 msgstr "Opbygning af cache til skrifttyper i gang - vent venligst"
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr "Relativ lydstyrke for gui-lyde"
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "Kategori indeholdende alle OSD-relaterede indstillinger."
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "Luk automatisk video OSD"
+
+#~ msgctxt "#39177"
+#~ msgid "The video OSD window will be automatically closed if visible after a specified time"
+#~ msgstr "Video OSD lukkes automatisk, hvis det er synligt efter et angivet tidsrum"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "Tid før automatisk lukning af video OSD (sekunder)"
+
+#~ msgctxt "#39179"
+#~ msgid "The time in seconds for the video OSD to be automatically closed"
+#~ msgstr "Tid i sekunder før automatisk lukning af video OSD"
+
+#~ msgctxt "#39180"
+#~ msgid "Building font cache in progress - please wait"
+#~ msgstr "Opbygning af cache til skrifttyper i gang - vent venligst"
+
+#~ msgctxt "#39181"
+#~ msgid "Relative volume for gui sounds"
+#~ msgstr "Relativ lydstyrke for gui-lyde"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "Placering af undertekster på skærmen. [Manuelt] Undertekstens position kan tilpasses ved hjælp af videokalibreringsindstillinger. [Nedenunder] / [Over video] Når det er muligt, vil underteksterne blive placeret inden for de sorte bjælker (afhænger af videokodning). Bemærk, at nogle tvungne positioner i underteksterne ikke kan ændres."
 
 #~ msgctxt "#19239"
 #~ msgid "Starting background threads"

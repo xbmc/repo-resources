@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Nepavyko įkelti grojaraščio"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "OSD"
@@ -8589,6 +8588,11 @@ msgstr "Laikmačių įkėlimas iš klientų"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Įrašų įkėlimas iš klientų"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr ""
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -15558,8 +15562,8 @@ msgstr "Nustatyti savą subtitrų katalogą. Tai gali būti bendrasis failų iš
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "Subtitrų vieta ekrane. [Rankinis] Subtitrų padėtį galima tinkinti naudojant vaizdo kalibravimo nustatymus. [Žemiau] / [Virš vaizdo įrašo] Kai įmanoma, subtitrai bus išdėstyti juodose juostose (priklauso nuo vaizdo įrašo kodavimo). Atkreipkite dėmesį, kad kai kurių subtitrų priverstinių pozicijų pakeisti negalima."
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr ""
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -18585,35 +18589,39 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr "Ekrano palaikomi HDR tipai"
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "Šioje kategorijoje yra visi su informacijos atvaizdavimu ekrane (OSD) susiję nustatymai."
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "Automatiškai uždaryti vaizdo įrašo OSD"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr "Vaizdo įrašo OSD langas bus uždarytas automatiškai, jei vis dar bus rodomas praėjus nustatytam laikui"
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "Vaizdo įrašo OSD automatinio uždarymo laikas (sekundėmis)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr "Laikas sekundėmis, po kurio automatiškai uždaromas vaizdo įrašo OSD"
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
 msgstr ""
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr ""
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "Šioje kategorijoje yra visi su informacijos atvaizdavimu ekrane (OSD) susiję nustatymai."
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "Automatiškai uždaryti vaizdo įrašo OSD"
+
+#~ msgctxt "#39177"
+#~ msgid "The video OSD window will be automatically closed if visible after a specified time"
+#~ msgstr "Vaizdo įrašo OSD langas bus uždarytas automatiškai, jei vis dar bus rodomas praėjus nustatytam laikui"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "Vaizdo įrašo OSD automatinio uždarymo laikas (sekundėmis)"
+
+#~ msgctxt "#39179"
+#~ msgid "The time in seconds for the video OSD to be automatically closed"
+#~ msgstr "Laikas sekundėmis, po kurio automatiškai uždaromas vaizdo įrašo OSD"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "Subtitrų vieta ekrane. [Rankinis] Subtitrų padėtį galima tinkinti naudojant vaizdo kalibravimo nustatymus. [Žemiau] / [Virš vaizdo įrašo] Kai įmanoma, subtitrai bus išdėstyti juodose juostose (priklauso nuo vaizdo įrašo kodavimo). Atkreipkite dėmesį, kad kai kurių subtitrų priverstinių pozicijų pakeisti negalima."
 
 #~ msgctxt "#19239"
 #~ msgid "Starting background threads"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-02-26 11:18+0000\n"
+"PO-Revision-Date: 2022-04-14 22:47+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/is_is/>\n"
 "Language: is_is\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1867,7 +1867,6 @@ msgctxt "#477"
 msgid "Unable to load playlist"
 msgstr "Gat ekki sótt spilunarlista"
 
-#. label for "OSD" setting category
 msgctxt "#478"
 msgid "OSD"
 msgstr "Stjórntexti"
@@ -7029,12 +7028,12 @@ msgstr ""
 #. Label for button in the in-game savestate manager
 msgctxt "#15314"
 msgid "Save progress"
-msgstr ""
+msgstr "Vista framvindu"
 
 #. Caption for "Save progress" button in the in-game savestate manager
 msgctxt "#15315"
 msgid "Save progress to new save file"
-msgstr ""
+msgstr "Vista framvindu í nýja skrá"
 
 msgctxt "#16000"
 msgid "General"
@@ -8590,6 +8589,11 @@ msgstr "Hleð inn tímatökum frá biðlurum"
 msgctxt "#19238"
 msgid "Loading recordings from clients"
 msgstr "Hleð inn upptökum frá biðlurum"
+
+#. label for PVR client creation progress control
+msgctxt "#19239"
+msgid "Creating PVR clients"
+msgstr ""
 
 #. label for pvr settings client priorities control and client priorities dialog heading.
 msgctxt "#19240"
@@ -15560,7 +15564,7 @@ msgstr "Setja sérvalda möppu fyrir skjátexta. Þetta getur verið á deildum 
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Manual] The subtitles position can be customised by using video calibration settings. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
 msgstr ""
 
 #. Description of settings category with label #14087 "DVDs"
@@ -18591,35 +18595,31 @@ msgctxt "#39174"
 msgid "Display supported HDR types"
 msgstr ""
 
-#. Description of settings category "OSD" with label #478
-msgctxt "#39175"
-msgid "This category contains all the on screen display (OSD) related settings."
-msgstr "Þessi flokkur inniheldur allar stillingar tengdar stjórntexta (OSD - on screen display)."
-
-#. Automatically close video OSD bool setting in Settings/Interface/OSD
-msgctxt "#39176"
-msgid "Automatically close video OSD"
-msgstr "Loka stjórntexta myndmerkis sjálfvirkt"
-
-#. Help text for "Automatically close video OSD" setting in Settings/Interface/OSD
-msgctxt "#39177"
-msgid "The video OSD window will be automatically closed if visible after a specified time"
-msgstr ""
-
-#. Video OSD autoclose time (seconds) in Settings/Interface/OSD
-msgctxt "#39178"
-msgid "Video OSD autoclose time (seconds)"
-msgstr "Tímamörk sjálfvirkrar lokunar stjórntexta (sekúndur)"
-
-#. Help text for setting "Video OSD autoclose time (seconds)" of label #39178
-msgctxt "#39179"
-msgid "The time in seconds for the video OSD to be automatically closed"
-msgstr ""
-
 #. Progress text on splash screen, to build the font cache
-msgctxt "#39180"
+msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr "Bygging skyndiminnis fyrir letur í gangi - dokaðu við"
+msgstr ""
+
+#. Helper text for gui sound volume setting
+msgctxt "#39176"
+msgid "Relative volume for gui sounds"
+msgstr ""
+
+#~ msgctxt "#39175"
+#~ msgid "This category contains all the on screen display (OSD) related settings."
+#~ msgstr "Þessi flokkur inniheldur allar stillingar tengdar stjórntexta (OSD - on screen display)."
+
+#~ msgctxt "#39176"
+#~ msgid "Automatically close video OSD"
+#~ msgstr "Loka stjórntexta myndmerkis sjálfvirkt"
+
+#~ msgctxt "#39178"
+#~ msgid "Video OSD autoclose time (seconds)"
+#~ msgstr "Tímamörk sjálfvirkrar lokunar stjórntexta (sekúndur)"
+
+#~ msgctxt "#39180"
+#~ msgid "Building font cache in progress - please wait"
+#~ msgstr "Bygging skyndiminnis fyrir letur í gangi - dokaðu við"
 
 #~ msgctxt "#19239"
 #~ msgid "Starting background threads"
