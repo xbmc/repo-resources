@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-04-19 17:53+0000\n"
+"PO-Revision-Date: 2022-05-13 12:10+0000\n"
 "Last-Translator: Minho Park <parkmino@gmail.com>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1088,6 +1088,7 @@ msgctxt "#286"
 msgid "Preferred subtitle language"
 msgstr "선호하는 자막 언어"
 
+#. Title of category and group menu subtitles
 msgctxt "#287"
 msgid "Subtitles"
 msgstr "자막"
@@ -6441,9 +6442,10 @@ msgctxt "#14088"
 msgid "Play DVDs automatically"
 msgstr "자동으로 DVD 재생"
 
+#. Subtitle font selection setting
 msgctxt "#14089"
-msgid "Font to use for text subtitles"
-msgstr "텍스트 자막에 사용할 글끌"
+msgid "Font"
+msgstr "글꼴"
 
 msgctxt "#14090"
 msgid "International"
@@ -11630,8 +11632,8 @@ msgstr "섞기"
 
 #. Subtitle position on screen setting list
 msgctxt "#21460"
-msgid "Subtitle position on screen"
-msgstr "자막 위치"
+msgid "Position on screen"
+msgstr "화면에서의 위치"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
@@ -15525,10 +15527,10 @@ msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
 msgstr "자막 관련 설정 그룹입니다."
 
-#. Description of setting with label #14089 "Font to use for text subtitles"
+#. Description of setting with label #14089 "Font"
 msgctxt "#36185"
-msgid "Set the font type to be used for text based (usually downloaded) subtitles."
-msgstr "문자 기반의(통상 다운로드한) 자막에 사용하는 글꼴을 설정합니다."
+msgid "Set the font type to be used for subtitles."
+msgstr "자막에 사용할 글꼴 유형을 설정합니다."
 
 #. Description of setting with label #289 "Size"
 msgctxt "#36186"
@@ -17514,15 +17516,15 @@ msgctxt "#37031"
 msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
 msgstr "블루레이를 열고 재생하는 방법을 선택합니다. 주의: 디스크 메뉴는 아직 완전히 지원하지 않으며 문제를 일으킬 수 있습니다."
 
-#. Title of category #37032 Accessibility
+#. Title of accessibility menu group
 msgctxt "#37032"
 msgid "Accessibility"
 msgstr "손쉬운 사용/접근성"
 
-#. Description of category #37032 Accessibility
+#. Description of category #287 Subtitles
 msgctxt "#37033"
-msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
-msgstr "비디오 재생 관련 접근성 설정, 예: \"듣기 어려운 경우 자막 선호\"."
+msgid "This category contains the settings for subtitles"
+msgstr "이 카테고리에는 자막 설정이 포함되어 있습니다"
 
 #. Setting #37034 Accessibility
 msgctxt "#37034"
@@ -17884,8 +17886,8 @@ msgstr "여기에는 슬라이드쇼를 통해 사진을 재생하기 위한 설
 
 #. Description of category #14213 "Language"
 msgctxt "#38106"
-msgid "This category contains the settings for audio & subtitle language"
-msgstr "여기에는 오디오 및 자막 언어에 대한 설정이 포함되어 있습니다"
+msgid "This category contains the settings for audio / subtitles language and accessibility"
+msgstr "이 카테고리에는 오디오/자막 언어 및 접근성에 대한 설정이 포함되어 있습니다"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38107"
@@ -18592,27 +18594,87 @@ msgstr "지원되는 HDR 형식 표시"
 #. Progress text on splash screen, to build the font cache
 msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr ""
+msgstr "글꼴 캐시를 만드는 중 - 기다려 주세요"
 
 #. Helper text for gui sound volume setting
 msgctxt "#39176"
 msgid "Relative volume for gui sounds"
-msgstr ""
+msgstr "GUI 사운드의 상대 볼륨"
+
+#. Dialog caption related to the speech to text process
+msgctxt "#39177"
+msgid "Speech to text"
+msgstr "음성을 텍스트로 변환"
+
+#. Dialog text to notify that the speech service is not available
+msgctxt "#39178"
+msgid "Speech recognition service not available"
+msgstr "음성 인식 서비스를 사용할 수 없습니다"
+
+#. Dialog text to notify that microphone is listening
+msgctxt "#39179"
+msgid "Listening..."
+msgstr "듣는 중..."
+
+#. Dialog text to notify that there has been no matching recognition result
+msgctxt "#39180"
+msgid "No recognition result matched"
+msgstr "일치하는 인식 결과가 없습니다"
+
+#. Dialog text to notify that there has been a speech recognition error
+msgctxt "#39181"
+msgid "Speech recognition error"
+msgstr "음성 인식 오류"
 
 #. Subtitle vertical margin setting
 msgctxt "#39182"
 msgid "Vertical margin"
-msgstr ""
+msgstr "세로 여백"
 
 #. Help text for setting "Vertical margin" of label #39182
 msgctxt "#39183"
 msgid "Allows you to add a margin in top and bottom aligned text. Changing this setting will affect also subtitle position set with the Video calibration."
-msgstr ""
+msgstr "위쪽 및 아래쪽 정렬된 텍스트에 여백을 추가할 수 있습니다. 이 설정을 변경하면 비디오 보정으로 설정된 자막 위치에도 영향을 미칩니다."
 
 #. Window screen calibration: the current subtitle calibration value with vertical margin
 msgctxt "#39184"
 msgid "Current value: {0:d} (with vertical margin: {1:d})"
-msgstr ""
+msgstr "현재 값: {0:d}(세로 여백: {1:d})"
+
+#. Dialog text to notify that there are insufficient permissions for speech recognition
+msgctxt "#39185"
+msgid "Insufficient permissions for speech recognition"
+msgstr "음성 인식 권한이 부족합니다"
+
+#. Title of group menu subtitles
+msgctxt "#39186"
+msgid "Styles for text based subtitles"
+msgstr "텍스트 기반 자막 스타일"
+
+#. Title of group menu subtitles
+msgctxt "#39187"
+msgid "Closed caption subtitles"
+msgstr "청각 장애인를 위한 자막"
+
+#~ msgctxt "#14089"
+#~ msgid "Font to use for text subtitles"
+#~ msgstr "텍스트 자막에 사용할 글끌"
+
+#~ msgctxt "#21460"
+#~ msgid "Subtitle position on screen"
+#~ msgstr "자막 위치"
+
+#~ msgctxt "#36185"
+#~ msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+#~ msgstr "문자 기반의(통상 다운로드한) 자막에 사용하는 글꼴을 설정합니다."
+
+#~ msgctxt "#37033"
+#~ msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+#~ msgstr "비디오 재생 관련 접근성 설정, 예: \"듣기 어려운 경우 자막 선호\"."
+
+#~ msgctxt "#38106"
+#~ msgid "This category contains the settings for audio & subtitle language"
+#~ msgstr "여기에는 오디오 및 자막 언어에 대한 설정이 포함되어 있습니다"
 
 #~ msgctxt "#39175"
 #~ msgid "This category contains all the on screen display (OSD) related settings."

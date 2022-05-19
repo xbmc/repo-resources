@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-04-26 15:32+0000\n"
+"PO-Revision-Date: 2022-05-13 12:10+0000\n"
 "Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_es/>\n"
 "Language: es_es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12\n"
+"X-Generator: Weblate 4.12.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1088,6 +1088,7 @@ msgctxt "#286"
 msgid "Preferred subtitle language"
 msgstr "Idioma de subtítulos preferido"
 
+#. Title of category and group menu subtitles
 msgctxt "#287"
 msgid "Subtitles"
 msgstr "Subtítulos"
@@ -6441,9 +6442,10 @@ msgctxt "#14088"
 msgid "Play DVDs automatically"
 msgstr "Reproducir DVDs de forma automática"
 
+#. Subtitle font selection setting
 msgctxt "#14089"
-msgid "Font to use for text subtitles"
-msgstr "Tipo de letra de los subtítulos"
+msgid "Font"
+msgstr "Tipografía"
 
 msgctxt "#14090"
 msgid "International"
@@ -11630,8 +11632,8 @@ msgstr "mezclado"
 
 #. Subtitle position on screen setting list
 msgctxt "#21460"
-msgid "Subtitle position on screen"
-msgstr "Posición de subtítulos en la pantalla"
+msgid "Position on screen"
+msgstr "Posición en pantalla"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
@@ -15525,10 +15527,10 @@ msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
 msgstr "Esta categoría contiene los ajustes sobre la gestión de subtitulos."
 
-#. Description of setting with label #14089 "Font to use for text subtitles"
+#. Description of setting with label #14089 "Font"
 msgctxt "#36185"
-msgid "Set the font type to be used for text based (usually downloaded) subtitles."
-msgstr "Establece el tipo de letra que se utilizará para los subtítulos en texto (como los descargados)."
+msgid "Set the font type to be used for subtitles."
+msgstr "Ajusta la tipografía a usar en los subtítulos."
 
 #. Description of setting with label #289 "Size"
 msgctxt "#36186"
@@ -17514,15 +17516,15 @@ msgctxt "#37031"
 msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
 msgstr "Determina como deben abrirse y reproducirse los discos Blu-ray. Nota: Algunos menús aún no están soportados completamente y pueden causar problemas."
 
-#. Title of category #37032 Accessibility
+#. Title of accessibility menu group
 msgctxt "#37032"
 msgid "Accessibility"
 msgstr "Accesibilidad"
 
-#. Description of category #37032 Accessibility
+#. Description of category #287 Subtitles
 msgctxt "#37033"
-msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
-msgstr "Opciones de accesibilidad relacionadas con la reproducción de vídeo. P. ej. \"Preferir subtítulos para sordos\"."
+msgid "This category contains the settings for subtitles"
+msgstr "Esta categoría contiene los ajustes de los subtítulos"
 
 #. Setting #37034 Accessibility
 msgctxt "#37034"
@@ -17884,8 +17886,8 @@ msgstr "Esta categoría contiene los ajustes de la presentación de imágenes me
 
 #. Description of category #14213 "Language"
 msgctxt "#38106"
-msgid "This category contains the settings for audio & subtitle language"
-msgstr "Esta categoría contiene los ajustes de idioma para el audio y los subtítulos"
+msgid "This category contains the settings for audio / subtitles language and accessibility"
+msgstr "Esta categoría contiene los ajustes para el idioma de audio / subtítulos y accesibilidad"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38107"
@@ -18599,20 +18601,80 @@ msgctxt "#39176"
 msgid "Relative volume for gui sounds"
 msgstr "Volúmen relativo para los sonidos de la interfaz"
 
+#. Dialog caption related to the speech to text process
+msgctxt "#39177"
+msgid "Speech to text"
+msgstr "Voz a texto"
+
+#. Dialog text to notify that the speech service is not available
+msgctxt "#39178"
+msgid "Speech recognition service not available"
+msgstr "Servicio de reconocimiento de voz no disponible"
+
+#. Dialog text to notify that microphone is listening
+msgctxt "#39179"
+msgid "Listening..."
+msgstr "Escuchando..."
+
+#. Dialog text to notify that there has been no matching recognition result
+msgctxt "#39180"
+msgid "No recognition result matched"
+msgstr "No se ha reconocido ningún resultado"
+
+#. Dialog text to notify that there has been a speech recognition error
+msgctxt "#39181"
+msgid "Speech recognition error"
+msgstr "Error de reconocimiento de voz"
+
 #. Subtitle vertical margin setting
 msgctxt "#39182"
 msgid "Vertical margin"
-msgstr ""
+msgstr "Margen vertical"
 
 #. Help text for setting "Vertical margin" of label #39182
 msgctxt "#39183"
 msgid "Allows you to add a margin in top and bottom aligned text. Changing this setting will affect also subtitle position set with the Video calibration."
-msgstr ""
+msgstr "Permite añadir un margen en el texto alineado arriba y abajo. Este ajuste afectará también a la posición del subtítulo configurada en la calibración de vídeo."
 
 #. Window screen calibration: the current subtitle calibration value with vertical margin
 msgctxt "#39184"
 msgid "Current value: {0:d} (with vertical margin: {1:d})"
-msgstr ""
+msgstr "Valor actual: {0:d} (con margen vertical: {1:d})"
+
+#. Dialog text to notify that there are insufficient permissions for speech recognition
+msgctxt "#39185"
+msgid "Insufficient permissions for speech recognition"
+msgstr "Permisos insuficientes para el reconocimiento de voz"
+
+#. Title of group menu subtitles
+msgctxt "#39186"
+msgid "Styles for text based subtitles"
+msgstr "Estilos para los subtítulos basados en texto"
+
+#. Title of group menu subtitles
+msgctxt "#39187"
+msgid "Closed caption subtitles"
+msgstr "Subtítulos descriptivos"
+
+#~ msgctxt "#14089"
+#~ msgid "Font to use for text subtitles"
+#~ msgstr "Tipo de letra de los subtítulos"
+
+#~ msgctxt "#21460"
+#~ msgid "Subtitle position on screen"
+#~ msgstr "Posición de subtítulos en la pantalla"
+
+#~ msgctxt "#36185"
+#~ msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+#~ msgstr "Establece el tipo de letra que se utilizará para los subtítulos en texto (como los descargados)."
+
+#~ msgctxt "#37033"
+#~ msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+#~ msgstr "Opciones de accesibilidad relacionadas con la reproducción de vídeo. P. ej. \"Preferir subtítulos para sordos\"."
+
+#~ msgctxt "#38106"
+#~ msgid "This category contains the settings for audio & subtitle language"
+#~ msgstr "Esta categoría contiene los ajustes de idioma para el audio y los subtítulos"
 
 #~ msgctxt "#39175"
 #~ msgid "This category contains all the on screen display (OSD) related settings."

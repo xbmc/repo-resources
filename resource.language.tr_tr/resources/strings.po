@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-04-19 17:53+0000\n"
+"PO-Revision-Date: 2022-05-19 11:21+0000\n"
 "Last-Translator: queeup <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/tr_tr/>\n"
 "Language: tr_tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1088,6 +1088,7 @@ msgctxt "#286"
 msgid "Preferred subtitle language"
 msgstr "Tercih edilen altyazı dili"
 
+#. Title of category and group menu subtitles
 msgctxt "#287"
 msgid "Subtitles"
 msgstr "Altyazılar"
@@ -6441,9 +6442,10 @@ msgctxt "#14088"
 msgid "Play DVDs automatically"
 msgstr "DVD'leri otomatik olarak oynat"
 
+#. Subtitle font selection setting
 msgctxt "#14089"
-msgid "Font to use for text subtitles"
-msgstr "Altyazı metni için kullanılacak yazı tipi"
+msgid "Font"
+msgstr "Yazı tipi"
 
 msgctxt "#14090"
 msgid "International"
@@ -11630,8 +11632,8 @@ msgstr "karışık"
 
 #. Subtitle position on screen setting list
 msgctxt "#21460"
-msgid "Subtitle position on screen"
-msgstr "Altyazının ekrandaki konumu"
+msgid "Position on screen"
+msgstr "Ekrandaki konum"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
@@ -15525,10 +15527,10 @@ msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
 msgstr "Bu kategori altyazıların nasıl işleyeceği ile ilgili ayarları içerir."
 
-#. Description of setting with label #14089 "Font to use for text subtitles"
+#. Description of setting with label #14089 "Font"
 msgctxt "#36185"
-msgid "Set the font type to be used for text based (usually downloaded) subtitles."
-msgstr "Metin bazlı (genellikle indirilmiş) altyazılar için kullanılacak yazı tipini seçin."
+msgid "Set the font type to be used for subtitles."
+msgstr "Altyazılar için kullanılacak yazı tipini ayarlayın."
 
 #. Description of setting with label #289 "Size"
 msgctxt "#36186"
@@ -17514,15 +17516,15 @@ msgctxt "#37031"
 msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
 msgstr "Blu-ray'lerin nasıl oynatılacağını / açılacağını belirtir. Not: Bazı disk menüleri henüz tam olarak desteklenmemektedir ve sorunlara neden olabilir."
 
-#. Title of category #37032 Accessibility
+#. Title of accessibility menu group
 msgctxt "#37032"
 msgid "Accessibility"
 msgstr "Erişilebilirlik"
 
-#. Description of category #37032 Accessibility
+#. Description of category #287 Subtitles
 msgctxt "#37033"
-msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
-msgstr "Video oynatımı ile ilgili erişilebilirlik ayarları, örn: \"İşitme engelliler için olan altyazıları tercih et\"."
+msgid "This category contains the settings for subtitles"
+msgstr "Bu kategori altyazı ayarlarını içerir"
 
 #. Setting #37034 Accessibility
 msgctxt "#37034"
@@ -17884,8 +17886,8 @@ msgstr "Bu kategori bir slayt gösterisi aracılığıyla resim oynatma ile ilgi
 
 #. Description of category #14213 "Language"
 msgctxt "#38106"
-msgid "This category contains the settings for audio & subtitle language"
-msgstr "Bu kategori ses ve altyazı dili ile ilgili ayarları içerir"
+msgid "This category contains the settings for audio / subtitles language and accessibility"
+msgstr "Bu kategori, ses / altyazı dili ve erişilebilirlik ayarlarını içerir"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38107"
@@ -18592,27 +18594,87 @@ msgstr "Desteklenen HDR türlerini görüntüle"
 #. Progress text on splash screen, to build the font cache
 msgctxt "#39175"
 msgid "Building font cache in progress - please wait"
-msgstr ""
+msgstr "Yazı tipi önbelleği oluşturuluyor - lütfen bekleyin"
 
 #. Helper text for gui sound volume setting
 msgctxt "#39176"
 msgid "Relative volume for gui sounds"
-msgstr ""
+msgstr "GUI sesleri için göreli ses seviyesi"
+
+#. Dialog caption related to the speech to text process
+msgctxt "#39177"
+msgid "Speech to text"
+msgstr "Konuşmadan yazıya"
+
+#. Dialog text to notify that the speech service is not available
+msgctxt "#39178"
+msgid "Speech recognition service not available"
+msgstr "Konuşma tanıma hizmeti kullanılamıyor"
+
+#. Dialog text to notify that microphone is listening
+msgctxt "#39179"
+msgid "Listening..."
+msgstr "Dinliyor..."
+
+#. Dialog text to notify that there has been no matching recognition result
+msgctxt "#39180"
+msgid "No recognition result matched"
+msgstr "Eşleşen bir tanıma sonucu yok"
+
+#. Dialog text to notify that there has been a speech recognition error
+msgctxt "#39181"
+msgid "Speech recognition error"
+msgstr "Konuşma tanıma hatası"
 
 #. Subtitle vertical margin setting
 msgctxt "#39182"
 msgid "Vertical margin"
-msgstr ""
+msgstr "Dikey kenar boşluğu"
 
 #. Help text for setting "Vertical margin" of label #39182
 msgctxt "#39183"
 msgid "Allows you to add a margin in top and bottom aligned text. Changing this setting will affect also subtitle position set with the Video calibration."
-msgstr ""
+msgstr "Üste ve alta hizalanmış metne bir kenar boşluğu eklemenizi sağlar. Bu ayarın değiştirilmesi, video kalibrasyonu ile ayarlanan altyazı konumunu da etkiler."
 
 #. Window screen calibration: the current subtitle calibration value with vertical margin
 msgctxt "#39184"
 msgid "Current value: {0:d} (with vertical margin: {1:d})"
-msgstr ""
+msgstr "Mevcut değer: {0:d} (dikey kenar boşluğu ile: {1:d})"
+
+#. Dialog text to notify that there are insufficient permissions for speech recognition
+msgctxt "#39185"
+msgid "Insufficient permissions for speech recognition"
+msgstr "Konuşma tanıma için izinler yetersiz"
+
+#. Title of group menu subtitles
+msgctxt "#39186"
+msgid "Styles for text based subtitles"
+msgstr "Metin tabanlı altyazılar için stiller"
+
+#. Title of group menu subtitles
+msgctxt "#39187"
+msgid "Closed caption subtitles"
+msgstr "Kapalı açıklamalı altyazılar"
+
+#~ msgctxt "#14089"
+#~ msgid "Font to use for text subtitles"
+#~ msgstr "Altyazı metni için kullanılacak yazı tipi"
+
+#~ msgctxt "#21460"
+#~ msgid "Subtitle position on screen"
+#~ msgstr "Altyazının ekrandaki konumu"
+
+#~ msgctxt "#36185"
+#~ msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+#~ msgstr "Metin bazlı (genellikle indirilmiş) altyazılar için kullanılacak yazı tipini seçin."
+
+#~ msgctxt "#37033"
+#~ msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+#~ msgstr "Video oynatımı ile ilgili erişilebilirlik ayarları, örn: \"İşitme engelliler için olan altyazıları tercih et\"."
+
+#~ msgctxt "#38106"
+#~ msgid "This category contains the settings for audio & subtitle language"
+#~ msgstr "Bu kategori ses ve altyazı dili ile ilgili ayarları içerir"
 
 #~ msgctxt "#39175"
 #~ msgid "This category contains all the on screen display (OSD) related settings."

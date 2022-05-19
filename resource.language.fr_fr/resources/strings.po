@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-09 16:11+0000\n"
+"PO-Revision-Date: 2022-05-06 00:32+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: French (France) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fr_fr/>\n"
 "Language: fr_fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1088,6 +1088,7 @@ msgctxt "#286"
 msgid "Preferred subtitle language"
 msgstr "Langue préférée pour les sous-titres"
 
+#. Title of category and group menu subtitles
 msgctxt "#287"
 msgid "Subtitles"
 msgstr "Sous-titres"
@@ -6441,9 +6442,10 @@ msgctxt "#14088"
 msgid "Play DVDs automatically"
 msgstr "Lire les disques automatiquement"
 
+#. Subtitle font selection setting
 msgctxt "#14089"
-msgid "Font to use for text subtitles"
-msgstr "Police pour les sous-titres"
+msgid "Font"
+msgstr ""
 
 msgctxt "#14090"
 msgid "International"
@@ -7017,7 +7019,7 @@ msgstr "Chemin :"
 #. Game settings category name
 msgctxt "#15312"
 msgid "Achievements"
-msgstr ""
+msgstr "Succès"
 
 #. Group label for Achievements category in game settings
 msgctxt "#15313"
@@ -11630,8 +11632,8 @@ msgstr "Mixte"
 
 #. Subtitle position on screen setting list
 msgctxt "#21460"
-msgid "Subtitle position on screen"
-msgstr "Position des sous-titres à l'écran"
+msgid "Position on screen"
+msgstr ""
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
@@ -14846,18 +14848,18 @@ msgstr ""
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35266"
 msgid "Failed to contact server"
-msgstr ""
+msgstr "Impossible de contacter le serveur"
 
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35267"
 msgid "Invalid response from server"
-msgstr ""
+msgstr "Réponse invalide du serveur"
 
 #. Setting to show if the user is logged in to RetroAchievements
 #. Settings -> Games -> Achievements -> Logged in
 msgctxt "#35268"
 msgid "Logged in"
-msgstr ""
+msgstr "Connecté"
 
 #. Help text for the setting that shows if the user is logged in to RetroAchievements
 #. Settings -> Games -> Achievements -> Logged in
@@ -14868,7 +14870,7 @@ msgstr ""
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35270"
 msgid "Your account is not verified. Please check your email to complete your sign up."
-msgstr ""
+msgstr "Votre compte n'est pas vérifié. Veuillez vérifier votre e-mail pour terminer votre inscription."
 
 #. connection state "host unreachable"
 msgctxt "#35505"
@@ -15525,10 +15527,10 @@ msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
 msgstr "Cette catégorie contient les paramètres relatifs à la gestion des sous-titres."
 
-#. Description of setting with label #14089 "Font to use for text subtitles"
+#. Description of setting with label #14089 "Font"
 msgctxt "#36185"
-msgid "Set the font type to be used for text based (usually downloaded) subtitles."
-msgstr "Définit le type de police utilisé pour les sous-titres textuels (habituellement ceux téléchargés)."
+msgid "Set the font type to be used for subtitles."
+msgstr ""
 
 #. Description of setting with label #289 "Size"
 msgctxt "#36186"
@@ -17514,15 +17516,15 @@ msgctxt "#37031"
 msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
 msgstr "Spécifie comment les Blu-rays doivent être ouverts/lus.[CR]NB : certains menus de disque ne sont pas entièrement pris en charge et peuvent provoquer des problèmes."
 
-#. Title of category #37032 Accessibility
+#. Title of accessibility menu group
 msgctxt "#37032"
 msgid "Accessibility"
 msgstr "Accessibilité"
 
-#. Description of category #37032 Accessibility
+#. Description of category #287 Subtitles
 msgctxt "#37033"
-msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
-msgstr "Cette catégorie contient les paramètres de lecture vidéo relatifs à l'accessibilité, par ex. : « Préférer les sous-titres pour malentendants »."
+msgid "This category contains the settings for subtitles"
+msgstr ""
 
 #. Setting #37034 Accessibility
 msgctxt "#37034"
@@ -17884,8 +17886,8 @@ msgstr "Cette catégorie contient les paramètres relatifs au diaporama d'images
 
 #. Description of category #14213 "Language"
 msgctxt "#38106"
-msgid "This category contains the settings for audio & subtitle language"
-msgstr "Cette catégorie contient les paramètres relatifs à la langue audio et des sous-titres"
+msgid "This category contains the settings for audio / subtitles language and accessibility"
+msgstr ""
 
 #. Description of category #14210 "Videos"
 msgctxt "#38107"
@@ -18599,6 +18601,31 @@ msgctxt "#39176"
 msgid "Relative volume for gui sounds"
 msgstr ""
 
+#. Dialog caption related to the speech to text process
+msgctxt "#39177"
+msgid "Speech to text"
+msgstr ""
+
+#. Dialog text to notify that the speech service is not available
+msgctxt "#39178"
+msgid "Speech recognition service not available"
+msgstr ""
+
+#. Dialog text to notify that microphone is listening
+msgctxt "#39179"
+msgid "Listening..."
+msgstr ""
+
+#. Dialog text to notify that there has been no matching recognition result
+msgctxt "#39180"
+msgid "No recognition result matched"
+msgstr ""
+
+#. Dialog text to notify that there has been a speech recognition error
+msgctxt "#39181"
+msgid "Speech recognition error"
+msgstr ""
+
 #. Subtitle vertical margin setting
 msgctxt "#39182"
 msgid "Vertical margin"
@@ -18613,6 +18640,41 @@ msgstr ""
 msgctxt "#39184"
 msgid "Current value: {0:d} (with vertical margin: {1:d})"
 msgstr ""
+
+#. Dialog text to notify that there are insufficient permissions for speech recognition
+msgctxt "#39185"
+msgid "Insufficient permissions for speech recognition"
+msgstr ""
+
+#. Title of group menu subtitles
+msgctxt "#39186"
+msgid "Styles for text based subtitles"
+msgstr ""
+
+#. Title of group menu subtitles
+msgctxt "#39187"
+msgid "Closed caption subtitles"
+msgstr ""
+
+#~ msgctxt "#14089"
+#~ msgid "Font to use for text subtitles"
+#~ msgstr "Police pour les sous-titres"
+
+#~ msgctxt "#21460"
+#~ msgid "Subtitle position on screen"
+#~ msgstr "Position des sous-titres à l'écran"
+
+#~ msgctxt "#36185"
+#~ msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+#~ msgstr "Définit le type de police utilisé pour les sous-titres textuels (habituellement ceux téléchargés)."
+
+#~ msgctxt "#37033"
+#~ msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+#~ msgstr "Cette catégorie contient les paramètres de lecture vidéo relatifs à l'accessibilité, par ex. : « Préférer les sous-titres pour malentendants »."
+
+#~ msgctxt "#38106"
+#~ msgid "This category contains the settings for audio & subtitle language"
+#~ msgstr "Cette catégorie contient les paramètres relatifs à la langue audio et des sous-titres"
 
 #~ msgctxt "#39175"
 #~ msgid "This category contains all the on screen display (OSD) related settings."
