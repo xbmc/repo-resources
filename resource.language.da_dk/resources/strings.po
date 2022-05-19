@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-05-01 07:12+0000\n"
+"PO-Revision-Date: 2022-05-13 12:10+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.12.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1088,6 +1088,7 @@ msgctxt "#286"
 msgid "Preferred subtitle language"
 msgstr "Foretrukket undertekstsprog"
 
+#. Title of category and group menu subtitles
 msgctxt "#287"
 msgid "Subtitles"
 msgstr "Undertekster"
@@ -6444,9 +6445,10 @@ msgctxt "#14088"
 msgid "Play DVDs automatically"
 msgstr "Afspil DVD'er automatisk"
 
+#. Subtitle font selection setting
 msgctxt "#14089"
-msgid "Font to use for text subtitles"
-msgstr "Skrifttype til undertekster"
+msgid "Font"
+msgstr "Skrifttype"
 
 msgctxt "#14090"
 msgid "International"
@@ -11634,8 +11636,8 @@ msgstr "blandede"
 
 #. Subtitle position on screen setting list
 msgctxt "#21460"
-msgid "Subtitle position on screen"
-msgstr "Position for undertekst på skærmen"
+msgid "Position on screen"
+msgstr "Placering på skærmen"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21461"
@@ -15536,10 +15538,10 @@ msgctxt "#36184"
 msgid "This category contains the settings for how subtitles are handled."
 msgstr "Kategori indeholdende indstillinger for håndtering af undertekster."
 
-#. Description of setting with label #14089 "Font to use for text subtitles"
+#. Description of setting with label #14089 "Font"
 msgctxt "#36185"
-msgid "Set the font type to be used for text based (usually downloaded) subtitles."
-msgstr "Indstil skrifttypen for tekstbaserede (almindeligvis downloadede) undertekster."
+msgid "Set the font type to be used for subtitles."
+msgstr "Indstil skrifttype for undertekster."
 
 #. Description of setting with label #289 "Size"
 msgctxt "#36186"
@@ -17525,15 +17527,15 @@ msgctxt "#37031"
 msgid "Specifies how Blu-rays should be opened / played back. Note: Some disc menus are not fully supported and may cause problems."
 msgstr "Vælg hvordan Blu-rays skal åbnes/afspilles. Nogle Blu-ray menuer er ikke fuldt understøttet og kan skabe problemer."
 
-#. Title of category #37032 Accessibility
+#. Title of accessibility menu group
 msgctxt "#37032"
 msgid "Accessibility"
 msgstr "Tilgængelighed"
 
-#. Description of category #37032 Accessibility
+#. Description of category #287 Subtitles
 msgctxt "#37033"
-msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
-msgstr "Videoafspilningsrelaterede indstillinger, såsom \"Foretræk undertekster for hørehæmmede\"."
+msgid "This category contains the settings for subtitles"
+msgstr "Kategori indeholdende indstillinger for undertekster"
 
 #. Setting #37034 Accessibility
 msgctxt "#37034"
@@ -17895,8 +17897,8 @@ msgstr "Kategori indeholdende indstillinger for afspilning af billeder via et di
 
 #. Description of category #14213 "Language"
 msgctxt "#38106"
-msgid "This category contains the settings for audio & subtitle language"
-msgstr "Kategori indeholdende indstillingerne for lyd- og undertekstsprog"
+msgid "This category contains the settings for audio / subtitles language and accessibility"
+msgstr "Kategori indeholdende indstillingerne for lyd-/undertekstsprog og tilgængelighed"
 
 #. Description of category #14210 "Videos"
 msgctxt "#38107"
@@ -18613,20 +18615,80 @@ msgctxt "#39176"
 msgid "Relative volume for gui sounds"
 msgstr "Relativ lydstyrke for gui-lyde"
 
+#. Dialog caption related to the speech to text process
+msgctxt "#39177"
+msgid "Speech to text"
+msgstr "Tale til tekst"
+
+#. Dialog text to notify that the speech service is not available
+msgctxt "#39178"
+msgid "Speech recognition service not available"
+msgstr "Tjeneste til talegenkendelse er ikke tilgængelig"
+
+#. Dialog text to notify that microphone is listening
+msgctxt "#39179"
+msgid "Listening..."
+msgstr "Lytter..."
+
+#. Dialog text to notify that there has been no matching recognition result
+msgctxt "#39180"
+msgid "No recognition result matched"
+msgstr "Intet genkendelsesresultat matchede"
+
+#. Dialog text to notify that there has been a speech recognition error
+msgctxt "#39181"
+msgid "Speech recognition error"
+msgstr "Talegenkendelsesfejl"
+
 #. Subtitle vertical margin setting
 msgctxt "#39182"
 msgid "Vertical margin"
-msgstr ""
+msgstr "Lodret margin"
 
 #. Help text for setting "Vertical margin" of label #39182
 msgctxt "#39183"
 msgid "Allows you to add a margin in top and bottom aligned text. Changing this setting will affect also subtitle position set with the Video calibration."
-msgstr ""
+msgstr "Giver dig mulighed for at tilføje en margen i top- og bundjusteret tekst. Ændring af denne indstilling vil også påvirke positionen af undertekster indstillet med videokalibreringen."
 
 #. Window screen calibration: the current subtitle calibration value with vertical margin
 msgctxt "#39184"
 msgid "Current value: {0:d} (with vertical margin: {1:d})"
-msgstr ""
+msgstr "Nuværende værdi: {0:d} (med lodret margin: {1:d})"
+
+#. Dialog text to notify that there are insufficient permissions for speech recognition
+msgctxt "#39185"
+msgid "Insufficient permissions for speech recognition"
+msgstr "Utilstrækkelige tilladelser til talegenkendelse"
+
+#. Title of group menu subtitles
+msgctxt "#39186"
+msgid "Styles for text based subtitles"
+msgstr "Stilarter til tekstbaserede undertekster"
+
+#. Title of group menu subtitles
+msgctxt "#39187"
+msgid "Closed caption subtitles"
+msgstr "Undertekster for hørehæmmede"
+
+#~ msgctxt "#14089"
+#~ msgid "Font to use for text subtitles"
+#~ msgstr "Skrifttype til undertekster"
+
+#~ msgctxt "#21460"
+#~ msgid "Subtitle position on screen"
+#~ msgstr "Position for undertekst på skærmen"
+
+#~ msgctxt "#36185"
+#~ msgid "Set the font type to be used for text based (usually downloaded) subtitles."
+#~ msgstr "Indstil skrifttypen for tekstbaserede (almindeligvis downloadede) undertekster."
+
+#~ msgctxt "#37033"
+#~ msgid "Video playback related accessibility settings, e.g. \"Prefer subtitles for the hearing impaired\"."
+#~ msgstr "Videoafspilningsrelaterede indstillinger, såsom \"Foretræk undertekster for hørehæmmede\"."
+
+#~ msgctxt "#38106"
+#~ msgid "This category contains the settings for audio & subtitle language"
+#~ msgstr "Kategori indeholdende indstillingerne for lyd- og undertekstsprog"
 
 #~ msgctxt "#39175"
 #~ msgid "This category contains all the on screen display (OSD) related settings."
