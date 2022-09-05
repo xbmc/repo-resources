@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-16 08:20+0000\n"
+"PO-Revision-Date: 2022-08-30 18:58+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Catalan (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/ca_es/>\n"
 "Language: ca_es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -7451,7 +7451,7 @@ msgstr "Xifrat"
 #. unused?
 msgctxt "#19016"
 msgid "PVR backend {0:d} - {1:s}"
-msgstr ""
+msgstr "Servidor PVR {0:d} - {1:s}"
 
 #. generic label for pvr recordings used in different places
 msgctxt "#19017"
@@ -7541,12 +7541,12 @@ msgstr "Informació"
 #. message box text stating that a timer is already set for a given epg event.
 msgctxt "#19034"
 msgid "There is already a timer set for this event"
-msgstr ""
+msgstr "Ja hi ha un temporitzador configurat per a aquest esdeveniment"
 
 #. message box text stating that a pvr channel could not be played.
 msgctxt "#19035"
 msgid "{0:s} can't be played. Check the log for more information about this message."
-msgstr ""
+msgstr "{0:s} no es pot reproduir. Consulteu el registre per obtenir més informació sobre aquest missatge."
 
 #. message box text stating that a recording could not be played.
 msgctxt "#19036"
@@ -7668,12 +7668,12 @@ msgstr "Ordena per: canal"
 #. Label for epg grid window "jump to grid start" (oldest available programme) context menu entry and epg grid controls dialog help text
 msgctxt "#19063"
 msgid "First programme"
-msgstr ""
+msgstr "Primer programa"
 
 #. Label for epg grid window "jump to grid end" (youngest available programme) context menu entry and epg grid controls dialog help text
 msgctxt "#19064"
 msgid "Last programme"
-msgstr ""
+msgstr "Últim programa"
 
 #. Label for timer settings dialog header
 msgctxt "#19065"
@@ -7703,7 +7703,7 @@ msgstr "Guia"
 #. Label for epg grid window "jump to now" (current programme) context menu entry and epg grid controls dialog help text
 msgctxt "#19070"
 msgid "Current programme"
-msgstr ""
+msgstr "Programa actual"
 
 #. pvr settings "epg update interval" setting label
 msgctxt "#19071"
@@ -7713,7 +7713,7 @@ msgstr "Interval d'actualització"
 #. Dialog warning text for invalid timer setting
 msgctxt "#19072"
 msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
-msgstr ""
+msgstr "Per afegir/actualitzar un temporitzador, la data i l'hora de finalització han de ser superiors a la data i l'hora d'inici."
 
 #. pvr settings "delay channel switch" setting label
 msgctxt "#19073"
@@ -7777,7 +7777,7 @@ msgstr "Primer dia"
 #. default for channels without a name. place holder will be filled with channel number.
 msgctxt "#19085"
 msgid "Unknown channel {0:s}"
-msgstr ""
+msgstr "Canal desconegut {0:s}"
 
 #. Label for "Instant recording action" setting
 msgctxt "#19086"
@@ -7787,12 +7787,12 @@ msgstr "Acció de l'enregistrament instantani"
 #. Label for "Instant recording action" settings value
 msgctxt "#19087"
 msgid "Record current show (if guide data available)"
-msgstr ""
+msgstr "Grava el programa actual (si hi ha dades de la guia)"
 
 #. Label for "Instant recording action" settings value
 msgctxt "#19088"
 msgid "Record for a fixed period of time (Instant recording duration)"
-msgstr ""
+msgstr "Grava durant un període de temps determinat (durada de la gravació instantània)"
 
 #. Label for "Instant recording action" settings value
 msgctxt "#19089"
@@ -7802,7 +7802,7 @@ msgstr "Pregunta què s'ha de fer"
 #. Label for "Instant recording action" dialog settings value
 msgctxt "#19090"
 msgid "Record the next {0:d} minutes"
-msgstr ""
+msgstr "Grava els propers {0:d} minuts"
 
 #. Label for "Instant recording action" dialog settings value
 msgctxt "#19091"
@@ -7822,22 +7822,22 @@ msgstr "Enregistrament instantani: {0:s}"
 #. error message displayed in case adding a timer failed because no suitable epg-based timer type could be found.
 msgctxt "#19094"
 msgid "Timer creation failed. Unsupported timer type."
-msgstr ""
+msgstr "La creació del temporitzador ha fallat. Tipus de temporitzador no compatible."
 
 #. error message displayed in case adding a timer rule failed because no suitable epg-based timer rule type could be found.
 msgctxt "#19095"
 msgid "Timer rule creation failed. Unsupported timer type."
-msgstr ""
+msgstr "No s'ha pogut crear la regla del temporitzador. Tipus de temporitzador no compatible."
 
 #. label of a value for default epg event select action, where the action is choosen depending on whether the event is in the past, now or in the future
 msgctxt "#19096"
 msgid "\"Smart select\""
-msgstr ""
+msgstr "\"Selecció intel·ligent\""
 
 #. label of the help text for the name edit field in PVR timer and recording settings dialog
 msgctxt "#19097"
 msgid "Enter the name for the timer"
-msgstr ""
+msgstr "Introduïu el nom del temporitzador"
 
 #. generic warning label used at several places
 msgctxt "#19098"
@@ -7882,7 +7882,7 @@ msgstr "Seleccioneu un canal"
 #. part of timer information text (e.g. "Next recording on 10/10/2016 at 9:00 AM")
 msgctxt "#19106"
 msgid "Next recording on"
-msgstr ""
+msgstr "Propera gravació al"
 
 #. part of timer information text (e.g. "Next recording on 10/10/2016 at 9:00 AM")
 msgctxt "#19107"
@@ -7897,12 +7897,12 @@ msgstr "Taxa de fotogrames de replegament"
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
 msgid "Could not save the timer. Check the log for more information about this message."
-msgstr ""
+msgstr "No s'ha pogut desar el temporitzador. Consulteu el registre per obtenir més informació sobre aquest missatge."
 
 #. message box text stating that a timer could not be deleted
 msgctxt "#19110"
 msgid "Could not delete the timer. Check the log for more information about this message."
-msgstr ""
+msgstr "No s'ha pogut suprimir el temporitzador. Consulteu el registre per obtenir més informació sobre aquest missatge."
 
 #. message box text stating that a PVR backend error occurred
 msgctxt "#19111"
@@ -7947,7 +7947,7 @@ msgstr "No es poden utilitzar les funcions del PVR mentre es realitza una cerca.
 #. channel scan backend selection dialog text
 msgctxt "#19119"
 msgid "On which backend do you want to search?"
-msgstr ""
+msgstr "En quin servidor voleu cercar?"
 
 #. label for PVR client number in system information's PVR section
 msgctxt "#19120"
@@ -8073,7 +8073,7 @@ msgstr "Grups"
 #. Dialog warning text for lifetime recording setting
 msgctxt "#19147"
 msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
-msgstr ""
+msgstr "Si estableixes el temps de vida d'aquesta gravació a {0:d} dies, l'enregistrament caducarà immediatament, cosa que podria provocar la supressió instantània de la gravació. Continuar igualment?"
 
 #. generic PVR 'channel' label used in different places
 msgctxt "#19148"
@@ -8156,7 +8156,7 @@ msgstr "Enregistraments"
 #. error box text stating that recording could not be started
 msgctxt "#19164"
 msgid "Could not start recording. Check the log for more information about this message."
-msgstr ""
+msgstr "No s'ha pogut iniciar la gravació. Consulteu el registre per obtenir més informació sobre aquest missatge."
 
 #. Label for "switch to channel" button""
 msgctxt "#19165"
@@ -8186,7 +8186,7 @@ msgstr "Oculta la caixa d'informació de vídeo"
 #. error box text stating that recording could not be stopped
 msgctxt "#19170"
 msgid "Could not stop recording. Check the log for more information about this message."
-msgstr ""
+msgstr "No s'ha pogut aturar la gravació. Consulteu el registre per obtenir més informació sobre aquest missatge."
 
 #. pvr settings "start playback full screen" setting label
 msgctxt "#19171"
@@ -8211,12 +8211,12 @@ msgstr "Grups d'emissores de ràdio"
 #. pvr settings "default time to add before the start of an event to record (according to its epg data)" setting label
 msgctxt "#19175"
 msgid "Default start padding time"
-msgstr ""
+msgstr "Temps extra inicial per defecte"
 
 #. pvr settings "default time to add after the end of an event to record (according to epg its data)" setting label
 msgctxt "#19176"
 msgid "Default end padding time"
-msgstr ""
+msgstr "Temps extra final per defecte"
 
 #. pvr settings category and group label
 msgctxt "#19177"
@@ -8283,12 +8283,12 @@ msgstr "Totes les dades de les vostres guies seran netejades. N'esteu segur?"
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
 msgid "The PVR backend does not allow to record this event."
-msgstr ""
+msgstr "El servidor del PVR no permet gravar aquest esdeveniment."
 
 #. generic "play program" label used in different places
 msgctxt "#19190"
 msgid "Play programme"
-msgstr ""
+msgstr "Reproduir programa"
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -8302,7 +8302,7 @@ msgstr "Cap dels dorsals dels PVR connectats és compatible amb l'exploració de
 #. error message box text stating that a given pvr channel could not be played
 msgctxt "#19193"
 msgid "The channel scan can't be started. Check the log for more information about this message."
-msgstr ""
+msgstr "L'escaneig de canals no es pot iniciar. Consulteu el registre per obtenir més informació sobre aquest missatge."
 
 #. unused?
 msgctxt "#19194"
@@ -8312,7 +8312,7 @@ msgstr "Continua?"
 #. pvr settings "delay mark last watched" setting label
 msgctxt "#19195"
 msgid "Delay mark last watched"
-msgstr ""
+msgstr "Endarrerir la marcació d'última visualització"
 
 #. value for "pvr client specific actions" dialog headers
 msgctxt "#19196"
@@ -8322,12 +8322,12 @@ msgstr "Accions específiques de client PVR"
 #. text for "recording started on <pvr client name>" pvr client addon callback notification
 msgctxt "#19197"
 msgid "Recording started on: {0:s}"
-msgstr ""
+msgstr "Gravació iniciada el: {0:s}"
 
 #. text for "recording finished on <pvr client name>" pvr client addon callback notification
 msgctxt "#19198"
 msgid "Recording finished on: {0:s}"
-msgstr ""
+msgstr "Gravació acabada el: {0:s}"
 
 #. pvr settings "channel manager" action button label
 msgctxt "#19199"
@@ -8407,7 +8407,7 @@ msgstr "Introduïu un URL vàlid per al nou canal"
 #. pvr settings "reminders" category label
 msgctxt "#19215"
 msgid "Reminders"
-msgstr ""
+msgstr "Recordatoris"
 
 #. label for 'all channels' value for 'channels' selector control in pvr radio guide search dialog
 msgctxt "#19216"
@@ -8446,7 +8446,7 @@ msgstr "Guia"
 #. unused?
 msgctxt "#19223"
 msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
-msgstr ""
+msgstr "No s'ha pogut activar cap complement de PVR. Comproveu la vostra configuració o el registre per obtenir més informació."
 
 #. Notification text to announce that a recording was aborted
 msgctxt "#19224"
@@ -8536,7 +8536,7 @@ msgstr "Prioritats del client"
 #. Label for context menu entry to open settings dialog for a timer (read-only)
 msgctxt "#19241"
 msgid "View timer"
-msgstr ""
+msgstr "Veure el temporitzador"
 
 #. Label for context menu entry to open settings dialog for a timer
 msgctxt "#19242"
@@ -8581,7 +8581,7 @@ msgstr "Filtra els canals"
 #. Settings -> PVR -> Playback -> Switch to fullscreen value
 msgctxt "#19250"
 msgid "TV and radio channels"
-msgstr ""
+msgstr "Canals de televisió i ràdio"
 
 #. label for 'update epg' context menu item and 'update epg' confirmation dialog header
 msgctxt "#19251"
@@ -8591,17 +8591,17 @@ msgstr "Actualitza la informació de la guia"
 #. label for 'update channel epg' confirmation dialog text
 msgctxt "#19252"
 msgid "Schedule guide update for this channel?"
-msgstr ""
+msgstr "Voleu programar una actualització de la guia per a aquest canal?"
 
 #. label for notification text stating that an epg data update for a given channel was started
 msgctxt "#19253"
 msgid "Guide update scheduled for channel"
-msgstr ""
+msgstr "Actualització de la guia programada per al canal"
 
 #. label for notification text stating that an epg data update for a given channel failed
 msgctxt "#19254"
 msgid "Guide update failed for channel"
-msgstr ""
+msgstr "No s'ha pogut actualitzar la guia per al canal"
 
 #. for a timer rule, the number of child timers which are currently scheduled to record. For use in "status" fields.
 msgctxt "#19255"
@@ -8646,7 +8646,7 @@ msgstr "Control parental. Introduïu el PIN:"
 #. message box text stating that a timer could not be updated
 msgctxt "#19263"
 msgid "Could not update the timer. Check the log for more information about this message."
-msgstr ""
+msgstr "No s'ha pogut actualitzar el temporitzador. Consulteu el registre per obtenir més informació sobre aquest missatge."
 
 #. label for 'incorrect pin' error dialog header
 msgctxt "#19264"
@@ -8656,7 +8656,7 @@ msgstr "PIN incorrecte"
 #. label for 'incorrect pin' error dialog text
 msgctxt "#19265"
 msgid "The entered PIN was incorrect."
-msgstr ""
+msgstr "El PIN introduït era incorrecte."
 
 #. label to use for epg tag title instead of actual event title if the respective channel is parental locked
 msgctxt "#19266"
@@ -8675,7 +8675,7 @@ msgstr "Oculta les etiquetes «No hi ha informació disponible»"
 #. pvr settings "Preselect playing channel in lists" control label
 msgctxt "#19269"
 msgid "Preselect playing channel in lists"
-msgstr ""
+msgstr "Preseleccioneu el canal de reproducció a les llistes"
 
 #. Label of the option to switch between a grouped recordings list and a non-grouped recordings list in pvr recordings window.
 msgctxt "#19270"
@@ -8685,7 +8685,7 @@ msgstr "Grup d'elements"
 #. unused?
 msgctxt "#19271"
 msgid "No PVR add-ons could be found"
-msgstr ""
+msgstr "No s'ha pogut trobar cap complement de PVR"
 
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
@@ -8770,7 +8770,7 @@ msgstr "Tots els canals"
 #. Label for epg grid window "go to date" context menu entry
 msgctxt "#19288"
 msgid "Date selector"
-msgstr ""
+msgstr "Selector de dates"
 
 #. Label for button to hide a group in the group manager
 msgctxt "#19289"
@@ -8795,12 +8795,12 @@ msgstr "Elimina-ho tot de forma permanent"
 #. "remove deleted recordings from trash" dialog text
 msgctxt "#19293"
 msgid "Remove all deleted recordings from trash? This operation cannot be reverted."
-msgstr ""
+msgstr "Vols eliminar totes les gravacions suprimides de la paperera? Aquesta operació no es pot revertir."
 
 #. "remove deleted recording from trash" dialog text
 msgctxt "#19294"
 msgid "Remove this deleted recording from trash? This operation cannot be reverted."
-msgstr ""
+msgstr "Vols eliminar aquesta gravació suprimida de la paperera? Aquesta operació no es pot revertir."
 
 #. Label for context menu entry to delete a timer rule
 msgctxt "#19295"
@@ -8815,32 +8815,32 @@ msgstr "No hi ha cap complement PVR habilitat"
 #. 'Viewtype' label for vertical channel layout, used in pvr guide window
 msgctxt "#19297"
 msgid "Vertical channels"
-msgstr ""
+msgstr "Canals en vertical"
 
 #. 'Viewtype' label for horizontal channel layout, used in pvr guide window
 msgctxt "#19298"
 msgid "Horizontal channels"
-msgstr ""
+msgstr "Canals en horitzontal"
 
 #. generic "expiration" label used in different places
 msgctxt "#19299"
 msgid "Expires"
-msgstr ""
+msgstr "Caduca"
 
 #. 'Viewtype' label for vertical channel layout without channel group selctor, used in pvr guide window
 msgctxt "#19300"
 msgid "Vertical channels, no group selector"
-msgstr ""
+msgstr "Canals en verticals, sense selector de grup"
 
 #. 'Viewtype' label for horizontal channel layout without channel group selctor, used in pvr guide window
 msgctxt "#19301"
 msgid "Horizontal channels, no group selector"
-msgstr ""
+msgstr "Canals en horitzontal, sense selector de grup"
 
 #. text for yes no dialog shown when user selects a future programme in the guide window and default select action is 'smart select'
 msgctxt "#19302"
 msgid "Do you want to record the selected programme or to switch to the current programme?"
-msgstr ""
+msgstr "Voleu gravar el programa seleccionat o canviar al programa actual?"
 
 #. label for PVR settings close channel OSD after channel switch control
 msgctxt "#19303"
@@ -8850,152 +8850,152 @@ msgstr "Tanca l'OSD del canal després de canviar de canal"
 #. label for context menu entry to open settings dialog for a timer rule (read-only)
 msgctxt "#19304"
 msgid "View timer rule"
-msgstr ""
+msgstr "Veure la regla del temporitzador"
 
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19305"
 msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "S'ha suprimit el recordatori de PVR perdut per a '{0:s}' al canal '{1:s}' a les '{2:s}'"
 
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19306"
 msgid "Deleted missed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
+msgstr "S'ha suprimit el recordatori de PVR perdut per al canal '{0:s}' a les '{1:s}'"
 
 #. text for reminder announcement dialog
 msgctxt "#19307"
 msgid "Reminder for [B]{0:s}[/B] on channel [B]{1:s}[/B] at [B]{2:s}[/B]."
-msgstr ""
+msgstr "Recordatori per a [B]{0:s}[/B] al canal [B]{1:s}[/B] a les [B]{2:s}[/B]."
 
 #. text for reminder announcement dialog
 msgctxt "#19308"
 msgid "Reminder for channel [B]{0:s}[/B] at [B]{1:s}[/B]."
-msgstr ""
+msgstr "Recordatori per al canal [B]{0:s}[/B] a les [B]{1:s}[/B]."
 
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19309"
 msgid "(Auto-close of this reminder will schedule a recording...)"
-msgstr ""
+msgstr "(El tancament automàtic d'aquest recordatori programarà una gravació...)"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19310"
 msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "Enregistrament programat pel tancament automàtic del recordatori PVR per a '{0:s}' al canal '{1:s}' a les '{2:s}'"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19311"
 msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
+msgstr "Enregistrament programat pel tancament automàtic del recordatori PVR pel canal '{0:s}' a les '{1:s}'"
 
 #. heading for pvr reminder notification dialog
 msgctxt "#19312"
 msgid "PVR reminder"
-msgstr ""
+msgstr "Recordatori de PVR"
 
 #. pvr settings "reminder auto close delay" setting label
 msgctxt "#19313"
 msgid "Automatically close reminder popup after"
-msgstr ""
+msgstr "Tanca automàticament la finestra emergent de recordatori després"
 
 #. pvr settings "schedule recording on reminder auto-close" setting label
 msgctxt "#19314"
 msgid "Schedule recording when auto-closing the reminder popup"
-msgstr ""
+msgstr "Programa la gravació al tancar automàticament la finestra emergent del recordatori"
 
 #. generic 'backend order' label
 msgctxt "#19315"
 msgid "Backend order"
-msgstr ""
+msgstr "Ordre del servidor"
 
 #. pvr settings "Start all group channel numbers from 1" setting label
 msgctxt "#19316"
 msgid "Start group channel numbers from 1"
-msgstr ""
+msgstr "Inicia els números de canal de grup des de l'1"
 
 #. Label for epg grid window "Jump 12 hours back" context menu entry and epg grid controls dialog help text
 msgctxt "#19317"
 msgid "12 hours back"
-msgstr ""
+msgstr "12 hores enrere"
 
 #. Label for epg grid window "Jump 12 hours forward" context menu entry and epg grid controls dialog help text
 msgctxt "#19318"
 msgid "12 hours forward"
-msgstr ""
+msgstr "12 hores endavant"
 
 #. Label for epg grid window "Activate previous channel group" context menu entry and epg grid controls dialog help text
 msgctxt "#19319"
 msgid "Previous group"
-msgstr ""
+msgstr "Grup anterior"
 
 #. Label for epg grid window "Activate next channel group" context menu entry and epg grid controls dialog help text
 msgctxt "#19320"
 msgid "Next group"
-msgstr ""
+msgstr "Grup següent"
 
 #. Label for epg grid window "Activate channel group selector" context menu entry and epg grid controls dialog help text
 msgctxt "#19321"
 msgid "Group selector"
-msgstr ""
+msgstr "Selector de grups"
 
 #. Label for epg grid window "Jump to first channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19322"
 msgid "First channel"
-msgstr ""
+msgstr "Primer canal"
 
 #. Label for epg grid window "Jump to playing channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19323"
 msgid "Playing channel"
-msgstr ""
+msgstr "Canal en reproducció"
 
 #. Label for epg grid window "Jump to last channel" context menu entry and epg grid controls dialog help text
 msgctxt "#19324"
 msgid "Last channel"
-msgstr ""
+msgstr "Últim canal"
 
 #. Label for epg grid controls "Programme" group header"
 msgctxt "#19325"
 msgid "Programme"
-msgstr ""
+msgstr "Programa"
 
 #. Label for epg grid window "Navigate..." context menu entry
 msgctxt "#19326"
 msgid "Navigate..."
-msgstr ""
+msgstr "Navega..."
 
 #. Label for a context menu entry to delete alle watched recordings contained in a folder
 msgctxt "#19327"
 msgid "Delete watched"
-msgstr ""
+msgstr "Elimina els vistos"
 
 #. delete multiple recordings confirmation message box text
 msgctxt "#19328"
 msgid "Delete all watched recordings in this folder?"
-msgstr ""
+msgstr "Vols suprimir totes les gravacions vistes d'aquesta carpeta?"
 
 #. label for PVR settings use backend channel numbers always
 msgctxt "#19329"
 msgid "Allow backend channel numbers with more than one PVR add-on"
-msgstr ""
+msgstr "Permet l'ús dels números dels canals del servidor amb més d'un complement de PVR"
 
 #. pvr settings "switch to channel on reminder auto-close" setting label
 msgctxt "#19330"
 msgid "Switch to channel when auto-closing the reminder popup"
-msgstr ""
+msgstr "Canvia al canal quan es tanca automàticament la finestra emergent del recordatori"
 
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19331"
 msgid "(Auto-close of this reminder will switch to channel...)"
-msgstr ""
+msgstr "(El tancament automàtic d'aquest recordatori canviarà al canal...)"
 
 #. text for event log entry for logging auto channel switch for auto-closed reminders
 msgctxt "#19332"
 msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr ""
+msgstr "S'ha canviat al canal pel recordatori PVR tancat automàticament per '{0:s}' al canal '{1:s}' a les '{2:s}'"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr ""
+msgstr "S'ha canviat al canal pel recordatori PVR tancat automàticament pel canal '{0:s}' a les '{1:s}'"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -9459,22 +9459,22 @@ msgstr "Reprodueix l'enregistrament"
 #. Text for shutdown confirmation dialog
 msgctxt "#19690"
 msgid "PVR has scheduled a reminder for '{0:s}' on channel '{1:s}' in {2:s}."
-msgstr ""
+msgstr "PVR ha programat un recordatori per a '{0:s}' al canal '{1:s}' en {2:s}."
 
 #. Text for shutdown confirmation dialog.
 msgctxt "#19691"
 msgid "PVR is currently recording '{0:s}' on channel '{1:s}'."
-msgstr ""
+msgstr "Actualment, PVR està gravant '{0:s}' al canal '{1:s}'."
 
 #. Text for shutdown confirmation dialog
 msgctxt "#19692"
 msgid "PVR will start recording '{0:s}' on channel '{1:s}' in {2:s}."
-msgstr ""
+msgstr "PVR començarà a gravar '{0:s}' al canal '{1:s}' en {2:s}."
 
 #. Text for shutdown confirmation dialog
 msgctxt "#19693"
 msgid "Daily wakeup is due in {0:s}."
-msgstr ""
+msgstr "El despertador diari és d'aquí a {0:s}."
 
 #. Text for shutdown confirmation dialog
 msgctxt "#19694"
@@ -9644,7 +9644,7 @@ msgstr "Voleu crear el perfil '{0:s}'?"
 
 msgctxt "#20048"
 msgid "Start with fresh settings or copy from default?"
-msgstr ""
+msgstr "Començar amb una configuració nova o copiar la configuració predeterminada?"
 
 msgctxt "#20049"
 msgid "Best available"
@@ -9733,11 +9733,11 @@ msgstr "Directori del perfil"
 
 msgctxt "#20071"
 msgid "Start with fresh media sources or copy from default?"
-msgstr ""
+msgstr "Començar amb fonts de contingut noves o copiar-les per defecte?"
 
 msgctxt "#20072"
 msgid "Make sure the selected folder is writable and that the new folder name is valid"
-msgstr ""
+msgstr "Assegureu-vos que la carpeta seleccionada s'hi pot escriure i que el seu nom és vàlid"
 
 msgctxt "#20074"
 msgid "MPAA rating"
@@ -9841,7 +9841,7 @@ msgstr "S'està obtenint la informació per a l'àlbum"
 
 msgctxt "#20099"
 msgid "A CD or track can't be ripped while being played"
-msgstr ""
+msgstr "No es pot extraure un CD o una pista mentre es reprodueix"
 
 msgctxt "#20100"
 msgid "Master lock code and settings"
@@ -9981,7 +9981,7 @@ msgstr "No s'ha pogut muntar la unitat de memòria"
 
 msgctxt "#20139"
 msgid "In port {0:d}, slot {1:d}"
-msgstr ""
+msgstr "Al port {0:d}, ranura {1:d}"
 
 msgctxt "#20140"
 msgid "Lock screensaver"
@@ -10009,7 +10009,7 @@ msgstr "Interval d'apagada (en minuts)"
 
 msgctxt "#20146"
 msgid "Started, shutdown in {0:d}m"
-msgstr ""
+msgstr "Iniciat, apagar d'aquí a {0:d}m"
 
 msgctxt "#20147"
 msgid "Shutdown in 30 minutes"
@@ -10033,7 +10033,7 @@ msgstr "Cancel·la el temps d'apagada"
 
 msgctxt "#20152"
 msgid "Lock preferences for {0:s}"
-msgstr ""
+msgstr "Bloqueja les preferències per a {0:s}"
 
 msgctxt "#20153"
 msgid "Browse..."
@@ -10121,7 +10121,7 @@ msgstr "Servidor FTP"
 
 msgctxt "#20174"
 msgid "FTPS server"
-msgstr ""
+msgstr "Servidor FTPS"
 
 msgctxt "#20175"
 msgid "UPnP server"
@@ -10226,7 +10226,7 @@ msgstr "Prefereix la informació en línia"
 #. Description of setting with label #20220 "Prefer online information"
 msgctxt "#20221"
 msgid "With this enabled, any information that is downloaded for albums and artists will override anything you have set in your song tags, such as genres, year, song artists etc. Useful if you have MusicBrainz identifiers in your song tags."
-msgstr ""
+msgstr "Amb això activat, qualsevol informació que es descarregui per a àlbums i artistes sobreescriurà qualsevol cosa que hàgiu establert a les etiquetes de les vostres cançons, com ara gèneres, any, artistes de cançons, etc. Útil si teniu identificadors de MusicBrainz a les etiquetes de cançons."
 
 msgctxt "#20222"
 msgid "Look for external subtitles"
@@ -10238,21 +10238,21 @@ msgstr "Carpeta d'informació de l'artista"
 
 msgctxt "#20224"
 msgid "Prefer online album art"
-msgstr ""
+msgstr "Prefereix la caràtula de l'àlbum en línia"
 
 #. Description of setting with label #20224 "Prefer online album art"
 msgctxt "#20225"
 msgid "Where no local album cover exists, online art will be used. Where neither is available, cover images embedded in music files will be used"
-msgstr ""
+msgstr "Quan no hi hagi cap caràtula d'àlbum local, s'utilitzarà la d'en línia. Quan no estigui disponible, s'utilitzaran les imatges incrustades als fitxers de música"
 
 msgctxt "#20226"
 msgid "Movie set information folder"
-msgstr ""
+msgstr "Carpeta d'informació del conjunt de pel·lícules"
 
 # empty string with id 20227
 msgctxt "#20228"
 msgid "Use artist sortname when sorting by artist"
-msgstr ""
+msgstr "Utilitza el nom de l'artista al ordenar per artista"
 
 msgctxt "#20240"
 msgid "Android music"
@@ -10376,23 +10376,23 @@ msgstr "Ordena per: ID"
 
 msgctxt "#20317"
 msgid "Scanning movies using {0:s}"
-msgstr ""
+msgstr "Escaneig de pel·lícules utilitzant {0:s}"
 
 msgctxt "#20318"
 msgid "Scanning music videos using {0:s}"
-msgstr ""
+msgstr "Escaneig de vídeos musicals utilitzant {0:s}"
 
 msgctxt "#20319"
 msgid "Scanning TV shows using {0:s}"
-msgstr ""
+msgstr "Escaneig de sèries utilitzant {0:s}"
 
 msgctxt "#20320"
 msgid "Scanning artists using {0:s}"
-msgstr ""
+msgstr "Escaneig d'artistes utilitzant {0:s}"
 
 msgctxt "#20321"
 msgid "Scanning albums using {0:s}"
-msgstr ""
+msgstr "Escaneig d'àlbums utilitzant {0:s}"
 
 msgctxt "#20322"
 msgid "Content scanning options"
@@ -10582,7 +10582,7 @@ msgstr "Prod code"
 
 msgctxt "#20369"
 msgid "Show information for unwatched items"
-msgstr ""
+msgstr "Mostra la informació dels elements no visualitzats"
 
 msgctxt "#20370"
 msgid "* Hidden to prevent spoilers *"
@@ -10845,7 +10845,7 @@ msgstr "Exclou el camí de les actualitzacions de la biblioteca"
 
 msgctxt "#20433"
 msgid "Extract video information from files"
-msgstr ""
+msgstr "Extreu la informació de vídeo dels fitxers"
 
 msgctxt "#20434"
 msgid "Sets"
@@ -10968,7 +10968,7 @@ msgstr "Nova etiqueta..."
 
 msgctxt "#20463"
 msgid "A tag with the name '{0:s}' already exists."
-msgstr ""
+msgstr "Ja existeix una etiqueta amb el nom '{0:s}'."
 
 msgctxt "#20464"
 msgid "Select {0:s}"
@@ -10984,7 +10984,7 @@ msgstr "Seleccioneu una col·lecció de pel·lícules"
 
 msgctxt "#20467"
 msgid "No set (remove from {0:s})"
-msgstr ""
+msgstr "No s'ha definit (elimina de {0:s})"
 
 msgctxt "#20468"
 msgid "Add movie to a new set"
@@ -10992,7 +10992,7 @@ msgstr "Afegeix una pel·lícula a una nova col·lecció"
 
 msgctxt "#20469"
 msgid "Keep current set ({0:s})"
-msgstr ""
+msgstr "Mantén el conjunt actual ({0:s})"
 
 msgctxt "#20470"
 msgid "Include sets containing a single movie"
@@ -11004,7 +11004,7 @@ msgstr "Mostra els programes de TV buits"
 
 msgctxt "#20472"
 msgid "Show all performers for music videos"
-msgstr ""
+msgstr "Mostra tots els intèrprets dels vídeos musicals"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -11057,11 +11057,11 @@ msgstr "No hi ha actualitzacions disponibles"
 
 msgctxt "#21342"
 msgid "There are currently no versions available for this add-on."
-msgstr ""
+msgstr "Actualment no hi ha cap versió disponible per a aquest complement."
 
 msgctxt "#21343"
 msgid "Use video tags"
-msgstr ""
+msgstr "Utilitzeu etiquetes de vídeo"
 
 msgctxt "#21344"
 msgid "If mp4 or mkv files have tags, use this for library metadata"
@@ -11070,7 +11070,7 @@ msgstr ""
 #. Used in AutoPlayNextItem dialogs for not categorized listItem directories
 msgctxt "#21345"
 msgid "Uncategorized"
-msgstr ""
+msgstr "Sense categoria"
 
 msgctxt "#21358"
 msgid "Enable UPnP support"
@@ -11110,7 +11110,7 @@ msgstr "Carpeta personalitzada dels subtítols"
 
 msgctxt "#21367"
 msgid "Movie & alternate subtitle directory"
-msgstr ""
+msgstr "Directori de pel·lícules i subtítols alternatius"
 
 msgctxt "#21368"
 msgid "Override ASS / SSA subtitles fonts"
@@ -11303,7 +11303,7 @@ msgstr "Proveïdor predeterminat per a la informació del vídeo musical"
 
 msgctxt "#21416"
 msgid "Select first unwatched TV show season / episode"
-msgstr ""
+msgstr "Selecciona la primera temporada o episodi de la sèrie sense veure"
 
 msgctxt "#21417"
 msgid "Settings"
@@ -11460,7 +11460,7 @@ msgstr "Origen massa lent"
 
 msgctxt "#21455"
 msgid "Read rate too low for continuous playback"
-msgstr ""
+msgstr "La taxa de lectura és massa baixa per a la reproducció contínua"
 
 msgctxt "#21456"
 msgid "External storage"
@@ -11505,7 +11505,7 @@ msgstr "Per sobre del vídeo"
 #. Description of setting with label #21416 "Select first unwatched TV show season/episode"
 msgctxt "#21466"
 msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
-msgstr ""
+msgstr "Al entrar a una visualització d'una temporada o episodi de sèrie, selecciona automàticament la primera temporada o episodi no vist.[CR][El primer cop] El primer element no vist només es seleccionarà quan s'entri a la visualització per primera vegada.[CR][Sempre]El primer element no vist es seleccionarà cada vegada que s'entri."
 
 #. Filter (media data) from float value to float value
 msgctxt "#21467"
@@ -11539,7 +11539,7 @@ msgstr "Inclou «Totes les temporades» i «Especials»"
 #. Description of setting with label #21472 "Include All Seasons and Specials"
 msgctxt "#21473"
 msgid "Whether or not to consider the items from \"All seasons\" and \"Specials\" in the unwatched item selection."
-msgstr ""
+msgstr "Si s'han de tenir en compte o no els elements de \"Totes les temporades\" i \"Especials\" a la selecció d'elements sense veure."
 
 #. One of the values valid for settings #21472 "Include All Seasons and Specials"
 msgctxt "#21474"
@@ -11575,11 +11575,11 @@ msgstr "Utilitza"
 
 msgctxt "#21481"
 msgid "Audio track count"
-msgstr ""
+msgstr "Quantitat de pistes d'àudio"
 
 msgctxt "#21482"
 msgid "Subtitle track count"
-msgstr ""
+msgstr "Quantitat de pistes de subtítols"
 
 #. Label for controls used to view something (e.g. a context menu entry to open read-only timer settings dialog)
 msgctxt "#21483"
@@ -11724,7 +11724,7 @@ msgstr "Orientació"
 
 msgctxt "#21844"
 msgid "XP comment"
-msgstr ""
+msgstr "Comentari XP"
 
 #. Used in context menu
 msgctxt "#21845"
@@ -11929,7 +11929,7 @@ msgstr "Retardat en: {0:2.3f}s"
 
 msgctxt "#22005"
 msgid "Ahead by: {0:2.3f}s"
-msgstr ""
+msgstr "Avançat en: {0:2.3f}s"
 
 msgctxt "#22006"
 msgid "Subtitle offset"
@@ -12049,7 +12049,7 @@ msgstr "Part {0:d}"
 
 msgctxt "#23052"
 msgid "Buffering {0:d} bytes"
-msgstr ""
+msgstr "Emmagatzemant {0:d} bytes"
 
 msgctxt "#23053"
 msgid "Stopping"
@@ -12252,7 +12252,7 @@ msgstr "Instal·la des d'un fitxer zip"
 #. Used to show on addon list the current download process
 msgctxt "#24042"
 msgid "Downloading {0:d}%"
-msgstr ""
+msgstr "Baixant {0:d}%"
 
 msgctxt "#24043"
 msgid "Available updates"
@@ -12261,7 +12261,7 @@ msgstr "Actualitzacions disponibles"
 #. Used to show on addon list the current install process (shown after 24042)
 msgctxt "#24044"
 msgid "Installing {0:d}%"
-msgstr ""
+msgstr "Instal·lant {0:d}%"
 
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
@@ -12278,7 +12278,7 @@ msgstr "Aquest complement no es pot desinstal·lar"
 
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
-msgstr ""
+msgstr "InputStream VideoPlayer"
 
 #. To show addon as deprecated over icon
 msgctxt "#24049"
@@ -12368,7 +12368,7 @@ msgstr "Actualització disponible"
 
 msgctxt "#24069"
 msgid "Versions"
-msgstr ""
+msgstr "Versions"
 
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
@@ -12599,7 +12599,7 @@ msgstr "Introduïu la cadena de cerca"
 #. Button in Add-on Manager -> Available Updates for updating all add-ons when auto-updating is off.
 msgctxt "#24122"
 msgid "Install all updates"
-msgstr ""
+msgstr "Instal·la totes les actualitzacions"
 
 #. Description of setting with label #24105 "Pause when searching for subtitles"
 msgctxt "#24123"
@@ -12647,11 +12647,11 @@ msgstr "Voleu canviar a aquest idioma?"
 
 msgctxt "#24133"
 msgid "Subtitle settings"
-msgstr ""
+msgstr "Configuració dels subtítols"
 
 msgctxt "#24134"
 msgid "Download subtitle..."
-msgstr ""
+msgstr "Descarrega el subtítol..."
 
 msgctxt "#24135"
 msgid "To use this feature you must enable an add-on:"
@@ -12754,19 +12754,19 @@ msgstr ""
 
 msgctxt "#24156"
 msgid "30 Seconds"
-msgstr ""
+msgstr "30 Segons"
 
 msgctxt "#24157"
 msgid "60 Seconds"
-msgstr ""
+msgstr "60 Segons"
 
 msgctxt "#24158"
 msgid "90 Seconds"
-msgstr ""
+msgstr "90 Segons"
 
 msgctxt "#24159"
 msgid "120 Seconds"
-msgstr ""
+msgstr "120 Segons"
 
 msgctxt "#24160"
 msgid "Enable Siri remote timeout"
@@ -12807,7 +12807,7 @@ msgstr ""
 #. Notification event to show addon marked as deprecated.
 msgctxt "#24168"
 msgid "Deprecated: {0:s}"
-msgstr ""
+msgstr "Obsolet: {0:s}"
 
 #. Lifecycle state name, for normal addons (no special). Used also on skin to compare and identify related state.
 msgctxt "#24169"
@@ -12817,7 +12817,7 @@ msgstr "Normal"
 #. Lifecycle state name, for deprecated addons. Used also on skin to compare and identify related state.
 msgctxt "#24170"
 msgid "Deprecated"
-msgstr ""
+msgstr "Obsolet"
 
 #. Lifecycle state name, for broken and not usable addons. Used also on skin to compare and identify related state.
 msgctxt "#24171"
@@ -12830,7 +12830,7 @@ msgstr "Trencat"
 #. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
 msgctxt "#24180"
 msgid "Minimum: {0:s}{3:s}"
-msgstr ""
+msgstr "Mínim: {0:s}{3:s}"
 
 #. The minimum version, plus the version going to be installed
 #. {3:s} reserved for an empty string or the " (optional)" optional string. see #24184
@@ -12853,7 +12853,7 @@ msgstr ""
 #. used in #24180 - #24183 as {3:s}
 msgctxt "#24184"
 msgid " (optional)"
-msgstr ""
+msgstr " (opcional)"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -12946,11 +12946,11 @@ msgstr "Anunci"
 
 msgctxt "#25012"
 msgid "Auto-skip off"
-msgstr ""
+msgstr "Salt automàtic desactivat"
 
 msgctxt "#25013"
 msgid "Auto-skip on"
-msgstr ""
+msgstr "Salt automàtic activat"
 
 #. Used to tell addon origin type
 #. xbmc/guilib/guiinfo/AddonsGUIInfo.cpp
@@ -12969,7 +12969,7 @@ msgstr "Traspàs de l'àudio en ús"
 #. Header text for the BD-J warning dialog
 msgctxt "#29803"
 msgid "BD-J menu error"
-msgstr ""
+msgstr "Error del menú BD-J"
 
 #. Body text for the BD-J warning dialog
 msgctxt "#29804"
@@ -13050,7 +13050,7 @@ msgstr "SMS"
 #. Hotline phone (if present)
 msgctxt "#29913"
 msgid "Hotline"
-msgstr ""
+msgstr "Línia directa"
 
 #. Website address (if present)
 msgctxt "#29914"
@@ -13070,7 +13070,7 @@ msgstr "Notícies"
 #. Local news, in list selector (if present)
 msgctxt "#29917"
 msgid "News local"
-msgstr ""
+msgstr "Notícies locals"
 
 #. Sport news, in list selector (if present)
 msgctxt "#29918"
@@ -13085,7 +13085,7 @@ msgstr "Loteria"
 #. Stock information, in list selector (if present)
 msgctxt "#29920"
 msgid "Stock"
-msgstr ""
+msgstr "Borsa"
 
 #. Other informations, in list selector (if present)
 msgctxt "#29921"
@@ -13101,7 +13101,7 @@ msgstr "Horòscop"
 #. Program style name
 msgctxt "#29926"
 msgid "Adult hits"
-msgstr ""
+msgstr "Èxits per a adults"
 
 #. Program style name
 msgctxt "#29927"
@@ -13136,7 +13136,7 @@ msgstr "Idioma"
 #. Program style name
 msgctxt "#29933"
 msgid "College"
-msgstr ""
+msgstr "Universitat"
 
 #. Program style name
 msgctxt "#29934"
@@ -13156,12 +13156,12 @@ msgstr "Música lleugera"
 #. Program style name
 msgctxt "#29937"
 msgid "Adult hits"
-msgstr ""
+msgstr "Èxits per a adults"
 
 #. Program style name
 msgctxt "#29938"
 msgid "Soft rock"
-msgstr ""
+msgstr "Rock suau"
 
 #. Program style name
 msgctxt "#29939"
@@ -13171,7 +13171,7 @@ msgstr "Conversa"
 #. Program style name
 msgctxt "#29940"
 msgid "No programme type"
-msgstr ""
+msgstr "Sense tipus de programa"
 
 #. Program style name
 msgctxt "#29941"
@@ -13236,12 +13236,12 @@ msgstr ""
 #. Program style name
 msgctxt "#29953"
 msgid "Light classical"
-msgstr ""
+msgstr "Clàssic lleuger"
 
 #. Program style name
 msgctxt "#29954"
 msgid "Serious classical"
-msgstr ""
+msgstr "Clàssic seriós"
 
 #. Program style name
 msgctxt "#29955"
@@ -13306,7 +13306,7 @@ msgstr "Música Nacional"
 #. Program style name
 msgctxt "#29967"
 msgid "Oldies Music"
-msgstr ""
+msgstr "Música antiga"
 
 #. Program style name
 msgctxt "#29968"
@@ -13332,7 +13332,7 @@ msgstr "Alarma"
 #. Program style name
 msgctxt "#29977"
 msgid "Classic rock music"
-msgstr ""
+msgstr "Música rock clàssica"
 
 #. Program style name
 msgctxt "#29978"
@@ -13378,7 +13378,7 @@ msgstr "Si s'ha enviat l'assessorament de trànsit des de l'RDS, s'apuja el volu
 #. Node title for music artist role, plural of #38036
 msgctxt "#29987"
 msgid "Remixers"
-msgstr ""
+msgstr "Remescladors"
 
 #. Node title for music artist role, plural of #38037
 msgctxt "#29988"
@@ -13393,12 +13393,12 @@ msgstr "Compositors"
 #. Node title for music artist role, plural of #29905
 msgctxt "#29990"
 msgid "Conductors"
-msgstr ""
+msgstr "Directors"
 
 #. Node title for music artist role, plural of #38040
 msgctxt "#29991"
 msgid "DJ Mixers"
-msgstr ""
+msgstr "Discjòqueis"
 
 #. Node title for music artist role, plural of #38035
 msgctxt "#29992"
@@ -13809,7 +13809,7 @@ msgstr "7.1"
 #. Description of setting with label #421 "Keep audio device alive"
 msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
-msgstr ""
+msgstr "Seleccioneu el comportament quan no es requereixi cap so per a la reproducció o pels sons de la GUI.[CR][Sempre] S'emet un senyal inaudible contínuament, això manté el dispositiu receptor d'àudio actiu per a qualsevol so nou, però també pot bloquejar el so d'altres aplicacions.[CR][1-10 minuts] Igual que [Sempre], excepte que després del període de temps seleccionat l'àudio entra en estat de repòs.[CR][Desactivat] La sortida d'àudio entra en estat de repòs. Nota: els sons es poden perdre si l'àudio entra en estat de repòs."
 
 #. Indicates if Audio Engine should transmit noise or real silence
 msgctxt "#34112"
@@ -13887,7 +13887,7 @@ msgstr "No s'ha pogut trobar l'anterior element a reproduir"
 #. Manual HDR toggle (ACTION_HDR_TOGGLE) - HDR On/Off toast caption
 msgctxt "#34220"
 msgid "HDR status"
-msgstr ""
+msgstr "Estat HDR"
 
 #. Manual HDR toggle (ACTION_HDR_TOGGLE) - HDR Off toast message
 msgctxt "#34221"
@@ -14025,7 +14025,7 @@ msgstr "Botó {0:d}"
 #. Name of a controller axis, e.g. Axis 2. {0:d} - axis index
 msgctxt "#35016"
 msgid "Axis {0:d}"
-msgstr ""
+msgstr "Eix {0:d}"
 
 #. Error dialog title when the controller dialog is opened but peripheral add-ons are disabled
 msgctxt "#35017"
@@ -14040,7 +14040,7 @@ msgstr ""
 #. Label of the button to fix the bug where buttons are skipped in the controller dialog
 msgctxt "#35019"
 msgid "Ignore input"
-msgstr ""
+msgstr "Ignora l'entrada"
 
 #. Help text of the dialog to detect analog buttons on controllers. {0:s} - list of detected axes
 msgctxt "#35020"
@@ -14050,12 +14050,12 @@ msgstr ""
 #. Button in the controller configuration dialog to install all controller profiles
 msgctxt "#35021"
 msgid "Get all"
-msgstr ""
+msgstr "Obtenir tots"
 
 #. Message shown in the controller dialog when there is nothing to map, for example hubs (multitaps) have no buttons
 msgctxt "#35022"
 msgid "Nothing to map"
-msgstr ""
+msgstr "No hi ha res a mapejar"
 
 #. Name of setting to configure peripheral add-ons
 msgctxt "#35047"
@@ -14080,7 +14080,7 @@ msgstr "Perfils dels controladors"
 #. Setting to test rumble
 msgctxt "#35051"
 msgid "Test rumble"
-msgstr ""
+msgstr "Prova de rebombori"
 
 #. Description of setting to test rumble
 msgctxt "#35052"
@@ -14141,27 +14141,27 @@ msgstr "Vinculeu els vostres controladors amb els diversos dispositius d'entrada
 #. Label for buttons that appear on a racing wheel for games. Used in the controller mapping dialog.
 msgctxt "#35071"
 msgid "Racing wheel"
-msgstr ""
+msgstr "Volant de carreres"
 
 #. Label for paddle buttons that appear on a racing wheel for games. Used in the controller mapping dialog.
 msgctxt "#35072"
 msgid "Paddles"
-msgstr ""
+msgstr "Palanques"
 
 #. Label for buttons that appear on a joystick for games. Used in the controller mapping dialog.
 msgctxt "#35073"
 msgid "Joysticks"
-msgstr ""
+msgstr "Palanques de control (Joysticks)"
 
 #. Label for buttons that appear on the face of the controller. Used in the controller mapping dialog.
 msgctxt "#35074"
 msgid "Face buttons"
-msgstr ""
+msgstr "Botons frontals"
 
 #. Label for buttons that appear on the shoulders of the controller. Used in the controller mapping dialog.
 msgctxt "#35075"
 msgid "Shoulder buttons"
-msgstr ""
+msgstr "Botons posteriors"
 
 #. Label for triggers on the controller. Used in the controller mapping dialog.
 msgctxt "#35076"
@@ -14196,7 +14196,7 @@ msgstr "Apaga qualsevol controlador que ho admeti amb la sortida."
 #. Button prompt without timeout. {0:s} - button name
 msgctxt "#35090"
 msgid "Press {0:s}"
-msgstr ""
+msgstr "Premeu {0:s}"
 
 #. Button prompt with timeout. {0:s} - button name, {1:d} - seconds left in prompt
 msgctxt "#35091"
@@ -14260,22 +14260,22 @@ msgstr "Botons"
 #. Label for relative mounters like the mouse pointer. Used in the controller mapping dialog.
 msgctxt "#35104"
 msgid "Pointers"
-msgstr ""
+msgstr "Punters"
 
 #. Heading for buttons mounted on a light gun. Used in the controller mapping dialog.
 msgctxt "#35105"
 msgid "Light gun"
-msgstr ""
+msgstr "Pistola de llum"
 
 #. Heading for the button that shoots the lightgun offscreen when pressed. Used in the controller mapping dialog.
 msgctxt "#35106"
 msgid "Shoot offscreen"
-msgstr ""
+msgstr "Dispara fora de la pantalla"
 
 #. Heading for switches found on a game console, such as the Atari 2600. Used in the controller mapping dialog.
 msgctxt "#35107"
 msgid "Console switches"
-msgstr ""
+msgstr "Interruptors de la consola"
 
 #. Heading for buttons that control the game console hardware, such as a microphone button. Used in the controller mapping dialog.
 msgctxt "#35108"
@@ -14285,7 +14285,7 @@ msgstr "Botons de maquinari"
 #. Heading for buttons on a numeric keypad (containing 0-9, star and pound). Used in the controller mapping dialog.
 msgctxt "#35109"
 msgid "Keypad"
-msgstr ""
+msgstr "Teclat numèric"
 
 #. Name of keyboard category in the settings category window
 msgctxt "#35150"
@@ -14295,7 +14295,7 @@ msgstr "Teclat"
 #. Name of group in "Games -> Keyboard" for configuring keyboard players
 msgctxt "#35151"
 msgid "Player configuration"
-msgstr ""
+msgstr "Configuració del jugador"
 
 #. Name of setting for enabling the keyboard during gameplay
 msgctxt "#35152"
@@ -14319,7 +14319,7 @@ msgstr ""
 
 msgctxt "#35156"
 msgid "{0:d}"
-msgstr ""
+msgstr "{0:d}"
 
 #. Name of setting to configure a keyboard player's controller configuration
 msgctxt "#35157"
@@ -14364,27 +14364,27 @@ msgstr "Configura el teclat del jugador 8"
 #. Name of the keyboard-emulated controller in the list of peripherals
 msgctxt "#35165"
 msgid "Keyboard player"
-msgstr ""
+msgstr "Teclat de jugador"
 
 #. Heading for the button that lets the user map any keyboard key. Used in the controller mapping dialog.
 msgctxt "#35166"
 msgid "All keys"
-msgstr ""
+msgstr "Totes les tecles"
 
 #. Heading for the button that lets the user map individual keyboard keys. Used in the controller mapping dialog.
 msgctxt "#35167"
 msgid "Single keys"
-msgstr ""
+msgstr "Tecles soltes"
 
 #. Name of the button that prompts you to select a key on the keyboard. Used in the controller mapping dialog.
 msgctxt "#35168"
 msgid "Select key"
-msgstr ""
+msgstr "Seleccioneu la tecla"
 
 #. Keyboard prompt without a timeout. Used in the controller mapping dialog.
 msgctxt "#35169"
 msgid "Press a key"
-msgstr ""
+msgstr "Premeu una tecla"
 
 #. Keyboard prompt with timeout. {1:d} - seconds left in prompt. Used in the controller mapping dialog.
 msgctxt "#35170"
@@ -14394,7 +14394,7 @@ msgstr ""
 #. Name of mouse connected to the device
 msgctxt "#35171"
 msgid "Mouse"
-msgstr ""
+msgstr "Ratolí"
 
 # empty strings from id 35172 to 35199
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
@@ -14405,7 +14405,7 @@ msgstr ""
 #. Name of group in "Games -> General" for configuring gameplay
 msgctxt "#35201"
 msgid "Gameplay"
-msgstr ""
+msgstr "Joc"
 
 # empty string with id 35202
 msgctxt "#35203"
@@ -14432,7 +14432,7 @@ msgstr "Emuladors"
 #. Description of add-on category for standalone games
 msgctxt "#35208"
 msgid "Standalone games"
-msgstr ""
+msgstr "Jocs autònoms"
 
 msgctxt "#35209"
 msgid "Game resources"
@@ -14481,7 +14481,7 @@ msgstr ""
 #. Button to erase the savestate
 msgctxt "#35218"
 msgid "Erase savestate"
-msgstr ""
+msgstr "Esborrar punt de desat"
 
 #. Error dialog text when trying to play a game and the game's files aren't found.
 msgctxt "#35219"
@@ -14506,12 +14506,12 @@ msgstr "Surt"
 #. Help text shown when playaing a game with missing add-on dependencies. {0:s} - list of add-ons that are missing
 msgctxt "#35223"
 msgid "Missing: {0:s}"
-msgstr ""
+msgstr "Falta: {0:s}"
 
 #. Label of button in the in-game menu for pausing and resuming playback
 msgctxt "#35224"
 msgid "Pause / Resume"
-msgstr ""
+msgstr "Pausa / Reprèn"
 
 #. Label of button in the in-game menu for changing the video filter (also called a video shader)
 msgctxt "#35225"
@@ -14526,42 +14526,42 @@ msgstr "Opcions avançades"
 #. Label of button in the in-game menu for changing the video rotation
 msgctxt "#35227"
 msgid "Rotation"
-msgstr ""
+msgstr "Rotació"
 
 #. Label of the thumbnail for when the video is not rotated and is displayed normally
 msgctxt "#35228"
 msgid "0°"
-msgstr ""
+msgstr "0°"
 
 #. Label of the thumbnail for when the video is rotated to the right
 msgctxt "#35229"
 msgid "90°"
-msgstr ""
+msgstr "90°"
 
 #. Label of the thumbnail for when the video is rotated upside down
 msgctxt "#35230"
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #. Label of the thumbnail for when the video is rotated to the left
 msgctxt "#35231"
 msgid "270°"
-msgstr ""
+msgstr "270°"
 
 #. Label of thumbnail in the in-game menu for stretching the video to fullscreen
 msgctxt "#35232"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Pantalla completa"
 
 #. Label of the setting in the in-game menu for stretching the game to fit the monitor
 msgctxt "#35233"
 msgid "Stretch mode"
-msgstr ""
+msgstr "Mode estirament de pantalla"
 
 #. Label of button in the in-game menu for configuring the game's controls
 msgctxt "#35234"
 msgid "Controls"
-msgstr ""
+msgstr "Controls"
 
 #. Help text shown when the user first plays a game. {0:s} - Button combo to open the in-game menu
 msgctxt "#35235"
@@ -14612,7 +14612,7 @@ msgstr "Seleccioneu l'emulador per al fitxer {0:s}"
 #. Label on emulators with a savestate in the emulator selection dialog
 msgctxt "#35259"
 msgid "Saved"
-msgstr ""
+msgstr "Desat"
 
 #. connection state "host unreachable"
 msgctxt "#35505"
@@ -14838,16 +14838,16 @@ msgstr ""
 
 msgctxt "#36050"
 msgid "On start"
-msgstr ""
+msgstr "A l'inici"
 
 # empty strings from id 36051 to 36098
 msgctxt "#36099"
 msgid "Dithering"
-msgstr ""
+msgstr "Tramat (Dithering)"
 
 msgctxt "#36100"
 msgid "Dither depth"
-msgstr ""
+msgstr "Profunditat de tramada (dither)"
 
 #. Description of settings section "Appearance"
 msgctxt "#36101"
@@ -15395,7 +15395,7 @@ msgstr "Obre el gestor de grups, el qual permet la modificació dels grups i els
 
 msgctxt "#36214"
 msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
-msgstr ""
+msgstr "Preseleccioneu el canal de reproducció a les finestres i diàlegs que contenen llistes de canals. Si està habilitat i hi ha un canal en reproducció, el canal a reproduir es seleccionarà en obrir una finestra o diàleg que contingui una llista de canals. Si està inhabilitat, el canal seleccionat anteriorment en una finestra o diàleg es seleccionarà en obrir una finestra que conté una llista de canals. "
 
 #. Description of setting with label #14110 "Long date format"
 msgctxt "#36215"
@@ -15479,7 +15479,7 @@ msgstr ""
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
-msgstr ""
+msgstr "Durada de les gravacions instantànies en prémer el botó de gravació. Aquest valor es tindrà en compte si \"Acció de gravació instantània\" s'estableix a \"Grava durant un període de temps determinat\""
 
 msgctxt "#36235"
 msgid "Close the on screen display controls after switching channels."
@@ -15560,7 +15560,7 @@ msgstr "Secció que conté les opcions relacionades amb els fitxers de música i
 
 msgctxt "#36254"
 msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
-msgstr ""
+msgstr "Acció a realitzar en prémer el botó de gravació.[Enregistra l'espectacle actual] gravarà l'espectacle actual des \"d'ara\" fins al final de l'espectacle. Si no hi ha dades de la guia de televisió disponibles actualment, es programarà una gravació de durada fixa que comença \"ara\", amb el valor definit a \"Durada de la gravació instantània\".[Grava durant un període de temps determinat] programarà un enregistrament de durada fixa que comença \"ara\", amb el valor establert per a \"Durada de la gravació instantània\".[Pregunta què fer] obrirà un diàleg amb diferents accions de gravació per triar, com ara \"Grava el programa actual\", \"Grava el programa següent\" i alguns enregistraments de durada fixa."
 
 #. Description of setting with label #13414 "Show song and album artists"
 msgctxt "#36255"
@@ -16448,7 +16448,7 @@ msgstr ""
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36438"
 msgid "Any repositories"
-msgstr ""
+msgstr "Qualsevol repositori"
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -16538,7 +16538,7 @@ msgstr ""
 #. name of a stereoscopic mode
 msgctxt "#36511"
 msgid "Checkerboard"
-msgstr ""
+msgstr "Tauler d'escacs"
 
 #. Name of a setting, asking the user for the default playback mode (2D, 3D, ask) of stereoscopic videos
 msgctxt "#36520"
@@ -16594,7 +16594,7 @@ msgstr "El mateix que la pel·lícula"
 #. Description of setting with label #346 "Normalize levels on downmix"
 msgctxt "#36533"
 msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
-msgstr ""
+msgstr "Seleccioneu com es barreja l'àudio, ex. de 5.1 a 2.0.[CR][Activat] Manté el nivell de volum de la font d'àudio original, però el rang dinàmic es comprimeix.[CR][Desactivat] Manté el rang dinàmic de la font d'àudio original quan es barreja, però el volum serà més baix. Nota: el rang dinàmic és la diferència entre els sons més silenciosos i els més forts d'una font d'àudio. Activeu aquesta configuració si els diàlegs de pel·lícules amb prou feines són audibles."
 
 #. Description of setting with label #668 "Component-specific logging..."
 msgctxt "#36534"
@@ -16668,7 +16668,7 @@ msgstr ""
 #. Description of setting with label #36550 "Stereoscopic 3D effect strength"
 msgctxt "#36551"
 msgid "Defines the strength of the stereoscopic 3D effect in the GUI. This is done by controlling the depth of perception within the GUI, so the higher the value, the more elements will pop out of the screen. [Zero] Disables the stereoscopic 3D effect of the GUI.[CR]For a good visual experience, the value should be higher for small screens and lower for large screens. Note: this is not supported by all skins."
-msgstr ""
+msgstr "Defineix la força de l'efecte 3D estereoscòpic a la GUI. Això es fa controlant la profunditat de percepció dins de la GUI, de manera que com més alt sigui el valor, més elements sortiran de la pantalla. [Zero] Desactiva l'efecte 3D estereoscòpic de la GUI.[CR]Per a una bona experiència visual, el valor hauria de ser més alt per a pantalles petites i més baix per a pantalles grans. Nota: això no és compatible amb totes les pells."
 
 #. Description of setting "System -> Video output -> NoOfBuffers" with label #36043
 msgctxt "#36552"
@@ -16678,17 +16678,17 @@ msgstr "Defineix el nombre de memòries intermèdies de presentació en ús pel 
 #. label of a setting, allowing to specify tonemap method
 msgctxt "#36553"
 msgid "Tone mapping"
-msgstr ""
+msgstr "Mapatge tonal"
 
 #. label of a setting, tone mapping method
 msgctxt "#36554"
 msgid "off"
-msgstr ""
+msgstr "apagat"
 
 #. label of a setting, tone mapping method
 msgctxt "#36555"
 msgid "Reinhard"
-msgstr ""
+msgstr "Reinhard"
 
 #. label of a setting, allowing to specify tone mapping parameter
 msgctxt "#36556"
@@ -16698,12 +16698,12 @@ msgstr ""
 #. label of a setting, tone mapping method
 msgctxt "#36557"
 msgid "ACES Filmic"
-msgstr ""
+msgstr "ACES Filmic"
 
 #. label of a setting, tone mapping method
 msgctxt "#36558"
 msgid "Hable"
-msgstr ""
+msgstr "Hable (mapatge tonal)"
 
 msgctxt "#36560"
 msgid "Colour management"
@@ -16721,7 +16721,7 @@ msgstr "Mode de gestió dels colors"
 #. Description of setting "System -> Video output -> Colour management mode" with label #36562
 msgctxt "#36563"
 msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
-msgstr ""
+msgstr "Utilitzeu una taula de consulta 3D precalculada per a la correcció del color del vídeo o calculeu la transformació de cada vídeo a partir d'un perfil de la vostra pantalla. Es prefereix una taula de consulta 3D precalculada, ja que us permet aprofitar les funcions avançades i l'alta precisió d'ArgyllCMS. La correcció basada en el perfil de la pantalla és útil per provar diferents paràmetres o per emular configuracions de visualització per a les quals no teniu una LUT 3D preparada."
 
 msgctxt "#36564"
 msgid "3D LUT"
@@ -16730,7 +16730,7 @@ msgstr "3D LUT"
 #. Description of setting "System -> Video output -> 3D LUT" with label #36564
 msgctxt "#36565"
 msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
-msgstr ""
+msgstr "Seleccioneu el fitxer 3DLUT que voleu utilitzar per defecte. Si col·loqueu diversos fitxers 3DLUT al mateix directori, podeu canviar entre ells al menú OSD durant la reproducció de vídeo. Això permet que diversos perfils de visualització tinguin en compte diferents entorns de visualització i orígens, per exemple, gamma 2.2 per al dia i 2.4 per a la nit."
 
 msgctxt "#36566"
 msgid "ICC display profile"
@@ -16739,11 +16739,11 @@ msgstr ""
 #. Description of setting "System -> Video output -> ICC display profile" with label #36566
 msgctxt "#36567"
 msgid "By providing a display profile, you can modify video parameters such as gamma, color primaries and whitepoint during playback. An ICC source profile is created based on the parameters and linked with the display ICC profile set here. This support is experimental and lacks near black adjustment towards display native black (causing raised black level) and white level scaling when a different whitepoint from display native is selected (as a workaround, adjust video brightness down to avoid clipping)."
-msgstr ""
+msgstr "En proporcionar un perfil de visualització, podeu modificar paràmetres de vídeo com ara gamma, color primari i punt blanc durant la reproducció. Es crea un perfil d'origen ICC basat en els paràmetres i s'enllaça amb el perfil ICC de visualització establert aquí. Aquest suport és experimental i no té un ajust dels negres natius de la pantalla (que provoca un nivell de negre millor) i una escala de nivell de blanc quan se selecciona un punt blanc diferent del natiu de la pantalla (com a solució alternativa, ajusteu la brillantor del vídeo per evitar retalls)."
 
 msgctxt "#36568"
 msgid "Whitepoint"
-msgstr ""
+msgstr "Punt blanc"
 
 #. Description of setting "System -> Video output -> Whitepoint" with label #36568
 msgctxt "#36569"
@@ -16752,7 +16752,7 @@ msgstr ""
 
 msgctxt "#36570"
 msgid "Primaries"
-msgstr ""
+msgstr "Primaris"
 
 #. Description of setting "System -> Video output -> Primaries" with label #36570
 msgctxt "#36571"
@@ -16766,7 +16766,7 @@ msgstr "Mode gamma"
 #. Description of setting "System -> Video output -> Gamma mode" with label #36572
 msgctxt "#36573"
 msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
-msgstr ""
+msgstr "Seleccioneu la fórmula de la corba gamma. Utilitzeu BT.1886 que té en compte els nivells de blanc i negre de la pantalla i evita el retall perceptiu. Utilitza el desplaçament per canviar la corba manualment. La compensació de sortida permet un retall perceptiu, però es pot utilitzar per compensar la configuració incorrecta del monitor que provoca detalls foscos massa brillants. La gamma absoluta no té en compte el negre de visualització i retallarà els nivells més baixos per mostrar negre en qualsevol pantalla amb un nivell de negre superior a zero."
 
 msgctxt "#36574"
 msgid "Gamma"
@@ -16867,7 +16867,7 @@ msgstr "256x256x256"
 
 msgctxt "#36597"
 msgid "{0:1.2f}"
-msgstr ""
+msgstr "{0:1.2f}"
 
 #. Description of setting with label #36099 "Dither"
 msgctxt "#36598"
@@ -16877,7 +16877,7 @@ msgstr ""
 #. Description of setting with label #36100 "Dither depth"
 msgctxt "#36599"
 msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
-msgstr ""
+msgstr "Precisió de sortida de tramat de vídeo (dither) en bits. Utilitzeu la configuració més alta que no mostri bandes. Es recomana el valor predeterminat de 8 per a la majoria de sistemes. Si la vostra GPU està configurada per escalar els nivells RGB de sortida o utilitzeu una pantalla d'ordinador portàtil, una configuració de 7 o 6 bits pot eliminar més bandes. Els paràmetres més baixos només estan disponibles per a proves per tal de fer que sigui fàcil veure si s'aplica el tramat i que la mida del píxel del soroll coincideix amb la resolució de la pantalla."
 
 #. Description of settings category with label #14022 "Library"
 msgctxt "#36600"
@@ -16980,7 +16980,7 @@ msgstr "Habilita la reducció d'escala de l'alta qualitat de les imatges (consum
 #. Label of a setting, allow the maximum smbclient protocol to be configured
 msgctxt "#36621"
 msgid "Maximum protocol version"
-msgstr ""
+msgstr "Versió màxima del protocol"
 
 #. Description of setting with label #36621 "Maximum protocol version"
 msgctxt "#36622"
@@ -17015,7 +17015,7 @@ msgstr "Client"
 #. Label of a setting, allow the minimum smbclient protocol to be configured
 msgctxt "#36628"
 msgid "Minimum protocol version"
-msgstr ""
+msgstr "Versió mínima del protocol"
 
 #. Description of setting with label #36628 "Minimum protocol version"
 msgctxt "#36629"
@@ -17294,7 +17294,7 @@ msgstr "Extreu les imatges en miniatura dels capítols per a la seva presentaci�
 
 msgctxt "#37046"
 msgid "1080"
-msgstr ""
+msgstr "1080"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -17405,7 +17405,7 @@ msgstr "Productor"
 #. DJMixer of the song (if present)
 msgctxt "#38040"
 msgid "DJMixer"
-msgstr ""
+msgstr "Discjòquei"
 
 #. Mixer of the song (if present)
 msgctxt "#38041"
@@ -17509,7 +17509,7 @@ msgstr ""
 
 msgctxt "#38074"
 msgid "Boxsets"
-msgstr ""
+msgstr "Caixa recopilatòria"
 
 msgctxt "#38075"
 msgid "* All discs"
@@ -17517,29 +17517,29 @@ msgstr ""
 
 msgctxt "#38076"
 msgid "Disc title"
-msgstr ""
+msgstr "Títol del disc"
 
 msgctxt "#38077"
 msgid "Total discs"
-msgstr ""
+msgstr "Total de discos"
 
 msgctxt "#38078"
 msgid "Original year"
-msgstr ""
+msgstr "Any original"
 
 msgctxt "#38079"
 msgid "Original date"
-msgstr ""
+msgstr "Data original"
 
 #. Music property - Beats Per Minute
 msgctxt "#38080"
 msgid "BPM"
-msgstr ""
+msgstr "PPM"
 
 #. Music property - Album release status
 msgctxt "#38081"
 msgid "Release status"
-msgstr ""
+msgstr "Estat de llançament"
 
 #. Description of section #14200 "Player""
 msgctxt "#38100"
@@ -17797,12 +17797,12 @@ msgstr ""
 #. Progress statement when importing music library - data matching phase
 msgctxt "#38351"
 msgid "Matching data"
-msgstr ""
+msgstr "Aparellant dades"
 
 #. Progress statement when importing music library - song history being updated
 msgctxt "#38352"
 msgid "Updating songs"
-msgstr ""
+msgstr "Actualitzant cançons"
 
 #. Notification of import success "Importing song history - <number of songs matched> updated out of <total songs in xml> imported songs"
 msgctxt "#38353"
@@ -17871,7 +17871,7 @@ msgstr "Descodificador d'imatge"
 
 msgctxt "#39016"
 msgid "Resume audiobook"
-msgstr ""
+msgstr "Reprèn l'audiollibre"
 
 #. Description of setting with label #21358 "Share my libraries"
 msgctxt "#39017"
@@ -17896,11 +17896,11 @@ msgstr "Voleu continuar amb la instal·lació?"
 
 msgctxt "#39022"
 msgid "({0:s})"
-msgstr ""
+msgstr "({0:s})"
 
 msgctxt "#39023"
 msgid "({0:s}, {1:s})"
-msgstr ""
+msgstr "({0:s}, {1:s})"
 
 msgctxt "#39024"
 msgid "Dependencies"
@@ -17909,17 +17909,17 @@ msgstr "Dependències"
 #. Artist gender - male, female, other
 msgctxt "#39025"
 msgid "Gender"
-msgstr ""
+msgstr "Gènere"
 
 #. Brief comment to distinguish artists with the same name e.g "former bassist with Journey"
 msgctxt "#39026"
 msgid "Disambiguation"
-msgstr ""
+msgstr "Desambiguació"
 
 #. Sort name of artist (e.g. Jackson, Michael)
 msgctxt "#39027"
 msgid "Sortname"
-msgstr ""
+msgstr "Ordena el nom"
 
 #. Text for yes/no dialog when silently uninstalling an add-on
 msgctxt "#39028"
@@ -17929,7 +17929,7 @@ msgstr ""
 #. Text for yes/no dialog to indicate that an add-on was manually installed
 msgctxt "#39029"
 msgid "Manually installed"
-msgstr ""
+msgstr "Instal·lat manualment"
 
 #. Media source, a filter and smart playlist rule option
 msgctxt "#39030"
@@ -17939,7 +17939,7 @@ msgstr "Origen"
 #. Node title, plural of #39030
 msgctxt "#39031"
 msgid "Sources"
-msgstr ""
+msgstr "Orígens"
 
 # empty strings from id 39032 to 39099
 msgctxt "#39100"
@@ -17949,11 +17949,11 @@ msgstr ""
 #. Startup action option label
 msgctxt "#39101"
 msgid "Play TV"
-msgstr ""
+msgstr "Veure la TV"
 
 msgctxt "#39102"
 msgid "Play Radio"
-msgstr ""
+msgstr "Escoltar la Ràdio"
 
 msgctxt "#39103"
 msgid "Unable to configure network location. Invalid path given."
@@ -17966,36 +17966,36 @@ msgstr ""
 #. audio/video/subtitle flag - FLAG_DEFAULT
 msgctxt "#39105"
 msgid "default"
-msgstr ""
+msgstr "per defecte"
 
 #. audio/video/subtitle flag - FLAG_FORCED
 msgctxt "#39106"
 msgid "forced"
-msgstr ""
+msgstr "forçat"
 
 #. audio/video/subtitle flag - FLAG_HEARING_IMPAIRED
 msgctxt "#39107"
 msgid "captions"
-msgstr ""
+msgstr "subtítols"
 
 #. audio/video/subtitle flag - FLAG_VISUAL_IMPAIRED
 msgctxt "#39108"
 msgid "audio description"
-msgstr ""
+msgstr "descripció d'àudio"
 
 msgctxt "#39109"
 msgid "Select Program"
-msgstr ""
+msgstr "Selecciona Programa"
 
 msgctxt "#39110"
 msgid "Select Resolution"
-msgstr ""
+msgstr "Selecciona Resolució"
 
 #. audio flag - FLAG_ORIGINAL
 #. language prefix displayed in audio settings stream selection
 msgctxt "#39111"
 msgid "original"
-msgstr ""
+msgstr "original"
 
 #. Used for a setting which allows centre channel (voice/speech) volume to be adjusted when downmixing.
 msgctxt "#39112"
@@ -18010,7 +18010,7 @@ msgstr ""
 #. Label for "show information for unwatched items" setting option
 msgctxt "#39114"
 msgid "Episode thumb"
-msgstr ""
+msgstr "Miniatura de l'episodi"
 
 #. Label for "show information for unwatched items" setting option
 msgctxt "#39115"
@@ -18034,7 +18034,7 @@ msgstr ""
 
 msgctxt "#39119"
 msgid "Last modified"
-msgstr ""
+msgstr "Última modificació"
 
 msgctxt "#39120"
 msgid "Skip filename matching for external audio tracks"
@@ -18108,7 +18108,7 @@ msgstr ""
 
 msgctxt "#39137"
 msgid "Artwork level"
-msgstr ""
+msgstr "Nivell d'art"
 
 #. Description of setting with label #39137 "Artwork level"
 msgctxt "#39138"
@@ -18178,7 +18178,7 @@ msgstr ""
 
 msgctxt "#39153"
 msgid "Windowing system:"
-msgstr ""
+msgstr "Sistema de finestres:"
 
 #~ msgctxt "#24045"
 #~ msgid "Failed to install Add-on from zip file"
