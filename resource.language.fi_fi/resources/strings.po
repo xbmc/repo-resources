@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-18 06:34+0000\n"
+"PO-Revision-Date: 2022-08-26 18:47+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -5525,7 +5525,7 @@ msgstr "Kiertävä"
 
 msgctxt "#13345"
 msgid "Switch LED off on playback"
-msgstr "Sammuta LED-valot toiston alkaessa"
+msgstr "Sammuta LED-valo toiston alkaessa"
 
 msgctxt "#13346"
 msgid "Movie information"
@@ -5750,7 +5750,7 @@ msgstr "Ladataan"
 
 msgctxt "#13414"
 msgid "Show song and album artists"
-msgstr "Näytä kappaleen ja albumin esittäjät"
+msgstr "Näytä kappalekohtaiset esittäjät albumin esittäjien lisäksi"
 
 msgctxt "#13415"
 msgid "Render method"
@@ -5992,7 +5992,7 @@ msgstr "Erittäin korkea (hidas)"
 
 msgctxt "#13510"
 msgid "Sync playback to display"
-msgstr "Tahdista toisto näyttöön"
+msgstr "Tahdista toisto näytön virkistystaajuuteen"
 
 msgctxt "#13511"
 msgid "Choose art"
@@ -6043,17 +6043,17 @@ msgstr "Valitse mediakuvitustyyppi"
 #. label of a setting that allows splitting of albums into component discs
 msgctxt "#13522"
 msgid "Split albums into individual discs"
-msgstr "Jaa albumit yksittäisiin levyihin"
+msgstr "Näytä monilevyisten albumien levyt erikseen"
 
 #. Description of setting with label #13522 "Split albums into individual discs"
 msgctxt "#13523"
 msgid "When enabled, opening a multi-disc album shows the discs as individual items instead of all the songs. Opening a disc then shows the songs on that disc."
-msgstr "Kun käytössä, näytetään monilevyisen albumin levyt kaikkien kappaleiden sijaan erillisinä kohteinaan. Levykohtaiset kappaleet näytetään avaamalla levy."
+msgstr "Määrittää näytetäänkö monilevyisen albumin levyt erillisinä kohteina vai näytetäänkö kaikki kappaleet yhdessä."
 
 #. Label of a setting that allows original release dates to be used instead of album release date
 msgctxt "#13524"
 msgid "Use original release date of albums for year"
-msgstr "Käytä vuodelle albumien alkuperäisiä julkaisupäiviä"
+msgstr "Ilmoita vuosi albumin alkuperäisen julkaisupäivän perusteella"
 
 #. Description of setting with label #13524
 msgctxt "#13525"
@@ -7863,7 +7863,7 @@ msgstr "Tallenna nykyinen ohjelma (jos ohjelmatiedot löytyvät)"
 #. Label for "Instant recording action" settings value
 msgctxt "#19088"
 msgid "Record for a fixed period of time (Instant recording duration)"
-msgstr "Tallenna tietty aika (pikatallennuksen kesto)"
+msgstr "Tallenna kiinteä aikajakso (pikatallennuksen kesto)"
 
 #. Label for "Instant recording action" settings value
 msgctxt "#19089"
@@ -8049,30 +8049,30 @@ msgstr "Älä huomioi nykyisiä tallenteita"
 #. Label of "Start time" spinner in PVR timer settings dialog
 msgctxt "#19126"
 msgid "Start time"
-msgstr "Alkamisaika"
+msgstr "Aloitusaika"
 
 #. Label of "End time" edit field in PVR timer settings dialog
 msgctxt "#19127"
 msgid "End time"
-msgstr "Loppumisaika"
+msgstr "Päättymisaika"
 
 #. Label of "Start date" spinner field in PVR timer settings dialog
 msgctxt "#19128"
 msgid "Start date"
-msgstr "Alkamispäivä"
+msgstr "Aloituspäivä"
 
 #. Label of "End date" edit field in PVR timer settings dialog
 msgctxt "#19129"
 msgid "End date"
-msgstr "Loppumispäivä"
+msgstr "Päättymispäivä"
 
 msgctxt "#19130"
 msgid "Minimum duration"
-msgstr "Kesto vähintään"
+msgstr "Vähimmäiskesto"
 
 msgctxt "#19131"
 msgid "Maximum duration"
-msgstr "Kesto enintään"
+msgstr "Enimmäiskesto"
 
 msgctxt "#19132"
 msgid "Include unknown genres"
@@ -8080,7 +8080,7 @@ msgstr "Sisällytä tuntemattomat lajityypit"
 
 msgctxt "#19133"
 msgid "Search string"
-msgstr "Hakulause"
+msgstr "Hakulauseke"
 
 msgctxt "#19134"
 msgid "Include description"
@@ -8092,12 +8092,12 @@ msgstr "Huomioi kirjainkoko"
 
 msgctxt "#19136"
 msgid "Channel unavailable"
-msgstr "Kanava ei ole saatavilla"
+msgstr "Kanava ei ole käytettävissä"
 
 #. channel group manager dialog error message box text
 msgctxt "#19137"
 msgid "No groups defined. Please create a group first"
-msgstr "Kanavaryhmiä ei ole määritelty. Luo ensin uusi kanavaryhmä"
+msgstr "Ryhmiä ei ole määritetty. Aloita luomalla ryhmä."
 
 #. Label of timer rules tv/radio home submenu item
 msgctxt "#19138"
@@ -8130,7 +8130,7 @@ msgstr "Ryhmien hallinta"
 #. used by several skins
 msgctxt "#19144"
 msgid "No groups defined"
-msgstr "Kanavaryhmiä ei ole määritelty"
+msgstr "Ryhmiä ei ole määritetty"
 
 #. used by several skins
 msgctxt "#19145"
@@ -8145,7 +8145,7 @@ msgstr "Ryhmät"
 #. Dialog warning text for lifetime recording setting
 msgctxt "#19147"
 msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
-msgstr "Tallenteen säilytysajan muutos {0:d} päivään eräännyttään sen välittömästi ja tämä voi aiheuttaa sen välittömän poiston. Jatketaanko siitä huolimatta?"
+msgstr "Tallenteen säilytysajan muutos {0:d} päivään eräännyttää sen välittömästi, joka voi aiheuttaa sen välittömän poiston. Jatketaanko siitä huolimatta?"
 
 #. generic PVR 'channel' label used in different places
 msgctxt "#19148"
@@ -8213,7 +8213,7 @@ msgstr "-"
 #. timer rule presentation string. (start-day-date|days-of-week) "from" (start-day-time|"any time") "to" (end-day-time|"any time")
 msgctxt "#19161"
 msgid "any time"
-msgstr "milloin vain"
+msgstr "milloin tahansa"
 
 #. timer status textual representation
 msgctxt "#19162"
@@ -8223,7 +8223,7 @@ msgstr "Tallennus on käynnissä"
 #. label for number of PVR recordings in system information's PVR section
 msgctxt "#19163"
 msgid "Recordings"
-msgstr "Tallenteet"
+msgstr "Tallenteita"
 
 #. error box text stating that recording could not be started
 msgctxt "#19164"
@@ -9640,7 +9640,7 @@ msgstr "Trainer-kansio"
 
 msgctxt "#20004"
 msgid "Screenshot folder"
-msgstr "Valitse kansio, johon kuvankaappaukset tallennetaan."
+msgstr "Kuvankaappausten tallennuskansio"
 
 msgctxt "#20006"
 msgid "Playlists folder"
@@ -10320,7 +10320,7 @@ msgstr "Käytä vianselvityslokia"
 
 msgctxt "#20192"
 msgid "Fetch additional information during updates"
-msgstr "Nouda lisätietoja päivitysten yhteydessä"
+msgstr "Nouda lisää tietoja päivitysten yhteydessä"
 
 msgctxt "#20193"
 msgid "Default provider for album information"
@@ -10352,7 +10352,7 @@ msgstr "Esittäjän tietojen nouto epäonnistui"
 
 msgctxt "#20220"
 msgid "Prefer online information"
-msgstr "Suosi Internetistä noudettuja tietoja"
+msgstr "Suosi Internetistä noudettavia tietoja"
 
 #. Description of setting with label #20220 "Prefer online information"
 msgctxt "#20221"
@@ -10365,11 +10365,11 @@ msgstr "Etsi ulkoisia tekstityksiä"
 
 msgctxt "#20223"
 msgid "Artist information folder"
-msgstr "Esittäjätietojen kansio"
+msgstr "Esittäjien tietojen tallennuskansio"
 
 msgctxt "#20224"
 msgid "Prefer online album art"
-msgstr "Suosi Internetistä noudettavia albumikuvia"
+msgstr "Suosi Internetistä noudettavia albumikuvituksia"
 
 #. Description of setting with label #20224 "Prefer online album art"
 msgctxt "#20225"
@@ -10378,7 +10378,7 @@ msgstr "Jollei paikallista albumin kansikuvaa löydy, noudetaan kuvat Intenetist
 
 msgctxt "#20226"
 msgid "Movie set information folder"
-msgstr "Elokuvakokoelmatietojen kansio"
+msgstr "Elokuvakokoelmien tietojen tallennuskansio"
 
 msgctxt "#20228"
 msgid "Use artist sortname when sorting by artist"
@@ -10849,7 +10849,7 @@ msgstr "Toista musiikkivideo"
 
 msgctxt "#20402"
 msgid "Download actor thumbnails"
-msgstr "Lataa näyttelijän pienoiskuvat"
+msgstr "Lataa näyttelijöiden pienoiskuvat"
 
 msgctxt "#20403"
 msgid "Set actor thumb"
@@ -10982,7 +10982,7 @@ msgstr "Ohita sijainti kirjastopäivitysten yhteydessä"
 
 msgctxt "#20433"
 msgid "Extract video information from files"
-msgstr "Kerää videoiden mediatiedot"
+msgstr "Pura videotiedot videotiedostoista"
 
 msgctxt "#20434"
 msgid "Sets"
@@ -10990,7 +10990,7 @@ msgstr "Kokoelmat"
 
 msgctxt "#20435"
 msgid "Combine split video items"
-msgstr "Yhdistä osiin jaetut videot"
+msgstr "Yhdistä videot, jotka on jaettu osiin"
 
 msgctxt "#20436"
 msgid "Export actor thumbs?"
@@ -11133,7 +11133,7 @@ msgstr "Pidä nykyisessä kokoelmassa '{0:s}'"
 
 msgctxt "#20470"
 msgid "Include sets containing a single movie"
-msgstr "Sisällytä vain yhden elokuvan sisältävät kokoelmat"
+msgstr "Näytä kokoelmat, jotka sisältävät vain yhden elokuvan"
 
 msgctxt "#20471"
 msgid "Show empty TV shows"
@@ -11141,7 +11141,7 @@ msgstr "Näytä tyhjät sarjat"
 
 msgctxt "#20472"
 msgid "Show all performers for music videos"
-msgstr "Näytä musiikkivideoiden kaikki esittäjät"
+msgstr "Näytä kaikki musiikkivideoiden esittäjät"
 
 msgctxt "#20473"
 msgid "Premiered"
@@ -11651,8 +11651,8 @@ msgstr "Videon alalaidassa"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21463"
-msgid "Below video"
-msgstr "Videon alapuolella"
+msgid "Bottom of screen"
+msgstr "Näytön alalaidassa"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21464"
@@ -11661,8 +11661,8 @@ msgstr "Videon ylälaidassa"
 
 #. Item list value of setting with label #21460 "Subtitle position on screen"
 msgctxt "#21465"
-msgid "Above video"
-msgstr "Videon yläpuolella"
+msgid "Top of screen"
+msgstr "Näytön ylälaidassa"
 
 #. Description of setting with label #21416 "Select first unwatched TV show season/episode"
 msgctxt "#21466"
@@ -15263,7 +15263,7 @@ msgstr "Määrittää miten kauan järjestelmän on oltava toimettomana ennen n�
 #. Description of setting with label #356 "Screensaver mode"
 msgctxt "#36130"
 msgid "Select the screensaver. The \"Dim\" screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
-msgstr "Valitse näytönsäästäjä. \"Himmennys\"-näytönsäästäjä pakotetaan käyttöön videotoiston ollessa tauotettuna tai valintaruudun ollessa avoimena."
+msgstr "Valitse näytönsäästäjä. \"Himmennys\"-näytönsäästäjä pakotetaan käyttöön koko näytön videotoiston ollessa tauotettuna tai valintaruudun ollessa avoimena."
 
 #. #. Description of setting with label #21417 "Settings"
 msgctxt "#36131"
@@ -15568,8 +15568,8 @@ msgstr "Määritä tekstityksille erillinen tallennuskansio. Tämä voi olla my�
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "Tekstitysten sijainti näytöllä. [Videon ala-]/[yläpuolella] Jos mahdollista, tekstitykset sijoitetaan mustien palkkien sisälle (edellyttää sopivaa videon pakkausta). Huomioithan, että joidenkin tekstitystyyppien sisältämiä pakotettuja sijainteja ei voida muuttaa."
+msgid "Location of subtitles on the screen. [Bottom of video] / [Top of video] When possible the subtitles will be positioned within the video area (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+msgstr "Tekstitysten sijainti näytöllä. [Videon alalaidassa] / [Videon ylälaidassa] Tekstitykset sijoitetaan mahdollisuuksien mukaan videon alueelle (videon pakkauksesta riippuen). Huomioi, että joidenkin tekstitysten pakotettuja sijainteja ei voida muuttaa."
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -15745,7 +15745,7 @@ msgstr "Tämä kategoria sisältää tallennusasetuksia."
 
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
-msgstr "Tallennuspainikkeesta asetettujen pikatallennusten kesto. Tätä arvoa käytetään, jos \"Pikatallennuksen toiminto\"-asetuksena käytetään \"Tallenna tietty aika\""
+msgstr "Tallennuspainikkeesta käynnistettyjen pikatallennusten kesto. Arvoa käytetään, jos \"Pikatallennuksen toiminto\" on \"Tallenna kiinteä aikajakso\"."
 
 msgctxt "#36235"
 msgid "Close the on screen display controls after switching channels."
@@ -15826,7 +15826,7 @@ msgstr "Tämä osio sisältää musiikkitiedostoihin ja niiden käsittelyyn liit
 
 msgctxt "#36254"
 msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
-msgstr "Tallennuspainikkeella suoritettava toiminto. [Tallenna nykyinen ohjelma] tallentaa tällä hetkellä lähetettävän ohjelman. Jos ohjelmatietoja ei ole saatavilla, tallennus kestää pikatallennuksen kestolle määritetyn ajan. [Tallenna kiinteä aika] tallentaa tästä hetkestä alkaen pikatallennuksen kestolle määritetyn ajan. [Kysy mitä tehdään] avaa manuaalisen toimintovalinnan, josta voidaan valita mm. em. vaihtoehdot sekä joitakin muita vaihtoehtoja."
+msgstr "Tallennuspainikkeesta suoritettava toiminto. [Tallenna nykyinen ohjelma] tallentaa parhaillaan esitettävän ohjelman sen loppuun saakka. Jos ohjelmatietoja ei ole saatavilla, tallennus kestää pikatallennuksen kestolle määritetyn ajan. [Tallenna kiinteä aika] tallentaa tästä hetkestä alkaen pikatallennuksen kestolle määritetyn ajan. [Kysy mitä tehdään] avaa manuaalisen toimintovalinnan, josta voidaan valita mm. em. vaihtoehdot sekä joitakin muita vaihtoehtoja."
 
 #. Description of setting with label #13414 "Show song and album artists"
 msgctxt "#36255"
@@ -16505,7 +16505,7 @@ msgstr "Käytä vianselvityslokia tai poista se käytöstä. Hyödyllinen vianse
 #. Description of setting with label #20004 "Screenshot folder"
 msgctxt "#36393"
 msgid "Select the folder where screenshots should be saved in."
-msgstr "Valitse kuvankaappausten tallennuskansio."
+msgstr "Valitse kansio, johon kuvankaappaukset tallennetaan."
 
 #. Description of setting with label #666 "Enable component-specific logging"
 msgctxt "#36394"
@@ -16652,7 +16652,7 @@ msgstr "Oletusarvoisesti virallisista jakeluvarastoista asennettujen lisäosien 
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
-msgstr "Määritä mitä tapahtuu, kun ohjelmaoppaan kohde valitaan: [Näytä sisältövalikko] avaa sisältövalikon suoritettavilla toiminnoilla; [Vaihda kanavalle] vaihtaa valitulle kanavalle; [Näytä tiedot] näyttää tarkemmat tiedot juonella ja lisävalinnoilla; [Tallenna] ajoittaa valitun kohteen tallennuksen. [Älykäs valinta] toiminto valitaan automaattisesti sen perusteella, onko tapahtuma mennyt, käynnissä vai tulevaisuudessa."
+msgstr "Ohjelmaoppaan kohteesta suoritettava toiminto: [Näytä sisältövalikko] avaa sisältövalikon suoritettavilla toiminnoilla. [Vaihda kanavalle] vaihtaa välittömästi ohjelman kanavalle. [Näytä tiedot] näyttää tarkemmat tiedot juonella ja lisävalinnoilla. [Tallenna] ajastaa kohteen tallennuksen. [Älykäs valinta] valitsee toiminnon automaattisesti sen perusteella, onko tapahtuma mennyt, käynnissä vai tulevaisuudessa."
 
 msgctxt "#36425"
 msgid "Show context menu"
@@ -17583,7 +17583,7 @@ msgstr "Määrittää siirtopainikkeen painallusten välisen viiveen, jonka sis�
 #. Setting #37044 Extract chapter thumbnails
 msgctxt "#37044"
 msgid "Extract chapter thumbnails"
-msgstr "Pura kappaleiden pienoiskuvat"
+msgstr "Pura kappaleiden pienoiskuvat videoteidostoista"
 
 #. Description of setting #37044 Extract chapter thumbnails"
 msgctxt "#37045"
@@ -17626,7 +17626,7 @@ msgstr "Näyttää mediakirjastossa \"Kaikki kohteet\" -valinnat, kuten \"Kaikki
 #. Label of a setting to limit the number of fps used for updating the GUI while playing videos. This is useful for slow systems that have problems rendering GUI and video at the same time in full speed.
 msgctxt "#38013"
 msgid "Limit GUI updates during playback"
-msgstr "Rajoitettu ruudunpäivitysnopeus toiston aikana"
+msgstr "Rajoita käyttöliittymän päivityksiä toiston aikana"
 
 #. Description for the setting with label #38013 "Limit GUI updates when playing video"
 msgctxt "#38014"
@@ -17683,7 +17683,7 @@ msgstr "Videoraita"
 #. Label for an option to select the angle to play if current disc has more than one angle
 msgctxt "#38032"
 msgid "Angle"
-msgstr "Kulma"
+msgstr "Kuvakulma"
 
 msgctxt "#38033"
 msgid "Role"
@@ -17702,7 +17702,7 @@ msgstr "Sanoittaja"
 #. Remixer of the song (if present)
 msgctxt "#38036"
 msgid "Remixer"
-msgstr "Uudelleenmiksaaja"
+msgstr "Remiksaaja"
 
 #. Arranger of the song (if present)
 msgctxt "#38037"
@@ -17722,7 +17722,7 @@ msgstr "Tuottaja"
 #. DJMixer of the song (if present)
 msgctxt "#38040"
 msgid "DJMixer"
-msgstr "DJ"
+msgstr "DJ-mikseri"
 
 #. Mixer of the song (if present)
 msgctxt "#38041"
@@ -17732,7 +17732,7 @@ msgstr "Miksaaja"
 #. Name used when artist name is missing from music file tags
 msgctxt "#38042"
 msgid "[Missing]"
-msgstr "[Puuttuu]"
+msgstr "[puuttuu]"
 
 #. Title album artists node, and music item to export output, see #38306
 msgctxt "#38043"
@@ -17777,22 +17777,22 @@ msgstr "Määritä oletustietolähde"
 #. Item in selection list #38338 to change the information provider for a specific artist, related to #20195
 msgctxt "#38064"
 msgid "Set for this artist"
-msgstr "Aseta tälle esittäjälle"
+msgstr "Määritä tälle esittäjälle"
 
 #. Item in selection list #38338 to change the information provider for all artists in node, related to #20195
 msgctxt "#38065"
 msgid "Set for all artists shown"
-msgstr "Aseta kaikille näkyville esittäjille"
+msgstr "Määritä kaikille näytettäville esittäjille"
 
 #. Item in selection list #38338 to change the information provider for a specific album, related to #20195
 msgctxt "#38066"
 msgid "Set for this album"
-msgstr "Aseta tälle albumille"
+msgstr "Määritä tälle albumille"
 
 #. Item in selection list #38338 to change the information provider for all albums in node, related to #20195
 msgctxt "#38067"
 msgid "Set for all albums shown"
-msgstr "Aseta kaikille näkyville albumeille"
+msgstr "Määritä kaikille näytettäville albumeille"
 
 #. Dialog message asking for confirmation of change the information provider for all artists shown in node, after #38065
 msgctxt "#38068"
@@ -17817,16 +17817,16 @@ msgstr "Käytetäänkö tietolähdettä kaikille albumeille ja tyhjennetäänkö
 #. Dialog message asking for confirmation to get additional info for all the artists or albums in the node immediately
 msgctxt "#38072"
 msgid "Do you want to refresh information for all these items now?"
-msgstr "Haluatko päivittää kaikkien näiden nimikkeiden tiedot nyt?"
+msgstr "Haluatko päivittää kaikkien näiden kohteiden tiedot nyt?"
 
 #. Dialog message asking for confirmation to get additional info for the current artist or album immediately
 msgctxt "#38073"
 msgid "Do you want to refresh information for this item now?"
-msgstr "Haluatko päivittää tämän nimikkeen tiedot nyt?"
+msgstr "Haluatko päivittää tämän kohteen tiedot nyt?"
 
 msgctxt "#38074"
 msgid "Boxsets"
-msgstr "Boksit"
+msgstr "Levykokoelmat"
 
 msgctxt "#38075"
 msgid "* All discs"
@@ -17838,7 +17838,7 @@ msgstr "Levyn nimi"
 
 msgctxt "#38077"
 msgid "Total discs"
-msgstr "Levyjen määrä"
+msgstr "Levymäärä"
 
 msgctxt "#38078"
 msgid "Original year"
@@ -17856,7 +17856,7 @@ msgstr "BPM"
 #. Music property - Album release status
 msgctxt "#38081"
 msgid "Release status"
-msgstr "Julkaisun tila"
+msgstr "Julkaisutila"
 
 #. Description of section #14200 "Player""
 msgctxt "#38100"
@@ -17921,7 +17921,7 @@ msgstr "Tämä kategoria sisältää muita käyttöliittymän ja ulkoasun asetuk
 #. Description of setting with label #12381 "Switch to visualisation on playback"
 msgctxt "#38112"
 msgid "Automatically go to the visualisation window when audio playback starts"
-msgstr "Näyttää visualisoinnin automaattisesti, kun musiikin kuuntelu alkaa"
+msgstr "Avaa visualisoinnin automaattisesti äänitoiston alkaessa"
 
 msgctxt "#38190"
 msgid "Extract thumbnails from video files"
@@ -17955,12 +17955,12 @@ msgstr "Yhdistetty tiedosto"
 #. Kind of export output, see #38304
 msgctxt "#38302"
 msgid "Separate files for each item"
-msgstr "Erilliset tiedostot"
+msgstr "Erillinen tiedosto joka kohteelle"
 
 #. Kind of export output, see #38304
 msgctxt "#38303"
 msgid "To library folders"
-msgstr "Kirjaston kansiot"
+msgstr "Kirjaston kansioihin"
 
 #. Selection of export to a single file, many separate files or the library folder(s)
 msgctxt "#38304"
@@ -17975,7 +17975,7 @@ msgstr "Kohdekansio"
 #. Section of music items to export - albums, album artists, song artists etc.
 msgctxt "#38306"
 msgid "Items to export"
-msgstr "Vietävät tietotyypit"
+msgstr "Vietävät kohteet"
 
 msgctxt "#38307"
 msgid "Include artwork such as thumbnails and fanart"
@@ -17992,11 +17992,11 @@ msgstr "Vie tiedot NFO-tiedostoihin"
 #. See #38309 when NFO and art export disabled so only artist folders
 msgctxt "#38310"
 msgid "Output information to NFO files (currently exporting artist folders only)"
-msgstr "Vie tiedot NFO-tiedostoihin (vain esittäjien kansiot luodaan)"
+msgstr "Vie tiedot NFO-tiedostoihin (nyt viedään vain esittäjäkansiot)"
 
 msgctxt "#38311"
 msgid "Overwrite existing files"
-msgstr "Korvaa vanhat tiedostot"
+msgstr "Korvaa olemassa olevat tiedostot"
 
 #. Music item to export output, see #38306
 msgctxt "#38312"
@@ -18011,12 +18011,12 @@ msgstr "Muut esittäjät"
 #. Message when trying to do a kind #38303 of export and setting #20223 is empty
 msgctxt "#38317"
 msgid "Unable to export to library folders as the system artist information folder setting is empty"
-msgstr "Järjestelmän esittäjätietojen kansiota ei ole määritetty, eikä vienti kirjastokansioihin tämän vuoksi onnistu"
+msgstr "Kirjastokansioihin ei voida viedä, koska järjestelmän esittäjätietojen kansiota ei ole määritetty"
 
 #. Message when trying to do export and destination folder #38305 does not exist
 msgctxt "#38318"
 msgid "Unable to export data as the destination folder does not exist"
-msgstr "Tietojen vieminen ei ole mahdollista, koska kohdekansiota ei ole olemassa"
+msgstr "Tietoja ei voida viedä, koska kohdekansiota ei ole olemassa"
 
 #. Button text to start export
 msgctxt "#38319"
@@ -18026,12 +18026,12 @@ msgstr "Vie"
 #. Message when adding music source and setting #20223 is empty
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
-msgstr "Onko sinulla paikallisia esittäjätietoja (NFO) ja kuvatiedostoja, joita haluat käyttää? Määritä näiden tietojen sijainti nyt"
+msgstr "Haluatko käyttää paikallisia esittäjätietoja (NFO) ja kuvatiedostoja? Määritä näiden esittäjäkansioiden sijainnit nyt"
 
 #. Kind of export output, see #38304
 msgctxt "#38321"
 msgid "Artist folders only"
-msgstr "Vain esittäjien kansiot"
+msgstr "Vain esittäjäkansiot"
 
 #. Explanation of what export to library folders means see #38303 when albums and artists selected
 msgctxt "#38322"
@@ -18071,7 +18071,7 @@ msgstr "Määritä esittäjien tietolähteet"
 #. Use scrapers to fetch additional album and artist information and art during scan
 msgctxt "#38333"
 msgid "Fetch additional information and art during scan"
-msgstr "Nouda lisätietoja ja mediakuvituksia päivitysten yhteydessä"
+msgstr "Nouda enemmän tietoja ja mediakuvituksia päivitysten yhteydessä"
 
 #. Scraper to use for additional album information. See #20193
 msgctxt "#38334"
@@ -18106,7 +18106,7 @@ msgstr "Miten tietolähteiden asetuksia käytetään"
 #. Progress statement when importing music library is processing song playback history data
 msgctxt "#38350"
 msgid "Importing song playback history"
-msgstr "Tuodaan kappaleiden soittohistoriaa"
+msgstr "Tuodaan kappaleiden toistohistoriaa"
 
 #. Progress statement when importing music library - data matching phase
 msgctxt "#38351"
@@ -18317,7 +18317,7 @@ msgstr "Alasmiksaus: Keskikanavan voimakkuus"
 #. Help text for 39112
 msgctxt "#39113"
 msgid "Center Mix Level in dB relative to metadata or default (-3 dB)"
-msgstr "Keskikanavan äänenvoimakkuus desibeleinä suhteessa metatietoon tai oletus -3 dB"
+msgstr "Keskikanavan miksaustaso desibeleinä suhteessa metatietoon tai oletukseen (-3 dB)"
 
 #. Label for "show information for unwatched items" setting option
 msgctxt "#39114"
@@ -18409,7 +18409,7 @@ msgstr "Rajoita albumien paikalliset tai Internetistä noudetut mediakuvitukset 
 
 msgctxt "#39135"
 msgid "Thumbnail image files"
-msgstr "Pienoiskuvatiedostot"
+msgstr "Pienoiskuvien teidostonimet"
 
 #. Description of setting with label #39135 "Thumbnail image files"
 msgctxt "#39136"
@@ -18418,7 +18418,7 @@ msgstr "Pääkuvitusten (pienoiskuvien) tiedostonimet. Nämä ovat yleensä neli
 
 msgctxt "#39137"
 msgid "Artwork level"
-msgstr "Mediakuvituslaajuus"
+msgstr "Mediakuvitusten laajuus"
 
 #. Description of setting with label #39137 "Artwork level"
 msgctxt "#39138"
@@ -18664,6 +18664,23 @@ msgstr "Kuvaavat tekstitykset (CC)"
 msgctxt "#39188"
 msgid "No background"
 msgstr "Ei taustaa"
+
+#. Window screen calibration: calibration by using the subtitle bar
+msgctxt "#39189"
+msgid "Available only with manual subtitle position"
+msgstr "Käytettävissä vain käytettäessä manuaalista tekstityssijaintia"
+
+#~ msgctxt "#21463"
+#~ msgid "Below video"
+#~ msgstr "Videon alapuolella"
+
+#~ msgctxt "#21465"
+#~ msgid "Above video"
+#~ msgstr "Videon yläpuolella"
+
+#~ msgctxt "#36192"
+#~ msgid "Location of subtitles on the screen. [Below] / [Above video] When possible the subtitles will be positioned inside the black bars (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
+#~ msgstr "Tekstitysten sijainti näytöllä. [Videon ala-]/[yläpuolella] Jos mahdollista, tekstitykset sijoitetaan mustien palkkien sisälle (edellyttää sopivaa videon pakkausta). Huomioithan, että joidenkin tekstitystyyppien sisältämiä pakotettuja sijainteja ei voida muuttaa."
 
 #~ msgctxt "#14089"
 #~ msgid "Font to use for text subtitles"
