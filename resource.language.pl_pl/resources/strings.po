@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-26 18:47+0000\n"
+"PO-Revision-Date: 2022-09-22 08:30+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3417,6 +3417,10 @@ msgctxt "#1200"
 msgid "SMB client"
 msgstr "Klient SMB"
 
+msgctxt "#1201"
+msgid "NFS Client"
+msgstr "Klient NFS"
+
 msgctxt "#1202"
 msgid "Workgroup"
 msgstr "Grupa robocza"
@@ -4049,17 +4053,62 @@ msgctxt "#10008"
 msgid "Play next"
 msgstr "Odtwórz następny"
 
+#. Header label for add-on configuration removal dialog
+msgctxt "#10009"
+msgid "Confirm add-on configuration removal"
+msgstr "Potwierdź usunięcie konfiguracji dodatku"
+
+#. Header label for add-on configuration removal selection dialog
+msgctxt "#10010"
+msgid "Select add-on configuration to remove"
+msgstr "Wybierz konfigurację dodatku do usunięcia"
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "Ustawienia - Wideo - Kalibracja ekranu"
+
+#. Header label for add-on configuration selection dialog
+msgctxt "#10012"
+msgid "Add-on configurations and settings"
+msgstr "Konfiguracje i ustawienia dodatku"
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10013"
+msgid "Edit add-on settings"
+msgstr "Edytuj ustawienia dodatku"
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10014"
+msgid "Add add-on configuration"
+msgstr "Dodaj konfigurację dodatku"
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10015"
+msgid "Remove add-on configuration"
+msgstr "Usuń konfigurację dodatku"
 
 msgctxt "#10016"
 msgid "Settings - System"
 msgstr "Ustawienia - System"
 
+#. Settings group label
+msgctxt "#10017"
+msgid "Add-on configuration"
+msgstr "Konfiguracja dodatku"
+
 msgctxt "#10018"
 msgid "Settings - Service"
 msgstr "Ustawienia - Usługi"
+
+#. Item label for add-on configuration removal dialog
+msgctxt "#10019"
+msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
+msgstr "Czy chcesz usunąć konfigurację dodatku \"{0:s}\"?"
+
+#. Item label used in add-on setup selection dialog
+msgctxt "#10020"
+msgid "Edit \"{0:s}\" [{1:s}]"
+msgstr "Edytuj \"{0:s}\" [{1:s}]"
 
 msgctxt "#10021"
 msgid "Settings - TV"
@@ -8368,7 +8417,7 @@ msgctxt "#19191"
 msgid "PVR service"
 msgstr "Telewizja"
 
-#. error message box text stating that none of the available pvr clients does support channel scanning
+#. info message box text stating that none of the available pvr clients does support channel scanning
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Żaden z podłączonych serwerów telewizji nie obsługuje wyszukiwania kanałów."
@@ -8796,10 +8845,10 @@ msgctxt "#19278"
 msgid "Recording error"
 msgstr "Błąd nagrywania"
 
-#. pvr settings 'client specific' category label.
+#. pvr settings 'PVR clients' group label.
 msgctxt "#19279"
-msgid "Client specific"
-msgstr "Specyfika klienta"
+msgid "PVR clients"
+msgstr "Klienty telewizji"
 
 #. pvr client specific settings 'client specific settings' action control label.
 msgctxt "#19280"
@@ -9125,6 +9174,26 @@ msgstr "[zapisane]"
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
 msgstr "Czy chcesz ustawić przypomnienie dla wybranego programu czy przełączyć się na bieżący program?"
+
+#. settings label to open add-ons manager window with available PVR client add-ons
+msgctxt "#19345"
+msgid "PVR client add-ons"
+msgstr "Dodatki klienta telewizji"
+
+#. help text for setting to open add-ons manager window with available PVR client add-ons
+msgctxt "#19346"
+msgid "Display and manage available PVR client add-ons."
+msgstr "Wyświetlaj i zarządzaj dostępnymi dodatkami klienta telewizji."
+
+#. info message box text stating that none of the available pvr clients does provide client-specific settings
+msgctxt "#19347"
+msgid "None of the active PVR clients provide client-specific settings."
+msgstr "Żaden z aktywnych klientów telewizji nie udostępnia ustawień specyficznych dla klienta."
+
+#. label for 'by provider' sort method
+msgctxt "#19348"
+msgid "Provider"
+msgstr "Dostawca"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -14961,6 +15030,11 @@ msgctxt "#36012"
 msgid "Couldn't initialise the CEC adapter. Please check your settings."
 msgstr "Nieudana inicjalizacja adaptera CEC. Sprawdź ustawienia."
 
+#. CEC adapter setting to set the type of device that libCEC reports to the TV (Recording, Playback or Tuner Device)
+msgctxt "#36013"
+msgid "CEC client device mode"
+msgstr "Tryb urządzenia klienta CEC"
+
 msgctxt "#36015"
 msgid "HDMI port number"
 msgstr "Numer portu HDMI"
@@ -15108,6 +15182,21 @@ msgstr "Czas zwolnienia naciśnięcia przycisku pilota (ms)"
 msgctxt "#36050"
 msgid "On start"
 msgstr "Po uruchomieniu"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36051"
+msgid "Recording Device"
+msgstr "Nagrywarka"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36052"
+msgid "Playback Device"
+msgstr "Odtwarzacz"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36053"
+msgid "Tuner Device"
+msgstr "Tuner"
 
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -15656,8 +15745,8 @@ msgid "Open the client priorities dialog which allows modifying the priority for
 msgstr "Otwiera okno dialogowe priorytetów klienta, które pozwala modyfikować priorytet włączonych klientów PVR zgodnie z osobistymi preferencjami, na przykład, aby zamówić kanały klient po kliencie. Wyższa wartość oznacza wyższy priorytet."
 
 msgctxt "#36211"
-msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
-msgstr "Kategoria zawierająca ustawienia menu ekranowego oraz okien informacyjnych kanałów."
+msgid "This category contains the settings for PVR channels and channel groups."
+msgstr "Ta kategoria zawiera ustawienia dla kanałów telewizyjnych i grup kanałów."
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -16046,11 +16135,11 @@ msgstr "Ta kategoria zawiera ustawienia przypomnień."
 
 msgctxt "#36297"
 msgid "Choose a time in seconds after which PVR reminder popups will be automatically closed."
-msgstr "Wybierz czas w sekundach, po którym wyskakujące przypomnienia PVR zostaną automatycznie zamknięte."
+msgstr "Wybierz czas w sekundach, po którym wyskakujące przypomnienia telewizji zostaną automatycznie zamknięte."
 
 msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
-msgstr "Jeśli jest włączona, nagrywanie programu do przypomnienia będzie zaplanowane podczas automatycznego zamykania wyskakującego okienka przypomnienia, jeśli jest obsługiwane przez dodatek PVR i serwer."
+msgstr "Jeśli jest włączona, nagrywanie programu do przypomnienia będzie zaplanowane podczas automatycznego zamykania wyskakującego okienka przypomnienia, jeśli jest obsługiwane przez dodatek telewizji i serwer."
 
 #. Description of setting with label #13436 "Use display HDR capabilities"
 msgctxt "#36299"
@@ -16332,6 +16421,11 @@ msgstr "Jeśli aktywne, tryb ekranowy będzie wykorzystywał pełnoekranowe okno
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Umożliwia w konfiguracji z wieloma wyświetlaczami wygaszanie nieużywanych przez aplikację."
+
+#. Description of settings category with label #1201 "NFS Client"
+msgctxt "#36356"
+msgid "This category contains the settings for how the NFS client is handled."
+msgstr "Ta kategoria zawiera ustawienia dotyczące obsługi klienta NFS."
 
 #. Description of setting with label #214 "Video calibration..."
 msgctxt "#36357"
@@ -17621,6 +17715,16 @@ msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
 msgstr "Rejestruj zdarzenia komponentu [B]WS-Discovery[/B]"
 
+#. Setting #37051 NFS Protocol Version"
+msgctxt "#37051"
+msgid "NFS Protocol Version"
+msgstr "Wersja protokołu NFS"
+
+#. Description of setting #37051 NFS Protocol Version"
+msgctxt "#37052"
+msgid "NFS protocol version to use when establishing NFS connections"
+msgstr "Wersja protokołu NFS używana podczas nawiązywania połączeń NFS"
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -18680,6 +18784,14 @@ msgstr "Bez tła"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Dostępne tylko przy ręcznym ustawieniu napisów"
+
+#~ msgctxt "#19279"
+#~ msgid "Client specific"
+#~ msgstr "Specyfika klienta"
+
+#~ msgctxt "#36211"
+#~ msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+#~ msgstr "Kategoria zawierająca ustawienia menu ekranowego oraz okien informacyjnych kanałów."
 
 #~ msgctxt "#21463"
 #~ msgid "Below video"

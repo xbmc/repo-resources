@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-06-17 09:52+0000\n"
+"PO-Revision-Date: 2022-09-27 17:15+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Lithuanian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/lt_lt/>\n"
 "Language: lt_lt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3417,6 +3417,10 @@ msgctxt "#1200"
 msgid "SMB client"
 msgstr "SMB klientas"
 
+msgctxt "#1201"
+msgid "NFS Client"
+msgstr ""
+
 msgctxt "#1202"
 msgid "Workgroup"
 msgstr "Darbo grupė"
@@ -4047,17 +4051,62 @@ msgctxt "#10008"
 msgid "Play next"
 msgstr "Atkurti kitą"
 
+#. Header label for add-on configuration removal dialog
+msgctxt "#10009"
+msgid "Confirm add-on configuration removal"
+msgstr ""
+
+#. Header label for add-on configuration removal selection dialog
+msgctxt "#10010"
+msgid "Select add-on configuration to remove"
+msgstr ""
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "Nustatymai - Video - Ekrano kalibravimas"
+
+#. Header label for add-on configuration selection dialog
+msgctxt "#10012"
+msgid "Add-on configurations and settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10013"
+msgid "Edit add-on settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10014"
+msgid "Add add-on configuration"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10015"
+msgid "Remove add-on configuration"
+msgstr ""
 
 msgctxt "#10016"
 msgid "Settings - System"
 msgstr "Nustatymai - Sistema"
 
+#. Settings group label
+msgctxt "#10017"
+msgid "Add-on configuration"
+msgstr ""
+
 msgctxt "#10018"
 msgid "Settings - Service"
 msgstr "Nustatymai - Paslauga"
+
+#. Item label for add-on configuration removal dialog
+msgctxt "#10019"
+msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
+msgstr ""
+
+#. Item label used in add-on setup selection dialog
+msgctxt "#10020"
+msgid "Edit \"{0:s}\" [{1:s}]"
+msgstr ""
 
 msgctxt "#10021"
 msgid "Settings - TV"
@@ -8366,7 +8415,7 @@ msgctxt "#19191"
 msgid "PVR service"
 msgstr "PVR paslauga"
 
-#. error message box text stating that none of the available pvr clients does support channel scanning
+#. info message box text stating that none of the available pvr clients does support channel scanning
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Nei viena iš prijungtų PVR posistemių nepalaiko kanalų nuskaitymo."
@@ -8794,10 +8843,10 @@ msgctxt "#19278"
 msgid "Recording error"
 msgstr "Įrašymo klaida"
 
-#. pvr settings 'client specific' category label.
+#. pvr settings 'PVR clients' group label.
 msgctxt "#19279"
-msgid "Client specific"
-msgstr "Specifiniai nustatymai"
+msgid "PVR clients"
+msgstr "PVR klientai"
 
 #. pvr client specific settings 'client specific settings' action control label.
 msgctxt "#19280"
@@ -9123,6 +9172,26 @@ msgstr "[išsaugota]"
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
 msgstr "Norite nustatyti priminimą pasirinktai programai ar perjungti į dabartinę programą?"
+
+#. settings label to open add-ons manager window with available PVR client add-ons
+msgctxt "#19345"
+msgid "PVR client add-ons"
+msgstr ""
+
+#. help text for setting to open add-ons manager window with available PVR client add-ons
+msgctxt "#19346"
+msgid "Display and manage available PVR client add-ons."
+msgstr ""
+
+#. info message box text stating that none of the available pvr clients does provide client-specific settings
+msgctxt "#19347"
+msgid "None of the active PVR clients provide client-specific settings."
+msgstr ""
+
+#. label for 'by provider' sort method
+msgctxt "#19348"
+msgid "Provider"
+msgstr "Tiekėjas"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -14953,6 +15022,11 @@ msgctxt "#36012"
 msgid "Couldn't initialise the CEC adapter. Please check your settings."
 msgstr "Nepavyko inicijuoti CEC adapterio. Patikrinkite nustatymus."
 
+#. CEC adapter setting to set the type of device that libCEC reports to the TV (Recording, Playback or Tuner Device)
+msgctxt "#36013"
+msgid "CEC client device mode"
+msgstr ""
+
 msgctxt "#36015"
 msgid "HDMI port number"
 msgstr "HDMI prievado numeris"
@@ -15100,6 +15174,21 @@ msgstr "Nuotolinio valdymo pulto mygtuko paspaudimo atleidimo laikas (ms)"
 msgctxt "#36050"
 msgid "On start"
 msgstr "Paleidus"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36051"
+msgid "Recording Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36052"
+msgid "Playback Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36053"
+msgid "Tuner Device"
+msgstr ""
 
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -15648,8 +15737,8 @@ msgid "Open the client priorities dialog which allows modifying the priority for
 msgstr "Atidaryti kliento prioritetų langą, kuris leidžia modifikuoti įjungtų PVR klientų prioritetą pagal asmeninius pageidavimus, pvz., kad surikiuoti kanalus pagal klientą. Didesnė reikšmė reiškia aukštesnį prioritetą."
 
 msgctxt "#36211"
-msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
-msgstr "Šioje kategorijoje yra PVR meniu ir ekrane atvaizduojamos informacijos (OSD), o taip pat kanalo informacijos langų nustatymai."
+msgid "This category contains the settings for PVR channels and channel groups."
+msgstr ""
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -16324,6 +16413,11 @@ msgstr "Kai įjungta, viso ekrano režimas bus sukurtas naudojant langą, o ne t
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "Kelių ekranų konfigūracijoje, ekranai, kuriuose nėra atvaizduojama ši programa, bus užtemdyti."
+
+#. Description of settings category with label #1201 "NFS Client"
+msgctxt "#36356"
+msgid "This category contains the settings for how the NFS client is handled."
+msgstr ""
 
 #. Description of setting with label #214 "Video calibration..."
 msgctxt "#36357"
@@ -17613,6 +17707,16 @@ msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
 msgstr "Išsamus [B]WS-Discovery[/B] komponento žurnalo rašymas"
 
+#. Setting #37051 NFS Protocol Version"
+msgctxt "#37051"
+msgid "NFS Protocol Version"
+msgstr ""
+
+#. Description of setting #37051 NFS Protocol Version"
+msgctxt "#37052"
+msgid "NFS protocol version to use when establishing NFS connections"
+msgstr ""
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -18669,6 +18773,14 @@ msgstr ""
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr ""
+
+#~ msgctxt "#19279"
+#~ msgid "Client specific"
+#~ msgstr "Specifiniai nustatymai"
+
+#~ msgctxt "#36211"
+#~ msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+#~ msgstr "Šioje kategorijoje yra PVR meniu ir ekrane atvaizduojamos informacijos (OSD), o taip pat kanalo informacijos langų nustatymai."
 
 #~ msgctxt "#21463"
 #~ msgid "Below video"
