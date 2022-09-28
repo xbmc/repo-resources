@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-06-17 09:52+0000\n"
+"PO-Revision-Date: 2022-09-27 17:15+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Japanese <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ja_jp/>\n"
 "Language: ja_jp\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3417,6 +3417,10 @@ msgctxt "#1200"
 msgid "SMB client"
 msgstr "SMBクライアント"
 
+msgctxt "#1201"
+msgid "NFS Client"
+msgstr ""
+
 msgctxt "#1202"
 msgid "Workgroup"
 msgstr "SMBワークグループ"
@@ -4047,17 +4051,62 @@ msgctxt "#10008"
 msgid "Play next"
 msgstr "次を再生する"
 
+#. Header label for add-on configuration removal dialog
+msgctxt "#10009"
+msgid "Confirm add-on configuration removal"
+msgstr ""
+
+#. Header label for add-on configuration removal selection dialog
+msgctxt "#10010"
+msgid "Select add-on configuration to remove"
+msgstr ""
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "設定 - ビデオ - スクリーン キャリブレーション"
+
+#. Header label for add-on configuration selection dialog
+msgctxt "#10012"
+msgid "Add-on configurations and settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10013"
+msgid "Edit add-on settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10014"
+msgid "Add add-on configuration"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10015"
+msgid "Remove add-on configuration"
+msgstr ""
 
 msgctxt "#10016"
 msgid "Settings - System"
 msgstr "設定 - システム"
 
+#. Settings group label
+msgctxt "#10017"
+msgid "Add-on configuration"
+msgstr ""
+
 msgctxt "#10018"
 msgid "Settings - Service"
 msgstr "設定 - サービス"
+
+#. Item label for add-on configuration removal dialog
+msgctxt "#10019"
+msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
+msgstr ""
+
+#. Item label used in add-on setup selection dialog
+msgctxt "#10020"
+msgid "Edit \"{0:s}\" [{1:s}]"
+msgstr ""
 
 msgctxt "#10021"
 msgid "Settings - TV"
@@ -8366,7 +8415,7 @@ msgctxt "#19191"
 msgid "PVR service"
 msgstr "PVRサービス"
 
-#. error message box text stating that none of the available pvr clients does support channel scanning
+#. info message box text stating that none of the available pvr clients does support channel scanning
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "接続されているPVRバックエンドはどれもチャネルのスキャニングをサポートしていません。"
@@ -8794,10 +8843,10 @@ msgctxt "#19278"
 msgid "Recording error"
 msgstr "録画エラー"
 
-#. pvr settings 'client specific' category label.
+#. pvr settings 'PVR clients' group label.
 msgctxt "#19279"
-msgid "Client specific"
-msgstr "クライアント固有"
+msgid "PVR clients"
+msgstr "PVRクライアント"
 
 #. pvr client specific settings 'client specific settings' action control label.
 msgctxt "#19280"
@@ -9123,6 +9172,26 @@ msgstr ""
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
 msgstr ""
+
+#. settings label to open add-ons manager window with available PVR client add-ons
+msgctxt "#19345"
+msgid "PVR client add-ons"
+msgstr ""
+
+#. help text for setting to open add-ons manager window with available PVR client add-ons
+msgctxt "#19346"
+msgid "Display and manage available PVR client add-ons."
+msgstr ""
+
+#. info message box text stating that none of the available pvr clients does provide client-specific settings
+msgctxt "#19347"
+msgid "None of the active PVR clients provide client-specific settings."
+msgstr ""
+
+#. label for 'by provider' sort method
+msgctxt "#19348"
+msgid "Provider"
+msgstr "プロバイダ"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -14954,6 +15023,11 @@ msgctxt "#36012"
 msgid "Couldn't initialise the CEC adapter. Please check your settings."
 msgstr "CECアダプターが初期化できませんでした。設定を確認してください。"
 
+#. CEC adapter setting to set the type of device that libCEC reports to the TV (Recording, Playback or Tuner Device)
+msgctxt "#36013"
+msgid "CEC client device mode"
+msgstr ""
+
 msgctxt "#36015"
 msgid "HDMI port number"
 msgstr "HDMIのポート番号"
@@ -15101,6 +15175,21 @@ msgstr "リモートのボタンを押して放す時間 (ms)"
 msgctxt "#36050"
 msgid "On start"
 msgstr "起動時に"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36051"
+msgid "Recording Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36052"
+msgid "Playback Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36053"
+msgid "Tuner Device"
+msgstr ""
 
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -15649,8 +15738,8 @@ msgid "Open the client priorities dialog which allows modifying the priority for
 msgstr "クライアントの優先順位ダイアログを開くと、個人の好みに応じて有効にされているPVRクライアントの優先順位を変更できます。たとえば、クライアントごとにチャンネルを並べ替えることができます。値が大きいほど優先順位は高くなります。"
 
 msgctxt "#36211"
-msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
-msgstr "このカテゴリーには、PVRメニューとオンスクリーンディスプレイ(OSD)、およびチャンネル情報ウィンドウの設定が含まれています。"
+msgid "This category contains the settings for PVR channels and channel groups."
+msgstr ""
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -16325,6 +16414,11 @@ msgstr "有効にすると、フルスクリーンモードでは、本物のフ
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "マルチスクリーン構成の場合、このアプリケーションを表示していない画面はブラックアウトします。"
+
+#. Description of settings category with label #1201 "NFS Client"
+msgctxt "#36356"
+msgid "This category contains the settings for how the NFS client is handled."
+msgstr ""
 
 #. Description of setting with label #214 "Video calibration..."
 msgctxt "#36357"
@@ -17614,6 +17708,16 @@ msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
 msgstr ""
 
+#. Setting #37051 NFS Protocol Version"
+msgctxt "#37051"
+msgid "NFS Protocol Version"
+msgstr ""
+
+#. Description of setting #37051 NFS Protocol Version"
+msgctxt "#37052"
+msgid "NFS protocol version to use when establishing NFS connections"
+msgstr ""
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -18671,6 +18775,14 @@ msgstr ""
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr ""
+
+#~ msgctxt "#19279"
+#~ msgid "Client specific"
+#~ msgstr "クライアント固有"
+
+#~ msgctxt "#36211"
+#~ msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+#~ msgstr "このカテゴリーには、PVRメニューとオンスクリーンディスプレイ(OSD)、およびチャンネル情報ウィンドウの設定が含まれています。"
 
 #~ msgctxt "#21463"
 #~ msgid "Below video"

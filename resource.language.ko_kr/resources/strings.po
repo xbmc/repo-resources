@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-26 18:47+0000\n"
-"Last-Translator: Minho Park <parkmino@gmail.com>\n"
+"PO-Revision-Date: 2022-09-27 17:15+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3417,6 +3417,10 @@ msgctxt "#1200"
 msgid "SMB client"
 msgstr "SMB 클라이언트"
 
+msgctxt "#1201"
+msgid "NFS Client"
+msgstr "NFS 클라이언트"
+
 msgctxt "#1202"
 msgid "Workgroup"
 msgstr "작업그룹"
@@ -4047,17 +4051,62 @@ msgctxt "#10008"
 msgid "Play next"
 msgstr "다음 재생"
 
+#. Header label for add-on configuration removal dialog
+msgctxt "#10009"
+msgid "Confirm add-on configuration removal"
+msgstr "애드온 구성 제거 확인"
+
+#. Header label for add-on configuration removal selection dialog
+msgctxt "#10010"
+msgid "Select add-on configuration to remove"
+msgstr "제거할 애드온 구성 선택"
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "설정 - 비디오 - 화면 조정"
+
+#. Header label for add-on configuration selection dialog
+msgctxt "#10012"
+msgid "Add-on configurations and settings"
+msgstr "애드온 구성 및 설정"
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10013"
+msgid "Edit add-on settings"
+msgstr "애드온 설정 편집"
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10014"
+msgid "Add add-on configuration"
+msgstr "애드온 구성 추가"
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10015"
+msgid "Remove add-on configuration"
+msgstr "애드온 구성 제거"
 
 msgctxt "#10016"
 msgid "Settings - System"
 msgstr "설정 - 시스템"
 
+#. Settings group label
+msgctxt "#10017"
+msgid "Add-on configuration"
+msgstr "애드온 구성"
+
 msgctxt "#10018"
 msgid "Settings - Service"
 msgstr "설정 - 서비스"
+
+#. Item label for add-on configuration removal dialog
+msgctxt "#10019"
+msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
+msgstr "애드온 구성 \"{0:s}\"을(를) 제거할까요?"
+
+#. Item label used in add-on setup selection dialog
+msgctxt "#10020"
+msgid "Edit \"{0:s}\" [{1:s}]"
+msgstr "\"{0:s}\" 편집 [{1:s}]"
 
 msgctxt "#10021"
 msgid "Settings - TV"
@@ -8366,7 +8415,7 @@ msgctxt "#19191"
 msgid "PVR service"
 msgstr "PVR 서비스"
 
-#. error message box text stating that none of the available pvr clients does support channel scanning
+#. info message box text stating that none of the available pvr clients does support channel scanning
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "연결된 PVR 백엔드가 채널 검색을 지원하지 않습니다."
@@ -8794,10 +8843,10 @@ msgctxt "#19278"
 msgid "Recording error"
 msgstr "녹화 오류"
 
-#. pvr settings 'client specific' category label.
+#. pvr settings 'PVR clients' group label.
 msgctxt "#19279"
-msgid "Client specific"
-msgstr "클라이언트 설정"
+msgid "PVR clients"
+msgstr "PVR 클라이언트"
 
 #. pvr client specific settings 'client specific settings' action control label.
 msgctxt "#19280"
@@ -9123,6 +9172,26 @@ msgstr "[저장됨]"
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
 msgstr "선택한 프로그램에 대한 알림을 설정하거나 현재 프로그램으로 전환하시겠습니까?"
+
+#. settings label to open add-ons manager window with available PVR client add-ons
+msgctxt "#19345"
+msgid "PVR client add-ons"
+msgstr "PVR 클라이언트 애드온"
+
+#. help text for setting to open add-ons manager window with available PVR client add-ons
+msgctxt "#19346"
+msgid "Display and manage available PVR client add-ons."
+msgstr "사용 가능한 PVR 클라이언트 애드온을 표시하고 관리합니다."
+
+#. info message box text stating that none of the available pvr clients does provide client-specific settings
+msgctxt "#19347"
+msgid "None of the active PVR clients provide client-specific settings."
+msgstr "활성 PVR 클라이언트는 클라이언트별 설정을 제공하지 않습니다."
+
+#. label for 'by provider' sort method
+msgctxt "#19348"
+msgid "Provider"
+msgstr "제공자"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -14953,6 +15022,11 @@ msgctxt "#36012"
 msgid "Couldn't initialise the CEC adapter. Please check your settings."
 msgstr "CEC 어댑터를 초기화할 수 없습니다. 설정을 확인하세요."
 
+#. CEC adapter setting to set the type of device that libCEC reports to the TV (Recording, Playback or Tuner Device)
+msgctxt "#36013"
+msgid "CEC client device mode"
+msgstr "CEC 클라이언트 장치 모드"
+
 msgctxt "#36015"
 msgid "HDMI port number"
 msgstr "HDMI 포트 번호"
@@ -15100,6 +15174,21 @@ msgstr "리모트 버튼의 떼기 지연 (ms)"
 msgctxt "#36050"
 msgid "On start"
 msgstr "시작할 때"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36051"
+msgid "Recording Device"
+msgstr "녹화 장치"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36052"
+msgid "Playback Device"
+msgstr "재생 장치"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36053"
+msgid "Tuner Device"
+msgstr "튜너 장치"
 
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -15648,8 +15737,8 @@ msgid "Open the client priorities dialog which allows modifying the priority for
 msgstr "클라이언트 우선순위 대화 상자를 열어서 사용 가능한 PVR 클라이언트의 우선 순위를 원하는 대로 수정하는데, 예를 들어 클라이언트와 클라이언트 간의 채널 순서를 정합니다. 높은 값은 높은 우선 순위를 뜻합니다."
 
 msgctxt "#36211"
-msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
-msgstr "PVR 메뉴, OSD 설정, 채널 정보 창 관련 설정 그룹입니다."
+msgid "This category contains the settings for PVR channels and channel groups."
+msgstr "이 범주에는 PVR 채널 및 채널 그룹에 대한 설정이 포함됩니다."
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -16324,6 +16413,11 @@ msgstr "리얼 전체화면 모드 대신 창을 이용한 전체화면 모드�
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "다중 모니터 구성에서, 이 애플리케이션을 표시하지 않는 모니터를 검은 화면으로 처리합니다."
+
+#. Description of settings category with label #1201 "NFS Client"
+msgctxt "#36356"
+msgid "This category contains the settings for how the NFS client is handled."
+msgstr "이 범주에는 NFS 클라이언트가 처리되는 방법에 대한 설정이 포함되어 있습니다."
 
 #. Description of setting with label #214 "Video calibration..."
 msgctxt "#36357"
@@ -17613,6 +17707,16 @@ msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
 msgstr "[B]WS-찾기[/B] 구성 요소에 대한 자세한 로그"
 
+#. Setting #37051 NFS Protocol Version"
+msgctxt "#37051"
+msgid "NFS Protocol Version"
+msgstr "NFS 프로토콜 버전"
+
+#. Description of setting #37051 NFS Protocol Version"
+msgctxt "#37052"
+msgid "NFS protocol version to use when establishing NFS connections"
+msgstr "NFS 연결을 설정할 때 사용할 NFS 프로토콜 버전"
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -18669,6 +18773,14 @@ msgstr "배경 없음"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "수동 자막 위치에서만 사용 가능"
+
+#~ msgctxt "#19279"
+#~ msgid "Client specific"
+#~ msgstr "클라이언트 설정"
+
+#~ msgctxt "#36211"
+#~ msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+#~ msgstr "PVR 메뉴, OSD 설정, 채널 정보 창 관련 설정 그룹입니다."
 
 #~ msgctxt "#21463"
 #~ msgid "Below video"

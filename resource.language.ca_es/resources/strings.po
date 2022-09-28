@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-09-04 04:46+0000\n"
-"Last-Translator: Xean <xeanhort007@gmail.com>\n"
+"PO-Revision-Date: 2022-09-22 08:30+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Catalan (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ca_es/>\n"
 "Language: ca_es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3417,6 +3417,10 @@ msgctxt "#1200"
 msgid "SMB client"
 msgstr "Client SMB"
 
+msgctxt "#1201"
+msgid "NFS Client"
+msgstr "Client NFS"
+
 msgctxt "#1202"
 msgid "Workgroup"
 msgstr "Grup de treball"
@@ -4049,17 +4053,62 @@ msgctxt "#10008"
 msgid "Play next"
 msgstr "Reproduir següent"
 
+#. Header label for add-on configuration removal dialog
+msgctxt "#10009"
+msgid "Confirm add-on configuration removal"
+msgstr "Confirmeu l'eliminació de la configuració del complement"
+
+#. Header label for add-on configuration removal selection dialog
+msgctxt "#10010"
+msgid "Select add-on configuration to remove"
+msgstr "Seleccioneu la configuració del complement a eliminar"
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "Opcions - Vídeos - Calibratge de la pantalla"
+
+#. Header label for add-on configuration selection dialog
+msgctxt "#10012"
+msgid "Add-on configurations and settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10013"
+msgid "Edit add-on settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10014"
+msgid "Add add-on configuration"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10015"
+msgid "Remove add-on configuration"
+msgstr ""
 
 msgctxt "#10016"
 msgid "Settings - System"
 msgstr "Opcions - Sistema"
 
+#. Settings group label
+msgctxt "#10017"
+msgid "Add-on configuration"
+msgstr ""
+
 msgctxt "#10018"
 msgid "Settings - Service"
 msgstr "Opcions - Serveis"
+
+#. Item label for add-on configuration removal dialog
+msgctxt "#10019"
+msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
+msgstr ""
+
+#. Item label used in add-on setup selection dialog
+msgctxt "#10020"
+msgid "Edit \"{0:s}\" [{1:s}]"
+msgstr ""
 
 msgctxt "#10021"
 msgid "Settings - TV"
@@ -8383,7 +8432,7 @@ msgctxt "#19191"
 msgid "PVR service"
 msgstr "Servei PVR"
 
-#. error message box text stating that none of the available pvr clients does support channel scanning
+#. info message box text stating that none of the available pvr clients does support channel scanning
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "Cap dels dorsals dels PVR connectats és compatible amb l'exploració de canals."
@@ -8811,10 +8860,10 @@ msgctxt "#19278"
 msgid "Recording error"
 msgstr "Error d'enregistrament"
 
-#. pvr settings 'client specific' category label.
+#. pvr settings 'PVR clients' group label.
 msgctxt "#19279"
-msgid "Client specific"
-msgstr "Específic del client"
+msgid "PVR clients"
+msgstr "Clients PVR"
 
 #. pvr client specific settings 'client specific settings' action control label.
 msgctxt "#19280"
@@ -9140,6 +9189,26 @@ msgstr "[desat]"
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
 msgstr "Voleu configurar un recordatori per al programa seleccionat o vols canviar al programa actual?"
+
+#. settings label to open add-ons manager window with available PVR client add-ons
+msgctxt "#19345"
+msgid "PVR client add-ons"
+msgstr ""
+
+#. help text for setting to open add-ons manager window with available PVR client add-ons
+msgctxt "#19346"
+msgid "Display and manage available PVR client add-ons."
+msgstr ""
+
+#. info message box text stating that none of the available pvr clients does provide client-specific settings
+msgctxt "#19347"
+msgid "None of the active PVR clients provide client-specific settings."
+msgstr ""
+
+#. label for 'by provider' sort method
+msgctxt "#19348"
+msgid "Provider"
+msgstr "Proveïdor"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -14512,7 +14581,7 @@ msgstr "Port {0:s}"
 #. Title of the dialog for selecting a game controller
 msgctxt "#35113"
 msgid "Select a Controller"
-msgstr ""
+msgstr "Seleccioneu un controlador"
 
 #. Title of the error dialog when changing a controller port fails
 msgctxt "#35114"
@@ -14937,7 +15006,7 @@ msgstr "Connexió al dorsal."
 # empty strings from id 35510 to 35999
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
-msgstr ""
+msgstr "Adaptador Pulse-Eight CEC"
 
 msgctxt "#36001"
 msgid "Pulse-Eight Nyxboard"
@@ -14985,6 +15054,11 @@ msgstr ""
 
 msgctxt "#36012"
 msgid "Couldn't initialise the CEC adapter. Please check your settings."
+msgstr ""
+
+#. CEC adapter setting to set the type of device that libCEC reports to the TV (Recording, Playback or Tuner Device)
+msgctxt "#36013"
+msgid "CEC client device mode"
 msgstr ""
 
 msgctxt "#36015"
@@ -15134,6 +15208,21 @@ msgstr ""
 msgctxt "#36050"
 msgid "On start"
 msgstr "A l'inici"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36051"
+msgid "Recording Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36052"
+msgid "Playback Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36053"
+msgid "Tuner Device"
+msgstr ""
 
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -15683,8 +15772,8 @@ msgid "Open the client priorities dialog which allows modifying the priority for
 msgstr ""
 
 msgctxt "#36211"
-msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
-msgstr "En aquesta categoria hi ha les opcions per als menús del PVR i la visualització en pantalla (en anglès on-screen display, OSD), així com les finestres d'informació dels canals."
+msgid "This category contains the settings for PVR channels and channel groups."
+msgstr ""
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -16360,6 +16449,11 @@ msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "En una configuració de diverses pantalles, s'enfosqueixen les pantalles que no mostrin aquesta aplicació."
 
+#. Description of settings category with label #1201 "NFS Client"
+msgctxt "#36356"
+msgid "This category contains the settings for how the NFS client is handled."
+msgstr ""
+
 # empty string with id 36356
 #. Description of setting with label #214 "Video calibration..."
 msgctxt "#36357"
@@ -16998,7 +17092,7 @@ msgstr "Reinhard"
 #. label of a setting, allowing to specify tone mapping parameter
 msgctxt "#36556"
 msgid "Tone mapping parameter"
-msgstr ""
+msgstr "Paràmetre de mapatge tonal"
 
 #. label of a setting, tone mapping method
 msgctxt "#36557"
@@ -17039,7 +17133,7 @@ msgstr "Seleccioneu el fitxer 3DLUT que voleu utilitzar per defecte. Si col·loq
 
 msgctxt "#36566"
 msgid "ICC display profile"
-msgstr ""
+msgstr "Perfil de visualització de l'ICC"
 
 #. Description of setting "System -> Video output -> ICC display profile" with label #36566
 msgctxt "#36567"
@@ -17084,7 +17178,7 @@ msgstr ""
 
 msgctxt "#36576"
 msgid "Lookup table size"
-msgstr ""
+msgstr "Mida de la taula de cerca"
 
 #. Description of setting "System -> Video output -> Lookup table size" with label #36576
 msgctxt "#36577"
@@ -17335,7 +17429,7 @@ msgstr ""
 #. Label of a setting, sets additional config required for some proprietary SMBv1 implementations (mostly routers)
 msgctxt "#36630"
 msgid "Use legacy security"
-msgstr ""
+msgstr "Utilitzeu la seguretat heretada"
 
 #. Description of setting with label #36630 "Use legacy security"
 msgctxt "#36631"
@@ -17638,7 +17732,7 @@ msgstr "WS-Discovery"
 #. Setting #37048 Enable WS-Discovery Service"
 msgctxt "#37048"
 msgid "Enable WS-Discovery Service"
-msgstr ""
+msgstr "Habilita el servei WS-Discovery"
 
 #. Description of setting #37048 Enable WS-Discovery Service"
 msgctxt "#37049"
@@ -17648,6 +17742,16 @@ msgstr ""
 #. Label for component level debug logging setting
 msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
+msgstr ""
+
+#. Setting #37051 NFS Protocol Version"
+msgctxt "#37051"
+msgid "NFS Protocol Version"
+msgstr ""
+
+#. Description of setting #37051 NFS Protocol Version"
+msgctxt "#37052"
+msgid "NFS protocol version to use when establishing NFS connections"
 msgstr ""
 
 #. Setting #38011 "Show All Items entry"
@@ -17867,7 +17971,7 @@ msgstr "Caixa recopilatòria"
 
 msgctxt "#38075"
 msgid "* All discs"
-msgstr ""
+msgstr "* Tots els discos"
 
 msgctxt "#38076"
 msgid "Disc title"
@@ -17983,7 +18087,7 @@ msgstr "Restableix la posició de reprèn"
 #. Dialog header for settings for how to export specific music library data
 msgctxt "#38300"
 msgid "Export Music Library"
-msgstr ""
+msgstr "Exportar Biblioteca de Música"
 
 #. Kind of export output, see #38304
 msgctxt "#38301"
@@ -18070,7 +18174,7 @@ msgstr ""
 #. Kind of export output, see #38304
 msgctxt "#38321"
 msgid "Artist folders only"
-msgstr ""
+msgstr "Només carpetes d'artista"
 
 #. Explanation of what export to library folders means see #38303 when albums and artists selected
 msgctxt "#38322"
@@ -18298,7 +18402,7 @@ msgstr "Orígens"
 # empty strings from id 39032 to 39099
 msgctxt "#39100"
 msgid "Perform on startup"
-msgstr ""
+msgstr "Realitzar a l'inici"
 
 #. Startup action option label
 msgctxt "#39101"
@@ -18315,7 +18419,7 @@ msgstr ""
 
 msgctxt "#39104"
 msgid "View as text"
-msgstr ""
+msgstr "Veure com a text"
 
 #. audio/video/subtitle flag - FLAG_DEFAULT
 msgctxt "#39105"
@@ -18384,7 +18488,7 @@ msgstr ""
 #. Label for action to present native iOS sharing sheet
 msgctxt "#39118"
 msgid "Share debug log"
-msgstr ""
+msgstr "Comparteix el registre de depuració"
 
 msgctxt "#39119"
 msgid "Last modified"
@@ -18402,7 +18506,7 @@ msgstr ""
 #. Label for section of settings controling how library is populated
 msgctxt "#39122"
 msgid "Library Information Sources"
-msgstr ""
+msgstr "Fonts d'informació de la biblioteca"
 
 #. Label for section of settings
 msgctxt "#39123"
@@ -18453,7 +18557,7 @@ msgstr ""
 
 msgctxt "#39135"
 msgid "Thumbnail image files"
-msgstr ""
+msgstr "Fitxers d'imatges en miniatura"
 
 #. Description of setting with label #39135 "Thumbnail image files"
 msgctxt "#39136"
@@ -18537,7 +18641,7 @@ msgstr "Sistema de finestres:"
 #. Override subtitles styles setting list
 msgctxt "#39154"
 msgid "Override subtitles styles"
-msgstr ""
+msgstr "Reemplaça estils de subtítols"
 
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
@@ -18557,7 +18661,7 @@ msgstr "Estils"
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39158"
 msgid "Styles and positions"
-msgstr ""
+msgstr "Estils i posicions"
 
 #. Subtitle border size setting toggle
 msgctxt "#39159"
@@ -18713,6 +18817,14 @@ msgstr "Sense fons"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr ""
+
+#~ msgctxt "#19279"
+#~ msgid "Client specific"
+#~ msgstr "Específic del client"
+
+#~ msgctxt "#36211"
+#~ msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+#~ msgstr "En aquesta categoria hi ha les opcions per als menús del PVR i la visualització en pantalla (en anglès on-screen display, OSD), així com les finestres d'informació dels canals."
 
 #~ msgctxt "#21463"
 #~ msgid "Below video"

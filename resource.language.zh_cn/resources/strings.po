@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-09-04 04:46+0000\n"
-"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
+"PO-Revision-Date: 2022-09-22 08:30+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_cn/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -3417,6 +3417,10 @@ msgctxt "#1200"
 msgid "SMB client"
 msgstr "SMB 客户端"
 
+msgctxt "#1201"
+msgid "NFS Client"
+msgstr ""
+
 msgctxt "#1202"
 msgid "Workgroup"
 msgstr "工作组"
@@ -4047,17 +4051,62 @@ msgctxt "#10008"
 msgid "Play next"
 msgstr "播放下一个"
 
+#. Header label for add-on configuration removal dialog
+msgctxt "#10009"
+msgid "Confirm add-on configuration removal"
+msgstr ""
+
+#. Header label for add-on configuration removal selection dialog
+msgctxt "#10010"
+msgid "Select add-on configuration to remove"
+msgstr ""
+
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
 msgstr "设置 - 视频 - 屏幕校准"
+
+#. Header label for add-on configuration selection dialog
+msgctxt "#10012"
+msgid "Add-on configurations and settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10013"
+msgid "Edit add-on settings"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10014"
+msgid "Add add-on configuration"
+msgstr ""
+
+#. Item label used in add-on configuration selection dialog
+msgctxt "#10015"
+msgid "Remove add-on configuration"
+msgstr ""
 
 msgctxt "#10016"
 msgid "Settings - System"
 msgstr "设置 - 系统"
 
+#. Settings group label
+msgctxt "#10017"
+msgid "Add-on configuration"
+msgstr ""
+
 msgctxt "#10018"
 msgid "Settings - Service"
 msgstr "设置 - 服务"
+
+#. Item label for add-on configuration removal dialog
+msgctxt "#10019"
+msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
+msgstr ""
+
+#. Item label used in add-on setup selection dialog
+msgctxt "#10020"
+msgid "Edit \"{0:s}\" [{1:s}]"
+msgstr ""
 
 msgctxt "#10021"
 msgid "Settings - TV"
@@ -8366,7 +8415,7 @@ msgctxt "#19191"
 msgid "PVR service"
 msgstr "PVR 服务"
 
-#. error message box text stating that none of the available pvr clients does support channel scanning
+#. info message box text stating that none of the available pvr clients does support channel scanning
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
 msgstr "连接的 PVR 后端不支持频道扫描。"
@@ -8794,10 +8843,10 @@ msgctxt "#19278"
 msgid "Recording error"
 msgstr "录像错误"
 
-#. pvr settings 'client specific' category label.
+#. pvr settings 'PVR clients' group label.
 msgctxt "#19279"
-msgid "Client specific"
-msgstr "客户端相关"
+msgid "PVR clients"
+msgstr "PVR 客户端"
 
 #. pvr client specific settings 'client specific settings' action control label.
 msgctxt "#19280"
@@ -9123,6 +9172,26 @@ msgstr "[已保存]"
 msgctxt "#19344"
 msgid "Do you want to set a reminder for the selected programme or to switch to the current programme?"
 msgstr "您想为所选节目设置提醒还是切换到当前节目？"
+
+#. settings label to open add-ons manager window with available PVR client add-ons
+msgctxt "#19345"
+msgid "PVR client add-ons"
+msgstr ""
+
+#. help text for setting to open add-ons manager window with available PVR client add-ons
+msgctxt "#19346"
+msgid "Display and manage available PVR client add-ons."
+msgstr ""
+
+#. info message box text stating that none of the available pvr clients does provide client-specific settings
+msgctxt "#19347"
+msgid "None of the active PVR clients provide client-specific settings."
+msgstr ""
+
+#. label for 'by provider' sort method
+msgctxt "#19348"
+msgid "Provider"
+msgstr "提供者"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -14953,6 +15022,11 @@ msgctxt "#36012"
 msgid "Couldn't initialise the CEC adapter. Please check your settings."
 msgstr "无法初始化 CEC 适配器，请检查设置。"
 
+#. CEC adapter setting to set the type of device that libCEC reports to the TV (Recording, Playback or Tuner Device)
+msgctxt "#36013"
+msgid "CEC client device mode"
+msgstr ""
+
 msgctxt "#36015"
 msgid "HDMI port number"
 msgstr "HDMI 端口号"
@@ -15100,6 +15174,21 @@ msgstr "遥控器按钮按压释放时间（毫秒）"
 msgctxt "#36050"
 msgid "On start"
 msgstr "在开始时"
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36051"
+msgid "Recording Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36052"
+msgid "Playback Device"
+msgstr ""
+
+#. Item list value of setting with label #36013 "CEC client device mode"
+msgctxt "#36053"
+msgid "Tuner Device"
+msgstr ""
 
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -15648,8 +15737,8 @@ msgid "Open the client priorities dialog which allows modifying the priority for
 msgstr "打开客户端优先级对话框，允许根据个人喜好修改启用 PVR 客户端的优先级，如以逐客户端顺序排列频道。更大的数字表示高优先级。"
 
 msgctxt "#36211"
-msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
-msgstr "此功能区包含 PVR 菜单和在屏显示（OSD）设置，以及频道信息窗口。"
+msgid "This category contains the settings for PVR channels and channel groups."
+msgstr ""
 
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
@@ -15733,7 +15822,7 @@ msgstr "设置字幕背景不透明度。"
 
 msgctxt "#36231"
 msgid "When flipping through channels using channel up/down buttons, channel switches must be confirmed using the OK button."
-msgstr "使用频道上/下按钮切换频道时，必须使用“确定”按钮确定切换。"
+msgstr "使用频道上/下按钮切换频道时，必须使用“确定”按钮确认切换。"
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -16324,6 +16413,11 @@ msgstr "如启用，全屏模式将使用窗口实现而非真正的全屏模式
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens not displaying this application are blacked out."
 msgstr "在多屏配置，不显示此应用的屏幕将黑屏。"
+
+#. Description of settings category with label #1201 "NFS Client"
+msgctxt "#36356"
+msgid "This category contains the settings for how the NFS client is handled."
+msgstr ""
 
 #. Description of setting with label #214 "Video calibration..."
 msgctxt "#36357"
@@ -17613,6 +17707,16 @@ msgctxt "#37050"
 msgid "Verbose logging for the [B]WS-Discovery[/B] component"
 msgstr "[B]网络发现[/B] 组件详细日志"
 
+#. Setting #37051 NFS Protocol Version"
+msgctxt "#37051"
+msgid "NFS Protocol Version"
+msgstr ""
+
+#. Description of setting #37051 NFS Protocol Version"
+msgctxt "#37052"
+msgid "NFS protocol version to use when establishing NFS connections"
+msgstr ""
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -18669,6 +18773,14 @@ msgstr "无背景"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "仅适用于手动字幕位置"
+
+#~ msgctxt "#19279"
+#~ msgid "Client specific"
+#~ msgstr "客户端相关"
+
+#~ msgctxt "#36211"
+#~ msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
+#~ msgstr "此功能区包含 PVR 菜单和在屏显示（OSD）设置，以及频道信息窗口。"
 
 #~ msgctxt "#21463"
 #~ msgid "Below video"
