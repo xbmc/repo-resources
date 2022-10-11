@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-09-27 17:15+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-10-11 08:03+0000\n"
+"Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
 "MIME-Version: 1.0\n"
@@ -3413,13 +3413,17 @@ msgctxt "#1185"
 msgid "SOCKS5 with remote DNS resolving"
 msgstr "SOCKS5 con risoluzione DNS remota"
 
+msgctxt "#1186"
+msgid "HTTPS"
+msgstr "HTTPS"
+
 msgctxt "#1200"
 msgid "SMB client"
 msgstr "Client SMB"
 
 msgctxt "#1201"
 msgid "NFS Client"
-msgstr "NFS Client"
+msgstr "Client NFS"
 
 msgctxt "#1202"
 msgid "Workgroup"
@@ -4170,7 +4174,7 @@ msgstr "Esperto"
 
 msgctxt "#10040"
 msgid "Add-on browser"
-msgstr "Sfoglia add-on"
+msgstr "Esplora add-on"
 
 msgctxt "#10041"
 msgid "Reset above settings to default"
@@ -10527,7 +10531,7 @@ msgstr "Secure Shell (SSH / SFTP)"
 
 msgctxt "#20262"
 msgid "Zeroconf browser"
-msgstr "Browser Zeroconf"
+msgstr "Esplora Zeroconf"
 
 msgctxt "#20300"
 msgid "Web server directory (HTTP)"
@@ -12519,7 +12523,7 @@ msgstr "Questo add-on non può essere disinstallato"
 
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
-msgstr "VideoPlayer InputStream"
+msgstr "Flusso di ingresso del lettore video"
 
 #. To show addon as deprecated over icon
 msgctxt "#24049"
@@ -15190,6 +15194,12 @@ msgctxt "#36053"
 msgid "Tuner Device"
 msgstr "Dispositivo di sintonizzazione"
 
+# empty strings from id 36054 to 36096
+#. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
+msgctxt "#36097"
+msgid "GUI peak luminance in HDR PQ mode"
+msgstr "Luminanza di picco della GUI in modalità HDR PQ"
+
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
 msgctxt "#36098"
@@ -15529,7 +15539,7 @@ msgstr "Ritardo dell'evento di ripristino dopo una modifica della frequenza di a
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
 msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
-msgstr "Sincronizza il video e l'audio alla frequenza di aggiornamento del monitor. VideoPlayer non userà il passthrough audio in questo caso poiché potrebbe essere necessario un ricampionamento."
+msgstr "Sincronizza il video e l'audio alla frequenza di aggiornamento del monitor. Il lettore video non userà il passthrough audio in questo caso poiché potrebbe essere necessario un ricampionamento."
 
 #. Description of setting with label #14107 "Time format"
 msgctxt "#36167"
@@ -16474,7 +16484,7 @@ msgstr "Seleziona il numero massimo di canali audio / altoparlanti disponibili p
 #. Description of setting with label #348 "Enable passthrough"
 msgctxt "#36368"
 msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
-msgstr "Seleziona per permettere il passthrough audio per la riproduzione di audio compresso come Dolby Digital (AC3), DTS, ecc. Il client dell'AudioEngine, ad esempio Videoplayer, potrebbe decidere di decodificare il flusso audio sotto certe condizioni. Nel caso di Videoplayer, il passthrough non sarà usato per flussi live e quando sincronizzi la riproduzione al display."
+msgstr "Seleziona per permettere il passthrough audio per la riproduzione di audio compresso come Dolby Digital (AC3), DTS, ecc. Il client dell'AudioEngine, ad esempio il lettore video, potrebbe decidere di decodificare il flusso audio sotto certe condizioni. Nel caso del lettore video, il passthrough non sarà usato per flussi live e quando sincronizzi la riproduzione al display."
 
 #. Description of setting with label #349 "TrueHD capable receiver"
 msgctxt "#36369"
@@ -17011,6 +17021,11 @@ msgstr "Profondità stereoscopica 3D dei sottotitoli"
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Imposta la profondità di visione dei sottotitoli per i video steresocopici 3D. Maggiore è il valore, più vicini i sottotitoli appariranno allo spettatore."
+
+#. Description of setting with label #36097 "System / Display / GUI peak luminance in HDR PQ mode"
+msgctxt "#36547"
+msgid "Sets the peak luminance level for GUI elements while the display is in HDR PQ mode. This affects all OSD, subtitles and graphics that are SDR in origin."
+msgstr "Imposta il livello di luminanza di picco per gli elementi della GUI mentre il display è in modalità HDR PQ. Ciò riguarda tutti gli OSD, i sottotitoli e la grafica che sono in origine SDR."
 
 #. Description of setting with label #37021 "Set GUI resolution limit"
 msgctxt "#36548"
