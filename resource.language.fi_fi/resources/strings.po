@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-11 08:03+0000\n"
+"PO-Revision-Date: 2022-10-24 06:44+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -4134,7 +4134,7 @@ msgstr "Videot"
 
 msgctxt "#10028"
 msgid "Videos / Playlist"
-msgstr "Videot/Toistolista"
+msgstr "Videot/toistolista"
 
 msgctxt "#10029"
 msgid "Login screen"
@@ -4251,6 +4251,11 @@ msgstr "Muokkaa tiedostolähdettä"
 msgctxt "#10058"
 msgid "Remove tag from library"
 msgstr "Poista tunniste kirjastosta"
+
+# empty string with id 10059
+msgctxt "#10060"
+msgid "Favourites"
+msgstr "Suosikit"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -7070,6 +7075,51 @@ msgctxt "#15216"
 msgid "Play in party mode"
 msgstr "Toista jukeboksissa"
 
+#. Label for actions associated with favourites
+msgctxt "#15217"
+msgid "Action"
+msgstr "Toiminto"
+
+#. Label for an action associated with a favourite.
+msgctxt "#15218"
+msgid "Play media"
+msgstr "Toista media"
+
+#. Label for an action associated with a favourite
+msgctxt "#15219"
+msgid "Show picture"
+msgstr "Näytä kuva"
+
+#. Label for an action associated with a favourite. Placeholder will be filled with the name of the window the favourite's content will be displayed in.
+msgctxt "#15220"
+msgid "Show content in \"{}\""
+msgstr "Näytä sisältö kohteessa \"{}\""
+
+#. Label for an action associated with a favourite
+msgctxt "#15221"
+msgid "Execute script"
+msgstr "Suorita komentosarja"
+
+#. Label for an action associated with a favourite
+msgctxt "#15222"
+msgid "Execute Android app"
+msgstr "Suorita Android-sovellus"
+
+#. Label for an action associated with a favourite
+msgctxt "#15223"
+msgid "Execute add-on"
+msgstr "Suorita lisäosa"
+
+#. Label for an action associated with a favourite
+msgctxt "#15224"
+msgid "Other / Unknown"
+msgstr "Muu/tuntematon"
+
+#. genric label for 'provider'
+msgctxt "#15225"
+msgid "Provider"
+msgstr "Tarjoaja"
+
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "Tiedostosijaintia ei löydy tai se on virheellinen"
@@ -9221,30 +9271,35 @@ msgctxt "#19348"
 msgid "Provider"
 msgstr "Tarjoaja"
 
+#. label for 'by user preference' sort method
+msgctxt "#19349"
+msgid "User preference"
+msgstr "Käyttäjän mieltymys"
+
 #. label for epg genre value
 msgctxt "#19499"
 msgid "Other / Unknown"
-msgstr "Muu / Tuntematon"
+msgstr "Muu/tuntematon"
 
 #. label for epg "movie/drama" genre value
 msgctxt "#19500"
 msgid "Movie / Drama"
-msgstr "Elokuva / Draama"
+msgstr "Elokuva/draama"
 
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19501"
 msgid "Detective / Thriller"
-msgstr "Rikos / Jännitys"
+msgstr "Rikos/jännitys"
 
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19502"
 msgid "Adventure / Western / War"
-msgstr "Seikkailu / Länkkäri / Sota"
+msgstr "Seikkailu/länkkäri/sota"
 
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19503"
 msgid "Science fiction / Fantasy / Horror"
-msgstr "Tieteis / Fantasia / Kauhu"
+msgstr "Scifi/fantasia/kauhu"
 
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19504"
@@ -9254,7 +9309,7 @@ msgstr "Komedia"
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19505"
 msgid "Soap / Melodrama / Folkloric"
-msgstr "Saippua / Melodraama / Kansanperinne"
+msgstr "Saippua/melodraama/kansanperinne"
 
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19506"
@@ -9264,22 +9319,22 @@ msgstr "Rakkaus"
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19507"
 msgid "Serious / Classical / Religious / Historical movie / drama"
-msgstr "Vakava / Klassinen / Uskonto / Historia"
+msgstr "Vakava/klassinen/uskonto/historiallinen elokuva/draama"
 
 #. label for epg "movie/drama" subgenre value
 msgctxt "#19508"
 msgid "Adult movie / drama"
-msgstr "Aikuisten elokuva"
+msgstr "Aikuisille suunnattu elokuva/draama"
 
 #. label for "news/current affairs" epg genre value
 msgctxt "#19516"
 msgid "News / Current affairs"
-msgstr "Uutiset / Ajankohtaiset"
+msgstr "Uutiset/ajankohtaisohjelmat"
 
 #. label for "news/current affairs" epg subgenre value
 msgctxt "#19517"
 msgid "News / Weather report"
-msgstr "Uutiset / Sää"
+msgstr "Uutiset/säätiedotus"
 
 #. label for "news/current affairs" epg subgenre value
 msgctxt "#19518"
@@ -9294,17 +9349,17 @@ msgstr "Dokumentti"
 #. label for "news/current affairs" epg subgenre value
 msgctxt "#19520"
 msgid "Discussion / Interview / Debate"
-msgstr "Keskustelu / Haastattelu / Väittely"
+msgstr "Keskustelu/haastattelu/väittely"
 
 #. label for "show/game show" epg subgenre value
 msgctxt "#19532"
 msgid "Show / Game show"
-msgstr "Näytös / Peliohjelma"
+msgstr "Näytös/peliohjelma"
 
 #. label for "show/game show" epg subgenre value
 msgctxt "#19533"
 msgid "Game show / Quiz / Contest"
-msgstr "Peliohjelma / Tietovisa / Kilpailu"
+msgstr "Peliohjelma/visailu/kilpailu"
 
 #. label for "show/game show" epg subgenre value
 msgctxt "#19534"
@@ -9339,7 +9394,7 @@ msgstr "Jalkapallo"
 #. label for "sports" epg subgenre value
 msgctxt "#19552"
 msgid "Tennis / Squash"
-msgstr "Tennis / Squash"
+msgstr "Tennis/squash"
 
 #. label for "sports" epg subgenre value
 msgctxt "#19553"
@@ -9399,32 +9454,32 @@ msgstr "Viihdeohjelmat 10-16 vuotiaille"
 #. label for "children's/youth programmes" epg subgenre value
 msgctxt "#19568"
 msgid "Informational / Educational / School programme"
-msgstr "Tiedollinen / Opettavainen / Kouluohjelma"
+msgstr "Tiedollinen/opettavainen/kouluohjelma"
 
 #. label for "children's/youth programmes" epg subgenre value
 msgctxt "#19569"
 msgid "Cartoons / Puppets"
-msgstr "Piirretyt / Hahmot"
+msgstr "Animaatiot/nuket"
 
 #. label for "music/ballet/dance" epg genre value
 msgctxt "#19580"
 msgid "Music / Ballet / Dance"
-msgstr "Musiikki / Baletti / Tanssi"
+msgstr "Musiikki/baletti/tanssi"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19581"
 msgid "Rock / Pop"
-msgstr "Rock / Pop"
+msgstr "Rock/pop"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19582"
 msgid "Serious / Classical music"
-msgstr "Vakava / Klassinen musiikki"
+msgstr "Vakava/klassinen musiikki"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19583"
 msgid "Folk / Traditional music"
-msgstr "Folk / Perinteinen musiikki"
+msgstr "Folk/perinnemusiikki"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19584"
@@ -9434,7 +9489,7 @@ msgstr "Jazz"
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19585"
 msgid "Musical / Opera"
-msgstr "Musikaali / Ooppera"
+msgstr "Musikaali/ooppera"
 
 #. label for "music/ballet/dance" epg subgenre value
 msgctxt "#19586"
@@ -9444,7 +9499,7 @@ msgstr "Baletti"
 #. label for "arts/culture" epg genre value
 msgctxt "#19596"
 msgid "Arts / Culture"
-msgstr "Taide / Kulttuuri"
+msgstr "Taide/kulttuuri"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19597"
@@ -9464,7 +9519,7 @@ msgstr "Uskonto"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19600"
 msgid "Popular culture / Traditional arts"
-msgstr "Populaarikulttuuri / Perinteiset taiteet"
+msgstr "Populaarikulttuuri/perinnetaiteet"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19601"
@@ -9474,7 +9529,7 @@ msgstr "Kirjallisuus"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19602"
 msgid "Film / Cinema"
-msgstr "Filmi / Elokuva"
+msgstr "Filmi/elokuva"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19603"
@@ -9484,7 +9539,7 @@ msgstr "Kokeellinen filmi/video"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19604"
 msgid "Broadcasting / Press"
-msgstr "Lähetys / Lehdistö"
+msgstr "Lähetys/lehdistö"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19605"
@@ -9504,12 +9559,12 @@ msgstr "Muoti"
 #. label for "social/political/economics" epg genre value
 msgctxt "#19612"
 msgid "Social / Political / Economics"
-msgstr "Yhteiskunta / Politiikka / Talous"
+msgstr "Yhteiskunta/politiikka/talous"
 
 #. label for "social/political/economics" epg subgenre value
 msgctxt "#19613"
 msgid "Magazines / Reports / Documentary"
-msgstr "Makasiini / Raportti / Dokumentti"
+msgstr "Makasiini/raportti/dokumentti"
 
 #. label for "social/political/economics" epg subgenre value
 msgctxt "#19614"
@@ -9524,27 +9579,27 @@ msgstr "Henkilökuva"
 #. label for "education/science/factual" epg genre value
 msgctxt "#19628"
 msgid "Education / Science / Factual"
-msgstr "Koulutus / Tiede / Tosiasiallinen"
+msgstr "Koulutus/tiede/tosiasiallinen"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19629"
 msgid "Nature / Animals / Environment"
-msgstr "Luonto / Eläimet / Ympäristö"
+msgstr "Luonto/eläimet/ympäristö"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19630"
 msgid "Technology / Natural sciences"
-msgstr "Teknologia / Luonnontiede"
+msgstr "Teknologia/luonnontiede"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19631"
 msgid "Medicine / Physiology / Psychology"
-msgstr "Lääketiede / Fysiologia / Psykologia"
+msgstr "Lääketiede/fysiologia/psykologia"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19632"
 msgid "Foreign countries / Expeditions"
-msgstr "Ulkomaat / Tutkimusmatkailu"
+msgstr "Ulkomaat/tutkimusmatkailu"
 
 #. label for "education/science/factual" epg subgenre value
 msgctxt "#19633"
@@ -9564,12 +9619,12 @@ msgstr "Kielet"
 #. label for "leisure/hobbies" epg genre value
 msgctxt "#19644"
 msgid "Leisure / Hobbies"
-msgstr "Vapaa-aika / Harrastukset"
+msgstr "Vapaa-aika/harrastukset"
 
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19645"
 msgid "Tourism / Travel"
-msgstr "Turismi / Matkailu"
+msgstr "Turismi/matkailu"
 
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19646"
@@ -9594,7 +9649,7 @@ msgstr "Ruuanlaitto"
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19650"
 msgid "Advertisement / Shopping"
-msgstr "Markkinointi / Ostokset"
+msgstr "Markkinointi/ostokset"
 
 #. label for "leisure/hobbies" epg subgenre value
 msgctxt "#19651"
@@ -9634,17 +9689,17 @@ msgstr "Draama"
 #. label for "user defined" epg subgenre value
 msgctxt "#19677"
 msgid "Detective / Thriller"
-msgstr "Rikos / Jännitys"
+msgstr "Etsivä/jännitys"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19678"
 msgid "Adventure / Western / War"
-msgstr "Seikkailu / Länkkäri / Sota"
+msgstr "Seikkailu/länkkäri/sota"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19679"
 msgid "Science fiction / Fantasy / Horror"
-msgstr "Tieteis / Fantasia / Kauhu"
+msgstr "Tieteis/fantasia/kauhu"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19680"
@@ -9654,7 +9709,7 @@ msgstr "Komedia"
 #. label for "user defined" epg subgenre value
 msgctxt "#19681"
 msgid "Soap / Melodrama / Folkloric"
-msgstr "Saippua / Melodraama / Kansanperinne"
+msgstr "Saippua/melodraama/kansanperinne"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19682"
@@ -9664,7 +9719,7 @@ msgstr "Rakkaus"
 #. label for "user defined" epg subgenre value
 msgctxt "#19683"
 msgid "Serious / Classical / Religion / Historical"
-msgstr "Vakava / Klassinen / Uskonto / Historia"
+msgstr "Vakava/klassinen/uskonto/historia"
 
 #. label for "user defined" epg subgenre value
 msgctxt "#19684"
@@ -10126,7 +10181,7 @@ msgstr "Profiili {0:d}/{1:d}"
 
 msgctxt "#20115"
 msgid "User login / Select a profile"
-msgstr "Käyttäjän kirjautuminen/Profiilin valinta"
+msgstr "Kirjautuminen/profiilivalinta"
 
 msgctxt "#20116"
 msgid "Use lock on login screen"
@@ -10148,10 +10203,9 @@ msgctxt "#20121"
 msgid "Party on!"
 msgstr "Bileet pystyyn!"
 
-#, fuzzy
 msgctxt "#20122"
 msgid "True"
-msgstr "On"
+msgstr "Totta"
 
 msgctxt "#20123"
 msgid "Mixing drinks"
@@ -10171,15 +10225,15 @@ msgstr "Kirjaudu ulos"
 
 msgctxt "#20129"
 msgid "Weave"
-msgstr "Pujottelu"
+msgstr "Weave"
 
 msgctxt "#20130"
 msgid "Weave - Inverted"
-msgstr "Pujottelu - Käänteinen"
+msgstr "Weave - Käänteinen"
 
 msgctxt "#20131"
 msgid "Blend"
-msgstr "Sekoitus"
+msgstr "Blend"
 
 msgctxt "#20132"
 msgid "Restart video"
@@ -13057,6 +13111,10 @@ msgstr "Tämä estää ei-toivotut napautukset/pyyhkäisyt/panoroinnit tartuttae
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Käytä Kodin virtuaalinäppäimistöä"
+
+msgctxt "#24163"
+msgid "The higher the value, the more sensitive the pan gesture"
+msgstr "Mitä korkeampi arvo, sitä herkempi panorointiele"
 
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken add-on

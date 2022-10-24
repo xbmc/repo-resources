@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-11 08:03+0000\n"
+"PO-Revision-Date: 2022-10-24 09:16+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
@@ -2156,7 +2156,7 @@ msgstr "Traccia"
 
 msgctxt "#555"
 msgid "Time"
-msgstr "Tempo"
+msgstr "Inizio"
 
 msgctxt "#556"
 msgid "Title"
@@ -4247,6 +4247,11 @@ msgstr "Modifica sorgente file"
 msgctxt "#10058"
 msgid "Remove tag from library"
 msgstr "Rimuovi i tag dalla libreria"
+
+# empty string with id 10059
+msgctxt "#10060"
+msgid "Favourites"
+msgstr "Preferiti"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -7049,6 +7054,51 @@ msgctxt "#15216"
 msgid "Play in party mode"
 msgstr "Esegui in modalità party"
 
+#. Label for actions associated with favourites
+msgctxt "#15217"
+msgid "Action"
+msgstr "Azione"
+
+#. Label for an action associated with a favourite.
+msgctxt "#15218"
+msgid "Play media"
+msgstr "Riproduci contenuti multimediali"
+
+#. Label for an action associated with a favourite
+msgctxt "#15219"
+msgid "Show picture"
+msgstr "Mostra immagine"
+
+#. Label for an action associated with a favourite. Placeholder will be filled with the name of the window the favourite's content will be displayed in.
+msgctxt "#15220"
+msgid "Show content in \"{}\""
+msgstr "Mostra contenuto in \"{}\""
+
+#. Label for an action associated with a favourite
+msgctxt "#15221"
+msgid "Execute script"
+msgstr "Esegui script"
+
+#. Label for an action associated with a favourite
+msgctxt "#15222"
+msgid "Execute Android app"
+msgstr "Esegui app Android"
+
+#. Label for an action associated with a favourite
+msgctxt "#15223"
+msgid "Execute add-on"
+msgstr "Esegui add-on"
+
+#. Label for an action associated with a favourite
+msgctxt "#15224"
+msgid "Other / Unknown"
+msgstr "Altro / Sconosciuto"
+
+#. genric label for 'provider'
+msgctxt "#15225"
+msgid "Provider"
+msgstr "Provider"
+
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "Percorso non trovato o non valido"
@@ -9196,6 +9246,11 @@ msgstr "Nessuno dei client PVR attivi fornisce impostazioni specifiche sul clien
 msgctxt "#19348"
 msgid "Provider"
 msgstr "Provider"
+
+#. label for 'by user preference' sort method
+msgctxt "#19349"
+msgid "User preference"
+msgstr "Preferenza utente"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -12523,7 +12578,7 @@ msgstr "Questo add-on non può essere disinstallato"
 
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
-msgstr "Flusso di ingresso del lettore video"
+msgstr "InputStream lettore video"
 
 #. To show addon as deprecated over icon
 msgctxt "#24049"
@@ -13024,6 +13079,10 @@ msgstr "Questo evita tocchi/swipe/pan accidentali quando prendi in mano il telec
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Usa la tastiera virtuale di Kodi"
+
+msgctxt "#24163"
+msgid "The higher the value, the more sensitive the pan gesture"
+msgstr "Più alto è il valore, più sensibile sarà il gesto panoramico"
 
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken add-on
@@ -17442,7 +17501,7 @@ msgstr "Devi prima inserire una password per potere abilitare l'autenticazione d
 #. Text in confirm dialog when installing addon from zip
 msgctxt "#36637"
 msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
-msgstr "Tieni presente che i componenti aggiuntivi installati da zip (esclusi i repository serviti) non si aggiorneranno automaticamente e devono essere aggiornati manualmente. Vuoi continuare?"
+msgstr "Tieni presente che i componenti aggiuntivi installati da zip (esclusi i repository) non si aggiorneranno automaticamente e devono essere aggiornati manualmente. Vuoi continuare?"
 
 #. Menuitem at "Settings -> System -> Add-ons"
 msgctxt "#36638"
