@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-11 08:03+0000\n"
+"PO-Revision-Date: 2022-10-24 06:44+0000\n"
 "Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_es/>\n"
 "Language: es_es\n"
@@ -2549,7 +2549,7 @@ msgstr "¿Quiere eliminarlo de la colección?"
 
 msgctxt "#664"
 msgid "Browse for script"
-msgstr "Buscar de script"
+msgstr "Buscar script"
 
 msgctxt "#665"
 msgid "Compression level"
@@ -4002,7 +4002,7 @@ msgstr "Error {0:s}"
 #. Fallback message indicating an add-on error.
 msgctxt "#2103"
 msgid "Add-on error"
-msgstr "Error de add-on"
+msgstr "Error de Add-on"
 
 #. Used for add-on error kaitoast.
 msgctxt "#2104"
@@ -4058,12 +4058,12 @@ msgstr "Reproducir siguiente"
 #. Header label for add-on configuration removal dialog
 msgctxt "#10009"
 msgid "Confirm add-on configuration removal"
-msgstr "Confirmación de eliminación de configuración de Addon"
+msgstr "Confirmación de eliminación de configuración de Add-on"
 
 #. Header label for add-on configuration removal selection dialog
 msgctxt "#10010"
 msgid "Select add-on configuration to remove"
-msgstr "Elija configuración de Addon a eliminar"
+msgstr "Elija configuración de Add-on a eliminar"
 
 msgctxt "#10011"
 msgid "Settings - Videos - Screen calibration"
@@ -4072,22 +4072,22 @@ msgstr "Ajustes - Vídeo - Calibración de pantalla"
 #. Header label for add-on configuration selection dialog
 msgctxt "#10012"
 msgid "Add-on configurations and settings"
-msgstr "Ajustes y configuraciones de Addon"
+msgstr "Ajustes y configuraciones de Add-on"
 
 #. Item label used in add-on configuration selection dialog
 msgctxt "#10013"
 msgid "Edit add-on settings"
-msgstr "Editar ajustes de Addon"
+msgstr "Editar ajustes de Add-on"
 
 #. Item label used in add-on configuration selection dialog
 msgctxt "#10014"
 msgid "Add add-on configuration"
-msgstr "Añadir configuración de Addon"
+msgstr "Añadir configuración de Add-on"
 
 #. Item label used in add-on configuration selection dialog
 msgctxt "#10015"
 msgid "Remove add-on configuration"
-msgstr "Eliminar configuración de Addon"
+msgstr "Eliminar configuración de Add-on"
 
 msgctxt "#10016"
 msgid "Settings - System"
@@ -4096,7 +4096,7 @@ msgstr "Ajustes - Sistema"
 #. Settings group label
 msgctxt "#10017"
 msgid "Add-on configuration"
-msgstr "Configuración de Addon"
+msgstr "Configuración de Add-on"
 
 msgctxt "#10018"
 msgid "Settings - Service"
@@ -4105,7 +4105,7 @@ msgstr "Ajustes - Servicio"
 #. Item label for add-on configuration removal dialog
 msgctxt "#10019"
 msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
-msgstr "¿Quiere eliminar la configuración de Addon \"{0:s}\"?"
+msgstr "¿Quiere eliminar la configuración del Add-on \"{0:s}\"?"
 
 #. Item label used in add-on setup selection dialog
 msgctxt "#10020"
@@ -4247,6 +4247,11 @@ msgstr "Editar fuente de archivos"
 msgctxt "#10058"
 msgid "Remove tag from library"
 msgstr "Eliminar etiqueta de la biblioteca"
+
+# empty string with id 10059
+msgctxt "#10060"
+msgid "Favourites"
+msgstr "Favoritos"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -7049,6 +7054,51 @@ msgctxt "#15216"
 msgid "Play in party mode"
 msgstr "Reproducir en modo fiesta"
 
+#. Label for actions associated with favourites
+msgctxt "#15217"
+msgid "Action"
+msgstr "Acción"
+
+#. Label for an action associated with a favourite.
+msgctxt "#15218"
+msgid "Play media"
+msgstr "Reproducir contenido"
+
+#. Label for an action associated with a favourite
+msgctxt "#15219"
+msgid "Show picture"
+msgstr "Mostrar imagen"
+
+#. Label for an action associated with a favourite. Placeholder will be filled with the name of the window the favourite's content will be displayed in.
+msgctxt "#15220"
+msgid "Show content in \"{}\""
+msgstr "Mostrar contenido en \"{}\""
+
+#. Label for an action associated with a favourite
+msgctxt "#15221"
+msgid "Execute script"
+msgstr "Ejecutar script"
+
+#. Label for an action associated with a favourite
+msgctxt "#15222"
+msgid "Execute Android app"
+msgstr "Ejecutar app de Android"
+
+#. Label for an action associated with a favourite
+msgctxt "#15223"
+msgid "Execute add-on"
+msgstr "Ejecutar Add-on"
+
+#. Label for an action associated with a favourite
+msgctxt "#15224"
+msgid "Other / Unknown"
+msgstr "Otro / Desconocido"
+
+#. genric label for 'provider'
+msgctxt "#15225"
+msgid "Provider"
+msgstr "Proveedor"
+
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "Ruta no encontrada o inválida"
@@ -8571,7 +8621,7 @@ msgstr "Guía"
 #. unused?
 msgctxt "#19223"
 msgid "No PVR add-on could be enabled. Check your settings or the log for more information."
-msgstr "No se pudo activar ningún add-on PVR. Revise su configuración o consulte el registro para más detalles."
+msgstr "No se pudo activar ningún Add-on PVR. Revise su configuración o consulte el registro para más detalles."
 
 #. Notification text to announce that a recording was aborted
 msgctxt "#19224"
@@ -8810,12 +8860,12 @@ msgstr "Grupos"
 #. unused?
 msgctxt "#19271"
 msgid "No PVR add-ons could be found"
-msgstr "No se encontraron add-ons de PVR"
+msgstr "No se encontraron Add-ons de PVR"
 
 #. label for 'pvr configuration incomplete' information dialog text
 msgctxt "#19272"
 msgid "To use PVR you need to install, enable and configure a PVR add-on. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "Para usar PVR necesita instalar, activar y configurar un add-on PVR. Visite http://kodi.wiki/view/PVR para saber mas."
+msgstr "Para usar PVR necesita instalar, activar y configurar un Add-on PVR. Visite http://kodi.wiki/view/PVR para saber mas."
 
 #. Settings -> Interface -> Other -> Startup window value
 msgctxt "#19273"
@@ -8935,7 +8985,7 @@ msgstr "Eliminar regla de programación"
 #. Label if no pvr addons are enabled
 msgctxt "#19296"
 msgid "No PVR add-on enabled"
-msgstr "No hay ningún add-on PVR activado"
+msgstr "No hay ningún Add-on PVR activado"
 
 #. 'Viewtype' label for vertical channel layout, used in pvr guide window
 msgctxt "#19297"
@@ -9100,7 +9150,7 @@ msgstr "¿Borrar todas las grabaciones vistas en esta carpeta?"
 #. label for PVR settings use backend channel numbers always
 msgctxt "#19329"
 msgid "Allow backend channel numbers with more than one PVR add-on"
-msgstr "Permitir números de canales de servidor con más de un complemento de PVR"
+msgstr "Permitir números de canales de servidor con más de un Add-on de PVR"
 
 #. pvr settings "switch to channel on reminder auto-close" setting label
 msgctxt "#19330"
@@ -9180,12 +9230,12 @@ msgstr "¿Quiere poner un recordatorio para el programa elegido o cambiar direct
 #. settings label to open add-ons manager window with available PVR client add-ons
 msgctxt "#19345"
 msgid "PVR client add-ons"
-msgstr "Addons de cliente PVR"
+msgstr "Add-ons de cliente PVR"
 
 #. help text for setting to open add-ons manager window with available PVR client add-ons
 msgctxt "#19346"
 msgid "Display and manage available PVR client add-ons."
-msgstr "Mostrar y gestionar los Addons de cliente PVR disponibles."
+msgstr "Mostrar y gestionar los Add-ons de cliente PVR disponibles."
 
 #. info message box text stating that none of the available pvr clients does provide client-specific settings
 msgctxt "#19347"
@@ -9196,6 +9246,11 @@ msgstr "Ninguno de los clientes PVR activos tiene ajustes específicos de client
 msgctxt "#19348"
 msgid "Provider"
 msgstr "Proveedor"
+
+#. label for 'by user preference' sort method
+msgctxt "#19349"
+msgid "User preference"
+msgstr "Preferencia de usuario"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11276,7 +11331,7 @@ msgstr "No hay actualizaciones disponibles"
 
 msgctxt "#21342"
 msgid "There are currently no versions available for this add-on."
-msgstr "No hay versiones disponibles para este add-on."
+msgstr "No hay versiones disponibles para este Add-on."
 
 msgctxt "#21343"
 msgid "Use video tags"
@@ -12330,11 +12385,11 @@ msgstr "Add-ons"
 
 msgctxt "#24002"
 msgid "Add-on options"
-msgstr "Opciones de add-ons"
+msgstr "Opciones de Add-ons"
 
 msgctxt "#24003"
 msgid "Add-on information"
-msgstr "Información del add-on"
+msgstr "Información del Add-on"
 
 #. Name of menu in the add-on browser
 msgctxt "#24004"
@@ -12423,7 +12478,7 @@ msgstr "Desactivado"
 #. Used as an error message (triggered from content dialog) on disabled scrapers
 msgctxt "#24024"
 msgid "Add-on disabled"
-msgstr "El add-on está desactivado"
+msgstr "El Add-on está desactivado"
 
 #. Used as the type name for context item addons
 msgctxt "#24025"
@@ -12448,7 +12503,7 @@ msgstr "Servicio de información meteorológica"
 
 msgctxt "#24030"
 msgid "This add-on can't be configured"
-msgstr "Este add-on no se puede configurar"
+msgstr "Este Add-on no se puede configurar"
 
 msgctxt "#24031"
 msgid "Error loading settings"
@@ -12456,7 +12511,7 @@ msgstr "Error cargando las opciones"
 
 msgctxt "#24032"
 msgid "All add-ons"
-msgstr "Todos los add-ons"
+msgstr "Todos los Add-ons"
 
 msgctxt "#24033"
 msgid "Install from repository"
@@ -12511,15 +12566,15 @@ msgstr "Instalando {0:d}%"
 #. Used as an event log description for add-ons failed to install from zip
 msgctxt "#24045"
 msgid "Failed to install add-on from zip file"
-msgstr "Fallo al instalar add-on desde un archivo zip"
+msgstr "Fallo al instalar Add-on desde un archivo zip"
 
 msgctxt "#24046"
 msgid "{0:s} is used by the following installed add-on(s)"
-msgstr "{0:s} lo usan los siguientes add-ons"
+msgstr "{0:s} lo usan los siguientes Add-ons"
 
 msgctxt "#24047"
 msgid "This add-on can't be uninstalled"
-msgstr "Este add-on no se puede desinstalar"
+msgstr "Este Add-on no se puede desinstalar"
 
 msgctxt "#24048"
 msgid "VideoPlayer InputStream"
@@ -12528,7 +12583,7 @@ msgstr "VideoPlayer InputStream"
 #. To show addon as deprecated over icon
 msgctxt "#24049"
 msgid "Add-on has been marked deprecated in repository."
-msgstr "El complemento se ha marcado como obsoleto en el repositorio."
+msgstr "El Add-on se ha marcado como obsoleto en el repositorio."
 
 msgctxt "#24050"
 msgid "Available add-ons"
@@ -12572,15 +12627,15 @@ msgstr "Comprobando dependencias..."
 
 msgctxt "#24059"
 msgid "Would you like to enable this add-on?"
-msgstr "¿Quiere activar este add-on?"
+msgstr "¿Quiere activar este Add-on?"
 
 msgctxt "#24060"
 msgid "Would you like to disable this add-on?"
-msgstr "¿Quiere desactivar este add-on?"
+msgstr "¿Quiere desactivar este Add-on?"
 
 msgctxt "#24061"
 msgid "Add-on updates available"
-msgstr "Actualizaciones de add-ons disponibles"
+msgstr "Actualizaciones de Add-ons disponibles"
 
 msgctxt "#24062"
 msgid "Enabled add-ons"
@@ -12601,7 +12656,7 @@ msgstr "Add-on actualizado"
 
 msgctxt "#24066"
 msgid "Cancel add-on download?"
-msgstr "¿Cancelar descarga de add-on?"
+msgstr "¿Cancelar descarga de Add-on?"
 
 msgctxt "#24067"
 msgid "Currently downloading add-ons"
@@ -12617,7 +12672,7 @@ msgstr "Versiones"
 
 msgctxt "#24070"
 msgid "Add-on couldn't be loaded."
-msgstr "El add-on no se pudo cargar."
+msgstr "El Add-on no se pudo cargar."
 
 msgctxt "#24071"
 msgid "An unknown error has occurred."
@@ -12646,17 +12701,17 @@ msgstr "Add-on necesario"
 #. Used as a text in the progress dialog when installing an add-on
 msgctxt "#24077"
 msgid "Verifying downloaded add-on..."
-msgstr "Comprobando add-on descargado..."
+msgstr "Comprobando Add-on descargado..."
 
 #. Used as a text in the progress dialog when installing an add-on
 msgctxt "#24078"
 msgid "Downloading add-on..."
-msgstr "Descargando add-on..."
+msgstr "Descargando Add-on..."
 
 #. Used as a text in the progress dialog when installing an add-on
 msgctxt "#24079"
 msgid "Installing add-on dependencies..."
-msgstr "Instalando dependencias de add-on..."
+msgstr "Instalando dependencias de Add-on..."
 
 msgctxt "#24080"
 msgid "Try to reconnect?"
@@ -12670,7 +12725,7 @@ msgstr "Add-ons de asistentes"
 #. The label in the add-ons manager for add-on libraries
 msgctxt "#24082"
 msgid "Add-on libraries"
-msgstr "Librerías de add-ons"
+msgstr "Librerías de Add-ons"
 
 #. The label in the add-ons manager for information libraries
 msgctxt "#24083"
@@ -12689,7 +12744,7 @@ msgstr "Fallo al instalar una dependencia"
 #. Used as a text in the progress dialog when installing an add-on
 msgctxt "#24086"
 msgid "Installing add-on..."
-msgstr "Instalando add-on..."
+msgstr "Instalando Add-on..."
 
 #. Used in add-on browser
 msgctxt "#24087"
@@ -12703,20 +12758,20 @@ msgstr "Fallo al instalar un repositorio"
 
 msgctxt "#24089"
 msgid "Add-on restarts"
-msgstr "El add-on se reinicia"
+msgstr "El Add-on se reinicia"
 
 msgctxt "#24090"
 msgid "Lock add-on manager"
-msgstr "Bloquear el gestor de add-ons"
+msgstr "Bloquear el gestor de Add-ons"
 
 msgctxt "#24091"
 msgid "This add-on can't be disabled"
-msgstr "Este add-on no se puede desactivar"
+msgstr "Este Add-on no se puede desactivar"
 
 #. Used as title of the progress dialog when checking for add-on updates in add-on browser
 msgctxt "#24092"
 msgid "Checking for add-on updates"
-msgstr "Comprobando actualizaciones de add-ons"
+msgstr "Comprobando actualizaciones de Add-ons"
 
 #. Used as a text in the progress dialog when checking for add-on updates. {0:s} contains repository name
 msgctxt "#24093"
@@ -12734,7 +12789,7 @@ msgstr "Caché de paquetes locales"
 #. To show addon as broken over icon
 msgctxt "#24096"
 msgid "Add-on has been marked broken in repository."
-msgstr "El add-on se ha marcado como roto en el repositorio."
+msgstr "El Add-on se ha marcado como roto en el repositorio."
 
 msgctxt "#24097"
 msgid "Would you like to disable it on your system?"
@@ -12750,11 +12805,11 @@ msgstr "¿Quiere cambiar a esta skin?"
 
 msgctxt "#24100"
 msgid "To use this feature you must download an add-on:"
-msgstr "Para utilizar esta característica debe descargar un add-on:"
+msgstr "Para utilizar esta característica debe descargar un Add-on:"
 
 msgctxt "#24101"
 msgid "Would you like to download this add-on?"
-msgstr "¿Quiere descargar este add-on?"
+msgstr "¿Quiere descargar este Add-on?"
 
 msgctxt "#24102"
 msgid "Unable to load skin"
@@ -12900,11 +12955,11 @@ msgstr "Descargar subtítulos..."
 
 msgctxt "#24135"
 msgid "To use this feature you must enable an add-on:"
-msgstr "Para usar esta funcionalidad se debe activar el add-on:"
+msgstr "Para usar esta funcionalidad se debe activar el Add-on:"
 
 msgctxt "#24136"
 msgid "Would you like to enable this add-on?"
-msgstr "¿Quiere activar este add-on?"
+msgstr "¿Quiere activar este Add-on?"
 
 #. Button in Add-on Manager -> Available Updates for updating all possible add-ons when auto-updating is off.
 msgctxt "#24137"
@@ -12919,7 +12974,7 @@ msgstr "Actualizar"
 #. Label for the action provided by addon management events to jump to a specific add-on
 msgctxt "#24139"
 msgid "View add-on"
-msgstr "Ver add-on"
+msgstr "Ver Add-on"
 
 #. Label for the action provided by media library events to jump to a specific path/file
 msgctxt "#24140"
@@ -12929,7 +12984,7 @@ msgstr "Ver"
 #. Used as an event log description for add-ons that have been disabled
 msgctxt "#24141"
 msgid "Add-on disabled"
-msgstr "El add-on está desactivado"
+msgstr "El Add-on está desactivado"
 
 #. The dependency on <addon id> version <addon version> could not be satisfied.
 msgctxt "#24142"
@@ -12939,7 +12994,7 @@ msgstr "No se puede satisfacer la dependencia de {0:s} versión {1:s}."
 #. Installing the addon from zip file located at <path to zip file> failed due to an invalid structure.
 msgctxt "#24143"
 msgid "Installing the add-on from zip file located at {0:s} failed due to an invalid structure."
-msgstr "La instalación del add-on desde el archivo zip de {0:s} fallo debido a una estructura no válida."
+msgstr "La instalación del Add-on desde el archivo zip de {0:s} fallo debido a una estructura no válida."
 
 #. Used as an event log description for add-ons that have been uninstalled
 msgctxt "#24144"
@@ -12968,7 +13023,7 @@ msgstr "Add-ons incompatibles"
 
 msgctxt "#24149"
 msgid "The following add-ons are incompatible with this version of Kodi and have been automatically disabled: {0:s}."
-msgstr "Los siguientes add-ons son incompatibles con esta versión de Kodi y se han desactivado automáticamente: {0:s}."
+msgstr "Los siguientes Add-ons son incompatibles con esta versión de Kodi y se han desactivado automáticamente: {0:s}."
 
 #. Progress text on splash screen
 msgctxt "#24150"
@@ -12978,12 +13033,12 @@ msgstr "Migración de la base de datos en marcha - por favor espera"
 #. Progress text on splash screen
 msgctxt "#24151"
 msgid "Add-on migration in progress - please wait"
-msgstr "Migración de add-ons en marcha - por favor espera"
+msgstr "Migración de Add-ons en marcha - por favor, espere"
 
 #. Inform about not supported addon if tried to enable
 msgctxt "#24152"
 msgid "The add-on is not compatible with this version of Kodi."
-msgstr "Este add-on no es compatible con esta versión de Kodi."
+msgstr "Este Add-on no es compatible con esta versión de Kodi."
 
 msgctxt "#24153"
 msgid "Enable to make the Siri remote match the normal Apple tvOS behavior"
@@ -13024,6 +13079,10 @@ msgstr "Previene de pulsaciones/arrastres/cambios accidentales cuando se coge el
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "Usar teclado virtual de Kodi"
+
+msgctxt "#24163"
+msgid "The higher the value, the more sensitive the pan gesture"
+msgstr "Cuanto más alto sea el valor, más sensible es el gesto de desplazamiento"
 
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken add-on
@@ -13132,7 +13191,7 @@ msgstr "Aspecto"
 
 msgctxt "#24998"
 msgid "My add-ons"
-msgstr "Mis add-ons"
+msgstr "Mis Add-ons"
 
 #. Used in add-on browser
 msgctxt "#24999"
@@ -14287,7 +14346,7 @@ msgstr "Imposible configurar los mandos"
 #. Error dialog text when the controller dialog is opened but peripheral add-ons are disabled
 msgctxt "#35018"
 msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
-msgstr "La configuración de los mandos depende de un add-on desactivado. ¿Quiere activarlo?"
+msgstr "La configuración de los mandos depende de un Add-on desactivado. ¿Quiere activarlo?"
 
 #. Label of the button to fix the bug where buttons are skipped in the controller dialog
 msgctxt "#35019"
@@ -14317,12 +14376,12 @@ msgstr "Ajustes de controlador"
 #. Description of setting with label #35047 "Driver settings"
 msgctxt "#35048"
 msgid "View and configure peripheral add-ons."
-msgstr "Ver y configurar add-ons periféricos."
+msgstr "Ver y configurar Add-ons de periféricos."
 
 #. Name of game add-ons category
 msgctxt "#35049"
 msgid "Game add-ons"
-msgstr "Complementos de Juegos"
+msgstr "Add-ons de Juegos"
 
 #. Name of controller add-ons
 msgctxt "#35050"
@@ -14719,7 +14778,7 @@ msgstr "Fallo al cargar el juego"
 #. Error dialog text when the game requires restricted files to play. {0:s} - emulator ID
 msgctxt "#35211"
 msgid "This game requires the following add-on: {0:s}"
-msgstr "Este juego necesita el siguiente add-on: {0:s}"
+msgstr "Este juego necesita el siguiente Add-on: {0:s}"
 
 #. Error dialog text when launching a game and no emulators are compatible
 msgctxt "#35212"
@@ -14739,7 +14798,7 @@ msgstr "Este juego sólo se puede jugar directamente desde un disco duro o una p
 #. Error dialog text when libretro support is disabled
 msgctxt "#35215"
 msgid "This game depends on a disabled add-on. Would you like to enable it?"
-msgstr "Este juego depende de un add-on desactivado. ¿Quiere activarlo?"
+msgstr "Este juego depende de un Add-on desactivado. ¿Quiere activarlo?"
 
 #. Description of add-on category for game support add-ons like game.libretro (the libretro wrapper)
 msgctxt "#35216"
@@ -14875,7 +14934,7 @@ msgstr "Guarda el progreso automáticamente durante el juego, si se soporta. Rea
 #. Error message when a game client fails to install when a game is being launched
 msgctxt "#35256"
 msgid "Failed to install add-on."
-msgstr "Algo falló al instalar el add-on."
+msgstr "Algo falló al instalar el Add-on."
 
 #. Label on installed emulators in the emulator selection dialog
 msgctxt "#35257"
@@ -15352,7 +15411,7 @@ msgstr "Muestra los archivos ocultos al mostrar listados de archivos."
 #. Description of settings category with label #360 "Screensaver"
 msgctxt "#36128"
 msgid "This category contains the settings for how the screensaver add-ons are handled."
-msgstr "Esta categoría contiene los ajustes para la gestión de los add-ons de protectores de pantalla."
+msgstr "Esta categoría contiene los ajustes para la gestión de los Add-ons de protectores de pantalla."
 
 #. Description of setting with label #355 "Wait time"
 msgctxt "#36129"
@@ -15367,7 +15426,7 @@ msgstr "Indica el protector de pantalla. Se forzará el protector de pantalla \"
 #. #. Description of setting with label #21417 "Settings"
 msgctxt "#36131"
 msgid "Select to change the screensaver specific settings. Which options are available for configuration depends on the features provided by the screensaver add-on."
-msgstr "Cambia las opciones especificas del protector de pantalla. Las opciones disponibles para configuración dependen de las funcionalidades de cada protector de pantalla."
+msgstr "Cambia las opciones especificas del protector de pantalla. Las opciones disponibles para configuración dependen de las funcionalidades de cada Add-on de protector de pantalla."
 
 #. Description of setting with label #1000 "Preview"
 msgctxt "#36132"
@@ -15696,15 +15755,15 @@ msgstr "No hay información disponible."
 
 msgctxt "#36198"
 msgid "Select the default movie information source. See the add-ons manager for options."
-msgstr "Selecciona la fuente de información por defecto para las películas. Vea el gestor de add-ons para las opciones."
+msgstr "Selecciona la fuente de información por defecto para las películas. Vea el gestor de Add-ons para las opciones."
 
 msgctxt "#36199"
 msgid "Select the default TV show information source. See the add-ons manager for options."
-msgstr "Selecciona la fuente de información por defecto para las series. Vea el gestor de add-ons para las opciones."
+msgstr "Selecciona la fuente de información por defecto para las series. Vea el gestor de Add-ons para las opciones."
 
 msgctxt "#36200"
 msgid "Select the default music videos information source. See the add-ons manager for options."
-msgstr "Selecciona la fuente de información por defecto para la música. Vea el gestor de add-ons para las opciones."
+msgstr "Selecciona la fuente de información por defecto para la música. Vea el gestor de Add-ons para las opciones."
 
 msgctxt "#36201"
 msgid "Settings for PVR & Live TV."
@@ -15716,7 +15775,7 @@ msgstr "Esta categoría contiene los ajustes generales de las funciones de PVR y
 
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
-msgstr "Activa las funcionalidades de \"Grabador de Vídeo Personal\" (PVR) . Requiere al menos un add-on PVR instalado."
+msgstr "Activa las funcionalidades de \"Grabador de Vídeo Personal\" (PVR) . Requiere al menos un Add-on PVR instalado."
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
@@ -15823,7 +15882,7 @@ msgstr "Establece el color a usar para el fondo del subtítulo."
 
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the add-on and backend)."
-msgstr "Muestra la calidad de la señal en la pantalla de información del códec (si está soportado por el add-on y el servidor)."
+msgstr "Muestra la calidad de la señal en la pantalla de información del códec (si está soportado por el Add-on y el servidor)."
 
 #. Description of setting with label #746 "Background Opacity"
 msgctxt "#36230"
@@ -15856,11 +15915,11 @@ msgstr "Si establece un valor mayor que cero, el tiempo de último visto de cada
 
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "Tiempo adicional grabado antes del tiempo especificado para permitir pequeños cambios en la emisión. No soportado por todos los add-ons y servidores."
+msgstr "Tiempo adicional grabado antes del tiempo especificado para permitir pequeños cambios en la emisión. No soportado por todos los Add-ons y servidores."
 
 msgctxt "#36238"
 msgid "Additional time to record after the scheduled end time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "Tiempo adicional grabado después del tiempo especificado para permitir pequeños cambios de emisión. No soportado por todos los add-on y servidores."
+msgstr "Tiempo adicional grabado después del tiempo especificado para permitir pequeños cambios de emisión. No soportado por todos los Add-on y servidores."
 
 msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
@@ -15912,11 +15971,11 @@ msgstr "Pide el código PIN de nuevo cuando se trate de acceder al bloqueo paren
 
 msgctxt "#36251"
 msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
-msgstr "Esta categoría contiene los ajustes para su servidor PVR específicamente, si está soportado por el add-on PVR y el servidor."
+msgstr "Esta categoría contiene los ajustes para su servidor PVR específicamente, si está soportado por el Add-on PVR y el servidor."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
-msgstr "Esta opción lleva a cualquier opción específica para tu servidor PVR, si está soportada para el add-on PVR y el servidor."
+msgstr "Esta opción lleva a cualquier opción específica para tu servidor PVR, si está soportada para el Add-on PVR y el servidor."
 
 #. Description of settings section with label #2 "Music"
 msgctxt "#36253"
@@ -16141,7 +16200,7 @@ msgstr "Define el tiempo en segundos hasta que el recordatorio se cierre automá
 
 msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
-msgstr "Si se activa, se programará una grabación del programa a recordar cuando se cierre automáticamente el recordatorio, si lo soporta el add-on y servidor de PVR."
+msgstr "Si se activa, se programará una grabación del programa a recordar cuando se cierre automáticamente el recordatorio, si lo soporta el Add-on y servidor de PVR."
 
 #. Description of setting with label #13436 "Use display HDR capabilities"
 msgctxt "#36299"
@@ -16237,7 +16296,7 @@ msgstr "Selecciona hasta tres localizaciones de las que mostrar la meteorología
 #. Description of setting with label #24029 "Service for weather information"
 msgctxt "#36318"
 msgid "Specify the default weather information source. See the add-ons manager for options."
-msgstr "Selecciona la fuente de información meteorológica. Mira el gestor de add-ons para las opciones."
+msgstr "Selecciona la fuente de información meteorológica. Mira el gestor de Add-ons para las opciones."
 
 #. Description of settings section with label #14036  "Services"
 msgctxt "#36319"
@@ -16307,7 +16366,7 @@ msgstr "Defina la contraseña del servidor web. Debe configurarse cuando la aute
 #. Description of setting with label #199 "Web interface"
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the add-on manager."
-msgstr "Selecciona entre las diferentes interfaces web instaladas a través del gestor de add-ons."
+msgstr "Selecciona entre las diferentes interfaces web instaladas a través del gestor de Add-ons."
 
 #. Description of settings category with label #790 "Remote Control"
 msgctxt "#36333"
@@ -16747,12 +16806,12 @@ msgstr "Evitando el mezclador VDPAU se ahorra recursos en sistemas de baja poten
 
 msgctxt "#36422"
 msgid "Update official add-ons from"
-msgstr "Actualizar complementos oficiales desde"
+msgstr "Actualizar Add-ons oficiales desde"
 
 #. Description of setting with label #36422 "Update official add-ons from"
 msgctxt "#36423"
 msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
-msgstr "De forma predeterminada, se evitará que los complementos de los repositorios oficiales se actualicen automáticamente desde los repositorios privados. Para casos como la actualización desde un repositorio beta de complementos, esta opción se puede cambiar a [Cualquier repositorio] (tenga en cuenta que esta es una opción menos segura y habilitarla podría causar incompatibilidad y fallos)."
+msgstr "De forma predeterminada, se evitará que los Add-ons de los repositorios oficiales se actualicen automáticamente desde los repositorios privados. Para casos como la actualización desde un repositorio beta de Add-ons, esta opción se puede cambiar a [Cualquier repositorio] (tenga en cuenta que esta es una opción menos segura y habilitarla podría causar incompatibilidad y fallos)."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
@@ -17307,27 +17366,27 @@ msgstr "Mostrar notificaciones"
 #. Description of settings category "Add-ons"
 msgctxt "#36610"
 msgid "This category contains settings for the add-on system."
-msgstr "Esta categoría contiene los ajustes del sistema de add-ons."
+msgstr "Esta categoría contiene los ajustes del sistema de Add-ons."
 
 #. Description of setting with label #36605 "Updates"
 msgctxt "#36611"
 msgid "Change how auto updating of add-ons are handled."
-msgstr "Cambia como se gestiona la actualización automática de los add-ons."
+msgstr "Cambia como se gestiona la actualización automática de los Add-ons."
 
 #. Description of setting with label #36609 "Show notifications"
 msgctxt "#36612"
 msgid "Show notification when an add-on have been updated."
-msgstr "Muestra una notificación cuando se actualiza un add-on."
+msgstr "Muestra una notificación cuando se actualiza un Add-on."
 
 #. Description of setting with label #24996 "Manage dependencies"
 msgctxt "#36613"
 msgid "Manage modules and support libraries that have been automatically installed as a dependency to other add-ons. Items listed as \"Orphaned\" are no longer required by any add-ons and are safe to uninstall."
-msgstr "Gestiona los módulos y las librerías de soporte que se han instalado automáticamente como una dependencia de otros add-ons. Los elementos indicados como \"Huérfanos\" no se usan por ningún add-on y se pueden desinstalar de forma segura."
+msgstr "Gestiona los módulos y las librerías de soporte que se han instalado automáticamente como una dependencia de otros Add-ons. Los elementos indicados como \"Huérfanos\" no se usan por ningún Add-on y se pueden desinstalar de forma segura."
 
 #. Description of setting with label #24994 "Running"
 msgctxt "#36614"
 msgid "Show add-ons that are currently running in the background."
-msgstr "Muestra los add-ons en ejecución en segundo plano."
+msgstr "Muestra los Add-ons en ejecución en segundo plano."
 
 #. Label of a setting or option referring to the source/origin of e.g. add-ons.
 msgctxt "#36615"
@@ -17337,17 +17396,17 @@ msgstr "Origenes desconocidos"
 #. Description of setting with label #36615 "Unknown sources"
 msgctxt "#36616"
 msgid "Allow installation of add-ons from unknown sources."
-msgstr "Permite la instalación de add-ons de orígenes desconocidos."
+msgstr "Permite la instalación de Add-ons de orígenes desconocidos."
 
 #. Text in warning dialog when attempting to install add-ons from zip file.
 msgctxt "#36617"
 msgid "For security, installation of add-ons from unknown sources is disabled."
-msgstr "Por seguridad, la instalación de add-ons de orígenes desconocidos está desactivada."
+msgstr "Por seguridad, la instalación de Add-ons de orígenes desconocidos está desactivada."
 
 #. Text in confirm dialog when enabling setting "System -> Add-ons -> Unknown sources"
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
-msgstr "Los add-ons tendrán acceso a información personal almacenada en este dispositivo. Activando esta opción, está de acuerdo en que es el único responsable de posibles pérdidas de datos, comportamientos no deseados y daños en su dispositivo. ¿Procedo?"
+msgstr "Los Add-ons tendrán acceso a información personal almacenada en este dispositivo. Activando esta opción, está de acuerdo en que es el único responsable de posibles pérdidas de datos, comportamientos no deseados y daños en su dispositivo. ¿Procedo?"
 
 #. Label of a setting, allow the user to specify high quality downscaling of pictures
 msgctxt "#36619"
@@ -17442,12 +17501,12 @@ msgstr "Primero debe introducir una contraseña antes de poder habilitar la aute
 #. Text in confirm dialog when installing addon from zip
 msgctxt "#36637"
 msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
-msgstr "Tenga en cuenta que los complementos instalados desde zip (excluidos los repositorios servidos) no se actualizarán automáticamente y deben actualizarse manualmente. ¿Le gustaría continuar?"
+msgstr "Tenga en cuenta que los Add-ons instalados desde zip (excluidos los repositorios servidos) no se actualizarán automáticamente y deben actualizarse manualmente. ¿Le gustaría continuar?"
 
 #. Menuitem at "Settings -> System -> Add-ons"
 msgctxt "#36638"
 msgid "Remove all orphaned add-ons"
-msgstr "Eliminar todos los add-ons huérfanos"
+msgstr "Eliminar todos los Add-ons huérfanos"
 
 #. Description of setting with label #36638 "Remove all orphaned dependencies"
 msgctxt "#36639"
@@ -17462,12 +17521,12 @@ msgstr "Add-ons huérfanos"
 #. Dialog text if orphaned add-ons were found and removed
 msgctxt "#36641"
 msgid "The following orphaned add-ons were removed from your system: {0:s}."
-msgstr "Los siguientes add-ons huérfanos serán eliminados del sistema: {0:s}."
+msgstr "Los siguientes Add-ons huérfanos serán eliminados del sistema: {0:s}."
 
 #. Dialog text if no more orphaned add-ons left on the system
 msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
-msgstr "No hay add-ons huérfanos que eliminar."
+msgstr "No hay Add-ons huérfanos que eliminar."
 
 # empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
@@ -18295,7 +18354,7 @@ msgstr "Sistemas de archivos virtuales"
 #. Message of a dialog, asking if related data of an add-on should also be removed on uninstall
 msgctxt "#39014"
 msgid "Would you also like to remove all related data (e.g. settings) of this add-on?"
-msgstr "¿Quiere eliminar también todos los datos relacionados con este add-on (ajustes, etc)?"
+msgstr "¿Quiere eliminar también todos los datos relacionados con este Add-on (ajustes, etc)?"
 
 msgctxt "#39015"
 msgid "Image decoder"
@@ -18320,7 +18379,7 @@ msgstr "instalado"
 
 msgctxt "#39020"
 msgid "The following additional add-ons will be installed"
-msgstr "Se instalarán los siguientes add-ons adicionales"
+msgstr "Se instalarán los siguientes Add-ons adicionales"
 
 msgctxt "#39021"
 msgid "Proceed with installation?"

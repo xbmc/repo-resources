@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-09-22 08:30+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-10-21 20:17+0000\n"
+"Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
 "MIME-Version: 1.0\n"
@@ -3415,7 +3415,7 @@ msgstr "SOCKS5 與遠端 DNS 解析"
 
 msgctxt "#1186"
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 msgctxt "#1200"
 msgid "SMB client"
@@ -4079,7 +4079,7 @@ msgstr "附加元件組態及設定"
 #. Item label used in add-on configuration selection dialog
 msgctxt "#10013"
 msgid "Edit add-on settings"
-msgstr ""
+msgstr "編輯附加元件設定"
 
 #. Item label used in add-on configuration selection dialog
 msgctxt "#10014"
@@ -4249,6 +4249,11 @@ msgstr "編輯檔案來源"
 msgctxt "#10058"
 msgid "Remove tag from library"
 msgstr "從資料庫中移除標籤"
+
+# empty string with id 10059
+msgctxt "#10060"
+msgid "Favourites"
+msgstr "我的最愛"
 
 msgctxt "#10099"
 msgid "Pointer"
@@ -7051,6 +7056,51 @@ msgctxt "#15216"
 msgid "Play in party mode"
 msgstr "派對模式播放"
 
+#. Label for actions associated with favourites
+msgctxt "#15217"
+msgid "Action"
+msgstr "動作"
+
+#. Label for an action associated with a favourite.
+msgctxt "#15218"
+msgid "Play media"
+msgstr "播放媒體檔案"
+
+#. Label for an action associated with a favourite
+msgctxt "#15219"
+msgid "Show picture"
+msgstr "顯示圖片"
+
+#. Label for an action associated with a favourite. Placeholder will be filled with the name of the window the favourite's content will be displayed in.
+msgctxt "#15220"
+msgid "Show content in \"{}\""
+msgstr "顯示 \"{}\" 中的內容"
+
+#. Label for an action associated with a favourite
+msgctxt "#15221"
+msgid "Execute script"
+msgstr "執行腳本"
+
+#. Label for an action associated with a favourite
+msgctxt "#15222"
+msgid "Execute Android app"
+msgstr "執行安卓app"
+
+#. Label for an action associated with a favourite
+msgctxt "#15223"
+msgid "Execute add-on"
+msgstr "執行附加元件"
+
+#. Label for an action associated with a favourite
+msgctxt "#15224"
+msgid "Other / Unknown"
+msgstr "其他/未知"
+
+#. genric label for 'provider'
+msgctxt "#15225"
+msgid "Provider"
+msgstr "提供者"
+
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "路徑錯誤或無效"
@@ -9198,6 +9248,11 @@ msgstr "所有運作中的PVR用戶端均未提供用戶相關的設定項目。
 msgctxt "#19348"
 msgid "Provider"
 msgstr "提供者"
+
+#. label for 'by user preference' sort method
+msgctxt "#19349"
+msgid "User preference"
+msgstr "用戶偏好"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -13027,6 +13082,10 @@ msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
 msgstr "使用Kodi虛擬鍵盤"
 
+msgctxt "#24163"
+msgid "The higher the value, the more sensitive the pan gesture"
+msgstr ""
+
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken add-on
 msgctxt "#24164"
@@ -15036,7 +15095,7 @@ msgstr "無法初始化 CEC 配接器。請檢查您的設定。"
 #. CEC adapter setting to set the type of device that libCEC reports to the TV (Recording, Playback or Tuner Device)
 msgctxt "#36013"
 msgid "CEC client device mode"
-msgstr ""
+msgstr "CEC用戶端設備模式"
 
 msgctxt "#36015"
 msgid "HDMI port number"
@@ -15189,23 +15248,23 @@ msgstr "在開始時"
 #. Item list value of setting with label #36013 "CEC client device mode"
 msgctxt "#36051"
 msgid "Recording Device"
-msgstr ""
+msgstr "錄製設備"
 
 #. Item list value of setting with label #36013 "CEC client device mode"
 msgctxt "#36052"
 msgid "Playback Device"
-msgstr ""
+msgstr "播放設備"
 
 #. Item list value of setting with label #36013 "CEC client device mode"
 msgctxt "#36053"
 msgid "Tuner Device"
-msgstr ""
+msgstr "調頻設備"
 
 # empty strings from id 36054 to 36096
 #. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
 msgctxt "#36097"
 msgid "GUI peak luminance in HDR PQ mode"
-msgstr ""
+msgstr "HDR PQ 模式下的用戶界面峰值亮度"
 
 # empty strings from id 36051 to 36097
 #. Label of setting "System / Display / Use 10 bit for SDR"
@@ -17032,7 +17091,7 @@ msgstr "設定 3D 立體影片中字幕的視覺深度。愈高的值字幕感�
 #. Description of setting with label #36097 "System / Display / GUI peak luminance in HDR PQ mode"
 msgctxt "#36547"
 msgid "Sets the peak luminance level for GUI elements while the display is in HDR PQ mode. This affects all OSD, subtitles and graphics that are SDR in origin."
-msgstr ""
+msgstr "當顯示器處於HDR PQ模式時的使用介面元件峰值亮度設定。這會影響所有原為SDR畫質的OSD、字幕和圖片。"
 
 #. Description of setting with label #37021 "Set GUI resolution limit"
 msgctxt "#36548"
