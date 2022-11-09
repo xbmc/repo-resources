@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-07-19 22:14+0000\n"
+"PO-Revision-Date: 2022-11-09 20:25+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/de_de/>\n"
 "Language: de_de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -622,7 +622,7 @@ msgstr "Veröffentlichungsdatum"
 
 msgctxt "#173"
 msgid "Display 4:3 videos as"
-msgstr "4:3-Videos anzeigen als"
+msgstr "4:3-Videoanzeigemethode"
 
 msgctxt "#174"
 msgid "Compiled:"
@@ -1941,7 +1941,7 @@ msgstr "Albumnamen werden gesucht ..."
 
 msgctxt "#502"
 msgid "Open"
-msgstr "Offen"
+msgstr "Öffnen"
 
 msgctxt "#503"
 msgid "Busy"
@@ -2410,7 +2410,7 @@ msgstr "4:3 gestreckt"
 
 msgctxt "#633"
 msgid "Wide zoom"
-msgstr "Breite Vergrößerung"
+msgstr "Breite vergrößert"
 
 msgctxt "#634"
 msgid "Stretch 16:9"
@@ -10229,7 +10229,7 @@ msgstr "Wenn kein lokales Album-Cover existiert, wird eine Online-Grafik verwend
 
 msgctxt "#20226"
 msgid "Movie set information folder"
-msgstr "Ordner für Informationen für Filmkollektionen"
+msgstr "Ordner für Informationen für Filmreihen"
 
 msgctxt "#20228"
 msgid "Use artist sortname when sorting by artist"
@@ -10830,7 +10830,7 @@ msgstr "Videoinformationen aus Dateien extrahieren"
 
 msgctxt "#20434"
 msgid "Sets"
-msgstr "Filmreihen"
+msgstr "Filmkollektionen"
 
 msgctxt "#20435"
 msgid "Combine split video items"
@@ -10925,11 +10925,11 @@ msgstr "Nicht hierarchisch anzeigen"
 
 msgctxt "#20457"
 msgid "Movie set"
-msgstr "Filmkollektion"
+msgstr "Filmreihe"
 
 msgctxt "#20458"
 msgid "Show movie sets"
-msgstr "Filmkollektionen anzeigen"
+msgstr "Filmreihen anzeigen"
 
 msgctxt "#20459"
 msgid "Tags"
@@ -10957,15 +10957,15 @@ msgstr "{0:s} auswählen"
 
 msgctxt "#20465"
 msgid "Manage movie set"
-msgstr "Filmkollektion verwalten"
+msgstr "Filmreihe verwalten"
 
 msgctxt "#20466"
 msgid "Select movie set"
-msgstr "Filmkollektion auswählen"
+msgstr "Filmreihe auswählen"
 
 msgctxt "#20467"
 msgid "No set (remove from {0:s})"
-msgstr "Keine Filmkollektion (aus {0:s} entfernen)"
+msgstr "Keine Filmreihe (aus {0:s} entfernen)"
 
 msgctxt "#20468"
 msgid "Add movie to a new set"
@@ -10973,7 +10973,7 @@ msgstr "Film zu neuer Kollektion hinzufügen"
 
 msgctxt "#20469"
 msgid "Keep current set ({0:s})"
-msgstr "Aktuelle Filmkollektion beibehalten ({0:s})"
+msgstr "Aktuelle Filmreihe beibehalten ({0:s})"
 
 msgctxt "#20470"
 msgid "Include sets containing a single movie"
@@ -14803,7 +14803,7 @@ msgstr "Zeit für das Loslassen von Fernbedienungstasten (ms)"
 
 msgctxt "#36050"
 msgid "On start"
-msgstr "Beim Start"
+msgstr "Beim Starten"
 
 msgctxt "#36099"
 msgid "Dithering"
@@ -15093,7 +15093,7 @@ msgstr "Aktiviert VAAPI-Hardware-Dekodierung von Videos. Hauptsächlich verwende
 #. Description of setting with label #20470 "Use movie sets for single movies"
 msgctxt "#36157"
 msgid "When enabled, a \"Movie set\" entry is used even if the movie library contains only a single movie from that set. When disabled, a \"Movie set\" entry is used only if the movie library contains more than one movie from that set."
-msgstr "Wenn aktiviert, wird ein Eintrag „Filmkollektion“ in der Filmbibliothek auch erzeugt, wenn nur ein Film der Kollektion in der Bibliothek enthalten ist. Wenn deaktiviert, wird ein solcher Eintrag nur erzeugt, wenn mehr als ein Film der Kollektion in der Bibliothek vorhanden ist."
+msgstr "Wenn aktiviert, wird ein Eintrag „Filmreihe“ in der Filmbibliothek auch erzeugt, wenn nur ein Film der Reihe in der Bibliothek enthalten ist. Wenn deaktiviert, wird ein solcher Eintrag nur erzeugt, wenn mehr als ein Film der Reihe in der Bibliothek vorhanden ist."
 
 #. Description of setting with label #13427 "Allow hardware acceleration (DXVA2)"
 msgctxt "#36158"
@@ -15608,7 +15608,7 @@ msgstr "Wenn notwendig, Dateien leiser wiedergeben, um eine Dynamikumfangsbegren
 #. Description of setting with label #13314 "Crossfade between songs"
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
-msgstr "Übergangslos von einem Musikstück zum nächsten wechseln. Die Dauer der Überschneidung ist wählbar von 1-15 Sekunden."
+msgstr "Übergangslos von einem Titel zum nächsten wechseln. Die Dauer der Überschneidung ist wählbar von 1 bis 15 Sekunden."
 
 #. Description of setting with label #13400 "Crossfade between songs on the same album"
 msgctxt "#36272"
@@ -15723,7 +15723,7 @@ msgstr "Auswahl des Ordners, in dem Interpreteninformationen (NFO-Dateien und Bi
 #. Description of setting with label #20228 "Use artist sortname"
 msgctxt "#36294"
 msgid "When sorting music items by artist use sortname e.g. Parton, Dolly rather than name."
-msgstr "Beim Sortieren von Musikstücken nach Interpret, den Sortiernamen, z. B. „Parton, Dolly“, anstelle des Namens „Dolly Parton“ verwenden."
+msgstr "Beim Sortieren von Titeln nach Interpret, den Sortiernamen, z. B. „Parton, Dolly“, anstelle des Namens „Dolly Parton“ verwenden."
 
 #. Description of setting with label #752 "Opacity"
 msgctxt "#36295"
@@ -15750,11 +15750,11 @@ msgstr "Bildschierm in HDR-Modus umschalten, wenn Medien mit HDR-Inhalten wieder
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
 msgid "Select the folder where movie set information (images) are saved locally."
-msgstr "Auswahl des Ordners, in dem Informationen für Filmkollektionen (Bilder) gespeichert werden sollen."
+msgstr "Auswahl des Ordners, in dem Informationen für Filmreihen (Bilder) gespeichert werden sollen."
 
 msgctxt "#36301"
 msgid "No 'Movie set information folder' is configured to store movie set images so they will not be exported. Do you want to proceed?"
-msgstr "Es wurde kein Ordner zum Speichern von Informationen für Filmkollektionen konfiguriert. Darum können diese nicht exportiert werden. Trotzdem fortfahren?"
+msgstr "Es wurde kein Ordner zum Speichern von Informationen für Filmreihen konfiguriert. Darum können diese nicht exportiert werden. Trotzdem fortfahren?"
 
 msgctxt "#36302"
 msgid "No info available yet."
@@ -17071,11 +17071,11 @@ msgstr "Musikvideos"
 
 msgctxt "#36910"
 msgid "set"
-msgstr "Filmreihe"
+msgstr "Filmkollektion"
 
 msgctxt "#36911"
 msgid "sets"
-msgstr "Filmreihen"
+msgstr "Filmkollektionen"
 
 msgctxt "#36912"
 msgid "video"
@@ -17135,7 +17135,7 @@ msgstr "Zuletzt verwendetes Profil"
 
 msgctxt "#37015"
 msgid "Browse into"
-msgstr "Durchsuchen"
+msgstr "Inhalt anzeigen"
 
 #. Description of setting with label #448 "Dolby Digital Plus (E-AC3) capable receiver"
 msgctxt "#37016"
@@ -18091,7 +18091,7 @@ msgstr "Erlaubte Art-Typen für Filme"
 #. Description of setting with label #39150 "Movie art types whitelist"
 msgctxt "#39144"
 msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Film- und Filmkollektions-Artwork beschränken auf lokal abgerufene oder nicht-lokal vom Scraper gelieferte Ergebnisse gemäß erlaubter Art-Typen"
+msgstr "Film- und Filmreihen-Artwork beschränken auf lokal abgerufene oder nicht-lokal vom Scraper gelieferte Ergebnisse gemäß erlaubter Art-Typen"
 
 msgctxt "#39145"
 msgid "TV show art types whitelist"
