@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-14 07:28+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-11-02 18:07+0000\n"
+"Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sk_sk/>\n"
 "Language: sk_sk\n"
 "MIME-Version: 1.0\n"
@@ -6619,7 +6619,7 @@ msgstr "Zobraziť denník udalostí"
 #. Label for the "Basic" event level
 msgctxt "#14115"
 msgid "Basic"
-msgstr "Základné"
+msgstr "Základná"
 
 #. Label for the "Information" event level
 msgctxt "#14116"
@@ -9050,7 +9050,7 @@ msgstr "Pripomenutie pre kanál [B]{0:s}[/B] at [B]{1:s}[/B]."
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19309"
 msgid "(Auto-close of this reminder will schedule a recording...)"
-msgstr "(Automatické zatvorenie tothoto pripomenutia naplánuje nahrávanie...)"
+msgstr "(Automatické zatvorenie tohto pripomenutia naplánuje nahrávanie...)"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19310"
@@ -9075,7 +9075,7 @@ msgstr "Automaticky zavrieť kontextové okno pripomienky po"
 #. pvr settings "schedule recording on reminder auto-close" setting label
 msgctxt "#19314"
 msgid "Schedule recording when auto-closing the reminder popup"
-msgstr ""
+msgstr "Naplánovať nahrávanie pri automatickom zatvorení vyskakovacieho upozornenia"
 
 #. generic 'backend order' label
 msgctxt "#19315"
@@ -13995,7 +13995,7 @@ msgstr "Umiestnenie skriptu"
 
 msgctxt "#33083"
 msgid "Enable custom script button"
-msgstr "Povoliť vlastné tlačídlo skriptu"
+msgstr "Povoliť vlastné tlačidlo skriptu"
 
 msgctxt "#33084"
 msgid "Auto login"
@@ -16028,7 +16028,7 @@ msgstr "Pokiaľ je zapnutá, táto snímkovacia frekvencia sa použije pre strea
 #. Description of setting with label #20196 "Export music library"
 msgctxt "#36262"
 msgid "Export parts of the music library to an XML file or NFO files. This will optionally overwrite your current NFO and artwork files."
-msgstr "Exportovať časť databázy hudobnej knižnice do XML súboru alebo NFO súborov. Tým môže eventuálne dôjsť k prepísaniu vášich aktuálnych NFO súborov a súborov s artworkami."
+msgstr "Exportovať časť databázy hudobnej knižnice do XML súboru alebo NFO súborov. Tým môže eventuálne dôjsť k prepísaniu vašich aktuálnych NFO súborov a súborov s obrázkami."
 
 #. Description of setting with label #20197 "Import music library"
 msgctxt "#36263"
@@ -16811,12 +16811,12 @@ msgstr "Vynechanie zmiešavača VDPAU šetrí zdroje na systémoch s nízkym vý
 
 msgctxt "#36422"
 msgid "Update official add-ons from"
-msgstr ""
+msgstr "Aktualizovať oficiálne doplnky z"
 
 #. Description of setting with label #36422 "Update official add-ons from"
 msgctxt "#36423"
 msgid "By default, add-ons from official repositories will be prevented from being auto-updated from private repositories. For cases such as updating from an add-ons beta repository this option can be switched to [Any repositories] (bear in mind this is a less secure option and enabling it could cause incompatibility and crashes)."
-msgstr ""
+msgstr "V predvolenom nastavení je zabránené doplnkom z oficiálnych repozitárov ich aktualizovanie zo súkromných repozitárov. Pre prípady ako je napríklad aktualizácia z testovacieho (beta) repozitára doplnkov môžete túto voľbu nastaviť na [Akékoľvek repozitáre] (majte na pamäti, že sa jedná o menej bezpečnú možnosť, ktorá môže spôsobovať nekompatibility a pády aplikácie)."
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
@@ -16880,12 +16880,12 @@ msgstr ""
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
 msgid "Official repositories only (default)"
-msgstr ""
+msgstr "Iba oficiálne repozitáre (predvolené)"
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36438"
 msgid "Any repositories"
-msgstr ""
+msgstr "Akékoľvek repozitáre"
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17503,11 +17503,6 @@ msgctxt "#36636"
 msgid "You must first enter a password before web server authentication can be enabled."
 msgstr ""
 
-#. Text in confirm dialog when installing addon from zip
-msgctxt "#36637"
-msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
-msgstr ""
-
 #. Menuitem at "Settings -> System -> Add-ons"
 msgctxt "#36638"
 msgid "Remove all orphaned add-ons"
@@ -18041,6 +18036,16 @@ msgctxt "#38081"
 msgid "Release status"
 msgstr ""
 
+#. Displayed in a toast notification when music items are added to a playlist
+msgctxt "#38082"
+msgid "Added to end of playlist"
+msgstr ""
+
+#. Displayed in a toast notification when music items are added to a playlist to play next
+msgctxt "#38083"
+msgid "Added to playlist to play next"
+msgstr ""
+
 #. Description of section #14200 "Player""
 msgctxt "#38100"
 msgid "Section that contains the settings for the playback of media"
@@ -18162,7 +18167,7 @@ msgstr "Položky na exportovanie"
 
 msgctxt "#38307"
 msgid "Include artwork such as thumbnails and fanart"
-msgstr ""
+msgstr "Zahrnúť obrázky ako sú náhľady a fanarty"
 
 msgctxt "#38308"
 msgid "Include items that have not been scraped (to create template NFO files)"
@@ -18209,7 +18214,7 @@ msgstr "Exportovať"
 #. Message when adding music source and setting #20223 is empty
 msgctxt "#38320"
 msgid "Do you have local artist information (NFO) and art files that you want to fetch? Set the location of these artist folders now"
-msgstr "Máte lokálne informácie o umelcovi (NFO) a súbory s artworkami, ktoré chcete spracovať? Teraz nastavte umiestnenie týchto priečinkov umelcov"
+msgstr "Máte lokálne informácie o umelcovi (NFO) a súbory s obrázkami, ktoré chcete načítať? Teraz nastavte umiestnenie týchto priečinkov umelcov"
 
 #. Kind of export output, see #38304
 msgctxt "#38321"
@@ -18559,7 +18564,7 @@ msgstr ""
 # empty string with id 39126
 msgctxt "#39127"
 msgid "Use all local image files as artwork"
-msgstr ""
+msgstr "Použiť všetky miestne súbory obrázkov"
 
 #. Description of setting with label #39127 "Use all local image files as artwork"
 msgctxt "#39128"
@@ -18604,7 +18609,7 @@ msgstr ""
 
 msgctxt "#39137"
 msgid "Artwork level"
-msgstr ""
+msgstr "Úroveň obrázkov"
 
 #. Description of setting with label #39137 "Artwork level"
 msgctxt "#39138"
@@ -18614,7 +18619,7 @@ msgstr ""
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39140"
 msgid "Maximum"
-msgstr "Maximálny"
+msgstr "Maximálna"
 
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39141"
@@ -18624,7 +18629,7 @@ msgstr "Základné"
 #. Value of setting with label #39137 "Artwork level"
 msgctxt "#39142"
 msgid "Custom"
-msgstr "Vlastné"
+msgstr "Vlastná"
 
 msgctxt "#39143"
 msgid "Movie art types whitelist"
