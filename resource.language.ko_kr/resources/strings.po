@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-19 13:45+0000\n"
+"PO-Revision-Date: 2023-01-28 16:37+0000\n"
 "Last-Translator: Minho Park <parkmino@gmail.com>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5280,7 +5280,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "알 수 없음"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "덮어쓰기"
@@ -7138,15 +7138,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "RetroAchievements에 로그인"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "진행 상황 저장"
+msgid "Save"
+msgstr "저장"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
+msgid "Save progress to a new save file"
 msgstr "진행 상황을 새 저장 파일에 저장"
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr "자동 저장"
 
 msgctxt "#16000"
 msgid "General"
@@ -14745,9 +14750,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "게임플레이"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "지원한다면 되돌리기 사용"
+msgid "Enable rewind (if supported)"
+msgstr "되감기 활성화(지원되는 경우)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14832,8 +14838,8 @@ msgstr "게임 제공자"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "게임 메뉴"
+msgid "Menu"
+msgstr "메뉴"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14911,10 +14917,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "이 배포판에서는 컨트롤러로만 게임을 할 수 있습니다."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "저장된 게임"
+msgid "Save / Load"
+msgstr "저장/불러오기"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14929,8 +14935,8 @@ msgid "Edit game source"
 msgstr "게임 소스 수정"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "지원하면 자동 저장 사용"
+msgid "Enable autosave (if supported)"
+msgstr "자동 저장 사용(지원되는 경우)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14963,8 +14969,8 @@ msgstr "저장 상태 선택"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "새로운 게임"
+msgid "New"
+msgstr "새로"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18862,6 +18868,35 @@ msgstr "배경 없음"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "수동 자막 위치에서만 사용 가능"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "진행 상황 저장"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "진행 상황을 새 저장 파일에 저장"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "지원한다면 되돌리기 사용"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "게임 메뉴"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "저장된 게임"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "지원하면 자동 저장 사용"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "새로운 게임"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

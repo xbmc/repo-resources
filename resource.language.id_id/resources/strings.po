@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-01-01 06:37+0000\n"
-"Last-Translator: Nao3Line Prez <n.yazawa6932@gmail.com>\n"
+"PO-Revision-Date: 2023-01-30 23:09+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Indonesian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/id_id/>\n"
 "Language: id_id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5299,7 +5299,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Tidak Diketahui"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Timpa"
@@ -7162,15 +7162,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Masuk ke RetroAchievements"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Simpan kemajuan"
+msgid "Save"
+msgstr "Simpan"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
-msgstr "Simpan kemajuan di berkas baru"
+msgid "Save progress to a new save file"
+msgstr ""
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr ""
 
 msgctxt "#16000"
 msgid "General"
@@ -14799,8 +14804,8 @@ msgstr "Gameplay"
 
 # empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Aktifkan mundur jika didukung"
+msgid "Enable rewind (if supported)"
+msgstr ""
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14885,8 +14890,8 @@ msgstr "Penyedia permainan"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Menu Permainan"
+msgid "Menu"
+msgstr "Menu"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14964,10 +14969,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "Dalam rilis ini, hanya pengontrol yang dapat digunakan untuk bermain game."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Simpan permainan"
+msgid "Save / Load"
+msgstr ""
 
 # empty strings from id 35237 to 35249
 msgctxt "#35250"
@@ -14983,8 +14988,8 @@ msgid "Edit game source"
 msgstr "Sunting sumber permainan"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Aktifkan simpan otomatis jika didukung"
+msgid "Enable autosave (if supported)"
+msgstr ""
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -15018,8 +15023,8 @@ msgstr "Pilih simpanan"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Permainan baru"
+msgid "New"
+msgstr "Baru"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18942,6 +18947,36 @@ msgstr "Tdk ada latar belakang"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Hanya tersedia dengan posisi takarir manual"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Simpan kemajuan"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Simpan kemajuan di berkas baru"
+
+# empty string with id 35202
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Aktifkan mundur jika didukung"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Menu Permainan"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Simpan permainan"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Aktifkan simpan otomatis jika didukung"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Permainan baru"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

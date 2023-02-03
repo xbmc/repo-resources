@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-19 04:38+0000\n"
+"PO-Revision-Date: 2023-01-25 22:36+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/da_dk/>\n"
 "Language: da_dk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5283,7 +5283,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Ukendt"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Overskriv"
@@ -7141,15 +7141,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Log ind på RetroAchievements"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Gem fremskridt"
+msgid "Save"
+msgstr "Gem"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
-msgstr "Gem fremskridt til ny fil"
+msgid "Save progress to a new save file"
+msgstr "Gem fremskridt til en ny fil"
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr "Gem automatisk"
 
 msgctxt "#16000"
 msgid "General"
@@ -14756,9 +14761,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Gameplay"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Aktivér tilbagespoling, hvis det understøttes"
+msgid "Enable rewind (if supported)"
+msgstr "Aktivér tilbagespoling (hvis det understøttes)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14843,8 +14849,8 @@ msgstr "Spil-udbydere"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Spilmenu"
+msgid "Menu"
+msgstr "Menu"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14922,10 +14928,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "I denne version kan der udelukkende benyttes controllere til at spille spil."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Gemte spil"
+msgid "Save / Load"
+msgstr "Gem / indlæs"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14940,8 +14946,8 @@ msgid "Edit game source"
 msgstr "Rediger spil-kilde"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Aktiver automatisk lagring, hvis det understøttes"
+msgid "Enable autosave (if supported)"
+msgstr "Aktiver automatisk lagring (hvis det understøttes)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14974,8 +14980,8 @@ msgstr "Vælg savestate"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Nyt spil"
+msgid "New"
+msgstr "Ny"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18876,6 +18882,35 @@ msgstr "Ingen baggrund"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Kun tilgængelig med manuel placering af undertekster"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Gem fremskridt"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Gem fremskridt til ny fil"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Aktivér tilbagespoling, hvis det understøttes"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Spilmenu"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Gemte spil"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Aktiver automatisk lagring, hvis det understøttes"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Nyt spil"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

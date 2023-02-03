@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-19 13:45+0000\n"
+"PO-Revision-Date: 2023-01-27 01:38+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5291,7 +5291,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Tuntematon"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Korvaa"
@@ -7159,15 +7159,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Kirjaudu RetroAchievements-palveluun"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Tallenna pelitilanne"
+msgid "Save"
+msgstr "Tallenna"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
-msgstr "Tallenna pelitilanne uuteen tallennustiedostoon"
+msgid "Save progress to a new save file"
+msgstr "Tallenna tilanne uuteen tallennustiedostoon"
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr "Auromaattitallennus"
 
 msgctxt "#16000"
 msgid "General"
@@ -14788,9 +14793,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Pelattavuus"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Käytä taaksepäin siirtymistä, jos sitä tuetaan"
+msgid "Enable rewind (if supported)"
+msgstr "Käytä takaisinsiirtymistä (jos tuettu)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14875,8 +14881,8 @@ msgstr "Pelien lähteet"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Pelivalikko"
+msgid "Menu"
+msgstr "Valikko"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14954,10 +14960,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "Tässä versiossa pelejä on mahdollista pelata vain peliohjaimilla."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Tallennetut pelitilanteet"
+msgid "Save / Load"
+msgstr "Tallenna/lataa"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14972,8 +14978,8 @@ msgid "Edit game source"
 msgstr "Muokkaa pelilähdettä"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Käytä automaattitallennusta, jos sitä tuetaan"
+msgid "Enable autosave (if supported)"
+msgstr "Käytä automaattitallennusta (jos tuettu)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -15006,8 +15012,8 @@ msgstr "Valitse tallennustilanne"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Uusi peli"
+msgid "New"
+msgstr "Uusi"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18905,6 +18911,35 @@ msgstr "Ei taustaa"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Käytettävissä vain käytettäessä manuaalista tekstityssijaintia"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Tallenna pelitilanne"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Tallenna pelitilanne uuteen tallennustiedostoon"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Käytä taaksepäin siirtymistä, jos sitä tuetaan"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Pelivalikko"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Tallennetut pelitilanteet"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Käytä automaattitallennusta, jos sitä tuetaan"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Uusi peli"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

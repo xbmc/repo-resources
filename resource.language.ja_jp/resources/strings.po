@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-14 07:28+0000\n"
+"PO-Revision-Date: 2023-01-30 23:09+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Japanese <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ja_jp/>\n"
 "Language: ja_jp\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5280,7 +5280,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "不明"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "上書き"
@@ -7138,14 +7138,19 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr ""
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
+msgid "Save"
+msgstr "保存"
+
+#. Caption for "Save" button in the in-game savestate manager
+msgctxt "#15315"
+msgid "Save progress to a new save file"
 msgstr ""
 
-#. Caption for "Save progress" button in the in-game savestate manager
-msgctxt "#15315"
-msgid "Save progress to new save file"
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
 msgstr ""
 
 msgctxt "#16000"
@@ -14746,9 +14751,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "ゲームプレイ"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "サポートされているなら巻き戻しを有効にする"
+msgid "Enable rewind (if supported)"
+msgstr ""
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14833,8 +14839,8 @@ msgstr "ゲームプロパイダ"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "ゲームメニュー"
+msgid "Menu"
+msgstr "メニュー"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14912,9 +14918,9 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "このリリースでは、ゲームをプレイするのに使用できるのはコントローラだけ。"
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
+msgid "Save / Load"
 msgstr ""
 
 msgctxt "#35250"
@@ -14930,8 +14936,8 @@ msgid "Edit game source"
 msgstr "ゲームソースの編集"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "サポートされているなら自動セーブを有効にする"
+msgid "Enable autosave (if supported)"
+msgstr ""
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14964,8 +14970,8 @@ msgstr ""
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr ""
+msgid "New"
+msgstr "ニュース"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18864,6 +18870,18 @@ msgstr ""
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr ""
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "サポートされているなら巻き戻しを有効にする"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "ゲームメニュー"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "サポートされているなら自動セーブを有効にする"
 
 #~ msgctxt "#19279"
 #~ msgid "Client specific"
