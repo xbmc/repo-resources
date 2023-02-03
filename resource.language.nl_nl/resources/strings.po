@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-11-10 16:54+0000\n"
+"PO-Revision-Date: 2023-02-03 21:04+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Dutch <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/nl_nl/>\n"
 "Language: nl_nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5282,7 +5282,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Overschrijven"
@@ -7140,15 +7140,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Inloggen op RetroAchievements"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Voortgang opslaan"
+msgid "Save"
+msgstr "Opslaan"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
-msgstr "Voortgang opslaan in nieuw bestand"
+msgid "Save progress to a new save file"
+msgstr ""
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr ""
 
 msgctxt "#16000"
 msgid "General"
@@ -14747,9 +14752,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Gameplay"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Activeer terugspoelen wanneer ondersteund"
+msgid "Enable rewind (if supported)"
+msgstr ""
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14834,8 +14840,8 @@ msgstr "Game aanbieder"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Game Menu"
+msgid "Menu"
+msgstr "Menu"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14913,10 +14919,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "In deze release kunnen controllers alleen gebruikt worden om spelletjes te spelen."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Opgeslagen spellen"
+msgid "Save / Load"
+msgstr ""
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14931,8 +14937,8 @@ msgid "Edit game source"
 msgstr "Game bron bewerken"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Schakel automatisch opslaan in indien ondersteund"
+msgid "Enable autosave (if supported)"
+msgstr ""
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14965,8 +14971,8 @@ msgstr "Kies slagstaat"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Nieuw spel"
+msgid "New"
+msgstr "Nieuw"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18865,6 +18871,35 @@ msgstr "Geen achtergrond"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Enkel beschikbaar met handmatige ondertitelingspositie"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Voortgang opslaan"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Voortgang opslaan in nieuw bestand"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Activeer terugspoelen wanneer ondersteund"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Game Menu"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Opgeslagen spellen"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Schakel automatisch opslaan in indien ondersteund"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Nieuw spel"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

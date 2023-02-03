@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-19 04:38+0000\n"
+"PO-Revision-Date: 2023-01-25 22:36+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1704,7 +1704,7 @@ msgstr "Czy na pewno chcesz usunąć '{0:s}' z biblioteki?"
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
 msgid "From {0:s} at {1:d} {2:s}"
-msgstr "Od {0:s} przez {1:d} {2:s}"
+msgstr "Od {0:s} do {1:d} {2:s}"
 
 #. Headline of a dialog that pops up when a user tries to play a video that is located on an optical disc (Blu-ray, DVD) but the current KODI device doesn't have the according drive
 msgctxt "#435"
@@ -5282,7 +5282,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Nieznany"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Zastąp"
@@ -7140,15 +7140,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Zaloguj się do RetroAchievements"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Zapisz postęp"
+msgid "Save"
+msgstr "Zapisz"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
+msgid "Save progress to a new save file"
 msgstr "Zapisz postęp w nowym pliku zapisu"
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr "Automatyczne zapisywanie"
 
 msgctxt "#16000"
 msgid "General"
@@ -14753,21 +14758,22 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Rozgrywka"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Aktywuj przewijanie wstecz, jeśli obsługiwane"
+msgid "Enable rewind (if supported)"
+msgstr "Włącz przewijanie do tyłu (jeśli jest obsługiwane)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
-msgstr "Umożliwia przewijanie w czasie rzeczywistym podczas grania, jeśli funkcja jest obsługiwana. Naciśnij przycisk przewijania lub manualnie przewiń wstecz przy użyciu paska przewijania."
+msgstr "Umożliwia przewijanie do tyłu w czasie rzeczywistym podczas grania, jeśli funkcja jest obsługiwana. Naciśnij przycisk przewijania do tyłu lub manualnie przewiń wstecz przy użyciu paska przewijania."
 
 msgctxt "#35205"
 msgid "Maximum rewind time"
-msgstr "Maksymalny czas przewijania wstecz"
+msgstr "Maksymalny czas przewijania do tyłu"
 
 msgctxt "#35206"
 msgid "Maximum time possible to rewind, if supported. Large rewind histories can use a lot of RAM."
-msgstr "Określa maksymalny możliwy czas przewijania wstecz, jeśli obsługiwane. Duże historie przewijania mogą używać duże ilości pamięci RAM."
+msgstr "Maksymalny możliwy czas przewijania do tyłu, jeśli jest obsługiwane. Duże historie przewijania mogą zużywać sporo pamięci RAM."
 
 #. Description of add-on category for emulators
 msgctxt "#35207"
@@ -14840,8 +14846,8 @@ msgstr "Dostawcy gier"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Menu gry"
+msgid "Menu"
+msgstr "Menu"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14919,10 +14925,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "W tym wydaniu tylko kontrolery mogą być używane do grania w gry."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Zapisane gry"
+msgid "Save / Load"
+msgstr "Zapisz / Wczytaj"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14937,8 +14943,8 @@ msgid "Edit game source"
 msgstr "Edytuj źródło gier"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Aktywuj automatyczny zapis, jeśli obsługiwany"
+msgid "Enable autosave (if supported)"
+msgstr "Włącz automatyczne zapisywanie (jeśli jest obsługiwane)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14971,8 +14977,8 @@ msgstr "Wybierz stan zapisu"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Nowa gra"
+msgid "New"
+msgstr "Nowy"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18873,6 +18879,35 @@ msgstr "Bez tła"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Dostępne tylko przy ręcznym ustawieniu napisów"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Zapisz postęp"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Zapisz postęp w nowym pliku zapisu"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Aktywuj przewijanie wstecz, jeśli obsługiwane"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Menu gry"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Zapisane gry"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Aktywuj automatyczny zapis, jeśli obsługiwany"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Nowa gra"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

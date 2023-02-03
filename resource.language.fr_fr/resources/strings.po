@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-28 10:25+0000\n"
+"PO-Revision-Date: 2023-01-27 01:38+0000\n"
 "Last-Translator: skypichat <skypichat@hotmail.fr>\n"
 "Language-Team: French (France) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fr_fr/>\n"
 "Language: fr_fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5280,7 +5280,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Inconnu"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Écraser"
@@ -6150,12 +6150,12 @@ msgstr "{0:d} minutes"
 #. Label of a setting that allows to select the skip step sizes to use for skipping
 msgctxt "#13556"
 msgid "Skip steps"
-msgstr "Ignorer les étapes"
+msgstr "Étapes des sauts"
 
 #. Name of a setting to configure the time to wait for subsequent keypresses in order to apply additive skipping
 msgctxt "#13557"
 msgid "Skip delay"
-msgstr "Ignorer le délai"
+msgstr "Délais des sauts"
 
 msgctxt "#13600"
 msgid "Apple Remote"
@@ -7138,15 +7138,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Se connecter à RetroAchievements"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Sauver la progression"
+msgid "Save"
+msgstr "Enregistrer"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
-msgstr "Sauver la progression vers une nouvelle sauvegarde"
+msgid "Save progress to a new save file"
+msgstr "Enregistrer la progression dans un nouveau fichier de sauvegarde"
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr "Sauvegarde automatique"
 
 msgctxt "#16000"
 msgid "General"
@@ -14745,9 +14750,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Jeu"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Revoir des parties de jeu, si pris en charge"
+msgid "Enable rewind (if supported)"
+msgstr "Activer le rembobinage (si pris en charge)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14832,8 +14838,8 @@ msgstr "Fournisseurs de jeux"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Menu Jeux"
+msgid "Menu"
+msgstr "Menu"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14911,10 +14917,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "Dans cette version, seules des manettes peuvent être utilisées pour jouer."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Jeux sauvegardés"
+msgid "Save / Load"
+msgstr "Sauvegarder / charger"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14929,8 +14935,8 @@ msgid "Edit game source"
 msgstr "Éditer la source de jeux"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Activer l'enregistrement auto., si pris en charge"
+msgid "Enable autosave (if supported)"
+msgstr "Activer l'enregistrement automatique (si pris en charge)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14963,8 +14969,8 @@ msgstr "Sélectionner un Save State"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Nouveau jeu"
+msgid "New"
+msgstr "Nouveau"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18862,6 +18868,35 @@ msgstr "Pas de fond"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Disponible uniquement avec la position manuelle des sous-titres"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Sauver la progression"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Sauver la progression vers une nouvelle sauvegarde"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Revoir des parties de jeu, si pris en charge"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Menu Jeux"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Jeux sauvegardés"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Activer l'enregistrement auto., si pris en charge"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Nouveau jeu"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

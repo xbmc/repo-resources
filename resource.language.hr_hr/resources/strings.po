@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-01-05 03:50+0000\n"
-"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
+"PO-Revision-Date: 2023-01-30 23:09+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Croatian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/hr_hr/>\n"
 "Language: hr_hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5283,7 +5283,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Nepoznato"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Prepiši"
@@ -7141,15 +7141,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Prijavite se u RetroAchievements"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Spremi napredak"
+msgid "Save"
+msgstr "Spremi"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
-msgstr "Spremi napredak u novu datoteku"
+msgid "Save progress to a new save file"
+msgstr ""
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr ""
 
 msgctxt "#16000"
 msgid "General"
@@ -14754,9 +14759,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Igranje"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Omogući premotavanje ako je podržano"
+msgid "Enable rewind (if supported)"
+msgstr ""
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14841,8 +14847,8 @@ msgstr "Pružatelji igre"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Izbornik igre"
+msgid "Menu"
+msgstr "Izbornik"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14920,10 +14926,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "U ovom izdanju, za igranje igara mogu se koristiti samo upravljači igrama."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Spremljene igre"
+msgid "Save / Load"
+msgstr ""
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14938,8 +14944,8 @@ msgid "Edit game source"
 msgstr "Uredi izvor igre"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Omogući automatsko spremanje ako je podržano."
+msgid "Enable autosave (if supported)"
+msgstr ""
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14972,8 +14978,8 @@ msgstr "Odaberite spremanje"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Nova igra"
+msgid "New"
+msgstr "Novo"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18874,6 +18880,35 @@ msgstr "Bez pozadine"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Dostupno samo s ručnim položajem podnaslova"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Spremi napredak"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Spremi napredak u novu datoteku"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Omogući premotavanje ako je podržano"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Izbornik igre"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Spremljene igre"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Omogući automatsko spremanje ako je podržano."
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Nova igra"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

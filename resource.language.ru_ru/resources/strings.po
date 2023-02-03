@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-26 02:42+0000\n"
-"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
+"PO-Revision-Date: 2023-02-01 19:16+0000\n"
+"Last-Translator: vgbsd <vg72i@protonmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ru_ru/>\n"
 "Language: ru_ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5283,7 +5283,7 @@ msgctxt "#13205"
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#. unused?
+#. Label in the game OSD to overwrite an existing savestate
 msgctxt "#13206"
 msgid "Overwrite"
 msgstr "Перезаписать"
@@ -7141,15 +7141,20 @@ msgctxt "#15313"
 msgid "Login to RetroAchievements"
 msgstr "Войти в RetroAchievements"
 
-#. Label for button in the in-game savestate manager
+#. Label for button which creates a new savestate in the in-game savestate manager
 msgctxt "#15314"
-msgid "Save progress"
-msgstr "Сохранить прогресс"
+msgid "Save"
+msgstr "Сохранить"
 
-#. Caption for "Save progress" button in the in-game savestate manager
+#. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
-msgid "Save progress to new save file"
-msgstr "Сохранить прогресс в новый файл"
+msgid "Save progress to a new save file"
+msgstr ""
+
+#. Label for savestates created automatically by "Autosave" function
+msgctxt "#15316"
+msgid "Autosave"
+msgstr "Автосохранение"
 
 msgctxt "#16000"
 msgid "General"
@@ -14754,9 +14759,10 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Геймплей"
 
+# empty string with id 35202
 msgctxt "#35203"
-msgid "Enable rewind if supported"
-msgstr "Включить перемотку если поддерживается"
+msgid "Enable rewind (if supported)"
+msgstr "Включить перемотку (если поддерживается)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14841,8 +14847,8 @@ msgstr "Поставщики игр"
 
 #. Title of the game OSD menu
 msgctxt "#35221"
-msgid "Game Menu"
-msgstr "Игровое меню"
+msgid "Menu"
+msgstr "Меню"
 
 #. Label of button in the in-game menu for stopping game playback
 msgctxt "#35222"
@@ -14920,10 +14926,10 @@ msgid "In this release, only controllers can be used to play games."
 msgstr "В этой версии для управления в играх могут быть использованы только контроллеры."
 
 # empty strings from id 35237 to 35248
-#. Button to open the saved game manager from the game OSD
+#. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
-msgid "Saved games"
-msgstr "Сохранённые игры"
+msgid "Save / Load"
+msgstr "Сохранить / загрузить"
 
 msgctxt "#35250"
 msgid "Add games..."
@@ -14938,8 +14944,8 @@ msgid "Edit game source"
 msgstr "Изменить источник игр"
 
 msgctxt "#35253"
-msgid "Enable autosave if supported"
-msgstr "Включить автосохранение если возможно"
+msgid "Enable autosave (if supported)"
+msgstr "Включить автосохранение (если поддерживается)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -14972,8 +14978,8 @@ msgstr "Выбрать сохранение"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
-msgid "New game"
-msgstr "Новая игра"
+msgid "New"
+msgstr "Новинка"
 
 #. Help text for RetroAchievements username input setting
 msgctxt "#35262"
@@ -18874,6 +18880,35 @@ msgstr "Без фона"
 msgctxt "#39189"
 msgid "Available only with manual subtitle position"
 msgstr "Доступно только при ручной позиции субтитров"
+
+#~ msgctxt "#15314"
+#~ msgid "Save progress"
+#~ msgstr "Сохранить прогресс"
+
+#~ msgctxt "#15315"
+#~ msgid "Save progress to new save file"
+#~ msgstr "Сохранить прогресс в новый файл"
+
+#~ msgctxt "#35203"
+#~ msgid "Enable rewind if supported"
+#~ msgstr "Включить перемотку если поддерживается"
+
+#~ msgctxt "#35221"
+#~ msgid "Game Menu"
+#~ msgstr "Игровое меню"
+
+# empty strings from id 35237 to 35248
+#~ msgctxt "#35249"
+#~ msgid "Saved games"
+#~ msgstr "Сохранённые игры"
+
+#~ msgctxt "#35253"
+#~ msgid "Enable autosave if supported"
+#~ msgstr "Включить автосохранение если возможно"
+
+#~ msgctxt "#35261"
+#~ msgid "New game"
+#~ msgstr "Новая игра"
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"
