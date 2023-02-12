@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-02-03 21:04+0000\n"
-"Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
+"PO-Revision-Date: 2023-02-11 21:42+0000\n"
+"Last-Translator: Kai Sommerfeld <ksooo@users.noreply.kodi.weblate.cloud>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
 "MIME-Version: 1.0\n"
@@ -2210,7 +2210,7 @@ msgstr "Wiedergabezähler"
 #. generic "last played" label used in different places
 msgctxt "#568"
 msgid "Last played"
-msgstr "Zuletzt wiedergegeben am"
+msgstr "Letzte Wiedergabe"
 
 msgctxt "#569"
 msgid "Comment"
@@ -6080,7 +6080,7 @@ msgstr "Keine Grafik"
 #. Button to add a new type of art e.g. "thumb", "poster", "fanart" etc.
 msgctxt "#13516"
 msgid "Add art type"
-msgstr "Grafiktyp hinzufügen"
+msgstr "Artworktyp hinzufügen"
 
 msgctxt "#13517"
 msgid "Threshold for pitch correction"
@@ -6101,7 +6101,7 @@ msgstr "Eingebettete Fanart"
 #. Heading for selection of a type of art e.g. "thumb", "poster", "fanart" etc.
 msgctxt "#13521"
 msgid "Choose art type"
-msgstr "Grafiktyp auswählen"
+msgstr "Artworktyp auswählen"
 
 #. label of a setting that allows splitting of albums into component discs
 msgctxt "#13522"
@@ -7782,7 +7782,7 @@ msgstr "Informationen zur Sendung"
 #. Label for a context menu entry to open the pvr channel group manager dialog
 msgctxt "#19048"
 msgid "Group manager"
-msgstr "Kanalgruppenmanager"
+msgstr "Sendergruppenmanager"
 
 msgctxt "#19049"
 msgid "Show channel"
@@ -8543,7 +8543,7 @@ msgstr "Neuer Sender"
 
 msgctxt "#19205"
 msgid "Group management"
-msgstr "Kanalgruppenverwaltung"
+msgstr "Sendergruppenverwaltung"
 
 msgctxt "#19206"
 msgid "Activate guide:"
@@ -9040,7 +9040,7 @@ msgstr "Timerregel ansehen"
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19305"
 msgid "Deleted missed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr "Verpasste PVR-Erinnerung für „{0:s}“ auf Kanal „{1:s}“ um „{2:s}“ wurde gelöscht"
+msgstr "Verpasste PVR-Erinnerung für „{0:s}“ auf Sender „{1:s}“ um „{2:s}“ wurde gelöscht"
 
 #. text for event log entry for logging auto deleted missed reminders
 msgctxt "#19306"
@@ -14942,6 +14942,11 @@ msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
 msgstr "Das Spiel automatisch während des Spielens speichern, falls unterstützt."
 
+#. Label for showing which emulator the game was saved with
+msgctxt "#35255"
+msgid "Saved with:"
+msgstr ""
+
 #. Error message when a game client fails to install when a game is being launched
 msgctxt "#35256"
 msgid "Failed to install add-on."
@@ -15802,7 +15807,7 @@ msgstr "Sendernummerierung des Backends verwenden."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
-msgstr "Öffnet den Sendermanager, der das Bearbeiten von Kanalsortierung, Kanalname, Symbol usw. ermöglicht."
+msgstr "Öffnet den Sendermanager, der das Bearbeiten von Sendersortierung, Sendername, Symbol usw. ermöglicht."
 
 msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
@@ -16826,7 +16831,7 @@ msgstr "Standardmäßig werden Addons aus offiziellen Repositorys nicht automati
 
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
-msgstr "Legt fest, was passiert, wenn ein Eintrag in der Programmübersicht ausgewählt wird: [Kontextmenü anzeigen] öffnet ein Kontextmenü, in dem weitere Aktionen ausgewählt werden können; [Zum Kanal wechseln] schaltet umgehend zum entsprechenden Kanal um; [Informationen anzeigen] zeigt eine detaillierte Übersicht mit Handlung und weiteren Optionen an; [Aufnehmen] legt einen Aufnahmetimer für den ausgewählten Programminhalt an. [„Intelligente Auswahl“] legt die Aktion dynamisch fest, abhängig davon, ob der Programminhalt in der Vergangenheit, Gegenwart oder Zukunft ist."
+msgstr "Legt fest, was passiert, wenn ein Eintrag in der Programmübersicht ausgewählt wird: [Kontextmenü anzeigen] öffnet ein Kontextmenü, in dem weitere Aktionen ausgewählt werden können; [Zum Sender wechseln] schaltet umgehend zum entsprechenden Sender um; [Informationen anzeigen] zeigt eine detaillierte Übersicht mit Handlung und weiteren Optionen an; [Aufnehmen] legt einen Aufnahmetimer für den ausgewählten Programminhalt an. [„Intelligente Auswahl“] legt die Aktion dynamisch fest, abhängig davon, ob der Programminhalt in der Vergangenheit, Gegenwart oder Zukunft ist."
 
 msgctxt "#36425"
 msgid "Show context menu"
@@ -17213,7 +17218,7 @@ msgstr "Gammamodus"
 #. Description of setting "System -> Video output -> Gamma mode" with label #36572
 msgctxt "#36573"
 msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
-msgstr "Auswahl Gammakurvenformel. Verwendung von BT.1886 für die Gammakurve, welche die Schwarzweißwerte der Anzeige berücksichtigt und Wahrnehmungsstörungen vermeidet. Der Eingangsoffset wird für eine ähnliche Kurve mit einem manuell festgelegten effektiven Gamma verwendet. Der Ausgabeoffset ermöglicht ein wahrnehmungsmäßiges Clipping, kann aber verwendet werden, um falsche Einstellungen des Hauptmonitors zu kompensieren, die zu aufgehellten dunklen Details führen. Absolutes Gamma berücksichtigt überhaupt nicht die Anzeige von Schwarz und schneidet die niedrigsten Pegel ab, um Schwarz auf jeder Anzeige mit einem höheren als dem Null-Schwarzpegel anzuzeigen."
+msgstr "Auswahl Gammakurvenformel. Verwendung von BT.1886 für die Gammakurve, welche die Schwarzweißwerte der Anzeige berücksichtigt und Wahrnehmungsstörungen vermeidet. Der Eingangsoffset wird für eine ähnliche Kurve mit einem manuell festgelegten effektiven Gamma verwendet. Die Ausgangsverschiebung ermöglicht ein wahrnehmungsmäßiges Clipping, kann aber verwendet werden, um falsche Einstellungen des Hauptmonitors zu kompensieren, die zu aufgehellten dunklen Details führen. Absolutes Gamma berücksichtigt überhaupt nicht die Anzeige von Schwarz und schneidet die niedrigsten Pegel ab, um Schwarz auf jeder Anzeige mit einem höheren als dem Null-Schwarzpegel anzuzeigen."
 
 msgctxt "#36574"
 msgid "Gamma"
@@ -17222,7 +17227,7 @@ msgstr "Gamma"
 #. Description of setting "System -> Video output -> Gamma" with label #36574
 msgctxt "#36575"
 msgid "Gamma for selected gamma curve type. For input and output offset, the result at 50% will match an absolute gamma curve with this gamma value."
-msgstr "Gamma für den ausgewählten Gammakurventyp. Für den Eingangs- und Ausgangsoffset entspricht das Ergebnis bei 50 % einer absoluten Gammakurve mit diesem Gammawert."
+msgstr "Gamma für den ausgewählten Gammakurventyp. Für die Eingangs- und Ausgangsverschiebung entspricht das Ergebnis bei 50 % einer absoluten Gammakurve mit diesem Gammawert."
 
 msgctxt "#36576"
 msgid "Lookup table size"
@@ -18577,7 +18582,7 @@ msgstr "Alle lokalen Bilder als Artwork verwenden"
 #. Description of setting with label #39127 "Use all local image files as artwork"
 msgctxt "#39128"
 msgid "All image files located alongside the media files are picked up as artwork during library scan, with the file name as the art type."
-msgstr "Alle Bilddateien, die sich neben Mediendateien befinden, werden beim Scannen der Bibliothek als Artwork aufgenommen, wobei der Dateiname den Bildtyp festlegt."
+msgstr "Alle Bilddateien, die sich neben Mediendateien befinden, werden beim Scannen der Bibliothek als Artwork aufgenommen, wobei der Dateiname den Artworktyp festlegt."
 
 msgctxt "#39129"
 msgid "Use all remote artwork fetched by scrapers"
@@ -18646,7 +18651,7 @@ msgstr "Erlaubte Artworktypen für Filme"
 #. Description of setting with label #39150 "Movie art types whitelist"
 msgctxt "#39144"
 msgid "Limit the movie and movie set artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "Film- und Filmreihen-Artwork beschränken auf lokal abgerufene oder nicht-lokal vom Scraper gelieferte Ergebnisse gemäß erlaubter Art-Typen"
+msgstr "Film- und Filmreihen-Artwork beschränken auf lokal abgerufene oder nicht-lokal vom Scraper gelieferte Ergebnisse gemäß erlaubter Artworktypen"
 
 msgctxt "#39145"
 msgid "TV show art types whitelist"
