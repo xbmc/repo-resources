@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.es_mx"
+  version="11.0.51"
+  name="Spanish (Mexico)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="es_MX">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <dvd>
+      <audio>en</audio>
+    </dvd>
+    <sorttokens>
+      <token>The</token>
+      <token>Los</token>
+      <token>Las</token>
+      <token>El</token>
+      <token>La</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Spanish (Mexico) language pack</summary>
+    <description lang="en_GB">Spanish (Mexico) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
