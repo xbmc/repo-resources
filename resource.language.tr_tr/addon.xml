@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.tr_tr"
+  version="11.0.61"
+  name="Turkish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="tr_TR">
+    <charsets>
+      <gui unicodefont="true">CP1254</gui>
+      <subtitle>CP1254</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Turkish language pack</summary>
+    <description lang="en_GB">Turkish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
