@@ -37,8 +37,7 @@ jobs:
 
       - name: Increment version of updated languages
         run: |
-          python3 ../scripts/repo-resources/increment_version.py 
-$HOME/files.json
+          python3 ../scripts/repo-resources/increment_version.py $HOME/files.json
         working-directory: ${{ github.event.repository.name }}
 
       - name: Create PR for incremented versions
@@ -46,8 +45,7 @@ $HOME/files.json
         with:
           commit-message: Language add-on versions incremented
           title: Language add-on versions incremented
-          body: Language add-on versions incrementing triggered by ${{ 
-github.sha }}
+          body: Language add-on versions incrementing triggered by ${{ github.sha }}
           branch: inc-ver
           delete-branch: true
           path: ./${{ github.event.repository.name }}
