@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-03-05 09:15+0000\n"
+"PO-Revision-Date: 2023-03-21 01:38+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -5725,10 +5725,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Wysuń / Wsuń"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "Pokazuj wizualizację podczas odtwarzania muzyki"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "Oblicz rozmiar"
@@ -8621,11 +8617,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "Kanały w"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "Synchronizuj grupy kanałów z serwerem(-ami)"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Przewodnik"
@@ -9263,6 +9254,11 @@ msgstr "Dostawca"
 msgctxt "#19349"
 msgid "User preference"
 msgstr "Preferencje użytkownika"
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
+msgstr "Użyj kolejności grup kanałów z serwera(-ów)"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -15463,11 +15459,6 @@ msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "Umożliwia podgląd wybranego wygaszacza ekranu."
 
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "Wybrana wizualizacja będzie wyświetlana podczas odtwarzania muzyki zamiast wygaszacza ekranu."
-
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
@@ -15806,10 +15797,6 @@ msgstr "Kategoria zawierająca ogólne ustawienia nagrywania i odtwarzania progr
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Aktywuje funkcje odtwarzania i nagrywania telewizji (PVR). Opcja ta wymaga zainstalowania co najmniej jednego klienta telewizji."
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Importuje grupy kanałów z serwera telewizji (jeśli obsługiwane). Wszystkie grupy stworzone przez użytkownika zostaną usunięte, jeśli nie znajdują się na serwerze."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16893,6 +16880,10 @@ msgstr "Zaznacz tę opcję, aby używać metody renderowania VAAPI. Zmiejsza ona
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "Jeśli jest włączona, przełącz się na kanał z programem, który będzie przypominał o automatycznym zamykaniu okienka przypomnienia."
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
+msgstr "Sortuj grupy kanałów według kolejności podanej przez serwer(y). Jeśli ta opcja jest włączona, nie można zmienić kolejności grup w Menedżerze grup"
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -18900,6 +18891,31 @@ msgstr "[WŁ] Jasność interfejsu GUI w trybie HDR jest zgodna z ustawieniami s
 msgctxt "#39191"
 msgid "HDR"
 msgstr "HDR"
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr "Wyłącz wygaszacz ekranu podczas odtwarzania dźwięku"
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr "Jeśli odtwarzana jest muzyka, wygaszacz ekranu nigdy się nie włączy"
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "Synchronizuj grupy kanałów z serwerem(-ami)"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "Importuje grupy kanałów z serwera telewizji (jeśli obsługiwane). Wszystkie grupy stworzone przez użytkownika zostaną usunięte, jeśli nie znajdują się na serwerze."
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "Pokazuj wizualizację podczas odtwarzania muzyki"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "Wybrana wizualizacja będzie wyświetlana podczas odtwarzania muzyki zamiast wygaszacza ekranu."
 
 #~ msgctxt "#15314"
 #~ msgid "Save progress"

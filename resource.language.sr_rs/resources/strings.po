@@ -5725,10 +5725,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Избаци / Учитај"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "Користи визуелизацију при репродукцији звука"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "Израчунај величину"
@@ -8621,11 +8617,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "Канала у"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "Синхронизуј групе канала са позадином(ама)"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Водич"
@@ -9262,6 +9253,11 @@ msgstr "Провајдер"
 #. label for 'by user preference' sort method
 msgctxt "#19349"
 msgid "User preference"
+msgstr ""
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
 msgstr ""
 
 #. label for epg genre value
@@ -15467,11 +15463,6 @@ msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "Прегледајте одабраног чувара екрана."
 
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "Ако је пуштена музика, одабрана визуелизација ће бити покренута уместо приказивања чувара екрана."
-
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
@@ -15810,10 +15801,6 @@ msgstr "Ова категорија садржи општа подешавања
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Омогућава карактеристике \"Личног Видео Снимача\" (PVR). Ово захтева да је бар један PVR додатни програм инсталиран."
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Увези групе канала из PVR позадине (ако је подржано). Избрисаће групе које је направио корисник ако се не налазе на позадини."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16896,6 +16883,10 @@ msgstr "Када је омогућено, VAAPI методи приказива�
 
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr ""
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
 msgstr ""
 
 # empty string with id 36435
@@ -18906,6 +18897,31 @@ msgstr ""
 msgctxt "#39191"
 msgid "HDR"
 msgstr ""
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr ""
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr ""
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "Синхронизуј групе канала са позадином(ама)"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "Увези групе канала из PVR позадине (ако је подржано). Избрисаће групе које је направио корисник ако се не налазе на позадини."
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "Користи визуелизацију при репродукцији звука"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "Ако је пуштена музика, одабрана визуелизација ће бити покренута уместо приказивања чувара екрана."
 
 #~ msgctxt "#36637"
 #~ msgid "Note that add-ons installed from zip (excluding served repositories) will not auto-update and must be manually updated. Would you like to proceed?"

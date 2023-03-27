@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-03-14 01:59+0000\n"
+"PO-Revision-Date: 2023-03-26 18:42+0000\n"
 "Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
 "Language-Team: Chinese (Taiwan) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_tw/>\n"
 "Language: zh_tw\n"
@@ -5725,10 +5725,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "托盤開 / 關"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "撥放音效時使用視覺效果"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "計算大小"
@@ -8621,11 +8617,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "頻道在"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "與後端同步頻道群組"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "節目表"
@@ -9263,6 +9254,11 @@ msgstr "提供者"
 msgctxt "#19349"
 msgid "User preference"
 msgstr "用戶偏好"
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
+msgstr "使用來自後端的頻道群組順序"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -15462,11 +15458,6 @@ msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "預覽選擇的螢幕保護程式。"
 
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "若正在播放音樂時，選用的視覺效果會應聲出現，而不顯示螢幕保護程式。"
-
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
@@ -15805,10 +15796,6 @@ msgstr "本分類包含PVR及直播電視的通用設定。"
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "啟動\"客制化影片錄製\"(PVR)功能，要開啟此功能需先安裝至少一個PVR附加元件。"
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "從 PVR 後端匯入頻道群組 (如果支援的話)。 如果使用者建立的頻道群組在後端找不到的話將會被刪除。"
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16892,6 +16879,10 @@ msgstr "開啟後會優先使用VAAPI影像渲染方式，可減低CPU負載。�
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "如果啟用，則在自動關閉提醒顯示時，切換到提示所指定的節目頻道。"
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
+msgstr "按照後端提供的順序進行頻道的排序。啟用後，將不能在群組管理器中重新排序群組"
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -18899,6 +18890,31 @@ msgstr "[開] HDR模式下的操作介面亮度比照系統設定。包括所有
 msgctxt "#39191"
 msgid "HDR"
 msgstr "HDR"
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr "播放音訊時停用螢幕保護程式"
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr "播放音樂時，螢幕保護程式不會啟動"
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "與後端同步頻道群組"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "從 PVR 後端匯入頻道群組 (如果支援的話)。 如果使用者建立的頻道群組在後端找不到的話將會被刪除。"
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "撥放音效時使用視覺效果"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "若正在播放音樂時，選用的視覺效果會應聲出現，而不顯示螢幕保護程式。"
 
 #~ msgctxt "#15314"
 #~ msgid "Save progress"

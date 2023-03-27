@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-03-11 10:03+0000\n"
-"Last-Translator: Martin <mato.jurik1@gmail.com>\n"
+"PO-Revision-Date: 2023-03-26 18:42+0000\n"
+"Last-Translator: Patrik Špaňo <patrik.spano@gmail.com>\n"
 "Language-Team: Slovak <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sk_sk/>\n"
 "Language: sk_sk\n"
 "MIME-Version: 1.0\n"
@@ -5723,10 +5723,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Vysunúť / Zasunúť"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "Zobrazovať vizualizáciu počas prehrávania hudby"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "Vypočítať veľkosť"
@@ -8619,11 +8615,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "Kanály v"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "Synchronizovať skupiny kanálov s backendmi"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "TV program"
@@ -9260,6 +9251,11 @@ msgstr "Poskytovateľ"
 #. label for 'by user preference' sort method
 msgctxt "#19349"
 msgid "User preference"
+msgstr ""
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
 msgstr ""
 
 #. label for epg genre value
@@ -15460,11 +15456,6 @@ msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "Ukážka vybraného šetriča obrazovky."
 
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "Pokiaľ sa prehráva hudba, namiesto zobrazenia šetriča obrazovky sa spustí zvolená vizualizácia."
-
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
@@ -15749,7 +15740,7 @@ msgstr ""
 #. Description of setting with label #21366 "Custom subtitle folder"
 msgctxt "#36191"
 msgid "Set a custom directory for your subtitles. This can be a file share."
-msgstr "Extrahovať náhľady a informácie ako kodeky a pomer strán, aby ich bolo možné zobraziť v režime knižnice."
+msgstr "Nastavenie vlastného adresára pre vaše titulky. Môže to byť zdieľaný priečinok."
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
@@ -15803,10 +15794,6 @@ msgstr "Táto kategória obsahuje všeobecné nastavenia pre PVR a televíziu."
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Zapne funkcionalitu \"osobného videorekordéra\" (PVR). Toto nastavenie vyžaduje, aby bol nainštalovaný aspoň jeden PVR doplnok."
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Importovať skupiny kanálov z backendu PVR (ak je to podporované). Uživateľsky vytvorené skupiny, ktoré sa nenájdu v backende, budú odstránené."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16889,6 +16876,10 @@ msgstr "Pokiaľ je zapnuté, je uprednostňovaná VAAPI vykresľovacia metóda a
 
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr ""
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
 msgstr ""
 
 # empty string with id 36435
@@ -18897,6 +18888,31 @@ msgstr ""
 msgctxt "#39191"
 msgid "HDR"
 msgstr ""
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr ""
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr ""
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "Synchronizovať skupiny kanálov s backendmi"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "Importovať skupiny kanálov z backendu PVR (ak je to podporované). Uživateľsky vytvorené skupiny, ktoré sa nenájdu v backende, budú odstránené."
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "Zobrazovať vizualizáciu počas prehrávania hudby"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "Pokiaľ sa prehráva hudba, namiesto zobrazenia šetriča obrazovky sa spustí zvolená vizualizácia."
 
 #~ msgctxt "#15314"
 #~ msgid "Save progress"
