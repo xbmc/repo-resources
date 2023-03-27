@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-02-18 21:41+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
-"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-nexus/zh_cn/>\n"
+"PO-Revision-Date: 2023-03-26 18:42+0000\n"
+"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_cn/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5723,10 +5723,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "弹出/载入"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "播放音乐时启用可视化效果"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "计算大小"
@@ -8619,11 +8615,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "频道在"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "与后端同步频道组"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "指南"
@@ -9261,6 +9252,11 @@ msgstr "提供者"
 msgctxt "#19349"
 msgid "User preference"
 msgstr "用户设置"
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
+msgstr "使用来自后端的频道组顺序"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -15273,7 +15269,7 @@ msgstr "调谐器设备"
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
 msgctxt "#36096"
 msgid "Use system HDR/SDR brightness balance"
-msgstr ""
+msgstr "使用系统 HDR/SDR 亮度平衡"
 
 # empty strings from id 36054 to 36096
 #. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
@@ -15454,11 +15450,6 @@ msgstr "改变指定屏幕保护的设置，可设置的选项因屏幕保护插
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "预览选定的屏幕保护。"
-
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "当音乐播放时，选定的可视化效果就会取代屏幕保护显示。"
 
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
@@ -15798,10 +15789,6 @@ msgstr "此功能区包含 PVR 和直播电视常用设置。"
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "启用“个人视频录像机”（PVR）功能。需要至少安装有一个 PVR 插件。"
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "从PVR后端（如果支持）导入频道组。这将删除用户创建但后端中没有的组。"
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16885,6 +16872,10 @@ msgstr "启用时将首选 VAAPI 渲染模式，这能降低 CPU 占用。如果
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "如果启用，则在自动关闭提醒弹出窗口时，切换到带有提醒程序的频道。"
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
+msgstr "按后端提供的顺序对频道组进行排序，如果启用，组不能在组管理器中重新排序"
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -18883,12 +18874,37 @@ msgstr "仅适用于手动字幕位置"
 #. Help text for setting "Use system HDR/SDR brightness balance" of label #36096
 msgctxt "#39190"
 msgid "[ON] The brightness of the GUI in HDR mode follows the system's setting. This affects all OSD, subtitles and graphics that are SDR in origin.[CR][OFF] Set the max brightness manually."
-msgstr ""
+msgstr "[开] HDR 模式下 GUI 的亮度遵循系统设置。这会影响所有原为 SDR 的 OSD、字幕和图形。[CR][关] 手动设置最大亮度。"
 
 #. System / Display "HDR" settings group label
 msgctxt "#39191"
 msgid "HDR"
-msgstr ""
+msgstr "HDR"
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr "播放音频时禁用屏幕保护程序"
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr "播放音乐时，不会激活屏幕保护程序"
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "与后端同步频道组"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "从PVR后端（如果支持）导入频道组。这将删除用户创建但后端中没有的组。"
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "播放音乐时启用可视化效果"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "当音乐播放时，选定的可视化效果就会取代屏幕保护显示。"
 
 #~ msgctxt "#15314"
 #~ msgid "Save progress"

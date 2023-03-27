@@ -5726,10 +5726,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Відкрити / Закрити"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "Ввімкнути візуалізацію при відтворенні аудіо"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "Обчислити розмір"
@@ -8622,11 +8618,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "каналів у"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "Синхронізувати групи каналів із серверами"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Програма"
@@ -9264,6 +9255,11 @@ msgstr "Джерело"
 msgctxt "#19349"
 msgid "User preference"
 msgstr "Користувацькі налаштування"
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
+msgstr ""
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -15464,11 +15460,6 @@ msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "Попередній перегляд вибраної заставки."
 
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "Під час відтворення музики відображається вибрана візуалізація замість заставки."
-
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the \"Dim\" screensaver mode."
@@ -15807,10 +15798,6 @@ msgstr "Ця категорія містить загальні налаштув
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Активація функції перегляду та запису ТБ (PVR). Для цього потрібно встановити хоча б один додаток PVR."
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Імпорт груп каналів із ТБ-серверу (якщо підтримується). Користувацькі групи, що відсутні на ТБ-сервері, будуть видалені."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16893,6 +16880,10 @@ msgstr ""
 
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
+msgstr ""
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
 msgstr ""
 
 # empty string with id 36435
@@ -18913,6 +18904,31 @@ msgstr ""
 msgctxt "#39191"
 msgid "HDR"
 msgstr ""
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr ""
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr ""
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "Синхронізувати групи каналів із серверами"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "Імпорт груп каналів із ТБ-серверу (якщо підтримується). Користувацькі групи, що відсутні на ТБ-сервері, будуть видалені."
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "Ввімкнути візуалізацію при відтворенні аудіо"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "Під час відтворення музики відображається вибрана візуалізація замість заставки."
 
 #~ msgctxt "#15314"
 #~ msgid "Save progress"

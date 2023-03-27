@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-02-19 13:09+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
-"Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-nexus/ko_kr/>\n"
+"PO-Revision-Date: 2023-03-26 18:42+0000\n"
+"Last-Translator: Minho Park <parkmino@gmail.com>\n"
+"Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5723,10 +5723,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "꺼내기 / 읽기"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "오디오 재생중이면 시각화 사용"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "크기 계산"
@@ -8619,11 +8615,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "채널"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "채널 그룹을 백엔드와 동기화"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "편성표"
@@ -9261,6 +9252,11 @@ msgstr "제공자"
 msgctxt "#19349"
 msgid "User preference"
 msgstr "사용자 기본 설정"
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
+msgstr "백엔드에서 채널 그룹 순서 사용"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -15273,7 +15269,7 @@ msgstr "튜너 장치"
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
 msgctxt "#36096"
 msgid "Use system HDR/SDR brightness balance"
-msgstr ""
+msgstr "시스템 HDR/SDR 밝기 밸런스 사용"
 
 # empty strings from id 36054 to 36096
 #. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
@@ -15454,11 +15450,6 @@ msgstr "화면 보호기별 설정을 바꿉니다. 사용 가능한 옵션은 �
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "선택한 화면 보호기 미리보기."
-
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "음악이 재생중일 때에는 화면 보호기 대신 선택한 시각화를 시작합니다."
 
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
@@ -15798,10 +15789,6 @@ msgstr "PVR과 TV 일반 설정 그룹입니다."
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "\"개인 비디오 녹화기\" (PVR) 기능을 사용합니다. 최소한 한 개 이상의 PVR 애드온을 설치하여야 합니다."
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "PVR 백엔드에서 채널 그룹을 가져옵니다. 백엔드에서 그룹이 발견되지 않으면 사용자가 만든 그룹을 지웁니다."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16885,6 +16872,10 @@ msgstr "VAAPI 렌더링 방식을 우선적으로 사용하여 CPU 부하를 줄
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "알림 팝업을 자동으로 닫을 때, 프로그램의 채널 변경을 알립니다."
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
+msgstr "백엔드에서 제공하는 순서대로 채널 그룹을 정렬합니다. 사용하면 그룹 관리자에서 그룹을 재정렬할 수 없습니다"
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -18883,12 +18874,37 @@ msgstr "수동 자막 위치에서만 사용 가능"
 #. Help text for setting "Use system HDR/SDR brightness balance" of label #36096
 msgctxt "#39190"
 msgid "[ON] The brightness of the GUI in HDR mode follows the system's setting. This affects all OSD, subtitles and graphics that are SDR in origin.[CR][OFF] Set the max brightness manually."
-msgstr ""
+msgstr "[ON] HDR 모드의 GUI 밝기는 시스템 설정을 따릅니다. 이는 원래 SDR인 모든 OSD, 자막 및 그래픽에 영향을 미칩니다.[CR][OFF] 최대 밝기를 수동으로 설정합니다."
 
 #. System / Display "HDR" settings group label
 msgctxt "#39191"
 msgid "HDR"
-msgstr ""
+msgstr "HDR"
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr "오디오 재생 시 화면 보호기 비활성화"
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr "음악이 재생 중에 화면 보호기가 활성화되지 않습니다"
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "채널 그룹을 백엔드와 동기화"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "PVR 백엔드에서 채널 그룹을 가져옵니다. 백엔드에서 그룹이 발견되지 않으면 사용자가 만든 그룹을 지웁니다."
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "오디오 재생중이면 시각화 사용"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "음악이 재생중일 때에는 화면 보호기 대신 선택한 시각화를 시작합니다."
 
 #~ msgctxt "#15314"
 #~ msgid "Save progress"

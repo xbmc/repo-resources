@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-02-21 04:42+0000\n"
+"PO-Revision-Date: 2023-03-19 14:28+0000\n"
 "Last-Translator: skypichat <skypichat@hotmail.fr>\n"
 "Language-Team: French (France) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fr_fr/>\n"
 "Language: fr_fr\n"
@@ -5723,10 +5723,6 @@ msgctxt "#13391"
 msgid "Eject / Load"
 msgstr "Éjecter/Charger"
 
-msgctxt "#13392"
-msgid "Use visualisation if playing audio"
-msgstr "Activer la visualisation en lecture audio"
-
 msgctxt "#13393"
 msgid "Calculate size"
 msgstr "Calculer la taille"
@@ -8619,11 +8615,6 @@ msgctxt "#19220"
 msgid "Channels in"
 msgstr "Chaînes dans"
 
-#. pvr settings "sync channel groups with backend(s)" control label
-msgctxt "#19221"
-msgid "Synchronise channel groups with backend(s)"
-msgstr "Synchroniser les groupes de chaînes avec le(s) serveur(s)"
-
 msgctxt "#19222"
 msgid "Guide"
 msgstr "Guide TV"
@@ -9261,6 +9252,11 @@ msgstr "Fournisseur"
 msgctxt "#19349"
 msgid "User preference"
 msgstr "Préférence utilisateur"
+
+#. label for PVR settings use backend channel group order control
+msgctxt "#19350"
+msgid "Use channel group order from backend(s)"
+msgstr ""
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -15273,7 +15269,7 @@ msgstr "Périphérique Tuner"
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
 msgctxt "#36096"
 msgid "Use system HDR/SDR brightness balance"
-msgstr ""
+msgstr "Utiliser la balance de luminosité HDR/SDR du système"
 
 # empty strings from id 36054 to 36096
 #. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
@@ -15454,11 +15450,6 @@ msgstr "Sélection des paramètres spécifiques à l'économiseur d'écran. Chac
 msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "Prévisualise l'économiseur d'écran sélectionné."
-
-#. Description of setting with label #13392 "Use visualisation if playing audio"
-msgctxt "#36133"
-msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
-msgstr "Pendant la lecture de musique, la visualisation choisie sera lancée au lieu d'afficher l'économiseur d'écran."
 
 #. Description of setting with label #22014 "Use dim if paused during video playback"
 msgctxt "#36134"
@@ -15798,10 +15789,6 @@ msgstr "Cette catégorie contient les paramètres généraux des enregistreurs v
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Active les fonctions de l'enregistreur vidéo (PVR). Cela nécessite au moins l'installation d'une extension enregistreur vidéo."
-
-msgctxt "#36204"
-msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
-msgstr "Importe les groupes de chaînes depuis le serveur de l'enregistreur vidéo (si géré). Les groupes créés par les utilisateurs seront supprimés s'ils ne sont pas trouvés sur le serveur."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16885,6 +16872,10 @@ msgstr "Si activé, la méthode de rendu VAAPI sera préférée et le processeur
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
 msgstr "Si activée, sélectionne la chaîne du programme prévu à la fermeture automatique de la fenêtre de rappel."
+
+msgctxt "#36435"
+msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
+msgstr ""
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -18883,12 +18874,37 @@ msgstr "Disponible uniquement avec la position manuelle des sous-titres"
 #. Help text for setting "Use system HDR/SDR brightness balance" of label #36096
 msgctxt "#39190"
 msgid "[ON] The brightness of the GUI in HDR mode follows the system's setting. This affects all OSD, subtitles and graphics that are SDR in origin.[CR][OFF] Set the max brightness manually."
-msgstr ""
+msgstr "[ON] La luminosité de l'interface graphique en mode HDR suit le réglage du système. Cela affecte tous les OSD, sous-titres et graphiques d'origine SDR.[CR][OFF] Régler la luminosité maximale manuellement."
 
 #. System / Display "HDR" settings group label
 msgctxt "#39191"
 msgid "HDR"
-msgstr ""
+msgstr "HDR"
+
+msgctxt "#39192"
+msgid "Disable screensaver when playing audio"
+msgstr "Désactiver l'économiseur d'écran lors de la lecture audio"
+
+#. Description of setting with label #39192 "Disable screensaver when playing audio"
+msgctxt "#39193"
+msgid "If music is being played, the screensaver will never be activated"
+msgstr "Si de la musique est en cours de lecture, l'économiseur d'écran ne sera pas activé"
+
+#~ msgctxt "#19221"
+#~ msgid "Synchronise channel groups with backend(s)"
+#~ msgstr "Synchroniser les groupes de chaînes avec le(s) serveur(s)"
+
+#~ msgctxt "#36204"
+#~ msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+#~ msgstr "Importe les groupes de chaînes depuis le serveur de l'enregistreur vidéo (si géré). Les groupes créés par les utilisateurs seront supprimés s'ils ne sont pas trouvés sur le serveur."
+
+#~ msgctxt "#13392"
+#~ msgid "Use visualisation if playing audio"
+#~ msgstr "Activer la visualisation en lecture audio"
+
+#~ msgctxt "#36133"
+#~ msgid "If music is being played, the selected visualisation will be started instead of displaying the screensaver."
+#~ msgstr "Pendant la lecture de musique, la visualisation choisie sera lancée au lieu d'afficher l'économiseur d'écran."
 
 #~ msgctxt "#15314"
 #~ msgid "Save progress"
