@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-05-01 08:16+0000\n"
+"PO-Revision-Date: 2023-05-21 09:39+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -941,7 +941,7 @@ msgstr "Seleziona la cartella di destinazione"
 
 msgctxt "#252"
 msgid "Stereo upmix"
-msgstr "Stereo upmix"
+msgstr "Aumento da stereo del numero di canali audio"
 
 msgctxt "#253"
 msgid "Number of channels"
@@ -1186,7 +1186,7 @@ msgstr "Lingua dell'interfaccia utente"
 #. Setting in international settings
 msgctxt "#310"
 msgid "Virtual keyboard layouts"
-msgstr "Disposizioni tasti tastiera virtuale"
+msgstr "Disposizione tasti tastiera virtuale"
 
 #. Keyboard layout name e.g. "English QWERTY"
 msgctxt "#311"
@@ -1332,7 +1332,7 @@ msgstr "Anno"
 
 msgctxt "#346"
 msgid "Maintain original volume on downmix"
-msgstr "Mantieni volume originale nel downmix"
+msgstr "Mantieni volume originale durante la riduzione del numero di canali"
 
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
@@ -1340,7 +1340,7 @@ msgstr "Ricevitore compatibile con DTS-HD"
 
 msgctxt "#348"
 msgid "Allow passthrough"
-msgstr "Consenti passthrough"
+msgstr "Consenti passaggio senza conversione"
 
 msgctxt "#349"
 msgid "TrueHD capable receiver"
@@ -1603,11 +1603,11 @@ msgstr "Umidità"
 
 msgctxt "#407"
 msgid "Hardware keyboard layouts"
-msgstr "Disposizioni tasti tastiera fisica"
+msgstr "Disposizione tasti tastiera fisica"
 
 msgctxt "#409"
 msgid "Defaults"
-msgstr "Predefiniti"
+msgstr "Predefinito"
 
 msgctxt "#410"
 msgid "Accessing weather service"
@@ -2117,7 +2117,7 @@ msgstr "Dispositivo di uscita audio"
 
 msgctxt "#546"
 msgid "Passthrough output device"
-msgstr "Dispositivo di uscita passtrough"
+msgstr "Dispositivo di uscita passaggio senza conversione"
 
 msgctxt "#547"
 msgid "No biography for this artist"
@@ -2125,7 +2125,7 @@ msgstr "Nessuna biografia per questo artista"
 
 msgctxt "#548"
 msgid "Downmix multichannel audio to stereo"
-msgstr "Downmix da audio multicanale a stereo"
+msgstr "Riduci il numero di canali audio da multicanale a stereo"
 
 #. generic "number" label used in different places
 msgctxt "#549"
@@ -2995,12 +2995,12 @@ msgstr "Evita gli episodi doppi"
 #. Label of start padding time list control in PVR timer settings dialog
 msgctxt "#813"
 msgid "Start padding time"
-msgstr "Tempo margine di inizio"
+msgstr "Margine di tempo all'inizio"
 
 #. Label of end padding time list control in PVR timer settings dialog
 msgctxt "#814"
 msgid "End padding time"
-msgstr "Tempo margine di fine"
+msgstr "Margine di tempo alla fine"
 
 #. Value of prevent duplicate episodes list control in PVR timer settings dialog
 msgctxt "#815"
@@ -3588,7 +3588,7 @@ msgstr "Dispositivo audio personalizzato"
 
 msgctxt "#1301"
 msgid "Custom passthrough device"
-msgstr "Dispositivo passthrough personalizzato"
+msgstr "Dispositivo personalizzato passaggio senza conversione"
 
 msgctxt "#1302"
 msgid "Volume control steps"
@@ -4016,11 +4016,11 @@ msgstr "Usa DTS Core"
 
 msgctxt "#2204"
 msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr "Scegli questa opzione se vuoi effettuare il passthrough del formato DTS-HD come DTS, altrimenti, i formati DTS-HD verranno riprodotti attraverso PCM"
+msgstr "Scegli questa opzione se vuoi effettuare il passaggio senza conversione del formato DTS-HD come DTS, altrimenti, i formati DTS-HD verranno riprodotti attraverso PCM"
 
 msgctxt "#10000"
 msgid "Home"
-msgstr "Home"
+msgstr "Schermata principale"
 
 msgctxt "#10001"
 msgid "Programs"
@@ -4496,7 +4496,7 @@ msgstr "In riproduzione - Video"
 
 msgctxt "#10523"
 msgid "Album information"
-msgstr "Info album"
+msgstr "Informazioni album"
 
 msgctxt "#10524"
 msgid "Movie information"
@@ -5607,7 +5607,7 @@ msgstr "Playlist attuale"
 
 msgctxt "#13351"
 msgid "Album information"
-msgstr "Info album"
+msgstr "Informazioni album"
 
 msgctxt "#13352"
 msgid "Scan item to library"
@@ -6520,7 +6520,7 @@ msgstr "Set di caratteri"
 
 msgctxt "#14092"
 msgid "Logging"
-msgstr "Registrazione"
+msgstr "Registrazione eventi"
 
 msgctxt "#14093"
 msgid "Security"
@@ -6674,7 +6674,7 @@ msgstr "Ingressi"
 
 msgctxt "#14126"
 msgid "Whitelist"
-msgstr "Modalità consentite"
+msgstr "Modalità autorizzate"
 
 msgctxt "#14127"
 msgid "Allow 3:2 pulldown refresh rates"
@@ -6866,7 +6866,7 @@ msgstr "Decodificatore audio"
 
 msgctxt "#14252"
 msgid "Audio Passthrough"
-msgstr "Passthrough audio"
+msgstr "Audio con passaggio senza conversione"
 
 msgctxt "#14255"
 msgid "Sleep / Shutdown"
@@ -7601,7 +7601,7 @@ msgstr "UNC"
 #. label for PVR backend name in system information's PVR section
 msgctxt "#19012"
 msgid "PVR backend"
-msgstr "Interfaccia PVR"
+msgstr "Backend PVR"
 
 #. PVR 'channel encryption system' textual presentation for free to air channels
 msgctxt "#19013"
@@ -7621,7 +7621,7 @@ msgstr "Crittografia"
 #. unused?
 msgctxt "#19016"
 msgid "PVR backend {0:d} - {1:s}"
-msgstr "Interfaccia PVR {0:d} - {1:s}"
+msgstr "Backend PVR {0:d} - {1:s}"
 
 #. generic label for pvr recordings used in different places
 msgctxt "#19017"
@@ -7731,7 +7731,7 @@ msgstr "Mostra qualità del segnale"
 #. message box text stating that a PVR backend does not support a certain functionality.
 msgctxt "#19038"
 msgid "Not supported by the PVR backend."
-msgstr "Non supportato dall'interfaccia PVR."
+msgstr "Non supportato dal backend PVR."
 
 #. message box text asking for confirmation to hide a channel.
 msgctxt "#19039"
@@ -7898,7 +7898,7 @@ msgstr "Per aggiungere/aggiornare un timer, la data e l'ora di fine devono esser
 #. pvr settings "delay channel switch" setting label
 msgctxt "#19073"
 msgid "Delay channel switch"
-msgstr "Ritarda cambio canale"
+msgstr "Ritardo cambio canale"
 
 msgctxt "#19074"
 msgid "Active"
@@ -8072,7 +8072,7 @@ msgstr "alle"
 #. label for PVR settings "tv fallback framerate" (in Hz) selector
 msgctxt "#19108"
 msgid "Fallback framerate"
-msgstr "Framerate di riserva"
+msgstr "Frequenza di riserva dei fotogrammi"
 
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
@@ -8087,7 +8087,7 @@ msgstr "Impossibile eliminare il timer. Controlla il registro per ulteriori info
 #. message box text stating that a PVR backend error occurred
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
-msgstr "Errore interfaccia PVR. Controlla il registro per ulteriori informazioni su questo messaggio."
+msgstr "Errore backend PVR. Controlla il registro per ulteriori informazioni su questo messaggio."
 
 #. delete recordings confirmation message box text
 msgctxt "#19112"
@@ -8127,7 +8127,7 @@ msgstr "Impossibile usare le funzioni PVR durante la ricerca."
 #. channel scan backend selection dialog text
 msgctxt "#19119"
 msgid "On which backend do you want to search?"
-msgstr "Su quale interfaccia vuoi cercare?"
+msgstr "Su quale backend vuoi cercare?"
 
 #. label for PVR client number in system information's PVR section
 msgctxt "#19120"
@@ -8392,12 +8392,12 @@ msgstr "Gruppi canali radio"
 #. pvr settings "default time to add before the start of an event to record (according to its epg data)" setting label
 msgctxt "#19175"
 msgid "Default start padding time"
-msgstr "Tempo predefinito margine all'inizio"
+msgstr "Margine di tempo predefinito all'inizio"
 
 #. pvr settings "default time to add after the end of an event to record (according to epg its data)" setting label
 msgctxt "#19176"
 msgid "Default end padding time"
-msgstr "Tempo predefinito margine alla fine"
+msgstr "Margine di tempo predefinito alla fine"
 
 #. pvr settings category and group label
 msgctxt "#19177"
@@ -8464,7 +8464,7 @@ msgstr "Tutti i dati delle guide saranno eliminati. Sei sicuro?"
 #. message box text stating that the PVR backend forbids to record a given epg event.
 msgctxt "#19189"
 msgid "The PVR backend does not allow to record this event."
-msgstr "L'interfaccia PVR non consente di registrare questo evento."
+msgstr "Il backend PVR non consente di registrare questo evento."
 
 #. generic "play program" label used in different places
 msgctxt "#19190"
@@ -8478,7 +8478,7 @@ msgstr "Servizio PVR"
 #. info message box text stating that none of the available pvr clients does support channel scanning
 msgctxt "#19192"
 msgid "None of the connected PVR backends supports scanning for channels."
-msgstr "Nessuna delle interfaccie PVR collegate supporta la scansione dei canali."
+msgstr "Nessuno dei backend PVR connessi supporta la scansione dei canali."
 
 #. error message box text stating that a given pvr channel could not be played
 msgctxt "#19193"
@@ -8558,7 +8558,7 @@ msgstr "Inserire il nome del nuovo canale"
 #. unused?
 msgctxt "#19209"
 msgid "Kodi virtual backend"
-msgstr "Interfaccia virtuale Kodi"
+msgstr "Backend virtuale Kodi"
 
 #. pvr channel manager "epg source" selector value
 msgctxt "#19210"
@@ -8578,7 +8578,7 @@ msgstr "L'elenco contiene modifiche"
 #. pvr channel manager "create new channel", backend selector dialog message
 msgctxt "#19213"
 msgid "Select backend"
-msgstr "Seleziona interfaccia"
+msgstr "Seleziona backend"
 
 #. @@@ dead code in pvr channel manager, action for a context menu item never added?
 msgctxt "#19214"
@@ -8662,7 +8662,7 @@ msgstr "Impedisci aggiornamenti durante la riproduzione"
 #. label for PVR settings use backend channel order control
 msgctxt "#19231"
 msgid "Use channel order from backend(s)"
-msgstr "Usa ordine dei canali dall'interfaccia(e)"
+msgstr "Usa ordine canali dai backend"
 
 #. label for pvr epg search window 'clear search results' context menu item
 msgctxt "#19232"
@@ -9081,7 +9081,7 @@ msgstr "Pianifica la registrazione alla chiusura automatica del popup di promemo
 #. generic 'backend order' label
 msgctxt "#19315"
 msgid "Backend order"
-msgstr "Ordine del backend"
+msgstr "Ordine backend"
 
 #. pvr settings "Start all group channel numbers from 1" setting label
 msgctxt "#19316"
@@ -11689,7 +11689,7 @@ msgstr "Modifica regole modalità party"
 
 msgctxt "#21440"
 msgid "Home folder"
-msgstr "Cartella home"
+msgstr "Cartella principale"
 
 msgctxt "#21441"
 msgid "Watched count"
@@ -12175,7 +12175,7 @@ msgstr "Seleziona artista"
 
 msgctxt "#21891"
 msgid "Artist information"
-msgstr "Info artista"
+msgstr "Informazioni artista"
 
 msgctxt "#21892"
 msgid "Instruments"
@@ -12417,7 +12417,7 @@ msgstr "Informazioni film"
 
 msgctxt "#24008"
 msgid "Screensaver"
-msgstr "Salvaschermo"
+msgstr "Salvaschermi"
 
 msgctxt "#24009"
 msgid "Script"
@@ -12429,7 +12429,7 @@ msgstr "Visualizzazione"
 
 msgctxt "#24011"
 msgid "Add-on repository"
-msgstr "Repository add-on"
+msgstr "Add-on repository"
 
 msgctxt "#24012"
 msgid "Subtitles"
@@ -12449,11 +12449,11 @@ msgstr "Informazioni video musicali"
 
 msgctxt "#24016"
 msgid "Album information"
-msgstr "Info album"
+msgstr "Informazioni album"
 
 msgctxt "#24017"
 msgid "Artist information"
-msgstr "Info artista"
+msgstr "Informazioni artista"
 
 msgctxt "#24018"
 msgid "Services"
@@ -12941,11 +12941,11 @@ msgstr "La configurazione di XBMC è stata spostata alla nuova destinazione per 
 
 msgctxt "#24130"
 msgid "Enable parsing for closed captions"
-msgstr "Abilita analisi sottotitoli per non udenti"
+msgstr "Abilita analisi sottotitoli con descrizione audio"
 
 msgctxt "#24131"
 msgid "Enable to parse for CC in video stream. Puts slightly more load on the CPU"
-msgstr "Abilita l'analisi dei sottotitoli per non udenti nella traccia video. Mette leggermente più carico sulla CPU"
+msgstr "Abilita l'analisi dei sottotitoli con descrizione audio nella traccia video. Mette leggermente più carico sulla CPU"
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -13275,7 +13275,7 @@ msgstr "Tastiera QWERTY"
 
 msgctxt "#29802"
 msgid "Passthrough audio in use"
-msgstr "Passthrough audio in uso"
+msgstr "Audio con passaggio senza conversione in uso"
 
 #. Header text for the BD-J warning dialog
 msgctxt "#29803"
@@ -15007,7 +15007,7 @@ msgstr "Risposta non valida dal server"
 #. Settings -> Games -> Achievements -> Logged in
 msgctxt "#35268"
 msgid "Logged in"
-msgstr "Connesso"
+msgstr "Connessione"
 
 #. Help text for the setting that shows if the user is logged in to RetroAchievements
 #. Settings -> Games -> Achievements -> Logged in
@@ -15611,7 +15611,7 @@ msgstr "Ritardo reimpostazione evento dopo modifica frequenza di aggiornamento"
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
 msgid "Synchronise video and audio to the refresh rate of the monitor. VideoPlayer won't use passthrough audio in this case because resampling may be required."
-msgstr "Sincronizza il video e l'audio alla frequenza di aggiornamento del monitor. VideoPlayer non userà il passthrough audio in questo caso poiché potrebbe essere necessario un ricampionamento."
+msgstr "Sincronizza il video e l'audio alla frequenza di aggiornamento del monitor. VideoPlayer non userà il passaggio senza conversione audio in questo caso poiché potrebbe essere necessario un ricampionamento."
 
 #. Description of setting with label #14107 "Time format"
 msgctxt "#36167"
@@ -16504,7 +16504,7 @@ msgstr "Calibra l'interfaccia utente regolando l'overscan. Utilizza questo strum
 
 msgctxt "#36358"
 msgid "Allow using channel numbering from multiple backends. Note that the All channels group can contain multiple of the same channel number if using this option. This means that jump to channel number may not work correctly for the All channels group."
-msgstr "Permetti di usare numerazioni canale da più backend. Tieni presente che il gruppo Tutti i canali potrà contenere multipli dello stesso numero canale se si usa questa opzione. Questo significa che il salto al numero canale potrebbe non funzionare correttamente per il gruppo Tutti i canali."
+msgstr "Consenti l'utilizzo della numerazione dei canali da più backend. Tieni presente che il gruppo Tutti i canali potrà contenere multipli dello stesso numero canale se si usa questa opzione. Questo significa che il salto al numero canale potrebbe non funzionare correttamente per il gruppo Tutti i canali."
 
 #. Description of setting with label #36042 "Use limited colour range (16-235)"
 msgctxt "#36359"
@@ -16524,7 +16524,7 @@ msgstr "Seleziona come sono impostate le proprietà dell'uscita audio: [Fisso] L
 #. Description of setting with label #34100 "Number of channels"
 msgctxt "#36362"
 msgid "Select the number of channels supported by the audio connection, or the number of speakers if connected by analogue connections. This setting does not apply to passthrough audio. Note: S/PDIF supports 2.0 channels only but can still output multichannel audio using a format supported by passthrough."
-msgstr "Seleziona il numero dei canali supportati dalla connessione audio, o il numero degli speaker se connessi in analogico. Questa impostazione non si applica all'audio passthrough. Nota: S/PDIF supporta soltanto canali 2.0, ma può comunque riprodurre audio multicanale usando un formato supportato dal passthrough."
+msgstr "Seleziona il numero dei canali supportati dalla connessione audio, o il numero degli altoparlanti se connessi in analogico. Questa impostazione non si applica al passaggio senza conversione audio. Nota: S/PDIF supporta soltanto i canali 2.0, ma può comunque riprodurre audio multicanale usando un formato supportato dal passaggio senza conversione."
 
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
@@ -16533,7 +16533,7 @@ msgstr "Amplifica le tracce AC3 che sono state ridotte a 2 canali."
 #. Description of setting with label #252 "Stereo upmix"
 msgctxt "#36364"
 msgid "Select to enable upmixing of 2 channel audio to the number of audio channels specified by the channel configuration."
-msgstr "Seleziona per abilitare l'upmix dall'audio a 2 canali al numero di canali audio specificato dalla configurazione canale."
+msgstr "Seleziona per abilitare l'aumento del numero di canali audio dall'audio a 2 canali al numero di canali audio specificato dalla configurazione canale."
 
 #. Description of setting with label #364 "Dolby Digital (AC3) capable receiver"
 msgctxt "#36365"
@@ -16552,7 +16552,7 @@ msgstr "Seleziona il numero massimo di canali audio/altoparlanti disponibili per
 #. Description of setting with label #348 "Enable passthrough"
 msgctxt "#36368"
 msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
-msgstr "Seleziona per permettere il passthrough audio per la riproduzione di audio compresso come Dolby Digital (AC3), DTS, ecc. Il client dell'AudioEngine, ad esempio il lettore video, potrebbe decidere di decodificare la traccia audio sotto certe condizioni. Nel caso del lettore video, il passthrough non sarà usato per tracce live e quando sincronizzi la riproduzione con lo schermo."
+msgstr "Seleziona per permettere l'audio con passaggio senza conversione per la riproduzione di audio compresso come Dolby Digital (AC3), DTS, ecc. Il client dell'AudioEngine, ad esempio VideoPlayer, potrebbe decidere di decodificare la traccia audio in certe condizioni. Nel caso di VideoPlayer, l'audio con passaggio senza conversione non sarà usato per tracce live e quando sincronizzi la riproduzione con lo schermo."
 
 #. Description of setting with label #349 "TrueHD capable receiver"
 msgctxt "#36369"
@@ -16862,7 +16862,7 @@ msgstr "Mostra tutti gli eventi nel registro eventi per il profilo attuale con o
 #. Select the layout of a virtual keyboard
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
-msgstr "Seleziona le disposizioni dei tasti della tastiera virtuale."
+msgstr "Seleziona la disposizione dei tasti della tastiera virtuale."
 
 #. Description for video related setting #13457: "vaapi sw filter"
 msgctxt "#36433"
@@ -16883,7 +16883,7 @@ msgstr "Ordina i gruppi di canali in base all'ordine fornito dai backend. Se abi
 #. Select the layout of a physically attached keyboard
 msgctxt "#36436"
 msgid "Select hardware keyboard layout."
-msgstr "Seleziona le disposizioni dei tasti della tastiera fisica."
+msgstr "Seleziona la disposizione dei tasti della tastiera fisica."
 
 #. Option for setting "System -> Add-ons -> Update official add-ons from"
 msgctxt "#36437"
@@ -16903,7 +16903,7 @@ msgstr "Imposta il numero di passi per il controllo volume."
 #. Description of setting with label #14126 "Whitelist"
 msgctxt "#36443"
 msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
-msgstr "Le modalità consentite danno all'utente il controllo di scegliere quali modalità dello schermo possono o non possono essere utilizzate"
+msgstr "Le modalità autorizzate danno all'utente il controllo per scegliere quali modalità di visualizzazione possono o non possono essere utilizzate"
 
 #. Description of setting with label #14127 "Whitelist"
 msgctxt "#36444"
@@ -17038,7 +17038,7 @@ msgstr "Uguale al film"
 #. Description of setting with label #346 "Normalize levels on downmix"
 msgctxt "#36533"
 msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
-msgstr "Seleziona la modalità di downmix dell'audio, ad es. da 5.1 a 2.0.[CR][Abilitato] Mantiene il livello del volume della sorgente audio originale anche se la gamma dinamica è compressa.[CR][Disabilitato] Mantiene la gamma dinamica della sorgente audio originale durante il downmix, tuttavia il volume sarà inferiore. Nota: la gamma dinamica è la differenza tra i suoni più bassi e quelli più forti in una sorgente audio. Abilita questa impostazione se i dialoghi del film sono appena udibili."
+msgstr "Seleziona la modalità di riduzione del numero di canali audio, ad es. da 5.1 a 2.0.[CR][Abilitato] Mantiene il livello del volume della sorgente audio originale anche se la gamma dinamica è compressa.[CR][Disabilitato] Mantiene la gamma dinamica della sorgente audio originale durante la riduzione del numero di canali, tuttavia il volume sarà inferiore. Nota: la gamma dinamica è la differenza tra i suoni più bassi e quelli più forti in una sorgente audio. Abilita questa impostazione se i dialoghi del film sono appena udibili."
 
 #. Description of setting with label #668 "Component-specific logging..."
 msgctxt "#36534"
@@ -17238,7 +17238,7 @@ msgstr "Specifica la risoluzione per la tabella di ricerca 3D. Usa una risoluzio
 #. Description of setting "System / Display / Use 10 bit for SDR" with label #36098
 msgctxt "#36578"
 msgid "Improves video quality by using 10-bit video surfaces for Standard Dynamic Range (SDR) video.[CR][Auto detect] Enables 10 bit for SDR only if the connected display supports HDR.[CR][Always] Enables 10 bit for SDR even if the connected display doesn't support HDR.[CR][Never] Do not use 10 bit for SDR.[CR]HDR passthrough mode always uses 10-bit regardless of this setting."
-msgstr "Migliora la qualità video usando superfici video a 10-bit per i video Standard Dynamic Range (SDR).[CR][Rileva automaticamente] Abilita i 10 bit per SDR solo se lo schermo connesso supporta l'HDR.[CR][Sempre] Abilita i 10 bit per SDR anche se lo schermo connesso non supporta l'HDR.[CR][Mai] Non utilizza i 10 bit per SDR.[CR]La modalità passthrough HDR utilizza sempre i 10-bit indipendentemente da questa impostazione."
+msgstr "Migliora la qualità video usando superfici video a 10-bit per i video Standard Dynamic Range (SDR).[CR][Rileva automaticamente] Abilita i 10 bit per SDR solo se lo schermo connesso supporta l'HDR.[CR][Sempre] Abilita i 10 bit per SDR anche se lo schermo connesso non supporta l'HDR.[CR][Mai] Non utilizza i 10 bit per SDR.[CR]La modalità con passaggio senza conversione HDR utilizza sempre i 10-bit indipendentemente da questa impostazione."
 
 #. primaries labels
 msgctxt "#36579"
@@ -17424,12 +17424,12 @@ msgstr "Agli add-on sarà consentito l'accesso a dati personali salvati su quest
 #. Label of a setting, allow the user to specify high quality downscaling of pictures
 msgctxt "#36619"
 msgid "High quality downscaling"
-msgstr "Downscaling ad alta qualità"
+msgstr "Ridimensionamento ad alta qualità"
 
 #. Description of setting "Pictures -> Slideshow -> High Quality Downscaling" with label #36619
 msgctxt "#36620"
 msgid "Enable high quality downscaling of pictures (uses more memory and has moderate performance impact)."
-msgstr "Abilita il downscaling di alta qualità delle immagini (utilizza più memoria e ha un impatto moderato sulle prestazioni)."
+msgstr "Abilita il ridimensionamento delle immagini ad alta qualità (utilizza più memoria e ha un impatto moderato sulle prestazioni)."
 
 #. Label of a setting, allow the maximum smbclient protocol to be configured
 msgctxt "#36621"
@@ -18508,7 +18508,7 @@ msgstr "originale"
 #. Used for a setting which allows centre channel (voice/speech) volume to be adjusted when downmixing.
 msgctxt "#39112"
 msgid "Downmix: Center Mix Level"
-msgstr "Downmix: livello mix centrale"
+msgstr "Riduzione del numero di canali: livello del canale centrale"
 
 #. Help text for 39112
 msgctxt "#39113"
@@ -18652,7 +18652,7 @@ msgstr "Limita risultati artwork film e saghe cinematografiche recuperati localm
 
 msgctxt "#39145"
 msgid "TV show art types whitelist"
-msgstr "Whitelist tipi di immagine Serie TV"
+msgstr "Whitelist tipi di immagine serie TV"
 
 #. Description of setting with label #39152 "TV show art types whitelist"
 msgctxt "#39146"
@@ -18859,7 +18859,7 @@ msgstr "Stili per i sottotitoli basati su testo"
 #. Title of group menu subtitles
 msgctxt "#39187"
 msgid "Closed caption subtitles"
-msgstr "Sottotitoli per non udenti"
+msgstr "Sottotitoli con descrizione audio"
 
 #. Item list value of setting with label #39166 "Background type"
 msgctxt "#39188"
