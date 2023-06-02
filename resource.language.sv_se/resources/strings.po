@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-03-27 09:03+0000\n"
+"PO-Revision-Date: 2023-06-02 09:06+0000\n"
 "Last-Translator: Robert Bylin <robert.bylin@gmail.com>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sv_se/>\n"
 "Language: sv_se\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1393,7 +1393,7 @@ msgstr "Skärmsläckare"
 
 msgctxt "#361"
 msgid "Recursive slideshow"
-msgstr "Rekursivt bildspel"
+msgstr "Bildspel från undermappar"
 
 msgctxt "#362"
 msgid "Screensaver dim level"
@@ -5489,7 +5489,7 @@ msgstr "Återskapa miniatyrbilder"
 
 msgctxt "#13316"
 msgid "Recursive thumbnails"
-msgstr "Rekursiva miniatyrbilder"
+msgstr "Skanna miniatyrbilder i undermappar"
 
 msgctxt "#13317"
 msgid "View slideshow"
@@ -5822,6 +5822,10 @@ msgstr "Renderingsmetod"
 msgctxt "#13416"
 msgid "Auto detect"
 msgstr "Autodetektera"
+
+msgctxt "#13417"
+msgid "Allow use DXVA Video Super Resolution"
+msgstr "Tillåt användning av DXVA Super upplösning"
 
 msgctxt "#13419"
 msgid "Software"
@@ -7144,7 +7148,7 @@ msgstr "Spara"
 #. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
 msgid "Save progress to a new save file"
-msgstr ""
+msgstr "Spara spel i ny fil"
 
 #. Label for savestates created automatically by "Autosave" function
 msgctxt "#15316"
@@ -10717,7 +10721,7 @@ msgstr "Mapp"
 
 msgctxt "#20335"
 msgid "Look for content recursively?"
-msgstr "Leta rekursivt efter innehåll?"
+msgstr "Leta efter innehåll i undermappar?"
 
 msgctxt "#20336"
 msgid "Unlock sources"
@@ -10758,7 +10762,7 @@ msgstr "Kör automatisk skanning"
 
 msgctxt "#20346"
 msgid "Scan recursively"
-msgstr "Skanna rekursivt"
+msgstr "Skanna undermappar"
 
 msgctxt "#20347"
 msgid "as"
@@ -18890,6 +18894,11 @@ msgstr ""
 #. Description of setting with label #39192 "Disable screensaver when playing audio"
 msgctxt "#39193"
 msgid "If music is being played, the screensaver will never be activated"
+msgstr ""
+
+#. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
+msgctxt "#39194"
+msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
 msgstr ""
 
 #~ msgctxt "#19221"
