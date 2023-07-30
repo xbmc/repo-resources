@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-04-06 07:42+0000\n"
+"PO-Revision-Date: 2023-07-14 13:15+0000\n"
 "Last-Translator: skypichat <skypichat@hotmail.fr>\n"
 "Language-Team: French (France) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fr_fr/>\n"
 "Language: fr_fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -433,7 +433,7 @@ msgstr "Faut-il déplacer la sélection de fichier(s) ?"
 
 msgctxt "#125"
 msgid "Would you like to delete the selected file(s)?[CR]Warning - this action can't be undone!"
-msgstr "Faut-il supprimer la sélection de fichier(s) ?[CR]Attention : cette action ne peut pas être annulée !"
+msgstr "Faut-il supprimer la sélection de fichier(s) ?[CR]Attention : cette action est irréversible !"
 
 msgctxt "#126"
 msgid "Status"
@@ -5823,7 +5823,12 @@ msgstr "Détection automatique"
 
 msgctxt "#13417"
 msgid "Allow use DXVA Video Super Resolution"
-msgstr ""
+msgstr "Autoriser l'utilisation de la super résolution vidéo DXVA"
+
+#. Setting Player / Video
+msgctxt "#13418"
+msgid "Use high precision processing"
+msgstr "Utiliser un traitement de haute précision"
 
 msgctxt "#13419"
 msgid "Software"
@@ -14740,6 +14745,16 @@ msgctxt "#35171"
 msgid "Mouse"
 msgstr "Souris"
 
+#. Name of window for configuring players while playing a game
+msgctxt "#35172"
+msgid "Players"
+msgstr ""
+
+#. Notification shown when no controllers are connected in the in-game dialog that lets users configure player assignment
+msgctxt "#35173"
+msgid "No controllers connected"
+msgstr ""
+
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -18897,7 +18912,12 @@ msgstr "Si de la musique est en cours de lecture, l'économiseur d'écran ne ser
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
-msgstr ""
+msgstr "Active l'upscaleur DXVA avancé utilisant NVIDIA \"RTX Video Super Resolution\" ou \"Intel Video Super Resolution\".[CR]Utilisé lorsque la source vidéo est de 1080p ou moins (progressif uniquement) et que la résolution de la source est inférieure à la résolution d'affichage.[CR]Uniquement disponible sur du matériel spécifique : NVIDIA RTX 40x, RTX 30x et Intel Arc A770, A750."
+
+#. Description of setting with label #13418 "Use high precision processing"
+msgctxt "#39195"
+msgid "Enable this option for the best picture quality. Disabling reduces the load on resource-limited systems."
+msgstr "Activer cette option pour une meilleure qualité d'image. La désactivation réduit la charge sur les systèmes à ressources limitées."
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"

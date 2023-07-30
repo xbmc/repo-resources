@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-06-01 03:35+0000\n"
+"PO-Revision-Date: 2023-07-16 04:04+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5825,6 +5825,11 @@ msgctxt "#13417"
 msgid "Allow use DXVA Video Super Resolution"
 msgstr "Consenti l'uso della super risoluzione video DXVA"
 
+#. Setting Player / Video
+msgctxt "#13418"
+msgid "Use high precision processing"
+msgstr "Usa elaborazione di alta precisione"
+
 msgctxt "#13419"
 msgid "Software"
 msgstr "Software"
@@ -7547,7 +7552,7 @@ msgstr "{0:d} giorni"
 #. Live TV channels 'play' context menu item label
 msgctxt "#19000"
 msgid "Switch to channel"
-msgstr "Cambia al canale"
+msgstr "Guarda il canale"
 
 msgctxt "#19001"
 msgid "Separate the search words by using AND, OR and / or NOT."
@@ -8346,7 +8351,7 @@ msgstr "Impossibile avviare la registrazione. Controlla il file di registro per 
 #. Label for "switch to channel" button""
 msgctxt "#19165"
 msgid "Switch"
-msgstr "Cambia"
+msgstr "Guarda"
 
 #. label for header of misc PVR GUI elements
 msgctxt "#19166"
@@ -14740,6 +14745,16 @@ msgctxt "#35171"
 msgid "Mouse"
 msgstr "Mouse"
 
+#. Name of window for configuring players while playing a game
+msgctxt "#35172"
+msgid "Players"
+msgstr ""
+
+#. Notification shown when no controllers are connected in the in-game dialog that lets users configure player assignment
+msgctxt "#35173"
+msgid "No controllers connected"
+msgstr ""
+
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -18898,6 +18913,11 @@ msgstr "Se viene riprodotta musica, il salvaschermo non verrà mai attivato"
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
 msgstr "Abilita l'upscaler DXVA avanzato utilizzando NVIDIA \"RTX Video Super Resolution\" o \"Intel Video Super Resolution\".[CR]Utilizzato quando la sorgente video è 1080p o inferiore (solo progressivo) e la risoluzione della sorgente è inferiore alla risoluzione dello schermo.[CR]È disponibile solo su hardware specifico: NVIDIA RTX 40x, RTX 30x e Intel Arc A770, A750."
+
+#. Description of setting with label #13418 "Use high precision processing"
+msgctxt "#39195"
+msgid "Enable this option for the best picture quality. Disabling reduces the load on resource-limited systems."
+msgstr "Abilita questa opzione per ottenere la migliore qualità dell'immagine. Disabilitarla riduce il carico sui sistemi limitati di risorse."
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"
