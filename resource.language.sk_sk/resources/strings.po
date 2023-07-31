@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-06-24 11:44+0000\n"
+"PO-Revision-Date: 2023-07-09 09:31+0000\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sk_sk/>\n"
 "Language: sk_sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5475,7 +5475,7 @@ msgstr "Redukcia čiernych okrajov"
 
 msgctxt "#13313"
 msgid "Restart"
-msgstr "Reštart"
+msgstr "Reštartovať"
 
 msgctxt "#13314"
 msgid "Crossfade between songs"
@@ -5824,6 +5824,11 @@ msgstr "Zistiť automaticky"
 msgctxt "#13417"
 msgid "Allow use DXVA Video Super Resolution"
 msgstr "Povoliť použitie super rozlíšenia videa DXVA"
+
+#. Setting Player / Video
+msgctxt "#13418"
+msgid "Use high precision processing"
+msgstr ""
 
 msgctxt "#13419"
 msgid "Software"
@@ -6379,7 +6384,7 @@ msgstr "{0:d}.0 dB"
 
 msgctxt "#14051"
 msgid "Time format"
-msgstr "Formát Času"
+msgstr "Formát času"
 
 msgctxt "#14052"
 msgid "Date format"
@@ -6588,7 +6593,7 @@ msgstr "Jednotka rýchlosti"
 
 msgctxt "#14107"
 msgid "Time format"
-msgstr "Formát Času"
+msgstr "Formát času"
 
 msgctxt "#14108"
 msgid "Use 12 / 24-hour format"
@@ -7077,22 +7082,22 @@ msgstr "Zobraziť obrázok"
 #. Label for an action associated with a favourite. Placeholder will be filled with the name of the window the favourite's content will be displayed in.
 msgctxt "#15220"
 msgid "Show content in \"{}\""
-msgstr ""
+msgstr "Zobraziť obsah v \"{}\""
 
 #. Label for an action associated with a favourite
 msgctxt "#15221"
 msgid "Execute script"
-msgstr ""
+msgstr "Spustiť skript"
 
 #. Label for an action associated with a favourite
 msgctxt "#15222"
 msgid "Execute Android app"
-msgstr ""
+msgstr "Spustiť Android aplikáciu"
 
 #. Label for an action associated with a favourite
 msgctxt "#15223"
 msgid "Execute add-on"
-msgstr ""
+msgstr "Spustiť doplnok"
 
 #. Label for an action associated with a favourite
 msgctxt "#15224"
@@ -7131,7 +7136,7 @@ msgstr "Umiestnenie:"
 #. Game settings category name
 msgctxt "#15312"
 msgid "Achievements"
-msgstr ""
+msgstr "Úspechy"
 
 #. Group label for Achievements category in game settings
 msgctxt "#15313"
@@ -10475,11 +10480,11 @@ msgstr "Zmeniť poskytovateľa informácií"
 
 msgctxt "#20196"
 msgid "Export music library"
-msgstr "Exportovať hudbonú knižnicu"
+msgstr "Exportovať hudobnú knižnicu"
 
 msgctxt "#20197"
 msgid "Import music library"
-msgstr "Importovať hudbonú knižnicu"
+msgstr "Importovať hudobnú knižnicu"
 
 msgctxt "#20198"
 msgid "No artist found!"
@@ -14745,6 +14750,16 @@ msgctxt "#35171"
 msgid "Mouse"
 msgstr "Myš"
 
+#. Name of window for configuring players while playing a game
+msgctxt "#35172"
+msgid "Players"
+msgstr ""
+
+#. Notification shown when no controllers are connected in the in-game dialog that lets users configure player assignment
+msgctxt "#35173"
+msgid "No controllers connected"
+msgstr ""
+
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -14758,7 +14773,7 @@ msgstr "Hra"
 # empty string with id 35202
 msgctxt "#35203"
 msgid "Enable rewind (if supported)"
-msgstr ""
+msgstr "Povoliť pretočenie nazad (ak je podporované)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14941,7 +14956,7 @@ msgstr "Upraviť zdroj hier"
 
 msgctxt "#35253"
 msgid "Enable autosave (if supported)"
-msgstr ""
+msgstr "Povoliť automatické ukladanie (ak je podporované)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -15016,13 +15031,13 @@ msgstr ""
 #. Settings -> Games -> Achievements -> Logged in
 msgctxt "#35268"
 msgid "Logged in"
-msgstr ""
+msgstr "Prihlásený"
 
 #. Help text for the setting that shows if the user is logged in to RetroAchievements
 #. Settings -> Games -> Achievements -> Logged in
 msgctxt "#35269"
 msgid "Toggle this setting to log in or out of RetroAchievements."
-msgstr ""
+msgstr "Prepnite toto nastavenie pre prihlásenie/odhlásenie z účtu na RetroAchievements."
 
 #. Description for notification event regarding unsuccessful RetroAchievements login
 msgctxt "#35270"
@@ -17523,7 +17538,7 @@ msgstr ""
 #. Menuitem at "Settings -> System -> Add-ons"
 msgctxt "#36638"
 msgid "Remove all orphaned add-ons"
-msgstr ""
+msgstr "Odstrániť všetky opustené doplnky"
 
 #. Description of setting with label #36638 "Remove all orphaned dependencies"
 msgctxt "#36639"
@@ -17801,7 +17816,7 @@ msgstr ""
 #. Setting #37051 NFS Protocol Version"
 msgctxt "#37051"
 msgid "NFS Protocol Version"
-msgstr ""
+msgstr "Verzia protokolu NFS"
 
 #. Description of setting #37051 NFS Protocol Version"
 msgctxt "#37052"
@@ -18905,6 +18920,11 @@ msgstr ""
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
+msgstr ""
+
+#. Description of setting with label #13418 "Use high precision processing"
+msgctxt "#39195"
+msgid "Enable this option for the best picture quality. Disabling reduces the load on resource-limited systems."
 msgstr ""
 
 #~ msgctxt "#19221"

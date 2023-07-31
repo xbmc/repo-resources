@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-06-24 11:44+0000\n"
-"Last-Translator: Robert Bylin <robert.bylin@gmail.com>\n"
+"PO-Revision-Date: 2023-07-29 12:47+0000\n"
+"Last-Translator: Andreas Bolin <bolin.andreas@gmail.com>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sv_se/>\n"
 "Language: sv_se\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1397,7 +1397,7 @@ msgstr "Bildspel från undermappar"
 
 msgctxt "#362"
 msgid "Screensaver dim level"
-msgstr "Nedtoningsnivå"
+msgstr "Skärmsläckarens nedtoningsnivå"
 
 msgctxt "#363"
 msgid "Sort by: File"
@@ -2953,7 +2953,7 @@ msgstr "Sök guide efter"
 #. Help of 'Guide data title search' edit field in PVR timer settings dialog
 msgctxt "#805"
 msgid "Enter the search string to use to lookup matching events in the guide"
-msgstr "Ange söksträgen som ska användas för att leta upp matchande händelser i guiden"
+msgstr "Ange söksträngen som ska användas för att leta upp matchande händelser i guiden"
 
 #. Label of "Fulltext search" edit field in PVR timer settings dialog
 msgctxt "#806"
@@ -3025,7 +3025,7 @@ msgstr "Max inspelningar"
 #. Representation of a one-time timer which has been scheduled by a timer rule.
 msgctxt "#819"
 msgid "One time (Scheduled by timer rule)"
-msgstr "En gång (Schemalagd enligt tidtagarregeln)"
+msgstr "En gång (Schemalagd enligt tidregel)"
 
 #. Representation of a one-time timer.
 msgctxt "#820"
@@ -3040,12 +3040,12 @@ msgstr "En gång (guidebaserat)"
 #. Representation of a timer rule
 msgctxt "#822"
 msgid "Timer rule"
-msgstr "Tidtagarregel"
+msgstr "Tidregel"
 
 #. Representation of an epg-based timer rule.
 msgctxt "#823"
 msgid "Timer rule (guide-based)"
-msgstr "Tidtagarregel (guidebaserad)"
+msgstr "Tidregel (guidebaserad)"
 
 #. Complete prefixed representation of a reminder timer type.
 msgctxt "#824"
@@ -3070,7 +3070,7 @@ msgstr "Ta bort påminnelse"
 #. Text for notification that a timer rule has been deleted
 msgctxt "#828"
 msgid "Timer rule deleted"
-msgstr "Tidtagarregel borttagen"
+msgstr "Tidregel borttagen"
 
 #. Label for a context menu entry to view a read-only reminder timer
 msgctxt "#829"
@@ -3130,7 +3130,7 @@ msgstr "Direktsänd"
 #. Message in a dialog when a user wants to delete a timer that was scheduled by a timer rule
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
-msgstr "Vill du endast ta bort denna tidtagare eller även den tidtagarregel som har schemalagt den?"
+msgstr "Vill du endast ta bort denna tid eller den schemalagda tidregeln?"
 
 #. Label for No button in a dialog when a user wants to delete a timer that was scheduled by a timer rule
 msgctxt "#841"
@@ -3150,22 +3150,22 @@ msgstr "Aktivera"
 #. Label for a context menu entry to deactivate a currently active timer
 msgctxt "#844"
 msgid "Deactivate"
-msgstr "Deaktivera"
+msgstr "Avaktivera"
 
 #. Message in a dialog when a user wants to delete a timer rule
 msgctxt "#845"
 msgid "Are you sure you want to delete this timer rule and all timers it has scheduled?"
-msgstr "Är du säker på att du vill ta bort denna tidtagarregel och alla tidtagare den har schemalagt?"
+msgstr "Är du säker på att du vill ta bort denna tidregel och alla schemalagda tidregler?"
 
 #. Message in a dialog when a user wants to delete a timer
 msgctxt "#846"
 msgid "Are you sure you want to delete this timer?"
-msgstr "Är du säker på att du vill ta bort den här tidtagaren?"
+msgstr "Är du säker på att du vill ta bort den här tidregeln?"
 
 #. Heading for a dialog for confirming to stop an active recording
 msgctxt "#847"
 msgid "Confirm stop recording"
-msgstr "Bekräfta avsluta inspelning"
+msgstr "Bekräfta för att stoppa inspelningen"
 
 #. Message in a dialog when a user wants to stop an active recording
 msgctxt "#848"
@@ -3275,7 +3275,7 @@ msgstr "Ange sökväg eller bläddra efter mediaplatser."
 
 msgctxt "#1022"
 msgid "Enter a name for this media source."
-msgstr "Fyll i ett namn för denna mediakälla."
+msgstr "Ange ett namn för den här mediekällan."
 
 msgctxt "#1023"
 msgid "Browse for new share"
@@ -4989,7 +4989,7 @@ msgstr "- Fördröjning"
 
 msgctxt "#13004"
 msgid "- Minimum file duration"
-msgstr "- Minsta speltid"
+msgstr "- Minsta fil-speltid"
 
 msgctxt "#13005"
 msgid "Shutdown"
@@ -5495,10 +5495,9 @@ msgctxt "#13317"
 msgid "View slideshow"
 msgstr "Visa bildspel"
 
-#, fuzzy
 msgctxt "#13318"
 msgid "Recursive slideshow"
-msgstr "Bildspel från undermappar"
+msgstr "Rekursivt bildspel"
 
 msgctxt "#13319"
 msgid "Randomise"
@@ -5827,6 +5826,11 @@ msgstr "Autodetektera"
 msgctxt "#13417"
 msgid "Allow use DXVA Video Super Resolution"
 msgstr "Tillåt användning av DXVA Super upplösning"
+
+#. Setting Player / Video
+msgctxt "#13418"
+msgid "Use high precision processing"
+msgstr "Använd bearbetning med hög precision"
 
 msgctxt "#13419"
 msgid "Software"
@@ -7020,7 +7024,7 @@ msgstr "Gränssnittsljud"
 
 msgctxt "#15109"
 msgid "Skin default"
-msgstr "Skalets standard"
+msgstr "Skalets standardvärde"
 
 msgctxt "#15110"
 msgid "Larger font size"
@@ -8184,11 +8188,11 @@ msgstr "Slutdatum"
 
 msgctxt "#19130"
 msgid "Minimum duration"
-msgstr "Minsta spellängd"
+msgstr "Minsta speltid"
 
 msgctxt "#19131"
 msgid "Maximum duration"
-msgstr "Största spellängd"
+msgstr "Största speltid"
 
 msgctxt "#19132"
 msgid "Include unknown genres"
@@ -11026,11 +11030,11 @@ msgstr "Trailer"
 
 msgctxt "#20411"
 msgid "Flatten"
-msgstr "Sammanfoga"
+msgstr "Platta ut"
 
 msgctxt "#20412"
 msgid "Flatten TV show seasons"
-msgstr "Sammanfoga tv-seriesäsonger"
+msgstr "Platta ut säsonger för tv-serier"
 
 msgctxt "#20413"
 msgid "Get fanart"
@@ -11218,7 +11222,7 @@ msgstr "Lyssnare"
 #. Label of a setting to use a simplified (flattened) hierarchy
 msgctxt "#20456"
 msgid "Flatten hierarchy"
-msgstr "Jämna ut mappstruktur"
+msgstr "Platta ut hierarkin"
 
 msgctxt "#20457"
 msgid "Movie set"
@@ -13083,7 +13087,7 @@ msgstr "120 sekunder"
 
 msgctxt "#24160"
 msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr ""
+msgstr "Ignorera första tryckning/svep/panorering av Siri-fjärrkontrollen efter en period av inaktivitet"
 
 msgctxt "#24161"
 msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
@@ -13095,7 +13099,7 @@ msgstr "Använd Kodi:s virtuella tangentbord"
 
 msgctxt "#24163"
 msgid "The higher the value, the more sensitive the pan gesture"
-msgstr ""
+msgstr "Ju högre värde, desto känsligare panorering"
 
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken add-on
@@ -14073,11 +14077,11 @@ msgstr "När du behöver fylla i lite text så dyker Kodi's virtuella tangentbor
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
+msgstr "Horisontell panoreringskänslighet med Siri fjärrkontroll"
 
 msgctxt "#34010"
 msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
+msgstr "Vertikal panoreringskänslighet med Siri fjärrkontroll"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14743,6 +14747,16 @@ msgctxt "#35171"
 msgid "Mouse"
 msgstr "Mus"
 
+#. Name of window for configuring players while playing a game
+msgctxt "#35172"
+msgid "Players"
+msgstr ""
+
+#. Notification shown when no controllers are connected in the in-game dialog that lets users configure player assignment
+msgctxt "#35173"
+msgid "No controllers connected"
+msgstr ""
+
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
 msgctxt "#35200"
 msgid "ALL YOUR BASE ARE BELONG[CR]TO US"
@@ -15221,7 +15235,7 @@ msgstr "* Objektmapp"
 
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
-msgstr "Använd begränsad färgrymd (16-235)"
+msgstr "Använd begränsad färgomfång (16-235)"
 
 msgctxt "#36043"
 msgid "Number of buffers used by graphics driver"
@@ -15288,15 +15302,15 @@ msgstr ""
 #. Label of setting "System / Display / Use 10 bit for SDR"
 msgctxt "#36098"
 msgid "Use 10 bit for SDR"
-msgstr "Använd 10 bit för SDR"
+msgstr "Använd 10 bitar för SDR"
 
 msgctxt "#36099"
 msgid "Dithering"
-msgstr "Gitter"
+msgstr "Färgkompensation"
 
 msgctxt "#36100"
 msgid "Dither depth"
-msgstr "Gitterdjup"
+msgstr "Djup för färgkompensation"
 
 #. Description of settings section "Appearance"
 msgctxt "#36101"
@@ -16516,7 +16530,7 @@ msgstr ""
 #. Description of setting with label #36042 "Use limited colour range (16-235)"
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
-msgstr "Använd begränsad färgrymd (16-235) istället för fullfärgsintervall (0-255). Begränsad färgrymd bör användas om din bildskärm är en vanlig HDMI-tv och inte har ett PC-läge eller annat läge för att återge full färgrymd. Lämna denna avaktiverad om din bildskärm är en PC-bildskärm för att erhålla korrekt svärta."
+msgstr "Använd begränsad färgomfång (16-235) istället för fullt färgomfång (0-255). Begränsad färgomfång bör användas om din bildskärm är en vanlig HDMI-tv och inte har ett PC-läge eller annat läge för att återge fullt färgomfång. Lämna denna avaktiverad om din bildskärm är en PC-bildskärm för att erhålla korrekt svärta."
 
 #. Description of settings category with label #772 "Audio"
 msgctxt "#36360"
@@ -17333,7 +17347,7 @@ msgstr "{0:1.2f}"
 #. Description of setting with label #36099 "Dither"
 msgctxt "#36598"
 msgid "Eliminate banding caused by RGB level conversion or other processing by adding a small amount of noise to the picture. This can be disabled for slower systems, or when Kodi is set to limited range RGB output and no video processing is needed."
-msgstr "Eliminerar 'banding' orsakad av omvandling av RGB-nivåer eller annan typ av bearbetning, genom att tillsätta en liten mängd brus i bilden. Detta kan inaktiveras för långsammare system, eller när Kodi är inställd på begränsad RGB-färgrymd på utgången och ingen videobearbetning behövs."
+msgstr "(Eng. Dithering) eliminerar uppkomsten av band (eng. banding) på skärmen orsakad av omvandling av RGB-nivåer eller annan typ av bearbetning, genom att tillsätta en liten mängd brus i bilden. Detta kan inaktiveras för långsamma system, eller när Kodi är inställd på begränsad RGB-färgomfång på utgången och ingen videobearbetning är nödvändig."
 
 #. Description of setting with label #36100 "Dither depth"
 msgctxt "#36599"
@@ -18900,6 +18914,11 @@ msgstr ""
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
+msgstr ""
+
+#. Description of setting with label #13418 "Use high precision processing"
+msgctxt "#39195"
+msgid "Enable this option for the best picture quality. Disabling reduces the load on resource-limited systems."
 msgstr ""
 
 #~ msgctxt "#19221"

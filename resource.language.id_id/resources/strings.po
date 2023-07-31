@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-06-07 13:02+0000\n"
+"PO-Revision-Date: 2023-07-29 12:47+0000\n"
 "Last-Translator: Nao3Line Prez <n.yazawa6932@gmail.com>\n"
 "Language-Team: Indonesian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/id_id/>\n"
 "Language: id_id\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5844,6 +5844,11 @@ msgctxt "#13417"
 msgid "Allow use DXVA Video Super Resolution"
 msgstr "Izinkan penggunaan DXVA Video Super Resolution"
 
+#. Setting Player / Video
+msgctxt "#13418"
+msgid "Use high precision processing"
+msgstr "Gunakan pemrosesan presisi tinggi"
+
 msgctxt "#13419"
 msgid "Software"
 msgstr "Perangkat Luna"
@@ -7267,7 +7272,7 @@ msgstr "Masukkan Nama Artis"
 
 msgctxt "#16026"
 msgid "Playback failed"
-msgstr "Memainkan Daftar Main dibatalkan"
+msgstr "Gagal diputar"
 
 msgctxt "#16027"
 msgid "One or more items failed to play. Check the log for more information about this message."
@@ -11451,7 +11456,7 @@ msgstr "Perbolehkan dukungan mouse dan layar sentuh"
 
 msgctxt "#21370"
 msgid "Play GUI sounds during media playback"
-msgstr "Mainkan suara GUI saat media playback"
+msgstr "Mainkan suara GUI saat putar media"
 
 #. Name of an artwork type
 msgctxt "#21371"
@@ -11789,7 +11794,7 @@ msgstr "Sumber terlalu lambat"
 
 msgctxt "#21455"
 msgid "Read rate too low for continuous playback"
-msgstr "Kecepatan baca terlalu rendah untuk pemutaran terus menerus"
+msgstr "Kecepatan baca terlalu rendah untuk pemutaran berkelanjutan"
 
 msgctxt "#21456"
 msgid "External storage"
@@ -12310,7 +12315,7 @@ msgstr "Data Profil"
 
 msgctxt "#22014"
 msgid "Use dim if paused during video playback"
-msgstr "Redupkan jika jeda ketika memutar video"
+msgstr "Gunakan redup jika dijeda selama pemutaran video"
 
 msgctxt "#22015"
 msgid "All recordings"
@@ -12418,7 +12423,7 @@ msgstr "Klik OK untuk mematikan pemutar"
 
 msgctxt "#23104"
 msgid "Click \"OK\" when playback has ended"
-msgstr "Klik OK ketika playback sudah berakhir"
+msgstr "Klik \"OKE\" saat pemutaran telah berakhir"
 
 msgctxt "#24000"
 msgid "Add-on"
@@ -13275,7 +13280,7 @@ msgstr "Judul: {0:d}"
 
 msgctxt "#25006"
 msgid "Select playback item"
-msgstr "Pilih item yang dimainkan"
+msgstr "Pilih item pemutaran"
 
 msgctxt "#25007"
 msgid "Chapters: {0:d} - duration: {1:s}"
@@ -14175,7 +14180,7 @@ msgstr "7.1"
 #. Description of setting with label #421 "Keep audio device alive"
 msgctxt "#34111"
 msgid "Select the behaviour when no sound is required for either playback or GUI sounds.[CR][Always] Continuous inaudible signal is output, this keeps the receiving audio device alive for any new sounds, however this might also block sound from other applications.[CR][1-10 Minutes] Same as [Always] except that after the selected period of time audio enters a suspended state.[CR][Off] Audio output enters a suspended state. Note: Sounds can be missed if audio enters suspended state."
-msgstr "Pilih perilaku saat tidak ada suara yang diperlukan untuk pemutaran atau suara GUI.[CR][Selalu] Sinyal tak terdengar terus-menerus dikeluarkan, ini membuat perangkat audio penerima tetap hidup untuk setiap suara baru, namun ini mungkin juga memblokir suara dari aplikasi lain.[ CR][1-10 Menit] Sama seperti [Selalu] kecuali bahwa setelah periode waktu yang dipilih, audio memasuki status ditangguhkan.[CR][Mati] Output audio memasuki status ditangguhkan. Catatan: Suara dapat terlewatkan jika audio memasuki status ditangguhkan."
+msgstr "Pilih tindakan saat tidak ada suara yang diperlukan untuk pemutaran atau suara GUI.[CR][Selalu] Keluaran sinyal tak terdengar terus-menerus, ini membuat perangkat audio penerima tetap hidup untuk suara baru apa pun, namun ini juga dapat memblokir suara dari aplikasi lain.[CR][1-10 Menit] [Selalu] sama kecuali bahwa setelah periode waktu yang dipilih, audio memasuki keadaan ditangguhkan.[CR][Mati] Keluaran audio memasuki keadaan ditangguhkan. Catatan: Suara dapat terlewatkan jika audio memasuki status ditangguhkan."
 
 #. Indicates if Audio Engine should transmit noise or real silence
 msgctxt "#34112"
@@ -14194,7 +14199,7 @@ msgstr "Mainkan suara GUI"
 #. play GUI sounds
 msgctxt "#34121"
 msgid "Only when playback stopped"
-msgstr "Hanya ketika playback berhenti"
+msgstr "Hanya saat pemutaran dihentikan"
 
 #. play GUI sounds
 msgctxt "#34122"
@@ -14790,6 +14795,16 @@ msgstr "Tekan tombol ({1:d})"
 msgctxt "#35171"
 msgid "Mouse"
 msgstr "Mouse"
+
+#. Name of window for configuring players while playing a game
+msgctxt "#35172"
+msgid "Players"
+msgstr ""
+
+#. Notification shown when no controllers are connected in the in-game dialog that lets users configure player assignment
+msgctxt "#35173"
+msgid "No controllers connected"
+msgstr ""
 
 # empty strings from id 35172 to 35199
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
@@ -15499,7 +15514,7 @@ msgstr "Atur waktu tunggu untuk setiap aktifitas sebelum screensaver ditampilkan
 #. Description of setting with label #356 "Screensaver mode"
 msgctxt "#36130"
 msgid "Select the screensaver. The \"Dim\" screensaver will be forced when fullscreen video playback is paused or a dialogue box is active."
-msgstr "Pilih screen saver. Screensaver \"Redup\" akan dipaksakan saat pemutaran video layar penuh dihentikan sementara atau kotak dialog aktif."
+msgstr "Pilih screensaver. Screensaver \"Redup\" akan dipaksa saat pemutaran video layar penuh dijeda atau kotak dialog aktif."
 
 #. #. Description of setting with label #21417 "Settings"
 msgctxt "#36131"
@@ -18977,6 +18992,11 @@ msgstr "Jika musik diputar, screensaver tidak akan pernah diaktifkan"
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
 msgstr "Mengaktifkan penskalaan DXVA tingkat lanjut menggunakan NVIDIA \"RTX Video Super Resolution\" atau \"Intel Video Super Resolution\".[CR]Digunakan saat sumber video 1080p atau kurang (progresif saja) dan resolusi sumber lebih rendah dari resolusi layar.[CR]Ini hanya tersedia pada perangkat keras tertentu: NVIDIA RTX 40x, RTX 30x dan Intel Arc A770, A750."
+
+#. Description of setting with label #13418 "Use high precision processing"
+msgctxt "#39195"
+msgid "Enable this option for the best picture quality. Disabling reduces the load on resource-limited systems."
+msgstr "Aktifkan opsi ini untuk kualitas gambar terbaik. Menonaktifkan mengurangi beban pada sistem terbatas sumber daya."
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"
