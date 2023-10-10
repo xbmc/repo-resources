@@ -5589,6 +5589,7 @@ msgctxt "#13346"
 msgid "Movie information"
 msgstr "Информация за филма"
 
+#. Label for 'queue item' (adds an item to a playlist), used at several places
 msgctxt "#13347"
 msgid "Queue item"
 msgstr "Сложи на опашката"
@@ -10676,6 +10677,7 @@ msgctxt "#20323"
 msgid "Movie plot"
 msgstr "Сюжет на филм"
 
+#. Label for context menu entry to start playback of a part of a video stack
 msgctxt "#20324"
 msgid "Play part..."
 msgstr "Възпроизвеждане на част…"
@@ -12331,6 +12333,22 @@ msgctxt "#22033"
 msgid "Charset"
 msgstr "Набор от знаци"
 
+# empty strings from id 22034 to 22075
+#. Label for setting to choose the default action for "play"
+msgctxt "#22076"
+msgid "Default play action"
+msgstr ""
+
+#. Label for value for default play action setting
+msgctxt "#22077"
+msgid "Ask if resumable"
+msgstr ""
+
+#. Label for value for default play action setting
+msgctxt "#22078"
+msgid "Resume"
+msgstr ""
+
 msgctxt "#22079"
 msgid "Default select action"
 msgstr "Стандартно действие при избор на медиен файл"
@@ -12339,10 +12357,13 @@ msgctxt "#22080"
 msgid "Choose"
 msgstr "Запитване"
 
+#. Label for video select action 'show info'
 msgctxt "#22081"
 msgid "Show information"
 msgstr "Информация"
 
+#. Label to denote that there is something 'more'
+#. xbmc/favourites/ContextMenus.h
 msgctxt "#22082"
 msgid "More..."
 msgstr "Още…"
@@ -12359,6 +12380,7 @@ msgctxt "#23050"
 msgid "Activate teletext"
 msgstr "Активирай телетекста"
 
+#. Label for disc stack part and number
 msgctxt "#23051"
 msgid "Part {0:d}"
 msgstr "Част {0:d}"
@@ -15685,8 +15707,8 @@ msgstr "Категорията съдържа настройки свързан�
 
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
-msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
-msgstr "[Запитване] Извежда меню с наличните опции, напр. отваряне на директорията във файлов режим.[CR][Продължи] Започва възпроизвеждането от последната точка до която сте гледали, дори след рестартиране.[CR][Информация] Показва информация за избрания елемент."
+msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
+msgstr ""
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -15809,6 +15831,11 @@ msgstr "Категорията съдържа общи настройки за �
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Включва функционалностите за ПВР. Това изисква наличието на поне една инсталирана добавка за ПВР."
+
+#. Description of setting with label #22076 "Default play action"
+msgctxt "#36204"
+msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
+msgstr ""
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -17666,6 +17693,7 @@ msgctxt "#37014"
 msgid "Last used profile"
 msgstr "Последния ползван профил"
 
+#. Label used in different places to denote the function to open a folder to list its content
 msgctxt "#37015"
 msgid "Browse into"
 msgstr "Преглед вътре"
@@ -18929,6 +18957,10 @@ msgstr ""
 msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr ""
+
+#~ msgctxt "#36177"
+#~ msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
+#~ msgstr "[Запитване] Извежда меню с наличните опции, напр. отваряне на директорията във файлов режим.[CR][Продължи] Започва възпроизвеждането от последната точка до която сте гледали, дори след рестартиране.[CR][Информация] Показва информация за избрания елемент."
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"

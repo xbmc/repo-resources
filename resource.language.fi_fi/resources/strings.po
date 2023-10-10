@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-09-26 12:07+0000\n"
+"PO-Revision-Date: 2023-10-10 08:18+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -889,7 +889,7 @@ msgstr "Suurennus"
 
 msgctxt "#239"
 msgid "Clear playlist on finish"
-msgstr "Tyhjennä toistolista toiston päätyttyä"
+msgstr "Tyhjennä toistolista kun se on toistettu"
 
 msgctxt "#240"
 msgid "Display mode"
@@ -4130,7 +4130,7 @@ msgstr "Videot"
 
 msgctxt "#10028"
 msgid "Videos / Playlist"
-msgstr "Videot/toistolista"
+msgstr "Videot / Toistolista"
 
 msgctxt "#10029"
 msgid "Login screen"
@@ -4364,11 +4364,11 @@ msgstr "Kappaleen tiedot"
 
 msgctxt "#10136"
 msgid "Smart playlist editor"
-msgstr "Älytoistolistaeditori"
+msgstr "Älytoistolistojen editori"
 
 msgctxt "#10137"
 msgid "Smart playlist rule editor"
-msgstr "Älytoistolistan sääntöeditori"
+msgstr "Älytoistolistojen sääntöeditori"
 
 msgctxt "#10139"
 msgid "Picture info"
@@ -5589,9 +5589,10 @@ msgctxt "#13346"
 msgid "Movie information"
 msgstr "Elokuvan tiedot"
 
+#. Label for 'queue item' (adds an item to a playlist), used at several places
 msgctxt "#13347"
 msgid "Queue item"
-msgstr "Lisää toistojonoon"
+msgstr "Lisää kohde jonoon"
 
 msgctxt "#13348"
 msgid "Search IMDb..."
@@ -6500,7 +6501,7 @@ msgstr "Käytä koko näytön ikkunaa"
 
 msgctxt "#14084"
 msgid "Queue songs on selection"
-msgstr "Lisää valitut kappaleet toistojonoon"
+msgstr "Lisää valitut kappaleet jonoon"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -7285,7 +7286,7 @@ msgstr "Tietokannasta ei voitu noutaa kappaleita."
 
 msgctxt "#16035"
 msgid "Party mode playlist"
-msgstr "Jukeboksin toistolista"
+msgstr "Jukeboksi-toistolista"
 
 msgctxt "#16036"
 msgid "Deinterlace (half)"
@@ -10676,6 +10677,7 @@ msgctxt "#20323"
 msgid "Movie plot"
 msgstr "Elokuvan juoni"
 
+#. Label for context menu entry to start playback of a part of a video stack
 msgctxt "#20324"
 msgid "Play part..."
 msgstr "Toista osa..."
@@ -11467,7 +11469,7 @@ msgstr "Käytä 1080i-tarkkuutta"
 
 msgctxt "#21381"
 msgid "Enter name of new playlist"
-msgstr "Syötä uuden toistolistan nimi"
+msgstr "Syötä toistolistalle nimi"
 
 msgctxt "#21382"
 msgid "Show \"Add source\" buttons"
@@ -12331,6 +12333,22 @@ msgctxt "#22033"
 msgid "Charset"
 msgstr "Merkistö"
 
+# empty strings from id 22034 to 22075
+#. Label for setting to choose the default action for "play"
+msgctxt "#22076"
+msgid "Default play action"
+msgstr "Toiston oletustoiminto"
+
+#. Label for value for default play action setting
+msgctxt "#22077"
+msgid "Ask if resumable"
+msgstr "Kysy, jos jatkettavissa"
+
+#. Label for value for default play action setting
+msgctxt "#22078"
+msgid "Resume"
+msgstr "Jatka"
+
 msgctxt "#22079"
 msgid "Default select action"
 msgstr "Valinnan oletustoiminto"
@@ -12339,10 +12357,13 @@ msgctxt "#22080"
 msgid "Choose"
 msgstr "Valitse"
 
+#. Label for video select action 'show info'
 msgctxt "#22081"
 msgid "Show information"
 msgstr "Näytä tiedot"
 
+#. Label to denote that there is something 'more'
+#. xbmc/favourites/ContextMenus.h
 msgctxt "#22082"
 msgid "More..."
 msgstr "Lisää..."
@@ -12359,6 +12380,7 @@ msgctxt "#23050"
 msgid "Activate teletext"
 msgstr "Aktivoi teksti-TV"
 
+#. Label for disc stack part and number
 msgctxt "#23051"
 msgid "Part {0:d}"
 msgstr "Osa {0:d}"
@@ -14254,7 +14276,7 @@ msgstr "Videon renderöinti"
 
 msgctxt "#34401"
 msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
-msgstr "Videosuodatinten/-skaalainten käynnistys epäonnistui. Varmistetaan bilineaarisella skaalauksella."
+msgstr "Videosuodattimien/-skaalaimien alustus epäonnistui. Varmistetaan bilineaarisella skaalauksella."
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
@@ -15685,8 +15707,8 @@ msgstr "Tämä kategoria sisältää videotiedostojen listausasetuksia."
 
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
-msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
-msgstr "[Valitse] Valitsee kohteen, esim. avaa kansion tiedostonäkymässä.[CR][Jatka] Jatkaa videon toistoa edellisestä katselukohdasta, jopa järjestelmän uudelleenkäynnistyksen jälkeen.[CR][Näytä tiedot] Näyttää kohteen mediatiedot."
+msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
+msgstr "Vaihda toimintojen [Valitse], [Toista] (oletus), [Jatka], [Näytä tiedot] ja [Lisää kohde jonoon] välillä.[CR][Valitse] avaa sisältövalikon, josta voit valita kulloinkin haluamasi vaihtoehdon.[CR][Toista] toistaa videon automaattisesti alusta tai jos jatkopiste on olemassa, kysyy haluatko toistaa alusta vai jatkaa.[CR][Jatka] jatkaa toistoa automaattisesti edellisestä kohdasta. [CR][Näytä tiedot] avaa kohteen tiedot.[CR][Lisää kohde jonoon] lisää videon videotoistolistaan."
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -15810,6 +15832,11 @@ msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Kytkee PVR-ominaisuudet (Personal Video Recorder, eli televisiolähetykset ja tallennus) käyttöön. Tämä edellyttää ainakin yhden PVR-lisäosan asennusta."
 
+#. Description of setting with label #22076 "Default play action"
+msgctxt "#36204"
+msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
+msgstr "Vaihda toimintojen [Kysy, jos jatkettavissa] (oletus) ja [Jatka] välillä.[CR][Kysy, jos jatkettavissa] avaa sisältövalikon, josta voit valita toistetaanko alusta vai jatketaanko kesken jäänyttä toistoa.[CR][Jatka] jatkaa toistoa automaattisesti edellisestä kohdasta. [CR]Jos jatkopistettä ei ole, toisto aloitetaan automaattisesti alusta."
+
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
 msgstr "Lajittele kanavat taustajärjestelmän kanavanumeroinnin perusteella, mutta käytä kanavien numeroina paikallisia numeroita."
@@ -15886,7 +15913,7 @@ msgstr "Keskeyttää ohjelmaoppaan tietojen noudon television katselun ajaksi pr
 #. Description of setting with label #13438 "Allow Hardware Accelleration with DRM PRIME"
 msgctxt "#36223"
 msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "Dekoodaa videotiedostot PRIME-laitteistokiihdytyksellä kun FFMpeg PRIME hwaccel on käytettävissä."
+msgstr "Dekoodaa videotiedostot PRIME-laitteistokiihdytyksellä kun \"FFMpeg PRIME hwaccel\" on käytettävissä."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -17666,6 +17693,7 @@ msgctxt "#37014"
 msgid "Last used profile"
 msgstr "Viimeksi käytetty profiili"
 
+#. Label used in different places to denote the function to open a folder to list its content
 msgctxt "#37015"
 msgid "Browse into"
 msgstr "Selaa kohteeseen"
@@ -18929,6 +18957,10 @@ msgstr "Dolby Vision -yhteensopivuustila"
 msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr "Muuntaa Dolby Vision -profiilin 7 profiiliin 8.1, jota useammat laitteet tukevat. Käytä, jos laitteesi tukee Dolby Visionia, mutta joidenkin videoiden toistossa on ongelmia."
+
+#~ msgctxt "#36177"
+#~ msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
+#~ msgstr "[Valitse] Valitsee kohteen, esim. avaa kansion tiedostonäkymässä.[CR][Jatka] Jatkaa videon toistoa edellisestä katselukohdasta, jopa järjestelmän uudelleenkäynnistyksen jälkeen.[CR][Näytä tiedot] Näyttää kohteen mediatiedot."
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"
