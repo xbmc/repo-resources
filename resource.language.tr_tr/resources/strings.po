@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-08-22 11:12+0000\n"
+"PO-Revision-Date: 2023-10-10 08:18+0000\n"
 "Last-Translator: queeup <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/tr_tr/>\n"
 "Language: tr_tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5589,6 +5589,7 @@ msgctxt "#13346"
 msgid "Movie information"
 msgstr "Film bilgisi"
 
+#. Label for 'queue item' (adds an item to a playlist), used at several places
 msgctxt "#13347"
 msgid "Queue item"
 msgstr "Sıraya al"
@@ -10676,6 +10677,7 @@ msgctxt "#20323"
 msgid "Movie plot"
 msgstr "Film özeti"
 
+#. Label for context menu entry to start playback of a part of a video stack
 msgctxt "#20324"
 msgid "Play part..."
 msgstr "Bölümü oynat..."
@@ -12331,6 +12333,22 @@ msgctxt "#22033"
 msgid "Charset"
 msgstr "Karakter kümesi"
 
+# empty strings from id 22034 to 22075
+#. Label for setting to choose the default action for "play"
+msgctxt "#22076"
+msgid "Default play action"
+msgstr "Varsayılan yürütme eylemi"
+
+#. Label for value for default play action setting
+msgctxt "#22077"
+msgid "Ask if resumable"
+msgstr "Sürdürülebilirse sor"
+
+#. Label for value for default play action setting
+msgctxt "#22078"
+msgid "Resume"
+msgstr "Sürdür"
+
 msgctxt "#22079"
 msgid "Default select action"
 msgstr "Varsayılan seçme eylemi"
@@ -12339,10 +12357,13 @@ msgctxt "#22080"
 msgid "Choose"
 msgstr "Seç"
 
+#. Label for video select action 'show info'
 msgctxt "#22081"
 msgid "Show information"
 msgstr "Bilgileri görüntüle"
 
+#. Label to denote that there is something 'more'
+#. xbmc/favourites/ContextMenus.h
 msgctxt "#22082"
 msgid "More..."
 msgstr "Daha fazla..."
@@ -12359,6 +12380,7 @@ msgctxt "#23050"
 msgid "Activate teletext"
 msgstr "Teleteksti etkinleştir"
 
+#. Label for disc stack part and number
 msgctxt "#23051"
 msgid "Part {0:d}"
 msgstr "Bölüm {0:d}"
@@ -15685,8 +15707,8 @@ msgstr "Bu kategori video dosyası listelerinin nasıl işleyeceği ile ilgili a
 
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
-msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
-msgstr "[Seç], [Oynat] (varsayılan), [Sürdür] ve [Bilgi göster] arasında geçiş yapın.[CR][Seç] Bir öge seçer, örneğin dosyalar modunda bir dizin açmak.[CR][Sürdür] Sistem yeniden başlatıldıktan sonra bile, görüntülediğiniz videoların son konumundan otomatik olarak sürdürür."
+msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
+msgstr "[Seç], [Oynat] (varsayılan), [Devam Et], [Bilgileri göster] ve [Sıraya al] arasında geçiş yapın.[CR][Seç] bir öğeyi seçmek için bir içerik menüsü açacaktır, ör. bilgileri gösterir.[CR][Oynat] videoları otomatik olarak baştan oynatır veya bir devam noktası mevcutsa baştan mı oynatılacağını yoksa devam mı ettirileceğini sorar.[CR][Devam Et] Videoları otomatik olarak en son bulunduğunuz konumdan devam ettirir.[CR][Bilgileri göster] videonun bilgi iletişim kutusunu açacaktır.[CR][Sıraya al] videoyu video oynatma listesine ekleyecektir."
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -15809,6 +15831,11 @@ msgstr "Bu kategori PVR ve Canlı TV için genel ayarları içerir."
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "\"Kişisel Video Kaydedici\" (PVR) özelliklerini etkinleştirir. En az bir PVR eklentisinin yüklü olması gerekir."
+
+#. Description of setting with label #22076 "Default play action"
+msgctxt "#36204"
+msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
+msgstr "[Sürdürülebilirse sor] (varsayılan) ve [Sürdür] arasında geçiş yapın.[CR][Sürdürülebilirse sor], baştan mı oynatılacağını yoksa devam mı ettirileceğini (bir devam noktası mevcutsa) soracaktır.[CR][Sürdür] Videoları otomatik olarak görüntülediğiniz son konumdan devam ettirir.[CR]Hiçbir devam noktası ayarlanmamışsa oynatma otomatik olarak baştan başlayacaktır."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -17666,6 +17693,7 @@ msgctxt "#37014"
 msgid "Last used profile"
 msgstr "Son kullanılan profil"
 
+#. Label used in different places to denote the function to open a folder to list its content
 msgctxt "#37015"
 msgid "Browse into"
 msgstr "Gözat"
@@ -18923,12 +18951,16 @@ msgstr "En iyi resim kalitesi için bu seçeneği etkinleştirin. Devre dışı 
 #. Title of Dolby Vision RPU conversion setting
 msgctxt "#39196"
 msgid "Dolby Vision compatibility mode"
-msgstr ""
+msgstr "Dolby Vision uyumluluk modu"
 
 #. Help text for setting "Convert Dolby Vision for compatibility" of label #39196
 msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
-msgstr ""
+msgstr "Etkinleştirilirse, Dolby Vision profil 7, cihazlar tarafından daha yaygın olarak desteklenen profil 8.1'e dönüştürülür. Cihazınız Dolby Vision'ı destekliyor ancak bazı videolarda sorun yaşıyorsa etkinleştirin."
+
+#~ msgctxt "#36177"
+#~ msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
+#~ msgstr "[Seç], [Oynat] (varsayılan), [Sürdür] ve [Bilgi göster] arasında geçiş yapın.[CR][Seç] Bir öge seçer, örneğin dosyalar modunda bir dizin açmak.[CR][Sürdür] Sistem yeniden başlatıldıktan sonra bile, görüntülediğiniz videoların son konumundan otomatik olarak sürdürür."
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"

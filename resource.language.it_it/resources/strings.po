@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-09-11 06:09+0000\n"
+"PO-Revision-Date: 2023-10-10 08:18+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5589,6 +5589,7 @@ msgctxt "#13346"
 msgid "Movie information"
 msgstr "Informazioni film"
 
+#. Label for 'queue item' (adds an item to a playlist), used at several places
 msgctxt "#13347"
 msgid "Queue item"
 msgstr "Accoda elemento"
@@ -10676,6 +10677,7 @@ msgctxt "#20323"
 msgid "Movie plot"
 msgstr "Trama film"
 
+#. Label for context menu entry to start playback of a part of a video stack
 msgctxt "#20324"
 msgid "Play part..."
 msgstr "Riproduci parte..."
@@ -12331,6 +12333,22 @@ msgctxt "#22033"
 msgid "Charset"
 msgstr "Set di caratteri"
 
+# empty strings from id 22034 to 22075
+#. Label for setting to choose the default action for "play"
+msgctxt "#22076"
+msgid "Default play action"
+msgstr "Azione di riproduzione predefinita"
+
+#. Label for value for default play action setting
+msgctxt "#22077"
+msgid "Ask if resumable"
+msgstr "Chiedi se è possibile riprendere"
+
+#. Label for value for default play action setting
+msgctxt "#22078"
+msgid "Resume"
+msgstr "Riprendi"
+
 msgctxt "#22079"
 msgid "Default select action"
 msgstr "Azione predefinita di selezione"
@@ -12339,10 +12357,13 @@ msgctxt "#22080"
 msgid "Choose"
 msgstr "Scegli"
 
+#. Label for video select action 'show info'
 msgctxt "#22081"
 msgid "Show information"
 msgstr "Mostra informazioni"
 
+#. Label to denote that there is something 'more'
+#. xbmc/favourites/ContextMenus.h
 msgctxt "#22082"
 msgid "More..."
 msgstr "Altro..."
@@ -12359,6 +12380,7 @@ msgctxt "#23050"
 msgid "Activate teletext"
 msgstr "Abilita televideo"
 
+#. Label for disc stack part and number
 msgctxt "#23051"
 msgid "Part {0:d}"
 msgstr "Parte {0:d}"
@@ -15685,8 +15707,8 @@ msgstr "Questa categoria contiene le impostazioni per la gestione degli elenchi 
 
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
-msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
-msgstr "Scambia tra [Scegli], [Riproduci] (predefinito), [Riprendi] e [Mostra informazioni].[CR][Scegli] Selezionerà un elemento, ad esempio apre una cartella nella modalità file.[CR][Riprendi] Ripristinerà automaticamente i video dall'ultima posizione in cui lo stavi guardando, anche dopo aver riavviato il sistema."
+msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
+msgstr "Alterna tra [Scegli], [Riproduci] (predefinito), [Riprendi], [Mostra informazioni] e [Accoda elemento].[CR][Scegli] aprirà un menu contestuale per selezionare un elemento, ad esempio mostrare informazioni.[CR][Riproduci] riprodurrà automaticamente i video dall'inizio o, se è presente un punto di ripresa, chiederà se ripartire dall'inizio o riprendere da dove eri rimasto.[CR][Riprendi] riprenderà automaticamente i video dalla posizione in cui li stavi guardando l'ultima volta.[CR][Mostra informazioni] aprirà il dialogo delle informazioni del video.[CR][Accoda elemento] aggiungerà il video all'elenco di riproduzione dei video."
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -15809,6 +15831,11 @@ msgstr "Questa categoria contiene le impostazioni generali per PVR e Live TV."
 msgctxt "#36203"
 msgid "Enables the \"Personal Video Recorder\" (PVR) features. This requires that at least one PVR add-on is installed."
 msgstr "Abilita le funzioni di \"Personal Video Recorder\" (PVR). Questo richiede che almeno un add-on PVR sia installato."
+
+#. Description of setting with label #22076 "Default play action"
+msgctxt "#36204"
+msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
+msgstr "Alterna tra [Chiedi se è possibile riprendere] (predefinito) e [Riprendi].[CR][Chiedi se è possibile riprendere] chiederà se riprodurre dall'inizio o riprendere (se è presente un punto di ripresa).[CR][Riprendi] lo farà automaticamente riprendendo i video dall'ultima posizione visualizzata.[CR]Se non è impostato alcun punto di ripresa, la riproduzione inizierà automaticamente dall'inizio."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -17666,6 +17693,7 @@ msgctxt "#37014"
 msgid "Last used profile"
 msgstr "Ultimo profilo usato"
 
+#. Label used in different places to denote the function to open a folder to list its content
 msgctxt "#37015"
 msgid "Browse into"
 msgstr "Sfoglia contenuto"
@@ -18929,6 +18957,10 @@ msgstr "Modalità compatibile Dolby Vision"
 msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr "Se abilitato, il profilo Dolby Vision 7 verrà convertito nel profilo 8.1, che è più comunemente supportato dai dispositivi. Abilita se il tuo dispositivo supporta Dolby Vision, ma presenta problemi con alcuni video."
+
+#~ msgctxt "#36177"
+#~ msgid "Toggle between [Choose], [Play] (default), [Resume] and [Show information].[CR][Choose] Will select an item, e.g. open a directory in files mode.[CR][Resume] Will automatically resume videos from the last position that you were viewing them, even after restarting the system."
+#~ msgstr "Scambia tra [Scegli], [Riproduci] (predefinito), [Riprendi] e [Mostra informazioni].[CR][Scegli] Selezionerà un elemento, ad esempio apre una cartella nella modalità file.[CR][Riprendi] Ripristinerà automaticamente i video dall'ultima posizione in cui lo stavi guardando, anche dopo aver riavviato il sistema."
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"
