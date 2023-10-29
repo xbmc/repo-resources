@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-10-05 00:11+0000\n"
+"PO-Revision-Date: 2023-10-19 15:11+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-nexus/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -1292,7 +1292,7 @@ msgstr "Aloita"
 
 msgctxt "#336"
 msgid "Framerate conversion"
-msgstr "Kuvataajuuden muunto"
+msgstr "Kuvanopeuden muunto"
 
 msgctxt "#337"
 msgid "Output configuration"
@@ -1320,7 +1320,7 @@ msgstr "Elokuvat"
 
 msgctxt "#343"
 msgid "Adjust framerate"
-msgstr "Vaihda kuvataajuutta"
+msgstr "Säädä kuvanopeutta"
 
 msgctxt "#344"
 msgid "Actors"
@@ -4178,7 +4178,7 @@ msgstr "Lisäosien hallinta"
 
 msgctxt "#10041"
 msgid "Reset above settings to default"
-msgstr "Palauta yllä olevien asetusten oletusarvot"
+msgstr "Palauta yllä olevien asetusten oletukset"
 
 msgctxt "#10042"
 msgid "Are you sure you want to reset the settings in this category?"
@@ -4524,7 +4524,7 @@ msgstr "PVR-ryhmähallinta"
 
 msgctxt "#10604"
 msgid "PVR channel manager"
-msgstr "PVR-kanavahallinta"
+msgstr "Tallentimen kanavien hallinta"
 
 msgctxt "#10605"
 msgid "PVR guide search"
@@ -8076,7 +8076,7 @@ msgstr "klo"
 #. label for PVR settings "tv fallback framerate" (in Hz) selector
 msgctxt "#19108"
 msgid "Fallback framerate"
-msgstr "Varmistuskuvataajuus"
+msgstr "Varmistava kuvanopeus"
 
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
@@ -8121,7 +8121,7 @@ msgstr "Tallennusmedian koko"
 #. label for PVR settings channels search action control
 msgctxt "#19117"
 msgid "Search for channels"
-msgstr "Etsi kanavia"
+msgstr "Suorita kanavahaku"
 
 #. unused?
 msgctxt "#19118"
@@ -8356,7 +8356,7 @@ msgstr "PVR-tiedot"
 #. pvr settings "scan for missing channel icons" action button label
 msgctxt "#19167"
 msgid "Scan for missing icons"
-msgstr "Etsi puuttuvia logoja"
+msgstr "Etsi puuttuvia kuvakkeita"
 
 #. label for PVR number of deleted recordings in system information's PVR section
 msgctxt "#19168"
@@ -8411,7 +8411,7 @@ msgstr "Toisto"
 #. pvr setting "show channel info while switching channels" value
 msgctxt "#19178"
 msgid "Show channel information when switching channels"
-msgstr "Näytä kanavatiedot kanavan vaihdetuessa"
+msgstr "Näytä kanavan tiedot kanavan vaihtuessa"
 
 #. header used in pvr recordings window
 msgctxt "#19179"
@@ -8517,7 +8517,7 @@ msgstr "{0:s} lopetti tallennuksen"
 #. pvr settings "channel manager" action button label
 msgctxt "#19199"
 msgid "Channel manager"
-msgstr "Kanavahallinta"
+msgstr "Kanavien hallinta"
 
 msgctxt "#19200"
 msgid "Guide source:"
@@ -8671,7 +8671,7 @@ msgstr "Estä päivitykset toiston aikana"
 #. label for PVR settings use backend channel order control
 msgctxt "#19231"
 msgid "Use channel order from backend(s)"
-msgstr "Käytä taustajärjestelmän kanavajärjestystä"
+msgstr "Käytä kanaville taustajärjestelmien järjestystä"
 
 #. label for pvr epg search window 'clear search results' context menu item
 msgctxt "#19232"
@@ -9080,12 +9080,12 @@ msgstr "PVR-muistutus"
 #. pvr settings "reminder auto close delay" setting label
 msgctxt "#19313"
 msgid "Automatically close reminder popup after"
-msgstr "Sulje muistutus automaattisesti, kun on kulunut"
+msgstr "Muistutusponnahduksen automaattisen sulun viive"
 
 #. pvr settings "schedule recording on reminder auto-close" setting label
 msgctxt "#19314"
 msgid "Schedule recording when auto-closing the reminder popup"
-msgstr "Ajoita tallennus muistutuksen automaattisulun yhteydessä"
+msgstr "Ajoita tallennus muistutuksen sulkeutuessa automaattisesti"
 
 #. generic 'backend order' label
 msgctxt "#19315"
@@ -9165,7 +9165,7 @@ msgstr "Salli taustajärjestelmien kanavanumeroinnit, kun käytetään useita PV
 #. pvr settings "switch to channel on reminder auto-close" setting label
 msgctxt "#19330"
 msgid "Switch to channel when auto-closing the reminder popup"
-msgstr "Vaihda kanavaa muistutuksen automaattisulun yhteydessä"
+msgstr "Vaihda kanava muistutuksen sulkeutuessa automaattisesti"
 
 #. additional text for reminder announcement dialog, used if a recording can be scheduled
 msgctxt "#19331"
@@ -9175,12 +9175,12 @@ msgstr "(muistutuksen automaattisulku vaihtaa kanavaa...)"
 #. text for event log entry for logging auto channel switch for auto-closed reminders
 msgctxt "#19332"
 msgid "Switched to channel for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr "Kanavavaihto automaattisesti suljetusta PVR-muistutuksesta kanavan \"{1:s}\" ohjelmaan \"{0:s}\" ({2:s})"
+msgstr "Kanavaksi vaihdettiin \"{1:s}\" klo {2:s} alkavan ohjelman \"{0:s}\" automaattisesti suljetun tallennusmuistutuksen perusteella"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 msgctxt "#19333"
 msgid "Switched to channel for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr "Kanavavaihto automaattisesti suljetusta PVR-muistutuksesta kanavalle \"{1:s}\" ({2:s})"
+msgstr "Kanavaksi vaihdettiin \"{1:s}\" klo {2:s} alkavan tallennuksen automaattisesti suljetun muistutuksen perusteella"
 
 #. label for PVR backend number of channel providers in system information's PVR section
 msgctxt "#19334"
@@ -11835,7 +11835,7 @@ msgstr "Ensimmäisellä avauskerralla"
 
 msgctxt "#21472"
 msgid "Include \"All seasons\" and \"Specials\""
-msgstr "Sisällytä \"Kaikki kaudet\" ja \"Erikoisjaksot\""
+msgstr "\"Kaikki kaudet\" ja \"Erikoisjaksot\" -osioiden sisällytys"
 
 #. Description of setting with label #21472 "Include All Seasons and Specials"
 msgctxt "#21473"
@@ -14249,7 +14249,7 @@ msgstr "Videon renderöinti"
 
 msgctxt "#34401"
 msgid "Failed to initialize video filters / scalers, falling back to bilinear scaling"
-msgstr "Videosuodatinten/-skaalainten käynnistys epäonnistui. Varmistetaan bilineaarisella skaalauksella."
+msgstr "Videosuodattimien/-skaalaimien alustus epäonnistui. Varmistetaan bilineaarisella skaalauksella."
 
 msgctxt "#34402"
 msgid "Failed to initialise audio device"
@@ -14754,7 +14754,7 @@ msgstr "Pelattavuus"
 # empty string with id 35202
 msgctxt "#35203"
 msgid "Enable rewind (if supported)"
-msgstr "Käytä takaisinsiirtymistä (jos tuettu)"
+msgstr "Käytä taaksepäin siirtymistä (jos tuettu)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -14762,7 +14762,7 @@ msgstr "Käytä reaaliaikaista taaksepäin siirtymistä pelin aikana, jos peli t
 
 msgctxt "#35205"
 msgid "Maximum rewind time"
-msgstr "Suurin sallittu siirtymä taaksepäin"
+msgstr "Taaksepäin siirtymisen enimmäisaika"
 
 msgctxt "#35206"
 msgid "Maximum time possible to rewind, if supported. Large rewind histories can use a lot of RAM."
@@ -15605,7 +15605,7 @@ msgstr "Näytä videokirjastossa myös sarjat, joille ei ole jaksoja."
 #. Description of setting with label #170 "Adjust display refresh rate"
 msgctxt "#36164"
 msgid "Allow the refresh rate of the display to be changed so that it best matches the video frame rate. This may yield smoother video playback."
-msgstr "Mahdollista näytön virkistystaajuuden vaihto videon kuvataajuutta parhaiten vastaavaksi. Tämä saattaa pehmentää videotoistoa."
+msgstr "Mahdollista näytön virkistystaajuuden vaihto videon kuvanopeutta parhaiten vastaavaksi. Tämä saattaa pehmentää videotoistoa."
 
 #. Description of setting with label #13550 "Delay after change of refresh rate"
 msgctxt "#36165"
@@ -15808,7 +15808,7 @@ msgstr "Käytä taustajärjestelmän kanavanumerointia."
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
-msgstr "Avaa kanavahallinta, joka mahdollistaa mm. kanavajärjestyksen sekä kanavien nimien ja kuvakkeiden muokkauksen."
+msgstr "Avaa kanavien hallinta, joka mahdollistaa mm. kanavajärjestyksen sekä kanavien nimien ja kuvakkeiden muokkauksen."
 
 msgctxt "#36208"
 msgid "Instruct the backend to search for channels (if supported)."
@@ -15874,7 +15874,7 @@ msgstr "Keskeyttää ohjelmaoppaan tietojen noudon television katselun ajaksi pr
 #. Description of setting with label #13438 "Allow Hardware Accelleration with DRM PRIME"
 msgctxt "#36223"
 msgid "Enable PRIME hardware decoding of video files, used if ffmpeg PRIME hwaccel is available."
-msgstr "Dekoodaa videotiedostot PRIME-laitteistokiihdytyksellä kun FFMpeg PRIME hwaccel on käytettävissä."
+msgstr "Dekoodaa videotiedostot PRIME-laitteistokiihdytyksellä kun \"FFMpeg PRIME hwaccel\" on käytettävissä."
 
 msgctxt "#36224"
 msgid "Hide \"No information available\" labels when no guide data is available for a channel."
@@ -16217,7 +16217,7 @@ msgstr "Määritä sekuntimäärä, jonka kuluttua PVR-muistutus suljetaan autom
 
 msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
-msgstr "Kun käytössä, ajoitetaan ohjelman ajoitetun muistutuksen automaattisulun yhteydessä sen tallennus, jos PVR-lisäosa ja -taustajärjestelmä sen mahdollistavat."
+msgstr "Automaattisesti suljetun ohjelmamuistutuksen tallennus ajoitetaan automaattisesti, jos PVR-lisäosa ja -taustajärjestelmä sen mahdollistavat."
 
 #. Description of setting with label #13436 "Use display HDR capabilities"
 msgctxt "#36299"
@@ -16879,7 +16879,7 @@ msgstr "Kun käytössä, suositaan VAAPI-kiihdytystä, joka pienentää prosesso
 
 msgctxt "#36434"
 msgid "If enabled, switch to the channel with the programme to remind when auto-closing the reminder popup."
-msgstr "Kun käytössä, vaihdetaan ohjelman kanavalle sen ajoitetun muistutuksen automaattisulun yhteydessä."
+msgstr "Televisio vaihdetaan automaattisesti suljetun muistutuksen ohjelman kanavalle automaattisesti."
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
