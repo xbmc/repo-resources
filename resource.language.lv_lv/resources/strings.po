@@ -4612,25 +4612,66 @@ msgctxt "#10801"
 msgid "Fullscreen radio"
 msgstr "Pilnekrāna radio"
 
+# empty strings from id 10802 to 10819
+#. Title of controller configuration window
 msgctxt "#10820"
-msgid "Game video filter"
-msgstr "Spēļu video filtrs"
+msgid "Controller Configuration"
+msgstr ""
 
+#. Title of the "My Games" window
 msgctxt "#10821"
 msgid "Games"
 msgstr "Spēles"
 
+#. Title of the in-game OSD menu
 msgctxt "#10822"
-msgid "Game OSD"
-msgstr "Spēļu OSD"
+msgid "Menu"
+msgstr ""
 
+#. Title of the in-game video filter selection dialog
 msgctxt "#10823"
-msgid "Game controllers"
-msgstr "Spēļu kontrolleri"
+msgid "Video Filter"
+msgstr ""
 
+#. Title of the in-game video stretch mode selection dialog
 msgctxt "#10824"
-msgid "Game video settings"
-msgstr "Spēļu video iestatījumi"
+msgid "Stretch Mode"
+msgstr ""
+
+#. Title of the in-game volume dialog
+msgctxt "#10825"
+msgid "Volume"
+msgstr ""
+
+#. Title of the in-game dialog for advanced emulator settings
+msgctxt "#10826"
+msgid "Advanced Settings"
+msgstr ""
+
+#. Title of the in-game video rotation selection dialog
+msgctxt "#10827"
+msgid "Video Rotation"
+msgstr ""
+
+#. Title of the window for setting up controller ports used by the game
+msgctxt "#10828"
+msgid "Port Setup"
+msgstr ""
+
+#. Title of the in-game dialog to select a savestate for the current game
+msgctxt "#10829"
+msgid "Select Savestate"
+msgstr ""
+
+#. Title of the out-of-game dialog to select a savestate for the current game
+msgctxt "#10830"
+msgid "Select Savestate"
+msgstr ""
+
+#. Name of window for viewing and configuring players while playing a game
+msgctxt "#10831"
+msgid "Players"
+msgstr ""
 
 msgctxt "#12000"
 msgid "Select dialog"
@@ -5899,8 +5940,8 @@ msgid "Enable HQ scalers for scaling above"
 msgstr "HQ mērogotāju ieslēgšana"
 
 msgctxt "#13436"
-msgid "Use display HDR capabilities"
-msgstr "Izmantot ekrāna HDR iespējas"
+msgid "Adjust display HDR mode"
+msgstr ""
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -12970,16 +13011,6 @@ msgctxt "#24127"
 msgid "Automatically download first subtitle from the search result list"
 msgstr "Automātiski lejupielādēt pirmos subtitrus no meklēšanas rezultātu saraksta"
 
-#. Info dialog after migrating userdata from xbmc to kodi
-msgctxt "#24128"
-msgid "Configuration has been moved"
-msgstr "Konfigurācija tika pārvietota"
-
-#. Info dialog after migrating userdata from xbmc to kodi
-msgctxt "#24129"
-msgid "The configuration of XBMC has been moved to the new location for Kodi. Please refer to http://kodi.wiki/view/Migration - this message will not be shown again!"
-msgstr "XBMC konfigurācija ir pārvietota uz Kodi jauno atrašanās vietu. Lūdzu, apmeklēt http://kodi.wiki/view/Migration - šī ziņa vairs netiks rādīta!"
-
 msgctxt "#24130"
 msgid "Enable parsing for closed captions"
 msgstr ""
@@ -13768,6 +13799,11 @@ msgstr ""
 #. Title for music artist roles node
 msgctxt "#29994"
 msgid "Roles"
+msgstr ""
+
+#. Label for multi-disc movies, including movie title (param 0) and disc number (param 1).
+msgctxt "#29995"
+msgid "{0:s} (Disc {1:s})"
 msgstr ""
 
 msgctxt "#33001"
@@ -16283,9 +16319,9 @@ msgctxt "#36298"
 msgid "If enabled, a recording for the programme to remind will be scheduled when auto-closing the reminder popup, if supported by the PVR add-on and backend."
 msgstr ""
 
-#. Description of setting with label #13436 "Use display HDR capabilities"
+#. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
-msgid "Switch display into HDR mode if media with HDR information is played.[CR]If disabled, HDR information are applied using Kodi's internal HDR path."
+msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
 msgstr ""
 
 #. Description of setting with label #20226 "Movie set information folder"
@@ -17872,6 +17908,128 @@ msgctxt "#37052"
 msgid "NFS protocol version to use when establishing NFS connections"
 msgstr ""
 
+#. Settings / Services "Chunk Size" group label
+msgctxt "#37053"
+msgid "Chunk Size"
+msgstr ""
+
+#. Setting #37054 "NFS Chunk Size"
+msgctxt "#37054"
+msgid "NFS Chunk Size"
+msgstr ""
+
+#. Description of setting #37054 "NFS Chunk Size"
+msgctxt "#37055"
+msgid "Data chunk size used on NFS connections"
+msgstr ""
+
+#. Setting #37056 "SMB Chunk Size"
+msgctxt "#37056"
+msgid "SMB Chunk Size"
+msgstr ""
+
+#. Description of setting #37056 "SMB Chunk Size"
+msgctxt "#37057"
+msgid "Data chunk size used on SMB connections"
+msgstr ""
+
+# empty strings from id 37058 to 37100
+#. Settings / Services "Caching" category label
+msgctxt "#37101"
+msgid "Caching"
+msgstr ""
+
+#. Description of category #37101 "Caching"
+msgctxt "#37102"
+msgid "This category contains settings that configure caching of local and network files, and internet streams."
+msgstr ""
+
+#. Setting #37103 "Buffer Mode"
+msgctxt "#37103"
+msgid "Buffer Mode"
+msgstr ""
+
+#. Description of setting #37103 "Buffer Mode"
+msgctxt "#37104"
+msgid "Configure the media content to buffer."
+msgstr ""
+
+#. Setting #37105 "Memory Size"
+msgctxt "#37105"
+msgid "Memory Size"
+msgstr ""
+
+#. Description of setting #37105 "Memory Size"
+msgctxt "#37106"
+msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
+msgstr ""
+
+#. Setting #37107 "Read Factor"
+msgctxt "#37107"
+msgid "Read Factor"
+msgstr ""
+
+#. Description of setting #37107 "Read Factor"
+msgctxt "#37108"
+msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+msgstr ""
+
+#. Description of setting "Chunk Size"
+msgctxt "#37109"
+msgid "The data chunk size to use when a filesystem or protocol does not force the value, e.g. NFS will override this with its own value."
+msgstr ""
+
+#. Value of setting - NONE
+msgctxt "#37110"
+msgid "No buffer"
+msgstr ""
+
+#. Value of setting - TRUE INTERNET
+msgctxt "#37111"
+msgid "Only buffer true internet streams: HTTP, HTTPS, etc."
+msgstr ""
+
+#. Value of setting - INTERNET
+msgctxt "#37112"
+msgid "Buffer all internet filesystems, including: FTP, WebDAV, etc."
+msgstr ""
+
+#. Value of setting - NETWORK
+msgctxt "#37113"
+msgid "Buffer all network filesystems, including: SMB, NFS, etc."
+msgstr ""
+
+#. Value of setting - ALL
+msgctxt "#37114"
+msgid "Buffer all filesystems, including local files"
+msgstr ""
+
+#. Value of setting
+msgctxt "#37115"
+msgid "Caches entire file on disk storage"
+msgstr ""
+
+# empty strings from id 37116 to 37119
+#. Value of setting - Byte
+msgctxt "#37120"
+msgid "{0:d} Byte"
+msgstr ""
+
+#. Value of setting - KByte
+msgctxt "#37121"
+msgid "{0:d} KB"
+msgstr ""
+
+#. Value of setting - MByte
+msgctxt "#37122"
+msgid "{0:d} MB"
+msgstr ""
+
+#. Value of setting - GByte
+msgctxt "#37123"
+msgid "{0:d} GB"
+msgstr ""
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -18968,7 +19126,7 @@ msgstr ""
 
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
-msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
+msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 1920x1080 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX 20xx, 30xx, 40xx and above, Intel Arc A770, A750."
 msgstr ""
 
 #. Description of setting with label #13418 "Use high precision processing"
@@ -18985,6 +19143,386 @@ msgstr ""
 msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr ""
+
+# 40000 to 40800 are reserved for Video Versions feature
+#. Video versions
+msgctxt "#40000"
+msgid "Versions"
+msgstr ""
+
+#. Manage video version menu
+msgctxt "#40001"
+msgid "Manage {0:s} version"
+msgstr ""
+
+#. Manage video version dialog title
+msgctxt "#40002"
+msgid "Convert into an additional version of {0:s}"
+msgstr ""
+
+#. Video version selection dialog title
+msgctxt "#40003"
+msgid "Select {0:s} version"
+msgstr ""
+
+#. New video version dialog button
+msgctxt "#40004"
+msgid "New version..."
+msgstr ""
+
+#. Warning dialog title
+msgctxt "#40005"
+msgid "Operation not supported"
+msgstr ""
+
+#. Warning dialog text
+msgctxt "#40006"
+msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
+msgstr ""
+
+#. Warning dialog text
+msgctxt "#40007"
+msgid "The \"{0:s}\" version already exists!"
+msgstr ""
+
+#. Different video version found dialog title
+msgctxt "#40008"
+msgid "Different {0:s} version found"
+msgstr ""
+
+#. Different video version found dialog text
+msgctxt "#40009"
+msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
+msgstr ""
+
+#. "video version" string in singular format
+msgctxt "#40010"
+msgid "video version"
+msgstr ""
+
+#. "video version" string in plural format
+msgctxt "#40011"
+msgid "video versions"
+msgstr ""
+
+#. "video version" string in singular capital format
+msgctxt "#40012"
+msgid "Video version"
+msgstr ""
+
+#. "video version" string in plural capital format
+msgctxt "#40013"
+msgid "Video versions"
+msgstr ""
+
+#. Add new video version dialog title
+msgctxt "#40014"
+msgid "Add new {0:s} version"
+msgstr ""
+
+#. Add new video extras dialog title
+msgctxt "#40015"
+msgid "Add new {0:s} extras"
+msgstr ""
+
+#. Add new video version dialog text
+msgctxt "#40016"
+msgid "The selected video is already \"{0:s}\" version of current {1:s}."
+msgstr ""
+
+#. Add new video version dialog text
+msgctxt "#40017"
+msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
+msgstr ""
+
+#. Remove video version dialog title
+msgctxt "#40018"
+msgid "Remove video version"
+msgstr ""
+
+#. Add new video version dialog text
+msgctxt "#40019"
+msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
+msgstr ""
+
+#. Remove video version dialog text
+msgctxt "#40020"
+msgid "Are you sure to remove the video version \"{0:s}\"?"
+msgstr ""
+
+#. Convert video version menu
+msgctxt "#40021"
+msgid "Convert {0:s} version"
+msgstr ""
+
+#. Manage video version dialog title
+msgctxt "#40022"
+msgid "Manage {0:s}"
+msgstr ""
+
+#. Choose video version dialog title
+msgctxt "#40023"
+msgid "Choose {0:s}"
+msgstr ""
+
+#. Select default video version setting
+msgctxt "#40200"
+msgid "Select default video version"
+msgstr ""
+
+#. Help for select default video version setting
+msgctxt "#40201"
+msgid "Defines how to handle selection of videos with multiple versions.[CR][Enabled] Automatically select the default video version without prompting.[CR][Disabled] Display a dialogue to select a version of the video."
+msgstr ""
+
+#. Ignore different video versions settting
+msgctxt "#40202"
+msgid "Ignore different video versions on scan"
+msgstr ""
+
+#. Help for Ignore different video versions settting
+msgctxt "#40203"
+msgid "Select scanner action for different video versions.[CR][Enabled] Add different video versions to library seperately without confirmation.[CR][Disabled] Prompt for converting different video versions into additional versions of the original."
+msgstr ""
+
+#. Ignore video extras settting
+msgctxt "#40204"
+msgid "Ignore video extras on scan"
+msgstr ""
+
+#. Help for ignore video extras settting
+msgctxt "#40205"
+msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
+msgstr ""
+
+#. Show video versions as folder settting
+msgctxt "#40206"
+msgid "Show video with multiple versions as folder"
+msgstr ""
+
+#. Help for show video versions as folder settting
+msgctxt "#40207"
+msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
+msgstr ""
+
+#. Choose video version context menu item label
+msgctxt "#40208"
+msgid "Choose version"
+msgstr ""
+
+# Video versions
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40400"
+msgid "Standard Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40401"
+msgid "Extended Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40402"
+msgid "Unrated Version"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40403"
+msgid "Uncut Version"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40404"
+msgid "Remastered Version"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40405"
+msgid "4K"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40406"
+msgid "Theatrical Cut"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40407"
+msgid "Director's Cut"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40408"
+msgid "Special Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40409"
+msgid "Limited Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40410"
+msgid "Complete Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40411"
+msgid "The Final Cut"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40412"
+msgid "Super Duper Cut"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40413"
+msgid "Collector's Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40414"
+msgid "Ultimate Collector's Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40415"
+msgid "Criterion Collection Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40416"
+msgid "Fan Edit"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40417"
+msgid "Black and White Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40418"
+msgid "BluRay"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40419"
+msgid "WEB-DL"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40420"
+msgid "3D"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40421"
+msgid "8K"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40422"
+msgid "IMAX"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40423"
+msgid "UHD"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40424"
+msgid "FHD"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40425"
+msgid "HD"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40426"
+msgid "SD"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40427"
+msgid "DVD"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40428"
+msgid "VHS"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40429"
+msgid "VCD"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40430"
+msgid "REMUX"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40431"
+msgid "10th Anniversary Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40432"
+msgid "20th Anniversary Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40433"
+msgid "25th Anniversary Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40434"
+msgid "30th Anniversary Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40435"
+msgid "40th Anniversary Edition"
+msgstr ""
+
+#. Name of a video version, like "Director's Cut"
+msgctxt "#40436"
+msgid "50th Anniversary Edition"
+msgstr ""
+
+#~ msgctxt "#13436"
+#~ msgid "Use display HDR capabilities"
+#~ msgstr "Izmantot ekrāna HDR iespējas"
+
+#~ msgctxt "#10820"
+#~ msgid "Game video filter"
+#~ msgstr "Spēļu video filtrs"
+
+#~ msgctxt "#10822"
+#~ msgid "Game OSD"
+#~ msgstr "Spēļu OSD"
+
+#~ msgctxt "#10823"
+#~ msgid "Game controllers"
+#~ msgstr "Spēļu kontrolleri"
+
+#~ msgctxt "#10824"
+#~ msgid "Game video settings"
+#~ msgstr "Spēļu video iestatījumi"
+
+#~ msgctxt "#24128"
+#~ msgid "Configuration has been moved"
+#~ msgstr "Konfigurācija tika pārvietota"
+
+#~ msgctxt "#24129"
+#~ msgid "The configuration of XBMC has been moved to the new location for Kodi. Please refer to http://kodi.wiki/view/Migration - this message will not be shown again!"
+#~ msgstr "XBMC konfigurācija ir pārvietota uz Kodi jauno atrašanās vietu. Lūdzu, apmeklēt http://kodi.wiki/view/Migration - šī ziņa vairs netiks rādīta!"
 
 #~ msgctxt "#19221"
 #~ msgid "Synchronise channel groups with backend(s)"
