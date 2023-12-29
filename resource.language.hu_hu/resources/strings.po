@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-12-02 08:11+0000\n"
+"PO-Revision-Date: 2023-12-17 11:08+0000\n"
 "Last-Translator: Frodo19 <bilbohu@gmail.com>\n"
 "Language-Team: Hungarian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/hu_hu/>\n"
 "Language: hu_hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4725,6 +4725,14 @@ msgstr "Telepítés dátuma"
 msgctxt "#12014"
 msgid "Last updated"
 msgstr "Utoljára frissítve"
+
+msgctxt "#12015"
+msgid "Select video version"
+msgstr ""
+
+msgctxt "#12016"
+msgid "Select video extra"
+msgstr ""
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -17891,27 +17899,27 @@ msgstr "Az NFS-protokoll verziója az NFS-kapcsolatok létesítéséhez"
 #. Settings / Services "Chunk Size" group label
 msgctxt "#37053"
 msgid "Chunk Size"
-msgstr "Adatrész mérete"
+msgstr "Adatcsomag mérete"
 
 #. Setting #37054 "NFS Chunk Size"
 msgctxt "#37054"
 msgid "NFS Chunk Size"
-msgstr "NFS adatrész mérete"
+msgstr "NFS adatcsomag mérete"
 
 #. Description of setting #37054 "NFS Chunk Size"
 msgctxt "#37055"
 msgid "Data chunk size used on NFS connections"
-msgstr "Az NFS-kapcsolatokon használt adatrész mérete"
+msgstr "Az NFS-kapcsolatokon használt adatcsomag mérete"
 
 #. Setting #37056 "SMB Chunk Size"
 msgctxt "#37056"
 msgid "SMB Chunk Size"
-msgstr "SMB adatrész mérete"
+msgstr "SMB adatcsomag mérete"
 
 #. Description of setting #37056 "SMB Chunk Size"
 msgctxt "#37057"
 msgid "Data chunk size used on SMB connections"
-msgstr "Az SMB-kapcsolatokon használt adatrész mérete"
+msgstr "Az SMB-kapcsolatokon használt adatcsomag mérete"
 
 # empty strings from id 37058 to 37100
 #. Settings / Services "Caching" category label
@@ -17957,7 +17965,7 @@ msgstr "Az olvasási tényező határozza meg a gyorsítótár-kitöltési arán
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
 msgid "The data chunk size to use when a filesystem or protocol does not force the value, e.g. NFS will override this with its own value."
-msgstr "A használandó adatrész mérete, ha egy fájlrendszer vagy protokoll nem kényszeríti ki az értéket, pl. Az NFS ezt felülírja a saját értékével."
+msgstr "A használandó adatcsomag mérete, ha egy fájlrendszer vagy protokoll nem kényszeríti ki az értéket, pl. Az NFS ezt felülírja a saját értékével."
 
 #. Value of setting - NONE
 msgctxt "#37110"
@@ -19122,25 +19130,19 @@ msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, whic
 msgstr "Ha engedélyezve van, a Dolby Vision 7-es profil, 8.1-es profilra lesz konvertálva, amelyet több eszköz is támogat. Engedélyezze, ha az eszköze támogatja a Dolby Visiont, de problémák vannak bizonyos videókkal."
 
 # 40000 to 40800 are reserved for Video Versions feature
-#. Video versions
 msgctxt "#40000"
 msgid "Versions"
 msgstr "Verziók"
 
-#. Manage video version menu
+#. Manage video versions context menu item
 msgctxt "#40001"
-msgid "Manage {0:s} version"
-msgstr "Verzió {0:s} kezelés"
+msgid "Manage versions"
+msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version of {0:s}"
-msgstr "Konvertálás a {0:s} további verziójára"
-
-#. Video version selection dialog title
-msgctxt "#40003"
-msgid "Select {0:s} version"
-msgstr "Válassz {0:s} verziót"
+msgid "Convert into an additional version"
+msgstr ""
 
 #. New video version dialog button
 msgctxt "#40004"
@@ -19154,8 +19156,8 @@ msgstr "A művelet nem támogatott"
 
 #. Warning dialog text
 msgctxt "#40006"
-msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
-msgstr "A kiválasztott {0:s} több verziót tartalmaz. Nem konvertálható egy másik verzió további verziójára. Távolítsa el a könyvtárból, olvassa be újra, és külön konvertálja az egyes verziókat."
+msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
+msgstr ""
 
 #. Warning dialog text
 msgctxt "#40007"
@@ -19164,13 +19166,13 @@ msgstr "A \"{0:s}\" verzió már létezik!"
 
 #. Different video version found dialog title
 msgctxt "#40008"
-msgid "Different {0:s} version found"
-msgstr "Különböző {0:s} verzió található"
+msgid "Different movie version found"
+msgstr ""
 
 #. Different video version found dialog text
 msgctxt "#40009"
-msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
-msgstr "A(z) {0:s} \"{1:s}\" ({2:s}) másik verziója található. Szeretné átalakítani az eredeti egy további változatává?"
+msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
+msgstr ""
 
 #. "video version" string in singular format
 msgctxt "#40010"
@@ -19192,25 +19194,25 @@ msgctxt "#40013"
 msgid "Video versions"
 msgstr "Videó verziók"
 
-#. Add new video version dialog title
+#. Add video version dialog title
 msgctxt "#40014"
-msgid "Add new {0:s} version"
-msgstr "Új {0:s} verzió hozzáadása"
+msgid "Add version"
+msgstr ""
 
-#. Add new video extras dialog title
+#. Add video extra dialog title
 msgctxt "#40015"
-msgid "Add new {0:s} extras"
-msgstr "Új {0:s} extrák hozzáadása"
+msgid "Add extra"
+msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text.
 msgctxt "#40016"
-msgid "The selected video is already \"{0:s}\" version of current {1:s}."
-msgstr "A kiválasztott videó már a jelenlegi {1:s} \"{0:s}\" verziója."
+msgid "The selected video already is the \"{0:s}\" version of the movie."
+msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
-msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
-msgstr "A kiválasztott videó a(z) {1:s} \"{2:s}\" \"{0:s}\" verziója. Szeretné eltávolítani ezt a verziót, és hozzáadni a jelenlegi {3:s}-hoz?"
+msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
+msgstr ""
 
 #. Remove video version dialog title
 msgctxt "#40018"
@@ -19219,38 +19221,58 @@ msgstr "Videó verzió eltávolítsa"
 
 #. Add new video version dialog text
 msgctxt "#40019"
-msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
-msgstr "Nem sikerült eltávolítani az alapértelmezett „{0:s}” verziót a(z) {1:s} „{2:s}” mappából. Módosítsa az alapértelmezett verziót, és próbálja újra."
+msgid "The default version of a movie cannot be removed. Set a different default version and try again."
+msgstr ""
 
 #. Remove video version dialog text
 msgctxt "#40020"
-msgid "Are you sure to remove the video version \"{0:s}\"?"
-msgstr "Biztosan eltávolítja a \"{0:s}\" videóverziót?"
+msgid "Are you sure to remove version \"{0:s}\"?"
+msgstr ""
 
-#. Convert video version menu
+#. Convert video to version context menu item
 msgctxt "#40021"
-msgid "Convert {0:s} version"
-msgstr "A(z) {0:s} verzió konvertálása"
+msgid "Convert to version"
+msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40022"
 msgid "Manage {0:s}"
 msgstr "{0:s} kezelése"
 
-#. Choose video version dialog title
+#. Button label to make a video version the default version
 msgctxt "#40023"
-msgid "Choose {0:s}"
+msgid "Set as default"
+msgstr ""
+
+#. Choose/Manage video version dialog title
+msgctxt "#40024"
+msgid "Versions: {0:s}"
+msgstr ""
+
+#. Choose/Manage video extra dialog title
+msgctxt "#40025"
+msgid "Extras: {0:s}"
+msgstr ""
+
+#. Add extra dialog text.
+msgctxt "#40026"
+msgid "The selected video already is the \"{0:s}\" extra of the movie."
+msgstr ""
+
+#. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
+msgctxt "#40027"
+msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
 msgstr ""
 
 #. Select default video version setting
 msgctxt "#40200"
 msgid "Select default video version"
-msgstr ""
+msgstr "Válassza ki az alapértelmezett videóverziót"
 
 #. Help for select default video version setting
 msgctxt "#40201"
 msgid "Defines how to handle selection of videos with multiple versions.[CR][Enabled] Automatically select the default video version without prompting.[CR][Disabled] Display a dialogue to select a version of the video."
-msgstr ""
+msgstr "Meghatározza, hogyan kell kezelni a több verziójú videók kiválasztását.[CR][Engedélyezve] Automatikusan válassza ki az alapértelmezett videóverziót felszólítás nélkül.[CR][Letiltva] A videó verziójának kiválasztásához párbeszédpanelt jelenít meg."
 
 #. Ignore different video versions settting
 msgctxt "#40202"
@@ -19274,17 +19296,42 @@ msgstr "Válassza ki a szkenner műveletet a videó extrákhoz az \"extrák\" ma
 
 #. Show video versions as folder settting
 msgctxt "#40206"
-msgid "Show video with multiple versions as folder"
-msgstr "Több verziójú videó megjelenítése mappaként"
+msgid "Show videos with multiple versions as folder"
+msgstr ""
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
-msgstr ""
+msgstr "Ha engedélyezve van, a több verziójú videó mappaként jelenik meg a videokönyvtárban. Ez a mappa ezután megnyitható az egyes videoverziók megjelenítéséhez. Ha le van tiltva, a konfigurált kiválasztási művelet kerül alkalmazásra."
 
 #. Choose video version context menu item label
 msgctxt "#40208"
 msgid "Choose version"
+msgstr "Verzió kiválasztás"
+
+#. First choose video version and then select a player and play context menu item label
+msgctxt "#40209"
+msgid "Play version using..."
+msgstr "A verzió lejátszása ..."
+
+#. Button label for video versions
+msgctxt "#40210"
+msgid "Versions"
+msgstr ""
+
+#. Button label for video extras
+msgctxt "#40211"
+msgid "Extras"
+msgstr ""
+
+#. UPnP remote player volume level sync setting
+msgctxt "#40212"
+msgid "Synchronize volume level to remote UPnP players"
+msgstr ""
+
+#. Help string for UPnP remote player volume level sync setting
+msgctxt "#40213"
+msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
 msgstr ""
 
 # Video versions
@@ -19472,6 +19519,66 @@ msgstr "40. évfordulós kiadás"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50. évfordulós kiadás"
+
+#~ msgctxt "#40002"
+#~ msgid "Convert into an additional version of {0:s}"
+#~ msgstr "Konvertálás a {0:s} további verziójára"
+
+#~ msgctxt "#40006"
+#~ msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
+#~ msgstr "A kiválasztott {0:s} több verziót tartalmaz. Nem konvertálható egy másik verzió további verziójára. Távolítsa el a könyvtárból, olvassa be újra, és külön konvertálja az egyes verziókat."
+
+#~ msgctxt "#40008"
+#~ msgid "Different {0:s} version found"
+#~ msgstr "Különböző {0:s} verzió található"
+
+#~ msgctxt "#40009"
+#~ msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
+#~ msgstr "A(z) {0:s} \"{1:s}\" ({2:s}) másik verziója található. Szeretné átalakítani az eredeti egy további változatává?"
+
+#~ msgctxt "#40019"
+#~ msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
+#~ msgstr "Nem sikerült eltávolítani az alapértelmezett „{0:s}” verziót a(z) {1:s} „{2:s}” mappából. Módosítsa az alapértelmezett verziót, és próbálja újra."
+
+#~ msgctxt "#40001"
+#~ msgid "Manage {0:s} version"
+#~ msgstr "Verzió {0:s} kezelés"
+
+#~ msgctxt "#40003"
+#~ msgid "Select {0:s} version"
+#~ msgstr "Válassz {0:s} verziót"
+
+#~ msgctxt "#40014"
+#~ msgid "Add new {0:s} version"
+#~ msgstr "Új {0:s} verzió hozzáadása"
+
+#~ msgctxt "#40015"
+#~ msgid "Add new {0:s} extras"
+#~ msgstr "Új {0:s} extrák hozzáadása"
+
+#~ msgctxt "#40016"
+#~ msgid "The selected video is already \"{0:s}\" version of current {1:s}."
+#~ msgstr "A kiválasztott videó már a jelenlegi {1:s} \"{0:s}\" verziója."
+
+#~ msgctxt "#40017"
+#~ msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
+#~ msgstr "A kiválasztott videó a(z) {1:s} \"{2:s}\" \"{0:s}\" verziója. Szeretné eltávolítani ezt a verziót, és hozzáadni a jelenlegi {3:s}-hoz?"
+
+#~ msgctxt "#40020"
+#~ msgid "Are you sure to remove the video version \"{0:s}\"?"
+#~ msgstr "Biztosan eltávolítja a \"{0:s}\" videóverziót?"
+
+#~ msgctxt "#40021"
+#~ msgid "Convert {0:s} version"
+#~ msgstr "A(z) {0:s} verzió konvertálása"
+
+#~ msgctxt "#40206"
+#~ msgid "Show video with multiple versions as folder"
+#~ msgstr "Több verziójú videó megjelenítése mappaként"
+
+#~ msgctxt "#40023"
+#~ msgid "Choose {0:s}"
+#~ msgstr "Válassza ki {0:s}"
 
 #~ msgctxt "#40023"
 #~ msgid "Play {0:s}"

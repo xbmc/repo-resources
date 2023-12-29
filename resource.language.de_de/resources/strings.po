@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-11-25 09:58+0000\n"
+"PO-Revision-Date: 2023-12-23 03:04+0000\n"
 "Last-Translator: Kai Sommerfeld <ksooo@users.noreply.kodi.weblate.cloud>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/de_de/>\n"
 "Language: de_de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4723,6 +4723,14 @@ msgstr "Installationsdatum"
 msgctxt "#12014"
 msgid "Last updated"
 msgstr "Zuletzt aktualisiert"
+
+msgctxt "#12015"
+msgid "Select video version"
+msgstr "Videoversion auswählen"
+
+msgctxt "#12016"
+msgid "Select video extra"
+msgstr "Videoextra auswählen"
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -19118,25 +19126,19 @@ msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, whic
 msgstr "Wenn aktiviert, wird das Dolby Vision-Profil 7 konvertiert zu Profil 8.1, welches von mehr Geräten unterstützt wird. Aktivieren, wenn das Gerät Dolby Vision unterstützt, es aber Probleme mit einigen Videos gibt."
 
 # 40000 to 40800 are reserved for Video Versions feature
-#. Video versions
 msgctxt "#40000"
 msgid "Versions"
 msgstr "Versionen"
 
-#. Manage video version menu
+#. Manage video versions context menu item
 msgctxt "#40001"
-msgid "Manage {0:s} version"
-msgstr "Version „{0:s}“ verwalten"
+msgid "Manage versions"
+msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version of {0:s}"
-msgstr "In eine zusätzliche Version von „{0:s}“ konvertieren"
-
-#. Video version selection dialog title
-msgctxt "#40003"
-msgid "Select {0:s} version"
-msgstr "Version „{0:s}“ auswählen"
+msgid "Convert into an additional version"
+msgstr ""
 
 #. New video version dialog button
 msgctxt "#40004"
@@ -19150,8 +19152,8 @@ msgstr "Funktion nicht unterstützt"
 
 #. Warning dialog text
 msgctxt "#40006"
-msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
-msgstr "{0:s} enthält mehrere Versionen und kann nicht in eine zusätzliche Version einer anderen konvertiert werden. Bitte aus der Bibliothek entfernen, neu scannen und jede Version einzeln konvertieren."
+msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
+msgstr ""
 
 #. Warning dialog text
 msgctxt "#40007"
@@ -19160,13 +19162,13 @@ msgstr "Version „{0:s}“ existiert bereits!"
 
 #. Different video version found dialog title
 msgctxt "#40008"
-msgid "Different {0:s} version found"
-msgstr "Andere Version „{0:s}“ gefunden"
+msgid "Different movie version found"
+msgstr ""
 
 #. Different video version found dialog text
 msgctxt "#40009"
-msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
-msgstr "Andere Version gefunden von {0:s} \"{1:s}\" ({2:s}). Soll sie in eine zusätzliche Version des Originals konvertiert werden?"
+msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
+msgstr ""
 
 #. "video version" string in singular format
 msgctxt "#40010"
@@ -19188,25 +19190,25 @@ msgctxt "#40013"
 msgid "Video versions"
 msgstr "Videoversionen"
 
-#. Add new video version dialog title
+#. Add video version dialog title
 msgctxt "#40014"
-msgid "Add new {0:s} version"
-msgstr "Neue „{0:s}“ Version hinzufügen"
+msgid "Add version"
+msgstr ""
 
-#. Add new video extras dialog title
+#. Add video extra dialog title
 msgctxt "#40015"
-msgid "Add new {0:s} extras"
-msgstr "Neue Extras für „{0:s}“ hinzufügen"
+msgid "Add extra"
+msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text.
 msgctxt "#40016"
-msgid "The selected video is already \"{0:s}\" version of current {1:s}."
-msgstr "Das ausgewählte Video is bereits Version „{0:s}“ von aktuell {1:s)."
+msgid "The selected video already is the \"{0:s}\" version of the movie."
+msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
-msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
-msgstr "Das ausgewählte Video ist Version „{0:s}“ von {1:s} „{2:s}“. Soll diese Version entfernt und zur aktuellen Version „{3:s}“hinzugefügt werden?"
+msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
+msgstr ""
 
 #. Remove video version dialog title
 msgctxt "#40018"
@@ -19215,38 +19217,58 @@ msgstr "Videoversion entfernen"
 
 #. Add new video version dialog text
 msgctxt "#40019"
-msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
-msgstr "Die Standardversion „{0:s}“ kann nicht aus {1:s} „{2:s}“ entfernt werden. Bitte Standardversion ändern und neu versuchen."
+msgid "The default version of a movie cannot be removed. Set a different default version and try again."
+msgstr ""
 
 #. Remove video version dialog text
 msgctxt "#40020"
-msgid "Are you sure to remove the video version \"{0:s}\"?"
-msgstr "Soll die Videoversion „{0:s}“ wirklich entfernt werden?"
+msgid "Are you sure to remove version \"{0:s}\"?"
+msgstr ""
 
-#. Convert video version menu
+#. Convert video to version context menu item
 msgctxt "#40021"
-msgid "Convert {0:s} version"
-msgstr "Version „{0:s}“ konvertieren"
+msgid "Convert to version"
+msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40022"
 msgid "Manage {0:s}"
 msgstr "„{0:s}“ verwalten"
 
-#. Choose video version dialog title
+#. Button label to make a video version the default version
 msgctxt "#40023"
-msgid "Choose {0:s}"
+msgid "Set as default"
+msgstr ""
+
+#. Choose/Manage video version dialog title
+msgctxt "#40024"
+msgid "Versions: {0:s}"
+msgstr ""
+
+#. Choose/Manage video extra dialog title
+msgctxt "#40025"
+msgid "Extras: {0:s}"
+msgstr ""
+
+#. Add extra dialog text.
+msgctxt "#40026"
+msgid "The selected video already is the \"{0:s}\" extra of the movie."
+msgstr ""
+
+#. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
+msgctxt "#40027"
+msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
 msgstr ""
 
 #. Select default video version setting
 msgctxt "#40200"
 msgid "Select default video version"
-msgstr ""
+msgstr "Standard-Videoversion auswählen"
 
 #. Help for select default video version setting
 msgctxt "#40201"
 msgid "Defines how to handle selection of videos with multiple versions.[CR][Enabled] Automatically select the default video version without prompting.[CR][Disabled] Display a dialogue to select a version of the video."
-msgstr ""
+msgstr "Festlegen, wie mit Videos mit mehreren Versionen umgegangen werden soll.[CR][Aktiviert] Ohne Nachfragen automatisch die Standard-Videoversion auswählen.[CR][Deaktiviert] Einen Dialog zum Auswählen der Videoversion anziegen."
 
 #. Ignore different video versions settting
 msgctxt "#40202"
@@ -19270,18 +19292,43 @@ msgstr "Scanner-Aktion für Video-Extras im Ordner „extras“ auswählen.[CR][
 
 #. Show video versions as folder settting
 msgctxt "#40206"
-msgid "Show video with multiple versions as folder"
-msgstr "Videos mit mehreren Versionen als Ordner anzeigen"
+msgid "Show videos with multiple versions as folder"
+msgstr ""
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
-msgstr ""
+msgstr "Wenn aktiviert, werden Videos mit mehreren Versionen in der Videobibliothek als Ordner dargestellt. Dieser Ordner kann geöffnet werden, um die verschiedenen Videoversionen anzuzeigen. Wenn deaktiviert, wird die eingestellte Auswahlaktion ausgeführt."
 
 #. Choose video version context menu item label
 msgctxt "#40208"
 msgid "Choose version"
-msgstr ""
+msgstr "Version auswählen"
+
+#. First choose video version and then select a player and play context menu item label
+msgctxt "#40209"
+msgid "Play version using..."
+msgstr "Version wiedergeben mit..."
+
+#. Button label for video versions
+msgctxt "#40210"
+msgid "Versions"
+msgstr "Versionen"
+
+#. Button label for video extras
+msgctxt "#40211"
+msgid "Extras"
+msgstr "Extras"
+
+#. UPnP remote player volume level sync setting
+msgctxt "#40212"
+msgid "Synchronize volume level to remote UPnP players"
+msgstr "Lautstärkepegel mit Netzwerk-UPnP-Playern synchronisieren"
+
+#. Help string for UPnP remote player volume level sync setting
+msgctxt "#40213"
+msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
+msgstr "Wenn ausgewählt, wird der Laustärkepegel des Netzwerk-Players mit dem Pegel dieser Applikation synchronisiert.[CR]Warnung: Der Laustärkepegel des Systems kann anders sein als der Pegel der Applikation, da sie unabhängig voneinander gesteuert werden.[CR]Das kann dazu führen, dass der Netzwerk-Player auf 100% Lautstärkepegel gesetzt wird, wenn der Pegel der Applikation 100% ist, aber der Systemlautstärkepegel kann geringer sein."
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -19468,6 +19515,66 @@ msgstr "40th Anniversary Edition"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50th Anniversary Edition"
+
+#~ msgctxt "#40002"
+#~ msgid "Convert into an additional version of {0:s}"
+#~ msgstr "In eine zusätzliche Version von „{0:s}“ konvertieren"
+
+#~ msgctxt "#40006"
+#~ msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
+#~ msgstr "{0:s} enthält mehrere Versionen und kann nicht in eine zusätzliche Version einer anderen konvertiert werden. Bitte aus der Bibliothek entfernen, neu scannen und jede Version einzeln konvertieren."
+
+#~ msgctxt "#40008"
+#~ msgid "Different {0:s} version found"
+#~ msgstr "Andere Version „{0:s}“ gefunden"
+
+#~ msgctxt "#40009"
+#~ msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
+#~ msgstr "Andere Version gefunden von {0:s} \"{1:s}\" ({2:s}). Soll sie in eine zusätzliche Version des Originals konvertiert werden?"
+
+#~ msgctxt "#40019"
+#~ msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
+#~ msgstr "Die Standardversion „{0:s}“ kann nicht aus {1:s} „{2:s}“ entfernt werden. Bitte Standardversion ändern und neu versuchen."
+
+#~ msgctxt "#40001"
+#~ msgid "Manage {0:s} version"
+#~ msgstr "Version „{0:s}“ verwalten"
+
+#~ msgctxt "#40003"
+#~ msgid "Select {0:s} version"
+#~ msgstr "Version „{0:s}“ auswählen"
+
+#~ msgctxt "#40014"
+#~ msgid "Add new {0:s} version"
+#~ msgstr "Neue „{0:s}“ Version hinzufügen"
+
+#~ msgctxt "#40015"
+#~ msgid "Add new {0:s} extras"
+#~ msgstr "Neue Extras für „{0:s}“ hinzufügen"
+
+#~ msgctxt "#40016"
+#~ msgid "The selected video is already \"{0:s}\" version of current {1:s}."
+#~ msgstr "Das ausgewählte Video is bereits Version „{0:s}“ von aktuell {1:s)."
+
+#~ msgctxt "#40017"
+#~ msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
+#~ msgstr "Das ausgewählte Video ist Version „{0:s}“ von {1:s} „{2:s}“. Soll diese Version entfernt und zur aktuellen Version „{3:s}“hinzugefügt werden?"
+
+#~ msgctxt "#40020"
+#~ msgid "Are you sure to remove the video version \"{0:s}\"?"
+#~ msgstr "Soll die Videoversion „{0:s}“ wirklich entfernt werden?"
+
+#~ msgctxt "#40021"
+#~ msgid "Convert {0:s} version"
+#~ msgstr "Version „{0:s}“ konvertieren"
+
+#~ msgctxt "#40206"
+#~ msgid "Show video with multiple versions as folder"
+#~ msgstr "Videos mit mehreren Versionen als Ordner anzeigen"
+
+#~ msgctxt "#40023"
+#~ msgid "Choose {0:s}"
+#~ msgstr "Auswahl {0:s}"
 
 #~ msgctxt "#40023"
 #~ msgid "Play {0:s}"

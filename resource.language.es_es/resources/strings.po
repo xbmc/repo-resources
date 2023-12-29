@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-12-07 18:46+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2023-12-14 20:09+0000\n"
+"Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_es/>\n"
 "Language: es_es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4659,12 +4659,12 @@ msgstr "Configuración del Puerto"
 #. Title of the in-game dialog to select a savestate for the current game
 msgctxt "#10829"
 msgid "Select Savestate"
-msgstr "Selecciona partida guardada"
+msgstr "Seleccionar estado guardado"
 
 #. Title of the out-of-game dialog to select a savestate for the current game
 msgctxt "#10830"
 msgid "Select Savestate"
-msgstr "Selecciona partida guardada"
+msgstr "Seleccionar Estado Guardado"
 
 #. Name of window for viewing and configuring players while playing a game
 msgctxt "#10831"
@@ -4723,6 +4723,14 @@ msgstr "Fecha de instalación"
 msgctxt "#12014"
 msgid "Last updated"
 msgstr "Última actualización"
+
+msgctxt "#12015"
+msgid "Select video version"
+msgstr ""
+
+msgctxt "#12016"
+msgid "Select video extra"
+msgstr ""
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -15045,7 +15053,7 @@ msgstr "Guardado"
 #. Title of the dialog to select a savestate for the current game
 msgctxt "#35260"
 msgid "Select savestate"
-msgstr "Elegir guardado"
+msgstr "Seleccionar Estado Guardado"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
@@ -17913,7 +17921,7 @@ msgstr "Tamaño del fragmento de datos utilizado en conexiones SMB"
 #. Settings / Services "Caching" category label
 msgctxt "#37101"
 msgid "Caching"
-msgstr "Almacenamiento en caché"
+msgstr "Almacenamiento en Caché"
 
 #. Description of category #37101 "Caching"
 msgctxt "#37102"
@@ -17928,7 +17936,7 @@ msgstr "Modo de búfer"
 #. Description of setting #37103 "Buffer Mode"
 msgctxt "#37104"
 msgid "Configure the media content to buffer."
-msgstr "Configure el contenido multimedia para almacenar en búfer."
+msgstr "Configurar el contenido multimedia que se almacenará en el búfer."
 
 #. Setting #37105 "Memory Size"
 msgctxt "#37105"
@@ -17938,7 +17946,7 @@ msgstr "Tamaño de memoria"
 #. Description of setting #37105 "Memory Size"
 msgctxt "#37106"
 msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
-msgstr "El tamaño del búfer de memoria en Mbytes. Establecer cero (0) fuerza el almacenamiento en búfer en el disco, lo cual no se recomienda en dispositivos de almacenamiento flash (eMMC, tarjetas SD, SSD)."
+msgstr "El tamaño del búfer de memoria en Mbytes. Establecer cero (0) fuerza el almacenamiento en el disco, lo cual no se recomienda en dispositivos de almacenamiento flash (eMMC, tarjetas SD, SSD)."
 
 #. Setting #37107 "Read Factor"
 msgctxt "#37107"
@@ -17953,7 +17961,7 @@ msgstr "El factor de lectura determina la tasa de llenado de la caché en térmi
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
 msgid "The data chunk size to use when a filesystem or protocol does not force the value, e.g. NFS will override this with its own value."
-msgstr "El tamaño del fragmento de datos que se utilizará cuando un sistema de archivos o protocolo no fuerza el valor, p. NFS anulará esto con su propio valor."
+msgstr "El tamaño del fragmento de datos que se utilizará cuando un sistema de archivos o protocolo no fuerza el valor, p. ej. NFS anulará esto con su propio valor."
 
 #. Value of setting - NONE
 msgctxt "#37110"
@@ -17968,22 +17976,22 @@ msgstr "Solo almacena en buffer transmisiones verdaderas de Internet: HTTP, HTTP
 #. Value of setting - INTERNET
 msgctxt "#37112"
 msgid "Buffer all internet filesystems, including: FTP, WebDAV, etc."
-msgstr "Almacene en búfer todos los sistemas de archivos de Internet, incluidos: FTP, WebDAV, etc."
+msgstr "Almacena en búfer todos los sistemas de archivos de Internet, incluidos: FTP, WebDAV, etc."
 
 #. Value of setting - NETWORK
 msgctxt "#37113"
 msgid "Buffer all network filesystems, including: SMB, NFS, etc."
-msgstr "Almacene en búfer todos los sistemas de archivos de red, incluidos: SMB, NFS, etc."
+msgstr "Almacena en búfer todos los sistemas de archivos de red, incluidos: SMB, NFS, etc."
 
 #. Value of setting - ALL
 msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
-msgstr "Almacenar en buffer todos los sistemas de archivos, incluidos los archivos locales"
+msgstr "Almacena en buffer todos los sistemas de archivos, incluidos los archivos locales"
 
 #. Value of setting
 msgctxt "#37115"
 msgid "Caches entire file on disk storage"
-msgstr "Almacena en caché el archivo completo en el almacenamiento en disco"
+msgstr "Almacena en caché el archivo completo usando almacenamiento de disco"
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19118,306 +19126,345 @@ msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, whic
 msgstr "Si se activa, el perfil 7 de Dolby Vision se convertirá a 8.1, que está más soportado por los dispositivos. Actívelo si su dispositivo soporta Dolby Vision pero tiene fallos con algunos vídeos."
 
 # 40000 to 40800 are reserved for Video Versions feature
-#. Video versions
 msgctxt "#40000"
 msgid "Versions"
 msgstr "Versiones"
 
-#. Manage video version menu
+#. Manage video versions context menu item
 msgctxt "#40001"
-msgid "Manage {0:s} version"
+msgid "Manage versions"
 msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version of {0:s}"
-msgstr ""
-
-#. Video version selection dialog title
-msgctxt "#40003"
-msgid "Select {0:s} version"
+msgid "Convert into an additional version"
 msgstr ""
 
 #. New video version dialog button
 msgctxt "#40004"
 msgid "New version..."
-msgstr ""
+msgstr "Nueva versión..."
 
 #. Warning dialog title
 msgctxt "#40005"
 msgid "Operation not supported"
-msgstr ""
+msgstr "Operación no admitida"
 
 #. Warning dialog text
 msgctxt "#40006"
-msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
+msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
 msgstr ""
 
 #. Warning dialog text
 msgctxt "#40007"
 msgid "The \"{0:s}\" version already exists!"
-msgstr ""
+msgstr "¡La versión \"{0:s}\" ya existe!"
 
 #. Different video version found dialog title
 msgctxt "#40008"
-msgid "Different {0:s} version found"
+msgid "Different movie version found"
 msgstr ""
 
 #. Different video version found dialog text
 msgctxt "#40009"
-msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
+msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
 msgstr ""
 
 #. "video version" string in singular format
 msgctxt "#40010"
 msgid "video version"
-msgstr ""
+msgstr "versión vídeo"
 
 #. "video version" string in plural format
 msgctxt "#40011"
 msgid "video versions"
-msgstr ""
+msgstr "versiones de vídeo"
 
 #. "video version" string in singular capital format
 msgctxt "#40012"
 msgid "Video version"
-msgstr ""
+msgstr "Versión vídeo"
 
 #. "video version" string in plural capital format
 msgctxt "#40013"
 msgid "Video versions"
-msgstr ""
+msgstr "Versiones de vídeo"
 
-#. Add new video version dialog title
+#. Add video version dialog title
 msgctxt "#40014"
-msgid "Add new {0:s} version"
+msgid "Add version"
 msgstr ""
 
-#. Add new video extras dialog title
+#. Add video extra dialog title
 msgctxt "#40015"
-msgid "Add new {0:s} extras"
+msgid "Add extra"
 msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text.
 msgctxt "#40016"
-msgid "The selected video is already \"{0:s}\" version of current {1:s}."
+msgid "The selected video already is the \"{0:s}\" version of the movie."
 msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
-msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
+msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
 msgstr ""
 
 #. Remove video version dialog title
 msgctxt "#40018"
 msgid "Remove video version"
-msgstr ""
+msgstr "Eliminar la versión de vídeo"
 
 #. Add new video version dialog text
 msgctxt "#40019"
-msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
+msgid "The default version of a movie cannot be removed. Set a different default version and try again."
 msgstr ""
 
 #. Remove video version dialog text
 msgctxt "#40020"
-msgid "Are you sure to remove the video version \"{0:s}\"?"
+msgid "Are you sure to remove version \"{0:s}\"?"
 msgstr ""
 
-#. Convert video version menu
+#. Convert video to version context menu item
 msgctxt "#40021"
-msgid "Convert {0:s} version"
+msgid "Convert to version"
 msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40022"
 msgid "Manage {0:s}"
+msgstr "Gestionar {0:s}"
+
+#. Button label to make a video version the default version
+msgctxt "#40023"
+msgid "Set as default"
 msgstr ""
 
-#. Choose video version dialog title
-msgctxt "#40023"
-msgid "Choose {0:s}"
+#. Choose/Manage video version dialog title
+msgctxt "#40024"
+msgid "Versions: {0:s}"
+msgstr ""
+
+#. Choose/Manage video extra dialog title
+msgctxt "#40025"
+msgid "Extras: {0:s}"
+msgstr ""
+
+#. Add extra dialog text.
+msgctxt "#40026"
+msgid "The selected video already is the \"{0:s}\" extra of the movie."
+msgstr ""
+
+#. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
+msgctxt "#40027"
+msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
 msgstr ""
 
 #. Select default video version setting
 msgctxt "#40200"
 msgid "Select default video version"
-msgstr ""
+msgstr "Seleccionar versión de vídeo por defecto"
 
 #. Help for select default video version setting
 msgctxt "#40201"
 msgid "Defines how to handle selection of videos with multiple versions.[CR][Enabled] Automatically select the default video version without prompting.[CR][Disabled] Display a dialogue to select a version of the video."
-msgstr ""
+msgstr "Define cómo gestionar la selección de vídeos con varias versiones.[CR][Activado] Seleccionar automáticamente la versión de vídeo predeterminada sin preguntar.[CR][Desactivado] Mostrar un diálogo para seleccionar una versión del vídeo."
 
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
-msgstr ""
+msgstr "Ignorar las diferentes versiones de vídeo en la exploración"
 
 #. Help for Ignore different video versions settting
 msgctxt "#40203"
 msgid "Select scanner action for different video versions.[CR][Enabled] Add different video versions to library seperately without confirmation.[CR][Disabled] Prompt for converting different video versions into additional versions of the original."
-msgstr ""
+msgstr "Seleccionar la acción del escáner para diferentes versiones de vídeo.[CR][Activado] Añadir diferentes versiones de vídeo a la biblioteca por separado sin confirmación.[CR][Desactivado] Solicitar la conversión de diferentes versiones de vídeo en versiones adicionales del original."
 
 #. Ignore video extras settting
 msgctxt "#40204"
 msgid "Ignore video extras on scan"
-msgstr ""
+msgstr "Ignorar extras de vídeo en la exploración"
 
 #. Help for ignore video extras settting
 msgctxt "#40205"
 msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
-msgstr ""
+msgstr "Selecciona la acción del escáner para los extras de vídeo en la carpeta \"extras\".[CR][Activado] Escanea los extras de vídeo como los vídeos normales.[CR][Desactivado] Añade los extras de vídeo a la biblioteca para el vídeo asociado."
 
 #. Show video versions as folder settting
 msgctxt "#40206"
-msgid "Show video with multiple versions as folder"
+msgid "Show videos with multiple versions as folder"
 msgstr ""
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
-msgstr ""
+msgstr "Cuando se activa, un vídeo con múltiples versiones se mostrará como una carpeta en la biblioteca de vídeos. Esta carpeta puede abrirse para mostrar las versiones individuales del vídeo. Si está desactivada, se aplicará la acción de selección configurada."
 
 #. Choose video version context menu item label
 msgctxt "#40208"
 msgid "Choose version"
+msgstr "Elegir versión"
+
+#. First choose video version and then select a player and play context menu item label
+msgctxt "#40209"
+msgid "Play version using..."
+msgstr ""
+
+#. Button label for video versions
+msgctxt "#40210"
+msgid "Versions"
+msgstr ""
+
+#. Button label for video extras
+msgctxt "#40211"
+msgid "Extras"
+msgstr ""
+
+#. UPnP remote player volume level sync setting
+msgctxt "#40212"
+msgid "Synchronize volume level to remote UPnP players"
+msgstr ""
+
+#. Help string for UPnP remote player volume level sync setting
+msgctxt "#40213"
+msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
 msgstr ""
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40400"
 msgid "Standard Edition"
-msgstr ""
+msgstr "Edición Estándar"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40401"
 msgid "Extended Edition"
-msgstr ""
+msgstr "Edición Extendida"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40402"
 msgid "Unrated Version"
-msgstr ""
+msgstr "Versión No Clasificada"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40403"
 msgid "Uncut Version"
-msgstr ""
+msgstr "Versión Sin Cortes"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40404"
 msgid "Remastered Version"
-msgstr ""
+msgstr "Versión Remasterizada"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40405"
 msgid "4K"
-msgstr ""
+msgstr "4K"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40406"
 msgid "Theatrical Cut"
-msgstr ""
+msgstr "Montaje Teatral"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40407"
 msgid "Director's Cut"
-msgstr ""
+msgstr "Montaje del Director"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40408"
 msgid "Special Edition"
-msgstr ""
+msgstr "Edición Especial"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40409"
 msgid "Limited Edition"
-msgstr ""
+msgstr "Edición Limitada"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40410"
 msgid "Complete Edition"
-msgstr ""
+msgstr "Edición Completa"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40411"
 msgid "The Final Cut"
-msgstr ""
+msgstr "Montaje Final"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40412"
 msgid "Super Duper Cut"
-msgstr ""
+msgstr "Montaje Súper Loco"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40413"
 msgid "Collector's Edition"
-msgstr ""
+msgstr "Edición de Coleccionista"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40414"
 msgid "Ultimate Collector's Edition"
-msgstr ""
+msgstr "Edición Coleccionista Definitiva"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40415"
 msgid "Criterion Collection Edition"
-msgstr ""
+msgstr "Edición Criterion Collection"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40416"
 msgid "Fan Edit"
-msgstr ""
+msgstr "Edición de Fans"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40417"
 msgid "Black and White Edition"
-msgstr ""
+msgstr "Edición Blanco y Negro"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40418"
 msgid "BluRay"
-msgstr ""
+msgstr "BluRay"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40419"
 msgid "WEB-DL"
-msgstr ""
+msgstr "WEB-DL"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40420"
 msgid "3D"
-msgstr ""
+msgstr "3D"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40421"
 msgid "8K"
-msgstr ""
+msgstr "8K"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40422"
 msgid "IMAX"
-msgstr ""
+msgstr "IMAX"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40423"
 msgid "UHD"
-msgstr ""
+msgstr "UHD"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40424"
 msgid "FHD"
-msgstr ""
+msgstr "FHD"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40425"
 msgid "HD"
-msgstr ""
+msgstr "HD"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40426"
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40427"
@@ -19427,47 +19474,107 @@ msgstr "DVD"
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40428"
 msgid "VHS"
-msgstr ""
+msgstr "VHS"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40429"
 msgid "VCD"
-msgstr ""
+msgstr "VCD"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40430"
 msgid "REMUX"
-msgstr ""
+msgstr "REMUX"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40431"
 msgid "10th Anniversary Edition"
-msgstr ""
+msgstr "Edición 10º Aniversario"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40432"
 msgid "20th Anniversary Edition"
-msgstr ""
+msgstr "Edición 20 Aniversario"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40433"
 msgid "25th Anniversary Edition"
-msgstr ""
+msgstr "Edición 25 Aniversario"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40434"
 msgid "30th Anniversary Edition"
-msgstr ""
+msgstr "Edición 30 Aniversario"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40435"
 msgid "40th Anniversary Edition"
-msgstr ""
+msgstr "Edición 40 Aniversario"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
-msgstr ""
+msgstr "Edición 50 Aniversario"
+
+#~ msgctxt "#40002"
+#~ msgid "Convert into an additional version of {0:s}"
+#~ msgstr "Convertir en una versión adicional de {0:s}"
+
+#~ msgctxt "#40006"
+#~ msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
+#~ msgstr "El {0:s} seleccionado contiene varias versiones. No se puede convertir en una versión adicional de otra. Elimínalo de la biblioteca, vuelve a explorar y convierte cada versión por separado."
+
+#~ msgctxt "#40008"
+#~ msgid "Different {0:s} version found"
+#~ msgstr "Versión {0:s} diferente encontrada"
+
+#~ msgctxt "#40009"
+#~ msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
+#~ msgstr "Encontrada una versión diferente de {0:s} \"{1:s}\" ({2:s}). ¿Quieres convertirla en una versión adicional de la original?"
+
+#~ msgctxt "#40019"
+#~ msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
+#~ msgstr "No se puede eliminar la versión por defecto \"{0:s}\" desde {1:s} \"{2:s}\". Cambia la versión por defecto e inténtalo de nuevo."
+
+#~ msgctxt "#40001"
+#~ msgid "Manage {0:s} version"
+#~ msgstr "Gestionar versión {0:s}"
+
+#~ msgctxt "#40003"
+#~ msgid "Select {0:s} version"
+#~ msgstr "Seleccionar versión {0:s}"
+
+#~ msgctxt "#40014"
+#~ msgid "Add new {0:s} version"
+#~ msgstr "Añadir nueva versión {0:s}"
+
+#~ msgctxt "#40015"
+#~ msgid "Add new {0:s} extras"
+#~ msgstr "Añadir nuevos {0:s} extras"
+
+#~ msgctxt "#40016"
+#~ msgid "The selected video is already \"{0:s}\" version of current {1:s}."
+#~ msgstr "El vídeo seleccionado ya es la versión \"{0:s}\" del actual {1:s}."
+
+#~ msgctxt "#40017"
+#~ msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
+#~ msgstr "El vídeo seleccionado es la versión \"{0:s}\" de {1:s} \"{2:s}\". ¿Quieres eliminar esta versión y añadirla a la actual {3:s}?"
+
+#~ msgctxt "#40020"
+#~ msgid "Are you sure to remove the video version \"{0:s}\"?"
+#~ msgstr "¿Está seguro de eliminar la versión de vídeo \"{0:s}\"?"
+
+#~ msgctxt "#40021"
+#~ msgid "Convert {0:s} version"
+#~ msgstr "Convertir versión {0:s}"
+
+#~ msgctxt "#40206"
+#~ msgid "Show video with multiple versions as folder"
+#~ msgstr "Mostrar vídeo con varias versiones como carpeta"
+
+#~ msgctxt "#40023"
+#~ msgid "Choose {0:s}"
+#~ msgstr "Elegir {0:s}"
 
 #~ msgctxt "#39194"
 #~ msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."

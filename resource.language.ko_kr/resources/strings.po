@@ -4724,6 +4724,14 @@ msgctxt "#12014"
 msgid "Last updated"
 msgstr "마지막 업데이트"
 
+msgctxt "#12015"
+msgid "Select video version"
+msgstr ""
+
+msgctxt "#12016"
+msgid "Select video extra"
+msgstr ""
+
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
 msgid "Play from beginning"
@@ -19118,25 +19126,19 @@ msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, whic
 msgstr "사용하면, 돌비 비전 프로필 7이 대부분 장치에서 지원되는 프로필 8.1로 바뀝니다. 장치가 돌비 비전을 지원하지만 일부 동영상에 문제가 있는 경우 사용합니다."
 
 # 40000 to 40800 are reserved for Video Versions feature
-#. Video versions
 msgctxt "#40000"
 msgid "Versions"
 msgstr "버전"
 
-#. Manage video version menu
+#. Manage video versions context menu item
 msgctxt "#40001"
-msgid "Manage {0:s} version"
-msgstr "{0:s} 버전 관리"
+msgid "Manage versions"
+msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version of {0:s}"
-msgstr "{0:s}의 추가 버전으로 변환"
-
-#. Video version selection dialog title
-msgctxt "#40003"
-msgid "Select {0:s} version"
-msgstr "{0:s} 버전 선택"
+msgid "Convert into an additional version"
+msgstr ""
 
 #. New video version dialog button
 msgctxt "#40004"
@@ -19150,8 +19152,8 @@ msgstr "지원되지 않는 작업"
 
 #. Warning dialog text
 msgctxt "#40006"
-msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
-msgstr "선택한 {0:s}에 여러 버전이 포함되어 있습니다. 다른 추가 버전으로 바꿀 수 없습니다. 라이브러리에서 제거하고 다시 스캔하여 각 버전을 각각 바꿉니다."
+msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
+msgstr ""
 
 #. Warning dialog text
 msgctxt "#40007"
@@ -19160,13 +19162,13 @@ msgstr "\"{0:s}\" 버전이 이미 존재합니다!"
 
 #. Different video version found dialog title
 msgctxt "#40008"
-msgid "Different {0:s} version found"
-msgstr "다른 {0:s} 버전이 발견됨"
+msgid "Different movie version found"
+msgstr ""
 
 #. Different video version found dialog text
 msgctxt "#40009"
-msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
-msgstr "{0:s} \"{1:s}\"({2:s})의 다른 버전을 찾았습니다. 원본의 추가 버전으로 바꿀까요?"
+msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
+msgstr ""
 
 #. "video version" string in singular format
 msgctxt "#40010"
@@ -19188,25 +19190,25 @@ msgctxt "#40013"
 msgid "Video versions"
 msgstr "비디오 버전"
 
-#. Add new video version dialog title
+#. Add video version dialog title
 msgctxt "#40014"
-msgid "Add new {0:s} version"
-msgstr "새 {0:s} 버전 추가"
+msgid "Add version"
+msgstr ""
 
-#. Add new video extras dialog title
+#. Add video extra dialog title
 msgctxt "#40015"
-msgid "Add new {0:s} extras"
-msgstr "새로운 {0:s} 항목 추가"
+msgid "Add extra"
+msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text.
 msgctxt "#40016"
-msgid "The selected video is already \"{0:s}\" version of current {1:s}."
-msgstr "선택한 동영상은 이미 현재 {1:s}의 '{0:s}' 버전입니다."
+msgid "The selected video already is the \"{0:s}\" version of the movie."
+msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
-msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
-msgstr "선택한 동영상은 {1:s} \"{2:s}\"의 \"{0:s}\" 버전입니다. 이 버전을 제거하고 현재 {3:s}에 추가하시겠습니까?"
+msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
+msgstr ""
 
 #. Remove video version dialog title
 msgctxt "#40018"
@@ -19215,27 +19217,47 @@ msgstr "비디오 버전 삭제"
 
 #. Add new video version dialog text
 msgctxt "#40019"
-msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
-msgstr "{1:s} \"{2:s}\"에서 기본 버전 \"{0:s}\"을(를) 제거할 수 없습니다. 기본 버전을 변경하고 다시 시도해 보세요."
+msgid "The default version of a movie cannot be removed. Set a different default version and try again."
+msgstr ""
 
 #. Remove video version dialog text
 msgctxt "#40020"
-msgid "Are you sure to remove the video version \"{0:s}\"?"
-msgstr "동영상 버전 \"{0:s}\"을(를) 지울까요?"
+msgid "Are you sure to remove version \"{0:s}\"?"
+msgstr ""
 
-#. Convert video version menu
+#. Convert video to version context menu item
 msgctxt "#40021"
-msgid "Convert {0:s} version"
-msgstr "{0:s} 버전 변환"
+msgid "Convert to version"
+msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40022"
 msgid "Manage {0:s}"
 msgstr "{0:s} 관리"
 
-#. Choose video version dialog title
+#. Button label to make a video version the default version
 msgctxt "#40023"
-msgid "Choose {0:s}"
+msgid "Set as default"
+msgstr ""
+
+#. Choose/Manage video version dialog title
+msgctxt "#40024"
+msgid "Versions: {0:s}"
+msgstr ""
+
+#. Choose/Manage video extra dialog title
+msgctxt "#40025"
+msgid "Extras: {0:s}"
+msgstr ""
+
+#. Add extra dialog text.
+msgctxt "#40026"
+msgid "The selected video already is the \"{0:s}\" extra of the movie."
+msgstr ""
+
+#. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
+msgctxt "#40027"
+msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
 msgstr ""
 
 #. Select default video version setting
@@ -19270,8 +19292,8 @@ msgstr "\"추가\" 폴더에 있는 동영상 추가 항목에 대한 스캔 작
 
 #. Show video versions as folder settting
 msgctxt "#40206"
-msgid "Show video with multiple versions as folder"
-msgstr "여러 버전의 동영상을 폴더로 표시"
+msgid "Show videos with multiple versions as folder"
+msgstr ""
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
@@ -19281,6 +19303,31 @@ msgstr ""
 #. Choose video version context menu item label
 msgctxt "#40208"
 msgid "Choose version"
+msgstr ""
+
+#. First choose video version and then select a player and play context menu item label
+msgctxt "#40209"
+msgid "Play version using..."
+msgstr ""
+
+#. Button label for video versions
+msgctxt "#40210"
+msgid "Versions"
+msgstr ""
+
+#. Button label for video extras
+msgctxt "#40211"
+msgid "Extras"
+msgstr ""
+
+#. UPnP remote player volume level sync setting
+msgctxt "#40212"
+msgid "Synchronize volume level to remote UPnP players"
+msgstr ""
+
+#. Help string for UPnP remote player volume level sync setting
+msgctxt "#40213"
+msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
 msgstr ""
 
 # Video versions
@@ -19468,6 +19515,62 @@ msgstr "40주년판"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50주년판"
+
+#~ msgctxt "#40002"
+#~ msgid "Convert into an additional version of {0:s}"
+#~ msgstr "{0:s}의 추가 버전으로 변환"
+
+#~ msgctxt "#40006"
+#~ msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
+#~ msgstr "선택한 {0:s}에 여러 버전이 포함되어 있습니다. 다른 추가 버전으로 바꿀 수 없습니다. 라이브러리에서 제거하고 다시 스캔하여 각 버전을 각각 바꿉니다."
+
+#~ msgctxt "#40008"
+#~ msgid "Different {0:s} version found"
+#~ msgstr "다른 {0:s} 버전이 발견됨"
+
+#~ msgctxt "#40009"
+#~ msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
+#~ msgstr "{0:s} \"{1:s}\"({2:s})의 다른 버전을 찾았습니다. 원본의 추가 버전으로 바꿀까요?"
+
+#~ msgctxt "#40019"
+#~ msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
+#~ msgstr "{1:s} \"{2:s}\"에서 기본 버전 \"{0:s}\"을(를) 제거할 수 없습니다. 기본 버전을 변경하고 다시 시도해 보세요."
+
+#~ msgctxt "#40001"
+#~ msgid "Manage {0:s} version"
+#~ msgstr "{0:s} 버전 관리"
+
+#~ msgctxt "#40003"
+#~ msgid "Select {0:s} version"
+#~ msgstr "{0:s} 버전 선택"
+
+#~ msgctxt "#40014"
+#~ msgid "Add new {0:s} version"
+#~ msgstr "새 {0:s} 버전 추가"
+
+#~ msgctxt "#40015"
+#~ msgid "Add new {0:s} extras"
+#~ msgstr "새로운 {0:s} 항목 추가"
+
+#~ msgctxt "#40016"
+#~ msgid "The selected video is already \"{0:s}\" version of current {1:s}."
+#~ msgstr "선택한 동영상은 이미 현재 {1:s}의 '{0:s}' 버전입니다."
+
+#~ msgctxt "#40017"
+#~ msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
+#~ msgstr "선택한 동영상은 {1:s} \"{2:s}\"의 \"{0:s}\" 버전입니다. 이 버전을 제거하고 현재 {3:s}에 추가하시겠습니까?"
+
+#~ msgctxt "#40020"
+#~ msgid "Are you sure to remove the video version \"{0:s}\"?"
+#~ msgstr "동영상 버전 \"{0:s}\"을(를) 지울까요?"
+
+#~ msgctxt "#40021"
+#~ msgid "Convert {0:s} version"
+#~ msgstr "{0:s} 버전 변환"
+
+#~ msgctxt "#40206"
+#~ msgid "Show video with multiple versions as folder"
+#~ msgstr "여러 버전의 동영상을 폴더로 표시"
 
 #~ msgctxt "#40023"
 #~ msgid "Play {0:s}"

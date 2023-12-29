@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-12-07 18:46+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2023-12-18 20:05+0000\n"
+"Last-Translator: queeup <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/tr_tr/>\n"
 "Language: tr_tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -4649,7 +4649,7 @@ msgstr "Gelişmiş Ayarlar"
 #. Title of the in-game video rotation selection dialog
 msgctxt "#10827"
 msgid "Video Rotation"
-msgstr ""
+msgstr "Video Döndürme"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#10828"
@@ -4659,17 +4659,17 @@ msgstr "Bağlantı Noktası Kurulumu"
 #. Title of the in-game dialog to select a savestate for the current game
 msgctxt "#10829"
 msgid "Select Savestate"
-msgstr ""
+msgstr "Kaydedilmiş Durumu Seç"
 
 #. Title of the out-of-game dialog to select a savestate for the current game
 msgctxt "#10830"
 msgid "Select Savestate"
-msgstr ""
+msgstr "Kaydedilmiş Durumu Seç"
 
 #. Name of window for viewing and configuring players while playing a game
 msgctxt "#10831"
 msgid "Players"
-msgstr ""
+msgstr "Oyuncular"
 
 msgctxt "#12000"
 msgid "Select dialog"
@@ -4723,6 +4723,14 @@ msgstr "Yükleme tarihi"
 msgctxt "#12014"
 msgid "Last updated"
 msgstr "Son güncelleme"
+
+msgctxt "#12015"
+msgid "Select video version"
+msgstr "Video sürümünü seç"
+
+msgctxt "#12016"
+msgid "Select video extra"
+msgstr ""
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -5939,7 +5947,7 @@ msgstr "Yukarıdaki ölçeklendirmeler için yüksek kalite ölçekleyiciyi etki
 
 msgctxt "#13436"
 msgid "Adjust display HDR mode"
-msgstr ""
+msgstr "HDR görünüm modunu ayarla"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -13790,7 +13798,7 @@ msgstr "Roller"
 #. Label for multi-disc movies, including movie title (param 0) and disc number (param 1).
 msgctxt "#29995"
 msgid "{0:s} (Disc {1:s})"
-msgstr ""
+msgstr "{0:s} (Disc {1:s})"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -16298,7 +16306,7 @@ msgstr "Etkinleştirilirse ve PVR eklentisi ve arka uç tarafından destekleniyo
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
 msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
-msgstr ""
+msgstr "Ekranın HDR modunun medyayla en iyi eşleşecek şekilde değiştirilmesine izin verin.[CR]Devre dışı bırakıldığında Kodi, medyayı ekranın geçerli HDR moduna uyarlamak için gerektiği şekilde tone mapping uygular."
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -17913,32 +17921,32 @@ msgstr "SMB bağlantılarında kullanılan veri yığın boyutu"
 #. Settings / Services "Caching" category label
 msgctxt "#37101"
 msgid "Caching"
-msgstr ""
+msgstr "Önbelleğe Alma"
 
 #. Description of category #37101 "Caching"
 msgctxt "#37102"
 msgid "This category contains settings that configure caching of local and network files, and internet streams."
-msgstr ""
+msgstr "Bu kategori yerel ve ağ dosyalarının ve internet akışlarının önbelleğe alınmasını yapılandıran ayarları içerir."
 
 #. Setting #37103 "Buffer Mode"
 msgctxt "#37103"
 msgid "Buffer Mode"
-msgstr ""
+msgstr "Arabellek Modu"
 
 #. Description of setting #37103 "Buffer Mode"
 msgctxt "#37104"
 msgid "Configure the media content to buffer."
-msgstr ""
+msgstr "Arabelleğe alınacak medya içeriğini yapılandırın."
 
 #. Setting #37105 "Memory Size"
 msgctxt "#37105"
 msgid "Memory Size"
-msgstr ""
+msgstr "Bellek Boyutu"
 
 #. Description of setting #37105 "Memory Size"
 msgctxt "#37106"
 msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
-msgstr ""
+msgstr "Mbyte cinsinden bellek arabelleğinin boyutu. Sıfıra (0) ayarlamak, diskin ara belleğe alınmasını zorlar. Bu değer flash depolama aygıtlarında (eMMC, SD kartlar, SSD) önerilmez."
 
 #. Setting #37107 "Read Factor"
 msgctxt "#37107"
@@ -19118,24 +19126,18 @@ msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, whic
 msgstr "Etkinleştirilirse, Dolby Vision profil 7, cihazlar tarafından daha yaygın olarak desteklenen profil 8.1'e dönüştürülür. Cihazınız Dolby Vision'ı destekliyor ancak bazı videolarda sorun yaşıyorsa etkinleştirin."
 
 # 40000 to 40800 are reserved for Video Versions feature
-#. Video versions
 msgctxt "#40000"
 msgid "Versions"
 msgstr "Sürümler"
 
-#. Manage video version menu
+#. Manage video versions context menu item
 msgctxt "#40001"
-msgid "Manage {0:s} version"
+msgid "Manage versions"
 msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version of {0:s}"
-msgstr ""
-
-#. Video version selection dialog title
-msgctxt "#40003"
-msgid "Select {0:s} version"
+msgid "Convert into an additional version"
 msgstr ""
 
 #. New video version dialog button
@@ -19150,7 +19152,7 @@ msgstr ""
 
 #. Warning dialog text
 msgctxt "#40006"
-msgid "The selected {0:s} contains multiple versions. Cannot convert into an additional version of another one. Remove it from the library, rescan, and convert each version separately."
+msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
 msgstr ""
 
 #. Warning dialog text
@@ -19160,12 +19162,12 @@ msgstr ""
 
 #. Different video version found dialog title
 msgctxt "#40008"
-msgid "Different {0:s} version found"
+msgid "Different movie version found"
 msgstr ""
 
 #. Different video version found dialog text
 msgctxt "#40009"
-msgid "Found a different version of {0:s} \"{1:s}\" ({2:s}). Would you like to convert it into an additional version of the original?"
+msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
 msgstr ""
 
 #. "video version" string in singular format
@@ -19188,24 +19190,24 @@ msgctxt "#40013"
 msgid "Video versions"
 msgstr ""
 
-#. Add new video version dialog title
+#. Add video version dialog title
 msgctxt "#40014"
-msgid "Add new {0:s} version"
+msgid "Add version"
 msgstr ""
 
-#. Add new video extras dialog title
+#. Add video extra dialog title
 msgctxt "#40015"
-msgid "Add new {0:s} extras"
+msgid "Add extra"
 msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text.
 msgctxt "#40016"
-msgid "The selected video is already \"{0:s}\" version of current {1:s}."
+msgid "The selected video already is the \"{0:s}\" version of the movie."
 msgstr ""
 
-#. Add new video version dialog text
+#. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
-msgid "The selected video is \"{0:s}\" version of {1:s} \"{2:s}\". Would you like to remove this version and add it to current {3:s}?"
+msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
 msgstr ""
 
 #. Remove video version dialog title
@@ -19215,17 +19217,17 @@ msgstr ""
 
 #. Add new video version dialog text
 msgctxt "#40019"
-msgid "Unable to remove default version \"{0:s}\" from {1:s} \"{2:s}\". Change the default version and try again."
+msgid "The default version of a movie cannot be removed. Set a different default version and try again."
 msgstr ""
 
 #. Remove video version dialog text
 msgctxt "#40020"
-msgid "Are you sure to remove the video version \"{0:s}\"?"
+msgid "Are you sure to remove version \"{0:s}\"?"
 msgstr ""
 
-#. Convert video version menu
+#. Convert video to version context menu item
 msgctxt "#40021"
-msgid "Convert {0:s} version"
+msgid "Convert to version"
 msgstr ""
 
 #. Manage video version dialog title
@@ -19233,9 +19235,29 @@ msgctxt "#40022"
 msgid "Manage {0:s}"
 msgstr ""
 
-#. Choose video version dialog title
+#. Button label to make a video version the default version
 msgctxt "#40023"
-msgid "Choose {0:s}"
+msgid "Set as default"
+msgstr ""
+
+#. Choose/Manage video version dialog title
+msgctxt "#40024"
+msgid "Versions: {0:s}"
+msgstr ""
+
+#. Choose/Manage video extra dialog title
+msgctxt "#40025"
+msgid "Extras: {0:s}"
+msgstr ""
+
+#. Add extra dialog text.
+msgctxt "#40026"
+msgid "The selected video already is the \"{0:s}\" extra of the movie."
+msgstr ""
+
+#. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
+msgctxt "#40027"
+msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
 msgstr ""
 
 #. Select default video version setting
@@ -19270,7 +19292,7 @@ msgstr ""
 
 #. Show video versions as folder settting
 msgctxt "#40206"
-msgid "Show video with multiple versions as folder"
+msgid "Show videos with multiple versions as folder"
 msgstr ""
 
 #. Help for show video versions as folder settting
@@ -19281,6 +19303,31 @@ msgstr ""
 #. Choose video version context menu item label
 msgctxt "#40208"
 msgid "Choose version"
+msgstr ""
+
+#. First choose video version and then select a player and play context menu item label
+msgctxt "#40209"
+msgid "Play version using..."
+msgstr ""
+
+#. Button label for video versions
+msgctxt "#40210"
+msgid "Versions"
+msgstr ""
+
+#. Button label for video extras
+msgctxt "#40211"
+msgid "Extras"
+msgstr ""
+
+#. UPnP remote player volume level sync setting
+msgctxt "#40212"
+msgid "Synchronize volume level to remote UPnP players"
+msgstr ""
+
+#. Help string for UPnP remote player volume level sync setting
+msgctxt "#40213"
+msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
 msgstr ""
 
 # Video versions
