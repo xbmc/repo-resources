@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon  id="resource.images.retrospect"
-        version="1.0.15"
+        version="1.0.16"
         name="Retrospect channel logos and artwork"
         provider-name="Bas Rieter">
 
@@ -10,7 +10,8 @@
         <import addon="kodi.resource" version="1.0.0"/>
     </requires>
 
-    <extension point="xbmc.addon.metadata">
+   <extension point="xbmc.addon.metadata">
+        <broken>Kodi Leia is no longer supported. Use Matrix and above.</broken>
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <platform>all</platform>
         <summary lang="en_GB">Artwork and logos for the channels in Retrospect.</summary>
