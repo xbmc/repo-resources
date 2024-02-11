@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-12-17 11:08+0000\n"
+"PO-Revision-Date: 2024-02-02 04:57+0000\n"
 "Last-Translator: Frodo19 <bilbohu@gmail.com>\n"
 "Language-Team: Hungarian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/hu_hu/>\n"
 "Language: hu_hu\n"
@@ -1698,8 +1698,8 @@ msgid "Remove movie from library"
 msgstr "Film eltávolítása a médiatárból"
 
 msgctxt "#433"
-msgid "Would you really like to remove '{0:s}' from library?"
-msgstr "Biztos eltávolítja a médiatárból: „{0:s}”?"
+msgid "Would you really like to remove '{0:s}' from the library?"
+msgstr ""
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -2409,6 +2409,7 @@ msgctxt "#629"
 msgid "View mode"
 msgstr "Nézet mód"
 
+#. Label for stretching the displayed video to its normal size
 msgctxt "#630"
 msgid "Normal"
 msgstr "Normál"
@@ -2417,6 +2418,7 @@ msgctxt "#631"
 msgid "Zoom"
 msgstr "Nagyítás"
 
+#. Label for stretching the displayed video to a 4:3 aspect ratio
 msgctxt "#632"
 msgid "Stretch 4:3"
 msgstr "Széthúzás 4:3-ra"
@@ -2425,10 +2427,12 @@ msgctxt "#633"
 msgid "Wide zoom"
 msgstr "Széles nagyítás"
 
+#. Label for stretching the displayed video to a 16:9 aspect ratio
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "Széthúzás 16:9-re"
 
+#. Label for stretching the displayed video to the original size of the video stream
 msgctxt "#635"
 msgid "Original size"
 msgstr "Eredeti méret"
@@ -4728,11 +4732,11 @@ msgstr "Utoljára frissítve"
 
 msgctxt "#12015"
 msgid "Select video version"
-msgstr ""
+msgstr "Videó verzió kiválasztása"
 
 msgctxt "#12016"
 msgid "Select video extra"
-msgstr ""
+msgstr "Video extra kiválasztása"
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -9315,10 +9319,30 @@ msgctxt "#19349"
 msgid "User preference"
 msgstr "Felhasználói preferenciák"
 
-#. label for PVR settings use backend channel group order control
+#. label for PVR setting use backend channel group order control
 msgctxt "#19350"
 msgid "Use channel group order from backend(s)"
 msgstr "Csatornacsoport-sorrend használata a háttérrendszer(ek)ből"
+
+#. label for PVR settings category for live tv catchup and video on demand
+msgctxt "#19351"
+msgid "Catchup / Video On Demand"
+msgstr "Igény szerinti videó"
+
+#. label for PVR setting play next programme automatically in catchup / vod mode
+msgctxt "#19352"
+msgid "Play next programme automatically"
+msgstr "A következő program automatikus lejátszása"
+
+#. Label of a context menu entry to kick catchup / VOD playback, starting with the selected item, auto playing all following programmes
+msgctxt "#19353"
+msgid "Play programmes from here"
+msgstr "Programok lejátszása innen"
+
+#. Label of a context menu entry to kick catchup / VOD playback of only the selected item, not auto playing any following programmes
+msgctxt "#19354"
+msgid "Play only this programme"
+msgstr "Csak ennek a programnak a lejátszása"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -16309,8 +16333,8 @@ msgstr "Ha engedélyezve van, akkor az emlékeztető program felvételét üteme
 
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
-msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
-msgstr "Engedélyezze a kijelző HDR-módjának módosítását, hogy a legjobban illeszkedjen a médiához.[CR]Ha le van tiltva, a Kodi szükség szerint színleképezést alkalmaz, hogy a médiát a kijelző aktuális HDR-módjához igazítsa."
+msgid "Allow the HDR mode of the display to be changed to best match the media. When disabled, Kodi applies tonemapping if needed (and if supported on your hardware) to adapt the media to the current HDR mode of the display."
+msgstr "Hagyja módosítani a kijelző HDR-módját, hogy a legjobban illeszkedjen a médiához. Ha le van tiltva, a Kodi szükség esetén hangleképezést alkalmaz (és ha a hardver támogatja), hogy a médiát a kijelző aktuális HDR-módjához igazítsa."
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -16990,6 +17014,11 @@ msgstr "Csak hivatalos adattárak (alapértelmezett)"
 msgctxt "#36438"
 msgid "Any repositories"
 msgstr "Bármely adattár"
+
+#. Description of setting with label #19352 "Play next programme automatically"
+msgctxt "#36439"
+msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
+msgstr "Engedélyezze a következő műsor automatikus lejátszását korábbi programok lejátszásakor (felzárkózás) vagy Video On Demand (VOD) csatornák esetén. Felhívjuk figyelmét, hogy a felzárkózás és a VOD csak akkor működik, ha a csatorna szolgáltatója támogatja."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17959,8 +17988,8 @@ msgstr "Olvasási faktor"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
-msgstr "Az olvasási tényező határozza meg a gyorsítótár-kitöltési arányt az átlagos értékben. adatfolyam bitrátája x olvasási tényező. Ennek a többszörösnek növelésével a gyorsítótár gyorsabban töltődik fel, de több sávszélességet fogyaszt. A nagy többszörösek CPU-csúcsokat okozhatnak egyes eszközökön, telíthetik a kapcsolatot és ronthatják a teljesítményt."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+msgstr ""
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -17992,10 +18021,15 @@ msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
 msgstr "Puffereljen minden fájlrendszert, beleértve a helyi fájlokat is"
 
-#. Value of setting
+#. Value of setting #37105 "Memory Size"
 msgctxt "#37115"
 msgid "Caches entire file on disk storage"
 msgstr "Gyorsítótárazza a teljes fájlt a lemezen"
+
+#. Value of setting #37107 "Read Factor"
+msgctxt "#37116"
+msgid "Adaptative"
+msgstr ""
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19129,7 +19163,28 @@ msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr "Ha engedélyezve van, a Dolby Vision 7-es profil, 8.1-es profilra lesz konvertálva, amelyet több eszköz is támogat. Engedélyezze, ha az eszköze támogatja a Dolby Visiont, de problémák vannak bizonyos videókkal."
 
+#. Title of "Allowed HDR dynamic metadata formats" setting
+msgctxt "#39198"
+msgid "Allowed HDR dynamic metadata formats"
+msgstr "Engedélyezett HDR formátumok"
+
+#. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39199"
+msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
+msgstr "Módosítsa a videó bitfolyamot a dinamikus HDR metaadatok eltávolításával. Válassza ki a készüléke és a kijelzője által támogatott HDR-formátumokat."
+
+#. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39200"
+msgid "Dolby Vision"
+msgstr "Dolby Vision"
+
+#. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39201"
+msgid "HDR10+"
+msgstr "HDR10+"
+
 # 40000 to 40800 are reserved for Video Versions feature
+#. Generic video versions label (plural)
 msgctxt "#40000"
 msgid "Versions"
 msgstr "Verziók"
@@ -19137,17 +19192,22 @@ msgstr "Verziók"
 #. Manage video versions context menu item
 msgctxt "#40001"
 msgid "Manage versions"
-msgstr ""
+msgstr "Verziók rendezése"
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version"
-msgstr ""
+msgid "Add as version to..."
+msgstr "Hozzáadás verzióként..."
 
-#. New video version dialog button
+#. Generic video version label (singular)
+msgctxt "#40003"
+msgid "Version"
+msgstr "Verzió"
+
+#. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
-msgid "New version..."
-msgstr "Új verzió..."
+msgid "Choose type"
+msgstr ""
 
 #. Warning dialog title
 msgctxt "#40005"
@@ -19157,7 +19217,7 @@ msgstr "A művelet nem támogatott"
 #. Warning dialog text
 msgctxt "#40006"
 msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
-msgstr ""
+msgstr "A kiválasztott filmnek több verziója is van, ami megakadályozza, hogy egy másik film verziójává alakítsák át. Távolítsa el a verziókat a filmből, olvastassa be újra a könyvtárat, és alakítsa át őket egyenként."
 
 #. Warning dialog text
 msgctxt "#40007"
@@ -19167,12 +19227,12 @@ msgstr "A \"{0:s}\" verzió már létezik!"
 #. Different video version found dialog title
 msgctxt "#40008"
 msgid "Different movie version found"
-msgstr ""
+msgstr "Eltérő filmváltozat található"
 
 #. Different video version found dialog text
 msgctxt "#40009"
 msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
-msgstr ""
+msgstr "A(z) \"{0:s}\" film egy másik változata található: {1:s}. Szeretné átalakítani az eredeti egy további változatává?"
 
 #. "video version" string in singular format
 msgctxt "#40010"
@@ -19197,41 +19257,41 @@ msgstr "Videó verziók"
 #. Add video version dialog title
 msgctxt "#40014"
 msgid "Add version"
-msgstr ""
+msgstr "Verzió hozzáadása"
 
 #. Add video extra dialog title
 msgctxt "#40015"
 msgid "Add extra"
-msgstr ""
+msgstr "Extra hozzáadása"
 
 #. Add video version dialog text.
 msgctxt "#40016"
 msgid "The selected video already is the \"{0:s}\" version of the movie."
-msgstr ""
+msgstr "A kiválasztott videó már a film „{0:s}” verziója."
 
 #. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
 msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
-msgstr ""
+msgstr "A kiválasztott videó a \"{1:s}\" film \"{0:s}\" verziója. Szeretnéd áthelyezni a verziót ebbe a filmbe?"
 
 #. Remove video version dialog title
 msgctxt "#40018"
 msgid "Remove video version"
 msgstr "Videó verzió eltávolítsa"
 
-#. Add new video version dialog text
+#. Manage versions, remove: removing the default version of a movie is not allowed.
 msgctxt "#40019"
 msgid "The default version of a movie cannot be removed. Set a different default version and try again."
-msgstr ""
+msgstr "A film alapértelmezett verziója nem távolítható el. Állítson be egy másik alapértelmezett verziót, és próbálja újra."
 
 #. Remove video version dialog text
 msgctxt "#40020"
 msgid "Are you sure to remove version \"{0:s}\"?"
-msgstr ""
+msgstr "Biztosan eltávolítja a \"{0:s}\" verziót?"
 
-#. Convert video to version context menu item
+#. Remove item from library text if item has multiple versions
 msgctxt "#40021"
-msgid "Convert to version"
+msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
 msgstr ""
 
 #. Manage video version dialog title
@@ -19242,27 +19302,82 @@ msgstr "{0:s} kezelése"
 #. Button label to make a video version the default version
 msgctxt "#40023"
 msgid "Set as default"
-msgstr ""
+msgstr "Beállítás alapértelmezettként"
 
 #. Choose/Manage video version dialog title
 msgctxt "#40024"
-msgid "Versions: {0:s}"
-msgstr ""
+msgid "Versions Manager: {0:s}"
+msgstr "Verziókezelő: {0:s}"
 
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
-msgid "Extras: {0:s}"
-msgstr ""
+msgid "Extras Manager: {0:s}"
+msgstr "Extra kezelő: {0:s}"
 
 #. Add extra dialog text.
 msgctxt "#40026"
 msgid "The selected video already is the \"{0:s}\" extra of the movie."
-msgstr ""
+msgstr "A kiválasztott videó már a film „{0:s}” extrája."
 
 #. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
 msgctxt "#40027"
 msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
-msgstr ""
+msgstr "A kiválasztott videó a \"{1:s}\" film \"{0:s}\" extrája. Szeretnéd áthelyezni az extrát ebbe a filmbe?"
+
+#. Browse the computer files for the file to be added as version
+msgctxt "#40028"
+msgid "Browse files"
+msgstr "Fájlok böngészése"
+
+#. Browse the library for the movie to be added as version
+msgctxt "#40029"
+msgid "Browse library"
+msgstr "Médiatár böngészése"
+
+#. Select the movie to be added as a version
+msgctxt "#40030"
+msgid "Select movie to add as a version"
+msgstr "Válassza ki a verzióként hozzáadni kívánt filmet"
+
+#. No other movies found in the library
+msgctxt "#40031"
+msgid "No other movies found in the library."
+msgstr "Más film nem található a könyvtárban."
+
+#. Add version: no similar movies were found in the library.
+msgctxt "#40032"
+msgid "No similar movies were found in the library."
+msgstr "Hasonló filmet nem találtunk a könyvtárban."
+
+#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40033"
+msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+msgstr "A több verziót tartalmazó film alapértelmezett verziója nem adható hozzá másik filmhez. Kérjük, először adja hozzá a további verzióit."
+
+#. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
+msgctxt "#40034"
+msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
+msgstr "A több verziót tartalmazó film alapértelmezett verziója nem adható extraként egy másik filmhez. Kérjük, először helyezze át vagy távolítsa el a többi verziót."
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40035"
+msgid "You are about to convert a movie extra into a movie version. Are you sure?"
+msgstr "Egy filmextrát készül filmváltozattá alakítani. biztos vagy ebben?"
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40036"
+msgid "You are about to convert a movie version into a movie extra. Are you sure?"
+msgstr "Egy filmváltozatot készül filmextrává alakítani. Biztos ebben?"
+
+#. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
+msgctxt "#40037"
+msgid "The movie to be added has multiple versions.[CR]The type of the default version will be selected in the next dialog. The other versions will keep their current type.[CR]Do you want to continue?"
+msgstr "A hozzáadandó filmnek több verziója van.[CR]Az alapértelmezett verzió típusa a következő párbeszédpanelen lesz kiválasztva. A többi verzió megtartja jelenlegi típusát.[CR]Folytatja?"
+
+#. Addition of new version: the default version of a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40038"
+msgid "The default version of a movie with multiple versions cannot be added to another movie. Please move or remove the other versions first."
+msgstr "A több verziójú film alapértelmezett verziója nem adható hozzá másik filmhez. Kérjük, először helyezze át vagy távolítsa el a többi verziót."
 
 #. Select default video version setting
 msgctxt "#40200"
@@ -19297,17 +19412,17 @@ msgstr "Válassza ki a szkenner műveletet a videó extrákhoz az \"extrák\" ma
 #. Show video versions as folder settting
 msgctxt "#40206"
 msgid "Show videos with multiple versions as folder"
-msgstr ""
+msgstr "Több verziójú videók megjelenítése mappaként"
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
 msgstr "Ha engedélyezve van, a több verziójú videó mappaként jelenik meg a videokönyvtárban. Ez a mappa ezután megnyitható az egyes videoverziók megjelenítéséhez. Ha le van tiltva, a konfigurált kiválasztási művelet kerül alkalmazásra."
 
-#. Choose video version context menu item label
+#. Choose video version dialog title
 msgctxt "#40208"
-msgid "Choose version"
-msgstr "Verzió kiválasztás"
+msgid "Choose version: {}"
+msgstr ""
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
@@ -19317,21 +19432,61 @@ msgstr "A verzió lejátszása ..."
 #. Button label for video versions
 msgctxt "#40210"
 msgid "Versions"
-msgstr ""
+msgstr "Verziók"
 
 #. Button label for video extras
 msgctxt "#40211"
 msgid "Extras"
-msgstr ""
+msgstr "Extrák"
 
 #. UPnP remote player volume level sync setting
 msgctxt "#40212"
 msgid "Synchronize volume level to remote UPnP players"
-msgstr ""
+msgstr "Szinkronizálja a hangerőt a távoli UPnP lejátszókkal"
 
 #. Help string for UPnP remote player volume level sync setting
 msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
+msgstr "Ha kiválasztja, a távoli lejátszó hangereje szinkronizálva lesz az alkalmazás hangerejével.[CR]Figyelmeztetés: A rendszer globális hangereje eltérhet az alkalmazás hangerejének szintjétől – ezek egymástól függetlenül szabályozhatók.[CR]Ez arra késztetheti a távoli lejátszót, hogy 100%-os hangerőszintre kell állítani, ha az alkalmazás 100%-os hangerővel rendelkezik, de a rendszer teljes hangereje kisebb."
+
+#. Dialog title for the selection of the video extra
+msgctxt "#40214"
+msgid "Choose extra: {}"
+msgstr ""
+
+#. Title of the dialog for version rename action from Versions Manager
+msgctxt "#40215"
+msgid "Choose version type"
+msgstr ""
+
+#. Caption of the button to create a new version type (Versions Manager > Rename)
+msgctxt "#40216"
+msgid "New type..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new version type
+msgctxt "#40217"
+msgid "New version type"
+msgstr ""
+
+#. Title of the dialog for extra rename action from Extras Manager
+msgctxt "#40218"
+msgid "Choose extra name"
+msgstr ""
+
+#. Caption of the button to create a new extra name (Extras Manager > Rename)
+msgctxt "#40219"
+msgid "New name..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new extra name
+msgctxt "#40220"
+msgid "New extra name"
+msgstr ""
+
+#. Choose video version context menu item label
+msgctxt "#40221"
+msgid "Choose version"
 msgstr ""
 
 # Video versions
@@ -19359,11 +19514,6 @@ msgstr "Vágatlan verzió"
 msgctxt "#40404"
 msgid "Remastered Version"
 msgstr "Átmasterelt verzió"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40405"
-msgid "4K"
-msgstr "4K"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40406"
@@ -19426,71 +19576,6 @@ msgid "Black and White Edition"
 msgstr "Fekete fehér változat"
 
 #. Name of a video version, like "Director's Cut"
-msgctxt "#40418"
-msgid "BluRay"
-msgstr "Blu Ray"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40419"
-msgid "WEB-DL"
-msgstr "WEB-DL"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40420"
-msgid "3D"
-msgstr "3D"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40421"
-msgid "8K"
-msgstr "8K"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40422"
-msgid "IMAX"
-msgstr "IMAX"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40423"
-msgid "UHD"
-msgstr "UHD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40424"
-msgid "FHD"
-msgstr "FHD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40425"
-msgid "HD"
-msgstr "HD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40426"
-msgid "SD"
-msgstr "SD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40427"
-msgid "DVD"
-msgstr "DVD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40428"
-msgid "VHS"
-msgstr "VHS"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40429"
-msgid "VCD"
-msgstr "VCD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40430"
-msgid "REMUX"
-msgstr "REMUX"
-
-#. Name of a video version, like "Director's Cut"
 msgctxt "#40431"
 msgid "10th Anniversary Edition"
 msgstr "10. évfordulós kiadás"
@@ -19519,6 +19604,86 @@ msgstr "40. évfordulós kiadás"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50. évfordulós kiadás"
+
+#~ msgctxt "#40405"
+#~ msgid "4K"
+#~ msgstr "4K"
+
+#~ msgctxt "#40418"
+#~ msgid "BluRay"
+#~ msgstr "Blu Ray"
+
+#~ msgctxt "#40419"
+#~ msgid "WEB-DL"
+#~ msgstr "WEB-DL"
+
+#~ msgctxt "#40420"
+#~ msgid "3D"
+#~ msgstr "3D"
+
+#~ msgctxt "#40421"
+#~ msgid "8K"
+#~ msgstr "8K"
+
+#~ msgctxt "#40422"
+#~ msgid "IMAX"
+#~ msgstr "IMAX"
+
+#~ msgctxt "#40423"
+#~ msgid "UHD"
+#~ msgstr "UHD"
+
+#~ msgctxt "#40424"
+#~ msgid "FHD"
+#~ msgstr "FHD"
+
+#~ msgctxt "#40425"
+#~ msgid "HD"
+#~ msgstr "HD"
+
+#~ msgctxt "#40426"
+#~ msgid "SD"
+#~ msgstr "SD"
+
+#~ msgctxt "#40427"
+#~ msgid "DVD"
+#~ msgstr "DVD"
+
+#~ msgctxt "#40428"
+#~ msgid "VHS"
+#~ msgstr "VHS"
+
+#~ msgctxt "#40429"
+#~ msgid "VCD"
+#~ msgstr "VCD"
+
+#~ msgctxt "#40430"
+#~ msgid "REMUX"
+#~ msgstr "REMUX"
+
+#~ msgctxt "#37108"
+#~ msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+#~ msgstr "Az olvasási tényező határozza meg a gyorsítótár-kitöltési arányt az átlagos értékben. adatfolyam bitrátája x olvasási tényező. Ennek a többszörösnek növelésével a gyorsítótár gyorsabban töltődik fel, de több sávszélességet fogyaszt. A nagy többszörösek CPU-csúcsokat okozhatnak egyes eszközökön, telíthetik a kapcsolatot és ronthatják a teljesítményt."
+
+#~ msgctxt "#433"
+#~ msgid "Would you really like to remove '{0:s}' from library?"
+#~ msgstr "Biztos eltávolítja a médiatárból: „{0:s}”?"
+
+#~ msgctxt "#40004"
+#~ msgid "New version..."
+#~ msgstr "Új verzió..."
+
+#~ msgctxt "#40208"
+#~ msgid "Choose version"
+#~ msgstr "Verzió kiválasztás"
+
+#~ msgctxt "#40214"
+#~ msgid "Choose extra"
+#~ msgstr "Extra kiválasztása"
+
+#~ msgctxt "#36299"
+#~ msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
+#~ msgstr "Engedélyezze a kijelző HDR-módjának módosítását, hogy a legjobban illeszkedjen a médiához.[CR]Ha le van tiltva, a Kodi szükség szerint színleképezést alkalmaz, hogy a médiát a kijelző aktuális HDR-módjához igazítsa."
 
 #~ msgctxt "#40002"
 #~ msgid "Convert into an additional version of {0:s}"

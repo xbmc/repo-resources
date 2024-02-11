@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-11-21 01:23+0000\n"
-"Last-Translator: Toomas Tänava <toomas.tanava@mail.ee>\n"
+"PO-Revision-Date: 2024-01-22 21:12+0000\n"
+"Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/et_ee/>\n"
 "Language: et_ee\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.3\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1698,8 +1698,8 @@ msgid "Remove movie from library"
 msgstr "Eemalda film meediakogust"
 
 msgctxt "#433"
-msgid "Would you really like to remove '{0:s}' from library?"
-msgstr "Kas soovid '{0:s}' meediakogust eemaldada?"
+msgid "Would you really like to remove '{0:s}' from the library?"
+msgstr ""
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -2409,6 +2409,7 @@ msgctxt "#629"
 msgid "View mode"
 msgstr "Vaate režiim"
 
+#. Label for stretching the displayed video to its normal size
 msgctxt "#630"
 msgid "Normal"
 msgstr "Normaalne"
@@ -2417,6 +2418,7 @@ msgctxt "#631"
 msgid "Zoom"
 msgstr "Suurendus"
 
+#. Label for stretching the displayed video to a 4:3 aspect ratio
 msgctxt "#632"
 msgid "Stretch 4:3"
 msgstr "Venita 4:3"
@@ -2425,10 +2427,12 @@ msgctxt "#633"
 msgid "Wide zoom"
 msgstr "Lai suurendus"
 
+#. Label for stretching the displayed video to a 16:9 aspect ratio
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "Venita 16:9"
 
+#. Label for stretching the displayed video to the original size of the video stream
 msgctxt "#635"
 msgid "Original size"
 msgstr "Algne suurus"
@@ -4614,7 +4618,7 @@ msgstr "Raadio täisekraanil"
 #. Title of controller configuration window
 msgctxt "#10820"
 msgid "Controller Configuration"
-msgstr ""
+msgstr "Juhtseadme seadistused"
 
 #. Title of the "My Games" window
 msgctxt "#10821"
@@ -4624,52 +4628,52 @@ msgstr "Mängud"
 #. Title of the in-game OSD menu
 msgctxt "#10822"
 msgid "Menu"
-msgstr ""
+msgstr "Menüü"
 
 #. Title of the in-game video filter selection dialog
 msgctxt "#10823"
 msgid "Video Filter"
-msgstr ""
+msgstr "Video filter"
 
 #. Title of the in-game video stretch mode selection dialog
 msgctxt "#10824"
 msgid "Stretch Mode"
-msgstr ""
+msgstr "Venituse režiim"
 
 #. Title of the in-game volume dialog
 msgctxt "#10825"
 msgid "Volume"
-msgstr ""
+msgstr "Helitugevus"
 
 #. Title of the in-game dialog for advanced emulator settings
 msgctxt "#10826"
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Põhjalikumad seaded"
 
 #. Title of the in-game video rotation selection dialog
 msgctxt "#10827"
 msgid "Video Rotation"
-msgstr ""
+msgstr "Video pööramine"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#10828"
 msgid "Port Setup"
-msgstr ""
+msgstr "Pordi seaded"
 
 #. Title of the in-game dialog to select a savestate for the current game
 msgctxt "#10829"
 msgid "Select Savestate"
-msgstr ""
+msgstr "Vali salvestusseis"
 
 #. Title of the out-of-game dialog to select a savestate for the current game
 msgctxt "#10830"
 msgid "Select Savestate"
-msgstr ""
+msgstr "Vali salvestusseis"
 
 #. Name of window for viewing and configuring players while playing a game
 msgctxt "#10831"
 msgid "Players"
-msgstr ""
+msgstr "Mängijad"
 
 msgctxt "#12000"
 msgid "Select dialog"
@@ -4726,11 +4730,11 @@ msgstr "Viimati uuendatud"
 
 msgctxt "#12015"
 msgid "Select video version"
-msgstr ""
+msgstr "Vali video versioon"
 
 msgctxt "#12016"
 msgid "Select video extra"
-msgstr ""
+msgstr "Vali video lisamaterjal"
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -5730,7 +5734,7 @@ msgstr "Vaikegamma"
 
 msgctxt "#13381"
 msgid "Resume video"
-msgstr "Jätka videoga"
+msgstr "Jätka taasesitust"
 
 msgctxt "#13382"
 msgid "Voice mask - Port 1"
@@ -5947,7 +5951,7 @@ msgstr "Luba kõrge kvaliteediga suurendajad"
 
 msgctxt "#13436"
 msgid "Adjust display HDR mode"
-msgstr ""
+msgstr "Kohanda ekraani HDR režiimi"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -9313,10 +9317,30 @@ msgctxt "#19349"
 msgid "User preference"
 msgstr "Kasutaja eelistus"
 
-#. label for PVR settings use backend channel group order control
+#. label for PVR setting use backend channel group order control
 msgctxt "#19350"
 msgid "Use channel group order from backend(s)"
-msgstr ""
+msgstr "Kasuta kaugtuuneri kanalinimekirja järjestust"
+
+#. label for PVR settings category for live tv catchup and video on demand
+msgctxt "#19351"
+msgid "Catchup / Video On Demand"
+msgstr "Järelvaatamine / tellitud video"
+
+#. label for PVR setting play next programme automatically in catchup / vod mode
+msgctxt "#19352"
+msgid "Play next programme automatically"
+msgstr "Esita järgmine saade automaatselt"
+
+#. Label of a context menu entry to kick catchup / VOD playback, starting with the selected item, auto playing all following programmes
+msgctxt "#19353"
+msgid "Play programmes from here"
+msgstr "Esita saateid siit"
+
+#. Label of a context menu entry to kick catchup / VOD playback of only the selected item, not auto playing any following programmes
+msgctxt "#19354"
+msgid "Play only this programme"
+msgstr "Esita ainult see saade"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -10911,7 +10935,7 @@ msgstr "Tootekood"
 
 msgctxt "#20369"
 msgid "Show information for unwatched items"
-msgstr "Näita vaatamata üksuste andmeid"
+msgstr "Kuva vaatamata üksuste andmed"
 
 msgctxt "#20370"
 msgid "* Hidden to prevent spoilers *"
@@ -13148,11 +13172,11 @@ msgstr "120 sekundit"
 
 msgctxt "#24160"
 msgid "Ignore first tap/swipe/pan of the Siri remote after a period of inactivity"
-msgstr ""
+msgstr "Eira Siri puldi esimest puudutust/pühkimist/liigutust pärast teatud tegevusetusperioodi"
 
 msgctxt "#24161"
 msgid "This prevents you from accidental tap/swipe/pan action when you grab the remote in your hand"
-msgstr ""
+msgstr "See hoiab ära tahtmatud nupuvajutused puldi haaramisel"
 
 msgctxt "#24162"
 msgid "Use Kodi virtual keyboard"
@@ -13160,7 +13184,7 @@ msgstr "Kasuta Kodi virtuaalset klaviatuuri"
 
 msgctxt "#24163"
 msgid "The higher the value, the more sensitive the pan gesture"
-msgstr ""
+msgstr "Mida suurem väärtus, seda suurem on tundlikkus"
 
 # empty string with id 24163
 #. Header text for yes/no dialog about enable of broken add-on
@@ -13284,7 +13308,7 @@ msgstr "Teated"
 #. Used in add-on browser
 msgctxt "#25001"
 msgid "Hide foreign"
-msgstr "Peida välismaised"
+msgstr "Peida tundmatud"
 
 msgctxt "#25002"
 msgid "Select from all titles ..."
@@ -13798,7 +13822,7 @@ msgstr "Rollid"
 #. Label for multi-disc movies, including movie title (param 0) and disc number (param 1).
 msgctxt "#29995"
 msgid "{0:s} (Disc {1:s})"
-msgstr ""
+msgstr "{0:s} (plaat {1:s})"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -14139,15 +14163,15 @@ msgstr "Windows media audio 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
 msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr ""
+msgstr "Teksti sisestamisel kuvatakse sisseehitatud tvOS klaviatuuri asemel Kodi virtuaalne klaviatuur"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
-msgstr ""
+msgstr "Siri puldi horisontaalse pan-viipe tundlikkus"
 
 msgctxt "#34010"
 msgid "Siri remote pan gesture vertical sensitivity"
-msgstr ""
+msgstr "Siri puldi vertikaalse pan-viipe tundlikkus"
 
 msgctxt "#34100"
 msgid "Number of channels"
@@ -14821,7 +14845,7 @@ msgstr "Mängijad"
 #. Notification shown when no controllers are connected in the in-game dialog that lets users configure player assignment
 msgctxt "#35173"
 msgid "No controllers connected"
-msgstr ""
+msgstr "Juhtseadmeid pole ühendatud"
 
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
 msgctxt "#35200"
@@ -14902,12 +14926,12 @@ msgstr "Toeta lisamooduleid"
 #. Dialog text asking user to overwrite their savestate file
 msgctxt "#35217"
 msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
-msgstr "Salvestatud seisu saab laadida ainult üksusega \"{0:s}”. Kas kustutada salvestatud seis ja jätkata?"
+msgstr "Salvestusseisu saab laadida ainult üksusega \"{0:s}”. Kas kustutada salvestatud seis ja jätkata?"
 
 #. Button to erase the savestate
 msgctxt "#35218"
 msgid "Erase savestate"
-msgstr "Kustuta salvestatud seis"
+msgstr "Kustuta salvestusseis"
 
 #. Error dialog text when trying to play a game and the game's files aren't found.
 msgctxt "#35219"
@@ -15753,7 +15777,7 @@ msgstr "See kategooria sisaldab videofailide loenditega seotud seadeid."
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
 msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
-msgstr ""
+msgstr "Vaheta [Vali], [Esita] (vaikimisi), [Jätka], [Kuva teave] ja [Lisa järjekorda] vahel.[CR][Vali] avab kontekstimenüü, millest saad teha oma valiku.[CR][Esita] käivitab video automaatselt algusest või kui on olemas jätkamispunkt, siis küsib, kas esitada algusest või jätkata. [CR][Jätka] jätkab automaatselt video vaatamist viimasest vaatamiskohast. [CR][Kuva teave] avab video infoakna. [CR][Lisa järjekorda] lisab video esitusloendisse."
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -15880,7 +15904,7 @@ msgstr "Lubab funktsioonid \"Personal Video Recorder - Isiklik videosalvesti\" (
 #. Description of setting with label #22076 "Default play action"
 msgctxt "#36204"
 msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
-msgstr ""
+msgstr "Vaheta [Küsi, kui saab jätkata] (vaikimisi) ja [Jätka] vahel.[CR] [Küsi, kui saab jätkata] avab menüü, millest saab valida, kas esitada algusest või jätkata pooleli jäänud kohast.[CR] [Jätka] jätkab automaatselt pooleli jäänud kohast.[CR] Kui jätkupunkti ei ole määratud, algab taasesitus automaatselt algusest."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16305,8 +16329,8 @@ msgstr "Kui säte on lubatud ja PVR lisamoodul seda toetab, salvestatakse saade 
 
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
-msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
-msgstr ""
+msgid "Allow the HDR mode of the display to be changed to best match the media. When disabled, Kodi applies tonemapping if needed (and if supported on your hardware) to adapt the media to the current HDR mode of the display."
+msgstr "Lubab muuta ekraani HDR režiimi, et see vastaks kõige paremini meediale. Kui see on keelatud, rakendab Kodi vajadusel (ja kui riistvara seda toetab) toonikaardistust, et kohandada meedia ekraani praeguse HDR režiimiga."
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -16601,7 +16625,7 @@ msgstr "Luba kasutada kanalinumeratsiooni mitmest kaugvastuvõtjast. Selle sätt
 #. Description of setting with label #36042 "Use limited colour range (16-235)"
 msgctxt "#36359"
 msgid "Use limited colour range (16-235) instead of full colour range (0-255). Limited range should be used if your display is a regular HDMI TV and doesn't have a PC or other mode to display full range colour, however if your display is a PC monitor then leave this disabled to get proper blacks."
-msgstr ""
+msgstr "Kasuta täieliku värviruumi (0-255) asemel piiratud värviruumi (16–235). Piiratud värviruumi tuleks kasutada HDMI teleril, mis ei toeta täielikku värviruumi. Kui ekraaniks on arvutimonitor või mõni muu toetatud ekraan, jäta see õige musta värvi saamiseks keelatuks."
 
 #. Description of settings category with label #772 "Audio"
 msgctxt "#36360"
@@ -16928,7 +16952,7 @@ msgstr "Vali kanal"
 
 msgctxt "#36427"
 msgid "Show information"
-msgstr "Näita andmeid"
+msgstr "Kuva teave"
 
 msgctxt "#36428"
 msgid "Record"
@@ -16967,7 +16991,7 @@ msgstr "Kui lubatud, lülitu meeldetuletuse hüpikakna sulgudes saadet edastaval
 
 msgctxt "#36435"
 msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
-msgstr ""
+msgstr "Järjesta kanalirühmad taustaprogrammi(de) esitatud järjestuse järgi. Kui see on lubatud, ei saa rühmi rühmahalduris ümber järjestada"
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -16986,6 +17010,11 @@ msgstr "Ainult ametlikud hoidlad (vaikimisi)"
 msgctxt "#36438"
 msgid "Any repositories"
 msgstr "Kõik hoidlad"
+
+#. Description of setting with label #19352 "Play next programme automatically"
+msgctxt "#36439"
+msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
+msgstr "Luba järgmise saate automaatne esitamine, kui vaatad möödunud saateid (järelvaatamine) või tellitud video (VOD) kanaleid. Järelvaatamine ja VOD töötavad ainult siis, kui kanali pakkuja seda toetab."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17085,7 +17114,7 @@ msgstr "3D video taasesitus"
 #. Option value of a desired playback mode setting. (f.e. "Settings -> Video -> Playback -> Playback mode of stereoscopic 3D videos" with label #36520)
 msgctxt "#36521"
 msgid "Ask me"
-msgstr "Küsi minult"
+msgstr "Küsi"
 
 #. Description of setting with label #458 "Limit sampling rate (kHz)"
 msgctxt "#36523"
@@ -17150,12 +17179,12 @@ msgstr "Pööratud stereoskoopiline 3D režiim (silmade pööramine)"
 #. Description of setting with label #36520 "Playback mode of stereoscopic videos"
 msgctxt "#36537"
 msgid "Select in which mode stereoscopic 3D videos will be played.[CR][Ask me] Will show a dialogue to select the desired mode for each playback.[CR][Preferred mode] Will use the preferred mode specified in the \"System -> Video hardware\" section of the settings.[CR][Monoscopic / 2D] Will play the video in mono / 2D.[CR][Ignore] Disables any stereoscopic 3D processing and handling."
-msgstr ""
+msgstr "Vali, millises režiimis stereoskoopilisi 3D-videoid esitatakse.[CR][Küsi] Kuvab valikuakna, et valida iga taasesituse jaoks soovitud režiim.[CR][Eelistatud režiim] Kasutab jaotises 'Süsteem' -> 'Video riistvara' seadetes määratud eelistatud režiimi.[CR][Monoskoopiline/ 2D] Esitab video mono- / 2D-vormingus.[CR][Eira] Keelab stereoskoopilise 3D-töötluse ja -käsitluse."
 
 #. Description of setting with label #36526 Disable stereoscopic mode when playback is stopped
 msgctxt "#36538"
 msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode, between videos in a playlist or when playback ended.[CR][Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists with mixed stereoscopic 3D and 2D content, then the GUI will also stay in stereoscopic 3D mode even when a non-stereoscopic 2D video is playing."
-msgstr ""
+msgstr "[Lubatud] Lülita kasutajaliides (ja mõned telerid) tagasi 2D režiimi esitusloendis olevate videote vahel või taasesituse lõppedes.[CR][Keelatud] Kasutajaliides ja teler jäävad stereoskoopilisse 3D režiimi. Segatud stereoskoopilise 3D ja 2D sisuga video esitusloendite puhul jääb kasutajaliides stereoskoopilisse 3D režiimi ka siis, kui esitatakse mittestereoskoopilist 2D videot."
 
 #. Description of setting with label #36500 "Stereoscopic mode (current)"
 msgctxt "#36539"
@@ -17199,7 +17228,7 @@ msgstr "Piirab kasutajaliidese eraldusvõimet mälu säästmiseks. Ei mõjuta vi
 #. Description of setting with label #1268 "iOS 8 compatibility mode"
 msgctxt "#36549"
 msgid "Enables support for receiving \"Videos\" and \"Pictures\" via AirPlay. This needs to be disabled when using iOS 9 or later clients to restore music streaming via AirPlay. \"Videos\" and \"Pictures\" are only supported for iOS clients using iOS 8.x and older."
-msgstr ""
+msgstr "Võimaldab videote ja piltide esitamise AirPlay kaudu. See tuleb keelata, kui kasutada AirPlay kaudu muusika voogesituseks iOS 9 või uuema versiooni kliente. Videote ja piltide esitus on toetatud ainult iOS 8.x ja vanemat versiooni kasutavatel klientidel."
 
 #. Name of a setting
 msgctxt "#36550"
@@ -17262,7 +17291,7 @@ msgstr "Värvihaldus režiim"
 #. Description of setting "System -> Video output -> Colour management mode" with label #36562
 msgctxt "#36563"
 msgid "Use a precalculated 3D lookup table for video colour correction, or calculate the transformation for each video from a profile of your display. A precalculated 3D lookup table is preferred as it allows you to take advantage of the advanced features and high precision in ArgyllCMS. Display profile based correction is useful for testing different parameters, or emulating display settings that you don't have a 3D LUT prepared for."
-msgstr ""
+msgstr "Kasuta video värviparanduseks eelarvutatud 3D otsingutabelit või arvuta iga video teisendus oma ekraani kuvaprofiilist. Eelistatakse eelarvutatud 3D otsingutabelit, kuna see võimaldab kasutada ArgyllCMS täiustatud funktsioone ja suurt täpsust. Kuvaprofiilipõhine parandus on kasulik erinevate parameetrite testimiseks või kuvasätete emuleerimiseks, mille jaoks pole ette valmistatud 3D LUT-faile."
 
 msgctxt "#36564"
 msgid "3D LUT"
@@ -17271,7 +17300,7 @@ msgstr "3D LUT"
 #. Description of setting "System -> Video output -> 3D LUT" with label #36564
 msgctxt "#36565"
 msgid "Select the 3DLUT file to be used by default. If you place multiple 3DLUT files in the same directory, then you can switch between them in the OSD menu during video playback. This allows for multiple display profiles to account for different viewing environments and source materials, for example gamma 2.2 for daytime viewing and 2.4 for nighttime."
-msgstr ""
+msgstr "Vali vaikimisi kasutatav 3DLUT fail. Kui paigutada samasse kataloogi mitu 3DLUT faili, saab video taasesituse ajal menüüs nende vahel vahetada. See võimaldab kasutada mitut kuvaprofiili, et võtta arvesse erinevaid vaatamiskeskkondi ja algmaterjale, näiteks gamma 2.2 päevasel vaatamisel ja 2.4 öisel ajal."
 
 msgctxt "#36566"
 msgid "ICC display profile"
@@ -17307,7 +17336,7 @@ msgstr "Gamma režiim"
 #. Description of setting "System -> Video output -> Gamma mode" with label #36572
 msgctxt "#36573"
 msgid "Select the gamma curve formula. Use BT.1886 for gamma curve that accounts for display black and white levels and avoids perceptual clipping. Use input offset for a similar curve with a manually specified effective gamma. Output offset allows for perceptual clipping, but can be used to compensate for incorrect mastering monitor settings that lead to too bright dark details. Absolute gamma does not account for display black at all and will clip the lowest levels to display black on any display with higher than zero black level."
-msgstr ""
+msgstr "Vali gammakõvera valem. Kasuta BT.1886 gammakõverale, mis arvestab ekraani musta ja valge tasemeid ja väldib tajutavat kärpimist. Kasuta sisendi nihet sarnasele kõverale, mille efektiivne gamma on käsitsi määratud. Väljundi nihutamine võimaldab tajutavat kärpimist, kuid seda saab kasutada monitoride vale masterdamisseadistuse kompenseerimiseks, mis toob kaasa liiga heledad tumedad detailid. Absoluutne gamma ei võta üldse arvesse ekraani musta ja kärbib madalaimad tasemed, et kuvada musta mis tahes ekraanil, mille musta tase on suurem kui null."
 
 msgctxt "#36574"
 msgid "Gamma"
@@ -17895,124 +17924,129 @@ msgstr "NFS protokolli versioon NFS ühenduste loomisel"
 #. Settings / Services "Chunk Size" group label
 msgctxt "#37053"
 msgid "Chunk Size"
-msgstr ""
+msgstr "Andmekogumi suurus"
 
 #. Setting #37054 "NFS Chunk Size"
 msgctxt "#37054"
 msgid "NFS Chunk Size"
-msgstr ""
+msgstr "NFS andmekogumi suurus"
 
 #. Description of setting #37054 "NFS Chunk Size"
 msgctxt "#37055"
 msgid "Data chunk size used on NFS connections"
-msgstr ""
+msgstr "NFS ühendustel kasutatava andmekogumi suurus"
 
 #. Setting #37056 "SMB Chunk Size"
 msgctxt "#37056"
 msgid "SMB Chunk Size"
-msgstr ""
+msgstr "SMB andmekogumi suurus"
 
 #. Description of setting #37056 "SMB Chunk Size"
 msgctxt "#37057"
 msgid "Data chunk size used on SMB connections"
-msgstr ""
+msgstr "SMB ühendustel kasutatava andmekogumi suurus"
 
 # empty strings from id 37058 to 37100
 #. Settings / Services "Caching" category label
 msgctxt "#37101"
 msgid "Caching"
-msgstr ""
+msgstr "Puhverdamine"
 
 #. Description of category #37101 "Caching"
 msgctxt "#37102"
 msgid "This category contains settings that configure caching of local and network files, and internet streams."
-msgstr ""
+msgstr "See kategooria sisaldab sätteid, mis seadistavad kohalike ja võrgufailide ning netivoogude vahemällu salvestamist."
 
 #. Setting #37103 "Buffer Mode"
 msgctxt "#37103"
 msgid "Buffer Mode"
-msgstr ""
+msgstr "Puhvri režiim"
 
 #. Description of setting #37103 "Buffer Mode"
 msgctxt "#37104"
 msgid "Configure the media content to buffer."
-msgstr ""
+msgstr "Seadista meediasisu puhverdamiseks."
 
 #. Setting #37105 "Memory Size"
 msgctxt "#37105"
 msgid "Memory Size"
-msgstr ""
+msgstr "Mälu suurus"
 
 #. Description of setting #37105 "Memory Size"
 msgctxt "#37106"
 msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
-msgstr ""
+msgstr "Mälupuhvri suurus Mbaitides. Valik (0) sunnib puhverdama kettale, mis pole välkmäluseadmetel (eMMC, SD kaardid, SSD) soovitatav."
 
 #. Setting #37107 "Read Factor"
 msgctxt "#37107"
 msgid "Read Factor"
-msgstr ""
+msgstr "Lugemistegur"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
 msgstr ""
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
 msgid "The data chunk size to use when a filesystem or protocol does not force the value, e.g. NFS will override this with its own value."
-msgstr ""
+msgstr "Andmekogumi suurus, mida kasutada, kui failisüsteem või protokoll ei sunni seda väärtust, nt. NFS tühistab selle oma väärtusega."
 
 #. Value of setting - NONE
 msgctxt "#37110"
 msgid "No buffer"
-msgstr ""
+msgstr "Puhvrita"
 
 #. Value of setting - TRUE INTERNET
 msgctxt "#37111"
 msgid "Only buffer true internet streams: HTTP, HTTPS, etc."
-msgstr ""
+msgstr "Puhverda ainult tõelisi netivooge: HTTP, HTTPS jne."
 
 #. Value of setting - INTERNET
 msgctxt "#37112"
 msgid "Buffer all internet filesystems, including: FTP, WebDAV, etc."
-msgstr ""
+msgstr "Puhverda kõiki neti failisüsteeme: FTP, WebDAV jne."
 
 #. Value of setting - NETWORK
 msgctxt "#37113"
 msgid "Buffer all network filesystems, including: SMB, NFS, etc."
-msgstr ""
+msgstr "Puhverda kõiki võrgu failisüsteeme: SMB, NFS jne."
 
 #. Value of setting - ALL
 msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
-msgstr ""
+msgstr "Puhverda kõiki failisüsteeme, sealhulgas kohalikud failid"
 
-#. Value of setting
+#. Value of setting #37105 "Memory Size"
 msgctxt "#37115"
 msgid "Caches entire file on disk storage"
+msgstr "Puhverdab kogu faili kõvakettale"
+
+#. Value of setting #37107 "Read Factor"
+msgctxt "#37116"
+msgid "Adaptative"
 msgstr ""
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
 msgctxt "#37120"
 msgid "{0:d} Byte"
-msgstr ""
+msgstr "{0:d} bait"
 
 #. Value of setting - KByte
 msgctxt "#37121"
 msgid "{0:d} KB"
-msgstr ""
+msgstr "{0:d} KB"
 
 #. Value of setting - MByte
 msgctxt "#37122"
 msgid "{0:d} MB"
-msgstr ""
+msgstr "{0:d} MB"
 
 #. Value of setting - GByte
 msgctxt "#37123"
 msgid "{0:d} GB"
-msgstr ""
+msgstr "{0:d} GB"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -19108,7 +19142,7 @@ msgstr "Muusika esitamisel ei aktiveerita ekraanisäästjat kunagi"
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 1920x1080 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX 20xx, 30xx, 40xx and above, Intel Arc A770, A750."
-msgstr ""
+msgstr "Lubab täiustatud DXVA ülesskaaleerimise, kasutades NVIDIA \"RTX Video Super Resolution\" või \"Intel Video Super Resolution\".[CR]Kasutatakse, kui videoallika eraldusvõime on 1920 x 1080 või vähem ja allika eraldusvõime on madalam kui ekraani eraldusvõime.[CR]Saadaval ainult teatud riistvarale: NVIDIA RTX 20xx, 30xx, 40xx ja uuemad, Intel Arc A770, A750."
 
 #. Description of setting with label #13418 "Use high precision processing"
 msgctxt "#39195"
@@ -19125,396 +19159,531 @@ msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr "Kui lubatud, teisendatakse Dolby Visioni profiil 7 profiiliks 8.1, mida seadmed sagedamini toetavad. Luba, kui seade toetab Dolby Visioni, kuid mõne videoga on probleeme."
 
+#. Title of "Allowed HDR dynamic metadata formats" setting
+msgctxt "#39198"
+msgid "Allowed HDR dynamic metadata formats"
+msgstr ""
+
+#. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39199"
+msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
+msgstr ""
+
+#. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39200"
+msgid "Dolby Vision"
+msgstr ""
+
+#. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39201"
+msgid "HDR10+"
+msgstr ""
+
 # 40000 to 40800 are reserved for Video Versions feature
+#. Generic video versions label (plural)
 msgctxt "#40000"
 msgid "Versions"
-msgstr ""
+msgstr "Versioonid"
 
 #. Manage video versions context menu item
 msgctxt "#40001"
 msgid "Manage versions"
-msgstr ""
+msgstr "Halda versioone"
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version"
-msgstr ""
+msgid "Add as version to..."
+msgstr "Lisa versioonina ..."
 
-#. New video version dialog button
+#. Generic video version label (singular)
+msgctxt "#40003"
+msgid "Version"
+msgstr "Versioon"
+
+#. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
-msgid "New version..."
+msgid "Choose type"
 msgstr ""
 
 #. Warning dialog title
 msgctxt "#40005"
 msgid "Operation not supported"
-msgstr ""
+msgstr "Toiming ei ole toetatud"
 
 #. Warning dialog text
 msgctxt "#40006"
 msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
-msgstr ""
+msgstr "Valitud filmil on mitu versiooni, mis takistab selle teisendamist mõne teise filmi versiooniks. Eemalda filmist versioonid, skaneeri meediakogu uuesti ja teisenda need ükshaaval."
 
 #. Warning dialog text
 msgctxt "#40007"
 msgid "The \"{0:s}\" version already exists!"
-msgstr ""
+msgstr "Versioon \"{0:s}\" on juba olemas!"
 
 #. Different video version found dialog title
 msgctxt "#40008"
 msgid "Different movie version found"
-msgstr ""
+msgstr "Filmist leiti teine versioon"
 
 #. Different video version found dialog text
 msgctxt "#40009"
 msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
-msgstr ""
+msgstr "Leiti filmi \"{0:s}\" erinev versioon: {1:s}. Kas soovid selle teisendada originaali täiendavaks versiooniks?"
 
 #. "video version" string in singular format
 msgctxt "#40010"
 msgid "video version"
-msgstr ""
+msgstr "versioon videost"
 
 #. "video version" string in plural format
 msgctxt "#40011"
 msgid "video versions"
-msgstr ""
+msgstr "versioonid videost"
 
 #. "video version" string in singular capital format
 msgctxt "#40012"
 msgid "Video version"
-msgstr ""
+msgstr "Versioon videost"
 
 #. "video version" string in plural capital format
 msgctxt "#40013"
 msgid "Video versions"
-msgstr ""
+msgstr "Versioonid videost"
 
 #. Add video version dialog title
 msgctxt "#40014"
 msgid "Add version"
-msgstr ""
+msgstr "Lisa versioon"
 
 #. Add video extra dialog title
 msgctxt "#40015"
 msgid "Add extra"
-msgstr ""
+msgstr "Lisa lisamatrjal"
 
 #. Add video version dialog text.
 msgctxt "#40016"
 msgid "The selected video already is the \"{0:s}\" version of the movie."
-msgstr ""
+msgstr "Valitud video on juba filmi \"{0:s}\" versioon."
 
 #. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
 msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
-msgstr ""
+msgstr "Valitud video on filmi \"{1:s}\" versioon \"{0:s}\". Kas liigutada see versioon filmi juurde?"
 
 #. Remove video version dialog title
 msgctxt "#40018"
 msgid "Remove video version"
-msgstr ""
+msgstr "Eemalda video versioon"
 
-#. Add new video version dialog text
+#. Manage versions, remove: removing the default version of a movie is not allowed.
 msgctxt "#40019"
 msgid "The default version of a movie cannot be removed. Set a different default version and try again."
-msgstr ""
+msgstr "Filmi vaikeversiooni ei saa eemaldada. Määra teine vaikeversioon ja proovi uuesti."
 
 #. Remove video version dialog text
 msgctxt "#40020"
 msgid "Are you sure to remove version \"{0:s}\"?"
-msgstr ""
+msgstr "Kas eemaldada versioon \"{0:s}\"?"
 
-#. Convert video to version context menu item
+#. Remove item from library text if item has multiple versions
 msgctxt "#40021"
-msgid "Convert to version"
+msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
 msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40022"
 msgid "Manage {0:s}"
-msgstr ""
+msgstr "Halda {0:s}"
 
 #. Button label to make a video version the default version
 msgctxt "#40023"
 msgid "Set as default"
-msgstr ""
+msgstr "Määra vaikeversiooniks"
 
 #. Choose/Manage video version dialog title
 msgctxt "#40024"
-msgid "Versions: {0:s}"
-msgstr ""
+msgid "Versions Manager: {0:s}"
+msgstr "Versiooni haldur: {0:s}"
 
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
-msgid "Extras: {0:s}"
-msgstr ""
+msgid "Extras Manager: {0:s}"
+msgstr "Lisamaterjalide haldur: {0:s}"
 
 #. Add extra dialog text.
 msgctxt "#40026"
 msgid "The selected video already is the \"{0:s}\" extra of the movie."
-msgstr ""
+msgstr "Valitud video on juba filmi \"{0:s}\" lisamaterjal."
 
 #. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
 msgctxt "#40027"
 msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
-msgstr ""
+msgstr "Valitud video on filmi \"{1:s}\" lisamaterjal \"{0:s}\". Kas liigutada lisamaterjal selle filmi juurde?"
+
+#. Browse the computer files for the file to be added as version
+msgctxt "#40028"
+msgid "Browse files"
+msgstr "Sirvi faile"
+
+#. Browse the library for the movie to be added as version
+msgctxt "#40029"
+msgid "Browse library"
+msgstr "Sirvi meediakogu"
+
+#. Select the movie to be added as a version
+msgctxt "#40030"
+msgid "Select movie to add as a version"
+msgstr "Vali versioonina lisatav film"
+
+#. No other movies found in the library
+msgctxt "#40031"
+msgid "No other movies found in the library."
+msgstr "Teisi filme meediakogust ei leitud."
+
+#. Add version: no similar movies were found in the library.
+msgctxt "#40032"
+msgid "No similar movies were found in the library."
+msgstr "Sarnaseid filme meediakogust ei leitud."
+
+#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40033"
+msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+msgstr "Mitme versiooniga filmi vaikeversiooni ei saa lisada teise filmi versioonina. Lisa esmalt selle täiendavad versioonid."
+
+#. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
+msgctxt "#40034"
+msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
+msgstr "Mitme versiooniga filmi vaikeversiooni ei saa lisada teise filmi lisamaterjaliks. Teisalda või eemalda esmalt muud versioonid."
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40035"
+msgid "You are about to convert a movie extra into a movie version. Are you sure?"
+msgstr "Oled teisendamas filmi lisamaterjali filmi versiooniks. Oled sa kindel?"
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40036"
+msgid "You are about to convert a movie version into a movie extra. Are you sure?"
+msgstr "Oled muutmas filmi versiooni filmi lisamaterjaliks. Oled sa kindel?"
+
+#. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
+msgctxt "#40037"
+msgid "The movie to be added has multiple versions.[CR]The type of the default version will be selected in the next dialog. The other versions will keep their current type.[CR]Do you want to continue?"
+msgstr "Lisataval filmil on mitu versiooni.[CR]Vaikeversiooni tüüp valitakse järgmises valikuaknas. Teised versioonid säilitavad oma praeguse tüübi.[CR]Kas soovid jätkata?"
+
+#. Addition of new version: the default version of a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40038"
+msgid "The default version of a movie with multiple versions cannot be added to another movie. Please move or remove the other versions first."
+msgstr "Mitme versiooniga filmi vaikeversiooni ei saa lisada teisele filmile. Teisalda või eemalda esmalt muud versioonid."
 
 #. Select default video version setting
 msgctxt "#40200"
 msgid "Select default video version"
-msgstr ""
+msgstr "Vali video vaikeversioon"
 
 #. Help for select default video version setting
 msgctxt "#40201"
 msgid "Defines how to handle selection of videos with multiple versions.[CR][Enabled] Automatically select the default video version without prompting.[CR][Disabled] Display a dialogue to select a version of the video."
-msgstr ""
+msgstr "Määrab, kuidas käsitleda mitme versiooniga videote valimist.[CR][Lubatud] Valib video vaikeversiooni küsimata.[CR][Keelatud] Kuvab video versiooni valiku."
 
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
-msgstr ""
+msgstr "Eira skaneerimisel erinevaid video versioone"
 
 #. Help for Ignore different video versions settting
 msgctxt "#40203"
 msgid "Select scanner action for different video versions.[CR][Enabled] Add different video versions to library seperately without confirmation.[CR][Disabled] Prompt for converting different video versions into additional versions of the original."
-msgstr ""
+msgstr "Vali tegevus skaneerimisel leitud erinevate video versioonide jaoks.[CR][Lubatud] Lisab video erinevad versioonid küsimata.[CR][Keelatud] Küsib, kas teisendada erinevad versioonid originaali täiendavateks versioonideks."
 
 #. Ignore video extras settting
 msgctxt "#40204"
 msgid "Ignore video extras on scan"
-msgstr ""
+msgstr "Eira skaneerimisel video lisamaterjale"
 
 #. Help for ignore video extras settting
 msgctxt "#40205"
 msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
-msgstr ""
+msgstr "Vali lisamaterjalide skaneerimistoiming kaustas \"extras\".[CR][Lubatud] Skaneeri lisamaterjalid tavalise videona.[CR][Keelatud] Lisa need seotud video lisamaterjalina."
 
 #. Show video versions as folder settting
 msgctxt "#40206"
 msgid "Show videos with multiple versions as folder"
-msgstr ""
+msgstr "Kuva mitme versiooniga videod kaustana"
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
-msgstr ""
+msgstr "Kui lubatud, kuvatakse mitme versiooniga video meediakogus kaustana. Seejärel saab selle kausta avada, et kuvada erinevad video versioonid. Kui keelatud, kasutatakse määratud valikutoimingut."
 
-#. Choose video version context menu item label
+#. Choose video version dialog title
 msgctxt "#40208"
-msgid "Choose version"
+msgid "Choose version: {}"
 msgstr ""
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
 msgid "Play version using..."
-msgstr ""
+msgstr "Esita versioon kasutades..."
 
 #. Button label for video versions
 msgctxt "#40210"
 msgid "Versions"
-msgstr ""
+msgstr "Versioonid"
 
 #. Button label for video extras
 msgctxt "#40211"
 msgid "Extras"
-msgstr ""
+msgstr "Lisamaterjalid"
 
 #. UPnP remote player volume level sync setting
 msgctxt "#40212"
 msgid "Synchronize volume level to remote UPnP players"
-msgstr ""
+msgstr "Sünkrooni helitugevus UPnP pleieritega"
 
 #. Help string for UPnP remote player volume level sync setting
 msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
+msgstr "Kui lubatud, sünkroonitakse kaugpleieri helitugevus selle rakenduse helitugevusega.[CR]Hoiatus: globaalne süsteemi helitugevus võib rakenduse helitugevusest erineda – neid juhitakse sõltumatult.[CR]Tulemuseks võib kaugpleieri helitugevus olla 100%, kui rakenduse helitugevus on 100%, kuigi süsteemi üldine helitugevus on väiksem."
+
+#. Dialog title for the selection of the video extra
+msgctxt "#40214"
+msgid "Choose extra: {}"
+msgstr ""
+
+#. Title of the dialog for version rename action from Versions Manager
+msgctxt "#40215"
+msgid "Choose version type"
+msgstr ""
+
+#. Caption of the button to create a new version type (Versions Manager > Rename)
+msgctxt "#40216"
+msgid "New type..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new version type
+msgctxt "#40217"
+msgid "New version type"
+msgstr ""
+
+#. Title of the dialog for extra rename action from Extras Manager
+msgctxt "#40218"
+msgid "Choose extra name"
+msgstr ""
+
+#. Caption of the button to create a new extra name (Extras Manager > Rename)
+msgctxt "#40219"
+msgid "New name..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new extra name
+msgctxt "#40220"
+msgid "New extra name"
+msgstr ""
+
+#. Choose video version context menu item label
+msgctxt "#40221"
+msgid "Choose version"
 msgstr ""
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40400"
 msgid "Standard Edition"
-msgstr ""
+msgstr "Tavaversioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40401"
 msgid "Extended Edition"
-msgstr ""
+msgstr "Laiendatud versioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40402"
 msgid "Unrated Version"
-msgstr ""
+msgstr "Hinnanguta versioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40403"
 msgid "Uncut Version"
-msgstr ""
+msgstr "Lõikamata versioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40404"
 msgid "Remastered Version"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40405"
-msgid "4K"
-msgstr ""
+msgstr "Remasterdatud versioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40406"
 msgid "Theatrical Cut"
-msgstr ""
+msgstr "Kinoversioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40407"
 msgid "Director's Cut"
-msgstr ""
+msgstr "Režissööri versioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40408"
 msgid "Special Edition"
-msgstr ""
+msgstr "Eriversioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40409"
 msgid "Limited Edition"
-msgstr ""
+msgstr "Piiratud väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40410"
 msgid "Complete Edition"
-msgstr ""
+msgstr "Täielik väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40411"
 msgid "The Final Cut"
-msgstr ""
+msgstr "Lõppversioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40412"
 msgid "Super Duper Cut"
-msgstr ""
+msgstr "Super Duper Cut"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40413"
 msgid "Collector's Edition"
-msgstr ""
+msgstr "Kollektsionääride väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40414"
 msgid "Ultimate Collector's Edition"
-msgstr ""
+msgstr "Ultimate Collector's Edition"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40415"
 msgid "Criterion Collection Edition"
-msgstr ""
+msgstr "Criterion Collection Edition"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40416"
 msgid "Fan Edit"
-msgstr ""
+msgstr "Fänniversioon"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40417"
 msgid "Black and White Edition"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40418"
-msgid "BluRay"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40419"
-msgid "WEB-DL"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40420"
-msgid "3D"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40421"
-msgid "8K"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40422"
-msgid "IMAX"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40423"
-msgid "UHD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40424"
-msgid "FHD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40425"
-msgid "HD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40426"
-msgid "SD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40427"
-msgid "DVD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40428"
-msgid "VHS"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40429"
-msgid "VCD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40430"
-msgid "REMUX"
-msgstr ""
+msgstr "Mustvalge väljalase"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40431"
 msgid "10th Anniversary Edition"
-msgstr ""
+msgstr "10. aastapäeva väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40432"
 msgid "20th Anniversary Edition"
-msgstr ""
+msgstr "20. aastapäeva väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40433"
 msgid "25th Anniversary Edition"
-msgstr ""
+msgstr "25. aastapäeva väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40434"
 msgid "30th Anniversary Edition"
-msgstr ""
+msgstr "30. aastapäeva väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40435"
 msgid "40th Anniversary Edition"
-msgstr ""
+msgstr "40. aastapäeva väljaanne"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
-msgstr ""
+msgstr "50. aastapäeva väljaanne"
+
+#~ msgctxt "#40405"
+#~ msgid "4K"
+#~ msgstr "4K"
+
+#~ msgctxt "#40418"
+#~ msgid "BluRay"
+#~ msgstr "Blu Ray"
+
+#~ msgctxt "#40419"
+#~ msgid "WEB-DL"
+#~ msgstr "WEB-DL"
+
+#~ msgctxt "#40420"
+#~ msgid "3D"
+#~ msgstr "3D"
+
+#~ msgctxt "#40421"
+#~ msgid "8K"
+#~ msgstr "8K"
+
+#~ msgctxt "#40422"
+#~ msgid "IMAX"
+#~ msgstr "IMAX"
+
+#~ msgctxt "#40423"
+#~ msgid "UHD"
+#~ msgstr "UHD"
+
+#~ msgctxt "#40424"
+#~ msgid "FHD"
+#~ msgstr "FHD"
+
+#~ msgctxt "#40425"
+#~ msgid "HD"
+#~ msgstr "HD"
+
+#~ msgctxt "#40426"
+#~ msgid "SD"
+#~ msgstr "SD"
+
+#~ msgctxt "#40427"
+#~ msgid "DVD"
+#~ msgstr "DVD"
+
+#~ msgctxt "#40428"
+#~ msgid "VHS"
+#~ msgstr "VHS"
+
+#~ msgctxt "#40429"
+#~ msgid "VCD"
+#~ msgstr "VCD"
+
+#~ msgctxt "#40430"
+#~ msgid "REMUX"
+#~ msgstr "REMUX"
+
+#~ msgctxt "#37108"
+#~ msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+#~ msgstr "Määrab puhvri täitumise kiiruse, korrutades voo keskmist bitikiirust lugemiskiirusega. Selle suurendamine kiirendab puhvri täitmist, kuid nõuab suuremat ribalaiust. Suured kordajad võivad mõnes seadmes põhjustada protsessori koormuspiike, koormata ühendust ja vähendada jõudlust."
+
+#~ msgctxt "#433"
+#~ msgid "Would you really like to remove '{0:s}' from library?"
+#~ msgstr "Kas soovid '{0:s}' meediakogust eemaldada?"
+
+#~ msgctxt "#40004"
+#~ msgid "New version..."
+#~ msgstr "Uus versioon..."
+
+#~ msgctxt "#40208"
+#~ msgid "Choose version"
+#~ msgstr "Vali versioon"
+
+#~ msgctxt "#40024"
+#~ msgid "Versions: {0:s}"
+#~ msgstr "Versioonid: {0:s}"
+
+#~ msgctxt "#40025"
+#~ msgid "Extras: {0:s}"
+#~ msgstr "Lisamaterjalid: {0:s}"
+
+#~ msgctxt "#36299"
+#~ msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
+#~ msgstr "Luba ekraani HDR režiimi muuta, et see vastaks kõige paremini sisule.[CR]Kui see on keelatud, rakendab Kodi vastavalt vajadusele värvikaardistust, et kohandada sisu ekraani praeguse HDR režiimiga."
 
 #~ msgctxt "#13436"
 #~ msgid "Use display HDR capabilities"
