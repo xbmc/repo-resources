@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-12-14 20:09+0000\n"
-"Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
+"PO-Revision-Date: 2024-01-19 13:57+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/es_es/>\n"
 "Language: es_es\n"
 "MIME-Version: 1.0\n"
@@ -994,7 +994,7 @@ msgstr "Grabar"
 
 msgctxt "#265"
 msgid "Stop Rec."
-msgstr "Detener grabación"
+msgstr "Detener grabación."
 
 msgctxt "#266"
 msgid "Sort by: Track"
@@ -1698,8 +1698,8 @@ msgid "Remove movie from library"
 msgstr "Eliminar película de la colección"
 
 msgctxt "#433"
-msgid "Would you really like to remove '{0:s}' from library?"
-msgstr "¿Realmente quiere eliminar '{0:s}' de la colección?"
+msgid "Would you really like to remove '{0:s}' from the library?"
+msgstr ""
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -2409,6 +2409,7 @@ msgctxt "#629"
 msgid "View mode"
 msgstr "Modo de vista"
 
+#. Label for stretching the displayed video to its normal size
 msgctxt "#630"
 msgid "Normal"
 msgstr "Normal"
@@ -2417,6 +2418,7 @@ msgctxt "#631"
 msgid "Zoom"
 msgstr "Zoom"
 
+#. Label for stretching the displayed video to a 4:3 aspect ratio
 msgctxt "#632"
 msgid "Stretch 4:3"
 msgstr "Adaptar a 4:3"
@@ -2425,10 +2427,12 @@ msgctxt "#633"
 msgid "Wide zoom"
 msgstr "Zoom amplio"
 
+#. Label for stretching the displayed video to a 16:9 aspect ratio
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "Adaptar a 16:9"
 
+#. Label for stretching the displayed video to the original size of the video stream
 msgctxt "#635"
 msgid "Original size"
 msgstr "Tamaño original"
@@ -4432,7 +4436,7 @@ msgstr "finalizando"
 
 msgctxt "#10213"
 msgid "buffering"
-msgstr "Almacenamiento del Buffer"
+msgstr "almacenamiento en búfer"
 
 msgctxt "#10214"
 msgid "Opening stream"
@@ -6266,15 +6270,15 @@ msgstr "Descargando archivo de lista de reproducción..."
 
 msgctxt "#14004"
 msgid "Downloading streams list..."
-msgstr "Descargando lista de canales..."
+msgstr "Descargar lista de transmisiones..."
 
 msgctxt "#14005"
 msgid "Parsing streams list..."
-msgstr "Procesando lista de canales..."
+msgstr "Analizando la lista de transmisiones..."
 
 msgctxt "#14006"
 msgid "Downloading streams list failed"
-msgstr "Descarga de lista de canales fallida"
+msgstr "Fallo al descargar la lista de transmisiones"
 
 msgctxt "#14007"
 msgid "Downloading playlist file failed"
@@ -7064,7 +7068,7 @@ msgstr "Integrado en Skin"
 
 msgctxt "#15107"
 msgid "Buffering..."
-msgstr "Almacenando en Buffer..."
+msgstr "Almacenamiento en búfer..."
 
 msgctxt "#15108"
 msgid "GUI Sounds"
@@ -9313,10 +9317,30 @@ msgctxt "#19349"
 msgid "User preference"
 msgstr "Preferencia de usuario"
 
-#. label for PVR settings use backend channel group order control
+#. label for PVR setting use backend channel group order control
 msgctxt "#19350"
 msgid "Use channel group order from backend(s)"
 msgstr "Usar el orden de los grupos de canales del servidor"
+
+#. label for PVR settings category for live tv catchup and video on demand
+msgctxt "#19351"
+msgid "Catchup / Video On Demand"
+msgstr ""
+
+#. label for PVR setting play next programme automatically in catchup / vod mode
+msgctxt "#19352"
+msgid "Play next programme automatically"
+msgstr ""
+
+#. Label of a context menu entry to kick catchup / VOD playback, starting with the selected item, auto playing all following programmes
+msgctxt "#19353"
+msgid "Play programmes from here"
+msgstr ""
+
+#. Label of a context menu entry to kick catchup / VOD playback of only the selected item, not auto playing any following programmes
+msgctxt "#19354"
+msgid "Play only this programme"
+msgstr ""
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -10350,7 +10374,7 @@ msgstr "Apagado en 120 minutos"
 
 msgctxt "#20150"
 msgid "Custom shutdown timer"
-msgstr "Apagado personalizado"
+msgstr "Programar apagado"
 
 msgctxt "#20151"
 msgid "Cancel shutdown timer"
@@ -12437,7 +12461,7 @@ msgstr "Parte {0:d}"
 
 msgctxt "#23052"
 msgid "Buffering {0:d} bytes"
-msgstr "Almacenando {0:d} bytes"
+msgstr "Almacenamiento en búfer {0:d} bytes"
 
 msgctxt "#23053"
 msgid "Stopping"
@@ -14429,7 +14453,7 @@ msgstr "Imposible configurar los mandos"
 #. Error dialog text when the controller dialog is opened but peripheral add-ons are disabled
 msgctxt "#35018"
 msgid "Controller configuration depends on a disabled add-on. Would you like to enable it?"
-msgstr "La configuración de los mandos depende de un Add-on desactivado. ¿Quiere activarlo?"
+msgstr "La configuración de los mandos depende de un add-on desactivado. ¿Quiere activarlo?"
 
 #. Label of the button to fix the bug where buttons are skipped in the controller dialog
 msgctxt "#35019"
@@ -15053,7 +15077,7 @@ msgstr "Guardado"
 #. Title of the dialog to select a savestate for the current game
 msgctxt "#35260"
 msgid "Select savestate"
-msgstr "Seleccionar Estado Guardado"
+msgstr "Seleccionar estado de guardado"
 
 #. Button for creating a new save state from the select savestate dialog
 msgctxt "#35261"
@@ -15305,7 +15329,7 @@ msgstr "Usar rango de color limitado (16-235)"
 
 msgctxt "#36043"
 msgid "Number of buffers used by graphics driver"
-msgstr "Número de buffers utilizado por el controlador gráfico"
+msgstr "Número de búferes utilizados por el controlador gráfico"
 
 #. Name of an action to perform on a specific event, like changing the CEC source away from Kodi
 msgctxt "#36044"
@@ -16119,7 +16143,7 @@ msgstr "No hay información disponible todavía."
 #. Description of setting with label #19108 "Refreshrate"
 msgctxt "#36261"
 msgid "If enabled, this framerate is used for streams we were not able to detect fps."
-msgstr "Si está activo este ratio de frames se utiliza para canales donde no se pudieron detectar fps."
+msgstr "Si está activada, esta tasa de fotogramas se utiliza para las transmisiones en las que no hemos podido detectar los fps."
 
 #. Description of setting with label #20196 "Export music library"
 msgctxt "#36262"
@@ -16305,8 +16329,8 @@ msgstr "Si se activa, se programará una grabación del programa a recordar cuan
 
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
-msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
-msgstr "Permite que se cambie el modo HDR de la pantalla para coincida mejor con los medios. [CR]Cuando está deshabilitado, Kodi aplica el mapeo de tonos según sea necesario para adaptar los medios al modo HDR actual de la pantalla."
+msgid "Allow the HDR mode of the display to be changed to best match the media. When disabled, Kodi applies tonemapping if needed (and if supported on your hardware) to adapt the media to the current HDR mode of the display."
+msgstr ""
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -16620,7 +16644,7 @@ msgstr "Selecciona el número de canales soportados por la conexión de audio, o
 
 msgctxt "#36363"
 msgid "Boost AC3 streams that have been downmixed to 2 channels."
-msgstr "Amplifica los flujos AC3 que remezclados a 2 canales."
+msgstr "Amplifica las transmisiones AC3 que han sido comprimidas a 2 canales."
 
 #. Description of setting with label #252 "Stereo upmix"
 msgctxt "#36364"
@@ -16630,12 +16654,12 @@ msgstr "Activa la remezcla del audio de 2 canales al número de canales de audio
 #. Description of setting with label #364 "Dolby Digital (AC3) capable receiver"
 msgctxt "#36365"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital (AC3) streams."
-msgstr "Seleccione esta opción si su receptor puede decodificar Dolby Digital (AC3)."
+msgstr "Selecciona esta opción si tu receptor es capaz de decodificar transmisiones Dolby Digital (AC3)."
 
 #. Description of setting with label #254 "DTS capable receiver"
 msgctxt "#36366"
 msgid "Select this option if your receiver is capable of decoding DTS streams."
-msgstr "Seleccione esta opción si su receptor puede decodificar DTS."
+msgstr "Selecciona esta opción si tu receptor es capaz de decodificar transmisiones DTS."
 
 msgctxt "#36367"
 msgid "Select the maximum number of audio channels / speakers available for decoded audio. If optical / coax digital outputs are used, this must be set to 2.0"
@@ -16644,17 +16668,17 @@ msgstr "Selecciona el número máximo de canales de audio / altavoces disponible
 #. Description of setting with label #348 "Enable passthrough"
 msgctxt "#36368"
 msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
-msgstr "Actívelo para dejar traspasar sin decodificar el audio comprimido como Dolby Digital (AC3), DTS, etc. El Cliente del motor de Audio, p. ej. VideoPlayer, podrá decidir si decodificar el audio bajo determinadas condiciones. En el caso de VideoPlayer, no se dejará traspasar cuando sea una emisión en directo ni cuando esté activada la sincronización con el monitor."
+msgstr "Actívelo para dejar traspasar sin decodificar el audio comprimido como Dolby Digital (AC3), DTS, etc. El Cliente del motor de Audio, p. ej. VideoPlayer, podrá decidir si decodificar el audio bajo determinadas condiciones. En el caso de VideoPlayer, no se dejará traspasar cuando sea una retransmisión en directo ni cuando esté activada la sincronización con el monitor."
 
 #. Description of setting with label #349 "TrueHD capable receiver"
 msgctxt "#36369"
 msgid "Select this option if your receiver is capable of decoding TrueHD streams."
-msgstr "Seleccione esta opción si tu receptor puede decodificar TrueHD."
+msgstr "Selecciona esta opción si tu receptor es capaz de decodificar transmisiones TrueHD."
 
 #. Description of setting with label #347 "DTS-HD capable receiver"
 msgctxt "#36370"
 msgid "Select this option if your receiver is capable of decoding DTS-HD streams."
-msgstr "Seleccione esta opción si tu receptor puede decodificar DTS-HD."
+msgstr "Selecciona esta opción si tu receptor es capaz de decodificar transmisiones DTS-HD."
 
 #. Description of setting with label #545 "Audio output device"
 msgctxt "#36371"
@@ -16987,6 +17011,11 @@ msgctxt "#36438"
 msgid "Any repositories"
 msgstr "Cualquier repositorio"
 
+#. Description of setting with label #19352 "Play next programme automatically"
+msgctxt "#36439"
+msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
+msgstr ""
+
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
@@ -17214,7 +17243,7 @@ msgstr "Define la fuerza del efecto estereoscópico 3D en el interfaz. Se realiz
 #. Description of setting "System -> Video output -> NoOfBuffers" with label #36043
 msgctxt "#36552"
 msgid "Defines the number of presentation buffers used by the graphics driver. Select 2 if the driver uses double buffering or 3 for triple buffering."
-msgstr "Define el número de buffers de presentación usados por el controlador gráfico. Seleccione 2 si el controlador usa doble buffering o 3 para triple buffering."
+msgstr "Define el número de búferes de presentación utilizados por el controlador gráfico. Seleccionar 2 si el controlador utiliza doble búfer o 3 para triple búfer."
 
 #. label of a setting, allowing to specify tonemap method
 msgctxt "#36553"
@@ -17511,7 +17540,7 @@ msgstr "Por seguridad, la instalación de Add-ons de orígenes desconocidos est�
 #. Text in confirm dialog when enabling setting "System -> Add-ons -> Unknown sources"
 msgctxt "#36618"
 msgid "Add-ons will be given access to personal data stored on this device. By allowing, you agree that you are solely responsible for any loss of data, unwanted behaviour, or damage to your device. Proceed?"
-msgstr "Los Add-ons tendrán acceso a información personal almacenada en este dispositivo. Activando esta opción, está de acuerdo en que es el único responsable de posibles pérdidas de datos, comportamientos no deseados y daños en su dispositivo. ¿Procedo?"
+msgstr "Los add-ons tendrán acceso a los datos personales almacenados en este dispositivo. Al permitirlo, usted acepta que es el único responsable de cualquier pérdida de datos, comportamiento no deseado o daño a su dispositivo. ¿Continuar?"
 
 #. Label of a setting, allow the user to specify high quality downscaling of pictures
 msgctxt "#36619"
@@ -17746,7 +17775,7 @@ msgstr "Buscar en"
 #. Description of setting with label #448 "Dolby Digital Plus (E-AC3) capable receiver"
 msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
-msgstr "Seleccione esta opción si su receptor puede decodificar Dolby Digital Plus (E-AC3)."
+msgstr "Selecciona esta opción si tu receptor es capaz de decodificar transmisiones Dolby Digital Plus (E-AC3)."
 
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
@@ -17807,7 +17836,7 @@ msgstr "Preferir pistas de audio para ciegos"
 #. Description of setting #37034 Accessibility
 msgctxt "#37035"
 msgid "Prefer the audio stream for the visually impaired to other audio streams of the same language"
-msgstr "Preferir la pista de audio para ciegos a otras pistas de audio del mismo idioma"
+msgstr "Preferir la transmisión de audio para discapacitados visuales a otras transmisiones de audio del mismo idioma"
 
 #. Setting #37036 Settings -> Video -> Accessibility
 msgctxt "#37036"
@@ -17817,7 +17846,7 @@ msgstr "Preferir la pista de audio para sordos"
 #. Description of setting #37036 Accessibility
 msgctxt "#37037"
 msgid "Prefer the audio stream for the hearing impaired to other audio streams of the same language"
-msgstr "Preferir la pista de audio para sordos a otras pistas de audio del mismo idioma"
+msgstr "Preferir la transmisión de audio para personas con problemas de audición a otras transmisiones de audio del mismo idioma"
 
 #. Setting #37038 Accessibility
 msgctxt "#37038"
@@ -17827,17 +17856,17 @@ msgstr "Preferir subtítulos para sordos"
 #. Description of setting #37038 Accessibility
 msgctxt "#37039"
 msgid "Prefer the subtitle stream for the hearing impaired to other subtitle streams of the same language"
-msgstr "Preferir la pista de subtítulos para sordos a otras pistas de subtítulos para el mismo idioma"
+msgstr "Preferir la transmisión de subtítulos para personas con problemas de audición a otras transmisiones de subtítulos del mismo idioma"
 
 #. Setting #37040 Playback
 msgctxt "#37040"
 msgid "Prefer default audio streams"
-msgstr "Preferir las pistas de audio por defecto"
+msgstr "Preferir las transmisiones de audio por defecto"
 
 #. Description of setting #37040 Playback
 msgctxt "#37041"
 msgid "If enabled, audio streams that are flagged as default (and match the preferred language) are preferred over audio streams with higher quality (number of channels, codec, ...)."
-msgstr "Si está activo, las pistas de audio marcadas como por defecto (los del idioma preferido) son priorizadas sobre otras pistas de audio con mayor calidad (número de canales, códec, ...)."
+msgstr "Si se activa, las transmisiones de audio marcadas como predeterminadas (y que coincidan con el idioma preferido) tienen preferencia sobre las transmisiones de audio con mayor calidad (número de canales, códec, ...)."
 
 #. Description of setting Skip steps
 msgctxt "#37042"
@@ -17926,7 +17955,7 @@ msgstr "Almacenamiento en Caché"
 #. Description of category #37101 "Caching"
 msgctxt "#37102"
 msgid "This category contains settings that configure caching of local and network files, and internet streams."
-msgstr "Esta categoría contiene ajustes que configuran el almacenamiento en caché de archivos locales y de red, y transmisiones de Internet."
+msgstr "Esta categoría contiene ajustes que configuran el almacenamiento en caché de archivos locales y de red, y de transmisiones por Internet."
 
 #. Setting #37103 "Buffer Mode"
 msgctxt "#37103"
@@ -17946,7 +17975,7 @@ msgstr "Tamaño de memoria"
 #. Description of setting #37105 "Memory Size"
 msgctxt "#37106"
 msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
-msgstr "El tamaño del búfer de memoria en Mbytes. Establecer cero (0) fuerza el almacenamiento en el disco, lo cual no se recomienda en dispositivos de almacenamiento flash (eMMC, tarjetas SD, SSD)."
+msgstr "El tamaño del búfer de memoria en Mbytes. Establecer cero (0) fuerza el almacenamiento en búfer a disco, lo cual no es recomendable en dispositivos de almacenamiento flash (eMMC, tarjetas SD, SSD)."
 
 #. Setting #37107 "Read Factor"
 msgctxt "#37107"
@@ -17955,8 +17984,8 @@ msgstr "Factor de lectura"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
-msgstr "El factor de lectura determina la tasa de llenado de la caché en términos de promedio de tasa de bits de la transmisión x factor de lectura. Al aumentar este múltiplo, la caché se llena más rápido pero se consume más ancho de banda. Los múltiplos grandes pueden provocar picos de CPU en algunos dispositivos, saturar la conexión y empeorar el rendimiento."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+msgstr ""
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -17971,7 +18000,7 @@ msgstr "Sin búfer"
 #. Value of setting - TRUE INTERNET
 msgctxt "#37111"
 msgid "Only buffer true internet streams: HTTP, HTTPS, etc."
-msgstr "Solo almacena en buffer transmisiones verdaderas de Internet: HTTP, HTTPS, etc."
+msgstr "Solo almacena en búfer las verdaderas transmisiones de Internet: HTTP, HTTPS, etc."
 
 #. Value of setting - INTERNET
 msgctxt "#37112"
@@ -17986,12 +18015,17 @@ msgstr "Almacena en búfer todos los sistemas de archivos de red, incluidos: SMB
 #. Value of setting - ALL
 msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
-msgstr "Almacena en buffer todos los sistemas de archivos, incluidos los archivos locales"
+msgstr "Almacenamiento en búfer de todos los sistemas de archivos, incluidos los archivos locales"
 
-#. Value of setting
+#. Value of setting #37105 "Memory Size"
 msgctxt "#37115"
 msgid "Caches entire file on disk storage"
 msgstr "Almacena en caché el archivo completo usando almacenamiento de disco"
+
+#. Value of setting #37107 "Read Factor"
+msgctxt "#37116"
+msgid "Adaptative"
+msgstr ""
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19125,7 +19159,28 @@ msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr "Si se activa, el perfil 7 de Dolby Vision se convertirá a 8.1, que está más soportado por los dispositivos. Actívelo si su dispositivo soporta Dolby Vision pero tiene fallos con algunos vídeos."
 
+#. Title of "Allowed HDR dynamic metadata formats" setting
+msgctxt "#39198"
+msgid "Allowed HDR dynamic metadata formats"
+msgstr ""
+
+#. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39199"
+msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
+msgstr ""
+
+#. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39200"
+msgid "Dolby Vision"
+msgstr ""
+
+#. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39201"
+msgid "HDR10+"
+msgstr ""
+
 # 40000 to 40800 are reserved for Video Versions feature
+#. Generic video versions label (plural)
 msgctxt "#40000"
 msgid "Versions"
 msgstr "Versiones"
@@ -19137,13 +19192,18 @@ msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version"
+msgid "Add as version to..."
 msgstr ""
 
-#. New video version dialog button
+#. Generic video version label (singular)
+msgctxt "#40003"
+msgid "Version"
+msgstr "Versión"
+
+#. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
-msgid "New version..."
-msgstr "Nueva versión..."
+msgid "Choose type"
+msgstr ""
 
 #. Warning dialog title
 msgctxt "#40005"
@@ -19215,7 +19275,7 @@ msgctxt "#40018"
 msgid "Remove video version"
 msgstr "Eliminar la versión de vídeo"
 
-#. Add new video version dialog text
+#. Manage versions, remove: removing the default version of a movie is not allowed.
 msgctxt "#40019"
 msgid "The default version of a movie cannot be removed. Set a different default version and try again."
 msgstr ""
@@ -19225,9 +19285,9 @@ msgctxt "#40020"
 msgid "Are you sure to remove version \"{0:s}\"?"
 msgstr ""
 
-#. Convert video to version context menu item
+#. Remove item from library text if item has multiple versions
 msgctxt "#40021"
-msgid "Convert to version"
+msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
 msgstr ""
 
 #. Manage video version dialog title
@@ -19242,12 +19302,12 @@ msgstr ""
 
 #. Choose/Manage video version dialog title
 msgctxt "#40024"
-msgid "Versions: {0:s}"
+msgid "Versions Manager: {0:s}"
 msgstr ""
 
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
-msgid "Extras: {0:s}"
+msgid "Extras Manager: {0:s}"
 msgstr ""
 
 #. Add extra dialog text.
@@ -19258,6 +19318,61 @@ msgstr ""
 #. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
 msgctxt "#40027"
 msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
+msgstr ""
+
+#. Browse the computer files for the file to be added as version
+msgctxt "#40028"
+msgid "Browse files"
+msgstr "Buscar archivos"
+
+#. Browse the library for the movie to be added as version
+msgctxt "#40029"
+msgid "Browse library"
+msgstr ""
+
+#. Select the movie to be added as a version
+msgctxt "#40030"
+msgid "Select movie to add as a version"
+msgstr ""
+
+#. No other movies found in the library
+msgctxt "#40031"
+msgid "No other movies found in the library."
+msgstr ""
+
+#. Add version: no similar movies were found in the library.
+msgctxt "#40032"
+msgid "No similar movies were found in the library."
+msgstr ""
+
+#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40033"
+msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+msgstr ""
+
+#. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
+msgctxt "#40034"
+msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
+msgstr ""
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40035"
+msgid "You are about to convert a movie extra into a movie version. Are you sure?"
+msgstr ""
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40036"
+msgid "You are about to convert a movie version into a movie extra. Are you sure?"
+msgstr ""
+
+#. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
+msgctxt "#40037"
+msgid "The movie to be added has multiple versions.[CR]The type of the default version will be selected in the next dialog. The other versions will keep their current type.[CR]Do you want to continue?"
+msgstr ""
+
+#. Addition of new version: the default version of a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40038"
+msgid "The default version of a movie with multiple versions cannot be added to another movie. Please move or remove the other versions first."
 msgstr ""
 
 #. Select default video version setting
@@ -19300,10 +19415,10 @@ msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
 msgstr "Cuando se activa, un vídeo con múltiples versiones se mostrará como una carpeta en la biblioteca de vídeos. Esta carpeta puede abrirse para mostrar las versiones individuales del vídeo. Si está desactivada, se aplicará la acción de selección configurada."
 
-#. Choose video version context menu item label
+#. Choose video version dialog title
 msgctxt "#40208"
-msgid "Choose version"
-msgstr "Elegir versión"
+msgid "Choose version: {}"
+msgstr ""
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
@@ -19313,7 +19428,7 @@ msgstr ""
 #. Button label for video versions
 msgctxt "#40210"
 msgid "Versions"
-msgstr ""
+msgstr "Versiones"
 
 #. Button label for video extras
 msgctxt "#40211"
@@ -19328,6 +19443,46 @@ msgstr ""
 #. Help string for UPnP remote player volume level sync setting
 msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
+msgstr ""
+
+#. Dialog title for the selection of the video extra
+msgctxt "#40214"
+msgid "Choose extra: {}"
+msgstr ""
+
+#. Title of the dialog for version rename action from Versions Manager
+msgctxt "#40215"
+msgid "Choose version type"
+msgstr ""
+
+#. Caption of the button to create a new version type (Versions Manager > Rename)
+msgctxt "#40216"
+msgid "New type..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new version type
+msgctxt "#40217"
+msgid "New version type"
+msgstr ""
+
+#. Title of the dialog for extra rename action from Extras Manager
+msgctxt "#40218"
+msgid "Choose extra name"
+msgstr ""
+
+#. Caption of the button to create a new extra name (Extras Manager > Rename)
+msgctxt "#40219"
+msgid "New name..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new extra name
+msgctxt "#40220"
+msgid "New extra name"
+msgstr ""
+
+#. Choose video version context menu item label
+msgctxt "#40221"
+msgid "Choose version"
 msgstr ""
 
 # Video versions
@@ -19355,11 +19510,6 @@ msgstr "Versión Sin Cortes"
 msgctxt "#40404"
 msgid "Remastered Version"
 msgstr "Versión Remasterizada"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40405"
-msgid "4K"
-msgstr "4K"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40406"
@@ -19422,71 +19572,6 @@ msgid "Black and White Edition"
 msgstr "Edición Blanco y Negro"
 
 #. Name of a video version, like "Director's Cut"
-msgctxt "#40418"
-msgid "BluRay"
-msgstr "BluRay"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40419"
-msgid "WEB-DL"
-msgstr "WEB-DL"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40420"
-msgid "3D"
-msgstr "3D"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40421"
-msgid "8K"
-msgstr "8K"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40422"
-msgid "IMAX"
-msgstr "IMAX"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40423"
-msgid "UHD"
-msgstr "UHD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40424"
-msgid "FHD"
-msgstr "FHD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40425"
-msgid "HD"
-msgstr "HD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40426"
-msgid "SD"
-msgstr "SD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40427"
-msgid "DVD"
-msgstr "DVD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40428"
-msgid "VHS"
-msgstr "VHS"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40429"
-msgid "VCD"
-msgstr "VCD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40430"
-msgid "REMUX"
-msgstr "REMUX"
-
-#. Name of a video version, like "Director's Cut"
 msgctxt "#40431"
 msgid "10th Anniversary Edition"
 msgstr "Edición 10º Aniversario"
@@ -19515,6 +19600,82 @@ msgstr "Edición 40 Aniversario"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "Edición 50 Aniversario"
+
+#~ msgctxt "#40405"
+#~ msgid "4K"
+#~ msgstr "4K"
+
+#~ msgctxt "#40418"
+#~ msgid "BluRay"
+#~ msgstr "BluRay"
+
+#~ msgctxt "#40419"
+#~ msgid "WEB-DL"
+#~ msgstr "WEB-DL"
+
+#~ msgctxt "#40420"
+#~ msgid "3D"
+#~ msgstr "3D"
+
+#~ msgctxt "#40421"
+#~ msgid "8K"
+#~ msgstr "8K"
+
+#~ msgctxt "#40422"
+#~ msgid "IMAX"
+#~ msgstr "IMAX"
+
+#~ msgctxt "#40423"
+#~ msgid "UHD"
+#~ msgstr "UHD"
+
+#~ msgctxt "#40424"
+#~ msgid "FHD"
+#~ msgstr "FHD"
+
+#~ msgctxt "#40425"
+#~ msgid "HD"
+#~ msgstr "HD"
+
+#~ msgctxt "#40426"
+#~ msgid "SD"
+#~ msgstr "SD"
+
+#~ msgctxt "#40427"
+#~ msgid "DVD"
+#~ msgstr "DVD"
+
+#~ msgctxt "#40428"
+#~ msgid "VHS"
+#~ msgstr "VHS"
+
+#~ msgctxt "#40429"
+#~ msgid "VCD"
+#~ msgstr "VCD"
+
+#~ msgctxt "#40430"
+#~ msgid "REMUX"
+#~ msgstr "REMUX"
+
+#~ msgctxt "#37108"
+#~ msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+#~ msgstr "El factor de lectura determina la tasa de llenado de la caché en términos de promedio de tasa de bits de la transmisión x factor de lectura. Al aumentar este múltiplo, la caché se llena más rápido pero se consume más ancho de banda. Los múltiplos grandes pueden provocar picos de CPU en algunos dispositivos, saturar la conexión y empeorar el rendimiento."
+
+#~ msgctxt "#433"
+#~ msgid "Would you really like to remove '{0:s}' from library?"
+#~ msgstr "¿Realmente quiere eliminar '{0:s}' de la colección?"
+
+#~ msgctxt "#40004"
+#~ msgid "New version..."
+#~ msgstr "Nueva versión..."
+
+#~ msgctxt "#40208"
+#~ msgid "Choose version"
+#~ msgstr "Elegir versión"
+
+#~ msgctxt "#36299"
+#~ msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
+#~ msgstr "Permite que se cambie el modo HDR de la pantalla para coincida mejor con los medios. [CR]Cuando está deshabilitado, Kodi aplica el mapeo de tonos según sea necesario para adaptar los medios al modo HDR actual de la pantalla."
 
 #~ msgctxt "#40002"
 #~ msgid "Convert into an additional version of {0:s}"

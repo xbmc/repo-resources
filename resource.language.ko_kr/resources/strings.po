@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-11-23 17:24+0000\n"
+"PO-Revision-Date: 2024-02-11 23:43+0000\n"
 "Last-Translator: Minho Park <parkmino@gmail.com>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.3\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1698,8 +1698,8 @@ msgid "Remove movie from library"
 msgstr "라이브러리에서 영화 제거"
 
 msgctxt "#433"
-msgid "Would you really like to remove '{0:s}' from library?"
-msgstr "라이브러리에서 '{0:s}' 항목을 지울까요?"
+msgid "Would you really like to remove '{0:s}' from the library?"
+msgstr "라이브러리에서 '{0:s}'을(를) 지울까요?"
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -2409,6 +2409,7 @@ msgctxt "#629"
 msgid "View mode"
 msgstr "보기 모드"
 
+#. Label for stretching the displayed video to its normal size
 msgctxt "#630"
 msgid "Normal"
 msgstr "보통"
@@ -2417,6 +2418,7 @@ msgctxt "#631"
 msgid "Zoom"
 msgstr "확대/축소"
 
+#. Label for stretching the displayed video to a 4:3 aspect ratio
 msgctxt "#632"
 msgid "Stretch 4:3"
 msgstr "4:3 늘림"
@@ -2425,10 +2427,12 @@ msgctxt "#633"
 msgid "Wide zoom"
 msgstr "넓게 확대/축소"
 
+#. Label for stretching the displayed video to a 16:9 aspect ratio
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "16:9 늘림"
 
+#. Label for stretching the displayed video to the original size of the video stream
 msgctxt "#635"
 msgid "Original size"
 msgstr "원래 크기"
@@ -4614,7 +4618,7 @@ msgstr "전체화면 비율"
 #. Title of controller configuration window
 msgctxt "#10820"
 msgid "Controller Configuration"
-msgstr "컨트롤러 설정"
+msgstr "컨트롤러 환경설정"
 
 #. Title of the "My Games" window
 msgctxt "#10821"
@@ -4726,11 +4730,11 @@ msgstr "마지막 업데이트"
 
 msgctxt "#12015"
 msgid "Select video version"
-msgstr ""
+msgstr "비디오 버전 선택"
 
 msgctxt "#12016"
 msgid "Select video extra"
-msgstr ""
+msgstr "추가 동영상 선택"
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -9313,10 +9317,30 @@ msgctxt "#19349"
 msgid "User preference"
 msgstr "사용자 기본 설정"
 
-#. label for PVR settings use backend channel group order control
+#. label for PVR setting use backend channel group order control
 msgctxt "#19350"
 msgid "Use channel group order from backend(s)"
 msgstr "백엔드에서 채널 그룹 순서 사용"
+
+#. label for PVR settings category for live tv catchup and video on demand
+msgctxt "#19351"
+msgid "Catchup / Video On Demand"
+msgstr "따라잡기 / 주문형 비디오"
+
+#. label for PVR setting play next programme automatically in catchup / vod mode
+msgctxt "#19352"
+msgid "Play next programme automatically"
+msgstr "다음 프로그램 자동 재생"
+
+#. Label of a context menu entry to kick catchup / VOD playback, starting with the selected item, auto playing all following programmes
+msgctxt "#19353"
+msgid "Play programmes from here"
+msgstr "여기부터 프로그램 재생"
+
+#. Label of a context menu entry to kick catchup / VOD playback of only the selected item, not auto playing any following programmes
+msgctxt "#19354"
+msgid "Play only this programme"
+msgstr "이 프로그램만 재생"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -12293,11 +12317,11 @@ msgstr "{0:2.3f}초"
 
 msgctxt "#22004"
 msgid "Delayed by: {0:2.3f}s"
-msgstr "느림: {0:2.3f}초"
+msgstr "느리게: {0:2.3f}초"
 
 msgctxt "#22005"
 msgid "Ahead by: {0:2.3f}s"
-msgstr "빠름: {0:2.3f}초"
+msgstr "빠르게: {0:2.3f}초"
 
 msgctxt "#22006"
 msgid "Subtitle offset"
@@ -16305,8 +16329,8 @@ msgstr "사용하고 PVR 애드온이나 백엔드가 지원하면, 알림 팝�
 
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
-msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
-msgstr "디스플레이의 HDR 모드가 미디어와 가장 일치하도록 바꿉니다.[CR]사용하지 않으면 Kodi는 필요에 따라 톤 매핑을 적용하여 미디어를 디스플레이의 현재 HDR 모드에 맞게 조정합니다."
+msgid "Allow the HDR mode of the display to be changed to best match the media. When disabled, Kodi applies tonemapping if needed (and if supported on your hardware) to adapt the media to the current HDR mode of the display."
+msgstr "미디어에 가장 잘 맞도록 디스플레이의 HDR 모드를 변경할 수 있습니다. 사용하지 않으면 Kodi는 필요한 경우(하드웨어에서 지원되는 경우) 톤 매핑을 적용하여 미디어를 디스플레이의 현재 HDR 모드에 맞게 조정합니다."
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -16986,6 +17010,11 @@ msgstr "공식 저장소만 (기본)"
 msgctxt "#36438"
 msgid "Any repositories"
 msgstr "모든 저장소"
+
+#. Description of setting with label #19352 "Play next programme automatically"
+msgctxt "#36439"
+msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
+msgstr "지난 프로그램(따라잡기)을 재생하거나 VOD(주문형 비디오) 채널을 재생할 때 다음 프로그램을 자동 재생합니다. 따라잡기와 VOD는 채널 제공업체에서 지원하는 경우에만 해당됩니다."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17955,8 +17984,8 @@ msgstr "읽기 계수"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
-msgstr "읽기 계수는 스트림 평균 비트 전송률 x 읽기 계수의 캐시 채우기 속도를 결정합니다. 스트림의 비트 전송률 x 읽기 요소. 이 배수를 늘리면 캐시가 더 빨리 채워지지만 더 많은 대역폭이 소비됩니다. 배수가 크면 일부 장치에서 CPU 폭주가 발생하고 연결이 포화되어 성능이 저하될 수 있습니다."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+msgstr "스트림의 평균 비트 전송률 x 읽기 계수를 기준으로 캐시 채우기 속도를 결정합니다. 이 배수를 늘리면 캐시가 더 빨리 채워집니다. 배수가 크면 일부 장치에서 CPU 스파이크가 발생하고 연결이 포화되어 성능이 저하될 수 있습니다.[CR][적응형] 캐시 수준에 따라 동적으로 계산된 읽기 계수를 사용합니다."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -17988,10 +18017,15 @@ msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
 msgstr "로컬 파일을 포함한 모든 파일 시스템 버퍼링"
 
-#. Value of setting
+#. Value of setting #37105 "Memory Size"
 msgctxt "#37115"
 msgid "Caches entire file on disk storage"
 msgstr "디스크 저장소에 전체 파일을 캐시"
+
+#. Value of setting #37107 "Read Factor"
+msgctxt "#37116"
+msgid "Adaptative"
+msgstr "적응형"
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19125,7 +19159,28 @@ msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr "사용하면, 돌비 비전 프로필 7이 대부분 장치에서 지원되는 프로필 8.1로 바뀝니다. 장치가 돌비 비전을 지원하지만 일부 동영상에 문제가 있는 경우 사용합니다."
 
+#. Title of "Allowed HDR dynamic metadata formats" setting
+msgctxt "#39198"
+msgid "Allowed HDR dynamic metadata formats"
+msgstr "허용되는 HDR 동적 메타데이터 형식"
+
+#. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39199"
+msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
+msgstr "동적 HDR 메타데이터를 제거하기 위해 비디오 비트스트림을 변경합니다. 장치와 디스플레이가 지원하는 HDR 형식을 선택합니다."
+
+#. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39200"
+msgid "Dolby Vision"
+msgstr "돌비 비전"
+
+#. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39201"
+msgid "HDR10+"
+msgstr "HDR10+"
+
 # 40000 to 40800 are reserved for Video Versions feature
+#. Generic video versions label (plural)
 msgctxt "#40000"
 msgid "Versions"
 msgstr "버전"
@@ -19133,17 +19188,22 @@ msgstr "버전"
 #. Manage video versions context menu item
 msgctxt "#40001"
 msgid "Manage versions"
-msgstr ""
+msgstr "버전 관리"
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version"
-msgstr ""
+msgid "Add as version to..."
+msgstr "버전으로 추가..."
 
-#. New video version dialog button
+#. Generic video version label (singular)
+msgctxt "#40003"
+msgid "Version"
+msgstr "버전"
+
+#. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
-msgid "New version..."
-msgstr "새로운 버전..."
+msgid "Choose type"
+msgstr "유형 선택"
 
 #. Warning dialog title
 msgctxt "#40005"
@@ -19153,7 +19213,7 @@ msgstr "지원되지 않는 작업"
 #. Warning dialog text
 msgctxt "#40006"
 msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
-msgstr ""
+msgstr "선택한 영화에 여러 버전이 있어 다른 버전으로 변환할 수 없습니다. 영화에서 버전을 제거하고 라이브러리를 다시 스캔하여 개별적으로 변환합니다."
 
 #. Warning dialog text
 msgctxt "#40007"
@@ -19163,12 +19223,12 @@ msgstr "\"{0:s}\" 버전이 이미 존재합니다!"
 #. Different video version found dialog title
 msgctxt "#40008"
 msgid "Different movie version found"
-msgstr ""
+msgstr "다른 영화 버전이 있음"
 
 #. Different video version found dialog text
 msgctxt "#40009"
 msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
-msgstr ""
+msgstr "영화 \"{0:s}\": {1:s}의 다른 버전을 찾았습니다. 원본의 추가 버전으로 변환할까요?"
 
 #. "video version" string in singular format
 msgctxt "#40010"
@@ -19193,42 +19253,42 @@ msgstr "비디오 버전"
 #. Add video version dialog title
 msgctxt "#40014"
 msgid "Add version"
-msgstr ""
+msgstr "버전 추가"
 
 #. Add video extra dialog title
 msgctxt "#40015"
 msgid "Add extra"
-msgstr ""
+msgstr "추가 버전 추가"
 
 #. Add video version dialog text.
 msgctxt "#40016"
 msgid "The selected video already is the \"{0:s}\" version of the movie."
-msgstr ""
+msgstr "선택한 동영상은 이미 영화의 \"{0:s}\" 버전입니다."
 
 #. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
 msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
-msgstr ""
+msgstr "선택한 동영상은 영화 \"{1:s}\"의 \"{0:s}\" 버전입니다. 이 영화의 버전으로 옮길까요?"
 
 #. Remove video version dialog title
 msgctxt "#40018"
 msgid "Remove video version"
 msgstr "비디오 버전 삭제"
 
-#. Add new video version dialog text
+#. Manage versions, remove: removing the default version of a movie is not allowed.
 msgctxt "#40019"
 msgid "The default version of a movie cannot be removed. Set a different default version and try again."
-msgstr ""
+msgstr "영화의 기본 버전은 제거할 수 없습니다. 다른 기본 버전을 설정하고 다시 시도하세요."
 
 #. Remove video version dialog text
 msgctxt "#40020"
 msgid "Are you sure to remove version \"{0:s}\"?"
-msgstr ""
+msgstr "\"{0:s}\" 버전을 지울까요?"
 
-#. Convert video to version context menu item
+#. Remove item from library text if item has multiple versions
 msgctxt "#40021"
-msgid "Convert to version"
-msgstr ""
+msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
+msgstr "라이브러리에서 '{0:s}' 및 해당 버전을 모두 지울까요?"
 
 #. Manage video version dialog title
 msgctxt "#40022"
@@ -19238,37 +19298,92 @@ msgstr "{0:s} 관리"
 #. Button label to make a video version the default version
 msgctxt "#40023"
 msgid "Set as default"
-msgstr ""
+msgstr "기본값으로 설정"
 
 #. Choose/Manage video version dialog title
 msgctxt "#40024"
-msgid "Versions: {0:s}"
-msgstr ""
+msgid "Versions Manager: {0:s}"
+msgstr "버전 관리자: {0:s}"
 
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
-msgid "Extras: {0:s}"
-msgstr ""
+msgid "Extras Manager: {0:s}"
+msgstr "추가 관리자: {0:s}"
 
 #. Add extra dialog text.
 msgctxt "#40026"
 msgid "The selected video already is the \"{0:s}\" extra of the movie."
-msgstr ""
+msgstr "선택한 동영상은 이미 영화의 \"{0:s}\" 추가 버전입니다."
 
 #. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
 msgctxt "#40027"
 msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
-msgstr ""
+msgstr "선택한 동영상은 영화 \"{1:s}\"의 \"{0:s}\" 추가 버전입니다. 이 영화에 추가 버전을 추가할까요?"
+
+#. Browse the computer files for the file to be added as version
+msgctxt "#40028"
+msgid "Browse files"
+msgstr "파일 열기"
+
+#. Browse the library for the movie to be added as version
+msgctxt "#40029"
+msgid "Browse library"
+msgstr "라이브러리 열기"
+
+#. Select the movie to be added as a version
+msgctxt "#40030"
+msgid "Select movie to add as a version"
+msgstr "버전으로 추가할 영화를 선택합니다"
+
+#. No other movies found in the library
+msgctxt "#40031"
+msgid "No other movies found in the library."
+msgstr "라이브러리에 다른 영화가 없습니다."
+
+#. Add version: no similar movies were found in the library.
+msgctxt "#40032"
+msgid "No similar movies were found in the library."
+msgstr "라이브러리에 유사한 영화를 찾을 수 없습니다."
+
+#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40033"
+msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+msgstr "여러 영화 버전의 기본 버전은 다른 버전에 추가할 수 없습니다. 먼저 버전을 추가하세요."
+
+#. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
+msgctxt "#40034"
+msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
+msgstr "여러 영화 버전의 기본 버전은 다른 영화에 추가할 수 없습니다. 먼저 다른 버전을 이동하거나 지우세요."
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40035"
+msgid "You are about to convert a movie extra into a movie version. Are you sure?"
+msgstr "영화 추가 버전을 영화 버전으로 바꿀까요?"
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40036"
+msgid "You are about to convert a movie version into a movie extra. Are you sure?"
+msgstr "영화 버전을 영화 추가 버전으로 바꿀까요?"
+
+#. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
+msgctxt "#40037"
+msgid "The movie to be added has multiple versions.[CR]The type of the default version will be selected in the next dialog. The other versions will keep their current type.[CR]Do you want to continue?"
+msgstr "추가할 영화에는 여러 버전이 있습니다.[CR]기본 버전은 다음 대화 상자에서 선택합니다. 다른 버전은 현재를 유지합니다.[CR]계속할까요?"
+
+#. Addition of new version: the default version of a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40038"
+msgid "The default version of a movie with multiple versions cannot be added to another movie. Please move or remove the other versions first."
+msgstr "여러 버전이 있는 영화의 기본 버전은 다른 영화에 추가할 수 없습니다. 먼저 다른 버전을 이동하거나 지웁니다."
 
 #. Select default video version setting
 msgctxt "#40200"
 msgid "Select default video version"
-msgstr ""
+msgstr "기본 동영상 버전 선택"
 
 #. Help for select default video version setting
 msgctxt "#40201"
 msgid "Defines how to handle selection of videos with multiple versions.[CR][Enabled] Automatically select the default video version without prompting.[CR][Disabled] Display a dialogue to select a version of the video."
-msgstr ""
+msgstr "여러 버전의 동영상을 선택하는 방법을 정합니다.[CR][사용함] 메시지를 표시하지 않고 기본 동용성 버전을 자동으로 선택합니다.[CR][사용 안 함] 비디오 버전을 선택하는 대화 상자를 표시합니다."
 
 #. Ignore different video versions settting
 msgctxt "#40202"
@@ -19293,42 +19408,82 @@ msgstr "\"추가\" 폴더에 있는 동영상 추가 항목에 대한 스캔 작
 #. Show video versions as folder settting
 msgctxt "#40206"
 msgid "Show videos with multiple versions as folder"
-msgstr ""
+msgstr "여러 버전의 동영상을 폴더로 표시"
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
-msgstr ""
+msgstr "사용하면 여러 버전의 동영상이 라이브러리의 폴더로 표시됩니다. 그런 다음 이 폴더를 열어 개별 동영상 버전을 표시할 수 있습니다. 사용하지 않으면 설정된 선택 방법이 적용됩니다."
 
-#. Choose video version context menu item label
+#. Choose video version dialog title
 msgctxt "#40208"
-msgid "Choose version"
-msgstr ""
+msgid "Choose version: {}"
+msgstr "버전 선택: {}"
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
 msgid "Play version using..."
-msgstr ""
+msgstr "재생할 버전..."
 
 #. Button label for video versions
 msgctxt "#40210"
 msgid "Versions"
-msgstr ""
+msgstr "버전"
 
 #. Button label for video extras
 msgctxt "#40211"
 msgid "Extras"
-msgstr ""
+msgstr "추가 버전"
 
 #. UPnP remote player volume level sync setting
 msgctxt "#40212"
 msgid "Synchronize volume level to remote UPnP players"
-msgstr ""
+msgstr "음량 레벨을 원격 UPnP 플레이어와 동기화"
 
 #. Help string for UPnP remote player volume level sync setting
 msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
-msgstr ""
+msgstr "선택하면 원격 플레이어 음량 수준이 이 애플리케이션과 동기화됩니다.[CR]경고: 전체 시스템 음량 수준은 애플리케이션 음량 수준과 다를 수 있습니다. 이는 독립적으로 제어됩니다.[CR]이 애플리케이션의 음량이 100%이지만 전체 시스템 음량이 더 낮은 경우, 원격 플레이어의 음량이 100%로 설정될 수 있습니다."
+
+#. Dialog title for the selection of the video extra
+msgctxt "#40214"
+msgid "Choose extra: {}"
+msgstr "추가 선택: {}"
+
+#. Title of the dialog for version rename action from Versions Manager
+msgctxt "#40215"
+msgid "Choose version type"
+msgstr "버전 유형 선택"
+
+#. Caption of the button to create a new version type (Versions Manager > Rename)
+msgctxt "#40216"
+msgid "New type..."
+msgstr "새 유형..."
+
+#. Caption of the dialog for keyboard entry of a new version type
+msgctxt "#40217"
+msgid "New version type"
+msgstr "새 버전 유형"
+
+#. Title of the dialog for extra rename action from Extras Manager
+msgctxt "#40218"
+msgid "Choose extra name"
+msgstr "추가 이름 선택"
+
+#. Caption of the button to create a new extra name (Extras Manager > Rename)
+msgctxt "#40219"
+msgid "New name..."
+msgstr "새 이름..."
+
+#. Caption of the dialog for keyboard entry of a new extra name
+msgctxt "#40220"
+msgid "New extra name"
+msgstr "새 추가 이름"
+
+#. Choose video version context menu item label
+msgctxt "#40221"
+msgid "Choose version"
+msgstr "버전 선택"
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -19355,11 +19510,6 @@ msgstr "무삭제판"
 msgctxt "#40404"
 msgid "Remastered Version"
 msgstr "리마스터판"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40405"
-msgid "4K"
-msgstr "4K"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40406"
@@ -19422,71 +19572,6 @@ msgid "Black and White Edition"
 msgstr "흑백판"
 
 #. Name of a video version, like "Director's Cut"
-msgctxt "#40418"
-msgid "BluRay"
-msgstr "블루레이"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40419"
-msgid "WEB-DL"
-msgstr "웹-다운로드"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40420"
-msgid "3D"
-msgstr "3D"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40421"
-msgid "8K"
-msgstr "8K"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40422"
-msgid "IMAX"
-msgstr "아이맥스"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40423"
-msgid "UHD"
-msgstr "UHD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40424"
-msgid "FHD"
-msgstr "풀HD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40425"
-msgid "HD"
-msgstr "HD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40426"
-msgid "SD"
-msgstr "SD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40427"
-msgid "DVD"
-msgstr "DVD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40428"
-msgid "VHS"
-msgstr "VHS"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40429"
-msgid "VCD"
-msgstr "VCD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40430"
-msgid "REMUX"
-msgstr "리먹스"
-
-#. Name of a video version, like "Director's Cut"
 msgctxt "#40431"
 msgid "10th Anniversary Edition"
 msgstr "10주년판"
@@ -19515,6 +19600,98 @@ msgstr "40주년판"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50주년판"
+
+#~ msgctxt "#40405"
+#~ msgid "4K"
+#~ msgstr "4K"
+
+#~ msgctxt "#40418"
+#~ msgid "BluRay"
+#~ msgstr "블루레이"
+
+#~ msgctxt "#40419"
+#~ msgid "WEB-DL"
+#~ msgstr "웹-다운로드"
+
+#~ msgctxt "#40420"
+#~ msgid "3D"
+#~ msgstr "3D"
+
+#~ msgctxt "#40421"
+#~ msgid "8K"
+#~ msgstr "8K"
+
+#~ msgctxt "#40422"
+#~ msgid "IMAX"
+#~ msgstr "아이맥스"
+
+#~ msgctxt "#40423"
+#~ msgid "UHD"
+#~ msgstr "UHD"
+
+#~ msgctxt "#40424"
+#~ msgid "FHD"
+#~ msgstr "풀HD"
+
+#~ msgctxt "#40425"
+#~ msgid "HD"
+#~ msgstr "HD"
+
+#~ msgctxt "#40426"
+#~ msgid "SD"
+#~ msgstr "SD"
+
+#~ msgctxt "#40427"
+#~ msgid "DVD"
+#~ msgstr "DVD"
+
+#~ msgctxt "#40428"
+#~ msgid "VHS"
+#~ msgstr "VHS"
+
+#~ msgctxt "#40429"
+#~ msgid "VCD"
+#~ msgstr "VCD"
+
+#~ msgctxt "#40430"
+#~ msgid "REMUX"
+#~ msgstr "리먹스"
+
+#~ msgctxt "#37108"
+#~ msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+#~ msgstr "읽기 계수는 스트림 평균 비트 전송률 x 읽기 계수의 캐시 채우기 속도를 결정합니다. 스트림의 비트 전송률 x 읽기 요소. 이 배수를 늘리면 캐시가 더 빨리 채워지지만 더 많은 대역폭이 소비됩니다. 배수가 크면 일부 장치에서 CPU 폭주가 발생하고 연결이 포화되어 성능이 저하될 수 있습니다."
+
+#~ msgctxt "#433"
+#~ msgid "Would you really like to remove '{0:s}' from library?"
+#~ msgstr "라이브러리에서 '{0:s}' 항목을 지울까요?"
+
+#~ msgctxt "#40004"
+#~ msgid "New version..."
+#~ msgstr "새로운 버전..."
+
+#~ msgctxt "#40208"
+#~ msgid "Choose version"
+#~ msgstr "버전 선택"
+
+#~ msgctxt "#40214"
+#~ msgid "Choose extra"
+#~ msgstr "추가 선택"
+
+#~ msgctxt "#40024"
+#~ msgid "Versions: {0:s}"
+#~ msgstr "버전: {0:s}"
+
+#~ msgctxt "#40025"
+#~ msgid "Extras: {0:s}"
+#~ msgstr "추가: {0:s}"
+
+#~ msgctxt "#36299"
+#~ msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
+#~ msgstr "디스플레이의 HDR 모드가 미디어와 가장 일치하도록 바꿉니다.[CR]사용하지 않으면 Kodi는 필요에 따라 톤 매핑을 적용하여 미디어를 디스플레이의 현재 HDR 모드에 맞게 조정합니다."
+
+#~ msgctxt "#40021"
+#~ msgid "Add as version to..."
+#~ msgstr "버전으로 추가..."
 
 #~ msgctxt "#40002"
 #~ msgid "Convert into an additional version of {0:s}"

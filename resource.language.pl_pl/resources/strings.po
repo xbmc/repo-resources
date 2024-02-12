@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-12-27 08:46+0000\n"
+"PO-Revision-Date: 2024-02-10 15:47+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -1698,7 +1698,7 @@ msgid "Remove movie from library"
 msgstr "Usuń film z biblioteki"
 
 msgctxt "#433"
-msgid "Would you really like to remove '{0:s}' from library?"
+msgid "Would you really like to remove '{0:s}' from the library?"
 msgstr "Czy na pewno chcesz usunąć '{0:s}' z biblioteki?"
 
 #. From <wind dir.> at <speed> <unit>
@@ -2409,6 +2409,7 @@ msgctxt "#629"
 msgid "View mode"
 msgstr "Tryb wyświetlania"
 
+#. Label for stretching the displayed video to its normal size
 msgctxt "#630"
 msgid "Normal"
 msgstr "Normalny"
@@ -2417,6 +2418,7 @@ msgctxt "#631"
 msgid "Zoom"
 msgstr "Powiększenie"
 
+#. Label for stretching the displayed video to a 4:3 aspect ratio
 msgctxt "#632"
 msgid "Stretch 4:3"
 msgstr "Rozciąganie 4:3"
@@ -2425,10 +2427,12 @@ msgctxt "#633"
 msgid "Wide zoom"
 msgstr "Szerokie powiększenie"
 
+#. Label for stretching the displayed video to a 16:9 aspect ratio
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "Rozciąganie 16:9"
 
+#. Label for stretching the displayed video to the original size of the video stream
 msgctxt "#635"
 msgid "Original size"
 msgstr "Oryginalny"
@@ -9315,10 +9319,30 @@ msgctxt "#19349"
 msgid "User preference"
 msgstr "Preferencje użytkownika"
 
-#. label for PVR settings use backend channel group order control
+#. label for PVR setting use backend channel group order control
 msgctxt "#19350"
 msgid "Use channel group order from backend(s)"
 msgstr "Użyj kolejności grup kanałów z serwera(-ów)"
+
+#. label for PVR settings category for live tv catchup and video on demand
+msgctxt "#19351"
+msgid "Catchup / Video On Demand"
+msgstr "Nadrabianie zaległości / Wideo na życzenie"
+
+#. label for PVR setting play next programme automatically in catchup / vod mode
+msgctxt "#19352"
+msgid "Play next programme automatically"
+msgstr "Odtwórz następny program automatycznie"
+
+#. Label of a context menu entry to kick catchup / VOD playback, starting with the selected item, auto playing all following programmes
+msgctxt "#19353"
+msgid "Play programmes from here"
+msgstr "Odtwórz programy odtąd"
+
+#. Label of a context menu entry to kick catchup / VOD playback of only the selected item, not auto playing any following programmes
+msgctxt "#19354"
+msgid "Play only this programme"
+msgstr "Odtwórz tylko ten program"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -16313,8 +16337,8 @@ msgstr "Jeśli jest włączona, nagrywanie programu do przypomnienia będzie zap
 
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
-msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
-msgstr "Zezwalaj na zmianę trybu HDR wyświetlacza, aby najlepiej pasował do multimediów.[CR]Gdy ta opcja jest wyłączona, Kodi stosuje mapowanie tonów w razie potrzeby, aby dostosować multimedia do bieżącego trybu HDR wyświetlacza."
+msgid "Allow the HDR mode of the display to be changed to best match the media. When disabled, Kodi applies tonemapping if needed (and if supported on your hardware) to adapt the media to the current HDR mode of the display."
+msgstr "Zezwalaj na zmianę trybu HDR wyświetlacza, aby najlepiej pasował do multimediów. Gdy ta opcja jest wyłączona, Kodi stosuje mapowanie tonalne, jeśli jest to konieczne (i jeśli jest obsługiwane przez sprzęt), aby dostosować multimedia do bieżącego trybu HDR wyświetlacza."
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -16994,6 +17018,11 @@ msgstr "Tylko oficjalne repozytoria (domyślne)"
 msgctxt "#36438"
 msgid "Any repositories"
 msgstr "Wszelkie repozytoria"
+
+#. Description of setting with label #19352 "Play next programme automatically"
+msgctxt "#36439"
+msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
+msgstr "Włącz automatyczne odtwarzanie następnego programu podczas odtwarzania poprzednich programów (nadrabianie zaległości) lub w przypadku kanałów wideo na życzenie (VOD). Należy pamiętać, że nadrabianie zaległości i VOD działają tylko wtedy, gdy są obsługiwane przez dostawcę kanału."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17963,8 +17992,8 @@ msgstr "Współczynnik odczytu"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
-msgstr "Współczynnik odczytu określa szybkość zapełnienia pamięci podręcznej w kategoriach średniej szybkości transmisji strumienia x współczynnik odczytu. Zwiększanie tej wielokrotności powoduje szybsze zapełnianie pamięci podręcznej, ale zużywanie większej przepustowości. Duże wielokrotności mogą powodować skoki wydajności procesora na niektórych urządzeniach, nasycenie połączenia i pogorszenie wydajności."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+msgstr "Określa szybkość wypełniania pamięci podręcznej w kategoriach średniej szybkości transmisji współczynnika odczytu strumienia x. Zwiększanie tej wielokrotności powoduje szybsze zapełnianie pamięci podręcznej. Duże wielokrotności mogą powodować skoki wydajności procesora na niektórych urządzeniach, nasycać połączenie i pogarszać wydajność.[CR][Adaptacyjny] Używa dynamicznie obliczanego współczynnika odczytu na podstawie poziomu pamięci podręcznej."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -17996,10 +18025,15 @@ msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
 msgstr "Buforuj wszystkie systemy plików, łącznie z plikami lokalnymi"
 
-#. Value of setting
+#. Value of setting #37105 "Memory Size"
 msgctxt "#37115"
 msgid "Caches entire file on disk storage"
 msgstr "Buforuje cały plik w pamięci dyskowej"
+
+#. Value of setting #37107 "Read Factor"
+msgctxt "#37116"
+msgid "Adaptative"
+msgstr "Adaptacyjny"
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19136,7 +19170,28 @@ msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr "Jeśli ta opcja jest włączona, profil Dolby Vision 7 zostanie przekonwertowany na profil 8.1, który jest częściej obsługiwany przez urządzenia. Włącz, jeśli to urządzenie obsługuje Dolby Vision, ale występują problemy z niektórymi filmami."
 
+#. Title of "Allowed HDR dynamic metadata formats" setting
+msgctxt "#39198"
+msgid "Allowed HDR dynamic metadata formats"
+msgstr "Dozwolone formaty dynamicznych metadanych HDR"
+
+#. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39199"
+msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
+msgstr "Zmienia strumień bitów wideo, aby usunąć dynamiczne metadane HDR. Wybierz formaty HDR obsługiwane przez to urządzenie i wyświetlacz."
+
+#. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39200"
+msgid "Dolby Vision"
+msgstr "Dolby Vision"
+
+#. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39201"
+msgid "HDR10+"
+msgstr "HDR10+"
+
 # 40000 to 40800 are reserved for Video Versions feature
+#. Generic video versions label (plural)
 msgctxt "#40000"
 msgid "Versions"
 msgstr "Wersje"
@@ -19148,13 +19203,18 @@ msgstr "Zarządzaj wersjami"
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version"
-msgstr "Konwertuj na dodatkową wersję"
+msgid "Add as version to..."
+msgstr "Dodaj jako wersję do..."
 
-#. New video version dialog button
+#. Generic video version label (singular)
+msgctxt "#40003"
+msgid "Version"
+msgstr "Wersja"
+
+#. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
-msgid "New version..."
-msgstr "Nowa wersja..."
+msgid "Choose type"
+msgstr "Wybierz typ"
 
 #. Warning dialog title
 msgctxt "#40005"
@@ -19226,7 +19286,7 @@ msgctxt "#40018"
 msgid "Remove video version"
 msgstr "Usuń wersję wideo"
 
-#. Add new video version dialog text
+#. Manage versions, remove: removing the default version of a movie is not allowed.
 msgctxt "#40019"
 msgid "The default version of a movie cannot be removed. Set a different default version and try again."
 msgstr "Nie można usunąć domyślnej wersji filmu. Ustaw inną wersję domyślną i spróbuj ponownie."
@@ -19236,10 +19296,10 @@ msgctxt "#40020"
 msgid "Are you sure to remove version \"{0:s}\"?"
 msgstr "Czy na pewno chcesz usunąć wersję \"{0:s}\"?"
 
-#. Convert video to version context menu item
+#. Remove item from library text if item has multiple versions
 msgctxt "#40021"
-msgid "Convert to version"
-msgstr "Konwertuj na wersję"
+msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
+msgstr "Czy na pewno chcesz usunąć '{0:s}' i wszystkie jej wersje z biblioteki?"
 
 #. Manage video version dialog title
 msgctxt "#40022"
@@ -19253,13 +19313,13 @@ msgstr "Ustaw jako domyślną"
 
 #. Choose/Manage video version dialog title
 msgctxt "#40024"
-msgid "Versions: {0:s}"
-msgstr "Wersje: {0:s}"
+msgid "Versions Manager: {0:s}"
+msgstr "Menedżer wersji: {0:s}"
 
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
-msgid "Extras: {0:s}"
-msgstr "Dodatki: {0:s}"
+msgid "Extras Manager: {0:s}"
+msgstr "Menedżer dodatków: {0:s}"
 
 #. Add extra dialog text.
 msgctxt "#40026"
@@ -19270,6 +19330,61 @@ msgstr "Wybrane wideo jest już dodatkiem do filmu \"{0:s}\"."
 msgctxt "#40027"
 msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
 msgstr "Wybrany film to dodatek \"{0:s}\" do filmu \"{1:s}\". Czy chcesz przenieść dodatek do tego filmu?"
+
+#. Browse the computer files for the file to be added as version
+msgctxt "#40028"
+msgid "Browse files"
+msgstr "Przeglądaj pliki"
+
+#. Browse the library for the movie to be added as version
+msgctxt "#40029"
+msgid "Browse library"
+msgstr "Przeglądaj bibliotekę"
+
+#. Select the movie to be added as a version
+msgctxt "#40030"
+msgid "Select movie to add as a version"
+msgstr "Wybierz film, który chcesz dodać jako wersję"
+
+#. No other movies found in the library
+msgctxt "#40031"
+msgid "No other movies found in the library."
+msgstr "W bibliotece nie znaleziono innych filmów."
+
+#. Add version: no similar movies were found in the library.
+msgctxt "#40032"
+msgid "No similar movies were found in the library."
+msgstr "W bibliotece nie znaleziono podobnych filmów."
+
+#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40033"
+msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+msgstr "Domyślnej wersji filmu zawierającej wiele wersji nie można dodać jako wersji do innego filmu. Najpierw dodaj jego dodatkowe wersje."
+
+#. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
+msgctxt "#40034"
+msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
+msgstr "Domyślnej wersji filmu zawierającej wiele wersji nie można dodać jako dodatku do innego filmu. Najpierw przenieś lub usuń inne wersje."
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40035"
+msgid "You are about to convert a movie extra into a movie version. Are you sure?"
+msgstr "Zamierzasz przekonwertować dodatek filmu na wersję filmu. Czy na pewno?"
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40036"
+msgid "You are about to convert a movie version into a movie extra. Are you sure?"
+msgstr "Zamierzasz przekonwertować wersję filmu na dodatek filmu. Czy na pewno?"
+
+#. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
+msgctxt "#40037"
+msgid "The movie to be added has multiple versions.[CR]The type of the default version will be selected in the next dialog. The other versions will keep their current type.[CR]Do you want to continue?"
+msgstr "Film, który ma zostać dodany, ma wiele wersji.[CR]Typ wersji domyślnej zostanie wybrany w następnym oknie dialogowym. Pozostałe wersje zachowają swój obecny typ.[CR]Czy chcesz kontynuować?"
+
+#. Addition of new version: the default version of a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40038"
+msgid "The default version of a movie with multiple versions cannot be added to another movie. Please move or remove the other versions first."
+msgstr "Domyślnej wersji filmu zawierającej wiele wersji nie można dodać do innego filmu. Najpierw przenieś lub usuń inne wersje."
 
 #. Select default video version setting
 msgctxt "#40200"
@@ -19311,10 +19426,10 @@ msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
 msgstr "Gdy aktywne, wideo z wieloma wersjami będzie wyświetlane jako folder w bibliotece wideo. Folder ten można następnie otworzyć, aby wyświetlić poszczególne wersje wideo. Jeśli opcja jest nieaktywna, zostanie zastosowana skonfigurowane działanie wyboru."
 
-#. Choose video version context menu item label
+#. Choose video version dialog title
 msgctxt "#40208"
-msgid "Choose version"
-msgstr "Wybierz wersję"
+msgid "Choose version: {}"
+msgstr "Wybierz wersję: {}"
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
@@ -19341,6 +19456,46 @@ msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
 msgstr "Jeśli ta opcja zostanie wybrana, poziom głośności zdalnego odtwarzacza zostanie zsynchronizowany z głośnością tej aplikacji.[CR]Ostrzeżenie: globalny poziom głośności systemu może różnić się od poziomu głośności aplikacji – są one kontrolowane niezależnie.[CR]Może to spowodować, że zdalny odtwarzacz zostanie ustawiony na 100% poziomu głośności, jeśli aplikacja ma 100% poziom głośności, ale ogólny poziom głośności systemu jest mniejszy."
 
+#. Dialog title for the selection of the video extra
+msgctxt "#40214"
+msgid "Choose extra: {}"
+msgstr "Wybierz dodatek: {}"
+
+#. Title of the dialog for version rename action from Versions Manager
+msgctxt "#40215"
+msgid "Choose version type"
+msgstr "Wybierz typ wersji"
+
+#. Caption of the button to create a new version type (Versions Manager > Rename)
+msgctxt "#40216"
+msgid "New type..."
+msgstr "Nowy typ..."
+
+#. Caption of the dialog for keyboard entry of a new version type
+msgctxt "#40217"
+msgid "New version type"
+msgstr "Nowy typ wersji"
+
+#. Title of the dialog for extra rename action from Extras Manager
+msgctxt "#40218"
+msgid "Choose extra name"
+msgstr "Wybierz nazwę dodatku"
+
+#. Caption of the button to create a new extra name (Extras Manager > Rename)
+msgctxt "#40219"
+msgid "New name..."
+msgstr "Nowa nazwa..."
+
+#. Caption of the dialog for keyboard entry of a new extra name
+msgctxt "#40220"
+msgid "New extra name"
+msgstr "Nowa nazwa dodatku"
+
+#. Choose video version context menu item label
+msgctxt "#40221"
+msgid "Choose version"
+msgstr "Wybierz wersję"
+
 # Video versions
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40400"
@@ -19366,11 +19521,6 @@ msgstr "Wersja nieskrócona"
 msgctxt "#40404"
 msgid "Remastered Version"
 msgstr "Wersja zremasterowana"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40405"
-msgid "4K"
-msgstr "4K"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40406"
@@ -19433,71 +19583,6 @@ msgid "Black and White Edition"
 msgstr "Wersja czarno-biała"
 
 #. Name of a video version, like "Director's Cut"
-msgctxt "#40418"
-msgid "BluRay"
-msgstr "BluRay"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40419"
-msgid "WEB-DL"
-msgstr "WEB-DL"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40420"
-msgid "3D"
-msgstr "3D"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40421"
-msgid "8K"
-msgstr "8K"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40422"
-msgid "IMAX"
-msgstr "IMAX"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40423"
-msgid "UHD"
-msgstr "UHD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40424"
-msgid "FHD"
-msgstr "FHD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40425"
-msgid "HD"
-msgstr "HD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40426"
-msgid "SD"
-msgstr "SD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40427"
-msgid "DVD"
-msgstr "DVD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40428"
-msgid "VHS"
-msgstr "VHS"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40429"
-msgid "VCD"
-msgstr "VCD"
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40430"
-msgid "REMUX"
-msgstr "REMUX"
-
-#. Name of a video version, like "Director's Cut"
 msgctxt "#40431"
 msgid "10th Anniversary Edition"
 msgstr "Wydanie z okazji 10. rocznicy"
@@ -19526,6 +19611,102 @@ msgstr "Wydanie z okazji 40. rocznicy"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "Wydanie z okazji 50. rocznicy"
+
+#~ msgctxt "#40405"
+#~ msgid "4K"
+#~ msgstr "4K"
+
+#~ msgctxt "#40418"
+#~ msgid "BluRay"
+#~ msgstr "BluRay"
+
+#~ msgctxt "#40419"
+#~ msgid "WEB-DL"
+#~ msgstr "WEB-DL"
+
+#~ msgctxt "#40420"
+#~ msgid "3D"
+#~ msgstr "3D"
+
+#~ msgctxt "#40421"
+#~ msgid "8K"
+#~ msgstr "8K"
+
+#~ msgctxt "#40422"
+#~ msgid "IMAX"
+#~ msgstr "IMAX"
+
+#~ msgctxt "#40423"
+#~ msgid "UHD"
+#~ msgstr "UHD"
+
+#~ msgctxt "#40424"
+#~ msgid "FHD"
+#~ msgstr "FHD"
+
+#~ msgctxt "#40425"
+#~ msgid "HD"
+#~ msgstr "HD"
+
+#~ msgctxt "#40426"
+#~ msgid "SD"
+#~ msgstr "SD"
+
+#~ msgctxt "#40427"
+#~ msgid "DVD"
+#~ msgstr "DVD"
+
+#~ msgctxt "#40428"
+#~ msgid "VHS"
+#~ msgstr "VHS"
+
+#~ msgctxt "#40429"
+#~ msgid "VCD"
+#~ msgstr "VCD"
+
+#~ msgctxt "#40430"
+#~ msgid "REMUX"
+#~ msgstr "REMUX"
+
+#~ msgctxt "#37108"
+#~ msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+#~ msgstr "Współczynnik odczytu określa szybkość zapełnienia pamięci podręcznej w kategoriach średniej szybkości transmisji strumienia x współczynnik odczytu. Zwiększanie tej wielokrotności powoduje szybsze zapełnianie pamięci podręcznej, ale zużywanie większej przepustowości. Duże wielokrotności mogą powodować skoki wydajności procesora na niektórych urządzeniach, nasycenie połączenia i pogorszenie wydajności."
+
+#~ msgctxt "#433"
+#~ msgid "Would you really like to remove '{0:s}' from library?"
+#~ msgstr "Czy na pewno chcesz usunąć '{0:s}' z biblioteki?"
+
+#~ msgctxt "#40004"
+#~ msgid "New version..."
+#~ msgstr "Nowa wersja..."
+
+#~ msgctxt "#40208"
+#~ msgid "Choose version"
+#~ msgstr "Wybierz wersję"
+
+#~ msgctxt "#40214"
+#~ msgid "Choose extra"
+#~ msgstr "Wybierz dodatek"
+
+#~ msgctxt "#40024"
+#~ msgid "Versions: {0:s}"
+#~ msgstr "Wersje: {0:s}"
+
+#~ msgctxt "#40025"
+#~ msgid "Extras: {0:s}"
+#~ msgstr "Dodatki: {0:s}"
+
+#~ msgctxt "#36299"
+#~ msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
+#~ msgstr "Zezwalaj na zmianę trybu HDR wyświetlacza, aby najlepiej pasował do multimediów.[CR]Gdy ta opcja jest wyłączona, Kodi stosuje mapowanie tonów w razie potrzeby, aby dostosować multimedia do bieżącego trybu HDR wyświetlacza."
+
+#~ msgctxt "#40002"
+#~ msgid "Convert into an additional version"
+#~ msgstr "Konwertuj na dodatkową wersję"
+
+#~ msgctxt "#40021"
+#~ msgid "Convert to version"
+#~ msgstr "Konwertuj na wersję"
 
 #~ msgctxt "#40002"
 #~ msgid "Convert into an additional version of {0:s}"

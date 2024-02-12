@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-10-27 04:20+0000\n"
+"PO-Revision-Date: 2024-01-19 13:57+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Croatian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/hr_hr/>\n"
 "Language: hr_hr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.3\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1698,8 +1698,8 @@ msgid "Remove movie from library"
 msgstr "Ukloni film iz videoteke"
 
 msgctxt "#433"
-msgid "Would you really like to remove '{0:s}' from library?"
-msgstr "Želite li stvarno ukloniti {0:s} iz zbirke?"
+msgid "Would you really like to remove '{0:s}' from the library?"
+msgstr ""
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -2409,6 +2409,7 @@ msgctxt "#629"
 msgid "View mode"
 msgstr "Način prikaza"
 
+#. Label for stretching the displayed video to its normal size
 msgctxt "#630"
 msgid "Normal"
 msgstr "Normalno"
@@ -2417,6 +2418,7 @@ msgctxt "#631"
 msgid "Zoom"
 msgstr "Zumiranje"
 
+#. Label for stretching the displayed video to a 4:3 aspect ratio
 msgctxt "#632"
 msgid "Stretch 4:3"
 msgstr "Raširi na 4:3"
@@ -2425,10 +2427,12 @@ msgctxt "#633"
 msgid "Wide zoom"
 msgstr "Široko zumiranje"
 
+#. Label for stretching the displayed video to a 16:9 aspect ratio
 msgctxt "#634"
 msgid "Stretch 16:9"
 msgstr "Raširi na 16:9"
 
+#. Label for stretching the displayed video to the original size of the video stream
 msgctxt "#635"
 msgid "Original size"
 msgstr "Izvorna veličina"
@@ -4616,7 +4620,7 @@ msgstr "Cjelozaslonski radio"
 #. Title of controller configuration window
 msgctxt "#10820"
 msgid "Controller Configuration"
-msgstr ""
+msgstr "Podešavanje upravljačkog uređaja"
 
 #. Title of the "My Games" window
 msgctxt "#10821"
@@ -4626,52 +4630,52 @@ msgstr "Igre"
 #. Title of the in-game OSD menu
 msgctxt "#10822"
 msgid "Menu"
-msgstr ""
+msgstr "Izbornik"
 
 #. Title of the in-game video filter selection dialog
 msgctxt "#10823"
 msgid "Video Filter"
-msgstr ""
+msgstr "Video filtar"
 
 #. Title of the in-game video stretch mode selection dialog
 msgctxt "#10824"
 msgid "Stretch Mode"
-msgstr ""
+msgstr "Način rastezanja"
 
 #. Title of the in-game volume dialog
 msgctxt "#10825"
 msgid "Volume"
-msgstr ""
+msgstr "Glasnoća zvuka"
 
 #. Title of the in-game dialog for advanced emulator settings
 msgctxt "#10826"
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Napredne Postavke"
 
 #. Title of the in-game video rotation selection dialog
 msgctxt "#10827"
 msgid "Video Rotation"
-msgstr ""
+msgstr "Rotacija videa"
 
 #. Title of the window for setting up controller ports used by the game
 msgctxt "#10828"
 msgid "Port Setup"
-msgstr ""
+msgstr "Postavljanje ulaza"
 
 #. Title of the in-game dialog to select a savestate for the current game
 msgctxt "#10829"
 msgid "Select Savestate"
-msgstr ""
+msgstr "Odaberite stanje spašenja"
 
 #. Title of the out-of-game dialog to select a savestate for the current game
 msgctxt "#10830"
 msgid "Select Savestate"
-msgstr ""
+msgstr "Odaberite stanje spašenja"
 
 #. Name of window for viewing and configuring players while playing a game
 msgctxt "#10831"
 msgid "Players"
-msgstr ""
+msgstr "Pokretači"
 
 msgctxt "#12000"
 msgid "Select dialog"
@@ -4728,11 +4732,11 @@ msgstr "Posljednja nadopuna"
 
 msgctxt "#12015"
 msgid "Select video version"
-msgstr ""
+msgstr "Odaberite video inačicu"
 
 msgctxt "#12016"
 msgid "Select video extra"
-msgstr ""
+msgstr "Odaberite video ekstra"
 
 #. Label of various controls for starting playback from the beginning
 msgctxt "#12021"
@@ -5876,12 +5880,12 @@ msgstr "Automatsko otkrivanje"
 
 msgctxt "#13417"
 msgid "Allow use DXVA Video Super Resolution"
-msgstr ""
+msgstr "Dopustite korištenje DXVA video super rezolucije"
 
 #. Setting Player / Video
 msgctxt "#13418"
 msgid "Use high precision processing"
-msgstr ""
+msgstr "Koristite obradu visoke preciznosti"
 
 msgctxt "#13419"
 msgid "Software"
@@ -5950,7 +5954,7 @@ msgstr "Prilagodi na visoku razlučivosti prema zaslonu za razlučivost iznad"
 
 msgctxt "#13436"
 msgid "Adjust display HDR mode"
-msgstr ""
+msgstr "Podesite HDR način rada zaslona"
 
 msgctxt "#13437"
 msgid "Prefer VDPAU video mixer"
@@ -7205,12 +7209,12 @@ msgstr "Spremi"
 #. Caption for "Save" button in the in-game savestate manager
 msgctxt "#15315"
 msgid "Save progress to a new save file"
-msgstr ""
+msgstr "Spremite napredak u novu datoteku za spremanje"
 
 #. Label for savestates created automatically by "Autosave" function
 msgctxt "#15316"
 msgid "Autosave"
-msgstr ""
+msgstr "Automatsko spremanje"
 
 msgctxt "#16000"
 msgid "General"
@@ -9316,9 +9320,29 @@ msgctxt "#19349"
 msgid "User preference"
 msgstr "Osobitosti korisnika"
 
-#. label for PVR settings use backend channel group order control
+#. label for PVR setting use backend channel group order control
 msgctxt "#19350"
 msgid "Use channel group order from backend(s)"
+msgstr "Koristite redoslijed grupe kanala iz pozadinskog softver(a)"
+
+#. label for PVR settings category for live tv catchup and video on demand
+msgctxt "#19351"
+msgid "Catchup / Video On Demand"
+msgstr ""
+
+#. label for PVR setting play next programme automatically in catchup / vod mode
+msgctxt "#19352"
+msgid "Play next programme automatically"
+msgstr ""
+
+#. Label of a context menu entry to kick catchup / VOD playback, starting with the selected item, auto playing all following programmes
+msgctxt "#19353"
+msgid "Play programmes from here"
+msgstr ""
+
+#. Label of a context menu entry to kick catchup / VOD playback of only the selected item, not auto playing any following programmes
+msgctxt "#19354"
+msgid "Play only this programme"
 msgstr ""
 
 #. label for epg genre value
@@ -12391,12 +12415,12 @@ msgstr "Skup znakova"
 #. Label for setting to choose the default action for "play"
 msgctxt "#22076"
 msgid "Default play action"
-msgstr ""
+msgstr "Zadana radnja reprodukcije"
 
 #. Label for value for default play action setting
 msgctxt "#22077"
 msgid "Ask if resumable"
-msgstr ""
+msgstr "Pitajte ako se može nastaviti"
 
 #. Label for value for default play action setting
 msgctxt "#22078"
@@ -13804,7 +13828,7 @@ msgstr "Uloge"
 #. Label for multi-disc movies, including movie title (param 0) and disc number (param 1).
 msgctxt "#29995"
 msgid "{0:s} (Disc {1:s})"
-msgstr ""
+msgstr "{0:s} (Disk {1:s})"
 
 msgctxt "#33001"
 msgid "Trailer quality"
@@ -14830,7 +14854,7 @@ msgstr "Igrači"
 #. Notification shown when no controllers are connected in the in-game dialog that lets users configure player assignment
 msgctxt "#35173"
 msgid "No controllers connected"
-msgstr ""
+msgstr "Nema spojenih kontrolera"
 
 #. This string is an early meme from the late 1990's that made fun of the poor translation in the 16-bit game Zero Wing from the late 1980's. DO NOT TRANSLATE!
 msgctxt "#35200"
@@ -14845,7 +14869,7 @@ msgstr "Igranje"
 # empty string with id 35202
 msgctxt "#35203"
 msgid "Enable rewind (if supported)"
-msgstr ""
+msgstr "Omogućite premotavanje unatrag (ako je podržano)"
 
 msgctxt "#35204"
 msgid "Enable real-time rewinding during game play, if supported. Press rewind or manually seek backwards using the seek bar."
@@ -15028,7 +15052,7 @@ msgstr "Uredi izvor igre"
 
 msgctxt "#35253"
 msgid "Enable autosave (if supported)"
-msgstr ""
+msgstr "Omogućite automatsko spremanje (ako je podržano)"
 
 msgctxt "#35254"
 msgid "Save the game automatically during game play, if supported. Resume playing where you left off."
@@ -15037,7 +15061,7 @@ msgstr "Spremi igru automatski tijekom igranja, ako je podržano. Nastavite igra
 #. Label for showing which emulator the game was saved with
 msgctxt "#35255"
 msgid "Saved with:"
-msgstr ""
+msgstr "Spremljeno pomoću:"
 
 #. Error message when a game client fails to install when a game is being launched
 msgctxt "#35256"
@@ -15365,7 +15389,7 @@ msgstr "Uređaj prijemnik"
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
 msgctxt "#36096"
 msgid "Use system HDR/SDR brightness balance"
-msgstr ""
+msgstr "Koristite ravnotežu svjetline HDR/SDR sustava"
 
 # empty strings from id 36054 to 36096
 #. Label of setting "System / Display / GUI peak luminance in HDR PQ mode"
@@ -15762,7 +15786,7 @@ msgstr "Kategorija sadrži sve postavke rukovanja video datotekama."
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
 msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
-msgstr ""
+msgstr "Prebacivanje između [Odaberi], [Reproduciraj] (zadano), [Nastavi], [Prikaži informacije] i [Stavka čekanja].[CR][Odaberi] će otvoriti kontekstni izbornik za odabir stavke, npr. prikaži informacije.[CR][Reproduciraj] automatski će reproducirati videozapise od početka ili ako je prisutna točka nastavka pitati želite li reproducirati od početka ili nastaviti.[CR][Reproduciraj] Automatski će nastaviti video zapise od posljednje pozicije na kojoj ste bili gledajući ih.[CR][Show information] otvorit će dijaloški okvir s informacijama o videozapisu.[CR][Queue item] će dodati video na popis za reprodukciju videozapisa."
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -15889,7 +15913,7 @@ msgstr "Omogući značajku (PVR) \"Osobnog Video Snimača\". To zahtijeva najman
 #. Description of setting with label #22076 "Default play action"
 msgctxt "#36204"
 msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
-msgstr ""
+msgstr "Prebacivanje između [Pitajte ako se može nastaviti] (zadano) i [Nastavi].[CR] [Pitajte ako se može nastaviti] pitat će želite li igrati od početka ili nastaviti (ako postoji točka za nastavak). [CR][Nastavi] će automatski nastaviti videozapise od zadnje pozicije na kojoj ste ih gledali.[CR]Ako nije postavljena točka nastavka, reprodukcija će automatski započeti ispočetka."
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -16314,7 +16338,7 @@ msgstr "Ako je omogućeno, snimanje programa iz podsjetnika će se zakazati kada
 
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
-msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
+msgid "Allow the HDR mode of the display to be changed to best match the media. When disabled, Kodi applies tonemapping if needed (and if supported on your hardware) to adapt the media to the current HDR mode of the display."
 msgstr ""
 
 #. Description of setting with label #20226 "Movie set information folder"
@@ -16976,7 +17000,7 @@ msgstr "Ako je omogućeno, prebaci na program s programom za podsjetnik pri auto
 
 msgctxt "#36435"
 msgid "Sort channel groups by the order supplied by the backend(s). If enabled, groups cannot be reordered in the Group manager"
-msgstr ""
+msgstr "Poredajte grupe kanala prema redoslijedu kojima daje pozadinski softver. Ako je omogućeno, grupe se ne mogu preurediti u Upravitelju grupa"
 
 # empty string with id 36435
 #. Description for setting #407: "Hardware keyboard layouts"
@@ -16995,6 +17019,11 @@ msgstr "Samo službeni repozitoriji (zadano)"
 msgctxt "#36438"
 msgid "Any repositories"
 msgstr "Bilo koji repozitorij"
+
+#. Description of setting with label #19352 "Play next programme automatically"
+msgctxt "#36439"
+msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
+msgstr ""
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17904,124 +17933,129 @@ msgstr "Inačica NFS protokola za korištenje pri uspostavljanju NFS povezivanja
 #. Settings / Services "Chunk Size" group label
 msgctxt "#37053"
 msgid "Chunk Size"
-msgstr ""
+msgstr "Veličina dijela"
 
 #. Setting #37054 "NFS Chunk Size"
 msgctxt "#37054"
 msgid "NFS Chunk Size"
-msgstr ""
+msgstr "Veličina NFS dijela"
 
 #. Description of setting #37054 "NFS Chunk Size"
 msgctxt "#37055"
 msgid "Data chunk size used on NFS connections"
-msgstr ""
+msgstr "Veličina dijela podataka koji se koriste na NFS vezama"
 
 #. Setting #37056 "SMB Chunk Size"
 msgctxt "#37056"
 msgid "SMB Chunk Size"
-msgstr ""
+msgstr "Veličina SMB dijela"
 
 #. Description of setting #37056 "SMB Chunk Size"
 msgctxt "#37057"
 msgid "Data chunk size used on SMB connections"
-msgstr ""
+msgstr "Veličina dijela podataka koji se koriste na SMB vezama"
 
 # empty strings from id 37058 to 37100
 #. Settings / Services "Caching" category label
 msgctxt "#37101"
 msgid "Caching"
-msgstr ""
+msgstr "Predmemoriranje"
 
 #. Description of category #37101 "Caching"
 msgctxt "#37102"
 msgid "This category contains settings that configure caching of local and network files, and internet streams."
-msgstr ""
+msgstr "Ova kategorija sadrži postavke koje konfiguriraju predmemoriju lokalnih i mrežnih datoteka te internetskih tokova."
 
 #. Setting #37103 "Buffer Mode"
 msgctxt "#37103"
 msgid "Buffer Mode"
-msgstr ""
+msgstr "Način međuspremnika"
 
 #. Description of setting #37103 "Buffer Mode"
 msgctxt "#37104"
 msgid "Configure the media content to buffer."
-msgstr ""
+msgstr "Konfigurirajte medijski sadržaj za međuspremnik."
 
 #. Setting #37105 "Memory Size"
 msgctxt "#37105"
 msgid "Memory Size"
-msgstr ""
+msgstr "Veličina memorije"
 
 #. Description of setting #37105 "Memory Size"
 msgctxt "#37106"
 msgid "The size of the memory buffer in Mbytes. Setting zero (0) forces buffering to disk, which is not recommend on flash storage devices (eMMC, SD cards, SSD)."
-msgstr ""
+msgstr "Veličina međuspremnika memorije u Mbajtima. Postavljanje nule (0) prisiljava međuspremnik na disk, što se ne preporučuje na uređajima za fleš pohranu (eMMC, SD kartice, SSD)."
 
 #. Setting #37107 "Read Factor"
 msgctxt "#37107"
 msgid "Read Factor"
-msgstr ""
+msgstr "Faktor Čitanja"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
 msgstr ""
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
 msgid "The data chunk size to use when a filesystem or protocol does not force the value, e.g. NFS will override this with its own value."
-msgstr ""
+msgstr "Veličina bloka podataka koja se koristi kada datotečni sustav ili protokol ne nameće vrijednost, npr. NFS će to nadjačati svojom vlastitom vrijednošću."
 
 #. Value of setting - NONE
 msgctxt "#37110"
 msgid "No buffer"
-msgstr ""
+msgstr "Nema međuspremnika"
 
 #. Value of setting - TRUE INTERNET
 msgctxt "#37111"
 msgid "Only buffer true internet streams: HTTP, HTTPS, etc."
-msgstr ""
+msgstr "Spremite samo prave internetske tokove: HTTP, HTTPS itd."
 
 #. Value of setting - INTERNET
 msgctxt "#37112"
 msgid "Buffer all internet filesystems, including: FTP, WebDAV, etc."
-msgstr ""
+msgstr "Spremite u međuspremnik sve internetske datotečne sustave, uključujući: FTP, WebDAV itd."
 
 #. Value of setting - NETWORK
 msgctxt "#37113"
 msgid "Buffer all network filesystems, including: SMB, NFS, etc."
-msgstr ""
+msgstr "Spremite u međuspremnik sve mrežne datotečne sustave, uključujući: SMB, NFS, itd."
 
 #. Value of setting - ALL
 msgctxt "#37114"
 msgid "Buffer all filesystems, including local files"
-msgstr ""
+msgstr "Spremite u međuspremnik sve datotečne sustave, uključujući lokalne datoteke"
 
-#. Value of setting
+#. Value of setting #37105 "Memory Size"
 msgctxt "#37115"
 msgid "Caches entire file on disk storage"
+msgstr "Predmemorira cijelu datoteku na disku"
+
+#. Value of setting #37107 "Read Factor"
+msgctxt "#37116"
+msgid "Adaptative"
 msgstr ""
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
 msgctxt "#37120"
 msgid "{0:d} Byte"
-msgstr ""
+msgstr "{0:d} Bajt"
 
 #. Value of setting - KByte
 msgctxt "#37121"
 msgid "{0:d} KB"
-msgstr ""
+msgstr "{0:d} KB"
 
 #. Value of setting - MByte
 msgctxt "#37122"
 msgid "{0:d} MB"
-msgstr ""
+msgstr "{0:d} MB"
 
 #. Value of setting - GByte
 msgctxt "#37123"
 msgid "{0:d} GB"
-msgstr ""
+msgstr "{0:d} GB"
 
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
@@ -18884,7 +18918,7 @@ msgstr "Dopušte vrste slika omota TV serija"
 #. Description of setting with label #39152 "TV show art types whitelist"
 msgctxt "#39146"
 msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "['Ograniči slike omota TV serija i sezona preuzetih lokalno ili primijenjenih iz rezultata udaljenih sakupljača slika omota samo na dopuštene vrste slika omota']"
+msgstr "Ograniči slike omota TV serija i sezona preuzetih lokalno ili primijenjenih iz rezultata udaljenih sakupljača slika omota samo na dopuštene vrste slika omota"
 
 msgctxt "#39147"
 msgid "Episode art types whitelist"
@@ -19101,7 +19135,7 @@ msgstr "Dostupno samo s ručnim položajem podnaslova"
 #. Help text for setting "Use system HDR/SDR brightness balance" of label #36096
 msgctxt "#39190"
 msgid "[ON] The brightness of the GUI in HDR mode follows the system's setting. This affects all OSD, subtitles and graphics that are SDR in origin.[CR][OFF] Set the max brightness manually."
-msgstr ""
+msgstr "[UKLJ] Svjetlina GUI-ja u HDR načinu rada prati postavke sustava. Ovo utječe na sav OSD, titlove i grafiku koji su SDR porijeklom.[CR][ISKLJ] Ručno postavite maksimalnu svjetlinu."
 
 #. System / Display "HDR" settings group label
 msgctxt "#39191"
@@ -19110,423 +19144,558 @@ msgstr "HDR"
 
 msgctxt "#39192"
 msgid "Disable screensaver when playing audio"
-msgstr ""
+msgstr "Onemogućite čuvar zaslona tijekom reprodukcije zvuka"
 
 #. Description of setting with label #39192 "Disable screensaver when playing audio"
 msgctxt "#39193"
 msgid "If music is being played, the screensaver will never be activated"
-msgstr ""
+msgstr "Ako se pušta glazba, čuvar zaslona nikada se neće aktivirati"
 
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 1920x1080 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX 20xx, 30xx, 40xx and above, Intel Arc A770, A750."
-msgstr ""
+msgstr "Omogućuje napredni DXVA nadvećavanje pomoću NVIDIA \"RTX Video Super Resolution\" ili \"Intel Video Super Resolution\".[CR]Koristi se kada je video izvor 1920x1080 ili manji, a izvorna razlučivost je niža od razlučivosti zaslona.[CR]Dostupno samo na određenom hardveru: NVIDIA RTX 20xx, 30xx, 40xx i više, Intel Arc A770, A750."
 
 #. Description of setting with label #13418 "Use high precision processing"
 msgctxt "#39195"
 msgid "Enable this option for the best picture quality. Disabling reduces the load on resource-limited systems."
-msgstr ""
+msgstr "Omogućite ovu opciju za najbolju kvalitetu slike. Onemogućivanjem se smanjuje opterećenje sustava s ograničenim resursima."
 
 #. Title of Dolby Vision RPU conversion setting
 msgctxt "#39196"
 msgid "Dolby Vision compatibility mode"
-msgstr ""
+msgstr "Dolby Vision način kompatibilnosti"
 
 #. Help text for setting "Convert Dolby Vision for compatibility" of label #39196
 msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
+msgstr "Ako je omogućeno, Dolby Vision profil 7 bit će pretvoren u profil 8.1, koji uređaji češće podržavaju. Omogućite ako vaš uređaj podržava Dolby Vision, ali ima problema s nekim videozapisima."
+
+#. Title of "Allowed HDR dynamic metadata formats" setting
+msgctxt "#39198"
+msgid "Allowed HDR dynamic metadata formats"
+msgstr ""
+
+#. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39199"
+msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
+msgstr ""
+
+#. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39200"
+msgid "Dolby Vision"
+msgstr ""
+
+#. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
+msgctxt "#39201"
+msgid "HDR10+"
 msgstr ""
 
 # 40000 to 40800 are reserved for Video Versions feature
+#. Generic video versions label (plural)
 msgctxt "#40000"
 msgid "Versions"
-msgstr ""
+msgstr "Inačice"
 
 #. Manage video versions context menu item
 msgctxt "#40001"
 msgid "Manage versions"
-msgstr ""
+msgstr "Upravljajte inačicama"
 
 #. Manage video version dialog title
 msgctxt "#40002"
-msgid "Convert into an additional version"
-msgstr ""
+msgid "Add as version to..."
+msgstr "Dodajte kao inačicu u..."
 
-#. New video version dialog button
+#. Generic video version label (singular)
+msgctxt "#40003"
+msgid "Version"
+msgstr "Inačica"
+
+#. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
-msgid "New version..."
+msgid "Choose type"
 msgstr ""
 
 #. Warning dialog title
 msgctxt "#40005"
 msgid "Operation not supported"
-msgstr ""
+msgstr "Operacija nije podržana"
 
 #. Warning dialog text
 msgctxt "#40006"
 msgid "The selected movie has multiple versions, preventing its conversion into a version of another movie. Remove the versions from the movie, rescan the libray and convert them individually."
-msgstr ""
+msgstr "Odabrani film ima više inačica, što sprječava njegovu konverziju u inačicu drugog filma. Uklonite inačice iz filma, ponovno skenirajte biblioteku i pretvorite ih pojedinačno."
 
 #. Warning dialog text
 msgctxt "#40007"
 msgid "The \"{0:s}\" version already exists!"
-msgstr ""
+msgstr "Inačica \"{0:s}\" već postoji!"
 
 #. Different video version found dialog title
 msgctxt "#40008"
 msgid "Different movie version found"
-msgstr ""
+msgstr "Pronađena drugačija inačica filma"
 
 #. Different video version found dialog text
 msgctxt "#40009"
 msgid "Found a different version of the movie \"{0:s}\": {1:s}. Would you like to convert it into an additional version of the original?"
-msgstr ""
+msgstr "Pronađena je drugačija inačica filma \"{0:s}\": {1:s}. Želite li je pretvoriti u dodatnu inačicu izvorne?"
 
 #. "video version" string in singular format
 msgctxt "#40010"
 msgid "video version"
-msgstr ""
+msgstr "video inačica"
 
 #. "video version" string in plural format
 msgctxt "#40011"
 msgid "video versions"
-msgstr ""
+msgstr "video inačice"
 
 #. "video version" string in singular capital format
 msgctxt "#40012"
 msgid "Video version"
-msgstr ""
+msgstr "Video inačica"
 
 #. "video version" string in plural capital format
 msgctxt "#40013"
 msgid "Video versions"
-msgstr ""
+msgstr "Video inačice"
 
 #. Add video version dialog title
 msgctxt "#40014"
 msgid "Add version"
-msgstr ""
+msgstr "Dodajte inačicu"
 
 #. Add video extra dialog title
 msgctxt "#40015"
 msgid "Add extra"
-msgstr ""
+msgstr "Dodajte ekstra"
 
 #. Add video version dialog text.
 msgctxt "#40016"
 msgid "The selected video already is the \"{0:s}\" version of the movie."
-msgstr ""
+msgstr "Odabrani videozapis je već \"{0:s}\" inačica filma."
 
 #. Add video version dialog text. Example: The selected video is the "Extended Edition" version of the movie "Movie title". Would you like to move the version to this movie?"
 msgctxt "#40017"
 msgid "The selected video is the \"{0:s}\" version of the movie \"{1:s}\". Would you like to move the version to this movie?"
-msgstr ""
+msgstr "Odabrani videozapis je \"{0:s}\" inačica filma \"{1:s}\". Želite li premjestiti inačicu na ovaj film?"
 
 #. Remove video version dialog title
 msgctxt "#40018"
 msgid "Remove video version"
-msgstr ""
+msgstr "Uklonite video inačicu"
 
-#. Add new video version dialog text
+#. Manage versions, remove: removing the default version of a movie is not allowed.
 msgctxt "#40019"
 msgid "The default version of a movie cannot be removed. Set a different default version and try again."
-msgstr ""
+msgstr "Zadana inačica filma ne može se ukloniti. Postavite drugu zadanu inačicu i pokušajte ponovno."
 
 #. Remove video version dialog text
 msgctxt "#40020"
 msgid "Are you sure to remove version \"{0:s}\"?"
-msgstr ""
+msgstr "Jeste li sigurni da želite ukloniti inačicu \"{0:s}\"?"
 
-#. Convert video to version context menu item
+#. Remove item from library text if item has multiple versions
 msgctxt "#40021"
-msgid "Convert to version"
+msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
 msgstr ""
 
 #. Manage video version dialog title
 msgctxt "#40022"
 msgid "Manage {0:s}"
-msgstr ""
+msgstr "Upravljajte {0:s}"
 
 #. Button label to make a video version the default version
 msgctxt "#40023"
 msgid "Set as default"
-msgstr ""
+msgstr "Postavite kao zadano"
 
 #. Choose/Manage video version dialog title
 msgctxt "#40024"
-msgid "Versions: {0:s}"
+msgid "Versions Manager: {0:s}"
 msgstr ""
 
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
-msgid "Extras: {0:s}"
+msgid "Extras Manager: {0:s}"
 msgstr ""
 
 #. Add extra dialog text.
 msgctxt "#40026"
 msgid "The selected video already is the \"{0:s}\" extra of the movie."
-msgstr ""
+msgstr "Odabrani videozapis već je \"{0:s}\" dodatak filma."
 
 #. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
 msgctxt "#40027"
 msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
+msgstr "Odabrani videozapis je \"{0:s}\" dodatak filma \"{1:s}\". Želite li premjestiti dodatak u ovaj film?"
+
+#. Browse the computer files for the file to be added as version
+msgctxt "#40028"
+msgid "Browse files"
+msgstr "Pregledajte datoteke"
+
+#. Browse the library for the movie to be added as version
+msgctxt "#40029"
+msgid "Browse library"
+msgstr "Pregledajte knjižnicu"
+
+#. Select the movie to be added as a version
+msgctxt "#40030"
+msgid "Select movie to add as a version"
+msgstr "Odaberite film da dodate kao inačicu"
+
+#. No other movies found in the library
+msgctxt "#40031"
+msgid "No other movies found in the library."
+msgstr "U knjižnici nema drugih filmova."
+
+#. Add version: no similar movies were found in the library.
+msgctxt "#40032"
+msgid "No similar movies were found in the library."
+msgstr "U knjižnici nisu pronađeni slični filmovi."
+
+#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40033"
+msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+msgstr ""
+
+#. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
+msgctxt "#40034"
+msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
+msgstr ""
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40035"
+msgid "You are about to convert a movie extra into a movie version. Are you sure?"
+msgstr ""
+
+#. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
+msgctxt "#40036"
+msgid "You are about to convert a movie version into a movie extra. Are you sure?"
+msgstr ""
+
+#. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
+msgctxt "#40037"
+msgid "The movie to be added has multiple versions.[CR]The type of the default version will be selected in the next dialog. The other versions will keep their current type.[CR]Do you want to continue?"
+msgstr ""
+
+#. Addition of new version: the default version of a movie with multiple versions cannot be turned into a version of another movie.
+msgctxt "#40038"
+msgid "The default version of a movie with multiple versions cannot be added to another movie. Please move or remove the other versions first."
 msgstr ""
 
 #. Select default video version setting
 msgctxt "#40200"
 msgid "Select default video version"
-msgstr ""
+msgstr "Odaberite zadanu video inačicu"
 
 #. Help for select default video version setting
 msgctxt "#40201"
 msgid "Defines how to handle selection of videos with multiple versions.[CR][Enabled] Automatically select the default video version without prompting.[CR][Disabled] Display a dialogue to select a version of the video."
-msgstr ""
+msgstr "Definira kako rukovati odabirom videozapisa s višestrukim inačicama.[CR][Omogućeno] Automatski odaberite zadanu inačicu videozapisa bez upita.[CR][Onemogućeno] Prikažite dijalog za odabir inačice videozapisa."
 
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
-msgstr ""
+msgstr "Zanemarite različite inačice videozapisa prilikom skeniranja"
 
 #. Help for Ignore different video versions settting
 msgctxt "#40203"
 msgid "Select scanner action for different video versions.[CR][Enabled] Add different video versions to library seperately without confirmation.[CR][Disabled] Prompt for converting different video versions into additional versions of the original."
-msgstr ""
+msgstr "Odaberite radnju skenera za različite inačice videozapisa.[CR][Omogućeno] Dodajte različite inačice videozapisa u biblioteku zasebno bez potvrde.[CR][Onemogućeno] Upit za pretvaranje različitih inačica videozapisa u dodatne verzije izvornika."
 
 #. Ignore video extras settting
 msgctxt "#40204"
 msgid "Ignore video extras on scan"
-msgstr ""
+msgstr "Zanemarite video dodatke pri skeniranju"
 
 #. Help for ignore video extras settting
 msgctxt "#40205"
 msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
-msgstr ""
+msgstr "Odaberite radnju skeniranja za video dodatke u mapi \"dodaci\". [CR] [Omogućeno] Skenirajte video dodatke kao obične videozapise.[CR] [Onemogućeno] Dodajte video dodatke u biblioteku za pridruženi videozapis."
 
 #. Show video versions as folder settting
 msgctxt "#40206"
 msgid "Show videos with multiple versions as folder"
-msgstr ""
+msgstr "Prikažite videozapise s više inačica kao mapu"
 
 #. Help for show video versions as folder settting
 msgctxt "#40207"
 msgid "When enabled, a video with multiple versions will be shown as a folder in the video library. This folder can then be opened to display the individual video versions. When disabled, the configured select action will be applied."
-msgstr ""
+msgstr "Kada je omogućeno, videozapis s više inačica bit će prikazan kao mapa u videoteci. Ta se mapa zatim može otvoriti za prikaz pojedinačnih video inačica. Kada je onemogućeno, primijenit će se konfigurirana radnja odabira."
 
-#. Choose video version context menu item label
+#. Choose video version dialog title
 msgctxt "#40208"
-msgid "Choose version"
+msgid "Choose version: {}"
 msgstr ""
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
 msgid "Play version using..."
-msgstr ""
+msgstr "Pokrenite inačicu koristeći..."
 
 #. Button label for video versions
 msgctxt "#40210"
 msgid "Versions"
-msgstr ""
+msgstr "Inačice"
 
 #. Button label for video extras
 msgctxt "#40211"
 msgid "Extras"
-msgstr ""
+msgstr "Dodaci"
 
 #. UPnP remote player volume level sync setting
 msgctxt "#40212"
 msgid "Synchronize volume level to remote UPnP players"
-msgstr ""
+msgstr "Sinkronizirajte razinu glasnoće s udaljenim UPnP playerima"
 
 #. Help string for UPnP remote player volume level sync setting
 msgctxt "#40213"
 msgid "If selected the remote player volume level will be synchronized with the volume of this application.[CR]Warning: Global system volume level may be different than the application volume level - they are controlled independently.[CR]This may lead the remote player to be set to 100% volume level if the application has 100% volume level but the overall system volume level is smaller."
+msgstr "Ako je odabrana, razina glasnoće daljinskog pokretača sinkronizirat će se s glasnoćom ove aplikacije.[CR]Upozorenje: Globalna razina glasnoće sustava može se razlikovati od razine glasnoće aplikacije - njima se upravlja neovisno.[CR]To može dovesti do daljinskog pokretača do postaviti na 100% razinu glasnoće ako aplikacija ima 100% razinu glasnoće, ali je ukupna razina glasnoće sustava manja."
+
+#. Dialog title for the selection of the video extra
+msgctxt "#40214"
+msgid "Choose extra: {}"
+msgstr ""
+
+#. Title of the dialog for version rename action from Versions Manager
+msgctxt "#40215"
+msgid "Choose version type"
+msgstr ""
+
+#. Caption of the button to create a new version type (Versions Manager > Rename)
+msgctxt "#40216"
+msgid "New type..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new version type
+msgctxt "#40217"
+msgid "New version type"
+msgstr ""
+
+#. Title of the dialog for extra rename action from Extras Manager
+msgctxt "#40218"
+msgid "Choose extra name"
+msgstr ""
+
+#. Caption of the button to create a new extra name (Extras Manager > Rename)
+msgctxt "#40219"
+msgid "New name..."
+msgstr ""
+
+#. Caption of the dialog for keyboard entry of a new extra name
+msgctxt "#40220"
+msgid "New extra name"
+msgstr ""
+
+#. Choose video version context menu item label
+msgctxt "#40221"
+msgid "Choose version"
 msgstr ""
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40400"
 msgid "Standard Edition"
-msgstr ""
+msgstr "Standardno izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40401"
 msgid "Extended Edition"
-msgstr ""
+msgstr "Prošireno izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40402"
 msgid "Unrated Version"
-msgstr ""
+msgstr "Neocjenjena inačica"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40403"
 msgid "Uncut Version"
-msgstr ""
+msgstr "Nerezana inačica"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40404"
 msgid "Remastered Version"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40405"
-msgid "4K"
-msgstr ""
+msgstr "Obnovljena inačica"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40406"
 msgid "Theatrical Cut"
-msgstr ""
+msgstr "Kazališni rez"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40407"
 msgid "Director's Cut"
-msgstr ""
+msgstr "Redateljev rez"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40408"
 msgid "Special Edition"
-msgstr ""
+msgstr "Posebno izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40409"
 msgid "Limited Edition"
-msgstr ""
+msgstr "Ograničeno izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40410"
 msgid "Complete Edition"
-msgstr ""
+msgstr "Cjelovito izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40411"
 msgid "The Final Cut"
-msgstr ""
+msgstr "Konačni rez"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40412"
 msgid "Super Duper Cut"
-msgstr ""
+msgstr "Super Duper rez"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40413"
 msgid "Collector's Edition"
-msgstr ""
+msgstr "Kolekcionarsko izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40414"
 msgid "Ultimate Collector's Edition"
-msgstr ""
+msgstr "Ultimativno kolekcionarsko izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40415"
 msgid "Criterion Collection Edition"
-msgstr ""
+msgstr "Izdanje Kriterijske Zbirke"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40416"
 msgid "Fan Edit"
-msgstr ""
+msgstr "Obožavateljeva izmjena"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40417"
 msgid "Black and White Edition"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40418"
-msgid "BluRay"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40419"
-msgid "WEB-DL"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40420"
-msgid "3D"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40421"
-msgid "8K"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40422"
-msgid "IMAX"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40423"
-msgid "UHD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40424"
-msgid "FHD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40425"
-msgid "HD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40426"
-msgid "SD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40427"
-msgid "DVD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40428"
-msgid "VHS"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40429"
-msgid "VCD"
-msgstr ""
-
-#. Name of a video version, like "Director's Cut"
-msgctxt "#40430"
-msgid "REMUX"
-msgstr ""
+msgstr "Crno-bijelo izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40431"
 msgid "10th Anniversary Edition"
-msgstr ""
+msgstr "10-godišnje izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40432"
 msgid "20th Anniversary Edition"
-msgstr ""
+msgstr "20-godišnje izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40433"
 msgid "25th Anniversary Edition"
-msgstr ""
+msgstr "25-godišnje izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40434"
 msgid "30th Anniversary Edition"
-msgstr ""
+msgstr "30-godišnje izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40435"
 msgid "40th Anniversary Edition"
-msgstr ""
+msgstr "40-godišnje izdanje"
 
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
-msgstr ""
+msgstr "50-godišnje izdanje"
+
+#~ msgctxt "#40405"
+#~ msgid "4K"
+#~ msgstr "4K"
+
+#~ msgctxt "#40418"
+#~ msgid "BluRay"
+#~ msgstr "BluRay"
+
+#~ msgctxt "#40419"
+#~ msgid "WEB-DL"
+#~ msgstr "WEB-DL"
+
+#~ msgctxt "#40420"
+#~ msgid "3D"
+#~ msgstr "3D"
+
+#~ msgctxt "#40421"
+#~ msgid "8K"
+#~ msgstr "8K"
+
+#~ msgctxt "#40422"
+#~ msgid "IMAX"
+#~ msgstr "IMAX"
+
+#~ msgctxt "#40423"
+#~ msgid "UHD"
+#~ msgstr "UHD"
+
+#~ msgctxt "#40424"
+#~ msgid "FHD"
+#~ msgstr "FHD"
+
+#~ msgctxt "#40425"
+#~ msgid "HD"
+#~ msgstr "HD"
+
+#~ msgctxt "#40426"
+#~ msgid "SD"
+#~ msgstr "SD"
+
+#~ msgctxt "#40427"
+#~ msgid "DVD"
+#~ msgstr "DVD"
+
+#~ msgctxt "#40428"
+#~ msgid "VHS"
+#~ msgstr "Video-kaseta"
+
+#~ msgctxt "#40429"
+#~ msgid "VCD"
+#~ msgstr "Video-CD"
+
+#~ msgctxt "#40430"
+#~ msgid "REMUX"
+#~ msgstr "REMUX"
+
+#~ msgctxt "#37108"
+#~ msgid "The read factor determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster but more bandwidth is consumed. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance."
+#~ msgstr "Faktor čitanja određuje stopu popunjenosti predmemorije u smislu prosj. brzina protoka • faktor čitanja. Povećanjem ovog višestrukog, predmemorija se brže puni, ali se troši više propusnosti. Veliki višekratnici mogu uzrokovati skokove CPU-a na nekim uređajima, zasititi vezu i pogoršati učinak."
+
+#~ msgctxt "#433"
+#~ msgid "Would you really like to remove '{0:s}' from library?"
+#~ msgstr "Želite li stvarno ukloniti {0:s} iz zbirke?"
+
+#~ msgctxt "#40004"
+#~ msgid "New version..."
+#~ msgstr "Nova inačica..."
+
+#~ msgctxt "#40208"
+#~ msgid "Choose version"
+#~ msgstr "Odaberite inačicu"
+
+#~ msgctxt "#40024"
+#~ msgid "Versions: {0:s}"
+#~ msgstr "Inačice: {0:s}"
+
+#~ msgctxt "#40025"
+#~ msgid "Extras: {0:s}"
+#~ msgstr "Dodaci: {0:s}"
+
+#~ msgctxt "#36299"
+#~ msgid "Allow the HDR mode of the display to be changed to best match the media.[CR]When disabled, Kodi applies tonemapping as needed to adapt the media to the current HDR mode of the display."
+#~ msgstr "Dopustite da se HDR način prikaza promijeni kako bi najbolje odgovarao mediju.[CR]Kada je onemogućeno, Kodi primjenjuje mapiranje tonova prema potrebi za prilagodbu medija trenutnom HDR modu zaslona."
 
 #~ msgctxt "#13436"
 #~ msgid "Use display HDR capabilities"
