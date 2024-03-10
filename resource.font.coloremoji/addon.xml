@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.font.coloremoji"
+  version="1.0.0"
+  name="Color Emoji Font"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.font"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Color emoji font</summary>
+    <description lang="en_GB">Font to give colored emoji's in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
