@@ -3,15 +3,44 @@
 Newly packed font files combining open-source typefaces [Inter](https://github.com/rsms/inter) for western character sets (Latin, Greek, etc) and [Noto Sans CJK](https://github.com/notofonts/noto-cjk) for CJK characters.
 
 ### Changelog
+**1.0.4**
+- Changed folder structure to avoid '+' for Linux https://github.com/realcopacetic/resource.fonts.copacetic/issues/2
+- Added support for Simplified Chinese https://github.com/realcopacetic/resource.fonts.copacetic/issues/3
+
+**1.0.3**
+- Fixed extension point for kodi.resource.font.
 
 **1.0.2**
- - Updated fanart.
+- Updated fanart.
 
 **1.0.1**
- - Fixes for Kodi Addon-Checker fail.
+- Fixes for Kodi Addon-Checker fail.
 
 **1.0.0** 
- - Initial release.
+- Initial release.
+
+### Notes
+**Fontlab steps**
+1) Open Inter-X.ttf and Noto-Sans-SC-X.ttf. Window > Tiled
+2) Hide unfiltered glyphs
+3) Delete Bopomofo glyphs from Inter
+4) Delete Latin, Cyrillic, Greek glyphs from Noto
+5) Noto > Font info. Family dimensions. Units per EM > 2816 to match Inter. "Scale glyphs and metrics to the new UPM value" checked.
+6) Inter > Font info - Name update
+7) Copy all glyphs from Noto for the scrips you want to add, one at a time. This will avoid copying duplicates of things not in he scrips you're actually interested in.
+8) Append glyphs into Inter
+9) Copy a single glyph to clear clipboard and speed up program
+10) Search and delete duplicates with a .1 suffix
+11) Window > Workspaces > Kerning
+12) Noto > Kerning Pairs. Select all, copy and paste pairs into Inter
+13) Noto > Kerning Classes. Select all, copy and paste classes into Noto
+14) Window > Panel > Features
+15) Hamburger > Create [kern] feature
+16) Play button. Don't add missing glyphs. (Update features)
+17) Font info > Unicode Ranges add in new ranges (Detect)
+18) Save font, export TTF
+19) Open font and check there are no reds
+
 
 ### License
 ---
