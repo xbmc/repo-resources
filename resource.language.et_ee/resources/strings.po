@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-01-22 21:12+0000\n"
+"PO-Revision-Date: 2024-02-28 14:13+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/et_ee/>\n"
 "Language: et_ee\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1699,7 +1699,7 @@ msgstr "Eemalda film meediakogust"
 
 msgctxt "#433"
 msgid "Would you really like to remove '{0:s}' from the library?"
-msgstr ""
+msgstr "Kas soovid '{0:s}' meediakogust eemaldada?"
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -17984,8 +17984,8 @@ msgstr "Lugemistegur"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
-msgstr ""
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptive] Uses dynamically calculated Read Factor based on cache level."
+msgstr "Määrab vahemälu täituvuse skaalal voo bitikiirus x lugemistegur. Kõrgema väärtuse määramisel täitub vahemälu kiiremini. Suured kordajad võivad mõnedes seadmetes põhjustada CPU piike, koormata ühendust ja halvendada jõudlust.[CR][Adaptive] Kasutab vahemälu tasemel põhinevat dünaamiliselt arvutatud lugemistegurit."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -18024,8 +18024,8 @@ msgstr "Puhverdab kogu faili kõvakettale"
 
 #. Value of setting #37107 "Read Factor"
 msgctxt "#37116"
-msgid "Adaptative"
-msgstr ""
+msgid "Adaptive"
+msgstr "Kohanduv"
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19162,22 +19162,22 @@ msgstr "Kui lubatud, teisendatakse Dolby Visioni profiil 7 profiiliks 8.1, mida 
 #. Title of "Allowed HDR dynamic metadata formats" setting
 msgctxt "#39198"
 msgid "Allowed HDR dynamic metadata formats"
-msgstr ""
+msgstr "Lubatud HDR dünaamilised metaandmete vormingud"
 
 #. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
 msgctxt "#39199"
 msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
-msgstr ""
+msgstr "Muudab video bitivoogu, et eemaldada dünaamilised HDR metaandmed. Vali HDR vormingud, mida see seade ja ekraan toetavad."
 
 #. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
 msgctxt "#39200"
 msgid "Dolby Vision"
-msgstr ""
+msgstr "Dolby Vision"
 
 #. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
 msgctxt "#39201"
 msgid "HDR10+"
-msgstr ""
+msgstr "HDR10+"
 
 # 40000 to 40800 are reserved for Video Versions feature
 #. Generic video versions label (plural)
@@ -19203,7 +19203,7 @@ msgstr "Versioon"
 #. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
 msgid "Choose type"
-msgstr ""
+msgstr "Vali tüüp"
 
 #. Warning dialog title
 msgctxt "#40005"
@@ -19288,7 +19288,7 @@ msgstr "Kas eemaldada versioon \"{0:s}\"?"
 #. Remove item from library text if item has multiple versions
 msgctxt "#40021"
 msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
-msgstr ""
+msgstr "Kas soovid '{0:s}' ja kõik selle versioonid meediakogust eemaldada?"
 
 #. Manage video version dialog title
 msgctxt "#40022"
@@ -19344,11 +19344,6 @@ msgstr "Teisi filme meediakogust ei leitud."
 msgctxt "#40032"
 msgid "No similar movies were found in the library."
 msgstr "Sarnaseid filme meediakogust ei leitud."
-
-#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
-msgctxt "#40033"
-msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
-msgstr "Mitme versiooniga filmi vaikeversiooni ei saa lisada teise filmi versioonina. Lisa esmalt selle täiendavad versioonid."
 
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 msgctxt "#40034"
@@ -19418,7 +19413,7 @@ msgstr "Kui lubatud, kuvatakse mitme versiooniga video meediakogus kaustana. See
 #. Choose video version dialog title
 msgctxt "#40208"
 msgid "Choose version: {}"
-msgstr ""
+msgstr "Vali versioon: {}"
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
@@ -19448,42 +19443,42 @@ msgstr "Kui lubatud, sünkroonitakse kaugpleieri helitugevus selle rakenduse hel
 #. Dialog title for the selection of the video extra
 msgctxt "#40214"
 msgid "Choose extra: {}"
-msgstr ""
+msgstr "Vali lisamaterjal: {}"
 
 #. Title of the dialog for version rename action from Versions Manager
 msgctxt "#40215"
 msgid "Choose version type"
-msgstr ""
+msgstr "Vali versiooni tüüp"
 
 #. Caption of the button to create a new version type (Versions Manager > Rename)
 msgctxt "#40216"
 msgid "New type..."
-msgstr ""
+msgstr "Uus tüüp..."
 
 #. Caption of the dialog for keyboard entry of a new version type
 msgctxt "#40217"
 msgid "New version type"
-msgstr ""
+msgstr "Uue versiooni tüüp"
 
 #. Title of the dialog for extra rename action from Extras Manager
 msgctxt "#40218"
 msgid "Choose extra name"
-msgstr ""
+msgstr "Vali lisamaterjali nimi"
 
 #. Caption of the button to create a new extra name (Extras Manager > Rename)
 msgctxt "#40219"
 msgid "New name..."
-msgstr ""
+msgstr "Uus nimi..."
 
 #. Caption of the dialog for keyboard entry of a new extra name
 msgctxt "#40220"
 msgid "New extra name"
-msgstr ""
+msgstr "Uus lisamaterjali nimi"
 
 #. Choose video version context menu item label
 msgctxt "#40221"
 msgid "Choose version"
-msgstr ""
+msgstr "Vali versioon"
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -19600,6 +19595,14 @@ msgstr "40. aastapäeva väljaanne"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50. aastapäeva väljaanne"
+
+#~ msgctxt "#40033"
+#~ msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+#~ msgstr "Mitme versiooniga filmi vaikeversiooni ei saa lisada teise filmi versioonina. Lisa esmalt selle täiendavad versioonid."
+
+#~ msgctxt "#37116"
+#~ msgid "Adaptative"
+#~ msgstr "Kohanduv"
 
 #~ msgctxt "#40405"
 #~ msgid "4K"

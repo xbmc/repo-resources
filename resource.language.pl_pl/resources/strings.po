@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-02-10 15:47+0000\n"
+"PO-Revision-Date: 2024-02-22 00:13+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -17992,7 +17992,7 @@ msgstr "Współczynnik odczytu"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptive] Uses dynamically calculated Read Factor based on cache level."
 msgstr "Określa szybkość wypełniania pamięci podręcznej w kategoriach średniej szybkości transmisji współczynnika odczytu strumienia x. Zwiększanie tej wielokrotności powoduje szybsze zapełnianie pamięci podręcznej. Duże wielokrotności mogą powodować skoki wydajności procesora na niektórych urządzeniach, nasycać połączenie i pogarszać wydajność.[CR][Adaptacyjny] Używa dynamicznie obliczanego współczynnika odczytu na podstawie poziomu pamięci podręcznej."
 
 #. Description of setting "Chunk Size"
@@ -18032,7 +18032,7 @@ msgstr "Buforuje cały plik w pamięci dyskowej"
 
 #. Value of setting #37107 "Read Factor"
 msgctxt "#37116"
-msgid "Adaptative"
+msgid "Adaptive"
 msgstr "Adaptacyjny"
 
 # empty strings from id 37116 to 37119
@@ -19356,11 +19356,6 @@ msgctxt "#40032"
 msgid "No similar movies were found in the library."
 msgstr "W bibliotece nie znaleziono podobnych filmów."
 
-#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
-msgctxt "#40033"
-msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
-msgstr "Domyślnej wersji filmu zawierającej wiele wersji nie można dodać jako wersji do innego filmu. Najpierw dodaj jego dodatkowe wersje."
-
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 msgctxt "#40034"
 msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
@@ -19611,6 +19606,18 @@ msgstr "Wydanie z okazji 40. rocznicy"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "Wydanie z okazji 50. rocznicy"
+
+#~ msgctxt "#40033"
+#~ msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+#~ msgstr "Domyślnej wersji filmu zawierającej wiele wersji nie można dodać jako wersji do innego filmu. Najpierw dodaj jego dodatkowe wersje."
+
+#~ msgctxt "#37108"
+#~ msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+#~ msgstr "Określa szybkość wypełniania pamięci podręcznej w kategoriach średniej szybkości transmisji współczynnika odczytu strumienia x. Zwiększanie tej wielokrotności powoduje szybsze zapełnianie pamięci podręcznej. Duże wielokrotności mogą powodować skoki wydajności procesora na niektórych urządzeniach, nasycać połączenie i pogarszać wydajność.[CR][Adaptacyjny] Używa dynamicznie obliczanego współczynnika odczytu na podstawie poziomu pamięci podręcznej."
+
+#~ msgctxt "#37116"
+#~ msgid "Adaptative"
+#~ msgstr "Adaptacyjny"
 
 #~ msgctxt "#40405"
 #~ msgid "4K"

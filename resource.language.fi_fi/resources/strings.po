@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-01-19 19:27+0000\n"
+"PO-Revision-Date: 2024-02-22 00:13+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1699,7 +1699,7 @@ msgstr "Poista elokuva kirjastosta"
 
 msgctxt "#433"
 msgid "Would you really like to remove '{0:s}' from the library?"
-msgstr ""
+msgstr "Haluatko varmasti poistaa kohteen \"{0:s}\" kirjastosta?"
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -9325,22 +9325,22 @@ msgstr "Käytä kanavaryhmille taustajärjestelmien järjestystä"
 #. label for PVR settings category for live tv catchup and video on demand
 msgctxt "#19351"
 msgid "Catchup / Video On Demand"
-msgstr ""
+msgstr "Catchup-/VOD-tilausvideo"
 
 #. label for PVR setting play next programme automatically in catchup / vod mode
 msgctxt "#19352"
 msgid "Play next programme automatically"
-msgstr ""
+msgstr "Toista seuraava ohjelma automaattisesti"
 
 #. Label of a context menu entry to kick catchup / VOD playback, starting with the selected item, auto playing all following programmes
 msgctxt "#19353"
 msgid "Play programmes from here"
-msgstr ""
+msgstr "Toista ohjelmat tästä"
 
 #. Label of a context menu entry to kick catchup / VOD playback of only the selected item, not auto playing any following programmes
 msgctxt "#19354"
 msgid "Play only this programme"
-msgstr ""
+msgstr "Toista vain tämä ohjelma"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -16330,7 +16330,7 @@ msgstr "Automaattisesti suljetun ohjelmamuistutuksen tallennus ajoitetaan automa
 #. Description of setting with label #13436 "Adjust display HDR mode"
 msgctxt "#36299"
 msgid "Allow the HDR mode of the display to be changed to best match the media. When disabled, Kodi applies tonemapping if needed (and if supported on your hardware) to adapt the media to the current HDR mode of the display."
-msgstr ""
+msgstr "Salli näyttölaitteen HDR-tilan vaihto parhaiten mediaa vastaavaksi. Kun ei käytössä, Kodi pyrkii tarvittaessa (ja laitteiston tukiessa) sovittamaan median näyttölaitteen nykyiseen HDR-tilaan sävykartoituksen avulla."
 
 #. Description of setting with label #20226 "Movie set information folder"
 msgctxt "#36300"
@@ -17014,7 +17014,7 @@ msgstr "Kaikki jakeluvarastot"
 #. Description of setting with label #19352 "Play next programme automatically"
 msgctxt "#36439"
 msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
-msgstr ""
+msgstr "Käytä seuraavan ohjelman automaattista toistoa, kun toistetaan menneiden lähetysten catchup- tai VOD-tilausvideokanavia. Huomioi, että catchup ja VOD toimivat vain kanavan toimittajan tukiessa niitä."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17984,8 +17984,8 @@ msgstr "Lukukerroin"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
-msgstr ""
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptive] Uses dynamically calculated Read Factor based on cache level."
+msgstr "Määrittää välimuistin täyttönopeuden kaavalla median bittinopeuden keskiarvo x lukukerroin. Korkeammalla kertoimella välimuisti täyttyy nopeammin, mutta korkeammat kertoimet voivat aiheuttaa joillakin laitteilla prosessorin kuormituspiikkejä, ruuhkauttaa yhteyden ja heikentää suorituskykyä.[CR][Adaptiivinen] Käyttää välimuistin tasoon perustuvaa dynaamisesti laskettua lukukerrointa."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -18024,8 +18024,8 @@ msgstr "Puskuroi koko tiedoston levylle"
 
 #. Value of setting #37107 "Read Factor"
 msgctxt "#37116"
-msgid "Adaptative"
-msgstr ""
+msgid "Adaptive"
+msgstr "Adaptiivinen"
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19162,22 +19162,22 @@ msgstr "Muuntaa Dolby Vision -profiilin 7 profiiliin 8.1, jota useammat laitteet
 #. Title of "Allowed HDR dynamic metadata formats" setting
 msgctxt "#39198"
 msgid "Allowed HDR dynamic metadata formats"
-msgstr ""
+msgstr "Sallitut dynaamiset HDR-metatietomuodot"
 
 #. Help text for setting "Allowed HDR dynamic metadata formats" of label #39198
 msgctxt "#39199"
 msgid "Alters the video bitstream to remove dynamic HDR metadata. Select the HDR formats your device and display supports."
-msgstr ""
+msgstr "Muutta videon bittivirtaa poistaen HDR-metatiedot. Valitse HDR-muodot, joita käyttämäsi toisto- ja näyttölaite tukevat."
 
 #. Label of Dolby Vision option for setting "Allowed HDR dynamic metadata formats" of label #39198
 msgctxt "#39200"
 msgid "Dolby Vision"
-msgstr ""
+msgstr "Dolby Vision"
 
 #. Label of HDR10+ option for setting "Allowed HDR dynamic metadata formats" of label #39198
 msgctxt "#39201"
 msgid "HDR10+"
-msgstr ""
+msgstr "HDR10+"
 
 # 40000 to 40800 are reserved for Video Versions feature
 #. Generic video versions label (plural)
@@ -19193,7 +19193,7 @@ msgstr "Hallitse versioita"
 #. Manage video version dialog title
 msgctxt "#40002"
 msgid "Add as version to..."
-msgstr ""
+msgstr "Lisää versioksi kohteeseen..."
 
 #. Generic video version label (singular)
 msgctxt "#40003"
@@ -19203,7 +19203,7 @@ msgstr "Versio"
 #. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
 msgid "Choose type"
-msgstr ""
+msgstr "Valitse tyyppi"
 
 #. Warning dialog title
 msgctxt "#40005"
@@ -19288,7 +19288,7 @@ msgstr "Haluatko varmasti poistaa version \"{0:s}\"?"
 #. Remove item from library text if item has multiple versions
 msgctxt "#40021"
 msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
-msgstr ""
+msgstr "Haluatko varmasti poistaa kohteen \"{0:s}\" kaikkine versioineen kirjastosta?"
 
 #. Manage video version dialog title
 msgctxt "#40022"
@@ -19303,12 +19303,12 @@ msgstr "Aseta oletukseksi"
 #. Choose/Manage video version dialog title
 msgctxt "#40024"
 msgid "Versions Manager: {0:s}"
-msgstr ""
+msgstr "Versiohallinta: {0:s}"
 
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
 msgid "Extras Manager: {0:s}"
-msgstr ""
+msgstr "Lisämateriaalihallinta: {0:s}"
 
 #. Add extra dialog text.
 msgctxt "#40026"
@@ -19328,52 +19328,47 @@ msgstr "Selaa tiedostoja"
 #. Browse the library for the movie to be added as version
 msgctxt "#40029"
 msgid "Browse library"
-msgstr ""
+msgstr "Selaa kirjastoa"
 
 #. Select the movie to be added as a version
 msgctxt "#40030"
 msgid "Select movie to add as a version"
-msgstr ""
+msgstr "Valitse versiona lisättävä elokuva"
 
 #. No other movies found in the library
 msgctxt "#40031"
 msgid "No other movies found in the library."
-msgstr ""
+msgstr "Kirjastosta ei löytynyt muita elokuvia."
 
 #. Add version: no similar movies were found in the library.
 msgctxt "#40032"
 msgid "No similar movies were found in the library."
-msgstr ""
-
-#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
-msgctxt "#40033"
-msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
-msgstr ""
+msgstr "Kirjastosta ei löytynyt vastaavia elokuvia."
 
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 msgctxt "#40034"
 msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
-msgstr ""
+msgstr "Useita versioita sisältävän elokuvan oletusversiota ei voida lisätä toisen elokuvan lisämateriaaliksi. Siirrä tai poista muut versiot ensin."
 
 #. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
 msgctxt "#40035"
 msgid "You are about to convert a movie extra into a movie version. Are you sure?"
-msgstr ""
+msgstr "Olet muuttamassa elokuvan lisäsisältöä elokuvan versioksi. Haluatko varmasti tehdä tämän?"
 
 #. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
 msgctxt "#40036"
 msgid "You are about to convert a movie version into a movie extra. Are you sure?"
-msgstr ""
+msgstr "Olet muuttamassa elokuvan versiota elokuvan lisäsisällöksi. Haluatko varmasti tehdä tämän?"
 
 #. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
 msgctxt "#40037"
 msgid "The movie to be added has multiple versions.[CR]The type of the default version will be selected in the next dialog. The other versions will keep their current type.[CR]Do you want to continue?"
-msgstr ""
+msgstr "Lisättävästä elokuvasta on useita versioita.[CR]Oletusversion tyyppi valitaan seuraavassa ruudussa ja muut versiot säilyttävät nykyiset tyyppinsä.[CR]Haluatko jatkaa?"
 
 #. Addition of new version: the default version of a movie with multiple versions cannot be turned into a version of another movie.
 msgctxt "#40038"
 msgid "The default version of a movie with multiple versions cannot be added to another movie. Please move or remove the other versions first."
-msgstr ""
+msgstr "Useita versioita sisältävän elokuvan oletusversiota ei voida lisätä toiseen elokuvaan. Siirrä tai poista muut versiot ensin."
 
 #. Select default video version setting
 msgctxt "#40200"
@@ -19418,7 +19413,7 @@ msgstr "Näyttää useita versioita sisältävät videot videokirjaston kansioin
 #. Choose video version dialog title
 msgctxt "#40208"
 msgid "Choose version: {}"
-msgstr ""
+msgstr "Valitse versio: {}"
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
@@ -19448,42 +19443,42 @@ msgstr "Jos valittu, synkronoidaan äänenvoimakkuus tätä sovellusta vastaavak
 #. Dialog title for the selection of the video extra
 msgctxt "#40214"
 msgid "Choose extra: {}"
-msgstr ""
+msgstr "Valitse lisämateriaali: {}"
 
 #. Title of the dialog for version rename action from Versions Manager
 msgctxt "#40215"
 msgid "Choose version type"
-msgstr ""
+msgstr "Valitse version tyyppi"
 
 #. Caption of the button to create a new version type (Versions Manager > Rename)
 msgctxt "#40216"
 msgid "New type..."
-msgstr ""
+msgstr "Uusi tyyppi..."
 
 #. Caption of the dialog for keyboard entry of a new version type
 msgctxt "#40217"
 msgid "New version type"
-msgstr ""
+msgstr "Uusi versiotyyppi"
 
 #. Title of the dialog for extra rename action from Extras Manager
 msgctxt "#40218"
 msgid "Choose extra name"
-msgstr ""
+msgstr "Valitse lisämateriaalin nimi"
 
 #. Caption of the button to create a new extra name (Extras Manager > Rename)
 msgctxt "#40219"
 msgid "New name..."
-msgstr ""
+msgstr "Uusi nimi..."
 
 #. Caption of the dialog for keyboard entry of a new extra name
 msgctxt "#40220"
 msgid "New extra name"
-msgstr ""
+msgstr "Lisämateriaalin uusi nimi"
 
 #. Choose video version context menu item label
 msgctxt "#40221"
 msgid "Choose version"
-msgstr ""
+msgstr "Valitse versio"
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -19600,6 +19595,10 @@ msgstr "40-vuotis juhlajulkaisu"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50-vuotis juhlajulkaisu"
+
+#~ msgctxt "#40033"
+#~ msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+#~ msgstr "Useita versioita sisältävän elokuvan oletusversiota ei voida lisätä toisen elokuvan versioksi. Lisää sen muut versiot ensin."
 
 #~ msgctxt "#40405"
 #~ msgid "4K"
