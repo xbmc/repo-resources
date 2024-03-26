@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-02-11 23:43+0000\n"
+"PO-Revision-Date: 2024-02-28 14:13+0000\n"
 "Last-Translator: Minho Park <parkmino@gmail.com>\n"
 "Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ko_kr/>\n"
 "Language: ko_kr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -17984,8 +17984,8 @@ msgstr "읽기 계수"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
-msgstr "스트림의 평균 비트 전송률 x 읽기 계수를 기준으로 캐시 채우기 속도를 결정합니다. 이 배수를 늘리면 캐시가 더 빨리 채워집니다. 배수가 크면 일부 장치에서 CPU 스파이크가 발생하고 연결이 포화되어 성능이 저하될 수 있습니다.[CR][적응형] 캐시 수준에 따라 동적으로 계산된 읽기 계수를 사용합니다."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptive] Uses dynamically calculated Read Factor based on cache level."
+msgstr "스트림의 평균 비트 전송률 x 읽기 계수의 캐시 채우기 속도를 정합니다. 이 값을 늘이면 캐시가 더 빨리 채워집니다. 값이 크면 일부 장치에서 CPU 스파이크가 발생하고 연결이 포화되어 성능이 저하될 수 있습니다.[CR][적응형] 캐시 수준에 따라 유연하게 계산된 읽기 계수를 사용합니다."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -18024,7 +18024,7 @@ msgstr "디스크 저장소에 전체 파일을 캐시"
 
 #. Value of setting #37107 "Read Factor"
 msgctxt "#37116"
-msgid "Adaptative"
+msgid "Adaptive"
 msgstr "적응형"
 
 # empty strings from id 37116 to 37119
@@ -19345,11 +19345,6 @@ msgctxt "#40032"
 msgid "No similar movies were found in the library."
 msgstr "라이브러리에 유사한 영화를 찾을 수 없습니다."
 
-#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
-msgctxt "#40033"
-msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
-msgstr "여러 영화 버전의 기본 버전은 다른 버전에 추가할 수 없습니다. 먼저 버전을 추가하세요."
-
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 msgctxt "#40034"
 msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
@@ -19600,6 +19595,18 @@ msgstr "40주년판"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50주년판"
+
+#~ msgctxt "#40033"
+#~ msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+#~ msgstr "여러 영화 버전의 기본 버전은 다른 버전에 추가할 수 없습니다. 먼저 버전을 추가하세요."
+
+#~ msgctxt "#37108"
+#~ msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+#~ msgstr "스트림의 평균 비트 전송률 x 읽기 계수를 기준으로 캐시 채우기 속도를 결정합니다. 이 배수를 늘리면 캐시가 더 빨리 채워집니다. 배수가 크면 일부 장치에서 CPU 스파이크가 발생하고 연결이 포화되어 성능이 저하될 수 있습니다.[CR][적응형] 캐시 수준에 따라 동적으로 계산된 읽기 계수를 사용합니다."
+
+#~ msgctxt "#37116"
+#~ msgid "Adaptative"
+#~ msgstr "적응형"
 
 #~ msgctxt "#40405"
 #~ msgid "4K"

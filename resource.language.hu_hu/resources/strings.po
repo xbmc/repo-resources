@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-02-02 04:57+0000\n"
+"PO-Revision-Date: 2024-02-28 14:13+0000\n"
 "Last-Translator: Frodo19 <bilbohu@gmail.com>\n"
 "Language-Team: Hungarian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/hu_hu/>\n"
 "Language: hu_hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1699,7 +1699,7 @@ msgstr "Film eltávolítása a médiatárból"
 
 msgctxt "#433"
 msgid "Would you really like to remove '{0:s}' from the library?"
-msgstr ""
+msgstr "Valóban el szeretné távolítani a következőt a médiatárból: „{0:s}”?"
 
 #. From <wind dir.> at <speed> <unit>
 msgctxt "#434"
@@ -17988,8 +17988,8 @@ msgstr "Olvasási faktor"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
-msgstr ""
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptive] Uses dynamically calculated Read Factor based on cache level."
+msgstr "Meghatározza a gyorsítótár-kitöltési arányt az átl. adatfolyam bitsebessége x Olvasási tényező. Ha ezt a többszöröst növeljük, a gyorsítótár gyorsabban töltődik fel. A nagy többszörösek CPU-csúcsokat okozhatnak egyes eszközökön, telíthetik a kapcsolatot és ronthatják a teljesítményt.[CR][Adaptive] A gyorsítótár szintje alapján dinamikusan számított olvasási tényezőt használ."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -18028,8 +18028,8 @@ msgstr "Gyorsítótárazza a teljes fájlt a lemezen"
 
 #. Value of setting #37107 "Read Factor"
 msgctxt "#37116"
-msgid "Adaptative"
-msgstr ""
+msgid "Adaptive"
+msgstr "Adaptív"
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -19207,7 +19207,7 @@ msgstr "Verzió"
 #. Button to change the version type of a version in Versions Manager
 msgctxt "#40004"
 msgid "Choose type"
-msgstr ""
+msgstr "Típusválasztás"
 
 #. Warning dialog title
 msgctxt "#40005"
@@ -19292,7 +19292,7 @@ msgstr "Biztosan eltávolítja a \"{0:s}\" verziót?"
 #. Remove item from library text if item has multiple versions
 msgctxt "#40021"
 msgid "Would you really like to remove '{0:s}' and all its versions from the library?"
-msgstr ""
+msgstr "Valóban el szeretné távolítani a(z) \"{0:s}\" fájlt és annak összes verzióját a médiatárból?"
 
 #. Manage video version dialog title
 msgctxt "#40022"
@@ -19348,11 +19348,6 @@ msgstr "Más film nem található a könyvtárban."
 msgctxt "#40032"
 msgid "No similar movies were found in the library."
 msgstr "Hasonló filmet nem találtunk a könyvtárban."
-
-#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
-msgctxt "#40033"
-msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
-msgstr "A több verziót tartalmazó film alapértelmezett verziója nem adható hozzá másik filmhez. Kérjük, először adja hozzá a további verzióit."
 
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 msgctxt "#40034"
@@ -19422,7 +19417,7 @@ msgstr "Ha engedélyezve van, a több verziójú videó mappaként jelenik meg a
 #. Choose video version dialog title
 msgctxt "#40208"
 msgid "Choose version: {}"
-msgstr ""
+msgstr "Válasszon verziót: {}"
 
 #. First choose video version and then select a player and play context menu item label
 msgctxt "#40209"
@@ -19452,42 +19447,42 @@ msgstr "Ha kiválasztja, a távoli lejátszó hangereje szinkronizálva lesz az 
 #. Dialog title for the selection of the video extra
 msgctxt "#40214"
 msgid "Choose extra: {}"
-msgstr ""
+msgstr "Válasszon extrát: {}"
 
 #. Title of the dialog for version rename action from Versions Manager
 msgctxt "#40215"
 msgid "Choose version type"
-msgstr ""
+msgstr "Válasszon verzió típust: {}"
 
 #. Caption of the button to create a new version type (Versions Manager > Rename)
 msgctxt "#40216"
 msgid "New type..."
-msgstr ""
+msgstr "Új típus..."
 
 #. Caption of the dialog for keyboard entry of a new version type
 msgctxt "#40217"
 msgid "New version type"
-msgstr ""
+msgstr "Új verzió típus"
 
 #. Title of the dialog for extra rename action from Extras Manager
 msgctxt "#40218"
 msgid "Choose extra name"
-msgstr ""
+msgstr "Válasszon extra nevet"
 
 #. Caption of the button to create a new extra name (Extras Manager > Rename)
 msgctxt "#40219"
 msgid "New name..."
-msgstr ""
+msgstr "Új név..."
 
 #. Caption of the dialog for keyboard entry of a new extra name
 msgctxt "#40220"
 msgid "New extra name"
-msgstr ""
+msgstr "Új extra név"
 
 #. Choose video version context menu item label
 msgctxt "#40221"
 msgid "Choose version"
-msgstr ""
+msgstr "Verzióválasztás"
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -19604,6 +19599,18 @@ msgstr "40. évfordulós kiadás"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50. évfordulós kiadás"
+
+#~ msgctxt "#40033"
+#~ msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+#~ msgstr "A több verziót tartalmazó film alapértelmezett verziója nem adható hozzá másik filmhez. Kérjük, először adja hozzá a további verzióit."
+
+#~ msgctxt "#37108"
+#~ msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+#~ msgstr "Meghatározza a gyorsítótár-kitöltési arányt az átl. bitfolyam x olvasási tényező. Ha ezt a többszöröst növeljük, a gyorsítótár gyorsabban töltődik fel. A nagy többszörösök CPU-csúcsokat okozhatnak egyes eszközökön, telíthetik a kapcsolatot és ronthatják a teljesítményt.[CR][Adaptative] A gyorsítótár szintje alapján dinamikusan számított olvasási tényezőt használ."
+
+#~ msgctxt "#37116"
+#~ msgid "Adaptative"
+#~ msgstr "Alkalmazkodó"
 
 #~ msgctxt "#40405"
 #~ msgid "4K"

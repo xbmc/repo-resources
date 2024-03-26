@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-02-10 15:47+0000\n"
+"PO-Revision-Date: 2024-02-28 14:13+0000\n"
 "Last-Translator: Alexey <signfinder@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -17993,8 +17993,8 @@ msgstr "Фактор чтения"
 
 #. Description of setting #37107 "Read Factor"
 msgctxt "#37108"
-msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
-msgstr "Определяет скорость заполнения кэша в терминах среднего битрейта потока x Read Factor. При увеличении этого коэффициента кэш заполняется быстрее. Большие значения могут вызывать скачки процессора на некоторых устройствах, нагружать сеть и ухудшать производительность.[CR][Адаптивный] Использует динамический Read Facto, основанный на уровне кэша."
+msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptive] Uses dynamically calculated Read Factor based on cache level."
+msgstr "Определяет скорость заполнения кэша как средний битрейт потока x Read Factor. При увеличении этого коэффициента кэш заполняется быстрее. Большие значения могут вызывать скачки процессора на некоторых устройствах, насыщать соединение и ухудшать производительность.[CR][Адаптивный] Использует динамически рассчитываемый коэффициент чтения, основанный на уровне кэша."
 
 #. Description of setting "Chunk Size"
 msgctxt "#37109"
@@ -18033,7 +18033,7 @@ msgstr "Кэширует весь файл на дисковом накопит�
 
 #. Value of setting #37107 "Read Factor"
 msgctxt "#37116"
-msgid "Adaptative"
+msgid "Adaptive"
 msgstr "Адаптивный"
 
 # empty strings from id 37116 to 37119
@@ -19357,11 +19357,6 @@ msgctxt "#40032"
 msgid "No similar movies were found in the library."
 msgstr "В медиатеке не нашлось ни одного похожего фильма."
 
-#. Addition of new version: a movie with multiple versions cannot be turned into a version of another movie.
-msgctxt "#40033"
-msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
-msgstr "Версия по умолчанию фильма с несколькими версиями не может быть добавлена в качестве версии к другому фильму. Сначала добавьте его дополнительные версии."
-
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 msgctxt "#40034"
 msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
@@ -19612,6 +19607,18 @@ msgstr "Юбилейное издание 40 лет"
 msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "Юбилейное издание 50 лет"
+
+#~ msgctxt "#40033"
+#~ msgid "The default version of a movie with multiple versions cannot be added as a version to another movie. Please add its additional versions first."
+#~ msgstr "Версия по умолчанию фильма с несколькими версиями не может быть добавлена в качестве версии к другому фильму. Сначала добавьте его дополнительные версии."
+
+#~ msgctxt "#37108"
+#~ msgid "Determines cache fill rate in terms of avg. bitrate of stream x Read Factor. Increasing this multiple, cache fills faster. Large multiples may cause CPU spikes on some devices, saturate the connection and worsen performance.[CR][Adaptative] Uses dynamically calculated Read Factor based on cache level."
+#~ msgstr "Определяет скорость заполнения кэша в терминах среднего битрейта потока x Read Factor. При увеличении этого коэффициента кэш заполняется быстрее. Большие значения могут вызывать скачки процессора на некоторых устройствах, нагружать сеть и ухудшать производительность.[CR][Адаптивный] Использует динамический Read Facto, основанный на уровне кэша."
+
+#~ msgctxt "#37116"
+#~ msgid "Adaptative"
+#~ msgstr "Адаптивный"
 
 #~ msgctxt "#40405"
 #~ msgid "4K"
