@@ -107,6 +107,7 @@ The following countries are currently supported, hopefully more to follow.
 * Netherlands
 * New Zealand
 * Norway
+* Portugal
 * Russia
 * Spain
 * Switzerland
