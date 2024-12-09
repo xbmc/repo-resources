@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-10-19 15:11+0000\n"
+"PO-Revision-Date: 2024-11-09 17:26+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main-matrix/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -2908,7 +2908,7 @@ msgstr "Jatkuvan toiston viive (ms)"
 
 msgctxt "#797"
 msgid "Maximum number of clients"
-msgstr "Päätelaitteiden enimmäismäärä"
+msgstr "Päätteiden enimmäismäärä"
 
 msgctxt "#798"
 msgid "Internet access"
@@ -5000,11 +5000,11 @@ msgstr "MAC-osoitteen löytäminen"
 
 msgctxt "#13034"
 msgid "Updated for {0:s}"
-msgstr "Päivityksen kesto {0:s}"
+msgstr "Päivitetty: {0:s}"
 
 msgctxt "#13035"
 msgid "Found for {0:s}"
-msgstr "Löydetty laite {0:s}"
+msgstr "Löydetty: {0:s}"
 
 msgctxt "#13036"
 msgid "Failed for {0:s}"
@@ -5656,7 +5656,7 @@ msgstr "Ristiinhäivytä saman albumin kappaleet"
 
 msgctxt "#13401"
 msgid "Browse for {0:s}"
-msgstr "Valitse {0:s}"
+msgstr "Valitse: {0:s}"
 
 msgctxt "#13402"
 msgid "Show track position"
@@ -5810,7 +5810,7 @@ msgstr "Käytä MPEG-2 VDPAU:ta"
 #. Description of setting with label #13441 "Use MPEG-2 VDPAU"
 msgctxt "#13442"
 msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
-msgstr "Käytä laitteistopurkua MPEG-(1/2)-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta. Laitteistopurku aiheuttaa virheitä vanhoilla Radeon-näytönohjaimilla."
+msgstr "Käytä laitteistokiihdytystä MPEG-(1/2)-koodekeille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla. Vanhoilla Radeon-näytönohjaimilla on tapana esiintyä segfault-virheitä."
 
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
@@ -5819,7 +5819,7 @@ msgstr "Käytä MPEG-4 VDPAU:ta"
 #. Description of setting with label #13443 "Use MPEG-4 VDPAU"
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION hardware has problems with this being enabled by default."
-msgstr "Käytä laitteistopurkua MPEG-4-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta. Laitteistopurku aiheuttaa ongelmia joillain ION-pohjaisilla laitteilla."
+msgstr "Käytä laitteistokiihdytystä MPEG-4-koodekille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla. Joillakin ION-laitteilla esiintyy ongelmia tämän ollessa oletusarvoisesti käytössä."
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5832,48 +5832,48 @@ msgstr "Käytä laitteistopurkua VC-1-kodekilla pakattuihin videotiedostoihin. A
 
 msgctxt "#13447"
 msgid "Use MPEG-2 VAAPI"
-msgstr "Käytä MPEG-2 VAAPI:a"
+msgstr "Käytä MPEG-2:lle VAAPI-kiihdytystä"
 
 #. Description of setting with label #13447 "Use MPEG-2 VAAPI"
 msgctxt "#13448"
 msgid "Enable this option to use hardware acceleration for MPEG-(1 / 2) codecs. If disabled the CPU will be used instead. Some MPEG-2 videos might have green artifacts."
-msgstr "Käytä laitteistopurkua MPEG-(1/2)-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta. Laitteistopurku saattaa aiheutta joihinkin MPEG-2-videoihin vihreitä häiriöitä."
+msgstr "Käytä laitteistokiihdytystä MPEG-(1/2)-koodekeille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla. Joissakin MPEG-2-videoissa saattaa esiintyä vihreää pikselöitymistä (artifakteja)."
 
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
-msgstr "Käytä MPEG-4 VAAPI:a"
+msgstr "Käytä MPEG-4:lle VAAPI-kiihdytystä"
 
 #. Description of setting with label #13449 "Use MPEG-4 VAAPI"
 msgctxt "#13450"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
-msgstr "Käytä laitteistopurkua MPEG-4-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta."
+msgstr "Käytä laitteistokiihdytystä MPEG-4-koodekille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla."
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
-msgstr "Käytä VC-1 VAAPI:a"
+msgstr "Käytä VC-1:lle VAAPI-kiihdytystä"
 
 #. Description of setting with label #13451 "Use VC-1 VAAPI"
 msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 interlaced fails hard on Intel hardware."
-msgstr "Käytä laitteistopurkua VC-1-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta. Laitteistopurku ei toimi Intel-pohjaisilla laitteilla lomitettujen VC-1-videoiden kanssa."
+msgstr "Käytä laitteistokiihdytystä VC-1-pohjaisille koodekeille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla. Laitteistopurku ei toimi Intel-pohjaisilla laitteilla lomitettujen VC-1-videoiden kanssa."
 
 msgctxt "#13453"
 msgid "Use VP8 VAAPI"
-msgstr "Käytä VP8 VAAPI:a"
+msgstr "Käytä VP8:lle VAAPI-kiihdytystä"
 
 #. Description of setting with label #13453 "Use VP8 VAAPI"
 msgctxt "#13454"
 msgid "Enable this option to use hardware acceleration for the VP8 codec. If disabled the CPU will be used instead."
-msgstr "Käytä laitteistopurkua VP8-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta."
+msgstr "Käytä laitteistokiihdytystä VP8-koodekille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla."
 
 msgctxt "#13455"
 msgid "Use VP9 VAAPI"
-msgstr "Käytä VP9 VAAPI:a"
+msgstr "Käytä VP9:lle VAAPI-kiihdytystä"
 
 #. Description of setting with label #13453 "Use VP9 VAAPI"
 msgctxt "#13456"
 msgid "Enable this option to use hardware acceleration for the VP9 codec. If disabled the CPU will be used instead."
-msgstr "Käytä laitteistopurkua VP9-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta."
+msgstr "Käytä laitteistopurkua VP9-koodekille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla."
 
 #. Option for video related setting #13454: sw filter
 msgctxt "#13457"
@@ -5882,12 +5882,12 @@ msgstr "Suosi VAAPI renderöintimenetelmää"
 
 msgctxt "#13460"
 msgid "Use HEVC VAAPI"
-msgstr "Käytä HEVC VAAPI:a"
+msgstr "Käytä HEVC:lle VAAPI-kiihdytystä"
 
 #. Description of setting with label #13460 "Use HEVC VAAPI"
 msgctxt "#13461"
 msgid "Enable this option to use hardware acceleration for the HEVC codec. If disabled the CPU will be used instead."
-msgstr "Käytä laitteistopurkua HEVC-kodekilla pakattuihin videotiedostoihin. Asetuksen ollessa pois päältä purkamiseen käytetään suoritinta."
+msgstr "Käytä laitteistopurkua HEVC-koodekille. Asetuksen ollessa pois käytöstä, suoritetaan purku prosessorilla."
 
 #. Option for setting the PRIME render method
 msgctxt "#13462"
@@ -8300,7 +8300,7 @@ msgstr "Viive katseluhistoriaan lisäämiselle"
 #. value for "pvr client specific actions" dialog headers
 msgctxt "#19196"
 msgid "PVR client specific actions"
-msgstr "PVR-päätekohtaiset toiminnot"
+msgstr "PVR-päätteeseen liittyvät toiminnot"
 
 #. text for "recording started on <pvr client name>" pvr client addon callback notification
 msgctxt "#19197"
@@ -12619,7 +12619,7 @@ msgstr "Näytä \"closed captions\"-tekstitykset"
 
 msgctxt "#24131"
 msgid "Enable to parse for CC in video stream. Puts slightly more load on the CPU"
-msgstr "Etsii videoista sisäisiä kuvaavia tekstityksiä (CC). Tämä kasvattaa prosessorin kuormitusta."
+msgstr "Etsii ja purkaa videoiden sisäisiä kuvaavia tekstitysraitoja (CC). Tämä kasvattaa prosessorin kuormitusta."
 
 msgctxt "#24132"
 msgid "Would you like to switch to this language?"
@@ -15343,7 +15343,7 @@ msgstr "Tyhjentää kanavien ja ohjelmaoppaan tietokannan, minkä jälkeen tiedo
 
 msgctxt "#36210"
 msgid "Open the client priorities dialog which allows modifying the priority for enabled PVR clients according to your personal preferences, for instance to order channels client by client. Higher value means higher priority."
-msgstr "Avaa päätepainotuksen valinnan, josta voit muokata käytössä olevien PVR-päätteiden painotusta omia mieltymystesi mukaisesti, käyttääksesi esimerkiksi päätekohtaisia kanavajärjestyksiä. Korkeampi arvo tarkoittaa korkeampaa painotusta."
+msgstr "Avaa PVR-päätteiden painotusvalinnat, joilla voit muokata aktiivisten PVR-päätteiden ensisijaisuutta käyttöösi sopivaksi, esimerkiksi muokataksesi kanavajärjestyksiä päätekohtaisesti. Korkeampi arvo tarkoittaa korkeampaa painotusta."
 
 msgctxt "#36211"
 msgid "This category contains the settings for PVR menus and on-screen display (OSD), as well as channel information windows."
