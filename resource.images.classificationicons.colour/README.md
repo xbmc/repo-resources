@@ -88,6 +88,7 @@ The following countries are currently supported, hopefully more to follow.
 
 * Australia
 * Australia TV
+* Belgium (New)
 * Brazil
 * Canada
 * Canada TV
@@ -95,23 +96,41 @@ The following countries are currently supported, hopefully more to follow.
 * Finland
 * France TV
 * Germany
+* Germany TV (New)
+* Ghana (New)
+* Greece (New)
 * Hong Kong
 * Hungary
 * Hungary TV
+* Iceland (New)
 * India
 * Ireland
-* Italy
+* Italy (New)
 * Japan
+* Kenya (New)
 * Korea
 * Korea TV
+* Malaysia (New)
+* Maldivies (New)
 * Netherlands
 * New Zealand
+* Nigeria (New)
 * Norway
+* Philippines (New)
+* Poland (New)
 * Portugal
 * Russia
+* Saudi Arabia (New)
+* Singapore (New)
+* Slovakia (New)
+* South Africa (New)
+* South Korea (New)
 * Spain
-* Switzerland
+* Switzerland (New)
 * Taiwan
+* Thailand (New)
+* Turkey (New)
+* UAE (New)
 * United Kingdom
 * United States
 * United States TV
@@ -119,6 +138,12 @@ The following countries are currently supported, hopefully more to follow.
 
 In addition I have provided a Check Classification icon and have duplicated the United States and United States TV set of icons as Rated and TV- to allow for the old naming scheme.
 The United States icons under the old scheme could also contain the : character, which is an illegal character under some file systems, so they have not been provided.
+
+## NOTE:
+
+All icons provided have been sourced from various locations around the web (mainly from this wikipedia article https://en.wikipedia.org/wiki/Motion_picture_content_rating_system#).
+The icons have been processed to meet my requirements of 64 x 64 pixle .png files, so may or may not be exact duplicates of existing files. They are provided as is under the fair use
+provisions of copyright law. If you feel that your icons have been used in error, please contact me thru my GitHub e-mail address and I will endeavor to correct the issue.
 
 ## FINALLY:
 
