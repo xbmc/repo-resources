@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-09-16 14:56+0000\n"
+"PO-Revision-Date: 2026-09-26 06:08+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sv_se/>\n"
 "Language: sv_se\n"
@@ -10216,7 +10216,7 @@ msgstr "Autoväxla mellan 16x9 och 4x3"
 
 msgctxt "#20051"
 msgid "Treat stacked files as single file"
-msgstr "Behandla sammmanslagna filer som en enda fil"
+msgstr "Behandla sammanslagna filer som en enda fil"
 
 msgctxt "#20052"
 msgid "Caution"
@@ -13652,11 +13652,6 @@ msgctxt "#25014"
 msgid "Manual"
 msgstr "Manuell"
 
-#. Used to ask user if they want to use a playlist already assigned to an episode
-msgctxt "#25015"
-msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "Den valda spellistan används redan. Vill du associera den med det här avsnittet istället?"
-
 #. Inform user that no valid movie playlist has been found on disc
 msgctxt "#25016"
 msgid "No valid movie playlist has been found."
@@ -13685,15 +13680,15 @@ msgstr "Mb/s"
 
 msgctxt "#25021"
 msgid "used by {0:s}"
-msgstr ""
+msgstr "används av {0:s}"
 
 msgctxt "#25022"
 msgid "used by movie"
-msgstr ""
+msgstr "används av film"
 
 msgctxt "#25023"
 msgid "used by extra"
-msgstr ""
+msgstr "används av extramaterial"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -13757,7 +13752,7 @@ msgstr "Moderator"
 #. List of editoral staff (if present)
 msgctxt "#29907"
 msgid "Editorial Staff"
-msgstr "Redigeringspersonal"
+msgstr "Redaktionspersonal"
 
 #. Current playing program name
 msgctxt "#29908"
@@ -15642,6 +15637,16 @@ msgctxt "#35299"
 msgid "Still looking this game up..."
 msgstr "Söker fortfarande upp det här spelet …"
 
+#. Shown when hardware rendering fails. {0:s} is the requested API/version, such as "OpenGL 4.3"; {1:s} is the available API, such as "OpenGL".
+msgctxt "#35300"
+msgid "Kodi couldn't initialize {0:s} rendering for this game. This display supports {1:s}."
+msgstr "Kodi kunde inte initiera {0:s}-rendering för det här spelet. Den här skärmen stöder {1:s}."
+
+#. Shown when a game needs the graphics card directly but the display can't provide it
+msgctxt "#35301"
+msgid "Kodi couldn't initialize {0:s} rendering for this game on this display."
+msgstr "Kodi kunde inte initiera {0:s}-rendering för det här spelet på den här skärmen."
+
 #. Label of the setting that enables RetroAchievements encore mode
 msgctxt "#35303"
 msgid "Encore mode"
@@ -15656,6 +15661,54 @@ msgstr "Tillåt att prestationer som du redan har tjänat in utlöses igen.[CR][
 msgctxt "#35307"
 msgid "Subset completed"
 msgstr "Delmängd slutförd"
+
+# empty strings from id 35313 to 35319
+#. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
+#. of the cheats group in settings
+msgctxt "#35320"
+msgid "Cheats"
+msgstr "Fusk"
+
+#. Label of the setting that points at the folder holding cheat files
+msgctxt "#35321"
+msgid "Cheats folder"
+msgstr "Fuskmapp"
+
+#. Help text for the cheats folder setting
+msgctxt "#35322"
+msgid "Set a custom folder containing libretro cheats, or install cheats in the Add-on Manager."
+msgstr "Ange en anpassad mapp med libretro-fusk eller installera fusk i tilläggshanteraren."
+
+#. Shown when no cheat pack matches the current game
+msgctxt "#35323"
+msgid "No cheats found for this game"
+msgstr "Inga fuskkoder hittades för det här spelet"
+
+#. Cheat-pack button and heading of the pack-selection dialog
+msgctxt "#35324"
+msgid "Cheat pack..."
+msgstr "Fuskpaket …"
+
+#. Multiple packs contain the current game's exact cheat filename
+msgctxt "#35325"
+msgid "Multiple cheat packs match this game. Choose one to load its cheats."
+msgstr "Flera fuskpaket passar det här spelet. Välj ett paket för att läsa in fuskkoderna."
+
+#. Enabled-cheat count, singular
+msgctxt "#35326"
+msgid "1 cheat enabled"
+msgstr "1 fuskkod aktiverad"
+
+#. Enabled-cheat count, including zero
+#, c++-format
+msgctxt "#35327"
+msgid "{0:d} cheats enabled"
+msgstr "{0:d} fuskkoder aktiverade"
+
+#. Shown when a matching pack has no usable cheats
+msgctxt "#35328"
+msgid "0 cheats available"
+msgstr "0 fuskkoder tillgängliga"
 
 # empty strings from id 35313 to 35330
 #. Label of the game OSD button that opens the leaderboards
@@ -16224,7 +16277,7 @@ msgstr "Välj eller inaktivera de ljud som används i användargränssnittet."
 #. Description of setting with label #13305 "Show RSS news feed"
 msgctxt "#36111"
 msgid "Turn this off to remove the scrolling RSS news ticker."
-msgstr "Stäng av detta för att ta bort det scrollande RSS-nyhetsflödet."
+msgstr "Stäng av detta för att ta bort det rullande RSS-nyhetsflödet."
 
 #. Description of setting with label #21450 "Edit"
 msgctxt "#36112"
@@ -16769,7 +16822,7 @@ msgstr "Vid bläddring genom kanaler med kanal upp/ned-knappar måste kanalväxl
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
-msgstr "När du trycker kanalen uppåt eller nedåt fördröjs den aktuella kanalbytet, vilket gör att användaren kan vända till ett kanalnummer utan att vänta på varje kanalbyte."
+msgstr "När du trycker på kanal upp eller ned fördröjs det faktiska kanalbytet, så att du kan bläddra till ett kanalnummer utan att vänta på varje kanalbyte."
 
 msgctxt "#36233"
 msgid "This category contains settings for recordings."
@@ -20041,8 +20094,8 @@ msgstr "Visa inte undertexter som matchar ljudspråket"
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
-msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
-msgstr "Slå inte på undertexter som har samma språk som det uppspelade ljudet. Tvingade undertexter påverkas inte."
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
+msgstr ""
 
 #. Title of the setting that chooses which audio stream a library list describes
 msgctxt "#39213"
@@ -20346,6 +20399,31 @@ msgctxt "#40046"
 msgid "Ungroup"
 msgstr "Dela upp"
 
+#. Shown when the playlist chosen for a movie version already belongs to another version of it
+msgctxt "#40047"
+msgid "This playlist already belongs to another version of this movie."
+msgstr "Den här spellistan tillhör redan en annan version av filmen."
+
+#. Asked before a playlist already assigned to another episode is taken away from it
+msgctxt "#40048"
+msgid "The selected playlist is already assigned to another episode. Reassign it?"
+msgstr "Den valda spellistan är redan kopplad till ett annat avsnitt. Koppla om den?"
+
+#. Asked before a playlist already assigned to another movie version is taken away from it
+msgctxt "#40049"
+msgid "The selected playlist is already assigned to another movie version. Reassign it?"
+msgstr "Den valda spellistan är redan kopplad till en annan filmversion. Koppla om den?"
+
+#. Asked before an episode joins a playlist that several episodes already share
+msgctxt "#40050"
+msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
+msgstr "Den valda spellistan delas av flera avsnitt. Vill du använda den även för det här objektet?"
+
+#. Shown when a playlist cannot be given up because a movie version still uses its file
+msgctxt "#40051"
+msgid "This playlist is still in use by another movie version and could not be reassigned."
+msgstr "Den här spellistan används fortfarande av en annan filmversion och kunde inte kopplas om."
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20604,6 +20682,14 @@ msgstr "Ändring av bildskärm kan kräva omstart."
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
+
+#~ msgctxt "#39212"
+#~ msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
+#~ msgstr "Slå inte på undertexter som har samma språk som det uppspelade ljudet. Tvingade undertexter påverkas inte."
+
+#~ msgctxt "#25015"
+#~ msgid "Selected playlist is already in use. Associate with this episode instead?"
+#~ msgstr "Den valda spellistan används redan. Vill du associera den med det här avsnittet istället?"
 
 #~ msgctxt "#39218"
 #~ msgid "HDR PGS subtitle brightness"

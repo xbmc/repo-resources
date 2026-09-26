@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-09-14 04:02+0000\n"
+"PO-Revision-Date: 2026-09-26 06:08+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
@@ -13650,11 +13650,6 @@ msgctxt "#25014"
 msgid "Manual"
 msgstr "Manuale"
 
-#. Used to ask user if they want to use a playlist already assigned to an episode
-msgctxt "#25015"
-msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "La playlist selezionata è già in uso. Vuoi associarla a questo episodio?"
-
 #. Inform user that no valid movie playlist has been found on disc
 msgctxt "#25016"
 msgid "No valid movie playlist has been found."
@@ -13683,15 +13678,15 @@ msgstr "Mb/s"
 
 msgctxt "#25021"
 msgid "used by {0:s}"
-msgstr ""
+msgstr "usato da {0:s}"
 
 msgctxt "#25022"
 msgid "used by movie"
-msgstr ""
+msgstr "usato dal film"
 
 msgctxt "#25023"
 msgid "used by extra"
-msgstr ""
+msgstr "usato da extra"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -15640,6 +15635,16 @@ msgctxt "#35299"
 msgid "Still looking this game up..."
 msgstr "Ricerca del gioco ancora in corso..."
 
+#. Shown when hardware rendering fails. {0:s} is the requested API/version, such as "OpenGL 4.3"; {1:s} is the available API, such as "OpenGL".
+msgctxt "#35300"
+msgid "Kodi couldn't initialize {0:s} rendering for this game. This display supports {1:s}."
+msgstr "Kodi non è riuscito ad avviare il rendering {0:s} per questo gioco. Questo schermo supporta {1:s}."
+
+#. Shown when a game needs the graphics card directly but the display can't provide it
+msgctxt "#35301"
+msgid "Kodi couldn't initialize {0:s} rendering for this game on this display."
+msgstr "Kodi non è riuscito ad avviare il rendering {0:s} per questo gioco su questo schermo."
+
 #. Label of the setting that enables RetroAchievements encore mode
 msgctxt "#35303"
 msgid "Encore mode"
@@ -15654,6 +15659,54 @@ msgstr "Consente di sbloccare nuovamente gli obiettivi già ottenuti.[CR][CR]Ha 
 msgctxt "#35307"
 msgid "Subset completed"
 msgstr "Sottoinsieme completato"
+
+# empty strings from id 35313 to 35319
+#. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
+#. of the cheats group in settings
+msgctxt "#35320"
+msgid "Cheats"
+msgstr "Trucchi"
+
+#. Label of the setting that points at the folder holding cheat files
+msgctxt "#35321"
+msgid "Cheats folder"
+msgstr "Cartella trucchi"
+
+#. Help text for the cheats folder setting
+msgctxt "#35322"
+msgid "Set a custom folder containing libretro cheats, or install cheats in the Add-on Manager."
+msgstr "Imposta una cartella personalizzata contenente trucchi libretro, oppure installa i trucchi in Gestione componenti aggiuntivi."
+
+#. Shown when no cheat pack matches the current game
+msgctxt "#35323"
+msgid "No cheats found for this game"
+msgstr "Nessun trucco trovato per questo gioco"
+
+#. Cheat-pack button and heading of the pack-selection dialog
+msgctxt "#35324"
+msgid "Cheat pack..."
+msgstr "Pacchetto trucchi..."
+
+#. Multiple packs contain the current game's exact cheat filename
+msgctxt "#35325"
+msgid "Multiple cheat packs match this game. Choose one to load its cheats."
+msgstr "Più pacchetti trucchi corrispondono a questo gioco. Scegline uno per caricare i suoi trucchi."
+
+#. Enabled-cheat count, singular
+msgctxt "#35326"
+msgid "1 cheat enabled"
+msgstr "1 trucco attivato"
+
+#. Enabled-cheat count, including zero
+#, c++-format
+msgctxt "#35327"
+msgid "{0:d} cheats enabled"
+msgstr "{0:d} trucchi attivati"
+
+#. Shown when a matching pack has no usable cheats
+msgctxt "#35328"
+msgid "0 cheats available"
+msgstr "0 trucchi disponibili"
 
 # empty strings from id 35313 to 35330
 #. Label of the game OSD button that opens the leaderboards
@@ -20039,8 +20092,8 @@ msgstr "Non mostrare i sottotitoli nella stessa lingua dell'audio"
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
-msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
-msgstr "Non attivare i sottotitoli che sono nella stessa lingua dell'audio in riproduzione. I sottotitoli forzati non sono interessati."
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
+msgstr ""
 
 #. Title of the setting that chooses which audio stream a library list describes
 msgctxt "#39213"
@@ -20344,6 +20397,31 @@ msgctxt "#40046"
 msgid "Ungroup"
 msgstr "Separa"
 
+#. Shown when the playlist chosen for a movie version already belongs to another version of it
+msgctxt "#40047"
+msgid "This playlist already belongs to another version of this movie."
+msgstr "Questa playlist appartiene già a un'altra versione di questo film."
+
+#. Asked before a playlist already assigned to another episode is taken away from it
+msgctxt "#40048"
+msgid "The selected playlist is already assigned to another episode. Reassign it?"
+msgstr "La playlist selezionata è già assegnata a un altro episodio. Riassegnarla?"
+
+#. Asked before a playlist already assigned to another movie version is taken away from it
+msgctxt "#40049"
+msgid "The selected playlist is already assigned to another movie version. Reassign it?"
+msgstr "La playlist selezionata è già assegnata a un'altra versione del film. Riassegnarla?"
+
+#. Asked before an episode joins a playlist that several episodes already share
+msgctxt "#40050"
+msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
+msgstr "La playlist selezionata è condivisa da più episodi. Usarla anche per questo elemento?"
+
+#. Shown when a playlist cannot be given up because a movie version still uses its file
+msgctxt "#40051"
+msgid "This playlist is still in use by another movie version and could not be reassigned."
+msgstr "Questa playlist è ancora in uso da un'altra versione del film e non può essere riassegnata."
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20602,6 +20680,14 @@ msgstr "La modifica del monitor potrebbe richiedere il riavvio."
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
+
+#~ msgctxt "#39212"
+#~ msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
+#~ msgstr "Non attivare i sottotitoli che sono nella stessa lingua dell'audio in riproduzione. I sottotitoli forzati non sono interessati."
+
+#~ msgctxt "#25015"
+#~ msgid "Selected playlist is already in use. Associate with this episode instead?"
+#~ msgstr "La playlist selezionata è già in uso. Vuoi associarla a questo episodio?"
 
 #~ msgctxt "#39218"
 #~ msgid "HDR PGS subtitle brightness"

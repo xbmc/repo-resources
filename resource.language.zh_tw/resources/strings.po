@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-09-09 10:25+0000\n"
+"PO-Revision-Date: 2026-09-23 14:50+0000\n"
 "Last-Translator: Jeremy Chen <jeremy@naviart.idv.tw>\n"
 "Language-Team: Chinese (Traditional Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hant/>\n"
 "Language: zh_tw\n"
@@ -13654,11 +13654,6 @@ msgctxt "#25014"
 msgid "Manual"
 msgstr "手動"
 
-#. Used to ask user if they want to use a playlist already assigned to an episode
-msgctxt "#25015"
-msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "所選播放列表已在使用中。是否改為與本集關聯？"
-
 #. Inform user that no valid movie playlist has been found on disc
 msgctxt "#25016"
 msgid "No valid movie playlist has been found."
@@ -13687,15 +13682,15 @@ msgstr "Mb/s"
 
 msgctxt "#25021"
 msgid "used by {0:s}"
-msgstr ""
+msgstr "由 {0:s} 使用"
 
 msgctxt "#25022"
 msgid "used by movie"
-msgstr ""
+msgstr "由影片使用"
 
 msgctxt "#25023"
 msgid "used by extra"
-msgstr ""
+msgstr "由花絮使用"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -15624,27 +15619,37 @@ msgstr "{0:d} 分"
 #. Notification shown after signing in to RetroAchievements. {0:s} is the account name
 msgctxt "#35295"
 msgid "Logged in as {0:s}"
-msgstr ""
+msgstr "已登入為：{0:s}"
 
 #. Notification shown when RetroAchievements becomes unreachable during play
 msgctxt "#35296"
 msgid "Unlocks will be submitted when the connection returns."
-msgstr ""
+msgstr "網路恢復後會自動送出已解鎖成就。"
 
 #. Notification shown when RetroAchievements becomes reachable again
 msgctxt "#35297"
 msgid "Pending unlocks have been submitted."
-msgstr ""
+msgstr "待送出的解鎖紀錄已送出。"
 
 # empty strings from id 35281 to 35297
 #. Error message shown when trying to load a compressed savestate in an unsupported version of Kodi
 msgctxt "#35298"
 msgid "This savestate is compressed and can't be loaded by this version of Kodi."
-msgstr ""
+msgstr "此存檔經過壓縮，本版Kodi無法讀取。"
 
 #. Shown when the achievements dialog is opened before the game has been identified
 msgctxt "#35299"
 msgid "Still looking this game up..."
+msgstr ""
+
+#. Shown when hardware rendering fails. {0:s} is the requested API/version, such as "OpenGL 4.3"; {1:s} is the available API, such as "OpenGL".
+msgctxt "#35300"
+msgid "Kodi couldn't initialize {0:s} rendering for this game. This display supports {1:s}."
+msgstr ""
+
+#. Shown when a game needs the graphics card directly but the display can't provide it
+msgctxt "#35301"
+msgid "Kodi couldn't initialize {0:s} rendering for this game on this display."
 msgstr ""
 
 #. Label of the setting that enables RetroAchievements encore mode
@@ -15660,6 +15665,54 @@ msgstr ""
 #. Notification shown when all achievements of a subset are earned, {0:s} is the subset
 msgctxt "#35307"
 msgid "Subset completed"
+msgstr ""
+
+# empty strings from id 35313 to 35319
+#. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
+#. of the cheats group in settings
+msgctxt "#35320"
+msgid "Cheats"
+msgstr ""
+
+#. Label of the setting that points at the folder holding cheat files
+msgctxt "#35321"
+msgid "Cheats folder"
+msgstr ""
+
+#. Help text for the cheats folder setting
+msgctxt "#35322"
+msgid "Set a custom folder containing libretro cheats, or install cheats in the Add-on Manager."
+msgstr ""
+
+#. Shown when no cheat pack matches the current game
+msgctxt "#35323"
+msgid "No cheats found for this game"
+msgstr ""
+
+#. Cheat-pack button and heading of the pack-selection dialog
+msgctxt "#35324"
+msgid "Cheat pack..."
+msgstr ""
+
+#. Multiple packs contain the current game's exact cheat filename
+msgctxt "#35325"
+msgid "Multiple cheat packs match this game. Choose one to load its cheats."
+msgstr ""
+
+#. Enabled-cheat count, singular
+msgctxt "#35326"
+msgid "1 cheat enabled"
+msgstr ""
+
+#. Enabled-cheat count, including zero
+#, c++-format
+msgctxt "#35327"
+msgid "{0:d} cheats enabled"
+msgstr ""
+
+#. Shown when a matching pack has no usable cheats
+msgctxt "#35328"
+msgid "0 cheats available"
 msgstr ""
 
 # empty strings from id 35313 to 35330
@@ -20049,7 +20102,7 @@ msgstr ""
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
-msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
 msgstr ""
 
 #. Title of the setting that chooses which audio stream a library list describes
@@ -20354,6 +20407,31 @@ msgctxt "#40046"
 msgid "Ungroup"
 msgstr ""
 
+#. Shown when the playlist chosen for a movie version already belongs to another version of it
+msgctxt "#40047"
+msgid "This playlist already belongs to another version of this movie."
+msgstr ""
+
+#. Asked before a playlist already assigned to another episode is taken away from it
+msgctxt "#40048"
+msgid "The selected playlist is already assigned to another episode. Reassign it?"
+msgstr ""
+
+#. Asked before a playlist already assigned to another movie version is taken away from it
+msgctxt "#40049"
+msgid "The selected playlist is already assigned to another movie version. Reassign it?"
+msgstr ""
+
+#. Asked before an episode joins a playlist that several episodes already share
+msgctxt "#40050"
+msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
+msgstr ""
+
+#. Shown when a playlist cannot be given up because a movie version still uses its file
+msgctxt "#40051"
+msgid "This playlist is still in use by another movie version and could not be reassigned."
+msgstr ""
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20612,6 +20690,10 @@ msgstr ""
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr ""
+
+#~ msgctxt "#25015"
+#~ msgid "Selected playlist is already in use. Associate with this episode instead?"
+#~ msgstr "所選播放列表已在使用中。是否改為與本集關聯？"
 
 #~ msgctxt "#641"
 #~ msgid "Files with ReplayGain information"
