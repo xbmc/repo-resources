@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-09-16 14:56+0000\n"
+"PO-Revision-Date: 2026-10-07 19:11+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/sv_se/>\n"
 "Language: sv_se\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5843,6 +5843,16 @@ msgctxt "#13362"
 msgid "Continue watching"
 msgstr "Fortsätt titta"
 
+#. Label for context menu item on a video source to refresh the library information of all items in it
+msgctxt "#13363"
+msgid "Refresh all content"
+msgstr ""
+
+#. Label for context menu item on a video source to stop refreshing the library information of all items in it
+msgctxt "#13364"
+msgid "Stop refreshing"
+msgstr ""
+
 msgctxt "#13375"
 msgid "Enable device"
 msgstr "Aktivera enhet"
@@ -6933,7 +6943,7 @@ msgstr "Tillåt dubbel uppdateringsfrekvens"
 # empty strings from id 14129 to 14186
 msgctxt "#14187"
 msgid "Advanced"
-msgstr "Avancerat"
+msgstr "Avancerad"
 
 msgctxt "#14188"
 msgid "Player audio/video queues"
@@ -8743,7 +8753,7 @@ msgctxt "#19193"
 msgid "The channel scan can't be started."
 msgstr "Kanalsökningen kan inte startas."
 
-#. unused?
+#. Question after an explanation of what will happen, such as #35702
 msgctxt "#19194"
 msgid "Continue?"
 msgstr "Fortsätt?"
@@ -10216,7 +10226,7 @@ msgstr "Autoväxla mellan 16x9 och 4x3"
 
 msgctxt "#20051"
 msgid "Treat stacked files as single file"
-msgstr "Behandla sammmanslagna filer som en enda fil"
+msgstr "Behandla sammanslagna filer som en enda fil"
 
 msgctxt "#20052"
 msgid "Caution"
@@ -13652,11 +13662,6 @@ msgctxt "#25014"
 msgid "Manual"
 msgstr "Manuell"
 
-#. Used to ask user if they want to use a playlist already assigned to an episode
-msgctxt "#25015"
-msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "Den valda spellistan används redan. Vill du associera den med det här avsnittet istället?"
-
 #. Inform user that no valid movie playlist has been found on disc
 msgctxt "#25016"
 msgid "No valid movie playlist has been found."
@@ -13685,15 +13690,15 @@ msgstr "Mb/s"
 
 msgctxt "#25021"
 msgid "used by {0:s}"
-msgstr ""
+msgstr "används av {0:s}"
 
 msgctxt "#25022"
 msgid "used by movie"
-msgstr ""
+msgstr "används av film"
 
 msgctxt "#25023"
 msgid "used by extra"
-msgstr ""
+msgstr "används av extramaterial"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -13757,7 +13762,7 @@ msgstr "Moderator"
 #. List of editoral staff (if present)
 msgctxt "#29907"
 msgid "Editorial Staff"
-msgstr "Redigeringspersonal"
+msgstr "Redaktionspersonal"
 
 #. Current playing program name
 msgctxt "#29908"
@@ -14492,8 +14497,8 @@ msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows Media Audio 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr "När du behöver fylla i lite text så dyker Kodi's virtuella tangentbord upp istället för tvOS inbyggda tangentbord"
+msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in platform keyboard"
+msgstr "När du behöver ange text visas Kodis virtuella tangentbord i stället för plattformens inbyggda tangentbord"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
@@ -15496,11 +15501,6 @@ msgctxt "#35270"
 msgid "Your account is not verified. Please check your email to complete your sign up."
 msgstr "Ditt konto är inte verifierat. Kontrollera din e-post för att slutföra din registrering."
 
-#. Error message shown when an OpenGL game is played, as OpenGL is not currently supported
-msgctxt "#35271"
-msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
-msgstr "Detta spel kräver OpenGL-stöd för 3D-rendering. OpenGL-stöd är fortfarande under utveckling."
-
 #. Label for the "Disc menu" button to open the Disc Manager when playing a game
 msgctxt "#35272"
 msgid "Disc menu"
@@ -15642,6 +15642,21 @@ msgctxt "#35299"
 msgid "Still looking this game up..."
 msgstr "Söker fortfarande upp det här spelet …"
 
+#. Shown when hardware rendering fails. {0:s} is the requested API/version, such as "OpenGL 4.3"; {1:s} is the available API, such as "OpenGL".
+msgctxt "#35300"
+msgid "Kodi couldn't initialize {0:s} rendering for this game. This display supports {1:s}."
+msgstr "Kodi kunde inte initiera {0:s}-rendering för det här spelet. Den här skärmen stöder {1:s}."
+
+#. Shown when a game needs the graphics card directly but the display can't provide it
+msgctxt "#35301"
+msgid "Kodi couldn't initialize {0:s} rendering for this game on this display."
+msgstr "Kodi kunde inte initiera {0:s}-rendering för det här spelet på den här skärmen."
+
+#. Help text for the hardcore mode setting
+msgctxt "#35302"
+msgid "Earn achievements worth double points. Rewind, loading save states, slow motion and cheats are unavailable while this is on, and turning it on restarts the game."
+msgstr ""
+
 #. Label of the setting that enables RetroAchievements encore mode
 msgctxt "#35303"
 msgid "Encore mode"
@@ -15652,10 +15667,78 @@ msgctxt "#35304"
 msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
 msgstr "Tillåt att prestationer som du redan har tjänat in utlöses igen.[CR][CR]Tillämpas nästa gång du läser in spelet."
 
+#. Notification shown when hardcore mode refuses something, {0:s} is the feature
+msgctxt "#35305"
+msgid "{0:s} is not available"
+msgstr ""
+
+#. Notification shown when resuming a save state turns hardcore mode off
+msgctxt "#35306"
+msgid "Hardcore mode turned off. Achievements will be earned in casual mode."
+msgstr ""
+
 #. Notification shown when all achievements of a subset are earned, {0:s} is the subset
 msgctxt "#35307"
 msgid "Subset completed"
 msgstr "Delmängd slutförd"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35308"
+msgid "Loading save states"
+msgstr ""
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35309"
+msgid "Rewind"
+msgstr ""
+
+# empty strings from id 35313 to 35319
+#. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
+#. of the cheats group in settings
+msgctxt "#35320"
+msgid "Cheats"
+msgstr "Fusk"
+
+#. Label of the setting that points at the folder holding cheat files
+msgctxt "#35321"
+msgid "Cheats folder"
+msgstr "Fuskmapp"
+
+#. Help text for the cheats folder setting
+msgctxt "#35322"
+msgid "Set a custom folder containing libretro cheats, or install cheats in the Add-on Manager."
+msgstr "Ange en anpassad mapp med libretro-fusk eller installera fusk i tilläggshanteraren."
+
+#. Shown when no cheat pack matches the current game
+msgctxt "#35323"
+msgid "No cheats found for this game"
+msgstr "Inga fuskkoder hittades för det här spelet"
+
+#. Cheat-pack button and heading of the pack-selection dialog
+msgctxt "#35324"
+msgid "Cheat pack..."
+msgstr "Fuskpaket …"
+
+#. Multiple packs contain the current game's exact cheat filename
+msgctxt "#35325"
+msgid "Multiple cheat packs match this game. Choose one to load its cheats."
+msgstr "Flera fuskpaket passar det här spelet. Välj ett paket för att läsa in fuskkoderna."
+
+#. Enabled-cheat count, singular
+msgctxt "#35326"
+msgid "1 cheat enabled"
+msgstr "1 fuskkod aktiverad"
+
+#. Enabled-cheat count, including zero
+#, c++-format
+msgctxt "#35327"
+msgid "{0:d} cheats enabled"
+msgstr "{0:d} fuskkoder aktiverade"
+
+#. Shown when a matching pack has no usable cheats
+msgctxt "#35328"
+msgid "0 cheats available"
+msgstr "0 fuskkoder tillgängliga"
 
 # empty strings from id 35313 to 35330
 #. Label of the game OSD button that opens the leaderboards
@@ -15900,6 +15983,28 @@ msgctxt "#35511"
 msgid "Current"
 msgstr "Aktuell"
 
+# empty strings from id 35512 to 35699
+#. Label of the setting that enables RetroAchievements hardcore mode
+msgctxt "#35700"
+msgid "Hardcore mode"
+msgstr ""
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35701"
+msgid "Slow motion"
+msgstr ""
+
+#. Confirmation shown before turning hardcore mode on during a game, followed by #19194
+msgctxt "#35702"
+msgid "Starting a hardcore session restarts the game. Any unsaved progress will be lost."
+msgstr ""
+
+#. Shown as a game with achievements starts in hardcore mode, {0:d} earned of {1:d}
+#, c++-format
+msgctxt "#35703"
+msgid "Hardcore mode: {0:d} of {1:d} achievements unlocked"
+msgstr ""
+
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
 msgstr "Pulse-Eight CEC-adapter"
@@ -16143,7 +16248,7 @@ msgstr "Skicka volymkommandon via CEC"
 #. Item list value of setting with label #36057 "Send volume commands over CEC": send them to an amplifier, or to a TV that reports CEC 2.0
 msgctxt "#36058"
 msgid "Automatic"
-msgstr "Automatiskt"
+msgstr "Automatisk"
 
 # empty strings from id 36054 to 36095
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
@@ -16224,7 +16329,7 @@ msgstr "Välj eller inaktivera de ljud som används i användargränssnittet."
 #. Description of setting with label #13305 "Show RSS news feed"
 msgctxt "#36111"
 msgid "Turn this off to remove the scrolling RSS news ticker."
-msgstr "Stäng av detta för att ta bort det scrollande RSS-nyhetsflödet."
+msgstr "Stäng av detta för att ta bort det rullande RSS-nyhetsflödet."
 
 #. Description of setting with label #21450 "Edit"
 msgctxt "#36112"
@@ -16769,7 +16874,7 @@ msgstr "Vid bläddring genom kanaler med kanal upp/ned-knappar måste kanalväxl
 
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
-msgstr "När du trycker kanalen uppåt eller nedåt fördröjs den aktuella kanalbytet, vilket gör att användaren kan vända till ett kanalnummer utan att vänta på varje kanalbyte."
+msgstr "När du trycker på kanal upp eller ned fördröjs det faktiska kanalbytet, så att du kan bläddra till ett kanalnummer utan att vänta på varje kanalbyte."
 
 msgctxt "#36233"
 msgid "This category contains settings for recordings."
@@ -20041,8 +20146,8 @@ msgstr "Visa inte undertexter som matchar ljudspråket"
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
-msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
-msgstr "Slå inte på undertexter som har samma språk som det uppspelade ljudet. Tvingade undertexter påverkas inte."
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
+msgstr "Slå inte på undertexter som är på samma språk som det uppspelade ljudet. Tvingade undertexter på det språket slås i stället på om de finns i videon."
 
 #. Title of the setting that chooses which audio stream a library list describes
 msgctxt "#39213"
@@ -20062,7 +20167,7 @@ msgstr "Spelare"
 #. Value of the setting "Language details to display" - describe the media's default stream
 msgctxt "#39216"
 msgid "Media default"
-msgstr "Mediets standard"
+msgstr "Mediastandard"
 
 #. Value of the setting "Language details to display" - describe the technically best stream
 msgctxt "#39217"
@@ -20346,6 +20451,31 @@ msgctxt "#40046"
 msgid "Ungroup"
 msgstr "Dela upp"
 
+#. Shown when the playlist chosen for a movie version already belongs to another version of it
+msgctxt "#40047"
+msgid "This playlist already belongs to another version of this movie."
+msgstr "Den här spellistan tillhör redan en annan version av filmen."
+
+#. Asked before a playlist already assigned to another episode is taken away from it
+msgctxt "#40048"
+msgid "The selected playlist is already assigned to another episode. Reassign it?"
+msgstr "Den valda spellistan är redan kopplad till ett annat avsnitt. Koppla om den?"
+
+#. Asked before a playlist already assigned to another movie version is taken away from it
+msgctxt "#40049"
+msgid "The selected playlist is already assigned to another movie version. Reassign it?"
+msgstr "Den valda spellistan är redan kopplad till en annan filmversion. Koppla om den?"
+
+#. Asked before an episode joins a playlist that several episodes already share
+msgctxt "#40050"
+msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
+msgstr "Den valda spellistan delas av flera avsnitt. Vill du använda den även för det här objektet?"
+
+#. Shown when a playlist cannot be given up because a movie version still uses its file
+msgctxt "#40051"
+msgid "This playlist is still in use by another movie version and could not be reassigned."
+msgstr "Den här spellistan används fortfarande av en annan filmversion och kunde inte kopplas om."
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20604,6 +20734,32 @@ msgstr "Ändring av bildskärm kan kräva omstart."
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
+
+#. Setting "audiooutput.passthroughvolumecontrol"
+msgctxt "#40805"
+msgid "Volume control during passthrough"
+msgstr "Volymreglering vid genomsläpp"
+
+#. Help of setting "audiooutput.passthroughvolumecontrol"
+msgctxt "#40806"
+msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
+msgstr "Justerar och visar volymnivån medan ljudet skickas vidare. Nivån tillämpas inte på bitströmmen, men varje ändring aviseras så att ett tillägg eller en automatisering kan tillämpa den på en extern ljudprocessor."
+
+#~ msgctxt "#35271"
+#~ msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
+#~ msgstr "Detta spel kräver OpenGL-stöd för 3D-rendering. OpenGL-stöd är fortfarande under utveckling."
+
+#~ msgctxt "#34008"
+#~ msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
+#~ msgstr "När du behöver fylla i lite text så dyker Kodi's virtuella tangentbord upp istället för tvOS inbyggda tangentbord"
+
+#~ msgctxt "#39212"
+#~ msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
+#~ msgstr "Slå inte på undertexter som har samma språk som det uppspelade ljudet. Tvingade undertexter påverkas inte."
+
+#~ msgctxt "#25015"
+#~ msgid "Selected playlist is already in use. Associate with this episode instead?"
+#~ msgstr "Den valda spellistan används redan. Vill du associera den med det här avsnittet istället?"
 
 #~ msgctxt "#39218"
 #~ msgid "HDR PGS subtitle brightness"

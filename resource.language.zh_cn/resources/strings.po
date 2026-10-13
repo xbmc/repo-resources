@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-09-16 14:56+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-10-08 17:26+0000\n"
+"Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5841,6 +5841,16 @@ msgctxt "#13362"
 msgid "Continue watching"
 msgstr "继续观看"
 
+#. Label for context menu item on a video source to refresh the library information of all items in it
+msgctxt "#13363"
+msgid "Refresh all content"
+msgstr ""
+
+#. Label for context menu item on a video source to stop refreshing the library information of all items in it
+msgctxt "#13364"
+msgid "Stop refreshing"
+msgstr ""
+
 msgctxt "#13375"
 msgid "Enable device"
 msgstr "启用设备"
@@ -8741,7 +8751,7 @@ msgctxt "#19193"
 msgid "The channel scan can't be started."
 msgstr "无法启动频道扫描。"
 
-#. unused?
+#. Question after an explanation of what will happen, such as #35702
 msgctxt "#19194"
 msgid "Continue?"
 msgstr "继续吗？"
@@ -13650,11 +13660,6 @@ msgctxt "#25014"
 msgid "Manual"
 msgstr "手动"
 
-#. Used to ask user if they want to use a playlist already assigned to an episode
-msgctxt "#25015"
-msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "所选播放列表已被占用。是否改为关联至该单集？"
-
 #. Inform user that no valid movie playlist has been found on disc
 msgctxt "#25016"
 msgid "No valid movie playlist has been found."
@@ -13683,15 +13688,15 @@ msgstr "Mb/s"
 
 msgctxt "#25021"
 msgid "used by {0:s}"
-msgstr ""
+msgstr "由 {0:s} 使用"
 
 msgctxt "#25022"
 msgid "used by movie"
-msgstr ""
+msgstr "由影片使用"
 
 msgctxt "#25023"
 msgid "used by extra"
-msgstr ""
+msgstr "由花絮使用"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -14490,8 +14495,8 @@ msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows media audio 2（FFmpeg wmav2）"
 
 msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr "当您需要输入一些文本时，将显示 Kodi 虚拟键盘会出现而非内建的 tvOS 键盘"
+msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in platform keyboard"
+msgstr "当需要输入文字时，会弹出 Kodi 内置虚拟键盘，而不是系统原生平台键盘"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
@@ -15494,11 +15499,6 @@ msgctxt "#35270"
 msgid "Your account is not verified. Please check your email to complete your sign up."
 msgstr "您的帐户未经验证。请检查您的电子邮件以完成注册。"
 
-#. Error message shown when an OpenGL game is played, as OpenGL is not currently supported
-msgctxt "#35271"
-msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
-msgstr "本游戏需要 OpenGL 支持才能进行 3D 渲染。OpenGL 支持仍在开发中。"
-
 #. Label for the "Disc menu" button to open the Disc Manager when playing a game
 msgctxt "#35272"
 msgid "Disc menu"
@@ -15640,6 +15640,21 @@ msgctxt "#35299"
 msgid "Still looking this game up..."
 msgstr "正在检索此游戏信息……"
 
+#. Shown when hardware rendering fails. {0:s} is the requested API/version, such as "OpenGL 4.3"; {1:s} is the available API, such as "OpenGL".
+msgctxt "#35300"
+msgid "Kodi couldn't initialize {0:s} rendering for this game. This display supports {1:s}."
+msgstr "Kodi 无法为此游戏初始化 {0:s} 渲染器。当前显示设备仅支持 {1:s}。"
+
+#. Shown when a game needs the graphics card directly but the display can't provide it
+msgctxt "#35301"
+msgid "Kodi couldn't initialize {0:s} rendering for this game on this display."
+msgstr "Kodi 无法在此显示器上，为该游戏初始化 {0:s} 渲染。"
+
+#. Help text for the hardcore mode setting
+msgctxt "#35302"
+msgid "Earn achievements worth double points. Rewind, loading save states, slow motion and cheats are unavailable while this is on, and turning it on restarts the game."
+msgstr "获得双倍分值成就。开启此功能后，倒带、读取存档、慢动作以及作弊功能均不可用；开启该选项会重启游戏。"
+
 #. Label of the setting that enables RetroAchievements encore mode
 msgctxt "#35303"
 msgid "Encore mode"
@@ -15650,10 +15665,78 @@ msgctxt "#35304"
 msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
 msgstr "允许再次触发已获取的成就。[CR][CR]将在下次加载游戏时生效。"
 
+#. Notification shown when hardcore mode refuses something, {0:s} is the feature
+msgctxt "#35305"
+msgid "{0:s} is not available"
+msgstr "{0:s} 不可用"
+
+#. Notification shown when resuming a save state turns hardcore mode off
+msgctxt "#35306"
+msgid "Hardcore mode turned off. Achievements will be earned in casual mode."
+msgstr "硬核模式已关闭。将以休闲模式获取成就。"
+
 #. Notification shown when all achievements of a subset are earned, {0:s} is the subset
 msgctxt "#35307"
 msgid "Subset completed"
 msgstr "子集成就已完成"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35308"
+msgid "Loading save states"
+msgstr "读取即时存档"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35309"
+msgid "Rewind"
+msgstr "倒带"
+
+# empty strings from id 35313 to 35319
+#. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
+#. of the cheats group in settings
+msgctxt "#35320"
+msgid "Cheats"
+msgstr "作弊码"
+
+#. Label of the setting that points at the folder holding cheat files
+msgctxt "#35321"
+msgid "Cheats folder"
+msgstr "作弊码文件夹"
+
+#. Help text for the cheats folder setting
+msgctxt "#35322"
+msgid "Set a custom folder containing libretro cheats, or install cheats in the Add-on Manager."
+msgstr "设置存放 libretro 作弊码的自定义文件夹，或在插件管理器中安装作弊码。"
+
+#. Shown when no cheat pack matches the current game
+msgctxt "#35323"
+msgid "No cheats found for this game"
+msgstr "未找到此游戏的作弊码"
+
+#. Cheat-pack button and heading of the pack-selection dialog
+msgctxt "#35324"
+msgid "Cheat pack..."
+msgstr "作弊码包..."
+
+#. Multiple packs contain the current game's exact cheat filename
+msgctxt "#35325"
+msgid "Multiple cheat packs match this game. Choose one to load its cheats."
+msgstr "有多个作弊码包匹配此游戏，请选择一个加载其作弊码。"
+
+#. Enabled-cheat count, singular
+msgctxt "#35326"
+msgid "1 cheat enabled"
+msgstr "已启用 1 条作弊码"
+
+#. Enabled-cheat count, including zero
+#, c++-format
+msgctxt "#35327"
+msgid "{0:d} cheats enabled"
+msgstr "已启用 {0:d} 条作弊码"
+
+#. Shown when a matching pack has no usable cheats
+msgctxt "#35328"
+msgid "0 cheats available"
+msgstr "可用作弊码：0 条"
 
 # empty strings from id 35313 to 35330
 #. Label of the game OSD button that opens the leaderboards
@@ -15897,6 +15980,28 @@ msgstr "默认模拟器"
 msgctxt "#35511"
 msgid "Current"
 msgstr "当前"
+
+# empty strings from id 35512 to 35699
+#. Label of the setting that enables RetroAchievements hardcore mode
+msgctxt "#35700"
+msgid "Hardcore mode"
+msgstr "硬核模式"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35701"
+msgid "Slow motion"
+msgstr "慢动作"
+
+#. Confirmation shown before turning hardcore mode on during a game, followed by #19194
+msgctxt "#35702"
+msgid "Starting a hardcore session restarts the game. Any unsaved progress will be lost."
+msgstr "启动硬核会话将重启游戏。所有未保存进度将会丢失。"
+
+#. Shown as a game with achievements starts in hardcore mode, {0:d} earned of {1:d}
+#, c++-format
+msgctxt "#35703"
+msgid "Hardcore mode: {0:d} of {1:d} achievements unlocked"
+msgstr "硬核模式：已解锁 {0:d}/{1:d} 项成就"
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -20039,8 +20144,8 @@ msgstr "不显示与音轨语言相同的字幕"
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
-msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
-msgstr "不启用与播放音轨语言相同的字幕。强制字幕不受此选项影响。"
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
+msgstr "不启用与音频同语言的普通字幕；若视频中存在该语言强制字幕，则显示强制字幕。"
 
 #. Title of the setting that chooses which audio stream a library list describes
 msgctxt "#39213"
@@ -20344,6 +20449,31 @@ msgctxt "#40046"
 msgid "Ungroup"
 msgstr "拆分分组"
 
+#. Shown when the playlist chosen for a movie version already belongs to another version of it
+msgctxt "#40047"
+msgid "This playlist already belongs to another version of this movie."
+msgstr "该播放列表条目已经归属这部影片的另一个版本。"
+
+#. Asked before a playlist already assigned to another episode is taken away from it
+msgctxt "#40048"
+msgid "The selected playlist is already assigned to another episode. Reassign it?"
+msgstr "所选播放列表已经绑定到另一集剧集。是否重新分配？"
+
+#. Asked before a playlist already assigned to another movie version is taken away from it
+msgctxt "#40049"
+msgid "The selected playlist is already assigned to another movie version. Reassign it?"
+msgstr "所选播放列表已分配给该影片的另一个版本。是否重新分配？"
+
+#. Asked before an episode joins a playlist that several episodes already share
+msgctxt "#40050"
+msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
+msgstr "所选播放列表已被多个剧集共用。是否也将它用于当前条目？"
+
+#. Shown when a playlist cannot be given up because a movie version still uses its file
+msgctxt "#40051"
+msgid "This playlist is still in use by another movie version and could not be reassigned."
+msgstr "该播放列表仍被影片的另一个版本占用，无法重新分配。"
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20602,6 +20732,32 @@ msgstr "更改监控设置可能需要重启生效。"
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
+
+#. Setting "audiooutput.passthroughvolumecontrol"
+msgctxt "#40805"
+msgid "Volume control during passthrough"
+msgstr "源码透传时的音量控制"
+
+#. Help of setting "audiooutput.passthroughvolumecontrol"
+msgctxt "#40806"
+msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
+msgstr "在音频透传时调整并显示音量等级。该音量不会作用于比特流，但每次音量变动都会发送通知，插件或自动化程序可据此控制外部音频处理器。"
+
+#~ msgctxt "#35271"
+#~ msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
+#~ msgstr "本游戏需要 OpenGL 支持才能进行 3D 渲染。OpenGL 支持仍在开发中。"
+
+#~ msgctxt "#34008"
+#~ msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
+#~ msgstr "当您需要输入一些文本时，将显示 Kodi 虚拟键盘会出现而非内建的 tvOS 键盘"
+
+#~ msgctxt "#39212"
+#~ msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
+#~ msgstr "不启用与播放音轨语言相同的字幕。强制字幕不受此选项影响。"
+
+#~ msgctxt "#25015"
+#~ msgid "Selected playlist is already in use. Associate with this episode instead?"
+#~ msgstr "所选播放列表已被占用。是否改为关联至该单集？"
 
 #~ msgctxt "#35299"
 #~ msgid "Still looking this game up on RetroAchievements..."

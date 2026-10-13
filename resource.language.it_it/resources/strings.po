@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-09-14 04:02+0000\n"
+"PO-Revision-Date: 2026-10-08 20:49+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/it_it/>\n"
 "Language: it_it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5841,6 +5841,16 @@ msgctxt "#13362"
 msgid "Continue watching"
 msgstr "Continua a guardare"
 
+#. Label for context menu item on a video source to refresh the library information of all items in it
+msgctxt "#13363"
+msgid "Refresh all content"
+msgstr ""
+
+#. Label for context menu item on a video source to stop refreshing the library information of all items in it
+msgctxt "#13364"
+msgid "Stop refreshing"
+msgstr ""
+
 msgctxt "#13375"
 msgid "Enable device"
 msgstr "Abilita dispositivo"
@@ -8741,7 +8751,7 @@ msgctxt "#19193"
 msgid "The channel scan can't be started."
 msgstr "Impossibile avviare la scansione dei canali."
 
-#. unused?
+#. Question after an explanation of what will happen, such as #35702
 msgctxt "#19194"
 msgid "Continue?"
 msgstr "Continuare?"
@@ -13650,11 +13660,6 @@ msgctxt "#25014"
 msgid "Manual"
 msgstr "Manuale"
 
-#. Used to ask user if they want to use a playlist already assigned to an episode
-msgctxt "#25015"
-msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "La playlist selezionata è già in uso. Vuoi associarla a questo episodio?"
-
 #. Inform user that no valid movie playlist has been found on disc
 msgctxt "#25016"
 msgid "No valid movie playlist has been found."
@@ -13683,15 +13688,15 @@ msgstr "Mb/s"
 
 msgctxt "#25021"
 msgid "used by {0:s}"
-msgstr ""
+msgstr "usato da {0:s}"
 
 msgctxt "#25022"
 msgid "used by movie"
-msgstr ""
+msgstr "usato dal film"
 
 msgctxt "#25023"
 msgid "used by extra"
-msgstr ""
+msgstr "usato da extra"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -14490,8 +14495,8 @@ msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Audio Windows Media 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
-msgstr "Quando devi inserire del testo, verrà visualizzata la tastiera virtuale di Kodi al posto della tastiera tvOS integrata"
+msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in platform keyboard"
+msgstr "Quando devi inserire del testo, al posto della tastiera integrata della piattaforma verrà visualizzata la tastiera virtuale di Kodi"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
@@ -15494,11 +15499,6 @@ msgctxt "#35270"
 msgid "Your account is not verified. Please check your email to complete your sign up."
 msgstr "Il tuo account non è verificato. Controlla la tua email per completare la registrazione."
 
-#. Error message shown when an OpenGL game is played, as OpenGL is not currently supported
-msgctxt "#35271"
-msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
-msgstr "Questo gioco richiede il supporto OpenGL per il rendering 3D. Il supporto OpenGL è ancora in fase di sviluppo."
-
 #. Label for the "Disc menu" button to open the Disc Manager when playing a game
 msgctxt "#35272"
 msgid "Disc menu"
@@ -15640,6 +15640,21 @@ msgctxt "#35299"
 msgid "Still looking this game up..."
 msgstr "Ricerca del gioco ancora in corso..."
 
+#. Shown when hardware rendering fails. {0:s} is the requested API/version, such as "OpenGL 4.3"; {1:s} is the available API, such as "OpenGL".
+msgctxt "#35300"
+msgid "Kodi couldn't initialize {0:s} rendering for this game. This display supports {1:s}."
+msgstr "Kodi non è riuscito ad avviare il rendering {0:s} per questo gioco. Questo schermo supporta {1:s}."
+
+#. Shown when a game needs the graphics card directly but the display can't provide it
+msgctxt "#35301"
+msgid "Kodi couldn't initialize {0:s} rendering for this game on this display."
+msgstr "Kodi non è riuscito ad avviare il rendering {0:s} per questo gioco su questo schermo."
+
+#. Help text for the hardcore mode setting
+msgctxt "#35302"
+msgid "Earn achievements worth double points. Rewind, loading save states, slow motion and cheats are unavailable while this is on, and turning it on restarts the game."
+msgstr "Ottieni obiettivi che valgono il doppio dei punti. Riavvolgimento, caricamento degli stati di salvataggio, rallentatore e trucchi non sono disponibili mentre questa opzione è attiva e, attivandola, il gioco viene riavviato."
+
 #. Label of the setting that enables RetroAchievements encore mode
 msgctxt "#35303"
 msgid "Encore mode"
@@ -15650,10 +15665,78 @@ msgctxt "#35304"
 msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
 msgstr "Consente di sbloccare nuovamente gli obiettivi già ottenuti.[CR][CR]Ha effetto al successivo caricamento del gioco."
 
+#. Notification shown when hardcore mode refuses something, {0:s} is the feature
+msgctxt "#35305"
+msgid "{0:s} is not available"
+msgstr "{0:s} non disponibile"
+
+#. Notification shown when resuming a save state turns hardcore mode off
+msgctxt "#35306"
+msgid "Hardcore mode turned off. Achievements will be earned in casual mode."
+msgstr "Modalità hardcore disattivata. Gli obiettivi verranno ottenuti in modalità casual."
+
 #. Notification shown when all achievements of a subset are earned, {0:s} is the subset
 msgctxt "#35307"
 msgid "Subset completed"
 msgstr "Sottoinsieme completato"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35308"
+msgid "Loading save states"
+msgstr "Caricamento degli stati di salvataggio"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35309"
+msgid "Rewind"
+msgstr "Riavvolgimento"
+
+# empty strings from id 35313 to 35319
+#. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
+#. of the cheats group in settings
+msgctxt "#35320"
+msgid "Cheats"
+msgstr "Trucchi"
+
+#. Label of the setting that points at the folder holding cheat files
+msgctxt "#35321"
+msgid "Cheats folder"
+msgstr "Cartella trucchi"
+
+#. Help text for the cheats folder setting
+msgctxt "#35322"
+msgid "Set a custom folder containing libretro cheats, or install cheats in the Add-on Manager."
+msgstr "Imposta una cartella personalizzata contenente trucchi libretro, oppure installa i trucchi in Gestione componenti aggiuntivi."
+
+#. Shown when no cheat pack matches the current game
+msgctxt "#35323"
+msgid "No cheats found for this game"
+msgstr "Nessun trucco trovato per questo gioco"
+
+#. Cheat-pack button and heading of the pack-selection dialog
+msgctxt "#35324"
+msgid "Cheat pack..."
+msgstr "Pacchetto trucchi..."
+
+#. Multiple packs contain the current game's exact cheat filename
+msgctxt "#35325"
+msgid "Multiple cheat packs match this game. Choose one to load its cheats."
+msgstr "Più pacchetti trucchi corrispondono a questo gioco. Scegline uno per caricare i suoi trucchi."
+
+#. Enabled-cheat count, singular
+msgctxt "#35326"
+msgid "1 cheat enabled"
+msgstr "1 trucco attivato"
+
+#. Enabled-cheat count, including zero
+#, c++-format
+msgctxt "#35327"
+msgid "{0:d} cheats enabled"
+msgstr "{0:d} trucchi attivati"
+
+#. Shown when a matching pack has no usable cheats
+msgctxt "#35328"
+msgid "0 cheats available"
+msgstr "0 trucchi disponibili"
 
 # empty strings from id 35313 to 35330
 #. Label of the game OSD button that opens the leaderboards
@@ -15897,6 +15980,28 @@ msgstr "Emulatore predefinito"
 msgctxt "#35511"
 msgid "Current"
 msgstr "Attuale"
+
+# empty strings from id 35512 to 35699
+#. Label of the setting that enables RetroAchievements hardcore mode
+msgctxt "#35700"
+msgid "Hardcore mode"
+msgstr "Modalità hardcore"
+
+#. Name of the feature hardcore mode refused, used with #35305
+msgctxt "#35701"
+msgid "Slow motion"
+msgstr "Rallentatore"
+
+#. Confirmation shown before turning hardcore mode on during a game, followed by #19194
+msgctxt "#35702"
+msgid "Starting a hardcore session restarts the game. Any unsaved progress will be lost."
+msgstr "Avviare una sessione hardcore riavvia il gioco. Eventuali progressi non salvati andranno persi."
+
+#. Shown as a game with achievements starts in hardcore mode, {0:d} earned of {1:d}
+#, c++-format
+msgctxt "#35703"
+msgid "Hardcore mode: {0:d} of {1:d} achievements unlocked"
+msgstr "Modalità hardcore: {0:d} di {1:d} obiettivi sbloccati"
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -20039,8 +20144,8 @@ msgstr "Non mostrare i sottotitoli nella stessa lingua dell'audio"
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
-msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
-msgstr "Non attivare i sottotitoli che sono nella stessa lingua dell'audio in riproduzione. I sottotitoli forzati non sono interessati."
+msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
+msgstr "Non attivare i sottotitoli nella stessa lingua dell'audio in riproduzione. Verranno attivati automaticamente i sottotitoli forzati in quella lingua, laddove presenti nel video."
 
 #. Title of the setting that chooses which audio stream a library list describes
 msgctxt "#39213"
@@ -20344,6 +20449,31 @@ msgctxt "#40046"
 msgid "Ungroup"
 msgstr "Separa"
 
+#. Shown when the playlist chosen for a movie version already belongs to another version of it
+msgctxt "#40047"
+msgid "This playlist already belongs to another version of this movie."
+msgstr "Questa playlist appartiene già a un'altra versione di questo film."
+
+#. Asked before a playlist already assigned to another episode is taken away from it
+msgctxt "#40048"
+msgid "The selected playlist is already assigned to another episode. Reassign it?"
+msgstr "La playlist selezionata è già assegnata a un altro episodio. Riassegnarla?"
+
+#. Asked before a playlist already assigned to another movie version is taken away from it
+msgctxt "#40049"
+msgid "The selected playlist is already assigned to another movie version. Reassign it?"
+msgstr "La playlist selezionata è già assegnata a un'altra versione del film. Riassegnarla?"
+
+#. Asked before an episode joins a playlist that several episodes already share
+msgctxt "#40050"
+msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
+msgstr "La playlist selezionata è condivisa da più episodi. Usarla anche per questo elemento?"
+
+#. Shown when a playlist cannot be given up because a movie version still uses its file
+msgctxt "#40051"
+msgid "This playlist is still in use by another movie version and could not be reassigned."
+msgstr "Questa playlist è ancora in uso da un'altra versione del film e non può essere riassegnata."
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20602,6 +20732,32 @@ msgstr "La modifica del monitor potrebbe richiedere il riavvio."
 msgctxt "#40804"
 msgid "{0:.1f} dB"
 msgstr "{0:.1f} dB"
+
+#. Setting "audiooutput.passthroughvolumecontrol"
+msgctxt "#40805"
+msgid "Volume control during passthrough"
+msgstr "Controllo del volume durante il passaggio senza conversione"
+
+#. Help of setting "audiooutput.passthroughvolumecontrol"
+msgctxt "#40806"
+msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
+msgstr "Regola e visualizza il livello del volume durante il passaggio dell'audio senza conversione. Il livello non viene applicato al flusso di bit, ma ogni modifica viene annunciata, in modo che un add-on o un'automazione possano applicarla ad un processore audio esterno."
+
+#~ msgctxt "#35271"
+#~ msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
+#~ msgstr "Questo gioco richiede il supporto OpenGL per il rendering 3D. Il supporto OpenGL è ancora in fase di sviluppo."
+
+#~ msgctxt "#34008"
+#~ msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
+#~ msgstr "Quando devi inserire del testo, verrà visualizzata la tastiera virtuale di Kodi al posto della tastiera tvOS integrata"
+
+#~ msgctxt "#39212"
+#~ msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles are not affected."
+#~ msgstr "Non attivare i sottotitoli che sono nella stessa lingua dell'audio in riproduzione. I sottotitoli forzati non sono interessati."
+
+#~ msgctxt "#25015"
+#~ msgid "Selected playlist is already in use. Associate with this episode instead?"
+#~ msgstr "La playlist selezionata è già in uso. Vuoi associarla a questo episodio?"
 
 #~ msgctxt "#39218"
 #~ msgid "HDR PGS subtitle brightness"
