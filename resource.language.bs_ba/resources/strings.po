@@ -6100,8 +6100,8 @@ msgctxt "#13423"
 msgid "Remember for this path"
 msgstr "Zapamti ovu putanju"
 
-#. Shown on context menu when a bluray:// or dvd:// playlist has already been saved
-#. Giving the user a chance to select a new one via the simple menu dialog
+#. Shown on context menu for a Blu-ray disc image, BDMV folder or an already saved bluray://
+#. playlist. Giving the user a chance to select a playlist via the simple menu dialog
 msgctxt "#13424"
 msgid "Choose playlist"
 msgstr "Odaberite listu za reprodukciju"
@@ -6368,6 +6368,24 @@ msgstr ""
 #. Value of setting with label #36100 "Dither depth"
 msgctxt "#13483"
 msgid "8 bit"
+msgstr ""
+
+#. Shown on context menu for a Blu-ray disc image, BDMV folder or an already saved bluray://
+#. playlist, when further choices (see #13485 and #13486) will be offered
+msgctxt "#13484"
+msgid "Choose playlist ..."
+msgstr ""
+
+#. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
+#. Blu-ray playlist to it
+msgctxt "#13485"
+msgid "and Save"
+msgstr ""
+
+#. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
+#. Blu-ray playlist to it and play it
+msgctxt "#13486"
+msgid "and Play"
 msgstr ""
 
 msgctxt "#13505"
@@ -8828,11 +8846,6 @@ msgctxt "#19195"
 msgid "Delay mark last watched"
 msgstr "Oznaka kašnjenja posljednjeg gledanja"
 
-#. value for "pvr client specific actions" dialog headers
-msgctxt "#19196"
-msgid "PVR client specific actions"
-msgstr "Radnje specifične za PVR klijenta"
-
 #. text for "recording started on <pvr client name>" pvr client addon callback notification
 msgctxt "#19197"
 msgid "Recording started on: {0:s}"
@@ -9236,11 +9249,6 @@ msgctxt "#19279"
 msgid "PVR clients"
 msgstr "PVR klijenti"
 
-#. pvr client specific settings 'client specific settings' action control label.
-msgctxt "#19280"
-msgid "Client specific settings"
-msgstr "Postavke specifične za klijenta"
-
 #. pvr settings 'confirm channel switch' setting label.
 msgctxt "#19281"
 msgid "Confirm channel switches by pressing \"OK\""
@@ -9571,11 +9579,6 @@ msgctxt "#19346"
 msgid "Display and manage available PVR client add-ons."
 msgstr "Prikaz i upravljanje dostupnim dodacima za PVR klijente."
 
-#. info message box text stating that none of the available pvr clients does provide client-specific settings
-msgctxt "#19347"
-msgid "None of the active PVR clients provide client-specific settings."
-msgstr "Nijedan od aktivnih PVR klijenata ne nudi postavke specifične za klijenta."
-
 #. generic label for a pvr provider used in different places
 msgctxt "#19348"
 msgid "Provider"
@@ -9625,6 +9628,11 @@ msgstr "Kopija '{0:s}'"
 msgctxt "#19357"
 msgid "Delete recording"
 msgstr "Izbriši snimak"
+
+#. Label for the optional provider-scoped channel OSD setting
+msgctxt "#19358"
+msgid "Show channels by provider in channel OSD"
+msgstr ""
 
 # empty strings from id 19334 to 19498
 #. label for epg genre value
@@ -13657,6 +13665,16 @@ msgctxt "#24187"
 msgid "Failed to initialise databases - exiting in {} seconds."
 msgstr "Inicijalizacija baza podataka nije uspjela - izlaz za {} sekundi."
 
+#. Progress text while extracting an add-on package
+msgctxt "#24188"
+msgid "Unpacking add-on..."
+msgstr ""
+
+#. Header of the background progress bar when installing an add-on, followed by the percentage
+msgctxt "#24189"
+msgid "Installing {0:s}"
+msgstr ""
+
 # empty strings from id 24186 to 24990
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -15521,6 +15539,16 @@ msgctxt "#35239"
 msgid "Integer (square pixels)"
 msgstr ""
 
+#. Error dialog text when an emulator can't find a file it needs, such as a BIOS file. {0:s} - emulator name, {1:s} - file name
+msgctxt "#35240"
+msgid "The emulator \"{0:s}\" couldn't find {1:s}."
+msgstr ""
+
+#. Error dialog text when an emulator can't find files it needs and doesn't say which. {0:s} - emulator name
+msgctxt "#35241"
+msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
+msgstr ""
+
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
 msgctxt "#35249"
@@ -16487,6 +16515,15 @@ msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
 msgstr "Odaberite koji se skup znakova koristi za prikaz teksta u korisničkom interfejsu. Ovo ne mijenja skup znakova koji se koristi za titlove, za to idite na Player > Jezik."
 
+msgctxt "#36117"
+msgid "Render on high-performance GPU"
+msgstr ""
+
+#. Description of setting with label #36117 "Render on high-performance GPU"
+msgctxt "#36118"
+msgid "On laptops with two GPUs, render on the high-performance GPU even when the display is connected to the other GPU. Frees the CPU's power and memory bandwidth for decoding, but uses more power. Exclusive fullscreen is not available in this mode."
+msgstr ""
+
 #. Description of setting with label #285 "Preferred audio language"
 msgctxt "#36119"
 msgid "Defaults to the selected audio language if more than one language is available."
@@ -17082,10 +17119,6 @@ msgstr "Ponovo zatražite PIN kod kada pokušavate pristupiti kanalu koji je zak
 msgctxt "#36251"
 msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
 msgstr "Ova kategorija sadrži postavke posebno za vaš PVR backend, ako to podržava PVR dodatak i backend."
-
-msgctxt "#36252"
-msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
-msgstr "Ova opcija će vas odvesti do bilo kojih specifičnih postavki za vaš PVR backend, ako ih podržava PVR dodatak i backend."
 
 #. Description of settings section with label #2 "Music"
 msgctxt "#36253"
@@ -18052,6 +18085,11 @@ msgctxt "#36461"
 msgid "Notification event describe regular processes and actions performed by the system or the user."
 msgstr "Obavještenja opisuju redovne procese i radnje koje izvršava sistem ili korisnik."
 
+#. Description of setting with label #19358 "Show channels by provider in channel OSD"
+msgctxt "#36462"
+msgid "Show only channels from the selected provider and group in the channel OSD. Switching groups also cycles through providers. Switching to the next or previous channel stays within the provider of the playing channel. Disable to use the standard channel group list."
+msgstr ""
+
 # empty strings from id 36462 to 36499
 # end reservation
 #. label of a setting for the stereoscopic 3D mode of the GUI that is/should be applied
@@ -18679,6 +18717,17 @@ msgstr "Sljedeći napušteni dodaci su uklonjeni sa vašeg sistema: {0:s}."
 msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
 msgstr "Nema osirotelih dodataka za uklanjanje."
+
+# empty strings from id 36643 to 36644
+#. Label of setting "Pictures -> Slideshow -> Show date and time metadata on screen"
+msgctxt "#36645"
+msgid "Show date and time metadata on screen"
+msgstr ""
+
+#. Description of setting "Pictures -> Slideshow -> Show date and time metadata on screen" with label #36645
+msgctxt "#36646"
+msgid "During a slideshow, show the date and time from a picture's EXIF metadata, if it has them. Not every skin supports this."
+msgstr ""
 
 # empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
@@ -20339,6 +20388,16 @@ msgctxt "#39217"
 msgid "Best"
 msgstr ""
 
+#. Title of the setting that chooses if the Dolby Vision extensions is used
+msgctxt "#39218"
+msgid "Use Dolby Vision extensions"
+msgstr ""
+
+#. Help text for setting "Dolby Vision extensions" of label #39218
+msgctxt "#39219"
+msgid "Use the system Dolby Vision extensions to correctly display Dolby Vision profile 5, 7 (excludes FEL reconstruction), 8 and 10 video."
+msgstr ""
+
 # empty strings from id 39211 to 39899
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
 #. STR_LIST_AND_TWO
@@ -20909,6 +20968,22 @@ msgstr ""
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
 msgstr ""
+
+#~ msgctxt "#19196"
+#~ msgid "PVR client specific actions"
+#~ msgstr "Radnje specifične za PVR klijenta"
+
+#~ msgctxt "#19280"
+#~ msgid "Client specific settings"
+#~ msgstr "Postavke specifične za klijenta"
+
+#~ msgctxt "#19347"
+#~ msgid "None of the active PVR clients provide client-specific settings."
+#~ msgstr "Nijedan od aktivnih PVR klijenata ne nudi postavke specifične za klijenta."
+
+#~ msgctxt "#36252"
+#~ msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
+#~ msgstr "Ova opcija će vas odvesti do bilo kojih specifičnih postavki za vaš PVR backend, ako ih podržava PVR dodatak i backend."
 
 #~ msgctxt "#35271"
 #~ msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
