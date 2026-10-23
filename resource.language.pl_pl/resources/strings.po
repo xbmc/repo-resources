@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-10-08 20:49+0000\n"
+"PO-Revision-Date: 2026-10-23 03:27+0000\n"
 "Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -6054,8 +6054,8 @@ msgctxt "#13423"
 msgid "Remember for this path"
 msgstr "Zapamiętaj dla tej ścieżki"
 
-#. Shown on context menu when a bluray:// or dvd:// playlist has already been saved
-#. Giving the user a chance to select a new one via the simple menu dialog
+#. Shown on context menu for a Blu-ray disc image, BDMV folder or an already saved bluray://
+#. playlist. Giving the user a chance to select a playlist via the simple menu dialog
 msgctxt "#13424"
 msgid "Choose playlist"
 msgstr "Wybierz listę odtwarzania"
@@ -6321,6 +6321,24 @@ msgstr "7-bitowa"
 msgctxt "#13483"
 msgid "8 bit"
 msgstr "8-bitowa"
+
+#. Shown on context menu for a Blu-ray disc image, BDMV folder or an already saved bluray://
+#. playlist, when further choices (see #13485 and #13486) will be offered
+msgctxt "#13484"
+msgid "Choose playlist ..."
+msgstr "Wybierz listę odtwarzania ..."
+
+#. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
+#. Blu-ray playlist to it
+msgctxt "#13485"
+msgid "and Save"
+msgstr "i zapisz"
+
+#. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
+#. Blu-ray playlist to it and play it
+msgctxt "#13486"
+msgid "and Play"
+msgstr "i odtwórz"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -8763,11 +8781,6 @@ msgctxt "#19195"
 msgid "Delay mark last watched"
 msgstr "Opóźnij oznaczenie ostatnio oglądanego"
 
-#. value for "pvr client specific actions" dialog headers
-msgctxt "#19196"
-msgid "PVR client specific actions"
-msgstr "Specyficzne działanie klienta telewizji"
-
 #. text for "recording started on <pvr client name>" pvr client addon callback notification
 msgctxt "#19197"
 msgid "Recording started on: {0:s}"
@@ -9171,11 +9184,6 @@ msgctxt "#19279"
 msgid "PVR clients"
 msgstr "Klienty telewizji"
 
-#. pvr client specific settings 'client specific settings' action control label.
-msgctxt "#19280"
-msgid "Client specific settings"
-msgstr "Specjalne ustawienia klienta"
-
 #. pvr settings 'confirm channel switch' setting label.
 msgctxt "#19281"
 msgid "Confirm channel switches by pressing \"OK\""
@@ -9506,11 +9514,6 @@ msgctxt "#19346"
 msgid "Display and manage available PVR client add-ons."
 msgstr "Wyświetlaj i zarządzaj dostępnymi dodatkami klienta telewizji."
 
-#. info message box text stating that none of the available pvr clients does provide client-specific settings
-msgctxt "#19347"
-msgid "None of the active PVR clients provide client-specific settings."
-msgstr "Żaden z aktywnych klientów telewizji nie udostępnia ustawień specyficznych dla klienta."
-
 #. generic label for a pvr provider used in different places
 msgctxt "#19348"
 msgid "Provider"
@@ -9560,6 +9563,11 @@ msgstr "Kopia ’{0:s}’"
 msgctxt "#19357"
 msgid "Delete recording"
 msgstr "Usuń nagranie"
+
+#. Label for the optional provider-scoped channel OSD setting
+msgctxt "#19358"
+msgid "Show channels by provider in channel OSD"
+msgstr "Wyświetl kanały według dostawcy w menu ekranowym (OSD) kanałów"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11588,7 +11596,7 @@ msgstr "Pokaż wszystkich wykonawców teledysków"
 
 msgctxt "#20473"
 msgid "Premiered"
-msgstr "Po premierze"
+msgstr "Premiera"
 
 #. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
 msgctxt "#20474"
@@ -13562,6 +13570,16 @@ msgctxt "#24187"
 msgid "Failed to initialise databases - exiting in {} seconds."
 msgstr "Nie udało się zainicjować bazy danych. Wyjście nastąpi za {} sekund(y)."
 
+#. Progress text while extracting an add-on package
+msgctxt "#24188"
+msgid "Unpacking add-on..."
+msgstr "Rozpakowywanie dodatku..."
+
+#. Header of the background progress bar when installing an add-on, followed by the percentage
+msgctxt "#24189"
+msgid "Installing {0:s}"
+msgstr "Instalowanie {0:s}"
+
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -15289,16 +15307,6 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "Dodatki pomocnicze"
 
-#. Dialog text asking user to overwrite their savestate file
-msgctxt "#35217"
-msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
-msgstr "Zapisany stan może zostać wczytany tylko z „{0:s}”. Wymazać stan i kontynuować?"
-
-#. Button to erase the savestate
-msgctxt "#35218"
-msgid "Erase savestate"
-msgstr "Wyczyść zapisany stan"
-
 #. Error dialog text when trying to play a game and the game's files aren't found.
 msgctxt "#35219"
 msgid "The required files can't be found."
@@ -15403,6 +15411,16 @@ msgstr "Całkowitoliczbowe"
 msgctxt "#35239"
 msgid "Integer (square pixels)"
 msgstr "Całkowitoliczbowe (piksele kwadratowe)"
+
+#. Error dialog text when an emulator can't find a file it needs, such as a BIOS file. {0:s} - emulator name, {1:s} - file name
+msgctxt "#35240"
+msgid "The emulator \"{0:s}\" couldn't find {1:s}."
+msgstr "Emulator „{0:s}” nie mógł znaleźć {1:s}."
+
+#. Error dialog text when an emulator can't find files it needs and doesn't say which. {0:s} - emulator name
+msgctxt "#35241"
+msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
+msgstr "Emulator „{0:s}” nie mógł znaleźć potrzebnych plików, takich jak pliki BIOS-u."
 
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -16011,6 +16029,38 @@ msgctxt "#35703"
 msgid "Hardcore mode: {0:d} of {1:d} achievements unlocked"
 msgstr "Tryb hardcore: odblokowano {0:d} z {1:d} osiągnięć"
 
+# empty strings from id 35704 to 35709
+#. Marks a locked achievement that can be missed for good
+msgctxt "#35710"
+msgid "Missable"
+msgstr ""
+
+#. Button that picks which of a game's achievement sets is shown
+msgctxt "#35711"
+msgid "Achievement set"
+msgstr ""
+
+#. An achievement set whose progression and win achievements are all earned
+msgctxt "#35712"
+msgid "Beaten"
+msgstr ""
+
+#. How close an achievement set is to being beaten, {0:d} earned of {1:d} needed
+#, c++-format
+msgctxt "#35713"
+msgid "{0:d} of {1:d} to beat"
+msgstr ""
+
+#. An achievement set the player turned off
+msgctxt "#35714"
+msgid "Turned off"
+msgstr ""
+
+#. The game's own achievement set, as opposed to its subsets
+msgctxt "#35715"
+msgid "Main Set"
+msgstr ""
+
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
 msgstr "Adapter Pulse-Eight CEC"
@@ -16361,6 +16411,15 @@ msgstr "Określa format wyświetlania temperatury, czasu i daty. Dostępne opcje
 msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
 msgstr "Określa zestaw znaków używanych do wyświetlania tekstu w interfejsie użytkownika. Ta opcja nie zmienia zestawu znaków używanych przez napisy, w ich przypadku przejdź do „Ustawienia odtwarzacza -> Język”."
+
+msgctxt "#36117"
+msgid "Render on high-performance GPU"
+msgstr "Renderuj na wydajnym procesorze graficznym"
+
+#. Description of setting with label #36117 "Render on high-performance GPU"
+msgctxt "#36118"
+msgid "On laptops with two GPUs, render on the high-performance GPU even when the display is connected to the other GPU. Frees the CPU's power and memory bandwidth for decoding, but uses more power. Exclusive fullscreen is not available in this mode."
+msgstr "W przypadku laptopów z dwoma układami graficznymi renderowanie odbywa się na układzie o wysokiej wydajności, nawet jeśli wyświetlacz jest podłączony do drugiego układu. Rozwiązanie to zwalnia zasoby procesora i przepustowość pamięci na potrzeby dekodowania, ale wiąże się z większym poborem energii. W tym trybie niedostępny jest tryb pełnoekranowy na wyłączność."
 
 #. Description of setting with label #285 "Preferred audio language"
 msgctxt "#36119"
@@ -16957,10 +17016,6 @@ msgstr "Prosi ponownie o podanie kodu PIN podczas próby uzyskania dostępu do k
 msgctxt "#36251"
 msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
 msgstr "Kategoria zawierająca ustawienia specjalnych funkcji serwera telewizji, jeśli są obsługiwane przez klienta i ten serwer."
-
-msgctxt "#36252"
-msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
-msgstr "Umożliwia dostęp do specjalnych ustawień serwera telewizji, jeśli są obsługiwane przez klienta i ten serwer."
 
 #. Description of settings section with label #2 "Music"
 msgctxt "#36253"
@@ -17926,6 +17981,11 @@ msgctxt "#36461"
 msgid "Notification event describe regular processes and actions performed by the system or the user."
 msgstr "Umożliwia rejestrowanie w dzienniku powiadomień opisujących regularne procesy i akcje wykonywane przez system lub użytkownika."
 
+#. Description of setting with label #19358 "Show channels by provider in channel OSD"
+msgctxt "#36462"
+msgid "Show only channels from the selected provider and group in the channel OSD. Switching groups also cycles through providers. Switching to the next or previous channel stays within the provider of the playing channel. Disable to use the standard channel group list."
+msgstr "Wyświetlaj tylko kanały wybranego dostawcy i grupuj je w menu OSD kanałów. Przełączanie grup powoduje również zmianę dostawcy. Przejście do następnego lub poprzedniego kanału odbywa się w obrębie dostawcy aktualnie odtwarzanego kanału. Wyłącz tę opcję, aby korzystać ze standardowej listy grup kanałów."
+
 #. label of a setting for the stereoscopic 3D mode of the GUI that is/should be applied
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
@@ -18541,6 +18601,17 @@ msgstr "Następujące osierocone dodatki zostały usunięte z systemu: {0:s}."
 msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
 msgstr "Brak osieroconych dodatków do usunięcia."
+
+# empty strings from id 36643 to 36644
+#. Label of setting "Pictures -> Slideshow -> Show date and time metadata on screen"
+msgctxt "#36645"
+msgid "Show date and time metadata on screen"
+msgstr "Wyświetl na ekranie metadane dotyczące daty i godziny"
+
+#. Description of setting "Pictures -> Slideshow -> Show date and time metadata on screen" with label #36645
+msgctxt "#36646"
+msgid "During a slideshow, show the date and time from a picture's EXIF metadata, if it has them. Not every skin supports this."
+msgstr "Podczas pokazu slajdów wyświetlaj datę i godzinę z metadanych EXIF zdjęcia, o ile są one dostępne. Nie każda skóra to obsługuje."
 
 # empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
@@ -20183,6 +20254,16 @@ msgctxt "#39217"
 msgid "Best"
 msgstr "Najlepszy"
 
+#. Title of the setting that chooses if the Dolby Vision extensions is used
+msgctxt "#39218"
+msgid "Use Dolby Vision extensions"
+msgstr "Użyj rozszerzeń Dolby Vision"
+
+#. Help text for setting "Dolby Vision extensions" of label #39218
+msgctxt "#39219"
+msgid "Use the system Dolby Vision extensions to correctly display Dolby Vision profile 5, 7 (excludes FEL reconstruction), 8 and 10 video."
+msgstr "Użyj rozszerzeń systemowych Dolby Vision, aby poprawnie wyświetlać materiały wideo w formatach Dolby Vision profil 5, 7 (z wyłączeniem rekonstrukcji FEL), 8 oraz 10."
+
 # empty strings from id 39211 to 39899
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
 #. STR_LIST_AND_TWO
@@ -20607,6 +20688,16 @@ msgctxt "#40230"
 msgid "Turn on to show individual versions in the movies view, turn off to group them"
 msgstr "Włącz, aby wyświetlić poszczególne wersje w widoku filmów; wyłącz, aby je zgrupować"
 
+#. Setting to retrieve art not cached yet when the video library is exported
+msgctxt "#40231"
+msgid "Retrieve all art during export"
+msgstr "Pobierz wszystkie elementy graficzne podczas eksportu"
+
+#. Help for the retrieve all art during export setting
+msgctxt "#40232"
+msgid "When exporting the library with images, retrieve art that isn't cached yet. Turn off to only export art that is already cached."
+msgstr "Podczas eksportowania biblioteki wraz z grafikami pobierane są te elementy, które nie zostały jeszcze zapisane w pamięci podręcznej. Wyłączenie tej opcji sprawi, że wyeksportowane zostaną tylko te grafiki, które już znajdują się w pamięci podręcznej."
+
 # Video versions
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40400"
@@ -20753,6 +20844,30 @@ msgstr "Regulacja głośności w trybie przekazywania"
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
 msgstr "Reguluj i wyświetlaj poziom głośności podczas przesyłania dźwięku. Poziom ten nie jest stosowany do strumienia bitowego, ale każda zmiana jest sygnalizowana, dzięki czemu dodatek lub automatyzacja mogą uwzględnić ją w zewnętrznym procesorze dźwięku."
+
+#~ msgctxt "#35217"
+#~ msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+#~ msgstr "Zapisany stan może zostać wczytany tylko z „{0:s}”. Wymazać stan i kontynuować?"
+
+#~ msgctxt "#35218"
+#~ msgid "Erase savestate"
+#~ msgstr "Wyczyść zapisany stan"
+
+#~ msgctxt "#19196"
+#~ msgid "PVR client specific actions"
+#~ msgstr "Specyficzne działanie klienta telewizji"
+
+#~ msgctxt "#19280"
+#~ msgid "Client specific settings"
+#~ msgstr "Specjalne ustawienia klienta"
+
+#~ msgctxt "#19347"
+#~ msgid "None of the active PVR clients provide client-specific settings."
+#~ msgstr "Żaden z aktywnych klientów telewizji nie udostępnia ustawień specyficznych dla klienta."
+
+#~ msgctxt "#36252"
+#~ msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
+#~ msgstr "Umożliwia dostęp do specjalnych ustawień serwera telewizji, jeśli są obsługiwane przez klienta i ten serwer."
 
 #~ msgctxt "#35271"
 #~ msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
