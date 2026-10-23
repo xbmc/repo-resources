@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-10-08 17:26+0000\n"
+"PO-Revision-Date: 2026-10-21 00:26+0000\n"
 "Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_cn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -5844,12 +5844,12 @@ msgstr "继续观看"
 #. Label for context menu item on a video source to refresh the library information of all items in it
 msgctxt "#13363"
 msgid "Refresh all content"
-msgstr ""
+msgstr "刷新全部内容"
 
 #. Label for context menu item on a video source to stop refreshing the library information of all items in it
 msgctxt "#13364"
 msgid "Stop refreshing"
-msgstr ""
+msgstr "停止刷新"
 
 msgctxt "#13375"
 msgid "Enable device"
@@ -6052,8 +6052,8 @@ msgctxt "#13423"
 msgid "Remember for this path"
 msgstr "记住此目录"
 
-#. Shown on context menu when a bluray:// or dvd:// playlist has already been saved
-#. Giving the user a chance to select a new one via the simple menu dialog
+#. Shown on context menu for a Blu-ray disc image, BDMV folder or an already saved bluray://
+#. playlist. Giving the user a chance to select a playlist via the simple menu dialog
 msgctxt "#13424"
 msgid "Choose playlist"
 msgstr "选择播放列表"
@@ -6319,6 +6319,24 @@ msgstr "7 bit"
 msgctxt "#13483"
 msgid "8 bit"
 msgstr "8 bit"
+
+#. Shown on context menu for a Blu-ray disc image, BDMV folder or an already saved bluray://
+#. playlist, when further choices (see #13485 and #13486) will be offered
+msgctxt "#13484"
+msgid "Choose playlist ..."
+msgstr "选择播放列表…"
+
+#. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
+#. Blu-ray playlist to it
+msgctxt "#13485"
+msgid "and Save"
+msgstr "并保存"
+
+#. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
+#. Blu-ray playlist to it and play it
+msgctxt "#13486"
+msgid "and Play"
+msgstr "并播放"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -8761,11 +8779,6 @@ msgctxt "#19195"
 msgid "Delay mark last watched"
 msgstr "延迟标记最后观看的项目"
 
-#. value for "pvr client specific actions" dialog headers
-msgctxt "#19196"
-msgid "PVR client specific actions"
-msgstr "PVR 客户端具体动作"
-
 #. text for "recording started on <pvr client name>" pvr client addon callback notification
 msgctxt "#19197"
 msgid "Recording started on: {0:s}"
@@ -9169,11 +9182,6 @@ msgctxt "#19279"
 msgid "PVR clients"
 msgstr "PVR 客户端"
 
-#. pvr client specific settings 'client specific settings' action control label.
-msgctxt "#19280"
-msgid "Client specific settings"
-msgstr "客户端相关设置"
-
 #. pvr settings 'confirm channel switch' setting label.
 msgctxt "#19281"
 msgid "Confirm channel switches by pressing \"OK\""
@@ -9504,11 +9512,6 @@ msgctxt "#19346"
 msgid "Display and manage available PVR client add-ons."
 msgstr "显示和管理可用的 PVR 客户端插件。"
 
-#. info message box text stating that none of the available pvr clients does provide client-specific settings
-msgctxt "#19347"
-msgid "None of the active PVR clients provide client-specific settings."
-msgstr "没有任何活动的 PVR 客户端提供特定于客户端的设置。"
-
 #. generic label for a pvr provider used in different places
 msgctxt "#19348"
 msgid "Provider"
@@ -9558,6 +9561,11 @@ msgstr "{0:s}的副本"
 msgctxt "#19357"
 msgid "Delete recording"
 msgstr "删除录制文件"
+
+#. Label for the optional provider-scoped channel OSD setting
+msgctxt "#19358"
+msgid "Show channels by provider in channel OSD"
+msgstr "在频道 OSD 中按服务商分组显示频道"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -13557,6 +13565,16 @@ msgctxt "#24187"
 msgid "Failed to initialise databases - exiting in {} seconds."
 msgstr "数据库初始化失败 - 将在 {} 秒后退出。"
 
+#. Progress text while extracting an add-on package
+msgctxt "#24188"
+msgid "Unpacking add-on..."
+msgstr "正在解压插件…"
+
+#. Header of the background progress bar when installing an add-on, followed by the percentage
+msgctxt "#24189"
+msgid "Installing {0:s}"
+msgstr "正在安装 {0:s}"
+
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -15281,16 +15299,6 @@ msgctxt "#35216"
 msgid "Support add-ons"
 msgstr "支持插件"
 
-#. Dialog text asking user to overwrite their savestate file
-msgctxt "#35217"
-msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
-msgstr "存档仅能由“{0:s}”加载，删除存档并继续吗？"
-
-#. Button to erase the savestate
-msgctxt "#35218"
-msgid "Erase savestate"
-msgstr "删除存档"
-
 #. Error dialog text when trying to play a game and the game's files aren't found.
 msgctxt "#35219"
 msgid "The required files can't be found."
@@ -15395,6 +15403,16 @@ msgstr "整数"
 msgctxt "#35239"
 msgid "Integer (square pixels)"
 msgstr "整数（方形像素）"
+
+#. Error dialog text when an emulator can't find a file it needs, such as a BIOS file. {0:s} - emulator name, {1:s} - file name
+msgctxt "#35240"
+msgid "The emulator \"{0:s}\" couldn't find {1:s}."
+msgstr "模拟器「{0:s}」未能找到 {1:s}。"
+
+#. Error dialog text when an emulator can't find files it needs and doesn't say which. {0:s} - emulator name
+msgctxt "#35241"
+msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
+msgstr "模拟器「{0:s}」找不到所需文件，例如 BIOS 文件。"
 
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -16003,6 +16021,38 @@ msgctxt "#35703"
 msgid "Hardcore mode: {0:d} of {1:d} achievements unlocked"
 msgstr "硬核模式：已解锁 {0:d}/{1:d} 项成就"
 
+# empty strings from id 35704 to 35709
+#. Marks a locked achievement that can be missed for good
+msgctxt "#35710"
+msgid "Missable"
+msgstr ""
+
+#. Button that picks which of a game's achievement sets is shown
+msgctxt "#35711"
+msgid "Achievement set"
+msgstr ""
+
+#. An achievement set whose progression and win achievements are all earned
+msgctxt "#35712"
+msgid "Beaten"
+msgstr ""
+
+#. How close an achievement set is to being beaten, {0:d} earned of {1:d} needed
+#, c++-format
+msgctxt "#35713"
+msgid "{0:d} of {1:d} to beat"
+msgstr ""
+
+#. An achievement set the player turned off
+msgctxt "#35714"
+msgid "Turned off"
+msgstr ""
+
+#. The game's own achievement set, as opposed to its subsets
+msgctxt "#35715"
+msgid "Main Set"
+msgstr ""
+
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
 msgstr "Pulse-Eight CEC 适配器"
@@ -16353,6 +16403,15 @@ msgstr "选择温度、日期和时间格式。可用选项依赖于所选语言
 msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface. This doesn't change the character set used for subtitles, for that go to Player > Language."
 msgstr "选择在用户界面显示文本所使用的字符集。不影响字幕的字符集，其设置见 播放器 > 语言。"
+
+msgctxt "#36117"
+msgid "Render on high-performance GPU"
+msgstr "使用高性能 GPU 渲染"
+
+#. Description of setting with label #36117 "Render on high-performance GPU"
+msgctxt "#36118"
+msgid "On laptops with two GPUs, render on the high-performance GPU even when the display is connected to the other GPU. Frees the CPU's power and memory bandwidth for decoding, but uses more power. Exclusive fullscreen is not available in this mode."
+msgstr "在搭载双 GPU 的笔记本上，即使显示器连接另一块 GPU，仍使用高性能 GPU 进行渲染。此举可释放 CPU 算力与内存带宽用于解码，但耗电量更高。此模式下无法使用独占全屏。"
 
 #. Description of setting with label #285 "Preferred audio language"
 msgctxt "#36119"
@@ -16949,10 +17008,6 @@ msgstr "在该时长内，再次访问家长锁定频道时需重新输入 pin �
 msgctxt "#36251"
 msgid "This category contains the settings for your PVR backend specifically, if supported by the PVR add-on and backend."
 msgstr "此功能区包含 PVR 后端特殊设置，如果 PVR 插件和后端支持。"
-
-msgctxt "#36252"
-msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
-msgstr "此选项针对你的 PVR 后端的特殊设置功能区，如果 PVR 插件和后端支持。"
 
 #. Description of settings section with label #2 "Music"
 msgctxt "#36253"
@@ -17918,6 +17973,11 @@ msgctxt "#36461"
 msgid "Notification event describe regular processes and actions performed by the system or the user."
 msgstr "通知事件描述由系统或用户指定执行的常规处理和操作。"
 
+#. Description of setting with label #19358 "Show channels by provider in channel OSD"
+msgctxt "#36462"
+msgid "Show only channels from the selected provider and group in the channel OSD. Switching groups also cycles through providers. Switching to the next or previous channel stays within the provider of the playing channel. Disable to use the standard channel group list."
+msgstr "在频道 OSD 中仅显示所选服务商和分组内的频道。切换分组时同时轮切服务商；切换上/下一个频道时，限定在当前播放频道所属的服务商内。关闭此选项将使用标准频道分组列表。"
+
 #. label of a setting for the stereoscopic 3D mode of the GUI that is/should be applied
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode / Current"
@@ -18533,6 +18593,17 @@ msgstr "下列孤立插件将从系统删除：{0:s}。"
 msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
 msgstr "没有要删除的孤立插件。"
+
+# empty strings from id 36643 to 36644
+#. Label of setting "Pictures -> Slideshow -> Show date and time metadata on screen"
+msgctxt "#36645"
+msgid "Show date and time metadata on screen"
+msgstr "在屏幕上显示日期和时间元数据"
+
+#. Description of setting "Pictures -> Slideshow -> Show date and time metadata on screen" with label #36645
+msgctxt "#36646"
+msgid "During a slideshow, show the date and time from a picture's EXIF metadata, if it has them. Not every skin supports this."
+msgstr "幻灯片播放时，若图片包含 EXIF 元数据，则显示其中的日期和时间。并非所有皮肤都支持该功能。"
 
 # empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
@@ -20172,6 +20243,16 @@ msgctxt "#39217"
 msgid "Best"
 msgstr "最佳"
 
+#. Title of the setting that chooses if the Dolby Vision extensions is used
+msgctxt "#39218"
+msgid "Use Dolby Vision extensions"
+msgstr "启用杜比视界扩展项"
+
+#. Help text for setting "Dolby Vision extensions" of label #39218
+msgctxt "#39219"
+msgid "Use the system Dolby Vision extensions to correctly display Dolby Vision profile 5, 7 (excludes FEL reconstruction), 8 and 10 video."
+msgstr "使用系统杜比视界扩展，以正确渲染杜比视界 Profile 5、7（不含 FEL 重构）、8、10 视频。"
+
 # empty strings from id 39211 to 39899
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
 #. STR_LIST_AND_TWO
@@ -20596,6 +20677,16 @@ msgctxt "#40230"
 msgid "Turn on to show individual versions in the movies view, turn off to group them"
 msgstr "启用后在影片视图单独显示各版本，关闭则将各版本分组汇总"
 
+#. Setting to retrieve art not cached yet when the video library is exported
+msgctxt "#40231"
+msgid "Retrieve all art during export"
+msgstr ""
+
+#. Help for the retrieve all art during export setting
+msgctxt "#40232"
+msgid "When exporting the library with images, retrieve art that isn't cached yet. Turn off to only export art that is already cached."
+msgstr ""
+
 # Video versions
 #. Name of a video version, like "Director's Cut"
 msgctxt "#40400"
@@ -20742,6 +20833,30 @@ msgstr "源码透传时的音量控制"
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
 msgstr "在音频透传时调整并显示音量等级。该音量不会作用于比特流，但每次音量变动都会发送通知，插件或自动化程序可据此控制外部音频处理器。"
+
+#~ msgctxt "#35217"
+#~ msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
+#~ msgstr "存档仅能由“{0:s}”加载，删除存档并继续吗？"
+
+#~ msgctxt "#35218"
+#~ msgid "Erase savestate"
+#~ msgstr "删除存档"
+
+#~ msgctxt "#19196"
+#~ msgid "PVR client specific actions"
+#~ msgstr "PVR 客户端具体动作"
+
+#~ msgctxt "#19280"
+#~ msgid "Client specific settings"
+#~ msgstr "客户端相关设置"
+
+#~ msgctxt "#19347"
+#~ msgid "None of the active PVR clients provide client-specific settings."
+#~ msgstr "没有任何活动的 PVR 客户端提供特定于客户端的设置。"
+
+#~ msgctxt "#36252"
+#~ msgid "This option will bring you to any specific settings for your PVR backend, if supported by the PVR add-on and backend."
+#~ msgstr "此选项针对你的 PVR 后端的特殊设置功能区，如果 PVR 插件和后端支持。"
 
 #~ msgctxt "#35271"
 #~ msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
