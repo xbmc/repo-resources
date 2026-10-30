@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-07-27 18:51+0000\n"
+"PO-Revision-Date: 2026-10-28 09:11+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/et_ee/>\n"
 "Language: et_ee\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.7.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1857,6 +1857,16 @@ msgctxt "#470"
 msgid "Credits"
 msgstr "Tiitrid"
 
+#. Option to alter the image hue in video settings
+msgctxt "#471"
+msgid "Hue"
+msgstr "Värvitoon"
+
+#. Option to alter the image saturation in video settings
+msgctxt "#472"
+msgid "Saturation"
+msgstr "Värviküllastus"
+
 msgctxt "#474"
 msgid "Off"
 msgstr "Väljas"
@@ -2464,11 +2474,11 @@ msgstr "Kasuta albumi nivood"
 
 msgctxt "#641"
 msgid "Preamp for files with ReplayGain information"
-msgstr ""
+msgstr "Eelvõimendus ReplayGain-teabega failidele"
 
 msgctxt "#642"
 msgid "Preamp for files without ReplayGain information"
-msgstr ""
+msgstr "Eelvõimendus ReplayGain-teabeta failidele"
 
 msgctxt "#643"
 msgid "Avoid clipping protection on ReplayGained files"
@@ -4098,7 +4108,7 @@ msgstr "Lülita tegevusetu ekraan välja"
 
 msgctxt "#1451"
 msgid "Restart playback after waking up"
-msgstr ""
+msgstr "Jätka taasesitust pärast ooteseisundist ärkamist"
 
 msgctxt "#2050"
 msgid "Runtime"
@@ -5230,7 +5240,7 @@ msgstr "Luba seiskamine kasutaja passiivsuse tuvastamisel"
 
 msgctxt "#13019"
 msgid "Mounted optical disc"
-msgstr ""
+msgstr "Haagiti optiline ketas"
 
 msgctxt "#13020"
 msgid "Is another session active, perhaps over ssh?"
@@ -5844,12 +5854,12 @@ msgstr "Jätka vaatamist"
 #. Label for context menu item on a video source to refresh the library information of all items in it
 msgctxt "#13363"
 msgid "Refresh all content"
-msgstr ""
+msgstr "Värskenda kogu sisu"
 
 #. Label for context menu item on a video source to stop refreshing the library information of all items in it
 msgctxt "#13364"
 msgid "Stop refreshing"
-msgstr ""
+msgstr "Peata värskendamine"
 
 msgctxt "#13375"
 msgid "Enable device"
@@ -6324,19 +6334,19 @@ msgstr "8 bitti"
 #. playlist, when further choices (see #13485 and #13486) will be offered
 msgctxt "#13484"
 msgid "Choose playlist ..."
-msgstr ""
+msgstr "Vali esitusloend ..."
 
 #. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
 #. Blu-ray playlist to it
 msgctxt "#13485"
 msgid "and Save"
-msgstr ""
+msgstr "ja salvesta"
 
 #. Shown on the "Choose playlist ..." context menu of a library item, to assign the chosen
 #. Blu-ray playlist to it and play it
 msgctxt "#13486"
 msgid "and Play"
-msgstr ""
+msgstr "ja esita"
 
 msgctxt "#13505"
 msgid "Resample quality"
@@ -6466,16 +6476,21 @@ msgstr "Hüppe viivitus"
 #. Name of a setting to configure the maximum fast-forward speed with smooth/continuous playback
 msgctxt "#13558"
 msgid "Maximum smooth fast-forward speed"
-msgstr ""
+msgstr "Maksimaalne sujuva edasikerimise kiirus"
 
 #. Playback speed unit used to format speeds for display ex. 2x, 4x, ...
 msgctxt "#13559"
 msgid "{0:d}x"
-msgstr ""
+msgstr "{0:d}x"
 
 msgctxt "#13601"
 msgid "Apple TV"
 msgstr "Apple TV"
+
+#. Option to set the granularity (default 1.0) of the brightness/contrast/hue/saturation/gamma settings in video settings
+msgctxt "#13602"
+msgid "Image adjustment granularity"
+msgstr "Pildiseadete täpsusastme samm"
 
 msgctxt "#14000"
 msgid "Stack"
@@ -6771,7 +6786,7 @@ msgstr "Lisa valitud lood mängukavva"
 
 msgctxt "#14085"
 msgid "Video disc insert action"
-msgstr ""
+msgstr "Videoplaadi sisestamisel tehtav toiming"
 
 msgctxt "#14086"
 msgid "Playback"
@@ -7665,6 +7680,11 @@ msgstr "Pikseldus"
 msgctxt "#16297"
 msgid "Smooth"
 msgstr "Sujuv"
+
+#. Name of the video filter category that holds the filters without a shader
+msgctxt "#16298"
+msgid "Built-in"
+msgstr ""
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -9565,7 +9585,7 @@ msgstr "Kustuta salvestis"
 #. Label for the optional provider-scoped channel OSD setting
 msgctxt "#19358"
 msgid "Show channels by provider in channel OSD"
-msgstr ""
+msgstr "Kuva kanaliloendis kanaleid teenusepakkuja järgi"
 
 #. label for epg genre value
 msgctxt "#19499"
@@ -11623,7 +11643,7 @@ msgstr "DV profiil"
 #. Used in the smart playlist editor to define a watched mode
 msgctxt "#20479"
 msgid "Watched Mode"
-msgstr ""
+msgstr "Vaatamisoleku režiim"
 
 msgctxt "#21330"
 msgid "Show hidden files and directories"
@@ -13568,12 +13588,12 @@ msgstr "Andmebaaside lähtestamine nurjus – väljumine {} sekundi pärast."
 #. Progress text while extracting an add-on package
 msgctxt "#24188"
 msgid "Unpacking add-on..."
-msgstr ""
+msgstr "Lisamooduli lahtipakkimine..."
 
 #. Header of the background progress bar when installing an add-on, followed by the percentage
 msgctxt "#24189"
 msgid "Installing {0:s}"
-msgstr ""
+msgstr "{0:s} paigaldamine"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -13706,15 +13726,15 @@ msgstr "Mb/s"
 
 msgctxt "#25021"
 msgid "used by {0:s}"
-msgstr ""
+msgstr "kasutab: {0:s}"
 
 msgctxt "#25022"
 msgid "used by movie"
-msgstr ""
+msgstr "kasutab film"
 
 msgctxt "#25023"
 msgid "used by extra"
-msgstr ""
+msgstr "kasutab lisamaterjal"
 
 msgctxt "#29801"
 msgid "QWERTY keyboard"
@@ -14514,7 +14534,7 @@ msgstr "Windows media audio 2 (FFmpeg wmav2)"
 
 msgctxt "#34008"
 msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in platform keyboard"
-msgstr ""
+msgstr "Teksti sisestamisel kuvatakse seadme klaviatuuri asemel Kodi virtuaalklaviatuur"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
@@ -15407,12 +15427,12 @@ msgstr "Täisarv (ruudukujulised pikslid)"
 #. Error dialog text when an emulator can't find a file it needs, such as a BIOS file. {0:s} - emulator name, {1:s} - file name
 msgctxt "#35240"
 msgid "The emulator \"{0:s}\" couldn't find {1:s}."
-msgstr ""
+msgstr "Emulaator „{0:s}“ ei leidnud faili {1:s}."
 
 #. Error dialog text when an emulator can't find files it needs and doesn't say which. {0:s} - emulator name
 msgctxt "#35241"
 msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
-msgstr ""
+msgstr "Emulaator „{0:s}“ ei leidnud vajalikke faile, näiteks BIOS-i faile."
 
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -15565,87 +15585,87 @@ msgstr "Vali plaat"
 #. Heading of the notification shown when the player earns an achievement
 msgctxt "#35281"
 msgid "Achievement Unlocked"
-msgstr ""
+msgstr "Saavutus avatud"
 
 #. Heading of the notification shown when every achievement of a game has been earned in hardcore mode
 msgctxt "#35282"
 msgid "Game mastered"
-msgstr ""
+msgstr "Mäng täielikult läbitud"
 
 #. Heading of the notification shown when every achievement of a game has been earned
 msgctxt "#35283"
 msgid "Game completed"
-msgstr ""
+msgstr "Mäng lõpetatud"
 
 #. Notification shown when a game with achievement support is loaded. {0:d} is the number earned, {1:d} the total
 msgctxt "#35284"
 msgid "{0:d} of {1:d} achievements unlocked"
-msgstr ""
+msgstr "Avatud {0:d} / {1:d} saavutusest"
 
 #. Message shown when the achievements dialog is opened without being logged in to RetroAchievements
 msgctxt "#35285"
 msgid "Log in to RetroAchievements in Settings to use this feature."
-msgstr ""
+msgstr "Selle funktsiooni kasutamiseks logi sätetes sisse RetroAchievementsi kontole."
 
 #. Message shown when the achievements dialog is opened for a game that RetroAchievements has no achievement set for
 msgctxt "#35286"
 msgid "This game doesn't support RetroAchievements"
-msgstr ""
+msgstr "See mäng ei toeta RetroAchievementsit"
 
 #. Label for the button that opens the achievements dialog, and heading of that dialog
 msgctxt "#35287"
 msgid "Achievements"
-msgstr ""
+msgstr "Saavutused"
 
 #. Progress through a game's achievements, weighted by point value. {0:d} is a percentage
 msgctxt "#35288"
 msgid "{0:d}% complete"
-msgstr ""
+msgstr "{0:d}% lõpetatud"
 
 #. Date an achievement was earned. {0:s} is a localised date
 msgctxt "#35289"
 msgid "Unlocked {0:s}"
-msgstr ""
+msgstr "Avatud {0:s}"
 
 #. Rarity category of an achievement earned by more than half of players
 msgctxt "#35290"
 msgid "Common"
-msgstr ""
+msgstr "Tavaline"
 
 #. Rarity category of an achievement earned by 10% to 50% of players
 msgctxt "#35291"
 msgid "Uncommon"
-msgstr ""
+msgstr "Ebatavaline"
 
 #. Rarity category of an achievement earned by 2% to 10% of players
 msgctxt "#35292"
 msgid "Rare"
-msgstr ""
+msgstr "Haruldane"
 
 #. Rarity category of an achievement earned by fewer than 2% of players
 msgctxt "#35293"
 msgid "Ultra rare"
-msgstr ""
+msgstr "Üliharuldane"
 
 #. Point value of an achievement, abbreviated to fit the list. {0:d} is the number of points
 msgctxt "#35294"
 msgid "{0:d} pts"
-msgstr ""
+msgstr "{0:d} punkti"
 
 #. Notification shown after signing in to RetroAchievements. {0:s} is the account name
 msgctxt "#35295"
 msgid "Logged in as {0:s}"
-msgstr ""
+msgstr "Sisse logitud: {0:s}"
 
 #. Notification shown when RetroAchievements becomes unreachable during play
 msgctxt "#35296"
 msgid "Unlocks will be submitted when the connection returns."
-msgstr ""
+msgstr "Saavutused edastatakse ühenduse taastumisel."
 
 #. Notification shown when RetroAchievements becomes reachable again
 msgctxt "#35297"
 msgid "Pending unlocks have been submitted."
-msgstr ""
+msgstr "Ootel saavutused on edastatud."
 
 # empty strings from id 35281 to 35297
 #. Error message shown when trying to load a compressed savestate in an unsupported version of Kodi
@@ -15706,12 +15726,12 @@ msgstr ""
 #. Name of the feature hardcore mode refused, used with #35305
 msgctxt "#35309"
 msgid "Rewind"
-msgstr ""
+msgstr "Keri tagasi"
 
 #. Label of the Manual button in the game OSD, which shows the game's instruction booklet
 msgctxt "#35310"
 msgid "Manual"
-msgstr ""
+msgstr "Juhend"
 
 # empty strings from id 35313 to 35319
 #. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
@@ -15765,12 +15785,12 @@ msgstr ""
 #. Label of the game OSD button that opens the leaderboards
 msgctxt "#35331"
 msgid "Leaderboards"
-msgstr ""
+msgstr "Edetabelid"
 
 #. Shown in the leaderboards dialog: scores cannot be submitted yet
 msgctxt "#35332"
 msgid "Leaderboards are read-only until this emulator is approved for hardcore mode"
-msgstr ""
+msgstr "Edetabelid on ainult lugemiseks, kuni see emulaator on heaks kiidetud hardcore-režiimi jaoks"
 
 #. Shown when the player is not signed in
 msgctxt "#35333"
@@ -16281,26 +16301,31 @@ msgstr "Tuuner"
 #. Label of CEC setting double_tap_timeout_ms: a repeated identical button press within this many ms is treated as a duplicate and dropped (double-tap dedup). 0 disables it.
 msgctxt "#36054"
 msgid "Remote button double press timeout (ms) (0 = off)"
-msgstr ""
+msgstr "Puldi nupu topeltvajutuse ajalimiit (ms) (0 = väljas)"
 
 #. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
 msgctxt "#36055"
 msgid "Always"
-msgstr ""
+msgstr "Alati"
 
 #. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
 msgctxt "#36056"
 msgid "Unless media is playing"
-msgstr ""
+msgstr "Kui midagi ei esitata"
 
 #. Label of CEC setting volume_control: whether Kodi's volume keys adjust the volume of the amplifier or TV over CEC instead of Kodi's own mixer
 msgctxt "#36057"
 msgid "Send volume commands over CEC"
-msgstr ""
+msgstr "Helitugevuse reguleerimine CEC kaudu"
 
 #. Item list value of setting with label #36057 "Send volume commands over CEC": send them to an amplifier, or to a TV that reports CEC 2.0
 msgctxt "#36058"
 msgid "Automatic"
+msgstr "Automaatne"
+
+#. Description of setting with label #13602 "Image adjustment granularity"
+msgctxt "#36059"
+msgid "Step size of the brightness, contrast, hue and saturation sliders in the video settings."
 msgstr ""
 
 # empty strings from id 36054 to 36095
@@ -16411,12 +16436,12 @@ msgstr "Vali, millist märgistikku kasutatakse kasutajaliideses teksti kuvamisek
 
 msgctxt "#36117"
 msgid "Render on high-performance GPU"
-msgstr ""
+msgstr "Renderda suure jõudlusega graafikakaardiga"
 
 #. Description of setting with label #36117 "Render on high-performance GPU"
 msgctxt "#36118"
 msgid "On laptops with two GPUs, render on the high-performance GPU even when the display is connected to the other GPU. Frees the CPU's power and memory bandwidth for decoding, but uses more power. Exclusive fullscreen is not available in this mode."
-msgstr ""
+msgstr "Kahe graafikakaardiga sülearvutites renderdatakse suure jõudlusega graafikakaardiga ka siis, kui ekraan on ühendatud teise graafikakaardiga. See vabastab protsessori jõudlust ja mäluriba dekodeerimiseks, kuid tarbib rohkem energiat. Eksklusiivne täisekraanirežiim pole selles režiimis saadaval."
 
 #. Description of setting with label #285 "Preferred audio language"
 msgctxt "#36119"
@@ -17090,12 +17115,12 @@ msgstr "Loe helifailidesse kodeeritud ReplayGain-teavet ja normaliseeri helitase
 #. Description of setting with label #641 "Preamplification level to use for files with encoded ReplayGain information"
 msgctxt "#36268"
 msgid "Preamplification level to use for files with encoded ReplayGain information."
-msgstr ""
+msgstr "Eelvõimenduse tase ReplayGain-teabega failide puhul."
 
 #. Description of setting with label #642 "Preamplification level to use for files without encoded ReplayGain information"
 msgctxt "#36269"
 msgid "Preamplification level to use for files without encoded ReplayGain information."
-msgstr ""
+msgstr "Eelvõimenduse tase ReplayGain-teabeta failide puhul."
 
 #. Description of setting with label #643 "Avoid clipping protection on ReplayGained files"
 msgctxt "#36270"
@@ -17809,7 +17834,7 @@ msgstr "Info pole veel saadaval."
 #. Description of setting with label #1451 "Restart playback after waking up"
 msgctxt "#36416"
 msgid "Restarts playback of the last played file when woken up."
-msgstr ""
+msgstr "Alustab unerežiimist ärkamisel viimati esitatud faili taasesitust uuesti."
 
 # empty strings from id 36416 to 36417
 #. Description of setting with label #295 "Low latency mode"
@@ -17926,12 +17951,12 @@ msgstr "Luba järgmise saate automaatne esitamine, kui vaatad möödunud saateid
 #. Description of setting with label #14085 "Video disc insert action"
 msgctxt "#36440"
 msgid "Action to take when a video disc is inserted."
-msgstr ""
+msgstr "Videoplaadi sisestamisel tehtav toiming."
 
 #. Description of setting with label #14097 "Audio CD Insert Action"
 msgctxt "#36441"
 msgid "Action to take when an audio CD is inserted."
-msgstr ""
+msgstr "CD-plaadi sisestamisel tehtav toiming."
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -17956,17 +17981,17 @@ msgstr "Vali see suvand, et lubada kasutada topeltvärskendussagedust (29.97 k/s
 #. Value of the track order settings #36448 #36450 #36452
 msgctxt "#36446"
 msgid "Sorted"
-msgstr ""
+msgstr "Järjestatud"
 
 #. Name of the setting of the stream order in the stream selection screen and the OSD for video files
 msgctxt "#36447"
 msgid "Video file stream display order"
-msgstr ""
+msgstr "Videovoogude kuvamisjärjestus"
 
 #. Description of setting with label #36447 "Video file stream display order"
 msgctxt "#36448"
 msgid "Video files only: display order in the stream selection dialogs. [Media] stream order in the media, [Sorted] sorted using the stream attributes[CR]"
-msgstr ""
+msgstr "Ainult videofailid: kuvamisjärjestus voo valiku akendes. [Meedia] voo järjekord failis, [Järjestatud] järjestatud voo omaduste põhjal[CR]"
 
 #. Description of settings with label #14112 "Enable event logging"
 msgctxt "#36460"
@@ -18603,12 +18628,12 @@ msgstr "Puuduvad hüljatud lisamoodulid, mida eemaldada."
 #. Label of setting "Pictures -> Slideshow -> Show date and time metadata on screen"
 msgctxt "#36645"
 msgid "Show date and time metadata on screen"
-msgstr ""
+msgstr "Kuva ekraanil kuupäeva ja kellaaja metandmeid"
 
 #. Description of setting "Pictures -> Slideshow -> Show date and time metadata on screen" with label #36645
 msgctxt "#36646"
 msgid "During a slideshow, show the date and time from a picture's EXIF metadata, if it has them. Not every skin supports this."
-msgstr ""
+msgstr "Slaidiesitluse ajal kuvatakse pildi EXIF-metateabest pärinev kuupäev ja kellaaeg, kui need on olemas. Kõik rüüd ei toeta seda."
 
 # empty strings from id 36643 to 36898
 #. Description of setting with label #729 "Enable SSL"
@@ -18983,7 +19008,7 @@ msgstr "Kohanduv"
 #. Description of setting #13558 Maximum smooth fast-forward speed
 msgctxt "#37117"
 msgid "Cutoff of the analog fast-forward mode that shows every picture. Some hardware may not be able to keep up with the higher demand of the higher speeds."
-msgstr ""
+msgstr "Analoogse edasikerimise režiimi piirväärtus, mis kuvab iga kaadrit. Osa riistvarast ei pruugi suuremate kiirustega toime tulla."
 
 # empty strings from id 37116 to 37119
 #. Value of setting - Byte
@@ -20216,47 +20241,47 @@ msgstr "Kui lubatud, siis Dolby Vision failide 5. taseme (aktiivne ala) metaandm
 #. Title of the setting that skips subtitles whose language matches the audio language
 msgctxt "#39211"
 msgid "Don't show subtitles matching the audio language"
-msgstr ""
+msgstr "Ära kuva helikeelega samas keeles subtiitreid"
 
 #. Help text for setting "Don't show subtitles matching the audio language" of label #39211
 msgctxt "#39212"
 msgid "Do not turn on subtitles that are in the same language as the audio being played. Forced subtitles in that language are turned on instead, where the video has them."
-msgstr ""
+msgstr "Ära kuva subtiitreid, kui need on heliga samas keeles. Kui videos on olemas vastavas keeles sundsubtiitrid, kasutatakse neid."
 
 #. Title of the setting that chooses which audio stream a library list describes
 msgctxt "#39213"
 msgid "Language details to display"
-msgstr ""
+msgstr "Kuvatavad keeleandmed"
 
 #. Help text for setting "Language details to display" of label #39213
 msgctxt "#39214"
 msgid "Which audio stream the language, codec and channel count shown against an item describe.[CR][Player][Default] The language that will normally be played.[CR][Media default] The default language for the media. If not set, then the best audio stream is shown.[CR][Best] The best audio stream as determined by codec quality and channel count."
-msgstr ""
+msgstr "Määrab, millist helivoogu kirjeldavad üksuse juures kuvatavad keele-, koodeki- ja kanaliteandmed.[CR][Pleieri][vaikeväärtus] Tavaliselt esitatav keel.[CR][Meedia vaikeväärtus] Meedia vaikimisi keel. Kui see puudub, kuvatakse parim helivoog.[CR][Parim] Parim helivoog koodeki kvaliteedi ja kanalite arvu alusel."
 
 #. Value of the setting "Language details to display" - describe the stream that will be played
 msgctxt "#39215"
 msgid "Player"
-msgstr ""
+msgstr "Pleier"
 
 #. Value of the setting "Language details to display" - describe the media's default stream
 msgctxt "#39216"
 msgid "Media default"
-msgstr ""
+msgstr "Meedia vaileväärtus"
 
 #. Value of the setting "Language details to display" - describe the technically best stream
 msgctxt "#39217"
 msgid "Best"
-msgstr ""
+msgstr "Parim"
 
 #. Title of the setting that chooses if the Dolby Vision extensions is used
 msgctxt "#39218"
 msgid "Use Dolby Vision extensions"
-msgstr ""
+msgstr "Kasuta Dolby Visioni laiendeid"
 
 #. Help text for setting "Dolby Vision extensions" of label #39218
 msgctxt "#39219"
 msgid "Use the system Dolby Vision extensions to correctly display Dolby Vision profile 5, 7 (excludes FEL reconstruction), 8 and 10 video."
-msgstr ""
+msgstr "Kasuta süsteemi Dolby Visioni laiendeid Dolby Visioni profiilide 5, 7 (ilma FEL-i rekonstrueerimiseta), 8 ja 10 videote korrektseks esitamiseks."
 
 # empty strings from id 39211 to 39899
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
@@ -20403,7 +20428,7 @@ msgstr "Filmi vaikeversiooni ei saa eemaldada. Määra teine vaikeversioon ja pr
 #. Remove video version dialog text
 msgctxt "#40020"
 msgid "Are you sure to remove version \"{0:s}\" from the library?"
-msgstr ""
+msgstr "Kas oled kindel, et soovid versiooni „{0:s}“ meediakogust eemaldada?"
 
 #. Remove item from library text if item has multiple versions
 msgctxt "#40021"
@@ -20513,17 +20538,17 @@ msgstr "Kas määrata esitusloendisse filmi praegune versioon?"
 #. Different video version found dialog text for blurays
 msgctxt "#40042"
 msgid "Found a different version of the movie \"{0:s}\" in playlist {1:s} of {2:s} - length {3:s}. Would you like to convert it into an additional version of the original?"
-msgstr ""
+msgstr "Filmist „{0:s}“ leiti erinev versioon esitusloendist {1:s} ({2:s}) - kestus {3:s}. Kas soovid selle teisendada originaali lisaversiooniks?"
 
 #. Ungroup video version dialog title
 msgctxt "#40043"
 msgid "Ungroup video version"
-msgstr ""
+msgstr "Tühista videoversiooni rühmitus"
 
 #. Manage versions, ungroup: ungrouping the default version of a movie is not allowed.
 msgctxt "#40044"
 msgid "The default version of a movie cannot be ungrouped. Set a different default version and try again."
-msgstr ""
+msgstr "Filmi vaikeversiooni ei saa rühmast lahutada. Määra mõni teine versioon vaikimisi versiooniks ja proovi uuesti."
 
 #. Ungroup video version dialog text
 msgctxt "#40045"
@@ -20538,27 +20563,62 @@ msgstr ""
 #. Shown when the playlist chosen for a movie version already belongs to another version of it
 msgctxt "#40047"
 msgid "This playlist already belongs to another version of this movie."
-msgstr ""
+msgstr "See esitusloend on juba kasutusel selle filmi teise versiooni juures."
 
 #. Asked before a playlist already assigned to another episode is taken away from it
 msgctxt "#40048"
 msgid "The selected playlist is already assigned to another episode. Reassign it?"
-msgstr ""
+msgstr "Valitud esitusloend on juba seotud teise episoodiga. Kas soovid selle ümber määrata?"
 
 #. Asked before a playlist already assigned to another movie version is taken away from it
 msgctxt "#40049"
 msgid "The selected playlist is already assigned to another movie version. Reassign it?"
-msgstr ""
+msgstr "Valitud esitusloend on juba seotud filmiga. Kas soovid selle ümber määrata?"
 
 #. Asked before an episode joins a playlist that several episodes already share
 msgctxt "#40050"
 msgid "The selected playlist is shared by several episodes. Use it for this item as well?"
-msgstr ""
+msgstr "Valitud esitusloendit jagatakse mitme episoodi vahel. Kas kasutada seda ka selle üksuse jaoks?"
 
 #. Shown when a playlist cannot be given up because a movie version still uses its file
 msgctxt "#40051"
 msgid "This playlist is still in use by another movie version and could not be reassigned."
-msgstr ""
+msgstr "See esitusloend on veel kasutusel filmi teise versiooni poolt ja seda ei saanud ümber määrata."
+
+#. Asked before choosing one of a disc's playlists for an extra that plays the whole disc
+msgctxt "#40052"
+msgid "Assign a playlist to this extra?"
+msgstr "Kas määrata sellele lisamaterjalile esitusloend?"
+
+#. Asked before choosing an extra from the playlists of the movie's own disc
+msgctxt "#40053"
+msgid "Add an extra from this disc?"
+msgstr "Kas lisada sellelt plaadilt lisamaterjal?"
+
+#. Asked when a disc is picked as an extra, to add one of its playlists rather than the whole disc
+msgctxt "#40054"
+msgid "Choose a playlist from this disc?"
+msgstr "Kas valida sellelt plaadilt esitusloend?"
+
+#. Shown when a playlist chosen for an extra already belongs to the same movie, or one chosen for a version is already its extra
+msgctxt "#40055"
+msgid "This playlist already belongs to this movie."
+msgstr "See esitusloend juba kuulub sellele filmile."
+
+#. Asked before taking a playlist away from another movie's extra that uses it
+msgctxt "#40056"
+msgid "The selected playlist is already assigned to another extra. Reassign it?"
+msgstr "Valitud esitusloend on juba määratud teisele lisamaterjalile. Kas määrata see ümber?"
+
+#. Manage video extras context menu item
+msgctxt "#40057"
+msgid "Manage extras"
+msgstr "Halda lisamaterjale"
+
+#. Asked when adding an extra while an extra on a disc is selected
+msgctxt "#40058"
+msgid "Add another extra from this disc?"
+msgstr "Kas lisada sellelt plaadilt veel üks lisamaterjal?"
 
 #. Ignore different video versions settting
 msgctxt "#40202"
@@ -20577,8 +20637,8 @@ msgstr "Eira skannimisel video lisamaterjale"
 
 #. Help for ignore video extras settting
 msgctxt "#40205"
-msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
-msgstr "Vali lisamaterjalide skannimistoiming kaustas \"extras\".[CR][Lubatud] Skanni lisamaterjalid tavalise videona.[CR][Keelatud] Lisa need seotud video lisamaterjalina."
+msgid "Select scanner action for video extras, in an \"extras\" folder or named by a Blu-ray disc.[CR][Enabled] Leave video extras out of the library, other than those a movie's nfo records.[CR][Disabled] Add video extras to library for associated video."
+msgstr "Vali skannimistoiming kaustas „extras“ või Blu-ray ketta nimega videote lisamaterjalidele.[CR][Sees] Lisamaterjale meediakogusse ei lisata, välja arvatud filmi nfo-failis märgitud üksused.[CR][Väljas] Videote lisamaterjalid lisatakse meediakogusse vastava meediafaili juurde."
 
 # empty strings from id 40206 to 40208
 #. Button label for video assets
@@ -20645,52 +20705,52 @@ msgstr "Rühmita videote erinevad versioonid"
 #. "The newly scanned versions replace the default versions of movies" setting
 msgctxt "#40223"
 msgid "Make the most recent version the default version"
-msgstr ""
+msgstr "Määra viimati lisatud versioon vaikeversiooniks"
 
 #. Help for setting New versions replace the default versions
 msgctxt "#40224"
 msgid "Make the most recently scanned version of a movie the movie's default version.[CR]Helps identify new movie versions as recently added and locate them when the \"Unwatched\" filter of the library is turned on."
-msgstr ""
+msgstr "Määra filmi viimati skannitud versioon filmi vaikeversiooniks.[CR]Aitab tuvastada uusi filmiversioone kui hiljuti lisatuid ja leida neid siis, kui teegis on sisse lülitatud filter „Vaatamata“."
 
 #. Setting to determine when art is retrieved - during or after scrape
 msgctxt "#40225"
 msgid "Retrieve art"
-msgstr ""
+msgstr "Hangi pilte"
 
 #. Help for retrieve art during/after scrape setting
 msgctxt "#40226"
 msgid "Determines whether art is retrieved synchronously during scrape or in the background afterwards.[CR][During scrape] Art is retrieved synchronously during scrape. This significantly extends time taken to scrape.[CR][After scrape][Default] Art is retrieved in the background after scrape. Actor thumbnails may take a while to appear."
-msgstr ""
+msgstr "Määrab, kas pildid hangitakse andmete kogumise ajal või pärast seda taustal.[CR][Andmete kogumise ajal] Kujundus hangitakse andmete kogumise käigus samal ajal. See pikendab oluliselt andmete kogumiseks kuluvat aega.[CR][Pärast andmete kogumist][Vaikimisi] Kujundus hangitakse taustal pärast andmete kogumist. Näitlejate pisipiltide ilmumine võib võtta veidi aega."
 
 #. Option for the retrieve art during/after scrape setting
 msgctxt "#40227"
 msgid "During scrape"
-msgstr ""
+msgstr "Andmete kogumise ajal"
 
 #. Option for the retrieve art during/after scrape setting
 msgctxt "#40228"
 msgid "After scrape"
-msgstr ""
+msgstr "Pärast andmete kogumist"
 
 #. "Flatten movie versions" setting
 msgctxt "#40229"
 msgid "Flatten movie versions"
-msgstr ""
+msgstr "Ühenda filmiversioonid üheks"
 
 #. Help for setting Flatten movie versions
 msgctxt "#40230"
 msgid "Turn on to show individual versions in the movies view, turn off to group them"
-msgstr ""
+msgstr "Lülita sisse, et kuvada filmivaates eraldiseisvaid versioone; lülita välja nende rühmitamiseks"
 
 #. Setting to retrieve art not cached yet when the video library is exported
 msgctxt "#40231"
 msgid "Retrieve all art during export"
-msgstr ""
+msgstr "Hangi eksportimisel kõik pildid"
 
 #. Help for the retrieve all art during export setting
 msgctxt "#40232"
 msgid "When exporting the library with images, retrieve art that isn't cached yet. Turn off to only export art that is already cached."
-msgstr ""
+msgstr "Meediakogu eksportimisel koos piltidega hangitakse ka pildid, mida pole veel vahemällu salvestatud. Lülita välja, et eksportida ainult vahemällu salvestatud pildid."
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -20808,6 +20868,100 @@ msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "50. aastapäeva väljaanne"
 
+# empty strings from id 40437 to 40499
+# Video extras
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40500"
+msgid "Deleted scenes"
+msgstr "Väljajäänud stseenid"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40501"
+msgid "Music videos"
+msgstr "Muusikavideod"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40502"
+msgid "Sing-alongs"
+msgstr "Kaasalaulmised"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40503"
+msgid "Trailers"
+msgstr "Treilerid"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40504"
+msgid "Commercials"
+msgstr "Reklaamid"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40505"
+msgid "Promos"
+msgstr "Promod"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40506"
+msgid "Behind the scenes"
+msgstr "Kaadritagune"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40507"
+msgid "Cast"
+msgstr "Näitlejad"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40508"
+msgid "Play all"
+msgstr "Esita kõik"
+
+# empty strings from id 40509 to 40699
+# Names of video extras of a kind, which are not types
+#. Name of a deleted scene found on a disc - {0:s} is what the disc calls it
+msgctxt "#40700"
+msgid "Deleted scene: {0:s}"
+msgstr "Välja jäetud stseen: {0:s}"
+
+#. Name of a music video found on a disc - {0:s} is what the disc calls it
+msgctxt "#40701"
+msgid "Music video: {0:s}"
+msgstr "Muusikavideo: {0:s}"
+
+#. Name of a sing-along found on a disc - {0:s} is what the disc calls it
+msgctxt "#40702"
+msgid "Sing-along: {0:s}"
+msgstr "Kaasalaulmine: {0:s}"
+
+#. Name of a trailer found on a disc - {0:s} is what the disc calls it
+msgctxt "#40703"
+msgid "Trailer: {0:s}"
+msgstr "Treiler: {0:s}"
+
+#. Name of a commercial found on a disc - {0:s} is what the disc calls it
+msgctxt "#40704"
+msgid "Commercial: {0:s}"
+msgstr "Reklaam: {0:s}"
+
+#. Name of a promo found on a disc - {0:s} is what the disc calls it
+msgctxt "#40705"
+msgid "Promo: {0:s}"
+msgstr "Promo: {0:s}"
+
+#. Name of a behind the scenes extra found on a disc - {0:s} is what the disc calls it
+msgctxt "#40706"
+msgid "Behind the scenes: {0:s}"
+msgstr "Kaadritagune: {0:s}"
+
+#. Name of an extra about a member of the cast found on a disc - {0:s} is what the disc calls it
+msgctxt "#40707"
+msgid "Cast: {0:s}"
+msgstr "Näitlejad: {0:s}"
+
+#. Name of a disc's playlist playing a group of extras one after the other - {0:s} is the group
+msgctxt "#40708"
+msgid "{0:s} (play all)"
+msgstr "{0:s} (esita kõik)"
+
 # 40000 to 40800 are reserved for Video Versions feature
 #. Confirm file deletion
 msgctxt "#40801"
@@ -20822,22 +20976,26 @@ msgstr "Kui see on lubatud, kuvatakse failide kustutamisel kinnitusdialoog. Kui 
 #. Description of setting with label #246 "Monitor"
 msgctxt "#40803"
 msgid "Monitor change may require restart."
-msgstr ""
+msgstr "Kuvari vahetamine võib vajada taaskäivitamist."
 
 # Value formatting for ReplayGain Preamp settings
 msgctxt "#40804"
 msgid "{0:.1f} dB"
-msgstr ""
+msgstr "{0:.1f} dB"
 
 #. Setting "audiooutput.passthroughvolumecontrol"
 msgctxt "#40805"
 msgid "Volume control during passthrough"
-msgstr ""
+msgstr "Helitugevuse reguleerimine läbilaske ajal"
 
 #. Help of setting "audiooutput.passthroughvolumecontrol"
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
-msgstr ""
+msgstr "Muuda ja kuva helitugevuse taset heli läbilaske ajal. Taset ei rakendata otse bitivoole, kuid igast muudatusest teatatakse, mis võimaldab lisaandmel või automaatsusel rakendada seda välisele heliprotsessorile."
+
+#~ msgctxt "#40205"
+#~ msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
+#~ msgstr "Vali lisamaterjalide skannimistoiming kaustas \"extras\".[CR][Lubatud] Skanni lisamaterjalid tavalise videona.[CR][Keelatud] Lisa need seotud video lisamaterjalina."
 
 #~ msgctxt "#35217"
 #~ msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
