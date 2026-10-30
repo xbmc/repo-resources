@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-10-25 14:07+0000\n"
-"Last-Translator: Feruk <feruk.v@gmail.com>\n"
+"PO-Revision-Date: 2026-10-28 09:11+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/ru_ru/>\n"
 "Language: ru_ru\n"
 "MIME-Version: 1.0\n"
@@ -1856,6 +1856,16 @@ msgstr "Положение экранного меню (OSD)"
 msgctxt "#470"
 msgid "Credits"
 msgstr "Создатели"
+
+#. Option to alter the image hue in video settings
+msgctxt "#471"
+msgid "Hue"
+msgstr "Оттенок"
+
+#. Option to alter the image saturation in video settings
+msgctxt "#472"
+msgid "Saturation"
+msgstr "Насыщенность"
 
 msgctxt "#474"
 msgid "Off"
@@ -6480,6 +6490,11 @@ msgctxt "#13601"
 msgid "Apple TV"
 msgstr "Apple TV"
 
+#. Option to set the granularity (default 1.0) of the brightness/contrast/hue/saturation/gamma settings in video settings
+msgctxt "#13602"
+msgid "Image adjustment granularity"
+msgstr "Шаг настройки изображения"
+
 msgctxt "#14000"
 msgid "Stack"
 msgstr "Сгруппировать"
@@ -7668,6 +7683,11 @@ msgstr "Пиксельно"
 msgctxt "#16297"
 msgid "Smooth"
 msgstr "Сглаженно"
+
+#. Name of the video filter category that holds the filters without a shader
+msgctxt "#16298"
+msgid "Built-in"
+msgstr ""
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -9838,7 +9858,7 @@ msgstr "Вещание / Пресса"
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19605"
 msgid "New media"
-msgstr "Новые СМИ"
+msgstr "Новые медиа"
 
 #. label for "arts/culture" epg subgenre value
 msgctxt "#19606"
@@ -15720,7 +15740,7 @@ msgstr "Перемотка"
 #. Label of the Manual button in the game OSD, which shows the game's instruction booklet
 msgctxt "#35310"
 msgid "Manual"
-msgstr ""
+msgstr "Руководство"
 
 # empty strings from id 35313 to 35319
 #. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
@@ -16311,6 +16331,11 @@ msgstr "Отправить команды регулировки громкос�
 msgctxt "#36058"
 msgid "Automatic"
 msgstr "Автоматически"
+
+#. Description of setting with label #13602 "Image adjustment granularity"
+msgctxt "#36059"
+msgid "Step size of the brightness, contrast, hue and saturation sliders in the video settings."
+msgstr "Шаг ползунков яркости, контрастности, оттенка и насыщенности в настройках видео."
 
 # empty strings from id 36054 to 36095
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
@@ -20440,17 +20465,17 @@ msgstr "Менеджер версий: {0:s}"
 #. Choose/Manage video extra dialog title
 msgctxt "#40025"
 msgid "Extras Manager: {0:s}"
-msgstr "Менеджер Экстра: {0:s}"
+msgstr "Менеджер дополнительных материалов: {0:s}"
 
 #. Add extra dialog text.
 msgctxt "#40026"
 msgid "The selected video already is the \"{0:s}\" extra of the movie."
-msgstr "Выбранное видео уже является «{0:s}» дополнительной частью фильма."
+msgstr "Выбранное видео уже является дополнительным материалом «{0:s}» фильма."
 
 #. Add video extra dialog text. Example: The selected video is the "Behind the scenes" extra of the movie "Movie title". Would you like to move the extra to this movie?"
 msgctxt "#40027"
 msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would you like to move the extra to this movie?"
-msgstr "Выбранное видео является «{0:s}» дополнительным к фильму «{1:s}». Хотите ли вы переместить дополнительное видео в этот фильм?"
+msgstr "Выбранное видео является дополнительным материалом «{0:s}» фильма «{1:s}». Хотите переместить дополнительный материал в этот фильм?"
 
 #. Browse the computer files for the file to be added as version
 msgctxt "#40028"
@@ -20485,17 +20510,17 @@ msgstr "Добавить еще одну версию с этого диска?"
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 msgctxt "#40034"
 msgid "The default version of a movie with multiple versions cannot be added as an extra to another movie. Please move or remove the other versions first."
-msgstr "Версия по умолчанию фильма с несколькими версиями не может быть добавлена в качестве дополнительной к другому фильму. Пожалуйста, сначала переместите или удалите другие версии."
+msgstr "Версия по умолчанию фильма с несколькими версиями не может быть добавлена в качестве дополнительного материала к другому фильму. Пожалуйста, сначала переместите или удалите другие версии."
 
 #. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
 msgctxt "#40035"
 msgid "You are about to convert a movie extra into a movie version. Are you sure?"
-msgstr "Вы собираетесь преобразовать дополнительный фильм в версию фильма. Вы уверены?"
+msgstr "Вы собираетесь преобразовать дополнительный материал фильма в версию фильма. Вы уверены?"
 
 #. Addition of new version: the user picked an extra of another movie. Ask for confirmation.
 msgctxt "#40036"
 msgid "You are about to convert a movie version into a movie extra. Are you sure?"
-msgstr "Вы собираетесь преобразовать версию фильма в дополнительный фильм. Вы уверены?"
+msgstr "Вы собираетесь преобразовать версию фильма в дополнительный материал фильма. Вы уверены?"
 
 #. Addition of new version to a movie: the user chose a movie that has multiple versions. Ask for confirmation.
 msgctxt "#40037"
@@ -20510,12 +20535,12 @@ msgstr "Версия по умолчанию фильма с нескольки�
 #. Remove video extra dialog title
 msgctxt "#40039"
 msgid "Remove video extra"
-msgstr "Удалить дополнительное видео"
+msgstr "Удалить дополнительный материал"
 
 #. Remove video extra dialog text
 msgctxt "#40040"
 msgid "Are you sure to remove the extra \"{0:s}\"?"
-msgstr "Подтвердите удаление «{0:s}»?"
+msgstr "Вы действительно хотите удалить дополнительный материал «{0:s}»?"
 
 #. Prompt to assign playlist to current movie version
 msgctxt "#40041"
@@ -20572,6 +20597,41 @@ msgctxt "#40051"
 msgid "This playlist is still in use by another movie version and could not be reassigned."
 msgstr "Этот плейлист всё ещё используется другой версией фильма и не может быть переназначен."
 
+#. Asked before choosing one of a disc's playlists for an extra that plays the whole disc
+msgctxt "#40052"
+msgid "Assign a playlist to this extra?"
+msgstr "Назначить плейлист для этого дополнительного материала?"
+
+#. Asked before choosing an extra from the playlists of the movie's own disc
+msgctxt "#40053"
+msgid "Add an extra from this disc?"
+msgstr "Добавить дополнительный материал с этого диска?"
+
+#. Asked when a disc is picked as an extra, to add one of its playlists rather than the whole disc
+msgctxt "#40054"
+msgid "Choose a playlist from this disc?"
+msgstr "Выбрать плейлист с этого диска?"
+
+#. Shown when a playlist chosen for an extra already belongs to the same movie, or one chosen for a version is already its extra
+msgctxt "#40055"
+msgid "This playlist already belongs to this movie."
+msgstr "Этот плейлист уже относится к этому фильму."
+
+#. Asked before taking a playlist away from another movie's extra that uses it
+msgctxt "#40056"
+msgid "The selected playlist is already assigned to another extra. Reassign it?"
+msgstr "Выбранный плейлист уже назначен другому дополнительному материалу. Переназначить его?"
+
+#. Manage video extras context menu item
+msgctxt "#40057"
+msgid "Manage extras"
+msgstr "Управление дополнительными материалами"
+
+#. Asked when adding an extra while an extra on a disc is selected
+msgctxt "#40058"
+msgid "Add another extra from this disc?"
+msgstr "Добавить еще один дополнительный материал с этого диска?"
+
 #. Ignore different video versions settting
 msgctxt "#40202"
 msgid "Ignore different video versions on scan"
@@ -20589,8 +20649,8 @@ msgstr "Игнорировать дополнительные видеомате
 
 #. Help for ignore video extras settting
 msgctxt "#40205"
-msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
-msgstr "Выберите действие при сканировании для видеофрагментов в папке \"extras\".[CR][Включено] Сканировать видеофрагменты как обычные видео.[CR][Отключено] Добавить видеофрагменты в медиатеку для соответствующего видео."
+msgid "Select scanner action for video extras, in an \"extras\" folder or named by a Blu-ray disc.[CR][Enabled] Leave video extras out of the library, other than those a movie's nfo records.[CR][Disabled] Add video extras to library for associated video."
+msgstr "Выберите действие сканера для дополнительных материалов в папке «extras» или названных по Blu-ray-диску.[CR][Включено] Оставлять дополнительные материалы вне медиатеки, за исключением тех, которые указаны в записях nfo фильма.[CR][Отключено] Добавлять дополнительные материалы в медиатеку для связанного видео."
 
 # empty strings from id 40206 to 40208
 #. Button label for video assets
@@ -20606,7 +20666,7 @@ msgstr "Версии"
 #. Button label for video extras
 msgctxt "#40211"
 msgid "Extras"
-msgstr "Дополнительные видео"
+msgstr "Дополнительные материалы"
 
 #. UPnP remote player volume level sync setting
 msgctxt "#40212"
@@ -20636,7 +20696,7 @@ msgstr "Новый тип версии"
 #. Title of the dialog for extra rename action from Extras Manager
 msgctxt "#40218"
 msgid "Choose extra name"
-msgstr "Выберите имя дополнительного"
+msgstr "Выберите название дополнительного материала"
 
 #. Caption of the button to create a new extra name (Extras Manager > Rename)
 msgctxt "#40219"
@@ -20646,7 +20706,7 @@ msgstr "Новое имя..."
 #. Caption of the dialog for keyboard entry of a new extra name
 msgctxt "#40220"
 msgid "New extra name"
-msgstr "Новое имя дополнительного"
+msgstr "Название нового дополнительного материала"
 
 # empty string id 40221 freed in v22
 #. "Create separate versions of the same movie" setting
@@ -20820,6 +20880,100 @@ msgctxt "#40436"
 msgid "50th Anniversary Edition"
 msgstr "Юбилейное издание 50 лет"
 
+# empty strings from id 40437 to 40499
+# Video extras
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40500"
+msgid "Deleted scenes"
+msgstr "Удаленные сцены"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40501"
+msgid "Music videos"
+msgstr "Клипы"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40502"
+msgid "Sing-alongs"
+msgstr "Караоке / Совместное исполнение"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40503"
+msgid "Trailers"
+msgstr "Трейлеры"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40504"
+msgid "Commercials"
+msgstr "Рекламные ролики"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40505"
+msgid "Promos"
+msgstr "Проморолики"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40506"
+msgid "Behind the scenes"
+msgstr "За кадром"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40507"
+msgid "Cast"
+msgstr "Актеры"
+
+#. Name of a kind of video extra, like "Deleted scenes"
+msgctxt "#40508"
+msgid "Play all"
+msgstr "Воспроизвести все"
+
+# empty strings from id 40509 to 40699
+# Names of video extras of a kind, which are not types
+#. Name of a deleted scene found on a disc - {0:s} is what the disc calls it
+msgctxt "#40700"
+msgid "Deleted scene: {0:s}"
+msgstr "Удаленная сцена: {0:s}"
+
+#. Name of a music video found on a disc - {0:s} is what the disc calls it
+msgctxt "#40701"
+msgid "Music video: {0:s}"
+msgstr "Клип: {0:s}"
+
+#. Name of a sing-along found on a disc - {0:s} is what the disc calls it
+msgctxt "#40702"
+msgid "Sing-along: {0:s}"
+msgstr "Караоке: {0:s}"
+
+#. Name of a trailer found on a disc - {0:s} is what the disc calls it
+msgctxt "#40703"
+msgid "Trailer: {0:s}"
+msgstr "Трейлер: {0:s}"
+
+#. Name of a commercial found on a disc - {0:s} is what the disc calls it
+msgctxt "#40704"
+msgid "Commercial: {0:s}"
+msgstr "Рекламный ролик: {0:s}"
+
+#. Name of a promo found on a disc - {0:s} is what the disc calls it
+msgctxt "#40705"
+msgid "Promo: {0:s}"
+msgstr "Проморолик: {0:s}"
+
+#. Name of a behind the scenes extra found on a disc - {0:s} is what the disc calls it
+msgctxt "#40706"
+msgid "Behind the scenes: {0:s}"
+msgstr "За кадром: {0:s}"
+
+#. Name of an extra about a member of the cast found on a disc - {0:s} is what the disc calls it
+msgctxt "#40707"
+msgid "Cast: {0:s}"
+msgstr "Актеры: {0:s}"
+
+#. Name of a disc's playlist playing a group of extras one after the other - {0:s} is the group
+msgctxt "#40708"
+msgid "{0:s} (play all)"
+msgstr "{0:s} (воспроизвести все)"
+
 # 40000 to 40800 are reserved for Video Versions feature
 #. Confirm file deletion
 msgctxt "#40801"
@@ -20850,6 +21004,10 @@ msgstr "Регулировка громкости при сквозной пер
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
 msgstr "Регулировать и отображать уровень громкости при сквозной передаче звука. Уровень не применяется к битовому потоку, но каждое изменение объявляется, чтобы дополнение или автоматизация могли применить его к внешнему звуковому процессору."
+
+#~ msgctxt "#40205"
+#~ msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
+#~ msgstr "Выберите действие при сканировании для видеофрагментов в папке \"extras\".[CR][Включено] Сканировать видеофрагменты как обычные видео.[CR][Отключено] Добавить видеофрагменты в медиатеку для соответствующего видео."
 
 #~ msgctxt "#35217"
 #~ msgid "The savestate can only be loaded with \"{0:s}\". Erase savestate and continue?"
