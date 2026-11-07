@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-10-21 00:26+0000\n"
+"PO-Revision-Date: 2026-11-05 03:13+0000\n"
 "Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_cn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -1860,12 +1860,12 @@ msgstr "制作人员"
 #. Option to alter the image hue in video settings
 msgctxt "#471"
 msgid "Hue"
-msgstr ""
+msgstr "色调"
 
 #. Option to alter the image saturation in video settings
 msgctxt "#472"
 msgid "Saturation"
-msgstr ""
+msgstr "饱和度"
 
 msgctxt "#474"
 msgid "Off"
@@ -6490,7 +6490,7 @@ msgstr "Apple TV"
 #. Option to set the granularity (default 1.0) of the brightness/contrast/hue/saturation/gamma settings in video settings
 msgctxt "#13602"
 msgid "Image adjustment granularity"
-msgstr ""
+msgstr "图像调整粒度"
 
 msgctxt "#14000"
 msgid "Stack"
@@ -7684,7 +7684,7 @@ msgstr "平滑"
 #. Name of the video filter category that holds the filters without a shader
 msgctxt "#16298"
 msgid "Built-in"
-msgstr ""
+msgstr "内置"
 
 msgctxt "#16300"
 msgid "Video scaling method"
@@ -13595,6 +13595,16 @@ msgctxt "#24189"
 msgid "Installing {0:s}"
 msgstr "正在安装 {0:s}"
 
+#. Event log entry once a video library scan has finished
+msgctxt "#24190"
+msgid "Scan finished: {0:d} added, {1:d} rescanned but already in the library, {2:d} unchanged folders skipped, {3:d} not found, {4:d} failed"
+msgstr ""
+
+#. Event log entry for an item a video library scan couldn't look up
+msgctxt "#24191"
+msgid "Lookup failed for {0:s}: {1:s}"
+msgstr ""
+
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -15253,6 +15263,11 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "游戏"
 
+#. Help text for setting "Sync playback to display" of label #13510
+msgctxt "#35202"
+msgid "Run the game in step with the display when their rates are close, and resample its sound to match. This avoids repeated frames and lowers input lag."
+msgstr "当游戏帧率与显示器刷新率接近时，使游戏与显示器同步运行，并对音频重采样以保持匹配。此举可避免画面重复帧，并降低输入延迟。"
+
 # empty string with id 35202
 msgctxt "#35203"
 msgid "Enable rewind (if supported)"
@@ -15433,6 +15448,16 @@ msgstr "模拟器「{0:s}」未能找到 {1:s}。"
 msgctxt "#35241"
 msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
 msgstr "模拟器「{0:s}」找不到所需文件，例如 BIOS 文件。"
+
+#. Label of setting "Games -> General -> Maximum speed change"
+msgctxt "#35242"
+msgid "Maximum speed change"
+msgstr "最大变速幅度"
+
+#. Help text for setting "Maximum speed change" of label #35242
+msgctxt "#35243"
+msgid "How far a game's own rate may be from the display's and still run in step with it. Its speed and sound change by up to this much."
+msgstr "游戏帧率与显示器刷新率之间允许的最大差值，在此范围内可保持同步运行。播放速度与音频最高按此值调整。"
 
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -15700,8 +15725,8 @@ msgstr "重演模式"
 
 #. Help text for the encore mode setting
 msgctxt "#35304"
-msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
-msgstr "允许再次触发已获取的成就。[CR][CR]将在下次加载游戏时生效。"
+msgid "Allow achievements you have already earned to be triggered again."
+msgstr ""
 
 #. Notification shown when hardcore mode refuses something, {0:s} is the feature
 msgctxt "#35305"
@@ -15731,7 +15756,7 @@ msgstr "倒带"
 #. Label of the Manual button in the game OSD, which shows the game's instruction booklet
 msgctxt "#35310"
 msgid "Manual"
-msgstr ""
+msgstr "手册"
 
 # empty strings from id 35313 to 35319
 #. Label of the Cheats button in the game OSD, heading of the cheats dialog, and
@@ -15988,6 +16013,31 @@ msgctxt "#35377"
 msgid "You:"
 msgstr "你："
 
+#. Setting to show games a few frames ahead to reduce input lag
+msgctxt "#35378"
+msgid "Enable run-ahead"
+msgstr ""
+
+#. Help text for setting "Enable run-ahead" of label #35378
+msgctxt "#35379"
+msgid "Make games respond sooner to the controller by running the emulator ahead and showing a frame from the future. This suits 8-bit and 16-bit systems. Systems with large save states, such as the PlayStation, may slow down."
+msgstr ""
+
+#. Setting for how many frames to run ahead
+msgctxt "#35380"
+msgid "Frames to run ahead"
+msgstr ""
+
+#. Help text for setting "Frames to run ahead" of label #35380
+msgctxt "#35381"
+msgid "Each frame removes one frame of delay, as long as the game has that much delay to remove. Going further skips the first frames of each move instead. Start at one, and raise it only if the game still responds late."
+msgstr ""
+
+#. Format for the run-ahead frames slider, e.g. "2 frames"
+msgctxt "#35382"
+msgid "{0:d} frames"
+msgstr ""
+
 #. connection state "host unreachable"
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -16050,38 +16100,53 @@ msgstr "硬核模式：已解锁 {0:d}/{1:d} 项成就"
 #. Marks a locked achievement that can be missed for good
 msgctxt "#35710"
 msgid "Missable"
-msgstr ""
+msgstr "可错过"
 
 #. Button that picks which of a game's achievement sets is shown
 msgctxt "#35711"
 msgid "Achievement set"
-msgstr ""
+msgstr "成就集"
 
 #. An achievement set whose progression and win achievements are all earned
 msgctxt "#35712"
 msgid "Beaten"
-msgstr ""
+msgstr "已通关"
 
 #. How close an achievement set is to being beaten, {0:d} earned of {1:d} needed
 #, c++-format
 msgctxt "#35713"
 msgid "{0:d} of {1:d} to beat"
-msgstr ""
+msgstr "{0:d} / {1:d} 即可通关"
 
 #. An achievement set the player turned off
 msgctxt "#35714"
 msgid "Turned off"
-msgstr ""
+msgstr "已关闭"
 
 #. The game's own achievement set, as opposed to its subsets
 msgctxt "#35715"
 msgid "Main Set"
-msgstr ""
+msgstr "主成就集"
+
+#. Label of a setting in Settings > Games > General
+msgctxt "#35716"
+msgid "Replace file names with game titles"
+msgstr "以游戏标题替代文件名"
+
+#. Help text for setting "Replace file names with game titles" of label #35716
+msgctxt "#35717"
+msgid "Show each game by the title read from its file name instead of the file name itself."
+msgstr "读取文件名内的标题信息来展示游戏，而非直接显示文件名。"
 
 # empty strings from id 35716 to 35717
 #. Marks an achievement being attempted in the list of a game's achievements
 msgctxt "#35718"
 msgid "Attempt active"
+msgstr "尝试进行中"
+
+#. Shown when Encore mode is switched on or off during a game, and under its help text in the game's settings
+msgctxt "#35719"
+msgid "Applies the next time you load the game."
 msgstr ""
 
 msgctxt "#36000"
@@ -16332,7 +16397,7 @@ msgstr "自动"
 #. Description of setting with label #13602 "Image adjustment granularity"
 msgctxt "#36059"
 msgid "Step size of the brightness, contrast, hue and saturation sliders in the video settings."
-msgstr ""
+msgstr "视频设置中亮度、对比度、色调和饱和度滑块的步进大小。"
 
 # empty strings from id 36054 to 36095
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
@@ -20594,37 +20659,37 @@ msgstr "该播放列表仍被影片的另一个版本占用，无法重新分配
 #. Asked before choosing one of a disc's playlists for an extra that plays the whole disc
 msgctxt "#40052"
 msgid "Assign a playlist to this extra?"
-msgstr ""
+msgstr "是否为该花絮指定一个播放列表？"
 
 #. Asked before choosing an extra from the playlists of the movie's own disc
 msgctxt "#40053"
 msgid "Add an extra from this disc?"
-msgstr ""
+msgstr "从该光碟添加花絮？"
 
 #. Asked when a disc is picked as an extra, to add one of its playlists rather than the whole disc
 msgctxt "#40054"
 msgid "Choose a playlist from this disc?"
-msgstr ""
+msgstr "从该光碟选择播放列表？"
 
 #. Shown when a playlist chosen for an extra already belongs to the same movie, or one chosen for a version is already its extra
 msgctxt "#40055"
 msgid "This playlist already belongs to this movie."
-msgstr ""
+msgstr "该播放列表已属于这部电影。"
 
 #. Asked before taking a playlist away from another movie's extra that uses it
 msgctxt "#40056"
 msgid "The selected playlist is already assigned to another extra. Reassign it?"
-msgstr ""
+msgstr "所选播放列表已指定给其他花絮。是否重新指定？"
 
 #. Manage video extras context menu item
 msgctxt "#40057"
 msgid "Manage extras"
-msgstr ""
+msgstr "管理花絮"
 
 #. Asked when adding an extra while an extra on a disc is selected
 msgctxt "#40058"
 msgid "Add another extra from this disc?"
-msgstr ""
+msgstr "从该光碟添加其他花絮？"
 
 #. Ignore different video versions settting
 msgctxt "#40202"
@@ -20644,7 +20709,7 @@ msgstr "扫描时忽略视频额外内容"
 #. Help for ignore video extras settting
 msgctxt "#40205"
 msgid "Select scanner action for video extras, in an \"extras\" folder or named by a Blu-ray disc.[CR][Enabled] Leave video extras out of the library, other than those a movie's nfo records.[CR][Disabled] Add video extras to library for associated video."
-msgstr ""
+msgstr "选择对视频花絮的扫描操作，这些花絮位于 \"extras\" 文件夹内或按蓝光光盘命名。[CR][已启用] 除电影 nfo 文件所记录的花絮外，将视频花絮排除在媒体库之外。[CR][已禁用] 将视频花絮添加到媒体库中，与相关视频关联。"
 
 # empty strings from id 40206 to 40208
 #. Button label for video assets
@@ -20751,12 +20816,12 @@ msgstr "启用后在影片视图单独显示各版本，关闭则将各版本分
 #. Setting to retrieve art not cached yet when the video library is exported
 msgctxt "#40231"
 msgid "Retrieve all art during export"
-msgstr ""
+msgstr "导出期间获取所有美术资源"
 
 #. Help for the retrieve all art during export setting
 msgctxt "#40232"
 msgid "When exporting the library with images, retrieve art that isn't cached yet. Turn off to only export art that is already cached."
-msgstr ""
+msgstr "以图片导出媒体库时，获取尚未缓存的美术资源。关闭后仅导出已缓存的美术资源。"
 
 # Video versions
 #. Name of a video version, like "Director's Cut"
@@ -20879,94 +20944,94 @@ msgstr "50 周年纪念版"
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40500"
 msgid "Deleted scenes"
-msgstr ""
+msgstr "删减片段"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40501"
 msgid "Music videos"
-msgstr ""
+msgstr "音乐视频"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40502"
 msgid "Sing-alongs"
-msgstr ""
+msgstr "卡拉 OK"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40503"
 msgid "Trailers"
-msgstr ""
+msgstr "预告片"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40504"
 msgid "Commercials"
-msgstr ""
+msgstr "广告"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40505"
 msgid "Promos"
-msgstr ""
+msgstr "宣传片"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40506"
 msgid "Behind the scenes"
-msgstr ""
+msgstr "幕后花絮"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40507"
 msgid "Cast"
-msgstr ""
+msgstr "演员"
 
 #. Name of a kind of video extra, like "Deleted scenes"
 msgctxt "#40508"
 msgid "Play all"
-msgstr ""
+msgstr "全部播放"
 
 # empty strings from id 40509 to 40699
 # Names of video extras of a kind, which are not types
 #. Name of a deleted scene found on a disc - {0:s} is what the disc calls it
 msgctxt "#40700"
 msgid "Deleted scene: {0:s}"
-msgstr ""
+msgstr "删减片段：{0:s}"
 
 #. Name of a music video found on a disc - {0:s} is what the disc calls it
 msgctxt "#40701"
 msgid "Music video: {0:s}"
-msgstr ""
+msgstr "音乐视频：{0:s}"
 
 #. Name of a sing-along found on a disc - {0:s} is what the disc calls it
 msgctxt "#40702"
 msgid "Sing-along: {0:s}"
-msgstr ""
+msgstr "卡拉 OK：{0:s}"
 
 #. Name of a trailer found on a disc - {0:s} is what the disc calls it
 msgctxt "#40703"
 msgid "Trailer: {0:s}"
-msgstr ""
+msgstr "预告片：{0:s}"
 
 #. Name of a commercial found on a disc - {0:s} is what the disc calls it
 msgctxt "#40704"
 msgid "Commercial: {0:s}"
-msgstr ""
+msgstr "广告：{0:s}"
 
 #. Name of a promo found on a disc - {0:s} is what the disc calls it
 msgctxt "#40705"
 msgid "Promo: {0:s}"
-msgstr ""
+msgstr "宣传片：{0:s}"
 
 #. Name of a behind the scenes extra found on a disc - {0:s} is what the disc calls it
 msgctxt "#40706"
 msgid "Behind the scenes: {0:s}"
-msgstr ""
+msgstr "幕后花絮：{0:s}"
 
 #. Name of an extra about a member of the cast found on a disc - {0:s} is what the disc calls it
 msgctxt "#40707"
 msgid "Cast: {0:s}"
-msgstr ""
+msgstr "演员：{0:s}"
 
 #. Name of a disc's playlist playing a group of extras one after the other - {0:s} is the group
 msgctxt "#40708"
 msgid "{0:s} (play all)"
-msgstr ""
+msgstr "{0:s}（全部播放）"
 
 # 40000 to 40800 are reserved for Video Versions feature
 #. Confirm file deletion
@@ -20998,6 +21063,10 @@ msgstr "源码透传时的音量控制"
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
 msgstr "在音频透传时调整并显示音量等级。该音量不会作用于比特流，但每次音量变动都会发送通知，插件或自动化程序可据此控制外部音频处理器。"
+
+#~ msgctxt "#35304"
+#~ msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
+#~ msgstr "允许再次触发已获取的成就。[CR][CR]将在下次加载游戏时生效。"
 
 #~ msgctxt "#40205"
 #~ msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
