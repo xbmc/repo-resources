@@ -13633,6 +13633,16 @@ msgctxt "#24189"
 msgid "Installing {0:s}"
 msgstr ""
 
+#. Event log entry once a video library scan has finished
+msgctxt "#24190"
+msgid "Scan finished: {0:d} added, {1:d} rescanned but already in the library, {2:d} unchanged folders skipped, {3:d} not found, {4:d} failed"
+msgstr ""
+
+#. Event log entry for an item a video library scan couldn't look up
+msgctxt "#24191"
+msgid "Lookup failed for {0:s}: {1:s}"
+msgstr ""
+
 # empty strings from id 24186 to 24990
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -15305,6 +15315,11 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Igranje"
 
+#. Help text for setting "Sync playback to display" of label #13510
+msgctxt "#35202"
+msgid "Run the game in step with the display when their rates are close, and resample its sound to match. This avoids repeated frames and lowers input lag."
+msgstr ""
+
 # empty string with id 35202
 msgctxt "#35203"
 msgid "Enable rewind (if supported)"
@@ -15484,6 +15499,16 @@ msgstr ""
 #. Error dialog text when an emulator can't find files it needs and doesn't say which. {0:s} - emulator name
 msgctxt "#35241"
 msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
+msgstr ""
+
+#. Label of setting "Games -> General -> Maximum speed change"
+msgctxt "#35242"
+msgid "Maximum speed change"
+msgstr ""
+
+#. Help text for setting "Maximum speed change" of label #35242
+msgctxt "#35243"
+msgid "How far a game's own rate may be from the display's and still run in step with it. Its speed and sound change by up to this much."
 msgstr ""
 
 # empty strings from id 35237 to 35248
@@ -15754,7 +15779,7 @@ msgstr ""
 
 #. Help text for the encore mode setting
 msgctxt "#35304"
-msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
+msgid "Allow achievements you have already earned to be triggered again."
 msgstr ""
 
 #. Notification shown when hardcore mode refuses something, {0:s} is the feature
@@ -16042,6 +16067,31 @@ msgctxt "#35377"
 msgid "You:"
 msgstr ""
 
+#. Setting to show games a few frames ahead to reduce input lag
+msgctxt "#35378"
+msgid "Enable run-ahead"
+msgstr ""
+
+#. Help text for setting "Enable run-ahead" of label #35378
+msgctxt "#35379"
+msgid "Make games respond sooner to the controller by running the emulator ahead and showing a frame from the future. This suits 8-bit and 16-bit systems. Systems with large save states, such as the PlayStation, may slow down."
+msgstr ""
+
+#. Setting for how many frames to run ahead
+msgctxt "#35380"
+msgid "Frames to run ahead"
+msgstr ""
+
+#. Help text for setting "Frames to run ahead" of label #35380
+msgctxt "#35381"
+msgid "Each frame removes one frame of delay, as long as the game has that much delay to remove. Going further skips the first frames of each move instead. Start at one, and raise it only if the game still responds late."
+msgstr ""
+
+#. Format for the run-ahead frames slider, e.g. "2 frames"
+msgctxt "#35382"
+msgid "{0:d} frames"
+msgstr ""
+
 #. connection state "host unreachable"
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -16132,10 +16182,25 @@ msgctxt "#35715"
 msgid "Main Set"
 msgstr ""
 
+#. Label of a setting in Settings > Games > General
+msgctxt "#35716"
+msgid "Replace file names with game titles"
+msgstr ""
+
+#. Help text for setting "Replace file names with game titles" of label #35716
+msgctxt "#35717"
+msgid "Show each game by the title read from its file name instead of the file name itself."
+msgstr ""
+
 # empty strings from id 35716 to 35717
 #. Marks an achievement being attempted in the list of a game's achievements
 msgctxt "#35718"
 msgid "Attempt active"
+msgstr ""
+
+#. Shown when Encore mode is switched on or off during a game, and under its help text in the game's settings
+msgctxt "#35719"
+msgid "Applies the next time you load the game."
 msgstr ""
 
 # empty strings from id 35510 to 35999

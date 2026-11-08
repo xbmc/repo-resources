@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-11-01 18:55+0000\n"
+"PO-Revision-Date: 2026-11-06 04:49+0000\n"
 "Last-Translator: Havok Dan <havokdan@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/pt_br/>\n"
 "Language: pt_br\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -13595,6 +13595,16 @@ msgctxt "#24189"
 msgid "Installing {0:s}"
 msgstr "Instalando {0:s}"
 
+#. Event log entry once a video library scan has finished
+msgctxt "#24190"
+msgid "Scan finished: {0:d} added, {1:d} rescanned but already in the library, {2:d} unchanged folders skipped, {3:d} not found, {4:d} failed"
+msgstr ""
+
+#. Event log entry for an item a video library scan couldn't look up
+msgctxt "#24191"
+msgid "Lookup failed for {0:s}: {1:s}"
+msgstr ""
+
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
 msgid "Could not connect to repository."
@@ -15253,6 +15263,11 @@ msgctxt "#35201"
 msgid "Gameplay"
 msgstr "Gameplay"
 
+#. Help text for setting "Sync playback to display" of label #13510
+msgctxt "#35202"
+msgid "Run the game in step with the display when their rates are close, and resample its sound to match. This avoids repeated frames and lowers input lag."
+msgstr "Execute o jogo em sintonia com a tela quando as taxas estiverem próximas e faça uma nova amostragem do som para corresponder. Isso evita quadros repetidos e reduz o atraso de entrada."
+
 # empty string with id 35202
 msgctxt "#35203"
 msgid "Enable rewind (if supported)"
@@ -15433,6 +15448,16 @@ msgstr "O emulador \"{0:s}\" não conseguiu encontrar {1:s}."
 msgctxt "#35241"
 msgid "The emulator \"{0:s}\" couldn't find files it needs, such as BIOS files."
 msgstr "O emulador \"{0:s}\" não conseguiu encontrar os arquivos necessários, como arquivos BIOS."
+
+#. Label of setting "Games -> General -> Maximum speed change"
+msgctxt "#35242"
+msgid "Maximum speed change"
+msgstr "Mudança de velocidade máxima"
+
+#. Help text for setting "Maximum speed change" of label #35242
+msgctxt "#35243"
+msgid "How far a game's own rate may be from the display's and still run in step with it. Its speed and sound change by up to this much."
+msgstr "A que distância a taxa de um jogo pode estar da tela e ainda assim funcionar em sintonia com ela. Sua velocidade e som mudam até esse ponto."
 
 # empty strings from id 35237 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -15700,8 +15725,8 @@ msgstr "Modo Encore"
 
 #. Help text for the encore mode setting
 msgctxt "#35304"
-msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
-msgstr "Permita que as conquistas que você já conquistou sejam acionadas novamente.[CR][CR]Aplica-se na próxima vez que você carregar o jogo."
+msgid "Allow achievements you have already earned to be triggered again."
+msgstr "Permita que as conquistas que você já conquistou sejam acionadas novamente."
 
 #. Notification shown when hardcore mode refuses something, {0:s} is the feature
 msgctxt "#35305"
@@ -15988,6 +16013,31 @@ msgctxt "#35377"
 msgid "You:"
 msgstr "Você:"
 
+#. Setting to show games a few frames ahead to reduce input lag
+msgctxt "#35378"
+msgid "Enable run-ahead"
+msgstr "Habilitar execução antecipada"
+
+#. Help text for setting "Enable run-ahead" of label #35378
+msgctxt "#35379"
+msgid "Make games respond sooner to the controller by running the emulator ahead and showing a frame from the future. This suits 8-bit and 16-bit systems. Systems with large save states, such as the PlayStation, may slow down."
+msgstr "Faça os jogos responderem mais rapidamente ao controlador executando o emulador antecipadamente e mostrando um quadro do futuro. Isso é adequado para sistemas de 8 e 16 bits. Sistemas com grandes estados de salvamento, como o PlayStation, podem ficar lentos."
+
+#. Setting for how many frames to run ahead
+msgctxt "#35380"
+msgid "Frames to run ahead"
+msgstr "Quadros para avançar"
+
+#. Help text for setting "Frames to run ahead" of label #35380
+msgctxt "#35381"
+msgid "Each frame removes one frame of delay, as long as the game has that much delay to remove. Going further skips the first frames of each move instead. Start at one, and raise it only if the game still responds late."
+msgstr "Cada quadro remove um quadro de atraso, desde que o jogo tenha esse atraso para remover. Ir mais longe pula os primeiros quadros de cada movimento. Comece com um e aumente apenas se o jogo ainda responder tarde."
+
+#. Format for the run-ahead frames slider, e.g. "2 frames"
+msgctxt "#35382"
+msgid "{0:d} frames"
+msgstr "{0:d} quadros"
+
 #. connection state "host unreachable"
 msgctxt "#35505"
 msgid "Server is unreachable."
@@ -16078,11 +16128,26 @@ msgctxt "#35715"
 msgid "Main Set"
 msgstr "Conjunto Principal"
 
+#. Label of a setting in Settings > Games > General
+msgctxt "#35716"
+msgid "Replace file names with game titles"
+msgstr "Substitua nomes de arquivos por títulos de jogos"
+
+#. Help text for setting "Replace file names with game titles" of label #35716
+msgctxt "#35717"
+msgid "Show each game by the title read from its file name instead of the file name itself."
+msgstr "Mostre cada jogo pelo título lido no nome do arquivo, em vez do próprio nome do arquivo."
+
 # empty strings from id 35716 to 35717
 #. Marks an achievement being attempted in the list of a game's achievements
 msgctxt "#35718"
 msgid "Attempt active"
 msgstr "Tentativa ativa"
+
+#. Shown when Encore mode is switched on or off during a game, and under its help text in the game's settings
+msgctxt "#35719"
+msgid "Applies the next time you load the game."
+msgstr "Aplica-se na próxima vez que você carregar o jogo."
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -20998,6 +21063,10 @@ msgstr "Controle de volume durante a passagem"
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
 msgstr "Ajuste e exiba o nível de volume enquanto o áudio é transmitido. O nível não é aplicado ao fluxo de bits, mas cada alteração é anunciada, portanto, um complemento ou automação pode aplicá-lo a um processador de áudio externo."
+
+#~ msgctxt "#35304"
+#~ msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
+#~ msgstr "Permita que as conquistas que você já conquistou sejam acionadas novamente.[CR][CR]Aplica-se na próxima vez que você carregar o jogo."
 
 #~ msgctxt "#40205"
 #~ msgid "Select scanner action for video extras in \"extras\" folder.[CR][Enabled] Scan video extras like regular videos.[CR][Disabled] Add video extras to library for associated video."
