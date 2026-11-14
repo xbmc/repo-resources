@@ -15,25 +15,28 @@ jobs:
     steps:
 
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           path: ${{ github.event.repository.name }}
 
       - name: Checkout Scripts
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           repository: xbmc/weblate-supplementary-scripts
           path: scripts
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       - name: Get changed files
-        uses: trilom/file-changes-action@v1.2.4
+        run: |
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+            | jq -R -s -c 'split("\n") | map(select(length > 0))' > $HOME/files.json
+        working-directory: ${{ github.event.repository.name }}
 
       - name: Increment version of updated languages
         run: |
@@ -41,7 +44,7 @@ jobs:
         working-directory: ${{ github.event.repository.name }}
 
       - name: Create PR for incremented versions
-        uses: peter-evans/create-pull-request@v3.10.0
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: Language add-on versions incremented
           title: Language add-on versions incremented
