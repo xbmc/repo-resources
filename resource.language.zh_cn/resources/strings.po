@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-11-05 03:13+0000\n"
+"PO-Revision-Date: 2026-11-09 12:38+0000\n"
 "Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_cn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 msgctxt "#0"
 msgid "Programs"
@@ -13598,12 +13598,12 @@ msgstr "正在安装 {0:s}"
 #. Event log entry once a video library scan has finished
 msgctxt "#24190"
 msgid "Scan finished: {0:d} added, {1:d} rescanned but already in the library, {2:d} unchanged folders skipped, {3:d} not found, {4:d} failed"
-msgstr ""
+msgstr "扫描完成：新增 {0:d} 项，重新扫描但已存在于库中 {1:d} 项，跳过未变更文件夹 {2:d} 个，未找到 {3:d} 项，处理失败 {4:d} 项"
 
 #. Event log entry for an item a video library scan couldn't look up
 msgctxt "#24191"
 msgid "Lookup failed for {0:s}: {1:s}"
-msgstr ""
+msgstr "{0:s} 信息检索失败：{1:s}"
 
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
 msgctxt "#24991"
@@ -14622,6 +14622,26 @@ msgstr "发送低音量噪声"
 msgctxt "#34113"
 msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
 msgstr "为了让某些 AVR 保持开机，我们发送一个人耳听不见的随机噪声信号。使用耳机或模拟输出时，可禁用此设置。"
+
+#. label for setting audiooutput.delayformatchange
+msgctxt "#34131"
+msgid "Wait for the receiver after an audio format change"
+msgstr ""
+
+#. Description of setting with label #34131 "Wait for the receiver after an audio format change"
+msgctxt "#34132"
+msgid "Hold playback while a receiver locks on to a new audio format, so the start of a film is not lost. Applies when the format on the wire changes. A maximum, not a fixed wait."
+msgstr ""
+
+#. label for setting audiooutput.silencefiller
+msgctxt "#34133"
+msgid "Repeat the last audio frame while waiting"
+msgstr ""
+
+#. Description of setting with label #34133 "Repeat the last audio frame while waiting"
+msgctxt "#34134"
+msgid "Keeps a valid frame on the wire during the wait above, so the receiver does not lose the format and have to find it again. Has no effect with the AudioTrack (RAW) device."
+msgstr ""
 
 #. Indicates if Audio Engine should include lfe when downmixing
 msgctxt "#34114"
@@ -15726,7 +15746,7 @@ msgstr "重演模式"
 #. Help text for the encore mode setting
 msgctxt "#35304"
 msgid "Allow achievements you have already earned to be triggered again."
-msgstr ""
+msgstr "允许已获取的成就再次触发。"
 
 #. Notification shown when hardcore mode refuses something, {0:s} is the feature
 msgctxt "#35305"
@@ -16016,27 +16036,27 @@ msgstr "你："
 #. Setting to show games a few frames ahead to reduce input lag
 msgctxt "#35378"
 msgid "Enable run-ahead"
-msgstr ""
+msgstr "开启预演算"
 
 #. Help text for setting "Enable run-ahead" of label #35378
 msgctxt "#35379"
 msgid "Make games respond sooner to the controller by running the emulator ahead and showing a frame from the future. This suits 8-bit and 16-bit systems. Systems with large save states, such as the PlayStation, may slow down."
-msgstr ""
+msgstr "通过让模拟器超前运算并渲染下一帧画面，加快游戏对手柄输入的响应。适合 8 位、16 位主机。存档体积较大的平台（例如 PlayStation）可能会出现卡顿。"
 
 #. Setting for how many frames to run ahead
 msgctxt "#35380"
 msgid "Frames to run ahead"
-msgstr ""
+msgstr "超前运算帧数"
 
 #. Help text for setting "Frames to run ahead" of label #35380
 msgctxt "#35381"
 msgid "Each frame removes one frame of delay, as long as the game has that much delay to remove. Going further skips the first frames of each move instead. Start at one, and raise it only if the game still responds late."
-msgstr ""
+msgstr "每增加一帧可减少一帧输入延迟，前提是游戏本身存在对应延迟。设置过高时，会直接跳过动作起始帧。建议从 1 开始，仅在游戏依旧响应迟缓时再调高。"
 
 #. Format for the run-ahead frames slider, e.g. "2 frames"
 msgctxt "#35382"
 msgid "{0:d} frames"
-msgstr ""
+msgstr "{0:d} 帧"
 
 #. connection state "host unreachable"
 msgctxt "#35505"
@@ -16147,7 +16167,7 @@ msgstr "尝试进行中"
 #. Shown when Encore mode is switched on or off during a game, and under its help text in the game's settings
 msgctxt "#35719"
 msgid "Applies the next time you load the game."
-msgstr ""
+msgstr "将在下次加载游戏时生效。"
 
 msgctxt "#36000"
 msgid "Pulse-Eight CEC adapter"
@@ -20354,6 +20374,16 @@ msgctxt "#39219"
 msgid "Use the system Dolby Vision extensions to correctly display Dolby Vision profile 5, 7 (excludes FEL reconstruction), 8 and 10 video."
 msgstr "使用系统杜比视界扩展，以正确渲染杜比视界 Profile 5、7（不含 FEL 重构）、8、10 视频。"
 
+#. Label of the setting that plays videos through the web browser's own player
+msgctxt "#39220"
+msgid "Use the browser's video player"
+msgstr ""
+
+#. Description of setting with label #39220 "Use the browser's video player"
+msgctxt "#39221"
+msgid "Play videos through the browser's own video player when it supports the format. It can decode in hardware and show HDR on an HDR display, but Kodi's video settings do not apply to it."
+msgstr ""
+
 # empty strings from id 39211 to 39899
 #. List formatting: pattern used to join a list of exactly two items, e.g. "A and B"
 #. STR_LIST_AND_TWO
@@ -21063,6 +21093,283 @@ msgstr "源码透传时的音量控制"
 msgctxt "#40806"
 msgid "Adjust and display the volume level while audio is passed through. The level is not applied to the bitstream, but every change is announced, so an add-on or automation can apply it to an external audio processor."
 msgstr "在音频透传时调整并显示音量等级。该音量不会作用于比特流，但每次音量变动都会发送通知，插件或自动化程序可据此控制外部音频处理器。"
+
+#. Option for setting with label #40865 "Variable aspect ratio content"
+msgctxt "#40807"
+msgid "Use envelope ratio + bars"
+msgstr ""
+
+#. Option for setting with label #40865 "Variable aspect ratio content"
+msgctxt "#40808"
+msgid "Use dominant ratio + clip"
+msgstr ""
+
+#. Label for setting "videoscreen.extractcontentgeometry"
+msgctxt "#40809"
+msgid "Detect content aspect ratio"
+msgstr ""
+
+#. Help text for setting with label #40809 "Detect content aspect ratio"
+msgctxt "#40810"
+msgid "Measure the picture area of each video ahead of playback. DVDs and internet streams are skipped."
+msgstr ""
+
+#. Label for setting "videoscreen.contentgeometryonscan"
+msgctxt "#40811"
+msgid "Measure titles away from playback"
+msgstr ""
+
+#. Help text for setting with label #40811 "Measure titles away from playback"
+msgctxt "#40812"
+msgid "Sample a title to find its picture area: before it plays, as a library scan adds it, and in the background afterwards. Measuring a whole library takes hours. With this off, the shape is whatever live detection reads from the picture while it plays."
+msgstr ""
+
+#. Label for setting "videoscreen.scancontentgeometry"
+msgctxt "#40813"
+msgid "Scan library for content aspect ratios"
+msgstr ""
+
+#. Help text for setting with label #40813 "Scan library for content aspect ratios"
+msgctxt "#40814"
+msgid "Measure every video that has no measurement yet. Runs in the background."
+msgstr ""
+
+#. Heading of the background progress bar shown while content geometry is being measured
+msgctxt "#40815"
+msgid "Calculating aspect ratios"
+msgstr ""
+
+#. Label for setting "subtitles.aligntocontent"
+msgctxt "#40816"
+msgid "Position subtitles by the picture"
+msgstr ""
+
+#. Help text for setting with label #40816 "Position subtitles by the picture"
+msgctxt "#40817"
+msgid "Measures the subtitle inset from the picture rather than from the whole video."
+msgstr ""
+
+#. Label for setting "videoscreen.osdplaying"
+msgctxt "#40818"
+msgid "Lay the OSD out against"
+msgstr ""
+
+#. Help text for setting with label #40818 "Lay the OSD out against"
+msgctxt "#40819"
+msgid "Where the OSD and menus are laid out during playback. The video itself is never moved."
+msgstr ""
+
+#. Option for setting "videoscreen.osdplaying" - laid out against the whole operating area
+msgctxt "#40820"
+msgid "The whole screen"
+msgstr ""
+
+#. Option for setting "videoscreen.osdplaying" - laid out against the picture as drawn
+msgctxt "#40821"
+msgid "The picture"
+msgstr ""
+
+#. Label for setting "videoscreen.contentgeometrysamples"
+msgctxt "#40822"
+msgid "Samples per video"
+msgstr ""
+
+#. Help text for setting with label #40822 "Samples per video"
+msgctxt "#40823"
+msgid "How many points across each video to measure. More samples find more shapes, and scan slower."
+msgstr ""
+
+#. Spinner format for setting with label #40822 "Samples per video"
+msgctxt "#40824"
+msgid "{0:d} samples"
+msgstr ""
+
+#. Label for setting "videoscreen.contentgeometryleadin"
+msgctxt "#40825"
+msgid "Ignore at the start of each video"
+msgstr ""
+
+#. Help text for setting with label #40825 "Ignore at the start of each video"
+msgctxt "#40826"
+msgid "Runtime to leave unmeasured at the start of each video, past the idents and logos."
+msgstr ""
+
+#. Label for setting "videoscreen.contentgeometryleadout"
+msgctxt "#40827"
+msgid "Ignore at the end of each video"
+msgstr ""
+
+#. Minimum value for settings with labels #40825 and #40827, meaning nothing is ignored
+msgctxt "#40829"
+msgid "Measure all of it"
+msgstr ""
+
+#. Help text for setting with label #40827 "Ignore at the end of each video"
+msgctxt "#40830"
+msgid "Runtime to leave unmeasured at the end of each video, past the credits."
+msgstr ""
+
+#. Label for setting "videoscreen.rasteraspect"
+msgctxt "#40831"
+msgid "Screen aspect ratio"
+msgstr ""
+
+#. Help text for setting with label #40831 "Screen aspect ratio"
+msgctxt "#40832"
+msgid "The shape of the screen the picture is projected onto. Kodi draws nothing outside it."
+msgstr ""
+
+#. Label for setting "videoscreen.guikeepshape"
+msgctxt "#40833"
+msgid "Maintain original OSD aspect ratio"
+msgstr ""
+
+#. Help text for setting with label #40833 "Maintain original OSD aspect ratio"
+msgctxt "#40834"
+msgid "Draws the OSD and menus at the skin's own aspect ratio, centred, rather than laid out to the screen."
+msgstr ""
+
+#. Option for setting "videoscreen.rasteraspect" - the screen is the display itself, no shape stated
+msgctxt "#40835"
+msgid "Same as the display"
+msgstr ""
+
+#. Label for setting "videoscreen.guisurround"
+msgctxt "#40836"
+msgid "Fill the unused area around the OSD with"
+msgstr ""
+
+#. Help text for setting with label #40836 "Fill the unused area around the OSD with"
+msgctxt "#40837"
+msgid "What is drawn in the part of the screen the OSD leaves uncovered. A room with masking can be told the interface's shape instead, so the masking closes to it and there is no uncovered part to fill."
+msgstr ""
+
+#. Option for setting "videoscreen.guisurround" - a solid colour
+msgctxt "#40839"
+msgid "A colour"
+msgstr ""
+
+#. Option for setting "videoscreen.guisurround" - an image
+msgctxt "#40840"
+msgid "An image"
+msgstr ""
+
+#. Label for setting "videoscreen.guisurroundcolour"
+msgctxt "#40841"
+msgid "Surround colour"
+msgstr ""
+
+#. Help text for setting with label #40841 "Surround colour"
+msgctxt "#40842"
+msgid "The colour drawn around the menus."
+msgstr ""
+
+#. Label for setting "videoscreen.guisurroundimage"
+msgctxt "#40843"
+msgid "Surround image"
+msgstr ""
+
+#. Help text for setting with label #40843 "Surround image"
+msgctxt "#40844"
+msgid "The image drawn around the menus. It is fitted at its own aspect ratio, never stretched."
+msgstr ""
+
+#. Label for the screen geometry settings category
+msgctxt "#40845"
+msgid "Screen & aspect ratio"
+msgstr ""
+
+#. Help text for the screen geometry settings category
+msgctxt "#40846"
+msgid "The shape of the screen, and how the interface, the picture and content aspect ratios follow it."
+msgstr ""
+
+#. Label for the screen geometry category group holding the screen shape
+msgctxt "#40847"
+msgid "The screen"
+msgstr ""
+
+#. Label for the screen geometry category group holding the interface layout settings
+msgctxt "#40848"
+msgid "The interface"
+msgstr ""
+
+#. Label for the screen geometry category group holding the playback-time settings
+msgctxt "#40849"
+msgid "During playback"
+msgstr ""
+
+#. Label for the screen geometry category group holding the measurement settings
+msgctxt "#40850"
+msgid "Detection"
+msgstr ""
+
+#. Label for the setting enabling live in-playback content geometry detection
+msgctxt "#40851"
+msgid "Rescale the picture as its aspect ratio changes"
+msgstr ""
+
+#. Help text for the setting enabling live in-playback content geometry detection
+msgctxt "#40852"
+msgid "Reads every frame while a file plays and fits the picture to the shape on screen."
+msgstr ""
+
+#. Label for the live detection sample period setting
+msgctxt "#40853"
+msgid "Confirm a smaller picture for"
+msgstr ""
+
+#. Help text for the live detection narrowing frame guard setting
+msgctxt "#40854"
+msgid "Frames a smaller picture must persist for before it is reported."
+msgstr ""
+
+#. Label for setting "subtitles.keepasspositions"
+msgctxt "#40855"
+msgid "Keep authored positions in ASS subtitles"
+msgstr ""
+
+#. Help text for setting with label #40855 "Keep authored positions in ASS subtitles"
+msgctxt "#40856"
+msgid "Places ASS subtitles against the whole video they were authored for, so positioned text stays where it was made, unless their positions are overridden. Other subtitles still follow the picture."
+msgstr ""
+
+# empty strings from id 40857 to 40858
+#. Spinner format for the live detection frame guard setting
+msgctxt "#40859"
+msgid "{0:d} frames"
+msgstr ""
+
+#. Minimum value label for the live detection frame guard setting
+msgctxt "#40860"
+msgid "The next frame"
+msgstr ""
+
+#. Label for the action opening the screen alignment tool, and its window title
+msgctxt "#40861"
+msgid "Screen alignment"
+msgstr ""
+
+#. Help text for the action opening the screen alignment tool
+msgctxt "#40862"
+msgid "Draws a frame at each aspect ratio you choose, for aligning a projector to your screen."
+msgstr ""
+
+# empty string with id 40863
+#. Option of setting "videoscreen.guisurround": report the interface's own shape to the room
+msgctxt "#40864"
+msgid "Report the interface's shape"
+msgstr ""
+
+#. Label for the setting deciding what is reported for a title whose aspect ratio changes partway through
+msgctxt "#40865"
+msgid "Variable aspect ratio content"
+msgstr ""
+
+#. Description of setting with label #40865 "Variable aspect ratio content"
+msgctxt "#40866"
+msgid "What to report for a title whose picture changes shape partway through."
+msgstr ""
 
 #~ msgctxt "#35304"
 #~ msgid "Allow achievements you have already earned to be triggered again.[CR][CR]Applies the next time you load the game."
