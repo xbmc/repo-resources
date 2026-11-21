@@ -32,8 +32,8 @@ This means that you should not submit a request every time you change your code.
 
 ## Compatibility
 
-This branch is used for add-ons that are designed for Kodi v22 Piers builds and higher only. From these code repositories and branches our back-end uploads .zip files of the compatible add-ons to our main mirror server.
-* [Mirror of Kodi v22 Piers compatible add-ons] (https://mirrors.kodi.tv/addons/piers/)
+This branch is used for add-ons that are designed for Kodi v23 Q builds and higher only. From these code repositories and branches our back-end uploads .zip files of the compatible add-ons to our main mirror server.
+* [Mirror of Kodi v23 Q compatible add-ons] (https://mirrors.kodi.tv/addons/q/)
 
 ## Status
 
