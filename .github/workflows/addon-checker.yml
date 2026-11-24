@@ -9,12 +9,19 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
+        path: ${{ github.event.repository.name }}
+
+    - name: Checkout Scripts
+      uses: actions/checkout@v4
+      with:
+        repository: xbmc/weblate-supplementary-scripts
+        path: scripts
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: '3.12'
 
@@ -22,10 +29,24 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip3 install --user kodi-addon-checker
-    - name: Extract job variables
-      shell: bash
-      run: echo "##[set-output name=addon;]$(git diff --diff-filter=d --name-only HEAD~ | grep / | cut -d / -f1 | sort | uniq)"
+
+    - name: Find changed add-ons
       id: extract_vars
+      working-directory: ${{ github.event.repository.name }}
+      run: |
+        git diff --name-only HEAD~ | jq -R -s -c 'split("\n") | map(select(length > 0))' > "$RUNNER_TEMP/files.json"
+        addons=$(git diff --diff-filter=d --name-only HEAD~ | grep / | cut -d / -f1 | sort -u \
+          | while read -r dir; do if [ -f "$dir/addon.xml" ]; then echo "$dir"; fi; done | tr '\n' ' ')
+        echo "addons=$addons" >> "$GITHUB_OUTPUT"
+
+    # Language add-on versions are incremented after merge, so check the version the merge will publish.
+    - name: Increment versions as the merge will
+      if: steps.extract_vars.outputs.addons != ''
+      working-directory: ${{ github.event.repository.name }}
+      run: python3 ../scripts/repo-resources/increment_version.py "$RUNNER_TEMP/files.json"
 
     - name: Addon-Check
-      run: $HOME/.local/bin/kodi-addon-checker --branch=${{ github.event.pull_request.base.ref }} --PR ${{ steps.extract_vars.outputs.addon }}
+      if: steps.extract_vars.outputs.addons != ''
+      working-directory: ${{ github.event.repository.name }}
+      run: |
+        "$HOME/.local/bin/kodi-addon-checker" --branch=${{ github.event.pull_request.base.ref }} --PR ${{ steps.extract_vars.outputs.addons }}
